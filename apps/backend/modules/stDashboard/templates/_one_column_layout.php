@@ -1,0 +1,1 @@
+<div class="column" id="<?php echo get_gadget_column_id($dashboard, 1) ?>"><?php echo get_gadgets($dashboard, 1) ?></div>

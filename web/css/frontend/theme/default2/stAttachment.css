@@ -1,0 +1,17 @@
+#attachment tr td
+{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 20px 5px 0px;
+}
+
+#attachment tr td a
+{
+    font-weight: bold;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+#attachment .last td
+{
+    border: none;
+}

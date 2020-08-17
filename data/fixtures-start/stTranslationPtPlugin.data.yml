@@ -1,0 +1,180 @@
+ProductI18n:  
+  ProductI18n_pt_1:
+    id: Product_1
+    culture: pt
+    name: Taça
+    url: taca
+  ProductI18n_pt_2:
+    id: Product_2
+    culture: pt
+    name: Cronômetro
+    url: cronometro
+  ProductI18n_pt_3:
+    id: Product_3
+    culture: pt
+    name: Fones de ouvido
+    url: fones-de-ouvido
+  ProductI18n_pt_4:
+    id: Product_4
+    culture: pt
+    name: Alto-falantes pendurados
+    url: alto-falantes-pendurados
+  ProductI18n_pt_5:
+    id: Product_5
+    culture: pt
+    name: Fones de ouvido 200
+    url: fones-de-ouvido-200
+  ProductI18n_pt_6:
+    id: Product_6
+    culture: pt
+    name: Portátil
+    url: portátil
+  ProductI18n_pt_7:
+    id: Product_7
+    culture: pt
+    name: Anel de ouro com diamantes
+    url: anel-de-ouro-com-diamantes
+  ProductI18n_pt_8:
+    id: Product_8
+    culture: pt
+    name: Anel de prata
+    url: anel-de-prata
+  ProductI18n_pt_9:
+    id: Product_9
+    culture: pt
+    name: Alto-falante
+    url: alto-falante
+  ProductI18n_pt_10:
+    id: Product_10
+    culture: pt
+    name: Computador
+    url: computador
+  ProductI18n_pt_11:
+    id: Product_11
+    culture: pt
+    name: Câmera GoodPix 130ES
+    url: camera-goodpix-130es
+  ProductI18n_pt_12:
+    id: Product_12
+    culture: pt
+    name: Cartão de memória 8GB
+    url: cartão-de-memória-8gb
+    
+CategoryI18n:
+  CategoryI18n_pt_1:
+    id: Category_1
+    culture: pt
+    name: Categorias
+    url: categorias
+  CategoryI18n_pt_2:
+    id: Category_2
+    culture: pt
+    name:  Som
+    url: som
+  CategoryI18n_pt_3:
+    id: Category_3
+    culture: pt
+    name: Alto-falantes
+    url: som-alto-falantes
+  CategoryI18n_pt_4:
+    id: Category_4
+    culture: pt
+    name: Fones de ouvido
+    url: som-fones-de-ouvido
+  CategoryI18n_pt_5:
+    id: Category_5
+    culture: pt
+    name: Computadores
+    url: computadores
+  CategoryI18n_pt_6:
+    id: Category_6
+    culture: pt
+    name: Fotografia
+    url: fotografia
+  CategoryI18n_pt_8:
+    id: Category_8
+    culture: pt
+    name: Jóias
+    url: joias
+  CategoryI18n_pt_9:
+    id: Category_9
+    culture: pt
+    name: Presentes
+    url: presentes
+    
+BoxI18n:
+  BoxI18n_pt_1:
+    id: Box_1
+    culture: pt
+    name: Entrega
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Entrega"/>
+  BoxI18n_pt_2:
+    id: Box_2
+    culture: pt
+    name: Pagamentos
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Pagamentos" />
+
+ProductGroupI18n:
+  ProductGroupI18n_pt_1:
+    id: ProductGroup_1
+    culture: pt
+    name: Promoções
+    url: promocoes
+  ProductGroupI18n_pt_2:
+    id: ProductGroup_2
+    culture: pt
+    name: Venda
+    url: venda
+  ProductGroupI18n_pt_3:
+    id: ProductGroup_3
+    culture: pt
+    name: Recomendado
+    url: recomendado
+  ProductGroupI18n_pt_4:
+    id: ProductGroup_4
+    culture: pt
+    name: Home
+    url: home
+  ProductGroupI18n_pt_5:
+    id: ProductGroup_5
+    culture: pt
+    name: Recomendado no carrinho de compras
+    url: recomendado-no-carrinho-de-compras
+  ProductGroupI18n_pt_6:
+    id: ProductGroup_6
+    culture: pt
+    name: Novos produtos
+    url: novos-produtos
+
+WebpageI18n:
+  WebpageI18n_pt_1:
+    id: Webpage_1
+    culture: pt
+    name: Termos
+    content: Exemplo de texto.
+    url: termos
+  WebpageI18n_pt_2:
+    id: Webpage_2
+    culture: pt
+    name: Quem Somos
+    content: Exemplo de texto.
+    url: quem-somos
+  WebpageI18n_pt_3:
+    id: Webpage_3
+    culture: pt
+    name: Contato
+    content: Exemplo de texto.
+    url: contato
+  WebpageI18n_pt_4:
+    id: Webpage_4
+    culture: pt
+    name: Política de Privacidade
+    content: Exemplo de texto.
+    url: politica-de-privacidade
+
+TextI18n:
+  TextI18n_pt_1:
+    id: Text_1
+    culture: pt
+    name: Home
+    content: Bem-vindo

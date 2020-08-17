@@ -1,0 +1,120 @@
+<div class="st_application">    
+    <h1 class="st_title" style="height: 50px">
+        <div id="st_user-tag">
+            {$user_panel_icon}
+        </div>
+        {$my_account}
+        <span>
+            /
+        </span>
+        {__ text="Lista recenzji produktów"}
+    </h1>
+    {$user_panel_menu} 
+    <div class="st_review-my_reviews">
+        <ul>
+            <li>
+                {__ text="Pokaż recenzje"}:
+            </li>
+            <li>
+                {$order_reviews_link}
+            </li>
+            <li>
+                <b>
+                    {$product_reviews_link}
+                </b>
+            </li>
+        </ul>
+        <div class="st_content" style="padding: 10px 20px"> 
+            {if isset($reviews)}
+                <table class="st_tabular-list" cellspacing="0">
+                    <colgroup>
+                        <col width="80" />
+                        <col width="80" />
+                        <col width="80" />
+                        <col width="80" />
+                        <col width="80" />
+                        <col width="80" />
+                        <col width="100" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>
+                            <span>
+                                {__ text="Recenzowany produkt"}
+                            </span>
+                            </th>
+                            <th>
+                            <span>
+                                {__ text="Recenzja do zamówienia"}
+                            </span></th>
+                            <th>
+                            <span>
+                                {__ text="Data dodania"}
+                            </span>
+                            </th>
+                            <th>
+                            <span>
+                                {__ text="Treść"}
+                            </span>
+                            </th>
+                            <th>
+                            <span>
+                                {__ text="Ocena"}
+                            </span>
+                            </th>
+                            <th>
+                            <span>
+                                {__ text="Publikacja"}
+                            </span>
+                            </th>
+                            <th>
+                            <span>
+                                {__ text="Aktywny"}
+                            </span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach key=row item=review from=$results}
+                            <tr>
+                                <td>
+                                    {$review.product}
+                                </td>
+                                <td>
+                                    {$review.order_number}
+                                </td> 
+                                <td>
+                                    {$review.created_at}
+                                </td>
+                                <td>
+                                    {$review.description}
+                                </td>
+                                <td>
+                                    {$review.score}
+                                </td>
+                                <td>
+                                    {if ($review.agreement == 1)}
+                                        {__ text="zezwolono"}
+                                    {else} 
+                                        {__ text="oczekuje na zezwolenie"}
+                                    {/if}
+                                </td>
+                                <td>
+                                    {if ($review.active == 1)}
+                                        {__ text="tak"} 
+                                    {else}
+                                        {__ text="oczekuje na autoryzację"}
+                                    {/if}
+                                </td>
+                            </tr>
+                        {/foreach}
+                    </tbody>
+                </table>
+            {else}
+                <p style="text-align: center">
+                    {__ text="Aktualnie nie posiadasz zrecenzowanych produktów"}
+                </p>
+            {/if}
+        </div>
+    </div>        
+</div>

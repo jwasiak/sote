@@ -1,0 +1,7 @@
+data:
+  limitation: '1'
+  sort_main: 'my_sort'
+  sort_asc_desc: 'asc'
+  label_count: 1
+  label_link: 0
+  new_type: manual

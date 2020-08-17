@@ -1,0 +1,14 @@
+---
+package: 
+  name: stPhotoGalleryPlugin
+  stability: stable
+  version: 2.0.0.8
+  summary: Galeria zdjec
+  description: Galeria zdjec
+  notes: |
+    - poprawka lightbox na karcie produktu
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

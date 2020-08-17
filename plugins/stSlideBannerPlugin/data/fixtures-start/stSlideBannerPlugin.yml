@@ -1,0 +1,21 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_2
+    image: /picture/en_US/banner_s1.jpg
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_2:
+    language_id: Language_Zh
+    image: /picture/zh/zh_banner6_1.png
+    is_active: 1
+    opt_culture: zh
+  SlideBanner_3:
+    language_id: Language_Zh
+    image: /picture/zh/zh_banner6_2.png
+    is_active: 1
+    opt_culture: zh
+  SlideBanner_4:
+    language_id: Language_Zh
+    image: /picture/zh/zh_banner6_3.png
+    is_active: 1
+    opt_culture: zh

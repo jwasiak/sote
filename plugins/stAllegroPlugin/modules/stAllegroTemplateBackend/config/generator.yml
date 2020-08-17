@@ -1,0 +1,42 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            AllegroTemplate
+        theme:                  simple
+
+        head:
+            package:            stAllegroPlugin
+        applications:           [stProduct]
+
+        fields:
+            name:               {name: "Nazwa"}
+            is_default:         {name: "Domyślny"}
+            template:           {name: "Szablon", params: size=80x20}
+            info:               {name: "Tagi"}
+
+        list:
+            title:              "Szablony"
+            display:            [=name, is_default]
+            object_actions:
+                _edit:          -
+                _delete:        -
+            actions:
+                _create:        {name: "Dodaj"}
+            menu:
+                display:        [config, template, delivery, category]
+                fields:
+                    config:     {name: "Konfiguracja", action: stAllegroBackend/config}
+                    template:   {name: "Szablony", action: stAllegroTemplateBackend/list}
+                    delivery:   {name: "Cenniki dostawy", action: stAllegroDeliveryBackend/list}
+                    category:   {name: "Import kategorii", action: stAllegroBackend/categoryCustom}
+
+        edit:
+            title:              "Edycja szablonu"
+            display:            [_is_default, _name, _template, _editor]
+            fields:
+                editor:         {hide_label: true}
+            actions:
+                _list:          {name: "Lista"}
+                _save:          {name: "Zapisz"}
+                _delete:        {name: "Usuń"}
+            menu:               {use: list.menu}

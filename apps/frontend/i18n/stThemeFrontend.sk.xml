@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2011-11-10T03:22:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Schowek elementów</source>
+				<target>Schránka pre prvky</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Schowek</source>
+				<target>Schránka</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Panel administracyjny</source>
+				<target>Panel administrátora</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Przywróć domyślny wygląd tematu</source>
+				<target>Obnoviť implicitný vzhľad témy</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Użycie tej opcji spowoduje przywrócenie pierwotnego wyglądu strony. Czy jesteś pewien, że chcesz przywrócić oryginalny wygląd?</source>
+				<target>Aktiváciou tejto funkcie obnovíte pôvodný vzhľad strany. Naozaj chcete obnoviť pôvodný vzhľad strany?</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Przywróć pierwotny obraz tego elementu.</source>
+				<target>Obnoviť pôvodný obraz tohto prvku.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Edytuj właściwości obrazu.</source>
+				<target>Editovať vlastnosti obrazu.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Pobierz ten obraz na mój komputer.</source>
+				<target>Stiahnuť tento obraz na môj počítač.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Wybierz plik graficzny na lokalnym komputerze, który ma zostać wstawiony w ten element strony.</source>
+				<target>Vyberte grafický súbor na Vašom počítači, ktorý má byť publikovaný ako daný prvok na stránke.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Załaduj</source>
+				<target>Načítať</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dopasuj wielkość obrazu do elementu strony.</source>
+				<target>Prispôsobiť veľkosť obrazu rozmerom prvku na strane</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dopasuj wielkość elementu strony do obrazu.</source>
+				<target>Prispôsobiť veľkosť prvku na strane rozmerom obrázka.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Selektor</source>
+				<target>Prepínač</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>definicja stylu</source>
+				<target>definícia štýlu</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapisz zmiany</source>
+				<target>Uložiť zmeny</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Szerokość:</source>
+				<target>Šírka:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wysokość:</source>
+				<target>Výška:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Nazwa pliku nie może zawierać polskich znaków dialektyczny oraz spacji.</source>
+				<target>Názov súboru nemôže obsahovať slovenské diakritické znaky ani medzery.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Edytujesz temat</source>
+				<target>Editujete tému</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kliknij dwukrotnie aby podmienić obraz.</source>
+				<target>Ak chcete obraz zmenšiť, dvakrát kliknite.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Konfiguracja grafiki</source>
+				<target>Konfigurácia grafiky</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zastosuj konfigurację</source>
+				<target>Použiť konfigurácii</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ustaw jako domyślny</source>
+				<target>Nastaviť ako štandardní</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Włącz autoukrywanie</source>
+				<target>Zapnúť automatické skrývaní</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Oglądasz temat</source>
+				<target>sledované téma</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Twoje zmiany zostały zastosowane do aktualnego tematu</source>
+				<target>Vaše zmeny boli použité k aktuálnemu téma</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

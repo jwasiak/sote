@@ -1,0 +1,72 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stAllegroPlugin.lib.model
+  st_allegro_auction: 
+    _attributes: 
+      phpName: AllegroAuction
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    product_options:
+      type: VARCHAR
+      size: 255
+    requires_sync:
+      type: INTEGER
+      default: 0
+    site: 
+      type: VARCHAR
+      size: 255
+      required: false
+    name: 
+      type: VARCHAR
+      size: 255
+    auction_id: 
+      type: BIGINT
+    ended: 
+      type: INTEGER
+      default: 0
+    ended_at: 
+      type: timestamp
+    commands:
+      type: VARCHAR
+      size: 1024
+      phpType: array
+    _indexes:
+      auction_id_idx: [auction_id]
+
+  st_allegro_auction_has_order: 
+    _attributes: 
+      phpName: AllegroAuctionHasOrder
+    trans_id: 
+      type: BIGINT
+      required: true
+      primaryKey: true
+    allegro_auction_id: 
+      type: BIGINT
+      primaryKey: true
+      required: true
+    order_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    allegro_user_id: 
+      type: BIGINT
+      required: true
+    

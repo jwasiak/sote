@@ -1,0 +1,9 @@
+<h5 class="list-group-item-heading">
+	<a data-toggle="collapse" data-parent="#accordion_footer" href="#collapse_{$webpage_group_id}">{$webpage_group_name} <span class="caret hidden-sm hidden-md hidden-lg"></span></a>
+</h5>  
+<div id="collapse_{$webpage_group_id}" class="list-group collapse">
+    {foreach key=row item=webpage from=$results}             
+        {$webpage.link}
+        {$webpage.other_link}
+    {/foreach}  
+</div>

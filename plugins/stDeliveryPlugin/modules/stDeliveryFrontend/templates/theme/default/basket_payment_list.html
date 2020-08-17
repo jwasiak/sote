@@ -1,0 +1,41 @@
+<div class="st_component-st_delivery-list" id="st_delivery-payment_list">
+    <h5 class="st_title">{__ text="Płatności"}</h5>
+    <div class="st_delivery-content">
+        <ul>
+            {foreach item=delivery_payment from=$delivery_payments}
+            {assign var=payment_cost value=$delivery_payment->getCost(true, true)}
+            {assign var=payment_name value=$delivery_payment->getName()}
+            {assign var=payment_description value=$delivery_payment->getDescription()}
+            {assign var=payment_default value=$delivery_payment->getIsDefault()}
+            {assign var=payment_id value=$delivery_payment->getId()}
+            {assign var=payment_socket value=$delivery_payment->getSocketName()}
+            {assign var=payment_socket_exists value=$delivery_payment->getSocketNameExists()}
+            <li>
+                {if $payment_default}
+                <input class="st_delivery-payment_default" name="delivery[default_payment]" id="delivery_default_payment-{$payment_id}" type="radio" value="{$payment_id}" checked="checked" />
+                {else}
+                <input class="st_delivery-payment_default" name="delivery[default_payment]" id="delivery_default_payment-{$payment_id}" type="radio" value="{$payment_id}" />
+                {/if}
+                <div class="st_delivery-item-content">
+                    {if $payment_cost != 0}
+                    <span class="st_delivery-cost">+{$payment_cost|st_currency_format:false}</span>
+                    {/if}
+                    <label class="st_delivery-label" for="delivery_default_payment-{$delivery_payment->getId()}">{$payment_name}</label>
+                    {if $payment_description}
+                    <p class="st_delivery-description">{$payment_description}</p>
+                    {/if}
+                    {if $payment_socket_exists}
+                    <p>{st_socket name=$payment_socket type="component"}</p>
+                    {/if}
+                    <br class="st_clear_all" />
+                </div>
+                <br class="st_clear_all" />
+            </li>
+            {foreachelse}
+            <div style="border: 1px solid #bbb; background-color: #eee; padding: 5px">
+                {__ text="Wybrana dostawa nie posiada zdefiniowanych płatności"}
+            </div>
+            {/foreach}
+        </ul>
+    </div>
+</div>

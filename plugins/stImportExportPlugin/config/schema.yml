@@ -1,0 +1,87 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stImportExportPlugin.lib.model
+  st_export_md5_hash:
+    _attributes: 
+      phpName: ExportMd5Hash
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+    type_id:
+      type: INTEGER
+      primaryKey: true
+      required: true
+    md5hash:
+      type: VARCHAR
+      size: 8192
+      phpType: array
+  st_export_profile: 
+    _attributes: 
+      phpName: ExportProfile
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+    model: 
+      type: VARCHAR
+      size: 255
+  st_export_field: 
+    _attributes: 
+      phpName: ExportField
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    field: 
+      type: VARCHAR
+      size: 255
+    model: 
+      type: VARCHAR
+      size: 255
+    is_key: 
+      type: INTEGER
+    name: 
+      type: VARCHAR
+      size: 255
+    i18n_file: 
+      type: VARCHAR
+      size: 255
+    i18n: 
+      type: BOOLEAN
+  st_export_profile_has_export_field: 
+    _attributes: 
+      phpName: ExportProfileHasExportField
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    export_profile_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_export_profile
+      foreignReference: id
+      onDelete: restrict
+    export_field_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_export_field
+      foreignReference: id
+      onDelete: restrict

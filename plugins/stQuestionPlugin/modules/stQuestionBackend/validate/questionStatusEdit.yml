@@ -1,0 +1,4 @@
+fields:
+    question_status{name}:
+        required:
+            msg:    Podaj nazwę statusu

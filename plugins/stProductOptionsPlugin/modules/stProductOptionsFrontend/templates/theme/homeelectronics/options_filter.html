@@ -1,0 +1,30 @@
+<div class="st_box block" id="options_filter">
+    <div class="st_head">
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div class="st_body">
+        {$form_start}
+        <div class="product_options_filter_clear">{$clear_filters}</div>
+        {foreach from=$filters item=filter}
+        <div class="product_options_filter_name">   
+        <span>{$filter.name}:</span>      
+            <div class="product_options_filter_options">
+                {foreach from=$filter.options item=option}
+                    {$option}
+                {/foreach}
+            </div>
+        </div>
+        {/foreach}
+        </form>
+        <div style="clear:left;"></div>
+    </div>
+    <div class="st_foot">
+        <div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+

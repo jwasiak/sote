@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2012-07-02T03:01:09Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twój koszyk</source>
+				<target>Su cesta</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wróć do zakupów</source>
+				<target>Volver a la compra</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Przejdź do koszyka</source>
+				<target>Pasar a la cesta</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>zdjęcie</source>
+				<target>imagen</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>nazwa</source>
+				<target>nombre</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cena netto</source>
+				<target>precio neto</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>vat</source>
+				<target>IVA</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>cena brutto</source>
+				<target>precio bruto</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>ilość</source>
+				<target>número</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>suma</source>
+				<target>total</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>usuń</source>
+				<target>Suprimir</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Produkt wycofany z oferty</source>
+				<target>producto retirado de la venta</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Opróżnij koszyk</source>
+				<target>Vaciar la cesta</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Uaktualnij koszyk</source>
+				<target>Actualizar la cesta</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem do zapłaty</source>
+				<target>Total a pagar</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Dodaj do koszyka</source>
+				<target>Aňadir a la cesta</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>szt</source>
+				<target>unidades</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Ilość</source>
+				<target>Número</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszty</source>
+				<target>Costes </target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Czy na pewno opróżnić koszyk?</source>
+				<target>¿Está seguro de que quiere vaciar la cesta?</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kwota</source>
+				<target>Cantidad de dinero</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Podana wartość musi być liczbą całkowitą...</source>
+				<target>La cantidad proporcionada tiene que ser un número entero...</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Minimalna wartość nie może być mniejsza od 1.</source>
+				<target>La cantidad proporcionada no puede ser menos de 1.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Maksymalna wartość nie może być większa od %s</source>
+				<target>La cantidad proporcionada no puede exceder %s</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Kwota:</source>
+				<target>Cantidad de dinero:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>Producto agotado</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Koszyk jest pusty</source>
+				<target>la cesta está vacía</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>netto</source>
+				<target>neto</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>brutto</source>
+				<target>bruto</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>razem</source>
+				<target>total</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Twój koszyk jest pusty</source>
+				<target>Su cesta está vacía</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>j.m.</source>
+				<target>Unidad de medida</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Minimalna ilość to %quantity% %uom%</source>
+				<target>La cantidad mínima es %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Podana wartość musi być liczbą...</source>
+				<target>El valor dado debe corresponder al número...</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Koszyk</source>
+				<target>Cesta</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Sprawdź zawartość koszyka</source>
+				<target>Revise el contenido de su cesta</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Kontynuuj zakupy</source>
+				<target>Continuar comprando</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Produkt został dodany do koszyka</source>
+				<target>El producto ha sido añadido a la cesta</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Ilość została zmniejszona z powodu niskiego stanu magazynowego</source>
+				<target>La cantidad se ha reducido debido a la falta de stock en el almacén</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Ilość została zwiększona. Minimalna ilość jaką możesz zamówic to %quantity% %uom%</source>
+				<target>La cantidad se ha incrementado. El número mínimo que puede pedir es  %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Podana wartość musi być większa od 0.</source>
+				<target>El valor debe ser mayor que 0.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Posiadam VAT UE</source>
+				<target>Tengo un número IVA de la UE</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>dodaj do koszyka</source>
+				<target>aňadir a la cesta</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Ilość:</source>
+				<target>Número:</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Razem</source>
+				<target>Total </target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>kup za </source>
+				<target>comprar por </target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Zaloguj się aby kupić produkt za punkty.</source>
+				<target>Iniciar sesión para comprar el producto por puntos.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak wystarczającej ilości punków.</source>
+				<target>No hay suficientes puntos</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak wymaganej ilości punktów</source>
+				<target>Faltan los puntos necesarios</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>No se ha alcanzado el mínimo de puntos</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Para alcanzar el mínimo de puntos faltan</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wybierz prezent</source>
+				<target>Elegir un regalo</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>prezent</source>
+				<target>regalo</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Zamów</source>
+				<target>Realizar el pedido</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Do koszyka</source>
+				<target>Añadir a la cesta</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

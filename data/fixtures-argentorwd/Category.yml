@@ -1,0 +1,407 @@
+sfAsset:
+  sfAsset_11:
+    folder_id: sfAssetFolder_58
+    filename: audio.png
+    type: image
+  sfAsset_12:
+    folder_id: sfAssetFolder_58
+    filename: speakers.png
+    type: image
+  sfAsset_13:
+    folder_id: sfAssetFolder_58
+    filename: headphones.png
+    type: image
+  sfAsset_14:
+    folder_id: sfAssetFolder_58
+    filename: computer.png
+    type: image
+  sfAsset_15:
+    folder_id: sfAssetFolder_58
+    filename: photography.png
+    type: image
+  sfAsset_16:
+    folder_id: sfAssetFolder_58
+    filename: jewellery.png
+    type: image
+  sfAsset_17:
+    folder_id: sfAssetFolder_58
+    filename: gifts.png
+    type: image
+  sfAsset_18:
+    folder_id: sfAssetFolder_58
+    filename: photography_2.png
+    type: image
+  sfAsset_19:
+    folder_id: sfAssetFolder_58
+    filename: gifts_2.png
+    type: image    
+  sfAsset_20:
+    folder_id: sfAssetFolder_58
+    filename: photography_3.png
+    type: image
+  sfAsset_21:
+    folder_id: sfAssetFolder_58
+    filename: computer_2.png
+    type: image   
+  sfAsset_22:
+    folder_id: sfAssetFolder_58
+    filename: speakers_2.png
+    type: image
+  sfAsset_23:
+    folder_id: sfAssetFolder_58
+    filename: headphones_2.png
+    type: image   
+  sfAsset_24:
+    folder_id: sfAssetFolder_58
+    filename: for_him.png
+    type: image   
+  sfAsset_25:
+    folder_id: sfAssetFolder_58
+    filename: gifts_3.png
+    type: image  
+  sfAsset_26:
+    folder_id: sfAssetFolder_58
+    filename: jewellery_2.png
+    type: image  
+  sfAsset_27:
+    folder_id: sfAssetFolder_58
+    filename: computer_3.png
+    type: image  
+  sfAsset_28:
+    folder_id: sfAssetFolder_58
+    filename: headphones_3.png
+    type: image 
+  sfAsset_29:
+    folder_id: sfAssetFolder_58
+    filename: photography_4.png
+    type: image 
+Category:
+  Category_1:
+    lft: 1
+    rgt: 18
+    depth: 0
+    scope: 1
+    culture: pl_PL
+    name: Kategorie
+    root_position: 1
+  Category_2:
+    lft: 6
+    rgt: 11
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Audio
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_11
+  Category_3:
+    lft: 7
+    rgt: 8
+    depth: 2
+    scope: 1
+    parent_id: Category_2
+    sf_asset_id: sfAsset_12
+    culture: pl_PL
+    name: Głośniki
+  Category_4:
+    lft: 9
+    rgt: 10
+    depth: 2
+    scope: 1
+    parent_id: Category_2
+    sf_asset_id: sfAsset_13
+    culture: pl_PL
+    name: Słuchawki
+  Category_5:
+    lft: 4
+    rgt: 5
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Komputery
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_14
+  Category_6:
+    lft: 2
+    rgt: 3
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Fotografia
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_15
+  Category_8:
+    lft: 12
+    rgt: 13
+    depth: 1
+    scope: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Biżuteria
+    main_page: 1
+    sf_asset_id: sfAsset_16
+  Category_9:
+    lft: 16
+    rgt: 17
+    depth: 1
+    scope: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Prezenty
+    main_page: 1
+    sf_asset_id: sfAsset_17
+  Category_10: 
+    lft: 1
+    rgt: 28
+    scope: 9
+    culture: pl_PL
+    name: Menu
+    depth: 0
+    is_hidden: 1
+    root_position: 2
+  Category_11:
+    lft: 2
+    rgt: 11
+    scope: 9
+    parent_id: Category_10
+    culture: pl_PL
+    name: Elektronika
+    main_page: 1
+    depth: 1
+    is_hidden: 1
+    sf_asset_id: sfAsset_12
+  Category_12: 
+    lft: 12
+    rgt: 17
+    scope: 9
+    parent_id: Category_10
+    culture: pl_PL
+    name: Prezenty
+    depth: 1
+    is_hidden: 1
+    sf_asset_id: sfAsset_19
+  Category_13: 
+    lft: 18
+    rgt: 27
+    scope: 9
+    parent_id: Category_10
+    culture: pl_PL
+    name: Okazje
+    depth: 1
+    is_hidden: 1
+  Category_14: 
+    lft: 3
+    rgt: 4
+    scope: 9
+    parent_id: Category_11
+    culture: pl_PL
+    name: Fotografia
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_20
+  Category_15: 
+    lft: 5
+    rgt: 6
+    scope: 9
+    parent_id: Category_11
+    culture: pl_PL
+    name: Komputery
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_21
+  Category_16: 
+    lft: 9
+    rgt: 10
+    scope: 9
+    parent_id: Category_11
+    culture: pl_PL
+    name: Głośniki
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_22
+  Category_17: 
+    lft: 7
+    rgt: 8
+    scope: 9
+    parent_id: Category_11
+    culture: pl_PL
+    name: Słuchawki
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_23
+  Category_18: 
+    lft: 13
+    rgt: 14
+    scope: 9
+    parent_id: Category_12
+    culture: pl_PL
+    name: Dla niej
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_25
+  Category_19: 
+    lft: 15
+    rgt: 16
+    scope: 9
+    parent_id: Category_12
+    culture: pl_PL
+    name: Dla niego
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_24
+  Category_20: 
+    lft: 19
+    rgt: 20
+    scope: 9
+    main_page: 0
+    parent_id: Category_13
+    culture: pl_PL
+    name: Biżuteria
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_26
+  Category_21: 
+    lft: 21
+    rgt: 22
+    scope: 9
+    main_page: 0
+    parent_id: Category_13
+    culture: pl_PL
+    name: Komputery
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_27
+  Category_22: 
+    lft: 23
+    rgt: 24
+    scope: 9
+    parent_id: Category_13
+    culture: pl_PL
+    name: Audio
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_28
+  Category_23: 
+    lft: 25
+    rgt: 26
+    scope: 9
+    parent_id: Category_13
+    culture: pl_PL
+    name: Fotografia
+    depth: 2
+    is_hidden: 1
+    sf_asset_id: sfAsset_29
+
+CategoryI18n:
+  CategoryI18n_2:
+    id: Category_1
+    culture: en_US
+    name: Categories
+    url: categories
+  CategoryI18n_4:
+    id: Category_2
+    culture: en_US
+    name:  Audio
+    url: audio
+  CategoryI18n_6:
+    id: Category_3
+    culture: en_US
+    name: Speakers
+    url: audio-speakers
+  CategoryI18n_8:
+    id: Category_4
+    culture: en_US
+    name: Headphones
+    url: audio-headphones
+  CategoryI18n_10:
+    id: Category_5
+    culture: en_US
+    name: Computers
+    url: computer
+  CategoryI18n_12:
+    id: Category_6
+    culture: en_US
+    name:  Photography
+    url: photography
+  CategoryI18n_14:
+    id: Category_8
+    culture: en_US
+    name: Jewellery
+    url: jewellery
+  CategoryI18n_16:
+    id: Category_9
+    culture: en_US
+    name: Gifts
+    url: gifts
+  CategoryI18n_18:
+    id: Category_10
+    culture: en_US
+    name: Menu
+    url: menu
+  CategoryI18n_20:
+    id: Category_11
+    culture: en_US
+    name: Electronics
+    url: electronics
+  CategoryI18n_22:
+    id: Category_12
+    culture: en_US
+    name: Gifts
+    url: gifts
+  CategoryI18n_24:
+    id: Category_13
+    culture: en_US
+    name: Special Offers
+    url: special-offers
+  CategoryI18n_26:
+    id: Category_14
+    culture: en_US
+    name:  Photography
+    url: electronics-photography
+  CategoryI18n_28:
+    id: Category_15
+    culture: en_US
+    name: Computers
+    url: electronics-computer
+  CategoryI18n_30:
+    id: Category_16
+    culture: en_US
+    name: Speakers
+    url: electronics-speakers
+  CategoryI18n_32:
+    id: Category_17
+    culture: en_US
+    name: Headphones
+    url: electronics-headphones
+  CategoryI18n_34:
+    id: Category_18
+    culture: en_US
+    name: For her
+    url: gifts-for-her
+  CategoryI18n_36:
+    id: Category_19
+    culture: en_US
+    name: For him
+    url: gifts-for-him
+  CategoryI18n_38:
+    id: Category_20
+    culture: en_US
+    name: Jewellery
+    url: special-offers-jewellery
+  CategoryI18n_40:
+    id: Category_21
+    culture: en_US
+    name: Computers
+    url: special-offers-computers
+  CategoryI18n_42:
+    id: Category_22
+    culture: en_US
+    name: Audio
+    url: special-offers-audio
+  CategoryI18n_42:
+    id: Category_23
+    culture: en_US
+    name: Photography
+    url: special-offers-photography

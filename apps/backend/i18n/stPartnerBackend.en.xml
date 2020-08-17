@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Nie podałeś adresu e-mail</source>
+                <target>Enter an email address</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Przekroczono dozwoloną liczbę znaków.</source>
+                <target>Maximum number of characters was exceeded.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid email address format.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Taki adres już istnieje w bazie danych.</source>
+                <target>This address is already stored in the database.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nie podałeś hasła.</source>
+                <target>Enter a password.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Podane hasło jest za krótkie, mininum 3 znaki.</source>
+                <target>The password is too short. It must be at least 3 characters long.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+                <target>The password is too long. It must not exceed 20 characters.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Potwierdzenie rejestracji w programie partnerskim.</source>
+                <target>Registration in the partner program has been confirmed.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Data założenia konta:</source>
+                <target>Account created date:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Klient:</source>
+                <target>Customer:</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>został poprawnie zweryfikowany.</source>
+                <target>has been properly verified.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dane partnera:</source>
+                <target>Partner data:</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>NIP:</source>
+                <target>VAT ID:</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Nr konta:</source>
+                <target>Bank account:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Zweryfikowano konto partnerskie.</source>
+                <target>Partner account was verified.</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Partner</source>
+                <target>Partner</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Partnerzy</source>
+                <target>Partners</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Dane billingowe klienta %%~client_username%%</source>
+                <target>Customer %%~client_username%% billing data</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Włącz system partnerski dla klientów sklepu</source>
+                <target>Enable the partner program for the shop's clients</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Całkowita prowizja</source>
+                <target>Total commission</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Rozliczona prowizja</source>
+                <target>Settled commission</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>PLN</source>
+                <target>PLN</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Nierozliczona prowizja</source>
+                <target>Unsettled commission</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Brak transakcji do rozliczenia.</source>
+                <target>No transactions to settle</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Przejdz do konta partnera</source>
+                <target>Go to the partner account</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Stawka prowizji procentowej</source>
+                <target>Percentage commission rate</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Stawka prowizji kwotowej</source>
+                <target>Fixed amount commission rate</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Nie przyznano prowizji od transakcji.</source>
+                <target>No transaction commission granted.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Utwórz konto partnera dla tego użytkownika.</source>
+                <target>Create a partner account for this user.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Skorzystaj z automatycznego generowania linku partnerskiego.</source>
+                <target>Generate a partner link automatically.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Prowizja</source>
+                <target>Commission</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Wstaw link do dowolnej strony sklepu (np.</source>
+                <target>Insert the link to any site in the shop (e.g.</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+                <target>There will be links generated below. Links will include activation of the partner program</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Zweryfikuj poprawność adresu</source>
+                <target>Verify the correctness of the address</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Link partnerski</source>
+                <target>Affiliate link</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Link partnerski do umieszczenia na stronie</source>
+                <target>Affiliate link to be placed on the website</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Dane zostały potwierdzone.</source>
+                <target>Data was confirmed.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Zatwierdz dane.</source>
+                <target>Confirm the data.</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Login (e-mail)</source>
+                <target>Login (e-mail)</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Imię</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Nazwisko</source>
+                <target>Surname</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Ostatnio logowany</source>
+                <target>Last logged</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Lista partnerów</source>
+                <target>List of partners</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Edycja partnera.</source>
+                <target>Edit a partner</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Potwierdzony</source>
+                <target>Confirmed</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Firma</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Ulica</source>
+                <target>Street address</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Nr domu</source>
+                <target>Number</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Nr mieszkania</source>
+                <target>Flat number</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Miasto</source>
+                <target>City/Town</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Kod</source>
+                <target>Postal code</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Kraj</source>
+                <target>Country</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Telefon</source>
+                <target>Phone number</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>NIP</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Nr konta</source>
+                <target>Bank account</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Informacje dodatkowe</source>
+                <target>Additional information</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Prowizja procentowa</source>
+                <target>Percentage commission rate</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Prowizja kwotowa</source>
+                <target>Fixed amount commission rate</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Podany adres url nie istnieje.</source>
+                <target>The given URL address doesn't exists.</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Podany adres url strony jest poprawny.</source>
+                <target>The given URL address is correct.</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Dane konta</source>
+                <target>Account data</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Zamówienia</source>
+                <target>Orders</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Rozliczone</source>
+                <target>Settled</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Link</source>
+                <target>Link</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Powtórz hasło</source>
+                <target>Repeat the password</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Lista zamówień</source>
+                <target>List of orders</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Numer</source>
+                <target>Number</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Klient</source>
+                <target>Customer</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Kwota</source>
+                <target>Amount</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Złożone</source>
+                <target>Placed</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Konfiguracja programu partnerskiego</source>
+                <target>Setting up the affiliate program</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Włącz system partnerski</source>
+                <target>Turn on your partner</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Czas trwania cookie (dni)</source>
+                <target>Duration of the cookie (days)</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Konfiguracja partnerów</source>
+                <target>Partners configuration</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

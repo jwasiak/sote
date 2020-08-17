@@ -1,0 +1,16 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stEcardPlugin.lib.model
+  st_ecard_transaction: 
+    _attributes: 
+      phpName: EcardTransaction
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_id:
+      type: INTEGER
+      required: true

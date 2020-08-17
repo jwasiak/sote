@@ -1,0 +1,26 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/12/15 17:29:55
+      fields: 
+        company:
+        vatNumber:
+        email: 
+        name: 
+        surname:
+        street:
+        house:
+        flat:
+        code: 
+        town: 
+        phone:
+        dbHost: localhost
+        dbName: 
+        dbUser: 
+        dbPassword: 
+        license: 
+        www: 
+        password1:
+        password2:
+        shop_hash:

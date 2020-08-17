@@ -1,0 +1,51 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+
+webapi:
+    fields:
+        id:                     {type: integer}
+        image:                  {type: string}
+        image_filename:         {type: string}
+        name:                   {type: string}
+        url:                    {type: string}
+
+    methods:
+        AddProducer:
+            type:               add
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=name, image, image_filename, url]
+                out:            [id]
+
+        UpdateProducer:
+            type:               update
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=id, name, image, image_filename, url]
+                out:            [_update]
+
+        GetProducer:
+            type:               get
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=id]
+                out:            [created_at, updated_at, id, name, image, image_filename, url]
+
+        DeleteProducer:
+            type:               delete
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=id]
+                out:            [_delete]
+
+        CountProducer: 
+            type:               count
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                out:            [_count]
+
+        GetProducerList:
+            type:               list
+            inOutTypes:         {in: object, out: array}
+            fields:
+                in:             [_offset, _limit, _modified_from, _modified_to]
+                out:            [created_at, updated_at, id, name, image, image_filename, url]

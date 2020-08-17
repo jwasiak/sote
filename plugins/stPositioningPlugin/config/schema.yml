@@ -1,0 +1,222 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stPositioningPlugin.lib.model
+  st_product_has_positioning: 
+    _attributes: 
+      phpName: ProductHasPositioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+  st_webpage_has_positioning: 
+    _attributes: 
+      phpName: WebpageHasPositioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    webpage_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_webpage
+      foreignReference: id
+      onDelete: cascade
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+  st_category_has_positioning: 
+    _attributes: 
+      phpName: CategoryHasPositioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    category_id: 
+      type: INTEGER
+      foreignTable: st_category
+      foreignReference: id
+      onDelete: cascade
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+  st_product_group_has_positioning: 
+    _attributes: 
+      phpName: ProductGroupHasPositioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_group_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product_group
+      foreignReference: id
+      onDelete: cascade
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+  st_positioning: 
+    _attributes: 
+      phpName: Positioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+    system_name: 
+      type: VARCHAR
+      size: 255
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+    opt_default_title: 
+      type: VARCHAR
+      size: 255
+    opt_title_product: 
+      type: VARCHAR
+      size: 255
+    opt_title_category: 
+      type: VARCHAR
+      size: 255
+    opt_title_manufacteur: 
+      type: VARCHAR
+      size: 255
+    opt_title_blog: 
+      type: VARCHAR
+      size: 255
+    opt_title_product_group: 
+      type: VARCHAR
+      size: 255
+    opt_title_webpage: 
+      type: VARCHAR
+      size: 255
+  st_producer_has_positioning: 
+    _attributes: 
+      phpName: ProducerHasPositioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    producer_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_producer
+      foreignReference: id
+      onDelete: restrict
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+  st_blog_has_positioning: 
+    _attributes: 
+      phpName: BlogHasPositioning
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    blog_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_blog
+      foreignReference: id
+      onDelete: cascade
+    opt_title: 
+      type: VARCHAR
+      size: 255
+    opt_keywords: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_type: 
+      type: INTEGER
+      

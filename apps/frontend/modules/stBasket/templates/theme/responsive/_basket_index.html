@@ -1,0 +1,148 @@
+{set layout="one_column"}
+<div id="shopping-cart" class="order-control">
+    <div class="title">
+        <h1>{__ text="Koszyk"}</h1>
+    </div>
+    <a href="{$return_url}" id="basket-back-button" class="btn btn-default hidden-xs">
+      <span class="arrow_right">{__ text="Kontynuuj zakupy"}</span>
+    </a>
+    {if $if_warning || $if_notice}
+        <div class="alert alert-danger" role="alert">{$show_warning}</div>
+    {/if}    
+    {if $products}
+        <div class="items">
+            {$product_list}
+        </div> 
+        <div id="basket-box" class="row" data-equalizer>
+            <div id="shopping-cart-delivery" class="col-sm-4">{$delivery}</div>
+            <div id="shopping-cart-payment" class="col-sm-4">{$payment}</div>
+            <div id="shopping-cart-summary" class="col-sm-4">{$total}</div>
+        </div>
+
+        <div id="gift-group-container">
+            {st_get_component module="stGiftGroup" component="show" limit="4" overlay=true}
+        </div>
+        
+        <div class="row" data-equalizer >
+            <div class="col-sm-8">
+                <div class="panel panel-default" >                    
+                    <div class="panel-body">
+                        <textarea id="order_description_text" placeholder='{__ text="Uwagi do zamówienia"}' class="form-control" rows="1" >{$description}</textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        {$trusted_shops}
+        
+        {$socket_above_user_form}
+        
+        {$user_form}
+    {else}
+        <div class="empty-basket text-center">
+            <img class="hidden-xs" src="{image_path image='basket/empty_basket.png'}" alt="" />
+            <h3>{__ text="Twój koszyk jest pusty"}</h3>
+            <a href="{$return_url}" class="btn btn-primary" >
+                {__ text="Kontynuuj zakupy"}
+            </a>
+        </div>
+    {/if}
+</div>
+<div class="modal fade modal-vertical-centered" id="basket-update-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h3 class="text-center">{__ text="Koszyk"}</h3>
+                <p class="text-center">{__ text="Twój koszyk jest aktualizowany. Proszę czekać."}</p>
+                <div class="preloader"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{if $sf_request->hasParameter('session_expired')}
+    <div class="modal fade modal-vertical-centered" id="basket-session-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false" data-show="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3 class="text-center">{__ text="Twoja sesja wygasła"}</h3>
+                    <p class="text-center">{__ text="Przykro nam, ale Twoja sesja wygasła.<br>Powtórz operacje, aby dokończyć proces zamówienia."}</p>
+                    <button class="btn btn-default" data-dismiss="modal">{__ text="OK"}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{/if}
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+    var forms = $('#shopping-cart-delivery, #shopping-cart-payment');
+
+    $('#basket-session-modal').modal();
+
+    function updateDelivery() {
+        var form = $(this);
+        var fieldset = forms.find('fieldset');
+        fieldset.attr('disabled', true);
+        $(document).trigger('delivery.update.started');
+        var billing = $('#user_data_billing_country, #billing-country').val();
+
+        $.get(form.attr('action'), form.serialize()+'&billing_country='+billing, function() {
+            fieldset.removeAttr('disabled');
+            $(document).trigger('delivery.update.finished');
+        });
+
+        return false;
+    }
+    
+    forms.on('change', 'select,input[type="radio"]', function() {
+        var el = $(this);
+
+        if (el.is('#delivery-country') && !el.data('ignore-billing-update') && !$('#different_delivery').prop('checked')) {
+            $('#user_data_billing_country, #billing-country').val(el.val());
+        }
+
+        el.data('ignore-billing-update', false);
+        $(this.form).submit();
+    });
+
+    forms.on('submit', 'form', updateDelivery);
+    
+    $("#order_description_text").click(function() {
+        $(this).css('height', '147px');
+    }); 
+
+    var modalTimer = null;
+    
+    $(document).ready(function(){
+        $('#user_data_billing_country, #billing-country').change(function() {
+            updateDelivery.call(forms.filter('#shopping-cart-delivery'));
+        });
+        $('#toTop, #phone-call').remove();
+    }).on("delivery.update.started", function() {
+        $('#basket-update-modal').modal('show');
+    }).on("delivery.update.finished", function() {   
+        setTimeout(function() {
+            $('#basket-update-modal').modal('hide');
+        }, 500);
+    }); 
+
+    $('#shopping-cart [data-toggle=tooltip]').tooltip().on('show.bs.tooltip', function(e) {
+        
+        var target = $(e.target);
+
+        if (target.hasClass('product-option-label')) {
+            var maxWidth = target.css('max-width');
+            target.css({ 'max-width': 'none' });
+            var width = target.width();
+            target.css({ 'max-width': maxWidth });
+
+            return width > target.width();
+        }
+
+        return true;
+    });
+});
+//]]>
+</script>
+{/literal}

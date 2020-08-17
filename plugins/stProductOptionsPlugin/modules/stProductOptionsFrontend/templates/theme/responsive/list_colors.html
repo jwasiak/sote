@@ -1,0 +1,5 @@
+<ul class="product-options-color-filter-list">
+{foreach from=$colors item=color}
+    <li style="background-color: #{$color.color};" {if !$color.stock}class="disabled"{/if}></li>
+{/foreach}
+</ul>

@@ -1,0 +1,17 @@
+fields:
+    gift_card{code}:
+        required:
+          msg: Podaj kod
+        sfPropelUniqueValidator:
+          class:        GiftCard
+          column:       code
+          unique_error: Bon towarowy o podanym kodzie już istnieje
+    gift_card{amount}:
+        required:
+          msg: Podaj kwotę
+        sfNumberValidator:
+          min: 0.01
+          min_error: Kwota musi być większa od 0
+          type: any
+          type_error: "Kwota posiada nieprawidłowy format (przykład: 10.00, 10)"
+          nan_error: "Kwota posiada nieprawidłowy format (przykład: 10.00, 10)"

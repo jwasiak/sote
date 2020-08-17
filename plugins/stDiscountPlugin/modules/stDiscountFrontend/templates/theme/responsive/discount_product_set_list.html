@@ -1,0 +1,34 @@
+<section id="discount-product-set-list" class="full-list product-list" >
+    <h3>{__ text="W zestawie kupisz taniej"}</h3>
+    {foreach item=discount from=$discounts}
+    {assign var=products value=$discount->getProducts()}
+    {if $products}
+        <div class="row" data-equalizer>
+            {foreach item=product from=$products name="products"} 
+            <div class="product col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="thumbnail" data-equalizer-watch>
+                    <div>
+                        <div class="image">{st_product_image_tag product=$product include_link=true image_type="thumb"}</div>
+                    </div>
+                    <p class="name">{$product->getName()}</p>
+                    <div class="nowrap">{st_product_price_tag product=$product view="short"}</div>
+                </div>
+                {if !$smarty.foreach.products.first}
+                    <span class="discount-plus"></span>
+                {/if}
+            </div>
+            {/foreach} 
+            <div class="product col-xs-12 col-sm-3 col-md-2 col-lg-2 last">
+                <div data-equalizer-watch>
+                    <span class="old_price">{$discount->getTotalProductAmount(false)|st_currency_format}</span><br />
+                    <b class="price nowrap">{$discount->getTotalProductAmount()|st_currency_format}</b>
+                    <div class="buttons">
+                        {st_discount_basket_add_button discount=$discount}
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>                    
+        </div>
+    {/if}  
+    {/foreach}
+</section>

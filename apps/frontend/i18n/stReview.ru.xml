@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ocena i recenzja zakupionych produktów</source>
+				<target>Оценка и мнение о купленных предметах</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji dla produktu</source>
+				<target>Я выражаю согласие на опубликование своей рецензии на продукт</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Recenzje produktów niepublikowane</source>
+				<target>Неопубликованные рецензии на продукты</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapisz</source>
+				<target>Сохранить</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Moje konto</source>
+				<target>Мой счет</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Lista recenzji zamówień</source>
+				<target>Список рецензий на заказы</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Pokaż recenzje</source>
+				<target>Показать рецензию</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Recenzje zamówień</source>
+				<target>Рецензии на заказы</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Recenzje produktów</source>
+				<target>Рецензии на продукты</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Recenzja do zamówienia</source>
+				<target>Рецензия на заказы</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data dodania</source>
+				<target>Дата добавления</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Treść</source>
+				<target>Содержание</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ocena</source>
+				<target>Оценка</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Publikacja</source>
+				<target>Публикация</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Aktywny</source>
+				<target>Активный</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>zezwolono</source>
+				<target>разрешено</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>oczekuje na zezwolenie</source>
+				<target>ожидание разрешения</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>tak</source>
+				<target>да</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>oczekuje na autoryzację</source>
+				<target>ожидание авторизации</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktualnie nie posiadasz zrecenzowanych zamówień</source>
+				<target>В настоящее время у вас нет отрецензированных заказов</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zrecenzowane</source>
+				<target>Отрецензированные</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj recenzję</source>
+				<target>Добавить рецензию</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Recenzja dla zamówienia nr</source>
+				<target>Рецензия на заказ с номером</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Lista recenzji produktów</source>
+				<target>Список рецензий на продукты</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Recenzowany produkt</source>
+				<target>Отрецензированный продукт</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Aktualnie nie posiadasz zrecenzowanych produktów</source>
+				<target>В настоящее время у вас нет отрецензированных продуктов</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Administrator</source>
+				<target>Администратор</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Produkty ocenione i zrecenzowane z tego zamówienia</source>
+				<target>Продукты, оцененные и отрецензированные с этого заказа</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Dodano</source>
+				<target>Добавлено</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ocena i recenzja transakcji</source>
+				<target>Оценка и рецензия на сделку</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Pozytywna</source>
+				<target>Позитивная</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Neutralna</source>
+				<target>Нейтральная</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Negatywna</source>
+				<target>Негативная</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji transakcji</source>
+				<target>Я выражаю согласие на опубликование своей рецензии на сделку</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Recenzje</source>
+				<target>Рецензии</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Autor</source>
+				<target>Автор</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>pozytywna</source>
+				<target>позитивная</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>neutralna</source>
+				<target>нейтральная</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>negatywna</source>
+				<target>негативная</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Produkt nie posiada recenzji</source>
+				<target>Продукт не имеет рецензии</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak oceny produktu</source>
+				<target>Отсутствие оценки продукта</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak recenzji produktu</source>
+				<target>Отсутствие рецензии на продукт</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>recenzji</source>
+				<target>рецензии</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Recenzje użytkowników</source>
+				<target>Рецензии пользователей</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Recenzja oczekuje na publikacje</source>
+				<target>Ожидается разрешение на опубликование рецензии</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Recenzja produktu</source>
+				<target>Рецензия на продукт</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoja ocena</source>
+				<target>Ваша оценка</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Recenzja</source>
+				<target>Рецензия</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Podpis</source>
+				<target>Подпись</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Cyfry z obrazka</source>
+				<target>Цифры на изображении</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Wyślij</source>
+				<target>Отправить</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wprowadzono zły numer.</source>
+				<target>Введен неправильный номер.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,1 @@
+<?php st_include_partial('stProduct/list_image', array('product' => $product_has_accessories->getProductRelatedByAccessoriesId())); ?>

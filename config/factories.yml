@@ -1,0 +1,11 @@
+all: 
+    storage:
+        class: stSessionStorage
+        param:
+            session_name: soteshop
+   
+    controller:
+        class: stFrontWebController
+      
+    request:
+        class:  stWebRequest

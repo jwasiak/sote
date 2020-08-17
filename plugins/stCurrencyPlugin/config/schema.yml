@@ -1,0 +1,64 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stCurrencyPlugin.lib.model
+  st_currency: 
+    _attributes: 
+      phpName: Currency
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    currency_standard_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_currency_standard
+      foreignReference: id
+      onDelete: setnull
+    shortcut: 
+      type: VARCHAR
+      size: 20
+    exchange: 
+      type: DECIMAL
+      size: 6
+      scale: 4
+    active: 
+      type: BOOLEAN
+    main: 
+      type: BOOLEAN
+    front_symbol: 
+      type: VARCHAR
+      size: 20
+    back_symbol: 
+      type: VARCHAR
+      size: 20
+    nbp_exchange: 
+      type: FLOAT
+    system: 
+      type: BOOLEAN
+    opt_name: 
+      type: VARCHAR
+      size: 255
+  st_currency_standard: 
+    _attributes: 
+      phpName: CurrencyStandard
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    code: 
+      type: INTEGER
+    shortcut: 
+      type: VARCHAR
+      size: 20

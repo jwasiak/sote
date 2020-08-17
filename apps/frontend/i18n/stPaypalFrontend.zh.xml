@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wystąpił problem podczas realizowania płatności za pośrednictwem serwisu Paypal.</source>
+				<target>在您用Paypal服务付款时出了问题。</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności. Twoje zamówienie zostanie zrealizowane po otrzymaniu płatności.</source>
+				<target>谢谢您付款。我们收到款后会处理您的订单。</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zamówienie zostało już opłacone.</source>
+				<target>订单已支付</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>%shop% - zamówienie numer: %no%</source>
+				<target>%shop% - %no%号订单</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać w systemie PayPal</source>
+				<target>用PayPal服务付款</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zamówienie numer %number%</source>
+				<target>%number%号订单</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Przejdź do strony głównej</source>
+				<target>去首页</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa nie jest możliwa do wskazanego kraju</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

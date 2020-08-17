@@ -1,0 +1,16 @@
+---
+package: 
+  name: stSocialLinksPlugin
+  stability: stable
+  version: 7.0.1.4
+  summary: Linki spolecznosciowe
+  description: Linki spolecznosciowe
+  notes: Usuniecie Google Plus
+  maintainers: 
+    Krzysztof Beblo: 
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency: 
+    stFrontend: 2.0.0.1
+    stBackend: 2.0.1.32

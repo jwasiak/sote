@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2011-11-04T04:26:55Z">
+		<body>
+			<trans-unit id="1">
+				<source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+				<target>Contrassegno di qualità Trusted Shops – qui puoi verificare la validità!</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+				<target>Come ulteriore servizio offriamo la Protezione Acquirenti Trusted Shops. Ci assumiamo interamente il costo di questa garanzia. È sufficiente registrarsi per usufruirne.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ochrona Kupującego Trusted Shops</source>
+				<target>Protezione Acquirenti Trusted Shops</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Ochrona Kupującego do</source>
+				<target>Protezione Acquirenti al</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>z VAT</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+				<target>La Protezione Acquirenti Trusted Shops protegge i Tuoi acquisti online. Acconsento al trasferimento e</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>zapisywanie</source>
+				<target>alla registrazione</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+				<target>del mio indirizzo e-mail da parte di Trusted Shops, finalizzato alla realizzazione del servizio Protezione Acquirenti.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Warunki gwarancji</source>
+				<target>Condizioni di garanzia</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>dla Ochrony Kupującego.</source>
+				<target>per la Protezione Acquirenti.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops. Zobacz więcej...</source>
+				<target>è un negozio online con Certificato di Protezione Acquirenti, rilasciato da Trusted Shops. Per sapere di più…</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Więcej informacji o</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Zobacz opinie klientów sklepu</source>
+				<target>Vedi le opinioni dei clienti del negozio</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Opinie klientów sklepu</source>
+				<target>Opinioni dei clienti del negozio</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Ubezpieczenie Trusted Shops</source>
+				<target>Assicurazione Trusted Shops</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

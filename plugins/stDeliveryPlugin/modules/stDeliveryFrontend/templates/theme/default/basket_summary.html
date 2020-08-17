@@ -1,0 +1,18 @@
+<h5 class="st_title">{__ text="Koszty"}</h5>
+<div id="st_delivery-basket_summary">
+    <div class="st_delivery-basket_summaty-amount">{$basket_cost|st_currency_format}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Wartość koszyka"}:</div>
+    <br class="st_clear_all"/> 
+
+    <div class="st_delivery-basket_summaty-amount">{$delivery_cost|st_currency_format}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Koszt dostawy"}:</div>
+    <br class="st_clear_all"/> 
+{if $paid > 0}    
+    <div class="st_delivery-basket_summaty-amount">{$paid|st_currency_format}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Zapłacono"}:</div>
+    <br class="st_clear_all"/>     
+{/if}
+    <div id="st_basket-total_amount">{$total_amount|st_currency_format}</div>
+    <div id="st_basket-total_amount_text">{__ text="Razem do zapłaty"}:</div>
+    <br class="st_clear_all"/> 
+</div>

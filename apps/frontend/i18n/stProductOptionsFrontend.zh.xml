@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Produkt wycofany z oferty</source>
+				<target>商品被退出</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Atrybuty:</source>
+				<target>属性:</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Cena:</source>
+				<target>价格：:</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wybierz opcje produktu</source>
+				<target>选择商品选项</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz opcje produktu na karcie produktu.</source>
+				<target>在商品卡上选择商品选项。</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Brak w magazynie</source>
+				<target>无货</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Twoja przeglądarka nie obsługuje Javascript.</source>
+				<target>您的浏览器不支持Javascript。</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Filtr koloru</source>
+				<target>色彩过滤</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cena</source>
+				<target>价格：</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zwykły filtr</source>
+				<target>普通过滤</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyczyść filtry</source>
+				<target>清除过滤</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>wyczyść</source>
+				<target>清空</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>wybierz opcje produktu</source>
+				<target>选择商品选项</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

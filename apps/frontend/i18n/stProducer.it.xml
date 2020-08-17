@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2010-11-04T02:51:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>Więcej informacji o producencie</source>
+				<target>Ulteriori informazioni sul produttore</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Powrót do listy</source>
+				<target>Tornare alla lista.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Lista producentów</source>
+				<target>Elenco dei produttori</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wszyscy producenci</source>
+				<target>Tutti i produttori</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wszyscy</source>
+				<target>Tutti</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Producenci</source>
+				<target>Produttori</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

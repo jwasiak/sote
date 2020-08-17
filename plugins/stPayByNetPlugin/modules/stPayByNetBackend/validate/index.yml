@@ -1,0 +1,22 @@
+fields:
+    config{id_client}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{password}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{account}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{account_name}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{account_code}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{account_city}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{account_street}:
+        required:
+            msg:    Proszę uzupełnić pole.

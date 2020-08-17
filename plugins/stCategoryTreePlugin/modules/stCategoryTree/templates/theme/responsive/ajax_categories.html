@@ -1,0 +1,26 @@
+<ul {if $unique_id}id="st_category-tree-{$unique_id}"{/if} class="x-tree-arrows{if $include_root_class} x-tree-root-ct{/if}">
+{foreach item=category from=$categories name=categories}
+   {if $category.has_children}
+      <li class="st_category-tree-element st_category-tree-element{if isset($expanded[$category.id])}-minus{else}-plus{/if}{if $smarty.foreach.categories.last}-last  st_category-tree-element-last{/if}">
+         <div class="x-tree-node-el {if isset($expanded[$category.id])}x-tree-node-expanded{else}x-tree-node-collapsed{/if}{if $smarty.foreach.categories.last} x-tree-node-last{/if}{if $category.id == $selected} x-selected{/if}">
+            <img id="x-hit-{$category.id}" class="x-tree-hitarea x-tree-ec-icon x-tree-elbow{if isset($expanded[$category.id])}-minus{else}-plus{/if}{if $smarty.foreach.categories.last} x-tree-elbow-last{/if}" src="/sfExtjs2Plugin/extjs/resources/images/default/s.gif" alt="" />
+            <a class="{if $category.id == $selected}x-tree-node-anchor x-tree-node-anchor-selected{else}x-tree-node-anchor{/if}" href="{$category.url}">
+               <span>{$category.name} {if $show_product_count}({$category.product_count}){/if}</span>
+            </a>
+         </div>
+         {if isset($expanded[$category.id])}
+            {render_ajax_categories for=$category}
+         {/if}
+      </li>
+   {else}
+      <li class="st_category-tree-element {if $smarty.foreach.categories.last}st_category-tree-element-last {/if}">
+         <div class="x-tree-node-el x-tree-node-collapsed{if $smarty.foreach.categories.last} x-tree-node-last{/if}{if $category.id == $selected} x-selected{/if}">
+            <img class="x-tree-ec-icon x-tree-elbow-plus x-tree-elbow-leaf{if $smarty.foreach.categories.last} x-tree-elbow-leaf-last{/if}" src="/sfExtjs2Plugin/extjs/resources/images/default/s.gif" alt="" />
+            <a class="{if $category.id == $selected}x-tree-node-anchor x-tree-node-anchor-selected{else}x-tree-node-anchor{/if}" href="{$category.url}">
+               <span>{$category.name} {if $show_product_count}({$category.product_count}){/if}</span>
+            </a>
+         </div>
+      </li>
+   {/if}
+{/foreach}
+</ul>

@@ -1,0 +1,11 @@
+propel:
+    st_product:
+        _attributes:
+          phpName: Product
+          isI18N: true
+          i18nTable: st_product_i18n
+    st_product_i18n:
+        _attributes:
+          phpName: ProductI18n
+        description2:
+          type: MEDIUMTEXT

@@ -1,0 +1,183 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stSearchPlugin.lib.model
+
+  st_searched_words: 
+    _attributes: 
+      phpName: SearchedWords
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    word: 
+      type: VARCHAR
+      size: 255
+      required: true
+    results: 
+      type: INTEGER
+      required: true
+      default: 0
+    searched: 
+      type: INTEGER
+      required: true
+      default: 0
+    swap: 
+      type: VARCHAR
+      size: 255
+    url: 
+      type: VARCHAR
+      size: 255
+    _indexes: 
+      searched_words_searched: 
+        - word
+      searched_words_swap: 
+        - swap
+
+  st_product_search_index: 
+    _attributes: 
+      phpName: ProductSearchIndex
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    culture: 
+      type: VARCHAR
+      size: 7
+      primaryKey: true
+      required: true
+    name: 
+      type: LONGVARCHAR
+    simple_search: 
+      type: LONGVARCHAR
+    advanced_search: 
+      type: LONGVARCHAR
+    advanced_name: 
+      type: LONGVARCHAR
+  st_product_search_tag: 
+    _attributes: 
+      phpName: ProductSearchTag
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    tag: 
+      type: VARCHAR
+      size: 64
+      required: true
+    _uniques: 
+      unique_tag: 
+        - tag
+
+  st_product_has_product_search_tag: 
+    _attributes: 
+      phpName: ProductHasProductSearchTag
+    product_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    product_search_tag_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product_search_tag
+      foreignReference: id
+      onDelete: restrict
+    culture: 
+      type: VARCHAR
+      size: 7
+      primaryKey: true
+      required: true
+    tag_value: 
+      type: INTEGER
+      required: true
+      default: 1
+
+  st_search_link:
+    _attributes:
+        phpName: SearchLink
+        isI18n: true
+        i18nTable: st_search_link_i18n
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_title:
+      type: VARCHAR
+      size: 255
+    opt_description:
+      type: LONGVARCHAR
+    opt_url:
+      type: VARCHAR
+      size: 255
+    opt_meta_title:
+      type: VARCHAR
+      size: 255
+    opt_meta_keywords:
+      type: VARCHAR
+      size: 255
+    opt_meta_description:
+      type: VARCHAR
+      size: 160
+    opt_search_keywords:
+      type: VARCHAR
+      size: 100
+
+
+  st_search_link_i18n:
+    _attributes:
+        phpName: SearchLinkI18n
+    id:
+        type: integer
+        required: true
+        primaryKey: true
+        foreignTable: st_search_link
+        foreignReference: id
+        onDelete: cascade
+    culture:
+        isCulture: true
+        primaryKey: true
+        type: VARCHAR
+        size: 7   
+    title:
+      type: VARCHAR
+      size: 255
+    description:
+      type: LONGVARCHAR
+    url:
+      type: VARCHAR
+      size: 255  
+    meta_title:
+      type: VARCHAR
+      size: 255
+    meta_keywords:
+      type: VARCHAR
+      size: 255
+    meta_description:
+      type: VARCHAR
+      size: 160
+    search_keywords:
+      type: VARCHAR
+      size: 100
+    _uniques:
+      url_idx:
+        - url
+        - culture

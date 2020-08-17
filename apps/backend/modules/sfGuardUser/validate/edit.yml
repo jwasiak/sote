@@ -1,0 +1,51 @@
+methods:
+    post:
+        - "sf_guard_user{username}"
+        - "sf_guard_user{password}"
+        - "sf_guard_user{password_bis}"
+
+names:
+    sf_guard_user{username}:
+        required:       yes
+        required_msg:   Proszę podać nazwę administratora.
+        validators:     [usernameUniqueValidator, usernameEmailValidator]
+        
+
+    sf_guard_user{password}:
+        required:       no
+        required_msg:   Proszę podać hasło.
+        group:          password
+        validators:     passwordValidator
+
+    sf_guard_user{password_bis}:
+        required:       no
+        required_msg:   Proszę podać hasło.
+        group:          password
+        validators:     comparePasswordValidator
+
+usernameUniqueValidator:
+    class:              sfPropelUniqueValidator
+    param:
+        class:          sfGuardUser
+        column:         username
+        unique_error:   Podany użytkownik istnieje, proszę podać inną nazwę.
+
+passwordValidator:
+    class:              sfStringValidator
+    param:
+        min:            6
+        min_error:      Hasło nie może być krótsze niz 6 znaków.
+
+comparePasswordValidator:
+    class:              sfCompareValidator
+    param:
+        check:          "sf_guard_user[password]"
+        compare_error:  Hasło nie zostało powtórzone poprawnie.
+        
+usernameEmailValidator:
+    class:              sfEmailValidator
+    param:
+        class:        sfGuardUser
+        column:       username
+        email_error:  Nieprawidłowy format adresu e-mail.
+            

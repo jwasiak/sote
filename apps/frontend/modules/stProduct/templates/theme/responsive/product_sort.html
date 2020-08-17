@@ -1,0 +1,75 @@
+{php}
+    $this->assign('view_types', array(
+        'name' => array(
+            'desc' => array(
+                'icon' => 'glyphicon glyphicon-signal mirror-icon',
+                'label' => __('Z-A')
+            ),
+            'asc' => array(
+                'icon' => 'glyphicon glyphicon-signal',
+                'label' => __('A-Z')
+            ),
+
+        ),
+        'price' => array(
+            'desc' => array(
+                'icon' => 'glyphicon glyphicon-arrow-down',
+                'label' => __('Najdroższe')
+            ),
+            'asc' => array(
+                'icon' => 'glyphicon glyphicon-arrow-up',
+                'label' => __('Najtańsze')
+            ),
+
+        ),
+        'accuracy' => array(
+            'desc' => array(
+                'icon' => 'glyphicon glyphicon-record',
+                'label' => __('Trafności')
+            ),
+        ),
+        'created_at' => array(
+            'desc' => array(
+                'icon' => 'glyphicon glyphicon-star',
+                'label' => __('Najnowsze')
+            ),
+        ),
+    ));
+{/php}
+
+<div class="btn-group btn-product-order-by btn-list-sort">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="text-transform: none">
+        {if $view_types[$url_params.sort_by]}
+            <span class="glyphicon {$view_types[$url_params.sort_by][$url_params.sort_order].icon}"></span>
+        {else}
+            <span class="glyphicon glyphicon-sort"></span>
+        {/if}
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li class="dropdown-header">{__ text="Sortowanie"}</li>
+        {foreach key=type item=sort from=$sort_types}
+            {assign var=view_type value=$view_types[$type]}
+
+            {if $view_type.desc}
+                <li{if $url_params.sort_by == $type && $url_params.sort_order == 'desc'} class="active"{/if}>
+                    <a href="{$sort.desc_url}" rel="nofollow">
+                        {if $view_type.desc.icon}
+                            <span class="glyphicon {$view_type.desc.icon}"></span>
+                        {/if}                    
+                        {$view_type.desc.label}
+                    </a>
+                </li>
+            {/if}
+            {if $view_type.asc}
+                <li{if $url_params.sort_by == $type && $url_params.sort_order == 'asc'} class="active"{/if}>        
+                    <a href="{$sort.asc_url}" rel="nofollow">
+                        {if $view_type.asc.icon}
+                            <span class="glyphicon {$view_type.asc.icon}"></span>
+                        {/if}                    
+                        {$view_type.asc.label}
+                    </a>
+                </li>
+            {/if}
+        {/foreach}
+    </ul>
+</div> 

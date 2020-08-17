@@ -1,0 +1,2 @@
+<?php
+stMigration::register('stMigrationSoteshopPlugin', array('soteshop40' => 'SOTEeSKLEP 4.0 (RC23 lub wyższa)', 'soteshop40RC1-RC22' => 'SOTEeSKLEP 4.0 (RC1 - RC22)', 'soteshop35' => 'SOTEeSKLEP 3.5', 'soteshop31' => 'SOTEeSKLEP 3.1', 'soteshop30' => 'SOTEeSKLEP 3.0'));

@@ -1,0 +1,25 @@
+{set layout="one_column"}
+
+<div id="logout-user">
+    
+<div class="panel panel-default center-block info-panel">
+    
+    <div class="panel-body text-center">
+    
+        <p>{__ text="Pomyślnie wylogowano użytkownika"} {$username} <br/> {__ text="Za chwilę nastąpi przekierowanie na stronę główną."}</p>
+        
+        <a href="/" class="btn btn-default">{__ text="Strona główna"}</a>
+    </div>
+</div>
+
+</div>
+    
+{if $redirect}
+	{literal}
+		<script type="text/javascript">
+			setTimeout(function() {
+				window.location = "/";
+			}, 5000);
+		</script>
+	{/literal}
+{/if}

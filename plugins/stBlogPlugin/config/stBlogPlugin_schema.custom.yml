@@ -1,0 +1,67 @@
+propel:
+  st_blog: 
+    _attributes: 
+      phpName: Blog
+      isI18n: true
+      i18nTable: st_blog_i18n
+    opt_name: {change_column: name}
+    opt_short_description: {change_column: short_description}
+    opt_long_description: {change_column: long_description}
+  
+  st_blog_category: 
+    _attributes: 
+      phpName: BlogCategory
+      isI18n: true
+      i18nTable: st_blog_category_i18n    
+        
+  st_blog_i18n:
+    _attributes:
+      phpName: BlogI18n
+    id:
+      type: integer
+      required: true
+      primaryKey: true
+      foreignTable: st_blog
+      foreignReference: id
+      onDelete: cascade
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    name: 
+      type: VARCHAR
+      size: 255
+    short_description: 
+      type: LONGVARCHAR
+    long_description: 
+      type: LONGVARCHAR
+    url:
+      type: VARCHAR
+      size: 255
+    _indexes:
+      blog_Index1:
+          - url
+          - culture
+          
+  st_blog_category_i18n:
+    _attributes:
+      phpName: BlogCategoryI18n
+    id:
+      type: integer
+      required: true
+      primaryKey: true
+      foreignTable: st_blog_category
+      foreignReference: id
+      onDelete: cascade
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    name: 
+      type: VARCHAR
+      size: 255 
+    url:
+      type: VARCHAR
+      size: 255   

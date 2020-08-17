@@ -1,0 +1,12 @@
+{if $showInBasket == true}
+    {$link}
+{else}
+    <script language="javascript" type="text/javascript">
+        {foreach from=$paymentTypes item=id}
+            document.getElementById("delivery_default_payment-{$id}").disabled = true;
+            document.getElementById("delivery_default_payment-{$id}").checked = false;
+        {/foreach}
+        document.getElementById("delivery_default_payment-{$deliveryPaymentId}").checked = true;
+    </script>
+    {__ text="Zakupy w systemie ratalnym LUKAS Raty dostępne są od 500zł do 10000zł wartości całego zamówienia."}
+{/if}

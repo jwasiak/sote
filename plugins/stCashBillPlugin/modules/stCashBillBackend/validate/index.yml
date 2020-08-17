@@ -1,0 +1,7 @@
+fields:
+    config{shop_id}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{secret_key}:
+        required:
+            msg:    Proszę uzupełnić pole.

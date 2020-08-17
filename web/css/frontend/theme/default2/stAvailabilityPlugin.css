@@ -1,0 +1,100 @@
+#availability_alert_overlay, #price_question_overlay
+{
+            display:none;
+            z-index:10000;
+            background-color:#fff;
+            width:480px;
+
+            border:1px solid #666;
+            -moz-box-shadow:0 0 90px 5px #000;
+            -webkit-box-shadow: 0 0 90px #000;
+
+            -moz-border-radius-topleft:8px;
+            -moz-border-radius-bottomleft:8px;
+            -moz-border-radius-bottomright:8px;
+            -webkit-border-radius-topleft:8px;
+	    -webkit-border-radius-bottom-left:8px;
+	    -webkit-border-radius-bottom-right:8px;
+
+}
+
+#availability_alert_overlay .close
+{
+            background-image: url('/images/frontend/theme/default2/buttons/close.png');
+            position:absolute;
+            right:-15px;
+            top:-15px;
+            cursor:pointer;
+            height:35px;
+            width:35px;
+}
+
+#st_application-availability_alert .st_row label
+{
+    float:left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+#st_application-availability_alert fieldset
+{
+    border:none;
+}
+
+#st_application-availability_alert .st_error
+{
+    margin-left:110px;
+    padding:0px;
+    padding-top:5px;
+}
+
+#st_form-question-captcha, #st_form-question-email, #st_application-availability_alert textarea
+{
+    width: 320px;
+}
+
+#st_application-availability_alert textarea
+{
+    height: 50px;
+}
+
+#st_application-availability_alert .st_application
+{
+    border: none;
+}
+
+#button-add-question {
+    padding:3px;
+}
+
+#active_availability_alert_overlay
+{    
+ 
+}
+
+#active_availability_alert_overlay:hover
+{
+    text-decoration: underline;
+}
+
+#st_application-availability_alert .st_content
+{
+    padding: 0px 10px 10px;
+}
+#st_application-availability_alert .buttons button[type]
+{
+    margin-right: 15px;
+}
+
+#st_application-availability_alert #button-add-question {
+    margin-right: 0px;
+    padding: 3px;
+}
+
+#st_availability_info span
+{
+    width: 100px; 
+    padding-right: 10px;
+}

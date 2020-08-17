@@ -1,0 +1,27 @@
+<header>
+    {include_file id="_header"}
+</header>
+
+<div id="one-column-layout">
+    <div class="container">
+    	{php}
+		$c = sfContext::getInstance();
+		if 
+		(($c->getModuleName() == 'stProduct' && $c->getActionName() == 'list') || 
+		($c->getModuleName() == 'stProduct' && $c->getActionName() == 'groupList') || 
+		($c->getModuleName() == 'stProduct' && $c->getActionName() == 'producerList') || 
+		($c->getModuleName() == 'stProduct' && $c->getActionName() == 'show') ||
+		($c->getModuleName() == 'stWebpageFrontend' && $c->getActionName() == 'index')) 
+		{
+		{/php} 		
+			{st_get_component module="stNavigationFrontend" component="breadcrumbs"}
+		{php} } {/php}  
+
+        {st_get_component module="stProduct" component="filters" modal_only=true}
+        {$content}
+    </div> 
+    
+    <footer>
+	    {include_file id="_footer"}
+	</footer>
+</div>

@@ -1,0 +1,16 @@
+---
+package:
+  name: stTranslationSkPlugin
+  stability: stable
+  version: 7.0.5.1
+  summary: Tlumaczenia w jezyku slowackim.
+  description: Tlumaczenia w jezyku slowackim.
+  notes: |
+    - Poprawa flagi
+  maintainers:
+    Michal Prochowski:
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stLanguagePlugin: 1.1.0.14

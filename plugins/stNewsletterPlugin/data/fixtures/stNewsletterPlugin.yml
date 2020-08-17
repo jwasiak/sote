@@ -1,0 +1,115 @@
+NewsletterGroup: 
+  NewsletterGroup_1: 
+    created_at: 2008-11-25 12:39:20
+    updated_at: 2008-11-25 12:39:20
+    culture: pl_PL
+    name: Nowości
+    description: >
+      <p>Nowości w naszym sklepie, zapewnią
+      Ci bieżące informację o
+      aktualizacjach naszej oferty. Jeżeli
+      chcesz być zawsze na bieżąco z
+      produktami w naszym sklepie zaznacz ten
+      temat.</p>
+    shortcut: news
+    is_public: 1
+    is_default: 1
+  NewsletterGroup_2: 
+    created_at: 2008-11-25 12:41:01
+    updated_at: 2008-11-25 12:41:01
+    culture: pl_PL
+    name: Promocje
+    description: >
+      <p>Wiadomości na temat najnowszych
+      promocji oraz artykuł&oacute;w
+      promocyjnych. Jeżeli nie chcesz
+      przepuścić prawdziwych okazji dopisz
+      sw&oacute;j adres do tego tematu.</p>
+    shortcut: prom
+    is_public: 1
+    is_default: 1
+  NewsletterGroup_3: 
+    created_at: 2008-11-25 12:42:18
+    updated_at: 2008-11-25 12:42:18
+    culture: pl_PL
+    name: Klub
+    description: >
+      <p>Jeżeli chcesz zostać członkiem
+      naszego klub i uczestniczyć w
+      wydarzeniach związanych z naszym
+      sklepem, oraz brać udział w
+      wyjątkowych promocjach dopisz się do
+      tego tematu</p>
+    shortcut: club
+    is_public: 1
+    is_default: 0
+  NewsletterGroup_4: 
+    created_at: 2008-11-25 12:42:18
+    updated_at: 2008-11-25 12:42:18
+    culture: pl_PL
+    name: Newsletter
+    description: >
+      <p>Klienci sklepu którzy dokonali rejestracji.</p>
+    shortcut: nwsl
+    is_public: 0
+    is_default: 1
+NewsletterGroupI18n:
+  NewsletterGroupI18n_1:
+    id: NewsletterGroup_1
+    culture: en_US
+    name: News
+    description: >
+      <p>Our store news will provide you with up-to-date information on our offering. If you want to keep up to date with information on products in our store, select this topic.</p>
+  NewsletterGroupI18n_2:
+    id: NewsletterGroup_2
+    culture: en_US
+    name:  Promotions
+    description: >
+      <p>Information on the latest sales promotions and products. Don’t miss all the great bargains — add your e-mail address to this topic.</p>
+  NewsletterGroupI18n_3:
+    id: NewsletterGroup_3
+    culture: en_US
+    name: Club
+    description: >
+      <p>If you want to be a member of our club and take part in store-related events and special promotions, sign up for this topic.</p>
+  NewsletterGroupI18n_4:
+    id: NewsletterGroup_4
+    culture: en_US
+    name: Newsletter
+    description: >
+      <p>Store customers who have registered.</p>
+NewsletterUser: 
+  NewsletterUser_1: 
+    created_at: 2008-11-25 12:42:54
+    updated_at: 2008-11-25 12:43:10
+    email: jan@example.com
+    active: 1
+    confirm: 1
+NewsletterUserHasNewsletterGroup: 
+  NewsletterUserHasNewsletterGroup_4: 
+    newsletter_group_id: NewsletterGroup_2
+    newsletter_user_id: NewsletterUser_1
+  NewsletterUserHasNewsletterGroup_3: 
+    newsletter_group_id: NewsletterGroup_1
+    newsletter_user_id: NewsletterUser_1
+  NewsletterUserHasNewsletterGroup_5: 
+    newsletter_group_id: NewsletterGroup_4
+    newsletter_user_id: NewsletterUser_1  
+NewsletterMessage: 
+  NewsletterMessage_1: 
+    created_at: 2008-11-25 12:34:24
+    updated_at: 2008-11-25 12:34:24
+    opt_subject: Nowości w naszym sklepie 
+    opt_content: >
+      <p>Zapraszamy Państwa do zapoznania się z naszą najnowszą ofertą:<br/>
+      <br />&nbsp;&nbsp;&nbsp; * nowe
+      produkty<br />&nbsp;&nbsp;&nbsp; * nowe
+      promocje<br /><br />Jeżeli są Państwo zainteresowani naszą ofertą, serdecznie 
+      zapraszamy na stronę naszego sklepu.</p>
+  NewsletterMessage_2: 
+    created_at: 2008-11-25 12:45:11
+    updated_at: 2008-11-25 12:45:11
+    opt_subject: Wyjątkowa Promocja !!!
+    opt_content: |
+      <p>Specjalnie dla naszych klientów przedstawiamy wyjątkową ofertę na wybrane produkty.</p>
+      <p>Jeżeli są Państwo zainteresowani tą niezwykłą ofertą, zapraszamy na stronę naszego sklepu.</p>

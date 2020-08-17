@@ -1,0 +1,46 @@
+{foreach key=row item=userData from=$results}
+    <div id="st_application-user-edit_profil">
+        <div class="{$userData.style}">          
+            {if $userData.default eq 1}
+                <div class="field_image1" {$userData.remove_tooltip}>{$userData.remove_image}</div>
+            {else}
+                <div class="field_image1" {$userData.remove_tooltip}>{$userData.remove_image}</div>
+            {/if}
+            <div class="field_image2" {$userData.edit_tooltip}>{$userData.edit_image}</div>
+            {if $userData.default eq 1}
+                <div class="field_image2" {$userData.default_data}>{$userData.default_image}</div>
+            {else}
+                {if $userData.full_name neq "" || $userData.address neq ""}
+                    <div class="field_image2" {$userData.make_it_deafult_data}>{$userData.make_it_deafult_image}</div>
+                {/if}
+            {/if}
+            {if $userData.company neq ""}
+                <br class="lowspace" />
+                <span class="lowspace">{$userData.company}<br /></span>
+                {if $userData.has_vat eq 1}
+                    <span class="lowspace">{__ text="NIP"}&nbsp;{$userData.vat}<br /></span>       
+                {/if}
+            {/if}
+            <br class="lowspace" />
+            <span class="lowspace">{$userData.full_name}<br /></span>
+            <span class="lowspace">{$userData.address} <br /></span>
+            {if ($userData.address_more!="")}
+            <span class="lowspace">{$userData.address_more} <br /></span>
+            {/if}
+            {if ($userData.region!="")}
+            <span class="lowspace">{$userData.region} <br /></span>
+            {/if}
+            <span class="lowspace">{$userData.code} {$userData.town}<br /></span>
+            <span class="lowspace">{$userData.country}<br /></span>
+            {if ($userData.pesel!="")}
+            <span class="lowspace">{__ text="PESEL"}&nbsp;{$userData.pesel}</span><br>
+            {/if}
+            <br>
+            
+            {if $userData.phone neq ""}
+                <span class="left">{$userData.phone_image}&nbsp;&nbsp;{$userData.phone}&nbsp;&nbsp;&nbsp;</span>
+            {/if}
+            <br class="st_clear_all" />
+        </div>
+    </div>
+{/foreach}

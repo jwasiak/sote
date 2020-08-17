@@ -1,0 +1,7 @@
+fields:
+    allegro_template{name}:
+        required:
+            msg: "Proszę podać nazwę szablonu"
+    allegro_template{template}:
+        required:
+            msg: "Szablon nie może być pusty"

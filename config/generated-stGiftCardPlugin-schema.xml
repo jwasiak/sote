@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" package="plugins.stGiftCardPlugin.lib.model" defaultIdMethod="native" noXsd="true">
+
+  <table name="st_gift_card" phpName="GiftCard">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="status" type="VARCHAR" size="1" default="A" />
+    <column name="amount" type="DECIMAL" size="10" scale="2" required="true" />
+    <column name="min_order_amount" type="INTEGER" default="0" required="true" />
+    <column name="code" type="VARCHAR" size="64" required="true" />
+    <column name="valid_to" type="DATE" />
+    <column name="currency_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_currency" onDelete="cascade">
+      <reference local="currency_id" foreign="id" />
+    </foreign-key>
+    <column name="allow_all_products" type="BOOLEAN" required="false" />
+    <index name="status_idx">
+      <index-column name="status" />
+    </index>
+    <unique name="code_idx">
+      <unique-column name="code" />
+    </unique>
+  </table>
+
+  <table name="st_gift_card_has_category" phpName="GiftCardHasCategory">
+    <column name="gift_card_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_gift_card" onDelete="cascade">
+      <reference local="gift_card_id" foreign="id" />
+    </foreign-key>
+    <column name="category_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_category" onDelete="cascade">
+      <reference local="category_id" foreign="id" />
+    </foreign-key>
+    <column name="is_opt" type="BOOLEAN" default="0" required="true" />
+  </table>
+
+  <table name="st_gift_card_has_producer" phpName="GiftCardHasProducer">
+    <column name="gift_card_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_gift_card" onDelete="cascade">
+      <reference local="gift_card_id" foreign="id" />
+    </foreign-key>
+    <column name="producer_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_producer" onDelete="cascade">
+      <reference local="producer_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_gift_card_has_product" phpName="GiftCardHasProduct">
+    <column name="gift_card_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_gift_card" onDelete="cascade">
+      <reference local="gift_card_id" foreign="id" />
+    </foreign-key>
+    <column name="product_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+</database>

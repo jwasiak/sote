@@ -1,0 +1,17 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/11/25 12:04:36
+      fields: 
+        show_ask_for_price: "0"
+        ask_price_user_login: "0"
+        show_ask_for_depository: "0"
+        ask_depository_user_login: "0"
+        availability_name: ""
+        depository_value: ""
+        show_with_options: "0"
+        show_photo: "1"
+        show_name: "1"
+        show_id: "0"
+        show_short_description: "1"

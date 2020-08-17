@@ -1,0 +1,8 @@
+fields:
+    language{name}:
+        required:
+            msg:  Proszę uzupełnić pole.
+    language{is_default}:
+        sfCallbackValidator:
+            callback:       [stLanguage, checkDefaultLanguage]
+            invalid_error:  Wersja językowa musi być aktywana, aby mogła być domyślna.

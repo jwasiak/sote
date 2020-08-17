@@ -1,0 +1,101 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stPartnerPlugin.lib.model
+  st_partner: 
+    _attributes: 
+      phpName: Partner
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    countries_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_countries
+      foreignReference: id
+      onDelete: restrict
+    sf_guard_user_id: 
+      type: INTEGER
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: restrict
+    company: 
+      type: VARCHAR
+      size: 255
+    vat_number: 
+      type: VARCHAR
+      size: 255
+    bank_number: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 255
+    surname: 
+      type: VARCHAR
+      size: 255
+    street: 
+      type: VARCHAR
+      size: 255
+    house: 
+      type: VARCHAR
+      size: 255
+    flat: 
+      type: VARCHAR
+      size: 255
+    code: 
+      type: VARCHAR
+      size: 255
+    town: 
+      type: VARCHAR
+      size: 255
+    phone: 
+      type: VARCHAR
+      size: 255
+    description: 
+      type: LONGVARCHAR
+    provision: 
+      type: VARCHAR
+      size: 255
+    amount: 
+      type: VARCHAR
+      size: 255
+    system_value: 
+      type: INTEGER
+    is_active: 
+      type: BOOLEAN
+      default: 1
+    is_system: 
+      type: BOOLEAN
+      default: 0
+    is_confirm: 
+      type: BOOLEAN
+      default: 0
+  st_partner_hash: 
+    _attributes: 
+      phpName: PartnerHash
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    partner_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_partner
+      foreignReference: id
+      onDelete: restrict
+    hash: 
+      type: VARCHAR
+      size: 255

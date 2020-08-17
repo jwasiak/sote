@@ -1,0 +1,144 @@
+<div id="header">
+    <div id="logo" class="text-center hidden-xs">
+        <div>
+            <a href="{$homepage_url}">
+                <img src="{image_path image='logo.png'}" alt="Logo" />
+            </a>
+        </div> 
+    </div> 
+    <div id="header-box">
+        <nav id="header-navbar" class="navbar" role="navigation">
+            <div id="logo_small" class="visible-xs">
+                    <div>
+                        <a href="{$homepage_url}">
+                            <img src="{image_path image='logo_small.png'}" alt="Logo" />
+                        </a>
+                     </div>
+                </div> 
+            <div class="container">                  
+                <div id="navbar-buttons" class="btn-group pull-right">  
+                    <button id="nav-button-search" type="button" class="btn btn-navbar hidden-xs collapsed" data-toggle="collapse" data-target="#nav-search"  data-parent="#header-navbar">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>  
+                    <button id="nav-button-shopping-cart" class="btn btn-navbar collapsed empty" data-toggle="collapse" data-target="#nav-shopping-cart"  data-parent="#header-navbar">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <small class="quantity"></small>
+                    </button>
+
+                    {if !$sf_user->isAuthenticated()} 
+                    <a href="{url_for internal='stUser/loginUser' secure=true}" id="nav-button-user" class="hidden-xs btn btn-navbar collapsed">
+                        <span id="login-status-info" class="glyphicon glyphicon-user"></span>
+                        <small class="login-status">&nbsp;</small>
+                    </a> 
+                    <button id="nav-button-user" class="visible-xs btn btn-navbar collapsed" data-toggle="collapse" data-target="#nav-user" data-parent="#header-navbar">
+                        <span id="login-status-info" class="glyphicon glyphicon-user"></span>
+                        <small class="login-status">&nbsp;</small>
+                    </button>     
+                    {else}
+                    <button id="nav-button-user" class="btn btn-navbar collapsed" data-toggle="collapse" data-target="#nav-user" data-parent="#header-navbar">
+                        <span id="login-status-info" class="glyphicon glyphicon-user"></span>
+                        <small class="login-status">&nbsp;</small>
+                    </button>            
+                    {/if}                                 
+                    <button id="nav-button-settings" class="btn btn-navbar hidden-xs collapsed" data-toggle="collapse" data-target="#nav-settings" data-parent="#header-navbar">
+                        <span class="glyphicon glyphicon-globe"></span>
+                    </button>                                                                  
+                </div>           
+                <div class="navbar-header">
+                    <button id="nav-button-menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" data-parent="#header-navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                            
+                </div>               
+                <!-- Menu -->
+                    <div id="nav-menu" class="navbar-collapse collapse">
+                        {st_get_component module="stCategoryTree" component="horizontal"}
+                    </div>            
+                <div class="navbar-dropdown">                
+                    <!-- Koszyk -->
+                    <div id="nav-shopping-cart" class="navbar-collapse collapse">
+                            {st_get_component module="stBasket" component="show"}
+                    </div>        
+
+                    <div id="nav-user" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Moje konto, Język, Waluta -->                    
+                            {st_get_component module="stUser" component="loginStatus"}                                                           
+                        </ul>
+                    </div>
+
+                    {strip}
+                    <div id="nav-settings" class="hidden-xs navbar-collapse collapse">
+                        <ul class="nav navbar-nav">    
+                            <li class="dropdown">
+                                {st_get_component module="stLanguageFrontend" component="choose"}
+                            </li>
+                            <li class="dropdown">
+                                {st_get_component module="stCurrencyFrontend" component="pickCurrency"}
+                            </li>                                                           
+                        </ul>
+                        {slot name="nav-setting" hidden="true"}{/slot}
+                    </div>
+                    {/strip}
+
+                    <div id="nav-search" class="navbar-collapse collapse hidden-xs">
+                        {include_file id="_search"}
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+{literal}
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+   if ($('#nav-settings  > ul > li:empty').length == 2)
+   {
+      $('#nav-button-settings').hide();
+   } 
+
+   function fixedMenu() {
+        var nav = $('#header');
+        var topHeight = 5 + 29 + 22 + $('#logo').height();
+        var topHeightBox = $('#header-box').height();
+        var dropdown = $('#header-navbar .dropdown-menu');
+        var windowHeight = $(window).height();
+        if ($(window).width() > 768) {
+
+            if ($(this).scrollTop() > topHeight) {
+                nav.addClass("f-nav");
+                $('#header-box').css('height', topHeightBox);
+                dropdown.css('max-height', windowHeight - topHeightBox - 15);
+            } else {
+                nav.removeClass("f-nav");
+                $('#header-box').css('height', '');
+                dropdown.css('max-height', windowHeight - topHeight - topHeightBox - 15);
+            }
+
+        } else {
+            dropdown.removeAttr("style");
+        }
+    }
+
+    $(document).ready(function () {
+        fixedMenu();
+        if ($(window).width() < 768) {
+            var windowHeightMobile = $(window).height();
+            var menuHeightMobile = $('#header-navbar').height();
+            $('#header-navbar .navbar-collapse').css('max-height', windowHeightMobile - menuHeightMobile);
+        };  
+    });
+    $(window).scroll(function () {
+        fixedMenu();
+    });
+    $(window).resize(function () {
+        fixedMenu();
+    });
+
+
+});
+//]]>
+</script> 
+{/literal}

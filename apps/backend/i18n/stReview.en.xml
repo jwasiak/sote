@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Recenzje</source>
+                <target>Reviews</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie produktami w sklepie.</source>
+                <target>Manage your products.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Recenzje</source>
+                <target>Reviews</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Lista recenzji produktu %%_st_review.product_review%%</source>
+                <target>List of your product reviews - %%_st_review.product_review%%</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Dodaj recenzję</source>
+                <target>Add a review</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wpisz recenzję</source>
+                <target>Enter a review</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Podaj ocenę produktu</source>
+                <target>Select a rating</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Minimalna ocena wynosi 1</source>
+                <target>The minimum rating is 1</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Maksymalna ocena wynosi 5</source>
+                <target>The maximum rating is 5</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Administrator</source>
+                <target>Administrator</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Recenzję można dodać z poziomu produktu</source>
+                <target>Add a review in the edit of the product</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Recenzja od administratora</source>
+                <target>Reviewed by administrator</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Recenzje produktów.</source>
+                <target>Products reviews.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dodaj recenzję produktu %%_st_review.product_review%%</source>
+                <target>Add the product review - %%_st_review.product_review%%</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Lista recenzji zamówień</source>
+                <target>List of orders reviews</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Podpis anonimowego użytkownika</source>
+                <target>Signature of an anonymous user</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Recenzja</source>
+                <target>Review</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Produkt</source>
+                <target>Product</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Klient</source>
+                <target>Customer</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Ocena</source>
+                <target>Rating</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Wyświetlana</source>
+                <target>Shown</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Edycja recenzji</source>
+                <target>Edit a review</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Utworzona</source>
+                <target>Created</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Publikacja</source>
+                <target>Publication</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Podpis</source>
+                <target>Signature</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Język wpisu</source>
+                <target>Language</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Akcje</source>
+                <target>Actions</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Język</source>
+                <target>Language</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Wysłano mniej niż godzinę temu</source>
+                <target>You sent less than an hour ago</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Wysłano</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>godzinę temu</source>
+                <target>an hour ago</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>godzin temu</source>
+                <target>an hour ago</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>dzień temu</source>
+                <target>day ago</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>dni temu</source>
+                <target>days ago</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Kliknij aby wysłać prośbę o recenzję.</source>
+                <target>Click to send a request for a review.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Kliknij aby wysłać ponownie.</source>
+                <target>Click to send again.</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Ustawienie wysyłania maili</source>
+                <target>Set to send e-mails</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Wysyłaj przy zmianie statusu</source>
+                <target>Send at change of status</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Dla statusu zamówienia</source>
+                <target>For order status</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Wysyłaj dla</source>
+                <target>Send to</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Treść wiadomości</source>
+                <target>Message content</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Dla najdroższego produktu</source>
+                <target>For the most expensive item</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Dla pierwszego</source>
+                <target>For the first</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Wiadomości będą automatycznie wysyłane po zmianie statusu zamówienia.</source>
+                <target>Messages will be automatically sent after the change of status of the order.</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>W przypadku większej ilości produktów w zamówieniu, automatyczna prośba o recenzę będzie wysyłana do jednego produktu.</source>
+                <target>For more products in the order, automatic request for recenze will be sent to a single product.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Dziękujemy !</source>
+                <target>Thank you !</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+                <target>This message was sent from an online store</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Dodaj opinię</source>
+                <target>Add review</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Twoja opinia o</source>
+                <target>Your opinion about</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Link do recenzji</source>
+                <target>Link to review</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Wyróżnij</source>
+                <target>Highlight</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Zweryfikowane</source>
+                <target>Verified</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Zweryfikowane</source>
+                <target>Verified</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Usuń zdjęcie</source>
+                <target>Delete photo</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Recenzja zostanie przypięta do góry.</source>
+                <target>The review will be pinned to the top.</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Wyróżniona</source>
+                <target>Highlight</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

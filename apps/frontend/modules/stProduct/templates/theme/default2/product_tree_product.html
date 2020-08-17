@@ -1,0 +1,4 @@
+{assign var=category_url value=$category->getFriendlyUrl()}
+{st_link_to uri="stProduct/list?url=$category_url"}
+{st_product_image_tag product=$product image_type=thumb}
+{/st_link_to}

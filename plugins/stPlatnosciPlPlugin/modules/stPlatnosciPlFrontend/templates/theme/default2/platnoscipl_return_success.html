@@ -1,0 +1,24 @@
+<div id="st_box_payment" class="box roundies">
+    <div class="content">
+        <p><img src="/plugins/stPlatnosciPlPlugin/images/payu.png" alt=""/></p>
+        <p>{__ text="Dziękujemy za dokonanie płatności."}</p>
+        <form action="{$homepage_url}" class="buttons" method="get">
+            <p>
+                <button type="submit" class="important roundies">
+                    <span>{__ text="Wróć do zakupów" langCatalogue="stBasket"}</span>
+                </button>
+            </p>
+        </form>
+    </div>
+</div>
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $('#st_box_payment form').submit(function() {
+            var form = $(this);
+            window.location = form.attr('action');
+            return false;
+        });
+    });
+</script>
+{/literal}

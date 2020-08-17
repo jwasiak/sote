@@ -1,0 +1,8 @@
+_updateInfo:
+  enabled: on
+  lifetime: 43200
+
+additionalApplicationsList:
+  enabled: on
+  clientLifeTime: 0
+  lifeTime: 0

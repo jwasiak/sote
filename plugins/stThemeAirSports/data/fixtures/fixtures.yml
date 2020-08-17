@@ -1,0 +1,6 @@
+Theme:
+  Theme_airsports:
+    base_theme_id:  Theme_argentorwd
+    name:           airsports
+    version:        7
+    is_system_default: 1

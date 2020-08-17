@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Edycja pliku .htaccess</source>
+                <target>.htaccess file editing</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Początek pliku</source>
+                <target>Beginning of the file</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Środek pliku</source>
+                <target>Center of the file</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Koniec pliku</source>
+                <target>End of the file</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Błąd podczas walidacji danych.</source>
+                <target>Error during data validation.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Sprawdź poprawność wprowadzonych danych.</source>
+                <target>Validate the entered data.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

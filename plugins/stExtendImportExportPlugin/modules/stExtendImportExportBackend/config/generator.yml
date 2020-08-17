@@ -1,0 +1,41 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Product
+        theme:                      simple
+
+        include_action_files: [/plugins/stImportExportPlugin/config/generator/extendActions.php]
+        include_component_files: [/plugins/stImportExportPlugin/config/generator/extendComponents.php]
+
+        import_export_model_class: stExtendImportExport
+
+        export:
+            default:        stExporterCsv
+            title:          Eksport opisów
+            description:    Description export for different languages
+
+            fields:             
+                code:               {name: "Kod"}
+                culture:            {name: "Wersja językowa", class: stExtendImportExport, method: getCulture, sample: Sote}
+                name:               {name: "Nazwa", class: stExtendImportExport, method: getName}
+                full_description:   {name: "Opis pełny", class: stExtendImportExport, method: getDescription}
+                short_description:  {name: "Opis skrócony", class: stExtendImportExport, method: getShortDescription}
+                add_description:    {name: "Opis dodatkowy", class: stExtendImportExport, method: getDescription2}
+                uom:                {name: "Jednostka miary", class: stExtendImportExport, method: getUom}
+                attributes_label:   {name: "Atrybuty - tytuł", class: stExtendImportExport, method: getAttributesLabel, i18n_file: stProduct}
+
+        import:
+            default:        stImporterCsv
+            title:          Import opisów
+            description:    Import opisów dla wersji językowych
+            
+            fields:             
+                code:               {name: "Kod", class: stExtendImportExport, type: custom}
+                culture:            {name: "Wersja językowa", class: stExtendImportExport, method: setCulture, sample: Sote}
+                name:               {name: "Nazwa", class: stExtendImportExport, method: setName}
+                full_description:   {name: "Opis pełny", class: stExtendImportExport, method: setDescription}
+                short_description:  {name: "Opis skrócony", class: stExtendImportExport, method: setShortDescription}
+                add_description:    {name: "Opis dodatkowy", class: stExtendImportExport, method: setDescription2}
+                uom:                {name: "Jednostka miary", class: stExtendImportExport, method: setUom}
+                attributes_label:   {name: "Atrybuty - tytuł", class: stExtendImportExport, method: setAttributesLabel, i18n_file: stProduct}
+            primary_key:            code

@@ -1,0 +1,128 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_payment: 
+    _attributes: 
+      phpName: Payment
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_guard_user_id: 
+      type: INTEGER
+      required: false
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: restrict
+    payment_type_id: 
+      type: INTEGER
+      foreignTable: st_payment_type
+      foreignReference: id
+      onDelete: restrict
+      required: false
+    amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    status: 
+      type: BOOLEAN
+      required: true
+      default: 0
+    in_progress:
+      type: BOOLEAN
+      required: true
+      default: 0  
+    cancel: 
+      type: BOOLEAN
+      required: true
+      default: 0
+    transaction_id:
+      type: VARCHAR
+      size: 36
+      required: false
+    hash: 
+      type: CHAR
+      size: 32
+    payment_security_hash:
+      type: CHAR
+      size: 40
+    payed_at: 
+      type: TIMESTAMP
+    version: 
+      type: INTEGER
+    configuration:
+      type: VARCHAR
+      size: 1024
+      phpType: array
+    _indexes:
+      transaction_id_idx:
+        - transaction_id
+  st_payment_type: 
+    _attributes: 
+      phpName: PaymentType
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    module_name: 
+      type: VARCHAR
+      size: 32
+    hide_module:
+      type: BOOLEAN
+      default: 0
+      required: true
+    hide_for_configuration:
+      type: BOOLEAN
+      default: 0
+      required: true
+    hide_for_wholesale:
+      type: BOOLEAN
+      default: 0
+      required: true
+    active: 
+      type: BOOLEAN
+      default: 1
+      required: true
+    image: 
+      type: VARCHAR
+      size: 255
+    configuration:
+      type: VARCHAR
+      size: 1024
+      phpType: array
+    opt_name: 
+      type: VARCHAR
+      size: 128
+      required: true
+    opt_description: 
+      type: LONGVARCHAR
+    opt_summary_description: 
+      type: LONGVARCHAR
+  st_order_has_payment: 
+    _attributes: 
+      phpName: OrderHasPayment
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    payment_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_payment
+      foreignReference: id
+      onDelete: cascade

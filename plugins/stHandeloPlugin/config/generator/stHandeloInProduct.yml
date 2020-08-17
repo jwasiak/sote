@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_handelo:         {name: Handelo, class: stHandelo, method: getProduct}
+
+import:
+    fields:
+        product_handelo:         {class: stHandelo, method: setProduct}

@@ -1,0 +1,219 @@
+#paczkomaty_overlay
+{
+    display:none;
+    z-index:10000;
+    background-color:#fff;
+    width: 900px;
+    height: 600px;
+
+    border:1px solid #666;
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -webkit-border-radius-topleft:8px;
+    -webkit-border-radius-bottom-left:8px;
+    -webkit-border-radius-bottom-right:8px;
+}
+
+.paczkomaty_overlay_content
+{
+    height: 580px;
+    margin: 10px;
+    overflow: hidden;
+    color: #262626;
+}
+
+#paczkomaty_overlay .close
+{
+    background-image: url('/images/frontend/theme/default2/buttons/close.png');
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor: pointer;
+    height:35px;
+    width:35px;
+    z-index: 1;
+}
+
+#st_paczkomaty_map_machine {
+    width: 275px;
+    font-weight: normal;
+}
+
+#st_paczkomaty_map_machine p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#st_paczkomaty_map_machine_name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#st_paczkomaty_map_machine_address {
+    padding: 5px 0px 0px;
+    font-size: 0.90em;
+}
+
+#st_paczkomaty_map_machine_button {
+    text-align: center;
+}
+
+#st_paczkomaty_map_machine_button a {
+    display: inline-block;
+    padding-top: 7px;
+    margin-left: 15px;
+    margin-bottom: 1px;
+}
+
+/*
+#app_paczkomaty_map_point_open_time {
+    padding: 5px 0px 10px;
+}
+
+#app_paczkomaty_map_point_open_time_header {
+    font-weight: bold;
+}
+
+#app_paczkomaty_map_point_open_time div span {
+    clear: left;
+}
+
+#app_paczkomaty_map_point_open_time div span {
+    float: left;
+    padding-right: 5px;
+    text-align: right;
+    width: 135px;
+}
+*/
+
+
+.paczkomaty_active_overlay {
+    cursor:pointer;
+}
+
+.st_paczkomaty_delivery_address {
+    padding: 5px 0 13px;
+    color: #969696;
+}
+
+.paczkomaty_active_overlay {
+    padding: 5px 0 5px 16px;
+    background: url('/images/frontend/theme/default2/stPaczkomatyPlugin/delivery_place.png') left center no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.paczkomaty_active_overlay:hover {
+    text-decoration: underline;
+}
+/*
+#paczkomaty_additional_price {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.app_paczkomaty_delivery_price {
+    float: right;
+    font-size: 11px;
+    padding: 5px 0px;
+}
+
+#app_paczkomaty_basket_terms_checkbox {
+    float: left;
+    margin-right: 3px;
+}
+
+#app_paczkomaty_basket_terms_text {
+    float: left;
+    width: 332px;
+}
+*/
+
+#st_paczkomaty_map_content_loading {
+    float: left;
+    height: 100%; 
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    z-index: 10001;
+}
+
+#st_paczkomaty_map_content {
+    float: left;
+    height: 100%; 
+    width: 30%; 
+    display: none;
+}
+
+#st_paczkomaty_map_post_code {
+    margin: 8px 10px 15px 0;
+    padding: 5px 10px 10px;
+    border: 1px solid #EEEEEE;
+}
+
+#st_paczkomaty_map_post_code_input {
+    width: 50px;    
+}
+
+#st_paczkomaty_map_post_code_button {
+    background-color: #EEEEEE;
+}
+
+#st_paczkomaty_map_cities_box {
+    margin: 8px 10px 15px 0;
+    padding: 5px 10px 10px;
+    border: 1px solid #EEEEEE;
+}
+
+#st_paczkomaty_map_list_box {
+    margin: 0 10px 0px 0;
+    padding: 5px 10px 10px;
+    border: 1px solid #EEEEEE;
+}
+
+#st_paczkomaty_map_post_code h3, #st_paczkomaty_map_cities_box h3, #st_paczkomaty_map_list_box h3 {
+    font-size: 1em;
+    background-color: #FFFFFF;
+    margin-top: -1.3em;
+    padding: 0 5px;
+    color: #919191;
+    margin-bottom: 0.3em;
+    float: left;
+}
+
+#st_paczkomaty_map_machines_list_div {
+    border: 1px solid #EEEEEE;
+    height: 420px; 
+    overflow-y: auto;
+}
+
+.st_paczkomaty_map_machines_list_element {
+    padding: 3px;
+    color: #525252;
+    cursor: pointer;
+}
+
+#st_paczkomaty_map_machines_list li:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+#st_paczkomaty_map_post_code_error {
+    display: none;
+}
+
+#st_paczkomaty_map_post_code_error img {
+    vertical-align: middle;
+}
+
+.st_paczkomaty_select_error {
+    display: inline-block;
+    padding: 0px 10px 0px 8px;
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px #cccccc;
+}

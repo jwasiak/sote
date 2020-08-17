@@ -1,0 +1,37 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stAvailabilityPlugin.lib.model
+  st_availability: 
+    _attributes: 
+      phpName: Availability
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_asset_id: 
+      type: INTEGER
+      required: false
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: setnull
+    stock_from: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+    is_system_default: 
+      type: BOOLEAN
+    opt_availability_name: 
+      type: LONGVARCHAR
+    color: 
+      type: VARCHAR
+      size: 6
+    image: 
+      type: VARCHAR
+      size: 255

@@ -1,0 +1,10 @@
+data:
+    max_quantity: 1000
+    show_products: 0
+    show_crosseling: 1
+    show_code_in_basket: 0
+    show_photo_in_basket: 1
+    show_netto_in_basket: 0
+    show_tax_in_basket: 0
+    show_uom_in_basket: 0
+    ajax: true

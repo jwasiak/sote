@@ -1,0 +1,39 @@
+changelog:
+    stUser-2.0.0.54:
+        version: {min: 1.0.0, max: 2.0.0.47}
+        priority: 1
+        url: http://www.sote.pl/soteshop/update
+        method:
+            name: smartyTemplatesChanged
+            params:
+                files:
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_order_form.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/user_form.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_order_form_billing.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_order_form_delivery.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_basket_form.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_basket_form_login_billing.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_basket_form_login_delivery.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_basket_profile.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_create_first_user_data.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_edit_profile.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_edit_profile_form.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_edit_profile_list.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_user_panel_menu.html
+                    - apps/frontend/modules/stUserData/templates/theme/[MY_THEME]/userdata_user_panel.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_basket_login.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_confirm_send_password.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_create_account.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_create_new_password.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_create_password.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_edit_account.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_email_confirm.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_login_status.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_login_user.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_logout_user.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_privacy.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_remind_password.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_show_privacy.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_userWaitConfirm.html
+                    - apps/frontend/modules/stUser/templates/theme/[MY_THEME]/user_userWaitConfirmRemind.html
+                    - web/css/frontend/theme/[MY_THEME]/stUser.css 

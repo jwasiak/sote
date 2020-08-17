@@ -1,0 +1,21 @@
+<ul class="pagination">
+    {if $current_page!=1}
+        <li><a href="{$previous_page_url}">&laquo;</a></li>
+    {else}
+        <li style="visibility: hidden"><a href="#">&laquo;</a></li>
+    {/if}
+
+    {foreach item=link from=$links}
+        {if $link.page == $current}
+            <li class="active"><a href="#">{$link.page}</a></li>
+        {else}
+            <li><a href="{$link.url}">{$link.page}</a></li>
+        {/if}
+    {/foreach}
+    
+    {if $current_page!=$last_page}
+        <li><a href="{$next_page_url}">&raquo;</a></li>
+    {else}
+        <li style="visibility: hidden"><a href="#">&raquo;</a></li>
+    {/if}
+</ul>

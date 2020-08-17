@@ -1,0 +1,39 @@
+edit:
+    menu:
+        display:                        [discount]
+        fields:                 
+            discount:                   {name: Grupy rabatowe, action: stProduct/discountList?product_id=%%id%%}
+    display:                            
+        "NONE":                         [max_discount]
+    fields:
+        max_discount:                   {name: Maksymalny rabat [%]}
+
+discount_model_class:                   Discount
+
+custom_actions:
+    list:                               [discount]   
+    edit:                               [discount]
+        
+discount_list:
+    forward_parameters:                 [product_id]
+    fields:
+        id:                             {name: ID}
+        name:                           {name: Nazwa, params: size=50}
+        value:                          {name: Rabat}
+        priority:                       {name: Priorytet}
+    build_options:
+        through_class:                  DiscountHasProduct         
+        related_id:                     forward_parameters.product_id         
+    display:                            [name, value, priority]
+    menu:                               {use: edit.menu}
+    description:                        Zarządzanie produktami w sklepie.
+    title:                              Grupy rabatowe produktu
+    object_actions:                     []
+    actions:                            []
+    
+export:
+    fields:             
+        max_discount:                   {name: Maksymalny_rabat, type: double, sample: 50}
+import:
+    fields:             
+        max_discount:                   {name: Maksymalny_rabat, type: double, sample: 50, class: stDiscount}        

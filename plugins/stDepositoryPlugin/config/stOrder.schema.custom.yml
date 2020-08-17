@@ -1,0 +1,6 @@
+propel:
+  st_order:
+    _attributes:      {phpName: Order}
+    change_stock_on:   
+      type: VARCHAR
+      size: 45

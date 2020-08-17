@@ -1,0 +1,136 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stTrustedShopsPlugin.lib.model
+  st_trusted_shops: 
+    _attributes: 
+      phpName: TrustedShops
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    certificate: 
+      type: VARCHAR
+      size: 255
+    username: 
+      type: VARCHAR
+      size: 255
+    password: 
+      type: VARCHAR
+      size: 255
+    type: 
+      type: VARCHAR
+      size: 20
+    url: 
+      type: VARCHAR
+      size: 255
+    language: 
+      type: VARCHAR
+      size: 2
+    status: 
+      type: VARCHAR
+      size: 255
+    logo: 
+      type: BOOLEAN
+    rating_widget: 
+      type: BOOLEAN
+    rating_status: 
+      type: BOOLEAN
+    rating_in_order_mail: 
+      type: BOOLEAN
+    trustbadge_code:
+      type: LONGVARCHAR
+  st_trusted_shops_has_payment_type: 
+    _attributes: 
+      phpName: TrustedShopsHasPaymentType
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    trusted_shops_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_trusted_shops
+      foreignReference: id
+      onDelete: cascade
+    payment_type_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_payment_type
+      foreignReference: id
+      onDelete: restrict
+    method: 
+      type: VARCHAR
+      size: 255
+  st_trusted_shops_protection_products: 
+    _attributes: 
+      phpName: TrustedShopsProtectionProducts
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    trusted_shops_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_trusted_shops
+      foreignReference: id
+      onDelete: cascade
+    currency: 
+      type: VARCHAR
+      size: 5
+    gross: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    duration: 
+      type: INTEGER
+    product_id: 
+      type: VARCHAR
+      size: 255
+  st_trusted_shops_has_order: 
+    _attributes: 
+      phpName: TrustedShopsHasOrder
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    trusted_shops_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_trusted_shops
+      foreignReference: id
+      onDelete: restrict
+    order_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: restrict
+    status: 
+      type: VARCHAR
+      size: 255
+    checked: 
+      type: BOOLEAN

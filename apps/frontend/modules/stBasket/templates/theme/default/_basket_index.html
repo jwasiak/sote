@@ -1,0 +1,43 @@
+<div id="st_application-st_basket-index" class="st_application">
+    <h1 class="st_title">{__ text="Twój koszyk"}</h1>         
+    <div class="st_content_basket">
+        <div class="st_button st_align-left" id="st_basket-back_button">
+            <div class="st_button-left">{$button_back}</div>
+        </div> 
+        <br class="st_clear_all" />  
+        
+        {if $if_warning || $if_notice}
+            <div id="st_message-warning"><h2>{$show_warning}</h2></div>
+        {/if}
+
+        {if $products}
+            <div id="st_basket-product_list">{$product_list}</div>
+            
+            <form action="#" id="st_basket-delivery-form">
+            <div id="st_basket-delivery">{$delivery}</div>
+            {if $has_deliveries}
+            <div id="st_basket-payment">{$payment}</div>
+            {/if}
+            <div id="st_basket-summary">
+               {$total}
+            </div>
+            </form>
+
+            <div id="st_basket-discount-coupon-code">
+               {$discount_coupon_code}
+            </div>
+            {$gift_card}
+            <br class="st_clear_all"/>
+            <div id="st-trusted_shops">{$trusted_shops}</div>
+            {if $show_products == 1}
+            <div>{$products_promote}</div>
+            {/if}
+            <div id="st_basket-user">{$user_form}</div>
+        {else}
+            {if $show_products == 1}
+            <div id="st-basket-product_group">{$product_basket}</div>
+            {/if}
+        {/if}
+        <br class="st_clear_all" />  
+    </div>
+</div>

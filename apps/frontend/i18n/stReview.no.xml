@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ocena i recenzja zakupionych produktów</source>
+				<target>Evaluering og omtale av kjøpte produkter</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji dla produktu</source>
+				<target>Jeg samtykker til at min produktomtale publiseres</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Recenzje produktów niepublikowane</source>
+				<target>Produktomtaler publiseres ikke</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapisz</source>
+				<target>Lagre</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Moje konto</source>
+				<target>Min konto</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Lista recenzji zamówień</source>
+				<target>Liste over produktomtaler</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Pokaż recenzje</source>
+				<target>Vis produktomtaler</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Recenzje zamówień</source>
+				<target>Ordreomtaler</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Recenzje produktów</source>
+				<target>Produktomtaler</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Recenzja do zamówienia</source>
+				<target>Ordreomtale</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data dodania</source>
+				<target>Lagt til</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Treść</source>
+				<target>Innhold</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ocena</source>
+				<target>Evaluering</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Publikacja</source>
+				<target>Publikasjon</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Aktywny</source>
+				<target>Aktiv</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>zezwolono</source>
+				<target>godkjent</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>oczekuje na zezwolenie</source>
+				<target>venter på godkjenning</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>tak</source>
+				<target>ja</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>oczekuje na autoryzację</source>
+				<target>venter på autorisering</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktualnie nie posiadasz zrecenzowanych zamówień</source>
+				<target>Du har ingen omtalte ordre</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zrecenzowane</source>
+				<target>Omtalt</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj recenzję</source>
+				<target>Legg til produktomtale</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Recenzja dla zamówienia nr</source>
+				<target>Omtale til ordre nr.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Lista recenzji produktów</source>
+				<target>Liste over produktomtaler</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Recenzowany produkt</source>
+				<target>Produkt som omtales</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Aktualnie nie posiadasz zrecenzowanych produktów</source>
+				<target>Du har ingen omtalte produkter</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Administrator</source>
+				<target>Administrator</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Produkty ocenione i zrecenzowane z tego zamówienia</source>
+				<target>Evaluerte og omtalte produkter fra denne ordre</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Dodano</source>
+				<target>Lagt til</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ocena i recenzja transakcji</source>
+				<target>Evaluering og omtale av transaksjonen</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Pozytywna</source>
+				<target>Positiv</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Neutralna</source>
+				<target>Nøytral</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Negatywna</source>
+				<target>Negativ</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji transakcji</source>
+				<target>Jeg samtykker til at min omtale publiseres</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Recenzje</source>
+				<target>Omtaler</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Autor</source>
+				<target>Kunde</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>pozytywna</source>
+				<target>positiv</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>neutralna</source>
+				<target>nøytral</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>negatywna</source>
+				<target>negativ</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Produkt nie posiada recenzji</source>
+				<target>Produktet har ingen omtaler</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak oceny produktu</source>
+				<target>Produktet har ingen evaluering</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak recenzji produktu</source>
+				<target>Produktet har ingen omtaler</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>recenzji</source>
+				<target>produktomtaler</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Recenzje użytkowników</source>
+				<target>Brukeromtaler</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Recenzja oczekuje na publikacje</source>
+				<target>Omtalen venter på publisering</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Recenzja produktu</source>
+				<target>Produktomtale</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoja ocena</source>
+				<target>Din vurdering</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Recenzja</source>
+				<target>Anmeldelse</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Podpis</source>
+				<target>Signatur</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Cyfry z obrazka</source>
+				<target>Tallene fra bilde</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Wyślij</source>
+				<target>Send</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wprowadzono zły numer.</source>
+				<target>Ugyldig nummer.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

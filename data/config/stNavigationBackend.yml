@@ -1,0 +1,23 @@
+all:
+  .auto_generated:
+    config:
+      last_modified: '2009/06/29 16:59:32'
+      fields:
+        view_type: '0'
+        bar: '1'
+        navigation: '1'
+        historyOn: '1'
+        history: '1'
+        history_link: '1'
+        history_products: '20'
+        decrease: '0'
+        decrease_last: '0'
+        decrease_length: '20'
+        history_box: '1'
+        history_box_limit: '3'
+        navigation_start_name: 'Start'
+        _i18n:
+          en_US:
+            navigation_start_name: 'Start'
+          zh:
+            navigation_start_name: '开始'

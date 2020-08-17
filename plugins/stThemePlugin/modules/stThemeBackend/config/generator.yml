@@ -1,0 +1,106 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Theme
+        content_model_class:        ThemeContent
+
+        theme:                      simple
+        head:
+            applications:           []
+            package:                stThemePlugin
+
+        custom_actions:
+            custom:                 [config]
+            list:                   [content]
+            edit:                   [content]
+
+        header:                     
+           label:                   Temat "%%name%%"  
+           route:                   @stThemePlugin   
+
+        list:
+            title:                  Lista tematów
+            description:            Zarządzanie tematami
+            display:                [=_theme, active, _is_responsive]
+            object_actions:
+                _edit:              -
+                preview:            {name: Podgląd, action: "/frontend_theme.php?theme=%%name%%&theme_culture=%%backend_culture%%", i18n: stThemeBackend, icon: backend/icons/view.png}
+                download:           {name: Pobierz temat, action: downloadTheme, i18n: stThemeBackend, icon: backend/icons/download_theme.png}
+                _delete:            -
+            fields:
+                theme:              {name: Nazwa tematu, params: size=50}
+                active:             {name: Domyślny, width: 1%}
+                is_responsive:      {name: Mobilny, width: 1%}
+
+            actions:
+                _create:            {name: Dodaj}
+
+
+        edit:
+            menu:
+              display:                [color, graphic, layout, content]
+              fields:
+                _edit:                {name: Edycja tematu}
+                color:                {name: Konfiguracja palety kolorów, action: @stThemePlugin?action=colorEdit&id=%%id%%}
+                graphic:              {name: Konfiguracja grafiki , action: @stThemePlugin?action=graphicEdit&id=%%id%%}
+                layout:               {name: Konfiguracja układu , action: @stThemePlugin?action=layoutEdit&id=%%id%%} 
+                content:              {name: Konfiguracja tekstów , action: @stThemePlugin?action=contentList&theme_id=%%id%%} 
+            title:                    Edycja tematu %%name%%
+            description:              Zarządzanie tematami
+            display:
+              "NONE":                 [_active, _responsive, _theme, _copy_theme]
+            fields:
+                theme:                {name: Nazwa tematu, params: size=50}
+                active:               {name: Domyślny, type: checkbox_tag}
+                responsive:           {name: Domyślny temat dla urządzeń mobilnych, help: "Temat będzie wyświetlany tylko na urządzeniach mobilnych (smartfon lub tablet)"}
+                copy_theme:           {hide_label: true}
+
+            actions:
+                _list:                {name: Lista}
+                preview:              {name: Podgląd, action: "/frontend_theme.php?theme=%%name%%&theme_culture=%%backend_culture%%", i18n: stThemeBackend, icon: view}
+                download:             {name: Pobierz temat, action: downloadTheme, i18n: stThemeBackend, icon: download_theme}
+                _save:                {name: Zapisz}
+                _delete:              {name: Usuń}
+
+        content_list:
+            use_helper:             [stThemeContent]
+            title:                  Konfiguracja tekstów
+            menu:                   {use: edit.menu}
+            forward_parameters:     [theme_id]
+            build_options:
+                related_id:         forward_parameters.theme_id
+            display:                [=name]
+            object_actions:
+                _edit:              -
+            fields:
+                name:               {name: Nazwa}
+                is_active:          {name: Aktywny, width: 1%}
+            
+            filters:
+                name:               {filter_field: theme_content_i18n.name}
+
+            peer_method:            doSelectWithI18n
+
+            actions:                
+                _create:            {name: Dodaj}
+
+        content_edit:
+            use_helper:             [stThemeContent]
+            title:                  Konfiguracja tekstów - Edycja "%%backend_name%%"
+            menu:                   {use: edit.menu}
+            forward_parameters:     [theme_id]
+            build_options:
+                related_id:         forward_parameters.theme_id
+            display:               [content_id, name, content]
+
+            fields:
+                content_id:         {name: Id}
+                name:               {name: Nazwa, type: input_tag}
+                content:            {name: Zawartość, type: textarea_tag, params: cols=50}
+
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+
+
+           

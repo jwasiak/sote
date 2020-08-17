@@ -1,0 +1,8 @@
+propel:
+    sf_guard_user:
+        _attributes: { phpName: sfGuardUser }
+        opt_allegro_user_id:
+          type: INTEGER
+        _indexes:
+          opt_allegro_user_id_idx: 
+            - opt_allegro_user_id

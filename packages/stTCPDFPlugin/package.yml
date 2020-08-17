@@ -1,0 +1,14 @@
+---
+package: 
+  name: stTCPDFPlugin
+  stability: stable
+  version: 7.4.0.0
+  summary: Generowanie plikow pdf
+  description: Generowanie plikow pdf
+  notes: |
+     - Aktualizacja dla PHP 7.0.x oraz 7.1.x
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

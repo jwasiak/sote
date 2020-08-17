@@ -1,0 +1,8 @@
+theme:
+    .settings:     
+        error_reporting:        0
+        no_script_name:         off
+        cache:                  on
+        compressed:             off
+        timeout:                43200
+        web_debug:              off

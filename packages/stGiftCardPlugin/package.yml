@@ -1,0 +1,13 @@
+package:
+  name: stGiftCardPlugin
+  stability: stable
+  version: 7.1.0.9
+  summary: 'Bony zakupowe'
+  description: 'Zarzadzanie bonami zakupowymi w sklepie'
+  notes: |
+    - Dodanie mozliwosci przypisywania wszystkich kategorii
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

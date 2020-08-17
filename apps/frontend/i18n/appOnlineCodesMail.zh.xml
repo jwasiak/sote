@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>dodatkowe dane do zamówienia</source>
+				<target>订单的备注</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dodatkowe dane do zamówienia</source>
+				<target>订单的备注</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwa produktu</source>
+				<target>商品名称</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Kod</source>
+				<target>邮政编码</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Link do pliku</source>
+				<target>文件链接</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

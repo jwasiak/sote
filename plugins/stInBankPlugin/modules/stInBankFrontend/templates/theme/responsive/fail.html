@@ -1,0 +1,17 @@
+<div class="panel panel-default center-block">
+    <div id="payu-panel-body" class="panel-body text-center">
+        <p>
+            <img src="/plugins/stInBankPlugin/images/logo.svg" alt="" style="max-width: 150px"  />
+        </p>
+        <p>
+            {__ text="Wystąpił problem podczas realizacji płatności"}<br/>
+        </p>
+        {if $contact_url}
+            <p>
+                <a href="{$contact_url}" class="btn btn-primary">
+                    {__ text="Skontaktuj się z nami"}
+                </a>      
+            </p>
+        {/if}
+    </div>
+</div>

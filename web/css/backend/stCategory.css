@@ -1,0 +1,109 @@
+#category_tree_form {
+   border: 1px solid #ccc;
+   padding: 10px;
+   float: left;
+   margin-bottom: 10px;
+   margin-left: 10px;
+}
+
+#category_tree_form label {
+  font-size: 13px; 
+  vertical-align: text-top
+}
+
+#category_tree_name {
+  width: 191px;
+}
+
+
+#category_tree_form .admin_actions {
+   margin: -3px 0 0 10px;
+   float: right;
+
+}
+
+#sf_admin_container .st_ext_button-icon button
+{
+  padding-left: 18px;
+  padding-bottom: 1px;
+  background-repeat: no-repeat;
+  background-position: 1px 0px;
+  
+}
+
+#sf_admin_container .st_category-tree
+{
+    min-width: 384px;
+    height: 600px;
+    border: 1px solid #ccc; 
+    float: left;
+    margin: 0px 0px 10px 10px;
+}
+
+#sf_admin_container .st_category-tree-root a
+{
+    font-weight: bold;	
+}
+
+#sf_admin_container #st_category_tree-list li 
+{
+    padding-top: 5px;
+}
+
+#sf_admin_container #st_category_tree-list label
+{
+	float: none;
+	margin-left: 20px;
+	width: auto;
+}
+
+#sf_admin_container #st_category_tree-list input
+{
+	float:left; 
+	margin-top: 2px;
+}
+
+#sf_admin_container .st_category_tree-menu li 
+{
+    padding: 0px 2px;
+    float: left;
+}
+
+#sf_admin_container .st_category_tree-menu a 
+{
+    display: block;
+    padding: 2px;
+    border: 1px solid #eee;
+}
+
+#sf_admin_container .st_category_tree-menu a:hover 
+{
+    border-color: #555;
+}
+
+#sf_admin_container .st_category_tree-child, #container .st_category_tree-parent  
+{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#sf_admin_container .st_category_tree-parent 
+{
+    font-weight: bold;
+}
+
+#sf_admin_container .st_category_tree-name 
+{
+} 
+
+#sf_admin_container .st_category_tree-nest-number 
+{
+    margin-right: 5px;
+    float: left;
+}
+
+#st_application-st_category-content
+{
+    padding-left: 0;
+}

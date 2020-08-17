@@ -1,0 +1,30 @@
+input[type="radio"], input[type="checkbox"] 
+{
+    border: none !important;
+    padding: 0 !important;
+}
+
+#st_basket-delivery-form > .frame
+{
+	height: auto !important;
+}
+
+#st_basket-summary, #st_basket-discount-coupon-code, #st_gift_card
+{
+	margin-bottom: 30px;
+}
+
+.new_search-box #query
+{
+	padding-top: 5px;
+}
+
+fieldset
+{
+	border: none;
+}
+
+.alert_tooltip
+{
+	background-color: #E23B3B;
+}

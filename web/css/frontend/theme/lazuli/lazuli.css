@@ -1,0 +1,319 @@
+#header #logo-top
+{
+	order: 2;
+	width: 20%;
+	max-width: 20%;
+	padding: 0;
+	justify-content: center;
+}
+
+#header .slogan
+{
+	order: 1;
+	width: 40%;
+	max-width: 40%;
+}
+
+#header #top-social
+{
+	order: 3;
+	width: 40%;
+	max-width: 40%;
+}
+
+#header, #header-navbar, #nav-menu .navbar-nav > li.active > a
+{
+	background-color: #0a1114;
+}
+
+.breadcrumb > li > a:hover, .breadcrumb > li > a:focus, .breadcrumb > li > a:active, a:hover, a:focus, #vertical-categories li.active > a, .product-filter-container label:hover, .card .prices .price
+{
+	color: #2e91e6;
+}
+
+.btn, .thumbnail, .panel, .product-list .thumbnail, .form-control, select.form-control,
+#shopping-cart, #order-confirm, #order-summary, #payment, #category_info .image img
+{
+	border-radius: 7px;
+}
+
+#card-info-box .btn
+{
+	border-radius: 7px 7px 0 0;
+}
+
+.btn-primary, .information .btn-shopping-cart, .homepage-carousel .btn
+{
+	background-color: #2e91e6;
+	border-color: #2e91e6;
+}
+
+.btn-primary:hover, .information .btn-shopping-cart:hover,
+.btn-primary:focus, .information .btn-shopping-cart:focus,
+.btn-primary:active, .information .btn-shopping-cart:active,
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default, .btn-shopping-cart:hover, .btn-shopping-cart:focus, .btn-shopping-cart:active, .btn-shopping-cart.active, .homepage-carousel .btn:hover, .homepage-carousel .btn:focus, .homepage-carousel .btn:active, .category-line .product .thumbnail .caption h2 a:hover, .category-line .product .thumbnail .caption h2 a:focus, .category-line .product .thumbnail .caption h2 a:active
+{
+	background-color: #0a1114;
+	border-color: #0a1114;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:active
+{
+	background-color: #2e91e6;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus
+{
+	color: #2e91e6;	
+}
+
+.card .nav-tabs > li > a:hover, .card .nav-tabs > li.active > a, .card .nav-tabs > li.active > a:hover, .card .nav-tabs > li.active > a:focus
+{
+	border-color: #2e91e6;
+}
+
+#header .social a
+{
+	border-radius: 7px;
+	border-color: #4b555b;
+}
+
+#nav-menu .navbar-nav > li > a:hover, #nav-menu .navbar-nav > li.dropdown > a:hover, #nav-menu .navbar-nav > li.dropdown:hover > a, #nav-menu .navbar-nav > li.open > a,
+.btn-navbar, .btn-navbar:active, .btn-navbar:hover, .btn-navbar:focus, .btn-navbar.collapsed:hover
+{
+	color: #2e91e6;
+}
+
+#homepage-carousel .swiper-slide .caption h3
+{
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+#homepage-carousel .swiper-slide .caption.dark h3
+{
+	color: #202126;
+}
+
+#homepage-carousel .swiper-slide .caption b
+{
+	font-size: 23px;
+}
+
+#homepage-carousel .swiper-slide .caption.dark b
+{
+	color: #33363a;
+}
+
+.homepage-carousel .swiper-slide .caption p
+{
+	font-size: 17px;
+}
+
+.product-list .thumbnail, #main_categories .thumbnail, .category .thumbnail
+{
+	border-color: #d4dce1;
+}
+
+#main_categories .thumbnail
+{
+	padding-bottom: 5px;
+}
+
+footer .navbar-default
+{
+	background-color: #0a1114;
+	color: #929395;
+	margin-top: 40px;
+}
+
+footer .copyright, footer .list-group 
+{
+    border-color: #3d4146;
+}
+
+.btn-navbar
+{
+	border-radius: 0px;
+}
+
+.swiper-active-switch
+{
+	background-color: #2e91e6;
+	border-color: #2e91e6;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
+{
+	border-color: #2e91e6;
+	color: #2e91e6;
+}
+
+@media (min-width: 768px) {
+
+	body
+	{
+		background-color: #eef1f2;
+	}
+
+	.bg-white
+	{
+		border-radius: 7px;
+		box-shadow: 0 5px 20px rgba(0,0,0, .02);
+	}
+
+	.bg-white .bg-white
+	{
+		border-radius: 0;
+		box-shadow: none;
+		padding: 0 !important;
+	}
+
+	#two-column-layout .bg-white
+	{
+		padding-bottom: 20px;
+	}
+
+	#header-navbar
+	{
+		background-color: #2e91e6;
+	}
+
+	#nav-menu > .navbar-nav > li > a
+	{
+		font-weight: 600;
+		font-size: 16px;
+		padding-top: 17px;
+		padding-bottom: 17px;
+	}
+
+	#nav-menu > .navbar-nav > li.home-icon svg
+	{
+		stroke: currentColor;
+	}
+
+	#nav-menu > .navbar-nav > li.home-icon > a 
+	{
+	    padding: 10px 14px 10px 16px;
+	}
+
+	.product-list .thumbnail .image img
+	{
+		border-radius: 7px 7px 0 0;
+	}
+	
+	.btn-navbar
+	{
+		height: 54px;
+	}
+
+	#homepage .bg-white
+	{
+		margin-top: 0;
+	}
+	
+	#homepage-carousel .swiper-slide-desktop
+	{
+		width: 60%;
+		background-size: cover;
+		position: relative;
+		z-index: 4;
+		background-position: center;
+	}
+
+	#homepage-carousel .swiper-slide
+	{
+		display: flex;
+		align-items: stretch;
+	}
+
+	#homepage-carousel .swiper-slide .caption
+	{
+		width: 40%;
+		position: relative;
+		left: -20%;
+		transition: all 0.2s ease;
+		opacity: 0;
+		transition-delay: 0s;
+	}
+
+	#homepage-carousel .swiper-slide-active .caption,
+	#homepage-carousel .swiper-slide-duplicate-active .caption
+	{
+		left: 0px;
+		opacity: 1;
+		transition-delay: .3s;
+	}
+
+	#homepage-carousel
+	{
+		background-color: #cedce8;
+		margin-bottom: 28px;
+	}
+
+	#homepage-carousel .arrow-right, .homepage-carousel .arrow-right
+	{
+		right: 20px;
+	}
+
+	#homepage-carousel .arrow-left, .homepage-carousel .arrow-left
+	{
+		left: 20px;
+	}
+
+	#homepage-carousel .swiper-slide .caption h3
+	{
+		font-size: 94px;
+		letter-spacing: -0.07em;
+	}
+
+	#homepage-carousel .swiper-slide .caption
+	{
+		align-items: flex-start;
+		padding-left: 4%;
+		padding-right: 6%;
+	}
+
+	#homepage-carousel .swiper-slide
+	{
+		text-align: left;
+	}
+
+	#main_categories .product
+	{
+		width: 25%;
+	}
+}
+
+@media (max-width: 767px) {
+		#homepage-carousel .caption
+		{
+			background-color: #cedce8;
+		}
+
+		#homepage-carousel .swiper-slide-mobile
+		{
+			align-items: flex-end;
+		}
+
+		#homepage-carousel .caption
+		{
+			width: 88%;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			margin-bottom: 13%;
+			border-radius: 7px;
+			background-color: #cedce8;
+			padding: 5%;
+		}
+
+		#homepage-carousel .arrow-right, #homepage-carousel .arrow-left
+		{
+			display: none;
+		}
+
+		#homepage-carousel .swiper-slide .caption p
+		{
+			margin-bottom: 5px;
+		}
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Boksy informacyjne</source>
+                <target>Information boxes</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Brak boksów informacyjnych</source>
+                <target>No information boxes</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Edycja boksu informacyjnego</source>
+                <target>Edit an information box</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Nie pokazuj nazwy</source>
+                <target>Don't show the name</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Treść</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Podaj nazwę boksu</source>
+                <target>Enter a box name</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Zarządzaj boksami informacyjnymi</source>
+                <target>Manage the information boxes</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Grupy</source>
+                <target>Groups</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Zarządzaj grupami boksów</source>
+                <target>Manage the boxes groups</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Utwórz nową grupę boksów</source>
+                <target>Add a new boxes group</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Tytuł grupy boksów</source>
+                <target>Boxes group title</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Edycja grupy boksów %%name%%</source>
+                <target>Edit the boxes group %%name%%</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Lewa kolumna</source>
+                <target>Left column</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Prawa kolumna</source>
+                <target>Right column</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Podaj tytuł grupy boksów</source>
+                <target>Enter a boxes group title</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Wyświetlaj w grupie</source>
+                <target>Show in the group</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Identyfikator</source>
+                <target>Identifier</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Dla webmasterów</source>
+                <target>For webmasters</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

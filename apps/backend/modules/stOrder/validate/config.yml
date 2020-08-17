@@ -1,0 +1,10 @@
+fields:
+  config{min_amount}:
+    required:
+      msg:          Podaj minimalna wartość zamówienia
+    sfNumberValidator:
+      type:       any
+      min:        0
+      min_error:  Wartość nie może być mniejsza od 0
+      type_error: "Nieprawidłowy format (przykład: 10, 10.00)"
+      nan_error:  "Nieprawidłowy format (przykład: 10, 10.00)"

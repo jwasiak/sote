@@ -1,0 +1,180 @@
+ProductI18n:  
+  ProductI18n_de_1:
+    id: Product_1
+    culture: de
+    name: Pokal
+    url: pokal
+  ProductI18n_de_2:
+    id: Product_2
+    culture: de
+    name: Stoppuhr
+    url: stoppuhr
+  ProductI18n_de_3:
+    id: Product_3
+    culture: de
+    name: Kopfhörer
+    url: kopfhorer
+  ProductI18n_de_4:
+    id: Product_4
+    culture: de
+    name: Hanging-Lautsprecher
+    url: hanging-lautsprecher
+  ProductI18n_de_5:
+    id: Product_5
+    culture: de
+    name: Kopfhörer 200
+    url: kopfhorer-200
+  ProductI18n_de_6:
+    id: Product_6
+    culture: de
+    name: Laptop
+    url: laptop
+  ProductI18n_de_7:
+    id: Product_7
+    culture: de
+    name: Goldring mit Diamant
+    url: goldring-mit-diamant
+  ProductI18n_de_8:
+    id: Product_8
+    culture: de
+    name: Silber Ring
+    url: silber-ring
+  ProductI18n_de_9:
+    id: Product_9
+    culture: de
+    name: Lautsprecher
+    url: lautsprecher
+  ProductI18n_de_10:
+    id: Product_10
+    culture: de
+    name: Computer
+    url: computer
+  ProductI18n_de_11:
+    id: Product_11
+    culture: de
+    name: GoodPix 130ES Kamera
+    url: goodpix-130es-kamera
+  ProductI18n_de_12:
+    id: Product_12
+    culture: de
+    name: Speicherstick 8GB
+    url: speicherstick-8gb
+    
+CategoryI18n:
+  CategoryI18n_de_1:
+    id: Category_1
+    culture: de
+    name: Kategorien
+    url: kategorien
+  CategoryI18n_de_2:
+    id: Category_2
+    culture: de
+    name:  Klang
+    url: klang
+  CategoryI18n_de_3:
+    id: Category_3
+    culture: de
+    name: Lautsprecher
+    url: klang-lautsprecher
+  CategoryI18n_de_4:
+    id: Category_4
+    culture: de
+    name: Kopfhörer
+    url: klang-kopfhorer
+  CategoryI18n_de_5:
+    id: Category_5
+    culture: de
+    name: Computer
+    url: computer
+  CategoryI18n_de_6:
+    id: Category_6
+    culture: de
+    name:  Fotografie
+    url: fotografie
+  CategoryI18n_de_8:
+    id: Category_8
+    culture: de
+    name: Schmuck
+    url: schmuck
+  CategoryI18n_de_9:
+    id: Category_9
+    culture: de
+    name: Geschenke
+    url: geschenke
+
+ProductGroupI18n:
+  ProductGroupI18n_de_1:
+    id: ProductGroup_1
+    culture: de
+    name: Aktionen
+    url: aktionen
+  ProductGroupI18n_de_2:
+    id: ProductGroup_2
+    culture: de
+    name: Verkauf
+    url: verkauf
+  ProductGroupI18n_de_3:
+    id: ProductGroup_3
+    culture: de
+    name: Empfohlene
+    url: empfohlene
+  ProductGroupI18n_de_4:
+    id: ProductGroup_4
+    culture: de
+    name: Home
+    url: home
+  ProductGroupI18n_de_5:
+    id: ProductGroup_5
+    culture: de
+    name: Empfohlen im Warenkorb
+    url: empfohlen-im-warenkorb
+  ProductGroupI18n_de_6:
+    id: ProductGroup_6
+    culture: de
+    name: Neue Produkte
+    url: neue-produkte
+
+BoxI18n:
+  BoxI18n_de_1:
+    id: Box_1
+    culture: de
+    name: Lieferung
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Lieferung" />
+  BoxI18n_de_2:
+    id: Box_2
+    culture: de
+    name: Zahlungen
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Zahlungen" />
+
+WebpageI18n:
+  WebpageI18n_de_1:
+    id: Webpage_1
+    culture: de
+    name: Nutzungsbedingungen
+    content: Beispiel Text.
+    url: nutzungsbedingungen
+  WebpageI18n_de_2:
+    id: Webpage_2
+    culture: de
+    name: Wir über uns
+    content: Beispiel Text.
+    url: wir-uber-uns
+  WebpageI18n_de_3:
+    id: Webpage_3
+    culture: de
+    name: Kontakt
+    content: Beispiel Text.
+    url: kontakt
+  WebpageI18n_de_4:
+    id: Webpage_4
+    culture: de
+    name: Datenschutz
+    content: Beispiel Text.
+    url: datenschutz
+
+TextI18n:
+  TextI18n_de_1:
+    id: Text_1
+    culture: de
+    name: Home
+    content: Willkommen

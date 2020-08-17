@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Płatność</source>
+                <target>Payment</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Dziękujemy za dokonanie płatności.</source>
+                <target>Thank you for your payment.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Płatność nie została zrealizowana.</source>
+                <target>The payment was not completed.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Płatność została błędnie skonfigurowana.</source>
+                <target>The payment was configured incorrectly.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zakupy w systemie ratalnym LUKAS Raty dostępne są od 500zł do 10000zł wartości całego zamówienia.</source>
+                <target>Shopping in the LUKAS Raty installment plan are available from 500zł to 10000zł of the total order value.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Proszę zaznaczyć opcję: 'Oświadczam, że zapoznałem/am się z informacja o warunkach i sposobie udzielania kredytu ratalnego LUKAS Banku'</source>
+                <target>Please select: 'I declare that I have read the information on the terms and modalities of the LUKAS Bank loan granting.'</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Aby złożyć wniosek o kredyt ratalny w systemie LUKAS Bank przeczytaj poniższe oświadczenie:</source>
+                <target>If you want to apply for an installment loan in LUKAS Bank read the following statement:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Wybrana została przez Ciebie forma płatności LUKAS Raty.</source>
+                <target>You have choosen LUKAS Raty payment method.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Do wypełnienia wniosku o kredyt ratalny LUKAS Banku niezbędne będą informacje zawarte w dowodzie osobistym.</source>
+                <target>Information from your identity card will be needed to fulfill the request for installment loan in LUKAS Bank.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Konieczne jest także podanie informacji o miejscu zatrudnienia, formie zatrudnienia (umowa o pracę, nr renty lub emerytury, inne), wysokości dochodu.</source>
+                <target>It is also necessary to give an information about the place of employment, type of  employment contract (an employment contract, pension number or retirement number, other), an income.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>LUKAS może wymagać od Ciebie dodatkowych informacji, poza tymi, które zawarte zostaną w wysłanym przez Ciebie wniosku.</source>
+                <target>LUKAS may require additional information from you, except those that would be included in the request sent by you.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Jeżeli wystąpi taka konieczność zostaniesz o tym poinformowany w trakcie kontaktu z przedstawicielem LUKAS Banku.</source>
+                <target>If needed, you will be informed by a representative of LUKAS Bank.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Przed wypełnieniem wniosku o kredyt ratalny LUKAS Banku zapoznaj się z</source>
+                <target>Before completing the application for installment loan from LUKAS Bank you should refer to the</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Warunkami udzielania kredytu ratalnego LUKAS Banku.</source>
+                <target>Terms of the loan granting in LUKAS Bank.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Oświadczam, że zapoznałem/am się z informacja o warunkach i sposobie udzielania kredytu ratalnego LUKAS Banku.</source>
+                <target>I declare that I have read the information on the terms and modalities of the LUKAS Bank loan granting.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Po wybraniu przycisku</source>
+                <target>When you select the</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>"Wypełnij wniosek"</source>
+                <target>"Complete the application"</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>zostaniesz przeniesiony/na do serwisu LUKAS Bank SA.</source>
+                <target>you will be moved to the LUKAS Bank SA site.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Jest to równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez LUKAS Bank SA.</source>
+                <target>It's tantamount to consent to the personal data processing by LUKAS Bank SA.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r Twoje dane będą przetwarzane przez LUKAS Bank w celu realizacji umowy kredytu oraz należytego jej wykonania.</source>
+                <target>In accordance with article 24 of the Act on FIP from 29th August 1997 your data will be processed by LUKAS Bank in order to execute the loan agreement and its proper execution.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Podanie danych ma charakter dobrowolny i przysługuje Ci prawo wglądu do tych danych oraz ich poprawiania.</source>
+                <target>Entering information is voluntary and you have the right to inspect such data and correct them.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Administratorem danych osobowych jest LUKAS Bank SA z siedzibą we Wrocławiu, Pl. Orląt Lwowski 1.</source>
+                <target>The data controller is LUKAS Bank SA with its headquarter in Wroclaw, Pl. Orląt Lwowski 1.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Informacje przesyłane do LUKAS Banku S.A. są chronione protokołem SSL.</source>
+                <target>Information sent to LUKAS Bank SA are protected by SSL.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Upewnij się, że jesteś na bezpiecznej stronie LUKAS Banku, sprawdź czy adres strony zaczyna się od https:// i czy w dolnym pasku stanu przeglądarki jest ikona kłódki.</source>
+                <target>Make sure you're on the secure LUKAS Bank site, check if the website address starts with https:// and whether an lock icon is in the bottom status bar of the browser.</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Dane, które wpiszesz na kolejnych ekranach, są szyfrowane i chronione.</source>
+                <target>Data entered on the next screens is encrypted and protected.</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Aby złożyć wniosek o kredyt zapoznaj się z</source>
+                <target>In order to apply for a loan, read the</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Warunkami udzielania kredytu ratalnego Credit Agricole Bank Polska</source>
+                <target>Terms of the loan granting in Credit Agricole Bank Polska</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Oświadczam, że zapoznałem/am się z informacją o warunkach i sposobie udzielania kredytu ratalnego Credit Agricole Bank Polska</source>
+                <target>I declare that I have read the information on the terms and modalities of the Credit Agricole Bank Polska loan granting.</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Do wypełnienia wniosku potrzebne będą dane z Twojego dowodu osobistego, a także informacje dotyczące miejsca i formy zatrudnienia oraz wysokości uzyskiwanego dochodu.</source>
+                <target>To complete the application you will need the data from your identity card as well as information on your work place, employment form and your salary.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Jeżeli do decyzji kredytowej potrzebne będą dodatkowe informacje, poinformuje Cię o tym przedstawiciel Banku.</source>
+                <target>If the additional information is needed to the credit decision, you'll be informed about it by the bank's representative.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>zostaniesz przeniesiony/na na bezpieczne strony Credit Agricole Bank Polska S.A., wszystkie informacje przesyłane do Banku są chronione protokołem SSL.</source>
+                <target>will be moved to the safe sides of Credit Agricole Bank Polska S.A. , all information send to the Bank are protected by SSL.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Przejście na stronę Wniosku jest równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez Credit Agricole Bank Polska S.A.</source>
+                <target>Moving to the Application's side is tantamount with giving the agreement for processing your personal data by Credit Agricole Bank Polska S.A.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r. Twoje dane będą przetwarzane przez Credit Agricole Bank Polska S.A. w celu realizacji umowy kredytu oraz należytego jej wykonania.</source>
+                <target>In accordance with article 24 of the Act on FIP from 29th August 1997 your data will be processed by Credit Agricole Bank Polska S.A. in order to execute the loan agreement and its proper execution.</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Administratorem danych osobowych jest Credit Agricole Bank Polska S.A. z siedzibą we Wrocławiu, Pl. Orląt Lwowskich 1.</source>
+                <target>The data controller is Credit Agricole Bank Polska S.A. with its headquarter in Wroclaw, Pl. Orląt Lwowskich 1.</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Wybrana została przez Ciebie forma płatności Credit Agricole Raty.</source>
+                <target>You have choosen Credit Agricole Raty payment method.</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Zakupy w systemie ratalnym Credit Agricole Raty dostępne są od 500zł do 10000zł wartości całego zamówienia.</source>
+                <target>Shopping in the Credit Agricole Raty installment plan are available from 500zł to 10000zł of the total order value.</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Proszę zaznaczyć opcję: 'Oświadczam, że zapoznałem/am się z informacją o warunkach i sposobie udzielania kredytu ratalnego Credit Agricole Bank Polska'</source>
+                <target>Please select: 'I declare that I have read the information on the terms and modalities of the Credit Agricole Bank Polska loan granting.'</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Wniosek został złożony poprawnie - dziękujemy.</source>
+                <target>The application was filed correctly - thank you.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>W ciągu 24 h skontaktuje się z Tobą doradca Credit Agricole Bank Polska S.A., potem Twoje zamówienie będzie mogło być zrealizowane.</source>
+                <target>Within 24 hours you will be contacted by an advisor Credit Agricole Bank Poland S.A., then your order may be exercised.</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Rezygnacja z wypełnienia Wniosku o kredyt ratalny Credit Agricole Bank Polska S.A.</source>
+                <target>Resignation of filling the Application for installment loan Credit Agricole Bank Poland S.A.</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Skontaktuj się ze sklepem i wybierz inną metodę płatności.</source>
+                <target>Contact the shop and choose another payment method.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

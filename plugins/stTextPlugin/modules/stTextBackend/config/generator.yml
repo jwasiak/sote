@@ -1,0 +1,36 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:    Text
+        theme:          simple
+        head:
+            package:      stTextPlugin
+        applications:   [stWebpagePlugin, stBoxPlugin]
+        list:
+            filters:
+                name:           {filter_field: text_i18n.name}
+                content_trimed: {filter_field: text_i18n.content}
+            peer_method:        doSelectWithI18n
+            peer_count_method:  doCountWithI18n
+            title:              Lista
+            description:        Zarządzaj tekstami w sklepie
+            display:            [=name, content_trimed, active]
+            fields:
+                name:           {name: Nazwa, params: size=30, sort_field: text_i18n.name}
+                active:         {name: Aktywny}
+                content_trimed: {name: Treść tekstu, params: size=40}
+            actions:
+                none
+            object_actions:
+                _edit:           -
+            empty_message:      Brak tekstów na stronie
+        edit:
+            title:              Edycja tekstu na stronie
+            description:        Zarządzaj tekstami w sklepie
+            display:            [active, content]
+            fields:
+                active:         {name: Aktywna}
+                content:        {name: Treść strony, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:400,width:600'} 
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}

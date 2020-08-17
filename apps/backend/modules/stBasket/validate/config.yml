@@ -1,0 +1,12 @@
+fields:                             
+    config{max_quantity}:
+        required:
+            msg:    Wartość nie może być pusta
+        sfNumberValidator:
+            min:        1
+            min_error:  Minimalna wartość to 1
+            max:        1000000
+            max_error:  Maksymalna wartość to 1000000
+            nan_error:  Wartość musi być liczbą całkowitą
+            type:       integer
+            type_error: Wartość musi być liczbą całkowitą

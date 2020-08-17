@@ -1,0 +1,136 @@
+<div id="st_component-st_product-product_show">
+    <div class="content">
+        <div id="st_product-show_success_classic_image">
+            {if $show_image==1}
+                {$photo}
+            {/if}
+            {if $show_galery==1}
+                <div id="st_product-show_success_images">{$photos}</div>
+            {/if}
+            {if $show_short_description==1}
+                <div id="st_product-show_success_short_description">{$description}</div>
+            {/if}
+        </div>
+        <div id="st_product-show_success_frame_info">
+            <ul class="st_product-show_success_main">
+                {if $show_name==1}
+                    <li><h1>{$name}</h1></li>
+                {/if}
+                {if $show_code==1}
+                    <li><span>{__ text="Kod"}:</span>{$code}</li>
+                {/if}
+                {if $show_producer==1 && isset($producer)}
+                    <li><span>{__ text="Producent"}:</span>{$producer}</li>
+                {/if}
+                {if $show_category && isset($main_category)}
+                    <li><span>{__ text="Kategoria"}:</span>{$main_category}</li>
+                {/if}
+                {if $show_weight==1 && $weight>0}
+                <li><span>{__ text="Waga"}:</span>{$weight} {$weight_unit}</li>
+                {/if}
+                {$depository}
+                {if $show_review==1}
+                <li>{st_get_component module="stReview" component="showStars" params="view='product'"}</li>
+                {/if}
+            </ul>
+            
+            <br />
+            {if ($check_price!=1  && $show_price==1)}
+                {if ($check_old_price!=1 || $you_safe!=0 || $show_old_price==0)}
+                    {if $price_view=='net_gross'}
+                        <div id="st_product-shop_success_price">{__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span></div>
+                        <div id="st_product-shop_success_price_minor">({__ text="Cena brutto"}: <span id="st_product_options-price_brutto">{$price_brutto}</span>)</div>
+                    {elseif $price_view=='only_gross'}
+                        <div id="st_product-shop_success_price">{__ text="Cena"}: <span id="st_product_options-price_brutto">{$price_brutto}</span></div>
+                    {elseif $price_view=='only_net'}
+                        <div id="st_product-shop_success_price">{__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span></div>
+                    {elseif $price_view=='gross_net'}
+                        <div id="st_product-shop_success_price">{__ text="Cena brutto"}: <span id="st_product_options-price_brutto">{$price_brutto}</span></div>
+                        <div id="st_product-shop_success_price_minor">({__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span>)</div>
+                    {/if}
+                {else}
+                    {if $price_view=='net_gross'}
+                        <div id="st_product-shop_success_price">{__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span></div>
+                        <div id="st_product-shop_success_price_minor">({__ text="Cena brutto"}: <span id="st_product_options-price_brutto">{$price_brutto}</span>)</div>
+                        <div id="st_product-shop_success_old_price">{__ text="Stara cena netto"}: <span id="st_product_options-old_price">{$old_price_net}</span></div>
+                    {elseif $price_view=='only_gross'}
+                        <div id="st_product-shop_success_price">{__ text="Cena"}: <span id="st_product_options-price_brutto">{$price_brutto}</span></div>
+                        <div id="st_product-shop_success_old_price">{__ text="Stara cena"}: <span id="st_product_options-old_price">{$old_price_brutto}</span></div>
+                    {elseif $price_view=='only_net'}
+                        <div id="st_product-shop_success_price">{__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span></div>
+                        <div id="st_product-shop_success_old_price">{__ text="Stara cena netto"}: <span id="st_product_options-old_price">{$old_price_net}</span></div>
+                    {elseif $price_view=='gross_net'}
+                        <div id="st_product-shop_success_price">{__ text="Cena brutto"}: <span id="st_product_options-price_brutto">{$price_brutto}</span></div>
+                        <div id="st_product-shop_success_price_minor">({__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span>)</div>
+                        <div id="st_product-shop_success_old_price">{__ text="Stara cena brutto"}: <span id="st_product_options-old_price">{$old_price_brutto}</span></div>
+                    {/if}
+                {/if}
+                {if $you_safe!=0}
+                    {if $show_saved_price==1}
+                        {if $saved_price_type=='only_net_saved'}
+                            <div id="st_product-shop_success_price_catalogue">{__ text="Cena katalogowa netto"}: <span>{$price_catalogue}</span></div>
+                        {elseif $saved_price_type=='only_gross_saved'}
+                            <div id="st_product-shop_success_price_catalogue">{__ text="Cena katalogowa brutto"}: <span>{$price_catalogue_brutto}</span></div>
+                        {elseif $saved_price_type=='net_saved'}
+                            <div id="st_product-shop_success_price_catalogue">{__ text="Cena katalogowa netto"}: <span>{$price_catalogue}</span></div>
+                            <div id="st_product-shop_success_price_catalogue_minor">({__ text="Cena katalogowa brutto"}: <span>{$price_catalogue_brutto}</span>)</div>
+                        {elseif $saved_price_type=='gross_saved'}
+                            <div id="st_product-shop_success_price_catalogue">{__ text="Cena katalogowa brutto"}: <span>{$price_catalogue_brutto}</span></div>
+                            <div id="st_product-shop_success_price_catalogue_minor">({__ text="Cena katalogowa netto"}: <span>{$price_catalogue}</span>)</div>
+                        {/if}
+                    {/if}
+                    {if $show_discount==1}
+                        {if $discount_type=='discount_amount_percentage'}
+                            {if $saved_price_type=='only_net_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat netto"}: <span>{$price_discount} ({$price_discount_percent} %)</span></div>
+                            {elseif $saved_price_type=='only_gross_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat brutto"}: <span>{$price_discount_brutto} ({$price_discount_percent_brutto} %)</span></div>
+                            {elseif $saved_price_type=='net_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat netto"}: <span>{$price_discount} ({$price_discount_percent} %)</span></div>
+                                <div id="st_product-shop_success_price_discount_minor">({__ text="Rabat brutto"}: <span>{$price_discount_brutto} ({$price_discount_percent_brutto} %)</span>)</div>
+                            {elseif $saved_price_type=='gross_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat brutto"}: <span>{$price_discount_brutto} ({$price_discount_percent_brutto} %)</span></div>
+                                <div id="st_product-shop_success_price_discount_minor">({__ text="Rabat netto"}: <span>{$price_discount} ({$price_discount_percent} %)</span>)</div>
+                            {/if}
+                        {elseif $discount_type=='discount_amount'}
+                            {if $saved_price_type=='only_net_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat netto"}: <span>{$price_discount}</span></div>
+                            {elseif $saved_price_type=='only_gross_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat brutto"}: <span>{$price_discount_brutto}</span></div>
+                            {elseif $saved_price_type=='net_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat netto"}: <span>{$price_discount}</span></div>
+                                <div id="st_product-shop_success_price_discount_minor">({__ text="Rabat brutto"}: <span>{$price_discount_brutto}</span>)</div>
+                            {elseif $saved_price_type=='gross_saved'}
+                                <div id="st_product-shop_success_price_discount">{__ text="Rabat brutto"}: <span>{$price_discount_brutto}</span></div>
+                                <div id="st_product-shop_success_price_discount_minor">({__ text="Rabat netto"}: <span>{$price_discount}</span>)</div>
+                            {/if}
+                        {elseif $discount_type=='discount_percentage'}
+                            <div id="st_product-shop_success_price_discount">{__ text="Rabat"}: <span>{$price_discount_percent} %</span></div>
+                        {/if}
+                    {/if}
+                    {if $show_discount_name==1}
+                        {if $discount_name}
+                            <div id="st_product-shop_success_discount_name">{__ text="Grupa rabatowa"}: <span>{$discount_name}</span></div>
+                        {elseif $wholesale==1}
+                            <div id="st_product-shop_success_discount_name">{__ text="Grupa rabatowa"}: <span>{__ text="Klient hurtowy"}</span></div>
+                        {/if}
+                    {/if}
+                {/if}
+            <div class="st_product-show_success_button">{$basket}{$socket_1}</div>
+            {/if}
+            <br />
+            <br class="st_clear_all" />
+                <ul id="st_button-product_zagiel">{include_st_component module="stPayment" component="showInfoInProduct" params="id=$id"}</ul>
+                <div id="st_button-product_compare">{if $show_compare==1}{$product_compare}{/if}</div>
+                <div id="st_button-product_compare">{st_get_component module="stRecommendProductFrontend" component="showRecommend" params="view='product'"}</div>
+                <div id="st_button-question">{$product_question}</div>
+                {st_get_component module="stAddThisFrontend" component="shareButtons" params="view='product'"}
+       </div>
+
+        <br class="st_clear_all" />
+        {$product_description}
+        <br class="st_clear_all" /><br />
+        {$product_list}
+        <br class="st_clear_all" />
+    </div>
+</div>

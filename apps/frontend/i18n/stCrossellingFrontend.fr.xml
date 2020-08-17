@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2010-11-04T02:50:41Z">
+		<body>
+			<trans-unit id="1">
+				<source>Klienci, którzy kupili ten produkt, kupili również</source>
+				<target>Les clients qui ont acheté ce produit ont également acheté</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Klienci, którzy kupili te produkty, kupili również</source>
+				<target>Les clients qui ont acheté ces produits ont également acheté</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Rabat</source>
+				<target>Remise</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

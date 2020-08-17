@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Włącz obsługę stanów magazynowych:</source>
+            <target>Enable inventory management:</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Włącza automatyczne zarządzanie stanami magazynowymi</source>
+            <target>Enables automatic management of inventory</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Zdejmuj produkty z magazynu:</source>
+            <target>Remove the product from the invertory:</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>Po złożeniu zamówienia</source>
+            <target>After placing the order</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>Po zmianie statusu zamowienia na zrealizowane</source>
+            <target>After setting an order status as delivered</target>
+         </trans-unit>  
+         <trans-unit id="6">
+            <source>Sprawdzanie stanu magazynowego w koszyku:</source>
+            <target>Checking inventory in the shoping cart:</target>
+         </trans-unit> 
+         <trans-unit id="7">
+            <source>Pokaż stan magazynowy</source>
+            <target>Show stock</target>
+         </trans-unit>   
+         <trans-unit id="8">
+            <source>Magazyn</source>
+            <target>Inventory</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>Stan magazynowy</source>
+            <target>Stock</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>szt.</source>
+            <target>pcs.</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>Pokaż stan magazynowy:</source>
+            <target>Show stock:</target>
+         </trans-unit> 
+      </body>
+   </file>
+</xliff>

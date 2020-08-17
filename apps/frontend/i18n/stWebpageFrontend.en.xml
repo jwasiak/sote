@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+    		<trans-unit id="1">
+                <source>Lista stron www</source>
+    			<target>List of websites</target>
+    		</trans-unit>
+            <trans-unit id="2">
+                <source>Sklep</source>
+    			<target>Shop</target>
+    		</trans-unit>
+    		<trans-unit id="3">
+                <source>regulamin</source>
+                <target>terms</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>politykę prywatności</source>
+                <target>privacy policy</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wzór regulaminu:</source>
+                <target>The standard rules:</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wzór polityki prywatności:</source>
+                <target>The standard privacy policy:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wzór odstąpienia od umowy:</source>
+                <target>The standard right to cancel:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Formularz odstąpienia od umowy:</source>
+                <target>The form of right to cancel:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Pobierz</source>
+                <target>Download</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Kontakt</source>
+                <target>Contact</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>polityką prywatności</source>
+                <target>privacy policy</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

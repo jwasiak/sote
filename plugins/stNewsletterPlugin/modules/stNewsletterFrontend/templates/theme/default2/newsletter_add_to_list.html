@@ -1,0 +1,47 @@
+{set layout="one_column_layout"}
+<div id="user_newsletter" class="box roundies">
+	<div class="title">
+        <h2>{__ text="Newsletter"}</h2>
+        <p>{__ text="Sprawdź skrzynkę pocztową."}</p>
+    </div>
+           
+    <div class="st_content" style="padding: 10px 70px"> 
+    
+              <div id="newsletter_user_form" class="box_form roundies">
+              	<h3>{__ text="Dane subskrypcji"}</h3>
+              	<div style="padding:25px;">
+              	<p style="text-align:center;">{__ text="Na podany adres wysłano mail z prośbą o potwierdzenie."}</p>
+            	<p style="text-align:center; font-size:14px;"><b>{$email}</b></p>
+                         
+                {if $choseGroup}
+		            {foreach key=row item=news_group from=$results}
+			            <div class="group_content" style="border-bottom:1px solid #ccc; margin-bottom: 10px;">
+			            			                
+			                <div class="st_row vertical-align-middle gray_text">
+    							{$news_group.input}<span><b>{$news_group.name}</b></span>
+							</div>
+			            	{$news_group.description}
+			                        
+			            </div>   
+		            {/foreach}
+                {/if}            
+                  	
+                <div class="buttons right" >
+	                <a href="/" class="regular roundies">
+	                    <span class="arrow_right">{__ text="Kontynuuj zakupy"}</span>
+	                </a>
+	            </div>
+                
+                
+                <div class="clear"></div>
+                </div>              
+                                   
+             
+            </div> 
+                
+        
+                
+ 
+    	</div> 
+     
+    </div>

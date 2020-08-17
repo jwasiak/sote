@@ -1,0 +1,10 @@
+fields:
+    config{session_time}:
+        required:
+            msg:        Proszę podać czas trwania sesji API
+        sfNumberValidator:
+            type:       integer
+            type_error: Czas trwania sesji musi być liczbą całkowitą
+            min:        60
+            min_error:  Minimalny czas trwania sesji wynosi 60 sekund
+            nan_error:  Czas trwania sesji musi być liczbą całkowitą

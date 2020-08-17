@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Niepoprawna wartość klucza WebAPI lub klucz został zablokowany.</source>
+                <target>Niepoprawna wartość klucza WebAPI lub klucz został zablokowany.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zła nazwa użytkownika lub hasło!</source>
+                <target>Zła nazwa użytkownika lub hasło!</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>dolnośląskie</source>
+                <target>Lower Silesian</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>kujawsko-pomorskie</source>
+                <target>Kuyavian-Pomeranian</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>lubelskie</source>
+                <target>Lublin</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>lubuskie</source>
+                <target>Lubusz</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>łódzkie</source>
+                <target>Łódź</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>małopolskie</source>
+                <target>Lesser Poland</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>mazowieckie</source>
+                <target>Mazovian</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>opolskie</source>
+                <target>Opole</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>podkarpackie</source>
+                <target>Subcarpathian</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>podlaskie</source>
+                <target>Podlaskie</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>pomorskie</source>
+                <target>Pomeranian</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>śląskie</source>
+                <target>Silesian</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>świętokrzyskie</source>
+                <target>Świętokrzyskie</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>warmińsko-mazurskie</source>
+                <target>Warmian-Masurian</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>wielkopolskie</source>
+                <target>Greater Poland</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>zachodniopomorskie</source>
+                <target>West Pomeranian</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Odbiór osobisty</source>
+                <target>Odbiór osobisty</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Przesyłka elektroniczna</source>
+                <target>Przesyłka elektroniczna</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Odbiór osobisty po przedpłacie</source>
+                <target>Odbiór osobisty po przedpłacie</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>List ekonomiczny</source>
+                <target>List ekonomiczny</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Paczka pocztowa priorytetowa</source>
+                <target>Paczka pocztowa priorytetowa</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>List priorytetowy</source>
+                <target>List priorytetowy</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Przesyłka pobraniowa / Paczka48 pobranie</source>
+                <target>Przesyłka pobraniowa / Paczka48 pobranie</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>List polecony ekonomiczny</source>
+                <target>List polecony ekonomiczny</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Przesyłka pobraniowa priorytetowa / Paczka24 pobranie</source>
+                <target>Przesyłka pobraniowa priorytetowa / Paczka24 pobranie</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>List polecony priorytetowy</source>
+                <target>List polecony priorytetowy</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Przesyłka kurierska</source>
+                <target>Przesyłka kurierska</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Przesyłka kurierska pobraniowa</source>
+                <target>Przesyłka kurierska pobraniowa</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Odbiór w punkcie po przedpłacie - PACZKA W RUCHu</source>
+                <target>Odbiór w punkcie po przedpłacie - PACZKA W RUCHu</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Odbiór w punkcie po przedpłacie - Paczkomaty 24/7</source>
+                <target>Odbiór w punkcie po przedpłacie - Paczkomaty 24/7</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Odbiór w punkcie - PACZKA W RUCHu</source>
+                <target>Odbiór w punkcie - PACZKA W RUCHu</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Odbiór w punkcie - Paczkomaty 24/7</source>
+                <target>Odbiór w punkcie - Paczkomaty 24/7</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Allegro Polecony InPost</source>
+                <target>Allegro Polecony InPost</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Odbiór w punkcie po przedpłacie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie</source>
+                <target>Odbiór w punkcie po przedpłacie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Odbiór w punkcie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie</source>
+                <target>Odbiór w punkcie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Pocztex Kurier48</source>
+                <target>Pocztex Kurier48</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Pocztex Kurier48 pobraniowy</source>
+                <target>Pocztex Kurier48 pobraniowy</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Paczka24</source>
+                <target>Paczka24</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Paczka48</source>
+                <target>Paczka48</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Odbiór w punkcie po przedpłacie - Paczka24 Odbiór w Punkcie</source>
+                <target>Odbiór w punkcie po przedpłacie - Paczka24 Odbiór w Punkcie</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Odbiór w punkcie - Paczka24 Odbiór w Punkcie</source>
+                <target>Odbiór w punkcie - Paczka24 Odbiór w Punkcie</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Odbiór w punkcie po przedpłacie - Allegro Paczkomaty InPost</source>
+                <target>Odbiór w punkcie po przedpłacie - Allegro Paczkomaty InPost</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Odbiór w punkcie - Allegro Paczkomaty InPost</source>
+                <target>Odbiór w punkcie - Allegro Paczkomaty InPost</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Wystąpił problem z połączeniem z Allegro API (%%error%%)</source>
+                <target>Couldn't connect to Allegro API (%%error%%)</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,17 @@
+---
+package: 
+  name: stReportPlugin
+  stability: stable
+  version: 7.0.0.19
+  summary: Raport
+  description: Raport
+  notes: |
+    - Poprawka prawidlowego wyswietlania ilosci miesiecy
+    - Poprawka wyswietlania listy zamowien z dla danego produktu
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    soteshop_base: 6.6.0

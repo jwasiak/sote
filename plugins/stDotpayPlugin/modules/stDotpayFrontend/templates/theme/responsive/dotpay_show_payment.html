@@ -1,0 +1,23 @@
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="Dotpay"}
+    </div>
+    <div class="panel-body text-center">
+        {if $check_configuration}
+            <img src="/images/frontend/theme/default2/stDotpayPlugin/logo.jpg" alt="{__ text="Dotpay"}"/><br />
+            <span>
+                {$description}
+            </span>
+            <form action="{$url}" method="post">
+                {foreach key=name item=value from=$params}
+                    <input type="hidden" name="{$name}" value="{$value}" />
+                {/foreach}
+                <button type="submit" class="btn btn-primary pull-right">
+                    {__ text="Zapłać"}
+                </button>
+            </form> 
+        {else}
+            {__ text="Płatność została błędnie skonfigurowana."}
+        {/if}
+    </div>
+</div>

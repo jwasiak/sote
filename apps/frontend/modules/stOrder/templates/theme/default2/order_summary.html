@@ -1,0 +1,131 @@
+{set layout="one_column_layout"}
+
+<div id="order_summary" class="box roundies " >
+    <div class="title">
+        <h2>{__ text="Podsumowanie zamówienia"}</h2>
+        <p>{__ text="Zapisz informację."}</p>
+    </div>
+
+    <div class="content"  style="padding: 0px 15px 15px;">
+		<div id="summary_label" class="roundies">
+			<div class="content">	
+			<span class="title_summary">{__ text="Dziękujemy za złożenie zamówienia"}</span><br/>
+			</div>
+		</div>
+		
+      	<div id="summary_info" class="roundies box_form">
+           <div class="content">
+	           <div class="order_label">
+	           		<div id="order_summary_action-top">
+			           	<div style="display: inline;float: left; min-width: 35px; margin: 5px 5px 5px 80px;">
+							<div style="text-align: center; height: 35px">
+							   	<a href="/orderPdf/show/id/{$id}/hash_code/{$hash_code}" target="_blank" rel="noindex, nofollow">
+									<img src="/images/frontend/theme/default2/order_print.png" alt="" />
+								</a>
+							</div>
+							<div style="text-align: center;">
+							    {__ text="Drukuj"}
+							</div>      
+						</div>
+						<div style="display: inline;float: left; min-width: 35px; margin: 5px;">
+							<div style="text-align: center; height: 35px">
+								<a href="/orderPdf/show/id/{$id}/download/1/hash_code/{$hash_code}" rel="noindex, nofollow">
+									<img src="/images/frontend/theme/default2/order_pdf.png" alt="" />
+								</a>
+							</div>
+							<div style="text-align: center;">
+							    {__ text="Pobierz"}
+							</div>      
+						</div>
+				
+	           			{include_st_component module="stInvoicePdf" component="downloadInvoice"}
+
+	           		</div>
+	           	
+	           		<div class="clear"></div>	
+	           	
+					<div class="st_row">
+					    <div class="st_name">
+					        {__ text="Zamówienie nr"}:
+					    </div>
+					    <div class="st_field">
+					        <b class="order_number">{$order_number}</b>
+					    </div>
+					</div>
+		            <div class="st_row">
+		                <div class="st_name">
+		                    {__ text="Do zapłaty"}:
+		                </div>
+		                <div class="st_field" style="font-size:1.3em;">
+		                    <b >{$order_total_amount}</b> 
+		                </div>    
+		            </div>
+		            {if $points_system_is_active==1}
+		            
+		            {if $order_total_points_value > 0}
+		            <div class="st_row">
+                        <div class="st_name">
+                            {__ text="Pobrano z konta"}:
+                        </div>
+                        <div class="st_field" style="font-size:1.3em;">
+                            <b >{$order_total_points_value} {$points_shortcut}</b>
+                        </div>    
+                    </div>
+                    {/if}
+                    
+                    {if $order_total_points_earn > 0}
+                        <div class="st_row">
+                            <div class="st_name">
+                                {__ text="Za zamówienie otrzymasz"}:
+                            </div>
+                            <div class="st_field" style="color: green;">
+                                <b >{$order_total_points_earn} {$points_shortcut}</b>
+                            </div>    
+                        </div>
+                    {/if}
+		            {/if}
+	           </div>
+                {$order_summary_socket_after_amount}
+           		{if $show_payment_button}	            
+                    <div id="pay_button" class="buttons right">
+                        <a href="{$payment_url}" class="important roundies">
+                            <span class="arrow_right">{__ text="Zapłać"}</span>
+                        </a>
+                    </div>
+	            {else}
+	               {$payment_type_summary_description}
+	            {/if}
+              <div class="clear"></div>
+              {$order_summary_text}
+           </div>
+           <div id="order_summary_action-bottom">
+	           <div id="order_print">
+					<a class="print" href="/orderPdf/show/id/{$id}/hash_code/{$hash_code}" target="_blank">
+						{__ text="Drukuj"}
+					</a>     
+					<a class="download" href="/orderPdf/show/id/{$id}/download/1/hash_code/{$hash_code}">
+						{__ text="Pobierz"}
+					</a>
+		           	{include_st_component module="stInvoicePdf" component="downloadInvoice"}
+		           	{if $show_payment_button}	
+			           	<a href="{$payment_url}" class="important roundies pay">
+	                        <span class="arrow_right">
+                                {if $credit}
+                                    {__ text="Wypełnij wniosek"}
+                                {else}
+                                    {__ text="Zapłać"}
+                                {/if}
+                            </span>
+	                    </a>
+                    {/if}
+		           	<div class="clear"></div>
+	           </div>
+	        </div>
+    	</div>
+    	
+    	
+    	<div class="clear"></div>
+    </div>
+</div>
+
+{$order_summary_socket}

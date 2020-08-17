@@ -1,0 +1,15 @@
+package:
+  name: stProductGroup
+  stability: stable
+  version: 7.0.4.13
+  summary: 'Grupy produktow'
+  description: 'Zarzadzanie grupami produktow, konfiguracja ustawien'
+  notes: |
+     - Poprawki graficzne
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stProduct: 1.0.17.22

@@ -1,0 +1,93 @@
+<div style="border-top: 1px solid #CCCCCC; margin: 20px auto; width: 600px;"></div>
+
+{if $results|@count > 1}
+<div style="margin: 0 auto; width: 900px;">
+
+    {foreach key=row item=userData from=$results}
+    <div class="profile {$userData.style}" rel="{$userData.make_it_deafult_data}" id="st_application-user-edit_profil">
+        <div style="width: 100%">
+
+            
+            {if $userData.is_default=="true"}
+            <div class="field_image2"  >
+                <img alt="Default" src="/images/frontend/theme/default2/default.png" width="32">
+            </div>
+            {else}
+            <div class="field_image1 profile_remove_tooltip"  >
+                {$userData.remove_image}
+            </div>            
+            {/if}
+
+            <div style="padding:10px 50px;" class="profile_tooltip">
+                <div title="{__ text='Edytuj dane'}">
+                   
+                    
+                    
+                    {if $userData.company neq ""}
+
+                    {$userData.company}
+                    <br />
+
+                    {if $userData.has_vat eq 1}
+                    {$userData.vat}
+                    <br />
+                    {/if}
+                    {/if}
+
+                    <b>{$userData.full_name}</b>
+                    <br />
+
+                    {$userData.address}
+                    <br />
+
+                    {if ($userData.address_more!="")}
+                    {$userData.address_more}
+                    <br />
+                    {/if}
+
+                    {if ($userData.region!="")}
+                    {$userData.region}
+                    <br />
+                    {/if}
+
+                    {$userData.code} {$userData.town}
+                    <br />
+
+                    {$userData.country}
+                    <br />
+
+                    {if $userData.pesel!=""}
+                    {__ text="PESEL"}&nbsp;{$userData.pesel}
+                    <br />
+                    {/if}
+
+                    {if $userData.phone neq ""}
+                    {$userData.phone}&nbsp;&nbsp;&nbsp;
+                    {/if}
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {/foreach}
+    <div class="clear"></div>
+</div>
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function() {
+            
+            $('.profile').click(function(){
+                window.location = '/'+$(this).attr('rel');
+            });
+            
+
+        });
+    });
+
+</script>
+{/literal}
+
+
+{/if}

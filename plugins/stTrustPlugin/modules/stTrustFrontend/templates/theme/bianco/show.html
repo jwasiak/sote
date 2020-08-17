@@ -1,0 +1,74 @@
+{if $field_on == 1}
+<div id="card-info-p" class="tinymce_html text-center">
+    {$field_description}
+</div>
+{/if}
+
+<div id="card-info-box" role="tablist" aria-multiselectable="true">
+                    
+    <ul class="flex clearfix">
+        {if $field_1_on == 1}   
+        <li>
+            <a role="button" data-toggle="collapse" data-parent="#card-info-box" href="#card-info-box_content1" aria-expanded="true" aria-controls="card-info-box_content1" class="btn btn-default text-center collapsed">
+                <span class="hidden-xs hidden-md"><img src="/uploads/{$icon_1}" alt="" /></span>
+                <span>
+                    {$field_label_1}
+                    <small class="text-muted">
+                       {$field_sub_label_1}
+                    </small>
+                </span>
+            </a>
+        </li>
+        {/if}
+
+        {if $field_2_on == 1}
+        <li>
+            <a role="button" data-toggle="collapse" data-parent="#card-info-box" href="#card-info-box_content2" aria-expanded="true" aria-controls="card-info-box_content2" class="btn btn-default text-center collapsed">
+                <span class="hidden-xs hidden-md"><img src="/uploads/{$icon_2}" alt="" /></span>
+                <span>
+                    {$field_label_2}
+                    <small class="text-muted">{$field_sub_label_2}</small>
+                </span>
+            </a>
+        </li>
+        {/if}
+
+        {if $field_3_on == 1}
+        <li>
+            <a role="button" data-toggle="collapse" data-parent="#card-info-box" href="#card-info-box_content3" aria-expanded="true" aria-controls="card-info-box_content3" class="btn btn-default text-center collapsed">
+                <span class="hidden-xs hidden-md"><img src="/uploads/{$icon_3}" alt="" /></span>
+                <span>
+                    {$field_label_3}
+                    <small class="text-muted">{$field_sub_label_3}</small>
+                </span>
+            </a>
+        </li>
+        {/if}
+        
+    </ul>
+
+    {if $field_1_on == 1}
+    <div id="card-info-box_content1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="card-info-box_head1">
+        <div class="tinymce_html">
+            {$field_description_1}
+        </div>
+    </div>
+    {/if}
+    
+    {if $field_2_on == 1}
+    <div id="card-info-box_content2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="card-info-box_head2">
+        <div class="tinymce_html">
+            {$field_description_2}
+        </div>
+    </div>
+    {/if}
+    
+    {if $field_3_on == 1}
+    <div id="card-info-box_content3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="card-info-box_head3">
+        <div class="tinymce_html">
+            {$field_description_3}
+        </div>
+    </div>
+    {/if}
+    
+</div>

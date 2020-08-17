@@ -1,0 +1,5 @@
+ignore_replace:
+    - /error_content\.txt$/
+    - /error_title\.txt$/
+    - /config\.php$/
+    - /actions\.class\.php$/

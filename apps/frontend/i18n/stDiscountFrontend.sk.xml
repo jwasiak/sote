@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2011-11-10T03:22:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Rabaty</source>
+				<target>Zľavy</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Lista przypisanych rabatów</source>
+				<target>Zoznam priradených zliav</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwa</source>
+				<target>Názov</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Hodnota</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Produkty</source>
+				<target>Produkty</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rabat ogólny</source>
+				<target>Celková zľava</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista produktów</source>
+				<target>Zoznam produktov</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w grupie rabatowej</source>
+				<target>Produkty v zľavovej skupine</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Do grupy rabatowej %group% nie przypisano jeszcze żadnego produktu</source>
+				<target>Do zľavovej skupiny %group% nebol zatiaľ zaradený žiaden produkt</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Moje konto</source>
+				<target>Moje konto</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wprowadź kod rabatowy</source>
+				<target>Zadajte zľavový kód</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podany kod jest nieważny</source>
+				<target>Nasledujúci kód je neplatný</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podany kod nie istnieje</source>
+				<target>Daný kód neexistuje</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wprowadź kod</source>
+				<target>Uveďte kód</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod rabatowy</source>
+				<target>Zľavový kód</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Udzielony rabat</source>
+				<target>Zľava</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Aktywuj</source>
+				<target>Aktivujte</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dokonaj zakupu za %amount% a otrzymasz rabat %discount% na aktualne zamówienie</source>
+				<target>Kúp tovar za %amount% a na aktuálnu objednávku obdržíš zľavu %discount% </target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>W zestawie kupisz taniej</source>
+				<target>V komplete kúpiš lacnejšie</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>do koszyka</source>
+				<target>do košíka</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Brak rabatów</source>
+				<target>Žiadne zľavy</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

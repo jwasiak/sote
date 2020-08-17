@@ -1,0 +1,13 @@
+#st_box_payment table {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#st_box_payment table, #st_box_payment table tr, #st_box_payment table tr td {
+    border: 0px;
+    padding: 0px;
+}
+
+#st_przelewy24_payment_list {
+	text-align: left;
+}

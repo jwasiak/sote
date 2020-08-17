@@ -1,0 +1,94 @@
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_dashboard: 
+    _attributes: 
+      phpName: Dashboard
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    updated_at:
+      type: INTEGER
+      required: true
+      default: 0
+    label:
+      type: VARCHAR
+      size: 32
+      required: true
+    layout:
+      type: VARCHAR
+      size: 48
+      required: true
+    is_default:
+      type: BOOLEAN
+      required: true
+      default: false
+    sf_guard_user_id: 
+      type: INTEGER
+      required: false
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+  st_dashboard_gadget:
+    _attributes: 
+      phpName: DashboardGadget    
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    dashboard_id:
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_dashboard
+      foreignReference: id
+      onDelete: cascade
+    refreshed_at:
+      type: INTEGER
+      required: true
+      default: 0
+    refresh_by:
+      type: INTEGER
+      required: true
+      default: 0
+    dashboard_column_no:
+      type: INTEGER
+      required: true
+    position: 
+      type: INTEGER
+      required: true
+      default: 1
+    color: 
+      type: VARCHAR
+      size: 7
+    is_minimized:
+      type: BOOLEAN
+      default: false
+      required: true
+    title:
+      type: VARCHAR
+      size: 64
+      required: true
+    name:
+      type: VARCHAR
+      size: 48
+      required: true
+    _indexes:
+      dashboard_column_position_idx:  [dashboard_id, dashboard_column_no, position]
+  st_dashboard_gadget_configuration:
+    _attributes: 
+      phpName: DashboardGadgetConfiguration     
+    id:
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_dashboard_gadget
+      foreignReference: id
+      onDelete: cascade 
+    configuration:
+      type: LONGVARCHAR
+      phpType: array

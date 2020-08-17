@@ -1,0 +1,13 @@
+package:
+  name: stFastCacheSymfony
+  stability: stable
+  version: 7.2.0.8
+  summary: 'Fast Cache'
+  description: 'Fast Cache'
+  notes: |
+    - Poprawka czyszczenia pamieci podrecznej
+  maintainers:
+    'Marek Jakubowicz':
+      role: lead
+      user: marek
+      email: marek.jakubowicz@sote.pl

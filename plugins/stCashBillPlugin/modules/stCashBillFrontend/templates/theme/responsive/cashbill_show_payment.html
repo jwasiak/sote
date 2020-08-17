@@ -1,0 +1,79 @@
+<div class="modal fade modal-vertical-centered" id="order-process-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h3 class="text-center">{__ text="CashBill"}</h3>
+                <p class="text-center">{__ text="Za chwilę nastąpi przekierowanie na stronę płatności. Proszę czekać."}</p>
+                <div class="preloader"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default center-block"{if $show_variant == 'image'} id="payment-list"{elseif $show_variant == 'text'} id="payment-list-text"{/if}>
+    <div class="panel-heading">
+        {__ text="CashBill"}
+    </div>
+    <div class="panel-body text-center">
+        {if $check_configuration}
+            <img src="/images/frontend/theme/default2/stCashBillPlugin/logo.png" alt="{__ text="CashBill"}"/><br />
+            <span>
+                {$description}
+            </span>
+            {$form_start}
+                {$hidden_order_id}
+                {if $show_variant == 'text'}
+                    {assign var='i' value=0}
+                    <div class="row" data-equalizer>
+                        {foreach from=$channels item=channel}
+                        {assign var='i' value=$i+1}
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-equalizer-watch>
+                            <label for="check_{$i}" class="btn btn-default">
+                                <input type="radio" name="channelId" id="check_{$i}" value="{$channel->id}"/> 
+                                {$channel->name}
+                            </label>
+                        </div>
+                    {/foreach}
+                    </div>
+                {elseif $show_variant == 'image'}
+                    {assign var='i' value=0}
+                    <div class="row" data-equalizer>
+                        {foreach from=$channels item=channel}
+                            {assign var='i' value=$i+1}
+                            <div class="col-xs-6 col-sm-3 col-md-2" data-equalizer-watch>
+                                <label for="check_{$i}" class="text-center btn btn-default">
+                                    <img class="img-responsive" src="{$channel->logoUrl}" alt="{$channel->name}"/>
+                                    <input type="radio" name="channelId" id="check_{$i}" value="{$channel->id}"/> 
+                                </label>
+                            </div>
+                        {/foreach}
+                    </div>
+                {elseif $show_variant == 'none' && $redirect}
+                    {literal}
+                        <script type="text/javascript">
+                            jQuery(function($) {
+                                $(document).ready(function () {
+                                    $("#st_cashbill_form_new_payment").submit(function() {
+                                        var form = $(this);
+
+                                        if (form.data('submited')) {
+                                            return false;
+                                        }
+
+                                        form.data('submited', true);
+
+                                        $('#order-process-modal').modal({ show: true });
+                                    }).submit();
+                                });
+                            });
+                        </script>
+                    {/literal}
+                {/if}
+                <button type="submit" class="btn btn-primary pull-right">
+                    {__ text="Zapłać"}
+                </button>
+            </form>
+        {else}
+            {__ text="Płatność została błędnie skonfigurowana."}
+        {/if}
+    </div>
+</div>

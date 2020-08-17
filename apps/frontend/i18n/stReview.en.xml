@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Ocena i recenzja zakupionych produktów</source>
+                <target>Purchased product evaluation and feedback</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wyrażam zgodę na opublikowanie mojej recenzji dla produktu</source>
+                <target>I agree for my product feedback to be published</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Recenzje produktów niepublikowane</source>
+                <target>Unpublished product feedback</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Moje konto</source>
+                <target>My account</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Lista recenzji zamówień</source>
+                <target>Order feedback list</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Pokaż recenzje</source>
+                <target>Display feedback</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Recenzje zamówień</source>
+                <target>Order feedback</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Recenzje produktów</source>
+                <target>Product feedback</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Recenzja do zamówienia</source>
+                <target>Feedback pertains to order</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Data dodania</source>
+                <target>Added date</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Treść</source>
+                <target>Contents</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Ocena</source>
+                <target>Evaluation</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Publikacja</source>
+                <target>Publication</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>zezwolono</source>
+                <target>approved</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>oczekuje na zezwolenie</source>
+                <target>approval pending</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>tak</source>
+                <target>yes</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>oczekuje na autoryzację</source>
+                <target>authorization pending</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Aktualnie nie posiadasz zrecenzowanych zamówień</source>
+                <target>You currently do not have any orders with feedback</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Zrecenzowane</source>
+                <target>Feedback provided</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Dodaj recenzję</source>
+                <target>Add feedback</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Recenzja dla zamówienia nr</source>
+                <target>Feedback for order No.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Lista recenzji produktów</source>
+                <target>List of product reviews</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Recenzowany produkt</source>
+                <target>Commented product</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Aktualnie nie posiadasz zrecenzowanych produktów</source>
+                <target>You have no product feedback yet</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Administrator</source>
+                <target>Administrator</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Produkty ocenione i zrecenzowane z tego zamówienia</source>
+                <target>Evaluated and commented products from this order</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Dodano</source>
+                <target>Added date</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Ocena i recenzja transakcji</source>
+                <target>Transaction evaluation and feedback</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Pozytywna</source>
+                <target>Positive</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Neutralna</source>
+                <target>Neutral</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Negatywna</source>
+                <target>Negative</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Wyrażam zgodę na opublikowanie mojej recenzji transakcji</source>
+                <target>I agree for my transaction feedback to be published</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Recenzje</source>
+                <target>Feedback</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Autor</source>
+                <target>Author</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>pozytywna</source>
+                <target>positive</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>neutralna</source>
+                <target>neutral</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>negatywna</source>
+                <target>negative</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Produkt nie posiada recenzji</source>
+                <target>Product doesn't have any reviews</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Brak oceny produktu</source>
+                <target>Select product rate</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Brak recenzji produktu</source>
+                <target>Enter product review</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>recenzji</source>
+                <target>reviews</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Recenzje użytkowników</source>
+                <target>User reviews</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Recenzja oczekuje na publikacje</source>
+                <target>Review of pending publications</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Recenzja produktu</source>
+                <target>Product review</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Twoja ocena</source>
+                <target>Your rating</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Recenzja</source>
+                <target>Review</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Podpis</source>
+                <target>Signature</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Cyfry z obrazka</source>
+                <target>Digits from the image</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Wyślij</source>
+                <target>Send</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Wprowadzono zły numer.</source>
+                <target>Invalid number was entered.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Napisz opinię</source>
+                <target>Write a review</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Oceń</source>
+                <target>Review</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Recenzje</source>
+                <target>Reviews</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

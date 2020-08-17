@@ -1,0 +1,200 @@
+thumbs:
+      slide:
+         thumb:
+            width: '1170'
+            height: '512'
+            quality: '100'
+            watermark: false
+            auto_crop: true
+      slide_mobile:
+         thumb:
+            width: '500'
+            height: '489'
+            quality: '100'
+            watermark: false
+            auto_crop: true
+      product:
+         small:
+            width: '260'
+            height: '260'
+            quality: '100'
+            auto_crop: true
+
+
+layout_config:
+   _layouts:
+      one_column:  "Jedna kolumna"
+      two_column:  "Dwie kolumny"
+
+   product_list:
+      label:   "Lista produktów"
+      layouts: [one_column, two_column]
+      actions: ["stProduct/list", "stProduct/groupList", "stProduct/producerList"]
+      default: two_column
+
+   product_card:
+      label:   "Karta produktu"
+      layouts: [one_column, two_column]
+      actions: ["stProduct/show"]
+      default: two_column
+
+   webpage:
+      label:   "Strona www"
+      layouts: [one_column, two_column]
+      actions: ["stWebpageFrontend/index"]
+      default: one_column
+
+editor_config:
+   slots: ~
+   media:
+      xs: ~
+      onlyxs: "max-width: 767px"
+      sm: "min-width: 768px"
+      md: "min-width: 992px"
+      lg: "min-width: 1200px"
+
+   graphic:  
+      logo:
+         label:                        "Wygląd loga"
+         display:                      [logo]
+         fields:
+            logo:                      {label: Logo, type: image, default: "logo.png"}
+         
+      logo_small:
+         label:                        "Wygląd loga - urządzenia mobilne i małe ekrany"
+         display:                      [logo_small]
+         fields:
+            logo_small:                {label: Logo mobile, type: image, default: "logo_small.png"}
+
+      header_background: ~
+
+      general:
+         label:                        "Wygląd ogólny"
+         display:                      [text, text_muted, link_hover]
+         fields:
+            text:                      { label: "Kolor tekstu", type: css, selector: "body", property: color, default: "#313131" }
+            text_muted:                { label: "Kolor tekstu wyciszonego", type: css, selector: ".text-muted", property: color, default: "#b0b4b7" }
+            link_hover:                { label: "Kolor linku - po najechaniu", type: css, selector: "a:hover, a:focus, a:active, .category:hover h2 a", property: color, default: "#bc2217" }
+
+
+      header_navbar:
+         label:                        "Wygląd górnego paska nawigacyjnego"
+         display:                      [background, border, link, link_hover1, link_hover-bg]
+         fields:
+            background:                { label: "Kolor tła", type: "css", selector: "nav#header-navbar", property: background-color, default: "#ffffff" }
+            border:                    { label: "Kolor lini", type: "css", selector: "nav#header-navbar", property: border-color, default: "#172236" }
+            link:                      { label: "Kolor linku", media: "sm", type: "css", selector: "div#nav-menu > .navbar-nav > li > a", property: color, default: "#172236" }
+            link_hover1:               { label: "Kolor linku - po najechaniu", media: "sm", type: "css", selector: "div#nav-menu .navbar-nav > li > a:hover, #nav-menu .navbar-nav > li > a:focus, #nav-menu .navbar-nav > li > a:active, div#nav-menu .navbar-nav > li.active > a, #nav-menu>.navbar-nav>li.dropdown:hover>a, #nav-menu>.navbar-nav>li.open>a", property: color, default: "#bc2217" }
+            link_hover-bg:             { label: "Kolor tła linku - po najechaniu", media: "sm", type: "css", selector: "header .navbar-dropdown .navbar-collapse, .dropdown-menu, #nav-menu>.navbar-nav>li.dropdown:hover>a, #nav-menu>.navbar-nav>li.open>a", property: background-color, default: "#e9edf1" }
+         generated:
+            link:
+               - { selector: "#nav-button-menu.collapsed:hover .icon-bar, #nav-button-menu.collapsed .icon-bar", property: "background-color" }
+               - { selector: ".more .dropdown-toggle .icon-bar", property: "background-color" }
+               - { selector: ".btn-navbar.collapsed:not(:hover):focus, .btn-navbar.collapsed", property: "color" }
+            link_hover1:
+               - { selector: "#nav-button-menu.collapsed:hover .icon-bar, #nav-button-menu .icon-bar", property: "background-color" }
+               - { selector: ".more.open .dropdown-toggle .icon-bar, .more.active .dropdown-toggle .icon-bar", property: "background-color" }
+               - { selector: ".btn-navbar, .btn-navbar:active, .btn-navbar:hover, .btn-navbar:focus", property: "color" }
+
+
+      header_navbar_xs:
+         label:                        "Wygląd górnego paska nawigacyjnego - urządzenia mobilne i małe ekrany"
+         display:                      [link, link_hover1, link_hover_bg1, link_hover2, link_hover_bg2]
+         fields:
+            link:                      { label: "Kolor linku", media: "onlyxs", type: "css", selector: "div#nav-menu > .navbar-nav > li > a", property: color, default: "#444444" }
+            link_hover1:               { label: "Kolor linku - po najechaniu", media: "onlyxs", type: "css", selector: "div#nav-menu .navbar-nav > li > a:hover, div#nav-menu .navbar-nav > li.active > a, div#nav-menu .dropdown-menu > li > a:hover, div#nav-menu .dropdown-menu > li.active>a", property: color, default: "#000000" }
+            link_hover2:               { label: "Kolor linków rozwijanych - po najechaniu", media: "onlyxs", type: "css", selector: "div#nav-menu .navbar-nav > li.dropdown > a:hover, div#nav-menu .navbar-nav > li.open > a, div#nav-menu .navbar-nav > li.active > a", property: color, default: "#000000" }
+            link_hover_bg1:            { label: "Kolor tła linku - po najechaniu", media: "onlyxs", type: "css", selector: "div#nav-menu .navbar-nav > li:not(.dropdown):hover > a, #nav-menu .navbar-nav > li:not(.open).active > a, div#nav-menu .dropdown-menu > li > a:hover, div#nav-menu .dropdown-menu > li.active>a", property: background, default: "#eeeeee" }
+            link_hover_bg2:            { label: "Kolor tła linków rozwijanych - po najechaniu", media: "onlyxs", type: "css", selector: "#nav-button-menu, div#nav-menu .navbar-nav > li.dropdown > a:hover, div#nav-menu .navbar-nav > li.open > a, div#nav-menu .navbar-nav > li.dropdown.active > a", property: background, default: "#eeeeee" }
+
+      homepage_background: ~
+
+      background:
+         label:                        Wygląd tła
+         display:                      [color, image, repeat]
+         fields:
+            color:                     { label: "Kolor tła", type: css, selector: "div#bg", property: background-color, default: "#1c2835" }
+            image:                     { label: "Obraz tła", type: css, selector: "div#bg", property: background-image, default: "bg.jpg" }
+            repeat:                    { label: "Powtórzenie tła", type: css, selector: "div#bg", property: background-repeat, default: "no-repeat" }
+
+      category_box:
+         label:                        Wygląd drzewa kategorii
+         display:                      [color_head, bg_head, color_active]
+         fields:
+            color_head:                { label: "Kolor tekstu nagłówka", type: css, selector: "div#vertical-categories .panel-heading, ul#vertical-categories .panel-heading", property: color, default: "#ffffff" }
+            bg_head:                   { label: "Kolor tła nagłówka", type: css, selector: "div#vertical-categories .panel-heading, ul#vertical-categories .panel-heading", property: background-color, default: "#172236" }
+            color_active:              { label: "Kolor aktywnej kategorii", type: css, selector: "div#vertical-categories li.active>a, div#vertical-categories li a:hover, ul#vertical-categories li.active>a, ul#vertical-categories li a:hover, a:hover, a:focus", property: color, default: "#bc2217" }
+         generated:
+            bg_head:
+               - { selector: "div.product_group .other_group a:before", property: "background-color" }
+
+      info_box:
+         label:                        Wygląd boksów informacyjnych
+         display:                      [color_head, bg_head]
+         fields:
+            color_head:                { label: "Kolor tekstu nagłówka", type: css, selector: "div.product_group .panel-heading .panel-title, div.product_group .panel-heading a:hover, .box-info .panel-heading .panel-title", property: color, default: "#172236" }
+            bg_head:                   { label: "Kolor tła nagłówka", type: css, selector: "div.product_group .panel-heading, .box-info .panel-heading", property: background-color, default: "#ffffff" }
+
+      product_box:
+         label:                        Wygląd boksów produktów
+         display:                      [color, price]
+         fields:
+            color:                     { label: "Kolor tekstu opisu skróconego", type: css, selector: "span.back-side-product", property: color, default: "#444444" }
+            price:                     { label: "Kolor ceny", type: css, selector: "div.product .price:not(.old_price)", property: color, default: "#d3170a" }
+
+      product_card:
+         label:                        Wygląd karty produktu
+         display:                      [price_color, color_recommend]
+         fields:
+            price_color:               { label: "Kolor ceny", type: css, selector: "div.card .prices .price", property: color, default: "#172236" }
+            color_recommend:           { label: "Kolor podkreślenia produktów polecanych", type: css, selector: "div.card .nav-tabs > li.active > a, .card .nav-tabs > li.active > a:hover, .card .nav-tabs>li.active>a:focus", property: border-color, default: "#ff0000" }
+
+      btn_default: 
+         label:                        "Wygląd przycisku domyślnego"
+         display:                      [color, background, color_hover, background_hover]
+         fields:
+            color:                     { label: "Kolor tekstu", type: css, selector: ".btn-default, .btn-shopping-cart", property: color, default: "#333333" }
+            background:                { label: "Kolor tła", type: css, selector: ".btn-default, .btn-shopping-cart", property: background-color, default: "#e9edf1" }
+            color_hover:               { label: "Kolor tekstu - po najechaniu", type: css, selector: ".btn-default:hover, .btn-shopping-cart:hover, .btn-default:active, .btn-shopping-cart:active, .btn-default:focus, .btn-shopping-cart:focus", property: color, default: "#333333" }
+            background_hover:          { label: "Kolor tła - po najechaniu", type: css, selector: ".btn-default:hover, .btn-shopping-cart:hover, .btn-default:active, .btn-shopping-cart:active, .btn-default:focus, .btn-shopping-cart:focus", property: background-color, default: "#E0E4E0" }
+
+      btn_primary: 
+         label:                        "Wygląd przycisku wyróżnionego"
+         display:                      [color, background, color_hover, background_hover]
+         fields:
+            color:                     { label: "Kolor tekstu", type: css, selector: ".btn-primary, .information .btn-shopping-cart, #nav-shopping-cart .btn-default", property: color, default: "#ffffff" }
+            background:                { label: "Kolor tła", type: css, selector: ".btn-primary, .information .btn-shopping-cart, #nav-shopping-cart .btn-default", property: background-color, default: "#172236" }
+            color_hover:               { label: "Kolor tekstu - po najechaniu", type: css, selector: ".btn-primary:hover, .information .btn-shopping-cart:hover, #nav-shopping-cart .btn-default:hover, .btn-primary:focus, .information .btn-shopping-cart:focus, #nav-shopping-cart .btn-default:focus, .btn-primary:active, .information .btn-shopping-cart:active, #nav-shopping-cart .btn-default:active", property: color, default: "#ffffff" }
+            background_hover:          { label: "Kolor tła - po najechaniu", type: css, selector: ".btn-primary:hover, .information .btn-shopping-cart:hover, #nav-shopping-cart .btn-default:hover, .btn-primary:focus, .information .btn-shopping-cart:focus, #nav-shopping-cart .btn-default:focus, .btn-primary:active, .information .btn-shopping-cart:active, #nav-shopping-cart .btn-default:active", property: background-color, default: "#E33034" }
+
+      btn_shopping_cart: ~
+      footer:
+         label:                        "Wygląd stopki"
+         display:                      [color_h, color, color_hover, bg, image, repeat]
+         fields:
+            bg:                        { label: "Kolor tła", type: "css", selector: "footer .navbar-default", property: background-color, default: "#1b232e" }
+            color_h:                   { label: "Kolor nagłówków", type: "css", selector: "footer .list-group h5 a", property: color, default: "#ffffff" }
+            color:                     { label: "Kolor linków", type: "css", selector: "footer .navbar-default, footer .list-group > a:not(:hover), footer .copyright a:not(:hover), #newsletter p", property: color, default: "#929ba3" }
+            color_hover:               { label: "Kolor linków - po najechaniu", type: "css", selector: "footer .list-group>a:hover, footer .list-group>a:focus, footer .list-group>a:active, footer .copyright a:hover, footer .copyright a:focus, footer .copyright a:active", property: color, default: "#ffffff" }
+            image:                     { label: "Obraz tła", type: css, selector: "footer .navbar-default", property: background-image, default: "bg-foot.png" }
+            repeat:                    { label: "Powtórzenie tła", type: css, selector: "footer .navbar-default", property: background-repeat, default: "no-repeat" }
+
+      social_icon: 
+         label:                        "Ikony social media"
+         display:                      [color, border, color_hover, border_hover]
+         fields:
+            color:                     { label: "Kolor ikony", type: css, selector: "footer #social a:not(:hover)", property: color, default: "#ffffff" }
+            border:                    { label: "Kolor ramki", type: css, selector: "footer #social a:not(:hover)", property: border-color, default: "#596169" }
+            color_hover:               { label: "Kolor ikony - po najechaniu", type: css, selector: "footer #social a:hover, footer #social a:focus, footer #social a:active", property: color, default: "#ffffff" }
+            border_hover:              { label: "Kolor ramki - po najechaniu", type: css, selector: "footer #social a:hover, footer #social a:focus, footer #social a:active", property: border-color, default: "#ffffff" }
+
+      main_text:
+         label:                        "Tekst na stronie głównej"
+         display:                      [border, bg]
+         fields:
+            border:                    { label: "Kolor ramki", type: css, selector: "div#main_text", property: border-color, default: "#e9edf1" }
+            bg:                        { label: "Kolor tła", type: css, selector: "div#main_text", property: background-color, default: "#e9edf1" }
+         
+
+
+

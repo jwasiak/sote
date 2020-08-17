@@ -1,0 +1,5 @@
+all:
+  default:
+    layout_name: layout1
+  show:
+    layout_name: layout2

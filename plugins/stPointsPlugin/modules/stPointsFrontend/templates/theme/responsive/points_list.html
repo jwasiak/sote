@@ -1,0 +1,38 @@
+{set layout="one_column_layout"}
+
+<div id="st_application-st_basket-index" class="box roundies">
+    <div id="st_navigation_bar-user" class="st_navigation_bar_user">
+        <ul>
+            <li class="st_first">
+                <a href="/user_data/userPanel">{__ text="Moje konto"}</a>
+            </li>
+            <li class="st_selected">
+                <a href="/points/list">{__ text="Punkty"}</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="st_content order_padding">
+        {if isset($pager)}
+        {$pager_results}
+        {else}
+        <div class="roundies box_form">
+            <h3>{__ text="Twoje punkty"}</h3>
+            <div class="content">
+                <br/>
+                {__ text="Aktualnie posiadasz"}: <b>{$user_points} {$points_shortcut}</b>
+                {if $release_points!="release_off" && $release_points!="release_on"}
+                <br/>
+                {__ text="Próg aktywacji punktów nie został osiągnięty"} - {__ text="do aktywacji brak"}: <b>{$release_points} {$points_shortcut}</b>. <br/>{__ text="Po zgromadzeniu łącznie"} <b>{$points_release_value} {$points_shortcut}</b> {__ text="będzie można dokonywać zakupów za punkty."} <br/>{__ text="Aktywacja jest jednorazowa."}<br/> {__ text="Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane."}
+                {elseif $release_points=="release_on"}
+                <br/>
+                {__ text="Próg aktywacji punktów"}: <b>{__ text="osiągnięty"}</b>
+                {/if}
+                <br/>
+                <br/>
+            </div>
+        </div>
+
+        {/if}
+    </div>
+</div>

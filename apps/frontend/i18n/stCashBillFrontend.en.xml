@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2014-01-01T00:00:01Z">
+        <body>
+            <trans-unit id="1">
+                <source>Płatność</source>
+                <target>Payment</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Dziękujemy za dokonanie płatności.</source>
+                <target>Thank you for your payment.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Płatność nie została zrealizowana.</source>
+                <target>The payment was not completed.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Błąd podczas tworzenia nowej płatności.</source>
+                <target>Error creating the a new payment.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zapłać</source>
+                <target>Pay</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Płatność została błędnie skonfigurowana.</source>
+                <target>The payment was configured incorrectly.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Za chwilę nastąpi przekierowanie na stronę płatności. Proszę czekać.</source>
+                <target>In a moment you will be redirected to the payment page. Please wait.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

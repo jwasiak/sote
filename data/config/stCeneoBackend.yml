@@ -1,0 +1,12 @@
+all:
+  .auto_generated:
+    config:
+      last_modified: '2009/07/16 07:32:33'
+      fields:
+        trusted_opinion_on: '0'
+        transaction_system_on: '0'
+        trusted_opinion_id: ''
+        use_product_code: '0'
+        use_ean_code: '0'
+        use_stock: '1'
+        description_type: 'full'

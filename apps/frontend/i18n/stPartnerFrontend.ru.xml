@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>firma</source>
+				<target>компания</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>imię i nazwisko</source>
+				<target>имя и фамилия</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>ulica, nr domu</source>
+				<target>улица, номер дома</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kod, miasto</source>
+				<target>почтовый индекс, город</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>kraj</source>
+				<target>страна</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>telefon</source>
+				<target>телефон</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>nip</source>
+				<target>ИНН/NIP</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>nr. konta</source>
+				<target>Номер счета</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>uwagi</source>
+				<target>примечания</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zarejestruj</source>
+				<target>Зарегистрироваться</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dane partnera</source>
+				<target>Данные партнера</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Konto</source>
+				<target>Счет</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Prowizje partnera</source>
+				<target>Комиссионные партнера</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Stawka prowizji procentowej</source>
+				<target>Ставка комиссии в процентах</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Stawka prowizji kwotowej</source>
+				<target>Ставка фиксированной комиссии</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Nie przyznano prowizji od transakcji.</source>
+				<target>Для сделки не назначены комиссионные.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Całkowita prowizja</source>
+				<target>Общие комиссионные</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Rozliczona prowizja</source>
+				<target>Рассчитанные комиссионные</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nierozliczona prowizja</source>
+				<target>Нерассчитанные комиссионные</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zamówienia z polecenia</source>
+				<target>Заказы по рекомендации</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Link partnerski</source>
+				<target>Партнерская ссылка</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Skorzystaj z automatycznego generowania linku partnerskiego. Opcja ta ułatwi Ci generowanie linków za pomocą, których klienci którym polecisz sklep dokonają zakupów rejestrowanych na Twoje konto.</source>
+				<target>Воспользуйтесь автоматическим созданием партнерской ссылки. Эта опция поможет вам создавать ссылки, с помощью которых клиенты, которым вы будете рекомендовать магазин, будут выполнять покупки, зарегистрированные на вашем счете.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Wstaw link do strony sklepu</source>
+				<target>Вставить ссылку на страницу магазина</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Link partnerski do strony sklepu</source>
+				<target>Партнерская ссылка на страницу магазина</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Link partnerski do umieszczenia na stronie</source>
+				<target>Партнерская ссылка для размещения на странице</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Konto partnerskie zostało zablokowane.</source>
+				<target>Партнерский счет заблокирован.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Twoje konto zostało zablokowane, skontaktuj się z administratorem celem wyjaśnienia przyczyny blokady konta.</source>
+				<target>Ваш счет заблокирован, свяжитесь с администратором с целью выяснения причины блокирования счета.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>wszystkie</source>
+				<target>все</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>rozliczone</source>
+				<target>рассчитанные</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>nierozliczone</source>
+				<target>нерассчитанные</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Brak zamówień.</source>
+				<target>Нет заказов.</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Łączna kwota prowizji</source>
+				<target>Общая сумма комиссионных</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Łączna kwota prowizji za okres od</source>
+				<target>Общая сумма комиссионных за период с</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>wynosi</source>
+				<target>составляет</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Kwota zamówienia</source>
+				<target>Сумма заказа</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wartość prowizji</source>
+				<target>Стоимость комиссионных</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Zapraszamy do skorzystania z naszego programu partnerskiego. Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci. Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep. Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.</source>
+				<target>Приглашаем воспользоваться нашей партнерской программой. Партнерская программа предназначена для лиц, которые хотят популяризировать наш магазин и рекламировать его в сети. После выражения намерения участвовать в партнерской программе путем заполнения формуляра с правой стороны, вы пройдете верификацию у администратора магазина. Если верификация пройдет успешно, вам будет присвоен индивидуальный номер партнера, с помощью которого вы сможете рекомендовать наш магазин другим людям. Сделки, заключенные в магазине, которые совершались по вашей рекомендации, регистрируются в системе, а на вашем партнерском счете появляются комиссионные за выполненную сделку.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Ожидание подтверждения.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Dziękujemy za wyrażenie chęci zostania partnerem naszego sklepu. Proszę czekać, aż administrator zaakceptuje i potwierdzi dane rejestracyjne.</source>
+				<target>Благодарим за выражение намерения стать партнером нашего магазина. Подождите, пока администратор проверит и подтвердит регистрационные данные.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Po zweryfikowaniu danych otrzymacie Państwo indywidualny numer partnerski, który umożliwi dokonywanie zakupów z polecenia.</source>
+				<target>После проверки данных вы получите индивидуальный партнерский номер, который позволит выполнять покупки по рекомендации.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>O przyznaniu status partnera sklepu zostaniecie Państwo poinformowani drogą mailową.</source>
+				<target>О присвоении статуса партнера магазине вы будете уведомлены по электронной почте.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Moje konto</source>
+				<target>Мой счет</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Program partnerski</source>
+				<target>Партнерская программа</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Uzupełnij formularz poniżej podając dane, które posłużą administratorowi sklepu do rozliczeń programu partnerskiego.</source>
+				<target>Заполните следующий формуляр, указав данные, которые потребуются администратору магазина для расчетов по партнерской программе.</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brak imienia.</source>
+				<target>Не указано имя.</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Brak nazwiska.</source>
+				<target>Не указана фамилия.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Brak ulicy.</source>
+				<target>Не указана улица.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak domu.</source>
+				<target>Не указан дом.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak kodu.</source>
+				<target>Не указан индекс.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Brak miasta.</source>
+				<target>Не указан город.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Brak telefonu.</source>
+				<target>Не указан телефон.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zweryfikuj poprawność adresu</source>
+				<target>Проверьте правильность адреса</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Wstaw link do dowolnej strony tego sklepu (np.</source>
+				<target>Вставить ссылку на любую страницу магазина этого магазина (например,</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>). Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+				<target>). Ниже указаны ссылки, которые будут включать активацию партнерской программы</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Pokaż</source>
+				<target>Показать</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>Отмеченные поля обязательны для заполнения.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,14 @@
+/home/jarek/src/soteshop/data
+/home/jarek/src/soteshop/data/config
+/home/jarek/src/soteshop/data/config/error_title.txt
+/home/jarek/src/soteshop/data/config/error_content.txt
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/backend
+/home/jarek/src/soteshop/apps/backend/i18n
+/home/jarek/src/soteshop/apps/backend/i18n/stLockBackend.en.xml
+/home/jarek/src/soteshop/web
+/home/jarek/src/soteshop/web/images
+/home/jarek/src/soteshop/web/images/backend
+/home/jarek/src/soteshop/web/images/backend/main
+/home/jarek/src/soteshop/web/images/backend/main/icons
+/home/jarek/src/soteshop/web/images/backend/main/icons/stLockPlugin.png

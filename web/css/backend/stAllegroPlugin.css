@@ -1,0 +1,355 @@
+.st-allegro-category-status {
+    padding-bottom: 10px;
+}
+
+.st-allegro-button, .st-allegro-button-add {
+    padding-left: 30px !important;
+    padding-top: 5px !important;
+}
+
+.st-allegro-button-add {
+    background-image: url(/images/backend/icons/add.png); 
+}
+
+.st-allegro-edit-radio-list li {
+    padding-bottom: 2px;
+}
+
+.st-allegro-edit-radio-list label {
+    float: none !important;
+}
+
+.st-allegro-edit-radio-list input[type="radio"] {
+    margin: 2px 2px 0px 0px;
+}
+
+.st-allegro-loading, #st-allegro-delivery-edit-delivery-loading, #st-allegro-edit-deliveries-loading, #st-allegro-edit-options-loading {
+    width: 20px;
+}
+
+#st-allegro-delivery-link-box {
+    margin-bottom: 5px;
+}
+
+.st-allegro-edit-image-box {
+    border: 1px solid #cccccc;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.st-allegro-edit-image {
+    float: left;
+    height: 170px;
+    width: 170px;
+    margin: 5px;
+    text-align: center;
+}
+
+.st-allegro-edit-image img {
+    max-height: 170px;
+    max-width: 170px;
+}
+
+.st-allegro-edit-image-desc {
+    background-color: #eeeeee;
+    clear: both;
+    padding: 5px;
+    text-align: left !important;
+}
+
+.st-allegro-edit-image-desc input[type="checkbox"] {
+    float: left;
+    margin: 3px 1px 1px 1px;
+}
+
+.st-allegro-edit-image-desc input[type="radio"] {
+    float: left;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.st-allegro-edit-image-desc label {
+    float: right !important;
+    padding: 0px !important;
+    width: auto !important;
+    clear: none !important;
+}
+
+#st-allegro-fieldset-description .row label {
+   width: auto;
+   clear: left;
+}
+
+#st-allegro-fieldset-description .row .field {
+   text-align: right;
+}
+
+#st-allegro-fieldset-images .row .field, #st-allegro-fieldset-description .row .field {
+   margin-left: 0px;
+}
+
+#st-allegro-edit-other-text {
+    width: 100%;
+}
+
+#st-allegro-edit-pay-options li, .st-allegro-edit-checkbox-lists li {
+    display: inline-block;
+    width: 200px;
+}
+
+#st-allegro-edit-category-overlay, #st-allegro-edit-options-overlay {
+    border: 1px solid #dddddd;
+}
+
+#st-allegro-edit-category-overlay-close, #st-allegro-edit-options-overlay-close {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 100%;
+    text-align: right;
+}
+
+#st-allegro-edit-category-overlay h2, #st-allegro-edit-options-overlay h2 {
+    border-bottom: medium none;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+    padding: 0px 25px 0px 10px;
+    text-align: center;
+}
+
+#st-allegro-edit-category-overlay .content, #st-allegro-edit-options-overlay .content {
+    width: 500px;
+    max-height: 400px;
+    min-height: 100px;
+    overflow: auto;
+    margin-bottom: -1px;
+    padding: 28px 20px;
+}
+
+#st-allegro-edit-category-overlay-submit, #st-allegro-edit-options-overlay-submit {
+    background: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+#st-allegro-edit-category-overlay-submit button, #st-allegro-edit-options-overlay button {
+    background: none repeat scroll 0 0 #ddd;
+    font-size: 14px;
+    padding: 5px 20px;
+    white-space: nowrap;
+}
+
+.st-allegro-error-message {
+    color: #ff0000;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.st-allegro-list-auctions-table {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.st-allegro-list-auction-table-actions {
+    text-align: right !important;
+}
+
+#st-allegro-notice {
+    padding: 0px !important;
+}
+
+#st-allegro-notice h2 {
+    margin-left: 10px !important;
+}
+
+#st-allegro-notice dl {
+    padding: 5px;
+    margin: 0px;
+    background-color: #fafef9;
+    font-size: 11px;
+}
+
+#st-allegro-notice dt {
+    float: left;
+    margin-right: 5px;
+    color: #54903e;
+}
+
+#st-allegro-notice dd {
+    padding: 0px;
+    margin: 0px;
+}
+
+#sf_admin_list_th_list_edit_action {
+    width: 1%;
+}
+
+.st-allegro-edit-table-size {
+    float: left; 
+    margin: 0px 10px 10px 0px;
+}
+
+#st-allegro-edit-options-overlay span {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    text-align: right;
+    width: 200px !important;
+}
+
+#st-allegro-edit-options-overlay label {
+    text-align: left !important;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+#st-allegro-edit-options-overlay select {
+    width: 150px;
+}
+
+.st-allegro-tooltip {
+    cursor: pointer;
+}
+
+.st-allegro-error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.allegro-button-more {
+    margin: 0px 0px 0px 5px !important;
+}
+
+#admin_config_form #st-allegro-notice dt {
+    font-size: 12px;
+}
+
+#st-allegro-custom-category-message {
+    padding-bottom: 15px;
+}
+
+#st-allegro-delivery-edit label {
+    width: 120px;
+}
+
+#st-allegro-delivery-edit .field {
+    margin-left: 130px;
+}
+
+#st-allegro-offer-add-image-overlay .content {
+    padding: 15px 15px 20px 15px;
+    width: 700px;
+}
+
+#st-allegro-offer-add-image-overlay .content label {
+    text-align: center;
+    float: none;
+    width: auto;
+    cursor: pointer;
+}
+
+#st-allegro-offer-add-image-overlay .content .submit {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#st-allegro-offer-add-image-overlay .admin_actions {
+    margin: 0;
+}
+
+#st-allegro-offer-add-image-overlay .content label,
+#st-allegro-edit-images > div,  #st-allegro-edit-images > a {
+    float: left;
+    border: 1px solid #ccc; 
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+#st-allegro-offer-add-image-overlay .images:after,
+#st-allegro-edit-images:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#st-allegro-edit-images .thumbnail,
+#st-allegro-offer-add-image-overlay .content label > span {
+    height: 100px;
+    width: 100px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#st-allegro-edit-images > div:first-child .thumbnail {
+    height: 222px;
+    width: 222px;
+}
+
+#st-allegro-offer-add-image-overlay .content label > span {
+    margin-bottom: 5px;
+}
+
+#st-allegro-edit-images {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#st-allegro-edit-images > div .image-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+    cursor: move;
+}
+
+#st-allegro-edit-images > div:hover .image-overlay {
+    display: block;
+}
+
+#st-allegro-edit-images > div .image-overlay .delete {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#st-allegro-edit-images .image-placeholder {
+    background: #eee;
+    width: 100px;
+    height: 100px;
+}
+
+#st-allegro-edit-images .add-image {
+    background: url(/jQueryTools/plupload/images/add.png?v2) no-repeat center center;
+    background-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#st-allegro-edit-images .add-image:first-child,
+#st-allegro-edit-images .image-placeholder:first-child {
+    height: 222px;
+    width: 222px;    
+}
+
+.st_product_options_picker label span {
+    width: 240px  !important;
+}
+
+.st_product_options_picker label {
+    font-weight: bold;
+}
+
+#st-allegro-offer .st_product_options_picker li {
+    padding: 4px 10px !important;
+}

@@ -1,0 +1,18 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        SOTESHOP - panel aktualizacji
+    robots:       index, follow
+    description:  symfony project
+    keywords:     symfony, project
+    language:     en
+
+  stylesheets:    []
+
+
+  javascripts:    []
+
+  has_layout:     on
+  layout:         layout

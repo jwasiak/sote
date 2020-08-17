@@ -1,0 +1,18 @@
+#sf_admin_container ul.sf_admin_checklist li
+{
+   clear: none;
+
+   margin-right: 20px;
+
+   float: left;
+}
+
+#sf_admin_container ul.sf_admin_checklist li input
+{
+   margin-right: 5px;
+}
+
+#sf_admin_container ul.sf_admin_checklist li label
+{
+   padding: 0px;
+}

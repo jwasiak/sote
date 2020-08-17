@@ -1,0 +1,15 @@
+---
+package: 
+  name: stLockPlugin
+  stability: stable
+  version: 7.0.9.4
+  summary: Blokowanie sklepu
+  description: Blokowanie sklepu
+  notes: |
+    - Dodanie automatycznej aktualizacji konfiguracji bazy MySQL dla PHP 7.x
+    - Poprawka blokowania sklepu w momencie czyszczenia pamięci cache
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

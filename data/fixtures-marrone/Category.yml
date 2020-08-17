@@ -1,0 +1,102 @@
+sfAsset:
+  sfAsset_61:
+    folder_id: sfAssetFolder_58
+    filename: marrone-cat1.jpg
+    type: image
+  sfAsset_62:
+    folder_id: sfAssetFolder_58
+    filename: marrone-cat2.jpg
+    type: image
+  sfAsset_63:
+    folder_id: sfAssetFolder_58
+    filename: marrone-cat3.jpg
+    type: image
+  sfAsset_64:
+    folder_id: sfAssetFolder_58
+    filename: marrone-cat4.jpg
+    type: image
+
+Category: 
+  Category_1: 
+    lft: 1
+    rgt: 10
+    depth: 0
+    scope: 1
+    culture: pl_PL
+    name: Kategorie
+    root_position: 1
+  Category_2: 
+    lft: 2
+    rgt: 3
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Żele do mycia
+    parent_id: Category_1
+    sf_asset_id: sfAsset_61
+    main_page: 1
+    description: <p>Opisz w kilku zdaniach produkty, jakie znajdują sie w tej kategorii. Warto w opisie użyć kilku słów kluczowych powiązanych z kategorią. Opis ten będzie wykorzystany przy indeksowaniu strony. Dodaj np.:</p><ul><li>Ogólne parametry</li><li>Zalety produktów</li><li>Dodatkowe informacje</li></ul>
+  Category_3: 
+    lft: 4
+    rgt: 5
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Krem do twarzy
+    parent_id: Category_1
+    sf_asset_id: sfAsset_62
+    main_page: 1
+    description: <p>Opisz w kilku zdaniach produkty, jakie znajdują sie w tej kategorii. Warto w opisie użyć kilku słów kluczowych powiązanych z kategorią. Opis ten będzie wykorzystany przy indeksowaniu strony. Dodaj np.:</p><ul><li>Ogólne parametry</li><li>Zalety produktów</li><li>Dodatkowe informacje</li></ul>
+  Category_4: 
+    lft: 6
+    rgt: 7
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Szampony
+    parent_id: Category_1
+    sf_asset_id: sfAsset_63
+    main_page: 1
+    description: <p>Opisz w kilku zdaniach produkty, jakie znajdują sie w tej kategorii. Warto w opisie użyć kilku słów kluczowych powiązanych z kategorią. Opis ten będzie wykorzystany przy indeksowaniu strony. Dodaj np.:</p><ul><li>Ogólne parametry</li><li>Zalety produktów</li><li>Dodatkowe informacje</li></ul>
+  Category_5: 
+    lft: 8
+    rgt: 9
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Olejki do ciała
+    parent_id: Category_1
+    sf_asset_id: sfAsset_64
+    main_page: 1
+    description: <p>Opisz w kilku zdaniach produkty, jakie znajdują sie w tej kategorii. Warto w opisie użyć kilku słów kluczowych powiązanych z kategorią. Opis ten będzie wykorzystany przy indeksowaniu strony. Dodaj np.:</p><ul><li>Ogólne parametry</li><li>Zalety produktów</li><li>Dodatkowe informacje</li></ul>
+
+CategoryI18n:
+  CategoryI18n_2:
+    id: Category_1
+    culture: en_US
+    name: Categories
+    url: categories
+  CategoryI18n_3:
+    id: Category_2
+    culture: en_US
+    name: Washing gels
+    url: washing-gels
+    description: <p>Describe in brief products included in this category. Your description shall preferably include several key words related to the category as it will be used for the website indexing. Add e.g.:</p><ul><li>General parameters</li><li>Product advantages</li><li>Additional information</li></ul>
+  CategoryI18n_4:
+    id: Category_3
+    culture: en_US
+    name: Face cream
+    url: face-cream
+    description: <p>Describe in brief products included in this category. Your description shall preferably include several key words related to the category as it will be used for the website indexing. Add e.g.:</p><ul><li>General parameters</li><li>Product advantages</li><li>Additional information</li></ul>
+  CategoryI18n_5:
+    id: Category_4
+    culture: en_US
+    name: Shampoos
+    url: shampoos
+    description: <p>Describe in brief products included in this category. Your description shall preferably include several key words related to the category as it will be used for the website indexing. Add e.g.:</p><ul><li>General parameters</li><li>Product advantages</li><li>Additional information</li></ul>
+  CategoryI18n_6:
+    id: Category_5
+    culture: en_US
+    name: Body oils
+    url: body-oils
+    description: <p>Describe in brief products included in this category. Your description shall preferably include several key words related to the category as it will be used for the website indexing. Add e.g.:</p><ul><li>General parameters</li><li>Product advantages</li><li>Additional information</li></ul>

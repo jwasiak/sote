@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stSlideBannerPlugin.lib.model" noXsd="true">
+
+  <table name="st_slide_banner" phpName="SlideBanner">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="language_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_language" onDelete="restrict">
+      <reference local="language_id" foreign="id" />
+    </foreign-key>
+    <column name="image" type="VARCHAR" size="255" required="false" />
+    <column name="image_small" type="VARCHAR" size="255" required="false" />
+    <column name="banner_type" type="INTEGER" required="true" default="0" />
+    <column name="link" type="VARCHAR" size="255" />
+    <column name="group_name" type="VARCHAR" size="255" />
+    <column name="description" type="LONGVARCHAR" />
+    <column name="banner_title" type="VARCHAR" size="255" />
+    <column name="banner_description" type="LONGVARCHAR" />
+    <column name="button_text" type="VARCHAR" size="255" />
+    <column name="button_link" type="VARCHAR" size="255" />
+    <column name="banner_description_position" type="INTEGER" required="true" default="0" />
+    <column name="banner_margin_left" type="VARCHAR" size="255" />
+    <column name="banner_margin_right" type="VARCHAR" size="255" />
+    <column name="is_active" type="BOOLEAN" required="true" default="1" />
+    <column name="opt_culture" type="VARCHAR" size="7" required="true" />
+    <column name="rank" type="INTEGER" />
+    <index name="opt_culture_idx">
+      <index-column name="opt_culture" />
+    </index>
+    <index name="is_active_idx">
+      <index-column name="is_active" />
+    </index>
+    <index name="group_name_idx">
+      <index-column name="group_name" />
+    </index>
+  </table>
+
+</database>

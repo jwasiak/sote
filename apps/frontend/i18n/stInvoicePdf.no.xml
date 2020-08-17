@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Faktury</source>
+				<target>Fakturaer</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Nabywca</source>
+				<target>Kjøper</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>oryginał</source>
+				<target>original</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kopia</source>
+				<target>kopi</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Słownie</source>
+				<target>Med bokstaver</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wystawił(a)</source>
+				<target>Utstedt av</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Sprzedawca</source>
+				<target>Selger</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>według stawki VAT</source>
+				<target>MVA-sats</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>wartość netto</source>
+				<target>nettoverdi</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>kwota VAT</source>
+				<target>MVA beløp</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>wartość brutto</source>
+				<target>bruttoverdi</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podstawowy podatek VAT</source>
+				<target>Grunnleggende MVA</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podatek VAT</source>
+				<target>MVA</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Razem</source>
+				<target>I alt</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapłacono</source>
+				<target>Betalt</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Do zapłaty</source>
+				<target>Å betale</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Razem do zapłaty</source>
+				<target>I alt å betale</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Faktura Proforma</source>
+				<target>Proforma faktura</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Faktura VAT</source>
+				<target>MVA-faktura</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Lp</source>
+				<target>Nr.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwa</source>
+				<target>Navn</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>PKWiU</source>
+				<target>Varekode</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ilość</source>
+				<target>Antall</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>j.m.</source>
+				<target>enhet</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Rabat</source>
+				<target>Rabatt</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena jed.</source>
+				<target>Stykkpris</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>netto</source>
+				<target>netto</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>brutto</source>
+				<target>brutto</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>VAT</source>
+				<target>MVA</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Wartość netto</source>
+				<target>Nettoverdi</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wartość brutto</source>
+				<target>Bruttoverdi</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Pobierz fakturę proforma</source>
+				<target>Last ned proforma faktura</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Miejsce wystawienia</source>
+				<target>Utstedelsessted</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Data sprzedaży</source>
+				<target>Salgsdato</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Data wystawienia</source>
+				<target>Utstedelsesdato</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Odebrał(a)</source>
+				<target>Mottatt av</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Dostawa</source>
+				<target>Leveranse</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>tysiące</source>
+				<target>tusen</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>tysięcy</source>
+				<target>tusen</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>tysiąc</source>
+				<target>tusen</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>jeden</source>
+				<target>en</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>dwa</source>
+				<target>to</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>trzy</source>
+				<target>tre</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>cztery</source>
+				<target>fire</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>pięć</source>
+				<target>fem</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>sześć</source>
+				<target>seks</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>siedem</source>
+				<target>syv</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>osiem</source>
+				<target>åtte</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>dziewięć</source>
+				<target>ni</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>dziesięć</source>
+				<target>ti</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>dwadzieścia</source>
+				<target>tjue</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>trzydzieści</source>
+				<target>tretti</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>czterdzieści</source>
+				<target>førti</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>pięćdziesiąt</source>
+				<target>femti</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>sześćdziesiąt</source>
+				<target>seksti</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>siedemdziesiąt</source>
+				<target>sytti</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>osiemdziesiąt</source>
+				<target>åtti</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>dziewięćdziesiąt</source>
+				<target>nitti</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>sto</source>
+				<target>hundre</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>dwieście</source>
+				<target>to hundre</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>trzysta</source>
+				<target>tre hundre</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>czterysta</source>
+				<target>fire hundre</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>pięćset</source>
+				<target>fem hundre</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>sześćset</source>
+				<target>seks hundre</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>siedemset</source>
+				<target>syv hundre</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>osiemset</source>
+				<target>åtte hundre</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>dziewięćset</source>
+				<target>ni hundre</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>jedenaście</source>
+				<target>elleve</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>dwanaście</source>
+				<target>tolv</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>trzynaście</source>
+				<target>tretten</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>czternaście</source>
+				<target>fjorten</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>piętnaście</source>
+				<target>femten</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>szesnaście</source>
+				<target>seksten</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>siedemnaście</source>
+				<target>sytten</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>osiemnaście</source>
+				<target>atten</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>dziewiętnaście</source>
+				<target>nitten</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>szt.</source>
+				<target>stk.</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>NIP</source>
+				<target>Org. nr.</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Pozostało do zapłaty</source>
+				<target>Igjen å betale</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>płatność gotówką</source>
+				<target>kontant betaling</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>płatne gotówką</source>
+				<target>kontant betaling</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>płatność przelewem</source>
+				<target>bankoverføring</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>płatne przelewem</source>
+				<target>bankoverføring</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Maksymalny czas oczekiwania na płatność</source>
+				<target>Maksimal ventetid for betaling</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>termin płatności</source>
+				<target>betalingsfrist</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>dni</source>
+				<target>dager</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Rodzaj płatności</source>
+				<target>Type betaling</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>za pobraniem</source>
+				<target>kontant ved levering</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>płatność</source>
+				<target>betaling</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>gotówką</source>
+				<target>kontanter</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>przelewem</source>
+				<target>bankoverføring</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

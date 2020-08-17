@@ -1,0 +1,29 @@
+propel: 
+    st_text: 
+        _attributes: 
+            phpName: Text
+            isI18N: true
+            i18nTable: st_text_i18n
+        opt_name: {change_column: name}
+        opt_content: {change_column: content}
+
+    st_text_i18n: 
+        _attributes: 
+            phpName: TextI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_text
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        content:
+            type: LONGVARCHAR

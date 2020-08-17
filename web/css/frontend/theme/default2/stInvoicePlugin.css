@@ -1,0 +1,9 @@
+#invoice_icon
+{
+    display: inline;float: left; min-width: 35px; margin: 5px; text-align: center;
+}
+
+#invoice_icon .invoice_img
+{
+  height: 35px;
+}

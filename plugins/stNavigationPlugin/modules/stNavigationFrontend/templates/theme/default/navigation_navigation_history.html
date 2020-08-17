@@ -1,0 +1,16 @@
+{if $hasProduct == true}
+    {if $viewType == 0}
+        <div class="box_history">
+            <div class="history">
+                {$historyLink}
+            </div>
+            {$productLink}
+        </div>
+    {elseif $viewType == 1}
+        <div id="stNavigatorPlugin_last_viewed_products_box_text">
+            {$historyLink}            
+            <span class="arrow">&raquo;</span>
+            {$productLink}
+        </div>
+    {/if}
+{/if}

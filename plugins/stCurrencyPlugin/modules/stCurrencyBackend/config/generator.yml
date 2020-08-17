@@ -1,0 +1,69 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Currency
+        theme:                      simple
+        head:
+            package:                stCurrencyPlugin
+        applications:               [stProduct, stOrder, stDelivery]
+        list:
+            menu:
+                display:            [list, config]
+                fields:
+                    list:           {name: Lista, action: "@stCurrencyPlugin"}
+                    config:         {name: Konfiguracja, action: "@stCurrencyPlugin?action=config"}
+            filters:
+                name:               {filter_field: currency_i18n.name}
+            title:                  Lista
+            description:            Zarządzanie walutami, ustalanie kursów
+            display:                [=name, shortcut, exchange_backend, active, main]
+            peer_method:            doSelectWithI18n
+            peer_count_method:      doCountWithI18n
+            object_actions:
+                _edit:              -
+                _delete:            -
+            fields:
+                name:               {name: Nazwa, type: input_tag, params: size=30}
+                shortcut:           {name: Kod ISO}
+                exchange_backend:   {name: Kurs, sort_field: currency.exchange}
+                active:             {name: Aktywna}
+                main:               {name: Domyślna}
+            actions:
+                _create:            {name: Dodaj}
+            filters:
+              exchange_backend:     {filter_field: currency.exchange}
+
+        edit:
+            menu:                   {use: list.menu}
+            title:                  Edycja waluty %%name%%
+            description:            Zarządzanie walutami, ustalanie kursów
+            display:
+              "NONE":               [active, ~edit_iso_code, _exchange, _edit_main]
+              "Opcje dodatkowe":    [name, _prefix_sign, _postfix_sign, _shortcut]
+            fields:
+                name:               {name: Nazwa, params: size=50 disabled=false}
+                edit_iso_code:      {name: Waluta}
+                prefix_sign:        {name: Symbol przed, params: size=10}
+                exchange:
+                  name:             Kurs
+                  params:           size=10
+                  help:             "<?php echo 'Aktualne kursy walut: <a target="_blank" style="color:#aaa" href="http://nbp.pl/home.aspx?f=/kursy/kursya.html">http://nbp.pl/home.aspx?f=/kursy/kursya.html</a>'; ?>"
+                postfix_sign:       {name: Symbol za, params: size=10}
+                active:             {name: Aktywna, type: checkbox_tag, help: Aktywna waluta po stronie sklepu}
+                edit_main:          {name: Domyślna, help: Domyślnie wybrana waluta po stronie sklepu}
+                shortcut:
+                  name: Kod ISO
+                  help: "<?php echo 'Lista kodów zgodnych ze specyfikacją ISO 4217: <a target="_blank" style="color:#aaa" href="http://www.iso.org/iso/support/currency_codes_list-1.htm">http://www.iso.org/iso/support/currency_codes_list-1.htm</a>'; ?>"
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _save_and_add:      {name: Zapisz i dodaj nowy}
+                _delete:            {name: Usuń}
+        config:
+            menu:                   {use: list.menu}
+            title:                  Konfiguracja
+            display:                [inverse]
+            fields: 
+                inverse:            {name: Odwrotny kurs, type: checkbox, help: "Jeśli zaznaczone waluty obce przeliczane są względem odwrotnego kursu"}
+            actions:
+                _save:              {name: Zapisz}

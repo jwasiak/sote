@@ -1,0 +1,1 @@
+<?php echo select_tag('config[order]', options_for_select(array("asc"=>__("Rosnąco"),"desc"=>__("Malejąco")),$config->get('order',0))) ?>

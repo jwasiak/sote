@@ -1,0 +1,21 @@
+#producer_filter
+{
+    overflow:hidden;
+    margin-bottom:5px;
+    padding: 3px 5px;
+}
+#producer_info .image
+{
+    float: left;
+    margin: 10px;
+}
+
+#producer_info .description
+{
+    padding: 10px;
+}
+
+#producer_filter select
+{
+    width: 100%;
+}

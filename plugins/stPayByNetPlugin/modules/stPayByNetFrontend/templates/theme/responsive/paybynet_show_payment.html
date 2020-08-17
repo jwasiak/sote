@@ -1,0 +1,21 @@
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="PayByNet"}
+    </div>
+    <div class="panel-body text-center">
+        {if $check_configuration}
+            <img src="/images/frontend/theme/default2/stPayByNetPlugin/logo.png" alt="{__ text="PayByNet"}"/><br />
+            <span>
+                {$description}
+            </span>
+            {$form_start}
+                {$hidden_hashtrans}
+                <button type="submit" class="btn btn-primary pull-right">
+                    {__ text="Zapłać"}
+                </button>
+            </form>
+        {else}
+            {__ text="Płatność została błędnie skonfigurowana."}
+        {/if}
+    </div>
+</div>

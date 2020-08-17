@@ -1,0 +1,61 @@
+Review: 
+  Review_1: 
+    product_id: Product_1
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+    description: >
+    Wybrana recenzja zakupionego produktu. Upewnij się, że recenzja jest wiarygodna, zaznacz tylko te komentarze, które są prawidzie. Dodaj linki do stron mediów społecznościowych.
+  Review_2: 
+    product_id: Product_2
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+    description: >
+    Przykładowa recenzja zakupionego produktu. Upewnij się, że recenzja jest wiarygodna, zaznacz tylko te komentarze, które są prawidzie. Dodaj linki do stron mediów społecznościowych.
+  Review_3: 
+    product_id: Product_3
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+    description: >
+    Przykładowa recenzja zakupionego produktu. Upewnij się, że recenzja jest wiarygodna, zaznacz tylko te komentarze, które są prawidzie. Dodaj linki do stron mediów społecznościowych.
+  Review_4: 
+    product_id: Product_4
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+    description: >
+    Przykładowa recenzja zakupionego produktu. Upewnij się, że recenzja jest wiarygodna, zaznacz tylko te komentarze, które są prawidzie. Dodaj linki do stron mediów społecznościowych.
+  Review_5: 
+    product_id: Product_5
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+    description: >
+    Przykładowa recenzja zakupionego produktu. Upewnij się, że recenzja jest wiarygodna, zaznacz tylko te komentarze, które są prawidzie. Dodaj linki do stron mediów społecznościowych.
+  Review_6: 
+    product_id: Product_6
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+    description: >
+    Przykładowa recenzja zakupionego produktu. Upewnij się, że recenzja jest wiarygodna, zaznacz tylko te komentarze, które są prawidzie. Dodaj linki do stron mediów społecznościowych.

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Producent</source>
+				<target>Produsent</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Proszę podać prawidłowe kryteria wyszukiwania, minimalna ilość znaków %min_len%.</source>
+				<target>Vennligst angi korrekt søkekriterier, minimum antall tegn er %min_len%.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>szukaj</source>
+				<target>søk</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukanie standardowe</source>
+				<target>Standard søk</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Szukanie zaawansowane</source>
+				<target>Avansert søk</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Cena od</source>
+				<target>Pris fra</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>do</source>
+				<target>til</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>brutto</source>
+				<target>brutto</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>netto</source>
+				<target>netto</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Niestety żaden produkt nie spełnia kryteriów wyszukiwania które wpisałeś. Spróbuj użyć innego słowa lub wyszukaj produkt według kategorii.</source>
+				<target>Beklager, ingen produkter oppfyller søkekriteriene. Prøv igjen med andre søkeord, eller søk på kategori.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyszukiwanie</source>
+				<target>Søk</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dowolny</source>
+				<target>Enhver</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Szukaj</source>
+				<target>Søk</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Dokładne szukanie</source>
+				<target>Avansert søk</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dopasuj wszystkie wyrazy</source>
+				<target>Treff på alle ord</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Filtruj po producentach</source>
+				<target>Filtrer etter produsent</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wszyscy producenci</source>
+				<target>Alle produsenter</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Sortuj po</source>
+				<target>Sorter etter</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Trafności</source>
+				<target>Relevans</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cenie</source>
+				<target>Pris</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwie</source>
+				<target>Navn</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nazwa produktu</source>
+				<target>Produktnavn</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Kategorie</source>
+				<target>Kategorier</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Wybierz producenta</source>
+				<target>Velg produsent</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Przytrzymaj Ctrl aby zaznaczyć wiele kategorii.</source>
+				<target>Hold ned Ctrl-tasten for å velge flere kategorier.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Szukaj w opisach</source>
+				<target>Søk i beskrivelser</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Najnowszym</source>
+				<target>Nyeste</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Więcej</source>
+				<target>Mer</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Więcej wyników</source>
+				<target>Flere resultater</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>tylko za punkty</source>
+				<target>bare for poeng</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>dodaj do koszyka</source>
+				<target>legg i handlevognen</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>Ikke nok poeng.</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>Logg inn for å kjøpe produktet.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Minste antall poeng er ikke nådd.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Det mangler</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

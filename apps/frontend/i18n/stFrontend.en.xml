@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Strona główna</source>
+                <target>Homepage</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>oprogramowanie</source>
+                <target>software</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Użytkownicy online</source>
+                <target>Users online</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Czas generowania strony</source>
+                <target>This page was generated in</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>sklep internetowy</source>
+                <target>online shop</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>wersja Open</source>
+                <target>Open version</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wpisz czego szukasz</source>
+                <target>Search...</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Home</source>
+                <target>Home</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

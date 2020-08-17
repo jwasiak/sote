@@ -1,0 +1,133 @@
+{if $display_type=="masonary"}
+    <div id="blog" class="row masonry-container">
+{else}    
+    <div id="blog" class="row" data-equalizer>
+{/if}
+    
+	{foreach key=row item=blog from=$results}			
+		    {if $display_type=="masonary"}
+                <div class="product col-xs-12 col-sm-{$post_grid} col-md-{$post_grid} item">
+                <div class="thumbnail">
+            {else}    
+                <div class="product col-xs-12 col-sm-{$post_grid} col-md-{$post_grid}">
+                <div class="thumbnail" data-equalizer-watch>
+            {/if}		    
+			
+				<div class="row">
+				    
+					{if $show_image == 1 && $blog.image_name!=""}
+					
+					   {if $show_image_position == "side" }
+					   <div class="col-xs-12 col-md-4 side">
+							<div class="image">
+								{$blog.image_main_page_rwd}
+							</div>
+						</div>
+					
+    					<div class="col-xs-12 col-md-8 side">
+    						<div class="caption">						    
+    							{if $show_title == 1}<h4 class="name">{$blog.link}</h4>{/if}
+    							{if $date != 0 && $show_date == 1}
+                                    <div class="data text-muted">{$blog.date}</div>
+                                {else}    
+                                    <div class="date-empty"></div>
+                                {/if}
+                                {if $blog.short_description_char_count!="..."}
+    							<div class="description tinymce_html">
+    								{$blog.short_description_char_count} {if $show_more == 1}<a href="{$blog.url}">{__ text="więcej" langCatalogue="stBlogFrontend"}</a>{/if}
+    							</div>
+    							{/if}
+    						</div>
+    					</div>
+    					{/if}
+                        
+                       {if $show_image_position == "top" }
+                       <div class="col-xs-12 top">
+                            <div class="image">
+                                {$blog.image_main_page_rwd}
+                            </div>
+                        </div>
+                    
+                        <div class="col-xs-12 top">
+                            <div class="caption">                           
+                                {if $show_title == 1}<h4 class="name">{$blog.link}</h4>{/if}
+                                {if $date != 0 && $show_date == 1}
+                                    <div class="data text-muted">{$blog.date}</div>
+                                 {else}    
+                                    <div class="date-empty"></div>
+                                {/if}
+                                {if $blog.short_description_char_count!="..."}
+                                <div class="description tinymce_html">
+                                    {$blog.short_description_char_count} {if $show_more == 1}<a href="{$blog.url}">{__ text="więcej" langCatalogue="stBlogFrontend"}</a>{/if}
+                                </div>
+                                {/if}
+                            </div>
+                        </div>
+                        {/if}
+                        
+                        {if $show_image_position == "float" }                                                
+                        <div class="col-xs-12 float">
+                            <div class="caption">                           
+                                {if $show_title == 1}<h4 class="name">{$blog.link}</h4>{/if}
+                                {if $date != 0 && $show_date == 1}
+                                    <div class="data text-muted">{$blog.date}</div>
+                                 {else}    
+                                    <div class="date-empty"></div>
+                                {/if}
+                                {if $blog.short_description_char_count!="..."}
+                                <div class="description tinymce_html">
+                                    <div class="float-image">{$blog.image_main_page_rwd}</div> {$blog.short_description_char_count} {if $show_more == 1}<a href="{$blog.url}">{__ text="więcej" langCatalogue="stBlogFrontend"}</a>{/if}
+                                </div>
+                                {/if}
+                            </div>
+                        </div>
+                        {/if}
+                        
+    				{else}
+    					<div class="col-xs-12">
+                            <div class="caption">                           
+                                {if $show_title == 1}<h4 class="name">{$blog.link}</h4>{/if}
+                                {if $date != 0 && $show_date == 1}
+                                    <div class="data text-muted">{$blog.date}</div>
+                                 {else}    
+                                    <div class="date-empty"></div>
+                                {/if}
+                                {if $blog.short_description_char_count!="..."}
+                                <div class="description tinymce_html">
+                                    {$blog.short_description_char_count} {if $show_more == 1}<a href="{$blog.url}">{__ text="więcej" langCatalogue="stBlogFrontend"}</a>{/if}
+                                </div>
+                                {/if}
+                            </div>
+                        </div>
+					{/if}
+				</div>
+			</div>
+		</div>
+	{/foreach}
+</div>
+{if $display_type=="masonary"}
+
+{use_javascript src="imagesloaded.pkgd.min.js"}
+{use_javascript src="masonry.pkgd.min.js"}
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {
+             
+        var $container = $('.masonry-container');
+        $container.imagesLoaded( function () {
+            $container.masonry({
+                columnWidth: '.item',
+                itemSelector: '.item'
+            });
+        });
+    
+    });
+});
+</script>
+{/literal}
+
+{/if}

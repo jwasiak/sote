@@ -1,0 +1,11 @@
+fields:
+    attribute_template{name}:
+        required:
+            msg: Szablon musi posiadać nazwę.
+        sfPropelUniqueValidator:
+            class: AttributeTemplate
+            column: name
+            unique_error: Szablon o podanej nazwie został już wcześniej zapisany. Zmień nazwę szablonu.
+        sfStringValidator:
+            max: 50
+            max_error: Proszę skrócić nazwę szablonu.

@@ -1,0 +1,6 @@
+all:
+  stGiftCard:
+    status:
+      A: "Aktywny"
+      P: "Oczekuje"      
+      U: "Wykorzystany"

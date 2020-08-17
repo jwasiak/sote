@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>treść wiadomości</source>
+				<target>邮件内容</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>twój adres e-mail</source>
+				<target>您的电子邮箱地址</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>informacje dodatkowe</source>
+				<target>备注</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>您朋友的电子邮箱地址</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>cyfry z obrazka</source>
+				<target>图片上的数字</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wiadomość o treści</source>
+				<target>邮件内容</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>została wysłana do</source>
+				<target>已发到</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Polecenie produktu</source>
+				<target>推荐商品</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Dziękujemy</source>
+				<target>谢谢！</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>推荐已发到这个朋友的邮箱</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Możesz polecić produkt innemu znajomemu</source>
+				<target>您可以把该商品给另外朋友推荐</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>发送</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Poleć produkt</source>
+				<target>推荐商品</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Brak adresu e-mail</source>
+				<target>没有电子邮件</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>电子邮件格式不正确</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wpisz poprawne cyfry</source>
+				<target>请输入正确的数字</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Powrót</source>
+				<target>返回</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Data polecenia produktu</source>
+				<target>商品推荐日期</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Produkt polecił</source>
+				<target>推荐人</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Adresat (e-mail)</source>
+				<target>收件人</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Treść</source>
+				<target>内容</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nadawca (e-mail)</source>
+				<target>发件人 （e-mail）</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Cyfry z obrazka</source>
+				<target>图片上的数字</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Polecenie produktu.</source>
+				<target>推荐商品</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>您输入的验证码不正确。</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Polecone od</source>
+				<target>推荐人</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>本邮件是商店所发送的</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Pokaż produkt w sklepie</source>
+				<target>展览商品在商店里</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Opis produktu</source>
+				<target>商品描述</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

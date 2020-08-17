@@ -1,0 +1,35 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stTaxPlugin.lib.model
+  st_tax: 
+    _attributes: 
+      phpName: Tax
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    vat: 
+      type: DECIMAL
+      size: 5
+      scale: 2
+      required: true
+      default: 0
+    is_default: 
+      type: BOOLEAN
+      required: true
+      default: false
+    is_active: 
+      type: BOOLEAN
+      required: true
+      default: true
+    vat_name: 
+      type: VARCHAR
+      size: 45
+      required: true
+    is_system_default:
+      type: BOOLEAN
+      required: true
+      default: false

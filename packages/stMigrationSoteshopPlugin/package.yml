@@ -1,0 +1,16 @@
+---
+package: 
+  name: stMigrationSoteshopPlugin
+  stability: stable
+  version: 1.2.0.26
+  summary: Migracja danych ze sklepow SOTEeSKLEP 3.0 - 4.0
+  description: Migracja danych z zewnetrznych systemow
+  notes: |
+   -  Dostosowanie pakietu do zmian stMigration
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency: 
+    stMigration: 1.0.2.8

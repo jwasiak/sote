@@ -1,0 +1,57 @@
+propel: 
+    st_product: 
+        _attributes: 
+            phpName: Product
+            isI18N: true
+            i18nTable: st_product_i18n
+        wholesale_a_netto:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: true
+          default: 0
+        wholesale_b_netto:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: true
+          default: 0
+        wholesale_c_netto:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: true
+          default: 0
+        wholesale_a_brutto:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: true
+          default: 0
+        wholesale_b_brutto:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: true
+          default: 0
+        wholesale_c_brutto:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: true
+          default: 0
+        currency_wholesale_a:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: false
+        currency_wholesale_b:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: false       
+        currency_wholesale_c:
+          type: DECIMAL
+          size: 10
+          scale: 2
+          required: false

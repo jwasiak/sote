@@ -1,0 +1,350 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+webapi:
+    fields:
+        id:                 {type: integer}
+        code:               {type: string}
+        price:              {type: double}
+        price_brutto:       {type: double}
+        name:               {type: string}
+        category_id:        {type: integer}
+        producer_id:        {type: integer}
+        active:             {type: integer}
+        short_description:  {type: string}
+        description:        {type: string}
+        stock:              {type: double}
+        availability_id:    {type: integer, custom: true}
+        availability_name:  {type: string}
+        stock_from:         {type: double}
+        is_system_default:  {type: integer}
+        image_filename:     {type: string}
+        product_id:         {type: integer}
+        product_code:       {type: string}
+        is_default:         {type: integer}
+        image:              {type: string}
+        tax_id:             {type: integer, custom: true}
+        vat:                {type: double}
+        vat_name:           {type: string}
+        is_default:         {type: integer}
+        wholesale_a_netto:  {type: double}
+        wholesale_a_brutto: {type: double}
+        wholesale_b_netto:  {type: double}
+        wholesale_b_brutto: {type: double}
+        wholesale_c_netto:  {type: double}
+        wholesale_c_brutto: {type: double}
+        product_options:    {type: string, custom: true}
+        weight:             {type: double}
+        old_price:          {type: double}
+        old_price_brutto:   {type: double}
+        url:                {type: string}
+        uom:                {type: string}
+        is_stock_validated: {type: integer, custom: true}
+        man_code:           {type: string}
+        points_value:       {type: integer}
+        points_earn:        {type: integer}
+        points_only:        {type: integer}
+        recommended:        {type: ArrayOfInteger}
+        accessories:        {type: ArrayOfInteger}
+        product_id:         {type: integer}
+        currency_id:        {type: integer}
+        option_id:          {type: integer}
+        path:               {type: string}
+        pum:                {type: double}
+        format:             {type: string}
+        width:              {type: double}
+        height:             {type: double}
+        depth:              {type: double}
+
+    methods:
+        UpdateRecommendedList:
+            type:           update
+            custom:         true
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =recommended]
+                out:        [_update]
+        UpdateProductOption:
+            type:           update
+            custom:         true
+            inOutTypes:     {in: object, out: object}
+            custom_fields:
+                price:      {type: string}
+                old_price:  {type: double}
+                price_type: {type: string}
+                weight:     {type: string}
+                image_id:   {type: integer}
+                value:      {type: string}
+            fields:
+                in:         [=option_id, value, image_id, price, old_price, stock, weight, code, man_code, pum]
+                out:        [_update]
+        GetProductOptionsList:
+            type:           list
+            custom:         true
+            inOutTypes:     {in: object, out: array}
+            custom_fields:
+                price:      {type: string}
+                old_price:  {type: double}
+                price_type: {type: string}
+                weight:     {type: string}
+                image_id:   {type: integer}
+                product_id: {type: integer}
+                parent_id:  {type: integer}
+                value:      {type: string}
+            fields:
+                in:         [product_id, product_code, _offset, _limit]
+                out:        [id, product_id, parent_id, image_id, name, value, price_type, price, old_price, stock, weight, code, man_code, pum]
+        CountProductOptionsList:
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [product_id, product_code]
+                out:        [_count]
+        GetRecommendedList:
+            type:           list
+            custom:         true
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [=product_id]
+                out:        [created_at, updated_at, id, name, code, price, price_brutto, category_id, producer_id, active, short_description, description, tax_id, vat, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only]
+        UpdateAccessoriesList:
+            type:           update
+            custom:         true
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =accessories]
+                out:        [_update]
+        GetAccessoriesList:
+            type:           list
+            custom:         true
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [=product_id]
+                out:        [created_at, updated_at, id, name, code, price, price_brutto, category_id, producer_id, active, short_description, description, tax_id, vat, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only]
+        AddProduct:
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=name, =code, =price, price_brutto, category_id, producer_id, active, short_description, description, tax_id, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, uom, is_stock_validated, man_code, points_value, points_earn, points_only, url, width, height, depth]
+                out:        [id]
+        CountProduct:
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                out:        [_count]
+        DeleteProduct:
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetProduct:
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [created_at, updated_at, id, name, price, price_brutto, code, category_id, producer_id, active, short_description, description, tax_id, vat, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only, width, height, depth]
+        GetProductByCode:
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=code]
+                out:        [created_at, updated_at, id, name, price, price_brutto, code, category_id, producer_id, active, short_description, description, tax_id, vat, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only, width, height, depth]
+        GetProductList:
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to, category_id]
+                out:        [created_at, updated_at, id, name, code, price, price_brutto, category_id, producer_id, active, short_description, description, tax_id, vat, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only, width, height, depth]
+        UpdateProduct:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, name, price, price_brutto, code, category_id, producer_id, active, short_description, description, tax_id, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only, width, height, depth]
+                out:        [_update]
+        UpdateProductByCode:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=code, name, price, price_brutto, category_id, producer_id, active, short_description, description, tax_id, stock, availability_id, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, product_options, weight, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto, old_price, old_price_brutto, url, uom, is_stock_validated, man_code, points_value, points_earn, points_only, width, height, depth]
+                out:        [_update]
+# Ceny w Walutach
+        AddProductPrice:
+            culture:        false
+            peer:           AddPrice
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =currency_id, tax_id, price, old_price, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, price_brutto, old_price_brutto, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto]
+                out:        [product_id, currency_id]
+        UpdateProductPrice:
+            culture:        false
+            peer:           AddPrice
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =currency_id, tax_id, price, old_price, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, price_brutto, old_price_brutto, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto]
+                out:        [_update]
+        GetProductPrice:
+            culture:        false
+            peer:           AddPrice
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =currency_id]
+                out:        [product_id, currency_id, tax_id, price, old_price, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, price_brutto, old_price_brutto, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto]
+        CountProductPrice:
+            culture:        false
+            peer:           AddPrice
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [product_id]
+                out:        [_count]
+        GetProductPriceList:
+            culture:        false
+            peer:           AddPrice
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to, product_id]
+                out:        [product_id, currency_id, tax_id, price, old_price, wholesale_a_netto, wholesale_b_netto, wholesale_c_netto, price_brutto, old_price_brutto, wholesale_a_brutto, wholesale_b_brutto, wholesale_c_brutto]
+        DeleteProductPrice:
+            culture:        false
+            peer:           AddPrice
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =currency_id]
+                out:        [_delete]
+## Produkty i kategorie
+        AssignProductToCategory:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, =category_id, is_default]
+                out:        [_update]
+        RemoveProductFromCategory:
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, =category_id]
+                out:        [_delete]
+## Availability
+        AddAvailability:
+            peer:           Availability
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=availability_name, =stock_from]
+                out:        [id]
+        CountAvailability:
+            peer:           Availability
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                out:        [_count]
+        DeleteAvailability:
+            peer:           Availability
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetAvailability:
+            peer:           Availability
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [created_at, updated_at, id, availability_name, stock_from, is_system_default]
+        GetAvailabilityList:
+            peer:           Availability
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        [created_at, updated_at, id, availability_name, stock_from, is_system_default]
+        UpdateAvailability:
+            peer:           Availability
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, availability_name, stock_from]
+                out:        [_update]
+## Images
+        AddProductImage:
+            peer:           ProductHasSfAsset
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id, =image, =image_filename, is_default]
+                out:        [id]
+        CountProductImage:
+            peer:           ProductHasSfAsset
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=product_id]
+                out:        [_count]
+        DeleteProductImage:
+            peer:           ProductHasSfAsset
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetProductImage:
+            peer:           ProductHasSfAsset
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, format]
+                out:        [id, product_id, image, image_filename, is_default]
+        GetProductImageList:
+            peer:           ProductHasSfAsset
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, =product_id, format]
+                out:        [id, product_id, image, image_filename, is_default]
+## Tax
+        AddTax:
+            peer:           Tax
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=vat, =vat_name, is_default]
+                out:        [id]
+        CountTax:
+            peer:           Tax
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                out:        [_count]
+        DeleteTax:
+            peer:           Tax
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetTax:
+            peer:           Tax
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [id, vat, vat_name, is_default]
+        GetTaxList:
+            peer:           Tax
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit]
+                out:        [id, vat, vat_name, is_default]
+        UpdateTax:
+            peer:           Tax
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, vat_name, is_default]
+                out:        [_update]

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Konfiguracja płatności Moneybookers.</source>
+                <target>Configure the Moneybookers payment.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Maksymalnie 35 znaków.</source>
+                <target>The maximum number of characters is 35.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Płatność przez serwis Moneybookers</source>
+                <target>Moneybookers payment</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Login</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Login do konta w serwisie Moneybookers.</source>
+                <target>Login to your Moneybookers account.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Słowo podpowiedzi</source>
+                <target>Clue word</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Panel Moneybookers, Narzędzia handlowców.</source>
+                <target>Moneybookers panel, Merchant tools.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Opis sklepu</source>
+                <target>Shop description</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Maksymalnie 30 znaków.</source>
+                <target>The maximum number of characters is 30.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Tekst przycisku powrotu do sklepu</source>
+                <target>Text of the "return to the shop" button</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Płatność przez serwis Skrill</source>
+                <target>Skrill payment</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stTaxPlugin.lib.model" noXsd="true">
+
+  <table name="st_tax" phpName="Tax">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="vat" type="DECIMAL" size="5" scale="2" required="true" default="0" />
+    <column name="is_default" type="BOOLEAN" required="true" default="" />
+    <column name="is_active" type="BOOLEAN" required="true" default="1" />
+    <column name="vat_name" type="VARCHAR" size="45" required="true" />
+    <column name="is_system_default" type="BOOLEAN" required="true" default="" />
+    <column name="update_resume" type="VARCHAR" size="64" phpType="array" />
+  </table>
+
+</database>

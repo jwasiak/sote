@@ -1,0 +1,16 @@
+package:
+  name: stPlatnosciPlPlugin
+  stability: stable
+  version: 7.2.1.4
+  summary: PayU
+  description: 'Konfiguracja platnosci PayU'
+  notes: |
+     - Dodanie bardziej szczegolowego logowania procesu transakcji
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.5.3
+    stConfigurationPlugin: 1.0.3.7

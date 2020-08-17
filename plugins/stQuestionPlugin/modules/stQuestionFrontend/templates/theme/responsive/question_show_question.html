@@ -1,0 +1,33 @@
+<!-- Modal -->
+<div class="modal fade" id="price_question_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div id="price_question"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="depository_question_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div id="depository_question"></div>
+    </div>
+  </div>
+</div>
+
+
+{if $show_ask_price}
+    {if $ask_price_login}
+        <button type="button" id="active_price_question_overlay" class="btn btn-default">{__ text="Zapytaj o cenę"}</button>
+    {else}
+        <a id="active_price_question_overlay_login" href="/user/loginUser" target="_parent" rel="nofollow" class="btn btn-default pull-right">{__ text="Zaloguj się, aby zapytać o cenę"}.</a>        
+    {/if}
+{/if}
+{if $show_ask_depository}
+    {if $ask_depository_login}
+        <button type="button" id="active_depository_question_overlay" class="btn btn-default">{__ text="Zapytaj o dostępność"}</button>
+    {else}
+        <a id="active_depository_question_overlay_login" href="/user/loginUser" target="_parent" rel="nofollow" class="btn btn-default">{__ text="Zaloguj się, aby zapytać o dostępność"}.</a>        
+    {/if}
+{/if}

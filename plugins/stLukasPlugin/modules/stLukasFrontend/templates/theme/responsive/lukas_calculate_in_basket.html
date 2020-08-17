@@ -1,0 +1,25 @@
+{$link}
+{if $amount <= "500"}
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    
+        var amount = {/literal}{$amount}{literal};     
+        console.log(amount);
+        
+        if($( "#credit-agricol" ).closest("label").children('input').is(':checked') && amount <= '500'){
+            console.log("true");
+            $( "#shopping-cart-payment" ).find('input:first').attr('checked', true);                            
+        }
+        
+        $( "#credit-agricol" ).closest("label").children('input').attr('disabled', true);
+        $( "#credit-agricol" ).closest("label").children('input').css("margin-right", "5px");     
+        $( "#credit-agricol" ).closest("div").removeClass("radio");
+        $( "#credit-agricol" ).closest("div").css("margin-top", "-5px","margin-bottom", "6px");
+        $( "#credit-agricol" ).css("margin-left", "20px");
+        
+});
+</script>
+{/literal}
+{/if}

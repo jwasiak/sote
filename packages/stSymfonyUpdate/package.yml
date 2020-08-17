@@ -1,0 +1,15 @@
+---
+package: 
+  name: stSymfonyUpdate
+  stability: stable
+  version: 7.5.0.6
+  summary: Pakiet aktualizacyjny symfony
+  description: Pakiet aktualizacyjny symfony
+  notes: |
+    - Poprawka wykrywania wersji PHP 7.x
+    - Poprawka blokowania aplikacji na czas generowania pamieci cache
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

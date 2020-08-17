@@ -1,0 +1,18 @@
+fields:
+    product_has_positioning{title}:
+        sfStringValidator:
+            max: 255
+            max_error: Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.
+    product_has_positioning{keywords}:
+        sfStringValidator:
+            max: 255
+            max_error: Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.
+    product_has_positioning{description}:
+        sfStringValidator:
+            max: 65000
+            max_error: Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.
+    product_has_positioning{product_url}:
+        required:
+            msg:    Wprowadź nazwę dla przyjaznego linku
+        stPropelSeoUrlValidator:
+            auto_fillin_field: "product_has_positioning[product_url]"

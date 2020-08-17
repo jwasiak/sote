@@ -1,0 +1,22 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:                Product
+        theme:                      simple
+        head:
+            package:                stFastCacheSymfony
+
+        applications:               [stOptimizationPlugin]
+            
+        config:
+            title:                          Konfiguracja
+            description:                    System optymalizacji czasu odsłon stron
+            menu:                           {use: list.menu}
+            display:        
+                "NONE":                     [fast_cache_enabled]
+            fields:
+                fast_cache_enabled:         {name: Włącz, type: checkbox}
+            actions:  
+                clear:                      {name: Wyczyść, action: clear, icon: remove, i18n: stFastCache}                      
+                _save:                      {name: Zapisz}
+        

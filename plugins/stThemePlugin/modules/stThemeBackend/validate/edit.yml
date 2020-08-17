@@ -1,0 +1,17 @@
+fields:
+    theme{theme}:
+        required:
+            msg:       Brak nazwy tematu
+            
+        sfStringValidator:
+            max:          40
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+
+        sfStringValidator:
+            min:          3
+            min_error:    Nazwa tematu jest za krótka.
+            
+        sfPropelUniqueValidator:
+          class:        Theme
+          column:       theme
+          unique_error: Temat o podanej nazwie już istnieje.

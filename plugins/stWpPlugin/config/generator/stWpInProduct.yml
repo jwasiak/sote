@@ -1,0 +1,6 @@
+export:
+    fields:
+        product_wp:         {name: Wp, class: stWp, method: getProduct}
+import:
+    fields:
+        product_wp:         {class: stWp, method: setProduct}

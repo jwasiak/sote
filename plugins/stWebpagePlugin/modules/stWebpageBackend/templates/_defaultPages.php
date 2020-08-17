@@ -1,0 +1,1 @@
+<?php echo select_tag('webpage[default_pages]', options_for_select($default_pages,$webpage->getPage()));?>

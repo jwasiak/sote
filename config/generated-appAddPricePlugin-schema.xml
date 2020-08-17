@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.appAddPricePlugin.lib.model" noXsd="true">
+
+  <table name="app_add_price" phpName="AddPrice">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="currency_id" type="integer" isCulture="true" primaryKey="true" />
+    <foreign-key foreignTable="st_currency" onDelete="cascade">
+      <reference local="currency_id" foreign="id" />
+    </foreign-key>
+    <column name="tax_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_tax" onDelete="setnull">
+      <reference local="tax_id" foreign="id" />
+    </foreign-key>
+    <column name="opt_vat" type="DECIMAL" size="10" scale="2" />
+    <column name="price_netto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="price_brutto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="old_price_netto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="old_price_brutto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="wholesale_a_netto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="wholesale_a_brutto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="wholesale_b_netto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="wholesale_b_brutto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="wholesale_c_netto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+    <column name="wholesale_c_brutto" type="DECIMAL" size="10" scale="2" required="true" default="0" />
+  </table>
+
+  <table name="app_add_group_price" phpName="AddGroupPrice">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_group_price" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="currency_id" type="integer" isCulture="true" primaryKey="true" />
+    <foreign-key foreignTable="st_currency" onDelete="cascade">
+      <reference local="currency_id" foreign="id" />
+    </foreign-key>
+    <column name="tax_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_tax" onDelete="setnull">
+      <reference local="tax_id" foreign="id" />
+    </foreign-key>
+    <column name="opt_vat" type="DECIMAL" size="10" scale="2" />
+    <column name="price_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="price_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="old_price_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="old_price_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_a_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_a_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_b_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_b_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_c_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_c_brutto" type="DECIMAL" size="10" scale="2" />
+  </table>
+
+</database>

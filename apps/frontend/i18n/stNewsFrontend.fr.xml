@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2010-11-04T02:50:41Z">
+		<body>
+			<trans-unit id="1">
+				<source>Brak newsa</source>
+				<target>Info non-renseignée</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>News o podanym id nie istnieje</source>
+				<target>Il existe déjà une info avec l’identifiant saisi</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowości</source>
+				<target>Nouveautés</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

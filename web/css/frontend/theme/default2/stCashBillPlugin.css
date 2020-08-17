@@ -1,0 +1,78 @@
+#cashbill_list
+{
+	margin-left: -10px;
+	padding-bottom: 10px;
+}
+
+#cashbill_list .item
+{
+	float: left;
+	width: 140px;
+	margin: 0 0 10px 10px;
+	text-align: center;
+	border: 1px solid #eee;
+	padding: 10px;
+	height: 126px;
+}
+
+#cashbill_list .line
+{
+	float: left;
+	text-align: left;
+	width: 230px;
+	padding: 6px 0;
+}
+
+#cashbill_list .item:nth-child(4n+2), #cashbill_list .line:nth-child(3n+2)
+{
+	clear: both;
+}
+
+#cashbill_list .item.active
+{
+	background: #f3f3f3;
+}
+
+#cashbill_list .name
+{
+	color: #565656;
+	padding-top: 5px;
+}
+
+#cashbill_list .line .name
+{
+	font-size: 14px;
+}
+
+#cashbill_list .item label
+{
+	display: block;
+}
+
+#cashbill_list .item:hover .name
+{
+	color: #000;
+}
+
+#st_home
+{
+	margin-bottom: 20px;
+}
+
+#cashbill_list .open
+{
+	color: #bababa;
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+#cashbill_list .line .open
+{
+	padding-left: 26px;
+	margin-top: 0;
+}
+
+#cashbill_list .open p
+{
+	margin: 0;
+}

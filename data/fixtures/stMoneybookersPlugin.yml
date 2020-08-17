@@ -1,0 +1,16 @@
+PaymentType: 
+  PaymentType_7: 
+    created_at: 2008-02-12 16:05:15
+    updated_at: 2008-02-12 16:05:15
+    module_name: stMoneybookers
+    active: 0
+    culture: pl_PL
+    name: Skrill
+    description: Płatność przelewem bankowym lub kartą płatniczą.
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_7: 
+    id: PaymentType_7
+    culture: en_US
+    name: Skrill
+    description: Payment via bank transfer or credit card.

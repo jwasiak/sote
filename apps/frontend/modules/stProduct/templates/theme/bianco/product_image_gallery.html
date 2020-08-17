@@ -1,0 +1,25 @@
+{assign var='i' value=0}            
+{foreach key=row item=photo from=$photos name=foo}
+{assign var='i' value=$i+1}
+    {capture name="imagehtml"}
+        <div class="custom-html">
+            <h4>{$photo.product_name}</h4>
+            <p>{$photo.desc}</p>
+        </div>
+    {/capture}
+    
+    <li class="col-xs-2 col-sm-4 col-md-3 col-lg-3{if $i > 3} hidden-img{/if}" data-sub-html="{$smarty.capture.imagehtml|escape:'html'}" data-src="{$photo.big_url}" data-id="{$photo.id}" data-equalizer-watch>
+        <div>
+            <div class="gallery-image">
+                <img class="img-responsive" src="{$photo.thumb_url}" alt="{$photo.desc}" />
+            </div>
+        </div>
+        {if $photos_count > 3 && $i == 3}
+            <a id="more-gallery" href="#" class="btn btn-default hidden-xs">
+                {__ text="zobacz wszystkie"}
+            </a>
+        {/if}
+    </li>
+{/foreach}
+
+

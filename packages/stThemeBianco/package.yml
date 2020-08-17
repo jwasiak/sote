@@ -1,0 +1,17 @@
+package:
+  name: stThemeBianco
+  stability: stable
+  version: 7.1.1.4
+  summary: 'Edycja grafiki'
+  description: 'Temat graficzny Bianco'
+  notes: |
+    - Poprawka aktualizacji Kodu producenta na karcie produktu
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

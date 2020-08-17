@@ -1,0 +1,17 @@
+{if $configOn == 1}
+    {if $configViewType == 0}
+        {if $hasNavigationPath == true || $hasLastViewedProduct == true}
+        <div id="navigation" class="block" {edit_image_tooltip} >        
+            <div id="path">
+                {$navigationBreadcrumbs}
+                {$navigationHistory}
+            </div>
+        </div>        
+        {/if}
+    {elseif $configViewType == 1}
+        <div id="navigation" class="block" {edit_image_tooltip} >    
+            {$navigationBreadcrumbs}
+            {$navigationHistory}
+        </div>        
+    {/if}
+{/if}

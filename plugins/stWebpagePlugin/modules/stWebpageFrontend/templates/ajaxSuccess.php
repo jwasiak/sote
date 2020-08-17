@@ -1,0 +1,1 @@
+<?php $smarty->display('webpage_ajax.html') ?>

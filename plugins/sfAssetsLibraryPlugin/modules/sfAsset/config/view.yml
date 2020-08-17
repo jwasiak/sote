@@ -1,0 +1,8 @@
+all:
+  stylesheets: [%SF_ADMIN_WEB_DIR%/css/main, /plugins/sfAssetsLibraryPlugin/css/media]
+
+listSuccess:
+  javascripts: [/%SF_RICH_TEXT_JS_DIR%/tiny_mce_popup.js, /plugins/sfAssetsLibraryPlugin/js/popup]
+
+searchSuccess:
+  javascripts: [/%SF_RICH_TEXT_JS_DIR%/tiny_mce_popup.js, /plugins/sfAssetsLibraryPlugin/js/popup]

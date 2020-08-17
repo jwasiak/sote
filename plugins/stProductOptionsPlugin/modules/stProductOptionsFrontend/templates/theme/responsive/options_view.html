@@ -1,0 +1,9 @@
+<div class="product-option-labels">
+    {foreach item=modifier from=$product_options}
+        {if $modifier.custom.field}
+            <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip" data-placement="top">{$modifier.custom.field}: {$modifier.label}</span>
+        {else}
+            <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip" data-placement="top">{$modifier.label}</span>
+        {/if}
+    {/foreach}
+</div>

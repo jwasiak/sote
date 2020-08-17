@@ -1,0 +1,15 @@
+package:
+  name: stPaczkomaty
+  stability: stable
+  version: 7.5.1.7
+  summary: Paczkomaty
+  description: 'Konfiguracja modulu'
+  notes: |
+    - Poprawka walidacji podczas tworzenia paczki
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    soteshop: 6.2.3

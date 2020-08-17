@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2010-11-04T02:49:47Z">
+		<body>
+			<trans-unit id="1">
+				<source>Brak newsa</source>
+				<target>Žádné zprávy</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>News o podanym id nie istnieje</source>
+				<target>Zpráva s takovým ID neexistuje</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowości</source>
+				<target>Novinky</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

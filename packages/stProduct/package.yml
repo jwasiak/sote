@@ -1,0 +1,23 @@
+package:
+  name: stProduct
+  stability: stable
+  version: 7.4.3.7
+  summary: Produkty
+  description: 'Rozszerzenie prezentacji produktu'
+  notes: |
+    - Dostosowanie pakietu do przyszlych modyfikacji
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stFrontend: 1.1.0.11
+    stBackend: 1.1.0.13
+    stCategory: 1.1.0.6
+    stProducer: 1.1.0.7
+    stCurrencyPlugin: 1.1.0.3
+    stProductGroup: 1.0.3.22
+    stTabNavigatorPlugin: 1.0.3.5
+    stAssetsLibraryPlugin: 1.1.0.13
+    stTaxPlugin: 1.0.2.11

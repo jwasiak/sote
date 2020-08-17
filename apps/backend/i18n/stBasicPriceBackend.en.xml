@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Jednostki miary ceny zasadniczej</source>
+                <target>Units of measure as a basic price</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Symbol</source>
+                <target>Symbol</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Grupa</source>
+                <target>Group</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Grupa</source>
+                <target>Group</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Domyślna</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Systemowa</source>
+                <target>System</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Mnożnik</source>
+                <target>Multiplier</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Edycja jednostki.</source>
+                <target>Edit unit measure.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Jednostki miar cen zasadniczych</source>
+                <target>Units of measure as a basic price</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Jednostki</source>
+                <target>Units</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Brak nazwy jednostki</source>
+                <target>No names of unit</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Brak mnożnika</source>
+                <target>No multiplier</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Minimalna ilość musi być większa od 0</source>
+                <target>The minimum amount must be greater than 0</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Podaj liczbę</source>
+                <target>Enter the number of</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Brak symbolu</source>
+                <target>No symbol</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Brak grupy</source>
+                <target>No group</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Jesteś pewien?</source>
+                <target>Are you sure?</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,14 @@
+---
+package: 
+  name: stPropelActAsNestedSetBehaviorPlugin
+  stability: stable
+  version: 1.0.2.4
+  summary: Propel nested
+  description: PropelActAsNestedSetBehavior
+  notes: |
+    - Dostosowanie pakietu do zmian w stProductOptionsPlugin
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

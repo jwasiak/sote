@@ -1,0 +1,27 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stRadarPlugin.lib.model
+  st_radar: 
+    _attributes: 
+      phpName: Radar
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    active: 
+      type: BOOLEAN
+    description: 
+      type: LONGVARCHAR

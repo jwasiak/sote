@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twój koszyk</source>
+				<target>Din handlevogn</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wróć do zakupów</source>
+				<target>Tilbake til shopping</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Przejdź do koszyka</source>
+				<target>Gå til handlekurven</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>zdjęcie</source>
+				<target>bilde</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>nazwa</source>
+				<target>navn</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cena netto</source>
+				<target>nettopris</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>vat</source>
+				<target>MVA</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>cena brutto</source>
+				<target>bruttopris</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>ilość</source>
+				<target>antall</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>suma</source>
+				<target>sum</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>usuń</source>
+				<target>Fjern</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Produkt wycofany z oferty</source>
+				<target>Produktet er trukket fra tilbudet</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Opróżnij koszyk</source>
+				<target>Tøm handlevognen</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Uaktualnij koszyk</source>
+				<target>Oppdater handlevognen</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem do zapłaty</source>
+				<target>I alt å betale</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Dodaj do koszyka</source>
+				<target>Legg i handlevognen</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>szt</source>
+				<target>stk.</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Ilość</source>
+				<target>Antall</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszty</source>
+				<target>Kostnader</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Czy na pewno opróżnić koszyk?</source>
+				<target>Er du sikker på at du ønsker å tømme handlevognen?</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kwota</source>
+				<target>Beløp</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Podana wartość musi być liczbą całkowitą...</source>
+				<target>Verdien må være et heltall...</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Minimalna wartość nie może być mniejsza od 1.</source>
+				<target>Verdien kan ikke være mindre enn 1</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Maksymalna wartość nie może być większa od %s</source>
+				<target>Verdien kan ikke være større enn % s</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Kwota:</source>
+				<target>Beløp:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>Det er ikke nok varer på lager</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Koszyk jest pusty</source>
+				<target>Handlekurven er tom</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>netto</source>
+				<target>netto</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>brutto</source>
+				<target>brutto</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>razem</source>
+				<target>i alt</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Twój koszyk jest pusty</source>
+				<target>Handlekurven din er tom</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>j.m.</source>
+				<target>enhet</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Minimalna ilość to %quantity% %uom%</source>
+				<target>Minimum antall er %quantity% målenheter %uom%</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Podana wartość musi być liczbą...</source>
+				<target>Verdien må være et tall...</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Koszyk</source>
+				<target>Handlevognen</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Sprawdź zawartość koszyka</source>
+				<target>Sjekk handlevognen</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Kontynuuj zakupy</source>
+				<target>Fortsett å handle</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Produkt został dodany do koszyka</source>
+				<target>Produktet har blitt lagt til handlevognen</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Ilość została zmniejszona z powodu niskiego stanu magazynowego</source>
+				<target>Mengden ble redusert på grunn av lav inventar</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Ilość została zwiększona. Minimalna ilość jaką możesz zamówic to %quantity% %uom%</source>
+				<target>Mengden ble økt. Minste mengde du kan bestille er %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Podana wartość musi być większa od 0.</source>
+				<target>Det oppgitte beløpet må være høyere enn 0.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Posiadam VAT UE</source>
+				<target>Jeg har et EU-MVA nummer.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>dodaj do koszyka</source>
+				<target>legg i handlevognen</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Ilość:</source>
+				<target>Quantità:</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Razem</source>
+				<target>I alt</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>kup za </source>
+				<target>kjøp for</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Zaloguj się aby kupić produkt za punkty.</source>
+				<target>Logg inn for å kjøpe produktet for poeng.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak wystarczającej ilości punków.</source>
+				<target>Ikke nok poeng.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak wymaganej ilości punktów</source>
+				<target>Antall poeng er ikke tilstrekkelig</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Minste antall poeng er ikke nådd.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Det mangler</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wybierz prezent</source>
+				<target>Velg en gave</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>prezent</source>
+				<target>gave</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Zamów</source>
+				<target>Bestill</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Do koszyka</source>
+				<target>Legg i handlevognen</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

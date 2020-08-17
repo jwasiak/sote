@@ -1,0 +1,18 @@
+---
+package: 
+  name: stConfigPlugin
+  stability: stable
+  version: 7.0.0.7
+  summary: System konfiguracji
+  description: Dodanie klasy do obslugi konfiguracji w sklepie
+  notes: |
+    - Dodanie wykluczenia przekierowania SSL
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    Marek Jakubowicz: 
+      role: contributor
+      user: marek
+      email: marek.jakubowicz@sote.pl

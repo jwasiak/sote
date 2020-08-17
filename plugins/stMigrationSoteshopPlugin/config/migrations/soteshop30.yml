@@ -1,0 +1,166 @@
+migration:
+    _attributes:
+      cleanup:                          [CategoryHasPositioningI18n, ProductHasPositioningI18n, Review, ProductSearchIndex, ProductOptionsValueI18n, ProductOptionsValue, ProductOptionsFieldI18n, ProductOptionsField, sfAsset, sfAssetFolder, ProductI18n, Product, CategoryI18n, Category, ProducerI18n, Producer, sfGuardUser, OrderCurrency, OrderUserDataBilling, OrderUserDataDelivery, OrderDelivery, Order]
+      imports:                          [products, reviews, clients, orders]
+      
+    products:
+        params:
+            source:                     {query: "SELECT * FROM main"}
+            limit:                      10
+            description:                Import produktów
+        model_fillin:
+            Product:
+                created_at:             {params: date_update}
+                active:                 {params: active}
+                wholesale_a_brutto:     {params: price_brutto_2}
+                price_brutto:           {params: price_brutto}
+                m_vat:                  {params: vat}
+                m_name:                 
+                  params:               {names:  [name, en_name, de_name]}
+                m_description:          
+                  params:               {descriptions: [xml_description, en_xml_description, de_xml_description]}
+                m_short_description:    
+                  params:               {descriptions: [xml_short_description, en_xml_short_description, de_xml_short_description]}
+                m_group:                {params: [main_page, bestseller, promotion]}
+                m_code:                 {params: user_id}
+                m_category:   
+                    params:             {categories: [category1, category2, category3, category4, category5]}
+                m_category_multi:       {params: [category_multi_1, category_multi_2]}                                                                             
+                m_producer:             {params: producer}
+                m_product_options:      {params: xml_options}
+                m_image:                {params: [photo, user_id]}
+    reviews:
+        params:
+            source:                     {query: "SELECT * FROM reviews WHERE state = 1"}
+            limit:                      50
+            description:                Import recenzji
+        model_fillin:
+            Review:
+                created_at:             {params: date_add}
+                m_product_id:           {params: user_id}
+                admin_name:             {params: author}
+                description:            {params: description}
+                score:                  {params: score}
+    clients:
+        params:
+            source:                     {query: "SELECT * FROM users WHERE order_data = 0"}
+            limit:                      100
+            description:                Import klientów
+        model_fillin:
+            sfGuardUser:
+                m_username:             {params: crypt_login}
+                m_password:             {params: crypt_password}
+                m_created_at:           {params: [date_add, date_update]}
+                m_wholesale:            {params: hurt}
+                m_user_data:          
+                    params:             
+                        billing: 
+                            - crypt_firm
+                            - crypt_name
+                            - crypt_surname
+                            - crypt_street
+                            - crypt_street_n1
+                            - crypt_street_n2
+                            - crypt_country
+                            - crypt_postcode
+                            - crypt_nip
+                            - crypt_city
+                            - crypt_phone
+                            - crypt_email  
+                        delivery: 
+                            - crypt_cor_firm
+                            - crypt_cor_name
+                            - crypt_cor_surname
+                            - crypt_cor_street
+                            - crypt_cor_street_n1
+                            - crypt_cor_street_n2
+                            - crypt_cor_country
+                            - crypt_cor_postcode
+                            - crypt_cor_city
+                            - crypt_cor_phone
+                            - crypt_cor_email      
+    orders:
+        params:
+            source:        
+                count_query: "SELECT COUNT(*) FROM order_register"
+                query: > 
+                    SELECT o.order_id as o_id, 
+                    o.confirm as o_confirm, 
+                    o.confirm_user as o_confirm_user,
+                    o.delivery_cost as d_cost,
+                    o.date_add as o_date_add,
+                    o.time_add as o_time_add,
+                    o.date_update as o_date_update,
+                    o.confirm as o_confirm,
+                    o.confirm_online as o_confirm_online,
+                    o.id_pay_method as o_payment_id,
+                    d.name as d_name, 
+                    u.crypt_login,
+                    u.date_add as u_date_add,
+                    u.date_update as u_date_update,
+                    ud.crypt_firm,
+                    ud.crypt_name,
+                    ud.crypt_surname,
+                    ud.crypt_street,
+                    ud.crypt_street_n1,
+                    ud.crypt_street_n2,
+                    ud.crypt_country,
+                    ud.crypt_postcode,
+                    ud.crypt_nip,
+                    ud.crypt_city,
+                    ud.crypt_phone,
+                    ud.crypt_email, 
+                    ud.crypt_cor_firm,
+                    ud.crypt_cor_name,
+                    ud.crypt_cor_surname,
+                    ud.crypt_cor_street,
+                    ud.crypt_cor_street_n1,
+                    ud.crypt_cor_street_n2,
+                    ud.crypt_cor_country,
+                    ud.crypt_cor_postcode,
+                    ud.crypt_cor_city,
+                    ud.crypt_cor_phone,
+                    ud.crypt_cor_email                   
+                    FROM order_register o
+                    LEFT JOIN (delivery d) ON o.id_delivery = d.id 
+                    LEFT JOIN (users u) ON o.id_users = u.id
+                    LEFT JOIN (users ud) ON o.id_users_data = ud.id  
+            limit:                  100
+            description:            Import zamówień
+        model_fillin:
+            Order:
+                m_created_at:       {params: [o_date_add, o_time_add]}
+                m_updated_at:       {params: o_date_update}
+                m_payment:          {params: [o_payment_id, o_confirm, o_confirm_online]}
+                m_id:               {params: o_id}
+                is_confirmed:       {params: o_confirm_user}
+                m_delivery:         {params: [d_name, d_cost]}
+                m_status:           {params: o_confirm}
+                m_user:             {params: [crypt_login, crypt_email, u_date_add, u_date_update]}
+                m_user_data:
+                    params:
+                        billing:
+                            - crypt_firm
+                            - crypt_name
+                            - crypt_surname
+                            - crypt_street
+                            - crypt_street_n1
+                            - crypt_street_n2
+                            - crypt_country
+                            - crypt_postcode
+                            - crypt_nip
+                            - crypt_city
+                            - crypt_phone
+                            - crypt_email      
+                        delivery:
+                            - crypt_cor_firm
+                            - crypt_cor_name
+                            - crypt_cor_surname
+                            - crypt_cor_street
+                            - crypt_cor_street_n1
+                            - crypt_cor_street_n2
+                            - crypt_cor_country
+                            - crypt_cor_postcode
+                            - crypt_cor_city
+                            - crypt_cor_phone
+                            - crypt_cor_email

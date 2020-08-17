@@ -1,0 +1,7 @@
+propel:
+  st_tax:
+    _attributes:  {phpName: Tax}
+    update_resume:
+      type: VARCHAR
+      size: 64
+      phpType: array

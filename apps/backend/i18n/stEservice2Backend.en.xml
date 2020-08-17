@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2013-07-23T10:00:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Identyfikator sprzedawcy</source>
+                <target>Merchant ID</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Tryb testowy</source>
+                <target>Test mode</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Płatność przez serwis eService</source>
+                <target>eService payment</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Identyfikator marki</source>
+                <target>Brand ID</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Podane dane są nieprawidłowe</source>
+                <target>The given data is incorrect</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Wystąpił problem podczas próby weryfikacji danych. Sprawdź czy podane dane są prawidłowe i spróbuj ponownie.</source>
+                <target>There was a problem trying to verify your data. Check if the provided data is correct and try again.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Włącz</source>
+                <target>Enable</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,139 @@
+{use_stylesheet src="stProductOptionsColorPicker.css"}
+
+{$form_head}
+    {$head}
+        {$options}
+    {$foot}
+    {$hidden_submit}
+{$form_foot}
+
+{literal}
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+    var showColorNames = {/literal}{if $config->get('show_color_names')}true{else}false{/if}{literal};
+    var colorOptions = $('.color_options');
+    var pickerTriggers = [];
+
+    function disablePickers() {
+        $.each(pickerTriggers, function() {
+            this.unbind('click').unbind('focus').addClass('picker-disabled');
+        });
+    }
+
+    colorOptions.each(function() {
+
+        var select = $(this);
+
+        select.addClass('picker-select-hidden');
+
+        var preventClose = false;
+
+        var option = select.children(':selected');
+
+        var current = option.data('color');
+
+        var picker = $('<div class="color-picker"><div class="color-preview"></div><button type="button"><span></span></button><ul></ul></div>');
+
+        var pickerTrigger = picker.children('button');
+
+        pickerTriggers.push(pickerTrigger);
+
+        var pickerColors = picker.children('ul');
+
+        if (current[0] != '#') {
+            pickerTrigger.css({ 'background-image': 'url('+current+')' });
+        } else {
+            pickerTrigger.css({ 'background': current });
+        }
+
+        select.before(picker);
+
+        pickerColors.on('mousedown', 'button', function(e) {
+            var selected = $(this);
+            var color = selected.data('color');
+
+            select.val(selected.data('id')).trigger('change');
+            if (color[0] != '#') {
+                pickerTrigger.css({ 'background-image': 'url('+color+')' });
+            } else {
+                pickerTrigger.css({ 'background': color });
+            }
+            
+            disablePickers();
+            pickerColors.hide();
+
+            e.stopPropagation();
+            return false;
+        });  
+
+        pickerTrigger.click(function() {
+            pickerTrigger.trigger('focus');
+        });
+
+        pickerColors.mousedown(function() {
+            preventClose = true;
+        });
+
+        pickerColors.mouseup(function() {
+            preventClose = false;
+            pickerTrigger.focus();
+        });
+
+        pickerTrigger.blur(function() {
+            if (!preventClose) {
+                pickerColors.hide();
+            }
+        });
+
+        pickerTrigger.focus(function() {
+            if (pickerColors.is(':empty')) {
+                var content = '';
+                select.children().each(function() {
+                    var option = $(this);
+                    var active = option.val() == select.val() ? ' class="current"' : '';
+                    var color = option.data('color');
+                    if (color[0] != '#') {
+                        var backgroundColor = 'background-image: url('+color+')'; 
+                        var img = '<div class="color-preview"><img src="'+color+'" /></div>'; 
+                    } else {
+                        var backgroundColor = 'background: '+color;
+                        var img = '<div class="color-preview"><div class="color-bg" style="'+backgroundColor+'"></div></div>';    
+                    }
+                     
+                    if (showColorNames) {
+                        content += '<li class="color-name"><button type="button"'+active+' data-id="'+option.val()+'" data-color="'+color+'"><i style="'+backgroundColor+'"></i> '+option.html()+'</button></li>';
+                    } else {
+                        content += '<li><button type="button"'+active+' data-id="'+option.val()+'" data-color="'+color+'" style="'+backgroundColor+'"></button></li>';
+                    }
+                });
+
+                pickerColors.html(content);  
+
+                pickerColors.find('button').tooltip({ 
+                    position: 'center left',
+                    delay: 0,
+                    predelay: 30,
+                    offset: [0, -20],
+                    tip: pickerColors.parents('.color-picker').first().children('.color-preview'), 
+                    onBeforeShow: function() {
+                        var color = this.getTrigger().data('color');
+                        if (color[0] != '#') {
+                            var content = '<img src="'+color+'" />'; 
+                        } else {
+                
+                            var content = '<div class="color-bg" style="background: '+color+'"></div>';    
+                        }                        
+
+                        this.getTip().html(content);
+                    } 
+                });          
+            }
+
+            pickerColors.show();
+        });
+    });
+});
+//]]>
+</script>
+{/literal}

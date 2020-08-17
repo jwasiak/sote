@@ -1,0 +1,11 @@
+fillin:
+    enabled:      true
+
+fields:
+    searched_words{word}:
+        required:
+            msg:       Proszę podać szukane słowo
+
+    searched_words{url}:
+        sfUrlValidator:
+            url_error:  Proszę podać poprawny adres linku, adres musi zaczynać się od http://

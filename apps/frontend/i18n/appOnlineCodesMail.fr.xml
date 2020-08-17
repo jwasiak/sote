@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>dodatkowe dane do zamówienia</source>
+				<target>données supplémentaires de la commande</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dodatkowe dane do zamówienia</source>
+				<target>Données supplémentaires de la commande</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwa produktu</source>
+				<target>Nom du produit</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Kod</source>
+				<target>Code</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Link do pliku</source>
+				<target>Lien vers le fichier</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

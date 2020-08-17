@@ -1,0 +1,22 @@
+---
+package: 
+  name: stRegister
+  stability: stable
+  version: 7.0.0.2
+  summary: Instalacja
+  description: Instalacja
+  notes: |
+    - Dodanie statystyk instalacji
+    - Poprawka przekierowania do panelu po instalacji sklepu
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+    Marek Jakubowicz: 
+      role: contributor
+      user: marek
+      email: marek.jakubowicz@sote.pl
+  dependency: 
+    stBackend: 1.0.0
+    stSecurityPlugin: 1.0.2.5

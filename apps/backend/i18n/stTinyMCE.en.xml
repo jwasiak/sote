@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Wizualny</source>
+            <target>Visual</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Włącz edycje zaawansowaną</source>
+            <target>Enable advanced edit options</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Edytor WYSIWYG</source>
+            <target>WYSIWYG editor</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Konfiguracja</source>
+            <target>Configuration</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,56 @@
+.st_tab_navigator li
+{
+    float: left;
+    
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #666;
+    
+    margin-right: 5px;
+    margin-bottom: -1px;
+}   
+
+.st_tab_navigator li a 
+{
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #666;
+    background-color: #eee;
+}
+
+.st_tab_navigator li.st_selected a
+{
+    color: #fff;
+    background-color: #154D81;
+}
+
+.st_tab_navigator li.st_dummy
+{
+    float: none;
+    clear: both;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0%;
+    border: none;
+}
+
+.st_content_tab 
+{
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+.st_tab_navigator-separator
+{
+    margin-bottom: 10px;
+}
+
+.st_indicator {
+    text-align: center;
+    padding: 10px 0;
+  
+}

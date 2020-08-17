@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2015-01-15T01:42:41Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twoje punkty</source>
+				<target>I tuoi punti</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Moje konto</source>
+				<target>Il mio account</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Punkty</source>
+				<target>Punti</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Aktualnie posiadasz</source>
+				<target>Attualmente disponi di</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Lista operacji</source>
+				<target>Elenco delle operazioni</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Operacja</source>
+				<target>Operazione</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmienił</source>
+				<target>Modificato</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Opis</source>
+				<target>Descrizione</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Data</source>
+				<target>Data</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Stan konta</source>
+				<target>Stato del conto</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>administrator</source>
+				<target>amministratore</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Zam</source>
+				<target>Ord</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Aggiornato a seguito dell’ordine</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Próg aktywacji punktów</source>
+				<target>Soglia di attivazione dei punti</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>osiągnięty</source>
+				<target>raggiunta</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Próg aktywacji punktów nie został osiągnięty</source>
+				<target>La soglia di attivazione dei punti non è stata raggiunta</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>do aktywacji brak</source>
+				<target>per l’attivazione mancano</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Po zgromadzeniu łącznie</source>
+				<target>Dopo aver accumulato complessivamente</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>będzie można dokonywać zakupów za punkty.</source>
+				<target>sarà possibile effettuare gli acquisti con i punti.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktywacja jest jednorazowa.</source>
+				<target>L’attivazione avviene una sola volta.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+				<target>Al superamento della soglia di attivazione, l’impiego del sistema a punti è illimitato.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Aktualizacja stanu konta</source>
+				<target>Aggiornamento dello stato del conto</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

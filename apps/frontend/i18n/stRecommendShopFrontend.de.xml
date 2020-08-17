@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2011-11-04T01:50:23Z">
+		<body>
+			<trans-unit id="1">
+				<source>Polecenie sklepu</source>
+				<target>Shopempfehlung</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>treść wiadomości</source>
+				<target>Inhalt der Nachricht</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>twój adres e-mail</source>
+				<target>Ihre E-Mail-Adresse</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>informacje dodatkowe</source>
+				<target>Zusatzinformationen</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>E-Mail-Adresse Ihres Bekannten</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cyfry z obrazka</source>
+				<target>Ziffern aus dem Bild</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>Eine Empfehlung an diesen Bekannten wurde schon einmal verschickt</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Możesz polecić sklep innemu znajomemu</source>
+				<target>Sie können den Shop einem anderen Bekannten empfehlen</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Poleć sklep</source>
+				<target>Shop empfehlen</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Wiadomość o treści</source>
+				<target>Die Nachricht mit dem Inhalt</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>została wysłana do</source>
+				<target>wurde verschickt an</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Abschicken</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Daj szansę swoim znajomym na poznanie naszego sklepu</source>
+				<target>Geben Sie Ihren Bekannten die Gelegenheit, unseren Shop kennenzulernen</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdzenie wysłania polecenia sklepu</source>
+				<target>Versandbestätigung der Shopempfehlung</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dziękujemy</source>
+				<target>Wir bedanken uns</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Powrót</source>
+				<target>Zurück</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Polecenie sklepu było już wysłane do tego użytkownika</source>
+				<target>Eine Shopempfehlung wurde bereits an diesen Benutzer verschickt</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Brak adresu e-mail</source>
+				<target>Die E-Mail-Adresse fehlt</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Das Format der E-Mail-Adresse ist fehlerhaft</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Geben Sie die richtigen Ziffern ein</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Data polecenia sklepu</source>
+				<target>Datum der Shopempfehlung</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Sklep polecił</source>
+				<target>Shop empfohlen von</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Polecenie sklepu.</source>
+				<target>Shopempfehlung.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Cyfry z obrazka</source>
+				<target>Ziffern aus dem Bild</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Polecone od</source>
+				<target>Empfohlen von</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Adresat (e-mail)</source>
+				<target>Empfänger (E-Mail)</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Treść</source>
+				<target>Inhalt</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nadawca (e-mail)</source>
+				<target>Absender (E-Mail)</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Wprowadzono zły numer.</source>
+				<target>Die eingegebene Nummer ist fehlerhaft.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Diese Nachricht wurde aus dem Internetshop verschickt</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

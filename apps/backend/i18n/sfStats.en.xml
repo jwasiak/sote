@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Raporty</source>
+                <target>Reports</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Generowanie raportów</source>
+                <target>Generate the reports</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Raporty sklepu</source>
+                <target>Reports</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja raportów</source>
+                <target>Reports configuration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Graf</source>
+                <target>Graph</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wybierz typ raportów z listy</source>
+                <target>Select the reports type</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Typ:</source>
+                <target>Type:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Godzina</source>
+                <target>Hour</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Filtry</source>
+                <target>Filters</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Niestety nie jest ustawiona wizualizacja raportów.</source>
+                <target>Reports visualization is disabled.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wybierz typ statystyk z listy</source>
+                <target>Select the reports type</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przedział czasowy raportów:</source>
+                <target>Reports interval:</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dzień</source>
+                <target>Day</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Tydzień</source>
+                <target>Week</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Miesiąc</source>
+                <target>Month</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Kwartał</source>
+                <target>Quarter</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Rok</source>
+                <target>Year</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Pokaż graf:</source>
+                <target>Show the graph:</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Rodzaj wizualizacji grafu:</source>
+                <target>Graph visualization type:</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Liniowy</source>
+                <target>Linear</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Punktowy</source>
+                <target>Scatter</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Słupkowy</source>
+                <target>Bar</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Pokaż tabele wartości:</source>
+                <target>Show the table of values:</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Tabela wartości</source>
+                <target>Table of values</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Data</source>
+                <target>Date</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Wartość</source>
+                <target>Value</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Łącznie</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Od:</source>
+                <target>From:</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Do:</source>
+                <target>To:</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Jednostka czasu:</source>
+                <target>Time unit:</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Szukaj</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Wyczyść filtr</source>
+                <target>Clear a filter</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Ilość zamówień</source>
+                <target>The number of orders</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Ilość dodanych produktów</source>
+                <target>The number of added products</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Ilość nowych klientów</source>
+                <target>The number of new clients</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

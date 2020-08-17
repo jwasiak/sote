@@ -1,0 +1,43 @@
+{set layout="one_column"}
+
+<div class="user-control">
+    {st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="3"}
+    <div id="discount-info">
+        {if $discounts}
+            <h4>{__ text="Rabaty przyznane klientowi" catalogue="stUserData"}</h4>
+            <table class="table table-hover table-responsive" cellspacing="0" width="100%">
+                <colgroup>
+                    <col>
+                    <col width="120">
+                    <col width="120">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th style="white-space: nowrap;"><span>{__ text="Nazwa"}</span></th>
+                        <th><span>{__ text="Wartość"}</span></th>
+                        <th><span>{__ text="Produkty"}</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach from=$discounts item=discount}         
+                    <tr>
+                        <td>{$discount.name}</td>
+                        {if $discount.type == '%' || $discount.id == 0}
+                        <td>{$discount.value}%</td>
+                        {else}
+                        <td>{$discount.value|st_currency_format:null:true}</td>
+                        {/if}
+                        <td>{$discount.link_to}</td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+            {else}
+            <div class="panel panel-default center-block info-panel">
+                <div class="panel-body text-center">    
+                    <p>{__ text="Aktualnie nie posiadasz żadnych rabatów." catalogue="stUserData"}</p>                
+                </div>
+            </div>
+        {/if}
+    </div>
+</div>

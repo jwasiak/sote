@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Moje konto</source>
+				<target>我的帐户</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dane billingowe</source>
+				<target>支付人信息</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowy adres</source>
+				<target>新地址</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Edytuj</source>
+				<target>编辑</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak danych billingowych, uniemożliwi dokonywanie zakupów. Proszę uzupełnij dane billingowe.</source>
+				<target>如果未填写计费信息不能购物。请补填计费信息。</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Uzupełnij swoje dane!</source>
+				<target>请补填您的信息！</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Dane dostawy</source>
+				<target>送货信息</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Brak danych dostawy, uzupełnij swoje dane bilingowe aby móc zarządzać danymi dostawy.</source>
+				<target>没有送货信息， 请补填您的计费信息以便能管理送货信息。</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Domyślne dane bilingowe</source>
+				<target>默认计费信息</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Ustaw jako domyślne dane bilingowe</source>
+				<target>设置为默认信息</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Domyślne dane dostawy</source>
+				<target>默认送货信息</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Ustaw jako domyślne dane dostawy</source>
+				<target>设置为默认送货信息</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Domyślne dane nie mogą być usunięte</source>
+				<target>默认信息不能被删除</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Usuń dane</source>
+				<target>删除信息</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Edytuj dane</source>
+				<target>修改信息</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Domyślne dane</source>
+				<target>默认信息</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Ustaw dane jako domyślne</source>
+				<target>设置为默认信息</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Firma</source>
+				<target>公司</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Imię i nazwisko</source>
+				<target>姓名</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Ulica, nr domu</source>
+				<target>马路，房号</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kod, miasto</source>
+				<target>邮政编码，城市</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Kraj</source>
+				<target>国家</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Telefon</source>
+				<target>电话</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>NIP</source>
+				<target>纳税识别号</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Ustaw jako domyślne dane.</source>
+				<target>设置为默认信息</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Zapisz</source>
+				<target>保存</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Przejdź do potwierdzenia</source>
+				<target>确认</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rejestracja</source>
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Podaj dane billingowe aby dokończyć proces rejestracji.</source>
+				<target>请输入计费信息以便完成注册。</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane dostawy są inne niż dane billingowe</source>
+				<target>送货和计费信息不一致</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Powiadamiaj mnie o nowościach w sklepie</source>
+				<target>有新货请通知我</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>E-mail</source>
+				<target>电子邮件</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Cyfry z obrazka</source>
+				<target>图片上的数字</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Akceptuję politykę prywatności</source>
+				<target>我接受隐私政策</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Dodaj nowy adres</source>
+				<target>添加新地址</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>允许的字符数量被超出了。</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Brak imienia.</source>
+				<target>未填写名字</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Brak nazwiska.</source>
+				<target>未填写姓</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Brak ulicy.</source>
+				<target>未填写马路</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Brak domu.</source>
+				<target>未填写房号</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak kodu.</source>
+				<target>未填写邮政编码</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak miasta.</source>
+				<target>未填写城市</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Brak telefonu.</source>
+				<target>未填写电话号码</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Dane logowania</source>
+				<target>登录信息</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Edycja danych dostawy</source>
+				<target>编辑送货信息</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Edycja danych billingowych</source>
+				<target>编辑计费信息</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Nie podałeś adresu e-mail.</source>
+				<target>您没输入电子邮件地址。</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Wprowadzono zły numer.</source>
+				<target>您输入的验证码不正确。</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>电子邮件格式不正确。</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>您必须同意隐私政策。</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Musisz podać imię i nazwisko lub dane firmowe.</source>
+				<target>您必须输入姓名或者公司信息。</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Musisz podać imię i nazwisko lub nazwę firmy.</source>
+				<target>您必须输入姓名或者公司名称。</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Uwagi do zamówienia</source>
+				<target>订单备注</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>(Dla nowych klientów)</source>
+				<target>（对新的顾客）</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Załóż konto (zarejestruj mnie)</source>
+				<target>建立帐户 （注册）</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Brak adresu e-mail.</source>
+				<target>未填写电子邮件地址</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Dane bilingowe</source>
+				<target>支付人信息</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak danych dostawy, uzupełnij swoje dane dostawy aby móc dokonywać zakupów w sklepie.</source>
+				<target>未填写送货信息， 请补填送货信息以便在商店购物。</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>最少6个字符</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>bardzo słabe</source>
+				<target>很弱</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>słabe</source>
+				<target>弱</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>normalne</source>
+				<target>一般</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>mocne</source>
+				<target>强</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>bardzo mocne</source>
+				<target>很强</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Brak hasła.</source>
+				<target>未填写密码</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Hasła nie są takie same.</source>
+				<target>密码不一致。</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Hasło</source>
+				<target>密码</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Powtórz hasło</source>
+				<target>重复密码</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Brak nipu.</source>
+				<target>未填写纳税识别号</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Klient indywidualny</source>
+				<target>个人客户</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>Musisz podać imię i nazwisko.</source>
+				<target>您必须输入姓名</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>Adres</source>
+				<target>地址</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>np. Nazwa ulicy nr/nr</source>
+				<target>比如马路名称 号码/号码</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>adres ciąg dalszy</source>
+				<target>继续填写地址</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Województwo</source>
+				<target>省</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Brak adresu.</source>
+				<target>未填写地址。</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Uwagi</source>
+				<target>备注</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>komentarz do zamówienia</source>
+				<target>订单备注</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>加粗的字段是必需的。</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Jedno z pól jest wymagane.</source>
+				<target>最少填写一个。</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Zalogowano z konta google</source>
+				<target>用Google帐户登录</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Kod</source>
+				<target>邮政编码</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Miasto</source>
+				<target>城市</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Załóż konto</source>
+				<target>建立帐户</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Inne dane wysyłkowe</source>
+				<target>别的送货信息</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Dane płatnika</source>
+				<target>支付人信息</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Dane wysyłkowe</source>
+				<target>送货信息</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Moje dane</source>
+				<target>我的信息</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zamówienia</source>
+				<target>订单</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>Podaj dane płatnika i wysyłkowe.</source>
+				<target>请输入支付人信息和送货信息</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>请填写选定的项目</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Niepoprawny adres.</source>
+				<target>地址不正确</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Adres ciąg dalszy</source>
+				<target>地址（续）</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Rabaty</source>
+				<target>折扣</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Chcę otrzymać fakturę vat</source>
+				<target>我要增值税发票</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Newsletter</source>
+				<target>通讯</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Edycja danych</source>
+				<target>编辑数据</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Podany numer VAT UE jest nieaktywny lub nieprawidłowy</source>
+				<target>选择的欧盟增值税号不正确或无效</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Brak adresu email.</source>
+				<target>没有邮箱地址</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Brak imienia i nazwiska.</source>
+				<target>没有姓名</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Brak firmy.</source>
+				<target>没有公司</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>Domyślne dane płatnika</source>
+				<target>默认付款人数据</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>Alternatywne dane</source>
+				<target>其它数据</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>信息以更新。</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Ustaw jako domyślne</source>
+				<target>设置为默认</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Brak numeru NIP.</source>
+				<target>没有税号</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>该用户已经存在。</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>VAT UE</source>
+				<target>欧盟增值税</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Treść uwag</source>
+				<target>备注的内容</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Podany numer VAT UE nie spełnia wymogów wewnątrzwspólnotowego nabycia towarów</source>
+				<target>欧盟增值税号码显示不符合共同体内部货物采购的要求</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Punkty</source>
+				<target>积分</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Twoje punkty</source>
+				<target>您的积分</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Pola wymagane</source>
+				<target>必填项</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Akceptuję</source>
+				<target>接受</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>i przeczytałem</source>
+				<target>已阅读</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

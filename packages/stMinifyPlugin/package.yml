@@ -1,0 +1,14 @@
+---
+package: 
+  name: stMinifyPlugin
+  stability: stable
+  version: 7.2.0.1
+  summary: Biblioteka optymalizujaca pliki js i css
+  description: Biblioteka optymalizujaca pliki js i css
+  notes: |
+    - Aktualizacja modulu
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

@@ -1,0 +1,89 @@
+{set layout="one_column"}
+
+<div class="user-control">
+    {st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="4"}
+
+    <div id="user-panel-newsletter">
+
+        <div class="panel panel-default center-block">
+            <div class="panel-heading">
+                {__ text="Subskrypcja"}
+            </div>
+            <div class="panel-body">
+
+                {$form_start}
+
+                {if $update == 1}
+                    {if $new_user != 1}
+                    <div class="alert alert-success" role="alert">
+                        {__ text="Dane zostały zaktualizowane."}
+                    </div>
+                    {else}
+                        <div class="alert alert-success" role="alert">
+                            {__ text="Pomyślnie usunięto z lity."}
+                        </div>
+                    {/if}
+                {/if}
+
+
+                <div class="form-group  {if $error_email!=''}has-error{/if}">
+                    {if $error_email!=""}<label class="control-label" for="email">{$error_email}</label>{/if}
+                    {$input_email}
+                </div>
+                
+                <div class="checkbox">
+                    <label class="{if $error_privacy==1}checkbox_error{/if}">
+                        {$checkbox_privacy} {st_get_partial partial="stUser/privacy" privacy_only="true"}
+                    </label>
+                </div>
+                <br/>
+
+                    {if $newsletterGroup}
+                        {foreach key=row item=news_group from=$results}
+                        <div class="checkbox">
+                            <label> {$news_group.input} {$news_group.name} </label>
+                        </div>
+                        <div>
+                            {$news_group.description}
+                        </div>
+                        {/foreach}
+                    {/if}
+
+
+                {if $new_user != 1}
+
+                <button type="submit" class="btn btn-primary pull-right" >
+                    {__ text="Aktualizuj"}
+                </button>
+                {else}            
+
+                <button type="submit" class="btn btn-primary pull-right" >
+                    {__ text="Zapisz mnie na newsletter"}
+                </button>
+
+                {/if}
+
+                {$hidden_new_user}
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function() {
+            
+            $( ".alert" ).addClass( "opacity_alert" );
+            
+            setTimeout(function() {
+                $( ".alert" ).addClass( "hidden_alert" );
+            }, 3000);
+            
+        });
+
+    }); 
+</script>
+{/literal}

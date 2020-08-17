@@ -1,0 +1,198 @@
+#app-image-tag > h1 {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+}
+
+#app-image-tag.no-image > h1 {
+    position: static;
+    border: 1px solid #EAEAEA; 
+    margin-bottom: 15px;
+}
+
+#app-image-tag .taggd-image-wrapper img {
+    width: 100%;
+}
+
+#app-image-tag .taggd-wrapper {
+    text-align: center;
+}
+
+.taggd-wrapper { position: absolute; top: 0px; left: 0px; z-index: 20 }
+
+.taggd-wrapper .taggd-item-hover {
+    padding: 10px;
+}
+
+.taggd-wrapper a {
+    color: #fff;
+}
+
+.taggd-wrapper p {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.taggd-wrapper .taggd-item {
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 3px solid #000;
+    opacity: 0.8;
+    margin-top: -7px;
+    margin-left: -7px;
+    outline: 1px solid #fff; 
+    cursor: pointer;   
+    -moz-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    z-index: 1;
+    display: block;
+}
+
+.taggd-wrapper .taggd-item:hover {
+    opacity: 1;
+}
+
+.taggd-wrapper .taggd-item .taggd-item-hover {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-weight: lighter;
+    display: none;
+    position: inherit;
+    z-index: 1000; 
+    min-width: 200px;
+}
+
+#app-image-tag {
+    position: relative;
+}
+
+#app-image-tag {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.taggd-image-popup {
+    background: #fff;
+    padding: 15px;
+    position: absolute;
+    display: none;
+    z-index: 10000;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+    width: 220px;
+    text-align: center;
+}
+
+.taggd-image-popup .quantity .form-control {
+    display: inline;
+    margin-right: 5px;
+    width: 60px;
+}
+
+.taggd-image-popup .quantity {
+    margin-bottom: 10px;
+}
+
+.taggd-image-popup .app-product-name {
+    margin-top: 10px;
+}
+
+#app-image-tag .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:before,
+#app-image-tag .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:after {
+    border-bottom-color: #fff;
+    border-bottom-width: 10px;
+}
+
+#app-image-tag .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:before {
+    margin-top: 8px;
+}
+
+#app-image-tag .sp-bottom-thumbnails .sp-thumbnail-container, #app-image-tag .sp-top-thumbnails .sp-thumbnail-container {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#app-image-tag .sp-bottom-thumbnails .sp-thumbnail-container:first-child, #app-image-tag .sp-top-thumbnails .sp-thumbnail-container:first-child {
+    margin-left: 0px;
+}
+
+#app-image-tag .sp-bottom-thumbnails, #app-image-tag .sp-top-thumbnails {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#app-image-tag .sp-bottom-thumbnails.sp-has-pointer {
+    margin-top: -8px;
+}
+
+#app-image-tag .slider-pro .sp-image {
+    width: 100%;
+    height: auto;
+}
+
+.slider-pro .sp-slide.fill img.sp-image { 
+    width: auto !important; 
+    max-width: 100%;
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    padding-left: 5px !important; 
+    padding-right: 5px !important; 
+    background: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.slider-pro .sp-slide.fill .sp-fill-layer {
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    background: none no-repeat center center; 
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.slider-pro .description {
+    z-index: 100;
+    display: block;
+    text-decoration: none;
+}
+
+.slider-pro .description.sp-black:hover {
+    color: #fff;
+}
+
+.slider-pro .description.sp-white:hover {
+    color: #000;
+}
+
+.taggd-image-popup img {
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .taggd-image-popup .btn-shopping-cart {
+        font-size: 0.95rem;
+    }
+
+    .taggd-image-popup {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #app-image-tag .description {
+        padding: 5px 5px 10px 5px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    #app-image-tag .responsive {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}

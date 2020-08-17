@@ -1,0 +1,14 @@
+---
+package: 
+  name: stXssSafePlugin
+  stability: stable
+  version: 1.0.0.2
+  summary: Xss Safe
+  description: Xss Safe
+  notes: |
+      - Poprawki xss
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

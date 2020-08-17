@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2012-07-02T03:01:07Z">
+		<body>
+			<trans-unit id="1">
+				<source>Newsletter</source>
+				<target>Newsletter</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu.</source>
+				<target>Bestellen Sie den Newsletter, um Informationen aus dem Shop zu erhalten.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>E-mail</source>
+				<target>E-Mail</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Ich akzeptiere die Datenschutzrichtlinien</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Cyfry z obrazka</source>
+				<target>Ziffern aus dem Bild</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Adres</source>
+				<target>Adresse</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>został usunięty z listy subskrypcji.</source>
+				<target>wurde aus der Abonnentenliste entfernt.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Newseltter</source>
+				<target>Newsletter</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Brak adresu e-mail</source>
+				<target>Die E-Mail-Adresse fehlt</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Twój email...</source>
+				<target>Ihre E-Mail-Adresse...</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>został potwierdzony na liście subskrypcji</source>
+				<target>wurde auf der Abonnentenliste bestätigt</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu.</source>
+				<target>Wir bedanken uns für Ihr Interesse an unserem Shopangebot.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Adres został dodany do listy subskrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej.</source>
+				<target>Die Adresse wurde zur Abonnentenliste hinzugefügt. Bestätigen Sie Ihren Wunsch, Nachrichten zu erhalten, durch die Aktivierung Ihres Kontos, indem sie auf den nachstehenden Link klicken.</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdź rejestrację</source>
+				<target>Registrierung bestätigen</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów</source>
+				<target>Nach der Bestätigung der Registrierung werden Informationen zu den folgenden Themen verschickt</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link.</source>
+				<target>Falls Sie keine weiteren Nachrichten erhalten möchten, klicken Sie bitte auf den nachstehenden Link.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wypisz mnie z listy</source>
+				<target>Aus der Liste entfernen</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>został dodany do listy subskrypcji.</source>
+				<target>wurde zur Abonnentenliste hinzugefügt.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Za chwile otrzymacie państwo mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>In Kürze erhalten Sie eine E-Mail mit der Aufforderung, die Registrierung zu bestätigen.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z następujących tematów</source>
+				<target>Nach Bestätigung der Anmeldung an die oben angegebene Adresse werden Informationen zu den folgenden Themen gesendet werden</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Die zulässige Zeichenanzahl wurde überschritten.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj</source>
+				<target>Hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Das Format der E-Mail-Adresse ist fehlerhaft.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Taki adres już istnieje w bazie danych.</source>
+				<target>Diese Adresse existiert bereits in der Datenbank.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Die eingegebene Nummer ist fehlerhaft.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Sie müssen den Datenschutzrichtlinien zustimmen.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rejestracja na liście subskrypcji.</source>
+				<target>Registrierung für die Abonnentenliste.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Na adres</source>
+				<target>Wir bedanken uns für die Nutzung unseres Benachrichtigungssystems. An die Adresse</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>został wysłany mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>wurde eine E-Mail mit der Aufforderung geschickt, die Registrierung zu bestätigen.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z grup</source>
+				<target>Nach Bestätigung der Anmeldung an die oben angegebene Adresse werden Informationen aus den Gruppen gesendet werden</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wróć do zakupów</source>
+				<target>Zurück zum Einkaufen</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Adres</source>
+				<target>Wir bedanken uns für die Nutzung unseres Benachrichtigungssystems. Die Adresse</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>został potwierdzony na liście subskrypcji.</source>
+				<target>wurde auf der Abonnentenliste bestätigt.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu. Wybierz działy informacji z których chcesz otrzymywać wiadomości.</source>
+				<target>Bestellen Sie den Newsletter, um Informationen aus dem Shop zu erhalten. Wählen Sie die Informationsbereiche, über die Sie benachrichtigt werden möchten.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapisz mnie na newsletter</source>
+				<target>Newsletter bestellen</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wiadomości z list subskrypcji będą przychodziły na adres</source>
+				<target>Die Nachrichten aus den Abonnentenlisten werden an die folgende Adresse verschickt</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Jeżeli chcą Państwo zmienić grupy powiadomień lub adres na który mają być wysyłane wiadomości proszę skorzystać z formularza poniżej.</source>
+				<target>Falls Sie die Benachrichtigungsgruppen bzw. die E-Mail-Adresse, an die die Nachrichten verschickt werden sollen, ändern möchten, benutzen Sie bitte das nachstehende Formular.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Aktualizuj</source>
+				<target>Aktualisieren</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Usuń mnie z listy</source>
+				<target>Aus der Liste entfernen</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Dieser Benutzer existiert bereits.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>Die Daten wurden aktualisiert.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zapisz się na newsletter</source>
+				<target>Newsletter abonnieren</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>W każdym momencie możesz zrezygnować.</source>
+				<target>Sie können jederzeit abbrechen.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Prośba o wypisanie z listy</source>
+				<target>Aus der Liste entfernen</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Dane subskrypcji</source>
+				<target>Empfängerdaten</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Podaj swój adres.</source>
+				<target>Bitte geben Sie Ihre Adresse ein.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Sprawdź skrzynkę pocztową.</source>
+				<target>Rufen Sie bitte Ihre E-mails ab.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Na podany adres wysłano mail z prośbą o potwierdzenie.</source>
+				<target>An die angegebene Adresse wurde eine E-Mail-Nachricht mit der Bitte um Bestätigung geschickt.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Kontynuuj zakupy</source>
+				<target>Weiter einkaufen</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Potwierdzenie rezygnacji.</source>
+				<target>Bestätigung der Abbestellung.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Adres został usunięty.</source>
+				<target>Die Adresse wurde gelöscht.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Moje konto</source>
+				<target>Mein Konto</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Potwierdzenie rejestracji.</source>
+				<target>Bestätigung der Anmeldung.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Adres został potwierdzony.</source>
+				<target>Die Adresse wurde bestätigt.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Adres e-mail</source>
+				<target>E-Mail-Adresse</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Wyślij</source>
+				<target>Abschicken</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Na twój adres "%%email%%" został wysłany link potwierdzający wypisanie się z newslettera.</source>
+				<target>An Ihre Adresse "%%email%%" wurde ein Link zur Bestätigung der Newsletterabmeldung geschickt.</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Potwierdzenie rezygnacji z listy subskrypcji</source>
+				<target>Bestätigung der Löschung aus der Abonnentenliste</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Została wysłana prośba o wypisanie Twojego adresu e-mail z listy subskrypcji. Jeżeli prośba nie została wysłana przez Ciebie lub chcesz pozostać na liście prosimy o zignorowanie tej wiadomości, w innym wypadku kliknij w poniższy link aby potwierdzić wypisanie się z listy subskrypcji:</source>
+				<target>Wir haben eine Bitte um die Löschung Ihrer E-Mail-Adresse aus der Abonnentenliste erhalten. Wenn die Bitte nicht von Ihnen geschickt wurde oder wenn Sie Ihre Adresse aus der Liste doch nicht löschen wollen, ignorieren Sie einfach diese E-Mail-Nachricht. Sonst klicken Sie den Link unten an, um die Newsletterabmeldung zu bestätigen:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

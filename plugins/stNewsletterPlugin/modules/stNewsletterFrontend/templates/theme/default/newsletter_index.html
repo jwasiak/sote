@@ -1,0 +1,77 @@
+<div id="st_application-newsletter-index" class="st_application" >
+
+    <div id="st_application-newsletter-index-header">
+            <h1 class="st_title">{__ text="Newsletter"}</h1>
+            <p>{__ text="Zapisz się na newsletter aby dostawać informacje ze sklepu."}</p>
+            <br class="st_clear_all" />
+    </div>
+    
+    <div class="st_content">
+        {$form_start}
+            <fieldset>
+                <div class="st_row">
+                    {$label_email}
+                    {$error_email}
+                    <div class="st_field">    
+                        {$input_email}
+                    </div>
+                </div>          
+                        
+                <div class="st_row">
+                {$error_privacy}              
+                <div class="st_field" style="margin-left: 106px;">        
+                    {$input_privacy}
+                        <span style="margin-left: 4px;">{$accept_privacy}</span>
+                    </div>
+                </div>  
+                
+                {if $captcha_on == 1}               
+                <div class="st_row">                
+                    {$error_captcha}
+                    <div style="margin-left:110px; margin-bottom: 2px;">{$view_captcha}</div>
+                    {$label_captcha}
+                    <div class="st_field">     
+                        {$input_captcha} 
+                    </div>
+                </div>               
+                {/if}
+            </fieldset>    
+              
+              <div style="width:500px; margin:0px auto;">
+                <br/>
+                {if $newsletterGroup}
+                <div style="border-top: 1px solid #ddd;"></div>
+                {foreach key=row item=news_group from=$results}
+                <br/>
+                    <div>
+                        <div style="width:50px; float:left; padding-top:15px; padding-left:25px;">
+                        {$news_group.input}
+                        </div>
+                            
+                        <div style="border-left: 1px dotted #ccc; margin-left: 65px; text-align: justify;">
+                            <b>{$news_group.name}</b>
+                            {$news_group.description}                        
+                        </div>
+                        
+                    </div>
+                    <br/>
+                    <div style="border-top: 1px solid #ddd;"></div>
+                {/foreach}
+                {/if}
+                <div style="float: right; padding: 10px 0px;">
+                    {__ text="W każdym momencie możesz zrezygnować."}
+                </div>
+                <br class="st_clear_all" />
+                    <div id="st_button-user-remind" class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                            {$submit_button}                
+                            </div>
+                        </div>
+                    </div>   
+              </div> 
+                
+        </form>
+    </div> 
+                    
+</div>

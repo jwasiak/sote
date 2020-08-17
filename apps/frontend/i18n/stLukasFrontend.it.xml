@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2012-07-02T03:01:14Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Pagamento</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Grazie per il pagamento realizzato.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Il pagamento non è stato realizzato.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Il pagamento è stato configurato erroneamente.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zakupy w systemie ratalnym LUKAS Raty dostępne są od 500zł do 10000zł wartości całego zamówienia.</source>
+				<target>Acquisti con sistema rateale LUKAS. Rate disponibili a partire da 500 PLN fino a 10000 PLN di valore dell’intero ordine.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Proszę zaznaczyć opcję: 'Oświadczam, że zapoznałem/am się z informacja o warunkach i sposobie udzielania kredytu ratalnego LUKAS Banku'</source>
+				<target>Indicare l'opzione: Dichiaro di conoscere le informazioni sulle condizioni e le modalità di credito rateale della LUKAS Bank.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Aby złożyć wniosek o kredyt ratalny w systemie LUKAS Bank przeczytaj poniższe oświadczenie:</source>
+				<target>Prima di depositare la richiesta di prestito rateale nel sistema LUKAS Bank leggere la seguente dichiarazione:</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Wybrana została przez Ciebie forma płatności LUKAS Raty.</source>
+				<target>Hai scelto la forma di pagamento LUKAS Rate.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Do wypełnienia wniosku o kredyt ratalny LUKAS Banku niezbędne będą informacje zawarte w dowodzie osobistym.</source>
+				<target>Per compilare la richiesta di prestito rateale di LUKAS Bank saranno necessarie le informazioni contenute nella carta d'identità.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Konieczne jest także podanie informacji o miejscu zatrudnienia, formie zatrudnienia (umowa o pracę, nr renty lub emerytury, inne), wysokości dochodu.</source>
+				<target>E necessario, inoltre, fornire le informazioni sul luogo di lavoro, forma di impiego (contratto di lavoro, pensione, altro), livello di reddito.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>LUKAS może wymagać od Ciebie dodatkowych informacji, poza tymi, które zawarte zostaną w wysłanym przez Ciebie wniosku.</source>
+				<target>LUKAS Bank può richiedere ulteriori informazioni, oltre quelle contenute nella tua richiesta.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Jeżeli wystąpi taka konieczność zostaniesz o tym poinformowany w trakcie kontaktu z przedstawicielem LUKAS Banku.</source>
+				<target>In questo caso ne sarai informato da un rappresentante di Lukas Bank.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Przed wypełnieniem wniosku o kredyt ratalny LUKAS Banku zapoznaj się z</source>
+				<target>Prima di compilare la domanda di prestito rateale di LUKAS Bank, vedere</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Warunkami udzielania kredytu ratalnego LUKAS Banku.</source>
+				<target>le condizioni per la concessione del credito rateale di LUKAS Bank.</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Oświadczam, że zapoznałem/am się z informacja o warunkach i sposobie udzielania kredytu ratalnego LUKAS Banku.</source>
+				<target>Dichiaro di conoscere le informazioni sulle condizioni e le modalità per la concessione del credito rateale di LUKAS Bank.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Po wybraniu przycisku</source>
+				<target>Dopo aver selezionato il pulsante</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>"Wypełnij wniosek"</source>
+				<target>"compilare la richiesta."</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>zostaniesz przeniesiony/na do serwisu LUKAS Bank SA.</source>
+				<target>Sarai reindirizzato/a al servizio LUKAS Bank SA.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Jest to równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez LUKAS Bank SA.</source>
+				<target>Ciò equivale all'espresso consenso per il trattamento dei dati personali da parte della Banca LUKAS Bank SA.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r Twoje dane będą przetwarzane przez LUKAS Bank w celu realizacji umowy kredytu oraz należytego jej wykonania.</source>
+				<target>In conformità con l'articolo 24 della Legge sulla protezione dei dati personali del 29 agosto 1997, i tuoi dati saranno trattati dalla LUKAS Bank per stilare e realizzare correttamente il contratto di credito.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Podanie danych ma charakter dobrowolny i przysługuje Ci prawo wglądu do tych danych oraz ich poprawiania.</source>
+				<target>L’immissione dei dati è volontaria. Puoi accedere in qualunque momento ai tuoi dati e modificarli.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Administratorem danych osobowych jest LUKAS Bank SA z siedzibą we Wrocławiu, Pl. Orląt Lwowski 1.</source>
+				<target>L’amministratore dei dati personali è LUKAS Bank SA con sede a Wroclaw, Pl. Orląt Lwowskich 1.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Informacje przesyłane do LUKAS Banku S.A. są chronione protokołem SSL.</source>
+				<target>Le informazioni inviate a LUKAS Bank SA sono protette mediante il protocollo SSL.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Upewnij się, że jesteś na bezpiecznej stronie LUKAS Banku, sprawdź czy adres strony zaczyna się od https:// i czy w dolnym pasku stanu przeglądarki jest ikona kłódki.</source>
+				<target>Verifica di essere sulla pagina sicura di Lukas Bank, controlla se l'indirizzo comincia con https:// e se nella barra inferiore di stato del browser si trova l’icona del lucchetto.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Dane, które wpiszesz na kolejnych ekranach, są szyfrowane i chronione.</source>
+				<target>I dati che inserirai nelle schermate successive sono crittografati e protetti.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Aby złożyć wniosek o kredyt zapoznaj się z</source>
+				<target>Per presentare una richiesta di credito, rivolgersi a</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Warunkami udzielania kredytu ratalnego Credit Agricole Bank Polska</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Oświadczam, że zapoznałem/am się z informacją o warunkach i sposobie udzielania kredytu ratalnego Credit Agricole Bank Polska</source>
+				<target>Dichiaro di aver preso conoscenza delle informazioni sulle condizioni e le modalità di concessione del prestito rateale di Credit Agricole Bank Polska</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Do wypełnienia wniosku potrzebne będą dane z Twojego dowodu osobistego, a także informacje dotyczące miejsca i formy zatrudnienia oraz wysokości uzyskiwanego dochodu.</source>
+				<target>Per completare la richiesta, saranno necessari i dati della Tua carta d'identità e le informazioni relative al luogo di lavoro e al tipo di occupazione, oltre all'importo del reddito percepito.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Jeżeli do decyzji kredytowej potrzebne będą dodatkowe informacje, poinformuje Cię o tym przedstawiciel Banku.</source>
+				<target>Se, ai fini della decisione sul credito, necessiteranno ulteriori informazioni, sarai informato dal rappresentante della Banca.</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>zostaniesz przeniesiony/na na bezpieczne strony Credit Agricole Bank Polska S.A., wszystkie informacje przesyłane do Banku są chronione protokołem SSL.</source>
+				<target>sarai trasferito/a su una pagina sicura di Credit Agricole Bank Polska S.A. Tutte le informazioni inviate alla Banca sono protette con protocollo SSL.</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Przejście na stronę Wniosku jest równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez Credit Agricole Bank Polska S.A.</source>
+				<target>Il trasferimento alla pagina della Richiesta equivale al consenso al trattamento dei Tuoi dati personali da parte di Credit Agricole Bank Polska S.A.</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r. Twoje dane będą przetwarzane przez Credit Agricole Bank Polska S.A. w celu realizacji umowy kredytu oraz należytego jej wykonania.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Administratorem danych osobowych jest Credit Agricole Bank Polska S.A. z siedzibą we Wrocławiu, Pl. Orląt Lwowskich 1.</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

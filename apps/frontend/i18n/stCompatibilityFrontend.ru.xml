@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Korzystanie ze strony oznacza zgodę na wykorzystywanie plików cookie, niektóre mogą być już zapisane w przeglądarce. Więcej informacji można znaleźć w</source>
+				<target>Использование этого сайта означает Ваше согласие на использование файлов куки, некоторые из них уже могут быть сохранены в вашем браузере. Более подробную информацию можно найти в разделе</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>polityce prywatności</source>
+				<target>политика конфиденциальности</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>brutto +</source>
+				<target>брутто +</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>koszty dostawy</source>
+				<target>стоимость доставки</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,6 @@
+{foreach from=$colors item=color}
+    <div class="product_options-color-filter-list">
+        <div class="product_options-color-filter-box-list" style="background-color: #{$color.color}; {if $color.stock==0}opacity: 0.3;{/if}"></div>
+    </div>
+{/foreach}
+<div class="clear"></div>

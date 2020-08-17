@@ -1,0 +1,29 @@
+{if $show_ask_price}
+    {if $ask_price_login}
+        <a id="active_price_question_overlay" href="#" class="link">{__ text="Zapytaj o cenę"}</a>
+    {else}
+        <a id="active_price_question_overlay_login" href="/user/loginUser" target="_parent" rel="nofollow" class="link">{__ text="Zaloguj się, aby zapytać o cenę"}.</a>
+    {/if}
+{/if}
+{if $show_ask_depository}
+    {if $ask_depository_login}
+        <a id="active_depository_question_overlay" href="#" class="link">{__ text="Zapytaj o dostępność"}</a>
+    {else}
+        <a id="active_depository_question_overlay_login" href="/user/loginUser" target="_parent" rel="nofollow" class="link">{__ text="Zaloguj się, aby zapytać o dostępność"}.</a>        
+    {/if}
+{/if}
+
+<div class="modal fade" id="price_question_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div id="price_question"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="depository_question_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div id="depository_question"></div>
+    </div>
+  </div>
+</div>

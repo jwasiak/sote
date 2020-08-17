@@ -1,0 +1,74 @@
+generator:    
+    class:              stAdminGenerator
+    param:
+        model_class:                Task
+        log_model_class:            TaskLog
+
+        theme:                      simple
+        
+        label:                      Harmonogram zadań
+        route:                      @stTaskScheluderBackend
+        icon:                       /images/backend/main/icons/stTaskScheluderPlugin.png
+
+        custom_actions:
+            list:                   [log]
+
+        list:
+            menu:
+                display:            [list, config]
+                fields:
+                    list:           {name: Lista zadań, action: @stTaskScheluderBackend}
+                    config:         {name: Konfiguracja, action: @stTaskScheluderBackend?action=config}
+            display:                [name, status_label, last_executed_at, _next_execute_date, _is_system_default, is_active]
+            fields:
+                name:               {name: Zadanie}
+                status_label:       {name: Status}
+                last_executed_at:   {name: Ostatnio wykonane, width: 1%, sortable: false}
+                next_execute_date:  {name: Zaplanowane wykonanie, width: 1%}
+                is_system_default:  {name: Systemowe, width: 1%}
+                is_active:          {name: Aktywne, width: 1%, sortable: false}
+            object_actions:
+                _edit:              {name: Edycja}
+                log:                {name: Logi, action: "@stTaskScheluderBackend?action=logList&filters[task_id]=%%id%%", icon: /plugins/stTaskScheluderPlugin/images/backend/log.png}
+            select_actions:         []       
+               
+            actions:
+                execute_tasks:      {name: Uruchom ręcznie, type: save, action: executeTasks, i18n: stTaskScheluderBackend}
+                
+        edit:
+            menu:
+                use:                list.menu
+            title:                  Edycja "%%name%%"
+            display:                [is_active, _time_interval]
+            fields:
+                is_active:          {name: Aktywne}
+                time_interval:      {name: Wykonuj zadanie}
+            actions:
+                _list:              {name: Lista zadań, i18n: stTaskScheluderBackend}
+                _save:              {name: Zapisz}
+
+        config:
+            menu:
+                use:                list.menu
+            title:                  Konfiguracja
+            display:                [_cron_status, _script_path]
+            fields:
+                script_path:        {name: Konfiguracja dla zadania cron}
+                cron_status:        {name: Status konfiguracji}
+            actions:
+                _list:              {name: Lista zadań, i18n: stTaskScheluderBackend}
+
+        log_list:
+            title:                  Logi 
+            peer_method:            doSelectJoinTask
+            display:                [created_at, _task_id, _type, _message]
+            fields:
+                created_at:         {name: Utworzony, width: 1%, sortable: false}
+                task_id:            {name: Zadanie, width: 30%, sortable: false}
+                type:               {name: Rodzaj, width: 1%, sortable: false}      
+                message:            {name: Opis, sortable: false}
+            filters:
+                type:               {partial: type_filter}
+            actions:                []
+            object_actions:
+                _delete:            -

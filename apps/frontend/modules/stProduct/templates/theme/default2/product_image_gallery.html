@@ -1,0 +1,10 @@
+{if $photos}
+<ul id="gallery">
+    {foreach key=row item=photo from=$photos}
+    <li class="roundies">
+        <div class="photo">{$photo.photo}</div>
+    </li>
+    {/foreach}
+</ul>
+<div class="clear"></div>
+{/if}

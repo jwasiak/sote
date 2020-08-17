@@ -1,0 +1,42 @@
+homepage:
+  url:   /
+  param: { module: stInstallerWeb, action: index }
+
+installerweb:
+  url: /installerweb/:action/*
+  param: { module: stInstallerWeb, action: news }
+
+devel:
+  url: /devel/:action/*
+  param: { module: stDevel, action: devel }
+
+lock:
+  url: /lock/:action/*
+  param: { module: stLock, action: index }
+
+webstore:
+  url: /webstore/:action/*
+  param: { module: stWebStore, action: index }
+
+communication:
+  url: /communication/soap
+  param: { module: stCommunication, action: soap }
+
+communication_check:
+  url: /communication/check
+  param: { module: stCommunication, action: check }
+
+communication_check_version:
+  url: /communication/check_version
+  param: { module: stCommunication, action: checkVersion }
+
+default_symfony:
+  url:   /symfony/:action/*
+  param: { module: default }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

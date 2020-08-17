@@ -1,0 +1,25 @@
+<div class="category-list clearfix" data-equalizer>
+    {foreach item=category from=$categories}    
+        <div class="category{if $category.has_children} expandable{/if}">
+            <div class="thumbnail">
+                <div data-equalizer-watch="image">
+                    <div class="image">
+                        <a href="{$category.url}">
+                            <img class="img-responsive" alt="{$category.name}" src="{st_asset_image_path image=$category.image type='small' for='category'}" />
+                        </a>
+                    </div>
+                </div>
+                <div class="caption" data-equalizer-watch="caption">
+                    <h2><a href="{$category.url}" >{$category.name}</a></h2>
+                    {if $category.has_children}
+                        <ul class="list-unstyled">
+                            {foreach item=child from=$tree->getChildren($category, $producer)}
+                                <li><a href="{$child.url}">{$child.name}</a></li>
+                            {/foreach}
+                        </ul>
+                    {/if}
+                </div>
+            </div>
+        </div>
+    {/foreach}
+</div>

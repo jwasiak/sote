@@ -1,0 +1,17 @@
+all:
+   .layout: 
+      name:     layout1
+      container_left: 
+        display:  [stProducer.list, stCategoryTree.show, stNewsletterFrontend.newsletter, stProduct.new, stProduct.productGroup-1]
+        params:
+            stProduct.productGroup-1: {product_group: RECOMMEND}
+            
+            
+      container_right: 
+        display:  [stNavigationFrontend.productsBox, stProduct.productGroup-1, stBoxFrontend.boxes, stProduct.productGroup-2, stTrustedShopsFrontend.showSealbox, stTrustedShopsFrontend.showRatingWidget]
+        params:
+            stProduct.productGroup-1: {product_group: PROMOTION}
+            stProduct.productGroup-2: {product_group: SALES}
+
+
+            

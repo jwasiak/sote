@@ -1,0 +1,116 @@
+<form action="{url_for internal=@stBasket}" method="post">
+    <table class="table">     
+        <thead>
+            <tr>
+                {if $show_photo_in_basket}
+                    <th class="product-image">&nbsp;</th>
+                {/if}
+                {if $show_code_in_basket}
+                    <th class="product-code ">{__ text="kod"}</th>
+                {/if}
+                <th class="product-name">{__ text="nazwa"}</th>
+                {if $show_discount_in_basket}
+                    <th class="product-discount">{__ text="rabat"}</th>
+                {/if}
+                {if $show_netto_in_basket}
+                    <th class="product-net text-right">{__ text="netto"}</th>
+                {/if}
+                {if $show_tax_in_basket}
+                    <th class="product-tax text-right">{__ text="vat"}</th>
+                {/if}
+                <th class="product-gross text-right">{__ text="brutto"}</th>
+                <th class="product-quantity">{__ text="ilość"}</th>
+                {if $show_uom_in_basket}
+                    <th class="product-uom text-right">{__ text="j.m."}</th>
+                {/if}
+                <th class="product-total text-right">{__ text="suma"}</th>
+                <th class="product-action-new">
+                    <a href="{$clear_url}" class="pull-right hidden-xs">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            {foreach key=row item=product from=$results}
+                {if $product.if_form_error}
+                    <tr>
+                        <td colspan="11" style="padding: 0; margin: 0"><div class="bg-danger">{$product.error_show}</div></td>
+                    </tr>
+                {/if}
+                <tr>
+                    {if $show_photo_in_basket}
+                        <td class="product-image" data-th='{__ text="zdjęcie"}'>
+                            {if $product.url}
+                                <a href="{$product.url}">
+                                    <img class="img-responsive" src="{$product.photo}" alt="{$product.name}" />
+                                </a>
+                            {else}
+                                <img class="img-responsive" src="{$product.photo}" alt="{$product.name}" />
+                            {/if}
+                        </td>
+                    {/if}
+                    {if $show_code_in_basket}
+                        <td class="mobile product-code" data-th='{__ text="kod"}'> {$product.code}</td>
+                    {/if}
+                    <td class="product-name" data-th='{__ text="nazwa"}'>
+                        {if $product.url}
+                            <a href="{$product.url}">
+                                {$product.name}
+                            </a>
+                        {else}
+                            {$product.name}
+                        {/if}
+                        {if $product.instance->hasPriceModifiers()} 
+                            <div class="options">
+                                {foreach item=modifier from=$product.instance->getPriceModifiers()}
+                                    {if $modifier.custom.field}
+                                        <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip" data-placement="top">{$modifier.custom.field}: {$modifier.label}</span>
+                                    {else}
+                                        <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip" data-placement="top">{$modifier.label}</span>
+                                    {/if}
+                                {/foreach}
+                            </div>
+                        {/if}
+                    </td>
+                    {if $show_discount_in_basket}
+                        <td class="product-discount text-nowrap price" data-th='{__ text="rabat"}'> {$product.discount}%</td>
+                    {/if}
+                    {if $show_netto_in_basket}
+                        <td class="product-net text-nowrap price" data-th='{__ text="netto"}'> {$product.price_netto}</td>
+                    {/if}
+                    {if $show_tax_in_basket}
+                        <td class="mobile product-tax text-nowrap" data-th='{__ text="vat"}'> {$product.tax}</td>
+                    {/if}
+                    <td class="product-gross text-nowrap price" data-th='{__ text="brutto"}'> {$product.price_brutto}</td>
+                    <td class="product-quantity" data-th='{__ text="ilość"}'> 
+                        {$product.num}
+                        <button type="submit" class="btn btn-default btn-xs">
+                            <span class="glyphicon glyphicon-refresh"></span>
+                        </button>
+                    </td>
+                    {if $show_uom_in_basket}
+                        <td class="product-uom" data-th='{__ text="j.m."}'> {$product.uom}</td>
+                    {/if}
+                    <td class="product-total text-nowrap hidden-xs" data-th='{__ text="suma"}'> {$product.total_amount}</td>
+                    <td class="product-action-new">
+                        <a class="primary btn-delete" href="{$product.delete_url}">
+                            <span class="visible-xs">{__ text="usuń"}</span>
+                            <span class="hidden-xs"><img src="{image_path image='delete.png'}"  height="14" width="14" alt="delete" /></span>
+                        </a>
+                    </td>                    
+                </tr>
+            {/foreach}
+            {if $vat_eu}
+                <tr class="bottom-tab">
+                    <td class="clearfix" colspan="11">                    
+                        <div id="st_basket_vat_eu" class="pull-right">
+                            {$vat_eu}
+                        </div>                    
+                    </td>
+                </tr>
+            {/if}
+        </tbody>
+    </table>
+</form>

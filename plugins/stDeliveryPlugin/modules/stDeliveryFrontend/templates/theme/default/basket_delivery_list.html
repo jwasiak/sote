@@ -1,0 +1,60 @@
+<div class="st_component-st_delivery-list">
+
+    <h5 class="st_title">{__ text="Dostawa"}</h5>
+    <div class="st_delivery-content">
+        {$date_time}
+        
+        {if $delivery_countries}
+        <div id="st_delivery-country">
+            <label for="delivery_country">{__ text="Kraj dostawy"}</label>
+            <select style="width: 100%;" name="delivery[country]" id="delivery_country">
+                {foreach item=delivery_country from=$delivery_countries}
+                {assign var=country_name value=$delivery_country->getName()}
+                {assign var=country_default value=$delivery_country->getIsDefault()}
+
+                {if $country_default}
+                <option value="{$delivery_country->getId()}" selected="selected">{$country_name}</option>
+                {else}
+                <option value="{$delivery_country->getId()}">{$country_name}</option>
+                {/if}
+                {/foreach}
+            </select>
+        </div>
+        {/if}
+        <ul>
+            {foreach item=delivery from=$deliveries}
+            {assign var=delivery_cost value=$delivery->getTotalCost(true, true)}
+            {assign var=delivery_name value=$delivery->getName()}
+            {assign var=delivery_description value=$delivery->getDescription()}
+            {assign var=delivery_default value=$delivery->getIsDefault()}
+
+            <li>
+                {if $delivery_default}
+                <input class="st_delivery-default" type="radio" name="delivery[default_delivery]" id="delivery_default_delivery-{$delivery->getId()}" value="{$delivery->getId()}" checked="checked" />
+                {else}
+                <input class="st_delivery-default" type="radio" name="delivery[default_delivery]" id="delivery_default_delivery-{$delivery->getId()}" value="{$delivery->getId()}" />
+                {/if}
+                <div class="st_delivery-item-content">
+                    {if $delivery_cost != 0}
+                    <span class="st_delivery-cost">{$delivery_cost|st_currency_format:false}</span>
+                    {/if}
+                    <label class="st_delivery-label" for="delivery_default_delivery-{$delivery->getId()}">{$delivery_name}</label>
+                    {if $delivery_description}
+                    <p class="st_delivery-description">{$delivery_description}</p>
+                    {/if}
+                    <br class="st_clear_all" />
+                </div>
+                <br class="st_clear_all" />
+            </li>
+            {foreachelse}
+            <div style="border: 1px solid #bbb; background-color: #eee; padding: 5px;">
+            {if $max_order_amount_exceeded || $max_order_quantity_exceeded || $max_order_weight_exceeded}
+                {__ text="Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy"}
+            {else}
+                {__ text="Brak zdefiniowanych dostaw lub stref w sklepie"}
+            {/if}
+            </div>
+            {/foreach}
+        </ul>
+    </div>
+</div>

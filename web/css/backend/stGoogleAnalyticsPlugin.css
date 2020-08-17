@@ -1,0 +1,34 @@
+#st_google
+{  
+    margin-left: 10px; 
+}
+
+#st_google .st_label
+{
+    float: left;    
+    width: 150px;
+}
+
+#st_google .st_label2
+{
+    text-align: right;
+    float: left;    
+    width: 300px;
+    margin-right: 15px;
+}
+
+#st_google .st_field #st_form-google-field-input
+{
+    margin-bottom: 10px;
+}
+
+#st_google .st_field #st_form-google-field-input input
+{
+    margin-top: 3px;
+    float: left;
+}
+
+.google_show_error
+{
+    padding-left: 320px; color: #FF3333;
+}

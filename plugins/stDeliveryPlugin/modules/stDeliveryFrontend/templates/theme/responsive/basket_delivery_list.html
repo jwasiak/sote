@@ -1,0 +1,72 @@
+<div class="panel panel-default">
+   <div class="panel-heading"><h3 class="panel-title">{__ text="Dostawa"}</h3></div>
+   <div class="panel-body" data-equalizer-watch>
+      {if $delivery_countries}
+         <form class="delivery-ajax-form" action="{urlfor internal='stDeliveryFrontend/ajaxDeliveryCountryUpdate'}">
+            <fieldset>
+               <div class="form-group">
+                  <label for="delivery-country">{__ text="Kraj dostawy"}</label>
+                  <select name="delivery[country]" id="delivery-country" class="form-control">
+                     {foreach item=delivery_country from=$delivery_countries}
+                        {assign var=country_name value=$delivery_country->getName()}
+                        {assign var=country_default value=$delivery_country->getIsDefault()}
+
+                        {if $country_default}
+                           <option value="{$delivery_country->getId()}" selected="selected">{$country_name}</option>
+                        {else}
+                           <option value="{$delivery_country->getId()}">{$country_name}</option>
+                        {/if}
+                     {/foreach}
+                  </select>
+               </div>
+            </fieldset> 
+         </form>          
+      {/if}  
+      <form class="delivery-ajax-form" action="{urlfor internal='stDeliveryFrontend/ajaxDeliveryUpdate'}">
+         <fieldset>
+            {foreach item=delivery from=$deliveries}
+               {php}$this->assign('delivery_socket', stSocketView::openComponents('stDeliveryElementOnBasketList', array('delivery' => $this->get_template_vars('delivery'))));{/php}
+               {assign var=delivery_cost value=$delivery->getTotalCost(true, true)}
+               {assign var=delivery_name value=$delivery->getName()}
+               {assign var=delivery_description value=$delivery->getDescription()}
+               {assign var=delivery_default value=$delivery->getIsDefault()}  
+               <div class="radio">
+                  <label>
+                     <input id="delivery-default-{$delivery->getId()}" class="delivery-radio" type="radio" name="delivery[default_delivery]" value="{$delivery->getId()}" {if $delivery_default}checked{/if}>
+                     {if $delivery_description} 
+                        <span data-toggle="tooltip" data-placement="top" title="{$delivery_description|escape}">
+                           {$delivery_name}
+                           <span class="glyphicon glyphicon-info-sign"></span>
+                        </span>
+                     {else}
+                        {$delivery_name}
+                     {/if}
+                     {if $delivery_cost > 0}
+                        <span class="cost">{$delivery_cost|st_currency_format:false}</span>
+                     {/if}
+                     {$delivery_socket}
+                  </label>
+               </div>      
+            {foreachelse}  
+               {if !$has_valid_allow_criteria}
+                  <div class="bg-danger">{__ text="Produkty posiadają różne metody dostawy i nie można ich zamówić w ramach jednego zamówienia"}</div>
+               {elseif $max_order_amount_exceeded || $max_order_quantity_exceeded || $max_order_weight_exceeded}
+                  <div class="bg-danger">{__ text="Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy"}</div>
+               {else}
+                  <div class="bg-danger">{__ text="Brak zdefiniowanych dostaw lub stref w sklepie"}</div>
+               {/if}       
+            {/foreach}
+         </fieldset>
+      </form>    
+   </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+   $('#shopping-cart-delivery [data-toggle=tooltip]').tooltip({ html: true, trigger: 'click hover focus', delay:  { show: 100, hide: 0 } });
+});
+//]]> 
+</script>
+{/literal}

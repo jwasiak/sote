@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2011-11-04T04:25:59Z">
+		<body>
+			<trans-unit id="1">
+				<source>Schowek elementów</source>
+				<target>Хранилище элементов</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Schowek</source>
+				<target>Хранилище</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Panel administracyjny</source>
+				<target>Панель управления</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Przywróć domyślny wygląd tematu</source>
+				<target>Вернуть вид темы по умолчанию</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Użycie tej opcji spowoduje przywrócenie pierwotnego wyglądu strony. Czy jesteś pewien, że chcesz przywrócić oryginalny wygląd?</source>
+				<target>Использование этой опции приведет к возврату к первоначальному виду страницы. Вы уверены, что хотите вернуть исходный вид?</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Przywróć pierwotny obraz tego elementu.</source>
+				<target>Вернуть исходное изображение этого элемента.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Edytuj właściwości obrazu.</source>
+				<target>Редактировать свойства изображения.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Pobierz ten obraz na mój komputer.</source>
+				<target>Скачать это изображение на мой компьютер.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Wybierz plik graficzny na lokalnym komputerze, który ma zostać wstawiony w ten element strony.</source>
+				<target>Выберите графическое изображение на локальный компьютер, который должен быть вставлен в этот элемент страницы.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Załaduj</source>
+				<target>Загрузить</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dopasuj wielkość obrazu do elementu strony.</source>
+				<target>Скорректировать размер изображения для размера элемента страницы.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dopasuj wielkość elementu strony do obrazu.</source>
+				<target>Скорректировать размер элемента страницы для изображения.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Selektor</source>
+				<target>Селектор</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>definicja stylu</source>
+				<target>определение стиля</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapisz zmiany</source>
+				<target>Сохранить изменения</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Szerokość:</source>
+				<target>Ширина:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wysokość:</source>
+				<target>Высота:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Nazwa pliku nie może zawierać polskich znaków dialektyczny oraz spacji.</source>
+				<target>Название файла не должно содержать польских знаков и пробелов.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Edytujesz temat</source>
+				<target>Редактировать тему</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kliknij dwukrotnie aby podmienić obraz.</source>
+				<target>Щелкнуть дважды, чтобы сменить изображение.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Konfiguracja grafiki</source>
+				<target>Конфигурация графики</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zastosuj konfigurację</source>
+				<target>Использовать конфигурацию</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ustaw jako domyślny</source>
+				<target>Установить по умолчанию</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Włącz autoukrywanie</source>
+				<target>Включить автосокрытие</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Oglądasz temat</source>
+				<target>Просмотр темы</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Twoje zmiany zostały zastosowane do aktualnego tematu</source>
+				<target>Ваши изменения применены к актуальной теме</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

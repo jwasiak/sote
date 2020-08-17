@@ -1,0 +1,197 @@
+generator:
+  class:              stAdminGenerator
+  param:
+    model_class:      Blog
+    category_model_class:      BlogCategory
+    theme:            simple
+    applications:     []
+    custom_actions:
+            list:                   [category]
+            edit:                   [category]
+    head:
+        package:            stBlogPlugin
+        applications:       []
+    list:
+      filters:
+        short_description_trimed:     {filter_field: blog_i18n.short_description}
+      peer_method:          doSelectWithI18n
+      peer_count_method:    doCountWithI18n
+      title:                Lista wpisów
+      menu:
+        display:    [_list, category_list]
+        fields:
+            _list:              {name: Posty, action: stBlogBackend/list}
+            category_list:      {name: Kategorie, action: stBlogBackend/categoryList}            
+      description:          Zarządzaj wpisami na stronie sklepu
+      display:              [=name, ~blog_category_list, created_at, active]
+      fields:
+        name:               {name: Tytuł, params: truncate_text=50}
+        created_at:         {name: Data dodania, type: plain, params: date_format='yyyy-MM-dd'}
+        short_description:  {name: Treść, params: truncate_text=100 link_to="text/edit?id=%%id%%" }
+        short_description_trimed: {name: Treść, params: size=30;}
+        blog_category_list: {name: Kategorie, params: truncate_text=50}
+        active:             {name: Aktywny}
+      actions:
+        _create:            {name: Dodaj}
+      object_actions:
+        _edit:              -
+        _delete:            -
+      sort:                        [created_at, desc]        
+    edit:
+      title:                Edytuj wpis
+      description:          Zarządzaj wpisami na stronie sklepu
+      display:              [name, created_at, active, ~blog_category, long_description, short_description, alternative_url, _image_main_page]
+      fields:
+        name:               {name: Tytuł, params: disabled=false size=100}
+        created_at:         {name: Data dodania, hide_on_create: true}
+        blog_category:      {name: Kategorie}
+        active:             {name: Aktywny}
+        short_description:  {name: Skrócona wersja postu, type: textarea_tag, params: rich=true tinymce_options="height:100,width:'100%', theme:'simple'" disabled=false, help: Ilość wyświetlanych znaków jest zależna od konfiguracji}
+        alternative_url:    {name: Link alternatywny, help: Odnośnik zamiast wejścia bezpośrednio w post}
+        long_description:   {name: Treść postu, type: textarea_tag, params: rich=true tinymce_options="height:200,width:'100%'" disabled=false}
+        image_main_page:    {name: Zdjęcia postu, type: admin_input_file_tag, upload_dir: blog/main, params: include_link=blog/main include_remove=true, help: Zalecany rozmiar zdjęcia - 640px x 480px}        
+                
+      actions:
+        _delete:            {name: Usuń}
+        _list:              {name: Lista}
+        _save:              {name: Zapisz}
+        _save_and_add:      {name: Zapisz i dodaj}
+          
+    config:
+      menu:
+        display:            [config, positioning]
+        fields:
+            config:         {name: Konfiguracja, action: stBlogBackend/config}
+            positioning:    {name: Pozycjonowanie, action: stBlogBackend/positioning}    
+      title:                Konfiguracja
+      description:          Zarządzaj wpisami na stronie sklepu
+      display:              [active]
+      display:                    
+        "NONE":             [active]
+        "Strona główna":    [active_home, date, show_date, display_type, post_grid, number, show_title, show_image, show_image_position, show_more, char_numbers, ~blog_category_home]
+        "Lista postów":     [list_show_date, list_date, list_display_type, list_post_grid, list_number, list_show_title, list_show_image, list_show_image_position, list_show_more, list_char_numbers]
+        "Post":             [post_show_date, post_show_gallery,  post_show_gallery_thumb, post_show_sidebar, post_number]        
+      fields:
+        active:             {name: Aktywny, checked: false, type: checkbox}
+        active_home:        {name: Pokaż na stronie głównej, checked: false, type: checkbox}
+        show_date:          {name: Pokaż datę, checked: false, type: checkbox}
+        list_show_date:     {name: Pokaż datę, checked: false, type: checkbox}
+        post_show_date:     {name: Pokaż datę, checked: false, type: checkbox}
+        date:
+          name: Wyświetlana data
+          type: select
+          display:    [none, updated, created]
+          options:
+            none:     {name: Brak, value: 0}
+            updated:  {name: Data ostatniej zmiany, value: 1}
+            created:  {name: Data utworzenia, value: 2}
+            selected: created
+        post_grid:
+          name: Ilość kolumn
+          type: select
+          display:    [one, two, three, four]
+          options:
+            one:     {name: 1, value: 12}
+            two:     {name: 2, value: 6}
+            three:   {name: 3, value: 4}
+            four:    {name: 4, value: 3}
+            selected: two
+        show_image_position:
+          name: Pozycja zdjęcia
+          type: select
+          display:    [side, top, float]
+          options:
+            side:     {name: Obok wpisu, value: side}
+            top:     {name: Nad wpisem, value: top}
+            float:   {name: Opływający, value: float}            
+            selected: side            
+        number:             {name: Ilość wpisów, params: size=3}
+        show_image:         {name: Pokaż zdjęcie, checked: false, type: checkbox}
+        show_title:         {name: Pokaż tytuł, checked: false, type: checkbox}
+        show_more:          {name: Pokaż link "więcej", checked: false, type: checkbox}
+        char_numbers:       {name: Ilość znaków w opisie}
+        list_date:
+          name: Wyświetlana data
+          type: select
+          display:    [none, updated, created]
+          options:
+            none:     {name: Brak, value: 0}
+            updated:  {name: Data ostatniej zmiany, value: 1}
+            created:  {name: Data utworzenia, value: 2}
+            selected: created
+        list_post_grid:
+          name: Ilość kolumn
+          type: select
+          display:    [one, two, three, four]
+          options:
+            one:     {name: 1, value: 12}
+            two:     {name: 2, value: 6}
+            three:   {name: 3, value: 4}
+            four:    {name: 4, value: 3}
+            selected: two
+        display_type:
+          name: Wyrównanie
+          type: select
+          display:    [masonary, flat]
+          options:
+            masonary:     {name: Sąsiadujące, value: masonary}
+            flat:         {name: Proste, value: flat}            
+            selected: masonray    
+        list_show_image_position:
+          name: Pozycja zdjęcia
+          type: select
+          display:    [side, top, float]
+          options:
+            side:     {name: Obok wpisu, value: side}
+            top:     {name: Nad wpisem, value: top}          
+            float:   {name: Opływający, value: float}  
+            selected: side            
+        list_display_type:
+          name: Wyrównanie
+          type: select
+          display:    [masonary, flat]
+          options:
+            masonary:     {name: Sąsiadujące, value: masonary}
+            flat:         {name: Proste, value: flat}   
+            selected: masonray 
+        list_number:             {name: Ilość wpisów, params: size=3}
+        list_show_image:         {name: Pokaż zdjęcie, checked: false, type: checkbox}
+        list_show_title:         {name: Pokaż tytuł, checked: false, type: checkbox}
+        list_show_more:          {name: Pokaż link "więcej", checked: false, type: checkbox}
+        list_char_numbers:       {name: Ilość znaków w opisie}
+        post_show_sidebar:       {name: Pokaż prawą kolumnę, checked: false, type: checkbox}
+        post_number:             {name: Ilość polecanych wpisów, params: size=3}
+        list_show_image:         {name: Pokaż zdjęcie, checked: false, type: checkbox}
+        post_show_gallery:       {name: Pokaż zdjęcia, checked: false, type: checkbox}
+        post_show_gallery_thumb: {name: Pokaż małe obrazki, checked: false, type: checkbox}
+        
+      actions:
+        _save:      {name: Zapisz}
+
+    category_list:      
+      peer_method:          doSelectWithI18n      
+      title:                Lista kategorii bloga
+      description:          Zarządzaj kategoriami bloga
+      display:              [opt_name, active]
+      fields:
+        opt_name:           {name: Nazwa kategorii}        
+        active:             {name: Aktywna}
+      actions:
+        _create:            {name: Dodaj}
+      object_actions:
+        _edit:              -
+        _delete:            -    
+
+    category_edit:          
+      title:                Kategoria bloga
+      description:          Zarządzaj kategoriami bloga
+      display:              [active, name, banner_group]
+      fields:
+        name:               {name: Nazwa kategorii, params: disabled=false}
+        banner_group:       {name: Nazwa grupy banerów, params: disabled=false, help: Nazwa grupy banerów utworzone w module banerów}        
+        active:             {name: Aktywna}
+      actions:
+        _delete:            {name: Usuń}
+        _list:              {name: Lista}
+        _save:              {name: Zapisz}
+        _save_and_add:      {name: Zapisz i dodaj}

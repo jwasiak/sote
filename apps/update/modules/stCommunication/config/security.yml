@@ -1,0 +1,6 @@
+soap:
+  is_secure: off
+check:
+  is_secure: off
+all:
+  is_secure: on

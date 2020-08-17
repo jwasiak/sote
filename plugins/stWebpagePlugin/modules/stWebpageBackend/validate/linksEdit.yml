@@ -1,0 +1,7 @@
+fields:
+    webpage{name}:
+        required:
+            msg:        Podaj tytuł linku
+    webpage{other_link}:
+        required:
+            msg:        Podaj adres url

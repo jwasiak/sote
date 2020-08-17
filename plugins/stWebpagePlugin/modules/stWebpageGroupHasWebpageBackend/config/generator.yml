@@ -1,0 +1,26 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            WebpageGroupHasWebpage
+        theme:                  simple
+    
+        head:
+            package:            stWebpagePlugin
+            applications:       [stTextPlugin]
+    
+        list:
+            peer_method:        doSelectSorted
+            description:        Zmień kolejność wyświetlania strony www w danej grupie
+            title:              Lista stron www w grupie
+            display:            [_webpage, webpage_group]
+            actions:
+                none
+            object_actions:
+                moveUp:         {icon: backend/category_tree/arrows/arrow_up.png, action: "moveUp"}   
+                moveDown:       {icon: backend/category_tree/arrows/arrow_down.png, action: "moveDown"}
+                _delete:        -
+        fields:
+            webpage_group_id:   {name: Nazwa grupy linków}
+            webpage_group:      {name: Nazwa grupy linków}
+            webpage_id:         {name: Nazwa strony www}
+            webpage:            {name: Nazwa strony www}

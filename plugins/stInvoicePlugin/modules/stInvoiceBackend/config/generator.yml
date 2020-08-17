@@ -1,0 +1,114 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                    Invoice
+        theme:                          simple
+        applications:                   [stOrder, stPayment, stUser]
+        custom_actions:
+            custom:     [config, view, view_edit]
+            list:       [confirm, request, proforma]
+            edit:       [confirm, request, proforma]
+        head:
+            package:                stInvoicePlugin
+        list:
+            title:  Faktury.
+            display:                    [id, date_create_copy ]
+            fields:
+                number:                 {name: Numer, params: size=10}
+                date_create_copy:       {name: Utworzona}
+            actions:
+                _create:      -
+            object_actions:
+                _edit:        -
+                _delete:      -     
+            sort:                       [date_create_copy, desc]
+            menu:
+                display:    [confirm, request, proforma]
+                fields:
+                    confirm:          {name: Faktury wystawione, action: stInvoiceBackend/confirmList}
+                    request:          {name: Faktury do wystawienia, action: stInvoiceBackend/requestList}
+                    proforma:         {name: Faktury proforma, action: stInvoiceBackend/proformaList}
+                    config:           {name: Konfiguracja, action: stInvoiceBackend/configCustom}
+        confirm_list:
+            title:  Faktury wystawione.
+            display:                    [number, date_create_copy, _order, ~company, ~vat_number, ~full_name]
+            fields:
+                number:                 {name: Numer, params: size=10}
+                date_create_copy:       {name: Utworzona}
+                order:                  {name: Zamówienie}
+                company:                {name: Firma}
+                vat_number:             {name: NIP}
+                full_name:              {name: Imię i nazwisko}
+            actions:
+                _create:      -
+            object_actions:
+                _edit:        {action: "viewCustom?id=%%id%%&type=confirm"}
+            peer_method: doSelectJoinAll
+            peer_count_method: doCountJoinAll    
+            filters:
+                order:                  {filter_field: invoice_user_customer.order_id}
+                company:                {filter_field: invoice_user_customer.company}
+                vat_number:             {filter_field: invoice_user_customer.vat_number}
+                full_name:              {filter_field: invoice_user_customer.full_name}
+            sort:                       [date_create_copy, desc]
+            menu:       {use: list.menu}
+        request_list:
+            title:  Faktury do wystawienia.
+            display:                    [~proforma_number, date_create_copy, _order, ~company, ~vat_number, ~full_name]
+            fields:
+                proforma_number:        {name: Nr proformy, params: size=10}
+                date_create_copy:       {name: Utworzona}
+                order:                  {name: Zamówienie}
+                company:                {name: Firma}
+                vat_number:             {name: NIP}
+                full_name:              {name: Imię i nazwisko}
+            actions:
+                _create:      -
+            object_actions:
+                _edit:        {action: "viewCustom?id=%%id%%&type=request"}
+                _delete:      -
+            peer_method: doSelectJoinAll
+            peer_count_method: doCountJoinAll   
+            select_actions:
+                display:            [confirmall]
+                actions:
+                    confirmall:     {name: Wystaw}
+                    _delete:        {name: Usuń}
+            filters:
+                order:                  {filter_field: invoice_user_customer.order_id}
+                company:                {filter_field: invoice_user_customer.company}
+                vat_number:             {filter_field: invoice_user_customer.vat_number}
+                full_name:              {filter_field: invoice_user_customer.full_name}
+            sort:                       [date_create_copy, desc]
+            menu:       {use: list.menu}
+        proforma_list:
+            title:  Faktury proforma.
+            display:                    [number, date_create_copy, _order, ~company, ~vat_number, ~full_name]
+            fields:
+                number:                 {name: Numer, params: size=10}
+                date_create_copy:       {name: Utworzona}
+                order:                  {name: Zamówienie}
+                company:                {name: Firma}
+                vat_number:             {name: NIP}
+                full_name:              {name: Imię i nazwisko}
+            actions:
+                _create:      -
+            object_actions:
+                _edit:  {action: "viewCustom?id=%%id%%&type=proforma"}
+            peer_method: doSelectJoinAll 
+            peer_count_method: doCountJoinAll   
+            filters:
+                order:                  {filter_field: invoice_user_customer.order_id}
+                company:                {filter_field: invoice_user_customer.company}
+                vat_number:             {filter_field: invoice_user_customer.vat_number}
+                full_name:              {filter_field: invoice_user_customer.full_name}
+            sort:                       [date_create_copy, desc]
+            menu:       {use: list.menu}
+        config:
+            title:  Konfiguracja
+        config_custom:
+            title:  Konfiguracja
+        view_custom:
+            title:  Konfiguracja
+        view_edit_custom:
+            title:  Konfiguracja

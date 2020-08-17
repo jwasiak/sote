@@ -1,0 +1,1248 @@
+Product:
+  Product_1:
+    code: A01
+    producer_id: Producer_2
+    price: 97.56
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 120
+    opt_asset_folder: 140
+    culture: pl_PL
+    uom: szt.
+    name: T-shirt
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img width="180" height="211" alt="Sample image" src="/uploads/images/medal.png" style="float: left; padding-right: 15px; padding-bottom: 10px;">Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>url: puchar
+    stock: 30
+    url: t-shirt
+  Product_2:
+    code: A02
+    producer_id: Producer_2
+    price: 169.92
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 209.00
+    opt_asset_folder: 141
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Sweter Wint
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sweter-wint
+    stock: 23
+    main_page_order: 3
+  Product_3:
+    code: A03
+    producer_id: Producer_2
+    price: 52.85
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 65
+    opt_asset_folder: 142
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Skarpetki SmileLine
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: skarperki-smileline
+    stock: 4
+    main_page_order: 1
+  Product_4:
+    code: A04
+    producer_id: Producer_1
+    price: 642.28
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 790
+    opt_asset_folder: 143
+    opt_product_group: 'a:1:{i:0;s:1:"6";}'
+    culture: pl_PL
+    uom: szt.
+    name: Marynarka LiteWhite
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: marynarka-litewhite
+    stock: 6
+  Product_5:
+    code: A05
+    producer_id: Producer_1
+    price: 161.79
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 199
+    opt_asset_folder: 144
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt
+    name: Koszula w paski
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: koszula-w-paski
+    stock: 30
+    main_page_order: 2
+  Product_6:
+    code: A06
+    producer_id: Producer_1
+    price: 130.08
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 160
+    opt_asset_folder: 145
+    culture: pl_PL
+    uom: szt.
+    name: Sweter Spring
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/key.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sweter-spring
+    stock: 7
+  Product_7:
+    code: A07
+    producer_id: Producer_2
+    price: 161.79
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 199
+    opt_asset_folder: 146
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Sweter Causal
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/jew1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/jew2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sweter-causal
+    stock: 12
+    main_page_order: 4
+  Product_8:
+    code: A08
+    producer_id: Producer_2
+    price: 219.51
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 270
+    opt_asset_folder: 147
+    culture: pl_PL
+    uom: szt.
+    name: Sukienka C.Jeans
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/jew1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/jew2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sukienka-c-jeans
+    stock: 1
+  Product_9:
+    code: A09
+    producer_id: Producer_2
+    price: 296.30
+    opt_vat: 8
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 320
+    opt_asset_folder: 148
+    opt_product_group: 'a:1:{i:0;s:1:"3";}'
+    culture: pl_PL
+    uom: szt.
+    name: Slim Jeans
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: slim-jeans
+    stock: 12
+  Product_10:
+    code: A10
+    producer_id: Producer_1
+    price: 373.98
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 460
+    opt_asset_folder: 149
+    culture: pl_PL
+    uom: szt.
+    name: Kombinezon C.Jeans
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/flash1_03.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: kombinezon-c-jeans
+    stock: 10
+  Product_11:
+    code: A11
+    producer_id: Producer_1
+    price: 390.24
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 480
+    opt_asset_folder: 150
+    culture: pl_PL
+    uom: szt.
+    name: Zegarek męski
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: zegarek-meski
+    stock: 4
+  Product_12:
+    code: A12
+    producer_id: Producer_1
+    price: 170.73
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 210
+    opt_asset_folder: 151
+    culture: pl_PL
+    uom: szt.
+    name: Torebka
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: torebka
+    stock: 100
+  Product_13:
+    code: A13
+    producer_id: Producer_1
+    price: 97.56
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 120
+    opt_asset_folder: 152
+    culture: pl_PL
+    uom: szt.
+    name: Spinki do mankietów
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: spinki-do-mankietow
+    stock: 100
+  Product_14:
+    code: A14
+    producer_id: Producer_1
+    price: 138.21
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 170.00
+    opt_asset_folder: 153
+    culture: pl_PL
+    uom: szt.
+    name: Okulary przeciwsłoneczne
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: okulary-przeciwsłoneczne
+    stock: 100
+  Product_15:
+    code: A15
+    producer_id: Producer_1
+    price: 138.21
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 170.00
+    opt_asset_folder: 154
+    culture: pl_PL
+    uom: szt.
+    name: Okulary przeciwsłoneczne
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: okulary-przeciwsłoneczne-2
+    stock: 100
+
+ProductI18n:
+  ProductI18n_1:
+    id: Product_1
+    culture: en_US
+    uom: pcs.
+    name: T-shirt
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img width="180" height="211" alt="Sample image" src="/uploads/images/medal.png" style="float: left; padding-right: 15px; padding-bottom: 10px;">Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>url: puchar
+    url: t-shirt
+  ProductI18n_2:
+    id: Product_2
+    culture: en_US
+    uom: pcs.
+    name: Sweater Wint
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sweater-wint
+  ProductI18n_3:
+    id: Product_3
+    culture: en_US
+    uom: pcs.
+    name: SmileLine Sock
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: smileline-sock
+  ProductI18n_4:
+    id: Product_4
+    culture: en_US
+    uom: pcs.
+    name: LiteWhite Jacket
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: litewhite-jacket
+  ProductI18n_5:
+    id: Product_5
+    culture: en_US
+    uom: pcs.
+    name: Striped Shirt
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: striped-shirt
+  ProductI18n_6:
+    id: Product_6
+    culture: en_US
+    uom: pcs.
+    name: Spring Sweater
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/key.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: spring-sweater
+  ProductI18n_7:
+    id: Product_7
+    culture: en_US
+    uom: pcs.
+    name: Casual Sweater
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/jew1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/jew2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: casual-sweater
+  ProductI18n_8:
+    id: Product_8
+    culture: en_US
+    uom: pcs.
+    name: C.Jeans dress
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/jew1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/jew2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: c-jeans-dress
+  ProductI18n_9:
+    id: Product_9
+    culture: en_US
+    uom: pcs.
+    name: Slim jeans
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/jew1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/jew2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: slim-jeans
+  ProductI18n_10:
+    id: Product_10
+    culture: en_US
+    uom: pcs.
+    name: C.Jeans Overall
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/jew1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/jew2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: c-jeans-overall
+  ProductI18n_11:
+    id: Product_11
+    culture: en_US
+    uom: pcs.
+    name: Watch
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: watch
+  ProductI18n_12:
+    id: Product_12
+    culture: en_US
+    uom: pcs.
+    name: Purse
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: purse
+  ProductI18n_13:
+    id: Product_13
+    culture: en_US
+    uom: pcs.
+    name: Cufflinks
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: cufflinks
+  ProductI18n_14:
+    id: Product_14
+    culture: en_US
+    uom: pcs.
+    name: Sunglasses
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sunglasses
+  ProductI18n_15:
+    id: Product_15
+    culture: en_US
+    uom: pcs.
+    name: Sunglasses
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/flash1_03.png" alt="Sample image" width="180" height="211" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sunglasses-2
+
+ProductHasCategory:
+  ProductHasCategory_1:
+    product_id: Product_1
+    category_id: Category_3
+    is_default: 1
+  ProductHasCategory_2:
+    product_id: Product_2
+    category_id: Category_3
+    is_default: 1
+  ProductHasCategory_3:
+    product_id: Product_3
+    category_id: Category_3
+    is_default: 1
+  ProductHasCategory_4:
+    product_id: Product_4
+    category_id: Category_3
+    is_default: 1
+  ProductHasCategory_5:
+    product_id: Product_5
+    category_id: Category_3
+    is_default: 1
+  ProductHasCategory_6:
+    product_id: Product_6
+    category_id: Category_2
+    is_default: 1
+  ProductHasCategory_7:
+    product_id: Product_7
+    category_id: Category_2
+    is_default: 1
+  ProductHasCategory_8:
+    product_id: Product_8
+    category_id: Category_2
+    is_default: 1
+  ProductHasCategory_9:
+    product_id: Product_9
+    category_id: Category_2
+    is_default: 1
+  ProductHasCategory_10:
+    product_id: Product_10
+    category_id: Category_2
+    is_default: 1
+  ProductHasCategory_11:
+    product_id: Product_2
+    category_id: Category_2
+  ProductHasCategory_12:
+    product_id: Product_11
+    category_id: Category_4
+    is_default: 1
+  ProductHasCategory_13:
+    product_id: Product_12
+    category_id: Category_4
+    is_default: 1
+  ProductHasCategory_14:
+    product_id: Product_13
+    category_id: Category_4
+    is_default: 1
+  ProductHasCategory_15:
+    product_id: Product_14
+    category_id: Category_4
+    is_default: 1
+  ProductHasCategory_16:
+    product_id: Product_15
+    category_id: Category_4
+    is_default: 1
+  ProductHasCategory_17:
+    product_id: Product_3
+    category_id: Category_4
+    is_default: 1
+
+sfAssetFolder:
+  sfAssetFolder_1:
+    fillin_from_path: media/products/140/images
+    is_enabled: 1
+  sfAssetFolder_2:
+    fillin_from_path: media/products/141/images
+    is_enabled: 1
+  sfAssetFolder_3:
+    fillin_from_path: media/products/142/images
+    is_enabled: 1
+  sfAssetFolder_4:
+    fillin_from_path: media/products/143/images
+    is_enabled: 1
+  sfAssetFolder_5:
+    fillin_from_path: media/products/144/images
+    is_enabled: 1
+  sfAssetFolder_6:
+    fillin_from_path: media/products/145/images
+    is_enabled: 1
+  sfAssetFolder_7:
+    fillin_from_path: media/products/146/images
+    is_enabled: 1
+  sfAssetFolder_8:
+    fillin_from_path: media/products/147/images
+    is_enabled: 1
+  sfAssetFolder_9:
+    fillin_from_path: media/products/148/images
+    is_enabled: 1
+  sfAssetFolder_10:
+    fillin_from_path: media/products/149/images
+    is_enabled: 1
+  sfAssetFolder_11:
+    fillin_from_path: media/products/150/images
+    is_enabled: 1
+  sfAssetFolder_12:
+    fillin_from_path: media/products/151/images
+    is_enabled: 1
+  sfAssetFolder_13:
+    fillin_from_path: media/products/152/images
+    is_enabled: 1
+  sfAssetFolder_14:
+    fillin_from_path: media/products/153/images
+    is_enabled: 1
+  sfAssetFolder_15:
+    fillin_from_path: media/products/154/images
+    is_enabled: 1
+
+sfAsset:
+  sfAsset_1:
+    folder_id: sfAssetFolder_1
+    filename: tshirt.jpg
+    type: image
+  sfAsset_2:
+    folder_id: sfAssetFolder_2
+    filename: wint.jpg
+    type: image
+  sfAsset_3:
+    folder_id: sfAssetFolder_3
+    filename: smileline.jpg
+    type: image
+  sfAsset_4:
+    folder_id: sfAssetFolder_4
+    filename: strap.png
+    type: image
+  sfAsset_5:
+    folder_id: sfAssetFolder_5
+    filename: jacket.jpg
+    type: image
+  sfAsset_6:
+    folder_id: sfAssetFolder_6
+    filename: spring.jpg
+    type: image
+  sfAsset_7:
+    folder_id: sfAssetFolder_7
+    filename: casual.png
+    type: image
+  sfAsset_8:
+    folder_id: sfAssetFolder_8
+    filename: dress.jpg
+    type: image
+  sfAsset_9:
+    folder_id: sfAssetFolder_9
+    filename: slim.jpg
+    type: image
+  sfAsset_10:
+    folder_id: sfAssetFolder_10
+    filename: overall.jpg
+    type: image
+  sfAsset_11:
+    folder_id: sfAssetFolder_11
+    filename: watch.png
+    type: image
+  sfAsset_12:
+    folder_id: sfAssetFolder_12
+    filename: purse.png
+    type: image
+  sfAsset_13:
+    folder_id: sfAssetFolder_13
+    filename: cufflinks.png
+    type: image
+  sfAsset_14:
+    folder_id: sfAssetFolder_14
+    filename: sunglasses.png
+    type: image
+  sfAsset_15:
+    folder_id: sfAssetFolder_15
+    filename: sunglasses.png
+    type: image
+
+ProductHasSfAsset:
+  ProductHasSfAsset_1:
+    sf_asset_id: sfAsset_1
+    product_id: Product_1
+    is_default: 1
+  ProductHasSfAsset_2:
+    sf_asset_id: sfAsset_2
+    product_id: Product_2
+    is_default: 1
+  ProductHasSfAsset_3:
+    sf_asset_id: sfAsset_3
+    product_id: Product_3
+    is_default: 1
+  ProductHasSfAsset_4:
+    sf_asset_id: sfAsset_4
+    product_id: Product_4
+    is_default: 1
+  ProductHasSfAsset_5:
+    sf_asset_id: sfAsset_5
+    product_id: Product_5
+    is_default: 1
+  ProductHasSfAsset_6:
+    sf_asset_id: sfAsset_6
+    product_id: Product_6
+    is_default: 1
+  ProductHasSfAsset_7:
+    sf_asset_id: sfAsset_7
+    product_id: Product_7
+    is_default: 1
+  ProductHasSfAsset_8:
+    sf_asset_id: sfAsset_8
+    product_id: Product_8
+    is_default: 1
+  ProductHasSfAsset_9:
+    sf_asset_id: sfAsset_9
+    product_id: Product_9
+    is_default: 1
+  ProductHasSfAsset_10:
+    sf_asset_id: sfAsset_10
+    product_id: Product_10
+    is_default: 1
+  ProductHasSfAsset_11:
+    sf_asset_id: sfAsset_11
+    product_id: Product_11
+    is_default: 1
+  ProductHasSfAsset_12:
+    sf_asset_id: sfAsset_12
+    product_id: Product_12
+    is_default: 1
+  ProductHasSfAsset_13:
+    sf_asset_id: sfAsset_13
+    product_id: Product_13
+    is_default: 1
+  ProductHasSfAsset_14:
+    sf_asset_id: sfAsset_14
+    product_id: Product_14
+    is_default: 1
+  ProductHasSfAsset_15:
+    sf_asset_id: sfAsset_15
+    product_id: Product_15
+    is_default: 1

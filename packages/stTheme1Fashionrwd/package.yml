@@ -1,0 +1,13 @@
+package:
+  name: stTheme1Fahionrwd
+  stability: stable
+  version: 7.0.2.6
+  summary: 'Fashionrwd Theme'
+  description: 'Fashionrwd Theme'
+  notes: |
+    - Poprawka aktualizacji Kodu producenta na karcie produktu
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

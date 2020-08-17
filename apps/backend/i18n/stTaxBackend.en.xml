@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Stawki Vat</source>
+                <target>Taxes</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>VAT musi być liczbą, a części dziesiętne należy wprowadzić z kropką (.)</source>
+                <target>Tax value must be a number, decimal part should be entered with a dot (.)</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>VAT nie może być mniejszy niż 0 %</source>
+                <target>Tax value can't be lower than 0%</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>VAT musi być mniejszy niż 100 %</source>
+                <target>Tax value must be lower than 100%</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Podaj nazwę stawki VAT</source>
+                <target>Enter a tax name</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Zarządzaj stawkami VAT</source>
+                <target>Manage the tax rates</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Wartość</source>
+                <target>Value</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Domyślny VAT</source>
+                <target>Default tax</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Podaj VAT</source>
+                <target>Enter a tax value</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Dodaj nową stawkę VAT</source>
+                <target>Add a new tax rate</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Brak stawek VAT</source>
+                <target>No tax rates</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Edycja stawki VAT</source>
+                <target>Edit a tax rate</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Domyślnie wybrana stawka VAT podczas dodawania nowego produktu lub dostawy</source>
+                <target>Tax rate will be selected as default when adding a new product or a shipment</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Wystąpił problem podczas aktualizacji cen dla stawki VAT</source>
+                <target>Problem occurred while updating the prices for the new tax rate</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Kliknij</source>
+                <target>Click</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>tutaj</source>
+                <target>here</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>aby dokończyć.</source>
+                <target>to complete this task.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Od 01.01.2011 obowiązują nowe stawki VAT (więcej w</source>
+                <target>tax rates have changed since 1st Jan 2011 (see the</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>dokumentacji</source>
+                <target>documentation</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Przelicz</source>
+                <target>Convert</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>netto na brutto</source>
+                <target>net to gross</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>brutto na netto</source>
+                <target>gross to net</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wykryto zmiane stawki VAT. Kliknij</source>
+                <target>The change in the tax rate has been detected. Click</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>aby dokończyć poprzednią aktualizację cen</source>
+                <target>to complete a previous update of prices</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Wykryto zmiane stawki VAT z %from%% na %to%%. Wybierz metodę przeliczenia obecnych cen w sklepie</source>
+                <target>The change in the tax rate from %from%% to %to%% has been detected. Select the method of converting the current prices in your shop</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source><b>netto na brutto</b> - ceny brutto ulegną zmianie<br/><b>brutto na netto</b> - ceny netto ulegną zmianie</source>
+                <target><b>net to gross</b> - gross prices will be changed<br/><b>gross to net</b> - net prices will be changed</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>przeliczeniu ulegną</source>
+                <target>conversion will change</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>ceny produktów</source>
+                <target>products prices</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>koszty dostaw</source>
+                <target>delivery costs</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Przeliczanie cen dla stawki VAT %tax%%</source>
+                <target>Converting the prices for the tax rate %tax%%</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Aktualizacja cen została zakończona pomyślnie.<br/>%return_link%</source>
+                <target>The prices update was successfully completed.<br/>%return_link%</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Powróć do edycji</source>
+                <target>Back to the edit</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Przeliczanie cen z %type% dla stawki VAT %tax%%</source>
+                <target>Converting the prices %type% for the tax rate %tax%%</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Przeliczanie cen z %type% dla stawki VAT %tax%%</source>
+                <target>Converting the prices %type% for the tax rate %tax%%</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Przeliczanie cen produktów w toku</source>
+                <target>Converting the prices in progress</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Aktualizacja cen została zakończona pomyślnie</source>
+                <target>The prices update was successfully completed</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Przeliczanie kosztów dostaw w toku</source>
+                <target>Converting the delivery costs in progress</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

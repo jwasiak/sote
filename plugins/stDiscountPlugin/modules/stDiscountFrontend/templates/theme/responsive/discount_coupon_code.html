@@ -1,0 +1,40 @@
+<div id="discount-box" style="margin-bottom:10px;">   
+    {if $coupon_code}
+        {if $form.error}
+            <div class="form-group">
+                <div class="bg-danger">
+                    {__ text=$form.error}
+                </div>   
+            </div>
+        {/if}
+        <div class="form-group">
+            <div class="row">
+                <div class="col-xs-8">
+                    <b>{$coupon_code.code}</b> <a class="primary" href="{$coupon_code.remove_url}"><span class="glyphicon glyphicon-remove-circle"></span></a>: 
+                </div>
+                <div class="col-xs-4 text-right">
+                    {$coupon_code.discount}%
+                </div>
+            </div>
+        </div>
+    {else}
+        <form action="{$form.action}" method="post">
+            {if $form.error}
+                <div class="form-group">
+                    <div class="bg-danger">
+                        {__ text=$form.error}
+                    </div>   
+                </div>
+            {/if}
+            <div class="form-group input-group">
+                <input class="form-control" placeholder="{__ text='Wprowadź kod rabatowy'}" id="discount_coupon_code" name="discount[coupon_code]" type="text" value="{$form.code}" />
+                <input type="hidden" name="discount[return_url]" value="{$form.return_url}" />
+                <span class="input-group-btn">
+                    <button class="btn btn-default pull-right" type="submit">
+                        {__ text="Aktywuj"}
+                    </button>
+                </span>                                
+            </div>
+        </form>
+    {/if}    
+</div>

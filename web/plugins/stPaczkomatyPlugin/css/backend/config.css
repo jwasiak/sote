@@ -1,0 +1,8 @@
+
+.row_payment,
+.row_order_status,
+.row_organization,
+#sf_fieldset_domy__lne_ustawienia,
+#sf_fieldset_informacje_o_nadawcy_na_paczce {
+    display: none;
+}

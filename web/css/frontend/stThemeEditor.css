@@ -1,0 +1,170 @@
+#st_theme_editor input {
+   outline: none;
+}
+
+#st_theme_editor
+{
+   letter-spacing: 0px;
+   height: 10px; 
+   line-height: 18px;
+   position: fixed; 
+   width: 100%;
+   z-index: 11000;
+   top: 0;
+}
+
+#editor_config {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#editor_config > img {
+   position: relative;
+   z-index: 13000;
+   margin-bottom: -1px;
+   border: 1px solid transparent;
+   padding: 3px;  
+   border-bottom: none;
+}
+
+#editor_config .editor_menu {
+   display: none;
+   position: absolute;  
+   width: 180px;
+   margin-left: -152px;   
+}
+
+#editor_config ul {
+   margin-left: 0px;
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 5px;
+   border: 1px solid #fff;
+}
+
+#editor_config .editor_menu li {
+   padding-top: 3px;
+}
+
+#editor_config:hover > img {
+   border-color: #fff;
+   background: #000;   
+}
+
+#editor_config:hover .editor_menu {
+   display: block; 
+}
+
+#st_theme_editor input,
+#st_theme_editor label,
+#st_theme_editor a {
+   font-size: 13px;
+}
+
+#st_theme_editor input,
+#st_theme_editor label {
+   vertical-align: middle;
+
+}
+
+#st_theme_editor .editor_message
+{
+    background-color: rgba(115, 182, 90, 0.8);
+    padding: 13px;
+    text-align: center;
+}
+
+#st_theme_editor .editor_message h3 
+{
+    background: url("/images/backend/beta/icons/16x16/tick.png") no-repeat scroll left center transparent;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 25px;
+}
+
+#st_theme_editor select
+{
+   background-color: #fff;
+   
+   height: 24px;
+   
+   border-color: #fff;
+
+   vertical-align: middle;
+}
+
+#st_theme_editor > ul 
+{
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 10px;
+   margin: 0px;
+   color: #fff;
+   list-style: none;
+   text-align: right;
+}
+
+#st_theme_editor .editor_hidden
+{
+   display: none;
+}
+
+#st_theme_editor > ul > li
+{
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+
+#st_theme_editor:hover > ul.editor_hidden
+{
+   display: block;
+}
+
+#st_theme_editor:hover
+{
+   height: auto;
+}
+
+#editor_edit_mode {
+   padding-top: 6px; 
+}
+
+#st_theme_editor a
+{
+   color: #fff;
+      
+   text-decoration: none;
+}
+
+#st_theme_editor a:hover
+{
+   text-decoration: underline;
+}
+
+#st_theme_editor .editor_button a
+{
+   display: block;
+
+   text-decoration: none;
+
+   color: #000;
+
+   background-color: #fff;
+
+   padding: 5px 10px 5px 10px;
+
+   background-repeat: no-repeat;
+
+   background-position: 5px 6px;           
+}
+
+#st_theme_editor .clr
+{
+   padding: 0px;
+   margin: 0px;
+   height: 0px;
+   line-height: 0px;
+   clear: both;
+   float: none;
+}

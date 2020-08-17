@@ -1,0 +1,4 @@
+fields:
+    online_codes{code}:
+        required:
+            msg:    Proszę uzupełnić pole.

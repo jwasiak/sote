@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2010-11-04T02:50:41Z">
+		<body>
+			<trans-unit id="1">
+				<source>Temat</source>
+				<target>Sujet</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zawartość</source>
+				<target>Contenu</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Adres nadawcy</source>
+				<target>Adresse de l’expéditeur</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Adres odbiorcy</source>
+				<target>Adresse du destinataire</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Załącz plik</source>
+				<target>Joindre un fichier</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Serwer poczty wychodzącej (SMTP)</source>
+				<target>Serveur du courrier sortant (SMTP)</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Adres hosta</source>
+				<target>Adresse de l’hôte</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Port</source>
+				<target>Port</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Szyfrowanie</source>
+				<target>Chiffrement</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Brak</source>
+				<target>Aucun</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>TLS</source>
+				<target>TLS</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>SSL</source>
+				<target>SSL</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Użytkownik</source>
+				<target>Utilisateur</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Hasło</source>
+				<target>Mot de passe</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Wyślij</source>
+				<target>Envoyer</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wystąpił problem podczas łączenia się z serwerem SMTP: zweryfikuj  oraz wybrany rodzaj </source>
+				<target>Un problème est survenu lors de la connexion au serveur SMTP : vérifiez  et le type choisi </target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Błędna autoryzacja SMTP - wprowadź nazwę użytkownika i hasło ponownie</source>
+				<target>Erreur d’autorisation SMTP : veuillez re-saisir votre nom d’utilisateur et votre mot de passe</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Wystąpił problem z wysłaniem wiadomości...</source>
+				<target>Un problème est survenu lors de l’envoi du message...</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Twoja wiadomość została wysłana poprawnie</source>
+				<target>Votre message a été envoyé correctement</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Powrót</source>
+				<target>Retour</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

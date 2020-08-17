@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="pl_PL" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>payment.help</source>
+                <target><b>Darmowa Od</b> kwota zamówienia od której płatność będzie darmowa (wartość 0 oznacza brak progu)<br /><b>Kwota</b> koszt płatności doliczany do kosztu podstawowego dostawy<br /><b>Koszt kuriera</b> dodatkowy koszt prezentowany na stronie potwierdzenia zamówienia (koszt nie jest wliczany do łącznej kwoty zamówienia)</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

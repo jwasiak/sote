@@ -1,0 +1,22 @@
+package:
+  name: stAllegroPlugin
+  stability: stable
+  version: 7.5.0.80
+  summary: Allegro
+  description: 'Zarzadzanie systemami aukcyjnymi, wystawianie produktow na aukcje, konfiguracja ustawien'
+  notes: |
+    - Poprawka bledu 500 podczas zapisu opcji produktu
+  maintainers:
+    Marcin Butlak:
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stFrontend: 1.0.3
+    stBackend: 1.0.0
+    stProgressBarPlugin: 1.0.0
+    stOrder: 1.0.5

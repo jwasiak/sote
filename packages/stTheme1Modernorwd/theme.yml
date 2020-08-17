@@ -1,0 +1,9 @@
+theme:
+    package: stTheme1Modernorwd
+    name: modernorwd
+    fixtures: fixtures-moderno
+    version: 7
+    default: 0
+    type: open
+    install: true
+    copyable: true

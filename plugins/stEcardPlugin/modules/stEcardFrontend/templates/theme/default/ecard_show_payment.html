@@ -1,0 +1,36 @@
+{if $check_configuration}
+    <div id="st_box_payment">
+        <p>{__ text="Kliknij przycisk"} <b>{__ text='"Zapłać"'}</b> {__ text="aby przejść do serwisu eCard."}</p>
+        <p><img id="st_home" src="/images/frontend/theme/default/stEcardPlugin/logo.jpg" alt=""/></p>
+        {$form_start}
+            {$input_order_number}
+            {$input_merchant_id}
+            {$input_order_description}
+            {$input_amount}
+            {$input_currency}
+            {$input_session_id}
+            {$input_name}
+            {$input_surname}
+            {$input_autodeposit}
+            {$input_bin}
+            {$input_language}
+            {$input_charset}
+            {$input_country}
+            {$input_js}
+            {$input_hash}
+            {$input_payment_type}
+            {$input_link_fail}
+            {$input_link_ok}
+            {$input_transparent_pages}
+            <div id="st_form-payment-submit" class="st_button-container">
+                <div class="st_button st_align-right">
+                        <div class="st_button-left">
+                            {$submit_button}
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </div>
+{else}
+    {__ text="Płatność została błędnie skonfigurowana."}
+{/if}

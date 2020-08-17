@@ -1,0 +1,117 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                MailAccount
+        profile_model_class:        MailSmtpProfile
+        description_model_class:    MailDescription
+        theme:                      simple
+        head:
+            package:                stMailPlugin
+        applications:               []
+        custom_actions:
+            edit:                   [profile, description]
+            list:                   [profile, description]
+        fields:
+            email:                  {name: Adres konta, params: size=50}
+            name:                   {name: Nazwa}
+            username:               {name: Nazwa użytkownika}
+            password:               {name: Hasło, params: type=password}
+            mail_smtp_profile_id:   {name: Serwer pocztowy}
+            mail_smtp_profile:      {name: Serwer pocztowy, params: link_to="stMailAccountBackend/profileEdit?id=%%mail_smtp_profile_id%%"}
+            is_default:             {name: Domyślny}
+            is_newsletter:          {name: Newsletter}
+        list:
+            title:                  Konta pocztowe   
+            display:                [=email, =mail_smtp_profile, is_default, is_newsletter]
+            menu:
+                display:            [index, profile, description, config]
+                fields:
+                    index:          {name: Konta pocztowe, action: @stMailPluginDefault}
+                    profile:        {name: Serwery pocztowe, action: stMailAccountBackend/profileList}
+                    description:    {name: Teksty w mailach, action: stMailAccountBackend/descriptionList}
+                    config:         {name: Szablon, action: stMailAccountBackend/config}
+            object_actions:
+                _edit:              -
+                _delete:            -
+            actions:
+                _create:            {name: Dodaj}
+        edit:
+            title:                  Edycja danych konta pocztowego %%email%%
+            description:            Konfiguracja kont pocztowych, ustawienia głównego konta sklepu.
+            display:                [mail_smtp_profile_id, email, name, username, password, _is_default, is_newsletter]
+            fields:
+              name:                 {name: Nazwa, help: Jeżeli podana jest wyświetlana jako nadawca zamiast adresu e-mail}
+            actions:
+                _delete:            {name: Usuń}
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _save_and_add:      {name: Zapisz i dodaj}      
+                
+        profile_list:
+            title:                  Serwery pocztowe
+            display:                [name, host]
+            fields:
+                name:               {name: Nazwa, params: size=20}
+                host:               {name: Adres serwera, params: size=20}
+            menu:                   {use: list.menu}
+            object_actions:
+                _edit:              -
+                _delete:            -
+            actions:
+                _create:            {name: Dodaj}
+
+        profile_edit:
+            title:                  Edycja danych serwera pocztowego (smtp) %%name%%
+            description:            Konfiguracja kont pocztowych, ustawienia głównego konta sklepu.
+            display:                [name, host, _enc_type_select, _port]
+            fields:
+                enc_type_select:    {name: Używaj połączenie szyfrowane}
+                name:               {name: Nazwa, params: size=20}
+                host:               {name: Adres serwera, params: size=20}
+                port:               {name: Port}
+            menu:                   {use: list.menu}
+            actions:
+                _delete:            {name: Usuń}
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _save_and_add:      {name: Zapisz i dodaj}
+        description_list:
+            filters:
+                name:               {filter_field: mail_description_i18n.name}
+            peer_method:            doSelectWithI18n
+            peer_count_method:      doCountWithI18n
+            title:                  Teksty w mailach
+            display:                [name, is_active]
+            fields:
+                name:               {name: Nazwa, params: size=50}
+                is_active:          {name: Aktywny}
+            menu:                   {use: list.menu}
+            object_actions:
+                _edit:              -
+            actions:                []
+        description_edit:
+            title:                  Edycja tekstu maila
+            description:            Edycja maila
+            display:                [name, description, is_active]
+            fields:
+                name:               {name: Nazwa, params: disabled=disabled}
+                description:        {name: Treść, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:250,width:550'}
+                is_active:          {name: Aktywny}
+            menu:                   {use: list.menu}
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+        config:
+            title:                  Konfiguracja szablonu
+            description:            Konfiguracja szablonu
+            display:                [_logo, _bg_header_color, _bg_footer_color, _bg_action_color, _bg_action_link_color, _link_color]
+            fields:
+                bg_header_color:         {name: Kolor nagłówka}
+                bg_footer_color:         {name: Kolor stopki}
+                bg_action_color:         {name: Ważny kolor}
+                bg_action_link_color:    {name: Ważny link}
+                link_color:              {name: Kolor linków}
+                logo:                    {name: Logo}
+            menu:                   {use: list.menu}
+            actions:
+                _save:              {name: Zapisz}        

@@ -1,0 +1,4 @@
+fields:
+    webpage{name}:
+        required:
+            msg:        Podaj tytuł strony

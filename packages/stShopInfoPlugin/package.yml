@@ -1,0 +1,16 @@
+package:
+  name: stShopInfoPlugin
+  stability: stable
+  version: 7.0.0.1
+  summary: 'Informacje o sklepie'
+  description: 'Zarzadzanie danymi sklepu'
+  notes: |
+    -  Aktualizacja wygladu panelu
+  maintainers:
+    'Pawel Byszewski':
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency:
+    stConfigurationPlugin: 1.0.3
+    stRegister: 1.0.3

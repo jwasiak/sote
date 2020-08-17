@@ -1,0 +1,1 @@
+<?php echo input_tag('coupon_code[discount]', $order_status->getCouponCodeDiscount(), array('size' => 3, 'disabled' => !$order_status->getAttachCouponCode(), 'class' => 'coupon_code_field')) ?> %

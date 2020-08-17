@@ -1,0 +1,26 @@
+data:
+  newsletter_on: false
+  newsletter_enabled: false
+  newsletter_default_culture: pl_PL
+  show_languages: null
+  register_message_on: false  
+  
+  _i18n:
+    pl_PL:
+      templates: "<html><body style=\"background-color:#fff; font-family:Helvetica,Verdana,Arial,sans-serif; line-height:18px; font-size:1em;\"><div style=\"margin: 0px auto; background-color:#fff;\"><br><div style=\"width:700px; margin:0px auto;\"><div style=\"background:url(http://{HOST}/images/frontend/theme/default/mail/frame_mail_top.png?version=1); height:30px\"></div><div style=\"min-height:400px;  padding:0px 25px 0px 25px; text-align:justify; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;\">\r\n<br/>\r\n\r\n<div style=\"width:500px; margin: 20px auto;\">    \r\n{NEWSLETTER_CONTENT}\r\n</div>\r\n\r\n<br/>\r\n<div style=\"width:500px; margin: 0px auto;\">\r\n<span style=\"font-size:10px; color:#404040;\">Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link.</span><br/>\r\n    <span style=\"font-size:10px;\"><a href=\"{LINK_TO_UNSUBSCRIBE}\" />Wypisz mnie z listy</a></span>\r\n</div>\r\n\r\n</div><div style=\"background:url(http://{HOST}/images/frontend/theme/default/mail/frame_mail_bottom.png?version=1); height:30px\"></div></div></div></body></html>"
+      register_message_templates: ""
+      register_message_title: ""
+      register_text_title: "Dołącz do naszego klubu."
+      register_text_description: "<p>Jeśli chcesz otrzymywać ciekawe informacje z naszego sklepu oraz skorzystać z wyjątkowych promocji, zapisz się na nasz newsletter.</p>"      
+      register_text_under_register: "<p>Możesz wypisać się w każdym momencie.</p>"
+      register_text_widget_title: "Dołącz do naszego klubu."
+      register_text_widget_description: "<p>Dołącz do naszego klubu i otrzymuj ciekawe informacje, promocje i rabaty.</p>"
+    en_US:
+      templates: "<html><body style=\"background-color:#fff; font-family:Helvetica,Verdana,Arial,sans-serif; line-height:18px; font-size:1em;\"><div style=\"margin: 0px auto; background-color:#fff;\"><br><div style=\"width:700px; margin:0px auto;\"><div style=\"background:url(http://{HOST}/images/frontend/theme/default/mail/frame_mail_top.png?version=1); height:30px\"></div><div style=\"min-height:400px;  padding:0px 25px 0px 25px; text-align:justify; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;\">\r\n<br/>\r\n\r\n<div style=\"width:500px; margin: 20px auto;\">    \r\n{NEWSLETTER_CONTENT}\r\n</div>\r\n\r\n<br/>\r\n<div style=\"width:500px; margin: 0px auto;\">\r\n<span style=\"font-size:10px; color:#404040;\">If you want to stop receiving messages, please click on the link below.</span><br/>\r\n    <span style=\"font-size:10px;\"><a href=\"{LINK_TO_UNSUBSCRIBE}\" />Remove me from the list</a></span>\r\n</div>\r\n\r\n</div><div style=\"background:url(http://{HOST}/images/frontend/theme/default/mail/frame_mail_bottom.png?version=1); height:30px\"></div></div></div></body></html>"
+      register_message_templates: ""
+      register_message_title: ""
+      register_text_title: "Join our club."
+      register_text_description: "<p>If you want to receive interesting information from our store and take advantage of unique promotions, subscribe to our newsletter.</p>"
+      register_text_under_register: "<p>You can unsubscribe at any time.</p>"
+      register_text_widget_title: "Join our club."
+      register_text_widget_description: "<p>Join our club and receive interesting information, promotions and discounts.</p>"

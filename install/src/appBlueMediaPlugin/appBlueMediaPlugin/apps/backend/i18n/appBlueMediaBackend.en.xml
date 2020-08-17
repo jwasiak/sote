@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Funkcjonalność dostępna tylko i wyłącznie dla nowych tematów responsywnych</source>
+                <target>The functionality is available only for new responsive themes</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wystąpił błąd podczas próby połączenia się z serwisem. Proszę sprawdzić czy wprowadzone dane są poprawne i spróbować ponownie.</source>
+                <target>An error occurred while trying to connect to the site. Please check if the entered data is correct and try again.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Please complete the field.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja konta</source>
+                <target>Account configuration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Adresy dla konfiguracji usługi</source>
+                <target>Addresses for service configuration</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Adres powrotu po płatności</source>
+                <target>Return address after payment</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Adres na który jest wysyłany ITN</source>
+                <target>The address to which ITN is sent</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Włącz</source>
+                <target>Enable</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Kanały płatności</source>
+                <target>Payment gateways</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Klucz</source>
+                <target>Key</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przekierowuje automatycznie na stronę płatności po złożeniu zamówienia</source>
+                <target>Automatically redirects to the payment page after placing an order</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Automatyczne przekierowanie</source>
+                <target>Auto redirect</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Pokazuj wybór płatności w okienku popup</source>
+                <target>Show payment selection in popup window</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Tryb testowy</source>
+                <target>Sandbox mode</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

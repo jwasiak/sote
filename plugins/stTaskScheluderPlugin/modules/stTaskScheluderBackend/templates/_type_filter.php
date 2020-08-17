@@ -1,0 +1,1 @@
+<?php echo select_tag('filters[type]', options_for_select(TaskLogPeer::getTypes(), isset($filters['type']) ? $filters['type'] : null, array('include_custom' => '---'))) ?>

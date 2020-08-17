@@ -1,0 +1,20 @@
+Text:
+    Text_stCompatibility_1:
+        system_name: stCompatibility-user-fr
+        active: 0
+        culture: pl_PL
+        name: Gromadzenie danych osobowych (zgodność francuska)
+        content: ' '
+
+TextI18n:
+    TextI18n_en_stCompatibility_1:
+        id: Text_stCompatibility_1
+        culture: en_US
+        name: Collecting personal data (for compliance French)
+        content:' '
+    TextI18n_fr_stCompatibility_1:
+        id: Text_stCompatibility_1
+        culture: fr
+        name: Collecting personal data (for compliance French)
+        content: >
+            Nous (la SOCIETE X) collectons vos données sur ce formulaire pour [compléter, par exemple : traiter votre commande, vous envoyer notre Newsletter ...], ce qui ne sera pas possible si vous ne nous communiquez pas les renseignements demandés. Vous bénéficiez d’un droit d’accès, de rectification et d’opposition au traitement des données vous concernant.

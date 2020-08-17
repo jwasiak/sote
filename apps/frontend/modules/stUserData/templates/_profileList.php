@@ -1,0 +1,1 @@
+<?php $smarty->display('userdata_profile_list.html') ?>

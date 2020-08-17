@@ -1,0 +1,25 @@
+.st_product_options_picker label {
+    float: none !important;
+    width: auto !important;
+    padding: 0 !important;
+    display: inline-block;
+    text-align: left !important;
+}
+
+.st_product_options_picker label span {
+    display: inline-block;
+    width: 100px;
+    padding-right: 10px;
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+.st_product_options_picker label select {
+    vertical-align: middle;
+    width: 120px;
+}
+
+.st_product_options_picker li {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wybierz Paczkomat</source>
+				<target>选择包裹站</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Podaj kod pocztowy</source>
+				<target>输入您的邮政编码</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Podany kod pocztowy jest nieprawidłowy.</source>
+				<target>输入的邮政编码无效。</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukaj</source>
+				<target>搜索</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz miasto</source>
+				<target>选择城市</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>wszystkie lokalizacje</source>
+				<target>所有地点</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmień Paczkomat</source>
+				<target>改变包裹站</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa Paczkomaty</source>
+				<target>交货到包裹站</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę wybrać Paczkomat.</source>
+				<target>请选择包裹站</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Paczkomat</source>
+				<target>包裹站</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wybierz z listy</source>
+				<target>从列表中选择</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wybierz</source>
+				<target>选择</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,53 @@
+<div id="st_application-st_review-list_products_reviewed_without_agreement">
+    {if isset($reviewed_products_without_agreement)}
+        <div id="st_review-list_products_reviewed">
+            <div class="st_review-review_name" align="center">
+                {__ text="Recenzje produktów niepublikowane"}
+            </div>
+    {/if}
+    {$form_start}
+        {foreach key=row item=order_product_reviewed_without_agreement from=$results}
+            <div class="st_review-product">
+                {$order_product_reviewed_without_agreement.input_hidden_product_id}
+                <div class="st_review-product_container">
+                    <div class="st_review-product_show">
+                        <div class="st_review-product_name">
+                            {$order_product_reviewed_without_agreement.product_name_link}
+                        </div>    
+                        <div class="st_review-product_photo">
+                            {$order_product_reviewed_without_agreement.product_image_link}
+                        </div>
+                    </div>
+                    <div class="st_review-product_mark">
+                        <span class="st_review-mark">
+                            {__ text="Ocena"}:
+                        </span>
+                        {$order_product_reviewed_without_agreement.product_score}
+                    </div>
+                </div>
+                <div class="st_review-product_description_written">
+                    {$order_product_reviewed_without_agreement.product_description}
+                </div>
+                <br class="st_clear_all"/>
+                <div class="st_review-product_agreement">
+                    {$order_product_reviewed_without_agreement.input_hidden_agreement}
+                    <span>
+                        {$order_product_reviewed_without_agreement.agreement_checkbox} {__ text="Wyrażam zgodę na opublikowanie mojej recenzji dla produktu"} {$order_product_reviewed_without_agreement.product_name_link} {$order_product_reviewed_without_agreement.input_hidden_product_id}
+                    </span>
+                </div>
+            </div>
+        {/foreach}
+        {if isset($reviewed_products_without_agreement)}
+            <div class="st_review-last_row">
+                <div id="st_button-review-send" class="st_button-container">
+                    <div class="st_button st_align-right">
+                        <div class="st_button-left">
+                            {$save_submit}
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        {/if}
+    </form>
+    <br class="st_clear_all"/>
+</div>

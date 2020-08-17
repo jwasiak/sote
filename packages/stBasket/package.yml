@@ -1,0 +1,18 @@
+package:
+  name: stBasket
+  stability: stable
+  version: 7.1.2.14
+  summary: Koszyk
+  description: 'Podglad aktualnych zakupow w sklepie dokonywanych przez zarejestrowanych klientow'
+  notes: |
+     - Ujednolicenie wygladu ilosci sztuk w koszyku
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.8.10
+    stBackend: 1.0.4.9
+    stProduct: 1.0.14
+    stUser: 1.0.6.6

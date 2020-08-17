@@ -1,0 +1,14 @@
+PaymentType: 
+  PaymentType_3: 
+    created_at: 2008-02-12 16:05:15
+    updated_at: 2008-02-12 16:05:15
+    module_name: stPlatnosciPl
+    active: 0
+    culture: pl_PL
+    name: PayU
+    
+PaymentTypeI18n: 
+  PaymentTypeI18n_3: 
+    id: PaymentType_3
+    culture: en_US
+    name: PayU

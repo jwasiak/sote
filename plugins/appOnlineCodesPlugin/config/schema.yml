@@ -1,0 +1,60 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.appOnlineCodesPlugin.lib.model
+  app_online_codes: 
+    _attributes: 
+      phpName: OnlineCodes
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    name: 
+      type: VARCHAR
+      size: 255
+    code: 
+      type: VARCHAR
+      size: 255
+      required: true
+    usage_limit: 
+      type: INTEGER
+    used: 
+      type: INTEGER
+  app_online_files: 
+    _attributes: 
+      phpName: OnlineFiles
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    name: 
+      type: VARCHAR
+      size: 255
+    filename: 
+      type: VARCHAR
+      size: 255
+    media_type: 
+      type: VARCHAR
+      size: 20

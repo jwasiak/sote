@@ -1,0 +1,42 @@
+{set layout="one_column_layout"}
+<div id="st_user-edit" class="box roundies">
+    <div id="st_navigation_bar-user" class="st_navigation_bar_user">
+        <ul>
+            <li class="st_first">
+                <a href="/user_data/userPanel">{__ text="Moje konto"}</a>
+            </li>
+            <li class="">
+                <a href="/user/editAccount">{__ text="Moje dane"}</a>
+            </li>
+            <li class="st_selected">
+                <a href="#">{__ text="Edycja danych"}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        
+        {if $show_message}
+        <div class="st_user-edit-data">
+            <p style="color:#fff;text-align:center;background-color:#458B00;"><b>{__ text="Dane zostały zaktualizowane."}</b></p>
+            
+        </div>
+        {/if}
+        
+        <br>
+        
+        <div class="st_user-edit-data">
+            {$edit_profile_form}
+        </div>
+
+        <br>
+       
+        {$edit_profile_list}
+        
+
+            <div class="buttons left">
+                <a href="/user_data/createProfile/userDataType/{$user_data_type}" class="regular roundies">{__ text="Dodaj nowy adres"}</a>
+            </div>
+        <div class="clear"></div>
+    </div>
+
+</div>

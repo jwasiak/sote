@@ -1,0 +1,5 @@
+propel:
+    st_order:
+        _attributes: {phpName: Order}
+        show_opinion:
+            type: INTEGER

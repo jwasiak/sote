@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2012-07-02T03:01:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>firma</source>
+				<target>firma</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>imię i nazwisko</source>
+				<target>jméno a příjmení</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>ulica, nr domu</source>
+				<target>ulice, popisné č.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kod, miasto</source>
+				<target>PSČ, město</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>kraj</source>
+				<target>stát</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>telefon</source>
+				<target>telefonní číslo</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>nip</source>
+				<target>DIČ</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>nr. konta</source>
+				<target>č. konta</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>uwagi</source>
+				<target>poznámky</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zarejestruj</source>
+				<target>Zaregistrovat</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dane partnera</source>
+				<target>Údaje partnera</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Konto</source>
+				<target>Konto</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Prowizje partnera</source>
+				<target>Provize partnera</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Stawka prowizji procentowej</source>
+				<target>Sazba provize v procentech</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Stawka prowizji kwotowej</source>
+				<target>Sazba provize v sumě</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Nie przyznano prowizji od transakcji.</source>
+				<target>Za transakci nebyla přiznána provize.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Całkowita prowizja</source>
+				<target>Provize celkem</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Rozliczona prowizja</source>
+				<target>Vyúčtovaná provize</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nierozliczona prowizja</source>
+				<target>Nevyúčtovaná provize</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zamówienia z polecenia</source>
+				<target>Objednávky s doporučením</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Link partnerski</source>
+				<target>Partnerský link</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Skorzystaj z automatycznego generowania linku partnerskiego. Opcja ta ułatwi Ci generowanie linków za pomocą, których klienci którym polecisz sklep dokonają zakupów rejestrowanych na Twoje konto.</source>
+				<target>Použijte funkci automatického generování partnerského linku. Tato funkce Vám umožní generování línků, pomocí kterých klienti, kterým náš obchod doporučíte, mohou realizovat nákupy, které budou zaregistrovány v rámci Vašeho konta.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Wstaw link do strony sklepu</source>
+				<target>Vložit link na stránku obchodu</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Link partnerski do strony sklepu</source>
+				<target>Partnerský link na stránku obchodu</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Link partnerski do umieszczenia na stronie</source>
+				<target>Partnerský link, který je třeba umístit na stránce</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Konto partnerskie zostało zablokowane.</source>
+				<target>Partnerské konto bylo zablokováno.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Twoje konto zostało zablokowane, skontaktuj się z administratorem celem wyjaśnienia przyczyny blokady konta.</source>
+				<target>Vaše konto bylo zablokováno. Za účelem objasnění příčiny zablokování konta se, prosím, zkontaktujte s administrátorem.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>wszystkie</source>
+				<target>všechny</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>rozliczone</source>
+				<target>vyúčtované</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>nierozliczone</source>
+				<target>nevyúčtované</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Brak zamówień.</source>
+				<target>Žádné objednávky.</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Łączna kwota prowizji</source>
+				<target>Suma provizí celkem </target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Łączna kwota prowizji za okres od</source>
+				<target>Suma provizí celkem za období od</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>wynosi</source>
+				<target>se rovná</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Kwota zamówienia</source>
+				<target>Hodnota objednávky</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wartość prowizji</source>
+				<target>Hodnota provize</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Zapraszamy do skorzystania z naszego programu partnerskiego. Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci. Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep. Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.</source>
+				<target>Zveme Vás k zapojení se do našeho partnerského programu. Náš partnerský program je určen pro osoby, které chtějí podpořit náš obchod a robit mu v síti reklamu. Po nahlášení svého zájmu o účast v partnerském programu vyplněním formuláře nacházejícího se na pravé straně, administrátor obchodu zkontroluje Vaši totožnost. Bude-li výsledek verifikace pozitivní, bude Vám přiděleno individuální partnerské číslo, díky kterému budete moci doporučovat náš obchod jiným.  Transakce uzavřené v obchodě, které se uskutečnily díky Vašemu doporučení, budou registrované v našem systému a na Vašem partnerském kontě se bude zaznamenávat provize za zrealizované transakce.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Očekává na potvrzení.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Dziękujemy za wyrażenie chęci zostania partnerem naszego sklepu. Proszę czekać, aż administrator zaakceptuje i potwierdzi dane rejestracyjne.</source>
+				<target>Děkujeme za nahlášeni svého záměru stát se partnerem našeho obchodu. Čekejte, prosím, dokud administrátor Vaše registrační údaje neříjme a nepotvrdí.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Po zweryfikowaniu danych otrzymacie Państwo indywidualny numer partnerski, który umożliwi dokonywanie zakupów z polecenia.</source>
+				<target>Po verifikaci údajů obdržíte individuální partnerské číslo, které Vám umožní realizaci nákupů s doporučením.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>O przyznaniu status partnera sklepu zostaniecie Państwo poinformowani drogą mailową.</source>
+				<target>O přidělení statusu partnera obchodu budete poinformován/a prostřednictvím elektronické pošty.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Moje konto</source>
+				<target>Moje konto</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Program partnerski</source>
+				<target>Partnerský program</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Uzupełnij formularz poniżej podając dane, które posłużą administratorowi sklepu do rozliczeń programu partnerskiego.</source>
+				<target>Vyplňte níže uvedený formulář. Uveďte údaje, které administrátorovi obchodu umožní vyúčtování partnerského programu.</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brak imienia.</source>
+				<target>Jméno nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Brak nazwiska.</source>
+				<target>Příjmení nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Brak ulicy.</source>
+				<target>Ulice nebyla zadána.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak domu.</source>
+				<target>Popisné číslo nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak kodu.</source>
+				<target>PSČ nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Brak miasta.</source>
+				<target>Město nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Brak telefonu.</source>
+				<target>Telefonní číslo nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zweryfikuj poprawność adresu</source>
+				<target>Verifikovat správnost adresy</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Wstaw link do dowolnej strony tego sklepu (np.</source>
+				<target>Vložit link na libovolnou stránku tohoto obchodu (např.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>). Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+				<target>). Níže budou připravené odkazy, které budou obsahovat aktivaci partnerského programu</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Pokaż</source>
+				<target>Ukázat</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>Tučné kolonky jsou požadováné.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

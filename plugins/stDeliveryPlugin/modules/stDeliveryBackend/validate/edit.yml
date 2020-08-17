@@ -1,0 +1,16 @@
+fields:
+   delivery{position}:
+      required:   
+         msg: Musisz podać pozycje dostawy
+      sfNumberValidator:
+         min:    0
+         min_error: Pozycja dostawy musi być większa lub równa 0
+         type: integer
+         type_error: Pozycja dostawy musi być większa lub równa 0
+         nan_error: Pozycja dostawy musi być większa lub równa 0
+   delivery{name}:
+      required:   
+         msg: Musisz podać nazwę dla dostawy
+   delivery{countries_area_id}:
+      required:     
+         msg: Musisz wybrać strefę

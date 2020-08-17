@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2010-11-04T02:51:38Z">
+		<body>
+			<trans-unit id="1">
+				<source>więcej</source>
+				<target>подробнее</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Podziel się na Facebook</source>
+				<target>Поделиться на Facebook</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Podziel się na Twitter</source>
+				<target>Поделиться на Twitter</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dodaj do Ulubionych</source>
+				<target>Добавить в Избранное</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

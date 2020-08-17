@@ -1,0 +1,16 @@
+Language: 
+  Language_Sk: 
+    culture: pl_PL
+    name: Słowacka
+    shortcut: sk
+    active_image: sk_active.png
+    inactive_image: sk_inactive.png
+    active: 0
+    language: sk
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Sk:
+    id: Language_Sk
+    culture: en_US
+    name: Slovak

@@ -1,0 +1,19 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-marrone-1.jpg
+    image_small: /picture/pl_PL/baner-marrone-1-small.jpg
+    is_active: 1
+    opt_culture: pl_PL
+  SlideBanner_2:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-marrone-2.png
+    image_small: /picture/pl_PL/baner-marrone-2-small.png
+    is_active: 1
+    opt_culture: pl_PL
+  SlideBanner_3:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-marrone-3.png
+    image_small: /picture/pl_PL/baner-marrone-3-small.png
+    is_active: 1
+    opt_culture: pl_PL

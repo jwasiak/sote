@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2012-07-02T03:01:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ocena i recenzja zakupionych produktów</source>
+				<target>Hodnocení a recenze zakoupených produktů</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji dla produktu</source>
+				<target>Vyjadřuji svůj souhlas s opublikováním mojí recenze produktu</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Recenzje produktów niepublikowane</source>
+				<target>Neopublikované recenze produktů </target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapisz</source>
+				<target>Zapiš</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Moje konto</source>
+				<target>Moje konto</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Lista recenzji zamówień</source>
+				<target>Seznam recenzí objednávek</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Pokaż recenzje</source>
+				<target>Ukázat recenze</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Recenzje zamówień</source>
+				<target>Recenze objednávek</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Recenzje produktów</source>
+				<target>Recenze produktů</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Recenzja do zamówienia</source>
+				<target>Recenze k objednávce</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data dodania</source>
+				<target>Data přidání</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Treść</source>
+				<target>Obsah</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ocena</source>
+				<target>Hodnocení</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Publikacja</source>
+				<target>Publikace</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Aktywny</source>
+				<target>Aktivní</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>zezwolono</source>
+				<target>povolené</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>oczekuje na zezwolenie</source>
+				<target>čeká na povolení</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>tak</source>
+				<target>ano</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>oczekuje na autoryzację</source>
+				<target>čeká na autorizaci</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktualnie nie posiadasz zrecenzowanych zamówień</source>
+				<target>V současnosti nemáte žádné recenzované objednávky</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zrecenzowane</source>
+				<target>Recenzované</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj recenzję</source>
+				<target>Přidat recenzi</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Recenzja dla zamówienia nr</source>
+				<target>Recenze k objednávce č.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Lista recenzji produktów</source>
+				<target>Seznam recenzí produktů</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Recenzowany produkt</source>
+				<target>Recenzovaný produkt</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Aktualnie nie posiadasz zrecenzowanych produktów</source>
+				<target>V současnosti nemáte žádné recenzované produkty</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Administrator</source>
+				<target>Administrátor</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Produkty ocenione i zrecenzowane z tego zamówienia</source>
+				<target>Ohodnocené a recenzované produkty z této objednávky</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Dodano</source>
+				<target>Přidané</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ocena i recenzja transakcji</source>
+				<target>Hodnocení a recenze transakce</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Pozytywna</source>
+				<target>Pozitivní</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Neutralna</source>
+				<target>Neutrální</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Negatywna</source>
+				<target>Negativní</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji transakcji</source>
+				<target>Vyjadřuji svůj souhlas s opublikováním mojí recenze transakce</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Recenzje</source>
+				<target>Recenze</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Autor</source>
+				<target>Autor</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>pozytywna</source>
+				<target>pozitivní</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>neutralna</source>
+				<target>neutrální</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>negatywna</source>
+				<target>negativní</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Produkt nie posiada recenzji</source>
+				<target>Produkt dosud nebol recenzován</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak oceny produktu</source>
+				<target>Produkt nebol hodnocen</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak recenzji produktu</source>
+				<target>Produkt nebol recenzován</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>recenzji</source>
+				<target>recenze</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Recenzje użytkowników</source>
+				<target>Recenze uživatelů</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Recenzja oczekuje na publikacje</source>
+				<target>Recenze očekávající na publikaci</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Recenzja produktu</source>
+				<target>Recenze produktu</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoja ocena</source>
+				<target>Vaše hodnoceni</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Recenzja</source>
+				<target>Recenze</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Podpis</source>
+				<target>Podpis</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Cyfry z obrazka</source>
+				<target>Čísla z obrázku</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Wyślij</source>
+				<target>Odeslat</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wprowadzono zły numer.</source>
+				<target>Bylo uvedené špatné číslo.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,17 @@
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stRepairKit
+/home/jarek/src/soteshop/packages/stRepairKit/package.yml
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/update
+/home/jarek/src/soteshop/apps/update/modules
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/config
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/config/security.yml
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/actions
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/actions/actions.class.php
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/templates
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/templates/indexSuccess.php
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/templates/repairCategoriesSuccess.php
+/home/jarek/src/soteshop/apps/update/modules/stRepairKit/templates/repairAssetFoldersSuccess.php
+/home/jarek/src/soteshop/apps/update/lib
+/home/jarek/src/soteshop/apps/update/lib/stRepairKitProgressBar.class.php

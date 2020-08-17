@@ -1,0 +1,14 @@
+PaymentType: 
+  PaymentType_Eservice: 
+    created_at: 2013-07-09 09:00:00
+    updated_at: 2013-07-09 09:00:00
+    module_name: stEservice
+    active: 0
+    culture: pl_PL
+    name: eService (karta lub przelew)
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_Eservice: 
+    id: PaymentType_Eservice
+    culture: en_US
+    name: eService (card or bank transfer)

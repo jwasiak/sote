@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Akcesoria</source>
+				<target>Tilbehør</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,4 @@
+all:
+   .view:
+      theme:            
+      default_theme:    default

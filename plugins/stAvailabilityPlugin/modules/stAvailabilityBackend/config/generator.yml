@@ -1,0 +1,55 @@
+generator:
+    class:                              stAdminGenerator
+    param:
+        model_class:                    Availability
+        theme:                          simple
+        head:
+            package:                    stAvailabilityPlugin
+        applications:                   [stProduct, stQuestionPlugin]
+        list:
+            fields:
+                 list_image:            {name: Obrazek}
+            peer_method:                doSelectWithI18n
+            peer_count_method:          doCountWithI18n
+            menu:
+                display:                [list, config]
+                fields:
+                    list:               {name: Lista, action: stAvailabilityBackend/index}
+                    config:             {name: Konfiguracja, action: stAvailabilityBackend/config}
+            title:                      Lista    
+            description:                Definiuj zakresy dostępności produktów.
+            display:                    [=availability_name, _list_image, stock_from]
+            sort:                       [stock_from, asc]
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:      -
+                _delete:    -
+        fields:
+            availability_name:          {name: Nazwa, type: input_tag, params: size=50}
+            stock_from:                 {name: Stan magazynowy od}
+        edit:
+            title:                      Edycja dostępności %%availability_name%%
+            description:                Definiuj zakresy dostępności produktów.
+            display:                    [availability_name, _stock_from, _color, _image]
+            fields:
+                _stock_from:            {name: Stan magazynowy od}
+                color:                  {name: Kolor}
+                image:                  {name: Załącz/Zmień obrazek}
+            actions:
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj}
+                _delete:                {name: Usuń}
+        config:
+            menu:                       {use: list.menu}
+            title:                      Konfiguracja
+            description:                Definiuj zakresy dostępności produktów. 
+            display:                    [_show_available_only_filter, hide_products_avail_on, hide_no_card, ~hide_products_avail]
+            fields:
+                show_available_only_filter: {name: Włącz filtr "Pokaż dostępne produkty", checked: false, type: checkbox, help: Opcja ta powoduje dodanie filtru dostępności na listach produktów. Uwaga! Aktywowanie filtru wyłącza opcję <b>Ukrywaj niedostępne produkty w sklepie</b>}
+                hide_products_avail_on:     {name: Ukrywaj niedostępne produkty w sklepie, checked: false, type: checkbox}
+                hide_no_card:               {name: Nie ukrywaj karty produktu, checked: false, type: checkbox}
+                hide_products_avail:        {name: Ukryj produkty z dostępnością}
+            actions:
+                _save:                      {name: Zapisz}

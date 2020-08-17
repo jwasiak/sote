@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stAvailabilityPlugin.lib.model" noXsd="true">
+
+  <table name="st_availability" phpName="Availability" isI18N="true" i18nTable="st_availability_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="sf_asset_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="sf_asset" onDelete="setnull">
+      <reference local="sf_asset_id" foreign="id" />
+    </foreign-key>
+    <column name="stock_from" type="DECIMAL" size="8" scale="2" />
+    <column name="is_system_default" type="BOOLEAN" />
+    <column name="opt_availability_name" type="LONGVARCHAR" change_column="availability_name" />
+    <column name="color" type="VARCHAR" size="6" />
+    <column name="image" type="VARCHAR" size="255" />
+  </table>
+
+  <table name="st_availability_i18n" phpName="AvailabilityI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_availability" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="availability_name" type="VARCHAR" size="255" />
+  </table>
+
+</database>

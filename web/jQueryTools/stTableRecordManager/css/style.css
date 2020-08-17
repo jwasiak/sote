@@ -1,0 +1,13 @@
+.st_record_manager .template .actions .movedown,
+.st_record_manager .template .actions .moveup,
+.st_record_manager .template .actions .remove
+{
+   display: none;
+}
+
+.st_record_manager .actions a
+{
+   margin: 0px 1px;
+
+   float: left;
+}

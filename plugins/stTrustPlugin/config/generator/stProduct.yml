@@ -1,0 +1,47 @@
+trust_model_class: Trust
+
+custom_actions:
+    edit:                       [trust]
+
+edit:
+    menu:
+        display:                [trust]
+        fields:
+            trust:              {name: Gwarancja, action: stProduct/trustEdit?product_id=%%id%%}
+            
+   
+trust_edit:
+    forward_parameters:         [product_id]
+    build_options:
+        related_id:             forward_parameters.product_id       
+    menu:                       {use: edit.menu}        
+    description:                Zarządzanie produktami w sklepie.
+    title:                      Dodaj opisy dla produktu
+    display:      
+      "Tekst pod przyciskiem koszyka": [ field_on, field_description ]
+      "Dostawa":     [ field_f_on, field_label_f, field_sub_label_f, _icon_f, field_description_f ]
+      "Gwarancja":   [ field_s_on, field_label_s, field_sub_label_s, _icon_s, field_description_s ]
+      "Zwrot":       [ field_t_on, field_label_t, field_sub_label_t, _icon_t, field_description_t ]
+      
+    fields:              
+        field_on:            {name: Włącz}
+        field_description:   {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''}
+        field_f_on:          {name: Włącz }
+        field_label_f:       {name: Tytuł, type: input_tag, params: size=12 maxlength=10, help: "max 10 znaków"} 
+        field_sub_label_f:   {name: Podtytuł, type: input_tag, params: size=12 maxlength=12, help: "max 12 znaków"}
+        field_description_f: {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''} 
+        icon_f:              {name: Ikona, type: input_tag, params: size=20, help: "Rozmiar ikonki 30x30px"}
+        field_s_on:          {name: Włącz}
+        field_label_s:       {name: Tytuł, type: input_tag, params: size=12 maxlength=10, help: "max 10 znaków"} 
+        field_sub_label_s:   {name: Podtytuł, type: input_tag, params: size=12 maxlength=12, help: "max 12 znaków"}
+        field_description_s: {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''} 
+        icon_s:              {name: Ikona, type: input_tag, params: size=20, help: "Rozmiar ikonki 30x30px"}
+        field_t_on:          {name: Włącz}
+        field_label_t:       {name: Tytuł, type: input_tag, params: size=12 maxlength=10, help: "max 10 znaków"} 
+        field_sub_label_t:   {name: Podtytuł, type: input_tag, params: size=12 maxlength=12, help: "max 12 znaków"}
+        field_description_t: {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''} 
+        icon_t:              {name: Ikona, type: input_tag, params: size=20, help: "Rozmiar ikonki 30x30px"}
+        
+        
+    actions:       
+        _save:              {name: Zapisz}                

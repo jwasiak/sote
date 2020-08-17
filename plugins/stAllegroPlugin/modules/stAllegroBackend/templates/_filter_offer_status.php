@@ -1,0 +1,1 @@
+<?php echo select_tag('filters[status]', options_for_select(stAllegroApi::getStatusList(), isset($filters['status']) ? $filters['status'] : null, array('include_custom' => '---')), array('disabled' => isset($filters['number']) && $filters['number']));

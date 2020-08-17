@@ -1,0 +1,17 @@
+package:
+  name: stSecurityPlugin
+  stability: stable
+  version: 7.1.2.2
+  summary: Bezpieczenstwo
+  description: 'Zarzadzanie bezpieczenstwem sklepu'
+  notes: |
+     - Poprawka bezpieczenstwa
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stFrontend: 1.0.8
+    stBackend: 1.0.4
+    stRegister: 1.0.3.9

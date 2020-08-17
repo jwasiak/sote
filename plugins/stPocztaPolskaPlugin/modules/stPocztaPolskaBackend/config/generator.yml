@@ -1,0 +1,101 @@
+generator:    
+   class:                        stAdminGenerator
+   param:
+      model_class:               PocztaPolskaBufor
+      packages_model_class:      PocztaPolskaPaczka
+      sent_model_class:          PocztaPolskaPaczka
+
+      theme:                     simple
+      label:                     Poczta Polska
+      route:                     "@stPocztaPolskaBackend"
+      icon:                      /images/backend/main/icons/red/appProductAttributesPlugin.png
+
+      custom_actions:            
+         list:                   [sent, packages]
+
+      config:
+         title:                  Konfiguracja
+         menu:                   {use: list.menu}  
+         display:    
+            NONE:  [_info]
+            "Konfiguracja": [enabled, test_mode, login, password, _urzad_nadania, slownik, przesylka_biznesowa_gabaryt]
+            "Informacje o nadawcy na paczce":   [is_company, _company, name, surname, email, phone, street, house, flat, zip_code, town, region]
+            "Konfiguracja płatności":  [_payment]
+            "Rachunek dla pobrania":   [rachunek1, rachunek2, rachunek3]
+
+         fields:
+            przesylka_biznesowa_gabaryt: {name: Przesyłka biznesowa - Gabaryt, callback: st_poczta_polska_przesylka_biznesowa_gabaryt_select_tag}
+            info:          {hide_label: true}
+            enabled:       {name: Włącz, type: checkbox}
+            is_company:    {name: Firma, type: checkbox}
+            company:       {name: Nazwa firmy, required: true}
+            test_mode:     {name: Tryb testowy, type: checkbox}
+            login:         {name: Login, required: true, params: autocomplete="new-password"}
+            password:      {name: Hasło, type: password, required: true, params: autocomplete="new-password"}
+            name:          {name: Imię, required: true}
+            surname:       {name: Nazwisko, required: true}
+            region:        {name: Województwo, required: true}
+            zip_code:      {name: Kod, required: true}
+            town:          {name: Miasto, required: true}
+            phone:         {name: Telefon, required: true} 
+            street:        {name: Ulica, required: true}
+            house:         {name: Numer budynku, required: true}
+            flat:          {name: Numer lokalu}
+            email:         {name: Adres e-mail}  
+            payment:       {name: Płatność za pobraniem} 
+            urzad_nadania: {name: Domyślny urząd nadania} 
+            rachunek1:     {name: Podstawowy numer rachunku, required: true, params: size=36}
+            rachunek2:     {name: Pomocniczy numer rachunku 1, params: size=36 }   
+            rachunek3:     {name: Pomocniczy numer rachunku 2, params: size=36 }  
+            slownik:       {name: Zawartość dla opisu przesyłki, help: Poszczególne wartości rozdzielić znakiem | (wartość 1 | wartość 2 | itd...), params: size=60}
+         actions:
+            _save:         {name: Zapisz}
+
+      list:
+         menu:
+             display:            [bufor_list, sent_list, config]
+             fields:
+                  sent_list:     {name: Wysłane, action: @stPocztaPolskaBackend?action=sentList}
+                  bufor_list:    {name: Do wysłania, action: @stPocztaPolskaBackend?action=list}
+                  config:        {name: Konfiguracja, action: @stPocztaPolskaBackend?action=config}
+         use_helper:       [stPocztaPolska]
+         title:            Do wysłania
+         display:          [=data_nadania, urzad_nadania, count_paczka, sent]
+         fields:
+            data_nadania:  {name: Data nadania, params: link_to="@stPocztaPolskaBackend?action=packagesList&bufor_id=%%bufor_id%%"}
+            urzad_nadania: {name: Urząd nadania, callback: st_poczta_polska_list_urzad_nadania}
+            count_paczka:  {name: Ilość przesyłek}
+            sent:          {name: "", callback: st_poczta_polska_list_bufor_sent}
+
+         select_actions:   []
+         custom_actions:   []
+         actions:          []  
+
+      packages_list:
+         menu:                -
+         use_helper:          [stPocztaPolska]
+         forward_parameters:  [bufor_id]
+         title:               Do wysłania
+         display:             [numer_nadania, guid, order_number, actions]
+         fields:
+            numer_nadania:    {name: Numer nadania}
+            order_number:     {name: Zamówienie, callback: st_poczta_polska_list_order_number}
+            actions:          {name: "", callback: st_poczta_polska_package_list_actions}
+         actions:          
+            _delete:          -
+
+
+      sent_list:
+         use_helper:       [stPocztaPolska]
+         title:            Wysłane
+         display:          [numer_nadania, order_number, actions]
+         fields:
+            numer_nadania: {name: Numer nadania}
+            order_number:  {name: Zamówienie, callback: st_poczta_polska_list_order_number}
+            actions:       {name: "", callback: st_poczta_polska_sent_list_actions}
+         menu:             {use: list.menu}
+
+         select_actions:   []
+         custom_actions:   []
+         actions:          []     
+      

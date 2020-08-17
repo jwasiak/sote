@@ -1,0 +1,134 @@
+propel:
+  st_product_options_template: 
+    _attributes:
+      phpName: ProductOptionsTemplate
+      isI18N: true
+      i18nTable: st_product_options_template_i18n
+    opt_name: {change_column: name}
+        
+  st_product_options_template_i18n:
+    _attributes: 
+      phpName: ProductOptionsTemplateI18n
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      foreignTable: st_product_options_template
+      foreignReference: id
+      onDelete: cascade
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    name: 
+      type: VARCHAR
+      size: 255
+
+  st_product_options_field: 
+    _attributes: 
+      phpName: ProductOptionsField
+      isI18N: true
+      i18nTable: st_product_options_field_i18n
+    opt_name: {change_column: name}
+    opt_default_value: {change_column: default_value}
+
+  st_product_options_field_i18n: 
+    _attributes: 
+      phpName: ProductOptionsFieldI18n
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product_options_field
+      foreignReference: id
+      onDelete: cascade      
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    name: 
+      type: VARCHAR
+      size: 128
+    default_value: 
+      type: VARCHAR
+      size: 128   
+
+  st_product_options_default_value: 
+    _attributes: 
+      phpName: ProductOptionsDefaultValue
+      isI18N: true
+      i18nTable: st_product_options_default_value_i18n
+    opt_value: {change_column: value}
+
+  st_product_options_default_value_i18n: 
+    _attributes: 
+      phpName: ProductOptionsDefaultValueI18n
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product_options_default_value
+      foreignReference: id
+      onDelete: cascade      
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    value: 
+      type: VARCHAR
+      size: 128
+
+  st_product_options_value: 
+    _attributes: 
+      phpName: ProductOptionsValue
+      isI18N: true
+      i18nTable: st_product_options_value_i18n
+    opt_value: {change_column: value}
+
+  st_product_options_value_i18n:
+    _attributes: 
+      phpName: ProductOptionsValueI18n
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product_options_value
+      foreignReference: id
+      onDelete: cascade      
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    value: 
+      type: VARCHAR
+      size: 128
+
+  st_product_options_filter: 
+    _attributes: 
+      phpName: ProductOptionsFilter
+      isI18N: true
+      i18nTable: st_product_options_filter_i18n
+    opt_name: {change_column: name}
+
+  st_product_options_filter_i18n:
+    _attributes: 
+      phpName: ProductOptionsFilterI18n
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product_options_filter
+      foreignReference: id
+      onDelete: cascade      
+    culture:
+      isCulture: true
+      primaryKey: true
+      type: VARCHAR
+      size: 7
+    name: 
+      type: VARCHAR
+      size: 128

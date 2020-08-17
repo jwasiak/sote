@@ -1,0 +1,26 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stNavigationPlugin.lib.model
+  st_guard_user_has_navigation: 
+    _attributes: 
+      phpName: GuardUserHasNavigation
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_guard_user_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: restrict
+    products: 
+      type: LONGVARCHAR

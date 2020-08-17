@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2011-11-04T01:50:23Z">
+		<body>
+			<trans-unit id="1">
+				<source>Schowek elementów</source>
+				<target>Zwischenablage für Elemente</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Schowek</source>
+				<target>Zwischenablage</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Panel administracyjny</source>
+				<target>Administrationsbereich</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Przywróć domyślny wygląd tematu</source>
+				<target>Standardansicht des Themas wiederherstellen</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Użycie tej opcji spowoduje przywrócenie pierwotnego wyglądu strony. Czy jesteś pewien, że chcesz przywrócić oryginalny wygląd?</source>
+				<target>Diese Option stellt die Originalansicht der Seite wieder. Sind Sie sicher, dass Sie die Originalansicht wiederherstellen möchten?</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Przywróć pierwotny obraz tego elementu.</source>
+				<target>Originalbild dieses Elements wiederherstellen.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Edytuj właściwości obrazu.</source>
+				<target>Bildeigenschaften bearbeiten</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Pobierz ten obraz na mój komputer.</source>
+				<target>Dieses Bild auf meinen Computer herunterladen.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Wybierz plik graficzny na lokalnym komputerze, który ma zostać wstawiony w ten element strony.</source>
+				<target>Wählen Sie die Grafikdatei auf dem lokalen Computer, die in dieses Seitenelement eingefügt werden soll.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Załaduj</source>
+				<target>Laden</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dopasuj wielkość obrazu do elementu strony.</source>
+				<target>Bildgröße an das Seitenelement anpassen.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dopasuj wielkość elementu strony do obrazu.</source>
+				<target>Seitenelementgröße an das Bild anpassen.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Selektor</source>
+				<target>Wahlschalter</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>definicja stylu</source>
+				<target>Formatvorlagendefinition</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapisz zmiany</source>
+				<target>Änderungen speichern</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Szerokość:</source>
+				<target>Breite:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wysokość:</source>
+				<target>Höhe:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Nazwa pliku nie może zawierać polskich znaków dialektyczny oraz spacji.</source>
+				<target>Der Dateiname darf keine polnischen diakritischen Zeichen oder Leerzeichen enthalten.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Edytujesz temat</source>
+				<target>Themabearbeitung</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kliknij dwukrotnie aby podmienić obraz.</source>
+				<target>Doppelklicken Sie, um das Bild zu wechseln.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Konfiguracja grafiki</source>
+				<target>Grafikkonfiguration</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zastosuj konfigurację</source>
+				<target>Konfiguration übernehmen</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ustaw jako domyślny</source>
+				<target>Als Standard festlegen</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Włącz autoukrywanie</source>
+				<target>Automatisch ausblenden</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Oglądasz temat</source>
+				<target>Sie sehen das Thema</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Twoje zmiany zostały zastosowane do aktualnego tematu</source>
+				<target>Ihre Änderungen wurden in das aktuelle Thema übernommen</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,17 @@
+all:
+  sfStats:
+    categories:
+      orders:
+        name:       Zamówienia
+        items:
+          orders_by_time:           { name: Ilość zamówień, class: OrderPeer, column: created_at }
+          
+      products:
+        name:       Produkty
+        items:
+          products_by_time:         { name: Ilość dodanych produktów, class: ProductPeer, column: created_at }
+
+      users:
+        name:       Użytkownicy
+        items:
+          users_by_time:            { name: Ilość nowych klientów, class: UserDataPeer, column: created_at, criteriaGetter: "UserDataPeer::getUsersByTime"}

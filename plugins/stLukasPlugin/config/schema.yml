@@ -1,0 +1,26 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stLukasPlugin.lib.model
+  st_lukas_product: 
+    _attributes: 
+      phpName: LukasProduct
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    disable: 
+      type: BOOLEAN
+      required: true

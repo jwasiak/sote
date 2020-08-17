@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Uzupełnij pole</source>
+                <target>Fill in the field</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Proszę poprawnie uzupełnić pole. Proszę podawać tylko wartości liczbowe.</source>
+                <target>Fill in the field correctly. Enter the numerical values only.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Proszę poprawnie uzupełnić pole. Miminalna ilość kolumn to 1.</source>
+                <target>Fill in the field correctly. The minimum number of columns is 1.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Proszę poprawnie uzupełnić pole. Maksymalna ilość kolumn to 20.</source>
+                <target>Fill in the field correctly. The maximum number of columns is 20.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Konfiguracja płatności Przelewy24.</source>
+                <target>Configure the Przelewy24 payment.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Identyfikator</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Włącz tryb testowy</source>
+                <target>Enable the test mode</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Pokaż listę płatności</source>
+                <target>Show the payment list</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Ilość kolumn z polami na liście</source>
+                <target>Number of columns with the fields on the list</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Płatność przez serwis przelewy24.pl</source>
+                <target>Przelewy24.pl payment</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Id sprzedawcy</source>
+                <target>Account Id</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Klucz do CRC</source>
+                <target>CRC key</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Tryb testowy</source>
+                <target>Test mode</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Wystąpił problem z połączeniem sprawdź czy podane dane są prawidłowe</source>
+                <target>We couldn't connect to service check your configuration</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Przekierowuje automatycznie na stronę płatności po złożeniu zamówienia</source>
+                <target>Automatically redirects to the payment page after placing an order</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Automatyczne przekierowanie</source>
+                <target>Auto redirect</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,22 @@
+{set layout="one_column_layout"}
+
+<div id="st_application-st_basket-index" class="box roundies">
+	<div id="st_navigation_bar-user" class="st_navigation_bar_user">
+		<ul>
+	    	<li class="st_first"><a href="/user_data/userPanel">{__ text="Moje konto"}</a></li>
+	    	<li class="st_selected"><a href="/order/list">{__ text="Lista zamówień"}</a></li>
+		</ul>
+	</div>    
+    
+    <div class="st_content order_padding"> 
+        {if isset($pager)}
+            {$pager_results}
+        {else}
+            <div class="roundies box_form">
+    		<div class="content">
+        	<p style="text-align: center">{__ text="Aktualnie nie posiadasz żadnych zamówień"}</p>
+        	</div>
+        </div>
+        {/if}
+    </div>
+</div>

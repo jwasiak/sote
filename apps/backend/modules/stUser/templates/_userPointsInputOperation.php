@@ -1,0 +1,1 @@
+<input type="text" class="support" size="7" value="<?php echo $points; ?>" id="sf_guard_user_points" name="sf_guard_user[user_points]">

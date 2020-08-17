@@ -1,0 +1,16 @@
+---
+package: 
+  name: stOferciakPlugin
+  stability: stable
+  version: 2.0.1
+  summary: Oferciak
+  description: Zarzadzanie porownywarka cen Oferciak
+  notes: |
+    - Aktualizacja
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stPriceCompare: 1.0.3

@@ -1,0 +1,21 @@
+lukas_model_class:          LukasProduct
+
+custom_actions:
+    edit:                   [lukas]
+
+lukas_create:
+    title:                  Ustawienia produktu dla płatnosci Credit Agricole Raty.
+
+lukas_edit:
+    forward_parameters:     [product_id]
+    build_options:
+        related_id:         forward_parameters.product_id
+    menu:                   {use: edit.menu}
+    description:            Zarządzanie produktami w sklepie.
+    title:                  Ustawienia produktu dla płatnosci Credit Agricole Raty.
+    display:                
+        " ":                [_is_lukas_disable]
+    fields:
+        is_lukas_disable:   {name: Wyłącz możliwość zakupu}
+    actions:
+        _save:              {name: Zapisz}

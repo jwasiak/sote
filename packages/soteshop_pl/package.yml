@@ -1,0 +1,33 @@
+package:
+    name: soteshop_pl
+    stability: stable
+    version: 6.9.7
+    summary: 'SOTESHOP - Poland'
+    description: 'SOTESHOP - Poland'
+    notes: 'Release 6.9.7'
+    maintainers:
+        'Marek Jakubowicz':
+            role: lead
+            user: marek
+            email: marek.jakubowicz@sote.pl
+    dependency:
+        soteshop_base: 6.9.6
+        stAllegroPlugin: 7.5.0.58
+        stBazzarPlugin: 1.2.0.0
+        stCeneoPlugin: 7.0.7.6
+        stDotpayPlugin: 7.1.0.10
+        stEcardPlugin: 7.1.0.7
+        stEservicePlugin: 7.1.0.3
+        stHandeloPlugin: 1.2.0.0
+        stLukasPlugin: 7.2.3.3
+        stNokautPlugin: 2.0.0.1
+        stOferciakPlugin: 2.0.1
+        stOkazjePlugin: 2.0.0.3
+        stOnetPlugin: 1.2.0.0
+        stPlatnosciPlPlugin: 7.2.1.4
+        stPolcardPlugin: 7.2.0.6
+        stPrzelewy24Plugin: 7.1.1.2
+        stRadarPlugin: 2.0.0.0
+        stSklepy24Plugin: 2.0.0.0
+        stWpPlugin: 1.2.0.0
+        stZakupomatPlugin: 2.0.1

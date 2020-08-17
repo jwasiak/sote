@@ -1,0 +1,29 @@
+generator:
+    class:                       stAdminGenerator
+    param:
+        model_class:             BackendAlert
+        theme:                   simple
+        
+        head:
+            package:             stReminderPlugin     
+            title:               Wiadomości panelu administracyjnego
+            description:         Przeglądanie wiadomości panelu administracyjnego
+        
+
+        fields:
+            id:                  {name: ID}
+            name:                {name: Wiadomość}
+            updated_at:          {name: Data}
+                            
+        list:
+            display:             [updated_at, name]
+            title:               Lista wiadomości panelu administracyjnego
+            description:         Przeglądanie wiadomości panelu administracyjnego
+            peer_method:         doSelectActive
+            peer_count_method:   doCountActive
+            object_actions:
+                _edit:           -
+                _delete:         -
+            actions:
+                _add:            -
+                

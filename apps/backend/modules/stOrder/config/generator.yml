@@ -1,0 +1,159 @@
+generator:
+  class:                            stAdminGenerator
+  param:
+    model_class:                    Order
+    order_status_model_class:       OrderStatus
+    theme:                          simple
+    applications:                   [stPayment, stInvoicePlugin, stUser]
+    custom_actions:
+        list:                       [order_status]
+        edit:                       [order_status]
+    order_status_list:
+        title:                      Statusy
+        display:                    [name, _order_status_type, is_default, has_mail_notification, has_coupon_code]
+        fields:
+            name:                   {name: Nazwa}
+            order_status_type:      {name: Rodzaj}
+            is_default:             {name: Domyślny}
+            has_mail_notification:  {name: Powiadomienie e-mail}
+            has_coupon_code:        {name: Dołącz kod rabatowy}
+        menu:                       {use: list.menu}
+        actions:
+            _create:                {name: Dodaj}
+        object_actions:
+            _edit:                  -
+            _delete:                -
+
+    order_status_edit:
+        title:                      Edycja statusu %%name%%
+        display:
+          "NONE":                     [name, ~order_status_type, _is_default]
+          "Powiadomienie e-mail":     [has_mail_notification, _order_status_description, _attach_coupon_code]
+          "Kod rabatowy":             [_coupon_code_discount, _coupon_code_valid_for]
+          "Faktura":                  [has_invoice_proforma, has_invoice]
+        menu:                         {use: list.menu}
+        fields:
+            name:                     {name: Nazwa, type: input_tag}
+            order_status_type:        {name: Rodzaj}
+            is_default:               {name: Domyślny, help: "Domyślny status jest ustawiany dla każdego nowo złożonego zamówienia. <br/>Domyślnym statusem może być wyłącznie status rodzaju <b>oczekuje</b>"}
+            has_mail_notification:    {name: Wysyłaj powiadomienie e-mail, help: Powiadomienie e-mail wysyłane jest w momencie wybrania statusu w zamówieniu}
+            attach_coupon_code:       {name: Dołącz kod rabatowy, type: checkbox_tag, help: "Do powiadomienia e-mail zostanie dołączony jednorazowy kod rabatowy.<br/>Kod rabatowy może być generowany wyłącznie dla statusów rodzaju <b>zrealizowane</b>"}
+            has_invoice_proforma:     {name: Dołącz link do faktury proforma, type: checkbox_tag, help: Do powiadomienia e-mail zostanie dołączony link do faktury proforma}
+            has_invoice:              {name: Dołącz link do faktury, type: checkbox_tag, help: Do powiadomienia e-mail zostanie dołączony link do faktury}
+            coupon_code_discount:     {name: Rabat}
+            coupon_code_valid_for:    {name: Ważny przez, help: "Określa ilość dni, po upływie których, wygenerowany kod rabatowy staje się nieważny.<br/>Wartość 0 oznacza brak limitu"}
+            order_status_description: {name: Opis}
+        actions:
+            _list:                  {name: Statusy, i18n: stOrder}
+            _save:                  {name: Zapisz}
+            _save_and_add:          {name: Zapisz i dodaj nowy}
+            _delete:                {name: Usuń}
+
+    list:
+        use_helper:                 [stOrder]
+        title:                      Lista
+        display:                    [=number, created_at, opt_order_status, is_confirmed, _is_payed, client, ~review_list_status, _total_amount]
+        mark_as:                    true
+        # width:                      890px
+        fields:
+            number:                 {name: Numer, params: size=10}
+            client:                 {name: Klient, callback: st_order_client_name, filterable: false}
+            total_amount:           {name: Kwota, sort_field: order.opt_total_amount, filterable: false}
+            opt_order_status:       {name: Status, params: truncate_text=30}
+            created_at:             {name: Złożone, filterable: false}
+            is_confirmed:           {name: Potwierdzone, filterable: false}
+            is_payed:               {name: Opłacone, sort_field: order.opt_is_payed, align: left, filterable: false}
+            review_list_status:     {name: Recenzja, module: stReview}
+            order_product:          {name: Produkt, filterable: false, i18n: stProduct}
+            payment:                {name: Płatność}
+            delivery:               {name: Dostawa}
+
+
+        sort:                       [created_at, desc]
+        menu:
+            display:                [list, order_status]
+            fields:
+                list:               {name: Lista, action: @stOrderDefault}
+                order_status:       {name: Statusy, action: stOrder/orderStatusList}
+                config:             {name: Konfiguracja, action: stOrder/config}
+        actions:                    []
+        filters:
+            client:                 {partial: filter_client}
+            total_amount:           {filter_field: order.opt_total_amount}
+            opt_order_status:       {partial: filter_order_status}
+            is_payed:               {partial: filter_is_payed}
+            is_confirmed:           {partial: filter_is_confirmed}
+            order_product:          {partial: filter_order_product}
+            created_at:             {empty: false}
+            payment:                {partial: filter_payment}
+            delivery:               {partial: filter_delivery}
+            discount_coupon_code:   {name: Kod rabatowy, partial: filter_discount_coupon_code}
+            gift_card_coupon_code:  {name: Bon zakupowy, partial: filter_gift_card_code}
+
+        additional_filters:         [created_at, order_product, total_amount, client, is_payed, is_confirmed, payment, delivery, discount_coupon_code, gift_card_coupon_code]
+        select_actions:
+            display:
+                "NONE":             []
+                "Status":           { callback: OrderStatusPeer::doSelectCachedArray, action: bulkStatusUpdate }
+                "Opłacone":         { actions: { 1: Tak, 0: Nie }, action: bulkPaymentStatusUpdate }
+                "Potwierdzone":     { actions: { 1: Tak, 0: Nie }, action: bulkConfirmedStatusUpdate }
+            actions:
+                _delete:            -
+        object_actions:
+            _edit:                  -
+            _delete:                -  
+        peer_method:                doSelectJoinOrderCurrency
+    edit:
+        old_config:
+            "Punkty":               true
+        title:                      Edycja zamówienia numer %%number%%
+        use_helper:                 [stOrder]
+        display:                    
+            "Allegro":              [opt_allegro_checkout_form_id, opt_allegro_nick]
+            "NONE":                 [_order_status_id, created_at, _sf_guard_user, _is_confirmed, ~proforma, ~invoice]
+            "Dane klienta":         [_user_info]
+            "Zawartość":            [_order_products]
+            "Dostawa":              [_delivery]
+            "Płatność":             [~payment]
+            "Punkty":               [~points_spend, ~points_earn, ~points_status]
+            "Podsumowanie":         [_total_amount_summary]
+            "Informacje Dodatkowe": [_description, merchant_notes, _show_opinion]
+
+        fields:
+            opt_allegro_checkout_form_id: {name: Numer zamówienia, type: plain, i18n: stAllegroBackend}
+            opt_allegro_nick:       {name: Nazwa użytkownika, type: plain, i18n: stAllegroBackend}
+            order_status_id:        {name: Status, params: text_method=getNameWithMailNotification}
+            culture:                {name: Złożone w języku}
+            amount_to_pay:          {name: Do zapłaty}
+            sf_guard_user:          {name: Klient}
+            created_at:             {name: Złożone, type: plain}
+            user_info:              {hide_label: true}
+            order_products:         {hide_label: true}
+            delivery:               {hide_label: true}
+            payment:                {name: Płatność, hide_label: true}
+            total_amount_summary:   {hide_label: true}
+            discount_coupon_code:   {name: Kod rabatowy}
+            is_confirmed:           {name: Potwierdzone}
+            proforma:               {name: Faktura proforma}
+            invoice:                {name: Faktura VAT}
+            points_spend:           {name: Wydane}
+            points_earn:            {name: Zarobione}
+            points_status:          {name: Rozliczone}
+            description:            {name: Uwagi od klienta}
+            order_discount:         {name: Udzielony rabat}
+            merchant_notes:         {name: Notatki sprzedawcy, help: Notatki sprzedawcy nie są widoczne dla klienta, params: size=60x6}
+            show_opinion:           {name: Zgoda na przesyłanie danych w celu zbadania opinii}
+        actions:
+            _delete:                {name: Usuń}
+            _list:                  {name: Lista}
+            _save:                  {name: Zapisz}
+            _printPdf:              {name: Pobierz zamówienie, action: printPdf, i18n: stOrder}
+    config:
+        title:                      Konfiguracja
+        display:                    
+            "NONE":                 [number_format, _min_amount]
+        fields:
+            number_format:          {name: Format numeru zamówienia, params: size=50, help: "Dostępne parametry: {NUMER}, {DZIEN}, {MIESIAC}, {ROK}", i18n: stOrder}
+            min_amount:             {name: Minimalna wartość zamówienia, help: Wartość 0 oznacza brak progu}
+        actions:
+            _save:                  {name: Zapisz konfigurację, i18n: stOrder}

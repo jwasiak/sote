@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2011-11-10T03:22:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wystąpił problem podczas realizowania płatności za pośrednictwem serwisu Paypal.</source>
+				<target>Počas realizácie platby prostredníctvom servisu Paypal sa objavil problém.</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności. Twoje zamówienie zostanie zrealizowane po otrzymaniu płatności.</source>
+				<target>Ďakujeme za zrealizovanie platby. Vaša objednávka bude zrealizovaná po obdržaní uhradenej čiastky.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zamówienie zostało już opłacone.</source>
+				<target>Objednávka už bola uhradená.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>%shop% - zamówienie numer: %no%</source>
+				<target>%shop% - objednávka číslo: %no%</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać w systemie PayPal</source>
+				<target>Zaplatiť prostredníctvom systému PayPal</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zamówienie numer %number%</source>
+				<target>Objednávka č.: %number%</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Przejdź do strony głównej</source>
+				<target>Prejdi na hlavnú stranu</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa nie jest możliwa do wskazanego kraju</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

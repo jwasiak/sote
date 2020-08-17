@@ -1,0 +1,1 @@
+<?php echo select_tag($name, options_for_select(stPocztaPolskaClient::getRodzajZagraniczna(), $value));

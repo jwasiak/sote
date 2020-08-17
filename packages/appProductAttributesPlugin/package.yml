@@ -1,0 +1,13 @@
+package:
+  name: appProductAttributesPlugin
+  stability: stable
+  version: 7.1.1.20
+  summary: Atrybuty produktow
+  description: Atrybuty produktow
+  notes: |
+    - Dostosowanie pakietu na potrzeby modyfikacji
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

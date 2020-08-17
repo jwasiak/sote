@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2014-05-01T00:00:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wybierz Paczkomat</source>
+                <target>Select Paczkomat</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Podaj kod pocztowy</source>
+                <target>Post code</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Podany kod pocztowy jest nieprawidłowy.</source>
+                <target>The post code is invalid.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Szukaj</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wybierz miasto</source>
+                <target>City</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>wszystkie lokalizacje</source>
+                <target>all locations</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Zmień Paczkomat</source>
+                <target>Change Paczkomat</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Dostawa Paczkomaty</source>
+                <target>Paczkomaty delivery</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Proszę wybrać Paczkomat.</source>
+                <target>Please select Paczkomat.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Paczkomat</source>
+                <target>Paczkomat</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wybierz z listy</source>
+                <target>Select from list</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Wybierz</source>
+                <target>Selec</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

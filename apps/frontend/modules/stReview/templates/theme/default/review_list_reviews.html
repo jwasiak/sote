@@ -1,0 +1,52 @@
+<div id="st_application-st_review-list_reviews">
+
+    <table id="review_table" cellpadding="5" cellspacing="1" border="0">
+        <tr>
+
+            <th>{__ text="Recenzje użytkowników"}</th>
+            <th>{__ text="Dodano"}</th>
+        </tr>
+
+        {foreach key=row item=review from=$results}
+            {if isset($review.show_review)}
+
+                    {if $review.description!="" && $review.language!=$culture && $review.author==""}
+
+                    {elseif  $review.description!=""}
+                        <tr>
+
+                            <td class="review_description" >
+                                {section name=foo loop=$review.score}
+                                    <img src="/images/frontend/theme/default2/star_icon.png" width="10" >
+                                {/section}
+
+                                {if $review.author}
+                                <em>{$review.author}</em>
+                                {/if}
+
+                                {if $review.user_ip==true && $review.agreement!=1}
+                                - <b>{__ text="Recenzja oczekuje na publikacje"}</b>
+                                {/if}
+                                <br/>
+                                {if $review.language==$culture}
+                                    {$review.description}
+                                {/if}
+                            </td>
+                            <td class="review_create">{$review.created_at}</td>
+
+                        </tr>
+                    {/if}
+
+
+
+            {/if}
+
+        {/foreach}
+
+    </table>
+    {if empty($results)}
+        <div id="st_review-show-no_reviews">
+            {__ text="Produkt nie posiada recenzji"}.
+        </div>
+    {/if}
+</div>

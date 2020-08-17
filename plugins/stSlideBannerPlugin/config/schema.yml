@@ -1,0 +1,81 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stSlideBannerPlugin.lib.model
+  st_slide_banner: 
+    _attributes: 
+      phpName: SlideBanner
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    language_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_language
+      foreignReference: id
+      onDelete: restrict
+    image: 
+      type: VARCHAR
+      size: 255
+      required: false
+    image_small: 
+      type: VARCHAR
+      size: 255
+      required: false
+    banner_type: 
+      type: INTEGER
+      required: true
+      default: 0    
+    link: 
+      type: VARCHAR
+      size: 255
+    group_name: 
+      type: VARCHAR
+      size: 255        
+    description: 
+      type: LONGVARCHAR
+    banner_title: 
+      type: VARCHAR
+      size: 255  
+    banner_description: 
+      type: LONGVARCHAR  
+    button_text: 
+      type: VARCHAR
+      size: 255
+    button_link: 
+      type: VARCHAR
+      size: 255
+    banner_description_position:
+      type: INTEGER
+      required: true
+      default: '0'
+    banner_margin_left: 
+      type: VARCHAR
+      size: 255    
+    banner_margin_right:
+      type: VARCHAR
+      size: 255      
+    is_active: 
+      type: BOOLEAN
+      required: true
+      default: true
+    opt_culture: 
+      type: VARCHAR
+      size: 7
+      required: true
+    rank: 
+      type: INTEGER  
+    _indexes: 
+      opt_culture_idx: 
+        - opt_culture
+      is_active_idx: 
+        - is_active
+      group_name_idx:  
+        - group_name

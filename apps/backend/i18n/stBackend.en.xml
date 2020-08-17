@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dodaj gadżet</source>
+                <target>Add widget</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Dokumentacja</source>
+                <target>Documentation</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Dodatkowe aplikacje</source>
+                <target>Additional applications</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zadania</source>
+                <target>Task</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wyczyść pamięć podręczną</source>
+                <target>Clear Cache</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wyczyść fast cache</source>
+                <target>Clear the cache fast</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Aktualizacja</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Bezpieczeństwo</source>
+                <target>Security</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Integracje</source>
+                <target>Integrations</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Edycja tekstu</source>
+                <target>Edit text</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Płatności</source>
+                <target>Payments</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Waluty</source>
+                <target>Curency</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Wersje językowe</source>
+                <target>Languages</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Stawki VAT</source>
+                <target>Taxes</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Dostępność</source>
+                <target>Availability</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Mapa serwisu</source>
+                <target>Site map</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Nawigacja</source>
+                <target>Navigation</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Konfiguracja zdjęć</source>
+                <target>Configure image</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Migracja danych</source>
+                <target>Data migration</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Wyszukiwarka</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Boksy informacyjne</source>
+                <target>Information boxes</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Teksty</source>
+                <target>Texts</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Nowości</source>
+                <target>News</target>
+            </trans-unit> 
+            <trans-unit id="26">
+                <source>szukaj</source>
+                <target>search</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>http://www.sote.pl/category/aplikacje</source>
+                <target>http://www.soteshop.com/category/applications</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Społeczność</source>
+                <target>Society</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Banery</source>
+                <target>Banners</target>
+            </trans-unit> 
+            <trans-unit id="30">
+                <source>Informacje</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Ostatnio dodane recenzje produktów</source>
+                <target>Recently added products reviews</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Gadżet informujący o ostatnio dodanych recenzjach produktów.</source>
+                <target>Widget informing about the recently added products reviews.</target>
+            </trans-unit> 
+            <trans-unit id="33">
+                <source>Użytkownicy</source>
+                <target>Users</target>
+            </trans-unit>     
+            <trans-unit id="34">
+                <source>zobacz więcej</source>
+                <target>see more</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Wszystkie</source>
+                <target>All</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Zamówienia</source>
+                <target>Orders</target>
+            </trans-unit> 
+            <trans-unit id="37">
+                <source>Finanse</source>
+                <target>Finance</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Różne</source>
+                <target>Various</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Katalog gadżetów</source>
+                <target>Widgets catalogue</target>
+            </trans-unit> 
+            <trans-unit id="40">
+                <source>http://www.sote.pl</source>
+                <target>http://www.soteshop.com</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Rozwiń</source>
+                <target>Unfold</target>
+            </trans-unit> 
+            <trans-unit id="42">
+                <source>Minimalizuj</source>
+                <target>Minimize</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Odśwież</source>
+                <target>Refresh</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Edytuj</source>
+                <target>Edit</target>
+            </trans-unit> 
+            <trans-unit id="45">
+                <source>Usuń</source>
+                <target>Remove</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Ustaw jako domyślny</source>
+                <target>Set as default</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Edytuj pulpit</source>
+                <target>Edit dashboard</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Usuń pulpit</source>
+                <target>Remove dashboard</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Dodaj pulpit</source>
+                <target>Add dashboard</target>
+            </trans-unit> 
+            <trans-unit id="50">
+                <source>Edycja pulpitu</source>
+                <target>Edit dashboard</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit> 
+            <trans-unit id="53">
+                <source>Nowy pulpit</source>
+                <target>New dashboard</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Układ</source>
+                <target>Layout</target>
+            </trans-unit> 
+            <trans-unit id="55">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Nazwa gadżetu</source>
+                <target>Widget's name</target>
+            </trans-unit> 
+            <trans-unit id="58">
+                <source>Kolor gadżetu</source>
+                <target>Widget's color</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Odświeżaj</source>
+                <target>Refresh</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Jesteś pewien, że chcesz usunać wybrany pulpit?</source>
+                <target>Are you sure you want to remove the selected dashboard?</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Jesteś pewien, że chcesz usunać wybrany gadżet?</source>
+                <target>Are you sure you want to remove the selected widget?</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Anuluj</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Element pokazujący ostatnie zamówienia jakich dokonano w sklepie.</source>
+                <target>Element informing about the last orders placed ​​in the shop.</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Co 5 minut</source>
+                <target>Every 5 minutes</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Co 15 minut</source>
+                <target>Every 15 minutes</target>
+            </trans-unit> 
+            <trans-unit id="66">
+                <source>Co 30 minut</source>
+                <target>Every 30 minutes</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Co 1 godzinę</source>
+                <target>Every 1 hour</target>
+            </trans-unit> 
+            <trans-unit id="68">
+                <source>Ostatnio sprzedane produkty</source>
+                <target>Recently sold products</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Element pokazujący ostatnie sprzedane produkty.</source>
+                <target>Element informing about the recently sold products.</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Kursy walut</source>
+                <target>Exchange rates</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Gadżet wyświetlający aktualne, średnie kursy walut obcych w złotych.</source>
+                <target>Widget displaying the current, average foreign exchange rates.</target>
+            </trans-unit> 
+            <trans-unit id="72">
+                <source>Notowania giełdowe</source>
+                <target>Exchange quotations</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Gadżet został przygotowany przez Polski Portal Finansowy Bankier.pl. Gadżet wyświetla notowania indeksów WIG20, DAX, NASDAQ, notowania akcji BANKIER.PL oraz kursy USD, EUR, CHF i WIBOR 3M. Notowania wszystkich papierów wartościowych, indeksów GPW i zagranicznych i walut NBP znajdziesz na stronach www.bankier.pl</source>
+                <target>Widget has been prepared by the Polish Financial Portal Bankier.pl. Widget displays quotes WIG20, DAX, NASDAQ, BANKIER.pl stock quotation and exchange rates USD, EUR, CHF i WIBOR 3M. You can also finf quotations of all securities, GPW and foreign indexes and NBP currencies at www.bankier.pl</target>
+            </trans-unit> 
+            <trans-unit id="74">
+                <source>Gadżet umożliwia podgląd wiadomości na facebooku oraz aktualizaowanie statusów.</source>
+                <target>Widget allows to see messages on Facebook and update your status.</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Ostatnio zarejestrowani użytkownicy</source>
+                <target>Recently registered users</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Element pokazujący ostatnio Zarejestrowanych użytkowników w sklepie.</source>
+                <target>Element informing about the recently registered users.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Dokumenty iGoogle</source>
+                <target>iGoogle documents</target>
+            </trans-unit> 
+            <trans-unit id="78">
+                <source>Wyświetl swoje aktywne dokumenty Google.</source>
+                <target>View your active Google documents.</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Tłumacz google</source>
+                <target>Google translator</target>
+            </trans-unit> 
+            <trans-unit id="80">
+                <source>Gadżet Google Tłumacz umożliwia tłumaczenie między najpopularniejszymi językami świata</source>
+                <target>Widget Google translator supports translation between the most popular world languages</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Kalkulator google</source>
+                <target>Google calculator</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Ten gadżet realizuje różnorodne zadania, poczynając od wykonywania prostych obliczeń za pomocą kalkulatora standardowego.</source>
+                <target>This widget helps in a variety of tasks, starting from performing simple calculations using a standard calculator.</target>
+            </trans-unit> 
+            <trans-unit id="83">
+                <source>Zegar google</source>
+                <target>Google clock</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Dodaj zagar do swojej strony.</source>
+                <target>Add clock to your page.</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Kalendarz iGoogle</source>
+                <target>iGoogle calendar</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Oficjalny gadżet Kalendarza Google</source>
+                <target>Official Google Calendar widget</target>
+            </trans-unit> 
+            <trans-unit id="87">
+                <source>Notowania Money.pl</source>
+                <target>Money.pl quotations</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Gadzet wyswietlajacy notowania WIG20 WIG oraz kursy CHF EUR GBP USD z portalu Money.pl</source>
+                <target>Widget displaying quotes WIG20 WIG and rates CHF EUR GBP USD from Money.pl</target>
+            </trans-unit> 
+            <trans-unit id="89">
+                <source>Skróty do aplikacji</source>
+                <target>Applications shortcuts</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Gadżet wyświetlający konfigurowalne skróty do aplikacji</source>
+                <target>Widget displaying customizable applications shortcuts</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Nowości programu Soteshop</source>
+                <target>Soteshop software news</target>
+            </trans-unit> 
+            <trans-unit id="92">
+                <source>Element pokazujący nowości dotyczące oprogramowania Sote.</source>
+                <target>Element showing the news about Sote software.</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Nie masz zainstalowanych dodatkowych aplikacji. Pobierz dodatki z</source>
+                <target>No additional applications are installed in your shop. Download add-ons from</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Film wprowadzający</source>
+                <target>Intro moview</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Gadżet wprowadzający do nowych funkcji sklepu</source>
+                <target>Widget introducing to the new features in the shop</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Wiadomości panelu administracyjnego</source>
+                <target>Administrative panel's messages</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Gadżet informujący o ostatnich wiadomościach panelu administracyjnego.</source>
+                <target>Widget informing about the last messages in the administrative panel.</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Brak nowych recenzji</source>
+                <target>No new reviews</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Jak dodać gadżet</source>
+                <target>How to add widget</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Jak dodać produkt</source>
+                <target>How to add a product</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Filmy</source>
+                <target>Movies</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Film instruktażowy jak dodać gadżet w panelu administracyjnym</source>
+                <target>Tutorial video on how to add widgets to your administrative panel</target>
+            </trans-unit>
+			   <trans-unit id="103">
+                <source>Film instruktażowy jak dodać produkt w panelu administracyjnym</source>
+                <target>Tutorial video on how to add a product in administrative panel</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>czytaj więcej</source>
+                <target>read more</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>zatwierdź</source>
+                <target>approve</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>pomiń</source>
+                <target>skip</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>zatwierdzona</source>
+                <target>approved</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>pominięta</source>
+                <target>skipped</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>mniej...</source>
+                <target>less...</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>więcej...</source>
+                <target>more...</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Konfiguracja gadżetu</source>
+                <target>Gadget configuration</target>
+            </trans-unit> 
+            <trans-unit id="112">
+                <source>od ostatnich 24h</source>
+                <target>since last 24h</target>
+            </trans-unit> 
+            <trans-unit id="113">
+                <source>od ostatnich 7 dni</source>
+                <target>since last 7 days</target>
+            </trans-unit> 
+            <trans-unit id="114">
+                <source>od ostatnich 31 dni</source>
+                <target>since last 31 days</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>od ostatniego logowania</source>
+                <target>since last login</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Zarejestrowani</source>
+                <target>Registered</target>
+            </trans-unit> 
+            <trans-unit id="117">
+                <source>Zarejestrowany</source>
+                <target>Registered</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Dodakowe aplikacje</source>
+                <target>Additional applications</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Nowości SOTESHOP</source>
+                <target>SOTESHOP news</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Więcej informacji...</source>
+                <target>More info...</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>http://www.sote.pl/page/block</source>
+                <target>http://www.soteshop.com/page/block</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>Wystąpił błąd podczas weryfikacji licencji. Proszę o pilny kontakt z SOTE. Sklep może zostać zablokowany.</source>
+                <target>An error occurred while verifying the license. You should contact SOTE immediately. Your store may be blocked.</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>Funkcja niedostępna dla wersji Open</source>
+                <target>Function not available for OPEN version</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>http://www.sote.pl/licencja-soteshop.html</source>
+                <target>http://www.soteshop.com/soteshop-license.html</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>Zamów wersję komercyjną</source>
+                <target>Order a commercial version</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Nie można dodać nowego produktu.</source>
+                <target>You can not add a new product.</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>Wykorzystano dostępny limit</source>
+                <target>Used the available limit</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>produktów dla wersji Open.<br/>Zamów wersję komercyjną i zwiększ automatycznie limit produktów do 10 000.</source>
+                <target>products for OPEN version. Order a commercial version and increase product limits to 10 000.</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>produktów.</source>
+                <target>products.</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>produktów.<br/>Zwiększ liczbę produktów nawet do 30 000.</source>
+                <target>products. Increase product limits to 30 000.</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>http://www.sote.pl/zwiekszenie-ilosc-produktow.html</source>
+                <target>http://www.soteshop.com/increase-products-limit.html</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Zamów zwiększenie ilości produktów</source>
+                <target>Order a increase product limits</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>http://www.sote.pl/wynajem-aplikacji.html</source>
+                <target>http://www.soteshop.com/application-leasing.html</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>produktów.<br/>Zwiększ liczbę produtków do 10 000.</source>
+                <target>products. Increase product limits to 10 000.</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>Zmień wersję wynajmu programu</source>
+                <target>Change application leasing version</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Jak dodać produkt</source>
+                <target>How to add product</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Krótka prezentacja przedstawiająca jak w prosty sposób dodać nowy produkt. Przygotowaliśmy przykładowe zdjęcia, żeby ułatwić Tobie dodanie nowego produktu.</source>
+                <target>Short presentation showing how to add a new product. We have prepared the sample images to facilitate you adding a new product.</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Pobierz zdjęcia</source>
+                <target>Download images</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>Dodaj produkt</source>
+                <target>Add product</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>Podstawowa konfiguracja sklepu</source>
+                <target>Shop's basic configuration</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>Uzupełnij podstawowe informacje o sklepie i dodaj konto pocztowe. Zrób testowe zamówienie w sklepie i odbierz wiadomość z zamówieniem.</source>
+                <target>Complete the shop's basic information and add the main email account. Place a test order in the shop and receive a message confirming your order.</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>Dokumentacja</source>
+                <target>Documentation</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>Pomoc</source>
+                <target>Help</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>Brak zainstalowanych dodatkowych aplikacji</source>
+                <target>No additional applications installed</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>Potwierdzeni</source>
+                <target>Confirmed</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>Potwierdzony</source>
+                <target>Confirmed</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>Sprzedane</source>
+                <target>Sold</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>7 dni</source>
+                <target>7 days</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>31 dni</source>
+                <target>31 days</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>ostatnie logowanie</source>
+                <target>last logged</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>Kopiuj</source>
+                <target>Copy</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>Skopiowane!</source>
+                <target>Copied!</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>Operacja w trakcie, proszę czekać...</source>
+                <target>Operation in progress, please wait...</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>Przejdź do aktualizacji</source>
+                <target>Go to update</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>Twój sklep jest nieaktualny</source>
+                <target>Your store is out of date</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>Twój sklep jest aktualny</source>
+                <target>Your store is up to date</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>Piksel Facebooka</source>
+                <target>Facebook pixel</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

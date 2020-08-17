@@ -1,0 +1,7 @@
+Add install_custom.yml file for custom installation
+
+install_custom.yml
+{{{
+package: stYourPackahe
+name: Program Name
+}}}

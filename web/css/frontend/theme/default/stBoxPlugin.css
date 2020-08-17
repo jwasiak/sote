@@ -1,0 +1,59 @@
+.st_box-main_frame
+{
+    width:180px;
+    margin-bottom:10px;
+}
+
+.st_box-top_frame
+{
+    background: url(/images/frontend/theme/default/frame_box_top.png) top left no-repeat;
+    width:180px;
+    height:34px;
+}
+
+.st_box-title
+{
+    color:#555;
+    padding:10px 0px 0px 12px;
+    font-size:1.25em;
+}
+
+.st_box-middle-frame
+{
+    background-color:#fff;
+    border-left:1px solid #c9c9c9;
+    border-right:1px solid #c9c9c9;
+    width:178px;  
+    overflow: hidden;
+}
+
+.st_box-content
+{
+    border-top: 1px solid #c9c9c9; 
+    padding: 5px 5px 0px 12px;
+}
+
+.st_box-content p
+{
+    margin: 5px 0px;
+}
+
+.st_box-middle-frame > .st_box-content div.st_box-content-frame
+{
+    border-top: 1px solid #c9c9c9; 
+    padding: 10px 0px;
+}
+.st_box-bottom-frame
+{
+    background: url(/images/frontend/theme/default/frame_box_bottom.png) top left no-repeat;
+    width:180px;
+    height:7px;
+}
+/**
+* deprecated since 1.0.1
+*/
+.st_frame_box
+{
+    width:180px;
+    margin-bottom:10px;
+}

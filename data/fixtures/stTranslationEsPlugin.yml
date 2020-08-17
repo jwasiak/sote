@@ -1,0 +1,16 @@
+Language: 
+  Language_Es: 
+    culture: pl_PL
+    name: Hiszpańska
+    shortcut: es
+    active_image: es_active.png
+    inactive_image: es_inactive.png
+    active: 0
+    language: es
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Es: 
+    id: Language_Es
+    culture: en_US
+    name: Spanish

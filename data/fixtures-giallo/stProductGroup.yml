@@ -1,0 +1,28 @@
+ProductGroupHasProduct: 
+  ProductGroupHasProduct_67: 
+    product_id: Product_1
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_68: 
+    product_id: Product_2
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_69: 
+    product_id: Product_3
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_70: 
+    product_id: Product_4
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_71: 
+    product_id: Product_6
+    product_group_id: ProductGroup_6
+  ProductGroupHasProduct_72: 
+    product_id: Product_4
+    product_group_id: ProductGroup_6
+  ProductGroupHasProduct_73: 
+    product_id: Product_9
+    product_group_id: ProductGroup_1
+  ProductGroupHasProduct_74: 
+    product_id: Product_10
+    product_group_id: ProductGroup_1
+  ProductGroupHasProduct_75: 
+    product_id: Product_11
+    product_group_id: ProductGroup_1

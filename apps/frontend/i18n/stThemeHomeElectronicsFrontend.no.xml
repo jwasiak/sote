@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-11-19T03:51:45Z">
+		<body>
+			<trans-unit id="1">
+				<source>więcej</source>
+				<target>Di più</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zobacz więcej</source>
+				<target>Per vedere di più.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Waluta</source>
+				<target>Valuta</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Valore</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wpisz szukane słowo</source>
+				<target>Inserire le parole per la ricerca.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Ilość</source>
+				<target>Quantità</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

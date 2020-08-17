@@ -1,0 +1,369 @@
+{capture name="imagehtml"}
+    <div class="custom-html">
+        <h4>{$name}</h4>
+        <p>{$photo.desc}</p>
+    </div>
+{/capture}
+
+<div itemscope itemtype="https://schema.org/Product">
+    <div class="card">
+
+        {st_get_component module="stNavigationFrontend" component="breadcrumbs"}
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-8 product-gallery">
+                        <ul id="product-gallery" class="gallery list-unstyled clearfix" data-equalizer>
+                            <li id="product-photo" class="col-xs-12" data-src="{$photo.big}" data-sub-html="{$smarty.capture.imagehtml|escape:'html'}" data-id="{$photo.id}">
+                                <div>
+                                    <div class="gallery-image">
+                                        <img itemprop="image" class="img-responsive" src="{$photo.thumb}" alt="{$photo_alt}" />
+                                    </div>
+                                </div>
+                            </li>
+                            {if $photos && $show_galery==1}
+                                {$photos}
+                            {/if}
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-4 product-label">
+                        <h1 itemprop="name">{$name}</h1>
+                        
+                        <ul class="information">
+                            <li>{$product_review}</li>
+                            {if $show_code==1}
+                                <li class="code"><span class="text-muted">{__ text="Kod"}:</span> <span class="product_code">{$code}</span></li>
+                            {/if}
+
+                            {if $show_producer==1 && isset($producer)}
+                                <li><span class="text-muted">{__ text="Producent"}:</span> <span itemprop="brand">{$producer_name}</span></li>
+                            {/if}
+                            {if $show_man_code}
+                                <li class="product_man_code_container{if !$man_code} hidden{/if}"><span class="text-muted">{__ text="Kod producenta"}:</span> <span class="product_man_code">{$man_code}</span></li>
+                            {/if}
+                            {if $show_weight==1 && $weight>0}
+                                <li><span class="text-muted">{__ text="Waga"}:</span> <span id="product-weight">{$weight}</span> {$weight_unit}</li>
+                            {/if}
+
+                            {if $show_availability || $show_depository}
+                            <li>
+                                {if $show_availability || $show_depository}
+                                    <span class="text-muted">{__ text="Dostępność" langCatalogue="stAvailabilityFrontend"}:</span>
+                                {/if}
+                                {if $show_availability}
+                                    {$availability}
+                                    {if $show_depository}
+                                        <span id="st_depository_stock_amount"> &nbsp;(<span class="stock">{$stock}</span> {$uom})</span>
+                                    {/if}
+                                {else}
+                                    <span id="st_depository_stock_amount"><span class="stock">{$stock}</span> {$uom}</span>
+                                {/if}
+                            </li>
+                            {/if}
+                            <li>
+                                {if ($product_question)}
+                                    <span class="pull-right">{$product_question}</span>
+                                    <div class="clearfix"></div>
+                                {/if}
+                                {if $show_execute_time==1 && isset($execute_time) && ($execute_time != '')}
+                                    <div id="execute_time"><span class="text-muted">{__ text="Czas realizacji" langCatalogue="stAvailabilityFrontend"}:</span> <span id="execute_time_trigger" rel="#execute_time_overlay" data-toggle="modal" data-target="#execute_time_overlay">{$execute_time}</span></div>
+                                {/if}
+                                <div class="line clearfix"></div>
+
+                                <div id="basket_product_options_container">
+                                    {basket_product_options product="$instance" namespace="product-card"}
+                                </div>
+                            </li>
+
+                            {slot name="product_additional_field" hidden="true"}{/slot}
+                        </ul>
+
+                    <meta itemprop="sku" content="{$sku}">
+                    {if isset($man_code) && ($man_code != '')}
+                    <meta itemprop="mpn" content="{$man_code}" />
+                    {/if}
+
+                        <ul class="information prices" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <meta itemprop="availability" content="https://schema.org/{$structure_avail}" />
+                        <meta itemprop="priceCurrency" content="{$currency_iso}" />
+                        <meta itemprop="url" content="{$url}" />
+                        <meta itemprop="priceValidUntil" content="{$price_valid_until}" />
+
+                            {if $price_view=='only_net' || $price_view=='net_gross'}
+                                <meta itemprop="price" content="{$price_netto_structure}" />
+
+                            {elseif $price_view=='only_gross' || $price_view=='gross_net'}
+                                <meta itemprop="price" content="{$price_brutto_structure}" />
+                            {/if}
+
+
+                        {if ($check_price!=1 && $show_price==1)}
+                            <li class="add-quantity">
+                                {basket_add_quantity product="$instance" namespace="product-card" size="4" label="Ilość:"}
+                            </li>
+                            {if $you_safe!=0}
+                                {if $show_saved_price==1}
+                                    {if $saved_price_type=='only_net_saved'}
+                                        <li class="price_catalogue">{__ text="Cena katalogowa"}: <span>{$price_catalogue}</span></li>
+                                    {elseif $saved_price_type=='only_gross_saved'}
+                                        <li class="price_catalogue">{__ text="Cena katalogowa"}: <span>{$price_catalogue_brutto}</span></li>
+                                    {elseif $saved_price_type=='net_saved'}
+                                        <li class="price_catalogue">{__ text="Cena katalogowa"}: <span>{$price_catalogue}</span></li>
+                                        <li class="price_catalogue_minor">({__ text="Cena katalogowa"}: <span>{$price_catalogue_brutto}</span>)</li>
+                                    {elseif $saved_price_type=='gross_saved'}
+                                        <li class="price_catalogue">{__ text="Cena katalogowa"}: <span>{$price_catalogue_brutto}</span></li>
+                                        <li class="price_catalogue_minor">({__ text="Cena katalogowa"}: <span>{$price_catalogue}</span>)</li>
+                                    {/if}
+                                {/if}
+                                {if $show_discount==1}
+                                    {if $discount_type=='discount_amount_percentage'}
+                                        {if $saved_price_type=='only_net_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount} ({$price_discount_percent} %)</span></li>
+                                        {elseif $saved_price_type=='only_gross_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount_brutto} ({$price_discount_percent_brutto} %)</span></li>
+                                        {elseif $saved_price_type=='net_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount} ({$price_discount_percent} %)</span></li>
+                                            <li class="price_discount_minor discount">({__ text="Rabat"}: -<span>{$price_discount_brutto} ({$price_discount_percent_brutto} %)</span>)</li>
+                                        {elseif $saved_price_type=='gross_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount_brutto} ({$price_discount_percent_brutto} %)</span></li>
+                                            <li class="price_discount_minor discount">({__ text="Rabat"}: -<span>{$price_discount} ({$price_discount_percent} %)</span>)</li>
+                                        {/if}
+                                    {elseif $discount_type=='discount_amount'}
+                                        {if $saved_price_type=='only_net_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount}</span></li>
+                                        {elseif $saved_price_type=='only_gross_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount_brutto}</span></li>
+                                        {elseif $saved_price_type=='net_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount}</span></li>
+                                            <li class="price_discount_minor discount">({__ text="Rabat"}: -<span>{$price_discount_brutto}</span>)</li>
+                                        {elseif $saved_price_type=='gross_saved'}
+                                            <li class="price_discount discount">{__ text="Rabat"}: -<span>{$price_discount_brutto}</span></li>
+                                            <li class="price_discount_minor discount">({__ text="Rabat"}: -<span>{$price_discount}</span>)</li>
+                                        {/if}
+                                    {elseif $discount_type=='discount_percentage'}
+                                        <li class="price_discount discount">{__ text="Rabat"}: <span>{$price_discount_percent} %</span></li>
+                                    {/if}
+                                {/if}
+                            {/if}
+                            {if ($check_old_price!=1 || $you_safe!=0 || $show_old_price==0)}
+                                {if $price_view=='net_gross'}
+                                    <li>
+                                        <span class="price_minor text-muted">{__ text="Cena brutto"}: <span id="st_product_options-price_brutto">{$price_brutto}</span></span>
+                                        <span class="price">{$price_net}</span>
+                                    </li>
+                                {elseif $price_view=='only_gross'}
+                                    <li class="price">{$price_brutto}</li>
+                                {elseif $price_view=='only_net'}
+                                    <li class="price">{$price_net}</li>
+                                {elseif $price_view=='gross_net'}
+                                    <li>
+                                        <span class="price_minor text-muted">{__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span></span>
+
+                                        <span class="price">{$price_brutto}</span>
+                                    </li>
+                                {/if}
+                            {else}
+                                {if $price_view=='net_gross'}
+                                    <li>
+                                        <span class="price_minor text-muted">{__ text="Cena brutto"}: <span id="st_product_options-price_net">{$price_brutto}</span></span>
+                                        <span class="old_price">{$old_price_net}</span>
+                                        <span class="price">{$price_net}</span>
+                                    </li>
+                                {elseif $price_view=='only_gross'}
+                                    <li>
+                                        <span class="old_price">{$old_price_brutto}</span>
+                                        <span class="price">{$price_brutto}</span>
+                                    </li>
+                                {elseif $price_view=='only_net'}
+                                    <li>
+                                        <span class="old_price">{$old_price_net}</span>
+                                        <span class="price">{$price_net}</span>
+                                    </li>
+                                {elseif $price_view=='gross_net'}
+                                    <li>
+                                        <span class="price_minor text-muted">{__ text="Cena netto"}: <span id="st_product_options-price_net">{$price_net}</span></span>
+                                        <span class="old_price">{$old_price_brutto}</span>
+                                        <span class="price">{$price_brutto}</span>
+
+                                    </li>
+                                {/if}
+                            {/if}
+
+                            {if $basic_price}
+                                <li>
+                                    <div class="text-muted"><i>{$basic_price.quantity} ( {$basic_price.brutto} {__ text="za"} {$basic_price.for_quantity} )</i></div>
+                                </li>
+                            {/if}
+
+                            <!-- {if $points_system_is_active==1 && $show_points==1}
+                                <li>
+                                {if $display_type=="only_value"}
+                                    {if $points_value > 0}&nbsp;&nbsp;<span class="price_minor">{__ text="Koszt"}: <span class="text-danger">{$points_value} {$points_shortcut}</span></span>{/if}
+                                {elseif $display_type=="only_earn"}
+                                    {if $points_earn > 0}<span class="price_minor">{__ text="Otrzymasz"}: <span class="text-success">{$points_earn} {$points_shortcut}</span></span>{/if}
+                                {elseif $display_type=="value_earn"}
+                                    {if $points_value > 0}&st_product_options-price-bruttonbsp;&nbsp;<span class="price_minor">{__ text="Koszt"}: <span class="text-danger">{$points_value} {$points_shortcut}</span></span>{/if}
+                                    {if $points_earn > 0}<span class="price_minor">{__ text="Otrzymasz"}: <span class="text-success">{$points_earn} {$points_shortcut}</span></span>{/if}
+                                {elseif $display_type=="earn_value"}
+                                    {if $points_earn > 0}<span class="price_minor">{__ text="Otrzymasz"}: <span class="text-success">{$points_earn} {$points_shortcut}</span></span>{/if}
+                                    {if $points_value > 0}&nbsp;&nbsp;<span class="price_minor">{__ text="Koszt"}: <span class="text-danger">{$points_value} {$points_shortcut}</span></span>{/if}
+                                {/if}
+                                </li>
+                            {/if}  -->
+
+                            <li class="shopping-cart">
+                                {basket_add_button product="$instance" namespace="product-card"}
+                            </li>
+                            {if $check_price!=1 && $show_price==1 && $points_only!=1}
+                                {paypal_checkout_express_add_link product="$instance" namespace="product-card"}
+                            {/if}
+                        {/if}
+                        {$product_payment_info}
+                    </ul>
+                    {$product_add_this}
+                    {slot name="product-label-footer" hidden="true"}{/slot}
+                    {if $description!="" && $show_short_description == 1 && $description!=" "}
+                        <div class="description-short">
+                           {$description}
+                        </div>
+                    {/if}
+                </div>
+            </div>
+
+
+        {$product_set_discounts}
+
+        {if $show_product_attributes == 'before_desc'}
+            {$product_attributes}
+        {/if}
+
+        {slot name="add_desc_before" hidden="true"}{/slot}
+        {if $show_description == 1}
+        <div class="row">
+            <div itemprop="description" class="description tinymce_html col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                {$description_long}
+            </div>
+            {slot name="add_desc_right" hidden="true"}{/slot}
+        </div>
+        {/if}
+        {slot name="add_desc_after" hidden="true"}{/slot}
+
+        {if $show_product_attributes == 'after_desc'}
+            {$product_attributes}
+        {/if}
+
+        {if $tab_navigator->getTabs()}
+            <ul id="product-tabs" class="nav nav-tabs">
+                {foreach item=tab from=$tab_navigator->getTabs()}
+                <li>
+                    <a href="#product-tab-{$tab->getIndex()}" data-url="{url_for internal=$tab->getParamsForUrl()}" rel="nofollow">{__ text=$tab->getLabel()}</a>
+                </li>
+                {/foreach}
+            </ul>
+
+            <div class="tab-content">
+                {foreach item=tab from=$tab_navigator->getTabs()}
+                    <div class="tab-pane" id="product-tab-{$tab->getIndex()}"></div>
+                {/foreach}
+            </div>
+        {/if}
+
+        
+    </div>
+{if $check_review==1} 
+<div itemprop="review" itemtype="http://schema.org/Review" itemscope style="display: none;">
+    <div itemprop="author" itemtype="http://schema.org/Person" itemscope>
+        <meta itemprop="name" content="{$review_person}" />
+    </div>
+    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope>
+        <meta itemprop="ratingValue" content="{$review_score}" />
+        <meta itemprop="bestRating" content="5" />
+    </div>
+</div>
+{/if}
+</div>
+
+<div class="modal fade" id="execute_time_overlay" tabindex="-1" role="dialog" aria-labelledby="execute_time_overlay" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+
+    $('#product-tabs').on('click', 'a', function() {
+
+        var tab = $(this);
+        tab.tab('show');
+
+        var pane = $(tab.attr('href'));
+
+        if (pane.is(':empty')) {
+            pane.html('<div class="preloader"></div>');
+
+            $.get(tab.data('url'), function(html) {
+                pane.html(html);
+            });
+        }
+
+        return false;
+    });
+
+    $('#product-tabs a[href=#product-tab-1]').click();
+
+    $(document).ready(function(){
+        $("#product-gallery").lightGallery({
+             caption : true,
+             desc : true,
+             rel: false,
+             loop: true,
+             closable: false
+        });
+    });
+
+{/literal}
+{if $instance->getOptHasOptions() > 1}
+{literal}
+    $('#product-gallery .gallery-image').on('click', function() {
+        var image_id = $(this).closest('li').data('id');
+
+        var options_data = $('#basket_product_options_container form').serialize();
+
+        var basket_add_button = $('form.basket_add_button');
+
+        var namespace = '';
+
+        if (basket_add_button.length > 0) {
+            namespace = basket_add_button.attr('id').replace(/_[0-9]+/, '');
+        }
+
+        var product_id = basket_add_button.data('product');
+
+        basket_add_button.find('input, button').attr('disabled', true);
+
+        $.ajax({
+            url: '{/literal}{url_for internal="stProductOptionsFrontend/changeOptionFromGallery"}{literal}?product_id='+product_id+'&image_id='+image_id+'&namespace='+namespace,
+            dataType: 'script',
+            type: 'POST',
+            'data': options_data
+        });
+
+    });
+{/literal}
+{/if}
+{literal}
+
+
+    $('#execute_time_trigger').click(function(){
+        $.get('{/literal}{url_for internal=stWebpageFrontend/ajax}{literal}', function(html)
+        {
+            $('#execute_time_overlay .modal-content').html(html);
+        });
+    });
+
+});
+//]]>
+</script>
+{/literal}

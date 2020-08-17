@@ -1,0 +1,4 @@
+ignore:
+    - .jpg
+    - .txt
+    - .png

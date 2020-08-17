@@ -1,0 +1,1 @@
+<?php echo st_external_link_to($online_files->getFilename(), 'appOnlineCodesBackend/download?file_id='.$online_files->getId());

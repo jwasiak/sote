@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2012-07-02T03:01:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twój koszyk</source>
+				<target>Váš košík</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wróć do zakupów</source>
+				<target>Návrat zpět k nákupům</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Przejdź do koszyka</source>
+				<target>Přejít do košíka</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>zdjęcie</source>
+				<target>fotografie</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>nazwa</source>
+				<target>název</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cena netto</source>
+				<target>cena bez DPH</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>vat</source>
+				<target>DPH</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>cena brutto</source>
+				<target>cena s DPH</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>ilość</source>
+				<target>množství</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>suma</source>
+				<target>suma</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>usuń</source>
+				<target>odstranit</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Produkt wycofany z oferty</source>
+				<target>Produkt už není v nabídce</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Opróżnij koszyk</source>
+				<target>Vyprázdnit košík</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Uaktualnij koszyk</source>
+				<target>Aktualizovat košík</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem do zapłaty</source>
+				<target>Celkem k uhradě</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Dodaj do koszyka</source>
+				<target>Přidat do košíka</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>szt</source>
+				<target>ks.</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Ilość</source>
+				<target>Množství</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszty</source>
+				<target>Náklady</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Czy na pewno opróżnić koszyk?</source>
+				<target>Opravdu chcete košík vyprázdnit?</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kwota</source>
+				<target>Částka</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Podana wartość musi być liczbą całkowitą...</source>
+				<target>Uvedená hodnota musí být ve formě celého čísla...</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Minimalna wartość nie może być mniejsza od 1.</source>
+				<target>Minimální hodnota nemůže být nižší než 1.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Maksymalna wartość nie może być większa od %s</source>
+				<target>Maximální hodnota nemůže být vyšší než %s</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Kwota:</source>
+				<target>Částka:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>Požadované množství zboží není skladem</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Koszyk jest pusty</source>
+				<target>Váš košík je prázdný</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>netto</source>
+				<target>Bez DPH</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>brutto</source>
+				<target>Včetně DPH</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>razem</source>
+				<target>celkem</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Twój koszyk jest pusty</source>
+				<target>Váš košík je prázdný</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>j.m.</source>
+				<target>MJ</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Minimalna ilość to %quantity% %uom%</source>
+				<target>Minimální množství je %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Podana wartość musi być liczbą...</source>
+				<target>Uvedená hodnota musí být číslem ...</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Koszyk</source>
+				<target>Košík</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Sprawdź zawartość koszyka</source>
+				<target>Zjistěte obsah košíku</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Kontynuuj zakupy</source>
+				<target>Pokračujte v nákupu</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Produkt został dodany do koszyka</source>
+				<target>Produkt byl přidaný do košíku</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Ilość została zmniejszona z powodu niskiego stanu magazynowego</source>
+				<target>Množství bylo zmenšené z důvodu nízkého stavu zboží ve skladu</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Ilość została zwiększona. Minimalna ilość jaką możesz zamówic to %quantity% %uom%</source>
+				<target>Množství bylo zvětšené. Minimální množství jaké můžete objednat je %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Podana wartość musi być większa od 0.</source>
+				<target>Uvedená hodnota musí být větší než 0.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Posiadam VAT UE</source>
+				<target>Jsem držitelem DPH EU </target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>dodaj do koszyka</source>
+				<target>přidat do košíka</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Ilość:</source>
+				<target>Množství:</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Razem</source>
+				<target>Spolu</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>kup za </source>
+				<target>kup za </target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Zaloguj się aby kupić produkt za punkty.</source>
+				<target>Chceš-li koupit produkt za body, musíš se nejdřív přihlásit.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak wystarczającej ilości punków.</source>
+				<target>Nemáš dostatečné množství bodů.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak wymaganej ilości punktów</source>
+				<target>Nemáš potřebné množství bodů.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Nebyl dosažen bodový práh.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>K dosažení prahu zbývá</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wybierz prezent</source>
+				<target>Vyber si dárek</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>prezent</source>
+				<target>dárek</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Zamów</source>
+				<target>Objednat</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Do koszyka</source>
+				<target>Do košíku</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

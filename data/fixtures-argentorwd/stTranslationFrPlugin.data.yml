@@ -1,0 +1,175 @@
+ProductI18n:  
+  ProductI18n_fr_1:
+    id: Product_1
+    culture: fr
+    name: Coupe
+    url: coupe
+  ProductI18n_fr_2:
+    id: Product_2
+    culture: fr
+    name: Chronomètre
+    url: chronomètre
+  ProductI18n_fr_3:
+    id: Product_3
+    culture: fr
+    name: Casque
+    url: casque
+  ProductI18n_fr_4: 
+    id: Product_4
+    culture: fr
+    name: Haut-parleurs
+    url: haut-parleurs
+  ProductI18n_fr_5:
+    id: Product_5
+    culture: fr
+    name: Casque 200
+    url: casque-200
+  ProductI18n_fr_6:
+    id: Product_6
+    culture: fr
+    name: Ordinateur portable
+    url: ordinateur-portable
+  ProductI18n_fr_7:
+    id: Product_7
+    culture: fr
+    name: Bague en or avec des diamants
+    url: baque-en-or-avec-des-diamants
+  ProductI18n_fr_8:
+    id: Product_8
+    culture: fr
+    name: Bague en argent
+    url: bague-en-argent
+  ProductI18n_fr_9:
+    id: Product_9
+    culture: fr
+    name: Haut-parleur
+    url: haut-parleur
+  ProductI18n_fr_10:
+    id: Product_10
+    culture: fr
+    name: Ordinateur
+    url: ordinateur
+  ProductI18n_fr_11:
+    id: Product_11
+    culture: fr
+    name: Caméra GoodPix 130ES
+    url: camera-goodpix-130es
+  ProductI18n_fr_12:
+    id: Product_12
+    culture: fr
+    name: Carte mémoire 8GB
+    url: carte-memoire-8gb
+    
+CategoryI18n:
+  CategoryI18n_fr_1:
+    id: Category_1
+    culture: fr
+    name: Catégories
+    url: categories
+  CategoryI18n_fr_2:
+    id: Category_2
+    culture: fr
+    name:  Sonores
+    url: sonores
+  CategoryI18n_fr_3:
+    id: Category_3
+    culture: fr
+    name: Haut-parleurs
+    url: sonores-haut-parleurs
+  CategoryI18n_fr_4:
+    id: Category_4
+    culture: fr
+    name: Casque
+    url: sonores-casque
+  CategoryI18n_fr_5:
+    id: Category_5
+    culture: fr
+    name: Ordinateurs
+    url: ordinateurs
+  CategoryI18n_fr_6:
+    id: Category_6
+    culture: fr
+    name:  Photographie
+    url: photographie
+  CategoryI18n_fr_8:
+    id: Category_8
+    culture: fr
+    name: Bijoux
+    url: bijoux
+  CategoryI18n_fr_9:
+    id: Category_9
+    culture: fr
+    name: Cadeaux
+    url: cadeux
+    
+BoxI18n:
+  BoxI18n_fr_1:
+    id: Box_1
+    culture: fr
+    name: Livraison
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Livraison"/>
+  BoxI18n_fr_2:
+    id: Box_2
+    culture: fr
+    name: Paiements
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Paiements" />
+
+ProductGroupI18n:
+  ProductGroupI18n_fr_1:
+    id: ProductGroup_1
+    culture: fr
+    name: Promotions
+    url: promotions
+  ProductGroupI18n_fr_2:
+    id: ProductGroup_2
+    culture: fr
+    name: Vente
+    url: vente
+  ProductGroupI18n_fr_3:
+    id: ProductGroup_3
+    culture: fr
+    name: Recommandé
+    url: recommande
+  ProductGroupI18n_fr_4:
+    id: ProductGroup_4
+    culture: fr
+    name: Accueil
+    url: accueil
+  ProductGroupI18n_fr_6:
+    id: ProductGroup_6
+    culture: fr
+    name: Nouveaux produits
+    url: nouveaux-produits
+
+WebpageI18n:
+  WebpageI18n_fr_1:
+    id: Webpage_1
+    culture: fr
+    name: Conditions
+    content: Exemple de texte.
+    url: conditions
+  WebpageI18n_fr_2:
+    id: Webpage_2
+    culture: fr
+    name: A propos de nous
+    content: Exemple de texte.
+    url: a-propos-de-nous
+  WebpageI18n_fr_3:
+    id: Webpage_3
+    culture: fr
+    name: Contact
+    content: Exemple de texte.
+    url: contact
+  WebpageI18n_fr_4:
+    id: Webpage_4
+    culture: fr
+    name: Politique de confidentialité
+    content: Exemple de texte.
+    url: politique-de-confidentialite
+
+TextI18n:
+  TextI18n_fr_1:
+    id: Text_1
+    culture: fr
+    name: Accueil
+    content: Bienvenue

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twój koszyk</source>
+				<target>Ваша корзина</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wróć do zakupów</source>
+				<target>Вернуться к покупкам</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Przejdź do koszyka</source>
+				<target>Перейти к корзине</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>zdjęcie</source>
+				<target>фото</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>nazwa</source>
+				<target>название</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cena netto</source>
+				<target>цена нетто</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>vat</source>
+				<target>НДС</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>cena brutto</source>
+				<target>цена брутто</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>ilość</source>
+				<target>количество</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>suma</source>
+				<target>сумма</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>usuń</source>
+				<target>удалить</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Produkt wycofany z oferty</source>
+				<target>Продукт исключен из предложения</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Opróżnij koszyk</source>
+				<target>Очистить корзину</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Uaktualnij koszyk</source>
+				<target>Обновить корзину</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem do zapłaty</source>
+				<target>Всего к оплате</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Dodaj do koszyka</source>
+				<target>Добавить в корзину</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>szt</source>
+				<target>шт.</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Ilość</source>
+				<target>Количество</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszty</source>
+				<target>Корзины</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Czy na pewno opróżnić koszyk?</source>
+				<target>Точно очистить корзину?</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kwota</source>
+				<target>Сумма</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Podana wartość musi być liczbą całkowitą...</source>
+				<target>Указанная стоимость должна представлена целым числом... </target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Minimalna wartość nie może być mniejsza od 1.</source>
+				<target>Минимальная сумма не может быть меньше 1.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Maksymalna wartość nie może być większa od %s</source>
+				<target>Максимальная сумма не может быть больше %s</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Kwota:</source>
+				<target>Сумма:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>Отсутствие требуемого количества товара на складе</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Koszyk jest pusty</source>
+				<target>Корзина пуста</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>netto</source>
+				<target>нетто</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>brutto</source>
+				<target>брутто</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>razem</source>
+				<target>всего</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Twój koszyk jest pusty</source>
+				<target>Ваша корзина пуста</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>j.m.</source>
+				<target>ед. изм.</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Minimalna ilość to %quantity% %uom%</source>
+				<target>Минимальное количество – %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Podana wartość musi być liczbą...</source>
+				<target>Указанная стоимость должна быть представлена целым числом...</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Koszyk</source>
+				<target>Корзина</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Sprawdź zawartość koszyka</source>
+				<target>Проверьте содержимое корзины</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Kontynuuj zakupy</source>
+				<target>Продолжить покупки</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Produkt został dodany do koszyka</source>
+				<target>Продукт добавлен в корзину</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Ilość została zmniejszona z powodu niskiego stanu magazynowego</source>
+				<target>Количество было уменьшено ввиду низкого уровня запасов на складе</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Ilość została zwiększona. Minimalna ilość jaką możesz zamówic to %quantity% %uom%</source>
+				<target>Количество было увеличено. Минимальное количество, которое может быть заказано, составляет %quantity% %uom%</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Podana wartość musi być większa od 0.</source>
+				<target>Указанная стоимость должна быть больше 0.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Posiadam VAT UE</source>
+				<target>Я располагаю номером НДС в ЕС</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>dodaj do koszyka</source>
+				<target>Добавить в корзину</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Ilość:</source>
+				<target>Количество:</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Razem</source>
+				<target>Итого</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>kup za </source>
+				<target>купить за </target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Zaloguj się aby kupić produkt za punkty.</source>
+				<target>Авторизуйтесь для покупки продукты за баллы.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak wystarczającej ilości punków.</source>
+				<target>Отсутствие требуемого количества баллов.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak wymaganej ilości punktów</source>
+				<target>Отсутствие необходимого количества баллов</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Не достигнут порог баллов.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Для достижения порога не хватает</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wybierz prezent</source>
+				<target>Выберите подарок</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>prezent</source>
+				<target>подарок</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Zamów</source>
+				<target>Заказать</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Do koszyka</source>
+				<target>В корзину</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

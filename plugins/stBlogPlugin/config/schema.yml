@@ -1,0 +1,94 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stBlogPlugin.lib.model
+  st_blog: 
+    _attributes: 
+      phpName: Blog
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_asset_id: 
+      type: INTEGER
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: setnull
+    active: 
+      type: BOOLEAN
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_short_description: 
+      type: LONGVARCHAR
+    opt_long_description: 
+      type: LONGVARCHAR
+    image_main_page: 
+      type: VARCHAR
+      size: 255
+    image: 
+      type: VARCHAR
+      size: 255
+    opt_url: 
+      type: VARCHAR
+      size: 255
+    alternative_url: 
+      type: VARCHAR
+      size: 255  
+    gallery: 
+      type: VARCHAR
+      size: 4096
+      phpType: array  
+  st_blog_category: 
+    _attributes: 
+      phpName: BlogCategory
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true    
+    active: 
+      type: BOOLEAN
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_url: 
+      type: VARCHAR
+      size: 255
+    banner_group: 
+      type: VARCHAR
+      size: 255  
+  st_blog_has_blog_category: 
+    _attributes: 
+      phpName: BlogHasBlogCategory
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    blog_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_blog
+      foreignReference: id
+      onDelete: cascade
+    blog_category_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_blog_category
+      foreignReference: id
+      onDelete: cascade  

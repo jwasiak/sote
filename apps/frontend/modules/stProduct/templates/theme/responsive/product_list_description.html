@@ -1,0 +1,72 @@
+<div id="description-list" class="description-list row">
+    {foreach key=row item=product from=$results} 
+    {assign var=producer value=$product.instance->getProducer()}
+    {if $producer}
+        {assign var=producer_url value=$producer->getUrl()}
+    {/if}
+    <div class="product  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="thumbnail clearfix">
+            <div class="row">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                    <div class="image">{$product.photo}</div>
+                </div>
+                <div class="col-xs-8 col-sm-9 col-md-6 col-lg-6 caption">
+                    <h2><p class="name">{$product.name}</p></h2>
+                    <div class="clearfix"></div>               
+                    <div class="info-top hidden-xs">
+                        {if $producer}
+                            <a href="{urlfor internal="stProduct/producerList?url=$producer_url"}">{$producer->getName()}</a>  
+                        {/if} 
+                    </div>
+                    {if $show_weight}<div class="weight text-muted">{if $product.weight}{__ text="Waga"}: {$product.weight}{/if}</div>{/if}
+                    <p class="description text-left">{$product.description}</p>
+                </div>   
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 caption">
+                    <div class="info-right">
+                        <div class="st_product_options-color-on-list">{$product.colors}</div>      
+                        {if $show_discount==1 && $product.discount!=0 && $product.check_price!=1}
+                        <div class="discount-old_price">
+                            <div class="discount">{__ text="Rabat"}: <span  class="nowrap">{$product.discount} %</span></div>
+                        </div>
+                        {elseif ($show_old_price==1 && $product.check_price!=1 && $product.check_old_price==1)}
+                        <div class="discount-old_price">
+                            <div class="price old_price nowrap">
+                            {if ($price_view=='net_gross' || $price_view=='only_net')}
+                                {$product.old_price_net}
+                            {else}
+                                {$product.old_price}
+                            {/if}
+                           </div>
+                        </div>
+                        {/if}
+
+                        {if $show_price==1 && $product.check_price!=1}
+                            {if $price_view=='net_gross'}
+                            <div class="price major_price">{__ text="netto"}: <span class="nowrap">{$product.price_net}</span></div>
+                            <div class="price minor_price">({__ text="brutto"}: <span class="nowrap">{$product.price})</span></div>
+                            {elseif $price_view=='only_gross'}
+                            <div class="price nowrap">{$product.price}</div>
+                            {elseif $price_view=='only_net'}
+                            <div class="price">{__ text="netto"}: <span class="nowrap">{$product.price_net}</span></div>
+                            {elseif $price_view=='gross_net'}
+                            <div class="price major_price">{__ text="brutto"}: <span class="nowrap">{$product.price}</span></div>
+                            <div class="price minor_price">({__ text="netto"}: <span class="nowrap">{$product.price_net}</span>)</div>
+                            {/if}
+                            {if $product.basic_price}
+                                <div class="text-muted text-center"><i>{$product.basic_price.quantity} ( {$product.basic_price.brutto} {__ text="za"} {$product.basic_price.for_quantity} )</i></div>
+                            {/if}
+                        {/if}
+               
+                        {if $show_price==1 && $show_basket==1 && $product.check_price!=1}
+                        <div class="product-shopping-cart">
+                            {basket_add_link product=$product.instance namespace="product_desc"}
+                        </div>
+                        {/if}
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    {/foreach}
+</div>

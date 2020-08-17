@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2014-05-01T00:00:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Paczkomaty</source>
+                <target>Paczkomaty</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Włącz:</source>
+                <target>Enable:</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Grupuj punkty na mapie:</source>
+                <target>Group stores on the map:</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wyłączone</source>
+                <target>Disabled</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wszystkie</source>
+                <target>All</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Z płatnością przy odbiorze</source>
+                <target>Only cash on delivery</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Zamów aktualizację do wersji 7</source>
+                <target>Order update to version 7</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Wyłącz możliwość dla dostawy Paczkomaty</source>
+                <target>Product can't be delivery via the Paczkomaty</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Lista paczek</source>
+                <target>Parcels list</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Ustawienia API</source>
+                <target>API settings</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Nazwa użytkownika:</source>
+                <target>Username:</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Hasło użytkownika:</source>
+                <target>Password:</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Typ etykiety:</source>
+                <target>Label type:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Domyślne ustawienia</source>
+                <target>Default settings</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Domyślnie włączona opcja "Użyj Paczkomatu":</source>
+                <target>"Use Paczkomaty" option enabled by default:</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Domyślny Paczkomat nadawcy:</source>
+                <target>Sender's default Paczkomat:</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Informacje o nadawcy na paczce</source>
+                <target>Information of a sender on a parcel</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Imię:</source>
+                <target>Name:</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Nazwisko:</source>
+                <target>Surname:</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Numer telefonu:</source>
+                <target>Phone number:</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Ulica:</source>
+                <target>Street:</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Numer budynku:</source>
+                <target>Building number:</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Numer lokalu:</source>
+                <target>Flat number:</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Miasto:</source>
+                <target>City / Town:</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Kod pocztowy:</source>
+                <target>Postal code:</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Województwo:</source>
+                <target>Voivodeship:</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Dolnośląskie</source>
+                <target>Dolnoslaskie (Lower Silesian)</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Kujawsko-pomorskie</source>
+                <target>Kujawsko-pomorskie (Kuyavian-Pomeranian)</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Lubelskie</source>
+                <target>Lubelskie (Lublin)</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Lubuskie</source>
+                <target>Lubuskie (Lubusz)</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Łódzkie</source>
+                <target>Lodzkie (Lodz)</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Małopolskie</source>
+                <target>Malopolskie (Lesser Poland)</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Mazowieckie</source>
+                <target>Mazowieckie (Masovian)</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Opolskie</source>
+                <target>Opolskie (Opole)</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Podkarpackie</source>
+                <target>Podkarpackie (Subcarpathian)</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Podlaskie</source>
+                <target>Podlaskie</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Pomorskie</source>
+                <target>Pomorskie (Pomeranian)</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Śląskie</source>
+                <target>Slaskie (Silesian)</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Świętokrzyskie</source>
+                <target>Swietokrzyskie</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Warmińsko-mazurskie</source>
+                <target>Warminsko-mazurskie (Warmian-Masurian)</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Wielkopolskie</source>
+                <target>Wielkopolskie (Greater Poland)</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Zachodniopomorskie</source>
+                <target>Zachodniopomorskie (West Pomeranian)</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Wyświetlanie mapy</source>
+                <target>Displaying a map</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Paczkomat odbiorcy</source>
+                <target>Customer's pickup point</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Adres Paczkomatu</source>
+                <target>Store's address</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Numer paczki</source>
+                <target>Parcel's number</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Wyślij paczkę</source>
+                <target>Send parcel</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Dodaj nową paczkę</source>
+                <target>Add a new parcel</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Dane odbiorcy</source>
+                <target>Customer data</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Adres e-mail odbiorcy</source>
+                <target>Customer e-mail address</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Numer komórkowy odbiorcy</source>
+                <target>Customer phone number</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Dane nadawcy</source>
+                <target>Sender data</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Użyj Paczkomatu</source>
+                <target>Use Paczkomat</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Paczkomat nadawcy</source>
+                <target>Sender drop-off point</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Rozmiar</source>
+                <target>Size</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Kwota ubezpieczenia</source>
+                <target>Insurance amount</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Kwota pobrania</source>
+                <target>Downpayment amount</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Numer referencyjny</source>
+                <target>Tracking number</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Status paczki</source>
+                <target>Parcel's status</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Aktualizacja statusu w systemie Paczkomaty.pl</source>
+                <target>Updating the status in Paczkomaty</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Dodatkowe informacje</source>
+                <target>Additional information</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Podany numer jest nieprawidłowy. Numer musi być podany w formacie 9 cyfrowym bez spacji oraz myślników.</source>
+                <target>Invalid number. Number has to have 9 digits without spaces and dashes.</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Edycja paczki</source>
+                <target>Edit a parcel</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Oczekuje na wysyłkę</source>
+                <target>Pending</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Gotowa do wysyłki</source>
+                <target>Ready to send</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Przesyłka nadana</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Przesyłka w drodze</source>
+                <target>On the way</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Oczekuje na odbiór</source>
+                <target>Awaiting for receiptent</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Ponowne awizo</source>
+                <target>Re-notification</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Nadawana w paczkomacie</source>
+                <target>In paczkomat</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Umieszczona przez klienta</source>
+                <target>Placed by customer</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Etykieta przeterminowana</source>
+                <target>Label overdue</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Nie odebrana</source>
+                <target>Unclaimed</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Dostarczona</source>
+                <target>Delivered</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Przekazana do oddziału</source>
+                <target>Transffered to branch</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Anulowana</source>
+                <target>Canceled</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Przyjęto zgłoszenie reklamacyjne</source>
+                <target>Complaint accepted</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Rozpatrzono zgłoszenie reklamacyjne</source>
+                <target>Complaint considered</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Opłać paczkę</source>
+                <target>Pay for a parcel</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Opłać paczkę i pobierz etykiete</source>
+                <target>Pay for a parcel and download a label</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Numer zamówienia</source>
+                <target>Order number</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Data utworzenia</source>
+                <target>Created at</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Pobierz etykiete</source>
+                <target>Download a label</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Tryb testowy:</source>
+                <target>Test mode:</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Sprawdź poprawność wprowadzonego użytkownika oraz hasła do API</source>
+                <target>Check entered username and password for the API</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Płatność za pobraniem:</source>
+                <target>Cash on delivery:</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Klucz Google API:</source>
+                <target>Google API Key:</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Nazwa firmy:</source>
+                <target>Company name:</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Utwórz klucz Google API</source>
+                <target>Get Google API key</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Konfiguracja płatności</source>
+                <target>Payment configuration</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Konfiguracja zamówienia</source>
+                <target>Order configuration</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Zmień status zamówienia na:</source>
+                <target>Change the order status to:</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Zmienia status zamówienia po utworzeniu paczki</source>
+                <target>Changes the order status after creating the package</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Metoda wysyłki</source>
+                <target>Sending method</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Kod referencyjny</source>
+                <target>Reference code</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Numer trackingowy przesyłki</source>
+                <target>Tracking number</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Pobierz etykietę</source>
+                <target>Download label</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Wróć do zamówienia</source>
+                <target>Return to order</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Metoda wysyłki:</source>
+                <target>Sending method:</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Paczkomat nadawcy:</source>
+                <target>Sender drop-off point:</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Organizacja:</source>
+                <target>Organization:</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Nadanie w Paczkomacie</source>
+                <target>Posting in a parcel locker</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Nadanie w Oddziale</source>
+                <target>Posting in a branch</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Nadanie w POP</source>
+                <target>Posting in a POP</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Wybierz</source>
+                <target>Select</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Wybierz punkt</source>
+                <target>Choose point</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Numer budynku / lokalu:</source>
+                <target>House number / flat:</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Kraj:</source>
+                <target>Country:</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>Utwórz i opłać paczkę</source>
+                <target>Create and pay for the package</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>Wystąpił nieobsługiwany wyjątek (%error%)</source>
+                <target>An unhandled exception occurred (%error%)</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>Odbiór przez Kuriera</source>
+                <target>Pickup by courier</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>Paczka w weekend</source>
+                <target>Weekend delivery</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>Opcja "Paczka w weekend" jest dostępna tylko w określonym przedziale czasowym opisanym w informacjach ogólnych usługi</source>
+                <target>The "Weekend delivery" option is only available within the specific time period described in the general information about the service</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Opcja "Paczka w weekend" jest dostępna tylko dla Paczkomatów</source>
+                <target>The "Weekend delivery" option is only available for Parcel Lockers</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>Opcja "Paczka w weekend" nie jest dostępna dla przesyłek Allegro</source>
+                <target>The "Weekend delivery" option is not available for Allegro shipments</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>Wprowadzona wartość jest niepoprawna.</source>
+                <target>The entered value is not valid.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

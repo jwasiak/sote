@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Generowanie pliku xml</source>
+                <target>Generate the xml file</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie porównywarką cen Okazje</source>
+                <target>Manage the Okazje price comparer</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Plik został wygenerowany i znajduje się pod adresem:</source>
+                <target>File has been generated and can be found at:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Generuj plik xml</source>
+                <target>Generate the xml file</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Lista produktów</source>
+                <target>List of products</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Edycja produktu</source>
+                <target>Edit the product</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Dane głowne</source>
+                <target>Main data</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Nazwa produktu</source>
+                <target>Product name</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Ustawienia generowania pliku xml</source>
+                <target>Xml file generation settings</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Informacje o dostępności produktów</source>
+                <target>Information about the products availability</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dodaj kod producenta na podstawie kodu produktu</source>
+                <target>Add a producer code based on a product code</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Dostępność w sklepie</source>
+                <target>Availability in the shop</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dostępność w Okazje</source>
+                <target>Availability in Okazje</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>sprawdź dostępność w sklepie</source>
+                <target>check an availability in the shop</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>produkt dostępny</source>
+                <target>product is available</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>produkt dostępny do 3 dni</source>
+                <target>product will be available in 3 days</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>produkt dostępny do 7 dni</source>
+                <target>product will be available in 7 days</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>produkt dostępny nie wcześniej niż za tydzień</source>
+                <target>product will be available in over than a week</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

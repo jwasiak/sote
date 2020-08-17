@@ -1,0 +1,16 @@
+---
+package: 
+  name: stCronPlugin
+  stability: stable
+  version: 1.0.1
+  summary: Cron
+  description: Zarzadzanie harmonogramem zadan
+  notes: Aktualizacja z 5.0.0 do 5.0.1
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stFrontend: 1.0.4
+    stWebBrowserPlugin: 1.0.0

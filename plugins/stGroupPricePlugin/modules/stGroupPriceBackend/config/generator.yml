@@ -1,0 +1,57 @@
+generator:
+    
+    class:                          stAdminGenerator
+    param:
+        model_class:               GroupPrice
+        product_model_class:       Product
+        
+        theme:                      simple
+        head:
+            package:                stGroupPricePlugin    
+                       
+        list:
+            title:                      Lista grup cenowych
+            description:                Grupy cen w sklepie
+            display:                    [name, ~products_in_group]
+            fields:
+                name:                   {name: Grupa}
+                products_in_group:      {name: Produktów }
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:        -
+                _delete:      -
+                  
+            menu:
+                display:            [list]
+                fields:
+                     list:         {name: Lista grup cenowych, action: stGroupPriceBackend/list}
+                     
+                            
+        edit:
+            use_helper:             [stGroupPrice]
+            title:  Edycja grupy
+            display:                [name, description, ~link_to_change_price, _matrix_off, _matrix_on, tax_id, _price, _old_price, _wholesale_price, _price_type, _price_mod]
+       
+            fields:
+                name:                 {name: Nazwa grupy}
+                description:          {name: Opis}
+                link_to_change_price: {name: Produkty, hide_on_create: true}
+                matrix_on:            {name: Ustaw szablon cen, hide_on_create: true}
+                tax_id:               {name: Vat, type: group_price_tax, hide_on_create: true}
+                price:                {name: Cena, hide_on_create: true}
+                old_price:            {name: Stara cena, hide_on_create: true}
+                wholesale_price:      {name: Ceny hurtowe, hide_on_create: true}
+                matrix_off:           {name: Zmień jedną cenę, hide_on_create: true}
+                price_type:           {name: Zmień, hide_on_create: true}
+                price_mod:            {name: Nowa cena, hide_on_create: true, help: "Podaj wartość np:<br> 10.00 - ustawi jako nowa cene 10.00<br> +10.00 - doda do aktualnej ceny 10.00<br>-10.00 - odejmie od aktualnej ceny 10.00 <br>+10% - doda do aktualnej ceny 10%<br>-10% - odejemie od aktualnej ceny 10%"}
+                
+            actions:
+                _list:          {name: Pokaż listę}
+                _save_and_add:  {name: Zapisz i synchronizuj, hide_on_create: true}
+                _save:          {name: Zapisz}
+                _delete:        {name: Usuń}       
+            menu:
+                display:            [edit]
+                fields:
+                     edit:         {name: Edycja grupy cenowej, action: stGroupPriceBackend/edit?id=%%id%%, i18n: stGroupPriceBackend}

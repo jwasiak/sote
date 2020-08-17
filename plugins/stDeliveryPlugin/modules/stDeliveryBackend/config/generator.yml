@@ -1,0 +1,121 @@
+generator:
+    class:                              stAdminGenerator
+    param:
+        model_class:                    Delivery
+        delivery_type_model_class:      DeliveryType
+
+        theme:                          simple
+        applications:                   [stCountriesPlugin, stPayment]
+        head:
+            package:                    stDelivery
+        custom_actions:
+            custom:                     [config]
+            edit:                       [delivery_type]
+            list:                       [delivery_type]
+
+        list:
+            use_helper:                 [stDeliveryBackend]
+            title:                      Lista
+            description:                Zarządzanie dostawami produktów.
+            display:                    [=id, _name, default_cost, type_id, _countries_area_id, section_cost_type_desc, active, is_default, position]
+            peer_method:                doSelectJoinAll
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:                  -
+                _delete:                -
+            filters:
+                name:                   {filter_field: delivery.opt_name}
+            fields:
+                type_id:                {name: Grupa, callback: delivery_type_name}
+                name:                   {name: Nazwa, sort_field: delivery.opt_name}
+                default_cost:           {name: Koszt}
+                countries_area_id:      {name: Strefa, sort_field: countries_area.name}
+                active:                 {name: Aktywna}
+                section_cost_type_desc: {name: Koszt dodatkowy, sort_field: delivery.section_cost_type}
+                is_default:             {name: Domyślna}
+                position:               {name: Pozycja}
+            sort:                       [position, asc]
+            menu:
+                display:              [list, config, type]
+                fields:
+                    list:             {name: Lista, action: stDeliveryBackend/index}
+                    config:           {name: Terminarz dostaw, action: stDeliveryBackend/configCustom}
+                    type:             {name: Grupy, action: stDeliveryBackend/deliveryTypeList}
+        edit: 
+            use_helper:                 [stDeliveryBackend]
+            title:                      Edycja dostawy %%name%%
+            description:                Zarządzanie dostawami produktów.
+            display:
+                "NONE":                 [active, _edit_is_default, allow_in_selected_products, position, type_id, _edit_countries_area, name, _edit_tax, _edit_default_cost, ~edit_additional_cost, free_delivery, _edit_visibility, ~edit_payment, description]
+                "Poczta Polska":        [pp_usluga]                
+                "Rozmiar paczki":       [_edit_paczkomaty, width, height, depth]
+            fields:
+                type_id:                    {name: Grupa, type: delivery_type_picker}
+                allow_in_selected_products: {name: Zezwalaj tylko w wybranych produktach, help: "Po zaznaczeniu tej opcji dostawa będzie wyświetlana tylko w produktach, w których została wybrana w edycji produktu w sekcji Dostawa -> Zezwalaj", required: false }
+                width:                      {name: Szerokość, type: delivery_dimension, required: false}
+                height:                     {name: Wysokość, type: delivery_dimension, required: false}
+                depth:                      {name: Głębokość, type: delivery_dimension, required: false}
+                edit_paczkomaty:            {name: Paczkomaty, i18n: stPaczkomatyBackend}
+                active:                     {name: Aktywna}
+                edit_is_default:            {name: Domyślna}
+                name:                       {name: Nazwa, params: disabled=false size=48, required: true}
+                edit_tax:                   {name: Vat}
+                pp_usluga:                     {name: Usługa, type: poczta_polska_uslugi, required: true}
+                edit_additional_cost:
+                  name: Koszt dodatkowy
+                  help: |
+                    Dodatkowe koszty doliczane do kosztu podstawowego<br/>Ustaw <b>koszt podstawowy</b> na 0, aby móc wprowadzać <b>koszt dodatkowy</b> jako <b>koszt podstawowy</b>
+                edit_default_cost:          {name: Koszt podstawowy}
+                free_delivery:              {name: Darmowa od (brutto), help: Kwota zamówienia od której dostawa będzie darmowa (wartość 0 oznacza brak progu)}
+                description:                {name: Opis, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:300,width:425'}
+                edit_payment:
+                  name: Płatności
+                  help: "payment.help"
+                  required: true
+                edit_countries_area:        {name: Strefa, params: include_blank=false, required: true}
+                edit_visibility:            {name: Wyświetlaj dla, help: "Przedziały wartości, dla których dana dostawa jest wyświetlana (wartość 0 oznacza brak progu)"}
+                position:                   {name: Pozycja, help: Umożliwia sortowanie dostaw w koszyku. Wartość 0 oznacza najwyższa pozycje}
+            actions:
+                _list:                      {name: Lista}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj}
+
+        delivery_type_list:
+            use_helper:                 [stDeliveryBackend]
+            title:                      Grupy
+            display:                    [name]
+            fields:
+                name:                   {name: Nazwa}
+            sort:                       [name, asc]
+            object_actions:
+                _edit:                  -
+                _delete:                -  
+            actions:
+                _create:                {name: Dodaj}
+
+        delivery_type_edit:
+            use_helper:                 [stDeliveryBackend]
+            title:                      Edycja grupy
+            display:                    
+                "NONE":                 [name]
+            fields:
+                name:                   {name: Nazwa}
+            actions:
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj}
+
+        config:
+            use_helper:                 [stDeliveryBackend]
+            title: Konfiguracja
+            display:    [product_package_margin, alternate_deliveries]
+            fields: 
+                product_package_margin: {name: Margines dla opakowania produktu, type: delivery_margin, params: size=3, help: "Dla pewności, że produkty zmieszczą się w danym gabarycie do każdego rozmiaru opakowania produktu będzie dodawany dodatkowy margines"}
+                alternate_deliveries:   {name: Dostawy alternatywne, callback: delivery_select_tag, help: "Dostawy alternatywne wyświetlane są w przypadku braku spełnienia kryteriów dostaw dla produktów znajdujących się w koszyku. W przypadku dostaw alternatywnych kryteria dostaw są całkowicie ignorowane."}
+            actions:
+                _save:                  {name: Zapisz}
+
+        config_custom:
+            title:  Terminarz dostaw.
+            menu:   {use: list.menu}

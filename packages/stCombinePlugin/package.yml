@@ -1,0 +1,13 @@
+---
+package: 
+  name: stCombinePlugin
+  stability: stable
+  version: 1.0.0
+  summary: Combine
+  description: Combine
+  notes: 1.0.0
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

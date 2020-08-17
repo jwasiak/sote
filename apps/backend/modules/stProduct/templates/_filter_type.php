@@ -1,0 +1,1 @@
+<?php echo select_tag('product_options_filter[filter_type]', options_for_select(array(1=>__('Zwykły filtr'), 2=>__('Filtr koloru')), $product_options_filter->getFilterType()),array('class'=>'st_product_options_select'));  ?>

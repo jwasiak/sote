@@ -1,0 +1,1 @@
+<?php echo input_password_tag('trusted_shops[password]', $trusted_shops->getPassword(), array('size' => 25, 'disabled' => ($trusted_shops->getType() == 'Classic') ? true : false));

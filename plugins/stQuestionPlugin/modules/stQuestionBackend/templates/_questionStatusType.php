@@ -1,0 +1,1 @@
+<?php echo select_tag('question_status[question_status_type]', options_for_select($select_options, $question_status->getStatusType()), array('onchange' => "$('question_status_is_default').disabled = this.options[this.selectedIndex].value != 'ST_NEW' || " . (int)$question_status->getIsDefault(), 'disabled' => $question_status->getIsSystemDefault())) ?>

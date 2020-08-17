@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Grupa %name%</source>
+                <target>Group %name%</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Netto</source>
+                <target>Net</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Brutto</source>
+                <target>Gross</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Ceny hurtowe</source>
+                <target>Wholesale prices</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

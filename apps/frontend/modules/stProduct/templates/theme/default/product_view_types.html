@@ -1,0 +1,13 @@
+<div id="st_component-st_product-list_type">
+    {__ text="Typ prezentacji listy"}:
+    {foreach key=view_type item=view from=$views name=views}
+        {if $view_type == $selected}
+            <b>{$view.label}</b>
+        {else}
+            {$view.link}
+        {/if}
+        {if $smarty.foreach.views.last == false}
+        |
+        {/if}
+    {/foreach}
+</div>

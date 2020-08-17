@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Faktury</source>
+                <target>Invoices</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Domyślny status dla proform</source>
+                <target>Pro-forma default data</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Format numeru faktury proforma</source>
+                <target>Pro-forma invoice number format</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Format numeru faktury</source>
+                <target>Invoice number format</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Słownie</source>
+                <target>In words</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Miejsce wystawienia</source>
+                <target>Place of issue</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Data sprzedaży</source>
+                <target>Date of sale</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Data wystawienia</source>
+                <target>Date of issue</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Sprzedawca</source>
+                <target>Seller</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>firma</source>
+                <target>company</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>imie i nazwisko</source>
+                <target>name and surname</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>ulica, nr domu</source>
+                <target>street address and number</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>kod, miasto</source>
+                <target>postal code, city/town</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Kraj</source>
+                <target>Country</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>NIP</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Nabywca</source>
+                <target>Buyer</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Faktura VAT</source>
+                <target>VAT invoice</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>oryginał / kopia</source>
+                <target>original / copy</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Lp</source>
+                <target>No.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>PKWiU</source>
+                <target>PCoGaS</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Ilość</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>j.m.</source>
+                <target>UOM</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Rabat</source>
+                <target>Discount</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Cena jed.</source>
+                <target>Unit price</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>VAT</source>
+                <target>VAT</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Wartość netto</source>
+                <target>Net price</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Wartość brutto</source>
+                <target>Gross price</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Dodaj pozycję</source>
+                <target>Add an entry</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Do zapłaty</source>
+                <target>Amount to pay</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Zapłacono</source>
+                <target>Paid</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Pobierz aktualny status</source>
+                <target>Get the current status</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Wystawił(a)</source>
+                <target>Issued by</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Podpis osoby upoważnionej do wystawiania faktury VAT</source>
+                <target>Signature of the person authorized to issue a VAT invoice</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Odebrał(a)</source>
+                <target>Received by</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Podpis osoby upoważnionej do odbioru faktury VAT</source>
+                <target>Signature of the person authorized to receive a VAT invoice</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>zero</source>
+                <target>zero</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>numer</source>
+                <target>number</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>spacja</source>
+                <target>space</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>brak</source>
+                <target>none</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Kolejny numer proformy</source>
+                <target>Next pro-forma number</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Numer</source>
+                <target>Number</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Utworzona</source>
+                <target>Create</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Faktury wystawione</source>
+                <target>Issued invoices</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Faktury do wystawienia</source>
+                <target>Invoices to issue</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Faktury proforma</source>
+                <target>Pro-forma invoices</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Domyślne dane</source>
+                <target>Default data</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Faktury wystawione.</source>
+                <target>The issued invoices.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Zamówienie</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Firma</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>NIP</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Nazwisko</source>
+                <target>Surname</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Faktury do wystawienia.</source>
+                <target>Invoices to issue.</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Nr proformy</source>
+                <target>Pro-forma number</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Faktury.</source>
+                <target>Invoices.</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Wystaw</source>
+                <target>Issue</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Faktury proforma.</source>
+                <target>Pro-forma invoices.</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Cena netto</source>
+                <target>Net price</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Separator pól</source>
+                <target>Fields separator</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Pokaż zamówienie</source>
+                <target>Show the order</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Razem</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Sklep wystawia faktury VAT.</source>
+                <target>Shop issues the VAT invoices.</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Sklep wystawia proformy.</source>
+                <target>Shop issues the pro-forma invoices.</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Faktury wystawiane są w walucie wybranej przez klienta sklepu.</source>
+                <target>Invoices are issued in the currency chosen by the customer.</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>numer miesiąc rok</source>
+                <target>number month year</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>numer rok</source>
+                <target>number year</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Wróć do podglądu</source>
+                <target>Back to the preview</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>według stawki VAT</source>
+                <target>by tax rate</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>wartość netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>kwota VAT</source>
+                <target>VAT amount</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>wartość brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Podstawowy podatek VAT</source>
+                <target>Basic VAT</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Podstawowy VAT</source>
+                <target>Basic VAT</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Razem do zapłaty</source>
+                <target>Amount to pay in total</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Wystaw fakture</source>
+                <target>Issue the invoice</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Edytuj</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>pokaż</source>
+                <target>show</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>pobierz</source>
+                <target>download</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Usunięcie spowoduje rozbieżność w numeracji. Czy na pewno usunąć tą fakturę?</source>
+                <target>Deleting an invoice will result in a discrepancy in the numbering. Do you still want to delete this invoice?</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Faktura VAT  NUMERACJA  oryginał / kopia</source>
+                <target>VAT invoice NUMBERING original / copy</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Kolejny numer faktury</source>
+                <target>Next invoice number</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>adres</source>
+                <target>address</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>adres cd</source>
+                <target>address more</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>województwo</source>
+                <target>region</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Imię i nazwisko</source>
+                <target>Name and surname</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Włącz faktury Ifirma:</source>
+                <target>Enable Ifirma invoices</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Login do API:</source>
+                <target>API login</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Klucz do API - faktura:</source>
+                <target>Invoice API key</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Rejestracja w systemie Ifirma.pl</source>
+                <target>Registration in Ifirma.pl</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Konfigurajca systemu Ifirma.pl</source>
+                <target>Configuring Ifirma.pl</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Konfiguracja Ifirma</source>
+                <target>Configuration Ifirma</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Rejestracja</source>
+                <target>Registration</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Proszę podać adres e-mail</source>
+                <target>Please enter your email address</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Rejestracja zakończona powodzeniem. Na podany adres email zostały wysłane informacje (login oraz hasło) dotyczące logowania w serwisie.</source>
+                <target>Registration completed successfully. To the specified e-mail were sent information (login and password) for logging on the site.</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Pole Abonent.KodPocztowy posiada nieprawidłowy format. Prawidłowy format to dd-ddd.</source>
+                <target>Zip code field has invalid format. The correct format is dd-ddd.</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Domyślny rodzaj płatności</source>
+                <target>The default type of payment</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>płatność gotówką</source>
+                <target>payment in cash</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>płatne gotówką</source>
+                <target>payment in cash</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>płatność przelewem</source>
+                <target>transfer payment</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>płatne przelewem</source>
+                <target>transfer payment</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Maksymalny czas oczekiwania na płatność</source>
+                <target>Maximum waiting time for payment</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>termin płatności</source>
+                <target>maturity</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>dni</source>
+                <target>days</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Rodzaj płatności</source>
+                <target>Type of payment</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Konfiguracja faktur</source>
+                <target>Invoices configuration</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Faktura</source>
+                <target>Invoice</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Pozostało do zapłaty</source>
+                <target>Amount to pay</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Automatycznie zgłoś prośbę o wystawienie faktury VAT (zawsze gdy podano NIP)</source>
+                <target>Automatically please request VAT invoice (always when given NIP)</target>
+            </trans-unit>
+            <trans-unit id="449">
+                <source>Umożliwiaj wystawianie faktur dla kontrahentów posiadających VAT UE</source>
+                <target>Enable invoice issuing for customers with EU VAT number</target>
+            </trans-unit>
+            <trans-unit id="453">
+                <source>Podany numer VAT UE jest nieprawidłowy</source>
+                <target>EU VAT number is incorrect</target>
+            </trans-unit>
+            <trans-unit id="457">
+                <source>NIP/VAT UE</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="458">
+                <source>Twoje zmiany zostały zapisane</source>
+                <target>Your changes have been saved</target>
+            </trans-unit>
+            <trans-unit id="459">
+                <source>Pobierz</source>
+                <target>Download</target>
+            </trans-unit>
+            <trans-unit id="460">
+                <source>za pobraniem</source>
+                <target>on delivery</target>
+            </trans-unit>
+            <trans-unit id="461">
+                <source>płatność</source>
+                <target>payment</target>
+            </trans-unit>
+            <trans-unit id="462">
+                <source>gotówką</source>
+                <target>in cash</target>
+            </trans-unit>
+            <trans-unit id="463">
+                <source>za pobraniem</source>
+                <target>on delivery</target>
+            </trans-unit>
+            <trans-unit id="464">
+                <source>przelewem</source>
+                <target>transfer</target>
+            </trans-unit>
+            <trans-unit id="465">
+                <source>W zamówieniu wykorzystano rabat od kwoty zamówienia proszę sprawdzić poprawność wygenerowanych cen na fakturze</source>
+                <target>The discount on order amount is used in the order, check the generated prices in the invoice</target>
+            </trans-unit>
+            <trans-unit id="466">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="467">
+                <source>Pokaż kod produktu na fakturze.</source>
+                <target>Show product code on invoice</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

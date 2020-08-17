@@ -1,0 +1,23 @@
+<div id="addthis-{$view}">
+    {literal}
+    <script type="text/javascript">
+    var addthis_config = {
+    {/literal}
+         ui_language: "{$lang}",
+    {literal}
+         data_track_clickback: true,
+         services_exclude: 'print, printfriendly'
+    }
+    </script>
+    {/literal}
+    <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook" title="{__ text='Podziel się na Facebook'}"></a>
+<a class="addthis_button_twitter" title="{__ text='Podziel się na Twitter'}"></a>
+<a class="addthis_button_favorites" title="{__ text='Dodaj do Ulubionych'}"></a>
+<span class="addthis_separator">|</span>
+<a href="https://www.addthis.com/bookmark.php?v=250&amp;username={$user}" class="addthis_button_compact">{__ text="więcej"}</a>
+</div>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username={$user}"></script>
+<!-- AddThis Button END -->
+</div>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2012-07-02T03:01:07Z">
+		<body>
+			<trans-unit id="1">
+				<source>Cena</source>
+				<target>Preis</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sortuj po</source>
+				<target>Sortieren nach</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwie</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Cenie</source>
+				<target>Preis</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa produktu</source>
+				<target>Produktbezeichnung</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Opis</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Producent</source>
+				<target>Hersteller</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kategoria</source>
+				<target>die Kategorie</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Typ prezentacji listy</source>
+				<target>Darstellungsweise der Liste</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Pełna lista</source>
+				<target>Volle Liste</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Skrócona lista</source>
+				<target>Verkürzte Liste</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Lista alternatywna</source>
+				<target>Alternativliste</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Polecamy produkty</source>
+				<target>Empfohlene Produkte</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Widzisz %number% z %count% produktów</source>
+				<target>Sie sehen %number% von %count% Produkten</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nowości</source>
+				<target>Neuheiten</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Strona główna</source>
+				<target>Hauptseite</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Strona produktu o podanym id nie istnieje</source>
+				<target>Die Produktseite mit der angegebenen ID existiert nicht</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Strona kategorii o podanym id nie istnieje</source>
+				<target>Die Kategorieseite mit der angegebenen ID existiert nicht</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Strona grupy produktów o podanym id nie istnieje</source>
+				<target>Die Produktgruppenseite mit der angegebenen ID existiert nicht</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cena netto</source>
+				<target>Nettopreis</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Cena brutto</source>
+				<target>Bruttopreis</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Stara cena</source>
+				<target>Alter Preis</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Rabat</source>
+				<target>Rabatt</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Grupa rabatowa</source>
+				<target>Rabattgruppe</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Cena katalogowa brutto</source>
+				<target>Bruttokatalogpreis</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena katalogowa netto</source>
+				<target>Nettokatalogpreis</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rabat brutto</source>
+				<target>Bruttorabatt</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rabat netto</source>
+				<target>Nettorabatt</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Stara cena brutto</source>
+				<target>Alter Bruttopreis</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Stara cena netto</source>
+				<target>Alter Nettopreis</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Waga</source>
+				<target>Gewicht</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kod</source>
+				<target>Schlüssel</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Klient hurtowy</source>
+				<target>Großhandelskunde</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Rabat ogólny użytkownika</source>
+				<target>Gesamtrabatt des Benutzers</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Filtruj po producentach</source>
+				<target>Nach Hersteller filtern</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wszyscy</source>
+				<target>Alle</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Załączniki</source>
+				<target>Anlagen</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Pobierz</source>
+				<target>Herunterladen</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Takiej kategorii nie ma w sklepie</source>
+				<target>Diese Kategorie ist im Shop nicht vorhanden</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Takiej grupy produktów nie ma w sklepie</source>
+				<target>Diese Produktgruppe ist im Shop nicht vorhanden</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Takiego producenta nie ma w sklepie</source>
+				<target>Dieser Hersteller ist im Shop nicht vorhanden</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Takiego produktu nie ma w sklepie</source>
+				<target>Dieses Produkt ist im Shop nicht vorhanden</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Więcej</source>
+				<target>Mehr</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Nazwa</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brutto</source>
+				<target>Brutto</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Netto</source>
+				<target>Netto</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Cena katalogowa</source>
+				<target>Katalogpreis</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Najnowszym</source>
+				<target>Neuste zuerst</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Przejdź do strony głównej</source>
+				<target>Zur Homepage</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Obrazek</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>z</source>
+				<target>von</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>brutto</source>
+				<target>Brutto</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>netto</source>
+				<target>Netto</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Kod producenta</source>
+				<target>Herstellerschlüssel</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Brak produktów dla wybranych kryteriów</source>
+				<target>Für die gewählten Kriterien sind keine Produkte vorhanden</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>szczegóły</source>
+				<target>Details</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>sprawdź</source>
+				<target>Überprüfen</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Otrzymasz</source>
+				<target>Sie erhalten</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Koszt</source>
+				<target>Kosten</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>tylko za punkty</source>
+				<target>nur gegen Punkte</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>dodaj do koszyka</source>
+				<target>Zum Warenkorb hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>Sie verfügen nicht über genug Punkte.</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>Melden Sie sich an, um das Produkt zu kaufen.</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Sie haben die Punktschwelle nicht erreicht.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Punkte bis zur Schwelle:</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>za</source>
+				<target>gegen</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Cena zasadnicza</source>
+				<target>Grundpreis</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Zobacz</source>
+				<target>Anzeigen</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Akcesoria</source>
+				<target>Zubehör</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Do koszyka</source>
+				<target>In den Korb legen</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>malejąco</source>
+				<target>absteigend</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>rosnąco</source>
+				<target>aufsteigend</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

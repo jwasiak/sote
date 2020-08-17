@@ -1,0 +1,13 @@
+<div class="st_product-producer_filter">
+    {__ text="Filtruj po producentach"}:
+    {foreach key=id item=producer from=$producers name=producers}
+        {if $id == $selected}
+            <b>{$producer.label}</b>
+        {else}
+            {$producer.link}
+        {/if}
+        {if $smarty.foreach.producers.last == false}
+            |
+        {/if}
+    {/foreach}
+</div>

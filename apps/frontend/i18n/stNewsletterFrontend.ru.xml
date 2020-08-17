@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>Newsletter</source>
+				<target>Информационный бюллетень</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu.</source>
+				<target>Подпишитесь на информационный бюллетень для получения информации из магазина.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>E-mail</source>
+				<target>Адрес электронной почты</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Я выражаю согласие с политикой конфиденциальности</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Cyfry z obrazka</source>
+				<target>Цифры на изображении</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Adres</source>
+				<target>Адрес</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>został usunięty z listy subskrypcji.</source>
+				<target>удален из списка подписчиков.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Newseltter</source>
+				<target>Информационный бюллетень</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Brak adresu e-mail</source>
+				<target>Нет адреса электронной почты</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Twój email...</source>
+				<target>Ваш адрес электронной почты...</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>został potwierdzony na liście subskrypcji</source>
+				<target>подтвержден в списке подписчиков</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu.</source>
+				<target>Благодарим за интерес к предложению нашего магазина.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Adres został dodany do listy subskrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej.</source>
+				<target>Адрес добавлен в список подписчиков. Подтвердите желание получать сообщения путем активации счета нажатием ссылки, указанной ниже.</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdź rejestrację</source>
+				<target>Подтвердить регистрацию</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów</source>
+				<target>После подтверждения регистрации будет выслана информация по следующим темам</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link.</source>
+				<target>Если вы хотите отказаться от получения сообщений щелкните следующую ссылку.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wypisz mnie z listy</source>
+				<target>Исключить меня из списка</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>został dodany do listy subskrypcji.</source>
+				<target>добавлен в список подписчиков.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Za chwile otrzymacie państwo mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>Через секунду вы получите электронное письмо с просьбой подтвердить регистрацию.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z następujących tematów</source>
+				<target>После подтверждения регистрации, по вышеуказанному адресу будет отправлена информация по следующим темам</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Допустимое количество знаков превышено.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj</source>
+				<target>Добавить</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Неправильный формат адреса электронной почты.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Taki adres już istnieje w bazie danych.</source>
+				<target>Такой адрес уже есть в базе данных.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Введен неправильный номер.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Вам необходимо принять политику конфиденциальности.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rejestracja na liście subskrypcji.</source>
+				<target>Регистрация в списке подписчиков.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Na adres</source>
+				<target>Благодарим вас за использование нашей системы уведомлений. На адрес</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>został wysłany mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>отправлено письмо с просьбой подтвердить регистрацию.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z grup</source>
+				<target>После подтверждения регистрации, по вышеуказанному адресу будет отправлена информация из группы</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wróć do zakupów</source>
+				<target>Вернуться к покупкам</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Adres</source>
+				<target>Благодарим вас за использование нашей системы уведомлений. Адрес</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>został potwierdzony na liście subskrypcji.</source>
+				<target>подтвержден в списке подписчиков.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu. Wybierz działy informacji z których chcesz otrzymywać wiadomości.</source>
+				<target>Подпишитесь на информационный бюллетень для получения информации из магазина. Выберите разделы информации, по которым которых вы хотите получать сообщения.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapisz mnie na newsletter</source>
+				<target>Подписаться на информационный бюллетень</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wiadomości z list subskrypcji będą przychodziły na adres</source>
+				<target>Сообщения из списка подписчиков будут отправляться на адрес электронной почты</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Jeżeli chcą Państwo zmienić grupy powiadomień lub adres na który mają być wysyłane wiadomości proszę skorzystać z formularza poniżej.</source>
+				<target>Если вы хотите изменить группы рассылок или адрес электронной почты, на который будут отправляться сообщения, используйте следующую форму.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Aktualizuj</source>
+				<target>Обновить</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Usuń mnie z listy</source>
+				<target>Исключить меня из списка</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Такой пользователь уже есть.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>Данные обновлены.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zapisz się na newsletter</source>
+				<target>Подписка на информационный бюллетень</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>W każdym momencie możesz zrezygnować.</source>
+				<target>В любой момент вы можете прервать процедуру</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Prośba o wypisanie z listy</source>
+				<target>Просьба об исключении из списка</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Dane subskrypcji</source>
+				<target>Данные подписки</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Podaj swój adres.</source>
+				<target>Укажите свой адрес.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Sprawdź skrzynkę pocztową.</source>
+				<target>Проверьте почтовый ящик.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Na podany adres wysłano mail z prośbą o potwierdzenie.</source>
+				<target>На указанный адрес отправлено письмо с просьбой о подтверждении.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Kontynuuj zakupy</source>
+				<target>Продолжить покупки</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Potwierdzenie rezygnacji.</source>
+				<target>Подтверждение отказа.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Adres został usunięty.</source>
+				<target>Адрес был удален.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Moje konto</source>
+				<target>Мой счет</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Potwierdzenie rejestracji.</source>
+				<target>Подтверждение регистрации.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Adres został potwierdzony.</source>
+				<target>Адрес был подтвержден.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Adres e-mail</source>
+				<target>Адрес электронной почты</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Wyślij</source>
+				<target>Отправить</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Na twój adres "%%email%%" został wysłany link potwierdzający wypisanie się z newslettera.</source>
+				<target>На Ваш адрес "%%email%%" выслан файл с подтверждением отказа от подписки на информационный бюллетень.</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Potwierdzenie rezygnacji z listy subskrypcji</source>
+				<target>Подтверждение отказа от подписки</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Została wysłana prośba o wypisanie Twojego adresu e-mail z listy subskrypcji. Jeżeli prośba nie została wysłana przez Ciebie lub chcesz pozostać na liście prosimy o zignorowanie tej wiadomości, w innym wypadku kliknij w poniższy link aby potwierdzić wypisanie się z listy subskrypcji:</source>
+				<target>Нам был отправлен запрос на исключение Вашего адреса электронной почты из списка подписки. Если запрос был отправлен не Вами или Вы хотите остаться в списке, не делайте ничего, в противном случае щелкните приведенную ниже ссылку, чтобы подтвердить отказ от подписки:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

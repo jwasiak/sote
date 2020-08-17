@@ -1,0 +1,17 @@
+{if $hasTrustedOpinion === true}
+    {if $type == true}
+        <script type="text/javascript">
+            <!-- 
+                ceneo_client_email = '{$email}';
+                ceneo_order_id = '{$order_id}';
+                {if $showTransactionSystem == true}
+                    ceneo_amount = {$order_amount};
+                    ceneo_shop_product_ids = '{$product_ids}';
+                {/if}
+            //-->
+        </script>
+        <script type="text/javascript" src="https://ssl.ceneo.pl/transactions/track/v2/script.js?accountGuid={$shopId}"></script>
+    {else}
+        <img src='http://www.ceneo.pl/getcustomerinfo.asmx/getData?shopid={$shopId}&Email={$email}' width='1' height='1' />
+    {/if}
+{/if}

@@ -1,0 +1,9 @@
+all:
+  .auto_generated:
+    config:
+      last_modified: '2011/07/20 23:24:38'
+      fields:
+        menu_on: '0'
+        description_on: '0'
+        image_on: '0'
+        category_id: '1'

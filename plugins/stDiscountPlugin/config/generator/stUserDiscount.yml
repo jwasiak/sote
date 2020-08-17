@@ -1,0 +1,46 @@
+edit:
+    menu:
+        display:                        [discount]
+        fields:                 
+            discount:                   {name: Grupy rabatowe, action: stUser/discountList?user_id=%%id%%}
+
+
+discount_model_class:                   Discount
+alldiscount_model_class:                DiscountUser
+
+custom_actions:
+    list:                               [discount]   
+    edit:                               [discount, alldiscount]
+        
+discount_list:
+    forward_parameters:                 [user_id]
+    fields:
+        id:                             {name: ID}
+        name:                           {name: Nazwa, params: size=50}
+        value:                          {name: Rabat, module: stDiscountBackend}
+        priority:                       {name: Priorytet}
+    build_options:
+        through_class:                  UserHasDiscount         
+        related_id:                     forward_parameters.user_id         
+    display:                            [name, _value, priority]
+    menu:                               {use: edit.menu}
+    description:                        Zarządzanie rabatmi w sklepie.
+    title:                              Grupy rabatowe produktu
+    object_actions:                     []
+    actions:                            
+        all_discount:                   {name: Rabat ogólny, action: alldiscountEdit, type: save, i18n: stDiscountBackend}
+
+alldiscount_edit:
+    build_options:
+        related_id:                     forward_parameters.user_id         
+    forward_parameters:                 [user_id]
+    title:                              Edycja Rabatu
+    description:                        Zarządzanie rabatami w sklepie
+    menu:                               {use: edit.menu}
+    display:                            [_sf_guard_user_id, discount]
+    fields:
+        discount:                       {name: Rabat ogólny dla klienta [%]}
+        sf_guard_user_id:               {name: Użytkownik}
+    actions:
+        _save:                          {name: Zapisz}
+         

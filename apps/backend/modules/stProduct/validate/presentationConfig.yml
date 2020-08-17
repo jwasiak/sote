@@ -1,0 +1,30 @@
+fields:
+    config{cut_name_num_group}:
+        required:
+            msg:    Podaj liczbę znaków, po których ma być skracana nazwa
+        sfNumberValidator:
+            min:    1
+            min_error: Minimalna liczba znaków to 1.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą
+    config{cut_description_num_group}:
+        required:
+            msg:    Podaj liczbę znaków, po których ma być skracany opis
+        sfNumberValidator:
+            min:    1
+            min_error: Minimalna liczba znaków to 1.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą
+    config{other_products_num}:
+        required:
+            msg:    Podaj liczbę produktów wyświetlanych w Polecamy produkty
+        sfNumberValidator:
+            min:    1
+            min_error: Minimalna liczba produktów to 1.
+            max:   30
+            max_error: Maksymalna liczba produktów to 30.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą

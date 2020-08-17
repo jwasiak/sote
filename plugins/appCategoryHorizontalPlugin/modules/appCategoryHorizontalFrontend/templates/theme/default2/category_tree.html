@@ -1,0 +1,75 @@
+{if $category_horizontal.menu_on}
+   <div class="horizontal-category-menu">
+      {if $categories[0].depth > 1}
+         {if $categories[0].depth == 2}
+            <div class="part first_part test">
+         {/if}
+
+         {foreach item=category from=$categories name="cloop"}
+            {if $category.depth < 4}
+               {if $category.depth == 2}
+                  <span class="category-level-1"><a href="{$category.url}">{$category.name}</a></span>
+               {/if}
+
+               {if $category.depth == 3}
+                  <span class="category-level-2"><a href="{$category.url}">{$category.name}</a></span>
+               {/if}
+
+               {if $category.has_children} 
+                  {st_get_component module="appCategoryHorizontalFrontend" component="tree" parent_id=$category.id _is_cacheable=false}
+               {/if}
+            {/if}
+         {/foreach}
+
+         {if $categories[0].depth == 2}
+            </div>
+         {/if}
+      {else}
+         {foreach item=category from=$categories}
+            <div class="subMenu">
+               <a href="{$category.url}">{$category.name}</a>
+               {if $category.has_children} 
+
+                  {capture name="children"}{st_get_component module="appCategoryHorizontalFrontend" component="tree" parent_id=$category.id _is_cacheable=false}{/capture}
+
+                  {if $smarty.capture.children}
+                     {if $category_horizontal.description_on}
+                        {capture_category_description category=$category}
+                     {/if}
+                     <div class="items">
+                        {if $category_horizontal.image_on || $category_horizontal.description_on}
+                           <div class="menu-description right {if $category_horizontal.description_on && $category.description}desc-on{/if}">
+                              {if $category_horizontal.image_on}
+                                 <div class="image_menu">
+                                    <img src="{st_category_image_path category=$category.image image_type='large'}" alt="{$category.name}" />
+                                 </div>
+                              {/if}
+                              {if $smarty.capture.category_description}
+                                 <span class="category-big">
+                                    <a href="{$category.url}">{$category.name}</a>
+                                 </span>
+                                 <div class="category-description">
+                                    {$smarty.capture.category_description}
+                                 </div>
+                                 <div class="clear"></div>
+                              {/if}
+                           </div>
+                        {/if}
+                        <div class="left">
+                           {$smarty.capture.children}
+                        </div>
+                        <div class="clear"></div>
+                     </div>
+                  {/if}
+               {/if}
+            </div>
+         {/foreach}
+      {/if}
+      <div class="clear"></div>
+   </div>
+   {if $categories[0].depth == 3 && $count >= 5}
+      </div><div class="part">
+   {/if}   
+{else}
+   {st_get_component module="stWebpageFrontend" component="groupWebpage" group_page="HEADER"}
+{/if}

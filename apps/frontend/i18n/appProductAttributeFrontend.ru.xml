@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2013-02-19T01:15:04Z">
+		<body>
+			<trans-unit id="1">
+				<source>Filtry</source>
+				<target>Фильтры</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>wyczyść</source>
+				<target>стереть</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Tak</source>
+				<target>да</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Nie</source>
+				<target>нет</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

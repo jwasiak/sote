@@ -1,0 +1,30 @@
+{use_stylesheet src="stSlideBannerPlugin.css"}
+{if $banner_on == 1 && $banners}
+    <div id="wrapper">
+
+        <div id="slider-wrapper">
+
+            <div id="slider" class="nivoSlider" style="width:{$banner_width} !important; height:{$banner_height} !important;">
+                {foreach from=$banners item=banner}
+                    {if $banner->getLink()}
+                        {if $banner->hasAbsoluteLink()}
+                        <a href="{$banner->getLink()}" target="_blank">
+                        {else}
+                        <a href="{$banner->getLink()}" target="_parent">
+                        {/if}
+                    {/if}
+
+                    <img src="{st_asset_image_path image=$banner->getImagePath() type='thumb' for='slide'}" alt="" title="{$banner->getDescription()}" />
+                    
+                    {if $banner->getLink() != ''}
+                        </a>
+                    {/if}
+                {/foreach}
+            </div>
+            <div class="clear_all"></div>
+            <div id="htmlcaption" class="nivo-html-caption">
+
+            </div>
+        </div>
+    </div>
+{/if}

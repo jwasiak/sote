@@ -1,0 +1,113 @@
+.st_record_list .list_product_image {
+  height: 22px; 
+  width: 32px; 
+  background: #fff;
+   border: 1px solid #ccc; 
+  padding: 3px; 
+  display: block;
+   background-clip: content-box;
+   background-position: center center;
+   background-repeat: no-repeat; 
+   background-size: 28px auto;
+}
+
+.st_record_list .column_opt_price_brutto {
+   white-space: nowrap;
+}
+
+.st_record_list tr.selected .list_product_image,
+.st_record_list tr:hover .list_product_image {
+   border-color: #ccc;
+}
+
+.column_opt_price_brutto .editable {
+   width: 65px;
+   text-align: right;
+}
+
+.column_code input, .column_name input {
+   width: 100%;
+}
+
+
+
+  #product_list_backend
+  {
+     margin-left: -13px;
+  }
+  
+  
+
+  .item
+  {
+    float: left; 
+    width: 184px;
+    margin-left: 13px;
+  }
+
+.box
+{
+    border: 1px solid #BABABA;
+    margin-bottom: 10px;      
+}
+
+.roundies
+{
+
+}
+
+#product_list_backend .image {
+
+   padding: 5px; 
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   margin: 10px auto;
+   width: 82%;
+   display: block;
+}
+
+#product_list_backend .image span
+{
+   display: block; 
+   height: 128px; 
+   background-repeat: no-repeat; 
+   background-position: center center; 
+   background-size: cover; 
+}
+
+#product_list_backend .name
+{
+   text-align: center;
+   padding: 0px 5px;
+}
+
+#product_list_backend .name > a
+{
+  text-decoration: none;
+  color: #000;
+}
+
+#product_list_backend .price
+{
+   text-align: right;
+   padding: 5px;
+}
+
+.list_view {
+   float: right;
+}
+
+#record_list_form .column_name input
+{
+  min-width: 200px;
+}
+
+#record_list_form .column_priority input
+{
+  width: 35px;
+}
+
+.column_producer_id select
+{
+  max-width: 120px;
+}

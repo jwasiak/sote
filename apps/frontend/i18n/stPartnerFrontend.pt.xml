@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2012-07-02T03:01:15Z">
+		<body>
+			<trans-unit id="1">
+				<source>firma</source>
+				<target>Empresa</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>imię i nazwisko</source>
+				<target>Nome e apelido</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>ulica, nr domu</source>
+				<target>Morada</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kod, miasto</source>
+				<target>Código, cidade</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>kraj</source>
+				<target>País</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>telefon</source>
+				<target>Telefone</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>nip</source>
+				<target>Nif</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>nr. konta</source>
+				<target>Número da conta</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>uwagi</source>
+				<target>Comentários</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zarejestruj</source>
+				<target>Registar</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dane partnera</source>
+				<target>Dados do parceiro</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Konto</source>
+				<target>Conta</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Prowizje partnera</source>
+				<target>Comissões do parceiro</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Stawka prowizji procentowej</source>
+				<target>Taxa de comissão de percentagem </target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Stawka prowizji kwotowej</source>
+				<target>Taxa de comissao do valor</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Nie przyznano prowizji od transakcji.</source>
+				<target>Comissão da transacção não foi concedida</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Całkowita prowizja</source>
+				<target>Comissão total</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Rozliczona prowizja</source>
+				<target>Comissão paga</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nierozliczona prowizja</source>
+				<target>Comissão pendente</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zamówienia z polecenia</source>
+				<target>Encomenda por recomendação</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Link partnerski</source>
+				<target>Link do parceiro </target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Skorzystaj z automatycznego generowania linku partnerskiego. Opcja ta ułatwi Ci generowanie linków za pomocą, których klienci którym polecisz sklep dokonają zakupów rejestrowanych na Twoje konto.</source>
+				<target>Pode gerar o link do parceiro automaticamente. Essa opção vai facilitar a geração dos links que os clientes, aos quais recomende a loja, vão usar para fazer compras creditadas na sua conta. </target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Wstaw link do strony sklepu</source>
+				<target>Indique o link do site da loja</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Link partnerski do strony sklepu</source>
+				<target>Link do parceiro para a página da loja</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Link partnerski do umieszczenia na stronie</source>
+				<target>Link do parceiro para colocar no seu site</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Konto partnerskie zostało zablokowane.</source>
+				<target>A conta do parceiro foi bloqueada</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Twoje konto zostało zablokowane, skontaktuj się z administratorem celem wyjaśnienia przyczyny blokady konta.</source>
+				<target>A sua conta foi bloqueada, contacte o administrador para saber a razão do bloqueio</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>wszystkie</source>
+				<target>Todas</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>rozliczone</source>
+				<target>Pagas</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>nierozliczone</source>
+				<target>Pendentes</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Brak zamówień.</source>
+				<target>Não há encomendas</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Łączna kwota prowizji</source>
+				<target>Valor total da comissão </target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Łączna kwota prowizji za okres od</source>
+				<target>Comissão total desde</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>wynosi</source>
+				<target>Equivale a</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Kwota zamówienia</source>
+				<target>Montante da encomenda</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wartość prowizji</source>
+				<target>Valor da comissão </target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Zapraszamy do skorzystania z naszego programu partnerskiego. Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci. Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep. Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.</source>
+				<target>Junte-se ao nosso Programa de Parceiro. O Programa foi criado para as pessoas que pretendem promover e anunciar a nossa loja na Internet. Para se juntar ao programa preencha o formulário à direita, a fim de verificação dos seus dados pelo administrador da loja. Se a verificação for positva recebe um número único do parceiro para ser usado quando recomendar a loja. Transacções efectuadas na loja em consequência da sua recomendação registam-se no sistema e a comissão da transacção está creditada na sua conta do parceiro.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Aguarde a confirmação</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Dziękujemy za wyrażenie chęci zostania partnerem naszego sklepu. Proszę czekać, aż administrator zaakceptuje i potwierdzi dane rejestracyjne.</source>
+				<target>Agradecemos a aplicação ao nosso programa de parceiro. Aguarde enquanto o administrador aceita e confirma os dados do registo.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Po zweryfikowaniu danych otrzymacie Państwo indywidualny numer partnerski, który umożliwi dokonywanie zakupów z polecenia.</source>
+				<target>Se a verificação for positva recebe um número único do parceiro para poder efectuar compras por recomendação</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>O przyznaniu status partnera sklepu zostaniecie Państwo poinformowani drogą mailową.</source>
+				<target>Vai ser notificado por email sobre os resultados da verificação no programa de parceiro. </target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Moje konto</source>
+				<target>Minha conta</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Program partnerski</source>
+				<target>Programa de parceiro</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Uzupełnij formularz poniżej podając dane, które posłużą administratorowi sklepu do rozliczeń programu partnerskiego.</source>
+				<target>Complete o formulário abaixo indicando os dados que vão serivir ao administrador para fazer contas no programa de parceiro. </target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brak imienia.</source>
+				<target>Introduza o nome</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Brak nazwiska.</source>
+				<target>Introduza o apelido</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Brak ulicy.</source>
+				<target>Introduza a rua</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak domu.</source>
+				<target>Introduza o número da casa</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak kodu.</source>
+				<target>Introduza o código postal</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Brak miasta.</source>
+				<target>Introduza a cidade</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Brak telefonu.</source>
+				<target>Introduza o telefone</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zweryfikuj poprawność adresu</source>
+				<target>Verifique o endereço</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Wstaw link do dowolnej strony tego sklepu (np.</source>
+				<target>Indique o link do qualquer site dessa loja (e.g</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>). Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+				<target>). Abaixo serão geridos os links, com a activação do programa de parceria</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Pokaż</source>
+				<target>Mostrar</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>Os campos em negrito são obrigatórios.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

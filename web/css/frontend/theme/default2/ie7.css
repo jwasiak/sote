@@ -1,0 +1,149 @@
+h1
+{
+    line-height: 70%;
+}
+
+#main_products .image, #product_long .image 
+{
+    display: block;
+    width: 184px;
+}
+
+#main_products .image span, #product_long .image span 
+{
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+}
+
+.st_category-tree-element div
+{
+
+}
+
+.st_category-tree-element a
+{
+    margin-left: -2px;
+}
+
+#main_products, #product_long, #main_products .item, #product_long .item,
+#product_other .item, #product_recommend .item, #product_accessories .item,
+#product_other, #product_recommend, #product_accessories
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.st_content_tab
+{
+    margin-top: -20px;
+}
+
+
+.st_category-tree-element
+{
+    list-style-position: outside;
+    overflow: hidden;
+}
+
+#product_short td.photo_short
+{
+    overflow: hidden;
+}
+
+.box_photo_sort
+{
+    width: 42px;
+    height: 44px;
+}
+
+#product_other .image, #product_recommend .image, #product_accessories .image
+{
+    padding: 0px;
+}
+
+input[type="radio"], input[type="checkbox"] 
+{
+    border: none !important;
+    padding: 0px !important; 
+}
+
+#basket_show
+{
+    float: none;
+}
+
+#added_product_preview .image, #added_product_preview .info
+{
+    float: left;    
+}
+
+#added_product_preview .image
+{
+    height: auto;
+}
+
+
+#added_product_preview .item
+{
+    overflow: hidden;
+}
+
+.information
+{
+    margin-left: -13px;
+}
+
+#st_basket-add-button
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.st_button-basket-submit-enabled
+{
+    width: 120px;
+}
+
+.buttons a, .buttons button, button[disabled="disabled"]:hover
+{
+    display: block;
+    line-height: 30px;
+}
+
+.buttons button
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 25px;
+}
+
+#added_product_preview .buttons
+{
+    float: left;
+}
+
+#added_product_preview .right
+{
+    float: right;
+}
+
+#st_discount-coupon-form .st_field
+{
+    
+}
+
+.box_form fieldset
+{
+    width: 250px;
+}
+
+fieldset
+{
+    border: none;
+}
+
+.alert_tooltip
+{
+    background-color: #E23B3B;
+}

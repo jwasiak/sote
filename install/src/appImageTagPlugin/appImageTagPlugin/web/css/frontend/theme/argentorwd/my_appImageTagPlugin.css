@@ -1,0 +1,9 @@
+.taggd-image-popup .app-product-price,
+.taggd-image-popup .app-product-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.taggd-image-popup .app-product-price {
+    font-weight: 400;
+}

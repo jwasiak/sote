@@ -1,0 +1,1 @@
+<?php echo asset_image_tag($default_image, $image_type)?>

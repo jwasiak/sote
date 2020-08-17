@@ -1,0 +1,27 @@
+{if !$check_xml}
+<span id="st_availability_info">
+{/if}
+    {$availability_image}
+
+    {if $availability_link=="0"}
+        <a href="#" id="active_availability_alert_overlay">
+    {/if}
+    
+    {$availability}
+
+    {if $availability_link=="0"}
+        </a>
+    {/if}
+
+{if !$check_xml}
+</span>
+{/if}
+
+<!-- Modal -->
+<div class="modal fade" id="availability_alert_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div id="availability_alert"></div>
+    </div>
+  </div>
+</div>

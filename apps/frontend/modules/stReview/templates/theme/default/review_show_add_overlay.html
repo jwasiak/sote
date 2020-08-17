@@ -1,0 +1,71 @@
+<div id="st_application-st_review-add" class="st_application">
+<h1 class="st_title">
+    {__ text="Recenzja produktu"}
+</h1>
+    
+     <div class="st_content">
+        {$form_start}
+        
+            <fieldset>
+                <div class="st_row">
+
+                <label><b>{__ text="Twoja ocena"}</b></label>
+
+                    <div style="float:left;">
+                        <input name="review[star]" type="radio" class="submit-star" value="1" {if $my_star_raiting==1} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="2" {if $my_star_raiting==2} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="3" {if $my_star_raiting==3} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="4" {if $my_star_raiting==4} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="5" {if $my_star_raiting==5} checked {/if} />
+                    </div>
+                <br class="st_clear_all" />
+                </div>
+
+                <div class="st_row">
+                    
+                    {$label_description}
+                    <div class="st_field">
+                        {$input_description}
+                    </div>
+                </div>
+
+                <div class="st_row">
+                    {$error_username}
+                    {$label_username}
+                    <div class="st_field">
+                        {$input_username}
+                    </div>
+                </div>
+
+                {if $is_authenticated==false}
+
+                {if isset($captcha_on)}
+                    <div class="st_row">
+                        {$error_captcha}
+                        <div class="row_captha">
+                            {$get_captcha}
+                        </div>
+                        <b>{$label_captcha}</b>
+                        <div class="st_field">
+                            {$input_captcha}
+                        </div>
+                    </div>
+                {/if}
+                
+                {/if}
+
+                <div class="st_row">
+                    <div class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$review_submit}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        {$hidden_product_id}
+        </form>
+    </div>
+    
+</div>

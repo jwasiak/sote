@@ -1,0 +1,67 @@
+webapi:
+    AddDepository:
+        description:        'Funkcja umożliwia dodanie nowego stanu magazynowego dla produktu. Przed dodaniem stanu magazynowego należy upwenić się czy produkt o podanym id istnieje, w przeciwnym wypadku zostatnie zwrócony błąd WEBAPI_VALIDATE_ERROR.'
+        methodType:         Add
+        inType:             object
+        outType:            object
+        inFields:
+            ProductId:      {type: int, required: true, test_table: Product, where_field: id, description: 'Id produktu w sklepie, dla którego ma zostac dodany stan magazynowy. Produkt o podanym id musi istnieć'}
+            Stock:          {type: int, required: true, description: 'Liczba produktów w magazynie podana jako liczba całkowita.'}
+        outFields:
+            Id:             {type: int, description: 'Id wpisu dodanego do magazynu'}                
+
+    GetDepository:
+        description:        'Funckja umożliwia pobranie stanów magazynowych dla produktów w sklepie.'        
+        methodType:         Get
+        inType:             object
+        outType:            object
+        inFields:
+            Id:             {type: int, required: true, description: 'id rekordu w bazie danych, jest to wartość !DepositoryId w danych produktu.'}
+        outFields:
+            Id:             {type: int, description: 'Id pobranego rekordu.'}
+            ProductId:      {type: int, description: 'Id produktu dla którego określony jest stan magazynowy.'}
+            Stock:          {type: int, description: 'Liczba produktów w magazynie podana jako liczba całkowita.'}                
+            ProductName:    {type: string, methods: [getProduct, getName], description: 'Nazwa produktu dla danego stanu magazynowego.'}
+
+    UpdateDepository:
+        description:        'Aktualizuje wartość stanu magazynowego dla danego produktu w sklepie.'
+        methodType:         Update
+        inType:             object
+        outType:            object
+        inFields:
+            Id:             {type: int, required: true, description: 'Id rekordu w bazie danych, jest to wartość !DepositoryId w danych produktu.'}
+            ProductId:      {type: int, test_table: Product, where_field: id, description: 'Id produktu dla którego określony jest stan magazynowy.'}
+            Stock:          {type: int, description: 'Liczba produktów w magazynie podana jako liczba całkowita.'}                
+        outFields:
+            _Update:        {type: boolean, description: 'W przypadku powodzenia wartość ta przyjmuje true'}
+             
+    DeleteDepository:
+        description:        'Usuwa wpis  o określonym id z magaznu, w przypadku gdy zostanie podany nieprawidłowy id funkcja zwraca błąd WEBAPI_INCORRECT_ID.'
+        methodType:         Delete
+        inType:             object
+        outType:            object
+        inFields:
+            Id:             {type: int, required: true, description: 'Id rekordu w bazie danych, jest to wartość !DepositoryId w danych produktu.'}
+        outFields:
+            _Delete:        {type: boolean, description: 'W przypadku powodzenia wartość ta przyjmuje true.'}            
+            
+    GetDepositoryList:
+        description:        'Zwraca listę wszystkich stanów magazynowych. Listę można skrócić wykorzystująć parametry _offset i _limit.'
+        methodType:         List
+        inType:             object
+        outType:            array
+        inFields:
+            _offset:        {type: int, required: true, description: 'Określa przesunięce wyników o określony ofset.'}
+            _limit:         {type: int, required: true, description: 'Określa liczbę wyników w zapytaniu.'}
+        outFields:
+            Id:             {type: int, description: 'Id rekordu w bazie danych, jest to wartość !DepositoryId w danych produktu.'}
+            ProductId:      {type: int, description: 'Id produktu dla którego określony jest stan magazynowy.'}
+            Stock:          {type: int, description: 'Liczba produktów w magazynie podana jako liczba całkowita.'}
+            ProductName:    {type: string,  methods: [getProduct, getName], description: 'Nazwa produktu dla danego stanu magazynowego.'}
+            
+    CountDepository:
+        description:        'Zwraca całkowitą liczbę rekordów w tabeli magazyn.'
+        methodType:         Count
+        outType:            object
+        outFields:
+            _Count:        {type: int, description: 'Zawiera całkowitą liczbę rekordów w bazie magazyn.'}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Brak newsa</source>
+				<target>没有新闻</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>News o podanym id nie istnieje</source>
+				<target>本ID的新闻不存在</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowości</source>
+				<target>新</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

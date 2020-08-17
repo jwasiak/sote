@@ -1,0 +1,25 @@
+<div id="st_button-user-edit_data_basket" class="st_button-container">
+    {if $disabled}
+    <div class="st_button-disabled st_align-right">
+
+        <div class="st_button-left-disabled">
+            {if $label}
+            <input type="submit" name="submit_save" value="{__ text=$label}" disabled="disabled" />
+            {else}
+            <input type="submit" name="submit_save" value="{__ text='Przejdź do potwierdzenia'}" disabled="disabled" />
+            {/if}
+        </div>
+    </div>
+    {else}
+    <div class="st_button st_align-right">
+        <div class="st_button-left">
+            {if $label}
+            <input type="submit" name="submit_save" value="{__ text=$label}" />
+            {else}
+            <input type="submit" name="submit_save" value="{__ text='Przejdź do potwierdzenia'}" />
+            {/if}
+        </div>
+
+    </div>
+    {/if}
+</div>

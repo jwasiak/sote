@@ -1,0 +1,17 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/config
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/config/config.php
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/modules
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/modules/stOptimizationBackend
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/modules/stOptimizationBackend/actions
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/modules/stOptimizationBackend/actions/actions.class.php
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/modules/stOptimizationBackend/templates
+/home/jarek/src/soteshop/plugins/stOptimizationPlugin/modules/stOptimizationBackend/templates/indexSuccess.php
+/home/jarek/src/soteshop/data
+/home/jarek/src/soteshop/data/config
+/home/jarek/src/soteshop/data/config/stOptimizationBackend.yml
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stOptimizationPlugin
+/home/jarek/src/soteshop/packages/stOptimizationPlugin/package.yml
+/home/jarek/src/soteshop/packages/stOptimizationPlugin/phpdoc.yml

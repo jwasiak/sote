@@ -1,0 +1,939 @@
+CountriesI18n:
+  CountriesI18n_ru_1:
+    id: Countries_1
+    culture: ru
+    name: Албания
+  CountriesI18n_ru_2:
+    id: Countries_2
+    culture: ru
+    name: Андорра
+  CountriesI18n_ru_3:
+    id: Countries_3
+    culture: ru
+    name: Армения
+  CountriesI18n_ru_4:
+    id: Countries_4
+    culture: ru
+    name: Австрия
+  CountriesI18n_ru_5:
+    id: Countries_5
+    culture: ru
+    name: Азербайджан
+  CountriesI18n_ru_6:
+    id: Countries_6
+    culture: ru
+    name: Беларусь
+  CountriesI18n_ru_7:
+    id: Countries_7
+    culture: ru
+    name: Бельгия
+  CountriesI18n_ru_8:
+    id: Countries_8
+    culture: ru
+    name: Босния и Герцеговина
+  CountriesI18n_ru_9:
+    id: Countries_9
+    culture: ru
+    name: Болгария
+  CountriesI18n_ru_10:
+    id: Countries_10
+    culture: ru
+    name: Хорватия
+  CountriesI18n_ru_11:
+    id: Countries_11
+    culture: ru
+    name: Кипр
+  CountriesI18n_ru_12:
+    id: Countries_12
+    culture: ru
+    name: Чешская Республика
+  CountriesI18n_ru_13:
+    id: Countries_13
+    culture: ru
+    name: Дания
+  CountriesI18n_ru_14:
+    id: Countries_14
+    culture: ru
+    name: Эстония
+  CountriesI18n_ru_15:
+    id: Countries_15
+    culture: ru
+    name: Финляндия
+  CountriesI18n_ru_16:
+    id: Countries_16
+    culture: ru
+    name: Франция
+  CountriesI18n_ru_17:
+    id: Countries_17
+    culture: ru
+    name: Грузии
+  CountriesI18n_ru_18:
+    id: Countries_18
+    culture: ru
+    name: Германия
+  CountriesI18n_ru_19:
+    id: Countries_19
+    culture: ru
+    name: Греция
+  CountriesI18n_ru_20:
+    id: Countries_20
+    culture: ru
+    name: Венгрия
+  CountriesI18n_ru_21:
+    id: Countries_21
+    culture: ru
+    name: Исландия
+  CountriesI18n_ru_22:
+    id: Countries_22
+    culture: ru
+    name: Ирландия
+  CountriesI18n_ru_23:
+    id: Countries_23
+    culture: ru
+    name: Италия
+  CountriesI18n_ru_24:
+    id: Countries_24
+    culture: ru
+    name: Казахстан
+  CountriesI18n_ru_25:
+    id: Countries_25
+    culture: ru
+    name: Латвии
+  CountriesI18n_ru_26:
+    id: Countries_26
+    culture: ru
+    name: Лихтенштейн
+  CountriesI18n_ru_27:
+    id: Countries_27
+    culture: ru
+    name: Литва
+  CountriesI18n_ru_28:
+    id: Countries_28
+    culture: ru
+    name: Люксембург
+  CountriesI18n_ru_29:
+    id: Countries_29
+    culture: ru
+    name: Македония
+  CountriesI18n_ru_30:
+    id: Countries_30
+    culture: ru
+    name: Мальта
+  CountriesI18n_ru_31:
+    id: Countries_31
+    culture: ru
+    name: Молдова
+  CountriesI18n_ru_32:
+    id: Countries_32
+    culture: ru
+    name: Монако
+  CountriesI18n_ru_33:
+    id: Countries_33
+    culture: ru
+    name: Черногория
+  CountriesI18n_ru_34:
+    id: Countries_34
+    culture: ru
+    name: Нидерланды
+  CountriesI18n_ru_35:
+    id: Countries_35
+    culture: ru
+    name: Норвегия
+  CountriesI18n_ru_36:
+    id: Countries_36
+    culture: ru
+    name: Польша
+  CountriesI18n_ru_37:
+    id: Countries_37
+    culture: ru
+    name: Португалия
+  CountriesI18n_ru_38:
+    id: Countries_38
+    culture: ru
+    name: Румыния
+  CountriesI18n_ru_39:
+    id: Countries_39
+    culture: ru
+    name: Россия
+  CountriesI18n_ru_40:
+    id: Countries_40
+    culture: ru
+    name: Сан - Марино
+  CountriesI18n_ru_41:
+    id: Countries_41
+    culture: ru
+    name: Сербия
+  CountriesI18n_ru_42:
+    id: Countries_42
+    culture: ru
+    name: Словакия
+  CountriesI18n_ru_43:
+    id: Countries_43
+    culture: ru
+    name: Словения
+  CountriesI18n_ru_44:
+    id: Countries_44
+    culture: ru
+    name: Испания
+  CountriesI18n_ru_45:
+    id: Countries_45
+    culture: ru
+    name: Швеция
+  CountriesI18n_ru_46:
+    id: Countries_46
+    culture: ru
+    name: Швейцария
+  CountriesI18n_ru_47:
+    id: Countries_47
+    culture: ru
+    name: Турция
+  CountriesI18n_ru_48:
+    id: Countries_48
+    culture: ru
+    name: Украине
+  CountriesI18n_ru_49:
+    id: Countries_49
+    culture: ru
+    name: Соединенное Королевство
+  CountriesI18n_ru_50:
+    id: Countries_50
+    culture: ru
+    name: Ватикан
+  CountriesI18n_ru_51:
+    id: Countries_51
+    culture: ru
+    name: Аландские острова
+  CountriesI18n_ru_52:
+    id: Countries_52
+    culture: ru
+    name: Фарерские острова
+  CountriesI18n_ru_53:
+    id: Countries_53
+    culture: ru
+    name: Гибралтар
+  CountriesI18n_ru_54:
+    id: Countries_54
+    culture: ru
+    name: Гренландия
+  CountriesI18n_ru_55:
+    id: Countries_55
+    culture: ru
+    name: Антигуа и Барбуда
+  CountriesI18n_ru_56:
+    id: Countries_56
+    culture: ru
+    name: Багамские острова
+  CountriesI18n_ru_57:
+    id: Countries_57
+    culture: ru
+    name: Барбадос
+  CountriesI18n_ru_58:
+    id: Countries_58
+    culture: ru
+    name: Белиз
+  CountriesI18n_ru_59:
+    id: Countries_59
+    culture: ru
+    name: Доминика
+  CountriesI18n_ru_60:
+    id: Countries_60
+    culture: ru
+    name: Доминиканская Республика
+  CountriesI18n_ru_61:
+    id: Countries_61
+    culture: ru
+    name: Гренада
+  CountriesI18n_ru_62:
+    id: Countries_62
+    culture: ru
+    name: Гватемала
+  CountriesI18n_ru_63:
+    id: Countries_63
+    culture: ru
+    name: Гаити
+  CountriesI18n_ru_64:
+    id: Countries_64
+    culture: ru
+    name: Гондурас
+  CountriesI18n_ru_65:
+    id: Countries_65
+    culture: ru
+    name: Ямайка
+  CountriesI18n_ru_66:
+    id: Countries_66
+    culture: ru
+    name: Канада
+  CountriesI18n_ru_67:
+    id: Countries_67
+    culture: ru
+    name: Коста-Рика
+  CountriesI18n_ru_68:
+    id: Countries_68
+    culture: ru
+    name: Куба
+  CountriesI18n_ru_69:
+    id: Countries_69
+    culture: ru
+    name: Мексика
+  CountriesI18n_ru_70:
+    id: Countries_70
+    culture: ru
+    name: Никарагуа
+  CountriesI18n_ru_71:
+    id: Countries_71
+    culture: ru
+    name: Панама
+  CountriesI18n_ru_72:
+    id: Countries_72
+    culture: ru
+    name: Пуэрто-Рико
+  CountriesI18n_ru_73:
+    id: Countries_73
+    culture: ru
+    name: Сент-Китс и Невис
+  CountriesI18n_ru_74:
+    id: Countries_74
+    culture: ru
+    name: Сент-Люсия
+  CountriesI18n_ru_75:
+    id: Countries_75
+    culture: ru
+    name: Сент-Винсент и Гренадины
+  CountriesI18n_ru_76:
+    id: Countries_76
+    culture: ru
+    name: Сальвадор
+  CountriesI18n_ru_77:
+    id: Countries_77
+    culture: ru
+    name: Соединенные Штаты
+  CountriesI18n_ru_78:
+    id: Countries_78
+    culture: ru
+    name: Тринидад и Тобаго
+  CountriesI18n_ru_79:
+    id: Countries_79
+    culture: ru
+    name: Anquilla
+  CountriesI18n_ru_80:
+    id: Countries_80
+    culture: ru
+    name: Нидерландские Антильские острова
+  CountriesI18n_ru_81:
+    id: Countries_81
+    culture: ru
+    name: Аруба
+  CountriesI18n_ru_82:
+    id: Countries_82
+    culture: ru
+    name: Бермудские острова
+  CountriesI18n_ru_83:
+    id: Countries_83
+    culture: ru
+    name: Британские Виргинские острова
+  CountriesI18n_ru_84:
+    id: Countries_84
+    culture: ru
+    name: Гваделупа
+  CountriesI18n_ru_85:
+    id: Countries_85
+    culture: ru
+    name: Каймановы острова
+  CountriesI18n_ru_86:
+    id: Countries_86
+    culture: ru
+    name: Мартиника
+  CountriesI18n_ru_87:
+    id: Countries_87
+    culture: ru
+    name: Монтсеррат
+  CountriesI18n_ru_88:
+    id: Countries_88
+    culture: ru
+    name: Сен-Пьер и Микелон
+  CountriesI18n_ru_89:
+    id: Countries_89
+    culture: ru
+    name: Острова Теркс и Кайкос
+  CountriesI18n_ru_90:
+    id: Countries_90
+    culture: ru
+    name: Виргинские острова
+  CountriesI18n_ru_91:
+    id: Countries_91
+    culture: ru
+    name: Аргентина
+  CountriesI18n_ru_92:
+    id: Countries_92
+    culture: ru
+    name: Боливия
+  CountriesI18n_ru_93:
+    id: Countries_93
+    culture: ru
+    name: Бразилия
+  CountriesI18n_ru_94:
+    id: Countries_94
+    culture: ru
+    name: Чили
+  CountriesI18n_ru_95:
+    id: Countries_95
+    culture: ru
+    name: Колумбия
+  CountriesI18n_ru_96:
+    id: Countries_96
+    culture: ru
+    name: Эквадор
+  CountriesI18n_ru_97:
+    id: Countries_97
+    culture: ru
+    name: Фолклендские острова
+  CountriesI18n_ru_98:
+    id: Countries_98
+    culture: ru
+    name: Французская Гвиана
+  CountriesI18n_ru_99:
+    id: Countries_99
+    culture: ru
+    name: Гвиана
+  CountriesI18n_ru_100:
+    id: Countries_100
+    culture: ru
+    name: Парагвай
+  CountriesI18n_ru_101:
+    id: Countries_101
+    culture: ru
+    name: Перу
+  CountriesI18n_ru_102:
+    id: Countries_102
+    culture: ru
+    name: Южная Георгия и Южные Сандвичевы острова
+  CountriesI18n_ru_103:
+    id: Countries_103
+    culture: ru
+    name: Суринам
+  CountriesI18n_ru_104:
+    id: Countries_104
+    culture: ru
+    name: Уругвай
+  CountriesI18n_ru_105:
+    id: Countries_105
+    culture: ru
+    name: Венесуэла
+  CountriesI18n_ru_106:
+    id: Countries_106
+    culture: ru
+    name: Австралия
+  CountriesI18n_ru_107:
+    id: Countries_107
+    culture: ru
+    name: Новая Зеландия
+  CountriesI18n_ru_108:
+    id: Countries_108
+    culture: ru
+    name: Остров Рождества
+  CountriesI18n_ru_109:
+    id: Countries_109
+    culture: ru
+    name: Кокосовые острова
+  CountriesI18n_ru_110:
+    id: Countries_110
+    culture: ru
+    name: Норфолк
+  CountriesI18n_ru_111:
+    id: Countries_111
+    culture: ru
+    name: Фиджи
+  CountriesI18n_ru_112:
+    id: Countries_112
+    culture: ru
+    name: Новой Каледонии
+  CountriesI18n_ru_113:
+    id: Countries_113
+    culture: ru
+    name: Папуа-Новая Гвинея
+  CountriesI18n_ru_114:
+    id: Countries_114
+    culture: ru
+    name: Соломоновы Острова
+  CountriesI18n_ru_115:
+    id: Countries_115
+    culture: ru
+    name: Вануату
+  CountriesI18n_ru_116:
+    id: Countries_116
+    culture: ru
+    name: Микронезия
+  CountriesI18n_ru_117:
+    id: Countries_117
+    culture: ru
+    name: Гуам
+  CountriesI18n_ru_118:
+    id: Countries_118
+    culture: ru
+    name: Кирибати
+  CountriesI18n_ru_119:
+    id: Countries_119
+    culture: ru
+    name: Маршалловы острова
+  CountriesI18n_ru_120:
+    id: Countries_120
+    culture: ru
+    name: Науру
+  CountriesI18n_ru_121:
+    id: Countries_121
+    culture: ru
+    name: Северные Марианские острова
+  CountriesI18n_ru_122:
+    id: Countries_122
+    culture: ru
+    name: Палау
+  CountriesI18n_ru_123:
+    id: Countries_123
+    culture: ru
+    name: Американское Самоа
+  CountriesI18n_ru_124:
+    id: Countries_124
+    culture: ru
+    name: Острова Кука
+  CountriesI18n_ru_125:
+    id: Countries_125
+    culture: ru
+    name: Французский Polnezja
+  CountriesI18n_ru_126:
+    id: Countries_126
+    culture: ru
+    name: Ниуэ
+  CountriesI18n_ru_127:
+    id: Countries_127
+    culture: ru
+    name: Питкэрн
+  CountriesI18n_ru_128:
+    id: Countries_128
+    culture: ru
+    name: Самоа
+  CountriesI18n_ru_129:
+    id: Countries_129
+    culture: ru
+    name: Токелау
+  CountriesI18n_ru_130:
+    id: Countries_130
+    culture: ru
+    name: Тонга
+  CountriesI18n_ru_131:
+    id: Countries_131
+    culture: ru
+    name: Тувалу
+  CountriesI18n_ru_132:
+    id: Countries_132
+    culture: ru
+    name: Уоллис и Футуна
+  CountriesI18n_ru_133:
+    id: Countries_133
+    culture: ru
+    name: Антарктида
+  CountriesI18n_ru_134:
+    id: Countries_134
+    culture: ru
+    name: Афганистан
+  CountriesI18n_ru_135:
+    id: Countries_135
+    culture: ru
+    name: Бахрейн
+  CountriesI18n_ru_136:
+    id: Countries_136
+    culture: ru
+    name: Бангладеш
+  CountriesI18n_ru_137:
+    id: Countries_137
+    culture: ru
+    name: Бутан
+  CountriesI18n_ru_138:
+    id: Countries_138
+    culture: ru
+    name: Бруней-Даруссалам
+  CountriesI18n_ru_139:
+    id: Countries_139
+    culture: ru
+    name: Камбоджа
+  CountriesI18n_ru_140:
+    id: Countries_140
+    culture: ru
+    name: Китай
+  CountriesI18n_ru_141:
+    id: Countries_141
+    culture: ru
+    name: Гонконг
+  CountriesI18n_ru_142:
+    id: Countries_142
+    culture: ru
+    name: Индия
+  CountriesI18n_ru_143:
+    id: Countries_143
+    culture: ru
+    name: Индонезия
+  CountriesI18n_ru_144:
+    id: Countries_144
+    culture: ru
+    name: Иран
+  CountriesI18n_ru_145:
+    id: Countries_145
+    culture: ru
+    name: Ирак
+  CountriesI18n_ru_146:
+    id: Countries_146
+    culture: ru
+    name: Израиль
+  CountriesI18n_ru_147:
+    id: Countries_147
+    culture: ru
+    name: Япония
+  CountriesI18n_ru_148:
+    id: Countries_148
+    culture: ru
+    name: Иордания
+  CountriesI18n_ru_149:
+    id: Countries_149
+    culture: ru
+    name: Северная Корея
+  CountriesI18n_ru_150:
+    id: Countries_150
+    culture: ru
+    name: Южная Корея
+  CountriesI18n_ru_151:
+    id: Countries_151
+    culture: ru
+    name: Кувейт
+  CountriesI18n_ru_152:
+    id: Countries_152
+    culture: ru
+    name: Кыргызстан
+  CountriesI18n_ru_153:
+    id: Countries_153
+    culture: ru
+    name: Лаос
+  CountriesI18n_ru_154:
+    id: Countries_154
+    culture: ru
+    name: Ливан
+  CountriesI18n_ru_155:
+    id: Countries_155
+    culture: ru
+    name: Макао
+  CountriesI18n_ru_156:
+    id: Countries_156
+    culture: ru
+    name: Малайзия
+  CountriesI18n_ru_157:
+    id: Countries_157
+    culture: ru
+    name: Мальдивы
+  CountriesI18n_ru_158:
+    id: Countries_158
+    culture: ru
+    name: Монголия
+  CountriesI18n_ru_159:
+    id: Countries_159
+    culture: ru
+    name: Бирма
+  CountriesI18n_ru_160:
+    id: Countries_160
+    culture: ru
+    name: Непал
+  CountriesI18n_ru_161:
+    id: Countries_161
+    culture: ru
+    name: Оман
+  CountriesI18n_ru_162:
+    id: Countries_162
+    culture: ru
+    name: Пакистан
+  CountriesI18n_ru_163:
+    id: Countries_163
+    culture: ru
+    name: Палестинская администрация
+  CountriesI18n_ru_164:
+    id: Countries_164
+    culture: ru
+    name: Филиппины
+  CountriesI18n_ru_165:
+    id: Countries_165
+    culture: ru
+    name: Катар
+  CountriesI18n_ru_166:
+    id: Countries_166
+    culture: ru
+    name: Саудовская Аравия
+  CountriesI18n_ru_167:
+    id: Countries_167
+    culture: ru
+    name: Сингапур
+  CountriesI18n_ru_168:
+    id: Countries_168
+    culture: ru
+    name: Шри-Ланка
+  CountriesI18n_ru_169:
+    id: Countries_169
+    culture: ru
+    name: Сирия
+  CountriesI18n_ru_170:
+    id: Countries_170
+    culture: ru
+    name: Тайвань
+  CountriesI18n_ru_171:
+    id: Countries_171
+    culture: ru
+    name: Таджикистан
+  CountriesI18n_ru_172:
+    id: Countries_172
+    culture: ru
+    name: Таиланд
+  CountriesI18n_ru_173:
+    id: Countries_173
+    culture: ru
+    name: Восточный Тимор
+  CountriesI18n_ru_174:
+    id: Countries_174
+    culture: ru
+    name: Туркменистан
+  CountriesI18n_ru_175:
+    id: Countries_175
+    culture: ru
+    name: Объединенные Арабские Эмираты
+  CountriesI18n_ru_176:
+    id: Countries_176
+    culture: ru
+    name: Узбекистан
+  CountriesI18n_ru_177:
+    id: Countries_177
+    culture: ru
+    name: Вьетнам
+  CountriesI18n_ru_178:
+    id: Countries_178
+    culture: ru
+    name: Йемен
+  CountriesI18n_ru_179:
+    id: Countries_179
+    culture: ru
+    name: Алжир
+  CountriesI18n_ru_180:
+    id: Countries_180
+    culture: ru
+    name: Ангола
+  CountriesI18n_ru_181:
+    id: Countries_181
+    culture: ru
+    name: Бенин
+  CountriesI18n_ru_182:
+    id: Countries_182
+    culture: ru
+    name: Ботсвана
+  CountriesI18n_ru_183:
+    id: Countries_183
+    culture: ru
+    name: Буркина-Фасо
+  CountriesI18n_ru_184:
+    id: Countries_184
+    culture: ru
+    name: Бурунди
+  CountriesI18n_ru_185:
+    id: Countries_185
+    culture: ru
+    name: Камерун
+  CountriesI18n_ru_186:
+    id: Countries_186
+    culture: ru
+    name: Кабо-Верде
+  CountriesI18n_ru_187:
+    id: Countries_187
+    culture: ru
+    name: Центрально-Африканская Республика
+  CountriesI18n_ru_188:
+    id: Countries_188
+    culture: ru
+    name: Влажный
+  CountriesI18n_ru_189:
+    id: Countries_189
+    culture: ru
+    name: Коморские острова
+  CountriesI18n_ru_190:
+    id: Countries_190
+    culture: ru
+    name: Демократической Республике Конго
+  CountriesI18n_ru_191:
+    id: Countries_191
+    culture: ru
+    name: Республика Конго
+  CountriesI18n_ru_192:
+    id: Countries_192
+    culture: ru
+    name: Берег Слоновой Кости
+  CountriesI18n_ru_193:
+    id: Countries_193
+    culture: ru
+    name: Джибути
+  CountriesI18n_ru_194:
+    id: Countries_194
+    culture: ru
+    name: Египет
+  CountriesI18n_ru_195:
+    id: Countries_195
+    culture: ru
+    name: Экваториальная Гвинея
+  CountriesI18n_ru_196:
+    id: Countries_196
+    culture: ru
+    name: Эритрея
+  CountriesI18n_ru_197:
+    id: Countries_197
+    culture: ru
+    name: Эфиопия
+  CountriesI18n_ru_198:
+    id: Countries_198
+    culture: ru
+    name: Габон
+  CountriesI18n_ru_199:
+    id: Countries_199
+    culture: ru
+    name: Гамбия
+  CountriesI18n_ru_200:
+    id: Countries_200
+    culture: ru
+    name: Гана
+  CountriesI18n_ru_201:
+    id: Countries_201
+    culture: ru
+    name: Гвинея
+  CountriesI18n_ru_202:
+    id: Countries_202
+    culture: ru
+    name: Гвинея-Бисау
+  CountriesI18n_ru_203:
+    id: Countries_203
+    culture: ru
+    name: Кения
+  CountriesI18n_ru_204:
+    id: Countries_204
+    culture: ru
+    name: Лесото
+  CountriesI18n_ru_205:
+    id: Countries_205
+    culture: ru
+    name: Ливрея
+  CountriesI18n_ru_206:
+    id: Countries_206
+    culture: ru
+    name: Ливия
+  CountriesI18n_ru_207:
+    id: Countries_207
+    culture: ru
+    name: Мадагаскар
+  CountriesI18n_ru_208:
+    id: Countries_208
+    culture: ru
+    name: Малави
+  CountriesI18n_ru_209:
+    id: Countries_209
+    culture: ru
+    name: Мали
+  CountriesI18n_ru_210:
+    id: Countries_210
+    culture: ru
+    name: Мавритания
+  CountriesI18n_ru_211:
+    id: Countries_211
+    culture: ru
+    name: Маврикий
+  CountriesI18n_ru_212:
+    id: Countries_212
+    culture: ru
+    name: Марокко
+  CountriesI18n_ru_213:
+    id: Countries_213
+    culture: ru
+    name: Мозамбик
+  CountriesI18n_ru_214:
+    id: Countries_214
+    culture: ru
+    name: Намибия
+  CountriesI18n_ru_215:
+    id: Countries_215
+    culture: ru
+    name: Нигер
+  CountriesI18n_ru_216:
+    id: Countries_216
+    culture: ru
+    name: Нигерия
+  CountriesI18n_ru_217:
+    id: Countries_217
+    culture: ru
+    name: Руанде
+  CountriesI18n_ru_218:
+    id: Countries_218
+    culture: ru
+    name: Сан-Томе и Принсипи
+  CountriesI18n_ru_219:
+    id: Countries_219
+    culture: ru
+    name: Сенегал
+  CountriesI18n_ru_220:
+    id: Countries_220
+    culture: ru
+    name: Сейшельские острова
+  CountriesI18n_ru_221:
+    id: Countries_221
+    culture: ru
+    name: Сьерра-Леоне
+  CountriesI18n_ru_222:
+    id: Countries_222
+    culture: ru
+    name: Южная Африка
+  CountriesI18n_ru_223:
+    id: Countries_223
+    culture: ru
+    name: Судан
+  CountriesI18n_ru_224:
+    id: Countries_224
+    culture: ru
+    name: Свазиленд
+  CountriesI18n_ru_225:
+    id: Countries_225
+    culture: ru
+    name: Танзания
+  CountriesI18n_ru_226:
+    id: Countries_226
+    culture: ru
+    name: Того
+  CountriesI18n_ru_227:
+    id: Countries_227
+    culture: ru
+    name: Тунис
+  CountriesI18n_ru_228:
+    id: Countries_228
+    culture: ru
+    name: Уганда
+  CountriesI18n_ru_229:
+    id: Countries_229
+    culture: ru
+    name: Замбия
+  CountriesI18n_ru_230:
+    id: Countries_230
+    culture: ru
+    name: Зимбабве
+
+OrderStatusI18n:
+  OrderStatusI18n_ru_1:
+    id: OrderStatus_1
+    culture: ru
+    name: Отменено
+  OrderStatusI18n_ru_2:
+    id: OrderStatus_2
+    culture: ru
+    name: Ожидаемые
+  OrderStatusI18n_ru_3:
+    id: OrderStatus_3
+    culture: ru
+    name: Постоянный
+  OrderStatusI18n_ru_4:
+    id: OrderStatus_4
+    culture: ru
+    name: Завершено

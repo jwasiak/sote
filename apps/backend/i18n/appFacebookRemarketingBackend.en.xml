@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Włącz</source>
+                <target>Enable</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Piksel Facebooka</source>
+                <target>Facebook pixel</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Podaj numer piksela Facebooka</source>
+                <target>Enter Facebook pixel number</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Tworzenie piksela</source>
+                <target>Creating the pixel</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Utwórz piksel</source>
+                <target>Create your pixel</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source> w menedżerze reklam Facebook.</source>
+                <target> in Facebook ads manager.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>NUMER_PIKSELA_FACEBOOKA</source>
+                <target>FACEBOOK_PIXEL_NUMBER</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Rejestrowanie zdarzeń</source>
+                <target>Reporting Events</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Wyświetlanie produktu</source>
+                <target>Product card</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Akcja: View content</source>
+                <target>Website action: View content</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Dodanie do koszyka</source>
+                <target>Add to cart</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Akcja: Add to cart</source>
+                <target>Website action: Add to cart</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Dokonanie zakupów</source>
+                <target>Order summary</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Akcja: Make purchase</source>
+                <target>Website action: Make purchase</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

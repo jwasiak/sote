@@ -1,0 +1,40 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-lazuli-1.jpg
+    image_small: /picture/pl_PL/baner-lazuli-1-small.jpg
+    is_active: 1
+    rank: 2
+    opt_culture: pl_PL
+    banner_title: >
+        Cremee<span style="color: #2e91e6;">.</span>
+    banner_description: >
+        <b style="margin-bottom: 12px;display: block;">Hamulce klasyczne</b> Klasyczne szosowe hamulce rowerowe zapewniają odpowiednią modulację siły hamowania. Ich aerodynamiczny kształt oraz niska masa stawiają je wśród liderów na rynku.
+    button_text: Sprawdź
+    button_link: /hamulce-klasyczne.html
+  SlideBanner_2:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-lazuli-2.jpg
+    image_small: /picture/pl_PL/baner-lazuli-2-small.jpg
+    is_active: 1
+    rank: 1
+    opt_culture: pl_PL
+    banner_title: >
+        Lapiovra<span style="color: #2e91e6;">.</span>
+    banner_description: >
+        <b style="margin-bottom: 12px;display: block;">Rower szosowy</b> Model ten powstał na kanwie aluminiowej ramy ze stopu Lite, dzięki czemu jest lekki i odporny na złamania. W procesie produkcji wykorzystano metodę hydroformingu, co pozwoliło uzyskać cienkie i smukłe rury, bez strat na trwałości.
+    button_text: Sprawdź
+    button_link: /rower-szosowy.html
+  SlideBanner_3:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-lazuli-3.jpg
+    image_small: /picture/pl_PL/baner-lazuli-3-small.jpg
+    is_active: 1
+    rank: 3
+    opt_culture: pl_PL
+    banner_title: >
+        Crank<span style="color: #2e91e6;">.</span>
+    banner_description: >
+        <b style="margin-bottom: 12px;display: block;">Koło rowerowe</b> Szosowe koła rowerowe podczas jazdy sprawdzają się nienagannie i uzyskują wysokie parametry. Cały zestaw waży stosunkowo niewiele i jest przede wszystkim wytrzymały.
+    button_text: Sprawdź
+    button_link: /kolo-rowerowe.html

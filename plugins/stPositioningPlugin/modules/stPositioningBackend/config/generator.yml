@@ -1,0 +1,84 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            Positioning
+        theme:                  simple
+
+        head:
+            package:            stPositioningPlugin
+        applications:           [stLanguagePlugin, stProduct, stCategory, stWebpagePlugin, stProducer, stBlogPlugin]
+
+        edit:
+            title:              Meta tagi
+            display:            
+                "Strona główna":    [title, description, keywords]
+                "Tytuły stron":     [title_product, title_category, title_manufacteur, title_webpage, title_blog, title_product_group]
+
+            fields:
+                title:               {name: Tytuł, help: "Tytuł należy zmieścić w około 65-75 znakach wraz ze spacjami.", params: size=50 disabled=false, i18n: stPositioningBackend}
+                title_product:       {name: produktu, help: "{NAME} to nazwa produktu", params: size=50 disabled=false}
+                title_category:      {name: kategorii, help: "{NAME} to nazwa kategorii", params: size=50 disabled=false}
+                title_manufacteur:   {name: producenta, help: "{NAME} to nazwa producenta",  params: size=50 disabled=false}
+                title_blog:          {name: blogu, help: "{NAME} to nazwa wpisu bloga", params: size=50 disabled=false}
+                title_product_group: {name: grupy produktów, help: "{NAME} to nazwa grupy produktu", params: size=50 disabled=false}
+                title_webpage:       {name: informacyjnych, help: "{NAME} to nazwa strony informacyjnej", params: size=50 disabled=false}
+                keywords:            {name: Słowa kluczowe, help: "Słowa kluczowe powinny być oddzielone przecinkiem. Przykład: słowo, słowo, słowo", type: textarea_tag, params: size=60x3, i18n: stPositioningBackend}
+                description:         {name: Opis, help: "Opis strony powinien mieć mniej niż 160 znaków ze spacjami.", type: textarea_tag, params: size=60x5, i18n: stPositioningBackend}
+
+            actions:
+                _save:              {name: Zapisz}
+            menu:
+                display:            [verify_search, sitemap, robot_file, 404links, rebuild, config]
+                fields:
+                    _edit:          {name: Meta Tagi, action: @stPositioningPluginDefault}
+                    config:         {name: Konfiguracja, action: @stPositioningPlugin?action=config&meta_id=%%id%%}
+                    verify_search:  {name: Weryfikacja wyszukiwarek, action: stPositioningBackend/verifySearchCustom?meta_id=%%id%% }
+                    sitemap:        {name: Mapy witryn dla Google, action: stPositioningBackend/sitemapCustom?meta_id=%%id%%}
+                    robot_file:     {name: Edycja pliku robots.txt, action: stPositioningBackend/robotFileCustom?meta_id=%%id%%}
+                    404links:       {name: Przekierowania linków 404, action: stPositioningBackend/404linksCustom?meta_id=%%id%%}
+                    rebuild:        {name: Generuj linki SEO, action: stPositioningBackend/rebuildSeoLinks?meta_id=%%id%%}
+
+        config:
+            title:              Konfiguracja
+            menu:               {use: edit.menu}
+            display:
+                "NONE":         [noindex_urls, noindex]
+            fields:
+                noindex:        {name: Blokuj indeksowanie całego sklepu. Wyindeksuj sklep., type: checkbox}
+                noindex_urls:   {name: Blokuj indeksowanie wybranych stron, type: textarea, params: cols=50 rows=5, help: "Każdy adres strony podawaj w osobnej linii"}
+            actions:
+                _save:          {name: Zapisz}
+            forward_parameters: [meta_id]
+            build_options:
+                related_id:     forward_parameters.meta_id
+
+        custom_actions:
+            custom:                 [robot_file, sitemap, verify_search, 404links]
+
+        robot_file_custom:
+            forward_parameters:     [meta_id]
+            build_options:
+                related_id:         forward_parameters.meta_id        
+            menu:                   {use: edit.menu}
+            title:                  Edycja pliku robots.txt 
+
+        sitemap_custom:
+            forward_parameters:     [meta_id]
+            build_options:
+                related_id:         forward_parameters.meta_id          
+            menu:                   {use: edit.menu}
+            title:                  Mapy witryn dla Google
+
+        verify_search_custom:
+            forward_parameters:     [meta_id]
+            build_options:
+                related_id:         forward_parameters.meta_id        
+            menu:                   {use: edit.menu}
+            title:                  Weryfikacja wyszukiwarek
+
+        404links_custom:
+            forward_parameters:     [meta_id]
+            build_options:
+                related_id:         forward_parameters.meta_id          
+            menu:                   {use: edit.menu}
+            title:                  Przekierowania linków 404

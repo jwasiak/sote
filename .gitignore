@@ -1,0 +1,12 @@
+web/media/
+data/online-files/
+log/
+cache/
+web/cache/
+web/uploads/
+web/xml/
+config/__st_setup.yml
+config/databases.yml
+config/propel.ini
+data/config/__stRegister.yml
+backups/

@@ -1,0 +1,20 @@
+input[type="radio"], input[type="checkbox"] 
+{
+    border: none !important;
+    padding: 0px !important;
+}
+
+#st_basket-delivery-form > .frame
+{
+	height: auto !important;
+}
+
+fieldset
+{
+	border: none;
+}
+
+.alert_tooltip
+{
+	background-color: #E23B3B;
+}

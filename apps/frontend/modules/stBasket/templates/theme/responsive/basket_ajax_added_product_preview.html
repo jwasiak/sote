@@ -1,0 +1,94 @@
+{assign var=update value=false}
+<div id="shopping-cart-product-preview" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">{__ text="Produkt został dodany do koszyka"}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="shopping-cart">
+                    {foreach item=product from=$products}
+                    {if $product.quantity > 0}
+                        {assign var=update value=true}
+                    {/if}
+                    <div class="item clearfix">
+                        <div class="col-xs-2">
+                            <a href="{$product.url}" class="image pull-left">
+                                <img class="img-rounded" src="{$product.image}" alt="{$product.name}" />
+                            </a>
+                        </div>
+                        <div class="col-xs-10">
+                            <div class="name">
+                                <a href="{$product.url}">{$product.name}</a>
+                            </div>
+                            {if $product.instance->hasPriceModifiers()}
+                                {foreach item=modifier from=$product.instance->getPriceModifiers()}
+                                    {if $modifier.custom.field}
+                                        <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip">{$modifier.custom.field}: {$modifier.label}</span>
+                                    {else}
+                                        <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip">{$modifier.label}</span>
+                                    {/if}
+                                {/foreach}
+                            {/if}
+                            <div class="price">
+                                {if $product.error}
+                                    <span class="has-error glyphicon glyphicon-exclamation-sign" data-toggle="tooltip" data-placement="top" title="{$product.error}"></span>
+                                {/if}
+                                {$product.quantity} x {$product.price|st_currency_format}
+                                {if $show_netto == 1}
+                                ({$product.instance->getPriceNetto(true)|st_currency_format} {__ text="netto"})
+                                {/if}
+                            </div>
+                        </div>
+                    </div> 
+                    {/foreach}
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">{__ text="Kontynuuj zakupy"}</button>
+                <a class="btn btn-primary" href="{$basket_url}">{__ text="Zamów"}</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+{slot name="basket-ajax-added-product-preview" hidden="true"}{/slot}
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function() {
+    var shoppingCartProductPreview = $('#shopping-cart-product-preview');
+   shoppingCartProductPreview .modal().on('hidden.bs.modal', function() {
+        $(this).remove();
+    });
+    shoppingCartProductPreview.find('[data-toggle=tooltip]').tooltip().on('show.bs.tooltip', function(e) {
+        var target = $(e.target);
+        if (target.hasClass('product-option-label')) {
+            var maxWidth = target.css('max-width');
+            target.css({ 'max-width': 'none' });
+            var width = target.width();
+            target.css({ 'max-width': maxWidth });
+
+            return width > target.width();
+        }
+
+        return true;
+    });
+});
+//]]>   
+</script>
+{/literal}
+
+{if $update}
+    {literal}
+    <script type="text/javascript">
+    //<![CDATA[
+    jQuery(function() {
+        $('#nav-shopping-cart').html('{/literal}{$basket_show_component}{literal}');
+    });
+    //]]>   
+    </script>
+    {/literal}
+{/if}

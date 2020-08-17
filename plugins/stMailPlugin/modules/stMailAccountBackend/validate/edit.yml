@@ -1,0 +1,6 @@
+fields:
+  mail_account{email}:
+    sfPropelUniqueValidator:
+      class:        MailAccount
+      column:       email
+      unique_error: Konto o podanym adresie e-mail już istnieje

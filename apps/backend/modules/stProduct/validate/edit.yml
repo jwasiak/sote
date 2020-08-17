@@ -1,0 +1,41 @@
+fields:
+  product{code}:
+    required:
+      msg:    Podaj kod produktu
+    stProductCodeValidator:
+  product{name}:
+    required:
+      msg:    Podaj nazwę produktu
+  product{stock}:
+    sfNumberValidator:
+      min: 0
+      min_error: Stan magazynowy nie może być mniejszy od 0
+      type: any
+      type_error: Podaj liczbę
+      nan_error: Podaj liczbę
+  product{min_qty}:
+    sfNumberValidator:
+      min: 0.01
+      min_error: Minimalna ilość musi być większa od 0
+      type: any
+      type_error: Podaj liczbę
+      nan_error: Podaj liczbę      
+  product{weight}:
+    sfNumberValidator:
+      min: 0
+      min_error: Waga produktu nie może być mniejsza od 0
+      type: any
+      type_error: Podaj liczbę
+      nan_error: Podaj liczbę
+  product{main_page_order}:
+    sfNumberValidator:
+      min: 0
+      min_error: Minimalna wartość nie może być mniejsza od 0
+      type: integer
+      type_error: Podaj liczbę
+      nan_error: Podaj liczbę
+  product{edit_image}:
+    file:       True
+    stAssetFileValidator:
+      mime_types: "@web_images"
+        

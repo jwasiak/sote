@@ -1,0 +1,11 @@
+fields:                             
+  paczkomaty_pack{customer_email}:
+    required:
+      msg:    Proszę uzupełnić pole.
+  paczkomaty_pack{customer_phone}:
+    required:
+      msg:    Proszę uzupełnić pole.
+    sfRegexValidator:
+      match:  Yes
+      match_error: Podany numer jest nieprawidłowy. Numer musi być podany w formacie 9 cyfrowym bez spacji oraz myślników.
+      pattern:  /^\d{9}$/

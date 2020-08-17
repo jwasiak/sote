@@ -1,0 +1,13 @@
+fields:
+    allegro_auction{name}:
+        required:
+            msg: "Proszę podać nazwę aukcji."
+        sfStringValidator:
+            max:        50
+            max_error:  "Nazwa aukcji musi być krótsza niż 50 znaków."
+    allegro_auction{allegro_category_id}:
+        required:
+            msg: "Proszę wybrać kategorię."
+    allegro_auction{images}:
+        stAllegroImageValidator:
+            msg: "Liczba eksportowanych zdjęć nie może być większa niż 8."

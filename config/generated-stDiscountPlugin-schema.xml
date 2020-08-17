@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stDiscountPlugin.lib.model" noXsd="true">
+
+  <table name="st_discount" phpName="Discount">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="type" type="VARCHAR" size="1" required="true" default="P" />
+    <column name="price_type" type="VARCHAR" required="true" size="1" default="%" />
+    <column name="name" type="VARCHAR" size="64" required="true" />
+    <column name="value" type="DECIMAL" size="8" scale="2" default="0" required="true" />
+    <column name="conditions" type="VARCHAR" phpType="array" size="4096" />
+    <column name="priority" type="INTEGER" required="true" default="0" />
+    <column name="active" type="BOOLEAN" required="true" default="1" />
+    <column name="all_products" type="BOOLEAN" required="true" default="0" />
+    <column name="all_clients" type="BOOLEAN" required="true" default="0" />
+    <column name="allow_anonymous_clients" type="BOOLEAN" required="true" default="0" />
+    <column name="auto_active" type="BOOLEAN" required="true" default="0" />
+    <column name="product_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+    <index name="discount_priority">
+      <index-column name="priority" />
+    </index>
+    <index name="discount_active">
+      <index-column name="active" />
+    </index>
+  </table>
+
+  <table name="st_user_has_discount" phpName="UserHasDiscount">
+    <column name="sf_guard_user_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="sf_guard_user" onDelete="cascade">
+      <reference local="sf_guard_user_id" foreign="id" />
+    </foreign-key>
+    <column name="discount_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount" onDelete="cascade">
+      <reference local="discount_id" foreign="id" />
+    </foreign-key>
+    <column name="auto" type="BOOLEAN" required="true" default="0" />
+  </table>
+
+  <table name="st_discount_has_product" phpName="DiscountHasProduct">
+    <column name="discount_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount" onDelete="cascade">
+      <reference local="discount_id" foreign="id" />
+    </foreign-key>
+    <column name="product_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_discount_range" phpName="DiscountRange">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="discount_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_discount" onDelete="cascade">
+      <reference local="discount_id" foreign="id" />
+    </foreign-key>
+    <column name="total_value" type="DOUBLE" required="true" default="0" change_column="range" />
+  </table>
+
+  <table name="st_discount_user" phpName="DiscountUser">
+    <column name="sf_guard_user_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="sf_guard_user" onDelete="cascade">
+      <reference local="sf_guard_user_id" foreign="id" />
+    </foreign-key>
+    <column name="discount" type="DOUBLE" default="0" />
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+  </table>
+
+  <table name="st_discount_coupon_code" phpName="DiscountCouponCode">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="sf_guard_user_id" type="INTEGER" />
+    <foreign-key foreignTable="sf_guard_user" onDelete="cascade">
+      <reference local="sf_guard_user_id" foreign="id" />
+    </foreign-key>
+    <column name="order_id" type="INTEGER" />
+    <foreign-key foreignTable="st_order" onDelete="cascade">
+      <reference local="order_id" foreign="id" />
+    </foreign-key>
+    <column name="code" type="VARCHAR" size="16" required="true" />
+    <column name="used" type="INTEGER" required="true" default="0" />
+    <column name="valid_usage" type="INTEGER" required="true" default="0" />
+    <column name="allow_all_products" type="BOOLEAN" required="false" />
+    <column name="valid_from" type="TIMESTAMP" />
+    <column name="valid_to" type="TIMESTAMP" />
+    <column name="discount" type="DECIMAL" size="3" scale="1" required="true" default="0" />
+    <unique name="discount_coupon_code_index1">
+      <unique-column name="code" />
+    </unique>
+  </table>
+
+  <table name="st_discount_has_producer" phpName="DiscountHasProducer">
+    <column name="discount_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount" onDelete="cascade">
+      <reference local="discount_id" foreign="id" />
+    </foreign-key>
+    <column name="producer_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_producer" onDelete="cascade">
+      <reference local="producer_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_discount_has_category" phpName="DiscountHasCategory">
+    <column name="discount_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount" onDelete="cascade">
+      <reference local="discount_id" foreign="id" />
+    </foreign-key>
+    <column name="category_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_category" onDelete="cascade">
+      <reference local="category_id" foreign="id" />
+    </foreign-key>
+    <column name="is_opt" type="BOOLEAN" default="0" required="true" />
+  </table>
+
+  <table name="st_discount_coupon_code_has_producer" phpName="DiscountCouponCodeHasProducer">
+    <column name="discount_coupon_code_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount_coupon_code" onDelete="cascade">
+      <reference local="discount_coupon_code_id" foreign="id" />
+    </foreign-key>
+    <column name="producer_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_producer" onDelete="cascade">
+      <reference local="producer_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_discount_coupon_code_has_category" phpName="DiscountCouponCodeHasCategory">
+    <column name="discount_coupon_code_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount_coupon_code" onDelete="cascade">
+      <reference local="discount_coupon_code_id" foreign="id" />
+    </foreign-key>
+    <column name="category_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_category" onDelete="cascade">
+      <reference local="category_id" foreign="id" />
+    </foreign-key>
+    <column name="is_opt" type="BOOLEAN" default="0" required="true" />
+  </table>
+
+  <table name="st_discount_coupon_code_has_product" phpName="DiscountCouponCodeHasProduct">
+    <column name="discount_coupon_code_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_discount_coupon_code" onDelete="cascade">
+      <reference local="discount_coupon_code_id" foreign="id" />
+    </foreign-key>
+    <column name="product_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+</database>

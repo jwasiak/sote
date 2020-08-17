@@ -1,0 +1,16 @@
+---
+package: 
+  name: stCeneoPlugin
+  stability: stable
+  version: 7.0.7.6
+  summary: Ceneo
+  description: Zarzadzanie porownywarka cen Ceneo
+  notes: |
+    - dodanie koloru z atrybutow
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stPriceCompare: 1.0.3.15

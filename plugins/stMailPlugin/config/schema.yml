@@ -1,0 +1,96 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stMailPlugin.lib.model
+  st_mail_smtp_profile: 
+    _attributes: 
+      phpName: MailSmtpProfile
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+      required: true
+    host: 
+      type: VARCHAR
+      size: 255
+      required: true
+    port: 
+      type: INTEGER
+      required: true
+      default: 25
+    enc_type: 
+      type: VARCHAR
+      size: 7
+  st_mail_account: 
+    _attributes: 
+      phpName: MailAccount
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    mail_smtp_profile_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_mail_smtp_profile
+      foreignReference: id
+      onDelete: restrict
+    version:
+      type: INTEGER
+      default: 1
+    username: 
+      type: VARCHAR
+      size: 255
+      required: true
+    password: 
+      type: VARCHAR
+      size: 255
+    email: 
+      type: VARCHAR
+      size: 255
+      required: true
+    is_default: 
+      type: BOOLEAN
+      default: false
+    is_newsletter: 
+      type: BOOLEAN
+      default: false  
+    name: 
+      type: VARCHAR
+      size: 255
+  st_mail_description: 
+    _attributes: 
+      phpName: MailDescription
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    system_name: 
+      type: VARCHAR
+      size: 255
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    is_active: 
+      type: BOOLEAN
+      default: 0

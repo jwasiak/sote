@@ -1,0 +1,20 @@
+package:
+  name: stSearchPlugin
+  stability: stable
+  version: 7.5.1.4
+  summary: Wyszukiwarka
+  description: 'Zarzadzanie modulem wyszukiwarki'
+  notes: |
+    - Poprawka optymalizacji wyszukiwania
+  maintainers:
+    'Piotr Halas':
+      role: lead
+      user: piotr
+      email: piotr.halas@sote.pl
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stProduct: 1.0.11
+    stXssSafePlugin: 1.0.0

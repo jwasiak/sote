@@ -1,0 +1,29 @@
+propel: 
+    st_mail_description: 
+        _attributes: 
+            phpName: MailDescription
+            isI18N: true
+            i18nTable: st_mail_description_i18n
+        opt_description: {change_column: description}
+        opt_name: {change_column: name}
+
+    st_mail_description_i18n: 
+        _attributes: 
+            phpName: MailDescriptionI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_mail_description
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        description: 
+            type: LONGVARCHAR
+        name:
+            type: VARCHAR
+            size: 255

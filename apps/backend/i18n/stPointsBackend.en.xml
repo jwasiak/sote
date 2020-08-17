@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+            <trans-unit id="1">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Config</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista operacji</source>
+                <target>Currently you have</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Operacja</source>
+                <target>Operation</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zmienił</source>
+                <target>Change</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Lista operacji</source>
+                <target>List of operations</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Stan konta</source>
+                <target>Balance</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Data</source>
+                <target>Date</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Włącz system punktowy:</source>
+                <target>Turn on a point system:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Skrót jednostki:</source>
+                <target>Shortcut units:</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przydzielanie punktów</source>
+                <target>Assigning points</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Przydziel dla statusu:</source>
+                <target>Assign status:</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Karta produktu</source>
+                <target>Product card</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Pokaż punkty:</source>
+                <target>Show points:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Pokaż wartości punktów:</source>
+                <target>Show value the points:</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Lista pełna</source>
+                <target>Full list</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Grupy produktów - strona główna</source>
+                <target>Group of products - home page</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Pokaż ilość punktów obok loginu:</source>
+                <target>Show points next login:</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Wyświetlaj tylko cenę</source>
+                <target>Show only price</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Wyświetlaj tylko otrzymane</source>
+                <target>Show only received</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Wyświetlaj cenę i otrzymane</source>
+                <target>Display price and receive</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wyświetlaj otrzymane i cenę</source>
+                <target>Display received and price</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Wyświetlaj cenę i otrzymane - wyróżnij cenę</source>
+                <target>Display price and received - highlight the price</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wyświetlaj otrzymane i cenę - wyróżnij otrzymane</source>
+                <target>Display received and the price - highlight received</target>
+            </trans-unit>
+             <trans-unit id="26">
+                <source>Wyświetlaj cenę i otrzymane razem</source>
+                <target>Display price and received together</target>
+            </trans-unit>
+             <trans-unit id="27">
+                <source>Wyświetlaj otrzymane i cenę razem</source>
+                <target>Display received and the price together</target>
+            </trans-unit>
+             <trans-unit id="28">
+                <source>System punktowy</source>
+                <target>Points system</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Włącz naliczanie dla statusu:</source>
+                <target>Turn on the calculation of the status of:</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Aktualizowane przez zamówienie</source>
+                <target>Updated by order</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Punkty zostały przydzielone</source>
+                <target>Points are allocated</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Usunięto</source>
+                <target>Removed</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Korzystanie z punktów</source>
+                <target>Using the points</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Tylko dla zalogowanych:</source>
+                <target>For login only:</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Punkty od progu:</source>
+                <target>Points of threshold:</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Próg punktów:</source>
+                <target>The threshold point:</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Naliczanie punktów</source>
+                <target>Calculation of points</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>System punktowy będzie dostępny tylko dla zalogowanych użytkowników</source>
+                <target>The scoring system will be available only to registered users</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Możliwość zakupów za punkty będzię dostępna po zgromadzeniu odpowiedniej ilości punktów</source>
+                <target>The possibility of shopping for items will be available after collecting sufficient number of points</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Określ ilość punktów po zgromadzeniu, których będzie możliwe ich wykorzystanie</source>
+                <target>Specify the number of points after the meeting, which will be possible for them to use</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Lista skrócona</source>
+                <target>Short list</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Lista alternatywna</source>
+                <target>Other list</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Aktualizacja stanu konta</source>
+                <target>Status update account</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Zam</source>
+                <target>Ord</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Wykryto indywidualny temat graficzny</source>
+                <target>Detected on the individual graphic</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>System punktowy działa tylko z najnowszą wersją tematów graficznych. Twój indywidualny temat graficzny</source>
+                <target>The scoring system only works with the latest version of graphic themes. Your individual about graphic</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>musi mieć zaktualizowane pliki.</source>
+                <target>must have the updated files.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>pokaż listę plików</source>
+                <target>show a list of files</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Lista plików tematu graficznego, które należy ręcznie zaktualizować aby system działał poprawnie:</source>
+                <target>List of Files theme graphic that you must manually update the system to work properly:</target>
+            </trans-unit>    
+		</body>
+	</file>
+</xliff>

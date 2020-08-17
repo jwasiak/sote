@@ -1,0 +1,73 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+
+webapi: 
+    fields: 
+        id:                     {type: integer}
+        name:                   {type: string}
+        parent_id:              {type: integer}
+        image:                  {type: string}
+        image_filename:         {type: string}
+        description:            {type: string}
+        is_default:             {type: integer}
+        main_page:              {type: integer}
+        is_active:              {type: integer}
+        is_hidden:              {type: integer}
+        url:                    {type: string}
+        category_id:            {type: integer}
+        show_children_products: {type: integer}
+
+    methods: 
+        AddCategory: 
+            type:               add
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                in:             [=name, =parent_id, image, image_filename, description, main_page, is_active, is_hidden, show_children_products, url]
+                out:            [id]
+
+        UpdateCategory: 
+            type:               update
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                in:             [=id, name, image, image_filename, description, main_page, is_active, is_hidden, show_children_products, url]
+                out:            [_update]
+
+        GetCategory: 
+            type:               get
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                in:             [=id]
+                out:            [created_at, updated_at, id, name, parent_id, image, image_filename, description, main_page, is_active, is_hidden, show_children_products, url]
+
+        DeleteCategory: 
+            type:               delete
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                in:             [=id]
+                out:            [_delete]
+
+        GetCategoryList: 
+            type:               list
+            inOutTypes:         {in: object, out: array}
+            fields: 
+                in:             [_offset, _limit, _modified_from, _modified_to]
+                out:            [created_at, updated_at, id, name, parent_id, image, image_filename, description, main_page, is_active, is_hidden, show_children_products, url]
+
+        CountCategory: 
+            type:               count
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                out:            [_count]
+
+        GetCategoryChildrens:
+            type:               list
+            inOutTypes:         {in: object, out: array}
+            fields: 
+                in:             [=parent_id]
+                out:            [created_at, updated_at, id, name, parent_id, image, image_filename, description, main_page, is_active, is_hidden, show_children_products, url]
+
+        getProductCategoryList: 
+            type:               list
+            inOutTypes:         {in: object, out: array}
+            fields: 
+                in:             [=id, _offset, _limit, _modified_from, _modified_to]
+                out:            [created_at, updated_at, id, category_id, is_default]

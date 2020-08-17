@@ -1,0 +1,15 @@
+package:
+  name: stTaxPlugin
+  stability: stable
+  version: 7.0.0.9
+  summary: 'Stawki Vat'
+  description: 'Zarzadzaj stawkami Vat w sklepie'
+  notes: |
+    - Dodanie tlumaczen
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stBackend: 1.0.4.11

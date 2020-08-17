@@ -1,0 +1,21 @@
+<div id="main_categories" class="row" data-equalizer>
+{foreach key=row item=category from=$results}   
+    <div class="product col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <div class="thumbnail clearfix text-center">
+            <div data-equalizer-watch="image">
+              <div class="image">{$category.photo}</div>
+            </div>
+            <div class="caption" data-equalizer-watch="caption">
+              <h3 class="name">{$category.name}</h3>
+              {if $category.subcategories}
+              <p class="hidden-xs">
+                  {foreach key=row item=category_subcategories from=$category.subcategories} 
+                      <span class="subcategory">{$category_subcategories.name}</span>
+                  {/foreach}
+              </p>
+              {/if}
+            </div>
+        </div>
+    </div>  
+{/foreach}
+</div>

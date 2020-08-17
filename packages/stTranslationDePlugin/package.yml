@@ -1,0 +1,16 @@
+---
+package:
+  name: stTranslationDePlugin
+  stability: stable
+  version: 7.0.6.2
+  summary: Tlumaczenia w jezyku niemieckim.
+  description: Tlumaczenia w jezyku niemieckim.
+  notes: |
+    - Poprawki tlumaczen
+  maintainers:
+    Michal Prochowski:
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stLanguagePlugin: 1.1.0.14

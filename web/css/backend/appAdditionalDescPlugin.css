@@ -1,0 +1,23 @@
+#desc2_views .view
+{
+    text-align: center; 
+    float: left;
+    margin: 10px;
+}
+
+#desc2_views input
+{
+    margin-top: 5px;
+}
+
+#adddesc .icon_app img
+{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+#adddesc .icon_app
+{
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+<div id="search_results">
+    <div class="title">
+        <h2>{__ text="Wyszukiwanie"}{$what}</h2>
+    </div>
+
+    <div class="content">
+
+        {$main_search_box}
+        {if $product_all>0}
+        <div class="roundies box">
+            {$producers}
+            {$sort}
+            <br class="clear"/>
+        </div>
+        {$pager}
+        {$product}
+        {$pager}
+        {/if}
+        {$no_results}
+        {$no_query}
+
+    </div>
+</div>

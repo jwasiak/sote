@@ -1,0 +1,6 @@
+fields:            
+    product_has_sf_asset{gallery_edit_image_name}:
+        sfRegexValidator:
+            match:        No
+            match_error:  Nazwa pliku może zawierać wyłącznie litery alfabetu angielskiego (a-z), cyfry (0-9) oraz znaki _-
+            pattern:      "/[^a-z0-9_-]/i"

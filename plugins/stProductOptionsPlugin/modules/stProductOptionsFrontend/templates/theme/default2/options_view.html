@@ -1,0 +1,25 @@
+<div class="st_product_options">
+    <ul>
+        {foreach item=product_option from=$product_options}
+        <li>
+            {if $product_option.custom.field}
+                {$product_option.custom.field}: 
+            {/if}        
+            {if $product_option.custom.color}
+                {if $product_option.custom.color[0] == '/'}
+                    <div class="basket_color" style="background-image: url({$product_option.custom.color})"></div>
+                    <div class="basket_preview" style="display: none">
+                        <img src="{$product_option.custom.color}" alt="" />
+                    </div>
+                {else}
+                    <div class="basket_color" style="background-color: #{$product_option.custom.color}"></div>
+                    <div class="basket_preview" style="display: none">
+                        <div style="background-color: #{$product_option.custom.color}"></div>
+                    </div>
+                {/if}
+            {/if}
+            {$product_option.label}
+        </li>
+        {/foreach}
+    </ul>
+</div>

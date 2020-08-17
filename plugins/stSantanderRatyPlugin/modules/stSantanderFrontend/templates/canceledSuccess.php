@@ -1,0 +1,1 @@
+<?php $smarty->display('canceled.html') ?>

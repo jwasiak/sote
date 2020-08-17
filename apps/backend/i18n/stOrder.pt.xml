@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-04-18T12:00:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zamówienie numer:</source>
+                <target>Número de ordem:</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Przejdź do zamówienia</source>
+                <target>Ir para o fim</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Data złożenia zamówienia:</source>
+                <target>Data da decisão:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>%host% - Zamówienie numer "%number%": %status%</source>
+                <target>%host% - Número de ordem "%number%": %status%</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Numer przesyłki:</source>
+                <target>Número do envio:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

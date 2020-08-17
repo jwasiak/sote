@@ -1,0 +1,17 @@
+#st_list_attachment tr td
+{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 20px 5px 0px;
+}
+
+#st_list_attachment tr td a
+{
+    font-weight: bold;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+#st_list_attachment .last td
+{
+    border: none;
+}

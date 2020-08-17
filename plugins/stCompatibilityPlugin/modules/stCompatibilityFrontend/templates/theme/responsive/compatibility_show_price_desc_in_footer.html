@@ -1,0 +1,52 @@
+{if $change_price==1}
+{literal}
+<script type="text/javascript">
+{/literal}
+    var price_view = "{$price_view}";
+    var list_view = "{$list_view}";
+    var compatibility_text = '<div id="price-star-info">{$star_description}</div>';
+{literal}    
+    jQuery(function($) {
+        $(document).ready(function() {          
+            function addStarPostfix() {
+                var price = $(this);
+                price.html(price.html() + ' *');                
+            }
+
+            function showCompatibility() {
+                $('footer .copyright').first().prepend(compatibility_text);
+            }
+                        
+            switch (price_view) {
+                case "net_gross":
+                    if (list_view) {
+                        $('#full-list .minor_price, #description-list .minor_price, #main-grid .minor_price').each(addStarPostfix);
+                    } else {
+                        $('#st_product_options-price-brutto').each(addStarPostfix);
+                    } 
+                    showCompatibility();
+                break;              
+            
+                case "gross_net":
+                    if (list_view) {
+                        $('#full-list .major_price, #description-list .major_price, #main-grid .major_price').each(addStarPostfix); 
+                    } else {
+                        $('#st_product_options-price-brutto').each(addStarPostfix);
+                    }
+                    showCompatibility();
+                break;
+
+                case "only_gross":
+                    if (list_view) {
+                        $('#full-list .price, #description-list .price, #main-grid .price').each(addStarPostfix); 
+                    } else {
+                        $('#st_product_options-price-brutto').each(addStarPostfix);
+                    }
+                    showCompatibility();
+                break;
+            }
+        });
+    });
+</script>
+{/literal}
+{/if}

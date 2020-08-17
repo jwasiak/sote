@@ -1,0 +1,15 @@
+{if $subcategories}
+    <div id="st_category-tree_background">
+        {foreach key=row item=subcategory from=$results} 
+            <div class="st_category-tree_subcategories">
+                <div style="height: {$height+4}px">
+                    {$subcategory.photo}
+                </div>
+            <ul class="st_category-tree_product">
+                <li>{$subcategory.name}</li>        
+            </ul> 
+            </div> 
+            {/foreach}
+    </div>
+    <div style="line-height: 0px; clear: both; height: 10px;"></div>
+{/if}

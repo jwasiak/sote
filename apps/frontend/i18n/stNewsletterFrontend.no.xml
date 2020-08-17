@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Newsletter</source>
+				<target>Nyhetsbrev</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu.</source>
+				<target>Meld deg på nyhetsbrev og motta nyheter og nyttig informasjon fra butikken.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>E-mail</source>
+				<target>E-post</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Jeg godtar personvernreglene</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Cyfry z obrazka</source>
+				<target>Tallene fra bilde</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Adres</source>
+				<target>Adresse</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>został usunięty z listy subskrypcji.</source>
+				<target>er nå fjernet fra abonnementslisten vår.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Newseltter</source>
+				<target>Nyhetsbrev</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Brak adresu e-mail</source>
+				<target>Manglende e-postadresse</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Twój email...</source>
+				<target>Din e-post ...</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>został potwierdzony na liście subskrypcji</source>
+				<target>er nå bekreftet på abonnementslisten vår.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu.</source>
+				<target>Takk for din interesse for våre produkter.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Adres został dodany do listy subskrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej.</source>
+				<target>Adressen er nå lagt til i abonnementslisten vår. Klikk på linken i denne meldingen for å bekrefte at du ønsker å motta meldinger.</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdź rejestrację</source>
+				<target>Bekreft registreringen</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów</source>
+				<target>Etter registrering skal du få meldinger om</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link.</source>
+				<target>Hvis du ikke lenger ønsker å få meldinger, klikk på linken nedenfor.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wypisz mnie z listy</source>
+				<target>Fjern meg fra listen</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>został dodany do listy subskrypcji.</source>
+				<target>er nå lagt til i abonnementslisten vår.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Za chwile otrzymacie państwo mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>Du vil snart få e-post med anmodning om bekreftelse på registrering.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z następujących tematów</source>
+				<target>Etter bekreftelse skal du få meldinger om følgende emner</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Maksimalt antall tegn er overskredet.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj</source>
+				<target>Legg til</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Ugyldig e-postadresse.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Taki adres już istnieje w bazie danych.</source>
+				<target>Denne adresse allerede eksisterer i databasen.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Ugyldig nummer.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Du må godta personvernreglene.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rejestracja na liście subskrypcji.</source>
+				<target>Registrering på abonnementslisten.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Na adres</source>
+				<target>Takk for at du bruker vårt varslingssystem. Det ble til</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>został wysłany mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>sendt e-post med anmodning om bekreftelse på registrering.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z grup</source>
+				<target>Etter bekreftelse skal du få meldinger fra følgende grupper</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wróć do zakupów</source>
+				<target>Tilbake til shopping</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Adres</source>
+				<target>Takk for at du bruker vårt varslingssystem. Adresse</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>został potwierdzony na liście subskrypcji.</source>
+				<target>ble bekreftet på abonnementslisten.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu. Wybierz działy informacji z których chcesz otrzymywać wiadomości.</source>
+				<target>Meld deg på nyhetsbrev og motta nyheter og nyttig informasjon fra butikken. Velg emner som du vil få meldinger om.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapisz mnie na newsletter</source>
+				<target>Meld meg på nyhetsbrevet</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wiadomości z list subskrypcji będą przychodziły na adres</source>
+				<target>Meldinger lister skal sendes til</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Jeżeli chcą Państwo zmienić grupy powiadomień lub adres na który mają być wysyłane wiadomości proszę skorzystać z formularza poniżej.</source>
+				<target>Hvis du ønsker å endre emnegrupper eller e-postadresse for meldinger, kan du bruke skjemaet nedenfor.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Aktualizuj</source>
+				<target>Oppdater</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Usuń mnie z listy</source>
+				<target>Fjern meg fra listen</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Brukeren finnes allerede.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>Data er oppdatert.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zapisz się na newsletter</source>
+				<target>Meld deg på nyhetsbrev</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>W każdym momencie możesz zrezygnować.</source>
+				<target>Du kan når som helst melde deg av nyhetsbrevet.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Prośba o wypisanie z listy</source>
+				<target>Anmodning om sletting fra liste</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Dane subskrypcji</source>
+				<target>Data til abonnementslisten</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Podaj swój adres.</source>
+				<target>Oppgi din adresse.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Sprawdź skrzynkę pocztową.</source>
+				<target>Sjekk postkassen.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Na podany adres wysłano mail z prośbą o potwierdzenie.</source>
+				<target>Anmodning om bekreftelse ble sendt til din adresse.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Kontynuuj zakupy</source>
+				<target>Fortsett å handle</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Potwierdzenie rezygnacji.</source>
+				<target>Bekreftelse på avslutning.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Adres został usunięty.</source>
+				<target>Adressen er fjernet.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Moje konto</source>
+				<target>Min konto</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Potwierdzenie rejestracji.</source>
+				<target>Bekreftelse på registrering.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Adres został potwierdzony.</source>
+				<target>Adressen er bekreftet.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Adres e-mail</source>
+				<target>E-postadresse</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Wyślij</source>
+				<target>Send</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Na twój adres "%%email%%" został wysłany link potwierdzający wypisanie się z newslettera.</source>
+				<target>En link for bekreftelse på avslutning av abonnementet ble sendt til «%% email%%».</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Potwierdzenie rezygnacji z listy subskrypcji</source>
+				<target>Bekreftelse på avslutning av abonnementet</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Została wysłana prośba o wypisanie Twojego adresu e-mail z listy subskrypcji. Jeżeli prośba nie została wysłana przez Ciebie lub chcesz pozostać na liście prosimy o zignorowanie tej wiadomości, w innym wypadku kliknij w poniższy link aby potwierdzić wypisanie się z listy subskrypcji:</source>
+				<target>Anmodning om sletting av din adresse fra abonnementslisten har blitt sendt. Dersom anmodningen ikke er sendt av deg eller du ønsker å fortsette med abonnementet, kan du overse denne meldingen, ellers klikk på linken nedenfor for å bekrefte avslutning av abonnementet:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

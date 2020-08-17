@@ -1,0 +1,180 @@
+ProductI18n:  
+  ProductI18n_ru_1:
+    id: Product_1
+    culture: ru
+    name: Чашка
+    url: tchaschka
+  ProductI18n_ru_2:
+    id: Product_2
+    culture: ru
+    name: Cекундомер
+    url: sjekundomjer
+  ProductI18n_ru_3:
+    id: Product_3
+    culture: ru
+    name: Наушники
+    url: nauschniki
+  ProductI18n_ru_4:
+    id: Product_4
+    culture: ru
+    name: Висячие динамиков
+    url: visjatchije-dinamikov
+  ProductI18n_ru_5:
+    id: Product_5
+    culture: ru
+    name: Наушники 200
+    url: nauschniki-200
+  ProductI18n_ru_6:
+    id: Product_6
+    culture: ru
+    name: Ноутбук
+    url: noutbuk
+  ProductI18n_ru_7:
+    id: Product_7
+    culture: ru
+    name: Золотое кольцо с алмазом
+    url: zolotoje-kolzo-s-almazom
+  ProductI18n_ru_8:
+    id: Product_8
+    culture: ru
+    name: Серебряное кольцо
+    url: sjerjebrjanoje-kolzo
+  ProductI18n_ru_9:
+    id: Product_9
+    culture: ru
+    name: Спикер
+    url: spikjer
+  ProductI18n_ru_10:
+    id: Product_10
+    culture: ru
+    name: Компьютер
+    url: kompjutjer
+  ProductI18n_ru_11:
+    id: Product_11
+    culture: ru
+    name: Камера GoodPix 130ES
+    url: kamjera-goodpix-130es
+  ProductI18n_ru_12:
+    id: Product_12
+    culture: ru
+    name: Kарты памяти 8GB
+    url: karty-pamjati-8gb
+    
+CategoryI18n:
+  CategoryI18n_ru_1:
+    id: Category_1
+    culture: ru
+    name: Категории
+    url: katjegorii
+  CategoryI18n_ru_2:
+    id: Category_2
+    culture: ru
+    name:  Звук
+    url: zvuk
+  CategoryI18n_ru_3:
+    id: Category_3
+    culture: ru
+    name: Выступающие
+    url: audio-vystupajustchije
+  CategoryI18n_ru_4:
+    id: Category_4
+    culture: ru
+    name: Наушники
+    url: zvuk-nauschniki 
+  CategoryI18n_ru_5:
+    id: Category_5
+    culture: ru
+    name: Компьютеры
+    url: kompjutjery
+  CategoryI18n_ru_6:
+    id: Category_6
+    culture: ru
+    name: Фотография
+    url: fotografija
+  CategoryI18n_ru_8:
+    id: Category_8
+    culture: ru
+    name: Ювелирные изделия
+    url: juvjelirnyje-izdjelija
+  CategoryI18n_ru_9:
+    id: Category_9
+    culture: ru
+    name: Подарки
+    url: podarki
+    
+BoxI18n:
+  BoxI18n_ru_1:
+    id: Box_1
+    culture: ru
+    name: Доставка
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Доставка"/>
+  BoxI18n_ru_2:
+    id: Box_2
+    culture: ru
+    name: Платёж
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Платёж" />
+
+ProductGroupI18n:
+  ProductGroupI18n_ru_1:
+    id: ProductGroup_1
+    culture: ru
+    name: Акции
+    url: aktsii
+  ProductGroupI18n_ru_2:
+    id: ProductGroup_2
+    culture: ru
+    name: Продажа
+    url: prodazha
+  ProductGroupI18n_ru_3:
+    id: ProductGroup_3
+    culture: ru
+    name: Рекомендуем
+    url: rekomenduem
+  ProductGroupI18n_ru_4:
+    id: ProductGroup_4
+    culture: ru
+    name: Главная
+    url: glavnaya
+  ProductGroupI18n_ru_5:
+    id: ProductGroup_5
+    culture: ru
+    name: Рекомендуем в Корзину
+    url: rekomenduem-v-korzinu
+  ProductGroupI18n_ru_6:
+    id: ProductGroup_6
+    culture: ru
+    name: Новые продукты
+    url: novye-produkty
+
+WebpageI18n:
+  WebpageI18n_ru_1:
+    id: Webpage_1
+    culture: ru
+    name: Условия
+    content: Пример текста.
+    url: usloviya
+  WebpageI18n_ru_2:
+    id: Webpage_2
+    culture: ru
+    name: О нас
+    content: Пример текста.
+    url: o-nas
+  WebpageI18n_ru_3:
+    id: Webpage_3
+    culture: ru
+    name: Контакты
+    content: Пример текста.
+    url: kontakty
+  WebpageI18n_ru_4:
+    id: Webpage_4
+    culture: ru
+    name: Политика конфиденциальности
+    content: Пример текста.
+    url: politika-konfidentsialynosti
+
+TextI18n:
+  TextI18n_ru_1:
+    id: Text_1
+    culture: ru
+    name: Главная
+    content: Добро пожаловать

@@ -1,0 +1,35 @@
+data:  
+  field_on: 0
+  field_1_on: 0
+  field_2_on: 0
+  field_3_on: 0
+  _i18n:
+    en_US:
+      field_description: '<!--[mode:tiny]--><p style="text-align: center;">The product is shipped within 24 hours.</p>'      
+      field_label_1: 'Delivery 24'
+      field_sub_label_1: 'in 24h'
+      field_description_1: '<!--[mode:tiny]--><p>We complete the order within 24 hours.</p>'
+      icon_1: '/picture/en_US/de1130a3b015f2226ed18b2603b443e1.png'      
+      field_label_2: 'Warranty'
+      field_sub_label_2: 'For 1 year'
+      field_description_2: '<!--[mode:tiny]--><p>The product is covered by a one-year warranty.</p>'
+      icon_2: '/picture/en_US/86e99ae28a2ab45805fb6c3048e991d3.png'      
+      field_label_3: 'Return'
+      field_sub_label_3: 'Up to 14 days'
+      field_description_3: '<!--[mode:tiny]--><p>You can return the product within 14 days.</p>'
+      icon_3: '/picture/en_US/1cb7d3a51063ac10ac30cc4e5550ab07.png'
+      
+    pl_PL:        
+      field_description: '<!--[mode:tiny]--><p style="text-align: center;">Produkt wysyłamy w ciągu 24h.</p>'      
+      field_label_1: 'Dostawa 24'
+      field_sub_label_1: 'w 24h'
+      field_description_1: '<!--[mode:tiny]--><p>Zamówienie realizujemy w ciągu 24 godzin.</p>'
+      icon_1: '/picture/pl_PL/de1130a3b015f2226ed18b2603b443e1.png'      
+      field_label_2: 'Gwarancja'
+      field_sub_label_2: 'Przez 1 rok'
+      field_description_2: '<!--[mode:tiny]--><p>Produkt objęty jest roczną gwarancją.</p>'
+      icon_2: '/picture/pl_PL/86e99ae28a2ab45805fb6c3048e991d3.png'      
+      field_label_3: 'Zwrot'
+      field_sub_label_3: 'Do 14 dni'
+      field_description_3: '<!--[mode:tiny]--><p>Możesz zwrócić produkt w ciągu 14 dni.</p>'
+      icon_3: '/picture/pl_PL/1cb7d3a51063ac10ac30cc4e5550ab07.png'      

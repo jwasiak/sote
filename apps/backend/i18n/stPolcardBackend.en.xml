@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja płatności Polcard.</source>
+                <target>Configure the Polcard payment.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Identyfikator</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Tryb testowy</source>
+                <target>Test mode</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Identyfikator sprzedaży</source>
+                <target>Sales Id</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Poprawna autoryzacja:</source>
+                <target>Address of the successful authorization:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Brak autoryzacji:</source>
+                <target>Address of the failed authorization:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Błąd podczas autoryzacji:</source>
+                <target>Error during authorization:</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Płatność przez serwis Payeezy - Fist Data Polcard</source>
+                <target>Payeezy payment - Fist Data Polcard</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Klucz współdzielony</source>
+                <target>Shared key</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Url dla odpowiedzi pozytywnej</source>
+                <target>Url for a positive response</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Url dla odpowiedzi negatywnej</source>
+                <target>Url for a negative response</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Url dla odpowiedzi potwierdzenia</source>
+                <target>Url for response confirmation</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Konfiguracja adresów</source>
+                <target>Address configuration</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

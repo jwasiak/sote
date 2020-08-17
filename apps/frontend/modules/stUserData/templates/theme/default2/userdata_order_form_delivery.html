@@ -1,0 +1,161 @@
+<div class="box_form_content">
+
+    <fieldset>
+
+    <div class="st_row">
+        <div style="float:left;margin-right: 10px;">{$radio_delivery_customer_type1} <i class="gray_text">{$label_delivery_customer_type1}</i></div>
+
+        <div style="float:left;">{$radio_delivery_customer_type2} <i class="gray_text">{$label_delivery_customer_type2}</i></div>
+        <div class="clear"></div>
+    </div>
+        
+    <div id="company_delivery_fields">
+	    <div class="st_row row_company">
+	    	<div class="error_tooltip">
+               {if $error_delivery_company!=""}
+                    <img src="{image_path image='exclamation.png'}" title="{$error_delivery_company}"  alt="{$error_delivery_company}">
+               {/if}
+            </div>
+	        <div class="st_field">
+	        	{$label_delivery_company}
+	            {$input_delivery_company}
+	        </div>
+	    </div>   
+    </div>
+   
+    <div class="st_row row_full_name">
+	     <div class="error_tooltip">
+           {if $error_delivery_full_name!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_full_name}"  alt="{$error_delivery_full_name}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_delivery_full_name}
+            {$input_delivery_full_name}
+        </div>
+    </div>
+    
+    <div class="st_row row_address">
+    	<div class="error_tooltip">
+           {if $error_delivery_address!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_address}"  alt="{$error_delivery_address}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_delivery_address}    
+            {$input_delivery_address}
+        </div>
+    </div>
+    
+	{if $show_address_more==1}
+    <div class="st_row row_address_more">
+        <div class="st_field">
+        	{$label_delivery_address_more}
+            {$input_delivery_address_more}
+        </div>
+    </div>
+    {/if}
+    
+    {if $show_region==1}
+    <div class="st_row row_region">
+        <div class="st_field">
+        	{$label_delivery_region}
+            {$input_delivery_region}
+        </div>
+    </div>
+    {/if}
+
+    <div class="st_row row_code_town">
+    	 <div class="error_tooltip">
+           {if $error_delivery_code_town!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_code_town}"  alt="{$error_delivery_code_town}">
+           {/if}
+        </div>
+        <div class="st_field left">
+        	{$label_delivery_code}
+            {$input_delivery_code}
+        </div>
+        
+        <div class="st_field left" style="margin-left:4px;">
+        	{$label_delivery_town}
+            {$input_delivery_town}
+        </div>
+        
+    <div class="clear"></div>
+    </div>
+    
+    <div class="st_row row_country">
+        <div class="st_field">
+        {$select_delivery_country}
+        </div> 
+    </div>
+    
+    <div class="st_row row_phone">
+    	 <div class="error_tooltip">
+           {if $error_delivery_phone!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_phone}"  alt="{$error_delivery_phone}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_delivery_phone}
+            {$input_delivery_phone}
+        </div>
+    </div>
+	
+</div>
+
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{
+		
+		$("label").inFieldLabels();
+		
+		function equalHeight(group)
+		{
+		tallest = 0;
+		group.each(function() {
+		$(this).css("height","auto");
+		thisHeight = $(this).height();
+		if(thisHeight > tallest) {
+		tallest = thisHeight;
+		}
+		});
+		group.height(tallest);
+		}	
+		
+		if($('#user_data_delivery_customer_type_2').attr('checked'))
+		{
+			$("#company_delivery_fields").show();
+			$("#full_name_delivery_label").text({/literal}"{$label_delivery_full_name_text}"{literal});
+		}else{
+			$("#company_delivery_fields").hide();	
+		}
+ 	 
+ 	 	$('#user_data_delivery_customer_type_1').click(function(){
+		$("#company_delivery_fields").hide();
+		$("#full_name_delivery_label").text({/literal}"* {$label_delivery_full_name_text}"{literal});
+		equalHeight($(".data_frame"));
+		});
+ 	 
+		$('#user_data_delivery_customer_type_2').click(function(){
+		$("#company_delivery_fields").show();
+		$("#full_name_delivery_label").text({/literal}"{$label_delivery_full_name_text}"{literal});
+		equalHeight($(".data_frame"));
+		});
+	
+	 equalHeight($(".data_frame")); 	
+	 });
+
+     
+	 
+    $('#user_data_delivery_country').change(function() {
+        $('#delivery_country').val($(this).val()).change();
+    });
+});
+
+</script>
+{/literal}

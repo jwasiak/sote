@@ -1,0 +1,35 @@
+propel: 
+    st_producer: 
+        _attributes: 
+            phpName: Producer
+            isI18N: true
+            i18nTable: st_producer_i18n
+        opt_name: {change_column: name}
+
+    st_producer_i18n: 
+        _attributes: 
+            phpName: ProducerI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_producer
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        url:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        _indexes:
+            producer_Index1:
+                - url
+                - culture

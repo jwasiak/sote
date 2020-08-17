@@ -1,0 +1,6 @@
+export:
+    fields:
+        product_radar:         {name: Radar, class: stRadar, method: getProduct}
+import:
+    fields:
+        product_radar:         {class: stRadar, method: setProduct}

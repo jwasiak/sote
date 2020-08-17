@@ -1,0 +1,28 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stAccessoriesPlugin.lib.model
+  st_product_has_accessories: 
+    _attributes: 
+      phpName: ProductHasAccessories
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    accessories_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade

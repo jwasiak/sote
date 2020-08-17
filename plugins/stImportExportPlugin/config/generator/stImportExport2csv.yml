@@ -1,0 +1,5 @@
+exporters:
+    stExporterCsv: Export do pliku csv (UTF-8)
+
+importers:
+    stImporterCsv: Import pliku csv (UTF-8)

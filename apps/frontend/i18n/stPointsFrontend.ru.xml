@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twoje punkty</source>
+				<target>Ваши баллы</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Moje konto</source>
+				<target>Мой счет</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Punkty</source>
+				<target>Баллы</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Aktualnie posiadasz</source>
+				<target>В настоящее время у вас есть</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Lista operacji</source>
+				<target>Перечень операций</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Operacja</source>
+				<target>Операция</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmienił</source>
+				<target>Внес изменения</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Opis</source>
+				<target>Описание</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Data</source>
+				<target>Дата</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Stan konta</source>
+				<target>Состояние счета</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>administrator</source>
+				<target>администратор</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Zam</source>
+				<target>зак</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Обновлено через заказ</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Próg aktywacji punktów</source>
+				<target>Порог активации баллов</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>osiągnięty</source>
+				<target>достигнут</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Próg aktywacji punktów nie został osiągnięty</source>
+				<target>Порог активации баллов не был достигнут</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>do aktywacji brak</source>
+				<target>для активации не хватает</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Po zgromadzeniu łącznie</source>
+				<target>Накопив всего</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>będzie można dokonywać zakupów za punkty.</source>
+				<target>вы сможете делать покупки за баллы.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktywacja jest jednorazowa.</source>
+				<target>Активация является одноразовой.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+				<target>После прохождения порога активации, использование системы баллов не будет ограничено.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Aktualizacja stanu konta</source>
+				<target>Обновление состояния счета</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,148 @@
+Webpage: 
+  Webpage_1: 
+    active: 1
+    culture: pl_PL
+    name: O firmie
+    content: <p>Informacje o firmie.</p>
+    url: o-firmie
+  Webpage_2: 
+    culture: pl_PL
+    name: Regulamin
+    active: 1
+    content: <p>Regulamin sklepu internetowego.</p>
+    url: regulamin
+    state: TERMS
+  Webpage_3: 
+    culture: pl_PL
+    name: Kontakt
+    content: <p>Dane kontaktowe firmy.</p>
+    active: 1
+    url: kontakt
+  Webpage_4: 
+    culture: pl_PL
+    name: Polityka prywatności
+    content: <p>Polityka prywatności sklepu internetowego.</p>
+    active: 1
+    url: polityka-prywatnosci
+    state: PRIVACY
+  Webpage_5: 
+    culture: pl_PL
+    name: Koszty i sposoby dostawy
+    content: <p>Informacje o kosztach i sposobach dostawy. </p>
+    active: 1
+    url: koszty-i-sposoby-dostawy
+    state: SHIPPING
+  Webpage_6: 
+    culture: pl_PL
+    name: Sposoby płatności
+    content: <p>Informacje o sposobach płatności akceptowane w sklepie.</p>
+    active: 1
+    url: sposoby-platnosci
+  Webpage_7: 
+    culture: pl_PL
+    name: Prawo do odstąpienia od umowy
+    content: <p>Informacje na temat odstąpienia od umowy.</p>
+    active: 1
+    url: prawo-do-odstapienia-od-umowy
+    state: RIGHT2CANCEL
+WebpageI18n:
+  WebpageI18n_1:
+    id: Webpage_1
+    culture: en_US
+    name: About Company
+    content: <p>Information about the firm.</p>
+    url: about-company
+  WebpageI18n_2: 
+    id: Webpage_2
+    culture: en_US
+    name: Terms and Conditions
+    content: <p>Rules and regulations of the on-line store</p>
+    url: terms-and-conditions
+  WebpageI18n_3: 
+    id: Webpage_3
+    culture: en_US
+    name: Contact
+    content: <p>Contact data of the firm.</p>
+    url: contact
+  WebpageI18n_4:    
+    id: Webpage_4
+    culture: en_US
+    name: Privacy policy
+    content: <p>Privacy Policy of the on-line store.</p>
+    url: privacy-policy
+  WebpageI18n_5: 
+    id: Webpage_5
+    culture: en_US
+    name: Shipping
+    content: <p>Information about delivery costs and methods.</p>
+    url: shipping
+  WebpageI18n_6: 
+    id: Webpage_6
+    culture: en_US
+    name: Payments
+    content: <p>Information about payment methods accepted by the store.</p>
+    url: payments
+  WebpageI18n_7: 
+    id: Webpage_7
+    culture: en_US
+    name: Right to cancel
+    content: <p>Information about withdrawal from the agreement.</p>
+    url: right-to-cancel
+WebpageGroup: 
+  WebpageGroup_2:
+    culture: pl_PL
+    name: Zamówienie
+    group_page: INFO
+    show_footer: 1
+  WebpageGroup_3:
+    culture: pl_PL
+    name: Nagłówek
+    show_header: 1
+  WebpageGroup_4:
+    culture: pl_PL
+    name: Informacje
+    show_footer: 1
+
+WebpageGroupI18n:
+   WebpageGroupI18n_2:
+    id: WebpageGroup_2
+    culture: en_US
+    name: Order
+   WebpageGroupI18n_4:
+    id: WebpageGroup_3
+    culture: en_US
+    name: Header
+   WebpageGroupI18n_6:
+    id: WebpageGroup_4
+    culture: en_US
+    name: Information
+
+WebpageGroupHasWebpage: 
+  WebpageGroupHasWebpage_4:
+    webpage_id: Webpage_1
+    webpage_group_id: WebpageGroup_4
+    rank: 1
+  WebpageGroupHasWebpage_5:
+    webpage_id: Webpage_2
+    webpage_group_id: WebpageGroup_2
+    rank: 2
+  WebpageGroupHasWebpage_6:
+    webpage_id: Webpage_3
+    webpage_group_id: WebpageGroup_4
+    rank: 3
+  WebpageGroupHasWebpage_7:
+    webpage_id: Webpage_5
+    webpage_group_id: WebpageGroup_2
+    rank: 4
+  WebpageGroupHasWebpage_8:
+    webpage_id: Webpage_6
+    webpage_group_id: WebpageGroup_2
+    rank: 5
+  WebpageGroupHasWebpage_9:
+    webpage_id: Webpage_7
+    webpage_group_id: WebpageGroup_2
+    rank: 7
+  WebpageGroupHasWebpage_10:
+    webpage_id: Webpage_4
+    webpage_group_id: WebpageGroup_2
+    rank: 6

@@ -1,0 +1,19 @@
+<div id="blog_list">
+			{foreach key=row item=blog from=$results}
+				<div class="item box">
+					<div class="title">
+						<h2>{$blog.name}</h2>
+					</div>
+					{if $date != 0}
+						<div class="data">{$blog.date}</div>
+					{/if}
+					<div class="image left">
+						{$blog.image_main_page}
+					</div>
+						<div class="desc">
+							{$blog.short_description_char_count}
+						</div>
+					<div class="clear"></div>
+				</div>
+    		{/foreach}
+</div>

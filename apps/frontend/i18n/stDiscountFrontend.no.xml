@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Rabaty</source>
+				<target>Rabatter</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Lista przypisanych rabatów</source>
+				<target>Liste over tildelte rabatter</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwa</source>
+				<target>Navn</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Verdi</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Produkty</source>
+				<target>Produkter</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rabat ogólny</source>
+				<target>Generell rabatt</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista produktów</source>
+				<target>Liste over produkter</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w grupie rabatowej</source>
+				<target>Produkter i rabattgruppe</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Do grupy rabatowej %group% nie przypisano jeszcze żadnego produktu</source>
+				<target>Ingen produkter er i rabattgruppe %group% ennå</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Moje konto</source>
+				<target>Min konto</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wprowadź kod rabatowy</source>
+				<target>Tast inn rabattkode</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podany kod jest nieważny</source>
+				<target>Ugyldig kode</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podany kod nie istnieje</source>
+				<target>Koden finnes ikke</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wprowadź kod</source>
+				<target>Tast inn kode</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod rabatowy</source>
+				<target>Rabattkode</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Udzielony rabat</source>
+				<target>Tildelt rabatt</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Aktywuj</source>
+				<target>Aktiver</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dokonaj zakupu za %amount% a otrzymasz rabat %discount% na aktualne zamówienie</source>
+				<target>Kjøp for %amount% og få en rabatt på %discount% for denne bestillingen</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>W zestawie kupisz taniej</source>
+				<target>Billigere å kjøpe et sett</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>do koszyka</source>
+				<target>legg i handlekurven</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Brak rabatów</source>
+				<target>Ingen rabatter</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

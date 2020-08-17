@@ -1,0 +1,70 @@
+#st_gift_card h3.st_title
+{
+   border-bottom: 1px solid #E3E3E3;
+   padding-left: 5px;
+}
+
+#st_gift_card
+{
+   clear: right;
+   padding-top: 10px;
+   float: right;
+   width: 280px;
+}
+
+#st_gift_card .st_button
+{
+   margin-top: 5px;
+}
+
+#st_gift_card-form,
+#st_gift_card-info
+{
+   padding: 7px 5px 10px 10px;
+}
+
+#st_gift_card-list
+{
+   text-align: right;
+
+   padding-right: 5px;
+}
+
+#st_gift_card-list img
+{
+   vertical-align: middle;
+}
+
+#st_gift_card .form-error
+{
+   margin-left: 80px;
+   color: red;
+}
+
+#st_application-order_save ul
+{
+   list-style: disc inside;
+}
+
+#st_application-order_save li
+{
+   color: red;
+}
+
+#st_application-order_save .st_button
+{
+   margin: 10px auto;
+
+   width: 150px;
+}
+
+#gift_card_code
+{
+    width:160px;
+}
+
+#st_gift_card-form .label
+{
+    width:95px;
+    float: left;
+}

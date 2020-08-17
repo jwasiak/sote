@@ -1,0 +1,14 @@
+fields:
+  watermark{text}:
+    required:
+      msg: Podaj tekst
+    sfStringValidator:
+      max: 30 
+      max_error: Maksymalna długość to 30 znaków
+  watermark{color}:
+    required:
+      msg: Podaj kolor
+    sfRegexValidator:
+      match:        false
+      match_error:  Kolor musi być wartością heksadecymalną
+      pattern:      /[^0-9a-f]/si

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stGroupPricePlugin.lib.model" noXsd="true">
+
+  <table name="st_group_price" phpName="GroupPrice">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="description" type="VARCHAR" size="255" />
+    <column name="tax_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_tax" onDelete="setnull">
+      <reference local="tax_id" foreign="id" />
+    </foreign-key>
+    <column name="opt_vat" type="DECIMAL" size="10" scale="2" />
+    <column name="currency_id" type="INTEGER" />
+    <foreign-key foreignTable="st_currency" onDelete="setnull">
+      <reference local="currency_id" foreign="id" />
+    </foreign-key>
+    <column name="price_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="price_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="old_price_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="old_price_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_a_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_a_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_b_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_b_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_c_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="wholesale_c_brutto" type="DECIMAL" size="10" scale="2" />
+  </table>
+
+</database>

@@ -1,0 +1,19 @@
+index:
+    enabled: off      
+    vary:
+        fastcache: on     
+list:
+    enabled: off    
+    vary:
+        fastcache: on
+
+_footerWebpage:
+    enabled: on
+    view:
+        stylesheets:   [stWebpagePlugin.css, stNewsletterPlugin.css, stRecommendPlugin.css]     
+
+_headerWebpage: 
+    enabled: on
+    view:
+        stylesheets:   [stWebpagePlugin.css] 
+    

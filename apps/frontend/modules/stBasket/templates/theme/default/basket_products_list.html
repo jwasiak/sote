@@ -1,0 +1,63 @@
+{$form_start}
+    <table class="st_tabular-list" cellspacing="0">
+        <colgroup>
+            <col width="80" />
+            <col />
+            <col width="80" />
+            <col width="50" />
+            <col width="80" />
+            <col width="80" />
+            <col width="80" />
+            <col width="60" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="st_basket-product-photo"><span>{__ text="zdjęcie"}</span></th>
+                <th class="st_basket-product-name"><span>{__ text="nazwa"}</span></th>
+                <th class="st_basket-product-netto"><span>{__ text="cena netto"}</span></th>
+                <th class="st_basket-product-tax"><span>{__ text="vat"}</span></th>
+                <th class="st_basket-product-brutto"><span>{__ text="cena brutto"}</span></th>
+                <th class="st_basket-product-num"><span>{__ text="ilość"}</span></th>
+                <th class="st_basket-product-sum"><span>{__ text="suma}</span></th>
+                <th class="st_basket-product-remove">{__ text="usuń"}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <div id="st_basket_product_value"></div>
+            {foreach key=row item=product from=$results}
+            {if $product.if_form_error}
+                <tr>
+                    <td colspan="8"><span class="st_error">{$product.error_show}</span></td>
+                </tr>
+            {/if}  
+             <tr id="tr_product_id_{$product.id}" >
+                <td class="st_basket-product-photo">{$product.photo}</td>
+                <td class="st_basket-product-name">{$product.name}</td>
+                <td class="st_basket-product-netto">{$product.price_netto}</td>
+                <td class="st_basket-product-tax">{$product.tax} %</td>
+                <td class="st_basket-product-brutto">{$product.price_brutto}</td>
+                <td class="st_basket-product-num" onmouseover="{$product.num_onmouseover}" onmouseout="{$product.num_onmouseout}">
+                <ul>
+                    <li id="st_basket-product-num-button-minus-{$product.id}" style="visibility: hidden">{$product.minus}</li>
+                    <li class="st_basket-product-num-value" id="st_basket_product_value{$product.id}">{$product.num}</li>
+                    <li id="st_basket-product-num-button-plus-{$product.id}" style="visibility: hidden">{$product.plus}</li>
+                </ul>
+                </td>
+                <td class="st_basket-product-sum">{$product.total_amount}</td>
+                <td class="st_basket-product-remove">{$product.delete}</td>
+            </tr>
+            {/foreach}
+            <tr>
+                <td colspan="8" class="st_basket-all-empty" style="border-bottom: none;">
+                    
+                    <div class="st_button st_align-right" id="st_basket-update_button">
+                        <div class="st_button-left">{$button_update}</div>
+                    </div>                    
+                    <div class="st_button st_align-right" id="st_basket-clear_button">
+                        <div class="st_button-left">{$button_clear}</div>
+                    </div>                                        
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

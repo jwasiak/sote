@@ -1,0 +1,17 @@
+package:
+  name: stExtjs2Plugin
+  stability: stable
+  version: 7.3
+  summary: Extjs2
+  description: Extjs2
+  notes: |
+    - Poprawka dla SSL
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    'Marek Jakubowicz':
+      role: contributor
+      user: marek
+      email: marek.jakubowicz@sote.pl

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2011-11-04T04:26:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Bon zakupowy</source>
+				<target>Bon d’achat</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wprowadź kod</source>
+				<target>Saisissez votre code</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Aktywuj</source>
+				<target>Activer</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Bon o podanym kodzie nie istnieje</source>
+				<target>Le code saisi ne correspond à aucun bon</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Bon o podanym kodzie jest już aktywny</source>
+				<target>Le bon correspondant au code saisi est déjà actif</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Bon o podanym kodzie jest nieważny</source>
+				<target>Le bon correspondant au code saisi est non valable</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Bonem o podanym kodzie można płacić wyłącznie w walucie %currency%</source>
+				<target>Avec le bon correspondant au code saisi, vous pouvez payer uniquement en %currency%</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Usuń bon</source>
+				<target>Supprimer le bon</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Musisz złożyć zamówienie za minimum %%amount%%</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,7 @@
+migration:
+    _attributes:
+      extend:                           soteshop40RC1-RC22.yml
+      
+    products:
+        params:
+            source:                     {query: "SELECT m.*, d.num AS stock FROM main m LEFT JOIN (depository d) ON d.user_id_main = m.user_id AND (d.adv_attr = '*' OR d.adv_attr is NULL)"}

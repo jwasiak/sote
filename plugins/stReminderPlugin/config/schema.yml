@@ -1,0 +1,30 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stReminderPlugin.lib.model
+  st_backend_alert: 
+    _attributes: 
+      phpName: BackendAlert
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    display: 
+      type: BOOLEAN
+    code: 
+      type: VARCHAR
+      size: 45
+    opt_description: 
+      type: LONGVARCHAR
+    _uniques: 
+      backed_alert_code_index: 
+        - code

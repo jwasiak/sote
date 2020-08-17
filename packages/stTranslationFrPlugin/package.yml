@@ -1,0 +1,16 @@
+---
+package:
+  name: stTranslationFrPlugin
+  stability: stable
+  version: 7.0.5.1
+  summary: Tlumaczenia w jezyku francuskim.
+  description: Tlumaczenia w jezyku francuskim.
+  notes: |
+    - Aktualizacja tlumaczen.
+  maintainers:
+    Michal Prochowski:
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stLanguagePlugin: 1.1.0.14

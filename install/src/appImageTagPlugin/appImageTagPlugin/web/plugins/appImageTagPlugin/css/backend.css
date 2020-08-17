@@ -1,0 +1,104 @@
+.admin_form .row_show_category_image_tags {
+   padding-top: 0px;
+}
+
+#product_tag {
+    width: 100%;
+}
+
+#app-image-tag-overlay h2 {
+   padding: 10px;
+   margin-top: 0px;
+}
+/*
+#app-image-tag-overlay .close {
+   text-align: right;
+   position: absolute;
+   width: 100%;
+   padding: 6px 0px;
+   margin-left: -4px;
+}*/
+
+#app-image-tag-overlay {
+   width: 660px;
+   text-align: center;
+}
+
+#app-image-tag-overlay .admin_actions {
+   margin: 10px;
+}
+
+#app-image-tag-overlay .content.preloader_160x24 {
+   height: 200px;
+}
+
+.app-image-tag-rf {
+   cursor: pointer;
+   padding: 5px 10px;
+   min-width: 200px;
+}
+
+.app-image-tag-rf:after {
+   content: "";
+   display: table;
+   clear: left;
+}
+
+.app-image-tag-rf img {
+   vertical-align: top;
+   float: left;
+   max-width: 42px;
+}
+
+.app-image-tag-rf .name,
+.app-image-tag-rf .code {
+   margin-left: 50px;
+}
+
+
+.taggd-image-popup .remove {
+   padding-bottom: 5px;
+   text-align: right;
+   margin-top: -5px;
+   margin-right: -5px;
+}
+
+.taggd-image-popup img {
+   max-width: 114px;
+}
+
+.taggd-image-popup .remove img {
+   cursor: pointer;
+}
+
+.taggd-image-popup {
+  z-index: 100000;
+  max-width: 130px;
+  text-align: center;
+}
+
+.taggd-image-popup .name {
+   padding-top: 5px;
+}
+
+#app-category-image-tag {
+   padding: 5px;
+   background: #eee;
+}
+
+#app-category-image-tag > .taggd-image-wrapper > img {
+   background: #fff;
+   cursor: crosshair;
+}
+
+#app-category-image-tag img.tagging {
+    cursor: default;
+}
+
+#app-image-tag-create-overlay .content {
+   padding: 10px;
+}
+
+#app-image-tag-create-overlay {
+   box-shadow: 0px 0px 5px #000;
+}

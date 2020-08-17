@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stPocztaPolskaPlugin.lib.model" noXsd="true">
+
+  <table name="st_poczta_polska_punkt_odbioru" phpName="PocztaPolskaPunktOdbioru">
+    <column name="order_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_order" onDelete="cascade">
+      <reference local="order_id" foreign="id" />
+    </foreign-key>
+    <column name="pni" type="VARCHAR" size="16" />
+    <column name="type" type="VARCHAR" size="16" />
+    <column name="name" type="VARCHAR" size="64" />
+    <column name="description" type="VARCHAR" size="512" />
+    <column name="phone" type="VARCHAR" size="128" />
+    <column name="street" type="VARCHAR" size="100" />
+    <column name="city" type="VARCHAR" size="64" />
+    <column name="zip_code" type="VARCHAR" size="16" />
+    <column name="province" type="VARCHAR" size="45" />
+    <column name="ekspres24" type="BOOLEAN" />
+    <column name="kurier48" type="BOOLEAN" />
+    <column name="paczka_ekstra24" type="BOOLEAN" />
+  </table>
+
+  <table name="st_poczta_polska_paczka" phpName="PocztaPolskaPaczka">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="order_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_order" onDelete="cascade">
+      <reference local="order_id" foreign="id" />
+    </foreign-key>
+    <column name="guid" type="CHAR" size="32" required="true" />
+    <column name="numer_nadania" type="VARCHAR" size="20" required="false" />
+    <column name="envelope_id" type="integer" required="false" />
+    <column name="bufor_id" type="INTEGER" required="false" />
+    <column name="parameters" type="VARCHAR" size="8192" phpType="array" />
+  </table>
+
+  <table name="st_poczta_polska_bufor" phpName="PocztaPolskaBufor">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="bufor_id" type="INTEGER" required="false" />
+    <column name="urzad_nadania" type="INTEGER" required="true" />
+    <column name="data_nadania" type="DATE" required="true" />
+  </table>
+
+</database>

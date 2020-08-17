@@ -1,0 +1,173 @@
+<div id="st_paczkomaty">
+    <div id="paczkomaty_overlay">
+        <div class="paczkomaty_overlay_content"></div>
+    </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+   jQuery(function($) {
+      $(document).ready(function() {
+         {/literal}
+            var url = "{urlfor internal='@stPaczkomatyPlugin?action=easyPackShow'}";
+            var is_authenticated = {$sf_user->isAuthenticated()|string_format:"%d"};
+            var shopping_cart_delivery = $('#st_basket-delivery');
+            var current = shopping_cart_delivery.find('input[type="radio"]:checked');
+            var selected = current.parent().find('.inpost-easypack-trigger').length > 0;
+            var payments = {$payments};
+         {literal}
+
+         $(document).on("delivery.change.started", function() {
+            current = $(this);
+            selected = $(this).parent().find('.inpost-easypack-trigger').length > 0;
+            update();
+         });
+
+         var i18n = {
+            {/literal}
+               choose_delivery_point: '{__ text="Wybierz punkt odbioru"}',
+               change_delivey_point: '{__ text="Wybrany punkt nie obsługuje płatności przy odbiorze.<br>Zmień płatność lub wybierz inny punkt odbioru."}',
+            {literal}
+         }
+
+         $('#paczkomaty_overlay').overlay({
+            oneInstance: false,
+            onLoad: function() {
+               var point = current.parent().find('.inpost-easypack').data('inpost-point');
+
+               if (point) {
+                  var src = url.indexOf('?') > -1 ? url+'&point='+point : url+'?point='+point;
+               } else {
+                  var src = url;
+               }
+
+               var wrap = this.getOverlay().find('.paczkomaty_overlay_content');
+
+               wrap.html('<iframe src="'+src+'" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; border: none" allowfullscreen></iframe>');
+            },
+            onClose: function () {
+                var wrap = this.getOverlay().find('.paczkomaty_overlay_content');
+                wrap.html('');
+            },
+            load: false
+         });
+
+         var modal = $('#paczkomaty_overlay').data('overlay');
+
+         $.fn.paczkomatyEqualHeight = function() {
+            tallest = 0;
+            this.each(function() {
+               $(this).css("height","auto");
+               thisHeight = $(this).height();
+               if(thisHeight > tallest) {
+                  tallest = thisHeight;
+               }
+            });
+            this.height(tallest);
+         }
+
+         function updateHeight() {
+            $(".frame").paczkomatyEqualHeight();
+            $(".data_frame").paczkomatyEqualHeight();
+         }
+
+         function showMessage(message) {
+            window.alert(message);
+         }
+
+         function update() {
+            var different_delivery = $('#different_delivery');
+            shopping_cart_delivery.find('.inpost-easypack-address').hide();
+
+            if (selected) {
+
+               current.parent().find('.inpost-easypack-address').show();
+               $('#paczkomaty_machine_number').prop('disabled', false);
+               updateHeight();
+
+               if (different_delivery.prop('checked')) {
+                  different_delivery.get(0).click();
+               }
+
+               different_delivery.prop('disabled', true);
+
+               if (is_authenticated) {
+                  $('#order_form_delivery').hide();
+                  $('#order_form_billing').parent().addClass('col-sm-push-6');
+               }
+            } else {
+               different_delivery.prop('disabled', false);
+
+               $('#paczkomaty_machine_number').prop('disabled', true);
+               updateHeight();
+
+               if (is_authenticated) {
+                  $('#order_form_delivery').show();
+                  $('#order_form_billing').parent().removeClass('col-sm-push-6');
+               }
+            }
+         }
+
+         function validateDeliveryPoint() {
+            if (selected) {
+               var payment_id = $('#st_basket-payment input[type=radio]:checked').val();
+
+               if (current.parent().find('.inpost-easypack-address').is(':empty')) {
+                  showMessage(i18n.choose_delivery_point);
+                  return false;
+               }
+
+               var cod = current.parent().find('.inpost-easypack').data('inpost-cod');
+
+               if (!cod && (payments.indexOf(payment_id) > -1 || payments.indexOf(Number(payment_id)) > -1)) {
+                  showMessage(i18n.change_delivey_point);
+                  return false; 
+               }
+            }
+
+            return true;                
+         }
+
+         function addressFormat(point) {
+            var address = [];
+
+            var ad = point.address_details;
+
+            address.push('<b>'+point.name+'</b>');
+            address.push(ad.street+' '+ad.building_number+(ad.flat_number ? '/'+ad.flat_number : ''));
+            address.push(ad.post_code+' '+ad.city);
+
+            return address.join('<br>');
+         }
+     
+         update();
+
+         $('#user_delivery_form').submit(validateDeliveryPoint);
+
+         $(document).on('delivery.change.started', function(e, delivery) {        
+            current = $(delivery);
+
+            selected = current.parent().find('.inpost-easypack-trigger').length > 0;
+            update();
+         });
+
+         $(document).on('paczkomaty.updatePoint', function(event, point) {
+            var address = addressFormat(point);
+            var cod = point.name.indexOf('POP-') === -1;
+            current.get(0).click();
+            current.parent().find('.inpost-easypack-address').html(addressFormat(point));
+            current.parent().find('.inpost-easypack').data('inpost-point', point.name).data('inpost-cod', cod);
+      
+            $('#paczkomaty_machine_number').val(JSON.stringify({ name: point.name, address: point.address_details, "cod": cod }));
+            updateHeight();
+         });
+
+         shopping_cart_delivery.on('click', '.inpost-easypack-trigger', function() {
+           current = $(this).closest('li').find('input[type="radio"]');
+           modal.load();
+         });
+
+      });
+   });
+</script>
+{/literal}

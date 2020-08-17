@@ -1,0 +1,222 @@
+<script type="text/javascript">
+    {literal}
+        function showDeliveryData()
+        {
+            if (document.register.different_delivery.checked==true)
+            {
+                document.getElementById('showDeliveryData').style.display='block';
+                document.getElementById('showBillingData').style.marginLeft='30px';
+                document.getElementById('showDataEnd').style.marginLeft='40px';
+                document.getElementById('showDataEnd').style.width='660px';
+            }
+            else
+            {
+                document.getElementById('showDeliveryData').style.display='none';
+                document.getElementById('showBillingData').style.marginLeft='200px';
+                document.getElementById('showDataEnd').style.marginLeft='196px';
+                document.getElementById('showDataEnd').style.width='325px';
+            }
+        }
+    {/literal}
+</script>
+
+<div id="st_user-first_register" class="st_application" >
+    <div id="st_application-user-login-header">
+        <h1 class="st_title">
+            {__ text="Rejestracja"}
+        </h1>
+        <p>
+            {__ text="Podaj dane billingowe aby dokończyć proces rejestracji."}
+        </p>
+        <br class="st_clear_all" />
+    </div>
+    <div class="st_content">
+        <div id="st_user_create_account_position">
+            <div id="st_user-edit_data" class="st_component" style="width: 100%; border: none;">
+                {$form_start}
+                    <fieldset>
+                        <div id="showBillingData" style="float: left; border: none; {$show_delivery_style1}">
+                            <h5 class="st_title">
+                                {__ text="Dane billingowe"}
+                            </h5>      
+                            {$error_billing_message}
+                            {$error_billing_full_name}
+                            {$error_billing_address}
+                            {$error_billing_address_more}
+                            {$error_billing_region}
+                            {$error_billing_code}
+                            {$error_billing_town}
+                            {$error_billing_phone}
+                            {$error_billing_vat}        
+                            <div id="st_form-user-field1" class="st_row">    
+                                <label for="st_form-userData-field1">{__ text="Firma"} <sup>[1]</sup></label>
+                                <div class="st_field">
+                                    {$input_company}
+                                </div>
+                            </div>        
+                            <div id="st_form-user-field3" class="st_row">
+                                <label for="st_form-userData-field3">{__ text="Imię i nazwisko"} <sup>[1]</sup></label>
+                                <div class="st_field">
+                                    {$input_full_name}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field4" class="st_row">
+                                <b>{$label_address}</b>
+                                <div class="st_field">
+                                    <span>{__ text="np. Nazwa ulicy nr/nr"}</span><br>
+                                    {$input_address}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field4" class="st_row">
+                                {$label_address_more}
+                                <div class="st_field">
+                                    <span>{__ text="adres ciąg dalszy"}</span><br>
+                                    {$input_address_more}
+                                </div>
+                            </div>
+                            {if $show_region==1}
+                            <div id="st_form-user-field3" class="st_row">
+                                {$label_region}
+                                <div class="st_field">
+                                    {$input_region}
+                                </div>
+                            </div>
+                            {/if}
+                            <div id="st_form-user-field5" class="st_row">
+                                <b>{$label_code_town}</b>
+                                <div class="st_field">
+                                    {$input_code}
+                                    {$input_town}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field6" class="st_row">
+                                <b>{$label_country}</b>
+                                <div class="st_field">
+                                    {$select_country}             
+                                </div> 
+                            </div>
+                            {if $show_pesel==1}
+                            <div id="st_form-user-field3" class="st_row">
+                                {$label_pesel}
+                                <div class="st_field">
+                                    {$input_pesel}
+                                </div>
+                            </div>
+                            {/if}
+                            <div id="st_form-user-field7" class="st_row">
+                                <b>{$label_phone}</b>
+                                <div class="st_field">
+                                    {$input_phone}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field10" class="st_row">
+                                {$label_nip}
+                                <div class="st_field">
+                                    {$input_nip}
+                                </div>
+                            </div>   
+                            <div style="margin-left: 92px;">
+                                {$checkbox_different_delivery}
+                                {__ text="Dane dostawy są inne niż dane billingowe"}
+                            </div>
+                            <div class="st_row">
+                                <div class="st_field">
+                                    <span><b>* {__ text="Pola pogrubione są wymagane."}</b></span>
+                                </div>
+                                <div class="st_field">
+                                    <span><sup>[1]</sup> <b>{__ text="Jedno z pól jest wymagane."}</b></span>
+                                </div>
+                            </div>
+                        </div>      
+                        <div id="showDeliveryData" style="display: {$show_delivery_style0}; float: left; margin-left:20px;">
+                            <h5 class="st_title">
+                                {__ text="Dane dostawy"}
+                            </h5>
+                            {$error_delivery_message}
+                            {$error_delivery_full_name}
+                            {$error_delivery_address}
+                            {$error_delivery_address_more}
+                            {$error_delivery_region}
+                            {$error_delivery_code}    
+                            {$error_delivery_town}    
+                            {$error_delivery_phone}    
+                            {$error_delivery_vat}      
+                            <div id="st_form-user-field1" class="st_row">    
+                                <label for="st_form-userData-field1">{__ text="Firma"} <sup>[1]</sup></label>
+                                <div class="st_field">
+                                    {$input_delivery_company}
+                                </div>
+                            </div>        
+                            <div id="st_form-user-field3" class="st_row">
+                                <label for="st_form-userData-field3">{__ text="Imię i nazwisko"} <sup>[1]</sup></label>
+                                <div class="st_field">
+                                    {$input_delivery_full_name}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field4" class="st_row">
+                                <b>{$label_delivery_address}</b>
+                                <div class="st_field">
+                                    <span>{__ text="np. Nazwa ulicy nr/nr"}</span><br>
+                                    {$input_delivery_address}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field4" class="st_row">
+                                {$label_delivery_address_more}
+                                <div class="st_field">
+                                    <span>{__ text="adres ciąg dalszy"}</span><br>
+                                    {$input_delivery_address_more}
+                                </div>
+                            </div>
+                            {if $show_region==1}
+                            <div id="st_form-user-field3" class="st_row">
+                                {$label_delivery_region}
+                                <div class="st_field">
+                                    {$input_delivery_region}
+                                </div>
+                            </div>
+                            {/if}
+                            <div id="st_form-user-field5" class="st_row">
+                                <b>{$label_delivery_code_town}</b>
+                                <div class="st_field">
+                                    {$input_delivery_code}
+                                    {$input_delivery_town}
+                                </div>
+                            </div>
+                            <div id="st_form-user-field6" class="st_row">
+                                <b>{$label_delivery_country}</b>
+                                <div class="st_field">
+                                    {$select_delivery_country}         
+                                </div> 
+                            </div>
+                            <div id="st_form-user-field7" class="st_row">
+                                <b>{$label_delivery_phone}</b>
+                                <div class="st_field">
+                                    {$input_delivery_phone}
+                                </div>
+                            </div>
+                        </div>
+                        <br class="st_clear_all" />    
+                        <div id="showDataEnd" style="float: left;  {$show_delivery_style2} {$show_delivery_style3}">
+                            <div style="margin-left: 92px;">
+                            </div>
+                            <div id="st_button-user-edit_data" class="st_button-container" >
+                                <div class="st_button st_align-right">
+                                    <div class="st_button-left">
+                                        {$save_submit}                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    {$hidden_delivery_checkbox}
+                    {$hidden_style0}
+                    {$hidden_style1}
+                    {$hidden_style3}
+                    {$hidden_delivery_id}
+                    {$hidden_billing_id}
+                </form>
+            </div>
+        </div>
+    </div>
+    <br class="st_clear_all" />    
+</div>

@@ -1,0 +1,15 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stReportPlugin
+/home/jarek/src/soteshop/plugins/stReportPlugin/config
+/home/jarek/src/soteshop/plugins/stReportPlugin/config/config.php
+/home/jarek/src/soteshop/plugins/stReportPlugin/modules
+/home/jarek/src/soteshop/plugins/stReportPlugin/modules/stReportBackend
+/home/jarek/src/soteshop/plugins/stReportPlugin/modules/stReportBackend/actions
+/home/jarek/src/soteshop/plugins/stReportPlugin/modules/stReportBackend/actions/actions.class.php
+/home/jarek/src/soteshop/plugins/stReportPlugin/modules/stReportBackend/templates
+/home/jarek/src/soteshop/plugins/stReportPlugin/modules/stReportBackend/templates/productSuccess.php
+/home/jarek/src/soteshop/plugins/stReportPlugin/lib
+/home/jarek/src/soteshop/plugins/stReportPlugin/lib/stReport.class.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stReportPlugin
+/home/jarek/src/soteshop/packages/stReportPlugin/package.yml

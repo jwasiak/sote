@@ -1,0 +1,5 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:      Theme
+        theme:            simple

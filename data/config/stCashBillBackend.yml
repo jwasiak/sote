@@ -1,0 +1,5 @@
+data:
+    shop_id: ''
+    secret_key: ''
+    test: 0
+    show_variant: 'none'

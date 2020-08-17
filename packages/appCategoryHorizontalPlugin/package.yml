@@ -1,0 +1,17 @@
+---
+package: 
+  name: appCategoryHorizontalPlugin
+  stability: stable
+  version: 7.0.0.6
+  summary: Poziome kategorie
+  description: Poziome drzewko kategorii
+  notes: |
+    - Dostosowanie pakietu do zmian w stBase
+  maintainers: 
+    Bartosz Alejski:
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency: 
+    stFrontend: 1.0.8.12
+    stBackend: 1.0.4

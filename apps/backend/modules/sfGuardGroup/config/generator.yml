@@ -1,0 +1,45 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            sfGuardGroup
+        theme:                  simple
+        
+        head:
+            package:            stAuthUsers
+    
+        menu:
+            display:
+                poziom1:        [users, groups, perm]
+            fields:
+                users:          {name: Użytkownicy, action: sfGuardUser/list}
+                groups:         {name: Grupy, action: sfGuardGroup/list}
+                perm:           {name: Uprawnienia, action: sfGuardPermission/list}
+        fields:
+            description:        {name: Nazwa}
+                
+        list:
+            menu:
+               display:         [list, group]
+               fields:
+                  list:         { name: Administratorzy, action: sfGuardUser/list }
+                  group:        { name: Grupy uprawnień, action: sfGuardGroup/list }        
+            title:              Lista grup
+            description:        Zarządzanie i konfiguracja kont administratorów panelu  
+            display:            [=description]
+            object_actions:
+                _edit:          -
+                _delete:        -
+            actions:
+                _create:        {name: Dodaj}
+        edit:
+            use_helper:         [sfGuardUser/sfGuardUser]
+            menu:               { use: list.menu }
+            title:              Edycja grupy %%description%%
+            description:        Zarządzanie i konfiguracja kont administratorów panelu
+            fields:
+                permissions:     {name: Uprawnienia, type: guard_group_permission_list, params: control_name=permission, help: "Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b>"}
+                app_permissions: {name: Uprawnienia modułów, type: guard_group_app_permission_list, params: control_name=module_permission, help: "Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b>"}
+            display:            [description, permissions, app_permissions]
+            actions:
+                _save:          {name: Zapisz}
+

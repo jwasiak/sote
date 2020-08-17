@@ -1,0 +1,4 @@
+gadgetDirectory:
+  enabled: false
+  client_lifetime: 0
+  with_layout: true

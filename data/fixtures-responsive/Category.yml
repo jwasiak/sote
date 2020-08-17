@@ -1,0 +1,100 @@
+sfAsset:
+  sfAsset_33:
+    folder_id: sfAssetFolder_58
+    filename: res_womens_fragrance.png
+    type: image
+  sfAsset_34:
+    folder_id: sfAssetFolder_58
+    filename: res_mens_fragrance.png
+    type: image
+  sfAsset_36:
+    folder_id: sfAssetFolder_58
+    filename: res_flowers.png
+    type: image
+  sfAsset_37:
+    folder_id: sfAssetFolder_58
+    filename: res_oriental.png
+    type: image
+
+Category: 
+  Category_99: 
+    lft: 1
+    rgt: 10
+    scope: 1
+    culture: pl_PL
+    name: Perfumy
+    depth: 0
+    root_position: 1
+    is_active: 1
+    url: perfumy
+  Category_100: 
+    lft: 2
+    rgt: 7
+    scope: 1
+    parent_id: Category_99
+    culture: pl_PL
+    name: Dla kobiet
+    depth: 1
+    is_active: 1
+    url: dla-kobiet
+    sf_asset_id: sfAsset_33
+  Category_101: 
+    lft: 8
+    rgt: 9
+    scope: 1
+    parent_id: Category_99
+    culture: pl_PL
+    name: Dla mężczyzn
+    depth: 1
+    is_active: 1
+    url: dla-mezczyzn
+    sf_asset_id: sfAsset_34
+  Category_103:
+    lft: 3
+    rgt: 4
+    scope: 1
+    parent_id: Category_100
+    culture: pl_PL
+    name: Kwiaty
+    depth: 2
+    is_active: 1
+    url: zapachy-dla-kobiet-kwiaty
+    sf_asset_id: sfAsset_36
+  Category_104: 
+    lft: 5
+    rgt: 6
+    scope: 1
+    parent_id: Category_100
+    culture: pl_PL
+    name: Orient
+    depth: 2
+    is_active: 1
+    url: zapachy-dla-kobiet-orient
+    sf_asset_id: sfAsset_37
+
+CategoryI18n:
+  CategoryI18n_1:
+    id: Category_99
+    culture: en_US
+    name: Pefumes
+    url: perfumes
+  CategoryI18n_2:
+    id: Category_100
+    culture: en_US
+    name: For Women
+    url: womens-fragrance
+  CategoryI18n_3:
+    id: Category_101
+    culture: en_US
+    name: For men
+    url: mens-fragrance
+  CategoryI18n_5:
+    id: Category_103
+    culture: en_US
+    name: Flowers
+    url: flowers
+  CategoryI18n_6:
+    id: Category_104
+    culture: en_US
+    name: Oriental
+    url: oriental

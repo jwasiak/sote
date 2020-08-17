@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dziękujemy !</source>
+                <target>Danke !</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+                <target>Diese E-Mail wurde vom Onlineshop</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Dodaj opinię</source>
+                <target>Jetzt bewerten</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Twoja opinia o</source>
+                <target>Deine Meinung zu</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

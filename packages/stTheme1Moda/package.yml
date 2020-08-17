@@ -1,0 +1,13 @@
+package:
+  name: stTheme1Moda
+  stability: stable
+  version: 7.0.0.8
+  summary: 'Edycja grafiki'
+  description: 'Temat graficzny Moda'
+  notes: |
+    - Zmiany konfiguracji grafiki
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

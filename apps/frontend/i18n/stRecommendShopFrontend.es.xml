@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Polecenie sklepu</source>
+				<target>Recomendación de la tienda</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>treść wiadomości</source>
+				<target>contenido del mensaje</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>twój adres e-mail</source>
+				<target>su correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>informacje dodatkowe</source>
+				<target>información adicional</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>Correo electrónico de su amigo</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cyfry z obrazka</source>
+				<target>cifras de la imagen</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>Su recomendación ya ha sido enviada a este amigo</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Możesz polecić sklep innemu znajomemu</source>
+				<target>Puede recomendar la tienda a otro amigo</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Poleć sklep</source>
+				<target>Recomendar la tienda</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Wiadomość o treści</source>
+				<target>Un mensaje con el siguiente contenido</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>została wysłana do</source>
+				<target>ha sido enviado a </target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Enviar</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Daj szansę swoim znajomym na poznanie naszego sklepu</source>
+				<target>Deles la oportunidad de conocer nuestra tienda a sus amigos</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdzenie wysłania polecenia sklepu</source>
+				<target>Confirmación del envío de la recomendación</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dziękujemy</source>
+				<target>Gracias </target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Powrót</source>
+				<target>Volver </target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Polecenie sklepu było już wysłane do tego użytkownika</source>
+				<target>La recomendación de la tienda ya ha sido enviada a este usuario</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Brak adresu e-mail</source>
+				<target>Falta el correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>El formato de la dirección de correo electrónico es incorrecto</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Proporcione cifras correctas</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Data polecenia sklepu</source>
+				<target>Fecha de recomendación de la tienda</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Sklep polecił</source>
+				<target>Tienda recomendada por</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Polecenie sklepu.</source>
+				<target>Recomendación de la tienda.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras del dibujo</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Polecone od</source>
+				<target>Recomendado por</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Adresat (e-mail)</source>
+				<target>Destinatario (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Treść</source>
+				<target>Contenido</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nadawca (e-mail)</source>
+				<target>Remitente (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Wprowadzono zły numer.</source>
+				<target>Número incorrecto</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Este mensaje ha sido enviado por una tienda electrónica</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

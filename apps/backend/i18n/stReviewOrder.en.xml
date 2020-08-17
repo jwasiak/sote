@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Recenzje</source>
+                <target>Reviews</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Utworzona</source>
+                <target>Created</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista recenzji zamówień</source>
+                <target>List of orders reviews</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Lista recenzji produktów</source>
+                <target>List of products reviews</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Edycja recenzji transakcji</source>
+                <target>Edit an order review</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Pozytywna</source>
+                <target>Positive</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Neutralna</source>
+                <target>Neutral</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Negatywna</source>
+                <target>Negative</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Lista recenzji transakcji</source>
+                <target>List of orders reviews</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Recenzje transakcji.</source>
+                <target>Orders reviews.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Zamówienie</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Recenzja</source>
+                <target>Review</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Ocena</source>
+                <target>Rating</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Publikacja</source>
+                <target>Publication</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Klient</source>
+                <target>Customer</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

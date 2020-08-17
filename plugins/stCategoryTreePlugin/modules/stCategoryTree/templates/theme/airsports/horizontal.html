@@ -1,0 +1,155 @@
+<ul class="nav navbar-nav horizontal-categories" style="visibility: hidden; height: 0">   
+    <li class="home-icon hidden-xs hidden-sm">
+        <a href="{$homepage_url}">
+            <svg enable-background="new 0 0 512 512" height="21px" version="1.0" viewBox="0 0 512 512" width="22px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M446,466H66V199.2L256,36.5l190,162.7L446,466z M126,406h260l0-179.2L256,115.5L126,226.8V406z"/></g></svg>
+        </a>                     
+    </li>                     
+    <li class="visible-xs">
+        {include_file id="_search"}
+    </li>    
+    {foreach item=category from=$categories}
+        {if $category.has_children}
+            {assign var=children value=$tree->getChildren($category)}
+            {if $children}
+                <li class="dropdown">
+                    <a href="{$category.url}" class="dropdown-toggle category-link" data-hover="dropdown" data-toggle="dropdown">{$category.name}</a>
+                    <ul class="dropdown-menu">
+                        {foreach item=child from=$tree->getChildren($category)}
+                            <li><a href="{$child.url}" class="category-link">{$child.name}</a></li>
+                        {/foreach}
+                    </ul> 
+                </li>
+            {else}
+                <li>
+                    <a href="{$category.url}" class="category-link">{$category.name}</a>
+                </li>
+            {/if}
+        {else}
+            <li>
+                <a href="{$category.url}" class="category-link">{$category.name}</a>
+            </li>
+        {/if} 
+    {/foreach}      
+    {slot name="after-category-ends" hidden="true"}{/slot}
+    {st_get_component module="stWebpageFrontend" component="groupWebpage" group_page="HEADER"}
+</ul>
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+    var horizontalCategories = $('.horizontal-categories');
+    var headerContainer = $('#header-navbar');
+    var logo = $('#logo');
+    var buttons = $('#navbar-buttons');
+    var categories = horizontalCategories.children(':not(.more)');
+    var moreContainer = $('<li style="display: none" class="dropdown more"><a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><ul class="dropdown-menu"></ul>');
+
+
+    moreContainer.children("a").dropdownHover();
+
+    horizontalCategories.append(moreContainer); 
+
+    horizontalCategories.bind('highlight', function(event, href) {
+        var $this = $(this);
+        if (href) {
+            $this.find('a[href="'+href+'"]').parents("li").addClass("active"); 
+            $this.data('href', href);
+        } else {
+            $this.find('a[href="'+$this.data('href')+'"]').parents("li").addClass("active");
+        }      
+    }); 
+
+    function more() {
+
+
+        var current = 0;
+        var content = '';
+
+        moreContainer.hide();
+
+        if ($(window).width() < 992) {
+            categories.show(); 
+        } else {
+            horizontalCategories.css({ visibility: 'hidden', 'height': 0 });  
+            
+            var widthOffset = buttons.width() + moreContainer.width();
+            var width = headerContainer.width() - widthOffset;
+            categories.each(function() {
+                var li = $(this);
+               
+                current += li.width();
+
+                if (current >= width) {
+                    li.hide();
+                    var link = li.children('a');
+                    content += '<li><a href="'+link.attr('href')+'" class="category-link">'+link.html()+'</a></li>';
+                } else {
+                    li.show();
+                }
+                
+            });
+
+            if (content) {
+                moreContainer.children('.dropdown-menu').html(content);
+                moreContainer.show();
+                horizontalCategories.trigger('highlight');  
+            } 
+            
+        }
+  
+        horizontalCategories.css({ visibility: 'visible', 'height': 'auto' });     
+    }
+
+    horizontalCategories.on("click", '.category-link', function() {
+        var link = $(this);
+
+        if (link.data('toggle') != 'dropdown' || link.data('toggle') == 'dropdown' && link.parent().hasClass('open')) {
+            window.location = $(this).attr('href')+'?horizontal';
+            return false;
+        }
+    }); 
+
+    var win = $(window);
+
+    var throttle = 250,
+        handler = function() {
+            curr = ( new Date() ).getTime();
+            diff = curr - lastCall;
+
+            if ( diff >= throttle ) {
+
+                lastCall = curr;
+                $( window ).trigger( "throttledresize" );
+
+            } else {
+
+                if ( heldCall ) {
+                    clearTimeout( heldCall );
+                }
+
+                // Promise a held call will still execute
+                heldCall = setTimeout( handler, throttle - diff );
+            }
+        },
+        lastCall = 0,
+        heldCall,
+        curr,
+        diff;
+
+    win.resize(handler);
+
+    win.on("deviceorientation", handler); 
+
+    win.on("throttledresize", more);
+
+    $(window).one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend webkitAnimationEnd oanimationend msAnimationEnd animationend", more);
+
+    var img = $('#logo img');
+    img.one('load', more);
+    if (img.get(0).complete || img.get(0).readyState === 4) {
+        more();
+    }
+});
+//]]>   
+</script>
+{/literal}

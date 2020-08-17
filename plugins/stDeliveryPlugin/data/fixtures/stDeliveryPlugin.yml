@@ -1,0 +1,87 @@
+Delivery: 
+  Delivery_1: 
+    culture: pl_PL
+    name: Odbiór osobisty
+    description:
+    free_delivery: 0
+    active: 1
+    default_cost: 0
+    is_default: 1
+    countries_area_id: CountriesArea_1
+    tax_id:  Tax_5
+  Delivery_2: 
+    culture: pl_PL
+    name: Poczta Polska
+    description:
+    free_delivery: 8000
+    countries_area_id: CountriesArea_1
+    active: 1
+    default_cost: 10
+    tax_id:  Tax_5
+
+DeliveryType: 
+  DeliveryType_1: 
+    name: Poczta Polska - Kurier
+    type: ppk
+  DeliveryType_2: 
+    name: Poczta Polska - Odbiór w punkcie
+    type: ppo
+  DeliveryType_3: 
+    name: InPost - Paczkomaty
+    type: inpostp
+  DeliveryType_4: 
+    name: InPost - Kurier
+    type: inpostk    
+  DeliveryType_5: 
+    name: DPD
+    type: dpd
+  DeliveryType_6: 
+    name: FedEx
+    type: fedex
+  DeliveryType_7: 
+    name: UPS
+    type: ups
+  DeliveryType_8: 
+    name: GLS
+    type: gls
+  DeliveryType_9: 
+    name: DHL
+    type: dhl
+  DeliveryType_10: 
+    name: K-EX
+    type: kex
+  DeliveryType_11: 
+    name: Global Express
+    type: ge
+
+DeliveryI18n:
+  DeliveryI18n_1:
+    id: Delivery_1
+    culture: en_US
+    name: Collect in person
+  DeliveryI18n_2:
+    id: Delivery_2
+    culture: en_US
+    name: Poczta Polska
+
+DeliveryHasPaymentType:
+  DeliveryHasPaymentType_1:
+    is_active: 1
+    is_default: 1
+    payment_type_id: PaymentType_1
+    delivery_id: Delivery_1
+  DeliveryHasPaymentType_2:
+    is_active: 1
+    is_default: 0
+    payment_type_id: PaymentType_2
+    delivery_id: Delivery_1
+  DeliveryHasPaymentType_3:
+    is_active: 1
+    is_default: 1
+    payment_type_id: PaymentType_2
+    delivery_id: Delivery_2
+  DeliveryHasPaymentType_4:
+    is_active: 1
+    is_default: 0
+    payment_type_id: PaymentType_1
+    delivery_id: Delivery_2

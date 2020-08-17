@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>firma</source>
+				<target>firma</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>imię i nazwisko</source>
+				<target>navn</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>ulica, nr domu</source>
+				<target>gate, husnr.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kod, miasto</source>
+				<target>postkode, by</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>kraj</source>
+				<target>land</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>telefon</source>
+				<target>telefonnr.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>nip</source>
+				<target>org. nr.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>nr. konta</source>
+				<target>nr. konto</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>uwagi</source>
+				<target>kommentarer</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zarejestruj</source>
+				<target>Registrer</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dane partnera</source>
+				<target>Partners data</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Konto</source>
+				<target>Konto</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Prowizje partnera</source>
+				<target>Provisjoner til partner</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Stawka prowizji procentowej</source>
+				<target>Sats for prosentprovisjon</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Stawka prowizji kwotowej</source>
+				<target>Sats for fast provisjon</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Nie przyznano prowizji od transakcji.</source>
+				<target>Provisjon på transaksjonen er ikke tildelt.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Całkowita prowizja</source>
+				<target>Provisjon totalt</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Rozliczona prowizja</source>
+				<target>Oppgjort provisjon</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nierozliczona prowizja</source>
+				<target>Uoppgjort provisjon</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zamówienia z polecenia</source>
+				<target>Ordre fra produktanbefaling</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Link partnerski</source>
+				<target>Partner link</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Skorzystaj z automatycznego generowania linku partnerskiego. Opcja ta ułatwi Ci generowanie linków za pomocą, których klienci którym polecisz sklep dokonają zakupów rejestrowanych na Twoje konto.</source>
+				<target>Bruk automatisk generering av links til samarbeidspartnere. Dette alternativet vil hjelpe deg å generere links til samarbeidspartnere som dine venner vil bruke for å foreta kjøp registrert på kontoen din.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Wstaw link do strony sklepu</source>
+				<target>Sett inn link til butikken</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Link partnerski do strony sklepu</source>
+				<target>Samarbeidspartner link til butikken</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Link partnerski do umieszczenia na stronie</source>
+				<target>Samarbeidspartner link for å sette inn på nettside</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Konto partnerskie zostało zablokowane.</source>
+				<target>Samarbeidspartner konto har blitt sperret.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Twoje konto zostało zablokowane, skontaktuj się z administratorem celem wyjaśnienia przyczyny blokady konta.</source>
+				<target>Din konto har blitt sperret; kontakt administratoren for å forklare årsaken.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>wszystkie</source>
+				<target>alle</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>rozliczone</source>
+				<target>oppgjort</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>nierozliczone</source>
+				<target>uoppgjort</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Brak zamówień.</source>
+				<target>Ingen ordrer.</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Łączna kwota prowizji</source>
+				<target>Total provisjon</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Łączna kwota prowizji za okres od</source>
+				<target>Total provisjon for perioden fra</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>wynosi</source>
+				<target>er</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Kwota zamówienia</source>
+				<target>Ordrebeløp</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wartość prowizji</source>
+				<target>Provisjon</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Zapraszamy do skorzystania z naszego programu partnerskiego. Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci. Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep. Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.</source>
+				<target>Bruk vårt samarbeidsprogram. Samarbeidsprogrammet er for de som ønsker å fremme vår butikk og annonsere den på nettet. Når du melder deg på  samarbeidsprogrammet ved å fylle ut skjemaet på høyre side, vil du bli verifisert av butikkens administrator. Hvis verifiseringen er vellykket, vil du bli tildelt et unikt partnernummer som du kan bruke til å anbefale butikken vår. Transaksjoner gjort etter din anbefaling skal registreres i systemet, og din provisjon registreres på din partnerkonto.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Venter på bekreftelse.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Dziękujemy za wyrażenie chęci zostania partnerem naszego sklepu. Proszę czekać, aż administrator zaakceptuje i potwierdzi dane rejestracyjne.</source>
+				<target>Takk for at du ønsker å bli samarbeidspartner med butikken vår. Vennligst vent til vår administrator aksepterer og bekrefter registreringsinformasjon.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Po zweryfikowaniu danych otrzymacie Państwo indywidualny numer partnerski, który umożliwi dokonywanie zakupów z polecenia.</source>
+				<target>Etter bekreftelse av data skal du motta et unikt partnernummer som du kan bruke til å anbefale butikken vår.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>O przyznaniu status partnera sklepu zostaniecie Państwo poinformowani drogą mailową.</source>
+				<target>Du skal få e-post med beskjed om tildeling av partnerstatus.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Moje konto</source>
+				<target>Min konto</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Program partnerski</source>
+				<target>Samarbeidsprogram</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Uzupełnij formularz poniżej podając dane, które posłużą administratorowi sklepu do rozliczeń programu partnerskiego.</source>
+				<target>Fyll ut skjemaet nedenfor med detaljer som vil bli brukt av administratoren til oppgjør av samarbeidsprogrammet.</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brak imienia.</source>
+				<target>Manglende fornavn.</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Brak nazwiska.</source>
+				<target>Manglende etternavn.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Brak ulicy.</source>
+				<target>Manglende gateadresse.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak domu.</source>
+				<target>Manglende husnummer.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak kodu.</source>
+				<target>Manglende kode.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Brak miasta.</source>
+				<target>Manglende by.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Brak telefonu.</source>
+				<target>Manglende telefonnummer.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zweryfikuj poprawność adresu</source>
+				<target>Bekreft adressen</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Wstaw link do dowolnej strony tego sklepu (np.</source>
+				<target>Sett inn en link til en valgfri side på denne nettbutikken (f.eks.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>). Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+				<target>). Nedenfor får du linker for aktivering av samarbeidsprogrammet</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Pokaż</source>
+				<target>Vis</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>Felter med fet skrift er obligatoriske.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,18 @@
+---
+package: 
+  name: stJavascriptDropMenuPlugin
+  stability: stable
+  version: 1.2.0.1
+  summary: Drop Menu
+  description: Javascript Drop Menu
+  notes: |
+     - Dodanie tematu graficznego 'default2'
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    Marek Jakubowicz: 
+      role: contributor
+      user: marek
+      email: marek.jakubowicz@sote.pl

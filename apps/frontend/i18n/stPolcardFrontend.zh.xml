@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>支付</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Kliknij przycisk</source>
+				<target>点击按钮</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>"Zapłać"</source>
+				<target>"付款"</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>aby przejść do serwisu Polcard.</source>
+				<target>去Polcard 请</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>感谢您付款。</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zapłać</source>
+				<target>付款</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>付款设置错误。</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana. Wystąpił błąd spowodowany brakiem autoryzacji.</source>
+				<target>由于无验证的原因，您的支付没有成功。</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Płatność nie została zrealizowana. Wystąpił błąd autoryzacji.</source>
+				<target>由于验证错误的原因，您的支付没有成功。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

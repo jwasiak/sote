@@ -1,0 +1,121 @@
+.plupload .file {
+   background-color: #EEEEEE;
+   border: 1px solid #CCCCCC;
+   float: left;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   padding: 5px;
+}
+
+.plupload .file .preview {
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 117px;
+   width: 117px;
+   background-image: url('/images/backend/beta/gadgets/preloader/26x26.gif');
+   position: relative;
+}
+
+.plupload .file-placeholder {
+   background: #eee;
+   border: 1px dashed #ccc !important;
+   height: 117px;
+   width: 117px;   
+}
+
+.plupload .file .tools {
+   display: none;
+   height: 100%;
+   background: none no-repeat center center rgba(255, 255, 255, 0.8);
+   position: absolute;
+   width: 100%;
+   top: 0px;
+}
+
+.plupload .file .preview  > img {
+   max-width: 512px;
+   max-height: 256px;
+}
+
+.plupload .ui-sortable .file .tools {
+   cursor: move;
+   background-image: url("/jQueryTools/plupload/images/move.png?v2") ;
+}
+
+.plupload .file .tools a {
+   float: left; 
+   width: 26px; 
+   height: 26px;
+   opacity: 1;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+.plupload .file .tools a:hover {
+   opacity: 1;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.plupload .file .tools a.delete {
+   float: right;
+   background-image: url('/jQueryTools/plupload/images/remove.png?v2');
+}
+
+.plupload .file .tools a.custom {
+   float: left;
+}
+
+.plupload .file:hover .tools {
+   display: block;
+}
+
+.plupload .browse_button {
+   cursor: pointer;
+}
+
+.plupload .browse_button .size {
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   top: 5%;
+   font-size: 12px;
+   line-height: 16px;
+   left: 0;
+}
+
+.plupload .browse_button:first-child .size {
+   font-size: 18px;
+   line-height: 22px;
+   top: 10%;
+}
+
+.plupload .file + .browse_button .preview {
+   background-size: 54px;
+}
+
+.plupload .browse_button .preview {
+   background-image: url('/jQueryTools/plupload/images/add.png?v2');
+   opacity: 0.7;
+}
+
+.plupload .browse_button:hover .preview {
+   opacity: 1;
+}
+
+.plupload .file:first-child {
+   margin-bottom: 0px;
+}
+
+.plupload .ui-sortable-helper:last-child .preview,
+.plupload .file-placeholder:first-child,
+.plupload .file:first-child .preview {
+   height: 256px;
+   width: 256px;
+}
+
+
+.plupload .file.no-cover .preview {
+   height: auto !important;
+   width: auto !important;
+
+}

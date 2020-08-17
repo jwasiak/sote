@@ -1,0 +1,26 @@
+<div id="st_user-edit" class="st_application">
+    <h1 class="st_title">
+        <div id="st_user-tag">
+            {$user_panel_icon}
+        </div>
+        {$my_account} / {$title_sufix}
+    </h1>
+    {$user_panel_menu}
+    <div class="st_content" style="margin-left:90px;">
+        <div class="st_user-edit-data">
+            {$edit_profile_list}
+            <br class="st_clear_all" />
+            <div class="st_button st_align-right" id="st_button_create_billing" style="margin-bottom:10px; margin-right:-2px;">
+                <div class="st_button-left">
+                    {$add_new_address}
+                </div>
+            </div>
+        </div>
+        <div class="st_user-edit-data">
+            {if isset($show_edit_profile_form)}
+                {$edit_profile_form}
+            {/if}
+        </div>
+        <br class="st_clear_all" />
+    </div>
+</div>

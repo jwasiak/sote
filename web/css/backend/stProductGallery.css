@@ -1,0 +1,39 @@
+#st_product-gallery_list-default
+{
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;	
+    margin-bottom: 10px;
+}
+
+#sf_admin_container .st_product-gallery_list-actions
+{
+    padding-top: 5px;
+    text-align: right;
+}
+
+#sf_admin_container .st_product-gallery_list-actions li
+{
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+#sf_admin_container .st_product-gallery_list-pager
+{
+    text-align: left;	
+}
+
+#sf_admin_container .st_product-gallery_list-pager li
+{
+    display: inline;
+    font-weight: bold;
+}
+
+#sf_admin_container .st_product-gallery_list-pager a
+{
+    font-weight: normal;
+    text-decoration: underline;	
+}
+

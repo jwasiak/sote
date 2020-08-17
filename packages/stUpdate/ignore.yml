@@ -1,0 +1,5 @@
+ignore:
+    - ignore.yml
+    - config/security.yml      
+    - install/cache
+    

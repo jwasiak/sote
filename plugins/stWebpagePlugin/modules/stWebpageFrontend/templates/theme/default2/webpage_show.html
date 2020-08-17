@@ -1,0 +1,13 @@
+{set layout="two_column_layout"}
+<div id="webpage_show" class="box roundies">
+    <div class="title">
+        <h2>{$content_name}</h2>
+        {st_get_component module="stAddThisFrontend" component="shareButtons" params="view='webpage'"}
+    </div>
+    <div class="clear"></div>
+    <div class="content tinymce_html">
+        {slot name="webpage_before_content" hidden="true"}{/slot}
+        {$content}        
+     <div class="clear"></div>
+    </div>
+</div>

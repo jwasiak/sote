@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Chcę otrzymać fakturę VAT</source>
+				<target>Quiero recibir una factura IVA</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

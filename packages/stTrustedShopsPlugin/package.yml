@@ -1,0 +1,13 @@
+package:
+  name: stTrustedShopsPlugin
+  stability: stable
+  version: 7.2.6.2
+  summary: 'Trusted Shops'
+  description: 'Integracja z serwisem Trusted Shops'
+  notes: |
+    - Aktualizacja linku do rejestracji
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

@@ -1,0 +1,530 @@
+/* stOrder */
+
+div.st_order-last_order p 
+{
+    margin: 0px;
+   	
+}
+
+div.st_order-last_order ul
+{
+    padding-left: 10px;	
+}
+
+
+.st_order-order_sumary-user_data
+{
+    border: 1px solid #eee;
+}
+
+#st_order-order_summary-user_data-background
+{
+    background-image: url('/images/frontend/theme/default/arrow_gray_right.png');
+    background-repeat: no-repeat;
+    background-position: center center;	
+}
+
+.st_order-order_sumary-user_data h3
+{
+    padding: 10px 0px;
+    color: #aaa;
+}
+
+.st_order-order_sumary-user_data
+{
+    padding: 0px 10px 10px;
+    width: 280px;
+}
+
+.st_order-order-summary-address-name, .st_order-order-summary-address-surname
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.st_order-order_sumary-user_data address
+{
+    font-style: normal;	
+}
+
+.st_order-order_sumary-user_data address p
+{
+	padding: 0;
+    margin: 0;	
+}
+
+#st_order-back_button .st_button-left input
+{
+    background:transparent url(/images/frontend/theme/default/button_user_back_right.png) no-repeat scroll right top;    
+    border:medium none;
+    cursor:pointer;
+    display:block;
+    font-family:Helvetica,Verdana,Arial,sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    color:#414141;
+    height:40px;
+    margin:0;
+    padding:1px 15px 0px 45px;
+    width:100%;
+}
+
+#st_order-back_button
+{
+    background:transparent url(/images/frontend/theme/default/button_user_back_middle.png) repeat-x scroll left top;
+    color:black;
+    text-decoration:none;        
+    margin-left:-18px;
+}
+
+#st_order-back_button .st_button-left
+{
+    background:transparent url(/images/frontend/theme/default/button_user_back_left.png) no-repeat scroll left top;
+}
+
+
+
+#st_order-confirm_button input
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_right.png) no-repeat scroll right top;
+    border:medium none;
+    cursor:pointer;
+    display:block;
+    font-family:Helvetica,Verdana,Arial,sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    color:#414141;
+    height:40px;
+    margin:0;
+    padding:1px 45px 0px 15px;
+    width:100%;
+}
+
+#st_order-confirm_button
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_middle.png) repeat-x scroll left top;
+    color:black;
+    text-decoration:none;    
+    margin-right:-25px;
+}
+
+#st_order-confirm_button .st_button-left
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_left.png) no-repeat scroll left top;
+}
+
+/* endSuccess.php i endErrorSuccess.php*/
+#st_order-end_success-text
+{
+    margin-left:138px; 
+	margin-right:138px; 
+	padding:10px; 
+	border: 5px solid green; 
+	font-size:13px;
+	font-weight:bold;
+	text-align:center
+}
+
+/* _orderSumary.php */
+#st_order-order_summary-order_id
+{
+	padding:0 132px;
+}
+
+#st_order-order_summary-order_id h1
+{
+	height:50px;
+}
+.st_order-order_sumary-box
+{
+    margin-top: 15px;
+	border-top:1px solid #CCCCCC;
+	padding:0px 10px 10px;
+}
+.st_order-order_sumary-box h2
+{
+    background-color:#FFFFFF;
+	color:#AAAAAA;
+	float:left;
+	font-size:1.4em;
+	margin-bottom:0.7em;
+	margin-top:-0.7em;
+	padding:0pt 5px;
+}
+
+#st_order-order_sumary-user_data_delivery
+{
+    float:right;
+}
+.st_order-order_summary-data_box
+{
+    background-image: url('/images/backend/user/tab_user.png');
+    background-repeat: no-repeat;
+    width:300px;
+    margin: 15px 0px 15px 15px;
+}
+.st_order-order_sumary-bold_user_data_text
+{
+    font-size: 14px; 
+    font-weight:bold;
+}
+.st_order-order_sumary-user_data_text
+{
+    line-height:12px;
+}
+#st_order-order_sumary-arrow_box
+{
+    float:left; 
+    margin-left:20px;  
+    margin-top:50px;
+}
+.st_order-order_summary_table_id
+{
+	width:30px; 
+	padding-left:10px
+}
+#st_order-order_sumary-summary_total
+{
+	float:right;
+	padding-right:10px;
+	padding-top:10px;
+}
+#st_order-order_sumary-summary_total span
+{
+    float:left; 
+	width:200px
+}
+.st_order-order_sumary-sumary_box_left
+{
+    height: auto;
+	margin-left: 10px;
+	width: 328px;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	margin: 10px 0px 0px 10px;
+	padding: 0px 10px 10px 0px;
+	float: left;
+}
+.st_order-order_sumary-sumary_box_right
+{
+	height: auto;
+	margin-left:10px;
+	width:329px;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	margin:10px 0px 0px 10px;
+	padding:0px 10px 10px 0px;
+	float:right;
+}
+#st_component-st_order-user_last_order .lowspace
+{
+   line-height:12px;
+}
+
+#st_component-st_order-user_last_order .boldgreen
+{
+   font-weight: bold;
+   color: green;
+}
+
+#st_component-st_order-user_last_order a
+{
+   text-decoration: none;
+   color: #555;
+}
+
+#st_component-st_order-user_last_order a:hover
+{
+   text-decoration: underline;
+   color: #555;
+}
+
+
+#st_component-st_order-user_last_order .boldred
+{
+   font-weight: bold;
+   color: red;
+}
+div.st_order_order_error
+{
+	margin-left:10px; 
+	margin-right:10px; 
+	padding:10px; 
+	color:red;
+	font-size:10px;
+	font-weight:normal;
+	text-align:center
+}
+
+div.st_order_order_success
+{
+	margin-left:138px; 
+	margin-right:138px; 
+	padding:10px; 
+	border: 5px solid green; 
+	font-size:13px;
+	font-weight:bold;
+	text-align:center
+}
+li.st_order_summary_li
+{
+	height: auto;
+	margin-left:10px;
+	width:265px;
+	margin:10px 0px 0px 10px;
+	padding:0px 10px 10px 0px;
+	float:left;
+}
+span.st_order_summary_data
+{
+	float:left;
+	margin-right:10px;
+	text-align:left;
+}
+#st_order_summary_delivery, #st_order_summary_cost, #st_order_summary_delivery_number
+{
+	width:120px;
+}
+#st_order_summary_sum, #st_order_summary_payment
+{
+	width:195px;
+}
+#st_order_summary_total
+{
+
+}
+#st_order_summary_all
+{
+	padding:0 132px;
+}
+#st_user_data-tab3, st_user_data-tab5
+{
+    border: 1px dotted #ccc;
+}
+#st_user_data_delivery
+{
+	border: 1px dotted #ccc;
+}
+span.st_order_summary_margin
+{
+	margin-left:60px
+}
+#sf_order_quastion_content
+{
+	border: 1px solid #cccccc; 
+	padding:5px;
+}
+#sf_order_quastion_content_admin
+{
+	border: 1px solid #cccccc; 
+	padding:5px;
+	background-color:#E9E9E9
+}
+#sf_order_quastion_title
+{
+	float:left;
+	padding:3px
+}
+#sf_order_quastion_date
+{
+	float:left;
+	padding:3px
+}
+#st_order_add_complaint
+{
+	text-align:right
+}
+#st_order_min_amoutn_error
+{
+	margin-left:145px;
+	color:red; 
+	padding:10px 10px 0px 0px; 
+	font-size:15px 
+}
+#st_component-st_order-user_order_detail, st_component-st_order-complaint
+{
+    padding: 0px 131px
+}
+#st_component-st_order-user_order_detail h1, st_component-st_order-complaint h1
+{
+    height:50px;
+}
+#st_order-pre_order_save-bottom_buttons
+{
+    width: 690px; 
+    margin-bottom: 40px; 
+    margin-left: 20px;
+}
+.st_order-strong
+{
+    font-size:1.4em;
+}
+#st_order-pre_order_save-main_box
+{
+    width: 720px; 
+    margin-top: 40px;
+}
+#st_order_edit_question
+{
+    display:none;
+}
+#st_order_ask_question
+{
+     display:none
+}
+#st_order-user_order_detail-order-notes
+{
+    border-bottom:10px solid #FFFFFF;
+    border-top:1px solid #CCCCCC;
+    padding:0px 10px 10px;
+}
+#st_order-user_order_detail-order-notes h2
+{
+    background-color:#FFFFFF;
+    color:#AAAAAA;
+    float:left;
+    font-size:1.4em;
+    margin-bottom:0.7em;
+    margin-top:-0.7em;
+    padding:0pt 5px;
+}
+
+#st_button-user-edit_data_basket .st_button-left-disabled, #st_button-user-edit_data_basket_login .st_button-left-disabled
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_left_disable.png) no-repeat scroll left top;
+}
+
+#st_button-user-edit_data_basket .st_button-disabled, #st_button-user-edit_data_basket_login .st_button-disabled
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_middle_disable.png) repeat-x scroll left top;
+    color:black;
+    text-decoration:none;    
+}
+
+#st_button-user-edit_data_basket .st_button-disabled input, #st_button-user-edit_data_basket_login .st_button-disabled input
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_right_disable.png) no-repeat scroll right top;
+    border:medium none;
+    cursor:pointer;
+    display:block;
+    font-family:Helvetica,Verdana,Arial,sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    color:#414141;
+    height:40px;
+    margin:0;
+    padding:1px 45px 0px 15px;
+    width:100%;
+}
+
+#st_button_show_order
+{
+    float:left;
+    margin-top:20px;
+}
+
+#st_button_show_order a
+{
+    font-weight: normal;
+    padding-right: 20px;
+    background-image: url('/images/frontend/theme/default/button/arrow_right.gif');
+}
+
+#order_made
+{
+    text-align: center
+}
+
+#st_application-order_summary-header p
+{
+    margin-left: 420px;
+    padding: 10px;
+    margin: 0;
+}
+
+#st_application-order_summary-header h1.st_title
+{
+    float: left;
+    width: 400px;
+}
+
+#st_application-order_summary .st_content
+{
+    padding: 10px 0;
+    margin: 10px 110px 10px 110px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    background-image: url('/images/frontend/theme/default/bg_line_login.gif'); 
+    background-repeat: repeat-x;
+}
+
+#st_application-order_summary fieldset
+{
+    border: none;
+    margin: 0;
+}
+
+
+#st_application-order_summary .st_row
+{
+    overflow: hidden;
+}
+
+#st_application-order_summary .st_row .st_name
+{
+    width: 250px;
+    margin-left: 180px;
+    float: left;
+}
+
+#st_application-order_summary .st_row .st_field
+{
+    text-align: justify;
+    font-weight: bold;
+    float: left;
+}
+
+#st_application-order_summary .order_summary_text
+{
+    margin-left: 180px;
+}
+
+#st_button-user-edit_data_basket .st_button-left-disabled, #st_button-user-edit_data_basket_login .st_button-left-disabled 
+{ 
+    background:transparent url(/images/frontend/theme/default/button_confirm_left_disable.png) no-repeat scroll left top; 
+} 
+ 
+#st_button-user-edit_data_basket .st_button-disabled, #st_button-user-edit_data_basket_login .st_button-disabled 
+{ 
+    background:transparent url(/images/frontend/theme/default/button_confirm_middle_disable.png) repeat-x scroll left top; 
+    color:black; 
+    text-decoration:none;     
+} 
+
+#st_button-user-edit_data_basket .st_button-disabled input, #st_button-user-edit_data_basket_login .st_button-disabled input 
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_right_disable.png) no-repeat scroll right top; 
+    border:medium none; 
+    cursor:pointer; 
+    display:block; 
+    font-family:Helvetica,Verdana,Arial,sans-serif; 
+    font-size:11px; 
+    font-weight:bold; 
+    color:#414141; 
+    height:40px; 
+    margin:0; 
+    padding:1px 45px 0px 15px; 
+    width:100%; 
+}
+
+#st_application-order_summary .st_content 
+{
+    border-bottom:none;
+    border-top:none;
+    margin:20px 130px;
+}
+
+#st_application-order_summary-header h1.st_title {
+
+    width:270px;
+}

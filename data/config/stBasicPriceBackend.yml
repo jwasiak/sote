@@ -1,0 +1,7 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2009/04/07 16:24:12
+      fields: 
+        basic_price_on: "1"

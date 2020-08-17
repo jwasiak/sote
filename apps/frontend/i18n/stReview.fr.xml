@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ocena i recenzja zakupionych produktów</source>
+				<target>Évaluation et opinion sur les produits achetés</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji dla produktu</source>
+				<target>J’autorise la publication de mon opinion sur le produit</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Recenzje produktów niepublikowane</source>
+				<target>Opinions sur les produits non-publiées</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapisz</source>
+				<target>Sauvegarder</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Moje konto</source>
+				<target>Mon compte</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Lista recenzji zamówień</source>
+				<target>Liste des opinions sur les commandes</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Pokaż recenzje</source>
+				<target>Afficher les opinions</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Recenzje zamówień</source>
+				<target>Opinions sur les commandes</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Recenzje produktów</source>
+				<target>Opinions sur les produits</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Recenzja do zamówienia</source>
+				<target>Opinion sur la commande</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data dodania</source>
+				<target>Date d’ajout</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Treść</source>
+				<target>Contenu</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ocena</source>
+				<target>Évaluation</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Publikacja</source>
+				<target>Publication</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Aktywny</source>
+				<target>Actif</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>zezwolono</source>
+				<target>autorisé</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>oczekuje na zezwolenie</source>
+				<target>en attente de permission</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>tak</source>
+				<target>oui</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>oczekuje na autoryzację</source>
+				<target>en attente d’autorisation</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktualnie nie posiadasz zrecenzowanych zamówień</source>
+				<target>Pour le moment, vous n’avez aucunes opinions sur les commandes</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zrecenzowane</source>
+				<target>Opinion ajoutée</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj recenzję</source>
+				<target>Ajouter votre opinion</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Recenzja dla zamówienia nr</source>
+				<target>Opinion sur la commande no</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Lista recenzji produktów</source>
+				<target>Liste d’opinions sur les produits</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Recenzowany produkt</source>
+				<target>Produit commenté</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Aktualnie nie posiadasz zrecenzowanych produktów</source>
+				<target>Pour le moment, vous n’avez aucunes opinions sur les produits</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Administrator</source>
+				<target>Administrateur</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Produkty ocenione i zrecenzowane z tego zamówienia</source>
+				<target>Produits évalués et commentés inclus dans cette commande</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Dodano</source>
+				<target>Ajouté</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ocena i recenzja transakcji</source>
+				<target>Évaluation et opinion sur la transaction</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Pozytywna</source>
+				<target>Positive</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Neutralna</source>
+				<target>Neutre</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Negatywna</source>
+				<target>Négative</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Wyrażam zgodę na opublikowanie mojej recenzji transakcji</source>
+				<target>J’autorise la publication de mon opinion sur la transaction</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Recenzje</source>
+				<target>Opinions</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Autor</source>
+				<target>Auteur</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>pozytywna</source>
+				<target>positive</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>neutralna</source>
+				<target>neutre</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>negatywna</source>
+				<target>négative</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Produkt nie posiada recenzji</source>
+				<target>Aucunes opinions sur ce produit</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak oceny produktu</source>
+				<target>Évaluation du produit non-renseignée</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak recenzji produktu</source>
+				<target>Opinion sur le produit non-renseignée</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>recenzji</source>
+				<target>opinions</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Recenzje użytkowników</source>
+				<target>Opinions des utilisateurs</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Recenzja oczekuje na publikacje</source>
+				<target>Opinion en attente de publication</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Recenzja produktu</source>
+				<target>Opinion sur le produit</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoja ocena</source>
+				<target>Votre évaluation</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Recenzja</source>
+				<target>Opinion</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Podpis</source>
+				<target>Signature</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Cyfry z obrazka</source>
+				<target>Les chiffres de l’image</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Wyślij</source>
+				<target>Envoyer</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Wprowadzono zły numer.</source>
+				<target>Le numéro saisi est incorrect.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

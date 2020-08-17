@@ -1,0 +1,12 @@
+<ul id="st_product-image_gallery">
+    {foreach key=row item=photo from=$photos} 
+    <li>
+        <div class="st_frame_gallery_photo">
+            <div class="st_gallery_photo">
+                <span></span>{$photo.photo}
+            </div>
+        </div>
+    </li>
+    {/foreach}
+</ul>
+<br class="st_clear_all" />

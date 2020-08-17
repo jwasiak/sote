@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>Dostępność</source>
+				<target>Наличие</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Powiadom mnie o dostępności produktu</source>
+				<target>Сообщить мне о доступности продукта</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>W chwili obecnej nie możemy określić kiedy produkt</source>
+				<target>В настоящий момент мы не можем сказать, когда продукт</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>będzie dostępny w naszym sklepie.</source>
+				<target>будет доступен в нашем магазине.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Prosimy o podanie adresu email na który wyślemy powiadomienie.</source>
+				<target>Укажите адрес электронной почты, по которому нужно будет отправить уведомление.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wyślij prośbę o powiadomienie</source>
+				<target>Отправить запрос на уведомление</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>E-mail</source>
+				<target>Адрес электронной почты</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Treść</source>
+				<target>Содержание</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cyfry z obrazka</source>
+				<target>Цифры на изображении</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Proszę o przesłanie informacji o ponownej dostępności produktu w ofercie.</source>
+				<target>Прислать информацию о доступности продукта в ассортименте.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Podany adres jest nieprawidłowy.</source>
+				<target>Указан неверный адрес электронной почты.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wprowadzono zły numer.</source>
+				<target>Введен неправильный номер.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Вопрос о наличии продукта</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Informacje o dostępności należy przesłać na</source>
+				<target>Информацию о доступности следует прислать по адресу</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod produktu</source>
+				<target>Код продукта</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Producent</source>
+				<target>Производитель</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Kategoria</source>
+				<target>Категория</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Czas realizacji</source>
+				<target>Срок реализации</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

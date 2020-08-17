@@ -1,0 +1,26 @@
+{set layout="one_column_layout"}
+
+<div id="st_application-user-login" class="box roundies">
+
+    <div class="title">
+        <h2>{__ text="Usuń konto"}</h2>
+    </div>
+
+    <div class="st_content">
+
+        <div id="logout_form" class="box_form roundies" style="width: 407px;">
+            <p style="text-align:center;">{__ text="Pomyślnie usunięto użytkownika"}:</p>
+            <p style="text-align:center; font-size:14px;"><b>{$email}</b></p>
+            <p style="text-align:center;">{__ text="Za chwilę nastąpi przekierowanie na stronę główną."}</p>
+        </div>
+     
+    </div>
+</div>
+
+    {literal}
+        <script type="text/javascript">
+            setTimeout(function() {
+                window.location = "/";
+            }, 5000);
+        </script>
+    {/literal}

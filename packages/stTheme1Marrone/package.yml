@@ -1,0 +1,13 @@
+package:
+  name: stTheme1Marrone
+  stability: stable
+  version: 7.0.0.20
+  summary: 'Edycja grafiki'
+  description: 'Temat graficzny Marrone'
+  notes: |
+    - Poprawki graficzne
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

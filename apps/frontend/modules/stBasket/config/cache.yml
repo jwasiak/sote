@@ -1,0 +1,4 @@
+_show:
+   enabled: off
+   view:
+      stylesheets:   [stBasket.css]   

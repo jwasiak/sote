@@ -1,0 +1,15 @@
+package:
+  name: stAssetsLibraryPlugin
+  stability: stable
+  version: 7.2.1.31
+  summary: 'Aplikacja zarzadzajaca plikami multimedialnymi w sklepie'
+  description: 'Aplikacja zarzadzajaca plikami multimedialnymi w sklepie'
+  notes: |
+    - Poprawka orientacji zdjec
+  maintainers:
+    'Marcin Bultak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stRepairKit: 1.0.1.5

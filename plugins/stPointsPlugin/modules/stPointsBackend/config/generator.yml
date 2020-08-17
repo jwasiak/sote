@@ -1,0 +1,124 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                    UserPoints
+        theme:                          simple
+        applications:                   [stUser, stOrder, stPayment]
+        custom_actions:
+            custom:     [config]
+            
+        head:
+            package:                    stPointsPlugin
+        list:
+            use_helper:                 [stPoints]
+            title:                      Lista operacji
+            display:                    [created_at, client, change_points_varchar, points, change, description]
+            fields:
+                created_at:             {name: Data}
+                client:                 {name: Klient, callback: st_points_client_name}
+                change_points_varchar:  {name: Operacja}
+                points:                 {name: Stan konta}
+                change:                 {name: Zmienił, callback: st_points_change}
+                description:            {name: Opis}
+            actions:                    []
+            object_actions:             []
+            select_actions:             []
+            menu:
+                display:                [list, config]
+                fields:
+                    list:               {name: Lista, action: stPointsBackend/list}
+                    config:             {name: Konfiguracja, action: stPointsBackend/config}   
+                    
+        config:
+            title:                    Konfiguracja
+            display:                  
+                "NONE":                     [points_system_is_active, points_shortcut, points_show_in_login_status]
+                "Korzystanie z punktów":    [points_system_only_authenticated, points_release_on, points_release_value]
+                "Naliczanie punktów":       [order_status_on, ~order_status_type]
+                "Karta produktu":           [product_card_show_points, product_card_display_type]
+                "Lista pełna":              [product_full_list_show_points, product_full_list_display_type]
+                "Lista skrócona":           [product_short_list_show_points, product_short_list_display_type]
+                "Lista alternatywna":       [product_alternative_list_show_points, product_alternative_list_display_type]
+                "Grupy produktów - strona główna": [product_group_show_points, product_group_display_type]
+                
+            menu:                     {use: list.menu}
+            fields:
+                points_system_is_active:                 {name: Włącz system punktowy, type: checkbox, support: true}
+                points_system_only_authenticated:        {name: Tylko dla zalogowanych, help: "System punktowy będzie dostępny tylko dla zalogowanych użytkowników", type: checkbox, support: true}
+                points_release_on:                       {name: Punkty od progu, type: checkbox, help: "Możliwość zakupów za punkty będzię dostępna po zgromadzeniu odpowiedniej ilości punktów", support: true}
+                points_release_value:                    {name: Próg punktów, params: size=5, help: "Określ ilość punktów po zgromadzeniu, których będzie możliwe ich wykorzystanie", support: true}
+                points_show_in_login_status:             {name: Pokaż ilość punktów obok loginu, type: checkbox, support: true}
+                points_shortcut:                         {name: Skrót jednostki, params: size=5, is_i18n: true, support: true}
+                order_status_on:                         {name: Włącz naliczanie dla statusu, type: checkbox, support: true}
+                order_status_type:                       {name: Przydziel dla statusu, support: true}                
+                product_card_show_points:                {name: Pokaż punkty, type: checkbox, support: true}
+                product_card_display_type:
+                    support:                true
+                    name:                   Pokaż wartości punktów
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę, value: only_value}
+                        option2:            {name: Wyświetlaj tylko otrzymane, value: only_earn}
+                        option3:            {name: Wyświetlaj cenę i otrzymane - wyróżnij cenę, value: value_earn}
+                        option4:            {name: Wyświetlaj otrzymane i cenę - wyróżnij otrzymane, value: earn_value}
+                        selected:           option1
+                
+                product_full_list_show_points:           {name: Pokaż punkty, type: checkbox, support: true}
+                product_full_list_display_type:
+                    support:                true
+                    name:                   Pokaż wartości punktów
+                    type:                   select
+                    display:                [option1, option2, option3, option4, option5, option6]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę, value: only_value}
+                        option2:            {name: Wyświetlaj tylko otrzymane, value: only_earn}
+                        option3:            {name: Wyświetlaj cenę i otrzymane - wyróżnij cenę, value: value_earn}
+                        option4:            {name: Wyświetlaj otrzymane i cenę - wyróżnij otrzymane, value: earn_value}
+                        option5:            {name: Wyświetlaj cenę i otrzymane razem, value: value_earn_alternative}
+                        option6:            {name: Wyświetlaj otrzymane i cenę razem, value: earn_value_alternative}
+                        selected:           option1
+                
+                product_short_list_show_points: {name: Pokaż punkty, type: checkbox, support: true}
+                product_short_list_display_type:
+                    support:                true
+                    name:                   Pokaż wartości punktów
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę, value: only_value}
+                        option2:            {name: Wyświetlaj tylko otrzymane, value: only_earn}
+                        option3:            {name: Wyświetlaj cenę i otrzymane razem, value: value_earn_alternative}
+                        option4:            {name: Wyświetlaj otrzymane i cenę razem, value: earn_value_alternative}
+                        selected:           option1
+                
+                product_alternative_list_show_points: {name: Pokaż punkty, type: checkbox, support: true}
+                product_alternative_list_display_type:
+                    support:                true
+                    name:                   Pokaż wartości punktów
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę, value: only_value}
+                        option2:            {name: Wyświetlaj tylko otrzymane, value: only_earn}
+                        option3:            {name: Wyświetlaj cenę i otrzymane razem, value: value_earn_alternative}
+                        option4:            {name: Wyświetlaj otrzymane i cenę razem, value: earn_value_alternative}
+                        selected:           option1
+                
+                product_group_show_points:           {name: Pokaż punkty, type: checkbox, support: true}
+                product_group_display_type:
+                    support:                true
+                    name:                   Pokaż wartości punktów
+                    type:                   select
+                    display:                [option1, option2, option3, option4, option5, option6]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę, value: only_value}
+                        option2:            {name: Wyświetlaj tylko otrzymane, value: only_earn}
+                        option3:            {name: Wyświetlaj cenę i otrzymane - wyróżnij cenę, value: value_earn}
+                        option4:            {name: Wyświetlaj otrzymane i cenę - wyróżnij otrzymane, value: earn_value}
+                        option5:            {name: Wyświetlaj cenę i otrzymane razem, value: value_earn_alternative}
+                        option6:            {name: Wyświetlaj otrzymane i cenę razem, value: earn_value_alternative}
+                        selected:           option1        
+                
+            actions:
+                _save:                  {name: Zapisz}

@@ -1,0 +1,70 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:           ProductGroup
+        product_model_class:   Product
+        theme:                 simple
+        custom_actions:
+            list:              [product]
+        label:          Gratisy w koszyku
+        icon:           /images/backend/main/icons/red/stGiftGroup.png
+        route:          @stGiftGroup     
+        applications:   [stProduct]
+        list:
+            use_helper:         [stGiftGroup/stGiftGroup]
+            peer_method:        doSelect
+            peer_count_method:  doCount
+            title:          Lista
+            display:        [=from_basket_value]
+            actions:
+                _create:    {name: Dodaj}
+            object_actions:
+                _edit:      -
+                _delete:    -
+            fields:       
+                from_basket_value:          {name: Od wartości koszyka, label_callback: list_gift_group_price_label}
+            sort: [from_basket_value, DESC]
+        edit:
+            use_helper:         [stGiftGroup/stGiftGroup]
+            menu:
+                display:    [product]
+                fields:
+                    _edit:      {name: Edycja podstawowa}
+                    product:    {name: Przypisz produkty, action: stGiftGroup/productList?product_group_id=%%id%%}
+            title:          Edycja
+            display:        [from_basket_value]
+            fields:
+                from_basket_value:          {name: Od wartości koszyka, type: gift_group_price, help: Wartość koszyka nie uwzględnia rabatu na zamówienie}
+            actions:
+                _list:                      {name: Lista}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj}
+                _delete:                    {name: Usuń}
+        product_list:
+            use_stylesheet:                 [backend/stProductList.css]
+            use_helper:                     [stProduct/stProduct]
+            forward_parameters:             [product_group_id]
+            filters:
+                list_image:                 {partial: filter_list_image, module: stProduct}
+                name:                       {filter_field: product_i18n.name}
+            fields:
+                code:                       {name: Kod, i18n: stProduct}
+                name:                       {name: Nazwa, params: size=40, sort_field: product_i18n.name, width: 35%, callback: list_product_name}
+                list_image:                 {name: Zdjęcie, width: 1%, callback: list_product_image, i18n: stProduct}
+                opt_price_brutto:           {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label, i18n: stProduct}
+                active:                     {name: Aktywny, i18n: stProduct}
+            build_options:       
+                related_id:                 forward_parameters.product_group_id               
+                through_class:              ProductGroupHasProduct  
+            peer_method:                    doSelectWithI18n
+            peer_count_method:              doCountWithI18n             
+            display:                        [list_image, name, code, opt_price_brutto, active]
+            select_actions:
+                display:                    [product_add_group, product_remove_group]
+                actions:
+                    product_add_group:      {name: Dodaj do grupy, action: productAddGroup, i18n: stAdminGeneratorPlugin}
+                    product_remove_group:   {name: Usuń z grupy, action: productRemoveGroup, i18n: stAdminGeneratorPlugin}
+            menu:                           {use: edit.menu}
+            title:                          Przypisz produkty
+            object_actions:                 []
+            actions:                        []

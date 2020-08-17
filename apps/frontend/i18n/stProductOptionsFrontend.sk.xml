@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2011-11-10T03:22:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Produkt wycofany z oferty</source>
+				<target>Produkt nieje už v ponuke</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Atrybuty:</source>
+				<target>Vlastnosti:</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Cena:</source>
+				<target>Cena:</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wybierz opcje produktu</source>
+				<target>Vyberte možnosti produktu</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz opcje produktu na karcie produktu.</source>
+				<target>Vyberte možnosti produktu na karte produktu</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Brak w magazynie</source>
+				<target>Nedostupné na sklade</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Twoja przeglądarka nie obsługuje Javascript.</source>
+				<target>Váš internetový prehliadač nepodporuje Javascript</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Filtr koloru</source>
+				<target>Filter farieb</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cena</source>
+				<target>Cena</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zwykły filtr</source>
+				<target>Obecný filter</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyczyść filtry</source>
+				<target>Obnoviť filtri</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>wyczyść</source>
+				<target>vyčistiť</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>wybierz opcje produktu</source>
+				<target>vyberte možnosti produktu</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

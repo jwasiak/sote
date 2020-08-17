@@ -1,0 +1,67 @@
+applications:   [appOnlineCodesPlugin]
+edit:
+    menu:
+        display:            [online_codes]
+        fields:
+            online_codes:   {name: Pliki i kody online, i18n: appOnlineCodesBackend,  action: stProduct/onlineCodesCustom?product_id=%%id%%}
+
+online_codes_model_class:               OnlineCodes
+online_files_model_class:               OnlineFiles
+online_audio_model_class:               OnlineFiles
+online_images_model_class:              OnlineFiles
+online_docs_model_class:                OnlineFiles
+
+custom_actions:
+    custom:                             [online_codes]
+    edit:                               [online_codes, online_audio, online_images, online_docs]
+
+online_codes_edit:
+    forward_parameters:                 [product_id]
+    build_options:
+        related_id:                     forward_parameters.product_id
+    display:
+        "Dodaj":                        [name, code, usage_limit, used]
+    fields:
+        name:                           {name: Nazwa}
+        code:                           {name: Kod}
+        usage_limit:                    {name: Limit użyć, i18n: appOnlineCodesBackend, help: Wartość 0 oznacza brak limitu.}
+        used:                           {name: Użyty, i18n: appOnlineCodesBackend}    
+    actions:
+        _save:                          {name: Zapisz}
+        _save_and_add:                  {name: Zapisz i dodaj nowy}
+
+online_audio_edit:
+    forward_parameters:                 [product_id]
+    build_options:
+        related_id:                     forward_parameters.product_id  
+    display:                            
+        "Dodaj":                        [name, _filename]
+    fields:
+        name:                           {name: Nazwa}
+        filename:                       {name: Załącz plik, i18n: appOnlineCodesBackend, help: "*.mp3, *.wav, *.ogg", module: appOnlineCodesBackend}
+    actions:
+        _save_and_add:                  {name: Dodaj}
+
+online_images_edit:
+    forward_parameters:                 [product_id]
+    build_options:
+        related_id:                     forward_parameters.product_id 
+    display:                            
+        "Dodaj":                        [name, _filename]
+    fields:
+        name:                           {name: Nazwa}
+        filename:                       {name: Załącz plik, i18n: appOnlineCodesBackend, help: "*.mp3, *.wav, *.ogg", module: appOnlineCodesBackend}
+    actions:
+        _save_and_add:                  {name: Dodaj}
+
+online_docs_edit:
+    forward_parameters:                 [product_id]
+    build_options:
+        related_id:                     forward_parameters.product_id
+    display:                            
+        "Dodaj":                        [name, _filename]
+    fields:
+        name:                           {name: Nazwa}
+        filename:                       {name: Załącz plik, i18n: appOnlineCodesBackend, help: "*.mp3, *.wav, *.ogg", module: appOnlineCodesBackend}
+    actions:
+         _save_and_add:                  {name: Dodaj}

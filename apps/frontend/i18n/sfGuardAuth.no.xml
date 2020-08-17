@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Nie masz wystarczających uprawnień aby oglądać tą stronę</source>
+				<target>Du er ikke autorisert til å se denne siden</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Edytor grafiki</source>
+				<target>Grafikk editor</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zaloguj się podając dane dostępowe do panelu administracyjnego.</source>
+				<target>Logg inn på administrasjonspanelet.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Użytkownik</source>
+				<target>Bruker</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Passord</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Logg inn</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Proszę podać nazwę użytkownika</source>
+				<target>Skriv inn brukernavn</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Proszę podać hasło</source>
+				<target>Skriv inn passord</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę podać poprawną nazwę użytkownika i hasło</source>
+				<target>Skriv inn gyldig brukernavn og passord</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

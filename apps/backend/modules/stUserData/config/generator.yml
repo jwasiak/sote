@@ -1,0 +1,10 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                UserData
+        theme:                      simple
+        
+        head:
+            package:                stUser
+            
+        description:                Profile klientów

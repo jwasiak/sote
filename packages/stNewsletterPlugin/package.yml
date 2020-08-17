@@ -1,0 +1,17 @@
+package:
+  name: stNewsletterPlugin
+  stability: stable
+  version: 7.5.0.11
+  summary: Newsletter
+  description: 'Teksty na strone rejestracji'
+  notes: |
+     - Usunięcie adresu sklepu z tematu wiadomosci email
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stFrontend: 1.0.6
+    stBackend: 1.0.3
+    stMailPlugin: 1.0.1

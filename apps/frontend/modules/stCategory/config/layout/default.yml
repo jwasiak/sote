@@ -1,0 +1,7 @@
+all:
+    .layout: 
+        name:     layout1
+        container_left: 
+            display:  [category.tree, stProducer.listProducer]
+        container_right: 
+            display:  [basket.miniBasket, webpage.showWebpage]

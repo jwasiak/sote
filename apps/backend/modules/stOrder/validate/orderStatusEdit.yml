@@ -1,0 +1,8 @@
+fields:
+  order_status{name}:
+    required:
+      msg:          Brak nazwy statusu
+    sfPropelUniqueValidator:
+      class:        OrderStatus
+      column:       opt_name
+      unique_error: Status o podanej nazwie już istnieje

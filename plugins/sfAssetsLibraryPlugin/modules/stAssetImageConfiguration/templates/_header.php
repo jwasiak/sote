@@ -1,0 +1,1 @@
+<?php echo st_get_admin_head(array('@stAssetImageConfigurationDefault', __('Konfiguracja zdjęć'), '/images/backend/main/icons/red/stAssetImageConfiguration.png'), $title, null, array('stCategory', 'stProduct', 'stProducer')) ?>

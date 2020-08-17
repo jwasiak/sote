@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wybierz Paczkomat</source>
+				<target>Vybrať balíkomat</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Podaj kod pocztowy</source>
+				<target>Zadaj poštové smerovacie číslo</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Podany kod pocztowy jest nieprawidłowy.</source>
+				<target>Uvedené poštové smerovacie číslo je nesprávne</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukaj</source>
+				<target>Hľadaj</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz miasto</source>
+				<target>Vyber mesto</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>wszystkie lokalizacje</source>
+				<target>Všetky miesta</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmień Paczkomat</source>
+				<target>Zmeň balíkomat</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa Paczkomaty</source>
+				<target>Dodávka Balíkomaty</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę wybrać Paczkomat.</source>
+				<target>Vyberte, prosím, balíkomat.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Paczkomat</source>
+				<target>Balíkomat</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wybierz z listy</source>
+				<target>Vyber zo zoznamu</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wybierz</source>
+				<target>Vyber</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

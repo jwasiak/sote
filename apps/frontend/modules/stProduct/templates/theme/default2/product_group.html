@@ -1,0 +1,52 @@
+<div id="product_group_{$product_group}" class="block box roundies box_group">
+    <h3 class="head">
+        {$group_name_title}
+    </h3>
+    <div class="content">
+        {foreach key=row item=product from=$results} 
+            {if $row == 0} 
+                <div class="full">
+                    {$product.photo}
+                    <div class="st_product_options-color-on-list">{$product.colors}</div>
+                    <div class="product_link">{$product.name}</div>
+                    {if ($product.check_price)!=1 && $product.points_only!=1}
+                        {if $price_view=='net_gross'}
+                            <div class="price">{__ text="netto"}: <span>{$product.price_net}</span></div>
+                            <div class="minor_price price">({__ text="brutto"}: <span>{$product.price}</span>)</div>
+                        {elseif $price_view=='only_gross'}
+                            <div class="price"><span>{$product.price}</span></div>
+                        {elseif $price_view=='only_net'}
+                            <div class="price">{__ text="netto"}: <span>{$product.price_net}</span></div>
+                        {elseif $price_view=='gross_net'}
+                            <div class="price">{__ text="brutto"}: <span>{$product.price}</span></div>
+                            <div class="minor_price price">({__ text="netto"}: <span>{$product.price_net}</span>)</div>
+                        {/if}
+                    {/if}
+                    
+                    {if $points_system_is_active==1 && $show_points==1}
+                
+                            {if $display_type=='earn_value' && $product.points_only!=1}
+                                <div class="major_price price">{if $product.points_earn > 0}{__ text="Otrzymasz"}: <span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}</div>
+                                <div class="minor_price price">{if $product.points_value > 0}(<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>){/if}</div>
+                            {elseif $display_type=='only_value' || $product.points_only==1}
+                                <div class="price">{if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}</div>
+                            {elseif $display_type=='only_earn' && $product.points_only!=1}
+                                <div class="price">{if $product.points_earn > 0}{__ text="Otrzymasz"}: <span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}</div>
+                            {elseif $display_type=='value_earn' && $product.points_only!=1}
+                                <div class="major_price price">{if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}</div>
+                                <div class="minor_price price">{if $product.points_earn > 0}({__ text="Otrzymasz"}: <span style="color:green;">{$product.points_earn} {$points_shortcut}</span>){/if}</div>
+                            {elseif $display_type=='value_earn_alternative' && $product.points_only!=1}
+                                <div class="major_price price">{if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}{if $product.points_value > 0 && $product.points_earn > 0} / {/if}{if $product.points_earn > 0}<span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}</div>    
+                            {elseif $display_type=='earn_value_alternative' && $product.points_only!=1}
+                                <div class="major_price price">{if $product.points_earn > 0}<span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}{if $product.points_value > 0 && $product.points_earn > 0} / {/if}{if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}</div>    
+                            {/if}
+                            
+                     {/if}
+                    
+                </div>
+            {else}
+                {$product.name}
+            {/if}
+        {/foreach}
+    </div>
+</div>

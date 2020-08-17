@@ -1,0 +1,16 @@
+{set layout="one_column"}
+<div class="user-control">
+	{st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="2"}
+	<div id="order-list">
+	    {if isset($pager)}
+	        {$pager_results}
+	        {$pager}
+	    {else}
+	    <div class="panel panel-default center-block info-panel">    
+	        <div class="panel-body text-center">    
+	            <p>{__ text="Aktualnie nie posiadasz żadnych zamówień"}</p>                
+	        </div>
+	    </div>      
+	    {/if}
+	</div>
+</div>

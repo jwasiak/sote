@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stTaskPlugin.lib.model" noXsd="true">
+
+  <table name="st_task" phpName="Task">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="is_active" type="BOOLEAN" default="1" />
+    <column name="task_id" type="VARCHAR" size="64" />
+    <column name="task_priority" type="INTEGER" default="0" />
+    <column name="status" type="INTEGER" default="0" />
+    <column name="time_interval" type="INTEGER" />
+    <column name="execute_at" type="TIME" required="false" />
+    <column name="last_executed_at" type="TIMESTAMP" required="false" />
+    <column name="last_finished_at" type="TIMESTAMP" required="false" />
+    <column name="last_active_at" type="TIMESTAMP" required="false" />
+  </table>
+
+  <table name="st_task_log" phpName="TaskLog">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="task_id" type="integer" required="true" />
+    <foreign-key foreignTable="st_task" onDelete="cascade">
+      <reference local="task_id" foreign="id" />
+    </foreign-key>
+    <column name="type" type="INTEGER" />
+    <column name="message" type="LONGVARCHAR" />
+  </table>
+
+</database>

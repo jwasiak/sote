@@ -1,0 +1,128 @@
+<div id="st_application-user-user" class="st_application">
+    <h1 class="st_title">
+        <div id="st_user-tag">
+            {$user_panel_icon}
+        </div>
+        {$my_account}
+    </h1>
+    {$user_panel_menu}
+    <div id="st_application-user-user_tab1">        
+        <div class="st_content">           
+            <h5 class="st_title">
+                {__ text="Dane billingowe"}
+            </h5>     
+            {if isset($has_billing_address)}
+                {if isset($has_billing_company)}
+                    <br class="lowspace" />
+                    <span class="lowspace">{$billing_company}<br /></span>
+                {else}
+                    <br class="lowspace" />
+                    <br class="lowspace" />
+                {/if}
+                <span class="lowspace">{$billing_full_name}<br /></span>
+                <span class="lowspace">{$billing_address}<br /></span>
+                {if ($billing_address_more!="")}
+                <span class="lowspace">{$billing_address_more}<br /></span>
+                {/if}
+                {if ($billing_region!="")}
+                <span class="lowspace">{$billing_region}<br /></span>
+                {/if}
+                <span class="lowspace">{$billing_code} {$billing_town}<br /></span>
+                <span class="lowspace">{$billing_country}<br /></span>
+                {if ($billing_pesel!="")}
+                <span class="lowspace">{__ text="PESEL"}&nbsp;{$billing_pesel}<br /></span>
+                {/if}
+                {if isset($has_billing_company)}
+                    <span class="lowspace">{__ text="NIP"}&nbsp;{$billing_vat_number}<br /></span>
+                    <br class="lowspace" />
+                {else}
+                    <br class="lowspace" />
+                    <br class="lowspace" />
+                {/if}      
+                {if isset($has_billing_phone)}
+                    <span>{$phone_icon}&nbsp;&nbsp;{$billing_phone}<br /></span>
+                {else}
+                    <br />
+                {/if}
+                <br class="lowspace" />
+                <div class="st_button st_align-left" id="st_button_create_billing">
+                    <div class="st_button-left">
+                        {$new_billing_address}
+                    </div>
+                </div>
+                <div class="st_button st_align-right" id="st_button_edit_billing" style="margin-left:2px;">
+                    <div class="st_button-left">
+                        {$edit_billing_profile}
+                    </div>
+                </div>
+                <br class="st_clear_all" />       
+            {else}
+                {__ text="Brak danych bilingowych, uniemożliwi dokonywanie zakupów. Proszę uzupełnij dane bilingowe."}
+                <br />
+                {$complete_your_data}
+            {/if}
+        </div>
+    </div>
+    <div id="st_application-user-user_tab2">
+        <div class="st_content"> 
+            <h5 class="st_title">
+                {__ text="Dane dostawy"}
+            </h5>     
+            {if isset($has_delivery_address)}
+                {if isset($has_delivery_company)}
+                    <br class="lowspace" />
+                    <span class="lowspace">{$delivery_company}<br /></span>
+                {else}
+                    <br class="lowspace" />
+                    <br class="lowspace" />
+                {/if}
+                <span class="lowspace">{$delivery_full_name}<br /></span>
+                <span class="lowspace">{$delivery_address}<br /></span>
+                {if ($delivery_address_more!="")}
+                <span class="lowspace">{$delivery_address_more}<br /></span>
+                {/if}
+                {if ($delivery_region!="")}
+                <span class="lowspace">{$delivery_region}<br /></span>
+                {/if}
+                <span class="lowspace">{$delivery_code} {$delivery_town}<br /></span>
+                <span class="lowspace">{$delivery_country}<br /></span>
+                <br class="lowspace" />
+                <br class="lowspace" />
+                {if isset($has_delivery_phone)}
+                    <span>{$phone_icon}&nbsp;&nbsp;{$delivery_phone}<br /></span>
+                {else}
+                    <br />
+                {/if}
+                <br class="lowspace" />
+                <div class="st_button st_align-left" id="st_button_create_delivery">
+                    <div class="st_button-left">
+                        {$new_delivery_address}
+                    </div>
+                </div>
+                <div class="st_button st_align-left" id="st_button_edit_delivery" style="margin-left:2px;">
+                    <div class="st_button-left">
+                        {$edit_delivery_profile}
+                    </div>
+                </div>
+                <br class="st_clear_all" />            
+            {else}
+                {__ text="Brak danych dostawy, uzupełnij swoje dane dostawy aby móc dokonywać zakupów w sklepie."}
+                 
+                <br />
+                <br />
+                <br />
+                 <br class="lowspace" />
+                <div class="st_button st_align-left" id="st_button_create_delivery">
+                    <div class="st_button-left">
+                        {$new_delivery_address}
+                    </div>
+                </div>
+            {/if}
+        </div>
+    </div>
+    <div id="st_application-user-user_tab3">
+        {$last_orders}
+    </div>
+    <br class="st_clear_all" />
+    <br>
+</div>

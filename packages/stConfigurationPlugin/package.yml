@@ -1,0 +1,15 @@
+package:
+  name: stConfigurationPlugin
+  stability: stable
+  version: 7.0.1.4
+  summary: Konfiguracja modułów
+  description: 'Konfiguracja sklepu'
+  notes: |
+    - Aktualizacja modułów
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stBackend: 1.0.3

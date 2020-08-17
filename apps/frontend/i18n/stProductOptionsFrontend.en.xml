@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Produkt wycofany z oferty</source>
+				<target>Product discontinued</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Atrybuty:</source>
+				<target>Attributes:</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Cena:</source>
+				<target>Price:</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wybierz opcje produktu</source>
+				<target>Choose product options</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz opcje produktu na karcie produktu.</source>
+				<target>Choose product options on product tab.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Brak w magazynie</source>
+				<target>Stock shortage</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Twoja przeglądarka nie obsługuje Javascript.</source>
+				<target>Your browser does not support JavaScript.</target>
+			</trans-unit>
+            <trans-unit id="8">
+                <source>Filtr koloru</source>
+                <target>Color filter</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Zwykły filtr</source>
+                <target>Normal filter</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>wyczyść</source>
+                <target>reset</target>
+            </trans-unit>
+            <trans-unit id="12">
+				<source>wybierz opcje produktu</source>
+				<target>choose product options</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

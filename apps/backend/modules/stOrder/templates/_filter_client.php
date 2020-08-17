@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[filter_client]', isset($filters['filter_client']) ? $filters['filter_client'] : '', 'size=15') ?>

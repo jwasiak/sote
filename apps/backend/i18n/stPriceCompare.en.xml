@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Produkty zostały dodane do porównywarek.</source>
+                <target>Products were added to the price comparers.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie produktami w porównywarkach cen, konfiguracja ustawień.</source>
+                <target>Manage your products in the price comparers.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Dodawanie produktów do porównywarek cen</source>
+                <target>Add your products to the price comparers</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Nazwa<br/> porównywarki cen</source>
+                <target>Price comparer<br/> name</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Ilość dodanych produktów<br/> (wszystkich</source>
+                <target>Number of added products<br/> (all</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Dodaj wszystkie<br/> produkty</source>
+                <target>Add all<br/> products</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Porównywarki cen</source>
+                <target>Price comparers</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Należy wygenerować plik dla porównywarki cen</source>
+                <target>You should generate a file for the price comparer</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Lista porównywarek cen</source>
+                <target>List of the price comparers</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Dodawanie produktów</source>
+                <target>Add your products</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Porownywarki cen</source>
+                <target>Price comparers</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Dodaj produkt do porównywarek cen.</source>
+                <target>Add this product to the price comparers.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Konfiguracja generowania plików</source>
+                <target>Configuration of the files generation</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Nie eksportuj produktów ze stanem magazynowym równym 0</source>
+                <target>Do not export products if their stock is 0</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Nie dodawaj nazw drzew kategorii w plikach dla porównywarek cen</source>
+                <target>Do not add category tree names in the price compares files</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Nazwa porównywarki cen</source>
+                <target>Price comparer name</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Ilość dodanych produktów (wszystkich</source>
+                <target>Number of the added products (from total of</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Dodaj wszystkie produkty</source>
+                <target>Add all of the products</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

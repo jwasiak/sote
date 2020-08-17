@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body style="background-color:#fff; font-family:Helvetica,Verdana,Arial,sans-serif; line-height:18px; font-size:1em;">
+        <div style="margin: 0px auto; background-color:#fff;">
+            <div style="width:700px; margin:0px auto;">
+                <div style="background:url(http://{$host}/images/frontend/theme/default/mail/frame_mail_top.png?version=1); height:30px">
+                </div>
+                <div style="background-color:#fff; padding:0px 25px 0px 25px; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+                    <div style="font-family:Verdana,Arial,Helvetica,sans-serif; line-height:18px; font-size:10px;">
+                        {$question_head}
+                    </div>
+                </div>
+                <div style="min-height:400px; padding:0px 25px 0px 25px; text-align:justify; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+                    
+                    <div style="float:left;font-size:16px;color:black;margin-bottom: 20px;">
+                        {__ text="Witam"},<br /><br /> {__ text="proszę o informację o"} {$about} {__ text="produktu"}:
+                    </div>
+                    <br style="clear:both;"/>
+                    
+                    <div class="product_photo" style="border: none; float:left; padding: 10px; margin: 10px 0px 10px 20px;">
+                        {$product_photo}
+                    </div>
+                    <div class="product_char" style="float:right; padding: 10px; width: 400px; margin: 10px 20px 10px 0px;">
+                        <div class="product_name" style="font-weight: bold; margin-bottom: 15px; color:#576278;">
+                            {$product_name}
+                        </div>
+                        {if $product_code}
+                        <div class="product_name" style="font-size:12px;">
+                            {__ text="Kod produktu"}: <span>{$product_code}</span>
+                        </div>
+                        {/if}
+                        {if $product_producer}
+                        <div class="product_producer" style="font-size:12px;">
+                            {__ text="Producent"}: <span>{$product_producer}</span>
+                        </div>
+                        {/if}
+                        {if $product_category}
+                        <div class="product_category" style="font-size:12px;">
+                            {__ text="Kategoria"}: <span>{$product_category}</span>
+                        </div>
+                        {/if}
+                        <div class="question_link" style="margin-top: 20px;">
+                            {$question_link}
+                        </div>
+                    </div>
+                    
+                    <br style="clear:both;"/>
+                    <div style="margin:10px 0px 7px 0px; font-size:12px;">
+                    {__ text="Informacje dodatkowe"}:
+                        <div style="margin: 10px; font-size:16px;">
+                            {$text}
+                        </div>
+                    </div>
+                    <br style="clear:both">
+                    <div style="float:right; font-size:12px; color: black; text-decoration: none;">
+                        {__ text="Zapytanie wysłał"}: 
+                            <span>
+                                <a href="mailto:{$from}" style="color:#576278; text-decoration: none; font-size:13px;">{$from}</a>
+                            </span>
+                    </div>
+                </div>
+                <div style="background-color:#ECECEE; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+                    <div style="font-family:Verdana,Arial,Helvetica,sans-serif; line-height:18px; font-size:10px;">
+                        {$question_foot}
+                    </div>
+                </div>
+                <div style="background:url(http://{$host}/images/frontend/theme/default/mail/frame_mail_bottom.png?version=1); height:30px">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

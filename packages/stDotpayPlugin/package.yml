@@ -1,0 +1,16 @@
+package:
+  name: stDotpayPlugin
+  stability: stable
+  version: 7.1.0.10
+  summary: Dotpay
+  description: 'Konfiguracja platnosci Dotpay.pl'
+  notes: |
+    - Poprawienie logowania bledow
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.5.3
+    stConfigurationPlugin: 1.0.3.7

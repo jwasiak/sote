@@ -1,0 +1,74 @@
+<div id="st_application-user-login" class="st_application" >
+    <div id="st_application-user-login-header">
+        <h1 class="st_title">
+            {__ text="Logowanie"}
+        </h1>
+        <p>
+            {__ text="Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta."}
+        </p>
+        <br class="st_clear_all" />
+    </div>
+    <div class="st_content">
+        <div id="st_application-user-login-register">
+        {$new_user_icon}
+            <div class="st_button">
+                <div class="st_button-left">
+                    {$register_link}
+                </div>
+            </div>
+        </div>
+        {$form_start}
+            <fieldset>
+                <div class="st_row">
+                    {$error_email}
+                    {$label_email}
+                    <div class="st_field">
+                        {$input_email}
+                    </div>
+                </div>  
+                <div class="st_row">
+                    {$error_password}
+                    {$label_password}
+                    <div class="st_field">
+                        {$input_password}
+                    </div>
+                </div>
+                <div class="st_row">
+                    <div id="st_button-user-login_success" class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$login_submit}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="st_application-user-login-remind">
+                <div id="st_application-user-login-hidden_line">
+                </div>
+                {$remind_password_link}
+            </div>
+
+            <div class="separate">
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> {__ text="lub"} <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
+            <div id="external_google">
+
+                <div class="left label">
+                {__ text="Zaloguj używając"}:
+                {slot name="login_google_user" hidden="true"}{/slot}
+                <a href="/user/googleSingIn/back/create"><img id="google_buttton" alt="" src="/images/frontend/theme/default/google.png"></a>
+                </div>
+
+            </div>
+
+            
+        </form>
+        <br class="st_clear_all" />
+    </div>
+    <div id="st_application-user-login-foot">
+        {$privacy_link}
+    </div>
+</div>

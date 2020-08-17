@@ -1,0 +1,1 @@
+<?php echo st_admin_get_form_field('script_path', null, '*/5 * * * * php '.sfConfig::get('sf_root_dir') . '/symfony.php task-scheluder', 'input_tag', array('readonly' => true, 'clipboard' => true, 'size' => 80)) ?>

@@ -1,0 +1,77 @@
+{init_tooltip}
+{$stPartner}
+<div id="overbaner">                      
+    <div class="left">
+        <!-- top page left -->
+    </div>      
+    <div class="left">     
+        <!-- top page bottom/left -->
+    </div>
+    <div class="right">
+        <!-- top page right -->
+    </div>       
+</div>
+<div id="baner"> 
+    <div id="content_baner">
+        <div class="left">
+            <div class="logo">
+               
+                    <div class="icon_logo">
+                         <a href="{$homepage_url}"><img src="{image_path image='logo.png'}" alt=" "/></a>
+                    </div>
+                    <div class="box_logo">
+                        <h1>{$theme.logo.name}</h1>
+                        <div class="txt_logo"><a href="/">{$theme.logo.desc}</a></div>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="right column_baner_right">            
+            <div class="row">
+                <!-- banner row  -->
+                <div class="right">
+                    {$stSearch}        
+                </div>
+                <div class="right txt_input">
+                    {__ text="Szukaj" langCatalogue="stSearchFrontend"}:
+                </div>
+            </div>
+            <div class="row">
+                <!-- banner row 2 -->
+                <div class="right">
+                    {$selectLanguage}
+                </div>
+                <div class="right">
+                    {$stCurrencyPickCurrency}
+                </div>        
+            </div>            
+            <div class="row">
+                <!-- banner row 3 -->
+                <div class="right">
+                    <!-- element 1 -->
+                </div>
+                <div class="right txt space10_right">
+                    <!-- element 2 -->
+                </div>
+            </div>            
+        </div>
+    </div>	
+    
+</div>    
+<div id="underbaner">
+        <div id="home" class="left">
+            <a href="{$homepage_url}"><img src="{image_path image='icon_home.gif'}" alt=" " /></a>
+        </div>            
+        <div class="left">
+            {st_get_component module="stWebpageFrontend" component="headerWebpage"}
+        </div>
+        {slot name="container_head_bar" hidden="true"}{/slot}
+        <div style="min-width:250px;" class="right">
+            {$stBasketList}
+            <div id="login_status_container" class="right">
+                {include_st_component module="stUser" component="loginStatus"}
+            </div>
+        </div>
+</div>
+{slot name="container_head_bottom" hidden="true"}{/slot}
+{$stNavigationShowLocation}

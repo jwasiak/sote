@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Blog</source>
+                <target>Blog</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Aktualnosci sklepu</source>
+                <target>Shop's current posts</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista wpisów</source>
+                <target>Posts</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zarządzaj wpisami na stronie sklepu</source>
+                <target>Manage posts in your shop</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Tytuł</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Treść</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Aktywny:</source>
+                <target>Active:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Edytuj wpis</source>
+                <target>Edit post</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Data dodania</source>
+                <target>Created at</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Treść na stronie głównej</source>
+                <target>Description on the main page</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zdjęcie na stronie głównej</source>
+                <target>Image on the main page</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Wyświetlana data:</source>
+                <target>Displayed date:</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Ilość wpisów:</source>
+                <target>Posts number:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Data ostatniej zmiany</source>
+                <target>Last modified at</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Data utworzenia</source>
+                <target>Created at</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Podaj tytuł wpisu.</source>
+                <target>Enter post's title.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Wpisz treść na stronę główną.</source>
+                <target>Enter description for the main page.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Dodaj zdjęcie wpisu na stronę główną.</source>
+                <target>Add image for the main page.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Popraw dane w formularzu.</source>
+                <target>Correct the data in the form.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Podaj liczbę wyświetlanych wpisów na stronie głównej</source>
+                <target>Enter the number of the displayed posts on the main page</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Minimalna wartość to 1.</source>
+                <target>Minimum value is 1.</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Maksymalna wartość to 8.</source>
+                <target>Maximum value is 8.</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Podaj liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Wprowadź nazwę dla przyjaznego linku</source>
+                <target>Enter the friendly link name</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Dodaj meta tagi do wpisu</source>
+                <target>Add the meta tags to the post</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Tytuł strony</source>
+                <target>Site title</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Opis strony</source>
+                <target>Site description</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Przyjazny link</source>
+                <target>Friendly link</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Zdjęcie wpisu na stronę główną jest wymagane.</source>
+                <target>Image for the main page is required.</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Ilość wyświetlanych znaków w opisie - 100</source>
+                <target>The number of the displayed characters in a description on the main page - 100</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Zalecany rozmiar zdjęcia - 640px x 480px</source>
+                <target>Recommended image size - 640px x 480px</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Zalecany rozmiar zdjęcia - 572px x 321px</source>
+                <target>Recommended image size - 572px x 321px</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Ilość kolumn:</source>
+                <target>Column numbers:</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Pokaż tytuł:</source>
+                <target>Show title:</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Pokaż zdjęcie:</source>
+                <target>Show image:</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Pozycja zdjęcia:</source>
+                <target>Image position:</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Pokaż link "więcej":</source>
+                <target>Show link "more":</target>
+            </trans-unit>            
+            <trans-unit id="49">
+                <source>Ilość znaków w opisie:</source>
+                <target>Number of characters in the description:</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Nad wpisem</source>
+                <target>Above the entry</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Obok wpisu</source>
+                <target>Next entry</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Strona główna</source>
+                <target>Homepage</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Lista postów</source>
+                <target>Posts list</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Post</source>
+                <target>Post</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Pokaż prawą kolumnę:</source>
+                <target>Show sidebar</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Pokaż na stronie głównej:</source>
+                <target>Show post on homepage</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Wyrównanie:</source>
+                <target>Alignment</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Proste</source>
+                <target>Flat</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Ilość polecanych wpisów:</source>
+                <target>Post recomend number</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Treść postu</source>
+                <target>Post description</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Skrócona wersja postu</source>
+                <target>Post short description</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Zdjęcia postu</source>
+                <target>Post photos</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Opływający</source>
+                <target>Float</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Sąsiadujące</source>
+                <target>Neighbouring</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Kategorie</source>
+                <target>Category</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Lista kategorii bloga</source>
+                <target>Category list blog</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Nazwa kategorii</source>
+                <target>Category name</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Nazwa grupy banerów</source>
+                <target>The name of the banner group</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Kategorie:</source>
+                <target>Category</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Pokaż datę:</source>
+                <target>Show date</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Link alternatywny</source>
+                <target>Alternative link</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Nazwa grupy banerów utworzone w module banerów</source>
+                <target>The name of the banners created in the module banner</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Odnośnik zamiast wejścia bezpośrednio w post</source>
+                <target>Link instead enter directly in post</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Dodaj kategorię</source>
+                <target>Add category</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Wpisz treść.</source>
+                <target>Enter value.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Ilość wyświetlanych znaków jest zależna od konfiguracji</source>
+                <target>Number of characters depending on the configuration</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Pokaż zdjęcia:</source>
+                <target>Show gallery</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Pokaż małe obrazki:</source>
+                <target>Show thumbs images</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

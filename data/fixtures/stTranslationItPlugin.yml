@@ -1,0 +1,16 @@
+Language: 
+  Language_It:
+    culture: pl_PL
+    name: Włoska
+    shortcut: it
+    active_image: it_active.png
+    inactive_image: it_inactive.png
+    active: 0
+    language: it
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_It: 
+    id: Language_It
+    culture: en_US
+    name: Italian

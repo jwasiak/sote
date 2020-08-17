@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2011-11-04T04:25:59Z">
+		<body>
+			<trans-unit id="1">
+				<source>Porównaj produkty</source>
+				<target>Сравнить продукты</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dodaj produkt do porównania</source>
+				<target>Добавить продукт для сравнения</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Usuń produkt z porównania</source>
+				<target>Удалить продукт из сравнения</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>usuń</source>
+				<target>удалить</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa</source>
+				<target>Название</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Producent</source>
+				<target>Производитель</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Cena netto</source>
+				<target>Цена нетто</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Cena brutto</source>
+				<target>Цена брутто</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>VAT</source>
+				<target>НДС</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Brak produktów do porównania.</source>
+				<target>Нет продуктов для сравнения</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wróć do ostatnio oglądanego produktu</source>
+				<target>Вернуться к последнему выбранному продукту</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

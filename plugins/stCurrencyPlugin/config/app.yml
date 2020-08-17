@@ -1,0 +1,24 @@
+all:
+    stCurrencyPlugin:
+      currency_list:
+        EUR:  {label: Euro, prefix: €}
+        USD:  {label: Dolar amerykański, prefix: $}
+        GBP:  {label: Funt brytyjski, prefix: £}
+        DKK:  {label: Korona duńska, prefix: "kr "}
+        NOK:  {label: Korona norweska, prefix: "kr "}
+        SEK:  {label: Korona szwedzka, postfix: kr}
+        CHF:  {label: Frank szwajcarski, postfix: Fr.}
+        AUD:  {label: Dolar australyjski, prefix: $}
+        JPY:  {label: Jen japoński, postfix: yen}
+        CAD:  {label: Dolar kanadyjski, prefix: $}
+        ZAR:  {label: Rand południowoafrykański, postfix: R}
+        BGN:  {label: Lew bułgarski, postfix: лв}
+        HRK:  {label: Kuna chorwacka, postfix: kn}
+        CZK:  {label: Korona czeska, postfix: Kč}
+        RUB:  {label: Ruble rosyjskie, postfix: руб}
+        TRL:  {label: Lira turecka, prefix: ₤}
+        UAH:  {label: Hrywna ukraińska, prefix: ₴}
+        HUF:  {label: Forint wegierski, postfix: Ft}
+        PLN:  {label: Polski złoty, postfix: zł}
+        RON:  {label: Leje rumuńskie, postfix: lei}
+        CNY:  {label: Chiński yuan, prefix: ¥}

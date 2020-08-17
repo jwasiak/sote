@@ -1,0 +1,26 @@
+.st_category_tree-horizontal > li
+{
+   float: left;
+
+   padding: 5px;
+}
+
+.st_category_tree-horizontal .clr
+{
+   clear: left;
+   line-height: 0%;
+   height: 0px;
+   font-size: 0px;
+}
+
+.st_category_tree-horizontal ul
+{
+   display: none;
+
+   position: absolute;
+}
+
+.st_category_tree-horizontal > li:hover ul
+{
+   display: block;
+}

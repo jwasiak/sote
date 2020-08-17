@@ -1,0 +1,219 @@
+#record_list_form .st_record_list .column_client {
+   max-width: 250px;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+
+#record_list_form .st_record_list .column_total_amount {
+   text-align: right;
+}
+
+#record_list_form .st_record_list .column_review_list_status, #record_list_form .st_record_list #sf_admin_list_th_review_list_status {
+   text-align: center;
+}
+
+
+
+#sf_admin_container .st_order-product-options
+{
+    list-style: disc;
+    list-style-position: inside;
+}
+
+#sf_admin_container .st_record_list .st_record_list-item-name
+{
+    text-align: left;
+}
+
+#sf_admin_container .st_order-user-data
+{
+   float: left;
+
+   margin: 0px 10px;
+}
+
+#sf_admin_container .st_order-user-data p
+{
+   padding-bottom: 3px;
+}
+
+#sf_admin_container .st_order-user-data h3
+{
+   padding-bottom: 10px;
+}
+
+#sf_admin_container .st_order-user-data address
+{
+   width: 300px;
+}
+
+#sf_admin_container .st_order-user-data .company-field
+{
+   width: 232px;
+}
+
+#sf_admin_container .st_order-user-data .name-surname-field
+{
+   width: 232px;
+}
+
+#sf_admin_container .st_order-user-data .street-field
+{
+   width: 232px;
+}
+
+#sf_admin_container .st_order-user-data .house-flat-field
+{
+   width: 25px;
+}
+
+#sf_admin_container .st_order-user-data .code-town-field
+{
+   width: 110px;
+}
+
+#sf_admin_container .st_order-user-data .country-field
+{
+   width: 232px;
+}
+
+#sf_admin_container .st_order-user-data .vat_number-field, #sf_admin_container .st_order-user-data .phone-field
+{
+   width: 232px;
+}
+
+#sf_admin_container .st_order-user-data label
+{
+   width: 100px;
+}
+
+#sf_admin_container .st_record_manager .code-field
+{
+   width: 43px;
+}
+
+#sf_admin_container .st_record_manager .name-field
+{
+   width: 150px;
+}
+
+#sf_admin_container .st_record_manager .price-field
+{
+   width: 60px;
+}
+
+#sf_admin_container .st_record_manager .discount-field,
+#sf_admin_container .st_record_manager .quantity-field
+{
+   width: 50px;
+}
+
+#sf_admin_container .st_record_manager .errors td
+{
+   color: #ff3333;
+   text-align: left;
+}
+
+#sf_admin_container .st_record_manager .errors input
+{
+   border-color: #ff3333;
+}
+
+
+#sf_admin_container .st_record_manager .template .product-options-container
+{
+   display: none;
+}
+
+#sf_admin_container .st_record_manager .product-options-container
+{
+   text-align: left;
+
+   padding: 0px 2px;
+}
+
+#sf_admin_container .st_record_manager .product-options-container a
+{
+   font-size: 8pt;
+}
+
+#sf_admin_container .st_record_manager td, #sf_admin_container .st_record_manager th
+{
+   padding: 5px;
+}
+
+#sf_admin_container .st_record_manager td
+{
+   vertical-align: middle;
+}
+
+#sf_admin_container .st_record_manager td.actions
+{
+   vertical-align: middle;
+}
+
+#sf_admin_container .st_order-user-data div.form_error
+{
+   color: #ff3333;
+
+   padding-left: 110px;
+}
+
+#sf_admin_container .st_order-user-data input.form_error
+{
+   border-color: #ff3333;
+}
+
+#st_order-autocomplete-template
+{
+   display: none;
+}
+
+.st_order-autocomplete-item
+{
+   padding: 5px 10px;
+
+   height: 42px;
+}
+
+.st_order-autocomplete-item .image
+{
+    float: left;
+
+    width: 42px;
+
+    text-align: center;
+}
+
+.st_order-autocomplete-item img
+{
+   max-width: 42px;
+
+   max-height: 42px;
+}
+
+.st_order-autocomplete-item .content
+{
+   margin-left: 52px;
+}
+
+.st_order-autocomplete-item h2
+{
+   font-size: 8pt;
+
+   margin: 0px;
+}
+
+.st_order-autocomplete-item li
+{
+   font-size: 8pt;
+
+   display: inline;
+}
+
+.st_order-autocomplete-item
+{
+   clear: left;
+}

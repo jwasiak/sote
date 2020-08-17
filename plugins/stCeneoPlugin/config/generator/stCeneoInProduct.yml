@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_ceneo:         {name: Ceneo, class: stCeneo, method: getProduct}
+
+import:
+    fields:
+        product_ceneo:         {class: stCeneo, method: setProduct}

@@ -1,0 +1,16 @@
+package:
+  name: stPrzelewy24Plugin
+  stability: stable
+  version: 7.1.1.2
+  summary: Przelewy24
+  description: 'Konfiguracja platnosci Przelewy24.pl'
+  notes: |
+    - Poprawka weryfikacji konfiguracji platnosci
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.5.3
+    stConfigurationPlugin: 1.0.3.7

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stThemePlugin.lib.model" noXsd="true">
+
+  <table name="st_theme_layout" phpName="ThemeLayout">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="theme_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_theme" onDelete="cascade">
+      <reference local="theme_id" foreign="id" />
+    </foreign-key>
+    <column name="sf_guard_user_id" type="INTEGER" />
+    <foreign-key foreignTable="sf_guard_user" onDelete="cascade">
+      <reference local="sf_guard_user_id" foreign="id" />
+    </foreign-key>
+    <column name="container" type="VARCHAR" size="255" />
+    <column name="blocks" type="LONGVARCHAR" />
+  </table>
+
+  <table name="st_theme" phpName="Theme">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="base_theme_id" type="INTEGER" />
+    <foreign-key foreignTable="st_theme" onDelete="setnull">
+      <reference local="base_theme_id" foreign="id" />
+    </foreign-key>
+    <column name="theme" type="VARCHAR" size="48" required="true" />
+    <unique name="st_theme_theme_unique">
+      <unique-column name="theme" />
+    </unique>
+    <column name="active" type="BOOLEAN" default="" />
+    <column name="opt_color_scheme" type="VARCHAR" size="32" />
+    <column name="version" type="INTEGER" />
+    <column name="is_system_default" type="BOOLEAN" required="true" default="" />
+    <column name="is_hidden" type="BOOLEAN" required="true" default="" />
+  </table>
+
+  <table name="st_theme_css" phpName="ThemeCss">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="theme_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_theme" onDelete="restrict">
+      <reference local="theme_id" foreign="id" />
+    </foreign-key>
+    <column name="css_head_id" type="VARCHAR" size="255" />
+    <column name="css_content" type="LONGVARCHAR" />
+  </table>
+
+  <table name="st_theme_color_scheme" phpName="ThemeColorScheme">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="theme_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_theme" onDelete="restrict">
+      <reference local="theme_id" foreign="id" />
+    </foreign-key>
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="is_default" type="BOOLEAN" default="0" />
+  </table>
+
+  <table name="st_theme_config" phpName="ThemeConfig">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_theme" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="parameters" type="LONGVARCHAR" phpType="array" />
+  </table>
+
+  <table name="st_theme_content" phpName="ThemeContent" isI18N="true" i18nTable="st_theme_content_i18n">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="theme_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_theme" onDelete="cascade">
+      <reference local="theme_id" foreign="id" />
+    </foreign-key>
+    <column name="content_id" type="VARCHAR" size="48" required="true" />
+    <column name="opt_name" type="VARCHAR" size="64" required="true" />
+    <column name="opt_content" type="VARCHAR" size="1024" required="false" />
+    <unique name="content_id_idx">
+      <unique-column name="content_id" />
+      <unique-column name="theme_id" />
+    </unique>
+  </table>
+
+  <table name="st_theme_content_i18n" phpName="ThemeContentI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_theme_content" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="64" required="true" />
+    <column name="content" type="VARCHAR" size="1024" required="false" />
+  </table>
+
+</database>

@@ -1,0 +1,4 @@
+_tree:
+    enabled:  on
+    view:
+        stylesheets:    [appCategoryHorizontal.css]

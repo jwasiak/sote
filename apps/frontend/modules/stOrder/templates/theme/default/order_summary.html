@@ -1,0 +1,39 @@
+<div id="st_application-order_summary" class="st_application" >
+    <div id="st_application-order_summary-header">
+        <h1 class="st_title">
+            {__ text="Zamówienie numer"} {$order_number}
+        </h1>
+        <p>
+            {__ text="Dziękujemy za złożenie zamówienia"}
+        </p>
+        <br class="st_clear_all" />
+    </div>
+    <div class="st_content">
+        <fieldset>
+            <div class="st_row">
+                <div class="st_name">
+                    {__ text="Numer Twojego zamówienia"}:
+                </div>
+                <div class="st_field">
+                    {$order_number}
+                </div>
+            </div>
+            <div class="st_row">
+                <div class="st_name">
+                    {__ text="Łączna kwota do zapłaty"}:
+                </div>
+                <div class="st_field">
+                    {$order_total_amount}
+                </div>    
+            </div>
+                   {include_st_component module="stInvoicePdf" component="downloadInvoice"}                 
+            <br class="st_clear_all"/>
+            <br />
+            <div class="order_summary_text">
+                {$order_summary_text}
+            </div>
+        </fieldset>
+    </div>
+</div>
+{$show_payment}
+{$order_summary_socket}

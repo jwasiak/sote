@@ -1,0 +1,16 @@
+package:
+  name: stDelivery
+  stability: stable
+  version: 7.4.0.22
+  summary: Dostawy
+  description: 'Zarzadzanie dostawami produktow'
+  notes: |
+    - Poprawka braku dostawy Poczta Polska Kurier po instalacji sklepu
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.8.12
+    stBackend: 1.0.3

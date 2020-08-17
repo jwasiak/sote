@@ -1,0 +1,67 @@
+﻿{__ text="Data złożenia zamówienia"}: {$created_at}
+{__ text="Zamówienie numer"}: {$number}
+
+{if $create_account == 1}{__ text="Dane dostępowe do konta"}:
+{__ text="Login"}: {$username}
+{/if}
+
+{if $create_account == 0}
+{__ text="Użytkownik"}: {$username}
+{/if}
+            
+{__ text="Dane bilingowe"}:
+
+{if $billing_company != ""}{$billing_company}{/if}
+
+{if $vat_nr != ""}{__ text="NIP"}: {$vat_nr}{/if}
+
+{if $billing_full_name != ""}{$billing_full_name}{/if}
+
+{$billing_address}
+{if $billing_address_more != ""}{$billing_address_more}{/if}
+
+{if $billing_address_region != ""}{$billing_address_region}{/if}
+{$billing_code_town}
+{$billing_full_phone}
+
+{__ text="Dane dostawy"}:
+
+{if $delivery_company != ""}{$delivery_company}{/if}
+
+{if $delivery_full_name != ""}{$delivery_full_name}{/if}
+
+{$delivery_address}
+{if $delivery_address_more != ""}{$delivery_address_more}{/if}
+
+{if $delivery_address_region != ""}{$delivery_address_region}{/if}
+
+{$delivery_code_town}
+{$delivery_full_phone}
+   
+{__ text="Lista zamówienia"}:
+
+{foreach key=row item=product from=$results}
+    {__ text="Kod"}: {$product.code}
+    {__ text="Nazwa"}: {$product.name}
+    {__ text="Netto"}: {$product.netto}
+    {__ text="VAT"}: {$product.vat} %
+    {__ text="Brutto"}: {$product.brutto}
+    {__ text="Sztuk"}: {$product.quantity}
+    {__ text="Kwota"}: {$product.front_symbol} {$product.total_amount} {$product.back_symbol}
+{/foreach}
+
+{if $paid}
+{__ text="Razem"}: {$total_amount}
+{__ text="Zapłacono"}: {$paid}
+{/if}
+
+{__ text="Łączna kwota do zapłaty"}: {$final_total_amount}
+{__ text="Płatność"}: {$payment_name}
+{__ text="Dostawy"}: {$delivery_name}
+{__ text="Koszt"}: {$delivery_cost}
+
+{$order_submit}
+
+{$order_submit_text}
+
+{$trusted_shops_rating}

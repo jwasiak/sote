@@ -1,0 +1,76 @@
+<div id="full-list" class="full-list row">
+    {foreach key=row item=product from=$results}
+    <div class="product col-xs-4 col-sm-4 col-md-3 col-lg-3">
+        <div class="thumbnail clearfix">
+            <div class="pg_label">
+                {foreach key=group_id item=group_image from=$product.my_groups}
+                    {$group_image}
+                {/foreach}
+            </div>     
+            <a class="back-side-product" href="{$product.link}">                
+                {if $show_description}
+                    {if $product.description != ''}
+                        <span class="description">{$product.description}</span>
+                    {/if}
+                {/if}
+            </a>
+            {if $show_image==1}<div data-equalizer-watch="image"><div class="image">{$product.photo}</div></div>{/if}
+            <div class="caption clearfix" data-equalizer-watch="caption">
+                {if $show_price==1 && $show_basket==1 && $product.check_price!=1}
+                    <div class="product-shopping-cart hidden-xs">
+                       {basket_add_link product=$product.instance namespace="product_list"}
+                    </div>    
+                {/if}
+                <p class="text-center name">{if $show_name==1}{$product.name}{/if}</p>
+                {if $show_availability}
+                    <div class="product-availability text-center">
+                        {$product.availability}
+                        {if $show_stock}
+                            ({$product.stock} {$product.uom})
+                        {/if}
+                    </div>
+                {elseif $show_stock}
+                    <div class="product-availability text-center">
+                        {__ text="Dostępność" langCatalogue="stAvailabilityFrontend"}: {$product.stock} {$product.uom}
+                    </div>
+                {/if}
+                {if $show_weight}<div class="weight text-center text-muted">{if $product.weight}{__ text="Waga"}: {$product.weight}{/if}</div>{/if}
+                <div class="st_product_options-color-on-list">{$product.colors}</div>      
+                {if $show_discount==1 && $product.discount!=0 && $product.check_price!=1}
+                    <div class="discount-old_price text-center">
+                        <div class="discount">{__ text="Rabat"}: {$product.discount} %</div>
+                    </div>
+                {elseif ($show_old_price==1 && $product.check_price!=1 && $product.check_old_price==1)}
+                    <div class="discount-old_price text-center">
+                        <div class="price old_price">
+                        {if ($price_view=='net_gross' || $price_view=='only_net')}
+                            {$product.old_price_net}
+                        {else}
+                            {$product.old_price}
+                        {/if}
+                       </div>
+                   </div>
+                {/if}                    
+                {if $show_price==1 && $product.check_price!=1}
+                    {if $price_view=='net_gross'}
+                        <div class="price major_price">{__ text="netto"}: <span class="nowrap">{$product.price_net}</span></div>
+                        <div class="price minor_price">({__ text="brutto"}: <span class="nowrap">{$product.price}</span>)</div>
+                    {elseif $price_view=='only_gross'}
+                        <div class="price nowrap">{$product.price}</div>
+                    {elseif $price_view=='only_net'}
+                        <div class="price">{__ text="netto"}: <span class="nowrap">{$product.price_net}</span></div>
+                    {elseif $price_view=='gross_net'}
+                        <div class="price major_price">{__ text="brutto"}: <span class="nowrap">{$product.price}</span></div>
+                        <div class="price minor_price">({__ text="netto"}: <span class="nowrap">{$product.price_net}</span>)</div>
+                    {/if}
+                    {if $product.basic_price}
+                        <div class="text-muted basic_price text-center"><i>{$product.basic_price.quantity} ( {$product.basic_price.brutto} {__ text="za"} {$product.basic_price.for_quantity} )</i></div>
+                    {/if}
+                {/if}
+                
+            </div>      
+        </div>  
+    </div>
+    {/foreach}
+    <div class="clearfix" ></div>
+</div>

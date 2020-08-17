@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Kody i pliki online</source>
+                <target>Online codes and files</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie kodami i plikami online</source>
+                <target>Manage the online codes and files</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista kodów</source>
+                <target>List of codes</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Dodaj nowy kod</source>
+                <target>Add new code</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Kod produktu</source>
+                <target>Product code</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Nazwa produktu</source>
+                <target>Product name</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Limit użyć</source>
+                <target>Use limit</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Użyty</source>
+                <target>Used</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Edycja kodu</source>
+                <target>Edit code</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wartość 0 oznacza brak limitu.</source>
+                <target>Value of 0 means there is no limit.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Lista plików</source>
+                <target>List of files</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dodaj nowy plik</source>
+                <target>Add new file</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Rozmiar</source>
+                <target>Size</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Załącz plik</source>
+                <target>Attach file</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Proszę wybrać plik.</source>
+                <target>Please select a file.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Podany plik jest już przypisany do produktu.</source>
+                <target>The file is already assigned to the product.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Data dodania</source>
+                <target>Created at</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Nazwa pliku</source>
+                <target>Filename</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>maks.</source>
+                <target>max</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Audio</source>
+                <target>Audio</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Zdjęcia</source>
+                <target>Images</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Pliki i kody online</source>
+                <target>Online files and codes</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Dokumenty</source>
+                <target>Documents</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Kody</source>
+                <target>Codes</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

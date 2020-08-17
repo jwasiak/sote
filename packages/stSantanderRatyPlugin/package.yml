@@ -1,0 +1,15 @@
+package:
+  name: stSantanderRatyPlugin
+  stability: stable
+  version: 7.0.0.19
+  summary: eRaty Santander Consumer Bank
+  description: 'eRaty Santander Consumer Bank'
+  notes: |
+    - Aktualizacja wylaczania modulu
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.6      

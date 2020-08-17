@@ -1,0 +1,27 @@
+{set layout="one_column"}
+
+<div id="newsletter-confirm">
+
+    <div class="title">
+        <h1>{__ text="Newsletter"}</h1>
+    </div>
+
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+           {__ text="Potwierdzenie rejestracji."}
+        </div>
+        <div class="panel-body text-center">
+
+            <p>{__ text="Adres został potwierdzony."}</p>
+            
+            <p><b>{$email}</b></p>
+
+             {if $register_message_on=="1" }     
+                <p style="text-align:center;">{__ text="Proszę sprawdzić skrzynkę przesłaliśmy na nią wiadomość."}</p>
+            {/if}
+
+            <a href="/" class="btn btn-primary"> {__ text="Kontynuuj zakupy"} </a>
+
+        </div>
+    </div>
+</div>

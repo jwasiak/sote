@@ -1,0 +1,6 @@
+all:
+  .auto_generated:
+    config:
+      last_modified: '2010/06/21 13:08:06'
+      fields:
+        use_product_code: '0'

@@ -1,0 +1,11 @@
+config/bootstrap_compile.yml:
+  class:    stCompileConfigHandler
+
+config/config_compile.yml:
+    class:  stConfigCompileConfigHandler
+
+config/helper_finder.yml:
+    class:  stHelperFinderConfigHandler
+
+config/module_finder.yml:
+    class:  stModuleFinderConfigHandler

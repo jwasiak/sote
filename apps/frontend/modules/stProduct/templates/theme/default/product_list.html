@@ -1,0 +1,39 @@
+<div id="st_component-st_product-product_list">
+    {if $category_id>0}
+        {$category_info}
+    {elseif $producer_id>0}
+        {$producer_info}
+    {else}
+        <div class="st_application">
+        	<h1 class="st_title">{$title_text}</h1>
+        </div>
+    {/if}
+    
+    
+    {if $product_all>0}
+
+       {$producer_filter}    
+    
+          
+        <div id="st_product-list_success_type">
+            {$list_type}
+        </div> 
+        
+        <div id="st_product-list_success_sort">
+            {$sort}
+        </div>
+	
+        
+        <div id="st_product-list_success_all">    
+            {__ text="Widzisz %number% z %count% produktów" langAgrs="$product_pager_lang_args"}     
+        </div>
+        
+
+        
+        {$pager}
+        
+        {$product_list}
+        
+        {$pager}
+    {/if}
+</div>

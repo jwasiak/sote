@@ -1,0 +1,18 @@
+<div class="product-list category-list clearfix row" data-equalizer>
+    {foreach item=category from=$categories}    
+        <div class="product col-xs-6 col-sm-4">
+            <div class="thumbnail">
+                <div data-equalizer-watch="image">
+                    <div class="image">
+                        <a href="{$category.url}">
+                            <img class="img-responsive" alt="{$category.name}" src="{st_asset_image_path image=$category.image type='small' for='category'}" />
+                        </a>
+                    </div>
+                </div>
+                <div class="caption text-center" data-equalizer-watch="caption">
+                    <h2 class="name"><a href="{$category.url}" >{$category.name}</a></h2>
+                </div>
+            </div>
+        </div>
+    {/foreach}
+</div>

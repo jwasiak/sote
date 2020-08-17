@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Dostępność</source>
+				<target>Availability</target>
+			</trans-unit>
+                        <trans-unit id="2">
+				<source>Powiadom mnie o dostępności produktu</source>
+				<target>Notify me of product availability</target>
+			</trans-unit>
+                        <trans-unit id="3">
+				<source>W chwili obecnej nie możemy określić kiedy produkt</source>
+				<target>At the moment we can not determine when the product</target>
+			</trans-unit>
+                        <trans-unit id="4">
+				<source>będzie dostępny w naszym sklepie.</source>
+				<target>will be available in our store.</target>
+			</trans-unit>
+                        <trans-unit id="5">
+				<source>Prosimy o podanie adresu email na który wyślemy powiadomienie.</source>
+				<target>Please provide your email address to which we will send a notification.</target>
+			</trans-unit>
+                        <trans-unit id="6">
+				<source>Wyślij prośbę o powiadomienie</source>
+				<target>Send a request for notification</target>
+			</trans-unit>
+                        <trans-unit id="7">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+                        <trans-unit id="8">
+				<source>Treść</source>
+				<target>Contents</target>
+			</trans-unit>
+                        <trans-unit id="9">
+				<source>Cyfry z obrazka</source>
+				<target>Digits from the image</target>
+			</trans-unit>
+                        <trans-unit id="10">
+				<source>Proszę o przesłanie informacji o ponownej dostępności produktu w ofercie.</source>
+				<target>Please send me information on the re-availability of product on offer.</target>
+			</trans-unit>
+                        <trans-unit id="11">
+				<source>Podany adres jest nieprawidłowy.</source>
+				<target>The specified address is not valid.</target>
+			</trans-unit>
+                        <trans-unit id="12">
+				<source>Wprowadzono zły numer.</source>
+				<target>Have entered a wrong number.</target>
+			</trans-unit>
+                        <trans-unit id="13">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Product Availability Request</target>
+			</trans-unit>
+                        <trans-unit id="14">
+				<source>Informacje o dostępności należy przesłać na</source>
+				<target>Information about availability should be sent to</target>
+			</trans-unit>
+                        <trans-unit id="15">
+				<source>Kod produktu</source>
+				<target>Product code</target>
+			</trans-unit>
+                        <trans-unit id="16">
+				<source>Producent</source>
+				<target>Manufacturer</target>
+			</trans-unit>
+                        <trans-unit id="17">
+				<source>Kategoria</source>
+				<target>Category</target>
+			</trans-unit>
+                        <trans-unit id="18">
+				<source>Czas realizacji</source>
+				<target>Delivery time</target>
+			</trans-unit>
+			             <trans-unit id="19">
+                <source>Nadawca (e-mail)</source>
+                <target>Sender (e-mail)</target>
+            </trans-unit>
+                        <trans-unit id="20">
+                <source>Zapytanie zostało wysłane</source>
+                <target>The request has been sent</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

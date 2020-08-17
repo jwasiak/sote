@@ -1,0 +1,15 @@
+propel:
+    st_order:
+        _attributes: 
+            phpName: Order    
+        partner_id:
+            type: INTEGER
+            required: false
+            foreignTable: st_partner
+            foreignReference: id
+            onDelete: setnull 
+        provision_value:
+            type: FLOAT
+        provision_payed:
+            type: BOOLEAN
+            default: 0

@@ -1,0 +1,204 @@
+.st_invoice_frame
+{
+    width: 300px;
+}
+
+.st_invoice_frame .label {
+    float: left;
+    width: 135px;
+    text-align: right;
+}
+
+.st_invoice_frame .field {
+    margin-left: 145px;
+    text-align: left;
+}
+
+.st_invoice_frame .row:last-child {
+    margin-bottom: 4px;
+}
+
+.st_invoice_frame .row {
+    margin-top: 4px;
+}
+
+.st_invoice_frame_header
+{
+    border-top:1px solid #000000;
+    background: #CCCCCC;
+    text-align:center; 
+    width: 100%;
+}
+
+.st_invoice_frame_content
+{
+    width: 100%;
+    text-align:center; 
+}
+
+.st_invoice_frame_content_last
+{
+    text-align:center; 
+    border-bottom:1px solid #000000;
+    width: 100%;
+}
+
+#st_invoice_number
+{
+    width: 100%; 
+    text-align:center; 
+    font-size: 18px;
+}
+
+.st_invoice_frame_signature
+{
+    border: 1px solid #000000;
+    width: 300px;
+    padding: 2px;
+}
+
+.st_invoice_frame_header_signature
+{
+    background: #CCCCCC;
+    text-align:center; 
+    width: 100%;
+}
+
+.st_invoice_frame_content_signature
+{
+    width: 100%;
+    text-align:center; 
+}
+
+.st_invoice_table_head
+{
+    text-align:center; 
+    font-size: 10px;
+    background: #CCCCCC;
+    border:1px solid #DDDDDD;
+}
+
+.st_invoice_table_td
+{
+    text-align:right; 
+    font-size: 10px;
+    border:1px solid #DDDDDD;
+}
+
+#invoiceDefault_town
+{
+    width: 292px;
+}
+
+#invoiceDefault_seller_signature, #invoiceDefault_customer_signature
+{
+    width: 315px;
+}
+
+
+
+#invoiceDefault_seller_company, #invoiceDefault_seller_country, #invoiceDefault_seller_vat_number
+{
+    width: 288px;
+}
+
+#invoiceDefault_seller_name, #invoiceDefault_seller_surname, #invoiceDefault_seller_code, #invoiceDefault_seller_town
+{
+    width: 138px;
+}
+
+#invoiceDefault_seller_street
+{
+    width: 168px;
+}
+
+#invoiceDefault_seller_house, #invoiceDefault_seller_flat
+{
+    width: 43px;
+}
+
+
+#invoiceDefault_customer_company, #invoiceDefault_customer_country, #invoiceDefault_customer_vat_number
+{
+    width: 288px;
+}
+
+#invoiceDefault_customer_name, #invoiceDefault_customer_surname, #invoiceDefault_customer_code, #invoiceDefault_customer_town
+{
+    width: 138px;
+}
+
+#invoiceDefault_customer_street
+{
+    width: 168px;
+}
+
+#invoiceDefault_customer_house, #invoiceDefault_customer_flat
+{
+    width: 43px;
+}
+
+#invoice_user_seller_country, #invoice_user_seller_region, #invoice_user_seller_company, #invoice_user_seller_vat_number, #invoice_user_seller_full_name, #invoice_user_seller_address_more, #invoice_user_seller_address, #invoice_user_seller_pesel
+{
+    width: 250px;
+}
+
+#invoice_user_seller_code, #invoice_user_seller_town
+{
+    width: 120px;
+}
+
+#invoice_user_customer_country, #invoice_user_customer_region, #invoice_user_customer_company, #invoice_user_customer_vat_number, #invoice_user_customer_full_name, #invoice_user_customer_address_more, #invoice_user_customer_address, #invoice_user_customer_pesel
+{
+    width: 250px;
+}
+
+#invoice_user_customer_code, #invoice_user_customer_town
+{
+    width: 120px;
+}
+
+
+
+
+#invoiceDefault_seller_country, #invoiceDefault_seller_region, #invoiceDefault_seller_company, #invoiceDefault_seller_vat_number, #invoiceDefault_seller_full_name, #invoiceDefault_seller_address_more, #invoiceDefault_seller_address
+{
+    width: 250px;
+}
+
+#invoiceDefault_seller_code, #invoiceDefault_customer_code {
+    margin-right: 4px;
+}
+
+#invoiceDefault_seller_code, #invoiceDefault_seller_town
+{
+    width: 123px;
+}
+
+#invoiceDefault_customer_country, #invoiceDefault_customer_region, #invoiceDefault_customer_company, #invoiceDefault_customer_vat_number, #invoiceDefault_customer_full_name, #invoiceDefault_customer_address_more, #invoiceDefault_customer_address
+{
+    width: 250px;
+}
+
+#invoiceDefault_customer_code, #invoiceDefault_customer_town
+{
+    width: 123px;
+}
+
+.admin_actions
+{
+    margin: 10px 0;
+}
+
+#add_row .admin_actions
+{
+    margin: 10px 0px;
+}
+
+.language_picker{
+ padding: 6px 0px 6px 5px;
+}
+
+.language_picker ul li {
+    margin: 0;
+}

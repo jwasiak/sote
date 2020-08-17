@@ -1,0 +1,11 @@
+<ul class="nav navbar-nav">
+    {foreach item=link from=$links}
+        <li>
+            {if $link.custom_url}
+            <a href="{$link.custom_url}" target="_blank">{$link.name}</a>
+            {else}
+            <a href="{$link.url}">{$link.name}</a>
+            {/if}
+        </li>
+    {/foreach}
+</ul> 

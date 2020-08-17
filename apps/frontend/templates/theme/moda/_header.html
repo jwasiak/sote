@@ -1,0 +1,112 @@
+<div id="top">
+    <div class="container">
+        <div id="header" class="hidden-xs">
+            <div class="flex-sm">
+                <div id="logo-top" {if $theme->hasThemeContent('h1-homepage-part1') || $theme->hasThemeContent('h1-homepage-part2')}class="slogan-width"{/if}>
+                    <div>
+                        <a href="{$homepage_url}">
+                            <img class="img-responsive" src="{image_path image='logo.png'}" alt="" />
+                        </a>
+                    </div> 
+                </div>
+                {if $sf_context->getActionName()=="index" && $sf_context->getModuleName()=="stFrontendMain"}
+                    {if $theme->hasThemeContent('h1-homepage-part1') || $theme->hasThemeContent('h1-homepage-part2')}
+                        <div class="slogan"><h1 class="hidden-xs">{theme_content id='h1-homepage-part1'} <small>{theme_content id='h1-homepage-part2'}</small></h1></div>
+                    {/if}
+                {else}
+                    {if $theme->hasThemeContent('h1-homepage-part1') || $theme->hasThemeContent('h1-homepage-part2')}
+                        <div class="slogan"><h4 class="hidden-xs">{theme_content id='h1-homepage-part1'} <small>{theme_content id='h1-homepage-part2'}</small></h4></div>
+                    {/if}
+                {/if}
+
+                <div id="top-social">
+                    {st_get_component module="stSocialLinksFrontend" component="show"}    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-navbar-position">
+        <nav id="header-navbar" role="navigation">
+            <div class="container">
+                <div id="logo" class="visible-xs">
+                    <div>
+                        <a href="{$homepage_url}">
+                            <img src="{image_path image='logo_small.png'}" alt="" />
+                        </a>
+                    </div> 
+                </div>                 
+                <div id="navbar-buttons" class="btn-group pull-right">  
+                    <button id="nav-button-search" type="button" class="btn btn-navbar hidden-xs collapsed" data-toggle="collapse" data-target="#nav-search"  data-parent="#header-navbar">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M14.4121122,14.4121122 L20,20"/> <circle cx="10" cy="10" r="6"/> </svg>
+                    </button>  
+
+                    <button id="nav-button-shopping-cart" class="btn btn-navbar collapsed empty" data-toggle="collapse" data-target="#nav-shopping-cart"  data-parent="#header-navbar">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="19" r="1"/> <circle cx="18" cy="19" r="1"/><path d="M6 6H3"/> </svg>
+                        <small class="quantity"></small>
+                    </button>
+
+                    {if !$sf_user->isAuthenticated()} 
+                    <a href="{url_for internal='stUser/loginUser' secure=true}" id="nav-button-user" class="hidden-xs btn btn-navbar collapsed">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M4,20 C4,17 8,17 10,15 C11,14 8,14 8,9 C8,5.667 9.333,4 12,4 C14.667,4 16,5.667 16,9 C16,14 13,14 14,15 C16,17 20,17 20,20"/> </svg>
+                        <small class="login-status">&nbsp;</small>
+                    </a> 
+                    <button id="nav-button-user" class="visible-xs btn btn-navbar collapsed" data-toggle="collapse" data-target="#nav-user" data-parent="#header-navbar">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M4,20 C4,17 8,17 10,15 C11,14 8,14 8,9 C8,5.667 9.333,4 12,4 C14.667,4 16,5.667 16,9 C16,14 13,14 14,15 C16,17 20,17 20,20"/> </svg>
+                        <small class="login-status">&nbsp;</small>
+                    </button>     
+                    {else}
+                    <button id="nav-button-user" class="btn btn-navbar collapsed" data-toggle="collapse" data-target="#nav-user" data-parent="#header-navbar">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M4,20 C4,17 8,17 10,15 C11,14 8,14 8,9 C8,5.667 9.333,4 12,4 C14.667,4 16,5.667 16,9 C16,14 13,14 14,15 C16,17 20,17 20,20"/> </svg>
+                        <small class="login-status">&nbsp;</small>
+                    </button>            
+                    {/if}                                 
+                    <button id="nav-button-settings" class="btn btn-navbar hidden-xs collapsed" data-toggle="collapse" data-target="#nav-settings" data-parent="#header-navbar">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="12" cy="12" r="10"/> <path stroke-linecap="round" d="M12,22 C14.6666667,19.5757576 16,16.2424242 16,12 C16,7.75757576 14.6666667,4.42424242 12,2 C9.33333333,4.42424242 8,7.75757576 8,12 C8,16.2424242 9.33333333,19.5757576 12,22 Z"/> <path stroke-linecap="round" d="M2.5 9L21.5 9M2.5 15L21.5 15"/> </svg>
+                    </button>                                                                  
+                </div>           
+                <div class="navbar-header">
+                    <button id="nav-button-menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" data-parent="#header-navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                            
+                </div>
+                <div id="nav-menu" class="navbar-collapse collapse">
+                    {st_get_component module="stCategoryTree" component="horizontal"}
+                </div>
+                <div class="navbar-dropdown">                
+                    <div id="nav-shopping-cart" class="navbar-collapse collapse">
+                            {st_get_component module="stBasket" component="show"}
+                    </div>
+                    <div id="nav-user" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">               
+                            {st_get_component module="stUser" component="loginStatus"}
+                        </ul>
+                    </div>
+                    {strip}
+                    <div id="nav-settings" class="hidden-xs navbar-collapse collapse">
+                        <ul class="nav navbar-nav">    
+                            <li class="dropdown">
+                                {st_get_component module="stLanguageFrontend" component="choose"}
+                            </li>
+                            <li class="dropdown">
+                                {st_get_component module="stCurrencyFrontend" component="pickCurrency"}
+                            </li>                                                           
+                        </ul>
+                        {slot name="nav-setting" hidden="true"}{/slot}
+                    </div>
+                    {/strip}
+                    <div id="nav-search" class="navbar-collapse collapse hidden-xs">
+                        {include_file id="_search"}
+                    </div>
+                </div>
+            </div>
+        </nav>
+        {php}
+        $c = sfContext::getInstance();
+        if ($c->getModuleName() == 'stFrontendMain' && $c->getActionName() == 'index') {
+        {/php}
+            <div class="container">{st_get_component module="stSlideBannerFrontend" component="show"}</div>
+        {php} } {/php}
+    </div>
+</div>

@@ -1,0 +1,103 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_basket: 
+    _attributes: 
+      phpName: Basket
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_guard_user_id: 
+      type: INTEGER
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+      required: false
+    discount_coupon_code_id: 
+      type: INTEGER
+      foreignTable: st_discount_coupon_code
+      foreignReference: id
+      required: false
+    is_default: 
+      type: BOOLEAN
+    hash_code: 
+      type: VARCHAR
+      size: 32
+
+  st_basket_product: 
+    _attributes: 
+      phpName: BasketProduct
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+      required: true
+      default: 0
+    product_set_discount_id: 
+      type: INTEGER    
+    basket_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_basket
+      foreignReference: id
+      onDelete: cascade
+    is_gift: 
+      type: BOOLEAN
+      required: true
+      default: false
+    quantity: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+    max_quantity: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+    code: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 255
+    image:
+      type: VARCHAR
+      size: 255
+    item_id: 
+      type: VARCHAR
+      size: 32
+    price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2 
+    vat: 
+      type: FLOAT
+    weight: 
+      type: FLOAT
+    product_for_points: 
+      type: BOOLEAN  
+      default: 0
+      required: true
+    _indexes:
+        product_set_discount_idx: [product_set_discount_id]

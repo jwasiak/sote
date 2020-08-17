@@ -1,0 +1,57 @@
+<div id="main_categories" class="row" data-equalizer>
+    {assign var='i' value=0}
+    {foreach key=row item=category from=$results name=products}
+    {assign var='i' value=$i+1}
+        {if $i == 5}
+        <div class="hidden-block">
+        {/if}
+            <div class="product col-xs-6">
+                <div class="thumbnail clearfix text-center">
+                    <div data-equalizer-watch="image">
+                        <div class="image">{$category.photo}</div>
+                    </div>
+                    <div class="caption">
+                        <h3 class="name">{$category.name}</h3>
+                    </div>
+                </div>
+            </div>
+        {if $i > 4 && $smarty.foreach.products.last}
+        </div>
+        <div class="col-xs-12">
+            <a id="btn-main_categories" class="btn btn-dark hidden-xs">
+                {__ text="zobacz więcej" langCatalogue="stCategory"}
+            </a>
+        </div>
+        {/if} 
+    {/foreach}
+</div>
+
+{literal}
+<script type="text/javascript">    
+    //<![CDATA[
+     jQuery(function($) {
+
+        function banerHeight() {
+            if ($(window).width() > 768) {
+                var mainCategories = $('#main_categories').height(); 
+                $('#homepage-carousel.slide-banner-new:not(.noentry) .swiper-slide').css('min-height',mainCategories);
+            }
+        }
+
+        $(window).load(function(){
+            banerHeight();
+        });
+        $(window).resize(function(){
+            banerHeight();
+        });
+
+        $("#btn-main_categories").click(function() {
+            $('#homepage-carousel').addClass('noentry');
+            $("#main_categories .hidden-block").slideDown(400);
+            $(this).addClass('hidden');
+        });
+
+     });
+     //]]>
+</script> 
+{/literal}

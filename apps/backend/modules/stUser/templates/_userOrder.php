@@ -1,0 +1,1 @@
+<?php echo link_to(__("Pokaż zamówienia."),"stOrder/list?filters[filter_client]=".$username) ?>

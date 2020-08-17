@@ -1,0 +1,10 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/11/17 18:43:33
+      fields:
+        ecard_id:  
+        ecard_password: 
+        payment_type: ALL
+        test: 0

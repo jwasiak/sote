@@ -1,0 +1,101 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            GoogleShopping
+        theme:                  simple
+
+        head:
+            package:            stGoogleShoppingPlugin
+
+        list:
+            title:              Lista produktów
+            description:        Zarządzanie Google Shopping
+            max_per_page:       20
+            display:            [_code, _product, active]
+            peer_method:        doSelectJoinProductForList
+            peer_count_method:  doCountJoinProductForList
+            actions:
+                _deletes:       {name: Wypisz wszystkie, action: deleteAll}
+                _add:           {name: Przypisz wszystkie, action: addAll}                
+            object_actions:     -
+            select_actions:
+                display:
+                    "Ustaw przypisane:":   [product_enabled, product_disabled]
+                actions:
+                    product_enabled:    {name: Tak, confirm: "Ustaw przypisane: Tak", action: productEnable, i18n: stGoogleShoppingBackend}
+                    product_disabled:   {name: Nie, confirm: "Ustaw przypisane: Nie", action: productDisable, i18n: stGoogleShoppingBackend}
+            filters:
+                code:           {filter_field: product.code}
+                product:        {filter_field: product.opt_name}
+            fields:
+                code:           {name: Kod, sort_field: product.code, params: size=50}
+                product:        {name: Nazwa, sort_field: product.opt_name, params: size=50}
+                active:         {name: Przypisany}
+            menu:
+                display:        [list, generate, config]
+                fields:
+                    list:       {name: Lista produktów, action: @stGoogleShoppingPluginDefault}
+                    generate:   {name: Generowanie pliku, action: stGoogleShoppingBackend/generateCustom}
+                    config:     {name: Konfiguracja, action: stGoogleShoppingBackend/config}
+
+        edit:
+            title:              Edycja produktu
+            description:        Zarządzanie Google Shopping
+            menu:               {use: list.menu}
+            display:
+                "Indywidualne ustawienie produktu":  [product, active, sale_price, shipping_price]
+            fields:
+                product:        {name: Nazwa produktu}
+                active:         {name: Przypisany}
+                shipping_price: {name: Minimalny koszt dostawy, params: size=10 }
+                sale_price:     {name: Cena promocyjna, params: size=10 }                
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+                
+
+        generate_model_class:   GoogleShopping
+        custom_actions:
+            custom:             [generate]
+
+        generate_custom:
+            menu:               {use: list.menu}
+            title:              Generowanie pliku
+            description:        Zarządzanie GoogleShopping
+
+        config:
+            title:              Konfiguracja
+            description:        Zarządzanie GoogleShopping
+            display:
+                "Infomacje o sklepie":  [title, description]
+                "NONE":         [link_with_lang, stock, type_id, desc_type]
+                "Dostawa":      [shipping]
+                "Informacje o dostępności produktów":   [_availability]
+            fields:
+                title:          {name: Nazwa, params: size=50}
+                description:    {name: Opis, type: textarea, params: size=48x5}
+                availability:   {hide_label: true}
+                stock:          {name: Nie eksportuj produktów ze stanem magazynowym równym 0, type: checkbox}
+                link_with_lang: {name: Dodaj definicje wersji językowej w adresach url produktów, type: checkbox}
+                shipping:       {name: Minimalny koszt dostawy, params: size=5}
+                desc_type:
+                    name:                   Opis produktu
+                    type:                   select
+                    display:                [full, short, additional]
+                    options:
+                        full:               {name: Pełny, value: full}
+                        short:              {name: Skrócony, value: short}
+                        additional:         {name: Dodatkowy, value: additional}
+                        selected:           full
+                type_id:
+                    name:                   Generowanie ID na podstawie
+                    type:                   select
+                    display:                [product_id, product_code]
+                    options:
+                        product_id:         {name: ID produktu w sklepie, value: product_id}
+                        product_code:       {name: Kodu produktu w sklepie, value: product_code}                        
+                        selected:           system_id        
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+            menu:               {use: list.menu}

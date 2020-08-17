@@ -1,0 +1,105 @@
+generator:
+    class:                              stAdminGenerator
+    param:
+        model_class:                    Questions
+        question_status_model_class:    QuestionStatus
+        theme:                          simple
+        head:
+            package:                    stQuestionPlugin
+        applications:                   [stProduct, stAvailabilityPlugin]
+        custom_actions:
+            list:                       [question_status]
+            edit:                       [question_status]
+        question_status_list:
+            peer_method:                doSelectWithI18n
+            peer_count_method:          doCountWithI18n
+            title:                      Statusy
+            display:                    [=name, _question_status_type, is_default]
+            fields:
+                name:                   {name: Nazwa}
+                question_status_type:   {name: Rodzaj}
+                is_default:             {name: Domyślny}
+            menu:                       {use: list.menu}
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:                  -
+                _delete:                -
+        question_status_edit:
+            title:                      Edycja statusu %%name%%
+            display:                    [name, ~question_status_type, _is_default]
+            fields:
+                name:                   {name: Nazwa, type: input_tag}
+                question_status_type:   {name: Rodzaj}
+                is_default:             {name: Domyślny, help: Domyślny status jest ustawiany dla każdego nowo złożonego zapytania}
+            actions:
+                _list:                  {name: Statusy, i18n: stQuestionBackend}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj}
+                _delete:                {name: Usuń}
+        list:
+            filters:
+                type:                   {partial: filter_type, filter_field: questions.type}
+                item_id:                {partial: filter_item_name}
+                question_status:        {partial: filter_question_status}
+            menu:
+                display:                [question_list, question_status]
+                fields:
+                     question_list:     {name: Lista, action: stQuestionBackend/index}
+                     question_status:   {name: Statusy, action: stQuestionBackend/questionStatusList}
+                     config:            {name: Konfiguracja, action: stQuestionBackend/config}
+            title:                      Lista
+            description:                Zarządzanie zapytaniami
+            display:                    [created_at, _type, _item_id, email, question_status]
+            object_actions:
+                _edit:                  -
+                _delete:                -
+            fields:
+                created_at:             {name: Wysłane}
+                type:                   {name: Typ zapytania}
+                item_id:                {name: Produkt}
+                email:                  {name: Adres e-mail pytającego, params: truncate_text=18}
+                question_status:        {name: Status, sort_field: question_status.opt_name, params: truncate_text=15}
+            actions:
+                _create
+            peer_method:                doSelectJoinAll
+
+        edit:
+            menu:                                   {use: list.menu}
+            title:                                  Edycja zapytania
+            description:                            Zarządzanie zapytaniami
+            display:                                [_created_at, _type, _item_id, text, email, answer_text, question_status_id]
+            fields:
+                created_at:                        {name: Wysłane}
+                type:                               {name: Typ zapytania}
+                item_id:                            {name: Produkt, params: size=50}
+                email:                              {name: Adres e-mail pytającego, type: plain}
+                text:                               {name: Treść zapytania, type: plain}
+                answer_text:                        {name: Treść odpowiedzi, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:300,width:425'}
+                question_status_id:                 {name: Status, params: required=false}
+            actions:
+                _list:                              {name: Lista}
+                _save:                              {name: Zapisz}
+                _save_and_save:                     {name: Zapisz i wyślij, params: force_submit=true name=save_and_send, i18n: stQuestionBackend}
+                _delete:                            {name: Usuń}
+        config:
+            title:                                  Konfiguracja
+            description:                            Zarządzanie zapytaniami
+            display:        
+                "Zapytania o cenę produktu":        [_info, show_ask_for_price, ask_price_user_login]
+                "Zapytania o dostępność produktu":  [show_ask_for_depository, ask_depository_user_login, _depository_value, show_with_options]
+                "Wygląd produktu w zapytaniu":      [show_photo, show_code, show_name, show_short_description]
+            fields:
+                info:                               {name: Zastosowanie}
+                show_ask_for_price:                 {name: Włączenie modułu, checked: false, type: checkbox}
+                ask_price_user_login:               {name: Tylko dla zalogowanych użytkowników, checked: false, type: checkbox}
+                show_ask_for_depository:            {name: Włączenie modułu, checked: false, type: checkbox}
+                ask_depository_user_login:          {name: Tylko dla zalogowanych użytkowników, checked: false, type: checkbox}
+                depository_value:                   {name: Pokazuj przy dostępności}
+                show_with_options:                  {name: Zawsze pokazuj przy produkcie z opcjami, checked: false, type: checkbox}
+                show_photo:                         {name: Pokaż zdjęcie produktu, checked: true, type: checkbox}
+                show_code:                          {name: Pokaż kod produktu, checked: false, type: checkbox}
+                show_name:                          {name: Pokaż nazwę produktu, checked: true, type: checkbox}
+                show_short_description:             {name: Pokaż skrócony opis, checked: true, type: checkbox}
+            actions:
+                _save:                              {name: Zapisz}

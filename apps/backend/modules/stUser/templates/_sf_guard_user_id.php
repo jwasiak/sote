@@ -1,0 +1,2 @@
+<?php echo input_hidden_tag('discount_user[sf_guard_user_id]',$forward_parameters['user_id'])?>
+<?php echo ($discount_user->getSfGuardUser())?$discount_user->getSfGuardUser()->getUsername():sfGuardUserPeer::retrieveByPk($forward_parameters['user_id'])->getUsername(); ?>

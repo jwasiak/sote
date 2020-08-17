@@ -1,0 +1,48 @@
+propel:
+   _attributes:    { package: plugins.appProductAttributesPlugin.lib.model }
+
+   app_product_attribute:
+      _attributes:   { phpName: appProductAttribute, isI18N: true, i18nTable: app_product_attribute_i18n }
+      id:
+      is_active:        { type: boolean, required: true, default: true }
+      is_searchable:    { type: boolean, required: true, default: false }
+      is_visible_on_pp: { type: boolean, required: true, default: true }
+      opt_name:         { type: varchar, size: 128, required: true }
+      type:             { type: char, size: 1, required: true, default: 'T'}
+      position:         { type: integer, required: true, default: 0 }
+
+   app_product_attribute_i18n:
+      _attributes:   { phpName: appProductAttributeI18n }
+      id:            { type: integer, required: true, primaryKey: true, foreignTable: app_product_attribute, foreignReference: id, onDelete: cascade }
+      culture:       { isCulture: true, primaryKey: true, type: char, size: 5 }
+      name:          { type: varchar, size: 128, required: true } 
+
+   app_product_attribute_has_category:
+      _attributes:   { phpName: appProductAttributeHasCategory }     
+      attribute_id:  { type: integer, primaryKey: true, required: true, foreignTable: app_product_attribute, foreignReference: id, onDelete: cascade }
+      category_id:   { type: integer, primaryKey: true, required: true, foreignTable: st_category, foreignReference: id, onDelete: cascade }
+
+   app_product_attribute_has_variant:
+      _attributes:   { phpName: appProductAttributeHasVariant }  
+      attribute_id:  { type: integer, primaryKey: true, required: true, foreignTable: app_product_attribute, foreignReference: id, onDelete: cascade }
+      variant_id:    { type: integer, primaryKey: true, required: true, foreignTable: app_product_attribute_variant, foreignReference: id, onDelete: cascade }
+
+   app_product_attribute_variant_has_product:
+      _attributes:   { phpName: appProductAttributeVariantHasProduct } 
+      product_id:    { type: integer, primaryKey: true, required: true, foreignTable: st_product, foreignReference: id, onDelete: cascade }
+      variant_id:    { type: integer, primaryKey: true, required: true, foreignTable: app_product_attribute_variant, foreignReference: id, onDelete: cascade }
+
+   app_product_attribute_variant:
+      _attributes:   { phpName: appProductAttributeVariant, isI18N: true, i18nTable: app_product_attribute_variant_i18n }      
+      id:            
+      opt_value:     { type: varchar, size: 255, required: true }
+      opt_name:      { type: varchar, size: 64, required: false }
+      type:          { type: char, size: 1, required: false }        
+      position:      { type: integer, required: true, default: 0 }
+
+   app_product_attribute_variant_i18n:
+      _attributes:   { phpName: appProductAttributeVariantI18n }      
+      id:            { type: integer, required: true, primaryKey: true, foreignTable: app_product_attribute_variant, foreignReference: id, onDelete: cascade }
+      culture:       { isCulture: true, primaryKey: true, type: char, size: 5 }         
+      value:         { type: varchar, size: 255, required: true }  
+      name:          { type: varchar, size: 64, required: false } 

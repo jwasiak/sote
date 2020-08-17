@@ -1,0 +1,16 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stTaxPlugin
+/home/jarek/src/soteshop/plugins/stTaxPlugin/data
+/home/jarek/src/soteshop/plugins/stTaxPlugin/data/checkVatService.wsdl
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/backend
+/home/jarek/src/soteshop/apps/backend/i18n
+/home/jarek/src/soteshop/apps/backend/i18n/stTaxBackend.en.xml
+/home/jarek/src/soteshop/web
+/home/jarek/src/soteshop/web/images
+/home/jarek/src/soteshop/web/images/backend
+/home/jarek/src/soteshop/web/images/backend/main
+/home/jarek/src/soteshop/web/images/backend/main/icons_small
+/home/jarek/src/soteshop/web/images/backend/main/icons_small/stTaxBackend.png
+/home/jarek/src/soteshop/web/images/backend/main/icons
+/home/jarek/src/soteshop/web/images/backend/main/icons/stTaxPlugin.png

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wartość koszyka</source>
+				<target>Verdi i handlevognen</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Koszt dostawy</source>
+				<target>Leveringskostnader</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Razem do zapłaty</source>
+				<target>I alt å betale</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dostawa</source>
+				<target>Leveranse</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszty</source>
+				<target>Kostnader</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatności</source>
+				<target>Betalinger</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kraj dostawy</source>
+				<target>Leveringsland</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy</source>
+				<target>Produkter i handlekurven oppfyller ikke kriteriene for levering. Reduser antall produkter i handlekurven eller ta kontakt med forhandleren for å arrangere en alternativ leveringsmåte.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Bony zakupowe</source>
+				<target>Kuponger</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zapłacono</source>
+				<target>Betalt</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data i czas</source>
+				<target>Dato og klokkeslett</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Czas dostawy</source>
+				<target>Leveringstid</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Dzień dostawy</source>
+				<target>Leveringsdato</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wybrana dostawa nie posiada zdefiniowanych płatności</source>
+				<target>Ingen betalinger er definert for valgt levering</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Brak zdefiniowanych dostaw lub stref w sklepie</source>
+				<target>Ingen definerte leveringer eller soner i butikken</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Koszt</source>
+				<target>Kostnader</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność punktami</source>
+				<target>Betaling med poeng</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

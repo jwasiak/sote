@@ -1,0 +1,145 @@
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+       function equalHeight(group)
+       {
+       tallest = 0;
+       group.each(function() {
+          $(this).css("height","auto");
+          thisHeight = $(this).height();
+          if(thisHeight > tallest) {
+             tallest = thisHeight+16;
+          }
+        });
+        group.height(tallest);
+        }
+        
+        $(window).load(function() {
+           equalHeight($("#products_compare .td_name"));
+        });
+        
+        $(window).load(function() {
+            equalHeight($("#products_compare .td_producer"));
+         });
+        
+        $(window).load(function() {
+            equalHeight($("#products_compare .tr_price_netto"));
+         });
+        
+        $(window).load(function() {
+            equalHeight($("#products_compare .td_price_brutto"));
+         });
+        
+        $(window).load(function() {
+            equalHeight($("#products_compare .td_vat"));
+         });
+});
+</script>
+{/literal}
+
+{set layout="one_column"}
+<div id="product_compare_index" class="box roundies">
+    <div class="title">
+        <h2>{__ text="Porównaj produkty"}</h2>
+    </div>
+    {if $products_compare}
+        <div id="products_compare_table_params">
+            <table id="products_compare">
+                <tr>
+                    <td id="photo_first"></td>
+                </tr>
+                <tr>
+                    <td class="name td_name">{__ text="Nazwa"}</td>
+                </tr>
+                <tr>
+                    <td class="name td_producer">{__ text="Producent"}</td>
+                </tr>
+                {if $show_price}
+                    <tr>
+                        <td class="name tr_price_netto">{__ text="Cena netto"}</td>
+                    </tr>
+                    <tr>
+                        <td class="name td_price_brutto">{__ text="Cena brutto"}</td>
+                    </tr>
+                    <tr>
+                        <td class="name td_vat">{__ text="VAT"}</td>
+                    </tr>
+                {/if}
+            </table>
+        </div>
+        <div id="products_compare_table_values">
+            <table id="products_compare">
+                <tr>
+                    {foreach key=row item=product from=$results} 
+                        <td align="center" id="photo">
+                            <div id="box_photo">
+                                <a class="delete_button" href="{$product.delete_link}"><img src="/images/frontend/theme/default2/stProductsComparePlugin/delete.gif" /></a>
+                                <div class="image">{$product.photo}</div>
+                            </div>
+                        </td>
+                    {/foreach}
+                </tr>
+                <tr class="rowHover">
+                    {foreach key=row item=product from=$results} 
+                        <td class="value td_name">
+                            {$product.name}
+                        </td>
+                    {/foreach}
+                </tr>
+                <tr class="rowHover">
+                    {foreach key=row item=product from=$results} 
+                        <td class="value td_producer">
+                            {$product.producer}
+                        </td>
+                    {/foreach}
+                </tr>
+                {if $show_price}
+                    <tr class="rowHover">
+                        {foreach key=row item=product from=$results}
+                            <td class="value tr_price_netto">
+                                {if !$product.hide_price}
+                                    {$product.price_netto}
+                                {else}
+                                    -
+                                {/if}
+                            </td>
+                        {/foreach}
+                    </tr>
+                    <tr class="rowHover">
+                        {foreach key=row item=product from=$results}
+                            <td class="value td_price_brutto">
+                                {if !$product.hide_price}
+                                    {$product.price_brutto}
+                                {else}
+                                    -
+                                {/if}
+                            </td>
+                        {/foreach}
+                    </tr>
+                    <tr class="rowHover">
+                        {foreach key=row item=product from=$results}
+                            <td class="value td_vat">
+                                {if !$product.hide_price}
+                                    {$product.vat}%
+                                {else}
+                                    -
+                                {/if}
+                            </td>
+                        {/foreach}
+                    </tr>
+                {/if}
+            </table>
+        </div>
+    {else}
+        <p>{__ text="Brak produktów do porównania."}</hp>
+        {if $hasLastViewedProduct}
+            <div id="st_product_compare-back_button" class="st_button st_align-left">
+                <div class="st_button-left buttons">
+                    {$lastViewedProduct}
+                </div>
+            </div>
+        {/if}
+    {/if}
+    <div class="clear"></div>
+</div>

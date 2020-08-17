@@ -1,0 +1,7 @@
+all:
+    navigation_bar:
+      display:
+        orders:
+          paczkomaty:    ~
+      items:
+        paczkomaty:      {label: Paczkomaty, route: "@stPaczkomatyPluginDefault",  icon: stPaczkomatyPlugin.png}

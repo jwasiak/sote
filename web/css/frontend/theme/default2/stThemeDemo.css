@@ -1,0 +1,15 @@
+#content_demo
+{
+    color: #000;
+}
+
+.space5
+{
+    padding: 5px;
+}
+
+#content_demo .content p
+{
+    margin: 0px;
+}
+

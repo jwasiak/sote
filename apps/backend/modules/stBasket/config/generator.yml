@@ -1,0 +1,58 @@
+generator:
+  class:                            stAdminGenerator
+  param:
+    model_class:                    Basket
+    basket_product_model_class:     BasketProduct
+    theme:                          simple
+    applications:                   [stOrder, stUser, stProduct]
+    custom_actions:
+        list:                       [basket_product]
+    description:                    Podgląd aktualnych zakupów w sklepie klientów zarejestrowanych
+    list:
+        title:                      Lista       
+        display:                    [=updated_at, sf_guard_user, ~items_total_quantity, ~items_total_amount]
+        fields:
+            sf_guard_user:          {name: Klient}
+            updated_at:             {name: Ostatnia aktywność, params: link_to="stBasket/basketProductList?basket_id=%%id%%"}
+            items_total_quantity:   {name: Ilość produktów}
+            items_total_amount:     {name: Łączna wartość (brutto)}
+        actions:                    []
+        sort:                       [updated_at, desc]
+    basket_product_list:
+        description:            
+        title:                      Lista produktów w koszyku klienta %%~basket_client%% z dnia %%~basket_date%%
+        display:                    [code, _name, _product_price, quantity, _product_total]
+        fields:
+            code:                   {name: Kod}
+            name:                   {name: Nazwa}
+            product_price:          {name: Cena}
+            product_total:          {name: Razem}
+            quantity:               {name: Ilość}
+        forward_parameters:         [basket_id]
+        actions:                    []
+    config:
+        title:                      Konfiguracja
+        display:                    
+            NONE:                   [ajax, max_quantity]
+            "Prezentacja Koszyka":  [show_products, show_crosseling, show_code_in_basket, show_photo_in_basket, show_netto_in_basket, show_tax_in_basket, show_uom_in_basket, show_discount_in_basket]
+        fields:
+            remember_items:         
+                name: Zapamiętuj koszyk klienta 
+                type: select
+                display:                [1, 7, 14]
+                options:
+                    1:                  {name: przez 24 godziny}
+                    7:                  {name: przez 1 tydzień} 
+                    14:                 {name: przez 2 tygodnie}
+            max_quantity:               {name: Limit ilości sztuk danego produktu, value: 1000}
+            ajax:                       {name: Dodaj produkt bez przeładowania strony, type: checkbox}
+            show_products:              {name: Pokaż produkty polecane na stronie koszyka, type: checkbox, old_config: true}
+            show_crosseling:            {name: Pokaż cross-seling na stronie koszyka, type: checkbox, old_config: true}
+            show_code_in_basket:        {name: Pokaż kod, type: checkbox}
+            show_photo_in_basket:       {name: Pokaż zdjęcie, type: checkbox}
+            show_netto_in_basket:       {name: Pokaż pole netto, type: checkbox}
+            show_tax_in_basket:         {name: Pokaż pole VAT, type: checkbox}
+            show_uom_in_basket:         {name: Pokaż pole jednostka miary, type: checkbox}
+            show_discount_in_basket:    {name: Pokaż pole rabat, type: checkbox}
+        actions:
+            _save:                  {name: Zapisz}

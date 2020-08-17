@@ -1,0 +1,6 @@
+propel:
+    st_order_product:
+        _attributes:    {phpName: OrderProduct}
+        options: 
+          type: VARCHAR
+          size: 255

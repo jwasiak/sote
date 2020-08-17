@@ -1,0 +1,7 @@
+propel:                                                                
+   st_product_i18n: 
+      _attributes: 
+         phpName: ProductI18n
+      attributes_label: 
+         type: VARCHAR
+         size: 48

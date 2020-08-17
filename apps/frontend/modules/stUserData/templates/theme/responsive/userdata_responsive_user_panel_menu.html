@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-sm-12 col-md-12">
+        <ol class="breadcrumb">
+            <li><a href="{urlfor internal='@stUserData?action=userPanel'}">{__ text="Start"}</a></li>
+            {if $active_tab==1}<li class="active">{__ text="Moje konto"}</li>{/if}
+            {if $active_tab==2}<li class="active">{__ text="Zamówienia"}</li>{/if}
+            {if $active_tab==21}<li><a href="{urlfor internal='@stOrder?action=list'}">{__ text="Zamówienia"}</a></li> <li class="active">{$order_number}</li>{/if}
+            {if $active_tab==3}<li class="active">{__ text="Rabaty"}</li>{/if}
+            {if $active_tab==4}<li class="active">{__ text="Newsletter"}</li>{/if}        
+            {if $active_tab==5}<li class="active">{__ text="Moje dane"}</li>{/if}
+            {if $active_tab==51}<li><a href="{urlfor internal='@stUser?action=editAccount'}">{__ text="Moje dane"}</a></li> <li class="active">{__ text="Edycja danych"}</li>{/if}        
+        </ol>
+        <div id="user-panel-login">
+            <a href="{urlfor internal='@stUser?action=editAccount'}">{$user_email}</a>
+        </div>
+    </div>
+</div>
+
+
+<ul id="user-panel-menu" class="nav nav-tabs" role="tablist">
+    <li {if $active_tab==1}class="active"{/if}><a href="{urlfor internal='@stUserData?action=userPanel'}"><div class="glyphicon glyphicon-th-large visible-xs"></div><span class="hidden-xs">{__ text="Moje konto"}</span></a></li>
+    <li {if $active_tab==2 || $active_tab==21 }class="active"{/if}><a href="{urlfor internal='@stOrder?action=list'}" ><div class="glyphicon glyphicon-list-alt visible-xs"></div><span class="hidden-xs">{__ text="Zamówienia"}</span></a></li>
+    <li {if $active_tab==3}class="active"{/if}><a href="{urlfor internal='@stDiscountPlugin?action=discountInfo'}" ><div class="glyphicon glyphicon-tag visible-xs"></div><span class="hidden-xs">{__ text="Rabaty"}</span></a></li>    
+    {if $newsletter_enabled==1}
+    <li {if $active_tab==4}class="active"{/if}><a href="{urlfor internal='@stNewsletterPlugin?action=newsletterList'}" ><div class="glyphicon glyphicon-envelope visible-xs"></div><span class="hidden-xs">{__ text="Newsletter"}</span></a></li>
+    {/if} 
+    
+    <li {if $active_tab==5 || $active_tab==51 }class="active"{/if}><a href="{urlfor internal='@stUser?action=editAccount'}"><div class="glyphicon glyphicon-pencil visible-xs"></div><span class="hidden-xs">{__ text="Moje dane"}</span></a></li>    
+</ul>

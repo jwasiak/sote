@@ -1,0 +1,8 @@
+propel:
+    st_product:
+        _attributes:    {phpName: Product}
+        availability_id: 
+          type: INTEGER
+          foreignTable: st_availability
+          foreignReference: id
+          onDelete: setnull

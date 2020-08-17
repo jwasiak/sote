@@ -1,0 +1,6 @@
+all:
+    productList:
+        layout_name:     layout2
+    discountInfo:
+        layout_name:     layout3
+        

@@ -1,0 +1,116 @@
+.st_f_text_container
+{
+    padding: 0px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+.st_f_text_frame
+{
+    background-repeat: repeat-y;
+    background-position: top left;
+    float: left;
+}
+
+.st_txt_frame
+{
+    font-size:1.1em;
+    color:#aba8a8;
+    text-align:center;
+    margin: 3px;
+}
+
+.st_webpage-BOX_1
+{
+    width: 180px;
+}
+.st_webpage-BOX_3
+{
+    width: 180px;
+}
+.st_webpage-BOX_2
+{
+    width: 595px;
+}
+
+.content_tinymce ul, .content_tinymce ol
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content_tinymce ul li
+{
+    list-style-type: disc;
+}
+
+.content_tinymce ol li ul li
+{
+   list-style-type: circle ;
+}
+
+.content_tinymce ol li
+{
+    list-style-type: decimal;
+}
+
+.content_tinymce ol li ul li
+{
+   list-style-type: circle ;
+}
+
+.content_tinymce ol li ul li ol li
+{
+   list-style-type: decimal;
+}
+
+.content_tinymce ol li ul li ol li ul li
+{
+   list-style-type: square;
+}
+
+.content_tinymce
+{
+    margin: 10px;
+}
+
+#st_webpage-title h2
+{
+    float:left;
+}
+
+
+.box_group_webpage
+{
+    float: left;
+    width: 145px;
+    padding: 10px 0px 10px 10px;
+}
+
+.box_group_webpage h3
+{
+    font-size: 14px;
+    font-weight: bold;
+    color:#898989;
+    padding-bottom: 5px;
+}
+
+.box_group_webpage ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box_group_webpage ul li
+{
+    padding: 0px;
+    line-height: 16px;
+}
+
+.box_group_webpage ul li a
+{
+    font-size: 11px;
+    text-decoration: none;
+    color: #a0a0a0;
+}

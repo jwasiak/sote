@@ -1,0 +1,40 @@
+{set layout="one_column_layout"}
+<div id="st_application-user-account" class="st_application">
+
+    <div class="title">
+        <h2>{__ text="Rejestracja danych."}</h2>
+        <p>{__ text="Potwierdzenie autentyczności adresu."}</p>
+    </div>
+    
+    
+    <div class="st_content">    
+
+            {if $confirm == '0'}
+
+            <p>
+                {__ text="Wystąpił problem z rejestracją użytkownika."}
+            </p>
+            
+            {/if}
+
+            {if $confirm == '1'}
+
+            <p>
+                {__ text="Dziękujemy za dokonanie rejestracji. Twoje konto zostało zaktywowane i jest w pełni funkcjonalne. Zaloguj się aby uzyskać dostęp do konta użytkownika."}
+            </p>
+            
+            {/if}
+            
+            {if $confirm == '2'}
+
+            <p>
+                {__ text="Twoje konto zostało już wcześniej potwierdzone."}
+            </p>
+            
+            {/if}
+
+        
+    </div>
+    <div id="st_application-user-login-foot">
+    </div>
+</div>

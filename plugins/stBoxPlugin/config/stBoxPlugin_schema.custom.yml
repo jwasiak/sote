@@ -1,0 +1,58 @@
+propel: 
+    st_box: 
+        _attributes: 
+            phpName: Box
+            isI18N: true
+            i18nTable: st_box_i18n
+        opt_name: {change_column: name}
+        opt_content: {change_column: content}
+
+    st_box_i18n: 
+        _attributes: 
+            phpName: BoxI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_box
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        content:
+            type: LONGVARCHAR
+
+    st_box_group:
+        _attributes:
+            phpName: BoxGroup
+            isI18N: true
+            i18nTable: st_box_group_i18n
+        opt_name: {change_column: name}
+
+    st_box_group_i18n:
+        _attributes:
+            phpName: BoxGroupI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_box_group
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name:
+            type: VARCHAR
+            size: 255
+        _indexes:
+            box_group_Index1:
+                - culture

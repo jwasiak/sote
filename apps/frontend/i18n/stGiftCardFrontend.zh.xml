@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Bon zakupowy</source>
+				<target>购物券</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wprowadź kod</source>
+				<target>请输入代码</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Aktywuj</source>
+				<target>激活</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Bon o podanym kodzie nie istnieje</source>
+				<target>该购物券的代码不存在</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Bon o podanym kodzie jest już aktywny</source>
+				<target>该购物券的代码已经处于激活状态</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Bon o podanym kodzie jest nieważny</source>
+				<target>该购物券的代码无效</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Bonem o podanym kodzie można płacić wyłącznie w walucie %currency%</source>
+				<target>该购物券的代码只能支付 %currency%货币</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Usuń bon</source>
+				<target>取消购物券</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Musisz złożyć zamówienie za minimum %%amount%%</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

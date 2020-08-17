@@ -1,0 +1,9 @@
+theme:
+    package: stTheme1Giallorwd
+    name: giallorwd
+    fixtures: fixtures-giallo
+    version: 7
+    default: 0
+    type: open
+    install: true
+    copyable: true

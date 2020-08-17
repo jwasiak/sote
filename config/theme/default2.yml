@@ -1,0 +1,161 @@
+thumbs:
+  slide:
+    thumb:
+      width: 571
+      height: 366
+      quality: 100
+      watermark: false
+      auto_crop: true
+  slide_mobile:
+    thumb:
+      width: 500
+      height: 489
+      quality: 100
+      watermark: false
+      auto_crop: true
+  blog:
+    thumb:
+      width: '640'
+      height: '480'
+      quality: '100'
+      watermark: false
+      auto_crop: true          
+  product:
+    small:
+      width: '164'
+      height: '164'
+      quality: '100'
+      watermark: '1'
+      auto_crop: '1'
+    icon:
+      width: '42'
+      height: '42'
+      quality: '100'
+    thumb:
+      width: '88'
+      height: '88'
+      quality: '100'
+    gallery:
+      width: '88'
+      height: '88'
+      quality: '100'            
+    large:
+      width: '356'
+      height: '356'
+      quality: '100'
+      watermark: '1'
+    big:
+      width: '512'
+      height: '512'
+      quality: '100'
+      watermark: '1'
+  category:
+    small:
+      width: '128'
+      height: '128'
+      quality: '100'
+      watermark: '1'
+    thumb:
+      width: '118'
+      height: '118'
+      quality: '100'
+      auto_crop: '1'
+  producer:
+    thumb:
+      width: '100'
+      height: '84'
+      quality: '100'
+    large:
+      width: '256'
+      height: '256'
+      quality: '100'
+      watermark: '0'
+editor_config:
+  slots: ~
+  graphic:
+    _less:
+      display:      
+        palette:    [color1, color2, color3, color4, color5, color6]
+        colors:     [black, white, red, border]
+      fields:
+        color1:     {label: Najciemniejszy, default: "#000000"}
+        color2:     {label: Ciemny, default: "#999999"}
+        color3:     {label: Jaśniejszy, default: "#bababa"}
+        color4:     {label: Jasny, default: "#c9c8c9"}
+        color5:     {label: Najjaśniejszy, default: "#f4f5f4"}
+        color6:     {label: Kontrast/akcent, default: "#db1814"}
+        black:      {label: Czarny, default: "#000000"}
+        white:      {label: Biały, default: "#ffffff"}
+        red:        {label: Kolor ostrzeżeń, default: "#ff0000"}
+        border:     {label: Kolor obramowań, default: "@color3"}
+  
+    logo:
+      label:                "Wygląd loga"
+      display:              [logo, title_color, desc_color]
+      fields:
+        logo:               {label: Logo, type: image, default: "logo.png"}
+        title_color:        {label: Kolor nazwy sklepu, type: css, selector: "div#header .logo h1", property: color, default: "@black"}
+        desc_color:         {label: Kolor opisu sklepu, type: css, selector: "div#header .logo .txt_logo a", property: color, default: "@black", filter: [lighten, 65%]}
+        
+    header_navbar:
+      label:                "Wygląd górnego paska nawigacyjnego"
+      display:              [border, bg_color, txt_color, home_icon, cart_icon]
+      fields:
+        border:             {label: Kolor obramowania, type: css, selector: "div#underbaner", property: border-color, default: "@color2"}
+        bg_color:           {label: Kolor tła, type: css, selector: "div#underbaner", property: background-color, default: "@color5"}
+        txt_color:          {label: Kolor tekstu, type: css, selector: "div#underbaner, div#underbaner .header a, div#user_status_info a, div#basket_icon a", property: color, default: "@color1"}
+        home_icon:          {label: Ikonka powrót do strony głównej, type: image, default: "icon_home.gif"}
+        cart_icon:          {label: Ikonka koszyka, type: image, default: "basket/basket_selected.png"}
+        
+    footer_navbar:
+      label:                "Wygląd dolnego paska nawigacyjnego"
+      display:              [border, bg_color, headers_color, txt_color]
+      fields:
+        border:             {label: Kolor obramowania, type: css, selector: "div#footer", property: border-color, default: "@border"}
+        bg_color:           {label: Kolor tła, type: css, selector: "div#footer", property: background-color, default: "@color5"}
+        txt_color:          {label: Kolor linków, type: css, selector: "div#webpage_groups a", property: color, default: "@color2"}  
+        headers_color:      {label: Kolor nagłówków, type: css, selector: "div#webpage_groups h4", property: color, default: "@color1"}
+        
+    background:
+      label:                "Wygląd tła strony"
+      display:              [color, image, repeat]
+      fields:
+        color:              {label: Kolor tła, type: css, selector: body, property: background-color, default: "@white"}
+        image:              {label: Obraz tła, type: css, selector: body, property: background-image, default: 'body.gif'}
+        repeat:             {label: Powtórzenie tła, type: css, selector: body, property: background-repeat, default: 'repeat-x'}
+        
+    product_box:
+      label:                Wygląd ramki grup produktów
+      display:              [border, header_bg, header_txt, bg_color, txt_color, header_icon, product_icon]
+      fields:
+        border:             {label: Kolor obramowania, type: css, selector: ".box_group, .box_group .head", property: border-color, default: "@border"}
+        header_bg:          {label: Kolor tła nagłówka, type: css, selector: ".box_group .head", property: [background-color, border-color], default: "@color4"}
+        header_txt:         {label: Kolor tekstu nagłówka, type: css, selector: ".box_group .head a", property: color, default: "@color1"}
+        bg_color:           {label: Kolor tła zawartości, type: css, selector: ".box_group", property: background-color, default: "@white"}
+        txt_color:          {label: Kolor tekstu zawartości, type: css, selector: ".box_group .content > a, .box_group .content, .box_group .content span", property: color, default: "@black"}
+        header_icon:        {label: Ikonka nagłówka, type: css, selector: ".box_group .head a", property: background-image, default: "buttons/heading-arrow.png"} 
+        product_icon:       {label: Ikonka pozycji produktów, type: css, selector: ".box_group .content > a", property: background-image, default: "circle_list_product.gif"}
+        
+    info_box:
+      label:                Wygląd ramki informacyjnej
+      display:              [border, header_bg, header_txt, bg_color, txt_color, header_icon]
+      fields:
+        border:             {label: Kolor obramowania, type: css, selector: ".box_info, .box_info .head", property: border-color, default: "@border"}
+        txt_color:          {label: Kolor tekstu zawartości, type: css, selector: ".box_info .content", property: color, default: "@black"}
+        bg_color:           {label: Kolor tła zawartości, type: css, selector: ".box_info", property: background-color, default: "@white"}
+        header_bg:          {label: Kolor tła nagłówka, type: css, selector: ".box_info .head", property: [background-color, border-color], default: "@color4"}
+        header_txt:         {label: Kolor tekstu nagłówka, type: css, selector: ".box_info h3", property: color, default: "@color1"} 
+        
+    category_box:
+      label:                Wygląd ramki kategorii
+      display:              [border, header_bg, header_txt, bg_color, txt_color, header_icon, open_icon, closed_icon, leaf_icon, preload_icon]
+      fields:
+        border:             {label: Kolor obramowania, type: css, selector: "div#category_tree .content", property: border-color, default: "@border"}
+        header_bg:          {label: Kolor tła nagłówka, type: css, selector: "div#category_tree .head", property: [background-color, border-color], default: "@color6"}
+        header_txt:         {label: Kolor tekstu nagłówka, type: css, selector: "div#category_tree h3", property: color, default: "@white"} 
+        bg_color:           {label: Kolor tła kategorii, type: css, selector: "div#category_tree", property: background-color, default: "@white"}
+        txt_color:          {label: Kolor tekstu kategorii, type: css, selector: "div#category_tree a, div#category_tree a span", property: color, default: "@black"}
+        open_icon:          {label: Ikonka kategorii rozwiniętej, type: css, selector: "div#category_tree .x-tree-arrows .x-tree-elbow-minus", property: background-image, default: "arrow_category_open.png"}
+        closed_icon:        {label: Ikonka kategorii zwiniętej, type: css, selector: "div#category_tree .x-tree-arrows .x-tree-elbow-plus", property: background-image, default: "arrow_category.png"}       
+        leaf_icon:          {label: Ikonka kategorii nierozwijalnej, type: css, selector: "div#category_tree .x-tree-arrows .x-tree-elbow-leaf", property: background-image, default: "arrow_category_leaf.png"}
+        preload_icon:       {label: Ikonka ładowania podkategorii, type: css, selector: "div#category_tree .x-tree-arrows .preload", property: background-image, default: "preloader_category.gif"}

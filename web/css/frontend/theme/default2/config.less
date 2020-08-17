@@ -1,0 +1,65 @@
+/* LAYOUT */
+@width: 990px;
+
+/***     COLORS      ************************/
+@color1: #000000;
+@color2: #999999;
+@color3: #bababa;
+@color4: #c9c8c9;
+@color5: #f4f5f4;
+
+/* Extra Colors */
+
+@color6: #db1814;
+
+/* Black & White */
+@black: #000;
+@white: #fff;
+
+/* Global */
+@bgmargin: 0px;
+@text: lighten(@black,15%);
+@bgcolor: @color4;
+@red: red;
+@a: @black;
+
+/* Header */
+@bar: @color5;
+@bar_border: @color2;
+@bar_text: @color1;
+
+/* Components */
+@head: @color4;
+@head_text: @color1;
+@border: @color3;
+@button: darken(@color3,5%);
+
+/* Selected components */
+@head_selected: @color6;
+@head_selected_text: @white;
+@border_selected: darken(@color3,7%);
+@a_selected: @color6;
+
+/* Footer */
+@foot: @color5;
+
+/*** Layout/Components/etc ******************/
+@width1: @width - (@bgmargin*2);
+@column: @width1*0.18864097;
+@space: @width1*0.01419878;
+
+/* 3 columns divided into 4 columns */
+@column3on4: ((@column*3)+(@space*2)) * 0.23720137; 
+@space3on4:  @column3on4*0.075268817;
+
+/* 3 columns divided into 5 columns */
+@column3on5: ( @column*3 + @space*2 ) / (5 + 4 * 0.075268817 );
+@space3on5: @column3on5 * 0.075268817;
+
+/* 4 columns divided into 5 columns */
+@column4on5: ( @column*4 + @space*3 ) / (5 + 4 * 0.075268817 );
+@space4on5: @column4on5 * 0.075268817;
+
+/* 4 columns divided into 6 columns */
+@column4on6: ( @column*4 + @space*3 ) / (6 + 5 * 0.075268817 );
+@space4on6: @column4on6 * 0.075268817;

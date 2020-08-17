@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dodatkowy opis</source>
+                <target>Additional description</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wyświetlanie dodatkowego opisu</source>
+                <target>Position of additional description</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Pokaż dodatkowy opis</source>
+                <target>Show additional description</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja dodatkowego opisu produktu</source>
+                <target>Configuration of product’s additional description</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Konfiguracja dodatkowego opisu produktu</source>
+                <target>Configuration of product’s additional description</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Informacje o module</source>
+                <target>Module information</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Więcej informacji o aplikacji można znaleźć na stronie</source>
+                <target>You can find more information about this module at</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>wersja</source>
+                <target>version</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Konfiguracja dodatkowego opisu</source>
+                <target>Configuration of additional description</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Dodatkowy opis produktu</source>
+                <target>Additional product's description</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Konfiguracja - włącz dodatkowy opis</source>
+                <target>Configuration - enable additional description</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,17 @@
+package:
+  name: stGuardPlugin
+  stability: stable
+  version: 7.4.0.2
+  summary: Autoryzacja
+  description: 'Zarzadzaniem autoryzacja'
+  notes: |
+     - Aktualizacja dla PHP 7.0.x oraz 7.1.x
+  maintainers:
+    'Marek Jakubowicz':
+      role: lead
+      user: marek
+      email: marek.jakubowicz@sote.pl
+    'Bartosz Alejski':
+      role: contributor
+      user: bartek
+      email: bartosz.alejski@sote.pl

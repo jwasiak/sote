@@ -1,0 +1,57 @@
+<div id="blog">
+	{foreach key=row item=blog from=$results}
+		<div class="item box">
+		   {if $blog.image_name!=""}		    
+			<div class="image">
+				{$blog.image_main_page}
+			</div>
+			<div class="info">
+				<div class="title">
+					<h4>{$blog.name}</h4>
+				</div>
+				<div class="desc">
+					  {$blog.short_description_char_count}
+				</div>
+				{if $date != 0}
+					<div class="data">{$blog.date}</div>
+				{/if}
+			</div>
+			<div class="clear"></div>
+			{else}
+			
+                <div class="title">
+                    <h4>{$blog.name}</h4>
+                </div>
+                <div class="desc">
+                      {$blog.short_description_char_count}
+                </div>
+                {if $date != 0}
+                    <div class="data">{$blog.date}</div>
+                {/if}
+            
+			{/if}
+		</div>
+	{/foreach}
+	<div class="clear"></div>
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+       function equalHeight(group)
+       {
+       tallest = 0;
+       group.each(function() {
+          thisHeight = $(this).height();
+          if(thisHeight > tallest) {
+             tallest = thisHeight;
+          }
+        });
+        group.height(tallest);
+        }
+           equalHeight($("#blog .info"));
+          
+});
+</script>
+{/literal}

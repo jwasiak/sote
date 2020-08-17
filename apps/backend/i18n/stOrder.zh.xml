@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-04-18T12:00:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zamówienie numer:</source>
+                <target>订单号:</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Przejdź do zamówienia</source>
+                <target>去订单。</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Data złożenia zamówienia:</source>
+                <target>订单日期:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>%host% - Zamówienie numer "%number%": %status%</source>
+                <target>%host% - 订单号%number%:%status%</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Numer przesyłki:</source>
+                <target>包裹号码:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

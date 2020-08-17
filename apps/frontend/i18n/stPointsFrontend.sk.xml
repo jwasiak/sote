@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twoje punkty</source>
+				<target>Tvoje body</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Moje konto</source>
+				<target>Moje konto</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Punkty</source>
+				<target>Body</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Aktualnie posiadasz</source>
+				<target>Aktuálne máš</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Lista operacji</source>
+				<target>Zoznam operácií</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Operacja</source>
+				<target>Operácia</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmienił</source>
+				<target>Zmenil</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Opis</source>
+				<target>Opis</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Data</source>
+				<target>Dátum</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Stan konta</source>
+				<target>Stav konta</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>administrator</source>
+				<target>administrátor</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Zam</source>
+				<target>Obj</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Aktualizované v rámci objednávky</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Próg aktywacji punktów</source>
+				<target>Prah aktivácia bodov</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>osiągnięty</source>
+				<target>bol dosiahnutý</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Próg aktywacji punktów nie został osiągnięty</source>
+				<target>Prah aktivácie bodov nebol dosiahnutý</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>do aktywacji brak</source>
+				<target>do aktivácie chýba</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Po zgromadzeniu łącznie</source>
+				<target>Po nazbieraní spolu</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>będzie można dokonywać zakupów za punkty.</source>
+				<target>budeš môcť nakupovať za body.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktywacja jest jednorazowa.</source>
+				<target>Aktivácia je jednorazová.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+				<target>Po prekročení prahu aktivácie nebude používanie bodového systému nijak obmedzené.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Aktualizacja stanu konta</source>
+				<target>Aktualizácia stavu konta</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

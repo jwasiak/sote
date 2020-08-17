@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2015-01-15T02:13:45Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twoje punkty</source>
+				<target>Dine poeng</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Moje konto</source>
+				<target>Min konto</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Punkty</source>
+				<target>Poeng</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Aktualnie posiadasz</source>
+				<target>Nå har du</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Lista operacji</source>
+				<target>Liste over operasjoner</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Operacja</source>
+				<target>Operasjon</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmienił</source>
+				<target>Endret av</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Opis</source>
+				<target>Beskrivelse</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Data</source>
+				<target>Dato</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Stan konta</source>
+				<target>Kontostatus</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>administrator</source>
+				<target>administrator</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Zam</source>
+				<target>Ord</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Oppdatert ved bestilling</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Próg aktywacji punktów</source>
+				<target>Aktiveringsterskel for poeng</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>osiągnięty</source>
+				<target>oppnådd</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Próg aktywacji punktów nie został osiągnięty</source>
+				<target>Aktiveringsterskel for poeng er ikke nådd</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>do aktywacji brak</source>
+				<target>for aktivering mangler det</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Po zgromadzeniu łącznie</source>
+				<target>Etter å ha samlet totalt</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>będzie można dokonywać zakupów za punkty.</source>
+				<target>vil det være mulig å kjøpe for poeng.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktywacja jest jednorazowa.</source>
+				<target>Aktiveringen skjer én gang.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+				<target>Etter at aktiveringsterskel er oppnådd blir bruk av poengsystemet ubegrenset.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Aktualizacja stanu konta</source>
+				<target>Oppdatering av kontostatus </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

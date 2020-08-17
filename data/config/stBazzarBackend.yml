@@ -1,0 +1,8 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/11/27 11:39:40
+      fields: 
+        shop_id: 
+        shop_name: 

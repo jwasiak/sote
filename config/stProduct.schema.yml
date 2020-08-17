@@ -1,0 +1,344 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_product: 
+    _attributes: 
+      phpName: Product
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    parent_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: setnull
+    currency_id: 
+      type: INTEGER
+      foreignTable: st_currency
+      foreignReference: id
+      onDelete: setnull
+    producer_id: 
+      type: INTEGER
+      foreignTable: st_producer
+      foreignReference: id
+      onDelete: setnull
+    code: 
+      type: VARCHAR
+      size: 255
+      required: true
+    price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true  
+    opt_price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+    delivery_price:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    bpum_default_id: 
+      type: INTEGER
+      foreignTable: st_basic_price_unit_measure
+      foreignReference: id
+      required: false
+      onDelete: setnull  
+    bpum_default_value:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    bpum_id: 
+      type: INTEGER
+      foreignTable: st_basic_price_unit_measure
+      foreignReference: id
+      onDelete: setnull  
+      required: false
+    bpum_value:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    currency_price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    old_price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_old_price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    points_value: 
+      type: INTEGER
+      default: 0
+    points_earn: 
+      type: INTEGER
+      default: 0
+    points_only: 
+      type: BOOLEAN
+      default: false      
+    currency_old_price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_vat: 
+      type: DECIMAL
+      size: 5
+      scale: 2
+    currency_exchange: 
+      type: DECIMAL
+      size: 6
+      scale: 4
+      default: 1
+    active: 
+      type: BOOLEAN
+      default: true
+    hide_price: 
+      type: TINYINT
+      default: null
+    has_fixed_currency: 
+      type: BOOLEAN
+      default: false 
+    opt_image: 
+      type: VARCHAR
+      size: 255
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_short_description: 
+      type: LONGVARCHAR
+    opt_description: 
+      type: MEDIUMTEXT
+    opt_url: 
+      type: VARCHAR
+      size: 255
+    opt_asset_folder: 
+      type: VARCHAR
+      size: 32
+    opt_uom: 
+      type: VARCHAR
+      size: 10
+    deliveries:
+      type: VARCHAR
+      size: 1024
+      phpType: array
+      required: false
+    min_qty: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+      default: 1
+    max_qty: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+      default: 0
+    step_qty: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+      default: 0
+    is_stock_validated: 
+      type: BOOLEAN
+    is_gift:
+        type: INTEGER
+        required: true
+        default: 0
+    is_service:
+        type: BOOLEAN
+        required: true
+        default: 0
+    stock_in_decimals: 
+      type: TINYINT
+      default: 0
+    man_code: 
+      type: VARCHAR
+      size: 20
+    main_page_order: 
+      type: INTEGER
+      default: 0
+    priority: 
+      type: INTEGER
+      default: 0
+    stock_managment:
+      type: TINYINT
+      default: 0      
+    dimension_id:
+      type: INTEGER
+      foreignTable: st_product_dimension
+      foreignReference: id
+      onDelete: setnull  
+      required: false
+    width:
+      type: FLOAT
+      default: 0
+      required: true
+    height: 
+      type: FLOAT
+      default: 0
+      required: true
+    depth:
+      type: FLOAT
+      default: 0
+      required: true
+    opt_product_group:
+      type: LONGVARCHAR
+    _uniques: 
+      product_code: 
+        - code
+    _indexes:
+      bpum_default_idx:
+        - bpum_default_id
+      bpum_idx:
+        - bpum_id
+      dimension_idx:
+        - dimension_id
+  st_product_has_category: 
+    _attributes: 
+      phpName: ProductHasCategory
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    category_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_category
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    is_default: 
+      type: BOOLEAN
+      default: 0
+  st_product_has_sf_asset: 
+    _attributes: 
+      phpName: ProductHasSfAsset
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_asset_id: 
+      type: INTEGER
+      required: true
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    is_default: 
+      type: BOOLEAN
+      default: false
+  st_product_has_attachment: 
+    _attributes: 
+      phpName: ProductHasAttachment
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    language_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_language
+      foreignReference: id
+      onDelete: setnull
+    sf_asset_id: 
+      type: INTEGER
+      required: true
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    is_active: 
+      type: BOOLEAN
+      default: true
+    opt_culture: 
+      type: VARCHAR
+      size: 7
+  st_product_has_recommend: 
+    _attributes: 
+      phpName: ProductHasRecommend
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    recommend_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+  st_product_dimension:
+    _attributes: 
+      phpName: ProductDimension
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name:
+      type: VARCHAR
+      size: 64
+    width:
+      type: FLOAT
+      default: 0
+      required: true
+    height: 
+      type: FLOAT
+      default: 0
+      required: true
+    depth:
+      type: FLOAT
+      default: 0
+      required: true

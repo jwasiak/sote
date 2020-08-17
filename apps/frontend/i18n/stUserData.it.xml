@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2012-07-02T03:01:14Z">
+		<body>
+			<trans-unit id="1">
+				<source>Moje konto</source>
+				<target>Il mio account</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dane billingowe</source>
+				<target>Dati di fatturazione</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowy adres</source>
+				<target>Nuovo indirizzo</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Edytuj</source>
+				<target>Modificare</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak danych billingowych, uniemożliwi dokonywanie zakupów. Proszę uzupełnij dane billingowe.</source>
+				<target>Mancano i dati per la fatturazione, impossibile realizzare l'acquisto. Completare i dati per la fatturazione.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Uzupełnij swoje dane!</source>
+				<target>Completare i dati!</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Dane dostawy</source>
+				<target>Dati per la spedizione</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Brak danych dostawy, uzupełnij swoje dane bilingowe aby móc zarządzać danymi dostawy.</source>
+				<target>Mancano i dati per la spedizione, completare i dati di fatturazione per gestire i dati per la spedizione.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Domyślne dane bilingowe</source>
+				<target>Dati di fatturazione predefiniti</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Ustaw jako domyślne dane bilingowe</source>
+				<target>Salvare come dati predefiniti di fatturazione.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Domyślne dane dostawy</source>
+				<target>Dati per la spedizione predefiniti</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Ustaw jako domyślne dane dostawy</source>
+				<target>Salvare come dati predefiniti di spedizione.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Domyślne dane nie mogą być usunięte</source>
+				<target>I dati predefiniti non possono essere eliminati</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Usuń dane</source>
+				<target>Cancellare i dati.</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Edytuj dane</source>
+				<target>Modificare i dati.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Domyślne dane</source>
+				<target>Dati predefiniti</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Ustaw dane jako domyślne</source>
+				<target>Salvare come dati predefiniti.</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Firma</source>
+				<target>Azienda</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Imię i nazwisko</source>
+				<target>Nome e Cognome</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Ulica, nr domu</source>
+				<target>Via, numero civico</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kod, miasto</source>
+				<target>Codice, città</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Kraj</source>
+				<target>Nazione</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Telefon</source>
+				<target>Telefono</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>NIP</source>
+				<target>CODICE FISCALE</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Ustaw jako domyślne dane.</source>
+				<target>Salvare come dati predefiniti.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Zapisz</source>
+				<target>Salvare</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Przejdź do potwierdzenia</source>
+				<target>Passare alla conferma.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rejestracja</source>
+				<target>Registrazione</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Podaj dane billingowe aby dokończyć proces rejestracji.</source>
+				<target>Inserire i dati di fatturazione per completare il processo di registrazione.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane dostawy są inne niż dane billingowe</source>
+				<target>I dati per la spedizione sono diversi dai dati di fatturazione.</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Powiadamiaj mnie o nowościach w sklepie</source>
+				<target>Desidero essere informato sulle novità in negozio.</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Cyfry z obrazka</source>
+				<target>Codice anti-spam</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Accetto la politica di privacy.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Dodaj nowy adres</source>
+				<target>Aggiungere un nuovo indirizzo.</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Il numero di caratteri consentiti è stato superato.</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Brak imienia.</source>
+				<target>Manca il nome.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Brak nazwiska.</source>
+				<target>Manca il cognome.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Brak ulicy.</source>
+				<target>Manca la via.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Brak domu.</source>
+				<target>Manca il numero civico.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak kodu.</source>
+				<target>Manca il codice postale.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak miasta.</source>
+				<target>Manca la città.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Brak telefonu.</source>
+				<target>Manca il telefono.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Dane logowania</source>
+				<target>Dati di accesso</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Edycja danych dostawy</source>
+				<target>Modificare i dati per la consegna.</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Edycja danych billingowych</source>
+				<target>Modificare i dati di fatturazione.</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Nie podałeś adresu e-mail.</source>
+				<target>Manca l’indirizzo e-mail.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Wprowadzono zły numer.</source>
+				<target>Introdotto numero sbagliato.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Formato dell’indirizzo e-mail non valido</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Devi esprimere il consenso alla politica di privacy.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Musisz podać imię i nazwisko lub dane firmowe.</source>
+				<target>È necessario inserire il nome o dati aziendali.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Musisz podać imię i nazwisko lub nazwę firmy.</source>
+				<target>È necessario inserire il nome e il cognome o il nome della società.</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Uwagi do zamówienia</source>
+				<target>Note all’ordine</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>(Dla nowych klientów)</source>
+				<target>(Per i nuovi clienti)</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Załóż konto (zarejestruj mnie)</source>
+				<target>Creare un account (Registrazione).</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Brak adresu e-mail.</source>
+				<target>Nessun indirizzo e-mail</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Dane bilingowe</source>
+				<target>Dati di fatturazione</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak danych dostawy, uzupełnij swoje dane dostawy aby móc dokonywać zakupów w sklepie.</source>
+				<target>Mancano i dati per la spedizione, completare i dati per la spedizione per poter fare acquisti in negozio.</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>Minimo 6 caratteri</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>bardzo słabe</source>
+				<target>Molto vulnerabile</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>słabe</source>
+				<target>Vulnerabile</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>normalne</source>
+				<target>Normale</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>mocne</source>
+				<target>Sicura</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>bardzo mocne</source>
+				<target>Molto sicura</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Brak hasła.</source>
+				<target>Manca la password.</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Hasła nie są takie same.</source>
+				<target>Le password non sono uguali.</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Hasło</source>
+				<target>Password</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Powtórz hasło</source>
+				<target>Ripetere la password.</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Brak nipu.</source>
+				<target>Manca il codice fiscale.</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Klient indywidualny</source>
+				<target>Cliente individuale</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>Musisz podać imię i nazwisko.</source>
+				<target>È necessario inserire il nome e il cognome.</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>Adres</source>
+				<target>L’indirizzo</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>np. Nazwa ulicy nr/nr</source>
+				<target>ad esempio, il nome della via No / No</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>adres ciąg dalszy</source>
+				<target>Indirizzo di più</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Województwo</source>
+				<target>Regione</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Brak adresu.</source>
+				<target>Nessun indirizzo fornito.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Uwagi</source>
+				<target>Commenti</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>komentarz do zamówienia</source>
+				<target>commenti alla fine</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>I campi in grassetto sono obbligatori.</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Jedno z pól jest wymagane.</source>
+				<target>Uno dei campi è obbligatorio.</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Zalogowano z konta google</source>
+				<target>Accesso effettuato dal conto Google</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Kod</source>
+				<target>Codice</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Miasto</source>
+				<target>Città</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Załóż konto</source>
+				<target>Crea un conto</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Inne dane wysyłkowe</source>
+				<target>Altri dati di spedizione</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Dane płatnika</source>
+				<target>Dati dell’acquirente</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Dane wysyłkowe</source>
+				<target>Dati di spedizione</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Moje dane</source>
+				<target>I miei dati</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zamówienia</source>
+				<target>Ordini</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>Podaj dane płatnika i wysyłkowe.</source>
+				<target>Inserisci i dati dell’acquirente e della spedizione.</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>Compila i campi evidenziati.</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Niepoprawny adres.</source>
+				<target>Indirizzo errato.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Adres ciąg dalszy</source>
+				<target>Segue indirizzo</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Rabaty</source>
+				<target>Sconti</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Chcę otrzymać fakturę vat</source>
+				<target>Voglio ricevere la fattura</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Newsletter</source>
+				<target>Newsletter</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Edycja danych</source>
+				<target>Modifica dei dati</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Podany numer VAT UE jest nieaktywny lub nieprawidłowy</source>
+				<target>Il numero di partita IVA UE inserito è inattivo o non valido</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Brak adresu email.</source>
+				<target>Manca l’indirizzo e-mail.</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Brak imienia i nazwiska.</source>
+				<target>Mancano nome e cognome.</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Brak firmy.</source>
+				<target>Manca l’azienda.</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>Domyślne dane płatnika</source>
+				<target>Dati del pagante predefiniti</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>Alternatywne dane</source>
+				<target>Dati alternativi</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>I dati sono stati aggiornati.</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Ustaw jako domyślne</source>
+				<target>Imposta come predefinito</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Brak numeru NIP.</source>
+				<target>Manca il numero di partita IVA.</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Questo utente esiste già.</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>VAT UE</source>
+				<target>IVA UE</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Treść uwag</source>
+				<target>Contenuto delle note</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Podany numer VAT UE nie spełnia wymogów wewnątrzwspólnotowego nabycia towarów</source>
+				<target>Il numero di partita IVA UE non è conforme ai requisiti per l’acquisto intracomunitario di merci</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Punkty</source>
+				<target>Punti</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Twoje punkty</source>
+				<target>I tuoi punti</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Pola wymagane</source>
+				<target>Campi obbligatori</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Akceptuję</source>
+				<target>Accetto</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>i przeczytałem</source>
+				<target>e ho letto</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

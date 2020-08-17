@@ -1,0 +1,4 @@
+fields:
+    payment_type{name}:
+        required:
+            msg:    Podaj nazwę typu płatności.

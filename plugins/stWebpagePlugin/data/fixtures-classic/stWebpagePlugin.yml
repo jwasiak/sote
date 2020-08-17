@@ -1,0 +1,397 @@
+Webpage: 
+  Webpage_1: 
+    active: 1
+    culture: pl_PL
+    name: O firmie
+    content: >
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img width="180" height="211" alt="Sample image" src="/uploads/images/medal.png" style="float: left; padding-right: 15px; padding-bottom: 10px;">Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    url: o-firmie
+  Webpage_2: 
+    culture: pl_PL
+    name: Regulamin
+    content: >
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p><h3>Pellentesque habitant morbi tristique senectus</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      </ol>
+      <h3>Cras elit enim, mollis ac lobortis non, porttitor in felis</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+    active: 1
+    url: regulamin
+    state: TERMS
+  Webpage_3: 
+    culture: pl_PL
+    name: Kontakt
+    content: >
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    active: 1
+    url: kontakt
+  Webpage_4: 
+    culture: pl_PL
+    name: Polityka prywatności
+    content: >
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Pellentesque habitant morbi tristique senectus</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      </ol>
+      <h3>Cras elit enim, mollis ac lobortis non, porttitor in felis</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+    active: 1
+    url: polityka-prywatnosci
+    state: PRIVACY
+  Webpage_5: 
+    culture: pl_PL
+    name: Koszty i sposoby dostawy
+    content: >
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    active: 1
+    url: koszty-i-sposoby-dostawy
+    state: SHIPPING
+  Webpage_6: 
+    culture: pl_PL
+    name: Sposoby płatności
+    content: >
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img width="180" height="211" alt="Sample image" src="/uploads/images/medal.png" style="float: left; padding-right: 15px; padding-bottom: 10px;">Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    active: 1
+    url: sposoby-platnosci
+  Webpage_7: 
+    culture: pl_PL
+    name: Prawo do odstąpienia od umowy
+    content: >
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    active: 1
+    url: prawo-do-odstapienia-od-umowy
+    state: RIGHT2CANCEL
+WebpageI18n:
+  WebpageI18n_1:
+    id: Webpage_1
+    culture: en_US
+    name: About Company
+    content: >
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img width="180" height="211" alt="Sample image" src="/uploads/images/medal.png" style="float: left; padding-right: 15px; padding-bottom: 10px;">Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    url: about-company
+  WebpageI18n_2: 
+    id: Webpage_2
+    culture: en_US
+    name: Terms and Conditions
+    content: >
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p><h3>Pellentesque habitant morbi tristique senectus</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      </ol>
+      <h3>Cras elit enim, mollis ac lobortis non, porttitor in felis</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+    url: terms-and-conditions
+  WebpageI18n_3: 
+    id: Webpage_3
+    culture: en_US
+    name: Contact
+    content: >
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    url: contact
+  WebpageI18n_4:    
+    id: Webpage_4
+    culture: en_US
+    name: Privacy policy
+    content: >
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Pellentesque habitant morbi tristique senectus</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      </ol>
+      <h3>Cras elit enim, mollis ac lobortis non, porttitor in felis</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <ol style="list-style-position: outside; margin-left: 17px; padding: 10px 0;">
+      <li>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta.</li>
+      <li>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo.</li>
+      <li>Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</li>
+      <li>In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula.</li>
+      </ol>
+    url: privacy-policy
+  WebpageI18n_5: 
+    id: Webpage_5
+    culture: en_US
+    name: Shipping
+    content: >
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/audio1.png" alt="Sample imageSample image" width="180" height="216" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p><img style="float: right; padding-left: 15px; padding-bottom: 10px;" src="/uploads/images/speaker_desc2.png" alt="Sample image" width="180" height="211" />Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    url: shipping
+  WebpageI18n_6: 
+    id: Webpage_6
+    culture: en_US
+    name: Payments
+    content: >
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img width="180" height="211" alt="Sample image" src="/uploads/images/medal.png" style="float: left; padding-right: 15px; padding-bottom: 10px;">Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p>
+      <p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p>
+      <h3>Finibus Bonorum et Malorum</h3>
+      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    url: payments
+  WebpageI18n_7: 
+    id: Webpage_7
+    culture: en_US
+    name: Right to cancel
+    content: >
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>§
+    url: right-to-cancel
+WebpageGroup: 
+  WebpageGroup_2:
+    culture: pl_PL
+    name: Zamówienie
+    group_page: INFO
+    show_footer: 1
+  WebpageGroup_3:
+    culture: pl_PL
+    name: Nagłówek
+    group_page: HEADER
+    show_header: 1
+  WebpageGroup_4:
+    culture: pl_PL
+    name: Informacje
+    show_footer: 1
+
+WebpageGroupI18n:
+   WebpageGroupI18n_2:
+    id: WebpageGroup_2
+    culture: en_US
+    name: Order
+   WebpageGroupI18n_4:
+    id: WebpageGroup_3
+    culture: en_US
+    name: Header
+   WebpageGroupI18n_6:
+    id: WebpageGroup_4
+    culture: en_US
+    name: Information
+
+WebpageGroupHasWebpage: 
+  WebpageGroupHasWebpage_4:
+    webpage_id: Webpage_1
+    webpage_group_id: WebpageGroup_4
+    rank: 1
+  WebpageGroupHasWebpage_5:
+    webpage_id: Webpage_2
+    webpage_group_id: WebpageGroup_2
+    rank: 2
+  WebpageGroupHasWebpage_6:
+    webpage_id: Webpage_3
+    webpage_group_id: WebpageGroup_4
+    rank: 3
+  WebpageGroupHasWebpage_7:
+    webpage_id: Webpage_5
+    webpage_group_id: WebpageGroup_2
+    rank: 4
+  WebpageGroupHasWebpage_8:
+    webpage_id: Webpage_6
+    webpage_group_id: WebpageGroup_2
+    rank: 5
+  WebpageGroupHasWebpage_9:
+    webpage_id: Webpage_7
+    webpage_group_id: WebpageGroup_2
+    rank: 7
+  WebpageGroupHasWebpage_10:
+    webpage_id: Webpage_4
+    webpage_group_id: WebpageGroup_2
+    rank: 6

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2012-07-02T03:01:07Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ostatnie zamówienia</source>
+				<target>Letzte Bestellungen</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Aktualnie nie posiadasz żadnych zamówień</source>
+				<target>Zurzeit haben Sie keine Bestellungen</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Data złożenia zamówienia</source>
+				<target>Datum der Bestellaufgabe</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zamówienie numer</source>
+				<target>Bestellung-Nr.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Dane bilingowe</source>
+				<target>Zahlerdaten</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dane dostawy</source>
+				<target>Lieferadresse</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista zamówienia</source>
+				<target>Bestellliste</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>Schlüssel</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>Netto</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>VAT</source>
+				<target>MwSt.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>Brutto</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>Menge</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Kwota</source>
+				<target>Betrag</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem</source>
+				<target>Summe</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Łączna kwota do zapłaty</source>
+				<target>Fälliger Gesamtbetrag</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność</source>
+				<target>Zahlungsart</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dostawy</source>
+				<target>Lieferungen</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszt</source>
+				<target>Kosten</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Potwierdź zamówienie</source>
+				<target>Bestellung bestätigen</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Moje konto</source>
+				<target>Mein Konto</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dane klienta</source>
+				<target>Kundendaten</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>NIP</source>
+				<target>Steuernummer</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Zawartość</source>
+				<target>Inhalt</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Suma</source>
+				<target>Betrag</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Dane dodatkowe</source>
+				<target>Zusatzdaten</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Dostawa</source>
+				<target>Lieferung</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Łączny koszt (zamówienie + dostawa)</source>
+				<target>Gesamtkosten (Bestellung + Lieferung)</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Numer</source>
+				<target>Nummer</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Potwierdzone</source>
+				<target>Bestätigt</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Recenzja</source>
+				<target>Beurteilung</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tak</source>
+				<target>ja</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>nie</source>
+				<target>nein</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Sprawdź informacje zamówienia</source>
+				<target>Informationen zur Bestellung überprüfen</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Popraw</source>
+				<target>Korrigieren</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Potwierdź</source>
+				<target>Bestätigen</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Zamówienie</source>
+				<target>Bestellung</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Twoje zamówienie zostało złożone</source>
+				<target>Ihre Bestellung wurde aufgegeben</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Lista zamówień</source>
+				<target>Bestellliste</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Przejdź do potwierdzenia</source>
+				<target>Zur Bestätigung</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Uwagi do zamówienia</source>
+				<target>Anmerkungen zur Bestellung</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Data złożenia</source>
+				<target>Aufgabedatum</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Opłacone</source>
+				<target>Bezahlt</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Zamówienie numer %number%</source>
+				<target>Bestellung-Nr. %number%</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Zobacz wszystkie</source>
+				<target>Alle anzeigen</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoje zamówienie zostało potwierdzone.</source>
+				<target>Ihre Bestellung wurde bestätigt.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Twoje zamówienie zostało już wcześniej potwierdzone.</source>
+				<target>Ihre Bestellung wurde bereits bestätigt.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Numer Twojego zamówienia</source>
+				<target>Nummer Ihrer Bestellung</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Dziękujemy za złożenie zamówienia</source>
+				<target>Wir bedanken uns für Ihre Bestellung</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Popraw zamówienie</source>
+				<target>Bestellung korrigieren</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zamówienia</source>
+				<target>Bestellungen</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Zweryfikuj poprawność informacji zawartych w zamówieniu.</source>
+				<target>Die Richtigkeit der Angaben in der Bestellung überprüfen.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Użytkownik</source>
+				<target>Benutzer</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>zamówienie numer</source>
+				<target>Bestellung-Nr.</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Potwierdzone zamówienia</source>
+				<target>Bestätigte Bestellungen</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Niepotwierdzone zamówienia</source>
+				<target>Unbestätigte Bestellungen</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>potwierdź</source>
+				<target>Bestätigen</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>anuluj</source>
+				<target>Abbrechen</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>Faktury</source>
+				<target>Rechnungen</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Pokaż listę zamówień </source>
+				<target>Liste der Bestellungen anzeigen </target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Konto użytkownika</source>
+				<target>Benutzerkonto</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>W czasie składania zamówienia zostanie utworzone konto użytkownika, dane dostępowe do konta zostaną wysłane na adres:</source>
+				<target>Bei der Bestellaufgabe wird ein Benutzerkonto eingerichtet. Die Kontozugangsdaten werden an die folgende Adresse geschickt:</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Aby móc zalogować się do sklepu, niezbędne będzie potwierdzenie danych zawartych w mailu z zamówieniem.</source>
+				<target>Damit Sie sich im Shop einloggen können, müssen Sie die in der E-Mail mit der Bestellung enthaltenen Daten bestätigen.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Zamówienie zostało anulowane.</source>
+				<target>Die Bestellung wurde storniert.</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Hasło</source>
+				<target>Kennwort</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Dane dostępowe do konta</source>
+				<target>Kontozugangsdaten</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Potwierdź zamówienie i rejestrację konta</source>
+				<target>Bestellung und Kontoregistrierung bestätigen</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz. Skorzystaj z linku powyżej aby potwierdzić zamówienie i aktywować konto.</source>
+				<target>Ihre Bestellung wird erst nach der Bestätigung verwirklicht. Benutzen Sie den obigen Link, um die Bestellung zu bestätigen und Ihr Konto zu aktivieren.</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz.</source>
+				<target>Ihre Bestellung wird erst nach der Bestätigung verwirklicht.</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>Zapisz mnie na newsletter</source>
+				<target>Newsletter bestellen</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>Chcę otrzymać fakturę VAT</source>
+				<target>Ich möchte eine Rechnung mit ausgewiesener MwSt. erhalten</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Minimalna wartość zamówienia wynosi %min_amount%</source>
+				<target>Der Mindestbestellwert beträgt %min_amount%</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>złożono nowe zamówienie numer</source>
+				<target>es wurde eine neue Bestellung aufgegeben. Bestellungsnummer:</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Przejdź do konta.</source>
+				<target>Zum Konto.</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Przejdź do zamówienia.</source>
+				<target>Zur Bestellung.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Łączny koszt</source>
+				<target>Gesamtkosten</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Zapłacono</source>
+				<target>Bezahlt</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Razem do zapłaty</source>
+				<target>Fälliger Gesamtbetrag</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Termin dostawy</source>
+				<target>Lieferdatum</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>Die erforderliche Warenmenge ist im Lager nicht vorhanden</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>J.m.</source>
+				<target>Einheit</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Pokaż wszystkie</source>
+				<target>Alle anzeigen</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Numer przesyłki</source>
+				<target>Sendungsnummer</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Dane płatnika</source>
+				<target>Zahlerdaten</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Dane wysyłkowe</source>
+				<target>Lieferadresse</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Dane do faktury</source>
+				<target>Rechnungsdaten</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Informacje</source>
+				<target>Informationen</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>zdjęcie</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>nazwa</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>cena netto</source>
+				<target>Nettopreis</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>vat</source>
+				<target>MwSt.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>brutto</source>
+				<target>Brutto</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>ilość</source>
+				<target>Menge</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>suma</source>
+				<target>Betrag</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Koszty</source>
+				<target>Kosten</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Koszt dostawy</source>
+				<target>Lieferkosten</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Wartość koszyka</source>
+				<target>Warenkorbwert</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Potwierdzenie zamówienia</source>
+				<target>Bestätigung der Bestellung</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Zweryfikuj informacje zawarte w zamówieniu.</source>
+				<target>Überprüfen Sie bitte die Bestellungsdaten.</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Wróć do koszyka</source>
+				<target>Zurück zum Korb</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>Zamów</source>
+				<target>Kaufen</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>Zmień</source>
+				<target>Ändern</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Podsumowanie zamówienia</source>
+				<target>Zusammenfassung der Bestellung</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Zapisz informację.</source>
+				<target>Informationen speichern.</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Drukuj</source>
+				<target>Drucken</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Pobierz</source>
+				<target>Herunterladen</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Zapłać</source>
+				<target>Bezahlen</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Zamówienie nr</source>
+				<target>Bestellung-Nr.</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Do zapłaty</source>
+				<target>Fälliger Betrag</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>j.m.</source>
+				<target>Einheit</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Informacje i uwagi do zamówienia</source>
+				<target>Angaben und Anmerkungen zur Bestellung</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>kod</source>
+				<target>Schlüssel</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>netto</source>
+				<target>Netto</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Zamówienie z obowiązkiem zapłaty.</source>
+				<target>Zahlungspflichtig bestellen.</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>oraz</source>
+				<target> Ich habe</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>regulaminem</source>
+				<target>die AGB's</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Zapoznałem się z moim</source>
+				<target>Ich habe mein Widerrufsrecht zur</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>prawem do odstąpienia od umowy</source>
+				<target>Kenntnis genommen.</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>Proszę o bezzwłoczny dostęp do informacji cyfrowej. Jestem świadomy, że moje prawo od odstąpienia od umowy wygasza wraz z uzyskaniem dostępu.</source>
+				<target>Ja, ich möchte sofort Zugang zu dem digitalen Inhalt und weiß, dass mein Widerrufsrecht mit dem Zugang erlischt.</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>Pobrano z konta</source>
+				<target>Vom Konto abgezogen</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Za zamówienie otrzymasz</source>
+				<target>Für diese Bestellung erhalten Sie</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Aktualisiert durch die Bestellung</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>Rabat</source>
+				<target>Rabatt</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Płatność punktami</source>
+				<target>Mit Punkten zahlen</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>dodatkowa opłata</source>
+				<target>Zusatzgebühr</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Wróć do sklepu</source>
+				<target>Zurück zum Shop</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Zamówienie PDF</source>
+				<target>Bestellung im PDF-Format</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

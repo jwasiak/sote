@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-11-04T04:27:00Z">
+		<body>
+			<trans-unit id="1">
+				<source>Polecenie sklepu</source>
+				<target>Recomendação da loja</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>treść wiadomości</source>
+				<target>Conteúdo da mensagem</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>twój adres e-mail</source>
+				<target>Seu endereço email</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>informacje dodatkowe</source>
+				<target>Informações adicionais</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>Endereço email do seu amigo</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cyfry z obrazka</source>
+				<target>Números da imagem</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>A recomendação já foi enviada para este amigo</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Możesz polecić sklep innemu znajomemu</source>
+				<target>Pode recomendar a loja a outro amigo</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Poleć sklep</source>
+				<target>Recomende a loja</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Wiadomość o treści</source>
+				<target>A seguinte mensagem</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>została wysłana do</source>
+				<target>Foi enviada para</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Envie</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Daj szansę swoim znajomym na poznanie naszego sklepu</source>
+				<target>Diga aos seus amigos sobre a nossa loja</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdzenie wysłania polecenia sklepu</source>
+				<target>Cofirmação do envio da recomendação da loja</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dziękujemy</source>
+				<target>Obrigado</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Powrót</source>
+				<target>Voltar</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Polecenie sklepu było już wysłane do tego użytkownika</source>
+				<target>A recomendação da loja já foi enviada para este utilizador</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Brak adresu e-mail</source>
+				<target>Insira o email </target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Inválido formato do endereço email </target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Introduza os dígitos correctos</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Data polecenia sklepu</source>
+				<target>Data da recomendação da loja</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Sklep polecił</source>
+				<target>A loja foi recomendada por</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Polecenie sklepu.</source>
+				<target>Recomendação da loja</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras da imagem</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Polecone od</source>
+				<target>Recomendado de</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Adresat (e-mail)</source>
+				<target>Destinatário (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Treść</source>
+				<target>Conteúdo</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nadawca (e-mail)</source>
+				<target>Emissor (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Wprowadzono zły numer.</source>
+				<target>O número introduzido está errado</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Esta mensagem foi enviada da loja da internet</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

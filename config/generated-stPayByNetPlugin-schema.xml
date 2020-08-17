@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stPayByNetPlugin.lib.model" noXsd="true">
+
+  <table name="st_paybynet_has_order" phpName="PaybynetHasOrder">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="order_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_order" onDelete="cascade">
+      <reference local="order_id" foreign="id" />
+    </foreign-key>
+    <column name="payment_type" type="VARCHAR" size="255" />
+  </table>
+
+</database>

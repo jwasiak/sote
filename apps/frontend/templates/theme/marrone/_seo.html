@@ -1,0 +1,28 @@
+{if $theme->hasThemeContent('h2-homepage-1') || $theme->hasThemeContent('h2-homepage-2') || $theme->hasThemeContent('h2-homepage-3')}
+<div id="seo" class="row">
+	{if $theme->hasThemeContent('h2-homepage-1')}
+	<div class="col-xs-12 col-sm-4">
+		<h2>{theme_content id='h2-homepage-1'}</h2>
+		{if $theme->hasThemeContent('h2-homepage-1-text')}
+		<div class="tinymce_html"><p>{theme_content id='h2-homepage-1-text'}</p></div>
+		{/if}
+	</div>
+	{/if}
+	{if $theme->hasThemeContent('h2-homepage-2')}
+	<div class="col-xs-12 col-sm-4">
+		<h2>{theme_content id='h2-homepage-2'}</h2>
+		{if $theme->hasThemeContent('h2-homepage-2-text')}
+		<div class="tinymce_html"><p>{theme_content id='h2-homepage-2-text'}</p> </div>
+		{/if}
+	</div>
+	{/if}
+	{if $theme->hasThemeContent('h2-homepage-3')}
+	<div class="col-xs-12 col-sm-4">
+		<h2>{theme_content id='h2-homepage-3'}</h2>
+		{if $theme->hasThemeContent('h2-homepage-3-text')}
+		<div class="tinymce_html"><p>{theme_content id='h2-homepage-3-text'}</p> </div>
+		{/if}
+	</div>
+	{/if}
+</div>
+{/if}

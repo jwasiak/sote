@@ -1,0 +1,104 @@
+generator:
+  class:                        stAdminGenerator
+  param:
+    model_class:                PaczkomatyPack
+    theme:                      simple
+
+    head:
+      package:                  stPaczkomatyPlugin
+
+    fields:
+      created_at:               {name: Data utworzenia}
+      customer_email:           {name: Adres e-mail odbiorcy}
+      customer_phone:           {name: Numer komórkowy odbiorcy}
+      customer_paczkomat:       {name: Paczkomat odbiorcy}
+      sender_paczkomat:         {name: Paczkomat nadawcy}
+      use_sender_paczkomat:     {name: Użyj Paczkomaty}
+      pack_type:                {name: Rozmiar}
+      insurance:                {name: Kwota ubezpieczenia}
+      cash_on_delivery:         {name: Kwota pobrania}
+      description:              {name: Kod referencyjny}
+      code:                     {name: Numer trackingowy przesyłki}
+      status_label:             {name: Status paczki, type: plain}
+      status_changed_at:        {name: Aktualizacja statusu w systemie Paczkomaty.pl}
+      order_number:             {name: Numer zamówienia}
+      tracking_number:          {name: Numer trackingowy przesyłki, type: plain}
+
+    list:
+      menu:
+        display:                [list, config]
+        fields:
+          list:                 {name: Lista paczek, action: @stPaczkomatyPluginDefault}
+          config:               {name: Konfiguracja, action: stPaczkomatyBackend/config}
+      title:                    Lista paczek
+      description:              Zarządzanie paczkami
+      display:                  [created_at, code, customer_email, status_label, order_number]
+      sort:                     [created_at, desc]
+      fields:
+        order_number:           {sort_field: order.number}
+      peer_method:              doSelectJoinOrder
+      actions:                  []
+      object_actions:
+        _edit:                  -
+        _delete:				        -
+
+    create:
+      title:                    Dodaj nową paczkę   
+
+    edit:
+      use_helper:               [stPaczkomatyBackend, stPrice]
+      use_stylesheet:           [/plugins/stPaczkomatyPlugin/css/backend/edit.css]
+      title:                    Edycja paczki
+      display:
+        "NONE":                 [status_label, tracking_number]
+        "Dane odbiorcy":        [_customer_email, _customer_phone, _customer_pickup_point]
+        "Dane nadawcy":         [_sending_method, _dropoff_point]
+        "Dodatkowe informacje": [_pack_type, _insurance, _cash_on_delivery, _end_of_week_collection, _description]
+      fields:
+        sending_method:         {name: Metoda wysyłki}
+        dropoff_point:          {name: Paczkomat nadawcy, required: true}
+        customer_pickup_point:  {name: Paczkomat odbiorcy, required: true}
+        end_of_week_collection: {name: Paczka w weekend}
+      actions:
+        _download_sticker:      {name: Pobierz etykietę, action: downloadLabel, i18n: stPaczkomatyBackend}
+        _save:                  {name: Utwórz i opłać paczkę, i18n: stPaczkomatyBackend}
+      forward_parameters:       [order]
+
+    config:
+      use_helper:               [stPaczkomatyBackend, Countries]
+      use_stylesheet:           [/plugins/stPaczkomatyPlugin/css/backend/config.css?v1]
+      menu:                     {use: list.menu}
+      title:                    Konfiguracja
+      display:
+        "NONE":                           [enabled, sandbox, token, _organization, _order_status, _payment]
+        "Domyślne ustawienia":            [label_type, sending_method, dropoff_point]
+        "Informacje o nadawcy na paczce": [sender_company, sender_name, sender_surname, sender_email, sender_phone, sender_country_code, sender_street, sender_building, sender_city, sender_post_code]
+      fields:
+        sandbox:                {name: Tryb testowy, type: checkbox}
+        enabled:                {name: Włącz, type: checkbox}
+        sending_method:         {name: Metoda wysyłki}
+        organization:           {name: Organizacja, required: true}
+        token:                  {name: Token, type: password, params: size=80 autocomplete=off, required: true}
+        order_status:           {name: Zmień status zamówienia na, help: "Zmienia status zamówienia po utworzeniu paczki"}
+        sending_method:         {name: Metoda wysyłki, callback: st_inpost_sending_method_select_tag, params: service=inpost_locker_standard target=".row_dropoff_point", required: true}
+        dropoff_point:          {name: Paczkomat nadawcy, callback: st_inpost_point_select_tag, required: true}
+        payment:                {name: Płatność za pobraniem}
+        label_type:
+          name:                 Typ etykiety
+          type:                 select
+          display:              [a4, a6]
+          options:
+            a4:                 {name: A4, value: normal}
+            a6:                 {name: A6, value: A6}
+        sender_name:            {name: Imię}
+        sender_company:         {name: Nazwa firmy}
+        sender_surname:         {name: Nazwisko}
+        sender_email:           {name: E-mail, required: true}
+        sender_phone:           {name: Numer telefonu, required: true}
+        sender_street:          {name: Ulica, required: true}
+        sender_building:        {name: Numer budynku / lokalu, params: size=7, required: true}
+        sender_city:            {name: Miasto, required: true}
+        sender_post_code:       {name: Kod pocztowy, params: size=7, required: true}
+        sender_country_code:    {name: Kraj, callback: st_countries_select_tag, params: iso=true, required: true}
+      actions:
+        _save:                  {name: Zapisz}

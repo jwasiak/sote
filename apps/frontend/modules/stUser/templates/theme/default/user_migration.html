@@ -1,0 +1,46 @@
+<div id="st_application-user-account" class="st_application">
+    <div id="st_application-user-account-header">
+        <h1 class="st_title" style="width:230px;">
+            {__ text="Rejestracja danych."}
+        </h1>
+        <p>
+            {__ text="Uzupełnij dane konta."}
+        </p>
+        <br class="st_clear_all" />
+    </div>
+    <div class="st_content">    
+    
+        <p>
+            {__ text="W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta."}
+        </p>
+        {$form_start}
+            <fieldset>
+                <div class="st_row">
+                    {$error_email}
+                    {$label_email}
+                    <div class="st_field">
+                        {$input_email}
+                    </div>
+                </div>  
+                
+                <div class="st_row">
+                    <div id="st_button-user-account" class="st_button-container" style="margin-right:40px;">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$register_submit}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                {$hidden_user_id}
+                {$hidden_old_login}
+                {$hidden_password}
+                
+            </fieldset>    
+            
+        </form>
+    </div>
+    <div id="st_application-user-login-foot">
+    </div>
+</div>

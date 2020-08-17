@@ -1,0 +1,17 @@
+edit:
+    display:
+        "Ceny":  [_group_price_id]
+    fields:
+        group_price_id:  {name: Grupa cenowa, params: include_custom="---" include_blank=false, i18n: stGroupPriceBackend}
+list:
+  additional_filters: [group_price_id]
+  fields:
+    group_price_id:  {name: Grupa cenowa, i18n: stGroupPriceBackend}
+
+export:
+    fields:
+        group_price:         {name: Grupa cenowa, class: stGroupPriceExport, method: getProduct}
+
+import:
+    fields:
+        group_price:         {class: stGroupPriceExport, method: setProduct}

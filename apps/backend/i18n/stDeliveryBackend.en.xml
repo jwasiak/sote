@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dostawy</source>
+                <target>Shipping methods</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Podaj przedział od</source>
+                <target>Enter a range from</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Liczba musi być wprowadzona z kropką</source>
+                <target>Number must be entered with a dot</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Podaj cenę</source>
+                <target>Enter a price</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Cena musi być liczbą wprowadzona z kropką</source>
+                <target>Price must be a number entered with a dot</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Musisz podać nazwę dla dostawy</source>
+                <target>Enter a shipment name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Musisz wybrać strefę</source>
+                <target>Select an area</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Do</source>
+                <target>To</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Ilość sztuk</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Darmowa od</source>
+                <target>Free from</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>payment.help</source>
+                <target><b>Free from</b> - an order amount from which a payment is free (a value of 0 means there is no threshold)<br /><b>Amount</b> - a payment cost added to the basic shipment cost<br /><b>Courier cost</b> additional cost presented on the order confirmation page (the cost is not included in the total order amount)</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Darmowa od</source>
+                <target>Free from</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Waga</source>
+                <target>Weight</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Od wagi (kg)</source>
+                <target>Weight (kg)</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Od ilości sztuk</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Od kwoty zamówienia (brutto)</source>
+                <target>Order amount (gross price)</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Netto</source>
+                <target>Net price</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Brutto</source>
+                <target>Gross price</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Konfiguracja stref</source>
+                <target>Areas configuration</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Brak aktywnej strefy, przejdź do konfiguracji stref</source>
+                <target>No active area, go to the areas configuration</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Brak aktywnego typu płatności, przejdź do konfiguracji typów płatności</source>
+                <target>No active payment method, configure the payment methods</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Domyślna</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Kolejność</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Skonfiguruj płatność</source>
+                <target>Configure payment</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Konfiguracja płatności</source>
+                <target>Payment methods configuration</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Musisz zdefiniować przynajmniej jeden koszt dodatkowy</source>
+                <target>Define at least one additional cost</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Kwota zamówienia</source>
+                <target>Order amount</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Wybierz strefę</source>
+                <target>Select an area</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Zarządzanie dostawami produktów.</source>
+                <target>Manage the shipments.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Dodaj nową dostawę</source>
+                <target>Add a new shipment</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Strefa</source>
+                <target>Area</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Koszt dodatkowy</source>
+                <target>Additional cost</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Edycja dostawy %%name%%</source>
+                <target>Edit the shipment %%name%%</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Vat</source>
+                <target>Tax</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Dodatkowe koszty doliczane do kosztu podstawowego<br/>Ustaw <b>koszt podstawowy</b> na 0, aby móc wprowadzać <b>koszt dodatkowy</b> jako <b>koszt podstawowy</b></source>
+                <target>Additional costs are added to the basic cost<br/>Set <b>the basic cost</b> to 0 in order to implement <b>an additional cost</b> as <b>the basic cost</b></target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Koszt podstawowy</source>
+                <target>Basic cost</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Kwota zamówienia od której dostawa będzie darmowa (wartość 0 oznacza brak progu)</source>
+                <target>Order amount from which the shipment is free (a value of 0 means there is no threshold)</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Płatności</source>
+                <target>Payment</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Koszt</source>
+                <target>Cost</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Wyświetlaj dla</source>
+                <target>Show the shipment</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Przedziały wartości, dla których dana dostawa jest wyświetlana (wartość 0 oznacza brak progu)</source>
+                <target>The ranges of the values for which the shipment is shown in the shopping cart (a value of 0 means there is no threshold)</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Wartość pola "%s" nie może być ujemna</source>
+                <target>Value of the field "%s" can't be negative</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Wartość pola "%s" posiada nieprawidłowy format (prawidłowy format: 10, 10.00)</source>
+                <target>Value of the field "%s" has an invalid format (the correct format: 10, 10.00)</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Musisz aktywować przynajmniej jedną płatność</source>
+                <target>Activate at least one payment</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Popraw błędy</source>
+                <target>Correct errors</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Wartości pola "Od" nie mogą być takie same</source>
+                <target>Values of the field "From" can't be the same</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Wartość pola "Od" nie może być ujemna</source>
+                <target>Value of the field "From" can't be negative</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Wartość pola "Od" posiada nieprawidłowy format (prawidłowy format: 10, 10.00)</source>
+                <target>Value of the field "From" has an invalid format (the correct format: 10, 10.00)</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Od</source>
+                <target>From</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Wartości <b>Od</b> muszą być dodatnie i posiadać "." jako separator części dziesiętnej</source>
+                <target>Values <b>From</b> must be positive and be entered with a dot "." as decimal part separator</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Wartości <b>Od</b> muszą być dodatnie i posiadać właściwy format przykład: 10.40</source>
+                <target>Values <b>From</b> must be positive and have a valid format (example: 10.40)</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Wartości <b>Od</b> dla kosztów dodatkowych nie mogą być takie same</source>
+                <target>Values <b>From</b> for additional costs can't be the same</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Włącz określenie daty dostawy</source>
+                <target>Enable a delivery date setting</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Konfiguracja daty dostawy</source>
+                <target>Setup a delivery date</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Terminarz dostaw</source>
+                <target>Delivery schedule</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Dostawa najwcześniej po [ilość dni]</source>
+                <target>Delivery at the earliest [days]</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Zamówienia przyjmowane do godziny</source>
+                <target>Order taken till [hour]</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Dostawa najpóźniej do [ilość dni]</source>
+                <target>Delivery no later than [days]</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Wyłączone daty z dostawy</source>
+                <target>Dates excluded from delivery</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Wyłącz weekendy</source>
+                <target>Weekends off</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Wyłącz przedział</source>
+                <target>Disable an interval</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>od</source>
+                <target>from</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>do</source>
+                <target>to</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Konfiguracja czasu dostawy</source>
+                <target>Setup a delivery time</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Włącz określanie czasu dostawy</source>
+                <target>Enable a delivery time setting</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Minimalna godzina dostawy</source>
+                <target>The minimum delivery hour</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Maksymalna godzina dostawy</source>
+                <target>The maximum delivery hour</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Domyślna godzina dostawy</source>
+                <target>The default delivery hour</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Terminarz dostaw.</source>
+                <target>Delivery schedule.</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Godzina nie może być większa niż 23.</source>
+                <target>An hour can't be greater than 23.</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Minut nie może być więcej niż 59.</source>
+                <target>Can't be more minutes than 59.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Zły format daty od.</source>
+                <target>An invalid date format [from]</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Zły format daty do.</source>
+                <target>An invalid date format [to]</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Pole nie może być puste.</source>
+                <target>A field can't be empty.</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Wartość nie może być mniejsza niż 0.</source>
+                <target>A value can't be less than 0.</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Wartość musi być liczbą.</source>
+                <target>The value must be a number.</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Data zakończenia nie może być mniejsza od daty rozpoczęcia.</source>
+                <target>End Date can not be less than the start date.</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Godzina domyślna musi się zawierać w przedziale od min do max.</source>
+                <target>The default delivery hour must be in range from min to max. </target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Określono zły przedział.</source>
+                <target>Bad interval specified.</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Godzina rozpoczęcia musi być mniejsza od godziny zakończenia.</source>
+                <target>The earliest delivery hour must be less than the latest delivery hour.</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Czas nie może być ujemny.</source>
+                <target>Time can not be negative.</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>wyczyść</source>
+                <target>clear</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Pozycja</source>
+                <target>Position</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Umożliwia sortowanie dostaw w koszyku. Wartość 0 oznacza najwyższa pozycje</source>
+                <target>Allows you to sort deliveries in your shopping cart. A value of 0 means the highest position</target>
+            </trans-unit>            
+            <trans-unit id="90">
+                <source>Musisz podać pozycje dostawy</source>
+                <target>Delivery position is required</target>
+            </trans-unit> 
+            <trans-unit id="91">
+                <source>Pozycja dostawy musi być większa lub równa 0</source>
+                <target>Delivery position must be greater than or equal to 0</target>
+            </trans-unit>  
+            <trans-unit id="92">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Margines dla gabarytu:</source>
+                <target>Margin for delivery dimension:</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Margines dla opakowania produktu:</source>
+                <target>Margin for product package:</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Dla pewności, że produkty zmieszczą się w danym gabarycie do każdego rozmiaru opakowania produktu będzie dodawany dodatkowy margines</source>
+                <target>To be sure that the products fit into the overall dimensions for each size of product packaging will be added additional margin</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Dla pewności, że produkty zmieszczą się w danym gabarycie od każdego rozmiaru gabarytu będzie odejmowany dodatkowy margines</source>
+                <target>To be sure that the products fit into the overall dimensions of each size will be decremented by additional margin</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Gabaryt</source>
+                <target>Dimension</target>
+            </trans-unit>     
+            <trans-unit id="97">
+                <source>Gabaryty</source>
+                <target>Dimensions</target>
+            </trans-unit> 
+            <trans-unit id="98">
+                <source>Wysokość</source>
+                <target>Height</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Szerokość</source>
+                <target>Width</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Głębokość</source>
+                <target>Depth</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Koszt kuriera</source>
+                <target>Courier cost</target>
+            </trans-unit>     
+            <trans-unit id="102">
+                <source>Rozmiar paczki</source>
+                <target>Package size</target>
+            </trans-unit>     
+            <trans-unit id="103">
+                <source>Grupa</source>
+                <target>Group</target>
+            </trans-unit>     
+            <trans-unit id="104">
+                <source>Grupy</source>
+                <target>Groups</target>
+            </trans-unit>     
+            <trans-unit id="105">
+                <source>Edycja grupy</source>
+                <target>Group edit</target>
+            </trans-unit>     
+            <trans-unit id="106">
+                <source>Musisz podać nazwę grupy</source>
+                <target>The group name is required</target>
+            </trans-unit>     
+            <trans-unit id="107">
+                <source>Podana grupa już instnieje, proszę podać inną nazwę.</source>
+                <target>The given name already exists</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Darmowa od (brutto)</source>
+                <target>Free from (gross)</target>
+            </trans-unit> 
+            <trans-unit id="109">
+                <source>Usługa</source>
+                <target>Service</target>
+            </trans-unit> 
+            <trans-unit id="110">
+                <source>Po zaznaczeniu tej opcji dostawa będzie wyświetlana tylko w produktach, w których została wybrana w edycji produktu w sekcji Dostawa -> Zezwalaj</source>
+                <target>After selecting this option, the delivery will be displayed only in the products in which it was selected in the Shipping methods -> Allow</target>
+            </trans-unit> 
+            <trans-unit id="111">
+                <source>Zezwalaj tylko w wybranych produktach</source>
+                <target>Allow only in selected products</target>
+            </trans-unit> 
+            <trans-unit id="112">
+                <source>Rodzaj</source>
+                <target>Type</target>
+            </trans-unit> 
+            <trans-unit id="113">
+                <source>Dostawy alternatywne wyświetlane są w przypadku braku spełnienia kryteriów dostaw dla produktów znajdujących się w koszyku. W przypadku dostaw alternatywnych kryteria dostaw są całkowicie ignorowane.</source>
+                <target>Alternative deliveries are displayed if delivery criteria are not met for products in the cart. In the case of alternative deliveries, delivery criteria are completely ignored.</target>
+            </trans-unit> 
+            <trans-unit id="114">
+                <source>Dostawy alternatywne:</source>
+                <target>Alternative deliveries:</target>
+            </trans-unit> 
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,16 @@
+package:
+  name: stPriceCompare
+  stability: stable
+  version: 7.4.0.8
+  summary: 'Porownywarki cen'
+  description: 'Zarzadzanie produktami w porownywarkach cen, konfiguracja ustawien'
+  notes: |
+     - Dodanie poprawnej aktualizacji hosta dla generowanych adresow
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stProduct: 1.0.6
+    stImportExportPlugin: 1.0.5.2

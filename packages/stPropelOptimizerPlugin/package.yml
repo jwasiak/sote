@@ -1,0 +1,14 @@
+---
+package: 
+  name: stPropelOptimizerPlugin
+  stability: stable
+  version: 7.4.0.0
+  summary: Pakiet optymalizujacy i poprawiajacy biblioteki Propel
+  description: Pakiet optymalizujacy i poprawiajacy biblioteki Propel
+  notes: |
+     - Aktualizacja dla PHP 7.0.x oraz 7.1.x
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

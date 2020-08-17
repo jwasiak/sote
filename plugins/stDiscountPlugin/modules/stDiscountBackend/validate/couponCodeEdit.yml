@@ -1,0 +1,31 @@
+fields:
+  discount_coupon_code{discount}:
+    required:
+      msg:        Podaj rabat
+    sfNumberValidator:
+      type:       any
+      min:        0.1
+      max:        99
+      min_error:  Wartość musi być większa od 0
+      max_error:  Wartość nie może być większa od 99
+      type_error: "Nieprawidłowy format (przykład: 10, 10.5)"
+      nan_error:  "Nieprawidłowy format (przykład: 10, 10.5)"
+  discount_coupon_code{code}:
+    required:
+      msg:          Podaj kod rabatowy
+    sfStringValidator:
+      max:          16
+      max_error:    Maksymalna długość kodu nie może przekroczyć 16 znaków
+    sfPropelUniqueValidator:
+      class:        DiscountCouponCode
+      column:       code
+      unique_error: Podany kod już występuję
+  discount_coupon_code{valid_usage}:
+    required:
+      msg:        Podaj ilość użyć
+    sfNumberValidator:
+      type:       integer
+      min:        0
+      min_error:  Wartość nie może być ujemna
+      type_error: Wartość musi być liczbą całkowitą
+      nan_error:  Wartość musi być liczbą całkowitą

@@ -1,0 +1,939 @@
+CountriesI18n:
+  CountriesI18n_no_1:
+    id: Countries_1
+    culture: 'no'
+    name: Albania
+  CountriesI18n_no_2:
+    id: Countries_2
+    culture: 'no'
+    name: Andorra
+  CountriesI18n_no_3:
+    id: Countries_3
+    culture: 'no'
+    name: Armenia
+  CountriesI18n_no_4:
+    id: Countries_4
+    culture: 'no'
+    name: Østerrike
+  CountriesI18n_no_5:
+    id: Countries_5
+    culture: 'no'
+    name: Aserbajdsjan
+  CountriesI18n_no_6:
+    id: Countries_6
+    culture: 'no'
+    name: Hviterussland
+  CountriesI18n_no_7:
+    id: Countries_7
+    culture: 'no'
+    name: Belgia
+  CountriesI18n_no_8:
+    id: Countries_8
+    culture: 'no'
+    name: Bosnia-Hercegovina
+  CountriesI18n_no_9:
+    id: Countries_9
+    culture: 'no'
+    name: Bulgaria
+  CountriesI18n_no_10:
+    id: Countries_10
+    culture: 'no'
+    name: Kroatia
+  CountriesI18n_no_11:
+    id: Countries_11
+    culture: 'no'
+    name: Kypros
+  CountriesI18n_no_12:
+    id: Countries_12
+    culture: 'no'
+    name: Tsjekkia
+  CountriesI18n_no_13:
+    id: Countries_13
+    culture: 'no'
+    name: Danmark
+  CountriesI18n_no_14:
+    id: Countries_14
+    culture: 'no'
+    name: Estland
+  CountriesI18n_no_15:
+    id: Countries_15
+    culture: 'no'
+    name: Finland
+  CountriesI18n_no_16:
+    id: Countries_16
+    culture: 'no'
+    name: Frankrike
+  CountriesI18n_no_17:
+    id: Countries_17
+    culture: 'no'
+    name: Georgia
+  CountriesI18n_no_18:
+    id: Countries_18
+    culture: 'no'
+    name: Tyskland
+  CountriesI18n_no_19:
+    id: Countries_19
+    culture: 'no'
+    name: Hellas
+  CountriesI18n_no_20:
+    id: Countries_20
+    culture: 'no'
+    name: Ungarn
+  CountriesI18n_no_21:
+    id: Countries_21
+    culture: 'no'
+    name: Island
+  CountriesI18n_no_22:
+    id: Countries_22
+    culture: 'no'
+    name: Irland
+  CountriesI18n_no_23:
+    id: Countries_23
+    culture: 'no'
+    name: Italia
+  CountriesI18n_no_24:
+    id: Countries_24
+    culture: 'no'
+    name: Kasakhstan
+  CountriesI18n_no_25:
+    id: Countries_25
+    culture: 'no'
+    name: Latvia
+  CountriesI18n_no_26:
+    id: Countries_26
+    culture: 'no'
+    name: Liechtenstein
+  CountriesI18n_no_27:
+    id: Countries_27
+    culture: 'no'
+    name: Litauen
+  CountriesI18n_no_28:
+    id: Countries_28
+    culture: 'no'
+    name: Luxembourg
+  CountriesI18n_no_29:
+    id: Countries_29
+    culture: 'no'
+    name: Makedonia
+  CountriesI18n_no_30:
+    id: Countries_30
+    culture: 'no'
+    name: Malta
+  CountriesI18n_no_31:
+    id: Countries_31
+    culture: 'no'
+    name: Moldova
+  CountriesI18n_no_32:
+    id: Countries_32
+    culture: 'no'
+    name: Monaco
+  CountriesI18n_no_33:
+    id: Countries_33
+    culture: 'no'
+    name: Montenegro
+  CountriesI18n_no_34:
+    id: Countries_34
+    culture: 'no'
+    name: Nederland
+  CountriesI18n_no_35:
+    id: Countries_35
+    culture: 'no'
+    name: Norge
+  CountriesI18n_no_36:
+    id: Countries_36
+    culture: 'no'
+    name: Polen
+  CountriesI18n_no_37:
+    id: Countries_37
+    culture: 'no'
+    name: Portugal
+  CountriesI18n_no_38:
+    id: Countries_38
+    culture: 'no'
+    name: Romania
+  CountriesI18n_no_39:
+    id: Countries_39
+    culture: 'no'
+    name: Russland
+  CountriesI18n_no_40:
+    id: Countries_40
+    culture: 'no'
+    name: San Marino
+  CountriesI18n_no_41:
+    id: Countries_41
+    culture: 'no'
+    name: Serbia
+  CountriesI18n_no_42:
+    id: Countries_42
+    culture: 'no'
+    name: Slovakia
+  CountriesI18n_no_43:
+    id: Countries_43
+    culture: 'no'
+    name: Slovenia
+  CountriesI18n_no_44:
+    id: Countries_44
+    culture: 'no'
+    name: Spania
+  CountriesI18n_no_45:
+    id: Countries_45
+    culture: 'no'
+    name: Sverige
+  CountriesI18n_no_46:
+    id: Countries_46
+    culture: 'no'
+    name: Sveits
+  CountriesI18n_no_47:
+    id: Countries_47
+    culture: 'no'
+    name: Tyrkia
+  CountriesI18n_no_48:
+    id: Countries_48
+    culture: 'no'
+    name: Ukraina
+  CountriesI18n_no_49:
+    id: Countries_49
+    culture: 'no'
+    name: Storbritannia
+  CountriesI18n_no_50:
+    id: Countries_50
+    culture: 'no'
+    name: Vatikanet
+  CountriesI18n_no_51:
+    id: Countries_51
+    culture: 'no'
+    name: Åland
+  CountriesI18n_no_52:
+    id: Countries_52
+    culture: 'no'
+    name: Færøyene
+  CountriesI18n_no_53:
+    id: Countries_53
+    culture: 'no'
+    name: Gibraltar
+  CountriesI18n_no_54:
+    id: Countries_54
+    culture: 'no'
+    name: Grønland
+  CountriesI18n_no_55:
+    id: Countries_55
+    culture: 'no'
+    name: Antigua og Barbuda
+  CountriesI18n_no_56:
+    id: Countries_56
+    culture: 'no'
+    name: Bahamas
+  CountriesI18n_no_57:
+    id: Countries_57
+    culture: 'no'
+    name: Barbados
+  CountriesI18n_no_58:
+    id: Countries_58
+    culture: 'no'
+    name: Belize
+  CountriesI18n_no_59:
+    id: Countries_59
+    culture: 'no'
+    name: Dominica
+  CountriesI18n_no_60:
+    id: Countries_60
+    culture: 'no'
+    name: Den dominikanske republikk
+  CountriesI18n_no_61:
+    id: Countries_61
+    culture: 'no'
+    name: Grenada
+  CountriesI18n_no_62:
+    id: Countries_62
+    culture: 'no'
+    name: Guatemala
+  CountriesI18n_no_63:
+    id: Countries_63
+    culture: 'no'
+    name: Haiti
+  CountriesI18n_no_64:
+    id: Countries_64
+    culture: 'no'
+    name: Honduras
+  CountriesI18n_no_65:
+    id: Countries_65
+    culture: 'no'
+    name: Jamaica
+  CountriesI18n_no_66:
+    id: Countries_66
+    culture: 'no'
+    name: Canada
+  CountriesI18n_no_67:
+    id: Countries_67
+    culture: 'no'
+    name: Costa Rica
+  CountriesI18n_no_68:
+    id: Countries_68
+    culture: 'no'
+    name: Cuba
+  CountriesI18n_no_69:
+    id: Countries_69
+    culture: 'no'
+    name: Mexico
+  CountriesI18n_no_70:
+    id: Countries_70
+    culture: 'no'
+    name: Nicaragua
+  CountriesI18n_no_71:
+    id: Countries_71
+    culture: 'no'
+    name: Panama
+  CountriesI18n_no_72:
+    id: Countries_72
+    culture: 'no'
+    name: Puerto Rico
+  CountriesI18n_no_73:
+    id: Countries_73
+    culture: 'no'
+    name: Saint Kitts og Nevis
+  CountriesI18n_no_74:
+    id: Countries_74
+    culture: 'no'
+    name: Saint Lucia
+  CountriesI18n_no_75:
+    id: Countries_75
+    culture: 'no'
+    name: Saint Vincent og Grenadinene
+  CountriesI18n_no_76:
+    id: Countries_76
+    culture: 'no'
+    name: El Salvador
+  CountriesI18n_no_77:
+    id: Countries_77
+    culture: 'no'
+    name: United States
+  CountriesI18n_no_78:
+    id: Countries_78
+    culture: 'no'
+    name:  Trinidad og Tobago
+  CountriesI18n_no_79:
+    id: Countries_79
+    culture: 'no'
+    name: Anguilla
+  CountriesI18n_no_80:
+    id: Countries_80
+    culture: 'no'
+    name: De nederlandske Antillene
+  CountriesI18n_no_81:
+    id: Countries_81
+    culture: 'no'
+    name: Aruba
+  CountriesI18n_no_82:
+    id: Countries_82
+    culture: 'no'
+    name: Bermuda
+  CountriesI18n_no_83:
+    id: Countries_83
+    culture: 'no'
+    name: Virgin Islands (Britisk)
+  CountriesI18n_no_84:
+    id: Countries_84
+    culture: 'no'
+    name: Guadeloupe
+  CountriesI18n_no_85:
+    id: Countries_85
+    culture: 'no'
+    name: Cayman Islands
+  CountriesI18n_no_86:
+    id: Countries_86
+    culture: 'no'
+    name: Martinique
+  CountriesI18n_no_87:
+    id: Countries_87
+    culture: 'no'
+    name: Montserrat
+  CountriesI18n_no_88:
+    id: Countries_88
+    culture: 'no'
+    name: Saint-Pierre og Miquelon
+  CountriesI18n_no_89:
+    id: Countries_89
+    culture: 'no'
+    name: Turks-og Caicosøyene
+  CountriesI18n_no_90:
+    id: Countries_90
+    culture: 'no'
+    name: Virgin Islands (US)
+  CountriesI18n_no_91:
+    id: Countries_91
+    culture: 'no'
+    name: Argentina
+  CountriesI18n_no_92:
+    id: Countries_92
+    culture: 'no'
+    name: Bolivia
+  CountriesI18n_no_93:
+    id: Countries_93
+    culture: 'no'
+    name: Brasil
+  CountriesI18n_no_94:
+    id: Countries_94
+    culture: 'no'
+    name: Chile
+  CountriesI18n_no_95:
+    id: Countries_95
+    culture: 'no'
+    name: Colombia
+  CountriesI18n_no_96:
+    id: Countries_96
+    culture: 'no'
+    name: Ecuador
+  CountriesI18n_no_97:
+    id: Countries_97
+    culture: 'no'
+    name: Falklandsøyene
+  CountriesI18n_no_98:
+    id: Countries_98
+    culture: 'no'
+    name: Fransk Guyana
+  CountriesI18n_no_99:
+    id: Countries_99
+    culture: 'no'
+    name: Guyana
+  CountriesI18n_no_100:
+    id: Countries_100
+    culture: 'no'
+    name: Paraguay
+  CountriesI18n_101:
+    id: Countries_101
+    culture: 'no'
+    name: Peru
+  CountriesI18n_102:
+    id: Countries_102
+    culture: 'no'
+    name: Sør-Georgia og Sør-Sandwichøyene
+  CountriesI18n_103:
+    id: Countries_103
+    culture: 'no'
+    name: Surinam
+  CountriesI18n_104:
+    id: Countries_104
+    culture: 'no'
+    name: Uruguay
+  CountriesI18n_105:
+    id: Countries_105
+    culture: 'no'
+    name: Venezuela
+  CountriesI18n_106:
+    id: Countries_106
+    culture: 'no'
+    name: Australia
+  CountriesI18n_107:
+    id: Countries_107
+    culture: 'no'
+    name: New Zealand
+  CountriesI18n_108:
+    id: Countries_108
+    culture: 'no'
+    name: Christmas Island
+  CountriesI18n_109:
+    id: Countries_109
+    culture: 'no'
+    name: Cocos (Keeling) Islands
+  CountriesI18n_110:
+    id: Countries_110
+    culture: 'no'
+    name: Norfolk Island
+  CountriesI18n_111:
+    id: Countries_111
+    culture: 'no'
+    name: Fiji
+  CountriesI18n_112:
+    id: Countries_112
+    culture: 'no'
+    name: New Caledonia
+  CountriesI18n_113:
+    id: Countries_113
+    culture: 'no'
+    name: Papua Ny-Guinea
+  CountriesI18n_114:
+    id: Countries_114
+    culture: 'no'
+    name: Solomon Islands
+  CountriesI18n_115:
+    id: Countries_115
+    culture: 'no'
+    name: Vanuatu
+  CountriesI18n_116:
+    id: Countries_116
+    culture: 'no'
+    name: Mikronesiaføderasjonen
+  CountriesI18n_117:
+    id: Countries_117
+    culture: 'no'
+    name: Guam
+  CountriesI18n_118:
+    id: Countries_118
+    culture: 'no'
+    name: Kiribati
+  CountriesI18n_119:
+    id: Countries_119
+    culture: 'no'
+    name: Marshall Islands
+  CountriesI18n_120:
+    id: Countries_120
+    culture: 'no'
+    name: Nauru
+  CountriesI18n_121:
+    id: Countries_121
+    culture: 'no'
+    name: Northern Mariana Islands
+  CountriesI18n_122:
+    id: Countries_122
+    culture: 'no'
+    name: Palau
+  CountriesI18n_123:
+    id: Countries_123
+    culture: 'no'
+    name: American Samoa
+  CountriesI18n_124:
+    id: Countries_124
+    culture: 'no'
+    name: Cook Islands
+  CountriesI18n_125:
+    id: Countries_125
+    culture: 'no'
+    name: Fransk Polynesia
+  CountriesI18n_126:
+    id: Countries_126
+    culture: 'no'
+    name: Niue
+  CountriesI18n_127:
+    id: Countries_127
+    culture: 'no'
+    name: Pitcairn
+  CountriesI18n_128:
+    id: Countries_128
+    culture: 'no'
+    name: Samoa
+  CountriesI18n_129:
+    id: Countries_129
+    culture: 'no'
+    name: Tokelau
+  CountriesI18n_130:
+    id: Countries_130
+    culture: 'no'
+    name: Tonga
+  CountriesI18n_131:
+    id: Countries_131
+    culture: 'no'
+    name: Tuvalu
+  CountriesI18n_132:
+    id: Countries_132
+    culture: 'no'
+    name: Wallis og Futuna
+  CountriesI18n_133:
+    id: Countries_133
+    culture: 'no'
+    name: Antarktis
+  CountriesI18n_134:
+    id: Countries_134
+    culture: 'no'
+    name: Afghanistan
+  CountriesI18n_135:
+    id: Countries_135
+    culture: 'no'
+    name: Bahrain
+  CountriesI18n_136:
+    id: Countries_136
+    culture: 'no'
+    name: Bangladesh
+  CountriesI18n_137:
+    id: Countries_137
+    culture: 'no'
+    name: Bhutan
+  CountriesI18n_138:
+    id: Countries_138
+    culture: 'no'
+    name: Brunei
+  CountriesI18n_139:
+    id: Countries_139
+    culture: 'no'
+    name: Kambodsja
+  CountriesI18n_140:
+    id: Countries_140
+    culture: 'no'
+    name: Kina
+  CountriesI18n_141:
+    id: Countries_141
+    culture: 'no'
+    name: Hong Kong
+  CountriesI18n_142:
+    id: Countries_142
+    culture: 'no'
+    name: India
+  CountriesI18n_143:
+    id: Countries_143
+    culture: 'no'
+    name: Indonesia
+  CountriesI18n_144:
+    id: Countries_144
+    culture: 'no'
+    name: Iran
+  CountriesI18n_145:
+    id: Countries_145
+    culture: 'no'
+    name: Irak
+  CountriesI18n_146:
+    id: Countries_146
+    culture: 'no'
+    name: Israel
+  CountriesI18n_147:
+    id: Countries_147
+    culture: 'no'
+    name: Japan
+  CountriesI18n_148:
+    id: Countries_148
+    culture: 'no'
+    name: Jordan
+  CountriesI18n_149:
+    id: Countries_149
+    culture: 'no'
+    name: Nord-Korea
+  CountriesI18n_150:
+    id: Countries_150
+    culture: 'no'
+    name: Sør-Korea
+  CountriesI18n_151:
+    id: Countries_151
+    culture: 'no'
+    name: Kuwait
+  CountriesI18n_152:
+    id: Countries_152
+    culture: 'no'
+    name: Kirgisistan
+  CountriesI18n_153:
+    id: Countries_153
+    culture: 'no'
+    name: Laos
+  CountriesI18n_154:
+    id: Countries_154
+    culture: 'no'
+    name: Lebanon
+  CountriesI18n_155:
+    id: Countries_155
+    culture: 'no'
+    name: Macau
+  CountriesI18n_156:
+    id: Countries_156
+    culture: 'no'
+    name: Malaysia
+  CountriesI18n_157:
+    id: Countries_157
+    culture: 'no'
+    name: Maldivene
+  CountriesI18n_158:
+    id: Countries_158
+    culture: 'no'
+    name: Mongolia
+  CountriesI18n_159:
+    id: Countries_159
+    culture: 'no'
+    name: Myanmar
+  CountriesI18n_160:
+    id: Countries_160
+    culture: 'no'
+    name: Nepal
+  CountriesI18n_161:
+    id: Countries_161
+    culture: 'no'
+    name: Oman
+  CountriesI18n_162:
+    id: Countries_162
+    culture: 'no'
+    name: Pakistan
+  CountriesI18n_163:
+    id: Countries_163
+    culture: 'no'
+    name: Palestinske selvstyremyndighetene
+  CountriesI18n_164:
+    id: Countries_164
+    culture: 'no'
+    name: Filippinene
+  CountriesI18n_165:
+    id: Countries_165
+    culture: 'no'
+    name: Qatar
+  CountriesI18n_166:
+    id: Countries_166
+    culture: 'no'
+    name: Saudi-Arabia
+  CountriesI18n_167:
+    id: Countries_167
+    culture: 'no'
+    name: Singapore
+  CountriesI18n_168:
+    id: Countries_168
+    culture: 'no'
+    name: Sri Lanka
+  CountriesI18n_169:
+    id: Countries_169
+    culture: 'no'
+    name: Syria
+  CountriesI18n_170:
+    id: Countries_170
+    culture: 'no'
+    name: Taiwan
+  CountriesI18n_171:
+    id: Countries_171
+    culture: 'no'
+    name: Tadsjikistan
+  CountriesI18n_172:
+    id: Countries_172
+    culture: 'no'
+    name: Thailand
+  CountriesI18n_173:
+    id: Countries_173
+    culture: 'no'
+    name: Øst-Timor
+  CountriesI18n_174:
+    id: Countries_174
+    culture: 'no'
+    name: Turkmenistan
+  CountriesI18n_175:
+    id: Countries_175
+    culture: 'no'
+    name: De forente arabiske emirater
+  CountriesI18n_176:
+    id: Countries_176
+    culture: 'no'
+    name: Usbekistan
+  CountriesI18n_177:
+    id: Countries_177
+    culture: 'no'
+    name: Vietnam
+  CountriesI18n_178:
+    id: Countries_178
+    culture: 'no'
+    name: Jemen
+  CountriesI18n_179:
+    id: Countries_179
+    culture: 'no'
+    name: Algerie
+  CountriesI18n_180:
+    id: Countries_180
+    culture: 'no'
+    name: Angola
+  CountriesI18n_181:
+    id: Countries_181
+    culture: 'no'
+    name: Benin
+  CountriesI18n_182:
+    id: Countries_182
+    culture: 'no'
+    name: Botswana
+  CountriesI18n_183:
+    id: Countries_183
+    culture: 'no'
+    name: Burkina Faso
+  CountriesI18n_184:
+    id: Countries_184
+    culture: 'no'
+    name: Burundi
+  CountriesI18n_185:
+    id: Countries_185
+    culture: 'no'
+    name: Kamerun
+  CountriesI18n_186:
+    id: Countries_186
+    culture: 'no'
+    name: Cape Verde
+  CountriesI18n_187:
+    id: Countries_187
+    culture: 'no'
+    name: Den sentralafrikanske republikk
+  CountriesI18n_188:
+    id: Countries_188
+    culture: 'no'
+    name: Chad
+  CountriesI18n_189:
+    id: Countries_189
+    culture: 'no'
+    name: Komorene
+  CountriesI18n_190:
+    id: Countries_190
+    culture: 'no'
+    name: Den demokratiske republikken Kongo
+  CountriesI18n_191:
+    id: Countries_191
+    culture: 'no'
+    name: Republikken Kongo
+  CountriesI18n_192:
+    id: Countries_192
+    culture: 'no'
+    name: Cote d'Ivoire
+  CountriesI18n_193:
+    id: Countries_193
+    culture: 'no'
+    name: Djibouti
+  CountriesI18n_194:
+    id: Countries_194
+    culture: 'no'
+    name: Egypt
+  CountriesI18n_195:
+    id: Countries_195
+    culture: 'no'
+    name: Ekvatorial-Guinea
+  CountriesI18n_196:
+    id: Countries_196
+    culture: 'no'
+    name: Eritrea
+  CountriesI18n_197:
+    id: Countries_197
+    culture: 'no'
+    name: Etiopia
+  CountriesI18n_198:
+    id: Countries_198
+    culture: 'no'
+    name: Gabon
+  CountriesI18n_199:
+    id: Countries_199
+    culture: 'no'
+    name: Gambia
+  CountriesI18n_200:
+    id: Countries_200
+    culture: 'no'
+    name: Ghana
+  CountriesI18n_201:
+    id: Countries_201
+    culture: 'no'
+    name: Guinea
+  CountriesI18n_202:
+    id: Countries_202
+    culture: 'no'
+    name: Guinea-Bissau
+  CountriesI18n_203:
+    id: Countries_203
+    culture: 'no'
+    name: Kenya
+  CountriesI18n_204:
+    id: Countries_204
+    culture: 'no'
+    name: Lesotho
+  CountriesI18n_205:
+    id: Countries_205
+    culture: 'no'
+    name: Liberia
+  CountriesI18n_206:
+    id: Countries_206
+    culture: 'no'
+    name: Libya
+  CountriesI18n_207:
+    id: Countries_207
+    culture: 'no'
+    name: Madagaskar
+  CountriesI18n_208:
+    id: Countries_208
+    culture: 'no'
+    name: Malawi
+  CountriesI18n_209:
+    id: Countries_209
+    culture: 'no'
+    name: Mali
+  CountriesI18n_210:
+    id: Countries_210
+    culture: 'no'
+    name: Mauritania
+  CountriesI18n_211:
+    id: Countries_211
+    culture: 'no'
+    name: Mauritius
+  CountriesI18n_212:
+    id: Countries_212
+    culture: 'no'
+    name: Marokko
+  CountriesI18n_213:
+    id: Countries_213
+    culture: 'no'
+    name: Mosambik
+  CountriesI18n_214:
+    id: Countries_214
+    culture: 'no'
+    name: Namibia
+  CountriesI18n_215:
+    id: Countries_215
+    culture: 'no'
+    name: Niger
+  CountriesI18n_216:
+    id: Countries_216
+    culture: 'no'
+    name: Nigeria
+  CountriesI18n_217:
+    id: Countries_217
+    culture: 'no'
+    name: Rwanda
+  CountriesI18n_218:
+    id: Countries_218
+    culture: 'no'
+    name: São Tomé og Príncipe
+  CountriesI18n_219:
+    id: Countries_219
+    culture: 'no'
+    name: Senegal
+  CountriesI18n_220:
+    id: Countries_220
+    culture: 'no'
+    name: Seychellene
+  CountriesI18n_221:
+    id: Countries_221
+    culture: 'no'
+    name: Sierra Leone
+  CountriesI18n_222:
+    id: Countries_222
+    culture: 'no'
+    name: Sør-Afrika
+  CountriesI18n_223:
+    id: Countries_223
+    culture: 'no'
+    name: Sudan
+  CountriesI18n_224:
+    id: Countries_224
+    culture: 'no'
+    name: Swaziland
+  CountriesI18n_225:
+    id: Countries_225
+    culture: 'no'
+    name: Tanzania
+  CountriesI18n_226:
+    id: Countries_226
+    culture: 'no'
+    name: Togo
+  CountriesI18n_227:
+    id: Countries_227
+    culture: 'no'
+    name: Tunisia
+  CountriesI18n_228:
+    id: Countries_228
+    culture: 'no'
+    name: Uganda
+  CountriesI18n_229:
+    id: Countries_229
+    culture: 'no'
+    name: Zambia
+  CountriesI18n_230:
+    id: Countries_230
+    culture: 'no'
+    name: Zimbabwe    
+    
+OrderStatusI18n:
+  OrderStatusI18n_no_1:
+    id: OrderStatus_1
+    culture: 'no'
+    name: Avlyst
+  OrderStatusI18n_no_2:
+    id: OrderStatus_2
+    culture: 'no'
+    name: Påvente
+  OrderStatusI18n_no_3:
+    id: OrderStatus_3
+    culture: 'no'
+    name: Pågår
+  OrderStatusI18n_no_4:
+    id: OrderStatus_4
+    culture: 'no'
+    name: Leveres

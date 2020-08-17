@@ -1,0 +1,206 @@
+#st_box_search {
+	padding: 5px 0px 0px 10px;
+	float: left;
+	overflow: hidden;
+}
+
+#st_input_search {
+	background:
+		url(/images/frontend/theme/default/input_background_search.gif) top
+		left no-repeat;
+	width: 192px;
+	height: 23px;
+	float: left;
+}
+
+#st_input_search input {
+	background: transparent;
+	border: none;
+	width: 182px;
+	height: 18px;
+	padding: 5px 0px 0px 10px;
+}
+
+#button_search,#button_search_result {
+	overflow: hidden;
+	float: left;
+	margin-left: 10px;
+}
+
+#button_search_left_result {
+	background: url(/images/frontend/theme/default/button_left.gif) top left
+		no-repeat;
+	width: 5px;
+	height: 26px;
+	float: left;
+}
+
+#button_search_middle_result {
+	background: url(/images/frontend/theme/default/button_middle.gif) top
+		left repeat-x;
+	height: 23px;
+	float: left;
+	padding: 3px 5px 0px 5px;
+}
+
+#button_search_middle_result a {
+	font-size: 11px;
+	font-weight: bold;
+	color: #535353;
+	text-decoration: none;
+}
+
+#button_search_right_result {
+	background: url(/images/frontend/theme/default/button_right.gif) top
+		left no-repeat;
+	width: 10px;
+	height: 26px;
+	float: left;
+}
+
+#button_search_left {
+	background: url(/images/frontend/theme/default/button_search_left.gif)
+		top left no-repeat;
+	width: 10px;
+	height: 26px;
+	float: left;
+}
+
+#button_search_middle {
+	background: url(/images/frontend/theme/default/button_search_middle.gif)
+		top left repeat-x;
+	height: 23px;
+	float: left;
+	padding: 0px 5px 0px 5px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+#button_search_middle a {
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+#button_search_right {
+	background: url(/images/frontend/theme/default/button_search_right.gif)
+		top left no-repeat;
+	width: 10px;
+	height: 26px;
+	float: left;
+}
+
+#st_search_no_results,#st_search_no_query {
+	font-size: 14px;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+#st_search_no_query {
+	font-size: 14px;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+#st_main_search_box {
+	margin: 0px 0px 10px 0px;
+	overflow: hidden;
+}
+
+#st_main_search_box_center {
+	margin: 0px auto;
+	width: 600px;
+}
+
+#st_search_search {
+	width: 430px;
+}
+
+#st_search_producer, #st_search_category 
+{
+    width: 440px;
+}
+
+#st_search_category
+{
+	height: 100px;
+}
+
+#st_main_search_box_input input {
+	height: 17px;
+}
+
+#st_main_search_advance_box input {
+	height: 17px;
+	padding: 3px;
+}
+
+#st_product-pager {
+	text-align: center;
+	width: 230px;
+	margin: 10px auto;
+}
+
+#st_search_price_from,#st_search_price_to {
+	width: 75px;
+}
+
+#st_main_search_advance_box fieldset {
+	border-width: 0px;
+	margin-bottom: 5px;
+}
+
+#st_main_search_button {
+	background: transparent
+		url(/images/frontend/theme/default/button_right.gif) no-repeat scroll
+		right top;
+	height: 25px;
+	padding: 0 10px;
+	width: 70px;
+}
+
+.pager_button {
+	vertical-align: middle;
+}
+
+#st_main_search_advance_box label
+{
+    float: left;
+    width: 130px;
+}
+
+#st_main_search_advance_box .st_field
+{
+    margin-left: 140px;
+}
+
+#st_main_search_advance_box .st_row 
+{
+    padding: 3px 0 3px 0;
+}
+
+.st_search-producer_list li
+{
+    display: inline;
+}
+
+#st_search-st_title {
+	height: auto;
+	padding-bottom: 10px;
+	line-height: 24px;
+}
+
+.st_search-hidden_div
+{
+	display: none;
+}
+
+.st_search-mode {
+	cursor:pointer;
+	text-decoration: underline;	
+}

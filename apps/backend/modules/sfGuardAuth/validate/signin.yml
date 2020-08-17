@@ -1,0 +1,19 @@
+methods:
+    post:                   [username, password]
+
+names:
+    username:
+        required:           false
+        required_msg:       Proszę podać nazwę użytkownika
+        validators:         [userValidator]
+
+    password:
+        required:           false
+        required_msg:       Proszę podać hasło
+
+userValidator:
+    class:                  sfGuardUserValidator
+    param:
+        password_field:     password
+        remember_field:     remember
+        username_error:     Proszę podać poprawną nazwę użytkownika i hasło

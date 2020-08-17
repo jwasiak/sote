@@ -1,0 +1,15 @@
+---
+package: 
+  name: stBackendFastMenuPlugin
+  stability: stable
+  version: 1.0.3.4
+  summary: Menu boczne
+  description: Boczne menu wyswietlane w panelu administracyjnym
+  notes: Aktualizacja bocznego menu
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency: 
+    stBackend: 1.0.4

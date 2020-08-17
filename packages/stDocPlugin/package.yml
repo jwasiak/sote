@@ -1,0 +1,13 @@
+package:
+  name: stDocPlugin
+  stability: stable
+  version: 7.0.0.4
+  summary: Dokumentacja
+  description: Dokumentacja
+  notes: |
+    - Dokumentacja
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

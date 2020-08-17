@@ -1,0 +1,29 @@
+<div id="st_gift_card">
+   <h3 class="st_title">{__ text="Bon zakupowy"}</h3>
+   {if $gift_cards}
+   <ul id="st_gift_card-list">
+      {foreach item=gift_card from=$gift_cards}
+      <li>{$gift_card.code}: {$gift_card.amount|st_currency_format} <a href="{$gift_card.remove_url}"><img src="{$remove_icon}" alt="{__ text='Usuń bon'}" title="{__ text='Usuń bon'}" /></a></li>
+      {/foreach}
+   </ul>
+   {else}
+   <form action="{$form.action}" method="post"> 
+      <div id="st_gift_card-form">
+         {if $form.error}
+         <div class="form-error">
+            {$form.error}
+         </div>
+         {/if}
+         <div class="label">
+            <label for="gift_card_code">{__ text="Wprowadź kod"}:</label>
+         </div>
+         <input id="gift_card_code" name="gift_card[code]" type="text" value="{$form.code}" />
+         <input type="hidden" name="gift_card[return_url]" value="{$form.return_url}" />
+         <div class="st_button st_align-right">
+            <div class="st_button-left"><input type="submit" value="{__ text='Aktywuj'}"></div>
+         </div>
+         <br class="st_clear_all" />
+      </div>
+   </form>
+   {/if}
+</div>

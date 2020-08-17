@@ -1,0 +1,13 @@
+edit:
+    display:    
+      "Dodatkowy opis":                 [_description2]
+    fields:
+        description2:         {name: Dodatkowy opis, i18n: appAdditionalDescBackend, hide_label: true}
+
+export:
+    fields:
+        description2:         {name: Dodatkowy opis, sample: Dodatkowy opis, type: string, i18n: appAdditionalDescBackend}
+
+import:
+    fields:
+        description2:         {name: Dodatkowy opis, sample: Dodatkowy opis, type: custom, i18n: appAdditionalDescBackend}

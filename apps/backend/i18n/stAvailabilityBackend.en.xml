@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dostepnosc</source>
+                <target>Availability</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Podaj nazwę dostępności</source>
+                <target>Enter the availability name</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Podaj stan magazynowy od</source>
+                <target>Enter the stockroom quantity</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Stan magazynowy jest liczbą całkowitą</source>
+                <target>Stockroom quantity is an integer number</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wprowadź wartość powyżej 0</source>
+                <target>Enter a value greater than 0</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Dostępność z takim progiem już istnieje</source>
+                <target>Availability with this threshold already exists</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Definiuj zakresy dostępności produktów.</source>
+                <target>Define the thresholds of the product availability.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Dodaj nową dostępność</source>
+                <target>Add a new availability</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>ID</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Stan magazynowy od</source>
+                <target>Stockroom quantity (from)</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Edycja dostępności %%availability_name%%</source>
+                <target>Edit the availability %%availability_name%%</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Ukrywaj niedostępne produkty w sklepie:</source>
+                <target>Hide unavailable products in the shop:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ukryj produkty z dostępnością:</source>
+                <target>Hide products with the availability:</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Pokaż wg Magazynu</source>
+                <target>Show according to the stockroom quantity</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Kolor</source>
+                <target>Color</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Załącz/Zmień obrazek</source>
+                <target>Add/Change Image</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>usuń obrazek</source>
+                <target>remove image</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Obrazek</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Dostępność</source>
+                <target>Availability</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Nie ukrywaj karty produktu:</source>
+                <target>Don't hide product card</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Włącz filtr "Pokaż dostępne produkty":</source>
+                <target>Show "Show available products" filter</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source><![CDATA[Opcja ta powoduje dodanie filtru dostępności na listach produktów. Uwaga! Aktywowanie filtru wyłącza opcję <b>Ukrywaj niedostępne produkty w sklepie</b>]]></source>
+                <target><![CDATA[This option adds an availability filter to product listings. Warning! Activating the filter disables the <b>Hide unavailable products in the shop</b> option]]></target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

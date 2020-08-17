@@ -1,0 +1,31 @@
+propel: 
+    st_payment_type: 
+        _attributes: 
+            phpName: PaymentType
+            isI18N: true
+            i18nTable: st_payment_type_i18n
+        opt_name: {change_column: name}
+        opt_description: {change_column: description}
+    st_payment_type_i18n: 
+        _attributes: 
+            phpName: PaymentTypeI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_payment_type
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+            required: true
+        description:
+            type: LONGVARCHAR
+        summary_description:
+            type: LONGVARCHAR

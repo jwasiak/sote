@@ -1,0 +1,63 @@
+<div class="panel panel-default">
+   <div class="panel-heading"><h3 class="panel-title">{__ text="Koszty"}</h3></div>
+   <div class="panel-body form-horizontal" data-equalizer-watch>
+      <div class="form-group">
+         <label class="col-xs-6 control-label">{__ text="Wartość koszyka"}:</label>
+         <div class="col-xs-6">
+            <p class="form-control-static">{$basket_cost|st_currency_format:false}</p>
+         </div>   
+      </div>   
+      <div class="form-group">
+         <label class="col-xs-6 control-label">{__ text="Koszt dostawy"}:</label>
+         <div class="col-xs-6">
+            <p class="form-control-static">{$delivery_cost|st_currency_format:false}</p>
+         </div>   
+      </div>  
+      {if $basket_discount > 0} 
+         <div class="form-group">
+            <label class="col-xs-6 control-label">{__ text="Rabat" langCatalogue="stOrder"} ({$basket_discount_name}):</label>
+            <div class="col-xs-6">
+               <p class="form-control-static">-{$basket_discount|st_currency_format}</p>
+            </div>   
+         </div>  
+      {/if}       
+      {if $paid > 0} 
+         <div class="form-group">
+            <label class="col-xs-6 control-label">{__ text="Zapłacono"}:</label>
+            <div class="col-xs-6">
+               <p class="form-control-static">-{$paid|st_currency_format}</p>
+            </div>   
+         </div>  
+      {/if} 
+      {if $points_value != 0} 
+         <div class="form-group">
+            <label class="col-xs-6 control-label">{__ text="Koszt"} {$points_shortcut}:</label>
+            <div class="col-xs-6">
+               <p class="form-control-static">{$points_value} {$points_shortcut}</p>
+            </div>   
+         </div>  
+      {/if}       
+      <div class="form-group">
+         <label class="col-xs-6 control-label">{__ text="Razem do zapłaty"}:</label>
+         <div class="col-xs-6">
+            <p class="form-control-static">{$total_amount|st_currency_format}</p>
+         </div>   
+      </div>       
+      
+      {if $basket_discount_message}
+         <div class="alert alert-info" role="alert">
+            {$basket_discount_message}
+         </div>
+      {/if} 
+      
+      <div style="margin-top: 5px;padding: 0 5px;">             
+           {if $discount_coupon_code}             
+               {$discount_coupon_code}                                                                          
+            {/if}
+                
+            {if $gift_card}                
+                {$gift_card}                                           
+            {/if}                                                                   
+      </div>         
+   </div>
+</div>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2011-11-10T03:22:20Z">
+		<body>
+			<trans-unit id="1">
+				<source>Lista stron www</source>
+				<target>Seznam www stránek</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sklep</source>
+				<target>Obchod</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>regulamin</source>
+				<target>řád</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>politykę prywatności</source>
+				<target>s politikou soukromí</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

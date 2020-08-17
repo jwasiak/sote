@@ -1,0 +1,1 @@
+<?php echo select_tag('config[list_type]',options_for_select(array('listLongProduct'=>__("Pełna lista"),'listShortProduct'=>__("Skrócona lista"),'listOther'=> __("Lista alternatywna")),$config->get('list_type','listLongProduct'))) ?>

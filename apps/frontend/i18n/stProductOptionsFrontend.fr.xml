@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Produkt wycofany z oferty</source>
+				<target>Produit retiré de l’offre</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Atrybuty:</source>
+				<target>Attributs :</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Cena:</source>
+				<target>Prix:</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wybierz opcje produktu</source>
+				<target>Choisissez les options du produit</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz opcje produktu na karcie produktu.</source>
+				<target>Choisissez les options du produit sur la carte du produit.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Brak w magazynie</source>
+				<target>Indisponible en stock</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Twoja przeglądarka nie obsługuje Javascript.</source>
+				<target>Votre navigateur ne supporte pas JavaScript.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Filtr koloru</source>
+				<target>Filtre de la couleur</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cena</source>
+				<target>Prix</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zwykły filtr</source>
+				<target>Filtre normal</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyczyść filtry</source>
+				<target>Nettoyer les filtres</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>wyczyść</source>
+				<target>nettoyer</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>wybierz opcje produktu</source>
+				<target>choisissez les options du produit</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

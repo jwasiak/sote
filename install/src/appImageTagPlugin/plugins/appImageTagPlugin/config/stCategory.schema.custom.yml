@@ -1,0 +1,8 @@
+---
+propel:
+    st_category: 
+        _attributes: 
+            phpName: Category
+        is_app_image_tag_active:
+            type: BOOLEAN
+            default: true

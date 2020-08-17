@@ -1,0 +1,8 @@
+CountriesArea:
+  CountriesArea_1:
+    name: Polska
+    is_active: 1
+CountriesAreaHasCountries:
+  CountriesAreaHasCountries_1:
+    countries_id: Countries_36
+    countries_area_id: CountriesArea_1

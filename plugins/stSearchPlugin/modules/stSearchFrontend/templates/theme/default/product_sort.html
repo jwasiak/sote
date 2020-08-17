@@ -1,0 +1,51 @@
+<div id="st_component-st_product-sort">
+    {__ text="Sortuj po"}:
+    {if $for_link_sort_by == "default"}
+        {if $for_link_sort_order == "desc"}
+            <b>{$link_default_asc}</b>
+            {$arrow_default_asc}
+        {else}
+            <b>{$link_default_desc}</b>
+            {$arrow_default_desc}
+        {/if}
+    {else}
+        {$link_default}
+    {/if}
+    |
+    {if $for_link_sort_by == "name"}
+        {if $for_link_sort_order == "desc"}
+            <b>{$link_name_asc}</b>
+            {$arrow_name_asc}
+        {else}
+            <b>{$link_name_desc}</b>
+            {$arrow_name_desc}
+        {/if}
+    {else}
+        {$link_name}
+    {/if}
+    |
+    {if $for_link_sort_by == "price"}
+        {if $for_link_sort_order == "desc"}
+            <b>{$link_price_asc}</b>
+            {$arrow_price_asc}
+        {else}
+            <b>{$link_price_desc}</b>
+            {$arrow_price_desc}            
+        {/if}
+    {else}
+        {$link_price}
+    {/if}
+    |
+    {if $for_link_sort_by == "created_at"}
+        {if $for_link_sort_order == "desc"}
+            <b>{$link_created_at_asc}</b>
+            {$arrow_created_at_asc}
+        {else}
+            <b>{$link_created_at_desc}</b>
+            {$arrow_created_at_desc}            
+        {/if}
+    {else}
+        {$link_created_at}
+    {/if}
+
+</div>

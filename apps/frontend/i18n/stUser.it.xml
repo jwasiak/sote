@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2012-07-02T03:01:14Z">
+		<body>
+			<trans-unit id="1">
+				<source>Logowanie</source>
+				<target>Accesso</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przypomnij hasło</source>
+				<target>Ricordare la password.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zarejestruj się</source>
+				<target>Registrazione</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>E-mail (login)</source>
+				<target>E-mail (login)</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Password</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Accesso</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Moje konto</source>
+				<target>Il mio account</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>wyloguj</source>
+				<target>Logout</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Twoje konto w sklepie zostało założone.</source>
+				<target>Il tuo account nel negozio è stato creato.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Witamy w naszym sklepie, dziękujemy za rejestracje.</source>
+				<target>Benvenuti nel nostro negozio! Grazie per la registrazione.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Twój login</source>
+				<target>Il tuo nome utente</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Twoje hasło</source>
+				<target>La tua password</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Data założenia konta</source>
+				<target>Data della creazione dell’account</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Twoje hasło do konto zostało zmienione</source>
+				<target>La tua password per l'account è stata modificata.</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>W sklepie zarejestrował się nowy klient.</source>
+				<target>Il negozio ha registrato un nuovo cliente.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>ID klienta</source>
+				<target>Dati del cliente</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Login klienta</source>
+				<target>Nome utente del cliente</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego hasło.</source>
+				<target>Inserire l'indirizzo e-mail che servirà come nome utente e al quale sarà inviata la password.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>E-mail z nowym hasłem został wysłany na adres: %mail%</source>
+				<target>L’e-mail con la nuova password è stata inviata all’indirizzo: %mail%</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Polityka prywatności</source>
+				<target>Politica di privacy</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Twoje konto w sklepie zostało założone</source>
+				<target>Il Tuo account nel negozio è stato creato.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Twoje hasło do konto zostało zmienione.</source>
+				<target>La Tua password per l'account è stata modificata.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta.</source>
+				<target>Accedere per gestire gli ordini e i dati dell'account.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Rejestracja</source>
+				<target>Registrazione</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Nie masz jeszcze założonego konta.</source>
+				<target>Non hai ancora creato un account.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Potwierdź hasło</source>
+				<target>Ripetere la password</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Accetto la politica di privacy.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nie masz jeszcze założonego konta. Wystarczy, że podasz hasło dla loginu</source>
+				<target>Non hai ancora creato un account. E’ sufficiente specificare la password per il login</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uzyskasz w ten sposób pełne konto z dostępem do swoich danych i informacji o statusach zamówienia.</source>
+				<target>In questo modo creerai un account per avere pieno accesso ai tuoi dati e alle informazioni sullo stato degli ordini.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane logowania</source>
+				<target>Dati di accesso</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Zmień e-mail (login)</source>
+				<target>Modifica e-mail (login)</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Zmień hasło</source>
+				<target>Modificare la password.</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Stare hasło</source>
+				<target>Password precedente</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nowe hasło</source>
+				<target>Nuova password</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zmiana hasła dla konta</source>
+				<target>Cambiare la password dell’account.</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Il numero di caratteri consentiti è stato superato.</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Podane hasło jest za krótkie min. 6 znaków.</source>
+				<target>La password inserita è troppo breve minimo 6 caratteri</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+				<target>Il numero di caratteri consentiti è stato superato, massimo 20 caratteri.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Zarejestruj</source>
+				<target>Registrazione</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Nie podałeś adresu e-mail</source>
+				<target>Non hai inserito l’indirizzo e-mail.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Nie podałeś hasła.</source>
+				<target>Non hai inserito la password.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zły login lub hasło.</source>
+				<target>Username o password scorretti</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Wprowadzono zły numer.</source>
+				<target>Introdotto numero sbagliato.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Aktualizuj</source>
+				<target>Aggiornare</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Przypomnij</source>
+				<target>Ricordare</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Cyfry z obrazka</source>
+				<target>Codice anti-spam</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Devi esprimere il consenso alla politica di privacy.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Stare hasło jest błędne.</source>
+				<target>La vecchia password è scorretta.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Hasła nie są takie same.</source>
+				<target>Le password non sono uguali.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Twoje hasło do konta zostało zmienione.</source>
+				<target>La tua password per l'account è stata modificata.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Formato dell’indirizzo e-mail non valido</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta.</source>
+				<target>A causa delle modifiche al software del nostro negozio, Vi preghiamo di inserire l’indirizzo e-mail, che utilizzerete per il login al vostro account.</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Rejestracja danych.</source>
+				<target>Registrazione dei dati.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Uzupełnij dane konta.</source>
+				<target>Completare i dati dell’account.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>In attesa di conferma</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Proszę sprawdzić pocztę na podany w czasie rejestracji adres został wysłany mail z prośbą o potwierdzenie konta.</source>
+				<target>Si prega di controllare le proprie e-mail; è stato inviato un messaggio con la richiesta di confermare l'account all’indirizzo indicato durante la registrazione.</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Brak adresu e-mail</source>
+				<target>Manca l’indirizzo e-mail.</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak hasła.</source>
+				<target>Manca la password.</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>Minimo 6 caratteri</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>(Dla stałych klientów)</source>
+				<target>(Per clienti abituali)</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego link do zmiany hasła.</source>
+				<target>Inserire l'indirizzo e-mail che servirà come nome utente: sarà inviato un collegamento per cambiare la password.</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Prośba o potwierdzenie rejestracji konta.</source>
+				<target>Si prega di confermare la registrazione dell'account.</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Twoje konto nie zostało jeszcze potwierdzone. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Il tuo account non è stato ancora confermato. Si prega di controllare la posta elettronica: all'indirizzo:</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>została wysłana prośba o potwierdzenie konta.</source>
+				<target>è stata inviata una richiesta per confermare l'account.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Wróć do zakupów</source>
+				<target>Tornare agli acquisti</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Dziękujemy za dokonanie rejestracji. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Grazie per la registrazione! Si prega di controllare la posta elettronica: all'indirizzo:</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Przejdź do koszyka</source>
+				<target>Passare al carrello.</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>bardzo słabe</source>
+				<target>Molto vulnerabile</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>słabe</source>
+				<target>Vulnerabile</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>normalne</source>
+				<target>Normale</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>mocne</source>
+				<target>Sicura</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>bardzo mocne</source>
+				<target>Molto sicura</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Potwierdzenie rejestracji</source>
+				<target>Confermare la registrazione.</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>Dane dostępowe do konta</source>
+				<target>Dati di accesso all’account</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Potwierdź rejestracje</source>
+				<target>Conferma la registrazione.</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Zmiana hasła.</source>
+				<target>Cambiare la password.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Proszę sprawdzić pocztę.</source>
+				<target>Si prega di controllare la posta.</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Na podany w czasie rejestracji adres, został wysłany mail z nowymi danymi do konta sklepu.</source>
+				<target>All’indirizzo indicato durante la registrazione è stato inviato un messaggio con i nuovi dati dell’account nel negozio.</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Przejdź do strony logowania</source>
+				<target>Vai alla pagina di login.</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Twoje hasło zostało zmienione.</source>
+				<target>La tua password è stata modificata.</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Aktualne dane dostępowe do konta</source>
+				<target>Attuali dati di accesso all’account</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Data modyfikacji konta</source>
+				<target>Data di modifica dell’account</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Przejdź na stronę sklepu.</source>
+				<target>Visitare la pagina del negozio.</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>E-mail z linkiem do utworzenia nowego hasła został wysłany na adres:</source>
+				<target>L’e-mail con il collegamento per creare la nuova password è stata inviata all’indirizzo:</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Skorzystaj z linku poniżej aby dokonać zmiany hasła.</source>
+				<target>Utilizzare il seguente collegamento per modificare la password.</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Link do zmiany hasła dla konta:</source>
+				<target>Collegamento per cambiare la password dell’account:</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Data wysłania linka</source>
+				<target>Data di spedizione del collegamento</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Podaj nowe hasło dla konta</source>
+				<target>Inserire la nuova password per l'account.</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zmiana hasła</source>
+				<target>Cambiare la password.</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>usuń</source>
+				<target>elimina</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Pomyślnie wylogowano użytkownika</source>
+				<target>Logout completato con successo</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+				<target>Fra poco sarai reindirizzato alla pagina principale.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Potwierdzenie autentyczności adresu.</source>
+				<target>Confermare l’autenticità dell’indirizzo.</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Twoje konto zostało już wcześniej potwierdzone.</source>
+				<target>Il tuo account è stato già precedentemente confermato.</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Wylogowano</source>
+				<target>Disconnesso</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Twoje konto wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić dane.</source>
+				<target>Il tuo conto deve essere omologato. Cliccare sul link sottostante per confermare i dati.</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Prośba o potwierdzenie konta.</source>
+				<target>Richiesta di omologazione del conto.</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Rejestracja nowego klienta</source>
+				<target>Registrazione di un nuovo cliente</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Informacje o koncie klienta</source>
+				<target>Informazioni sul conto del cliente</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Przejdź do edycji konta</source>
+				<target>Passa alla modifica del conto</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Akceptuję</source>
+				<target>Accetto</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>politykę prywatności</source>
+				<target>disposizioni sulla privacy</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>lub</source>
+				<target>oppure</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Zaloguj używając</source>
+				<target>Accedi utilizzando</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Potwierdź rejestrację</source>
+				<target>Confermare la registrazione.</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Dane płatnika</source>
+				<target>Dati dell’acquirente</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Dane wysyłkowe</source>
+				<target>Dati di spedizione</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Dane do faktury</source>
+				<target>Dati per la fattura</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Moje dane</source>
+				<target>I miei dati</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Zmień</source>
+				<target>Modifica</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Zarejestruj nowe konto lub zaloguj na istniejące.</source>
+				<target>Registra un nuovo conto o accedi a quello esistente.</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Podaj dane konta.</source>
+				<target>Inserisci i dati del conto.</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Dane konta</source>
+				<target>Dati del conto</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>Compila i campi evidenziati.</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Za chwilę nastąpi przekierowanie na stronę główną.</source>
+				<target>Fra un momento, verrai reindirizzato alla pagina principale.</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Podaj adres email (login użytkownika)</source>
+				<target>Inserisci l’indirizzo e-mail (nome utente per il login)</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Sprawdź pocztę na poniższy adres został wysłany link do zmiany hasła.</source>
+				<target>Controlla la posta. Un collegamento per cambiare la password è stato inviato al seguente indirizzo.</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Podaj nowe hasło.</source>
+				<target>Inserisci una nuova password</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>Login</source>
+				<target>Accesso</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulamin</source>
+				<target>regolamento</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>i przeczytałem</source>
+				<target>e ho letto</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Brak adresu email.</source>
+				<target>Manca l’indirizzo e-mail.</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Questo utente esiste già.</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>zaloguj się</source>
+				<target>accedi</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Zamówienia</source>
+				<target>Ordini</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Wyloguj</source>
+				<target>Esci</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Usuń</source>
+				<target>Cancella</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Pola wymagane</source>
+				<target>Campi obbligatori</target>
+			</trans-unit>
+			<trans-unit id="129">
+				<source>zmień</source>
+				<target>modifica</target>
+			</trans-unit>
+			<trans-unit id="130">
+				<source>Nie masz odpowiednich uprawnień</source>
+				<target>Non hai le autorizzazioni appropriate</target>
+			</trans-unit>
+			<trans-unit id="131">
+				<source>Sprawdź pocztę i kliknij w link potwierdzający adres e-mail, aby aktywować konto w sklepie.</source>
+				<target>Controlla la posta e clicca sul link di conferma dell’indirizzo e-mail per attivare il conto nel negozio.</target>
+			</trans-unit>
+			<trans-unit id="132">
+				<source>Na konto pocztowe</source>
+				<target>Sul conto postale</target>
+			</trans-unit>
+			<trans-unit id="133">
+				<source>została wysłana wiadomość z prośbą o potwierdzenie konta.</source>
+				<target>è stato inviato un messaggio con la richiesta di conferma del conto.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

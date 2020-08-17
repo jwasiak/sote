@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Klucz dostępu do API</source>
+                <target>API access key</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Klucz obliczania podpisu</source>
+                <target>Signature calculation key</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Adres powiadomień</source>
+                <target>Notification address</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Włącz</source>
+                <target>Enable</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Tryb testowy</source>
+                <target>Sandbox</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Wystąpił błąd podczas próby połączenia się z serwisem. Proszę sprawdzić czy wprowadzone dane są poprawne i spróbować ponownie.</source>
+                <target>Configuration</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

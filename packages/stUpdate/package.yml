@@ -1,0 +1,19 @@
+---
+package: 
+  name: stUpdate
+  stability: stable
+  version: 7.4.0.27
+  summary: Uaktualnienia
+  description: Uaktualnienia oprogramowania
+  notes: |
+    - Poprawka blokowania aplikacji podczas wykonywania aktualizacji
+  maintainers: 
+    Marek Jakubowicz: 
+      role: lead
+      user: marek
+      email: marek.jakubowicz@sote.pl
+  dependency: 
+    stProgressBarPlugin: 1.0.2.10   
+    stConfigPlugin: 1.0.2.3         
+    stSymfonyUpdate: 1.0.19.4
+    stPear: 1.2.0.0

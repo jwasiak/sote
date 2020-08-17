@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Włącz:</source>
+                <target>Enable:</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Brak obsługi PDO lub brak sterownika sqlite dla PDO. W celu rozwiązania problemu proszę skontaktować się z administratorem serwera.</source>
+                <target>No PDO support or no sqlite driver for PDO. To solve the problem, contact the server's administrator.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Fast Cache został wyczyszczony</source>
+                <target>Fast Cache was cleared</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wyczyść</source>
+                <target>Clear</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

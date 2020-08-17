@@ -1,0 +1,31 @@
+show:
+    vary:
+        fastcache: on       
+list:
+     vary:
+         fastcache: on
+recommendProducts:
+     vary:
+         fastcache: on
+groupList:
+     vary:
+         fastcache: on
+producerList:
+     vary:
+         fastcache: on         
+_productGroup:
+  enabled:  on
+  view:
+    stylesheets: [stProduct.css]
+    javascripts: [jquery.tiles.js]
+_new:
+  enabled:  on
+  view:
+    stylesheets: [stProduct.css]
+    javascripts: []
+_treeMain:
+  enabled:  off
+  view:
+    stylesheets: [stCategory.css]
+    javascripts: []
+

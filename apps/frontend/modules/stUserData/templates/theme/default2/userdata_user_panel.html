@@ -1,0 +1,71 @@
+{set layout="one_column_layout"}
+
+<div id="st_application-user-user" class="box roundies">
+    <div id="st_navigation_bar-user" class="st_navigation_bar_user">
+		<ul>
+	    	<li class="st_first st_selected"><a href="/user_data/userPanel">{__ text="Moje konto"}</a></li>
+		</ul>
+	</div>
+    
+    <div class="content_frame">
+        
+	    <div class="img_icons_config">
+	        <div class="box_icons_config">
+	          <a href="/user/editAccount"><img alt="stUser" src="/images/frontend/theme/default2/user.png" class="qpanel_apps"></a>
+	          	<div class="font_normal_config">
+	            	<a href="/user/editAccount"><nobr>{__ text="Moje dane"}</nobr></a>                  
+	            </div>
+	        </div>
+	    </div>
+	    
+	    {if $user_order==1}
+	    <div class="img_icons_config">
+	        <div class="box_icons_config">
+	          <a href="/order/list"><img alt="stOrder" src="/images/frontend/theme/default2/order.png" class="qpanel_apps"></a>
+	          	<div class="font_normal_config">
+	            	<a href="/order/list"><nobr>{__ text="Zamówienia"}</nobr></a>                  
+	            </div>
+	        </div>
+	    </div>
+	    {/if}
+	    
+	    
+	    {if $points_system_is_active == 1}
+        <div class="img_icons_config">
+            <div class="box_icons_config">
+              <a href="/points/list"><img alt="stOrder" src="/images/frontend/theme/default2/points.png" class="qpanel_apps"></a>
+                <div class="font_normal_config">
+                    <a href="/points/list"><nobr>{__ text="Punkty"}</nobr></a>                  
+                </div>
+            </div>
+        </div>
+        {/if}
+        
+	    
+	    {if $config_newsletter.newsletter_enabled != 1}
+		    <div class="img_icons_config">
+		        <div class="box_icons_config">
+		          <a href="/newsletter/newsletterList"><img alt="stNewsletterPlugin" src="/images/frontend/theme/default2/newsletter.png" class="qpanel_apps"></a>
+		          	<div class="font_normal_config">
+		            	<a href="/newsletter/newsletterList"><nobr>{__ text="Newsletter"}</nobr></a>                  
+		            </div>
+		        </div>
+		    </div>
+	    {/if}
+	    
+		{if $user_discounts==1}	    
+	    <div class="img_icons_config">
+	        <div class="box_icons_config">
+	          <a href="/discount/discountInfo"><img alt="stDiscountPlugin" src="/images/frontend/theme/default2/discount.png" class="qpanel_apps"></a>
+	          	<div class="font_normal_config">
+	            	<a href="/discount/discountInfo"><nobr>{__ text="Rabaty"}</nobr></a>                  
+	            </div>
+	        </div>
+	    </div>
+	    {/if}
+	    
+    	{slot name="user_panel_ico" hidden="true"}{/slot}
+        <div class="clear"></div>
+    </div>
+    
+</div>

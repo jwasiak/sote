@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Dostępność</source>
+				<target>供货状态</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Powiadom mnie o dostępności produktu</source>
+				<target>有货请通知我</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>W chwili obecnej nie możemy określić kiedy produkt</source>
+				<target>此刻我们无法确定什么时候</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>będzie dostępny w naszym sklepie.</source>
+				<target>在我们商店有货</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Prosimy o podanie adresu email na który wyślemy powiadomienie.</source>
+				<target>请填写电子邮件地址以便我们发通知。</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wyślij prośbę o powiadomienie</source>
+				<target>发通知请求</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>E-mail</source>
+				<target>电子邮件</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Treść</source>
+				<target>内容</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cyfry z obrazka</source>
+				<target>图片上的数字</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Proszę o przesłanie informacji o ponownej dostępności produktu w ofercie.</source>
+				<target>再有货请通知我。</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Podany adres jest nieprawidłowy.</source>
+				<target>您输入的地址不正确。</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wprowadzono zły numer.</source>
+				<target>您输入的验证码不正确。</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>供货状态的查询</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Informacje o dostępności należy przesłać na</source>
+				<target>请把供货状态的信息发到</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod produktu</source>
+				<target>商品代码</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Producent</source>
+				<target>生产厂家</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Kategoria</source>
+				<target>类别</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Czas realizacji</source>
+				<target>交货时间</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

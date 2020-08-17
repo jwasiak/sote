@@ -1,0 +1,13 @@
+package:
+  name: stCompatibilityPlugin
+  stability: stable
+  version: 7.1.0.7
+  summary: 'Modul zgodnosci'
+  description: 'Konfiguracja modulu zgodnosci'
+  notes: |
+    - Aktualizacja jezykow
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

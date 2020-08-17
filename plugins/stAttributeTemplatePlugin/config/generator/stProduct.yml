@@ -1,0 +1,5 @@
+edit:
+    display:
+        "NONE":     [_attributes]
+    fields:
+        attributes: {name: Waga}

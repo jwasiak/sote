@@ -1,0 +1,37 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-elegante-1.png
+    image_small: /picture/pl_PL/baner-elegante-1-small.png
+    is_active: 1
+    opt_culture: pl_PL
+    banner_title: Stabilność to podstawa
+    banner_description: Dowiedz się więcej o poprawnym doborze krzesła do wykonywanej pracy.
+    button_text: Sprawdź
+    button_link: /category/krzesla
+    link: /category/krzesla
+    banner_description_position: 0
+  SlideBanner_2:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-elegante-2.png
+    image_small: /picture/pl_PL/baner-elegante-2-small.png
+    is_active: 1
+    opt_culture: pl_PL
+    banner_title: Najlepsza jakość światła
+    banner_description: Obejrzyj najnowsze produkty nowej kolekcji lamp.
+    button_text: Sprawdź
+    button_link: /category/lampy
+    banner_margin_left: 47
+    link: /category/lampy
+    banner_description_position: 0
+  SlideBanner_3:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-elegante-3.png
+    image_small: /picture/pl_PL/baner-elegante-3-small.png
+    is_active: 1
+    opt_culture: pl_PL
+    banner_title: Anatomiczne krzesła
+    banner_description: Wybierz anatomiczne krzesło w Twoim ulubionym kolorze.
+    button_text: Sprawdż
+    button_link: /category/krzesla
+    link: /category/krzesla

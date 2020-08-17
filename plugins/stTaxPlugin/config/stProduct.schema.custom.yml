@@ -1,0 +1,9 @@
+propel:
+    st_product:
+      _attributes:    {phpName: Product}
+      tax_id: 
+          type: INTEGER
+          required: false
+          foreignTable: st_tax
+          foreignReference: id
+          onDelete: setnull

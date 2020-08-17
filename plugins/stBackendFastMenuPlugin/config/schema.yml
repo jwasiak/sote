@@ -1,0 +1,22 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stBackendFastMenuPlugin.lib.model
+  st_fast_menu: 
+    _attributes: 
+      phpName: FastMenu
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    module: 
+      type: VARCHAR
+      size: 255
+    position: 
+      type: INTEGER

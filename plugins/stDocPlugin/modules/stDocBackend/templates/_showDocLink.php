@@ -1,0 +1,1 @@
+&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; color: #555;" target="_blank" href="<?php echo $link_to_doc ?>">Pomoc <img style="vertical-align: middle;" src="/images/backend/beta/icons/16x16/help_doc.png"></a>

@@ -1,0 +1,5 @@
+index:
+    vary:
+        fastcache: on
+_mainText:
+    enabled: on

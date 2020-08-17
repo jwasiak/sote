@@ -1,0 +1,17 @@
+---
+package: 
+  name: stApplication
+  stability: stable
+  version: 1.0.0
+  summary: Uaktualnienia
+  description: Uaktualnienia oprogramowania
+  notes: 1.0.0
+  maintainers: 
+    Marek Jakubowicz: 
+      role: lead
+      user: marek
+      email: marek.jakubowicz@sote.pl
+    Bartosz Alejski: 
+      role: contributor
+      user: bartek
+      email: bartosz.alejski@sote.pl

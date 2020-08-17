@@ -1,0 +1,21 @@
+<div class="st_application" id="trusted_shops_classic_summary">
+    <div id="trusted_shop_classic_summary_logo">
+        <a href="https://www.trustedshops.com/shop/certificate.php?shop_id={$certificate}" target="_blank" />
+            <img id="st_home" src="/images/frontend/theme/default/stTrustedShopsPlugin/logo.png" alt="" title="{__ text="Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!"}"/>
+        </a>
+    </div>
+    <div id="trusted_shop_classic_summary_content">
+        {__ text="Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać."}
+        {$form}
+            {$charset}
+            {$shopId}
+            {$email}
+            {$amount}
+            {$curr}
+            {$paymentType}
+            {$kdnr}
+            {$ordernr}
+            <a href="#" onClick="document.getElementById('trustedShopsForm').submit();">{__ text="Zgłoszenie do Ochrony Kupującego Trusted Shops"}</a>
+        </form>
+    </div>
+</div>

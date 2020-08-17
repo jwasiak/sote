@@ -1,0 +1,456 @@
+Product:
+  Product_1:
+    code: A01
+    opt_asset_folder: 192
+    producer_id: Producer_2
+    price: 65.04
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 80.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Żel pod prysznic
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    stock: 30
+    url: zel-pod-prysznic
+  Product_2:
+    code: A02
+    opt_asset_folder: 193
+    producer_id: Producer_2
+    price: 105.69
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 130.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Krem pod oczy
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: krem-pod-oczy
+    stock: 23
+  Product_3:
+    code: A03
+    opt_asset_folder: 194
+    producer_id: Producer_2
+    price: 89.43
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 110.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Olejek do ciała
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: olejek-do-ciala
+    stock: 4
+  Product_4:
+    code: A04
+    opt_asset_folder: 195
+    producer_id: Producer_1
+    price: 48.78
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 60.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Olejek
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: olejek
+    stock: 6
+  Product_5:
+    code: A05
+    opt_asset_folder: 196
+    producer_id: Producer_1
+    price: 73.17
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 90.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Produkt na prezent
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: produkt-na-prezent
+    stock: 30
+  Product_6:
+    code: A06
+    opt_asset_folder: 197
+    producer_id: Producer_1
+    price: 121.95
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 150.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Krem do twarzy
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: krem-do-twarzy
+    stock: 7
+  Product_7:
+    code: A07
+    opt_asset_folder: 198
+    producer_id: Producer_1
+    price: 105.69
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 130.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Peeling
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: peeling
+    stock: 7
+  Product_8:
+    code: A08
+    opt_asset_folder: 199
+    producer_id: Producer_1
+    price: 73.17
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 90.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Balsam do ciała
+    short_description: >
+      Opisz tutaj produkt w kilku krótkich zdaniach. Warto zacząć od wartości, jakie daje jego zakup i dodać najważniejsze informacje.
+    description: >
+      <h2>Pełny opis produktu</h2><p>To jest główny opis produktu. Jeśli jest długi, podziel go na działy, a tytuły działów oznacz jako nagłówki (Formaty-&gt;Nagłówki-&gt;Nagłówek 2 lub Nagłówek 3). W nagłówku i opisie warto ująć słowa kluczowe powiązane z produktem. Ułatwi to wyszukiwanie produktu w wyszukiwarkach. Używaj naturalnego języka.</p><p>Pamiętaj o odstępach między dłuższymi fragmentami tekstu. Staraj się<strong> unikać zbyt wielu wyróżnień</strong>, zmian wielkości tekstu i kolorów. Lepiej zaprezentowany i czytelny tekst pozytywnie wpływa na czas, jaki klienci spędzają na stronie produktu.</p><h3>Parametry produktu</h3><p>Zaprezentuj czytelnie dodatkowe dane. Dodaj cechy produktu lub inne informacje na liście.</p>
+      <ul><li>Używaj listy z menu.</li><li>Domyślnie wykorzystaj listę wypunktowaną.</li>
+      <li>Jeśli kolejność informacji jest ważna, użyj listy numerowanej.</li><li>Wykorzystaj zagnieżdżenia listy.</li>
+      <li>Opisz elementy takie jak np.:<br /><ul><li>Funkcje,</li><li>Parametry ogólne,</li><li>Dane teczniczne.</li></ul></li></ul>
+      <p>Dobry opis jest jednym z kluczowych elementów nie tylko dla klientów, którzy aktualnie znajdują się na stronie, ale ma także ważny wpływ na pozycjonowanie danej strony i całego sklepu. Dla wielu klientów strona produktu jest pierszą, jaką odwiedzają, dlatego warto zadbać, by zarówno zdjęcia, opis produktu jak i informacje dodatkowe były czytelne i pięknie zaprezentowane.</p>
+    description2:
+    url: balsam-do-ciala
+    stock: 7
+ProductI18n:
+  ProductI18n_1:
+    id: Product_1
+    culture: en_US
+    uom: pcs.
+    name: Shower gel
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: shower-gel
+  ProductI18n_2:
+    id: Product_2
+    culture: en_US
+    uom: pcs.
+    name: Eye cream
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: eye-cream
+  ProductI18n_3:
+    id: Product_3
+    culture: en_US
+    uom: pcs.
+    name: Body Oil
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: body-oil
+  ProductI18n_4:
+    id: Product_4
+    culture: en_US
+    uom: pcs.
+    name: Oil
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: oil
+  ProductI18n_5:
+    id: Product_5
+    culture: en_US
+    uom: pcs.
+    name: Product for a gift
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: product-for-a-gift
+  ProductI18n_6:
+    id: Product_6
+    culture: en_US
+    uom: pcs.
+    name: Face cream
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: face-cream
+  ProductI18n_7:
+    id: Product_7
+    culture: en_US
+    uom: pcs.
+    name: Peeling
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: peeling
+  ProductI18n_8:
+    id: Product_8
+    culture: en_US
+    uom: pcs.
+    name: Body lotion
+    short_description: >
+      Here, describe a specific product in a few, short sentences. You can start with the benefits for the buyer and then add the most important information. 
+    description: >
+      <h2>Full product description</h2>
+      <p>This is the main description of the product. If it is long, divide it into sections and define section titles as headings ((Formats-&gt;Headings-&gt;Heading 2 or Heading 3). It is advisable to include key words related to the product in section headings as well as in the description.  This will facilitate product searches in search engines. Use simple and easy to understand language.</p>
+      <p>Remember to leave spaces between longer pieces of your text. Try not to use <strong>too many text highlights</strong>, font size or colour changes. The visual aspect of the text and its legibility positively affect the time customers spend on your product website.</p><h3>Product parameters</h3><p>Present additional information in a legible form. Add product features or other information as listed.</p>
+      <ul><li>Use the menu lists.</li><li>Use the default bullet list.</li><li>If the information sequence is important, use the numbered list.</li><li>Use the list embeddings.</li>
+      <li>Describe such elements as e.g.:<br /><ul><li>Functions,</li><li>General parameters,</li><li>Technical data.</li></ul></li></ul><p>A good description is one of key aspects that attract the customers browsing your website but it also positively affects the positioning of your website and the store in the Internet. Many customers typically start browsing your website with the product page. Therefore, you should make sure it contains product photos, descriptions and additional information that are easy to understand and visually attractive.</p>
+    description2:
+    url: body-lotion
+ProductHasCategory: 
+  ProductHasCategory_630: 
+    category_id: Category_2
+    product_id: Product_1
+    is_default: 1
+  ProductHasCategory_632: 
+    category_id: Category_3
+    product_id: Product_2
+    is_default: 1
+  ProductHasCategory_635: 
+    category_id: Category_5
+    product_id: Product_3
+    is_default: 1
+  ProductHasCategory_637: 
+    category_id: Category_5
+    product_id: Product_4
+    is_default: 1
+  ProductHasCategory_640: 
+    category_id: Category_2
+    product_id: Product_5
+    is_default: 1
+  ProductHasCategory_641: 
+    category_id: Category_3
+    product_id: Product_5
+  ProductHasCategory_642: 
+    category_id: Category_4
+    product_id: Product_5
+  ProductHasCategory_643: 
+    category_id: Category_5
+    product_id: Product_5
+  ProductHasCategory_645: 
+    category_id: Category_3
+    product_id: Product_6
+    is_default: 1
+  ProductHasCategory_646: 
+    category_id: Category_2
+    product_id: Product_7
+    is_default: 1
+  ProductHasCategory_647: 
+    category_id: Category_3
+    product_id: Product_7
+  ProductHasCategory_648: 
+    category_id: Category_3
+    product_id: Product_8
+    is_default: 1
+  ProductHasCategory_649: 
+    category_id: Category_4
+    product_id: Product_8
+  ProductHasCategory_650: 
+    category_id: Category_5
+    product_id: Product_8
+sfAssetFolder:
+  sfAssetFolder_1:
+    fillin_from_path: media/products/192/images
+    is_enabled: 1
+  sfAssetFolder_2:
+    fillin_from_path: media/products/193/images
+    is_enabled: 1
+  sfAssetFolder_3:
+    fillin_from_path: media/products/194/images
+    is_enabled: 1
+  sfAssetFolder_4:
+    fillin_from_path: media/products/195/images
+    is_enabled: 1
+  sfAssetFolder_5:
+    fillin_from_path: media/products/196/images
+    is_enabled: 1
+  sfAssetFolder_6:
+    fillin_from_path: media/products/197/images
+    is_enabled: 1
+  sfAssetFolder_7:
+    fillin_from_path: media/products/198/images
+    is_enabled: 1
+  sfAssetFolder_8:
+    fillin_from_path: media/products/199/images
+    is_enabled: 1
+sfAsset:
+  sfAsset_1:
+    folder_id: sfAssetFolder_1
+    filename: 192.png
+    type: image
+  sfAsset_2:
+    folder_id: sfAssetFolder_2
+    filename: 193.png
+    type: image
+  sfAsset_3:
+    folder_id: sfAssetFolder_3
+    filename: 194.png
+    type: image
+  sfAsset_4:
+    folder_id: sfAssetFolder_4
+    filename: 195.png
+    type: image
+  sfAsset_5:
+    folder_id: sfAssetFolder_5
+    filename: 196.png
+    type: image
+  sfAsset_6:
+    folder_id: sfAssetFolder_6
+    filename: 197.png
+    type: image
+  sfAsset_7:
+    folder_id: sfAssetFolder_7
+    filename: 198.png
+    type: image
+  sfAsset_8:
+    folder_id: sfAssetFolder_8
+    filename: 199.png
+    type: image
+ProductHasSfAsset:
+  ProductHasSfAsset_1:
+    sf_asset_id: sfAsset_1
+    product_id: Product_1
+    is_default: 1
+  ProductHasSfAsset_2:
+    sf_asset_id: sfAsset_2
+    product_id: Product_2
+    is_default: 1
+  ProductHasSfAsset_3:
+    sf_asset_id: sfAsset_3
+    product_id: Product_3
+    is_default: 1
+  ProductHasSfAsset_4:
+    sf_asset_id: sfAsset_4
+    product_id: Product_4
+    is_default: 1
+  ProductHasSfAsset_5:
+    sf_asset_id: sfAsset_5
+    product_id: Product_5
+    is_default: 1
+  ProductHasSfAsset_6:
+    sf_asset_id: sfAsset_6
+    product_id: Product_6
+    is_default: 1
+  ProductHasSfAsset_7:
+    sf_asset_id: sfAsset_7
+    product_id: Product_7
+    is_default: 1
+  ProductHasSfAsset_8:
+    sf_asset_id: sfAsset_8
+    product_id: Product_8
+    is_default: 1

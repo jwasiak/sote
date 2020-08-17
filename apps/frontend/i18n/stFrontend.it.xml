@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2010-11-04T02:51:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>Strona główna</source>
+				<target>Pagina principale</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>oprogramowanie</source>
+				<target>Software</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Użytkownicy online</source>
+				<target>Utenti online</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Czas generowania strony</source>
+				<target>Tempo di generazione della pagina</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>sklep internetowy</source>
+				<target>Negozio internet</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>wersja Open</source>
+				<target>Versione Open</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Wpisz czego szukasz</source>
+				<target>Scrivi cosa cerchi</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

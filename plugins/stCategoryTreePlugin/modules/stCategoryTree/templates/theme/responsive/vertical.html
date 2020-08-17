@@ -1,0 +1,28 @@
+<ul id="vertical-categories" class="nav nav-stacked">
+    <h3>
+        {__ text="Kategorie" langCatalogue="stCategory"}
+    </h3>
+    {if $parent}
+        <li class="parent"><a href="{$parent.url}"><span class="glyphicon glyphicon-chevron-left"></span> <span class="name">{$parent.name}</span></a></li>
+    {/if}
+    {if $current}
+        <li>
+            <span class="current">
+                <a href="{$current.url}">{$current.name}</a>
+            </span>
+            <ul class="nav nav-stacked">
+                {foreach item=child from=$categories}    
+                    <li{if $selected && $child.id == $selected.id} class="active"{/if}>
+                        <a href="{$child.url}">{$child.name}</a>
+                    </li>
+                {/foreach}
+            </ul>        
+        </li>
+    {else}
+        {foreach item=child from=$categories}    
+            <li{if $selected && $child.id == $selected.id} class="active"{/if}>
+                <a href="{$child.url}">{$child.name}</a>
+            </li>
+        {/foreach}
+    {/if}
+</ul>

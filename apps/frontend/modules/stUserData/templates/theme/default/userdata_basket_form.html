@@ -1,0 +1,268 @@
+<div id="st_user-edit_data" class="st_component" style="border: none; width: 400px; float: right;">
+
+    {$form_start}
+    <fieldset>
+    <h5 class="st_title">
+        {__ text="Dane billingowe"}
+        <span class="st_user_title">{__ text="(Dla nowych klientów)"}</span>
+    </h5>
+
+
+         <div id="st_form-user-field2" class="st_row" style="width:210px;margin-left:135px;">
+            <div style="float:left;">{$radio_customer_type1} {$label_customer_type1}</div>
+
+            <div style="float:right;text-align:right;">{$radio_customer_type2} {$label_customer_type2}</div>
+            <br class="clea">
+        </div>
+
+        
+    {$error_billing_message}
+    {$error_billing_email}
+    {$error_billing_password1}
+    {$error_billing_password2}
+    {$error_billing_full_name}
+    {$error_billing_address}
+    {$error_billing_address_more}
+    {$error_billing_region}
+    {$error_billing_code}
+    {$error_billing_town}
+    {$error_billing_phone}
+    {$error_billing_vat}
+    {$error_billing_company}
+    <div id="st_form-user-field1" class="st_row" style="{$display_type}; font-weight: bold;">
+        {$label_company}
+        <div class="st_field">
+            {$input_company}
+        </div>
+    </div>
+    <div id="st_form-user-field10" class="st_row" style="{$display_type}; font-weight: bold;">
+        {$label_nip}
+        <div class="st_field">
+            {$input_nip}
+        </div>
+    </div>   
+    <div id="st_form-user-field2" class="st_row">
+        <b>{$label_email}</b>
+        <div class="st_field">    
+            {$input_email}
+        </div>
+    </div>
+    
+    <div style="margin-left: 113px;">
+        {$hidden_checkbox_create_account}
+        {$checkbox_create_account}
+        <span style="margin-left: 5px;">
+            {__ text="Załóż konto (zarejestruj mnie)"}
+        </span>
+    </div>
+    
+    {if $show_create_account}
+        <div id="showCreateAccount" style="display: block;">
+    {else}
+        <div id="showCreateAccount" style="display: none;">
+    {/if}   
+            <div id="st_form-user-field2" class="st_row">
+                <b>{$label_password1}</b>
+                <div class="st_field">    
+                    {$input_password1}
+                </div>
+            </div>
+            
+            <div id="st_form-user-field2" class="st_row">
+                <b>{$label_password2}</b>
+                <div class="st_field">    
+                    {$input_password2}
+                </div>
+            </div>
+              
+         
+             <script type="text/javascript">
+              jQuery('#st_form-user-billing-password1').pstrength();
+             </script>
+         
+        </div>
+    
+    
+             
+       
+    
+    <div id="st_form-user-field3" class="st_row" style="font-weight: bold;">
+        {$label_full_name}
+        <div class="st_field">
+            {$input_full_name}
+        </div>
+    </div>
+    <div id="st_form-user-field4" class="st_row">
+        <b>{$label_address}</b>
+        <div class="st_field">
+            <span>{__ text="np. Nazwa ulicy nr/nr"}</span>
+            {$input_address}
+        </div>
+    </div>
+
+    <div id="st_form-user-field4" class="st_row">
+        {$label_address_more}
+        <div class="st_field">
+            <span>{__ text="adres ciąg dalszy"}</span>
+            {$input_address_more}
+        </div>
+    </div>
+
+    {if $show_region==1}
+    <div id="st_form-user-field4" class="st_row">
+        {$label_region}
+        <div class="st_field">
+            {$input_region}
+        </div>
+    </div>
+    {/if}
+
+    <div id="st_form-user-field5" class="st_row">
+        <b>{$label_code_town}</b>
+        <div class="st_field">
+            {$input_code}
+            {$input_town}
+        </div>
+    </div>
+    <div id="st_form-user-field6" class="st_row">
+        <b>{$label_country}</b>
+        <div class="st_field">
+        {$select_country}
+        </div> 
+    </div>
+    {if $show_pesel==1}
+    <div id="st_form-user-field4" class="st_row">
+        {$label_pesel}
+        <div class="st_field">
+            {$input_pesel}
+        </div>
+    </div>
+    {/if}
+    <div id="st_form-user-field7" class="st_row">
+        <b>{$label_phone}</b>
+        <div class="st_field">
+            {$input_phone}
+        </div>
+    </div>
+    <div style="margin-left: 113px;">
+        {$hidden_checkbox_different_delivery}
+        {$checkbox_different_delivery}
+        <span style="margin-left: 5px;">
+            {__ text="Dane dostawy są inne niż dane billingowe"}
+        </span>
+    </div>
+    
+    {if $show_delivery_form}
+        <div id="showDeliveryData" style="display: block;">
+    {else}
+        <div id="showDeliveryData" style="display: none;">
+    {/if}   
+    
+        <br>
+        <h5 class="st_title">
+            {__ text="Dane dostawy"}
+        </h5>
+        {$error_delivery_message}
+        {$error_delivery_full_name}
+        {$error_delivery_address}
+        {$error_delivery_address_more}
+        {$error_delivery_region}
+        {$error_delivery_code}    
+        {$error_delivery_town}    
+        {$error_delivery_phone}    
+        {$error_delivery_vat}    
+        <div id="st_form-user-field1" class="st_row">    
+            <label for="st_form-userData-field1">{__ text="Firma"} <sup>[1]</sup></label>
+            <div class="st_field">
+                {$input_delivery_company}
+            </div>
+        </div>        
+        <div id="st_form-user-field3" class="st_row">
+            <label for="st_form-userData-field3">{__ text="Imię i nazwisko"} <sup>[1]</sup></label>
+            <div class="st_field">
+                {$input_delivery_full_name}
+            </div>
+        </div>
+
+        <div id="st_form-user-field4" class="st_row">
+        <b>{$label_address}</b>
+        <div class="st_field">
+            <span>{__ text="np. Nazwa ulicy nr/nr"}</span>
+            {$input_delivery_address}
+        </div>
+        </div>
+
+        <div id="st_form-user-field4" class="st_row">
+            {$label_address_more}
+            <div class="st_field">
+                <span>{__ text="adres ciąg dalszy"}</span>
+                {$input_delivery_address_more}
+            </div>
+        </div>
+        {if $show_region==1}
+        <div id="st_form-user-field4" class="st_row">
+            {$label_delivery_region}
+            <div class="st_field">
+                {$input_delivery_region}
+            </div>
+        </div>
+        {/if}
+        <div id="st_form-user-field5" class="st_row">
+            <b>{$label_delivery_code_town}</b>
+            <div class="st_field">
+                {$input_delivery_code}
+                {$input_delivery_town}
+            </div>
+        </div>
+        <div id="st_form-user-field6" class="st_row">
+            <b>{$label_delivery_country}</b>
+            <div class="st_field">
+                {$select_delivery_country}
+            </div> 
+        </div>
+        <div id="st_form-user-field7" class="st_row">
+            <b>{$label_delivery_phone}</b>
+            <div class="st_field">
+                {$input_delivery_phone}
+            </div>
+        </div>
+    </div>
+    {if isset($captcha_on)}
+        <div class="st_row">
+            {$error_captcha}
+            <div style="margin-left:140px; margin-bottom: 2px;">{$get_captcha}</div>
+            <b>{$label_captcha}</b>
+            <div class="st_field">     
+                {$input_captcha}
+            </div>
+        </div>             
+    {/if}
+    
+    {$under_basket_socket}
+    
+    <div class="st_row">
+        {$error_privacy}
+        <div class="st_field" style="margin-left: 113px;">        
+            {$checkbox_privacy}
+        <span style="margin-left: 7px;">{$privacy_link}</span>
+        </div>
+    </div>  
+    
+    <div style="margin-left: 92px;">
+    </div>
+    {$hidden_show_delivery_form_checkbox}
+    {$hidden_show_delivery_form_style0}
+    {$hidden_user_data_delivery_id}
+    {$hidden_user_data_billing_id}
+    
+    <div class="st_row">
+        <div class="st_field">
+            <span><b>* {__ text="Pola pogrubione są wymagane."}</b></span>
+        </div>
+        <div class="st_field" id="st_form-user-required-index" style="display: none;">
+            <span><sup>[1]</sup> <b>{__ text="Jedno z pól jest wymagane."}</b></span>
+        </div>
+    </div>
+    
+</div>
+<br class="st_clear_all" />     

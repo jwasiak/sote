@@ -1,0 +1,16 @@
+---
+package:
+  name: stTranslationEsPlugin
+  stability: stable
+  version: 7.0.5.0
+  summary: Tlumaczenia w jezyku hiszpanskim.
+  description: Tlumaczenia w jezyku hiszpanskim.
+  notes: |
+    - Aktualizacja tlumaczen.
+  maintainers:
+    Michal Prochowski:
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stLanguagePlugin: 1.1.0.14

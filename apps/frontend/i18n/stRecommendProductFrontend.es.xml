@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>treść wiadomości</source>
+				<target>contenido del mensaje</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>twój adres e-mail</source>
+				<target>su correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>informacje dodatkowe</source>
+				<target>información adicional</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>Correo electrónico de su amigo</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>cyfry z obrazka</source>
+				<target>cifras de la imagen</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wiadomość o treści</source>
+				<target>Un mensaje con el siguiente contenido</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>została wysłana do</source>
+				<target>ha sido enviado a </target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Polecenie produktu</source>
+				<target>Recomendar el producto</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Dziękujemy</source>
+				<target>Gracias </target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>Su recomendación ya ha sido enviada a este amigo</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Możesz polecić produkt innemu znajomemu</source>
+				<target>Puede recomendar el producto a otro amigo</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Enviar</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Poleć produkt</source>
+				<target>Recomendar el producto</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Brak adresu e-mail</source>
+				<target>Falta el correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>El formato de la dirección de correo electrónico es incorrecto</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Proporcione cifras correctas</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Powrót</source>
+				<target>Volver </target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Data polecenia produktu</source>
+				<target>Fecha de recomendación del producto</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Produkt polecił</source>
+				<target>Producto recomendado por</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Adresat (e-mail)</source>
+				<target>Destinatario (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Treść</source>
+				<target>Contenido</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nadawca (e-mail)</source>
+				<target>Remitente (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras del dibujo</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Polecenie produktu.</source>
+				<target>Recomendación del producto</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Número incorrecto</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Polecone od</source>
+				<target>Recomendado por</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Este mensaje ha sido enviado por una tienda electrónica</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Pokaż produkt w sklepie</source>
+				<target>Ver el producto en la tienda</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Opis produktu</source>
+				<target>Descripción del producto</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

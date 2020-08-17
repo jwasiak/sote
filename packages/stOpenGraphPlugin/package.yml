@@ -1,0 +1,13 @@
+package:
+  name: stOpenGraphPlugin
+  stability: stable
+  version: 7.0.0.4
+  summary: Open Graph
+  description: Open Graph
+  notes: |
+    - Open Graph
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

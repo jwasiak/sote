@@ -1,0 +1,47 @@
+{use_stylesheet src="appProductAttributesPlugin.css"}
+
+<div id="pa_attributes">
+	<h3>{$label}</h3>
+	<table cellpadding="0" cellspacing="0" border="0">
+	{foreach from=$attributes key=id item=attribute}
+	{if $attribute.type != 'B' && (!isset($variants[$id]) || empty($variants[$id]))}
+		{php}continue{/php}
+	{/if}
+		<tr>
+			<td>{$attribute.name}:</td>
+			<td>
+	{if $attribute.type == 'B'}
+	           {if isset($variants[$id])}{__ text="Tak"}{else}{__ text="Nie"}{/if}
+	{elseif $attribute.type == 'C'}
+               <ul class="pa_variants">
+	{foreach from=`$variants[$id]` item=variant}    
+	               <li class="pa_color" title="{$variant.name}">
+	                  <span style="{if $variant.type == 'C'}background-color: #{$variant.value}{else}background-image: url(/{$variant.value}){/if}"></span>
+	               </li> 
+	{/foreach}
+               </ul>
+               <div class="clear"></div>     
+	{else}
+         {pa_text_variants variants=$variants[$id]}
+	{/if}
+			</td>
+		</tr>
+	{/foreach}
+	</table>
+	<div class="tooltip roundies"></div>
+</div>
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+	$('#pa_attributes .pa_color').tooltip({
+		tip: '#pa_attributes .tooltip',
+		position: 'center right',
+		offset: [0, 8],
+		delay: 0
+	});
+});
+//]]>   
+</script>
+{/literal}

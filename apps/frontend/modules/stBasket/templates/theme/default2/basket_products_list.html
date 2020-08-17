@@ -1,0 +1,152 @@
+{$form_start}
+<div id="button-basket-continue" class="buttons right">
+	<a href="{$return_url}" class="regular roundies">
+	  <span class="arrow_right">{__ text="Kontynuuj zakupy"}</span>
+	</a>
+</div>
+<table id="st-basket-product" class="st_tabular-list roundies" cellspacing="0" width="100%">
+        <colgroup>
+            {if $show_photo_in_basket}<col width="60" />{/if}
+            {if $show_code_in_basket}<col width="60" />{/if}
+            <col />
+            {if $show_netto_in_basket}<col width="80" />{/if}
+            {if $show_tax_in_basket}<col width="50" />{/if}
+            <col width="80" />
+            <col width="50" />
+            {if $points_system_is_active}
+            <col width="50" />
+            {/if}
+            {if $show_uom_in_basket}<col width="50" />{/if}
+            <col width="80" />
+            <col width="80" />
+            
+        </colgroup>
+        <thead>
+            <tr>
+            	
+                {if $show_photo_in_basket}<th class="st_basket-product-photo roundies_lt"><span>{__ text="zdjęcie"}</span></th>{/if}
+                {if $show_code_in_basket}<th class="st_basket-product-code"><span>{__ text="kod"}</span></th>{/if}
+                <th class="st_basket-product-name"><span>{__ text="nazwa"}</span></th>
+                {if $show_netto_in_basket}<th class="st_basket-product-netto"><span>{__ text="netto"}</span></th>{/if}
+                {if $show_tax_in_basket}<th class="st_basket-product-tax"><span>{__ text="vat"}</span></th>{/if}
+                <th class="st_basket-product-brutto"><span>{__ text="brutto"}</span></th>
+                {if $points_system_is_active}
+                <th class="st_basket-product-brutto"><span>{$points_shortcut}</span></th>
+                {/if}
+                <th class="st_basket-product-num"><span>{__ text="ilość"}</span></th>
+                {if $show_uom_in_basket}<th class="st_basket-product-uom"><span>{__ text="j.m."}</span></th>{/if}
+                <th class="st_basket-product-sum"><span>{__ text="suma}</span></th>
+                <th class="st_basket-product-remove roundies_rt">{__ text="usuń"}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <div id="st_basket_product_value"></div>
+            {foreach key=row item=product from=$results}
+            {if $product.if_form_error}
+                <tr>
+                    <td colspan="11"><span class="st_error">{$product.error_show}</span></td>
+                </tr>
+            {/if}  
+             <tr id="tr_product_id_{$product.id}" >
+                {if $show_photo_in_basket}
+                <td class="st_basket-product-photo">
+                    {if $product.preview}
+                    <div class="st_basket_product_preview">
+                        {$product.photo}
+                        <div>{$product.preview}</div>
+                    </div>
+                    {else}
+                    {$product.photo}
+                    {/if}
+                </td>
+                {/if}
+                {if $show_code_in_basket}<td class="st_basket-product-code">{$product.code}</td>{/if}
+                <td class="st_basket-product-name">{$product.name}</td>
+                {if $show_netto_in_basket}<td class="st_basket-product-netto" nowrap>{if $product.points_only!=1}{$product.price_netto}{else} - {/if}</td>{/if}
+                {if $show_tax_in_basket}<td class="st_basket-product-tax">{if $product.points_only!=1}{$product.tax} %{else} - {/if}</td>{/if}
+                <td class="st_basket-product-brutto" nowrap>{if $product.points_only!=1}{$product.price_brutto}{else} - {/if}</td>          
+                {if $points_system_is_active}<td class="st_basket-product-brutto" >{if $product.is_set_discount==""}{$product.points_value}{else} - {/if}</td>{/if}
+                
+                <td class="st_basket-product-num" onmouseover="{$product.num_onmouseover}" onmouseout="{$product.num_onmouseout}">
+                <ul>
+                    <li id="st_basket-product-num-button-minus-{$product.id}" style="visibility: hidden">{$product.minus}</li>
+                    <li class="st_basket-product-num-value" id="st_basket_product_value{$product.id}">{$product.num}</li>
+                    <li id="st_basket-product-num-button-plus-{$product.id}" style="visibility: hidden">{$product.plus}</li>
+                </ul>
+                </td>
+                {if $show_uom_in_basket}<td class="st_basket-product-uom">{$product.uom}</td>{/if}
+                
+                
+                <td class="st_basket-product-sum" nowrap>
+                    
+                    {if $points_system_is_active && $is_authenticated==1 && $is_release!="release_off" && $is_release!="release_on"  && $product.show_pay_by_money!="false"}
+                        <a  href="/points/list" style="text-decoration: none;"><span class="basket_tooltip" title='{__ text="Nie osiągnięto progu punktów."}<br/>{__ text="Do osiągnięcia progu brakuje"}: <b>{$is_release} {$points_shortcut}</b>' style="color:red;">{$product.points_sum_value} {$points_shortcut}</span></a>                    
+                    {elseif $points_system_is_active && $product.show_pay_by_points=="true" && $product.show_pay_by_money!="false" && $product.is_set_discount==""}                       
+                        <a  href="{$product.url_by_points}" style="text-decoration: none;"><span style="color:green;">{__ text="kup za "} <b>{$product.points_sum_value}</b> {$points_shortcut}</span></a>
+                    {elseif $points_system_is_active && $product.points_sum_value > $user_points_status && $is_authenticated==1 && $product.show_pay_by_money!="false"  && $product.is_set_discount==""}
+                        <span class="basket_tooltip" title='{__ text="Brak wystarczającej ilości punków."}' style="color:red;">{$product.points_sum_value} {$points_shortcut}</span> 
+                    {/if}              
+                    
+                    {if $points_system_is_active && $is_authenticated!=1 && $product.points_sum_value!=0 && $product.is_set_discount==""}
+                        <a  href="/user/loginUser" style="text-decoration: none;"><span class="basket_tooltip" title='{__ text="Zaloguj się aby kupić produkt."}' style="color:green;">{__ text="kup za "} <b>{$product.points_sum_value}</b> {$points_shortcut}</span></a>
+                    {/if}
+                    
+                    
+                    {if $product.show_pay_by_money!="false" || $product.points_sum_value > $user_points}{if $product.points_only!=1}{if $points_system_is_active && $product.points_sum_value != 0 && $product.is_set_discount==""} / {/if}{$product.total_amount}{/if}{/if}
+                    
+                    {if $product.show_pay_by_money=="true"}
+                         {$product.points_sum_value} {$points_shortcut}                    
+                         {if $product.points_only!=1}
+                            <a class="roundies" href="{$product.url_by_money}" style="margin:0px 0px -2px 2px;">
+                                {$delete_img}
+                            </a>
+                         {/if}       
+                    {/if}
+                    
+                </td>
+                
+                
+                <td class="st_basket-product-remove">{$product.delete}</td>
+            </tr>
+            {/foreach}
+            <tr>
+                <td colspan="11" class="st_basket-all-empty roundies_b">
+	                <div class="buttons right basket_action">
+	                    <a href="{$clear_url}" class="roundies">
+	                        <img src="/images/frontend/theme/default2/basket/trash.gif" alt="" />
+	                    </a>
+	                </div>
+	                    
+	                <div class="buttons right basket_action">
+	                    <button type="submit" class="roundies">
+	                    	<img src="/images/frontend/theme/default2/basket/refresh.png" alt="" />
+	                	</button>
+	                </div>
+
+                    <div id="st_basket_vat_eu" class="right">
+                        {$vat_eu}
+                    </div>                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+{literal}
+<script type="text/javascript" language="javascript">
+    jQuery(function ($) {
+         $(document).ready(function () {
+            $(".basket_tooltip").tooltip({ 
+               effect: 'slide',
+               opacity: 1,
+               delay: 0,
+               position: 'bottom center',
+               offset: [20,0],
+               tipClass: "my_tooltip tooltip roundies"
+
+            });
+        });
+    });
+
+</script>
+{/literal}

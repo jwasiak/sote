@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+				<target>Etiqueta de calidad Trusted Shops - aquí puede ver si es válida</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+				<target>Presentar para la Protección del Comprador Trusted Shops</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ochrona Kupującego Trusted Shops</source>
+				<target>Protección del Comprador Trusted Shops</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Ochrona Kupującego do</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>z VAT</source>
+				<target>IVA incluido</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+				<target>Protección del Comprador Trusted Shops garantiza la seguridad de sus compras; consiento al proporcionamiento y</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>zapisywanie</source>
+				<target>registración de</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+				<target>mi cuenta electrónica por Trusted Shops para asegurar la Protección del Comprador</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Warunki gwarancji</source>
+				<target>Condiciones de la garantía</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>dla Ochrony Kupującego.</source>
+				<target>para la Protección del Comprador</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops. Zobacz więcej...</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Więcej informacji o</source>
+				<target>Más información sobre</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Zobacz opinie klientów sklepu</source>
+				<target>Ver las opiniones de nuestros clientes</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Opinie klientów sklepu</source>
+				<target>Las opiniones de nuestros clientes</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Ubezpieczenie Trusted Shops</source>
+				<target>Seguro Trusted Shops</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

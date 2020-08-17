@@ -1,0 +1,26 @@
+Tax:
+    Tax_1:
+        vat: 0
+        vat_name: 0%
+    Tax_2:
+        vat: 5
+        vat_name: 5%
+    Tax_4:
+        vat: 8
+        vat_name: 8%
+    Tax_5:
+        vat: 23
+        is_default: 1
+        vat_name: 23%
+    Tax_6:
+        vat: 0
+        vat_name: ue
+        is_system_default: true
+    Tax_7:
+        vat: 0
+        vat_name: ex
+        is_system_default: true
+    Tax_8:
+        vat: 0
+        vat_name: zw
+        is_system_default: true

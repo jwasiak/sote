@@ -1,0 +1,2 @@
+<?php use_helper('stAdminGenerator') ?>
+<?php st_include_component('stProductOptionsBackend', 'showOption', array('product_id' => $product_id, 'model' => $model, 'price_type' => $price_type,  'culture'=>$culture)) ?>

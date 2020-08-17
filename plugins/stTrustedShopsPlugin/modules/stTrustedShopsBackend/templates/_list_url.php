@@ -1,0 +1,1 @@
+<?php if ($trusted_shops->getUrl()) echo $trusted_shops->getUrl(); else echo '-';

@@ -1,0 +1,29 @@
+propel:
+    st_backend_alert: 
+        _attributes: 
+            phpName: BackendAlert
+            isI18N: true
+            i18nTable: st_backend_alert_i18n
+        opt_name: {change_column: name}
+        opt_description: {change_column: description}                
+      
+    st_backend_alert_i18n: 
+        _attributes: 
+            phpName: BackendAlertI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_backend_alert
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        description: 
+            type: LONGVARCHAR

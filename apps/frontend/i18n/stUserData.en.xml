@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Moje konto</source>
+				<target>My account</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dane billingowe</source>
+				<target>Billing data</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowy adres</source>
+				<target>New address</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Edytuj</source>
+				<target>Edit</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak danych billingowych, uniemożliwi dokonywanie zakupów. Proszę uzupełnij dane billingowe.</source>
+				<target>Placing an order is not possible with no billing data supplied. Please complete your billing data.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Uzupełnij swoje dane!</source>
+				<target>Complete your data!</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Dane dostawy</source>
+				<target>Delivery data</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Brak danych dostawy, uzupełnij swoje dane bilingowe aby móc zarządzać danymi dostawy.</source>
+				<target>No delivery data. Complete your billing data in order to be able to manage delivery data.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Domyślne dane bilingowe</source>
+				<target>Default billing data</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Ustaw jako domyślne dane bilingowe</source>
+				<target>Set as default billing data</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Domyślne dane dostawy</source>
+				<target>Default delivery data</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Ustaw jako domyślne dane dostawy</source>
+				<target>Set as default delivery data</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Domyślne dane nie mogą być usunięte</source>
+				<target>Default data may not be deleted</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Usuń dane</source>
+				<target>Delete data</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Edytuj dane</source>
+				<target>Edit data</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Domyślne dane</source>
+				<target>Default data</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Ustaw dane jako domyślne</source>
+				<target>Set data as default</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Firma</source>
+				<target>Company</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Imię i nazwisko</source>
+				<target>Name and Surname</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Ulica, nr domu</source>
+				<target>Street address and number</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kod, miasto</source>
+				<target>Postal code and city/town</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Kraj</source>
+				<target>Country</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Telefon</source>
+				<target>Phone number</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>NIP</source>
+				<target>VAT ID</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Ustaw jako domyślne dane.</source>
+				<target>Set as default data.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Zapisz</source>
+				<target>Save</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Przejdź do potwierdzenia</source>
+				<target>Proceed with confirmation</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rejestracja</source>
+				<target>Register</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Podaj dane billingowe aby dokończyć proces rejestracji.</source>
+				<target>Provide your billing data to complete the registration process.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane dostawy są inne niż dane billingowe</source>
+				<target>Delivery data differs from billing data</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Powiadamiaj mnie o nowościach w sklepie</source>
+				<target>Tell me about new items in the store</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Cyfry z obrazka</source>
+				<target>Digits from the image</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Akceptuję politykę prywatności</source>
+				<target>I accept the Privacy Policy</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Dodaj nowy adres</source>
+				<target>Add new address</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Maximum number of characters exceeded.</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Brak imienia.</source>
+				<target>No first name supplied.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Brak nazwiska.</source>
+				<target>No surname supplied.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Brak ulicy.</source>
+				<target>No street address supplied.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Brak domu.</source>
+				<target>No street number supplied.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak kodu.</source>
+				<target>No postal code supplied.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak miasta.</source>
+				<target>No city/town supplied.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Brak telefonu.</source>
+				<target>No telephone number supplied.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Dane logowania</source>
+				<target>Login data</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Edycja danych dostawy</source>
+				<target>Edit delivery data</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Edycja danych billingowych</source>
+				<target>Edit billing data</target>
+			</trans-unit>
+			<trans-unit id="47">
+                <source>Nie podałeś adresu e-mail.</source>
+                <target>No e-mail supplied.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Wprowadzono zły numer.</source>
+                <target>Invalid number entered.</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid e-mail address format.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Musisz wyrazić zgodę na politykę prywatności.</source>
+                <target>You are required to accept our Privacy Policy.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Musisz podać imię i nazwisko lub dane firmowe.</source>
+                <target>No name and surname or company name supplied.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Musisz podać imię i nazwisko lub nazwę firmy.</source>
+                <target>No name and surname or company name supplied.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Uwagi do zamówienia</source>
+                <target>Notes and remarks</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>(Dla nowych klientów)</source>
+                <target>(For new clients)</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Załóż konto (zarejestruj mnie)</source>
+                <target>Create account</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Brak adresu e-mail.</source>
+                <target>No e-mail supplied.</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Dane bilingowe</source>
+                <target>Billing data</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Brak danych dostawy, uzupełnij swoje dane dostawy aby móc dokonywać zakupów w sklepie.</source>
+                <target>No delivery data, fill up your delivery data in order to purchase items in the store.</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Minimalnie 6 znaków</source>
+                <target>Minimum of 6 characters</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>bardzo słabe</source>
+                <target>very weak</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>słabe</source>
+                <target>weak</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>normalne</source>
+                <target>normal</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>mocne</source>
+                <target>strong</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>bardzo mocne</source>
+                <target>very strong</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Brak hasła.</source>
+                <target>No password supplied.</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Powtórz hasło</source>
+                <target>Repeat password</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Brak nipu.</source>
+                <target>No VAT ID supplied.</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Klient indywidualny</source>
+                <target>Individual consumer</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Musisz podać imię i nazwisko.</source>
+                <target>No name and surname.</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Ulica nr domu / nr lokalu</source>
+                <target>Address</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>np. Nazwa ulicy nr/nr</source>
+                <target>eg Street name No/No</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>adres ciąg dalszy</source>
+                <target>address more</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Województwo</source>
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Brak adresu.</source>
+                <target>No address supplied.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Uwagi</source>
+                <target>Comments</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>komentarz do zamówienia</source>
+                <target>comments to the order</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Pola pogrubione są wymagane.</source>
+                <target>Fields in bold are required.</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Jedno z pól jest wymagane.</source>
+                <target>One of the fields is required.</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Zalogowano z konta google</source>
+                <target>Logged with Google account</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Miasto</source>
+                <target>Town</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Załóż konto</source>
+                <target>Create account</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Inne dane wysyłkowe</source>
+                <target>Other shipping information</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Dane płatnika</source>
+                <target>Payer data</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Dane wysyłkowe</source>
+                <target>Shipping data</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Moje dane</source>
+                <target>My Profile</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Zamówienia</source>
+                <target>Orders</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Podaj dane płatnika i wysyłkowe.</source>
+                <target>Enter your purchase information, and shipping.</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Uzupełnij zaznaczone pola.</source>
+                <target>Complete the selected fields.</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Niepoprawny adres.</source>
+                <target>Invalid address.</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Adres ciąg dalszy</source>
+                <target>Address more</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Rabaty</source>
+                <target>Discounts</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Chcę otrzymać fakturę vat</source>
+                <target>I want to receive a VAT invoice</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Newsletter</source>
+                <target>Newsletter</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Edycja danych</source>
+                <target>Edit data</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Podany numer VAT UE jest nieaktywny lub nieprawidłowy</source>
+                <target>EU VAT number is inactive or invalid</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Brak adresu email.</source>
+                <target>No email address.</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Brak imienia i nazwiska.</source>
+                <target>No name and surname.</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Brak firmy.</source>
+                <target>No company.</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Domyślne dane płatnika</source>
+                <target>The default payer data</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Alternatywne dane</source>
+                <target>Alternative data</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Dane zostały zaktualizowane.</source>
+                <target>The data have been updated.</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Ustaw jako domyślne</source>
+                <target>Set as default</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Brak numeru NIP.</source>
+                <target>No VAT ID</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Taki użytkownik już istnieje.</source>
+                <target>The user already exists.</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>VAT UE</source>
+                <target>VAT EU</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Treść uwag</source>
+                <target>Notes content</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Podany numer VAT UE nie spełnia wymogów wewnątrzwspólnotowego nabycia towarów</source>
+                <target>EU VAT number does not meet the intra-Community acquisition of goods</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Punkty</source>
+                <target>Points</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Twoje punkty</source>
+                <target>Your points</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Pola wymagane</source>
+                <target>Required fields</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>Akceptuję</source>
+                <target>I accept the</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>i przeczytałem</source>
+                <target>and read the</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Ostatnie zamówienie</source>
+                <target>Last order</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Numer zamówienia</source>
+                <target>Order number</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Data złożenia zamówienia</source>
+                <target>Date of order</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Wartość koszyka</source>
+                <target>Shopping cart value</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Dostawa</source>
+                <target>Delivery</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>Razem do zapłaty</source>
+                <target>Total amount</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>Metoda płatności</source>
+                <target>Payment method</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>Opłacone</source>
+                <target>Paid</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>Aktualnie nie posiadasz nowych zamówień.</source>
+                <target>We currently do not have new orders.</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>Dane konta</source>
+                <target>Account data</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Twoje konto jest w pełni aktywne wszelkie informacje będą przesyłane na adres</source>
+                <target>Your account is fully active with all the information will be sent to the following address</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>zmień</source>
+                <target>change</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>Witaj w panelu klienta.</source>
+                <target>Welcome to the customer panel.</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>Twoje konto jest w pełni aktywne. Wszelkie informacje będą przesyłane na adres</source>
+                <target>Your account is fully active. All information will be sent to the following address</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>Dodaj dane klienta</source>
+                <target>Add customer date</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>Aktualnie nie posiadasz żadnych rabatów.</source>
+                <target>We currently do not have any discounts.</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Wróć do zakupów</source>
+                <target>Back to shopping</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>Rabaty przyznane klientowi</source>
+                <target>Discount given to the customer</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>tak</source>
+                <target>yes</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>nie</source>
+                <target>no</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Zamówienie bez logowania</source>
+                <target>Order without login</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Numer VAT UE</source>
+                <target>EU Vat Number</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Dane do faktury</source>
+                <target>Invoice data</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>Wybrany kraj nie jest zgodny z podanym numerem VAT UE</source>
+                <target>The selected country does not match the EU VAT number</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>Numer przesyłki</source>
+                <target>Shipping number</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

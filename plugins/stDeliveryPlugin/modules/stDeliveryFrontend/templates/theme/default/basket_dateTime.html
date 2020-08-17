@@ -1,0 +1,28 @@
+{use_javascript src="jquery.timeentry.js" }
+{use_javascript src="calendar.js" }
+
+
+
+{if $date_on == 1 && $time_on == 1}
+<label for="delivery_date">{__ text="Data i czas"}</label>
+{else}
+
+    {if $date_on == 1}
+        <label for="delivery_date">{__ text="Dzień dostawy"}</label>
+    {/if}
+
+    {if $time_on == 1}
+        <label for="delivery_date">{__ text="Czas dostawy"}</label>
+    {/if}
+
+{/if}
+
+
+{if $date_on == 1}
+    <input name="delivery[delivery_date]" id="datepicker" readonly="readonly"/>
+{/if}
+
+{if $time_on == 1}
+    <input id="show24" name="delivery[delivery_time]" value="{$def_time}">
+{/if}
+

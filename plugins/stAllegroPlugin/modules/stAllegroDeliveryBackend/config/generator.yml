@@ -1,0 +1,38 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            AllegroAuction
+        theme:                  simple
+
+        head:
+            package:            stAllegroPlugin
+        applications:           [stProduct]
+
+        fields:
+            name:               {name: "Nazwa"}
+            price_list:         {name: "Cennik"}
+            environment:        {name: "Tryb"}
+            list_environment:   {name: "Tryb"}
+            is_default:         {name: "Domyślny"}
+
+        list:
+            title:              "Cenniki dostawy"
+            display:            [=name, _list_environment, is_default]
+            object_actions:
+                _edit:          -
+                _delete:        -
+            actions:
+                _create:        {name: "Dodaj"}
+            menu:
+                display:        [config, delivery, category]
+                fields:
+                    config:     {name: "Konfiguracja", action: stAllegroBackend/config}
+                    delivery:   {name: "Cenniki dostawy", action: stAllegroDeliveryBackend/list}
+                    category:   {name: "Import kategorii", action: stAllegroBackend/categoryCustom}
+        edit:
+            title:              "Edycja cennika dostawy"
+            display:            [name, _environment, _price_list, _is_default]
+            actions:
+                _list:          {name: "Lista"}
+                _save:          {name: "Zapisz"}
+            menu:               {use: list.menu}

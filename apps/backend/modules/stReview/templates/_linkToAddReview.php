@@ -1,0 +1,1 @@
+<?php echo __("Link do recenzji"); ?>:&nbsp;&nbsp;&nbsp;http://<?php echo $sf_request->getHost(); ?>/<?php echo $product->getFriendlyUrl(); ?>.html?hash_code=<?php echo $hash_code; ?>

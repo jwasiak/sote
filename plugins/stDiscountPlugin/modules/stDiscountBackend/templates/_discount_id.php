@@ -1,0 +1,1 @@
+<?php echo select_tag('discount_range[discount_id]', options_for_select(DiscountRangePeer::getDiscountsForSelect(), $discount_range->getDiscountId()))?>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Produkt nie istnieje</source>
+                <target>Product does not exist</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Eksport opisów</source>
+                <target>Description export</target>
+            </trans-unit>    
+            <trans-unit id="3">
+                <source>Import opisów</source>
+                <target>Description import</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Eksport opisów dla wersji językowych</source>
+                <target>Description export for different languages</target>
+            </trans-unit>    
+            <trans-unit id="5">
+                <source>Import opisów dla wersji językowych</source>
+                <target>Description import for different languages</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wersja językowa</source>
+                <target>Language version</target>
+            </trans-unit>    
+            <trans-unit id="8">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>    
+            <trans-unit id="9">
+                <source>Opis pełny</source>
+                <target>Full description</target>
+            </trans-unit>    
+            <trans-unit id="10">
+                <source>Opis skrócony</source>
+                <target>Short description</target>
+            </trans-unit>    
+            <trans-unit id="11">
+                <source>Opis dodatkowy</source>
+                <target>Additional description</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Import eksport opisow w wersjach jezykowych</source>
+                <target>Description import export for different languages</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Import opisów w wersjach językowych</source>
+                <target>Description import for different languages</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Eksport opisów w wersjach językowych</source>
+                <target>Description export for different languages</target>
+            </trans-unit>
+            
+        </body>
+    </file>
+</xliff>

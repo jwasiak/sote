@@ -1,0 +1,55 @@
+<div id="theme-editor" class="navbar-fixed-top">
+   <div class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+         <div class="navbar-right">
+            <ul class="nav navbar-nav">
+               <li><a href="{$return_url}">{__ text='Powrót'}</a></li>
+               <li><a href="{$logout_url}">{__ text='wyloguj' catalogue='stUser'}</a></li>
+               <li class="dropdown">
+                  <a href="#" class="editor-config dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                     <li>
+                        <div class="checkbox">
+                           <label>
+                              <input id="editor-autohide" type="checkbox" value="1" /> {__ text='Autoukrywanie paska'}
+                           </label>
+                        </div>
+                     </li>
+                  </ul>                  
+               </li> 
+            </ul>    
+         </div>
+      </div>
+   </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function($) {
+   $(document).ready(function() { 
+      var editor = $('#theme-editor');
+
+      $('#restore_default_layout').click(function() {
+         return window.confirm('{/literal}{__ text="Jesteś pewien, że chcesz przywrócić domyślny układ dla wybranego tematu?"}{literal}');
+      });
+
+      $('body').prepend(editor);      
+
+      $('#editor-autohide').change(function() {
+         if (this.checked) {
+            editor.addClass('editor-autohide');
+         } else {
+            editor.removeClass('editor-autohide');
+         }
+
+         $.cookies.set('st_theme_editor.autohide', this.checked, { path: '/' });
+      });
+
+      if ($.cookies.get('st_theme_editor.autohide'))
+      {
+         $('#editor-autohide').click(); 
+      }
+   });
+});
+</script>
+{/literal}

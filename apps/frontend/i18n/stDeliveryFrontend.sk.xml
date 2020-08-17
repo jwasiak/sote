@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2012-07-02T03:01:19Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wartość koszyka</source>
+				<target>Hodnota košíka</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Koszt dostawy</source>
+				<target>Náklady na dopravu</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Razem do zapłaty</source>
+				<target>Celkom k zaplatení</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dostawa</source>
+				<target>Dodávka</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszty</source>
+				<target>Náklady</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatności</source>
+				<target>Platby</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kraj dostawy</source>
+				<target>Krajina dodávky</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy</source>
+				<target>Produkty v nákupnom košíku nespĺňajú kritériá dodania. Znížte množstvo produktov v košíku alebo sa obráťte na predajcu s cieľom vytvoriť alternatívny spôsob dopravy.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Bony zakupowe</source>
+				<target>Nákupní poukážka</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zapłacono</source>
+				<target>Bolo zaplatené</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data i czas</source>
+				<target>Dátum a čas</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Czas dostawy</source>
+				<target>čas dodávky</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Dzień dostawy</source>
+				<target>Deň dodávky</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wybrana dostawa nie posiada zdefiniowanych płatności</source>
+				<target>Zvolená dodávka nemá definované platby</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Brak zdefiniowanych dostaw lub stref w sklepie</source>
+				<target>Ne sú definované dodávky alebo zóny v predajni</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Koszt</source>
+				<target>Náklady</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność punktami</source>
+				<target>Platba bodmi</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

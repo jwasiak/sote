@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2013-02-19T01:15:04Z">
+		<body>
+			<trans-unit id="1">
+				<source>Filtry</source>
+				<target>选择</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>wyczyść</source>
+				<target>清空</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Tak</source>
+				<target>是</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Nie</source>
+				<target>不</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

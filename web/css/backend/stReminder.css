@@ -1,0 +1,28 @@
+#st_reminder li
+{
+   background-position: 0px 1px;
+
+   background-repeat: no-repeat;
+
+   padding-left: 21px;
+
+   padding-bottom: 2px;
+}
+
+#st_reminder li.warning,
+#st_reminder li.warning a
+{
+   font-weight: bold;
+}
+
+#st_reminder li.warning
+{
+   color: #f00;
+
+   background-image: url("/sf/sf_admin/images/error.png");
+}
+
+#st_reminder li.notify
+{
+   background-image: url("/images/backend/icons/more.png");
+}

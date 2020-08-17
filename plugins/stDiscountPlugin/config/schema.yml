@@ -1,0 +1,288 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stDiscountPlugin.lib.model
+  st_discount: 
+    _attributes: 
+      phpName: Discount
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    type:
+      type: VARCHAR
+      size: 1
+      required: true
+      default: P
+    price_type:
+      type: VARCHAR
+      required: true
+      size: 1
+      default: %
+    name: 
+      type: VARCHAR
+      size: 64
+      required: true
+    value: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+      default: 0
+      required: true
+    conditions:
+      type: VARCHAR
+      phpType: array
+      size: 4096     
+    priority: 
+      type: INTEGER
+      required: true
+      default: 0
+    active: 
+      type: BOOLEAN
+      required: true
+      default: 1
+    all_products: 
+      type: BOOLEAN
+      required: true
+      default: 0
+    all_clients:
+      type: BOOLEAN
+      required: true
+      default: 0      
+    allow_anonymous_clients:
+      type: BOOLEAN
+      required: true
+      default: 0
+    auto_active: 
+      type: BOOLEAN
+      required: true
+      default: 0
+    product_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade    
+    _indexes: 
+      discount_priority: 
+        - priority
+      discount_active: 
+        - active
+  st_user_has_discount: 
+    _attributes: 
+      phpName: UserHasDiscount
+    sf_guard_user_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+    discount_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount
+      foreignReference: id
+      onDelete: cascade
+    auto: 
+      type: BOOLEAN
+      required: true
+      default: 0
+  st_discount_has_product: 
+    _attributes: 
+      phpName: DiscountHasProduct
+    discount_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+  st_discount_range: 
+    _attributes: 
+      phpName: DiscountRange
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    discount_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_discount
+      foreignReference: id
+      onDelete: cascade
+    total_value: 
+      type: DOUBLE
+      required: true
+      default: 0.0
+  st_discount_user: 
+    _attributes: 
+      phpName: DiscountUser
+    sf_guard_user_id: 
+      type: INTEGER
+      required: true
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+    discount: 
+      type: DOUBLE
+      default: 0
+  st_discount_coupon_code: 
+    _attributes: 
+      phpName: DiscountCouponCode
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_guard_user_id: 
+      type: INTEGER
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+    order_id: 
+      type: INTEGER
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade 
+    code: 
+      type: VARCHAR
+      size: 16
+      required: true
+    used: 
+      type: INTEGER
+      required: true
+      default: 0
+    valid_usage: 
+      type: INTEGER
+      required: true
+      default: 0
+    allow_all_products:
+      type: BOOLEAN
+      required: false
+    valid_from: 
+      type: TIMESTAMP
+    valid_to: 
+      type: TIMESTAMP
+    discount: 
+      type: DECIMAL
+      size: 3
+      scale: 1
+      required: true
+      default: 0
+    _uniques: 
+      discount_coupon_code_index1: 
+        - code
+
+  st_discount_has_producer: 
+    _attributes: 
+      phpName: DiscountHasProducer
+    discount_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount
+      foreignReference: id
+      onDelete: cascade
+    producer_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_producer
+      foreignReference: id
+      onDelete: cascade
+
+  st_discount_has_category: 
+    _attributes: 
+      phpName: DiscountHasCategory
+    discount_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount
+      foreignReference: id
+      onDelete: cascade
+    category_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_category
+      foreignReference: id
+      onDelete: cascade
+    is_opt:
+      type: BOOLEAN
+      default: 0
+      required: true
+
+  st_discount_coupon_code_has_producer: 
+    _attributes: 
+      phpName: DiscountCouponCodeHasProducer
+    discount_coupon_code_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount_coupon_code
+      foreignReference: id
+      onDelete: cascade
+    producer_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_producer
+      foreignReference: id
+      onDelete: cascade
+
+  st_discount_coupon_code_has_category: 
+    _attributes: 
+      phpName: DiscountCouponCodeHasCategory
+    discount_coupon_code_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount_coupon_code
+      foreignReference: id
+      onDelete: cascade
+    category_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_category
+      foreignReference: id
+      onDelete: cascade
+    is_opt:
+      type: BOOLEAN
+      default: 0
+      required: true
+
+  st_discount_coupon_code_has_product: 
+    _attributes: 
+      phpName: DiscountCouponCodeHasProduct
+    discount_coupon_code_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_discount_coupon_code
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade

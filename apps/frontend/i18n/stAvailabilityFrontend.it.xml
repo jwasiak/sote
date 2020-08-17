@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="it" datatype="plaintext" date="2012-07-02T03:01:14Z">
+		<body>
+			<trans-unit id="1">
+				<source>Dostępność</source>
+				<target>Disponibilità</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Powiadom mnie o dostępności produktu</source>
+				<target>Notificatemi la disponibilità del prodotto</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>W chwili obecnej nie możemy określić kiedy produkt</source>
+				<target>Al momento non è possibile determinare quando il prodotto</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>będzie dostępny w naszym sklepie.</source>
+				<target>sarà disponibile nel nostro negozio.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Prosimy o podanie adresu email na który wyślemy powiadomienie.</source>
+				<target>Si prega di fornire il proprio indirizzo di posta elettronica al quale invieremo la notifica.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wyślij prośbę o powiadomienie</source>
+				<target>Invia una richiesta di notifica</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Treść</source>
+				<target>Contenuto</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cyfry z obrazka</source>
+				<target>Codice anti-spam</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Proszę o przesłanie informacji o ponownej dostępności produktu w ofercie.</source>
+				<target>Si prega di inviare informazioni sulla nuova disponibilità del prodotto in offerta.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Podany adres jest nieprawidłowy.</source>
+				<target>L'indirizzo specificato non è valido.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wprowadzono zły numer.</source>
+				<target>Introdotto numero sbagliato.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Richiesta di disponibilità</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Informacje o dostępności należy przesłać na</source>
+				<target>Le informazioni sulla disponibilità devono essere inviate a</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod produktu</source>
+				<target>Codice prodotto</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Producent</source>
+				<target>Produttore</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Kategoria</source>
+				<target>Categoria</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Czas realizacji</source>
+				<target>Tempo di realizzazione</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,10 @@
+fields:
+    config{client_id}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{password}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{store_key}:
+        required:
+            msg:    Proszę uzupełnić pole.

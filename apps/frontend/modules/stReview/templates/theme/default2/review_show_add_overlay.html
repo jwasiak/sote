@@ -1,0 +1,82 @@
+<div id="st_application-st_review-add" style="margin-bottom: 10px;">
+
+    <div class="title">
+        <h2>{__ text="Recenzja produktu"}</h2>
+    </div>
+    
+     <div class="st_content">
+        {$form_start}
+        
+            <fieldset>
+                <div class="st_row">
+
+                <label><b>{__ text="Twoja ocena"}</b></label>
+
+                    <div style="float:left;">
+                        <input name="review[star]" type="radio" class="submit-star" value="1" {if $my_star_raiting==1} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="2" {if $my_star_raiting==2} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="3" {if $my_star_raiting==3} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="4" {if $my_star_raiting==4} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="5" {if $my_star_raiting==5} checked {/if} />
+                    </div>
+                <br class="st_clear_all" />
+                </div>
+
+                <div class="st_row">
+                    
+                    {$label_description}
+                    <div class="st_field">
+                        {$input_description}
+                    </div>
+                </div>
+
+                <div class="st_row">
+                    {$error_username}
+                    {$label_username}
+                    <div class="st_field">
+                        {$input_username}
+                    </div>
+                </div>
+
+                
+
+                {if $is_authenticated==false}
+
+                <div class="st_row {if $error_privacy==1}checkbox_error{/if}" >
+                    <div class="st_field vertical-align-middle " style="margin-left: 96px;padding: 10px; margin-bottom: 60px;">      
+                                                 
+                    {$checkbox_privacy}
+                    {st_get_partial partial="stUser/privacy" params="privacy_only=true new_window=true"}                                                
+                    
+                    </div>
+                </div>
+
+                {if isset($captcha_on)}
+                    <div class="st_row">
+                        {$error_captcha}
+                        <div class="row_captha">
+                            {$get_captcha}
+                        </div>
+                        <b>{$label_captcha}</b>
+                        <div class="st_field">
+                            {$input_captcha}
+                        </div>
+                    </div>
+                {/if}
+                
+                {/if}
+
+                <div class="st_row">
+                    <div id="button-add-review" class="buttons right">
+                        <button type="submit" class="regular roundies">
+                            {__ text="Wyślij"}
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
+        {$hidden_product_id}
+        {$hidden_hash_code}
+        </form>
+    </div>
+    
+</div>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stLanguagePlugin.lib.model" noXsd="true">
+
+  <table name="st_language" phpName="Language" isI18N="true" i18nTable="st_language_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="currency_id" type="INTEGER" default="0" />
+    <foreign-key foreignTable="st_currency" onDelete="setnull">
+      <reference local="currency_id" foreign="id" />
+    </foreign-key>
+    <column name="active_image" type="VARCHAR" size="36" />
+    <column name="inactive_image" type="VARCHAR" size="36" />
+    <column name="shortcut" type="VARCHAR" size="3" />
+    <column name="is_default" type="BOOLEAN" default="0" />
+    <column name="active" type="BOOLEAN" default="1" />
+    <column name="language" type="VARCHAR" size="10" />
+    <column name="is_translate" type="BOOLEAN" default="0" />
+    <column name="system" type="BOOLEAN" required="true" default="0" />
+    <column name="is_default_panel" type="BOOLEAN" />
+    <column name="is_translate_panel" type="BOOLEAN" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+  </table>
+
+  <table name="st_language_has_domain" phpName="LanguageHasDomain">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="language_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_language" onDelete="cascade">
+      <reference local="language_id" foreign="id" />
+    </foreign-key>
+    <column name="domain" type="VARCHAR" size="255" />
+    <column name="is_default" type="BOOLEAN" />
+  </table>
+
+  <table name="st_translation_cache" phpName="TranslationCache">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="language_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_language" onDelete="restrict">
+      <reference local="language_id" foreign="id" />
+    </foreign-key>
+    <column name="catalogue" type="VARCHAR" size="100" />
+    <column name="catalogue_index" type="VARCHAR" size="8" />
+    <column name="value" type="LONGVARCHAR" />
+  </table>
+
+  <table name="st_language_i18n" phpName="LanguageI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_language" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+  </table>
+
+</database>

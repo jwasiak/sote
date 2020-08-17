@@ -1,0 +1,136 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                    Partner
+        create_model_class:             Partner
+        order_model_class:              Order
+        link_model_class:               PartnerHash
+        theme:                      simple
+        head:
+            package:    stPartnerPlugin
+        applications:   [stOrder, stUser]
+        custom_actions:
+            custom:           [config]
+            edit:             [create, order, link]
+            list:             [create, order, link]
+        list:
+            title:            Lista
+            display:          [=partner_name, name, surname, last_login]
+            fields:
+                partner_name: {name: Login (e-mail)}
+                name:         {name: Imię}
+                surname:      {name: Nazwisko}
+                last_login:   {name: Ostatnio logowany}
+            actions:
+                _create:      {name: Dodaj, action: createEdit}
+            object_actions:
+                _edit:        -
+                _delete:      -
+        edit:
+            title:            Edycja partnera.
+            display:    [~confirm, partner_name, ~provision_status, company, name, surname, street, house, flat, town, countries_id, phone, vat_number, bank_number, description, provision, amount, is_active]
+            fields:
+                confirm:                {name: Potwierdzony}
+                partner_name:           {name: Login (e-mail), params: disabled=true}
+                provision_status:       {name: Status}
+                name:                   {name: Imię}
+                surname:                {name: Nazwisko}
+                company:                {name: Firma}
+                street:                 {name: Ulica}
+                house:                  {name: Nr domu}
+                flat:                   {name: Nr mieszkania}
+                town:                   {name: Miasto}
+                code:                   {name: Kod}
+                countries_id:           {name: Kraj}
+                phone:                  {name: Telefon}
+                vat_number:             {name: NIP}
+                bank_number:            {name: Nr konta}
+                description:            {name: Informacje dodatkowe, type: textarea_tag, params: size=150x10 rich=true tinymce_options='height:50,width:425'}
+                provision:              {name: Prowizja procentowa, params: size=5}
+                amount:                 {name: Prowizja kwotowa, params: size=5}
+                is_active:              {name: Aktywny}
+            menu:
+                display:                [order, link]
+                fields:
+                    _edit:              {name: Dane konta}
+                    order:              {name: Zamówienia, action: stPartnerBackend/orderList?partner_id=%%id%%}
+                    link:               {name: Link partnerski, action: stPartnerBackend/linkEdit?partner_id=%%id%%}
+            actions:
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+                _delete:                {name: Usuń}
+        create_edit:
+            title:      Edycja partnera.
+            display:    [partner_name, partner_password, partner_confirm_password, company, name, surname, street, house, flat, town, countries_id, phone, vat_number, bank_number, description, provision, amount, is_active, is_confirm]
+            fields:
+                partner_name:               {name: Login (e-mail), params: disabled=false}
+                partner_password:           {name: Hasło, type: input_tag, params: type=password}
+                partner_confirm_password:   {name: Powtórz hasło, type: input_tag, params: type=password}
+                name:                       {name: Imię}
+                surname:                    {name: Nazwisko}
+                company:                    {name: Firma}
+                street:                     {name: Ulica}
+                house:                      {name: Nr domu}
+                flat:                       {name: Nr mieszkania}
+                town:                       {name: Miasto}
+                code:                       {name: Kod}
+                countries_id:               {name: Kraj}
+                phone:                      {name: Telefon}
+                vat_number:                 {name: NIP}
+                bank_number:                {name: Nr konta}
+                description:                {name: Informacje dodatkowe, type: textarea_tag, params: size=150x10 rich=true tinymce_options='height:50,width:425'}
+                provision:                  {name: Prowizja procentowa, params: size=5}
+                amount:                     {name: Prowizja kwotowa, params: size=5}
+                is_active:                  {name: Aktywny}
+                is_confirm:                 {name: Potwierdzony}
+            actions:
+                _list:                      {name: Lista, action: /}
+                _save:                      {name: Zapisz}
+                _delete:                    {name: Usuń}
+        order_list:
+            forward_parameters:         [partner_id]
+            build_options:
+                related_id:             forward_parameters.partner_id
+            menu:                       {use: edit.menu}
+            title:                      Lista zamówień
+            display:                    [=number, created_at, =sf_guard_user, _total_amount, provision_value, provision_payed]
+            fields:
+                number:                 {name: Numer, params: size=10 link_to="stOrder/edit?id=%%id%%"}
+                sf_guard_user:          {name: Klient, sort_field: order.username, params: link_to="stUser/edit?id=%%sf_guard_user_id%%" truncate_text=20}
+                total_amount:           {name: Kwota, sort_field: order.total_amount, module: stOrder}
+                created_at:             {name: Złożone}
+                provision_value:        {name: Prowizja}
+                provision_payed:        {name: Rozliczone}
+            actions:                    []
+            object_actions:
+                _edit:                  -
+                _delete:                -        
+            peer_method:                doSelectJoinAll
+        order_edit:
+            forward_parameters:         [partner_id]
+            build_options:
+                related_id:             forward_parameters.partner_id
+            menu:                       {use: edit.menu}
+            title:                      Lista zamówień
+            display:                    [=number, =sf_guard_user, total_amount, provision_value, provision_payed]
+            fields:
+                number:                 {name: Numer, params: size=10 link_to="stOrder/edit?id=%%id%%" disabled=true}
+                sf_guard_user:          {name: Klient, sort_field: order.username, params: link_to="stUser/edit?id=%%sf_guard_user_id%%" truncate_text=20}
+                total_amount:           {name: Kwota, sort_field: order.total_amount, module: stOrder}
+                provision_value:        {name: Prowizja}
+                provision_payed:        {name: Rozliczone}
+            actions:                    
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+            peer_method:                doSelectJoinAll
+        link_edit:
+            forward_parameters:         [partner_id]
+            build_options:
+                related_id:             forward_parameters.partner_id
+            menu:                       {use: edit.menu}
+            title:                      Lista zamówień
+            display:                    [~link]
+            _link:                      {name: Link}
+            actions: []
+        config_custom:
+            title:  Konfiguracja

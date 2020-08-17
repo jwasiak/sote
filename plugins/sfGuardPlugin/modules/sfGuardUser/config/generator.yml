@@ -1,0 +1,13 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      sfGuardUser
+    theme:            default
+
+    fields:
+      password_bis: { name: "Password (again)" }
+
+    list:
+      title:   User list
+      display: [ =username, created_at, last_login ]
+      filters: [ username ]

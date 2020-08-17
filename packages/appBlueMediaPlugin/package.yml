@@ -1,0 +1,14 @@
+package:
+  name: appBlueMediaPlugin
+  stability: stable
+  version: 7.1.0.0
+  summary: Blue Media
+  description: 'Integracja z serwisem płatności Blue Media'
+  notes: |
+    - Dodanie opcji automatycznego przekierowania do serwisu platnosci
+    - Uzupelnienie brakujacych tlumaczen
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

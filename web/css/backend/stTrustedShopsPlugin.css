@@ -1,0 +1,212 @@
+.desc_trusted {
+    clear: both;
+    width: 80%;
+    padding-bottom: 65px;
+}
+
+.img_txt_trusted {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    z-index: 10;
+}
+
+.logo_trusted {
+    float: left;
+    padding-right: 5%;
+    padding-left: 4%;
+    width: 23%;
+    padding-bottom: 30px;
+}
+
+.logo_trusted img
+{
+    max-width: 100%;
+}
+
+.widget_trusted {
+    float: left;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.info_trusted {
+    float: left;
+    width: 67%;
+    margin-bottom: 2%;
+}
+
+.info_trusted li b {
+    display: block;
+}
+
+#sf_admin_content
+{
+    padding-bottom: 20px;
+}
+
+#sf_admin_container .info_trusted .st_admin-actions {
+    float: left;
+}
+
+#sf_admin_container .info_trusted .st_admin-actions a,#sf_admin_container .form-row #btn_active a {
+    background-color: transparent;
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #000000;
+    cursor: pointer;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    height: 24px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    display: block;
+}
+
+#sf_admin_container .form-row #btn_active a {
+    text-decoration: none;
+}
+
+#sf_admin_container #btn_active {
+    margin: 0px;
+}
+
+#sf_admin_container .info_trusted .st_admin-actions a:hover {
+    text-decoration: none;
+}
+
+.line {
+    width: 900px;
+    border-top: 1px #D9D8D8 solid;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.trusted_shops_sealbox_top_small {
+    background:
+        url(/images/frontend/theme/default/stTrustedShopsPlugin/frame_top_small.png)
+        top left no-repeat;
+    height: 7px;
+    width: 180px;
+}
+
+.trusted_shops_sealbox_middle {
+    background-color: #FFFFFF;
+    border-left: 1px solid #C9C9C9;
+    border-right: 1px solid #C9C9C9;
+    padding-bottom: 5px;
+    width: 178px;
+}
+
+.trusted_shops_sealbox_bottom {
+    background:
+        url(/images/frontend/theme/default/stTrustedShopsPlugin/frame_bottom.png)
+        top left no-repeat;
+    height: 7px;
+    width: 180px;
+}
+
+#trusted_shops_sealbox .trusted_shops_sealbox_middle {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.trusted_shops_sealbox_txt {
+    padding: 10px 5px;
+}
+
+.trusted-button {
+    float: left;
+}
+
+.trusted-button a {
+    text-decoration: none;
+    color: #363636;
+    font: bold 16px/16px sans-serif;
+    background: #fae500 url(/images/backend/stTrustedShopsPlugin/cta.png) top left repeat-x;
+    border: 1px solid #eaca7f;
+    -moz-box-shadow: 0 1px 2px #ccc;
+    -webkit-box-shadow: 0 1px 2px #ccc;
+    box-shadow: 0 1px 2px #ccc;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+            display: block;
+            padding: 8px 40px;
+    margin-top: 6%;
+
+}
+
+.trusted-button a:hover {
+    background: #575757;
+    color: #fff;
+    border-color: #575757;
+}
+
+.trust_title
+{
+    float: left;
+    margin: 11px 0 11px 0;
+    font-size: 14px;
+}
+
+.info_trusted li{
+    margin-bottom:10px;
+}
+
+.trust_header
+{
+    background: url(/images/backend/stTrustedShopsPlugin/shadow.jpg) bottom center no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.sote_integration
+{
+    background: url(/images/backend/stTrustedShopsPlugin/prepared.jpg)  top left no-repeat;
+    background-size: 100%;
+    margin-left: 5%;
+    margin-top: 1%;
+    float: left;
+    margin-right: 4%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 2%;
+    font-size: 11px;
+    line-height: 100%;
+}
+
+.sote_integration > div
+{
+    padding-right: 21%;
+    padding-top: 2%;
+    padding-left: 10px;
+}
+
+.en-info{
+    width:100%;
+    text-align:center;
+    padding: 50px 0;
+}
+
+@media only screen and (min-width: 1076px){
+    .sote_integration > div
+    {
+        padding-top: 3%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1177px){
+    .sote_integration > div
+    {
+        font-size: 13px;
+        line-height: 100%;
+    }   
+}

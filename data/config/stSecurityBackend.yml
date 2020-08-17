@@ -1,0 +1,7 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/10/30 11:35:50
+      fields: 
+        captcha_on: 1

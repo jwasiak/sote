@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2012-07-02T03:01:15Z">
+		<body>
+			<trans-unit id="1">
+				<source>Moje konto</source>
+				<target>Minha conta</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dane billingowe</source>
+				<target>Dados de facturação</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nowy adres</source>
+				<target>Novo endereço</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Edytuj</source>
+				<target>Editar</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak danych billingowych, uniemożliwi dokonywanie zakupów. Proszę uzupełnij dane billingowe.</source>
+				<target>Faltam dados de billing, o que impossibilitará as compras. Por favro, complete os dados de billing</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Uzupełnij swoje dane!</source>
+				<target>Complete os seus dados!</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Dane dostawy</source>
+				<target>Dados de entrega</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Brak danych dostawy, uzupełnij swoje dane bilingowe aby móc zarządzać danymi dostawy.</source>
+				<target>Introduza os dados da entrega, complete os dados de facturação para poder administrar os dados da entrega</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Domyślne dane bilingowe</source>
+				<target>Dados predefinidos de facturação</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Ustaw jako domyślne dane bilingowe</source>
+				<target>Definir como dados predefinidos de facturação </target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Domyślne dane dostawy</source>
+				<target>Dados predefinidos da entrega </target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Ustaw jako domyślne dane dostawy</source>
+				<target>Definir como dados predefinidos de entrega </target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Domyślne dane nie mogą być usunięte</source>
+				<target>Os dados predefinidos não podem ser retirados</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Usuń dane</source>
+				<target>Retirar dados</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Edytuj dane</source>
+				<target>Editar dados </target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Domyślne dane</source>
+				<target>Dados predefinidos</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Ustaw dane jako domyślne</source>
+				<target>Definir dados como predefinidos</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Firma</source>
+				<target>Empresa</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Imię i nazwisko</source>
+				<target>Nome e apelido</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Ulica, nr domu</source>
+				<target>Morada</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Kod, miasto</source>
+				<target>Código postal, cidade</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Kraj</source>
+				<target>País</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Telefon</source>
+				<target>Telefone</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>NIP</source>
+				<target>Nif</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Ustaw jako domyślne dane.</source>
+				<target>Definir como dados predefinidos</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Zapisz</source>
+				<target>Guardar</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Przejdź do potwierdzenia</source>
+				<target>Ir para confirmação</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rejestracja</source>
+				<target>Registo</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Podaj dane billingowe aby dokończyć proces rejestracji.</source>
+				<target>Introduza dados de facturação para completar o processo de registo</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane dostawy są inne niż dane billingowe</source>
+				<target>Os dados de facturação não são iguais aos dados da entrega</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Powiadamiaj mnie o nowościach w sklepie</source>
+				<target>Quero ser informado sobrea as novidades na loja</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>E-mail</source>
+				<target>Email</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras da imagem</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Aceito a política de privacidade</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Dodaj nowy adres</source>
+				<target>Adicionar o novo endereço</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Limite de dígitos foi ultrapassado</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Brak imienia.</source>
+				<target>Introduza o nome</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Brak nazwiska.</source>
+				<target>Introduza o apelido</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Brak ulicy.</source>
+				<target>Introduza a rua</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Brak domu.</source>
+				<target>Introduza o número da casa</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Brak kodu.</source>
+				<target>Introduza o código postal</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Brak miasta.</source>
+				<target>Introduza a cidade</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Brak telefonu.</source>
+				<target>Introduza o telefone</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Dane logowania</source>
+				<target>Dados de login</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Edycja danych dostawy</source>
+				<target>Edição de dados da entrega</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Edycja danych billingowych</source>
+				<target>Edição de dados de facturação</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Nie podałeś adresu e-mail.</source>
+				<target>Nao indicou o endereço email</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Wprowadzono zły numer.</source>
+				<target>O número introduzido está errado</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Inválido formato do endereço email</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Tem de aceitar a política de privacidade</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Musisz podać imię i nazwisko lub dane firmowe.</source>
+				<target>Tem de indicar o nome e apelido ou os dados da empresa</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Musisz podać imię i nazwisko lub nazwę firmy.</source>
+				<target>Tem de indicar o nome e apelido ou o nome da empresa</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Uwagi do zamówienia</source>
+				<target>Comentários à encomenda</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>(Dla nowych klientów)</source>
+				<target>(Para os clientes novos)</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Załóż konto (zarejestruj mnie)</source>
+				<target>Criar a conta (registar)</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Brak adresu e-mail.</source>
+				<target>Insira o email </target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Dane bilingowe</source>
+				<target>Dados de facturação</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak danych dostawy, uzupełnij swoje dane dostawy aby móc dokonywać zakupów w sklepie.</source>
+				<target>Não introduziu os dados da entrega. Complete os dados da entrega para poder efectuar compras. </target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>6 dígitos no mínimo</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>bardzo słabe</source>
+				<target>Muito fraca</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>słabe</source>
+				<target>Fraca</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>normalne</source>
+				<target>Normal</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>mocne</source>
+				<target>Forte</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>bardzo mocne</source>
+				<target>Muito forte</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Brak hasła.</source>
+				<target>Indique a senha (password)</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Hasła nie są takie same.</source>
+				<target>As senhas (passwords) não são iguais</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Hasło</source>
+				<target>Senha (password)</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Powtórz hasło</source>
+				<target>Confirme a senha (password)</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Brak nipu.</source>
+				<target>Iintroduza o NIF</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Klient indywidualny</source>
+				<target>Cliente particular</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>Musisz podać imię i nazwisko.</source>
+				<target>Tem de indicar o nome e apelido</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>Adres</source>
+				<target>Endereço </target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>np. Nazwa ulicy nr/nr</source>
+				<target>por exemplo, o nome da rua n / n</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>adres ciąg dalszy</source>
+				<target>Endereço mais</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Województwo</source>
+				<target>Região</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Brak adresu.</source>
+				<target>Nenhum endereço fornecido.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Uwagi</source>
+				<target>Comentários</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>komentarz do zamówienia</source>
+				<target>comentários para o fim</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>Os campos em negrito são obrigatórios.</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Jedno z pól jest wymagane.</source>
+				<target>Um dos espaços é obrigatório.</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Zalogowano z konta google</source>
+				<target>Login feito da conta google</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Kod</source>
+				<target>Código</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Miasto</source>
+				<target>Cidade</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Załóż konto</source>
+				<target>Faça a conta</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Inne dane wysyłkowe</source>
+				<target>Outros dados de envio</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Dane płatnika</source>
+				<target>Dados do pagador</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Dane wysyłkowe</source>
+				<target>Dados de envio</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Moje dane</source>
+				<target>Meus dados</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zamówienia</source>
+				<target>Encomendas</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>Podaj dane płatnika i wysyłkowe.</source>
+				<target>Insira os dados do pagador e de envio</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>Complete os campos marcados</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Niepoprawny adres.</source>
+				<target>Morada incorrecta.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Adres ciąg dalszy</source>
+				<target>Morada continuação</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Rabaty</source>
+				<target>Descontos</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Chcę otrzymać fakturę vat</source>
+				<target>Quero receber factura IVA</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Newsletter</source>
+				<target>Newsletter</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Edycja danych</source>
+				<target>Edição de dados</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Podany numer VAT UE jest nieaktywny lub nieprawidłowy</source>
+				<target>O número IVA UE referido é inactivo ou incorrecto</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Brak adresu email.</source>
+				<target>Falta o e-mail</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Brak imienia i nazwiska.</source>
+				<target>Falta nome e sobrenome</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Brak firmy.</source>
+				<target>Falta a empresa</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>Domyślne dane płatnika</source>
+				<target>Dados do pagador predefinidos</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>Alternatywne dane</source>
+				<target>Dados alternativos</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>Os dados foram actualizados</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Ustaw jako domyślne</source>
+				<target>Configure como predefinido</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Brak numeru NIP.</source>
+				<target>Falta o número NIPC</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Utilizador já existe</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>VAT UE</source>
+				<target>IVA UE</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Treść uwag</source>
+				<target>Conteúdo de comentários</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Podany numer VAT UE nie spełnia wymogów wewnątrzwspólnotowego nabycia towarów</source>
+				<target>O número VAT EU não cumpre os requisitos de aquisição intracomuniária das mercadorias</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Punkty</source>
+				<target>Pontos</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Twoje punkty</source>
+				<target>Seus pontos</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Pola wymagane</source>
+				<target>Campo obrigatório</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Akceptuję</source>
+				<target>Aceito</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>i przeczytałem</source>
+				<target>e li</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

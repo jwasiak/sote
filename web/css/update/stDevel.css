@@ -1,0 +1,74 @@
+.main
+{
+    overflow:hidden;
+}
+
+.row
+{
+    overflow:hidden;
+}
+
+.column
+{
+    float:left;    
+}
+
+.column input
+{
+    border:1px solid #ccc;
+    color:#000;
+    margin-left:10px;
+}
+
+#txt1,#txt2
+{
+    min-width:139px;
+    text-align:right;
+    padding-top:2px;
+    margin-right:5px;
+}   
+
+input#devel_devel
+{
+    margin:5px 0px 0px 10px;    
+}
+
+#frame_buttons
+{
+    overflow:hidden;
+}
+
+#frame_buttons .st_admin-actions li 
+{
+    /*background-image:url(/images/update/buttons/button_middle.png);*/
+    background-repeat:repeat-x;
+    float:left;
+    margin-right:10px;
+}
+
+#stDevel_form .row
+{
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 7px 15px;
+}
+
+#stDevel_form form .row:nth-child(2n+2)
+{
+    background: #f9f9f9;
+}
+
+#stDevel_form form .row:nth-child(1)
+{
+    border: 1px solid #ddd;
+}
+
+#stDevel_form table
+{
+    border-top: none;
+}
+
+.main
+{
+    display: inline-block;
+}

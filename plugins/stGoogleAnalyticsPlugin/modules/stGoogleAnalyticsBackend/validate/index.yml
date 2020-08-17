@@ -1,0 +1,11 @@
+fields:
+    google_analytics{analytics_part2}:
+        sfNumberValidator:
+            type: integer
+            type_error: Wprowadzono nieprawidłowe znaki. Wprowadź tylko cyfry.
+            nan_error: Wprowadzono nieprawidłowe znaki. Wprowadź tylko cyfry.
+    google_analytics{analytics_part3}:
+        sfNumberValidator:
+            type: integer
+            type_error: Wprowadzono nieprawidłowe znaki. Wprowadź tylko cyfry.
+            nan_error: Wprowadzono nieprawidłowe znaki. Wprowadź tylko cyfry.

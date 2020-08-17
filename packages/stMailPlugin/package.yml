@@ -1,0 +1,17 @@
+package:
+  name: stMailPlugin
+  stability: stable
+  version: 7.0.3.8
+  summary: 'Obsluga poczty'
+  description: 'Zarzadzanie kontami, serwerami pocztowymi'
+  notes: |
+    - Poprawki bezpieczenstwa
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: 'marcin,butlak@sote.pl'
+  dependency:
+    stFrontend: 1.0.3
+    stBackend: 1.0.0
+    stSwiftPlugin: 1.0.0

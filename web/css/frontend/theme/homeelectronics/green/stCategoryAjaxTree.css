@@ -1,0 +1,15 @@
+.x-tree-arrows .preload
+{
+   background: transparent url("/images/frontend/theme/homeelectronics/green/preloader_category.gif") 5px 6px no-repeat !important;
+}
+
+ul.x-tree-root-ct li div:hover .preload
+{
+   background: transparent url("/images/frontend/theme/homeelectronics/green/preloader_category_highlighted.gif") 5px 6px no-repeat !important;
+}
+
+ul.x-tree-root-ct > li > div:hover .preload,
+ul.x-tree-root-ct > li > div .preload
+{
+   background: transparent url("/images/frontend/theme/homeelectronics/green/preloader_tree.gif") 0px 0px no-repeat !important;
+}

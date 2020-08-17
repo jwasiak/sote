@@ -1,0 +1,146 @@
+generator:
+    class:                                    stAdminGenerator
+    param:
+        model_class:                          SearchedWords
+        search_link_model_class:              SearchLink
+        theme:                                simple
+        head:
+            package:                          stSearchPlugin
+        applications:                         [stProduct]
+
+        custom_actions:
+            config:                           [new]
+            list:                             [search_link]
+            edit:                             [search_link]
+            new:                              [search_link]
+    
+        list:
+            title:                            Wyszukiwane frazy
+            description:                      Zarządzanie modułem wyszukiwarki
+            display:                          [word, results, searched, swap, _url]
+            actions:
+                _create:                      {name: Nowe wyszukiwanie, i18n: stSearchBackend}
+            object_actions:
+                _edit:      -
+                _delete:    -
+            fields:
+                id:                           {name: ID}
+                word:                         {name: Słowo/fraza}
+                results:                      {name: Liczba rezultatów, params: size=2}
+                searched:                     {name: Liczba zapytań, params: size=2}
+                swap:                         {name: Zamień na, params: size=10}
+                url:                          {name: Link, params: size=10}
+            menu:
+                display:                      [list, config, optimize]
+                fields:
+                    list:                     {name: Wyszukiwane frazy, action: stSearchBackend/list}
+                    config:                   {name: Konfiguracja, action: stSearchBackend/config}
+                    optimize:                 {name: Optymalizacja, action: stSearchBackend/optimize}
+
+        edit:
+            title:                            Edycja frazy wyszukiwania
+            description:                      Zarządzanie modułem wyszukiwarki
+            display:                          [id, word, results, searched, swap, url]
+            actions:
+                _list:                        {name: Lista}
+                _save:                        {name: Zapisz}
+                _save_and_add:                {name: Zapisz i dodaj}
+            fields:
+                id:                           {name: ID}
+                word:                         {name: Słowo}
+                results:                      {name: Liczba rezultatów, type: plain}
+                searched:                     {name: Liczba zapytań, type: plain}
+                swap:                         {name: Zamień na}
+                url:                          {name: Link}
+            menu:                             {use: list.menu}
+            
+
+        config:
+            title:                            Konfiguracja
+            description:                      Zarządzanie modułem wyszukiwarki
+            display:
+                "Ustawienia ogólne":          [enable_new, _list_type, items_per_page, match_full_words, _order_field, _order]
+                "Szybkie szukanie":           [~simple_search_fields, ~simple_full_search_fields, simple_and_search, autocomplete_enabled]
+                "Zaawansowane szukanie":      [~advanced_search_fields, ~advanced_full_search_fields, advanced_and_search, producer_show, category_show, category_depth]
+            menu:
+                display:                      [config, search_link]
+                fields:
+                    config:                   {name: Konfiguracja, action: @stSearchPlugin?action=newConfig}
+                    search_link:              {name: Linki, action: @stSearchPlugin?action=searchLinkList}
+            fields:
+                autocomplete_enabled:         {name: Włącz autouzupelnianie, type: checkbox, help: Włącza dynamiczne wyszukiwanie produktów podczas wpisywania}
+                list_type:                    {name: Wyświetlanie wyników}
+                items_per_page:               {name: Liczba wyników na stronie, params: size=3}
+                simple_and_search:            {name: Domyślnie dopasuj wszystkie wyrazy, type: checkbox}
+                advanced_and_search:          {name: Domyślnie dopasuj wszystkie wyrazy, type: checkbox}
+                simple_search_fields:         {name: Szybkie wyszukiwanie}
+                simple_full_search_fields:    {name: Dokładne wyszukiwanie}
+                advanced_search_fields:       {name: Szybkie wyszukiwanie}
+                advanced_full_search_fields:  {name: Dokładne wyszukiwanie}
+                match_full_words:             {name: Dopasuj całe wyrazy, type: checkbox}
+                order_field:                  {name: Sortuj po}
+                order:                        {name: Kierunek sortowania}
+                category_show:                {name: Wyświetlaj kategorie w wyszukiwaniu zaawansowanym, type: checkbox}
+                producer_show:                {name: Wyświetlaj producentów w wyszukiwaniu zaawansowanym, type: checkbox}
+                category_depth:               {name: Ogranicz głębokość kategorii do, params: size=3}
+                enable_new:                   {name: Włącz nowy moduł wyszukiwania, type: checkbox, help: Operacja nieodwracalna}
+            actions:
+                _save:                        {name: Zapisz}
+
+        new_config:
+            title:                            Konfiguracja wyszukiwarki
+            description:                      Zarządzanie modułem wyszukiwarki
+            fields:
+                items_per_page:               {name: Liczba wyników na stronie, params: size=3}
+                code:                         {name: Kodzie, type: checkbox }
+                producer_code:                {name: Kodzie producenta, type: checkbox }
+                description:                  {name: Opisie pełnym, type: checkbox }
+                short_description:            {name: Opisie skróconym, type: checkbox }
+                producer:                     {name: Producencie, type: checkbox }
+                category:                     {name: Kategoriach, type: checkbox }
+                additional_description:       {name: Opisie dodatkowym, type: checkbox }
+                options:                      {name: Opcjach, type: checkbox }
+                reserved_chars:               {name: Uwzględniaj znaki przy wyszukiwaniu}
+                search_keywords:              {name: Opisie do wyszukiwania, type: checkbox}
+            display:
+                "NONE":                       [items_per_page, reserved_chars]
+                "Szukaj produkty po":         [code, producer_code, description, search_keywords, short_description, additional_description, producer, category, options]
+
+            actions:
+                optimize:                     {name: Optymalizacja, type: save, action: optimize, module: stSearchBackend, i18n: stSearchBackend}
+                _save:                        {name: Zapisz}
+
+
+        search_link_list:
+            title:                           Linki
+            display:                         [title]
+            fields:                          
+                title:                       {name: Tytuł}
+            menu:                            {use: config.menu} 
+            actions:
+                _create:                     {name: Dodaj}
+
+            object_actions:
+                _edit:                      -
+                _delete:                    -
+
+
+        search_link_edit:
+            title:                          Edycja %%title%%
+            display:                        
+                NONE:                       [title, description, search_keywords]
+                "Pozycjonowanie":           [_url, meta_title, meta_keywords, meta_description]
+            fields:
+                title:                      {name: Tytuł, params: disabled=false style=width:500px maxlength=255, required: true}
+                description:                {name: Opis, type: textarea_tag, params: "rich=true tinymce_options=height:200,width:'100%',theme:'simple' disabled=false"}
+                search_keywords:            {name: Szukaj, params: disabled=false style=width:500px maxlength=80, required: true, help: "Podaj frazy po jakich będą wyszukiwane produkty" }
+                url:                        {name: Przyjazny link, i18n: stPositioningBackend, required: true}
+                meta_title:                 {name: Tytuł strony, params: disabled=false style=width:500px maxlength=255, help: "Tytuł należy zmieścić w około 65-75 znakach wraz ze spacjami.", i18n: stPositioningBackend}
+                meta_keywords:              {name: Słowa kluczowe, type: textarea_tag, params: disabled=false size=60x3 style=width:500px maxlength=255, help: "Słowa kluczowe powinny być oddzielone przecinkiem. Przykład: słowo, słowo, słowo", i18n: stPositioningBackend}
+                meta_description:           {name: Opis strony, type: textarea_tag, params: disabled=false size=60x5 style=width:500px maxlength=160, help: "Opis strony powinien mieć mniej niż 160 znaków ze spacjami.", i18n: stPositioningBackend}
+            menu:                           {use: config.menu}
+            actions:
+                _list:                      {name: Lista}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj kolejny}
+                _delete:                    {name: Usuń}

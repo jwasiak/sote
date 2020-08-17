@@ -1,0 +1,15 @@
+package:
+  name: stMoneybookersPlugin
+  stability: stable
+  version: 7.1.0.2
+  summary: Skrill
+  description: 'Konfiguracja platnosci Skrill.'
+  notes: |
+    - Dodanie tlumaczen
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.5

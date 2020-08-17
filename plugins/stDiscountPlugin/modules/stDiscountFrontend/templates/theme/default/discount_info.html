@@ -1,0 +1,35 @@
+<div id="st_application-user-user" class="st_application">
+
+    <h1 class="st_title">
+        <div id="st_user-tag">{$user_panel_icon}</div>
+        {$user_panel_path}
+    </h1>
+   	{$user_panel_menu}
+	<div class="st_content" style="padding: 10px 200px">
+		<h5 class="st_title">{__ text="Lista przypisanych rabatów"}</h5><br />
+		<table class="st_tabular-list" cellspacing="0">
+	    	<colgroup>
+	        	<col>
+	        	<col width="120">
+				<col width="120">
+	    	</colgroup>
+	    	<thead>
+	        	<tr>
+	            	<th style="white-space: nowrap;"><span>{__ text="Nazwa"}</span></th>
+	            	<th><span>{__ text="Wartość"}</span></th>
+					<th><span>{__ text="Produkty"}</span></th>
+	        	</tr>
+	    	</thead>
+	    	<tbody>
+				{foreach from=$discounts item=discount}    		
+	            <tr>
+	                <td>{$discount.name}</td>
+	                <td>{$discount.value}%</td>
+					<td>{$discount.link_to}</td>
+	            </tr>
+				{/foreach}
+	        </tbody>
+		</table>
+	</div>
+    <br class="st_clear_all" />
+</div>

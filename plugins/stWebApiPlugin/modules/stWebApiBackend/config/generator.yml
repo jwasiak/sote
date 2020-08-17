@@ -1,0 +1,89 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        include_action_files:       [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+        model_class:                WebApiSession
+        theme:                      simple
+
+        head:
+            package:                stWebApiPlugin
+        applications:               []
+
+        fields:
+            hash:                   {name: Numer sesji}
+            sf_guard_user:          {name: Użytkownik}
+            created_at:             {name: Utworzona}
+            updated_at:             {name: Zaktualizowana}
+        list:
+            title:                  Logowania WebApi
+            description:            Zarządzanie WebApi
+            display:                [created_at, updated_at, hash, sf_guard_user]
+            actions:                []
+            sort:                   [created_at, desc]
+            menu:
+                display:            [list, config]
+                fields:
+                    list:           {name: Logowania WebApi, action: stWebApiBackend/list}
+                    config:         {name: Konfiguracja,  action: stWebApiBackend/config}
+            actions:
+                _trash:             {name: Usuń nieaktualne sesje z listy logowań, action: deleteLogs, type: delete}
+
+            select_actions:         []
+
+        config:
+            title:                  Konfiguracja WebApi
+            description:            Zarządzanie WebApi
+            menu:                   {use: list.menu}
+            display:
+                " ":                [webapi_on, session_time, login_history, ssl]
+            fields:
+                webapi_on:          {name: Włącz WebApi, type: checkbox}
+                session_time:       {name: Czas trwania sesji [s]}
+                login_history:      {name: Automatycznie usuwaj nieaktualne sesje z listy logowań, type: checkbox}
+                ssl:                {name: Wymuś używanie API przez SSL, type: checkbox}
+            actions:
+                _save:              {name: Zapisz}
+
+        webapi:
+            fields:
+                username:           {type: string}
+                password:           {type: string}
+                hash:               {type: string}
+                time:               {type: dateTime}
+                duration:           {type: integer}
+                echo:               {type: string}
+                version:            {type: string}
+                status:             {type: integer}
+            methods:
+                doLogin:
+                    type:           add
+                    secure:         false
+                    inOutTypes:     {in: object, out: object}
+                    fields:
+                        in:         [=username, =password]
+                        out:        [hash]
+                noop:
+                    type:           get
+                    secure:         false
+                    inOutTypes:     {in: object, out: object}
+                    fields:
+                        in:         [=hash]
+                        out:        [time, duration]
+                test:
+                    type:           get
+                    secure:         false
+                    inOutTypes:     {in: object, out: object}
+                    fields:
+                        in:         [=echo]
+                        out:        [echo]
+                getVersion:
+                    type:           get
+                    secure:         false
+                    inOutTypes:     {in: object, out: object}
+                    fields:
+                        out:        [version]
+                clearCache:
+                    type:           get
+                    inOutTypes:     {in: object, out: object}
+                    fields:
+                        out:        [status]

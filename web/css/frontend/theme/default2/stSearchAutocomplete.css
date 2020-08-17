@@ -1,0 +1,49 @@
+.autocomplete-w1 
+{ 
+   margin:8px 0 0 6px;  
+}
+
+.autocomplete 
+{ 
+   min-width: 153px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   border:1px solid #999; 
+   background-color: #FFF; 
+   max-height:350px; 
+   overflow:auto; 
+   margin:-6px 6px 6px -6px; 
+}
+
+.autocomplete-indicator 
+{ 
+   vertical-align: middle; 
+   margin-left: -16px; 
+   margin-top: 5px; 
+   position: absolute; 
+   display: none 
+}
+
+.autocomplete > div
+{
+   clear: left;
+   padding: 5px; 
+}
+
+.autocomplete .image
+{
+   text-align: center;
+}
+
+.autocomplete .info
+{
+   max-width: 250px;
+   
+   margin-left: 45px;
+}
+
+.autocomplete .image
+{
+   float: left;
+}

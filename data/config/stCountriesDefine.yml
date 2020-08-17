@@ -1,0 +1,7 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/07/11 10:04:30
+      fields: 
+        id: 36

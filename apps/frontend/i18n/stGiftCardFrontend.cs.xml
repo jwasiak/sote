@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2011-11-10T03:22:20Z">
+		<body>
+			<trans-unit id="1">
+				<source>Bon zakupowy</source>
+				<target>Nákupní poukázka</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wprowadź kod</source>
+				<target>Uveďte kód</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Aktywuj</source>
+				<target>Aktivujte</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Bon o podanym kodzie nie istnieje</source>
+				<target>Poukázka o uvedeném kódu neexistuje</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Bon o podanym kodzie jest już aktywny</source>
+				<target>Poukázka uvedeném kódu je už aktivní</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Bon o podanym kodzie jest nieważny</source>
+				<target>Poukázka o uvedeném kódu je neplatná</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Bonem o podanym kodzie można płacić wyłącznie w walucie %currency%</source>
+				<target>Poukázka o uvedeném kódu může být platná výhradně v následující měně %currency%</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Usuń bon</source>
+				<target>Odstranit poukázku</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Musisz złożyć zamówienie za minimum %%amount%%</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

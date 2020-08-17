@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2012-07-02T03:01:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>Logowanie</source>
+				<target>Přihlášení</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przypomnij hasło</source>
+				<target>Připomeň mi heslo</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zarejestruj się</source>
+				<target>Zaregistrovat se</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>E-mail (login)</source>
+				<target>E-mail (uživatelské jméno)</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Heslo</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Přihlásit</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Moje konto</source>
+				<target>Moje konto</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>wyloguj</source>
+				<target>odhlásit</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Twoje konto w sklepie zostało założone.</source>
+				<target>Vaše konto v obchode bylo úspěšně vytvořeno.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Witamy w naszym sklepie, dziękujemy za rejestracje.</source>
+				<target>Vítejte v našem obchodě. Děkujeme Vám za registraci.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Twój login</source>
+				<target>Vaše uživatelské jméno</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Twoje hasło</source>
+				<target>Vaše heslo</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Data założenia konta</source>
+				<target>Data vytvoření konta</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Twoje hasło do konto zostało zmienione</source>
+				<target>Vaše heslo k uživatelskému kontu bylo změněno</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>W sklepie zarejestrował się nowy klient.</source>
+				<target>V obchodě se zaregistroval nový klient.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>ID klienta</source>
+				<target>ID klienta</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Login klienta</source>
+				<target>Uživatelské jméno klienta</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego hasło.</source>
+				<target>Uveďte emailovou adresu, která slouží jako Vaše uživatelské jméno. Na tuto adresu odešleme Vaše heslo.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>E-mail z nowym hasłem został wysłany na adres: %mail%</source>
+				<target>Emailová zpráva s novým heslem byla odeslána na adresu: %mail% </target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Polityka prywatności</source>
+				<target>Politika ochrany soukromí</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Twoje konto w sklepie zostało założone</source>
+				<target>Vaše konto v obchodě bylo úspěšně vytvořeno.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Twoje hasło do konto zostało zmienione.</source>
+				<target>Vaše heslo k uživatelskému kontu bylo Změněno..</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta.</source>
+				<target>Přihlaste se, chcete-li získat neomezený přístup k objednávkám a k údajům Vašeho uživatelského konta.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Rejestracja</source>
+				<target>Registrace</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Nie masz jeszcze założonego konta.</source>
+				<target>Nemáte zatím uživatelské konto.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Potwierdź hasło</source>
+				<target>Potvrďte heslo</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Souhlasím s politikou ochrany soukromí</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nie masz jeszcze założonego konta. Wystarczy, że podasz hasło dla loginu</source>
+				<target>Nemáte zatím uživatelské konto. Stačí, zadáte-li k uživatelskému jménu heslo</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uzyskasz w ten sposób pełne konto z dostępem do swoich danych i informacji o statusach zamówienia.</source>
+				<target>Tímto způsobem získáte kompletní uživatelské konto s přístupem k Vašim údajům a informacím o statusech jednotlivých objednávek.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane logowania</source>
+				<target>Přihlašovací údaje</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Zmień e-mail (login)</source>
+				<target>Změnit emailovou adresu (přihlášení)</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Zmień hasło</source>
+				<target>Změnit heslo</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Stare hasło</source>
+				<target>Staré heslo</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nowe hasło</source>
+				<target>Nové heslo</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zmiana hasła dla konta</source>
+				<target>Změna hesla k uživatelskému kontu</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Překročili jste maximální počet znaků.</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Podane hasło jest za krótkie min. 6 znaków.</source>
+				<target>Uvedené heslo je příliš krátké, min. 6 znaků.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+				<target>Překročili jste povolenou délku hesla, maximálně 20 znaků.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Zarejestruj</source>
+				<target>Zaregistrovat</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Nie podałeś adresu e-mail</source>
+				<target>Nezadali jste adresu emailu</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Nie podałeś hasła.</source>
+				<target>Nezadali jste heslo.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zły login lub hasło.</source>
+				<target>Uživatelské jméno nebo heslo jsou nesprávné.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Wprowadzono zły numer.</source>
+				<target>Bylo uvedené špatné číslo.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Aktualizuj</source>
+				<target>Aktualizovat</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Przypomnij</source>
+				<target>Připomenout</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Cyfry z obrazka</source>
+				<target>Čísla z obrázku</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Musíte vyjádřit svůj souhlas s politikou ochrany soukromí.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Stare hasło jest błędne.</source>
+				<target>Staré heslo je nesprávné.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Hasła nie są takie same.</source>
+				<target>Hesla se neshodují.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Twoje hasło do konta zostało zmienione.</source>
+				<target>Vaše heslo k uživatelskému kontu bylo úspěšně Změněno..</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Nesprávný formát adresy emailu.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta.</source>
+				<target>V souvislosti se změnou programového vybavení našeho obchodu Vás prosíme o poskytnutí emailové adresy, která bude odteďka plnit funkci přihlašovacího jména k Vašemu uživatelskému kontu.</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Rejestracja danych.</source>
+				<target>Registrace údajů.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Uzupełnij dane konta.</source>
+				<target>Doplňte údaje uživatelského konta.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Očekává na potvrzení.</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Proszę sprawdzić pocztę na podany w czasie rejestracji adres został wysłany mail z prośbą o potwierdzenie konta.</source>
+				<target>Zkontrolujte, prosím, svoji schránku elektronické pošty. Na adresu, kterou jste uvedli během registrace, jsme odeslali zprávu s prosbou o potvrzení uživatelského konta.</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Brak adresu e-mail</source>
+				<target>Adresa emailu nebyla zadána.</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak hasła.</source>
+				<target>Heslo nebylo zadáno.</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>Minimálně 6 znaků</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>(Dla stałych klientów)</source>
+				<target>(Pro stálé klienty)</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego link do zmiany hasła.</source>
+				<target>Uveďte emailovou adresu, která slouží jako Vaše uživatelské jméno. Na tuto adresu odešleme link ke změně Vašeho hesla.</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Prośba o potwierdzenie rejestracji konta.</source>
+				<target>Prosíme o potvrzení zaregistrování uživatelského konta.</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Twoje konto nie zostało jeszcze potwierdzone. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Vaše konto dosud nebylo potvrzeno. Zkontrolujte, prosím, poštu na adrese:</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>została wysłana prośba o potwierdzenie konta.</source>
+				<target>odeslali jsme prosbu o potvrzení uživatelského konta.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Wróć do zakupów</source>
+				<target>Návrat zpět k nákupům</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Dziękujemy za dokonanie rejestracji. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Děkujeme Vám za registraci. Zkontrolujte, prosím, poštu na adrese:</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Przejdź do koszyka</source>
+				<target>Přejít do košíka</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>bardzo słabe</source>
+				<target>velmi slabé</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>słabe</source>
+				<target>slabé</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>normalne</source>
+				<target>normální</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>mocne</source>
+				<target>silné</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>bardzo mocne</source>
+				<target>velmi silné</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Potwierdzenie rejestracji</source>
+				<target>Potvrzení registrace</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>Dane dostępowe do konta</source>
+				<target>Přístupové údaje uživatelského konta</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Potwierdź rejestracje</source>
+				<target>Potvrdit registraci</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Zmiana hasła.</source>
+				<target>Změna hesla.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Proszę sprawdzić pocztę.</source>
+				<target>Zkontrolujte si, prosím, Vaši poštu.</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Na podany w czasie rejestracji adres, został wysłany mail z nowymi danymi do konta sklepu.</source>
+				<target>Emailová zpráva s novými údaji uživatelského konta v našem obchodě byla odeslána na adresu která byla uvedena při registraci.</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Przejdź do strony logowania</source>
+				<target>Přejít na stranu přihlašování</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Twoje hasło zostało zmienione.</source>
+				<target>Vaše heslo bylo změněno.</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Aktualne dane dostępowe do konta</source>
+				<target>Aktuální přístupové údaje uživatelského konta</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Data modyfikacji konta</source>
+				<target>Data modifikace konta</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Przejdź na stronę sklepu.</source>
+				<target>Přejít na stránku obchodu</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>E-mail z linkiem do utworzenia nowego hasła został wysłany na adres:</source>
+				<target>E-mail s linkem pro vytvoření nového hesla bol odeslán na adresu:</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Skorzystaj z linku poniżej aby dokonać zmiany hasła.</source>
+				<target>Chcete-li změnit heslo, použijte níže uvedený link.</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Link do zmiany hasła dla konta:</source>
+				<target>Link pro změnu hesla k uživatelskému kontu:</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Data wysłania linka</source>
+				<target>Data odeslání linku</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Podaj nowe hasło dla konta</source>
+				<target>Uveďte nové heslo k uživatelskému kontu</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zmiana hasła</source>
+				<target>Změna hesla</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>usuń</source>
+				<target>odstranit</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Pomyślnie wylogowano użytkownika</source>
+				<target>Uživatel byl úspěšně odhlášen</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+				<target>Za chvíli budete přesměrován na hlavní stránku.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Potwierdzenie autentyczności adresu.</source>
+				<target>Potvrzení autentičnosti adresy.</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Twoje konto zostało już wcześniej potwierdzone.</source>
+				<target>Vaše uživatelské konto je již potvrzeno.</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Wylogowano</source>
+				<target>Byl(a) jste odhlášen(á)</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Twoje konto wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić dane.</source>
+				<target>Váš účet vyžaduje potvrzení. Využijte uvedený níže odkaz k potvrzení údajů.</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Prośba o potwierdzenie konta.</source>
+				<target>Prosíme o potvrzení účtu.</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Rejestracja nowego klienta</source>
+				<target>Přihlášení nového zákazníka</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Informacje o koncie klienta</source>
+				<target>Informace o účtu zákazníka</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Przejdź do edycji konta</source>
+				<target>Přejít k edici účtu</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Akceptuję</source>
+				<target>Souhlasím</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>politykę prywatności</source>
+				<target>s politikou soukromí</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>lub</source>
+				<target>nebo</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Zaloguj używając</source>
+				<target>Přihlášení s použitím</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Potwierdź rejestrację</source>
+				<target>Potvrdit registraci</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Dane płatnika</source>
+				<target>Údaje o plátci</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Dane wysyłkowe</source>
+				<target>odesílací údaje</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Dane do faktury</source>
+				<target>fakturační údaje</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Moje dane</source>
+				<target>Vaše údaje</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Zmień</source>
+				<target>Změnit</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Zarejestruj nowe konto lub zaloguj na istniejące.</source>
+				<target>Registrujte nový uživatelský účet nebo přihlásit k existujícímu.</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Podaj dane konta.</source>
+				<target>uveďte údaje k účtu.</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Dane konta</source>
+				<target>Údaje k účtu</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>Doplňte údaje v označených položkách.</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Za chwilę nastąpi przekierowanie na stronę główną.</source>
+				<target>Během chvíle budete přesměrovaní na hlavní stránku.</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Podaj adres email (login użytkownika)</source>
+				<target>uveďte emailovou adresu (přihlášení uživatele)</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Sprawdź pocztę na poniższy adres został wysłany link do zmiany hasła.</source>
+				<target>ověřte zda jste obdrželi odkaz ke změně hesla, který byl odeslaný na níže uvedenou adresu.</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Podaj nowe hasło.</source>
+				<target>Uveďte nové heslo.</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>Login</source>
+				<target>Přihlásit</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulamin</source>
+				<target>řád</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>i przeczytałem</source>
+				<target>a přečetl jsem</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Brak adresu email.</source>
+				<target>Chybí e-mailová adresa.</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Takový uživatel již existuje.</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>Wyloguj</source>
+				<target>Odhlásit</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Zamówienia</source>
+				<target>Objednávky</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>zaloguj się</source>
+				<target>přihlásit se</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Usuń</source>
+				<target>odhlásit se</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Pola wymagane</source>
+				<target>Povinná pole</target>
+			</trans-unit>
+			<trans-unit id="129">
+				<source>zmień</source>
+				<target>změnit</target>
+			</trans-unit>
+			<trans-unit id="130">
+				<source>Nie masz odpowiednich uprawnień</source>
+				<target>Nemáš příslušná oprávnění</target>
+			</trans-unit>
+			<trans-unit id="131">
+				<source>Sprawdź pocztę i kliknij w link potwierdzający adres e-mail, aby aktywować konto w sklepie.</source>
+				<target>Pro aktivaci Tvého konta v obchode zkontroluj svou emailovou schránku a klikni na link potvrzující emailovou adresu.</target>
+			</trans-unit>
+			<trans-unit id="132">
+				<source>Na konto pocztowe</source>
+				<target>Na emailovou adresu</target>
+			</trans-unit>
+			<trans-unit id="133">
+				<source>została wysłana wiadomość z prośbą o potwierdzenie konta.</source>
+				<target>jsme odeslali zprávu s prosbou o potvrzení uživatelského konta.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

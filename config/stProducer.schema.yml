@@ -1,0 +1,41 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_producer: 
+    _attributes: 
+      phpName: Producer
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_asset_id: 
+      type: INTEGER
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: setnull
+    image: 
+      type: VARCHAR
+      size: 255
+    link: 
+      type: VARCHAR
+      size: 255
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_url: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_image_crop:
+      type:    VARCHAR
+      size:    450
+      phpType: array
+      phpName: ImageCrop      

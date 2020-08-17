@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wiadomości panelu administracyjnego</source>
+                <target>Administrative's messages</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Przeglądanie wiadomości panelu administracyjnego</source>
+                <target>View administrative's messages</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>ID</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Wiadomość</source>
+                <target>Message</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Data</source>
+                <target>Date</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Lista wiadomości panelu administracyjnego</source>
+                <target>List of administrative's message</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wiadomości</source>
+                <target>Messages</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Wiadomosci w panelu administracyjnym</source>
+                <target>Administrative's messages</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

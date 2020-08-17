@@ -1,0 +1,21 @@
+data:
+    show_subcategories: 1
+    show_category_main_menu: 1
+    hide_root: 0
+    expand_root: 0
+    subcategory_main_menu_num: 2
+    cut_subcategories_name: 1
+    cut_subcategories_name_num: 25
+    cut_tree_cat_name: 1
+    cut_tree_cat_name_num: 40
+    cut_tree_subcat_name: 1
+    cut_tree_subcat_name_num: 40
+    tree_type: ajaxTree
+    expand_always: null
+    show_product_count: null
+    menu_on: 0
+    cathor_tree: 1
+    description_on: 0
+    image_on: 0
+    category_main_menu_all_depths: '1'
+    hide_categories_without_products: 1

@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[by_product_name]', isset($filters['by_product_name']) ? $filters['by_product_name'] : null, array('size' => 15));

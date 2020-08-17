@@ -1,0 +1,19 @@
+ProductGroupHasProduct: 
+  ProductGroupHasProduct_67: 
+    product_id: Product_4
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_68: 
+    product_id: Product_5
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_66: 
+    product_id: Product_3
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_64: 
+    product_id: Product_1
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_100: 
+    product_id: Product_2
+    product_group_id: ProductGroup_4
+  ProductGroupHasProduct_103: 
+    product_id: Product_6
+    product_group_id: ProductGroup_4

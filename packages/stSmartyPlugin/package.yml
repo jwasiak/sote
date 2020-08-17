@@ -1,0 +1,14 @@
+package: 
+  name: stSmartyPlugin
+  stability: stable
+  version: 7.4.0.11
+  summary: Smarty
+  description: Smarty
+  notes: |
+    - Dodanie parametru absolute do funkcji smarty url_for
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+

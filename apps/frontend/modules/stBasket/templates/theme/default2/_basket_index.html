@@ -1,0 +1,100 @@
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+       function equalHeight(group)
+       {
+       tallest = 0;
+       group.each(function() {
+          $(this).css("height","auto");
+          thisHeight = $(this).height();
+          if(thisHeight > tallest) {
+             tallest = thisHeight;
+          }
+        });
+        group.height(tallest);
+        }
+
+        $(document).ready(function() {
+           equalHeight($(".frame"));
+        });
+        
+       
+});
+</script>
+{/literal}
+
+{set layout="one_column_layout"}
+
+<div id="basket_index" class="box roundies">
+{if $products}
+    <div class="title">
+    <h2>{__ text="Koszyk"}</h2>
+    <p>{__ text="Sprawdź zawartość koszyka"}</p>
+    </div>
+{/if}    
+    <div class="content">
+    	
+        
+        <div class="clear"></div>
+
+        {if $if_warning || $if_notice}
+            <div id="warning"><h2>{$show_warning}</h2></div>
+        {/if}
+
+        {if $products}
+            <div id="basket_products_table">{$product_list}</div>
+
+            <form action="#" id="st_basket-delivery-form">
+                <div id="st_basket-delivery" class="roundies frame box_form">{$delivery}</div>
+                {if $has_deliveries}
+                    <div id="st_basket-payment" class="roundies frame box_form">{$payment}</div>
+                {/if}
+                
+                <div id="st_basket-summary" class="roundies frame box_form">{$total}</div>
+            </form>
+
+            {if $gift_card || $discount_coupon_code}
+                <div class="frame" style="margin-bottom:20px;">
+            {/if}
+                        
+            <div id="st_basket-discount-coupon-code" {if $gift_card && $discount_coupon_code} style="margin-bottom:15px;" {/if}>
+               {$discount_coupon_code}
+            </div>
+            
+            
+            {$gift_card}
+            <div class="clear"></div>
+            
+            {if $gift_card || $discount_coupon_code}
+            	</div>
+            {/if}
+                             
+            
+            <div id="st-trusted_shops">{$trusted_shops}</div>
+            {if $show_products == 1}
+            <div>{$products_promote}</div>
+            {/if}
+            {if $gift_group}
+            <div id="gift_group" class="box_form">
+                <h3>{__ text="Wybierz prezent"}</h3>
+                <div>{$gift_group}</div>
+            </div>
+            {/if}            
+            {$socket_above_user_form}
+            <div id="st_basket-user">{$user_form}</div>
+        {else}
+            <div class="empty_basket_img"><img src="{image_path image='/basket/empty_basket.jpg'}" alt="" /></div>
+            
+           	<h2 style="text-align: center; ">{__ text="Twój koszyk jest pusty"}</h2>
+           	
+            	<div id="button-empty-basket-return" class="buttons">
+                    <a href="{$return_url}" class="roundies">
+                        <span class="arrow_right">{__ text="Kontynuuj zakupy"}</span>
+                    </a>
+                </div>  
+        {/if} 
+
+        <div class="clear"></div>
+    </div>
+</div>

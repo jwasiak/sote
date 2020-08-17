@@ -1,0 +1,14 @@
+package:
+  name: stTaskScheluderPlugin
+  stability: stable
+  version: 7.0.0.16
+  summary: 'Harmonogram zadań'
+  description: 'Harmonogram zadań'
+  notes: |
+     - Poprawka logowania wyjatkow
+     - Dodanie opcji wymuszajacej wykonywanie wszystkich zadan
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

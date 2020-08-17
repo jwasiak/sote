@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>firma</source>
+				<target>公司</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>imię i nazwisko</source>
+				<target>姓名</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>ulica, nr domu</source>
+				<target>路，房号</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kod, miasto</source>
+				<target>邮政编码，城市</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>kraj</source>
+				<target>国家</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>telefon</source>
+				<target>电话</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>nip</source>
+				<target>纳税识别号</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>nr. konta</source>
+				<target>账号</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>uwagi</source>
+				<target>备注</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zarejestruj</source>
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dane partnera</source>
+				<target>合伙人的信息</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Konto</source>
+				<target>帐户</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Prowizje partnera</source>
+				<target>合伙人的佣金</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Stawka prowizji procentowej</source>
+				<target>佣金率</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Stawka prowizji kwotowej</source>
+				<target>佣金额</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Nie przyznano prowizji od transakcji.</source>
+				<target>没有获得交易佣金。</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Całkowita prowizja</source>
+				<target>总佣金</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Rozliczona prowizja</source>
+				<target>已交付的佣金</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nierozliczona prowizja</source>
+				<target>未交付的佣金</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zamówienia z polecenia</source>
+				<target>被推荐的订单</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Link partnerski</source>
+				<target>联盟链接</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Skorzystaj z automatycznego generowania linku partnerskiego. Opcja ta ułatwi Ci generowanie linków za pomocą, których klienci którym polecisz sklep dokonają zakupów rejestrowanych na Twoje konto.</source>
+				<target>用自动生成联盟链接。此选项帮您生成链接。您的帐号上记录通过点击您链接的交易。</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Wstaw link do strony sklepu</source>
+				<target>添加商店页面的链接</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Link partnerski do strony sklepu</source>
+				<target>商店页面的联盟链接</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Link partnerski do umieszczenia na stronie</source>
+				<target>可添加到网页的商店联盟链接</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Konto partnerskie zostało zablokowane.</source>
+				<target>联盟帐户被封锁。</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Twoje konto zostało zablokowane, skontaktuj się z administratorem celem wyjaśnienia przyczyny blokady konta.</source>
+				<target>您的账户已被封锁，请及时与管理员联系查明原因。</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>wszystkie</source>
+				<target>所有</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>rozliczone</source>
+				<target>已交代</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>nierozliczone</source>
+				<target>未交代</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Brak zamówień.</source>
+				<target>没有订单</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Łączna kwota prowizji</source>
+				<target>总佣金额</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Łączna kwota prowizji za okres od</source>
+				<target>总佣金额从</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>wynosi</source>
+				<target>一共</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Kwota zamówienia</source>
+				<target>订单金额</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wartość prowizji</source>
+				<target>订单价值</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Zapraszamy do skorzystania z naszego programu partnerskiego. Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci. Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep. Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.</source>
+				<target>欢迎参加我们的合作伙伴计划(联盟计划)。本计划专为愿意在网上推广和促销我们网店的人所提供。愿意加入计划请填写右边的申请表，以后我们的管理员会验证您的信息。验证成功的话，您会获得独立的联盟号，用联盟号推荐我们的商品。系统记录通过您推荐的交易，交易佣金记录在您的联盟帐号上。</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>等待确认</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Dziękujemy za wyrażenie chęci zostania partnerem naszego sklepu. Proszę czekać, aż administrator zaakceptuje i potwierdzi dane rejestracyjne.</source>
+				<target>谢谢您愿意做们商店的合作伙伴。请等待管理员接收并确认注册信息。</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Po zweryfikowaniu danych otrzymacie Państwo indywidualny numer partnerski, który umożliwi dokonywanie zakupów z polecenia.</source>
+				<target>信息确认之后您会收到独立的联盟号以推荐购物。</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>O przyznaniu status partnera sklepu zostaniecie Państwo poinformowani drogą mailową.</source>
+				<target>谢谢您愿意做们商店的合作伙伴。请等待管理员接收并确认注册信息。信息确认之后您会收到独立的联盟号以推荐购物。我们将发送电子邮件通知您是否成为商店的合作伙伴。</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Moje konto</source>
+				<target>我的帐户</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Program partnerski</source>
+				<target>联盟计划</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Uzupełnij formularz poniżej podając dane, które posłużą administratorowi sklepu do rozliczeń programu partnerskiego.</source>
+				<target>请填写下面的表单，管理员通过您的信息来核算出应支付的佣金。</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brak imienia.</source>
+				<target>未填写名字</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Brak nazwiska.</source>
+				<target>未填写姓</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Brak ulicy.</source>
+				<target>未填写马路</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brak domu.</source>
+				<target>未填写房号</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Brak kodu.</source>
+				<target>未填写邮政编码</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Brak miasta.</source>
+				<target>未填写城市</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Brak telefonu.</source>
+				<target>未填写电话号码</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zweryfikuj poprawność adresu</source>
+				<target>请验证地址</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Wstaw link do dowolnej strony tego sklepu (np.</source>
+				<target>添加任何网店页的链接（比如）。</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>). Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+				<target>下面将会生成激活联盟计划的链接。</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Pokaż</source>
+				<target>查看</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Pola pogrubione są wymagane.</source>
+				<target>加粗的字段是必需的。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,73 @@
+<div id="st_user-edit_data" class="st_component" style="border: none;">
+    <fieldset>
+    <div id="st_user-basket-frama2">
+        <h5 class="st_title">
+            {__ text="Dane dostawy"}
+        </h5>
+        <div id="st_user-delivery_profile">{$basket_user_data_profile_delivery}</div>
+        {$error_delivery_message}
+        {$error_delivery_company}    
+        {$error_delivery_full_name}
+        {$error_delivery_address}
+        {$error_delivery_code}    
+        {$error_delivery_town}    
+        {$error_delivery_phone}    
+        {$error_delivery_vat}         
+
+        <div id="st_form-user-field1" class="st_row">    
+            {$label_delivery_company}
+            <div class="st_field">
+                {$input_delivery_company}
+            </div>
+        </div>        
+        <div id="st_form-user-field3" class="st_row">
+            {$label_delivery_full_name}
+            <div class="st_field">
+                {$input_delivery_full_name}
+            </div>
+        </div>
+        <div id="st_form-user-field4" class="st_row">
+            <b>{$label_delivery_address}</b>
+            <div class="st_field">
+                <span>{__ text="np. Nazwa ulicy nr/nr"}</span>
+                {$input_delivery_address}
+            </div>
+        </div>
+        <div id="st_form-user-field4" class="st_row">
+            {$label_delivery_address_more}
+            <div class="st_field">
+                 <span>{__ text="adres ciąg dalszy"}</span><br>
+                {$input_delivery_address_more}
+            </div>
+        </div>
+        {if $show_region==1}
+        <div id="st_form-user-field4" class="st_row">
+            {$label_delivery_region}
+            <div class="st_field">
+                {$input_delivery_region}
+            </div>
+        </div>
+        {/if}
+        <div id="st_form-user-field5" class="st_row">
+            <b>{$label_delivery_code_town}</b>
+            <div class="st_field">
+                {$input_delivery_code}
+                {$input_delivery_town}
+            </div>
+        </div>
+        <div id="st_form-user-field6" class="st_row">
+            {$label_delivery_country}
+            <div class="st_field">
+                {$select_delivery_country}               
+            </div> 
+        </div>
+        <div id="st_form-user-field7" class="st_row">
+            <b>{$label_delivery_phone}</b>
+            <div class="st_field">
+                {$input_delivery_phone}
+            </div>
+        </div>
+    </div>
+</div>  
+{$hidden_different_delivery}
+{$hidden_user_data_delivery_id}

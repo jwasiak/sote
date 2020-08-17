@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twoje punkty</source>
+				<target>Seus pontos</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Moje konto</source>
+				<target>Minha conta</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Punkty</source>
+				<target>Pontos</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Aktualnie posiadasz</source>
+				<target>Atualmente tem</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Lista operacji</source>
+				<target>Lista de operações</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Operacja</source>
+				<target>Operação</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmienił</source>
+				<target>Alterou</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Opis</source>
+				<target>Descrição</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Data</source>
+				<target>Data</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Stan konta</source>
+				<target>Estado de conta</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>administrator</source>
+				<target>administrador</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Zam</source>
+				<target>Enc</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Atualizado através da encomenda</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Próg aktywacji punktów</source>
+				<target>Limite de ativação de pontos</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>osiągnięty</source>
+				<target>alcançado</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Próg aktywacji punktów nie został osiągnięty</source>
+				<target>Limite de ativação de pontos não alcançado</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>do aktywacji brak</source>
+				<target>para ativação falta</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Po zgromadzeniu łącznie</source>
+				<target>Ao juntar em total</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>będzie można dokonywać zakupów za punkty.</source>
+				<target>poderá fazer compras por pontos.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktywacja jest jednorazowa.</source>
+				<target>Ativação única</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+				<target>Ao ultrapassar o limite de ativação, o uso de sistema de pontos não será limitado</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Aktualizacja stanu konta</source>
+				<target>Atualização de estado da conta</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

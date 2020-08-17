@@ -1,0 +1,1 @@
+<div id="block-site-info"><?php echo get_service_information() ?></div>

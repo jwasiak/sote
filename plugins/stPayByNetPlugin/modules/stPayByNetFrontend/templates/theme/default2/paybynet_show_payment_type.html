@@ -1,0 +1,41 @@
+<div id="st-paybynet-content" style="padding-left: 15px;">
+    {foreach item=bank key=id from=$banks}
+        <div>
+            <input type="radio" class="st_delivery-payment_default st-paybynet-input" id="st-paybynet-input-{$id}" data-id="{$id}" name="delivery[default_payment]" value="" style="float: none">
+            <label for="st-paybynet-input-{$id}">{$bank}</label>
+        </div>
+    {/foreach}
+</div>
+{literal}
+    <script type="text/javascript">
+        jQuery(function ($){
+            $(document).ready(function (){
+                var li = $("#st-paybynet-content").parent().parent();
+                var vv = li.find('input.st_delivery-payment_default').val();
+
+                if (li.find('input.st_delivery-payment_default').prop('checked')) {
+                    if ($('#st-paybynet-payment-id').val() != '') {
+                        $('#st-paybynet-input-' + $('#st-paybynet-payment-id').val()).prop('checked', true);
+                    } else {
+                        $('#st-paybynet-input-24900005').prop('checked', true);
+                    }
+                }
+
+                li.find('input.st_delivery-payment_default').each(function(item) {
+                    if (!$(this).hasClass('st-paybynet-input'))
+                        $(this).remove();
+                    else 
+                        $(this).val(vv);
+                });
+
+                li.find('p').remove();
+                li.find('label.st_delivery-label').css('margin-left', '22px');
+                li.find('label.st_delivery-label').removeAttr('for');
+
+                $('.st-paybynet-input').click(function(){
+                    $('#st-paybynet-payment-id').val($(this).attr('data-id'));
+                });
+            });
+        });
+    </script>
+{/literal}

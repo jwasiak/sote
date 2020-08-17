@@ -1,0 +1,84 @@
+<form action="{urlfor internal="stProduct/list"}" class="form-inline search" method="get">
+    <div class="input-group">
+        <label class="sr-only" for="search">{__ text="Wyszukaj"}</label>
+        <input type="search" autocomplete="off" class="form-control" name="query" value="" placeholder='{__ text="Wpisz czego szukasz" catalogue="stFrontend"}' />
+        <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+        </span>                                
+    </div>
+</form>
+
+{literal}
+<script id="search-result-tpl" type="text/x-template">
+    <div class="media">
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="{%=o.image%}" alt="{%=o.name%}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">{%=o.name%}</h4>
+            {% if (o.price) { %}
+                <div class="price-info">
+                    {% if (o.price.type == 'gross_net')  { %}
+                        <span class="price">{%=o.price.brutto%}</span>
+                    {% } else if (o.price.type == 'net_gross') { %}
+                        <span class="price">{%=o.price.netto%}</span>
+                    {% } else if (o.price.type == 'only_net') { %}
+                        <span class="price">{%=o.price.netto%}</span>
+                    {% } else { %}
+                        <span class="price">{%=o.price.brutto%}</span>
+                    {% } %}
+                </div>
+            {% } %}
+        </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+    jQuery(function($) {
+        $('.search').submit(function() {
+            var input = $(this).find('input[name=query]');
+
+            if (!input.val()) {
+                input.parent().addClass('has-error');
+                return false;
+            } 
+
+            input.parent().removeClass('has-error');
+            return true;            
+        });
+
+        var products = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            remote: {
+                url: '{/literal}{urlfor internal="@stSearchPlugin?action=typeahead"}?query=%QUERY{literal}',
+                wildcard: '%QUERY'
+            },
+            limit: 100
+        });
+     
+        products.initialize();
+
+        var tpl = tmpl($('#search-result-tpl').html());
+        
+        var typeahead = $('.search input[type="search"]');
+        typeahead.typeahead({
+            minLength: 3,
+            source: products.ttAdapter(),
+            messages: {
+                noresults: false,
+            }, 
+            viewport: { selector: '#header-navbar', padding: 0 },   
+            template: function(suggestions) {
+                var content = '';
+                for (var i = 0; i < suggestions.length; i++) {
+                    content += '<li data-url="'+suggestions[i].url+'">'+tpl(suggestions[i])+'</li>';
+                }
+                return content;
+            }
+        });
+    });
+</script>
+{/literal}

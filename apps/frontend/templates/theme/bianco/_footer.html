@@ -1,0 +1,15 @@
+<div class="navbar navbar-default clearfix" role="navigation">
+    <div class="container">
+        <div id="accordion_footer" class="panel-group row">
+            <div class="col-xs-12 col-sm-8">
+                {st_get_component module="stWebpageFrontend" component="footerWebpage"}    
+            </div>
+    		<!-- <div class="foot-group list-group col-xs-12 col-sm-4 verify"></div> -->
+            <div id="newsletter" class="list-group col-xs-12 col-sm-4 pull-right">
+                {st_get_component module="stNewsletterFrontend" component="newsletter"}
+                {st_get_component module="stSocialLinksFrontend" component="show"}    
+            </div>
+        </div>
+        {st_get_component module="stFrontendMain" component="copyright" params="open='$open'"}
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Korzystanie ze strony oznacza zgodę na wykorzystywanie plików cookie, niektóre mogą być już zapisane w przeglądarce. Więcej informacji można znaleźć w</source>
+				<target>Prezeraním tejto stránky vyjadrujete svoj súhlas s používaním súborov cookies. Niektoré z nich už môžu byť zapísané v prehliadači. Viac informácií môžeš nájsť v</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>polityce prywatności</source>
+				<target>časti Politika ochrany súkromia</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>brutto +</source>
+				<target>Včetne DPH +</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>koszty dostawy</source>
+				<target>náklady na dopravu</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

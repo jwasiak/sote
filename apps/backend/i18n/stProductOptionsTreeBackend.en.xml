@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Anuluj</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wstaw szablony</source>
+                <target>Insert the templates</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Dodaj nowe pole i opcje dla niego.</source>
+                <target>Add a new field and the options for it.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Wybierz pole lub opcję, którą chcesz usunąć.</source>
+                <target>Select a field or an option you want to delete.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Rozwiń lub zwiń wszystkie gałęzie drzewa</source>
+                <target>Expand or collapse all the branches of a tree</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Podaj nazwe pola</source>
+                <target>Enter a field name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Nie ma takiej opcji dla tego pola</source>
+                <target>No such option for this field</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Podaj nazwe opcji</source>
+                <target>Enter an option name</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Istnieje już opcja dla tego pola o podanej wartości</source>
+                <target>Option with the given value for this field already exists</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Niewłaściwy format modyfikatora ceny</source>
+                <target>Wrong format of the price modifier</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Nazwa pola</source>
+                <target>Field name</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Domyślna wartość</source>
+                <target>Default value</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>opcja</source>
+                <target>option</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Wartość</source>
+                <target>Value</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>wartość</source>
+                <target>value</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Usuń</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Zwiń</source>
+                <target>Collapse</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Rozwiń</source>
+                <target>Expand</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Szablony</source>
+                <target>Templates</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Wybierz szablon</source>
+                <target>Select a template</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wstaw szablon</source>
+                <target>Insert a template</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Musisz podać wartość</source>
+                <target>Enter a value</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Opcja nie może wskazywać na produkt który posiada opcje.</source>
+                <target>You can't add a product with options.</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Produkt o podanym kodzie już istnieje</source>
+                <target>A product with the given code already exist</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Niewłaściwy format starej ceny</source>
+                <target>Wrong format of the old price</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Niewłaściwy format modyfikatora wagi</source>
+                <target>Wrong format of the weight modifier</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Przenoszenie opcji produktu, prosze czekać...</source>
+                <target>Moving product option, please wait...</target>
+            </trans-unit>     
+            <trans-unit id="31">
+                <source>Operacja w toku...</source>
+                <target>Operation in progress...</target>
+            </trans-unit>             
+        </body>
+    </file>
+</xliff>

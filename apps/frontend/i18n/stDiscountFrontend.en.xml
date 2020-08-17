@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Rabaty</source>
+            <target>Discounts</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Lista przypisanych rabatów</source>
+            <target>Assigned discounts</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Nazwa</source>
+            <target>Name</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>Wartość</source>
+            <target>Value</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>Produkty</source>
+            <target>Products</target>
+         </trans-unit>
+         <trans-unit id="6">
+            <source>Rabat ogólny</source>
+            <target>Global discount</target>
+         </trans-unit>
+         <trans-unit id="7">
+            <source>Lista produktów</source>
+            <target>Show products</target>
+         </trans-unit>
+         <trans-unit id="8">
+            <source>Produkty w grupie rabatowej</source>
+            <target>Discount group products</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>Do grupy rabatowej %group% nie przypisano jeszcze żadnego produktu</source>
+            <target>None of the products is not assigned to the group %group%</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>Moje konto</source>
+            <target>My account</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>Wprowadź kod rabatowy</source>
+            <target>Please enter the code</target>
+         </trans-unit>
+         <trans-unit id="12">
+            <source>Podany kod jest nieważny</source>
+            <target>The given code has expired</target>
+         </trans-unit>
+         <trans-unit id="13">
+            <source>Podany kod nie istnieje</source>
+            <target>The given code does not exist</target>
+         </trans-unit>
+         <trans-unit id="14">
+            <source>Wprowadź kod</source>
+            <target>Enter code</target>
+         </trans-unit>
+         <trans-unit id="15">
+            <source>Kod rabatowy</source>
+            <target>Coupon code</target>
+         </trans-unit>
+         <trans-unit id="16">
+            <source>Udzielony rabat</source>
+            <target>Granted discount</target>
+         </trans-unit>
+         <trans-unit id="17">
+            <source>Aktywuj</source>
+            <target>Activate</target>
+         </trans-unit>
+         <trans-unit id="18">
+            <source>Dokonaj zakupu za %amount% a otrzymasz rabat %discount% na aktualne zamówienie</source>
+            <target>Make a purchase for %amount% and receive a discount of %discount% for the current order</target>
+         </trans-unit>
+         <trans-unit id="19">
+            <source>W zestawie kupisz taniej</source>
+            <target>Buy together to pay less</target>
+         </trans-unit>
+         <trans-unit id="20">
+            <source>do koszyka</source>
+            <target>to shopping cart</target>
+         </trans-unit>
+         <trans-unit id="21">
+            <source>Brak rabatów</source>
+            <target>No discounts</target>
+         </trans-unit>         
+      </body>
+   </file>
+</xliff>

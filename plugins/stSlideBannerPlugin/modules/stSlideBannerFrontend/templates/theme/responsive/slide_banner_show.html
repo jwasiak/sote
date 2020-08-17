@@ -1,0 +1,60 @@
+<div id="homepage-carousel{$group_name}" class="homepage-carousel">
+    {if $count > 1}
+        <a class="arrow-left {$group_name}left" href="#" ><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="arrow-right {$group_name}right" href="#" ><span class="glyphicon glyphicon-chevron-right"></span></a>  
+    {/if}
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {foreach from=$banners item=banner name=slide}
+                <div class="swiper-slide">
+
+                    {if $banner->getLink()}
+                        {if $banner->hasAbsoluteLink()}
+                        <a href="{$banner->getLink()}" target="_blank">
+                        {else}
+                        <a href="{$banner->getLink()}" target="_parent">
+                        {/if}
+                    {/if}
+                    {if $banner->getImageSmall()}
+                        <img class="hidden-us img-responsive" src="{st_asset_image_path image=$banner->getImagePath() type='thumb' for='slide'}" alt="" title="{$banner->getDescription()}" />
+                        <img class="visible-us img-responsive" src="{st_asset_image_path image=$banner->getImageSmallPath() type='thumb' for='slide_mobile'}" alt="" title="{$banner->getDescription()}" />
+                    {else}
+                        <img class="img-responsive" src="{st_asset_image_path image=$banner->getImagePath() type='thumb' for='slide'}" alt="" title="{$banner->getDescription()}" />
+                    {/if}
+                    {if $banner->getLink() != ''}
+                        </a>
+                    {/if}
+
+                </div>            
+            {/foreach}
+        </div>
+        {if $count > 1}
+            <div class="hidden-xs {$group_name}swiper-pagination"></div>
+        {/if}
+    </div>
+</div>  
+
+{if $count > 1}
+    {literal}
+    <script type="text/javascript">
+    jQuery(function ($) {    
+        $(document).ready(function() {
+            
+            var swiper = new Swiper('#homepage-carousel{/literal}{$group_name}{literal} .swiper-container', {                              
+                pagination: '.{/literal}{$group_name}{literal}swiper-pagination',
+                bulletClass: 'swiper-pagination-switch',
+                bulletActiveClass: 'swiper-active-switch',
+                loop:true,
+                grabCursor: true,
+                calculateHeight:true,
+                paginationClickable: true,
+                autoplayDisableOnInteraction: true,
+                autoplay: 5000,
+                nextButton: '.{/literal}{$group_name}{literal}right',
+                prevButton: '.{/literal}{$group_name}{literal}left'
+            });
+        });   
+    });
+    </script>
+    {/literal}
+{/if}

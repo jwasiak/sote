@@ -1,0 +1,25 @@
+verify:
+    ignore:       
+      - config/propel.ini
+      - config/databases.yml       
+      - lib/model/om
+      - lib/model/map      
+      - web/errors            
+      - config/verify.yml
+      - plugins/stInstallerPlugin
+      - apps/backend/modules/stOrder/lib/stModuleWebApi.class.php
+      - data/fixtures/sfGuardUser.yml    
+      - ignore.yml
+      - StMysqlDDLBuilder.php
+      - pear/
+      - schema.xml
+                                     
+    fix:
+      soteshop:
+         5.0.0:
+           - plugins/stAdminGeneratorPlugin/data/generator/sfPropelAdmin/simple/template/lib/stModuleImportExport.class.php 
+           - plugins/stAvailabilityPlugin/modules/stAvailabilityFrontend/templates/_availability.php       
+           - web/errors/error500.php      
+         5.0.1:
+           - plugins/stAdminGeneratorPlugin/data/generator/sfPropelAdmin/simple/template/lib/stModuleImportExport.class.php     
+           

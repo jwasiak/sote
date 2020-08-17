@@ -1,0 +1,15 @@
+{if isset($stock)}
+
+    {if $show_depository == 1}
+    
+        <li id="st_depository_stock_amount">
+            <span style="width: 100px;">{__ text="W magazynie"}: </span>{$stock} {$uom}
+        </li>
+    
+    {/if}
+
+{/if}
+
+{if $show_availability == 1}
+    {$availability}
+{/if}

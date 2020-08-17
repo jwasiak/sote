@@ -1,0 +1,16 @@
+{if $check_configuration}
+    <div id="st_box_payment">
+        <img id="st_home" src="https://ewniosek.credit-agricole.pl/eWniosek/res/CA_grafika/485_przezroczysty.png" alt=""/>
+        {$form_start}
+            {$type}
+            {$id}
+            {$submit_button}
+        </form>
+        <br />
+    </div>
+{else}
+    <div id="st_box_payment">
+        <p><img id="st_home" src="/images/frontend/theme/default2/stLukasPlugin/logo.png" alt=""/></p>
+        <p>{__ text="Płatność została błędnie skonfigurowana."}</p>
+    </div>
+{/if}

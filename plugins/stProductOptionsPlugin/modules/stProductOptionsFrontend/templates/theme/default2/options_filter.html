@@ -1,0 +1,18 @@
+<div id="product_options_filter" class="block box roundies">
+    {$form_start}
+    <div class="content">
+        {foreach from=$filters item=filter}
+        <span class="title_filter">{$filter.name} {$filter.clear}</span>
+        <div class="product_options_filter_name">
+            <div class="product_options_filter_options">
+                {foreach from=$filter.options item=option}
+                    {$option}
+                {/foreach}
+                <div class="clear"></div>
+            </div>
+        </div>
+        {/foreach}
+        {if $has_filters}<div class="product_options_filter_clear">{$clear_filters}</div>{/if}
+    </div>
+    </form>
+</div>

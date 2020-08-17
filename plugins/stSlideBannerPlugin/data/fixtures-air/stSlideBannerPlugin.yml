@@ -1,0 +1,11 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_2
+    image: /picture/en_US/air-baner.jpg
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_2:
+    language_id: Language_2
+    image: /picture/en_US/air-baner2.jpg
+    is_active: 1
+    opt_culture: en_US

@@ -1,0 +1,5 @@
+propel: 
+    st_discount_range: 
+        _attributes: 
+            phpName: DiscountRange
+        total_value: {change_column: range}

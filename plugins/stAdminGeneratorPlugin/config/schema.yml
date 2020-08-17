@@ -1,0 +1,19 @@
+propel:
+  _attributes:      { package: plugins.stAdminGeneratorPlugin.lib.model }
+
+  st_admin_generator_filter:
+    _attributes:      {phpName: AdminGeneratorFilter}
+    id:               ~
+    guard_user_id:    {type: integer, required: true, foreignTable: sf_guard_user, foreignReference: id, onDelete: cascade}
+    data_id:          {type: integer, required: true, foreignTable: st_admin_generator_filter_data, foreignReference: id, onDelete: cascade }
+    name:             {type: varchar, size: 64, required: true}
+    module_namespace: {type: varchar, size: 64, required: true}
+    is_global:        {type: boolean, default: false}
+    _indexes:
+      namespace_index:
+        - module_namespace
+
+  st_admin_generator_filter_data:
+    _attributes:      {phpName: AdminGeneratorFilterData}
+    id:               ~
+    data:             {type: longvarchar, phpType: array}

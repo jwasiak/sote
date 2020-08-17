@@ -1,0 +1,19 @@
+
+	<table id="attachments" class="table">
+	<thead> 
+	<tr>  
+		<th>{__ text="Zobacz"}</th>
+		<th class="hidden-xs">{__ text="Opis"}</th>
+		<th class="text-center">{__ text="Pobierz"}</th>  
+	</tr>
+	</thead>
+		<tbody>  
+			{foreach item=attachment from=$results name=attachments}
+				<tr>     
+				    <td><a href="{$attachment.url}" download>{$attachment.icon} {$attachment.name} ({$attachment.size})</a></td>
+				    <td class="hidden-xs">{$attachment.description}</td>                
+				    <td class="text-center"><a href="{$attachment.url}" download><span class="download-ico glyphicon"></span></a></td>
+				</tr>
+			{/foreach}
+		</tbody>
+	</table>

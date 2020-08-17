@@ -1,0 +1,8 @@
+fields:
+    category{name}:
+        required:
+            msg:    Podaj nazwę kategorii
+    category{image}:
+        file:       True
+        stAssetFileValidator:
+            mime_types: "@web_images"

@@ -1,0 +1,87 @@
+#st_search_search
+{
+    background: url(/images/frontend/theme/default2/stSearch/icon.png) center left no-repeat;
+}
+
+#search #keywords input
+{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding-left: 25px;
+    width: 125px;
+    padding-top: 2px;
+}
+
+#search #button .middle a
+{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+#search_results .list_producers
+{
+    float: left;
+    padding: 10px;
+}
+
+#search_results .list_sort
+{
+   margin-bottom: 10px;
+}
+
+.next_search .buttons
+{
+    padding-bottom: 10px;
+}
+
+#no_search
+{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#st_search_name
+{
+	width: 430px;
+}
+
+#st_search_producer, #st_search_category
+{
+    width: 440px;
+}
+
+#st_search_price_from,#st_search_price_to
+{
+	width: 75px;
+}
+
+#st_search_category
+{
+	height: 100px;
+}
+
+.roundies_right
+{
+    -moz-border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.roundies_left
+{
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.st_search-hidden_div
+{
+	display: none;
+}
+
+.st_search-mode {
+	cursor:pointer;
+	text-decoration: underline;	
+
+}

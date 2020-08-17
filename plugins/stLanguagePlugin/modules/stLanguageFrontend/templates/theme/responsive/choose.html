@@ -1,0 +1,8 @@
+<a href="#" rel="nofollow" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+    {$selected->getName()} <span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+{foreach item=language from=$languages}
+    <li{if $selected == $language} class="active"{/if}><a href="{url_for_language language=$language}" rel="nofollow">{$language->getName()}</a></li>
+{/foreach}
+</ul>

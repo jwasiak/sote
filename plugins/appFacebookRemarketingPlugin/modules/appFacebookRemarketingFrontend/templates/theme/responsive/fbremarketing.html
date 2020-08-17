@@ -1,0 +1,28 @@
+<script>
+{literal}
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.agent='plsote';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '{/literal}{$config_fbremarketing.code_fbremarketing}{literal}');
+fbq('track', 'PageView');
+{/literal}{if $product_card == 1}{literal}fbq('track', 'ViewContent', {
+        content_name: "{/literal}{$name}{literal}", 
+        content_category: "{/literal}{$category}{literal}",
+        content_ids: ['{/literal}{$code}{literal}'],
+        content_type: 'product',
+        value: {/literal}{$price}{literal},
+        currency: '{/literal}{$currency}{literal}'
+    });{/literal}{elseif $orders == 1}{literal}fbq('track', 'Purchase', {
+        value: '{/literal}{$value}{literal}', 
+        currency: '{/literal}{$currency}{literal}',
+        content_name: 'order summary',
+        content_type: 'product',
+        content_ids: ['{/literal}{foreach key=row item=product from=$results}{$product.code}{/foreach}{literal}'],
+        num_items: '{/literal}{$num_items}{literal}'
+    });{/literal}
+{/if}
+
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={$config_fbremarketing.code_fbremarketing}&ev=PageView&noscript=1" /></noscript>

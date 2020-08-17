@@ -1,0 +1,15 @@
+<div id="main_categories" class="row product-list" data-equalizer>
+  {foreach key=row item=category from=$results}   
+      <div class="product col-xs-6 col-sm-4">
+            <div class="thumbnail clearfix text-center">
+                <div data-equalizer-watch="image">
+                    <div class="image">{$category.photo}</div>
+                </div>
+                <div class="caption" data-equalizer-watch="caption">
+                    <h3 class="name">{$category.name}</h3>
+                    <div class="tinymce_html">{$category.description|truncate:75:"..."}</div>
+                </div>
+            </div>
+      </div>  
+  {/foreach}
+</div>

@@ -1,0 +1,34 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stCrossellingPlugin.lib.model
+  st_crosselling: 
+    _attributes: 
+      phpName: Crosselling
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    first_product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    secound_product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    sum: 
+      type: INTEGER
+    _indexes: 
+      crosselling_sum: 
+        - sum

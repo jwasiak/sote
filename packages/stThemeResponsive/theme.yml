@@ -1,0 +1,9 @@
+theme:
+    package: stThemeResponsive
+    name: responsive
+    fixtures: fixtures-responsive
+    install: true
+    version: 7
+    default: 1
+    type: open
+    copyable: true

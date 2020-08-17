@@ -1,0 +1,171 @@
+generator:
+    class:                     stAdminGenerator
+    param:
+        model_class:             Language
+        theme:                   simple
+        advanced_model_class:    Language
+        domain_model_class:      LanguageHasDomain
+        translation_model_class: TranslationCache
+        translation_cache_model_class: TranslationCache
+        head:
+            package:             stLanguagePlugin     
+            title:               Wersje językowe
+            description:         Zarządzanie wersjami i definicjami językowymi.
+        applications:            []
+        custom_actions:
+            edit:                [advanced, domain, translation]
+            list:                [domain, translation, translation_cache]
+
+        fields:
+            id:                  {name: ID}
+            name:                {name: Wersja językowa, params: disabled=false}
+            language:            
+                name:            Język
+                help:            "Uwaga: Po dodaniu wersji językowej nie ma możliwości zmiany języka." 
+            shortcut:            {name: Skrót}
+            active:              {name: Aktywna}
+            is_default:          {name: Domyślna}
+            active_image:
+                name:            Obrazek wersji językowej - aktywny
+                help:            Załącz obrazek wersji językowej (preferowany format PNG)
+                type:            admin_input_file_tag
+                upload_dir:      stLanguagePlugin
+                params:          include_remove=true
+            inactive_image:
+                name:            Obrazek wersji językowej - nieaktywny
+                help:            Załącz obrazek wersji językowej (preferowany format PNG)
+                type:            admin_input_file_tag
+                upload_dir:      stLanguagePlugin
+                params:          include_remove=true
+            language_link:      {name: Link do sklepu w wersji językowej,  hide_on_create: true}
+            domain:             {name: Domena}
+            currency_id:        {name: Waluta}
+            currency_list:      {name: Waluta}
+        list:
+            display:             [=name, active, is_default, _currency_list]
+            title:               Lista
+            description:         Zarządzanie wersjami i definicjami językowymi.
+            peer_method:         doSelectWithI18n
+            peer_count_method:   doCountWithI18n
+            actions:
+                _create:         {name: Dodaj}
+            object_actions:
+                _edit:           -
+                _delete:         -
+            select_actions:      -
+            menu:
+                display:         [list, config]
+                fields:                  
+                    list:        {name: Lista, action: stLanguageBackend/index}
+                    config:      {name: Konfiguracja, action: stLanguageBackend/config}
+        edit:
+            title:               Podstawowa edycja wersji językowej '%%name%%'     
+            description:         Zarządzanie wersjami i definicjami językowymi.
+            menu:
+                display:         [translation, advanced, domains]
+                fields:                  
+                    _edit:      {name: Edycja podstawowa}
+                    advanced:   {name: Import / Eksport definicji językowych, action: stLanguageBackend/advancedEdit?id=%%id%%}
+                    domains:    {name: Lista domen, action: stLanguageBackend/domainList?language_id=%%id%%}
+                    translation:     {name: Edycja definicji językowych, action: stLanguageBackend/translationList?id=%%id%%}
+            display:             
+                "Informacje podstawowe":    [id, name, _language, shortcut, active, is_default, _currency_id]
+                "Obrazki":                  [active_image, _show_active_image, inactive_image, _show_inactive_image]
+                "Pozostałe informacje":     [_language_link]
+            fields:
+                show_active_image:     {name: Podgląd}
+                show_inactive_image:   {name: Podgląd}
+                shortcut:              {params: size=3 maxlength=3}
+            actions:                        
+                _list:           {name: Lista}
+                _save:           {name: Zapisz}
+
+        advanced_edit:
+            forward_parameters: [id]
+            build_options:
+                related_id:     forward_parameters.id
+            title:              Import / Eksport definicji językowych
+            menu:               {use: edit.menu}
+            display:
+                "Eksport":      [~translations_export]
+                "Import":       [_translations_import]
+                "Usuwanie":     [~translations_delete]
+            fields:
+                translations_export:    {hide_label: true}
+                translations_import:    {name: Plik z danymi}
+                translations_delete:    {name: Usuń dodane definicje}
+            actions:                        
+                _list:           {name: Lista, action: list}
+                _save:           {name: Zapisz}
+
+        domain_list:
+            display:            [domain, is_default]
+            forward_parameters: [language_id]
+            build_options:
+                related_id:      forward_parameters.language_id
+            menu:                {use: edit.menu}
+            title:               Zarządzanie domenami dla wersji językowych.    
+            description:         Zarządzanie wersjami i definicjami językowymi.
+            object_actions:
+                _edit:           -
+                _delete:         -
+            actions:                        
+                _create:         {name: Dodaj nową domenę, i18n: stLanguageBackend}
+        domain_edit:   
+            display:            
+                "NONE":            [domain, is_default]
+            forward_parameters: [language_id]
+            title:              Zarządzanie domenami dla wersji językowych.
+            description:        Zarządzanie wersjami i definicjami językowymi.
+            build_options:
+                related_id:     forward_parameters.language_id
+            menu:               {use: edit.menu}
+            actions:                        
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+        config:
+            title:              Konfiguracja
+            description:        Zarządzanie wersjami i definicjami językowymi.
+            display:
+                "NONE":            [_panel_language]
+            fields:
+                panel_language: {name: Wersja językowa panelu}
+            actions:
+                _save:          {name: Zapisz}
+            menu:               {use: list.menu}
+
+        translation_list:
+            forward_parameters: [id]
+            build_options:
+                related_id:     forward_parameters.id
+
+        translation_edit:
+            forward_parameters: [id]
+            build_options:
+                related_id:     forward_parameters.id
+            menu:               {use: edit.menu}
+            display:            
+                "NONE":         [_phrase, shop_value, value]
+            fields:
+            actions:                        
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+
+        translation_cache_list:
+            forward_parameters: [id]
+            build_options:
+                related_id:     forward_parameters.id
+            title:              Lista definicji językowych do zmiany
+            display:            [updated_at, catalogue, _cache_list_phrase, value]
+            fields:
+                updated_at:     {name: Zmieniono}
+                catalogue:      {name: Katalog tłumaczeń}
+                cache_list_phrase:  {name: Fraza}
+                value:          {name: Tłumaczenie}
+            menu:               {use: edit.menu}
+            actions:
+                _
+            object_actions:
+                _delete:         -
+            actions:                        
+                _translationList: {name: Lista definicji językowych, icon: list, i18n: stLanguageBackend}

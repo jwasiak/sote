@@ -1,0 +1,32 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stGoogleShoppingPlugin.lib.model
+  st_google_shopping: 
+    _attributes: 
+      phpName: GoogleShopping
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    active: 
+      type: BOOLEAN
+      required: true
+    shipping_price:
+      type: VARCHAR
+      size: 255
+    sale_price:
+      type: VARCHAR
+      size: 255  

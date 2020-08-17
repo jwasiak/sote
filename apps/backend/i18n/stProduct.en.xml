@@ -1,0 +1,2151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Produkty</source>
+                <target>Products</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Załącz/Zmień plik</source>
+                <target>Attach/Change the file</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nazwa pliku</source>
+                <target>File name</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Dodatkowy opis wyświetlany przy każdym załączniku</source>
+                <target>Additional description displayed at each attachment</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Lista załączników</source>
+                <target>List of attachments</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Podaj liczbę znaków po, których ma być skracana nazwa</source>
+                <target>Enter the number of characters, after which a name will be shortened</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Minimalna liczba znaków to 1.</source>
+                <target>Minimum number of characters is 1.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Podaj liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Podaj liczbę znaków, po których ma być skracany kod</source>
+                <target>Enter the number of characters, after which a code will be shortened</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Podaj liczbę znaków, po których ma być skracany opis</source>
+                <target>Enter the number of characters, after which a description will be shortened</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Podaj liczbę znaków, po których ma być skracana nazwa</source>
+                <target>Enter the number of characters, after which a name will be shortened</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Podaj liczbę znaków, po których ma być skracany kod</source>
+                <target>Enter the number of characters, after which a code will be shortened</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Podaj liczbę znaków, po których ma być skracany opis</source>
+                <target>Enter the number of characters, after which a description will be shortened</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Podaj liczbę produktów wyświetlanych w Polecamy produkty</source>
+                <target>Enter the number of products in the Recommended products</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Maksymalna liczba produktów to 30.</source>
+                <target>Maximum number of the products is 30</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Galeria zdjęć dla %%_product_list_title%%</source>
+                <target>Gallery for %%_product_list_title%%</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Brak zdjęć w galerii</source>
+                <target>No images in the gallery</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Nazwa pliku może zawierać wyłącznie litery alfabetu angielskiego (a-z), cyfry (0-9) oraz znaki _-</source>
+                <target>The file name can contain only letters of the English alphabet (a-z), numbers and characters _-...</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Podaj kod produktu</source>
+                <target>Enter a product code</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Ten kod produktu już jest wykorzystany. Wpisz inny kod.</source>
+                <target>This code is already used. Enter a different code.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Kod produktu nie może zawierać znaków ' oraz "</source>
+                <target>Product code can't contain the characters ' and "</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Podaj nazwę produktu</source>
+                <target>Enter a product name</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Nazwa zdjęcia</source>
+                <target>Image name</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Podaj datę</source>
+                <target>Enter a date</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Podaj liczbę produktów na liście pełnej</source>
+                <target>Enter the number of products on the full list</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Podaj liczbę produktów na liście skróconej</source>
+                <target>Enter the number of products on the short list</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Podaj liczbę produktów na liście alternatywnej</source>
+                <target>Enter the number of products on the other list</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Zarządzanie produktami w sklepie.</source>
+                <target>Manage your products.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Operacja ta zmieni wszystkie niedozwolone kody na poprawne.</source>
+                <target>This operation will change all of the incorrect codes.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Wykonaj.</source>
+                <target>Execute.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Netto</source>
+                <target>Net</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Brutto</source>
+                <target>Gross</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Przejdź do galerii</source>
+                <target>Go to the gallery</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Przejdź do galerii aby zarządzać zdjęciami produktu</source>
+                <target>Go to the gallery to manage the product images</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Lista załączników dla %%_product_list_title%%</source>
+                <target>List of attachments for %%_product_list_title%%</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Zarządzanie plikami produktu.</source>
+                <target>Manage the product files.</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Rozmiar</source>
+                <target>Size</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Wersja językowa</source>
+                <target>Language</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Brak załączników</source>
+                <target>No attachments</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Dodaj załącznik</source>
+                <target>Add an attachment</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Edycja załącznika dla %%product%%</source>
+                <target>Edit an attachment for %%product%%</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Optymalizuj produkty</source>
+                <target>Optimize the products</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Stara cena netto posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Old net price has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Stara cena netto nie pokrywa się z ceną brutto (jeżeli chcesz zmienić cenę netto usuń cenę brutto).</source>
+                <target>Old net price doesn't match the gross price (remove the gross price if you want to change the net price).</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Stara cena brutto posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Old gross price has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Stara cena brutto nie pokrywa się z ceną netto (jeżeli chcesz zmienić cenę brutto usuń cenę netto).</source>
+                <target>Old gross price doesn't match the net price (remove the net price if you want to change the gross price).</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Cena netto posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Net price has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Cena netto nie pokrywa się z ceną brutto (jeżeli chcesz zmienić cenę netto usuń cenę brutto).</source>
+                <target>Net price doesn't match the gross price (remove the gross price if you want to change the net price).</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Cena brutto posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Gross price has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Cena brutto nie pokrywa się z ceną netto (jeżeli chcesz zmienić cenę brutto usuń cenę netto).</source>
+                <target>Gross price doesn't match the net price (remove the net price if you want to change the gross price).</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Cena hurtowa grupa %%group%% - cena %%type1%% posiada nieprawidłowy format (przykładowy format: 10, 10.00).</source>
+                <target>Wholesale price group %%group%% -  the price %%type1%% has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Cena hurtowa grupa %%group%% - cena %%type1%% nie pokrywa się z ceną %%type2%% (jeżeli chcesz zmienić cenę %%type1%% usuń cenę %%type2%%).</source>
+                <target>Wholesale price group %%group%% -  %%type1%% price doesn't match %%type2%% price (remove %%type2%% price if you want to change %%type1%% price).</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Podana kwota brutto została skorygowana, kliknij "Zapisz" aby zatwierdzić zmiany</source>
+                <target>The given gross price was corrected, click "Save" to confirm your changes</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Tutaj możesz zmienić nazwę zdjęcia<br/>Dozwolone znaki: ("a-z", "0-9" oraz "-")</source>
+                <target>You can rename an image here<br/>Allowed characters: ("a-z", "0-9" oraz "-")</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Pokaż logo producenta</source>
+                <target>Show a manufacturer logo</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Nazwa grupy</source>
+                <target>Group name</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Grupy produktów - strona główna</source>
+                <target>Product groups - main page</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Dołącz edytowany produkt do grup produktów</source>
+                <target>Add the edited product to the product groups</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Lista produktów</source>
+                <target>List of products</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Prezentacja</source>
+                <target>Presentation</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Eksport</source>
+                <target>Export</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Import</source>
+                <target>Import</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Producent</source>
+                <target>Manufacturer</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Dodaj nowy produkt</source>
+                <target>Add a new product</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Brak produktów</source>
+                <target>No products</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Grupy produktów</source>
+                <target>Product groups</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Galeria</source>
+                <target>Gallery</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Edycja produktu %%name%%</source>
+                <target>Edit the product %%name%%</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Pokaż producenta:</source>
+                <target>Show a manufacturer:</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Nie pokazuj producenta</source>
+                <target>Don't show a manufacturer</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Stara cena</source>
+                <target>Old price</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Ukryj cenę</source>
+                <target>Hide price</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Vat</source>
+                <target>VAT</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Opis pełny</source>
+                <target>Full description</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Opis skrócony</source>
+                <target>Short description</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Załącznik</source>
+                <target>Attachment</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Ukryj</source>
+                <target>Hide</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Załączniki</source>
+                <target>Attachments</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Pokaż nazwę producenta</source>
+                <target>Show a manufacturer name</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>NONE</source>
+                <target>NONE</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Ceny</source>
+                <target>Prices</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Zdjęcia</source>
+                <target>Images</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Producent i kategorie</source>
+                <target>Manufacturer and categories</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Ceny produktów</source>
+                <target>Products prices</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Ilość produktów na</source>
+                <target>Number of products</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Wszystkie</source>
+                <target>All</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Produkty są w nowościach od:</source>
+                <target>Products are in the news group since:</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Nie pozwalaj na dublowanie produktów na stronie:</source>
+                <target>Don't allow to duplicate the products on the site:</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>liście pełnej:</source>
+                <target>Full list:</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>liście skróconej:</source>
+                <target>Short list:</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>liście alternatywnej:</source>
+                <target>Other list:</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Pokaż produkty tylko z ustawioną ceną:</source>
+                <target>Show the products with the set price only:</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Forma wprowadzanej ceny:</source>
+                <target>Price input format:</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Domyślny typ prezentacji listy:</source>
+                <target>Default type of a list presentation:</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Lista pełna</source>
+                <target>Full list</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Lista skrócona</source>
+                <target>Short list</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Lista alternatywna</source>
+                <target>Other list</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Domyślne sortowanie po:</source>
+                <target>Default sort by:</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Nazwie</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Cenie</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Domyślnie sortuj:</source>
+                <target>Default sort:</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Rosnąco</source>
+                <target>Ascending</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Malejąco</source>
+                <target>Descending</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>Koszyk</source>
+                <target>Shopping cart</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Ukryj koszyk:</source>
+                <target>Hide the shopping cart:</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Włącz możliwość wpisywania ilość sztuk na karcie produktu:</source>
+                <target>Enable the ability to enter a product quantity in the product card:</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Pokaż nazwę rabatu:</source>
+                <target>Show a discount name:</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Pokaż zaoszczędzoną kwotę przy rabacie:</source>
+                <target>Show an amount of the discount savings:</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Pokaż dostępność:</source>
+                <target>Show an availability:</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Karta produktu</source>
+                <target>Product card</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>Pokaż kod produktu:</source>
+                <target>Show a product code:</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>Pokaż nazwę produktu:</source>
+                <target>Show a product name:</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>Pokaż cenę produktu:</source>
+                <target>Show a product price:</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>Pokaż starą cenę produktu:</source>
+                <target>Show a product old price:</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Wyświetlenie ceny przy produkcie:</source>
+                <target>Displayed price:</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>Wyświetlaj tylko cenę brutto</source>
+                <target>Show only a gross price</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>Wyświetlaj tylko cenę netto</source>
+                <target>Show only a net price</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>Wyświetlaj cenę netto i brutto - wyróżnij brutto</source>
+                <target>Show net and gross price - distinguish a gross price</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>Wyświetlaj cenę netto i brutto - wyróżnij netto</source>
+                <target>Show net and gross price - distinguish a net price</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>Pokaż cenę katalogową:</source>
+                <target>Show a catalogue price:</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Wyświetlenie zaoszczędzonej kwoty:</source>
+                <target>Show a saved amount:</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>Prezentacja rabatu:</source>
+                <target>Discount presentation:</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>Wyświetlaj zaoszczędzone kwotę i procent</source>
+                <target>Show a saved price and a percentage</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>Wyświetlaj tylko zaoszczędzoną kwotę</source>
+                <target>Show a saved price only</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Wyświetlaj tylko zaoszczędzony procent</source>
+                <target>Show a saved percentage only</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Pokaż dodanie do porównania:</source>
+                <target>Show the 'add to compare':</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Pokaż nazwę producenta:</source>
+                <target>Show a manufacturer name:</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>Pokaż nazwę kategorii:</source>
+                <target>Show a category name:</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>Pokaż zdjęcie produktu:</source>
+                <target>Show a product image:</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>Pokaż galerię produktu:</source>
+                <target>Show a product gallery:</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>Pokaż skrócony opis produktu:</source>
+                <target>Show a product short description:</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>Pokaż pełny opis produktu:</source>
+                <target>Show a product full description</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>Pokaż polecane produkty:</source>
+                <target>Show the recommended products:</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>Liczba produktów polecanych:</source>
+                <target>Number of the recommended products:</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>Pokaż akcesoria:</source>
+                <target>Show the accessories:</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>Włącz rekomendację produktu:</source>
+                <target>Enable a product recommendation:</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>Pokaż recenzje produktu:</source>
+                <target>Show the product reviews:</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>Pokaż wagę produktu:</source>
+                <target>Show a product weight:</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>Jednostka wagi:</source>
+                <target>Dram:</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>Skracaj nazwę produktu:</source>
+                <target>Cut a product name:</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>Ile znaków skracać nazwę produktu:</source>
+                <target>How many characters shorten a product name:</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>Skracaj kod produktu:</source>
+                <target>Cut a product code</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>Ile znaków skracać kod produktu:</source>
+                <target>How many characters shorten a product code:</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>Wyświetlenie ceny na liście:</source>
+                <target>Displayed price on a list:</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>Pokaż rabat:</source>
+                <target>Show a discount:</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>Pokaż koszyk:</source>
+                <target>Show a shopping cart:</target>
+            </trans-unit>
+            <trans-unit id="158">
+                <source>Jaki opis ma być używany:</source>
+                <target>Which description should be used:</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>Opis nie jest wyświetlany w domyślnym temacie</source>
+                <target>Description isn't displayed in the default theme</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>Skracaj wybrany opis:</source>
+                <target>Cut a selected description:</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>Ile znaków skracać opis produktu:</source>
+                <target>How many characters shorten a product description:</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>Pokaż opis skrócony produktu:</source>
+                <target>Show a product short description:</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>Galeria zdjęć</source>
+                <target>Gallery</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>Dodaj zdjęcie</source>
+                <target>Add an image</target>
+            </trans-unit>
+            <trans-unit id="165">
+                <source>Załącz/Zmień zdjęcie</source>
+                <target>Attach/Change an image</target>
+            </trans-unit>
+            <trans-unit id="166">
+                <source>Nazwa zdjęcia</source>
+                <target>Image name</target>
+            </trans-unit>
+            <trans-unit id="167">
+                <source>Opis zdjęcia</source>
+                <target>Image description</target>
+            </trans-unit>
+            <trans-unit id="168">
+                <source>Domyślne</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="169">
+                <source>Tutaj możesz zmienić nazwę zdjęcia</source>
+                <target>You can rename an image here</target>
+            </trans-unit>
+            <trans-unit id="170">
+                <source>Opis będzie wyświetlany pod zdjęciem podczas przeglądania galerii</source>
+                <target>Description will be displayed under an image when you browse the gallery</target>
+            </trans-unit>
+            <trans-unit id="171">
+                <source>Ustaw jako zdjęcie główne produktu</source>
+                <target>Set as the default image</target>
+            </trans-unit>
+            <trans-unit id="172">
+                <source>Pokaż galerię</source>
+                <target>Show a gallery</target>
+            </trans-unit>
+            <trans-unit id="173">
+                <source>Eksport do pliku</source>
+                <target>Export to the file</target>
+            </trans-unit>
+            <trans-unit id="174">
+                <source>Cena netto</source>
+                <target>Net price</target>
+            </trans-unit>
+            <trans-unit id="175">
+                <source>Cena brutto</source>
+                <target>Gross price</target>
+            </trans-unit>
+            <trans-unit id="176">
+                <source>Stara cena netto</source>
+                <target>Old net price</target>
+            </trans-unit>
+            <trans-unit id="177">
+                <source>Stara cena brutto</source>
+                <target>Old gross price</target>
+            </trans-unit>
+            <trans-unit id="178">
+                <source>Waga</source>
+                <target>Weight</target>
+            </trans-unit>
+            <trans-unit id="179">
+                <source>Ten produkt nie ma duplikatów</source>
+                <target>This product has no duplicates</target>
+            </trans-unit>
+            <trans-unit id="180">
+                <source>Musisz załączyć zdjęcie...</source>
+                <target>Attach an image...</target>
+            </trans-unit>
+            <trans-unit id="181">
+                <source>Wylicz poprawne ceny brutto <br/></source>
+                <target>Calculate the correct gross prices <br/></target>
+            </trans-unit>
+            <trans-unit id="182">
+                <source>Przejdź do listy produktów</source>
+                <target>Go to the products list</target>
+            </trans-unit>
+            <trans-unit id="183">
+                <source>Aktualizacja kodów</source>
+                <target>Update the codes</target>
+            </trans-unit>
+            <trans-unit id="184">
+                <source>Zmieniamy kod produktu z %s na %s</source>
+                <target>Changing a product code from %s to %s</target>
+            </trans-unit>
+            <trans-unit id="185">
+                <source>Waga produktu nie może być mniejsza od 0</source>
+                <target>Product weight can't be less than 0</target>
+            </trans-unit>
+            <trans-unit id="186">
+                <source>Podaj liczbę</source>
+                <target>Enter a number</target>
+            </trans-unit>
+            <trans-unit id="187">
+                <source>Magazyn</source>
+                <target>Inventory</target>
+            </trans-unit>
+            <trans-unit id="188">
+                <source>Stan magazynowy</source>
+                <target>Stock</target>
+            </trans-unit>
+            <trans-unit id="189">
+                <source>Kod produktu</source>
+                <target>Product code</target>
+            </trans-unit>
+            <trans-unit id="190">
+                <source>Nazwa produktu</source>
+                <target>Product name</target>
+            </trans-unit>
+            <trans-unit id="191">
+                <source>Magazyn</source>
+                <target>Stockroom</target>
+            </trans-unit>
+            <trans-unit id="192">
+                <source>Dostępność/Magazyn</source>
+                <target>Availability/Stockroom</target>
+            </trans-unit>
+            <trans-unit id="193">
+                <source>Zdejmuj produkty z magazynu:</source>
+                <target>Remove the product from the stockroom:</target>
+            </trans-unit>
+            <trans-unit id="194">
+                <source>Po złożeniu zamówienia</source>
+                <target>After placing the order</target>
+            </trans-unit>
+            <trans-unit id="195">
+                <source>Po zmianie statusu zamowienia na zrealizowane</source>
+                <target>After setting an order status as delivered</target>
+            </trans-unit>
+            <trans-unit id="196">
+                <source>Przywracaj stan magazynowy przy anulowaniu zamówienia:</source>
+                <target>Restore a product stock after cancelling the order:</target>
+            </trans-unit>
+            <trans-unit id="197">
+                <source>Sprawdzanie stanu magazynowego w koszyku:</source>
+                <target>Checking a stock in the shopping cart:</target>
+            </trans-unit>
+            <trans-unit id="198">
+                <source>Pokaż stan magazynowy:</source>
+                <target>Show a stock:</target>
+            </trans-unit>
+            <trans-unit id="199">
+                <source>Szablony opcji</source>
+                <target>Options templates</target>
+            </trans-unit>
+            <trans-unit id="200">
+                <source>Opcje produktu</source>
+                <target>Product options</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>Ukrywaj opcje których stan magazynowy jest równy 0:</source>
+                <target>Hide an option if its stock is 0:</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>Nie zdefiniowałeś żadnego szablonu.</source>
+                <target>Define a template.</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>Zarządzanie szablonami opcji.</source>
+                <target>Manage the option templates.</target>
+            </trans-unit>
+            <trans-unit id="204">
+                <source>Podaj liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>Wróć do opcji produktu</source>
+                <target>Back to the product options</target>
+            </trans-unit>
+            <trans-unit id="206">
+                <source>Nowy szablon</source>
+                <target>New template</target>
+            </trans-unit>
+            <trans-unit id="207">
+                <source>Zdefiniuj szablon opcji i przypisz go do wybranych produktów.</source>
+                <target>Define the options template and assign it to the selected products.</target>
+            </trans-unit>
+            <trans-unit id="208">
+                <source>Edycja szablonu %%name%%</source>
+                <target>Edit a template %%name%%</target>
+            </trans-unit>
+            <trans-unit id="209">
+                <source>Nazwa szablonu</source>
+                <target>Template name</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>Użyj szablonu opcji</source>
+                <target>Use a template</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>Ustal opcje produktu i relacje między nimi.</source>
+                <target>Set the product options and relationships between them.</target>
+            </trans-unit>
+            <trans-unit id="212">
+                <source>Edycja opcji produktu %%name%%</source>
+                <target>Edit the product options %%name%%</target>
+            </trans-unit>
+            <trans-unit id="213">
+                <source>Ustal stan magazynowy dla każdej opcji produktu z osobna.</source>
+                <target>Set a stock for each product option.</target>
+            </trans-unit>
+            <trans-unit id="214">
+                <source>Edycja stanu magazynowego produktu</source>
+                <target>Edit a product stock</target>
+            </trans-unit>
+            <trans-unit id="215">
+                <source>Opcje</source>
+                <target>Options</target>
+            </trans-unit>
+            <trans-unit id="216">
+                <source>Stan magazynowy</source>
+                <target>Stock</target>
+            </trans-unit>
+            <trans-unit id="217">
+                <source>Stan magazynowy opcji</source>
+                <target>Option stock</target>
+            </trans-unit>
+            <trans-unit id="218">
+                <source>Opcje_produktu</source>
+                <target>Product options</target>
+            </trans-unit>
+            <trans-unit id="219">
+                <source>Lista szablonów opcji</source>
+                <target>List of templates</target>
+            </trans-unit>
+            <trans-unit id="220">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="221">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="222">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="223">
+                <source>Wprowadź nazwę dla przyjaznego linku</source>
+                <target>Enter the friendly link name</target>
+            </trans-unit>
+            <trans-unit id="224">
+                <source>Dodaj meta tagi do produktu</source>
+                <target>Add the meta tags to the product</target>
+            </trans-unit>
+            <trans-unit id="225">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="226">
+                <source>Tytuł strony</source>
+                <target>Site title</target>
+            </trans-unit>
+            <trans-unit id="227">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="228">
+                <source>Opis strony</source>
+                <target>Site description</target>
+            </trans-unit>
+            <trans-unit id="229">
+                <source>Przyjazny link</source>
+                <target>Friendly link</target>
+            </trans-unit>
+            <trans-unit id="230">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="231">
+                <source>Szablon</source>
+                <target>Template</target>
+            </trans-unit>
+            <trans-unit id="232">
+                <source>Stan magazynowy nie może być mniejszy od 0</source>
+                <target>Stock can't be less than 0</target>
+            </trans-unit>
+            <trans-unit id="233">
+                <source>Wystaw produkty na aukcji</source>
+                <target>Issue the product on the auction</target>
+            </trans-unit>
+            <trans-unit id="234">
+                <source>Czas trwania [dni]</source>
+                <target>Auction time [days]</target>
+            </trans-unit>
+            <trans-unit id="235">
+                <source>Wystaw w trybie produkcyjnym</source>
+                <target>Issue in the production mode</target>
+            </trans-unit>
+            <trans-unit id="236">
+                <source>Brak szablonu</source>
+                <target>No template</target>
+            </trans-unit>
+            <trans-unit id="237">
+                <source>Wybierz kategorię</source>
+                <target>Select a category</target>
+            </trans-unit>
+            <trans-unit id="238">
+                <source>Edycja aukcji</source>
+                <target>Edit an auction</target>
+            </trans-unit>
+            <trans-unit id="239">
+                <source>Opis i zdjęcia</source>
+                <target>Description and images</target>
+            </trans-unit>
+            <trans-unit id="240">
+                <source>Cena i czas trwania</source>
+                <target>Price and auction time</target>
+            </trans-unit>
+            <trans-unit id="241">
+                <source>Transport i płatność</source>
+                <target>Shipping methods and payment</target>
+            </trans-unit>
+            <trans-unit id="242">
+                <source>Opcje dodatkowe</source>
+                <target>Additional options</target>
+            </trans-unit>
+            <trans-unit id="243">
+                <source>Wystaw w trybie testowym</source>
+                <target>Issue in the test mode</target>
+            </trans-unit>
+            <trans-unit id="244">
+                <source>Proszę wybrać kategorię</source>
+                <target>Select a category</target>
+            </trans-unit>
+            <trans-unit id="245">
+                <source>Proszę wybrać szablon aukcji</source>
+                <target>Select an auction template</target>
+            </trans-unit>
+            <trans-unit id="246">
+                <source>Proszę podać tytuł aukcji</source>
+                <target>Enter an auction title</target>
+            </trans-unit>
+            <trans-unit id="247">
+                <source>Proszę zaznaczyć kto pokrywa koszty przesyłki</source>
+                <target>Indicate who pays shipping costs</target>
+            </trans-unit>
+            <trans-unit id="248">
+                <source>Proszę podać liczbę przedmiotów do wystawienia</source>
+                <target>Enter a product quantity for the auction</target>
+            </trans-unit>
+            <trans-unit id="249">
+                <source>Proszę podać liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="250">
+                <source>Minimalna liczba przedmiotów to 1.</source>
+                <target>Minimum number of the products is 1.</target>
+            </trans-unit>
+            <trans-unit id="251">
+                <source>Proszę wybrac opcje dostawy.</source>
+                <target>Select the delivery types.</target>
+            </trans-unit>
+            <trans-unit id="252">
+                <source>Proszę wybrac formę płatności.</source>
+                <target>Select the payment types.</target>
+            </trans-unit>
+            <trans-unit id="253">
+                <source>Proszę podać porawną cene, seperatorem dzisiętnym jest kropka.</source>
+                <target>Enter a correct price, decimal separator is a dot.</target>
+            </trans-unit>
+            <trans-unit id="254">
+                <source>Minimalna wartość to 0</source>
+                <target>Minimum value is 0</target>
+            </trans-unit>
+            <trans-unit id="255">
+                <source>Tytuł aukcji</source>
+                <target>Auction title</target>
+            </trans-unit>
+            <trans-unit id="256">
+                <source>Opis aukcji</source>
+                <target>Auction description</target>
+            </trans-unit>
+            <trans-unit id="257">
+                <source>Obrazek</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="258">
+                <source>Typ Aukcji</source>
+                <target>Auction type</target>
+            </trans-unit>
+            <trans-unit id="259">
+                <source>Aukcja (z licytacją) lub Tylko Kup Teraz! (bez licytacji)</source>
+                <target>Auction (bidding) or Buy Now! (no bidding)</target>
+            </trans-unit>
+            <trans-unit id="260">
+                <source>Sklep (bez licytacji)</source>
+                <target>Shop (no bidding)</target>
+            </trans-unit>
+            <trans-unit id="261">
+                <source>Cena Kup Teraz!</source>
+                <target>Buy Now! price</target>
+            </trans-unit>
+            <trans-unit id="262">
+                <source>Cena wywoławcza</source>
+                <target>Staring price</target>
+            </trans-unit>
+            <trans-unit id="263">
+                <source>Cena minimalna</source>
+                <target>Minimum price</target>
+            </trans-unit>
+            <trans-unit id="264">
+                <source>Zdejmuj z magazynu<br/>podczas wystawiania</source>
+                <target>Remove a product from the stockroom<br/>while issuing the auction</target>
+            </trans-unit>
+            <trans-unit id="265">
+                <source>Liczba sztuk</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="266">
+                <source>Koszty wysyłki pokrywa</source>
+                <target>Shipping costs are paid by</target>
+            </trans-unit>
+            <trans-unit id="267">
+                <source>Kupujący</source>
+                <target>Buyer</target>
+            </trans-unit>
+            <trans-unit id="268">
+                <source>Sprzedający</source>
+                <target>Seller</target>
+            </trans-unit>
+            <trans-unit id="269">
+                <source>Opcje transportu</source>
+                <target>Shipping methods</target>
+            </trans-unit>
+            <trans-unit id="270">
+                <source>Opcje szablonu</source>
+                <target>Template options</target>
+            </trans-unit>
+            <trans-unit id="271">
+                <source>Odbiór osobisty</source>
+                <target>Collect in person</target>
+            </trans-unit>
+            <trans-unit id="272">
+                <source>Przesyłka elektroniczna</source>
+                <target>Electronic shipment</target>
+            </trans-unit>
+            <trans-unit id="273">
+                <source>List ekonomiczny</source>
+                <target>Economic letter</target>
+            </trans-unit>
+            <trans-unit id="274">
+                <source>Koszt wysyłki</source>
+                <target>Shipping cost</target>
+            </trans-unit>
+            <trans-unit id="275">
+                <source>List priorytetowy</source>
+                <target>Priority letter</target>
+            </trans-unit>
+            <trans-unit id="276">
+                <source>List polecony ekonomiczny</source>
+                <target>Registered economic letter</target>
+            </trans-unit>
+            <trans-unit id="277">
+                <source>List polecony priorytetowy</source>
+                <target>Registered priority letter</target>
+            </trans-unit>
+            <trans-unit id="278">
+                <source>Paczka pocztowa ekonomiczna</source>
+                <target>Economic pack</target>
+            </trans-unit>
+            <trans-unit id="279">
+                <source>Paczka pocztowa priorytetowa</source>
+                <target>Priority pack</target>
+            </trans-unit>
+            <trans-unit id="280">
+                <source>Przesyłka pobraniowa</source>
+                <target>Pay upon receipt a delivery</target>
+            </trans-unit>
+            <trans-unit id="281">
+                <source>Przesyłka pobraniowa priorytetowa</source>
+                <target>Pay upon receipt a priority delivery</target>
+            </trans-unit>
+            <trans-unit id="282">
+                <source>Przesyłka kurierska</source>
+                <target>Courier delivery</target>
+            </trans-unit>
+            <trans-unit id="283">
+                <source>Przesyłka kurierska pobraniowa</source>
+                <target>Pay upon receipt a courier delivery</target>
+            </trans-unit>
+            <trans-unit id="284">
+                <source>Formy płatności</source>
+                <target>Payment</target>
+            </trans-unit>
+            <trans-unit id="285">
+                <source>Wpłata na konto bankowe</source>
+                <target>Bank account payment</target>
+            </trans-unit>
+            <trans-unit id="286">
+                <source>Pobranie pocztowe</source>
+                <target>Pay upon receipt</target>
+            </trans-unit>
+            <trans-unit id="287">
+                <source>Płatności Allegro</source>
+                <target>Allegro payment</target>
+            </trans-unit>
+            <trans-unit id="288">
+                <source>Escrow</source>
+                <target>Escrow</target>
+            </trans-unit>
+            <trans-unit id="289">
+                <source>Inne (szczegóły wpisz w pole Dodatkowe informacje o przesyłce i płatności)</source>
+                <target>Other (enter the details in the field Additional information about the shipment and payment)</target>
+            </trans-unit>
+            <trans-unit id="290">
+                <source>Pogrubienie</source>
+                <target>Boldface</target>
+            </trans-unit>
+            <trans-unit id="291">
+                <source>Miniaturka</source>
+                <target>Thumbnail</target>
+            </trans-unit>
+            <trans-unit id="292">
+                <source>Podświetlenie</source>
+                <target>Backlighting</target>
+            </trans-unit>
+            <trans-unit id="293">
+                <source>Wyróżnienie</source>
+                <target>Emphasis</target>
+            </trans-unit>
+            <trans-unit id="294">
+                <source>Strona kategorii</source>
+                <target>Category site</target>
+            </trans-unit>
+            <trans-unit id="295">
+                <source>Strona główna Allegro</source>
+                <target>Allegro main page</target>
+            </trans-unit>
+            <trans-unit id="296">
+                <source>Szablon</source>
+                <target>Template</target>
+            </trans-unit>
+            <trans-unit id="297">
+                <source>Brak szablonu</source>
+                <target>No template</target>
+            </trans-unit>
+            <trans-unit id="298">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="299">
+                <source>Kategoria</source>
+                <target>Category</target>
+            </trans-unit>
+            <trans-unit id="300">
+                <source>Dodatkowe informacje o przesyłce i płatności</source>
+                <target>Additional information about the shipment and payment</target>
+            </trans-unit>
+            <trans-unit id="301">
+                <source>Podaj nazwe szablonu.</source>
+                <target>Enter a template name.</target>
+            </trans-unit>
+            <trans-unit id="302">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="303">
+                <source>Waluta</source>
+                <target>Currency</target>
+            </trans-unit>
+            <trans-unit id="304">
+                <source>Zablokuj kurs</source>
+                <target>Block an exchange rate</target>
+            </trans-unit>
+            <trans-unit id="305">
+                <source>Dostępność</source>
+                <target>Availability</target>
+            </trans-unit>
+            <trans-unit id="306">
+                <source>Pokaż dostępność</source>
+                <target>Show an availability</target>
+            </trans-unit>
+            <trans-unit id="307">
+                <source>Grupy rabatowe</source>
+                <target>Discount groups</target>
+            </trans-unit>
+            <trans-unit id="308">
+                <source>Maksymalny rabat [%]</source>
+                <target>Maximum discount [%]</target>
+            </trans-unit>
+            <trans-unit id="309">
+                <source>Pokaż w banerze</source>
+                <target>Show in the banner</target>
+            </trans-unit>
+            <trans-unit id="310">
+                <source>Zapisz i dodaj kolejny</source>
+                <target>Save and add</target>
+            </trans-unit>
+            <trans-unit id="311">
+                <source>Pokaż listę</source>
+                <target>Show list</target>
+            </trans-unit>
+            <trans-unit id="312">
+                <source>Ceny hurtowe</source>
+                <target>Wholesale prices</target>
+            </trans-unit>
+            <trans-unit id="313">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="314">
+                <source>Uwaga! Zapoznaj się z nową dokumentacją:</source>
+                <target>Notice! Check out the new documentation:</target>
+            </trans-unit>
+            <trans-unit id="315">
+                <source>Zarządzanie zdjęciami produktu.</source>
+                <target>Manage the product images.</target>
+            </trans-unit>
+            <trans-unit id="316">
+                <source>Akcesoria</source>
+                <target>Accessories</target>
+            </trans-unit>
+            <trans-unit id="317">
+                <source>Dodane akcesoria do produktu</source>
+                <target>Accessories added to the product</target>
+            </trans-unit>
+            <trans-unit id="318">
+                <source>Dodaj akcesoria dla produktu</source>
+                <target>Add the accessories to the product</target>
+            </trans-unit>
+            <trans-unit id="319">
+                <source>Dodaj do akcesoriów</source>
+                <target>Add to the accessories</target>
+            </trans-unit>
+            <trans-unit id="320">
+                <source>Dodaj akcesoria do produktu</source>
+                <target>Add the accessories to the product</target>
+            </trans-unit>
+            <trans-unit id="321">
+                <source>Znak wodny</source>
+                <target>Watermark</target>
+            </trans-unit>
+            <trans-unit id="322">
+                <source>Prosze wybrac opcje dostawy.</source>
+                <target>Select the delivery types.</target>
+            </trans-unit>
+            <trans-unit id="323">
+                <source>Grupy rabatowe produktu</source>
+                <target>Discount groups</target>
+            </trans-unit>
+            <trans-unit id="324">
+                <source>Rabat</source>
+                <target>Discount</target>
+            </trans-unit>
+            <trans-unit id="325">
+                <source>Priorytet</source>
+                <target>Priority</target>
+            </trans-unit>
+            <trans-unit id="326">
+                <source>Zarządzanie produktami w sklepie</source>
+                <target>Manage your products.</target>
+            </trans-unit>
+            <trans-unit id="327">
+                <source>Porównywarki cen</source>
+                <target>Price comparers</target>
+            </trans-unit>
+            <trans-unit id="328">
+                <source>Recenzje</source>
+                <target>Reviews</target>
+            </trans-unit>
+            <trans-unit id="329">
+                <source>Dodaj produkt do porównywarek cen.</source>
+                <target>Add this product to the price comparers.</target>
+            </trans-unit>
+            <trans-unit id="330">
+                <source>Dodaj recenzję</source>
+                <target>Add a review</target>
+            </trans-unit>
+            <trans-unit id="331">
+                <source>Lista recenzji produktu %%_st_review.product_review%%</source>
+                <target>List of the product reviews - %%_st_review.product_review%%</target>
+            </trans-unit>
+            <trans-unit id="332">
+                <source>Dodaj recenzję produktu %%_st_review.product_review%%</source>
+                <target>Add the product review - %%_st_review.product_review%%</target>
+            </trans-unit>
+            <trans-unit id="333">
+                <source>ID</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="334">
+                <source>Recenzja</source>
+                <target>Review</target>
+            </trans-unit>
+            <trans-unit id="335">
+                <source>Produkt</source>
+                <target>Product</target>
+            </trans-unit>
+            <trans-unit id="336">
+                <source>Klient</source>
+                <target>Customer</target>
+            </trans-unit>
+            <trans-unit id="337">
+                <source>Ocena</source>
+                <target>Rating</target>
+            </trans-unit>
+            <trans-unit id="338">
+                <source>Wyświetlana</source>
+                <target>Shown</target>
+            </trans-unit>
+            <trans-unit id="339">
+                <source>Edycja recenzji</source>
+                <target>Edit a review</target>
+            </trans-unit>
+            <trans-unit id="340">
+                <source>Utworzona</source>
+                <target>Created</target>
+            </trans-unit>
+            <trans-unit id="341">
+                <source>Publikacja</source>
+                <target>Publication</target>
+            </trans-unit>
+            <trans-unit id="342">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="343">
+                <source>Podpis</source>
+                <target>Signature</target>
+            </trans-unit>
+            <trans-unit id="344">
+                <source>Podpis anonimowego użytkownika</source>
+                <target>Signature of an anonymous user</target>
+            </trans-unit>
+            <trans-unit id="345">
+                <source>Recenzja od administratora</source>
+                <target>Reviewed by administrator</target>
+            </trans-unit>
+            <trans-unit id="346">
+                <source>Wpisz recenzję</source>
+                <target>Enter a review</target>
+            </trans-unit>
+            <trans-unit id="347">
+                <source>Podaj ocenę produktu</source>
+                <target>Select a rating</target>
+            </trans-unit>
+            <trans-unit id="348">
+                <source>Minimalna ocena wynosi 1</source>
+                <target>Minimum rating is 1</target>
+            </trans-unit>
+            <trans-unit id="349">
+                <source>Maksymalna ocena wynosi 5</source>
+                <target>Maximum rating is 5</target>
+            </trans-unit>
+            <trans-unit id="350">
+                <source>Administrator</source>
+                <target>Administrator</target>
+            </trans-unit>
+            <trans-unit id="351">
+                <source>Po zapisaniu wersja językowa zostaje zablokowana</source>
+                <target>Language is blocked after saving</target>
+            </trans-unit>
+            <trans-unit id="352">
+                <source>Duplikuj</source>
+                <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="353">
+                <source>Duplikaty</source>
+                <target>Duplicates</target>
+            </trans-unit>
+            <trans-unit id="354">
+                <source>Orginalny produkt</source>
+                <target>Original product</target>
+            </trans-unit>
+            <trans-unit id="355">
+                <source>Lista zduplikowanych produktów</source>
+                <target>List of the duplicated products</target>
+            </trans-unit>
+            <trans-unit id="356">
+                <source>Zduplikuj produkt</source>
+                <target>Duplicate the product</target>
+            </trans-unit>
+            <trans-unit id="357">
+                <source>Ten produkt nie ma duplikatów</source>
+                <target>This product has no duplicates</target>
+            </trans-unit>
+            <trans-unit id="358">
+                <source>Zwiększ o 1</source>
+                <target>Increase by 1</target>
+            </trans-unit>
+            <trans-unit id="359">
+                <source>Zmniejsz o 1</source>
+                <target>Decrease by 1</target>
+            </trans-unit>
+            <trans-unit id="360">
+                <source>Wyzeruj</source>
+                <target>Reset</target>
+            </trans-unit>
+            <trans-unit id="361">
+                <source>Edytuj</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="362">
+                <source>Wyłącz możliwość zakupu</source>
+                <target>Disable the possibility of buying</target>
+            </trans-unit>
+            <trans-unit id="363">
+                <source>Waluta "%%currency%%" nie istnieje</source>
+                <target>Currency "%%currency%%" doesn't exists</target>
+            </trans-unit>
+            <trans-unit id="364">
+                <source>Kurs "%%exchange%%" posiada nieprawidłowy format (poprawny format: 10, 10.0000)</source>
+                <target>Exchange rate "%%exchange%%" has an invalid format (the correct format: 10, 10.0000)</target>
+            </trans-unit>
+            <trans-unit id="365">
+                <source>Brak ustawionej waluty</source>
+                <target>No currency is set</target>
+            </trans-unit>
+            <trans-unit id="366">
+                <source>Stara cena netto "%%price%%" posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Old net price "%%price%%" has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="367">
+                <source>Stara cena brutto "%%price%%" posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Old gross price "%%price%%" has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="368">
+                <source>Cena netto "%%price%%" posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Net price "%%price%%" has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="369">
+                <source>Cena brutto "%%price%%" posiada nieprawidłowy format (poprawny format: 10, 10.00).</source>
+                <target>Gross price "%%price%%" has an invalid format (the correct format: 10, 10.00).</target>
+            </trans-unit>
+            <trans-unit id="370">
+                <source>Nazwa produktu jest pusta</source>
+                <target>Product name is empty</target>
+            </trans-unit>
+            <trans-unit id="371">
+                <source>Ustawienia produktu dla płatnosci Credit Agricole Raty.</source>
+                <target>Product settings for the Credit Agricole Raty payment.</target>
+            </trans-unit>
+            <trans-unit id="372">
+                <source>Wyłącz możliwość zakupu</source>
+                <target>Product can't be bought via the Credit Agricole Raty payment</target>
+            </trans-unit>
+            <trans-unit id="373">
+                <source>Dodaj produkt do Poznajomosci.pl</source>
+                <target>Add the product to Poznajomosci.pl</target>
+            </trans-unit>
+            <trans-unit id="374">
+                <source>Edycja zdjęcia dla %%product%%</source>
+                <target>Edit the image for %%product%%</target>
+            </trans-unit>
+            <trans-unit id="375">
+                <source>Filtry opcji</source>
+                <target>Option filters</target>
+            </trans-unit>
+            <trans-unit id="376">
+                <source>Filtry opcji</source>
+                <target>Option filters</target>
+            </trans-unit>
+            <trans-unit id="377">
+                <source>Typ filtra</source>
+                <target>Filter type</target>
+            </trans-unit>
+            <trans-unit id="378">
+                <source>Zwykły filtr</source>
+                <target>Normal filter</target>
+            </trans-unit>
+            <trans-unit id="379">
+                <source>Filtr koloru</source>
+                <target>Color filter</target>
+            </trans-unit>
+            <trans-unit id="380">
+                <source>Filtr ceny</source>
+                <target>Price filter</target>
+            </trans-unit>
+            <trans-unit id="381">
+                <source>Filtr ceny</source>
+                <target>Price filter</target>
+            </trans-unit>
+            <trans-unit id="382">
+                <source>Cena od</source>
+                <target>Price from</target>
+            </trans-unit>
+            <trans-unit id="383">
+                <source>Tylko przypadku filtra ceny</source>
+                <target>Only if the price filter is selected</target>
+            </trans-unit>
+            <trans-unit id="384">
+                <source>Nazwa filtra</source>
+                <target>Filter name</target>
+            </trans-unit>
+            <trans-unit id="385">
+                <source>Cena do</source>
+                <target>Price to</target>
+            </trans-unit>
+            <trans-unit id="386">
+                <source>Edycja filtru %%name%%</source>
+                <target>Edit a filter %%name%%</target>
+            </trans-unit>
+            <trans-unit id="387">
+                <source>Podaj nazwe filtra.</source>
+                <target>Enter a filter name.</target>
+            </trans-unit>
+			<trans-unit id="388">
+                <source>Filtr o podanej nazwie już istnieje.</source>
+                <target>Filter with the given name already exists.</target>
+            </trans-unit>
+            <trans-unit id="389">
+                <source>Wyłącz zawężanie filtrów:</source>
+                <target>Disable narrowing the filters:</target>
+            </trans-unit>
+            <trans-unit id="390">
+                <source>Opcja ta przyspieszy działanie sklepu</source>
+                <target>This option will accelerate your shop</target>
+            </trans-unit>
+            <trans-unit id="391">
+                <source>Minimalna ilość</source>
+                <target>Minimum order quantity</target>
+            </trans-unit>	
+            <trans-unit id="392">
+                <source>Maksymalna ilość</source>
+                <target>Maximum order quantity</target>
+            </trans-unit>	
+            <trans-unit id="393">
+                <source>Wielokrotność ilości</source>
+                <target>Quantity step</target>
+            </trans-unit>
+            <trans-unit id="394">
+                <source>Minimalna ilość produktu jaką musi zamówić klient</source>
+                <target>The minimum order quantity</target>
+            </trans-unit>
+            <trans-unit id="395">
+                <source>Maksymalna ilość produktu jaką może zamówić klient w ramach jednego zamówienia (0 oznacza brak)</source>
+                <target>The maximum order quantity of product that can be purchased per order (0 equals to none)</target>
+            </trans-unit>
+            <trans-unit id="396">
+                <source>Jeśli podana wyświetla liste wyboru ilości produktu o podanej wielokrotności zamiast pola tekstowego</source>
+                <target>If provided a list box is displayed instead of a simple input</target>
+            </trans-unit>   
+            <trans-unit id="397">
+                <source>Jednostka miary</source>
+                <target>Unit of measure</target>
+            </trans-unit>
+            <trans-unit id="398">
+                <source>Waga jednostki miary</source>
+                <target>Weight per unit of measurment</target>
+            </trans-unit>  
+            <trans-unit id="399">
+                <source>Sprawdzaj stan magazynowy</source>
+                <target>Check inventory</target>
+            </trans-unit>  
+            <trans-unit id="399">
+                <source>Zezwalaj na części dziesiętne w ilości</source>
+                <target>Allow decimals in quantity</target>
+            </trans-unit>        
+            <trans-unit id="400">
+                <source>Minimalna ilość nie może być większa od maksymalnej ilości</source>
+                <target>The minimum order quantity must be less than the maximum order quantity</target>
+            </trans-unit>
+            <trans-unit id="401">
+                <source>Najnowszym</source>
+                <target>Newest</target>
+            </trans-unit>   
+            <trans-unit id="402">
+                <source>Ogranicz liczbę kolorów do:</source>
+                <target>Limit the number of colors to:</target>
+            </trans-unit> 
+            <trans-unit id="403">
+                <source>Pokaż opis:</source>
+                <target>Show a description:</target>
+            </trans-unit>  
+            <trans-unit id="404">
+                <source>Import z pliku</source>
+                <target>Import from file</target>
+            </trans-unit>  
+            <trans-unit id="405">
+                <source>Konfiguracja produktów</source>
+                <target>Products configuration</target>
+            </trans-unit>  
+            <trans-unit id="406">
+                <source>Prezentacja produktów</source>
+                <target>Products presentation</target>
+            </trans-unit>
+            <trans-unit id="407">
+                <source>Oferta</source>
+                <target>Offer</target>
+            </trans-unit>
+            <trans-unit id="408">
+                <source>Kod producenta</source>
+                <target>Manufacturer's code</target>
+            </trans-unit>
+            <trans-unit id="409">
+                <source>Kod kreskowy EAN | UPC lub JAN</source>
+                <target>EAN | UPC or JAN Barcode</target>
+            </trans-unit>
+            <trans-unit id="410">
+                <source>Czas realizacji</source>
+                <target>Execution time</target>
+            </trans-unit>
+            <trans-unit id="411">
+                <source>Kolejność na stronie głównej</source>
+                <target>Position on main page</target>
+            </trans-unit>
+            <trans-unit id="412">
+                <source>Producent/Kategorie/Grupy</source>
+                <target>Manufacturer/Categories/Groups</target>
+            </trans-unit>
+            <trans-unit id="413">
+                <source>Polecane produkty</source>
+                <target>Recommended products</target>
+            </trans-unit>
+            <trans-unit id="414">
+                <source>Rabaty</source>
+                <target>Discounts</target>
+            </trans-unit>
+            <trans-unit id="415">
+                <source>Maksymalny rabat</source>
+                <target>Maximum discount</target>
+            </trans-unit>
+            <trans-unit id="416">
+                <source>Maksymalny rabat</source>
+                <target>Maximum discount</target>
+            </trans-unit>
+            <trans-unit id="417">
+                <source>Grupy</source>
+                <target>Groups</target>
+            </trans-unit>
+            <trans-unit id="419">
+                <source>Wpisz nazwę szukanej grupy</source>
+                <target>Enter the name of searched group</target>
+            </trans-unit>
+            <trans-unit id="420">
+                <source>Wpisz kod/nazwę szukanego produktu</source>
+                <target>Enter the code/name of searched product</target>
+            </trans-unit>
+            <trans-unit id="421">
+                <source>Ustaw według magazynu</source>
+                <target>Set according to the stockroom quantity</target>
+            </trans-unit>
+            <trans-unit id="422">
+                <source>Nie znaleziono produktów</source>
+                <target>Product not found</target>
+            </trans-unit>
+            <trans-unit id="423">
+                <source>Zduplikuj ten produkt</source>
+                <target>Duplicate this product</target>
+            </trans-unit>
+            <trans-unit id="424">
+                <source>Zobacz orginalny produkt</source>
+                <target>See the original product</target>
+            </trans-unit>
+            <trans-unit id="425">
+                <source>Dodatkowe opcje</source>
+                <target>Additional options</target>
+            </trans-unit>
+            <trans-unit id="426">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="427">
+                <source>Brak dodatkowych opcji.</source>
+                <target>No additional options.</target>
+            </trans-unit>
+            <trans-unit id="428">
+                <source>Pliki i kody online</source>
+                <target>Online codes and files</target>
+            </trans-unit>
+            <trans-unit id="429">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="430">
+                <source>Proszę podać nazwę</source>
+                <target>Name is empty</target>
+            </trans-unit>
+            <trans-unit id="431">
+                <source>Proszę podać plik</source>
+                <target>Select file</target>
+            </trans-unit>
+            <trans-unit id="432">
+                <source>Proszę podać plik</source>
+                <target>Select file</target>
+            </trans-unit>
+            <trans-unit id="433">
+                <source>Załącz plik</source>
+                <target>Attach file</target>
+            </trans-unit>
+            <trans-unit id="434">
+                <source>Zobacz produkt w sklepie</source>
+                <target>View product in the shop</target>
+            </trans-unit>
+            <trans-unit id="438">
+                <source>Pokaż czas realizacji:</source>
+                <target>Show execution time</target>
+            </trans-unit>
+            <trans-unit id="439">
+                <source>Pokaż kod producenta:</source>
+                <target>Show manufacturer's code</target>
+            </trans-unit>
+            <trans-unit id="440">
+                <source>Edycja załącznika</source>
+                <target>Edit an attachment</target>
+            </trans-unit>
+            <trans-unit id="441">
+                <source>Edycja opisu zdjęcia</source>
+                <target>Edit image description</target>
+            </trans-unit>
+            <trans-unit id="1769">
+            	<source>Jeśli zaznaczone/ozdnaczone włącza/wyłącza sprawdzanie stanów magazynowy w koszyku. Pole jest ignorowane jeżeli w <b>Konfiguracja -> Konfiguracja produktów</b> opcja <b>Sprawdzanie stanu magazynowego w koszyku</b> jest odznaczona</source>
+            	<target>If checked/unchecked enables/disables inventory checking in the shopping cart. The field is ignored if <b>Check inventory in the shopping cart</b> option located in <b>Configuration -> Configure products</b> is unchecked</target>
+            </trans-unit>
+            <trans-unit id="442">
+                <source>Ceny w walutach</source>
+                <target>Prices in currencies</target>
+            </trans-unit>
+            <trans-unit id="443">
+                <source>Lista walut</source>
+                <target>Currency list</target>
+            </trans-unit>
+            <trans-unit id="444">
+                <source>Edycja grupy</source>
+                <target>Edit group</target>
+            </trans-unit>
+            <trans-unit id="445">
+                <source>Pokaż atrybuty produktu</source>
+                <target>Show product's attributes</target>
+            </trans-unit>
+            <trans-unit id="446">
+                <source>Wyświetlaj przed opisem</source>
+                <target>Before description</target>
+            </trans-unit>
+            <trans-unit id="447">
+                <source>Wyświetlaj po opisie</source>
+                <target>After description</target>
+            </trans-unit>
+            <trans-unit id="448">
+                <source>Pokaż atrybuty produktu:</source>
+                <target>Show product's attributes:</target>
+            </trans-unit>
+            <trans-unit id="449">
+                <source>Eksport opisów</source>
+                <target>Description export</target>
+            </trans-unit>    
+            <trans-unit id="450">
+                <source>Import opisów</source>
+                <target>Description import</target>
+            </trans-unit>
+            <trans-unit id="451">
+                <source>Pokaż opis produktu:</source>
+                <target>Show a product description:</target>
+            </trans-unit>
+            <trans-unit id="452">
+                <source>Opis koloru</source>
+                <target>Color description</target>
+            </trans-unit>
+            <trans-unit id="453">
+                <source>Pokaż jednostkę miary przy cenie:</source>
+                <target>Show a measure unit next to price:</target>
+            </trans-unit>
+            <trans-unit id="454">
+                <source>Punkty</source>
+                <target>Points</target>
+            </trans-unit>
+            <trans-unit id="455">
+                <source>Cena w punktach</source>
+                <target>Price in points</target>
+            </trans-unit>
+            <trans-unit id="456">
+                <source>Zarobione punkty</source>
+                <target>Earn points</target>
+            </trans-unit>
+            <trans-unit id="457">
+                <source>Liczba punktów jaką należy wydać aby nabyć towar.</source>
+                <target>Number of points to be spend to purchase goods.</target>
+            </trans-unit>
+            <trans-unit id="458">
+                <source>Liczba punktów jakie klient sklepu otrzyma za zakupienie tego produktu.</source>
+                <target>Number of points the customer will receive a store for purchasing this product.</target>
+            </trans-unit>
+            <trans-unit id="459">
+                <source>Wartość nie może być ujemna</source>
+                <target>The value can not be negative</target>
+            </trans-unit> 
+            <trans-unit id="460">
+                <source>Nie można uczynić produktu tylko za punkty, ponieważ produkt należy do zestawu rabatowego.</source>
+                <target>You can not make a product just for points, because the product belongs to a set discount.</target>
+            </trans-unit>
+            <trans-unit id="461">
+                <source>Produkt tylko za punkty</source>
+                <target>Product for points only</target>
+            </trans-unit>
+            <trans-unit id="462">
+                <source>Ustawienia produktu dla Google Shopping.</source>
+                <target>Product settings for Google Shopping.</target>
+            </trans-unit>
+            <trans-unit id="463">
+                <source>Priorytet</source>
+                <target>Priority</target>
+            </trans-unit>
+            <trans-unit id="463">
+                <source>Priorytecie</source>
+                <target>Priority</target>
+            </trans-unit>
+            <trans-unit id="464">
+                <source>Potwierdź usuniecie produktu?</source>
+                <target>Confirm removing a product?</target>
+            </trans-unit>
+            <trans-unit id="464">
+                <source>Dodatkowe pola</source>
+                <target>Custom fields</target>
+            </trans-unit>
+            <trans-unit id="465">
+                <source>Dodatkowy opis</source>
+                <target>Additional description</target>
+            </trans-unit>
+            <trans-unit id="466">
+                <source>Cena zasadnicza</source>
+                <target>Basic price</target>
+            </trans-unit>
+            <trans-unit id="467">
+                <source>Ilość jednostki miary</source>
+                <target>Number of entities under measure</target>
+            </trans-unit>
+            <trans-unit id="468">
+                <source>Prezentuje cenę dla</source>
+                <target>Presents the prices for</target>
+            </trans-unit>
+            <trans-unit id="469">
+                <source>Całkowita miara dla jednostki produktu np. 1kg, 10m, 100l.</source>
+                <target>The total unit of measure for the product, eg . 1kg , 10m, 100l.</target>
+            </trans-unit>
+            <trans-unit id="470">
+                <source>Wartość i jednostka dla jakiej ma być prezentowana cena zasadnicza.</source>
+                <target>Value and unit for which it is to be presented basic price.</target>
+            </trans-unit>
+            <trans-unit id="471">
+                <source>Pokaż cenę zasadniczą:</source>
+                <target>Show basic price:</target>
+            </trans-unit>
+            <trans-unit id="472">
+                <source>Ustawienia produktu dla dostawy Paczkomaty.</source>
+                <target>Product settings for the Paczkomaty delivery.</target>
+            </trans-unit>
+            <trans-unit id="473">
+                <source>Rozmiary</source>
+                <target>Size</target>
+            </trans-unit>
+            <trans-unit id="474">
+                <source>Wysokość</source>
+                <target>Height</target>
+            </trans-unit>
+            <trans-unit id="475">
+                <source>Szerokość</source>
+                <target>Width</target>
+            </trans-unit>
+            <trans-unit id="476">
+                <source>Głębokość</source>
+                <target>Depth</target>
+            </trans-unit>
+            <trans-unit id="477">
+                <source>Dostawa</source>
+                <target>Delivery</target>
+            </trans-unit>
+            <trans-unit id="478">
+                <source>Konfiguracja rozmiarów</source>
+                <target>Size configuration</target>
+            </trans-unit>
+            <trans-unit id="479">
+                <source>Duplikowanie produktu</source>
+                <target>Duplicating the product</target>
+            </trans-unit>
+            <trans-unit id="480">
+                <source>Kod nowego produktu</source>
+                <target>New product code</target>
+            </trans-unit>
+            <trans-unit id="481">
+                <source>Nazwa nowego produktu</source>
+                <target>New product name</target>
+            </trans-unit>
+            <trans-unit id="482">
+                <source>Pokaż filtr po cenie:</source>
+                <target>Show price filter:</target>
+            </trans-unit>
+            <trans-unit id="483">
+                <source>Ze względu na stopień skomplikowania rabatów ceny po rabacie nie są filtrowane</source>
+                <target>Due to the complexity of the discounted price discounts are not filtered</target>
+            </trans-unit>
+            <trans-unit id="484">
+                <source>Zdjęcie "%%dir%%/%%filename%%" nie jest formacie JPEG, GIF lub PNG</source>
+                <target>The image "%%dir%%/%%filename%%" is not a JPEG, GIF or PNG</target>
+            </trans-unit>
+            <trans-unit id="485">
+                <source>Zdjęcie "%%filename%%" nie zostało znalezione w katalogu "%%dir%%"</source>
+                <target>The image "%%filename%%" does not exist in "%%dir%%"</target>
+            </trans-unit>
+            <trans-unit id="486">
+                <source>Zdjęcia nie zostały zaimportowane. Popraw powyższe błędy.</source>
+                <target>Images were not imported. Please correct the errors above.</target>
+            </trans-unit>
+            <trans-unit id="487">
+                <source>Zarządzaj magazynem</source>
+                <target>Manage inventory</target>
+            </trans-unit>
+            <trans-unit id="488">
+                <source>z opcjami produktu</source>
+                <target>with product options</target>
+            </trans-unit>
+            <trans-unit id="489">
+                <source>bez opcji produktu</source>
+                <target>without product options</target>
+            </trans-unit>
+            <trans-unit id="490">
+                <source>Zarządzaj magazynem z opcjami produktu</source>
+                <target>Manage inventory with product options</target>
+            </trans-unit>
+            <trans-unit id="491">
+                <source>Dla wszystkich klientów</source>
+                <target>For all clients</target>
+            </trans-unit>
+            <trans-unit id="492">
+                <source>Dla klientów niezalogowanych</source>
+                <target>For not logged in clients</target>
+            </trans-unit>
+            <trans-unit id="493">
+                <source>Dla klientów niezweryfikowanych</source>
+                <target>For unverified clients</target>
+            </trans-unit>
+            <trans-unit id="494">
+                <source>Zgodnie z globalną konfiguracją</source>
+                <target>According to the global configuration</target>
+            </trans-unit>
+            <trans-unit id="495">
+                <source>Ukryj cenę:</source>
+                <target>Hide price</target>
+            </trans-unit>
+            <trans-unit id="496">
+                <source>Ukrywa cenę dla wszystkich produktów w sklepie</source>
+                <target>Hides price for all products in the store</target>
+            </trans-unit>
+            <trans-unit id="497">
+                <source>Wykluczaj</source>
+                <target>Exclude</target>
+            </trans-unit>
+            <trans-unit id="498">
+                <source>Zezwalaj</source>
+                <target>Allow</target>
+            </trans-unit>
+            <trans-unit id="499">
+                <source>Dostawy</source>
+                <target>Shipping methods</target>
+            </trans-unit>
+            <trans-unit id="500">
+                <source>Dostawy "%%deliveries%%" posiadają nieprawidłowy format (poprawny format: "W | 1, 2" lub "Z | 2, 3, 4").</source>
+                <target>Shipping methods "%%deliveries%%" have an invalid format (the correct format: "E | 1, 2" lub "A | 2, 3, 4").</target>
+            </trans-unit>
+            <trans-unit id="501">
+                <source>Dostawy o id "%%deliveries%%" nie istnieją.</source>
+                <target>Shipping methods with id's "%%deliveries%%" do not exist or are inactive.</target>
+            </trans-unit>
+            <trans-unit id="501">
+                <source>Dodaj nowy rozmiar</source>
+                <target>Add a new size</target>
+            </trans-unit>
+            <trans-unit id="502">
+                <source>Edycja rozmiaru</source>
+                <target>Edit a size</target>
+            </trans-unit>
+            <trans-unit id="503">
+                <source>Ceny tylko w netto:</source>
+                <target>Only net prices:</target>
+            </trans-unit>
+            <trans-unit id="504">
+                <source>Wyłączone</source>
+                <target>Disabled</target>
+            </trans-unit>
+            <trans-unit id="505">
+                <source>Do 1 miejsca po przecinku</source>
+                <target>To 1 decimal place</target>
+            </trans-unit>
+            <trans-unit id="506">
+                <source>Do 2 miejsc po przecinku</source>
+                <target>To 2 decimal places</target>
+            </trans-unit>
+            <trans-unit id="507">
+                <source>Koszt dostawy:</source>
+                <target>Delivery cost:</target>
+            </trans-unit>
+            <trans-unit id="508">
+                <source>Koszt dostawy</source>
+                <target>Delivery cost</target>
+            </trans-unit>
+            <trans-unit id="509">
+                <source>Koszt dostawy doliczany do łącznego kosztu dostawy dla każdej sztuki produktu</source>
+                <target>The cost of delivery is added to the total cost of delivery for each product item</target>
+            </trans-unit>
+            <trans-unit id="510">
+                <source>Eksportuj zdjęcia do innego sklepu</source>
+                <target>Export images to another store</target>
+            </trans-unit>
+            <trans-unit id="511">
+                <source>Atrybuty - tytuł</source>
+                <target>Attributes - title</target>
+            </trans-unit>
+            <trans-unit id="512">
+                <source>Wyróżnij</source>
+                <target>Highlight</target>
+            </trans-unit>
+             <trans-unit id="513">
+                <source>Zweryfikowane</source>
+                <target>Verified</target>
+            </trans-unit>
+            <trans-unit id="514">
+                <source>Zweryfikowane</source>
+                <target>Verified</target>
+            </trans-unit>
+            <trans-unit id="515">
+                <source>Usuń zdjęcie</source>
+                <target>Delete photo</target>
+            </trans-unit>
+            <trans-unit id="516">
+                <source>Recenzja zostanie przypięta do góry.</source>
+                <target>The review will be pinned to the top.</target>
+            </trans-unit>
+            <trans-unit id="517">
+                <source>Wyróżniona</source>
+                <target>Highlight</target>
+            </trans-unit>            
+            <trans-unit id="518">
+                <source>Włącz</source>
+                <target>Enable</target>
+            </trans-unit>
+            <trans-unit id="519">
+                <source>Tekst pod przyciskiem koszyka</source>
+                <target>Text under the basket button</target>
+            </trans-unit>
+            <trans-unit id="520">
+                <source>Dostawa</source>
+                <target>Delivery</target>
+            </trans-unit>
+            <trans-unit id="521">
+                <source>Gwarancja</source>
+                <target>Guarantee</target>
+            </trans-unit>
+            <trans-unit id="522">
+                <source>Zwrot</source>
+                <target>Return</target>
+            </trans-unit>
+            <trans-unit id="523">
+                <source>Tytuł</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="524">
+                <source>Podtytuł</source>
+                <target>Subtitle</target>
+            </trans-unit>
+            <trans-unit id="525">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="526">
+                <source>Ikona</source>
+                <target>Icon</target>
+            </trans-unit>
+            <trans-unit id="527">
+                <source>Usuń ikone</source>
+                <target>Remove icon</target>
+            </trans-unit>
+            <trans-unit id="528">
+                <source>Gwarancja i zaufanie</source>
+                <target>Guarantee and trust</target>
+            </trans-unit>
+            <trans-unit id="529">
+                <source>Gwarancja</source>
+                <target>Guarantee</target>
+            </trans-unit>
+            <trans-unit id="530">
+                <source>Dodaj opisy dla produktu</source>
+                <target>Add product descriptions</target>
+            </trans-unit>
+            <trans-unit id="531">
+                <source>Rozmiar ikonki 30x30px</source>
+                <target>Icon size 30x30px</target>
+            </trans-unit>
+            <trans-unit id="532">
+                <source>max 10 znaków</source>
+                <target>max 10 char</target>
+            </trans-unit>
+            <trans-unit id="534">
+                <source>Opis wyszukiwania nie pojawia się na karcie produktu, ale system będzie analizował go podczas wyszukiwania</source>
+                <target>Search description does not appear on the product page, but the system will analyze it during the search</target>
+            </trans-unit>
+            <trans-unit id="535">
+                <source>Opis do wyszukiwania</source>
+                <target>Search description</target>
+            </trans-unit>            
+            <trans-unit id="536">
+                <source>Wystawiony na allegro</source>
+                <target>Issued on allegro</target>
+            </trans-unit>
+            <trans-unit id="537">
+                <source>Polecane produkty i akcesoria</source>
+                <target>Recommended products and accessories</target>
+            </trans-unit>   
+        </body>
+    </file>
+</xliff>

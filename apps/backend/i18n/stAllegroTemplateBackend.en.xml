@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Lista aukcji</source>
+                <target>List of auctions</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Szablony</source>
+                <target>Templates</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Cenniki dostawy</source>
+                <target>Delivery price lists</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Import kategorii</source>
+                <target>Import the categories</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Import zamówień</source>
+                <target>Import the orders</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Proszę podać nazwę szablonu</source>
+                <target>Enter a template name</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Szablon nie może być pusty</source>
+                <target>Template can't be empty</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Edycja szablonu</source>
+                <target>Edit a template</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Nazwa szablonu</source>
+                <target>Template name</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Szablon</source>
+                <target>Template</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Tagi</source>
+                <target>Tags</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dodaj szablon</source>
+                <target>Add a template</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>{TITLE} - Tytuł aukcji</source>
+                <target>{TITLE} - Auction title</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>{PRICE} - Cena produktu - tylko Kup Teraz!</source>
+                <target>{PRICE} - Product price - Buy Now! only</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>{DESC} - Opis produktu</source>
+                <target>{DESC} - Product description</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>{SHORT_DESC} - Krótki opis produktu</source>
+                <target>{SHORT_DESC} - Product short description</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>{OLD_PRICE} - Stara cena produktu</source>
+                <target>{OLD_PRICE} - Product old price</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>{CODE} - Kod produktu</source>
+                <target>{CODE} - Product code</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>{PRODUCER} - Producent</source>
+                <target>{PRODUCER} - Manufacturer</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>{MAN_CODE} - Kod producenta</source>
+                <target>{MAN_CODE} - Manufacturer's code</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Przywróć domyślny szablon</source>
+                <target>Restore default template</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

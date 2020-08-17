@@ -1,0 +1,1 @@
+<?php echo select_tag('filters[type_label]', options_for_select(DiscountPeer::getDiscountTypes(), isset($filters['type_label']) ? $filters['type_label'] : null, array('include_custom' => '---')), array('class' => 'support')) ?>

@@ -1,0 +1,16 @@
+Language: 
+  Language_Zh: 
+    culture: pl_PL
+    name: Chińska
+    shortcut: zh
+    active_image: zh_active.png
+    inactive_image: zh_inactive.png
+    active: 0
+    language: zh
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Zh:
+    id: Language_Zh
+    culture: en_US
+    name: Chinese

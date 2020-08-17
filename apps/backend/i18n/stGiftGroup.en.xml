@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Od wartości koszyka</source>
+                <target>From shopping cart value</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Gratisy w koszyku</source>
+                <target>Gifts in shopping cart</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Edycja</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Edycja podstawowa</source>
+                <target>General</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Przypisz produkty</source>
+                <target>Assign products</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Jesteś pewien?</source>
+                <target>Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Wartość koszyka nie uwzględnia rabatu na zamówienie</source>
+                <target>Shopping cart value does not include order discount</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

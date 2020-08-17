@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Schowek elementów</source>
+				<target>项目剪贴板</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Schowek</source>
+				<target>剪贴板</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Panel administracyjny</source>
+				<target>管理面板</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Przywróć domyślny wygląd tematu</source>
+				<target>恢复题目的默认外表</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Użycie tej opcji spowoduje przywrócenie pierwotnego wyglądu strony. Czy jesteś pewien, że chcesz przywrócić oryginalny wygląd?</source>
+				<target>用此选项将恢复到网站的原始状态。您确定要恢复到原始状态吗?</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Przywróć pierwotny obraz tego elementu.</source>
+				<target>恢复本项目的原图片。</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Edytuj właściwości obrazu.</source>
+				<target>编辑图片属性</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Pobierz ten obraz na mój komputer.</source>
+				<target>下载本图片</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Wybierz plik graficzny na lokalnym komputerze, który ma zostać wstawiony w ten element strony.</source>
+				<target>请选本地电脑里的图形文件以插入到页面。</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Załaduj</source>
+				<target>加载</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dopasuj wielkość obrazu do elementu strony.</source>
+				<target>调整图片大小到页面</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dopasuj wielkość elementu strony do obrazu.</source>
+				<target>调整图片所在部分的大小</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Selektor</source>
+				<target>选择器</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>definicja stylu</source>
+				<target>样式定义</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapisz zmiany</source>
+				<target>保存更改</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Szerokość:</source>
+				<target>宽度：:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wysokość:</source>
+				<target>高度：:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Nazwa pliku nie może zawierać polskich znaków dialektyczny oraz spacji.</source>
+				<target>文件名不能包含波兰的字符和空格。</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Edytujesz temat</source>
+				<target>编辑题目</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kliknij dwukrotnie aby podmienić obraz.</source>
+				<target>双击以交换图片</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Konfiguracja grafiki</source>
+				<target>图形配置</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zastosuj konfigurację</source>
+				<target>应用配置</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ustaw jako domyślny</source>
+				<target>设置为默认</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Włącz autoukrywanie</source>
+				<target>自动隐藏</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Oglądasz temat</source>
+				<target>您在看题目</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Twoje zmiany zostały zastosowane do aktualnego tematu</source>
+				<target>您的更改已应用到当前的题目</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

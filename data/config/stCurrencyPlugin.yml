@@ -1,0 +1,9 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/10/01 09:36:19
+      fields: 
+        new_product_date: 2008-02-01 13:09
+        default_currency: PLN
+        inverse: false

@@ -1,0 +1,76 @@
+{if !$is_authenticated}
+
+<div class="row">
+            
+    <div id="login-form" class="col-sm-6">
+        {st_get_component module="stUser" component="basketLoginForm"}
+    </div>
+      
+    <div id="order-form" class="col-sm-6">        
+        <form action="{$action}#user_delivery_form" method="post" id="user_delivery_form">      
+            {st_get_component module="stUserData" component="orderForm"}
+                
+            <div id="order-submit-button">
+                {st_get_component module="stOrder" component="submitButton"}
+            </div>
+        </form>
+    </div>
+    <div class="clearfix"></div>
+    <br/>
+</div>    
+{else}
+
+    <form action="{$action}#user_delivery_form" method="post" id="user_delivery_form">
+
+        <div class="row" data-equalizer>
+            <div class="col-sm-6">
+                <div id="order_form_billing" class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            {__ text="Dane płatnika"}
+                        </h3>
+                    </div>
+                    <div class="panel-body " data-equalizer-watch>
+                        {if $is_authenticated && $external_account}
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-6">
+                                <img style="vertical-align: sub; width: 16px; margin-right:4px;" src="/images/frontend/theme/responsive/{$external_account}_icon.png" alt="{$external_account}" /><a href="/user_data/userPanel" name="external_account">{$username}</a>
+                            </div>
+                        </div>
+                        {/if}
+                        
+                        {$billing_profiles}             
+                        <div id="user_billing_form_content">
+                        {st_get_component module="stUserData" component="orderFormBilling"}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6">
+                <div id="order_form_delivery" class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            {__ text="Dane wysyłkowe"}
+                        </h3>
+                    </div>
+                    <div class="panel-body" data-equalizer-watch>
+                        {$delivery_profiles}
+                        <div id="user_delivery_form_content">
+                        {st_get_component module="stUserData" component="orderFormDelivery"}
+                        </div>
+                    </div>  
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="order-submit-button" class="user-authenticated col-xs-12">
+                {st_get_component module="stOrder" component="submitButton"}
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <br />
+    </form>
+
+{/if}   

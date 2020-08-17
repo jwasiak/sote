@@ -1,0 +1,12 @@
+package:
+  name: stFixturesStart
+  stability: stable
+  version: 2.2.5.2
+  summary: 'Dane startowe'
+  description: 'Dane startowe'
+  notes: Poprawa tlumaczen stron www
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysztof
+      email: krzysztof.beblo@sote.pl

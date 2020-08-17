@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>支付</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>感谢您付款。</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Płatność jest w trakcie realizacji.</source>
+				<target>付款正在进行中</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>付款失败了。</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>付款</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>付款设置错误。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

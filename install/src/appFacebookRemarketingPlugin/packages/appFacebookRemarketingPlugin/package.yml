@@ -1,0 +1,16 @@
+---
+package: 
+  name: appFacebookRemarketingPlugin
+  stability: stable
+  version: 7.0.0.12
+  summary: Piksel Facebooka
+  description: Piksel Facebooka
+  notes: |
+     - Poprawka dla nazw produktow zawierajacych znak cudzyslowia	
+  maintainers: 
+    Pawel Byszewski: 
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency: 
+    soteshop_base: 6.6.2

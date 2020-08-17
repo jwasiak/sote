@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>usuń</source>
+                <target>remove</target>
+            </trans-unit>  
+            <trans-unit id="2">
+                <source>dodaj</source>
+                <target>create</target>
+            </trans-unit>             
+            <trans-unit id="3">
+                <source>Kliknij aby dodać</source>
+                <target>Click to add</target>
+            </trans-unit>  
+            <trans-unit id="4">
+                <source>Dodaj wszystkie</source>
+                <target>Add all</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nie znaleziono...</source>
+                <target>Not found...</target>
+            </trans-unit> 
+            <trans-unit id="6">
+                <source>Bład podczas otwierania katalogu tymczasowego.</source>
+                <target>Failed to open temp directory.</target>
+            </trans-unit> 
+            <trans-unit id="7">
+                <source>Nieprawidłowe rozszerzenie pliku (dozwolone: %extensions%).</source>
+                <target>File extension error. (allowed: %extensions%).</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Zbyt duży plik (maksymalny rozmiar: %max%).</source>
+                <target>File size error. (max file size: %max%).</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Szukanie w toku...</source>
+                <target>Searching in progress...</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Wpisz szukana frazę</source>
+                <target>Enter the searched phrase</target>
+            </trans-unit>  
+            <trans-unit id="11">
+                <source>Błąd inicjalizacji</source>
+                <target>Initialization error</target>
+            </trans-unit>  
+            <trans-unit id="12">
+                <source>Jesteś pewien?</source>
+                <target>Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Minimalny rozmiar</source>
+                <target>Minimum size</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

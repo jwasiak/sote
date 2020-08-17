@@ -1,0 +1,16 @@
+---
+package: 
+  name: stPocztaPolskaPlugin
+  stability: stable
+  version: 7.4.0.23
+  summary: Integracja z Poczta Polska
+  description: Integracja z Poczta Polska
+  notes: |
+    - Aktualizacja do API wersja 72
+    - Dodanie metod "Przesylka firmowa polecona - Ekonomiczna", "Przesylka firmowa polecona - Priorytetowa"
+    - Poprawka gabarytow dla "Przesylka krajowa polecona"
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

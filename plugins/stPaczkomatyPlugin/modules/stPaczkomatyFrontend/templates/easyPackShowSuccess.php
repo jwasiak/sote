@@ -1,0 +1,1 @@
+<?php $smarty->display('easy_pack_show.html') ?>

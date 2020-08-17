@@ -1,0 +1,30 @@
+package:
+  name: stBase
+  stability: stable
+  version: 7.5.0.4
+  summary: 'System bazowy'
+  description: 'System bazowy'
+  notes: |
+    - Dostosowanie pakietu do zmian w stGoogleShoopingPlugin
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stAdminGeneratorPlugin: 1.0.4
+    stConfigPlugin: 1.0.2
+    stApplication: 1.0.0
+    stPropelOptimizerPlugin: 1.0.0
+    stPropelAlternativeSchemaPlugin: 1.0.0
+    stTooltipPlugin: 1.0.0
+    stThumbnailPlugin: 1.0.1
+    stPrototypePlugin: 1.0.0
+    stTinyMCEPlugin: 1.0.2
+    stTestPlugin: 1.0.1
+    stPropelActAsNestedSetBehaviorPlugin: 1.0.2
+    stPropelActAsSortableBehaviorPlugin: 1.0.0
+    stCombinePlugin: 1.0.0
+    stAssetsLibraryPlugin: 1.0.4
+    stLockPlugin: 1.0.2
+    stUpdate: 1.0.3

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" package="plugins.appProductAttributesPlugin.lib.model" defaultIdMethod="native" noXsd="true">
+
+  <table name="app_product_attribute" phpName="appProductAttribute" isI18N="true" i18nTable="app_product_attribute_i18n">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="is_active" type="boolean" required="true" default="1" />
+    <column name="is_searchable" type="boolean" required="true" default="" />
+    <column name="is_visible_on_pp" type="boolean" required="true" default="1" />
+    <column name="opt_name" type="varchar" size="128" required="true" />
+    <column name="type" type="char" size="1" required="true" default="T" />
+    <column name="position" type="integer" required="true" default="0" />
+  </table>
+
+  <table name="app_product_attribute_i18n" phpName="appProductAttributeI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="app_product_attribute" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="char" size="5" />
+    <column name="name" type="varchar" size="128" required="true" />
+  </table>
+
+  <table name="app_product_attribute_has_category" phpName="appProductAttributeHasCategory">
+    <column name="attribute_id" type="integer" primaryKey="true" required="true" />
+    <foreign-key foreignTable="app_product_attribute" onDelete="cascade">
+      <reference local="attribute_id" foreign="id" />
+    </foreign-key>
+    <column name="category_id" type="integer" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_category" onDelete="cascade">
+      <reference local="category_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="app_product_attribute_has_variant" phpName="appProductAttributeHasVariant">
+    <column name="attribute_id" type="integer" primaryKey="true" required="true" />
+    <foreign-key foreignTable="app_product_attribute" onDelete="cascade">
+      <reference local="attribute_id" foreign="id" />
+    </foreign-key>
+    <column name="variant_id" type="integer" primaryKey="true" required="true" />
+    <foreign-key foreignTable="app_product_attribute_variant" onDelete="cascade">
+      <reference local="variant_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="app_product_attribute_variant_has_product" phpName="appProductAttributeVariantHasProduct">
+    <column name="product_id" type="integer" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+    <column name="variant_id" type="integer" primaryKey="true" required="true" />
+    <foreign-key foreignTable="app_product_attribute_variant" onDelete="cascade">
+      <reference local="variant_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="app_product_attribute_variant" phpName="appProductAttributeVariant" isI18N="true" i18nTable="app_product_attribute_variant_i18n">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="opt_value" type="varchar" size="255" required="true" />
+    <column name="opt_name" type="varchar" size="64" required="false" />
+    <column name="type" type="char" size="1" required="false" />
+    <column name="position" type="integer" required="true" default="0" />
+  </table>
+
+  <table name="app_product_attribute_variant_i18n" phpName="appProductAttributeVariantI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="app_product_attribute_variant" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="char" size="5" />
+    <column name="value" type="varchar" size="255" required="true" />
+    <column name="name" type="varchar" size="64" required="false" />
+  </table>
+
+</database>

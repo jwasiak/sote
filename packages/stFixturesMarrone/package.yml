@@ -1,0 +1,12 @@
+package:
+  name: stFixturesMarrone
+  stability: stable
+  version: 7.0.0.2
+  summary: Dane dla tematu Marrone
+  description: Dane dla tematu Marrone
+  notes: Przykladowe dane dla tematu Marrone
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

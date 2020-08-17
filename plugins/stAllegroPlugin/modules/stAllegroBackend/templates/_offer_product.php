@@ -1,0 +1,1 @@
+<?php echo $value->getName() ?> (<?php echo $value->getCode() ?>) <a href="<?php echo url_for('@stAllegroPlugin?action=bindProduct&id=' . $params['offer']->id) ?>"><?php echo __('zmień') ?></a>

@@ -1,0 +1,18 @@
+package:
+  name: stMigration
+  stability: stable
+  version: 7.4.0.0
+  summary: 'Migracja danych'
+  description: 'Migracja danych z zewnetrznych systemow'
+  notes: |
+     - Aktualizacja dla PHP 7.0.x oraz 7.1.x
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stBackend: 1.0.3
+    stProduct: 1.0.7
+    stOrder: 1.0.6
+    stUser: 1.0.4

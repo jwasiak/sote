@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Logowanie do panelu administracyjnego</source>
+                <target>Login to the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Użytkownik</source>
+                <target>User</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zaloguj</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Proszę podać nazwę użytkownika</source>
+                <target>Enter the username</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Proszę podać hasło</source>
+                <target>Enter the password</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Proszę podać poprawną nazwę użytkownika i hasło</source>
+                <target>Enter the valid username and password</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Przypomnij hasło</source>
+                <target>Forgot your password?</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

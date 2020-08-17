@@ -1,0 +1,102 @@
+{set layout="one_column"}
+<div id="user-newsletter">
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            {$register_text_title}
+        </div>
+        <div class="panel-body">
+            <div class="newsletter-txt">{$register_text_description}</div>
+            {$form_start}
+                {if $update == 1}
+                    <div class="alert alert-success" role="alert">{__ text="Dane zostały zaktualizowane."}</div>
+                {/if}
+                <div class="form-group  {if $error_email!=''}has-error{/if}">
+                    {if $error_email!=""}<label class="control-label" for="email">{$error_email}</label>{/if}
+                    {$input_email}
+                </div>
+                <div class="checkbox">
+                    <label class="{if $error_privacy==1}checkbox_error{/if}">
+                        {$checkbox_privacy}
+                        <div id="privacy_overlay">
+                            <div class="privacy_overlay_content"></div>
+                        </div>
+                        <div id="terms_overlay">
+                            <div class="terms_overlay_content"></div>
+                        </div>
+                        <div id="user_data_billing_privacy_content">  
+                                   {$terms_privacy_newsletter_text}            
+                        </div>
+                        
+                        
+                    </label>
+                </div>
+                {if isset($captcha_on)}
+                    <div id="captcha_form" class="row">
+                        {if $error_captcha!=""}
+                            <div class="col-xs-12 clearfix {if $error_captcha!=''}has-error{/if}">
+                                <div class="row">
+                                    <label class="control-label col-xs-6 pull-right" for="captcha_img">{$error_captcha}</label>
+                                </div>
+                            </div>
+                        {/if}
+                        <div class="captcha-img col-xs-6">
+                            {$get_captcha}
+                        </div>
+                        <div class="col-xs-6 form-group captcha-input {if $error_captcha!=''}has-error{/if}">
+                            {$input_captcha}
+                        </div>
+                    </div>
+                {/if}
+                <br/>
+                {if $newsletterGroup}
+                    {foreach key=row item=news_group from=$results}
+                    <div class="checkbox">
+                        <label>
+                            {$news_group.input} {$news_group.name} 
+                        </label>
+                    </div> 
+                    <div>
+                        {$news_group.description}                        
+                    </div>
+                    {/foreach}
+                {/if}        
+                
+                <div class="row">       
+                <button type="submit" class="btn btn-primary pull-right" >
+                    {__ text="Zapisz mnie na newsletter"}
+                </button>
+                </div>
+                
+                {$hidden_new_user}
+            </form>
+            <div class="row">
+            {$register_text_under_register}
+            </div>   
+        </div>
+    </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{		
+			 
+		$('#st_form-user-privacy').click(function(){
+		    console.log("click");
+			$("#captcha_form").toggle();
+		});	
+		
+		if($('#st_form-user-privacy').attr('checked'))
+		{
+			$("#captcha_form").show()
+		}else{
+			$("#captcha_form").hide();
+		}	 
+	});
+	
+	
+});
+</script>
+{/literal}

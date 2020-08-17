@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stNewsletterPlugin.lib.model" noXsd="true">
+
+  <table name="st_newsletter_user" phpName="NewsletterUser">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="sf_guard_user_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="sf_guard_user" onDelete="setnull">
+      <reference local="sf_guard_user_id" foreign="id" />
+    </foreign-key>
+    <column name="email" type="VARCHAR" size="255" />
+    <column name="active" type="BOOLEAN" default="1" />
+    <column name="confirm" type="BOOLEAN" default="" />
+    <column name="hash" type="VARCHAR" size="255" />
+    <column name="language" type="VARCHAR" size="255" />
+  </table>
+
+  <table name="st_newsletter_group" phpName="NewsletterGroup" isI18N="true" i18nTable="st_newsletter_group_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="opt_description" type="LONGVARCHAR" change_column="description" />
+    <column name="shortcut" type="VARCHAR" size="255" />
+    <column name="is_public" type="BOOLEAN" />
+    <column name="is_default" type="BOOLEAN" />
+  </table>
+
+  <table name="st_newsletter_message" phpName="NewsletterMessage" isI18N="true" i18nTable="st_newsletter_message_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_subject" type="VARCHAR" size="255" required="true" change_column="subject" />
+    <column name="opt_content" type="LONGTEXT" change_column="content" />
+    <column name="sent_at" type="TIMESTAMP" />
+  </table>
+
+  <table name="st_newsletter_user_has_newsletter_group" phpName="NewsletterUserHasNewsletterGroup">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="newsletter_group_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_newsletter_group" onDelete="cascade">
+      <reference local="newsletter_group_id" foreign="id" />
+    </foreign-key>
+    <column name="newsletter_user_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_newsletter_user" onDelete="cascade">
+      <reference local="newsletter_user_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_newsletter_message_has_newsletter_group" phpName="NewsletterMessageHasNewsletterGroup">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="newsletter_message_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_newsletter_message" onDelete="restrict">
+      <reference local="newsletter_message_id" foreign="id" />
+    </foreign-key>
+    <column name="newsletter_group_id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_newsletter_group" onDelete="restrict">
+      <reference local="newsletter_group_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_newsletter_group_i18n" phpName="NewsletterGroupI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_newsletter_group" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="description" type="VARCHAR" size="255" />
+  </table>
+
+  <table name="st_newsletter_message_i18n" phpName="NewsletterMessageI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_newsletter_message" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="subject" type="VARCHAR" size="255" />
+    <column name="content" type="LONGTEXT" />
+  </table>
+
+</database>

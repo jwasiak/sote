@@ -1,0 +1,16 @@
+Language: 
+  Language_De: 
+    culture: pl_PL
+    name: Niemiecka
+    shortcut: de
+    active_image: de_active.png
+    inactive_image: de_inactive.png
+    active: 0
+    language: de
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_De: 
+    id: Language_De
+    culture: en_US
+    name: German

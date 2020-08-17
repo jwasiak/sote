@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2012-07-02T03:01:09Z">
+		<body>
+			<trans-unit id="1">
+				<source>Musisz być zalogowany aby zapytać o cenę</source>
+				<target>Tiene que iniciar sesión para preguntar por el precio</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Musisz być zalogowany aby zapytać o dostępność</source>
+				<target>Tiene que iniciar sesión para preguntar por la disponibilidad</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zapytaj o cenę</source>
+				<target>Preguntar por el precio</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapytaj o dostępność</source>
+				<target>Preguntar por la disponibilidad</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak adresu e-mail</source>
+				<target>Falta el correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>El formato de la dirección de correo electrónico es incorrecto</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>powrót do produktu</source>
+				<target>volver al producto</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Zapytanie o dostępność</source>
+				<target>Pregunta sobre la disponibilidad</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Zapytanie o cenę</source>
+				<target>Pregunta sobre el precio</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Treść zapytania</source>
+				<target>Contenido de la pregunta</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>E-mail</source>
+				<target>Correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij zapytanie</source>
+				<target>Enviar pregunta</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie zostało wysłane poprawnie</source>
+				<target>La pregunta ha sido enviada correctamente</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Proszę o informacje o cenie produktu</source>
+				<target>Me gustaría obtener información sobre el precio del producto</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Proszę o informacje o dostępności produktu</source>
+				<target>Me gustaría obtener información sobre la disponibilidad del producto</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Zaloguj się, aby zapytać o cenę</source>
+				<target>Inicie la sesión para preguntar por el precio</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Zaloguj się, aby zapytać o dostępność</source>
+				<target>Inicie la sesión para preguntar por la disponibilidad</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Zapytanie o produkt</source>
+				<target>La pregunta sobre el producto</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>zostało pomyślnie wysłane</source>
+				<target>ha sido enviada</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kod</source>
+				<target>Código </target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zapytanie nie może zostać wysłane, gdyż taki produkt nie istnieje</source>
+				<target>La pregunta no puede enviarse porque este producto no existe</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Pregunta sobre la disponibilidad del producto</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zapytanie o cenę produktu</source>
+				<target>Pregunta sobre el precio del producto</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>zapytanie nr</source>
+				<target>pregunta número</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>dostępności</source>
+				<target>disponibilidad</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>cenie</source>
+				<target>precio</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Witam</source>
+				<target>Buenos días</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>proszę o informację o</source>
+				<target>me gustaría obtener información sobre</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>produktu</source>
+				<target>del producto</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Kod produktu</source>
+				<target>Código del producto</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Producent</source>
+				<target>Fabricante </target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kategoria</source>
+				<target>Categoría </target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Przejdź do zapytania</source>
+				<target>Pasar a la pregunta</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Informacje dodatkowe</source>
+				<target>Información adicional </target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapytanie wysłał</source>
+				<target>Remitente</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Treść</source>
+				<target>Contenido</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras del dibujo</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Wyślij</source>
+				<target>Enviar</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Nadawca (e-mail)</source>
+				<target>Remitente (e-mail)</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

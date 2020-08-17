@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Faktury</source>
+                <target>Invoices</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Nabywca</source>
+                <target>Buyer</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>oryginał</source>
+                <target>original</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>kopia</source>
+                <target>copy</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Słownie</source>
+                <target>In words</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wystawił(a)</source>
+                <target>Issued by</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Sprzedawca</source>
+                <target>Seller</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>według stawki VAT</source>
+                <target>by tax rate</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>wartość netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>kwota VAT</source>
+                <target>VAT amount</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>wartość brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Podstawowy podatek VAT</source>
+                <target>Basic VAT</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Podatek VAT</source>
+                <target>VAT</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Razem</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Zapłacono</source>
+                <target>Paid</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Do zapłaty</source>
+                <target>Amount to pay</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Razem do zapłaty</source>
+                <target>Amount to pay in total</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Faktura Proforma</source>
+                <target>Pro-forma invoice</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Faktura VAT</source>
+                <target>VAT invoice</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Lp</source>
+                <target>No.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>PKWiU</source>
+                <target>PCoGaS</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Ilość</source>
+                <target>Qty</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>j.m.</source>
+                <target>UoM</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Rabat</source>
+                <target>Discount</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Cena jed.</source>
+                <target>Unit price</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>VAT</source>
+                <target>VAT</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Wartość netto</source>
+                <target>Net price</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Wartość brutto</source>
+                <target>Gross amount</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Pobierz fakturę proforma</source>
+                <target>Download pro-forma invoice</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Miejsce wystawienia</source>
+                <target>Place of issue</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Data sprzedaży</source>
+                <target>Date of sale</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Data wystawienia</source>
+                <target>Date of issue</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Odebrał(a)</source>
+                <target>Received by</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Dostawa</source>
+                <target>Exact shipping term</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>tysiące</source>
+                <target>thousand</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>tysięcy</source>
+                <target>thousand</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>tysiąc</source>
+                <target>thousand</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>jeden</source>
+                <target>one</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>dwa</source>
+                <target>two</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>trzy</source>
+                <target>three</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>cztery</source>
+                <target>four</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>pięć</source>
+                <target>five</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>sześć</source>
+                <target>six</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>siedem</source>
+                <target>seven</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>osiem</source>
+                <target>eight</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>dziewięć</source>
+                <target>nine</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>dziesięć</source>
+                <target>ten</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>dwadzieścia</source>
+                <target>twenty</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>trzydzieści</source>
+                <target>thirty</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>czterdzieści</source>
+                <target>forty</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>pięćdziesiąt</source>
+                <target>fifty</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>sześćdziesiąt</source>
+                <target>sixty</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>siedemdziesiąt</source>
+                <target>seventy</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>osiemdziesiąt</source>
+                <target>eighty</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>dziewięćdziesiąt</source>
+                <target>ninety</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>sto</source>
+                <target>hundred</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>dwieście</source>
+                <target>two hundred</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>trzysta</source>
+                <target>three hundred</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>czterysta</source>
+                <target>four hundred</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>pięćset</source>
+                <target>five hundred</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>sześćset</source>
+                <target>six hundred</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>siedemset</source>
+                <target>seven hundred</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>osiemset</source>
+                <target>eight hundred</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>dziewięćset</source>
+                <target>nine hundred</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>jedenaście</source>
+                <target>eleven</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>dwanaście</source>
+                <target>twelve</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>trzynaście</source>
+                <target>thirteen</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>czternaście</source>
+                <target>fourteen</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>piętnaście</source>
+                <target>fifteen</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>szesnaście</source>
+                <target>sixteen</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>siedemnaście</source>
+                <target>seventeen</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>osiemnaście</source>
+                <target>eighteen</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>dziewiętnaście</source>
+                <target>nineteen</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>szt.</source>
+                <target>pcs</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>NIP</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Pozostało do zapłaty</source>
+                <target>Amount to pay</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>płatność gotówką</source>
+                <target>payment in cash</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>płatne gotówką</source>
+                <target>payment in cash</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>płatność przelewem</source>
+                <target>transfer payment</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>płatne przelewem</source>
+                <target>transfer payment</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Maksymalny czas oczekiwania na płatność</source>
+                <target>Maximum waiting time for payment</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>termin płatności</source>
+                <target>maturity</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>dni</source>
+                <target>days</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Rodzaj płatności</source>
+                <target>Type of payment</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>za pobraniem</source>
+                <target>on delivery</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>płatność</source>
+                <target>payment</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>gotówką</source>
+                <target>in cash</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>za pobraniem</source>
+                <target>on delivery</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>przelewem</source>
+                <target>transfer</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

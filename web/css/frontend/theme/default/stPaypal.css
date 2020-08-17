@@ -1,0 +1,7 @@
+p#st_paypal-message-success,
+p#st_paypal-message-pending,
+p#st_paypal-message-failed,
+p#st_paypal-checkout-button
+{
+    text-align: center;
+}

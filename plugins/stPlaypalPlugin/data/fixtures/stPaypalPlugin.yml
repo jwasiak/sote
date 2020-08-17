@@ -1,0 +1,12 @@
+PaymentType: 
+  PaymentType_20:
+    module_name: stPaypal
+    active: 0
+    culture: pl_PL
+    name: Paypal
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_20:
+    id: PaymentType_20
+    culture: en_US
+    name: Paypal

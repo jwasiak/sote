@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Raport</source>
+                <target>Report</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Produktu</source>
+                <target>Product</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Statystyki sprzedaży produktu</source>
+                <target>Product's sales statistics</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Wartość sprzedaży w okresie</source>
+                <target>Sales value in the period</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wartość sprzedaży netto</source>
+                <target>Net sales value</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>od</source>
+                <target>from</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>do</source>
+                <target>to</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>ilość</source>
+                <target>quantity</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Zmień</source>
+                <target>Change</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Data początkowa była późniejsza niż końcowa.</source>
+                <target>The begining date can't be geater than the ending date.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Za duży przedział czasowy. Maksymalny zakres wynosi 1 rok.</source>
+                <target>Interval range is too wide. Max of 1 year.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>dni</source>
+                <target>days</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>dzień</source>
+                <target>day</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>miesiące</source>
+                <target>months</target>
+            </trans-unit>     
+            <trans-unit id="17">
+                <source>miesięcy</source>
+                <target>months</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Brak sprzedaży tego produktu</source>
+                <target>There are no sales of this product</target>
+            </trans-unit> 
+            <trans-unit id="19">
+                <source>Pokaż zamówienia</source>
+                <target>Show orders</target>
+            </trans-unit> 
+            <trans-unit id="20">
+                <source>Ostatni miesiąc</source>
+                <target>Last month</target>
+            </trans-unit> 
+            <trans-unit id="21">
+                <source>Ostatni rok</source>
+                <target>Last year</target>
+            </trans-unit> 
+            <trans-unit id="22">
+                <source>Okres sprzedaży</source>
+                <target>Sales period</target>
+            </trans-unit> 
+            <trans-unit id="23">
+                <source>Status zamówienia</source>
+                <target>Order status</target>
+            </trans-unit> 
+            <trans-unit id="24">
+                <source>Własny zakres</source>
+                <target>Custom</target>
+            </trans-unit> 
+        </body>
+    </file>
+</xliff>

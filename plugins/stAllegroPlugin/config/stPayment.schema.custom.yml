@@ -1,0 +1,6 @@
+propel:
+    st_payment:
+        _attributes: {phpName: Payment}
+        allegro_payment_type:
+            type: VARCHAR
+            size: 24

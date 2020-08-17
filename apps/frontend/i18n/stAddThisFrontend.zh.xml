@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>więcej</source>
+				<target>更多</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Podziel się na Facebook</source>
+				<target>在Facebook上分享</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Podziel się na Twitter</source>
+				<target>在Twitter上分享</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dodaj do Ulubionych</source>
+				<target>添加到收藏夹</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

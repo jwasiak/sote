@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Schowek elementów</source>
+				<target>Ønskeliste</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Schowek</source>
+				<target>Ønskeliste</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Panel administracyjny</source>
+				<target>Administrasjonspanel</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Przywróć domyślny wygląd tematu</source>
+				<target>Gjenopprett standard utseende for emnet</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Użycie tej opcji spowoduje przywrócenie pierwotnego wyglądu strony. Czy jesteś pewien, że chcesz przywrócić oryginalny wygląd?</source>
+				<target>Dette skal gjenopprette det opprinnelige utseendet. Er du sikker på at du vil gjenopprette det opprinnelige utseendet?</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Przywróć pierwotny obraz tego elementu.</source>
+				<target>Gjenopprett elementets opprinnelig bilde.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Edytuj właściwości obrazu.</source>
+				<target>Rediger bildets egenskaper.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Pobierz ten obraz na mój komputer.</source>
+				<target>Last ned bildet på min datamaskin.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Wybierz plik graficzny na lokalnym komputerze, który ma zostać wstawiony w ten element strony.</source>
+				<target>Velg en bildefil på din datamaskin, som skal settes inn i dette elementet.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Załaduj</source>
+				<target>Last opp</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Dopasuj wielkość obrazu do elementu strony.</source>
+				<target>Tilpass bildets størrelse til elementet.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dopasuj wielkość elementu strony do obrazu.</source>
+				<target>Tilpass elementets størrelse til bildet.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Selektor</source>
+				<target>Velger</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>definicja stylu</source>
+				<target>stildefinisjon</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapisz zmiany</source>
+				<target>Lagre endringene</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Szerokość:</source>
+				<target>Bredde:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wysokość:</source>
+				<target>Høyde:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Nazwa pliku nie może zawierać polskich znaków dialektyczny oraz spacji.</source>
+				<target>Filnavn kan ikke inneholde spesialtegn og mellomrom.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Edytujesz temat</source>
+				<target>Du redigerer emne</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kliknij dwukrotnie aby podmienić obraz.</source>
+				<target>Dobbeltklikk for å bytte bildet.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Konfiguracja grafiki</source>
+				<target>Konfigurasjon av grafikk</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zastosuj konfigurację</source>
+				<target>Anvend konfigurasjonen</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ustaw jako domyślny</source>
+				<target>Sett som standard</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Włącz autoukrywanie</source>
+				<target>Aktiver Auto-skjul</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Oglądasz temat</source>
+				<target>Du ser på emne</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Twoje zmiany zostały zastosowane do aktualnego tematu</source>
+				<target>Dine endringer har blitt aktivert for emnet</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

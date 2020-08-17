@@ -1,0 +1,4 @@
+fields:
+    box_group{name}:
+        required:
+            msg:        Podaj tytuł grupy boksów

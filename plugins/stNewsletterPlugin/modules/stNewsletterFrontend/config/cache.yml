@@ -1,0 +1,4 @@
+_newsletter:
+    enabled:            off
+    view: 
+        stylesheets:    [stNewsletterPlugin.css]

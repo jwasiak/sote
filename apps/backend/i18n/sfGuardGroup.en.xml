@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Edycja grupy %%description%%</source>
+                <target>Editing group %%description%%</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Uprawnienia</source>
+                <target>Permissions</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Administratorzy</source>
+                <target>Administrators</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Grupy uprawnień</source>
+                <target>Permission grups</target>
+            </trans-unit>    
+            <trans-unit id="6">
+                <source>Uprawnienia modułów</source>
+                <target>Modules permissions</target>
+            </trans-unit>  
+            <trans-unit id="7">
+                <source>Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b></source>
+                <target>To selected/deselect chosen option hold the <b>Ctrl</b> key</target>
+            </trans-unit> 
+            <trans-unit id="8">
+                <source>Proszę podać nazwę grupy.</source>
+                <target>You must provide a group name</target>
+            </trans-unit>    
+            <trans-unit id="9">
+                <source>Lista grup</source>
+                <target>Group list</target>
+            </trans-unit>                                                                          
+        </body>
+    </file>
+</xliff>

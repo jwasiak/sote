@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2011-11-04T04:25:59Z">
+		<body>
+			<trans-unit id="1">
+				<source>Rabaty</source>
+				<target>Скидки</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Lista przypisanych rabatów</source>
+				<target>Список назначенных скидок</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwa</source>
+				<target>Название</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Стоимость</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Produkty</source>
+				<target>Продукты</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rabat ogólny</source>
+				<target>Общая скидка</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista produktów</source>
+				<target>Список продуктов</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w grupie rabatowej</source>
+				<target>Продукты в группе скидок</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Do grupy rabatowej %group% nie przypisano jeszcze żadnego produktu</source>
+				<target>Группе скидок %group% еще не назначено ни одного продукта</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Moje konto</source>
+				<target>Мой счет</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wprowadź kod rabatowy</source>
+				<target>Введите код скидки</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podany kod jest nieważny</source>
+				<target>Следующая строка неверна</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podany kod nie istnieje</source>
+				<target>Данный код не существует</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wprowadź kod</source>
+				<target>Введите код</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod rabatowy</source>
+				<target>Код скидки</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Udzielony rabat</source>
+				<target>Скидка</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Aktywuj</source>
+				<target>Активировать</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dokonaj zakupu za %amount% a otrzymasz rabat %discount% na aktualne zamówienie</source>
+				<target>Сделайте покупку за %amount% и получите скидку %discount% на текущий заказ</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>W zestawie kupisz taniej</source>
+				<target>В наборе вы покупаете дешевле</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>do koszyka</source>
+				<target>в корзину</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Brak rabatów</source>
+				<target>Нет скидок</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

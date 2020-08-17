@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2012-07-02T03:01:09Z">
+		<body>
+			<trans-unit id="1">
+				<source>Id</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Data dokonania płatności</source>
+				<target>Fecha de pago</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kwota</source>
+				<target>Cantidad de dinero</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Typ płatności</source>
+				<target>Tipo de pago</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Status</source>
+				<target>Estatus </target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rozliczona</source>
+				<target>Pago confirmado</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Nierozliczona</source>
+				<target>Pago no confirmado:</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>Código </target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>Nombre</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>Neto</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Vat</source>
+				<target>IVA</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>Bruto </target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>Número</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Suma</source>
+				<target>Cantidad </target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Łączna wartość:</source>
+				<target>Valor total:</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Rodzaj dostawy:</source>
+				<target>Tipo de entrega:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Koszt przesyłki:</source>
+				<target>Precio de la entrega:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Numer przesyłki:</source>
+				<target>Número de pedido:</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Zamówienie nr:</source>
+				<target>Pedido n°:</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>potwierdzone</source>
+				<target>confirmado</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>niepotwierdzone</source>
+				<target>no confirmado</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Numer ID klienta:</source>
+				<target>Número ID del cliente</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Email klienta:</source>
+				<target>Correo electrónico del cliente</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Dane dostawy:</source>
+				<target>Datos sobre la entrega:</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Dane billingowe:</source>
+				<target>Datos de facturación:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Produkty</source>
+				<target>Productos </target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Łącznie</source>
+				<target>Total </target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dane płatności</source>
+				<target>Datos del pago</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uwagi klienta</source>
+				<target>Comentarios del cliente</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Notatki sprzedawcy</source>
+				<target>Comentarios del vendedor</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Bon towarowy: %code%</source>
+				<target>Bono de descuento: %code%</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Termin dostawy</source>
+				<target>Fecha de entrega</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tel</source>
+				<target>tel</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Telefon</source>
+				<target>Teléfono</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Konto</source>
+				<target>Cuenta </target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>NIP</source>
+				<target>NIF</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

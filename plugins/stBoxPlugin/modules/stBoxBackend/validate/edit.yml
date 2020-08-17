@@ -1,0 +1,4 @@
+fields:
+    box{name}:
+        required:   
+            msg:    Podaj nazwę boksu

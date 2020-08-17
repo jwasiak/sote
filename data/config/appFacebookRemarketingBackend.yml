@@ -1,0 +1,31 @@
+data:
+  enable_fbremarketing: null
+  product_card: null
+  cart: null
+  order: null
+  code_fbremarketing: null
+  _i18n:
+    zh:
+      code_fbremarketing: null
+    no:
+      code_fbremarketing: null
+    sk:
+      code_fbremarketing: null
+    ru:
+      code_fbremarketing: null
+    pt:
+      code_fbremarketing: null
+    it:
+      code_fbremarketing: null
+    fr:
+      code_fbremarketing: null
+    es:
+      code_fbremarketing: null
+    de:
+      code_fbremarketing: null
+    cs:
+      code_fbremarketing: null
+    en_US:
+      code_fbremarketing: null
+    pl_PL:
+      code_fbremarketing: null

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Zmień tekst (html)</source>
+            <target>Change text (html)</target>
+         </trans-unit>         
+         <trans-unit id="2">
+            <source>Zmień tekst (bez html)</source>
+            <target>Change text (without html)</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Wstaw obraz</source>
+            <target>Insert an image</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>Przywróc domyślna wartość</source>
+            <target>Restore the default value</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>Zapisz</source>
+            <target>save</target>
+         </trans-unit>
+         <trans-unit id="6">
+            <source>Tytuł</source>
+            <target>Title</target>
+         </trans-unit>
+         <trans-unit id="7">
+            <source>Zawartość</source>
+            <target>Content</target>
+         </trans-unit>
+         <trans-unit id="8">
+            <source>Przywróć domyślne</source>
+            <target>restore the default</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>Jesteś pewien, że chcesz przywroć domyślną zawartość?</source>
+            <target>Are you sure you want to restore the default content?</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>Edycja</source>
+            <target>Edit</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>Wizualny</source>
+            <target>Visual</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,5 @@
+<?php if ($this->getParameterValue('head.package', null, false)): ?>
+[?php echo st_get_admin_head('<?php echo $this->getParameterValue('head.package', $this->getModuleName(), false) ?>', $title, array('shortcuts' => <?php var_export($this->getValueFromKey('applications')) ?>, 'culture' => isset($culture) ? $culture : null, 'route' => isset($route) ? $route : null)) ?]
+<?php else: ?>
+[?php echo st_get_admin_head(array('<?php echo $this->getParameterValue('route', $this->getModuleName(), false) ?>', __('<?php echo $this->getParameterValue('label', $this->getModuleName(), false) ?>'), '<?php echo $this->getParameterValue('icon', 'backend/main/icons/'.$this->getModuleName().'.png', false) ?>'), $title, array('shortcuts' => <?php var_export($this->getValueFromKey('applications')) ?>, 'culture' => isset($culture) ? $culture : null, 'route' => isset($route) ? $route : null)) ?]
+<?php endif; ?>

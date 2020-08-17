@@ -1,0 +1,269 @@
+.bg_content
+{
+    border: 1px solid #bfc0bf;
+    background: #fff;
+}
+
+#st_version 
+{
+    display: none;
+}
+
+#sf_admin_container .title, .title 
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #434343;
+    border: 1px solid #bfc0bf;
+    padding: 16px;   
+    margin-bottom: 10px;
+}
+
+.stSetup-left_menu {
+    float: left;
+    width: 193px;
+    border-right: 1px solid #bfc0bf;
+    background: #fff;
+    padding: 20px 0 0;
+}
+
+.stSetup-left_menu li
+{
+    list-style-position: inside;
+    padding: 5px 17px;
+}
+
+#stSetup-right_menu {
+    float: left;
+    text-align: left;
+    padding: 13px;
+    width: 723px;
+    border-left: 1px solid #bfc0bf;
+    background: #fff;
+    margin-left: -1px;
+    min-height: 290px;
+}
+
+#sf_admin_container .stSetup-active_li {
+    background: #fff;
+    margin-right: -1px;
+    color: #000;
+    margin-top: -1px;
+    border-width: 1px 0px;
+    border-color: #ccc;
+    border-style: solid;
+    padding-left: 25px;
+    position: relative;
+}
+
+.stSetup-actions {
+    clear: both;
+    margin-top: 20px;
+}
+
+.stSetup-license {
+    height: 300px;
+    overflow: auto;
+    border: 1px solid rgb(230, 230, 230);
+    margin-bottom: 5px;
+    padding: 12px;
+    background: #fff;
+}
+
+.stSetup-license .paragraph {
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#stSetup-license ol {
+    padding-left: 13px !important;
+    list-style-position: outside;
+}
+
+.stSetup-require-list {
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.stSetup-require-list label {
+    float: left;
+    width: 750px;
+}
+
+.stSetup-require-list-row {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 15px;
+}
+
+.stSetup-require-list-row:nth-child(2n+2)
+{
+    background: #fff;
+}
+
+.stSetup-require-list-row div {
+    float: right;
+}
+
+#frame-themes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+}
+
+#frame-themes p {
+    margin-left: 0px !important;
+}
+
+#frame-themes p::first-letter 
+{
+    text-transform: uppercase;
+}
+
+#sf_admin_container .form-row .box-theme,
+.box-theme {
+    float: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    flex: 1 1 auto;
+    max-width: 110px;
+    padding: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box-theme-name {
+    display: block;
+}
+
+.box-theme-radio {
+    float: left;
+}
+
+.box-theme-name-ind {
+    float: left;
+}
+
+.box-theme a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.box-theme .theme_img
+{
+    display: block;
+    padding-bottom: 7px;
+}
+
+#sf_admin_container .box-theme .small {
+    width: 100%;
+    padding: 1px;
+    background: #eee;
+}
+
+#sf_admin_container .box-theme-name input {
+    margin-right: 5px;
+}
+
+.frame-themes-name {
+    color: #666;
+    padding-bottom: 7px;
+}
+
+.label-select label {
+    position: relative;
+    top: 3px;
+}
+
+#license-form .form-row {
+    border-bottom: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#license-form .form-row label {
+    display: block;
+    float: left;
+    padding-top: 6px;
+}
+
+#license-form .form-row .content {
+    float: left;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+#license-form .form-row #license {
+    width: 220px;
+}
+
+#license-form .form-row-help
+{
+    margin-top: 16px;
+    display: block;
+    background: none !important;
+}
+
+.form-row-help {
+    font-size: 11px;
+    font-style: italic;
+    overflow: hidden;
+}
+
+#license-form .content_help {
+    font-size: 11px;
+    font-style: italic;
+    overflow: hidden;
+}
+
+#license-form .content_help_paragraph {
+    float: left;
+    padding-right: 5px;
+}
+
+#license-form .content_help_text {
+    float: left;
+}
+
+#stSetup-right_menu .stSetup-require-list label
+{
+    width: 630px;
+}
+
+#stSetup-right_menu .datebase_create
+{
+    display: inline-block;
+}
+
+#sf_admin_container .form-row .theme_img label
+{
+    padding: 0px;
+    float: none;
+}
+
+.install_success_links
+{
+    min-height: 122px;
+}
+
+.install_success_links > div
+{
+    float: left;
+    width: 700px;
+    text-align: center;
+    margin-right: 16px;
+    font-size: 14px;
+    color: #000;
+}
+
+#sf_admin_container .form-errors h2
+{
+    padding-left: 10px;
+}
+
+#sf_admin_container .form-errors dl
+{
+    padding: 5px 10px;
+}

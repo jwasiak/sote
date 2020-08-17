@@ -1,0 +1,23 @@
+#main_window
+{
+width: 400px; 
+}
+
+.form_label
+{
+    float:left;
+    width: 300px;
+    padding-top: 3px;
+}
+
+.form_value_checkbox
+{
+    clear:right;
+    margin: 7px;
+    padding-top: 7px;
+}
+
+#submit_button
+{
+    width: 315px;
+}

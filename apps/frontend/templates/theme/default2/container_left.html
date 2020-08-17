@@ -1,0 +1,11 @@
+<div class="container_content portal-column" id="portal_left"> 
+    {slot name="layout_container_left"}
+        {component name="stCategoryTree/show"}
+        {component name="stProduct/priceFilter"}
+        {component name="appProductAttributeFrontend/showFilter"}
+        {component name="stProductOptionsFrontend/filter"}
+        {component name="stProduct/new"} 
+        {component name="stProduct/productGroup" parameters="product_group: RECOMMEND"}
+        {component name="stBoxFrontend/boxGroup" parameters="box_group: LEFT"}
+    {/slot}
+</div>

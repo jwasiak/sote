@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stWebpagePlugin.lib.model" noXsd="true">
+
+  <table name="st_webpage" phpName="Webpage" isI18N="true" i18nTable="st_webpage_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="active" type="BOOLEAN" default="1" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="opt_content" type="LONGTEXT" change_column="content" />
+    <column name="opt_url" type="VARCHAR" size="255" required="false" />
+    <column name="state" type="VARCHAR" size="255" />
+    <index name="webpage_url">
+      <index-column name="opt_url" />
+    </index>
+  </table>
+
+  <table name="st_webpage_group" phpName="WebpageGroup" isI18N="true" i18nTable="st_webpage_group_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="group_page" type="VARCHAR" size="255" />
+    <column name="show_footer" type="BOOLEAN" />
+    <column name="show_header" type="BOOLEAN" />
+  </table>
+
+  <table name="st_webpage_group_has_webpage" phpName="WebpageGroupHasWebpage">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="webpage_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_webpage" onDelete="cascade">
+      <reference local="webpage_id" foreign="id" />
+    </foreign-key>
+    <column name="webpage_group_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_webpage_group" onDelete="cascade">
+      <reference local="webpage_group_id" foreign="id" />
+    </foreign-key>
+    <column name="rank" type="INTEGER" />
+  </table>
+
+  <table name="st_webpage_i18n" phpName="WebpageI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_webpage" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="content" type="LONGTEXT" />
+    <column name="url" type="VARCHAR" size="255" required="false" />
+    <column name="other_link" type="VARCHAR" size="255" />
+    <column name="target" type="BOOLEAN" />
+    <index name="webpage_Index1">
+      <index-column name="url" />
+      <index-column name="culture" />
+    </index>
+  </table>
+
+  <table name="st_webpage_group_i18n" phpName="WebpageGroupI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_webpage_group" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+    <index name="webpage_group_Index1">
+      <index-column name="culture" />
+    </index>
+  </table>
+
+</database>

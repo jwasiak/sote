@@ -1,0 +1,1 @@
+<?php st_include_partial('stBackend/application_shortcuts', array('applications' => $applications)) ?>

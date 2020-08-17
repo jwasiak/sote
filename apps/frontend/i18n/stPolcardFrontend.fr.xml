@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2010-11-04T02:50:41Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Paiement</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Kliknij przycisk</source>
+				<target>Cliquez le bouton</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>"Zapłać"</source>
+				<target>"Payer"</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>aby przejść do serwisu Polcard.</source>
+				<target>pour aller à Polcard.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Merci pour le paiement.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zapłać</source>
+				<target>Payer</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfgurowana.</source>
+				<target>Le paiement a été configuré incorrectement.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana. Wystąpił błąd spowodowany brakiem autoryzacji.</source>
+				<target>Le paiement n’a pas été effectué. Une erreur est survenue à cause de non-autorisation.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Płatność nie została zrealizowana. Wystąpił błąd autoryzacji.</source>
+				<target>Le paiement n’a pas été effectué. Une erreur d’autorisation est survenue.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Le paiement a été configuré incorrectement</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

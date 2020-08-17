@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wybierz Paczkomat</source>
+				<target>Escolhe Paczkomat</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Podaj kod pocztowy</source>
+				<target>Insira código postal</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Podany kod pocztowy jest nieprawidłowy.</source>
+				<target>Código postal errado</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukaj</source>
+				<target>Pesquisar</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz miasto</source>
+				<target>Escolhe a cidade</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>wszystkie lokalizacje</source>
+				<target>todas as localizações</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmień Paczkomat</source>
+				<target>Mude Paczkomat</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa Paczkomaty</source>
+				<target>Entrega Paczkomat</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę wybrać Paczkomat.</source>
+				<target>Escolhe Paczkomat</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Paczkomat</source>
+				<target>Paczkomat</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wybierz z listy</source>
+				<target>Escolha da lista</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wybierz</source>
+				<target>Escolha</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,35 @@
+#sf_admin_container input.errors
+{
+   border-color: #ff3333;
+}
+
+#image_config label {
+   width: 200px !important;
+}
+
+#image_config .field {
+   margin-left: 210px !important;
+}
+
+#image_config,
+#image_preview {
+   float: left;
+   margin-top: 0px !important;
+}
+
+#image_config {
+   border-right-color: #fff !important;
+   border-bottom-right-radius: 0px !important;
+   border-top-right-radius: 0px !important;
+   z-index: 1;
+   position: relative;
+   right: -1px;
+}
+
+#image_preview {
+   border: 1px solid #ccc;
+   padding: 5px;
+}
+
+
+

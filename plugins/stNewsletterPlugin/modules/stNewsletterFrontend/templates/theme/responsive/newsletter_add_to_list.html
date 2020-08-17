@@ -1,0 +1,32 @@
+{set layout="one_column"}
+<div id="newsletter-add-to-list">
+
+    <div class="title">
+        <h1>{__ text="Newsletter"}</h1>
+    </div>
+
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            {__ text="Sprawdź skrzynkę pocztową."}
+        </div>
+        <div class="panel-body text-center">
+
+              	<p >{__ text="Na podany adres wysłano mail z prośbą o potwierdzenie."}</p>
+            	<p><b>{$email}</b></p>
+                         
+                {if $choseGroup}
+                <div class="text-left">
+		            {foreach key=row item=news_group from=$results}
+			            
+						<b>{$news_group.name}</b><br/>
+		            	{$news_group.description}
+			                           
+		            {/foreach}
+		        </div>
+                {/if}            
+                  	
+                 <a href="/" class="btn btn-primary"> {__ text="Kontynuuj zakupy"} </a>
+                                   
+         </div> 
+    	</div>      
+    </div>

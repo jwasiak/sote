@@ -1,0 +1,57 @@
+<div id="st_frame_category_main" class="st_f_text_container block">
+    <div class="st_f_text_frame">    
+        <div class="st_f_text_frame_container">
+            <div class="st_f_text_frame_header">
+                <div class="st_f_text_frame_left">
+                    <div class="st_f_text_frame_right"></div>
+                </div>
+            </div>   
+            <div class="st_f_text_frame_content">
+            <div id="st_product-tree_main_background">
+                {assign var='i' value=0}
+                {foreach key=row item=category from=$results} 
+                    {assign var='i' value=$i+1}
+                    {if $i == 4}
+                    <div class="st_product-tree_main_category_last">
+                    {else}
+                    <div class="{$category.class_name}">
+                    {/if}
+                    <div style="height: {$height}px;">
+
+                    {if $category.show_image == 1}
+                        {assign var=category_url value=$category.object->getFriendlyUrl()}
+                        {st_link_to uri="stProduct/list?url=$category_url"}
+                            {st_category_image_tag category=$category.object image_type='thumb'} 
+                        {/st_link_to}
+                    {else}
+                        {st_get_component module='stProduct' component='treeProduct' params="id_category=`$category.id`"}
+                    {/if}
+                    </div>                   
+                     <ul class="st_product-tree_main_category_list">
+                        <li>{$category.name}</li>
+                        {if $category.subcategories}
+                            {foreach key=row item=category_subcategories from=$category.subcategories} 
+                            <li class="st_product-tree_main_separator">
+                            {$category_subcategories.name}    
+                            </li>
+                            {/foreach}
+                        {/if}
+                     </ul>
+                 </div>
+                {if $i == 4}
+                    <div style="clear: both;"></div>
+                    {assign var='i' value=0}
+                {/if}
+                {/foreach}
+                    </div>
+                </div>
+                <br class="st_clear_all" />
+                <div class="st_f_text_frame_footer">
+                    <div class="st_f_text_frame_left">
+                        <div class="st_f_text_frame_right"></div>
+                    </div>
+                </div>
+           </div>
+        </div>  
+        <br class="st_clear_all" />
+    </div>

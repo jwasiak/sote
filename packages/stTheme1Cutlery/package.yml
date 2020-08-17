@@ -1,0 +1,13 @@
+package:
+  name: stTheme1Cutlery
+  stability: stable
+  version: 7.0.2.3
+  summary: 'Cutlery Theme'
+  description: 'Cutlery Theme'
+  notes: |
+    - Poprawka graficzna
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

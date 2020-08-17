@@ -1,0 +1,71 @@
+propel: 
+    st_webpage: 
+        _attributes: 
+            phpName: Webpage
+            isI18N: true
+            i18nTable: st_webpage_i18n
+        opt_name: {change_column: name}
+        opt_content: {change_column: content}
+
+    st_webpage_i18n: 
+        _attributes: 
+            phpName: WebpageI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_webpage
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        content:
+            type: LONGTEXT
+        url:
+            type: VARCHAR
+            size: 255
+            required: false
+        other_link:
+            type: VARCHAR
+            size: 255
+        target:
+            type: BOOLEAN
+        _indexes:
+            webpage_Index1:
+                - url
+                - culture
+
+    st_webpage_group:
+        _attributes:
+            phpName: WebpageGroup
+            isI18N: true
+            i18nTable: st_webpage_group_i18n
+        opt_name: {change_column: name}
+
+    st_webpage_group_i18n:
+        _attributes:
+            phpName: WebpageGroupI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_webpage_group
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name:
+            type: VARCHAR
+            size: 255
+        _indexes:
+            webpage_group_Index1:
+                - culture

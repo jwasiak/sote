@@ -1,0 +1,72 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stAttributeTemplatePlugin.lib.model
+  st_attribute_template: 
+    _attributes: 
+      phpName: AttributeTemplate
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+  st_attribute_field: 
+    _attributes: 
+      phpName: AttributeField
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    attribute_template_id: 
+      type: INTEGER
+      foreignTable: st_attribute_template
+      foreignReference: id
+      onDelete: cascade
+    name: 
+      type: VARCHAR
+      size: 255
+    rank: 
+      type: INTEGER
+    _indexes: 
+      pattern_field_FKIndex1: 
+        - attribute_template_id
+  st_product_has_attribute_field: 
+    _attributes: 
+      phpName: ProductHasAttributeField
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    attribute_field_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_attribute_field
+      foreignReference: id
+      onDelete: restrict
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    value: 
+      type: VARCHAR
+      size: 255

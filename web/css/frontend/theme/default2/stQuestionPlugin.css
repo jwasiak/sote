@@ -1,0 +1,125 @@
+#question
+{
+    width:500px;
+    margin-left:250px
+}
+#question h2
+{
+    padding:10px;
+    text-align:center;
+}
+
+#question .box
+{
+    width:500px;
+    padding:5px;
+}
+
+
+#st_question_frontend-ask-text
+{
+    float:left;
+    margin-top:10px;
+}
+#st_question_frontend-ask-text_tag
+{
+    margin-left:110px;
+    width: 430px;
+    margin-top:10px;
+}
+#st_question_frontend-ask-email
+{
+    float:left;
+}
+#st_question_frontend-ask-email_tag
+{
+    margin-left:110px;
+    width: 430px;
+}
+#st_button-question_success
+{
+    margin:-2px;
+    width:510px;
+}
+#st_question_frontend-ask-email_tag input
+{
+    width:393px;
+}
+#st_question_frontend_send_success
+{
+    padding:10px;
+    color:#06B806;
+    margin-bottom:10px;
+}
+
+#depository_question_overlay, #price_question_overlay
+{
+            display:none;
+            z-index:10000;
+            background-color:#fff;
+            width:480px;
+
+            border:1px solid #666;
+            -moz-box-shadow:0 0 90px 5px #000;
+            -webkit-box-shadow: 0 0 90px #000;
+
+            -moz-border-radius-topleft:8px;
+            -moz-border-radius-bottomleft:8px;
+            -moz-border-radius-bottomright:8px;
+            -webkit-border-radius-topleft:8px;
+	    -webkit-border-radius-bottom-left:8px;
+	    -webkit-border-radius-bottom-right:8px;
+
+}
+
+#depository_question_overlay .close, #price_question_overlay .close
+{
+            background-image: url('/images/frontend/theme/default2/buttons/close.png');
+            position:absolute;
+            right:-15px;
+            top:-15px;
+            cursor:pointer;
+            height:35px;
+            width:35px;
+}
+
+#st_application-st_question-add .st_row label
+{
+    float:left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+#st_application-st_question-add fieldset
+{
+    border:none;
+}
+
+#st_application-st_question-add .st_error
+{
+    margin-left:110px;
+    padding:0px;
+    padding-top:5px;
+}
+
+#st_form-question-captcha, #st_form-question-email, #st_application-st_question-add textarea
+{
+    width: 320px;
+}
+
+#st_application-st_question-add textarea
+{
+    height: 140px;
+}
+
+#st_application-st_question-add .st_application
+{
+    border: none;
+}
+
+#button-add-question {
+    padding:3px;
+    margin-right: 15px;
+}

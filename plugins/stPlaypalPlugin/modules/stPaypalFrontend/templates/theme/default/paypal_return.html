@@ -1,0 +1,22 @@
+<div class="st_application">
+    <h1 class="st_title">
+        {__ text="Paypal"}
+    </h1>
+    {if $successful}
+        <p id="st_paypal-message-success">
+            {__ text="Dziękujemy za dokonanie płatności. Twoje zamówienie zostanie zrealizowane po otrzymaniu płatności."}
+        </p>
+    {elseif $already_payed}
+        <p id="st_paypal-message-failed">
+            {__ text="Zamówienie zostało już opłacone."}
+        </p>
+    {else}
+        <p id="st_paypal-message-failed">
+            {__ text="Wystąpił problem podczas realizowania płatności za pośrednictwem serwisu Paypal."}
+        </p>
+        <p id="st_paypal-checkout-button">
+            {$paypal_button}
+        </p>
+    {/if}
+    
+</div>

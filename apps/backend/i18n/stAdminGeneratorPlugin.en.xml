@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+        <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Brak rekordów</source>
+                <target>No results</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Brak rekordów - zmień kryteria wyszukiwania</source>
+                <target>No results - change your search criteria</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Usuń</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zapisz i dodaj</source>
+                <target>Save and add</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Twoje zmiany zostały zapisane</source>
+                <target>Your changes were saved</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Popraw dane w formularzu.</source>
+                <target>Correct the data in the form.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Utwórz</source>
+                <target>Create</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Wersja językowa wprowadzanych danych</source>
+                <target>Input data language</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Od</source>
+                <target>From</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Do</source>
+                <target>To</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Odznacz wszystkie</source>
+                <target>Uncheck all</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Zaznacz wszystkie</source>
+                <target>Check all</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>więcej...</source>
+                <target>more...</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>tak</source>
+                <target>yes</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>nie</source>
+                <target>no</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Jesteś pewien ze chcesz wykonać operacje</source>
+                <target>Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Jesteś pewien?</source>
+                <target>Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Dzisiaj o</source>
+                <target>Today</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Wczoraj o</source>
+                <target>Yesterday</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Zapisz i dodaj kolejny</source>
+                <target>Save and add</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Zapisz i dodaj nowy</source>
+                <target>Save and add</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Pokaż listę</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Dodaj do grupy</source>
+                <target>Add to the group</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Usuń z grupy</source>
+                <target>Remove from the group</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>niewypełnione</source>
+                <target>blank</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>pierwsza</source>
+                <target>first</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>poprzednia</source>
+                <target>previous</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>następna</source>
+                <target>next</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>ostatnia</source>
+                <target>last</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Zapisz i dodaj nowe</source>
+                <target>Save and add</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Aktywny filtr</source>
+                <target>Active filter</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>opcje zaawansowane</source>
+                <target>advanced options</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Zaznaczone:</source>
+                <target>Selected:</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Tryb edycji</source>
+                <target>Edit mode</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Tryb przegladania</source>
+                <target>View mode</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Zapisz filtr jako</source>
+                <target>Save this filter as</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>widoczny dla wszystkich</source>
+                <target>visible to all</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>wyników: %1%</source>
+                <target>results: %1%</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>z %1%</source>
+                <target>from %1%</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Szukaj</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Tak</source>
+                <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Nie</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Ustaw aktywne:</source>
+                <target>Set as active:</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Anuluj</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Jesteś pewien, że chcesz wykonać operację</source>
+                <target>Are you sure you want to perform the task</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>na wybranych rekordach?</source>
+                <target>on the selected records?</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Musisz wybrać przynajmniej jeden rekord</source>
+                <target>Select at least one record</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Wprowadź nazwę filtru</source>
+                <target>Enter a filter's name</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Filtr o podanej nazwie już istnieje, czy chcesz go nadpisac?</source>
+                <target>Filter with the given name already exists, do you want to overwrite it?</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Zamierzasz usunąć wybrany filtr. Jesteś pewien, że chcesz kontynuować?</source>
+                <target>You are about to delete the chosen filer. Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Dodaj nowy</source>
+                <target>Create new</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Powiązania</source>
+                <target>Related modules</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Nie zdefiniowałeś żadnego szablonu.</source>
+                <target>No template defined.</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Nie zdefiniowałeś filtru.</source>
+                <target>No filter defined.</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Nie ma zdefiniowanych szablonów.</source>
+                <target>No templates defined.</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Nie ma zdefiniowanych filtrów.</source>
+                <target>No filters defined.</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Brak boksów informacyjnych</source>
+                <target>No information boxes</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Brak grup boksów</source>
+                <target>No groups</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Brak stron www</source>
+                <target>No websites</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Brak grup linków stron www</source>
+                <target>No links groups</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Filtruj</source>
+                <target>Filter</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source><![CDATA[Opcja dostępna tylko z aktywną pomocą techniczną <br /><a target="_blank" href="http://www.sote.pl/pomoc-techniczna.html">http://www.sote.pl/pomoc-techniczna.html</a>]]></source>
+                <target><![CDATA[This option is available only with an active technical support <br /><a target="_blank" href="http://www.soteshop.com/service-support.html">http://www.soteshop.com/service-support.html</a>]]></target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Zamów aktualizację do wersji 7</source>
+                <target>Order update to version 7</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Zamów wersje komercyjną</source>
+                <target>Order commercial version</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Ustaw przypisane:</source>
+                <target>Set as assigned:</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Nieprzeczytane</source>
+                <target>Unread</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Przeczytane</source>
+                <target>Read</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Oznaczone jako</source>
+                <target>Marked as</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Usuwanie zakończone pomyślnie</source>
+                <target>Deleted succesfull</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

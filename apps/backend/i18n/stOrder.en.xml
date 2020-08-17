@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Brak nazwy statusu</source>
+            <target>Enter a status name</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Status o podanej nazwie już istnieje</source>
+            <target>Status with the given name already exists</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Data złożenia zamówienia:</source>
+            <target>Order date:</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>Zamówienie numer:</source>
+            <target>Order number:</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>Zamówienie złożone w sklepie zmieniło swój status. Aktualny status Twojego zamówienia:</source>
+            <target>The order placed in the shop changed its status. The current order status:</target>
+         </trans-unit>
+         <trans-unit id="6">
+            <source>Lista</source>
+            <target>List</target>
+         </trans-unit>
+         <trans-unit id="7">
+            <source>Dane bilingowe</source>
+            <target>Billing data</target>
+         </trans-unit>
+         <trans-unit id="8">
+            <source>Dane dostawy</source>
+            <target>Delivery data</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>NIP</source>
+            <target>VAT ID</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>Brak</source>
+            <target>None</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>Kod</source>
+            <target>Code</target>
+         </trans-unit>
+         <trans-unit id="12">
+            <source>Nazwa</source>
+            <target>Name</target>
+         </trans-unit>
+         <trans-unit id="13">
+            <source>Netto</source>
+            <target>Net</target>
+         </trans-unit>
+         <trans-unit id="14">
+            <source>Vat</source>
+            <target>VAT</target>
+         </trans-unit>
+         <trans-unit id="15">
+            <source>Brutto</source>
+            <target>Gross</target>
+         </trans-unit>
+         <trans-unit id="16">
+            <source>Ilość</source>
+            <target>Quantity</target>
+         </trans-unit>
+         <trans-unit id="17">
+            <source>Suma</source>
+            <target>Total</target>
+         </trans-unit>
+         <trans-unit id="18">
+            <source>Łącznie</source>
+            <target>Total</target>
+         </trans-unit>
+         <trans-unit id="19">
+            <source>Dostępne opcje:</source>
+            <target>Available options:</target>
+         </trans-unit>
+         <trans-unit id="20">
+            <source>Rodzaj</source>
+            <target>Type</target>
+         </trans-unit>
+         <trans-unit id="21">
+            <source>Koszt</source>
+            <target>Cost</target>
+         </trans-unit>
+         <trans-unit id="22">
+            <source>Numer przesyłki</source>
+            <target>Shipping number</target>
+         </trans-unit>
+         <trans-unit id="23">
+            <source>Parametr {NUMER} jest wymagany...</source>
+            <target>Parameter {NUMER} is required...</target>
+         </trans-unit>
+         <trans-unit id="24">
+            <source>Format może zawierać wyłącznie litery alfabetu angielskiego (a-z), cyfry oraz znaki _-...</source>
+            <target>The format can contain only letters of the English alphabet (a-z), numbers and characters _-...</target>
+         </trans-unit>
+         <trans-unit id="25">
+            <source>Podany parametr {'.$name.'} nie istnieje...</source>
+            <target>The given parameter {'.$name.'} doesn't exist...</target>
+         </trans-unit>
+         <trans-unit id="26">
+            <source>Statusy</source>
+            <target>Statuses</target>
+         </trans-unit>
+         <trans-unit id="27">
+            <source>Domyślny</source>
+            <target>Default</target>
+         </trans-unit>
+         <trans-unit id="28">
+            <source>Powiadomienie e-mail</source>
+            <target>E-mail notification</target>
+         </trans-unit>
+         <trans-unit id="29">
+            <source>Edycja statusu %%name%%</source>
+            <target>Edit the status %%name%%</target>
+         </trans-unit>
+         <trans-unit id="30">
+            <source>Domyślny status jest ustawiany dla każdego nowo złożonego zamówienia. 
+               <br/>Domyślnym statusem może być wyłącznie status rodzaju 
+               <b>oczekuje</b>
+            </source>
+            <target>The default status is set for every new order. 
+               <br/>Only the status type 
+               <b>pending</b> can be set as the default status
+            </target>
+         </trans-unit>
+         <trans-unit id="31">
+            <source>Wysyłaj powiadomienie e-mail</source>
+            <target>Send an e-mail notification</target>
+         </trans-unit>
+         <trans-unit id="32">
+            <source>Powiadomienie e-mail wysyłane jest w momencie wybrania statusu w zamówieniu</source>
+            <target>E-mail notification is sent when you choose an order status</target>
+         </trans-unit>
+         <trans-unit id="33">
+            <source>Numer</source>
+            <target>Number</target>
+         </trans-unit>
+         <trans-unit id="34">
+            <source>Klient</source>
+            <target>Customer</target>
+         </trans-unit>
+         <trans-unit id="35">
+            <source>Kwota</source>
+            <target>Amount</target>
+         </trans-unit>
+         <trans-unit id="36">
+            <source>Status</source>
+            <target>Status</target>
+         </trans-unit>
+         <trans-unit id="37">
+            <source>Złożone</source>
+            <target>Placed</target>
+         </trans-unit>
+         <trans-unit id="38">
+            <source>Potwierdzone</source>
+            <target>Confirmed</target>
+         </trans-unit>
+         <trans-unit id="39">
+            <source>Opłacone</source>
+            <target>Paid</target>
+         </trans-unit>
+         <trans-unit id="40">
+            <source>Konfiguracja zamówień</source>
+            <target>Configuration</target>
+         </trans-unit>
+         <trans-unit id="41">
+            <source>Edycja zamówienia numer %%number%%</source>
+            <target>Edit the order %%number%%</target>
+         </trans-unit>
+         <trans-unit id="42">
+            <source>Łączna wartość</source>
+            <target>Total amount</target>
+         </trans-unit>
+         <trans-unit id="43">
+            <source>Potwierdzone</source>
+            <target>Confirmed</target>
+         </trans-unit>
+         <trans-unit id="44">
+            <source>Uwagi od klienta</source>
+            <target>Customer notes</target>
+         </trans-unit>
+         <trans-unit id="45">
+            <source>Notatki sprzedawcy</source>
+            <target>Seller notes</target>
+         </trans-unit>
+         <trans-unit id="46">
+            <source>Notatki sprzedawcy nie są widoczne dla klienta</source>
+            <target>Seller notes aren't visible for a customer</target>
+         </trans-unit>
+         <trans-unit id="47">
+            <source>Usuń</source>
+            <target>Delete</target>
+         </trans-unit>
+         <trans-unit id="48">
+            <source>Zapisz</source>
+            <target>Save</target>
+         </trans-unit>
+         <trans-unit id="49">
+            <source>Pobierz zamówienie</source>
+            <target>Download an order</target>
+         </trans-unit>
+         <trans-unit id="50">
+            <source>Format numeru zamówienia:</source>
+            <target>Order number format:</target>
+         </trans-unit>
+         <trans-unit id="51">
+            <source>Zapisz konfigurację</source>
+            <target>Save</target>
+         </trans-unit>
+         <trans-unit id="52">
+            <source>e-mail informujący o zmianie statusu nie został wysłany do klienta -> sprawdź konfigurację e-mail...</source>
+            <target>E-mail informing about the change of the order status hasn't been sent to a customer -> check your e-mail configuration...</target>
+         </trans-unit>
+         <trans-unit id="53">
+            <source>Twoje zmiany zostały zapisane - informacja o zmianie statusu wysłana na adres</source>
+            <target>Your changes were saved - an information about the change of the order status has been sent to the address</target>
+         </trans-unit>
+         <trans-unit id="54">
+            <source>Zmieniono status zamówienia numer:</source>
+            <target>Order status was changed. Order number:</target>
+         </trans-unit>
+         <trans-unit id="55">
+            <source>Zamówienia Allegro</source>
+            <target>Allegro orders</target>
+         </trans-unit>
+         <trans-unit id="56">
+            <source>Dane klienta</source>
+            <target>Customer data</target>
+         </trans-unit>
+         <trans-unit id="57">
+            <source>Zawartość</source>
+            <target>Cart content</target>
+         </trans-unit>
+         <trans-unit id="58">
+            <source>Dostawa</source>
+            <target>Shipping method</target>
+         </trans-unit>
+         <trans-unit id="59">
+            <source>Płatność</source>
+            <target>Payment</target>
+         </trans-unit>
+         <trans-unit id="60">
+            <source>Podsumowanie</source>
+            <target>Summary</target>
+         </trans-unit>
+         <trans-unit id="61">
+            <source>Informacje Dodatkowe</source>
+            <target>Additional Information</target>
+         </trans-unit>
+         <trans-unit id="62">
+            <source>anulowane</source>
+            <target>cancelled</target>
+         </trans-unit>
+         <trans-unit id="63">
+            <source>oczekuje</source>
+            <target>pending</target>
+         </trans-unit>
+         <trans-unit id="64">
+            <source>zrealizowane</source>
+            <target>completed</target>
+         </trans-unit>
+         <trans-unit id="65">
+            <source>Zamówienia</source>
+            <target>Orders</target>
+         </trans-unit>
+         <trans-unit id="66">
+            <source>Konfiguracja</source>
+            <target>Configuration</target>
+         </trans-unit>
+         <trans-unit id="67">
+            <source>Zamówienie numer %number%: %status%</source>
+            <target>Order number %number%: %status%</target>
+         </trans-unit>
+         <trans-unit id="68">
+            <source>Przejdź do zamówienia</source>
+            <target>Go to your order</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>Data złożenia zamówienia:</source>
+            <target>Order date:</target>
+         </trans-unit>
+         <trans-unit id="70">
+            <source>Zarządzanie produktami w sklepie.</source>
+            <target>Manage your products.</target>
+         </trans-unit>
+         <trans-unit id="71">
+            <source>Wystaw produkty na aukcji</source>
+            <target>Issue the products on the auction</target>
+         </trans-unit>
+         <trans-unit id="72">
+            <source>Zamowienia</source>
+            <target>Orders</target>
+         </trans-unit>
+         <trans-unit id="73">
+            <source>Brak proformy.</source>
+            <target>No pro-forma invoice.</target>
+         </trans-unit>
+         <trans-unit id="74">
+            <source>Pokaż</source>
+            <target>Show</target>
+         </trans-unit>
+         <trans-unit id="75">
+            <source>Pobierz</source>
+            <target>Download</target>
+         </trans-unit>
+         <trans-unit id="76">
+            <source>Aktualizuj</source>
+            <target>Update</target>
+         </trans-unit>
+         <trans-unit id="77">
+            <source>Data dokonania płatności</source>
+            <target>Payment date</target>
+         </trans-unit>
+         <trans-unit id="78">
+            <source>Typ płatności</source>
+            <target>Payment method</target>
+         </trans-unit>
+         <trans-unit id="79">
+            <source>Rozliczona</source>
+            <target>Settled</target>
+         </trans-unit>
+         <trans-unit id="80">
+            <source>Nierozliczona</source>
+            <target>Unsettled</target>
+         </trans-unit>
+         <trans-unit id="81">
+            <source>Typ</source>
+            <target>Method</target>
+         </trans-unit>
+         <trans-unit id="82">
+            <source>firma:</source>
+            <target>company:</target>
+         </trans-unit>
+         <trans-unit id="83">
+            <source>imię i nazwisko:</source>
+            <target>name and surname:</target>
+         </trans-unit>
+         <trans-unit id="84">
+            <source>ulica, nr domu:</source>
+            <target>street address and number:</target>
+         </trans-unit>
+         <trans-unit id="85">
+            <source>kod, miasto:</source>
+            <target>postal code, city/town:</target>
+         </trans-unit>
+         <trans-unit id="86">
+            <source>kraj:</source>
+            <target>country:</target>
+         </trans-unit>
+         <trans-unit id="87">
+            <source>nip:</source>
+            <target>vat id:</target>
+         </trans-unit>
+         <trans-unit id="88">
+            <source>telefon:</source>
+            <target>phone number:</target>
+         </trans-unit>
+         <trans-unit id="89">
+            <source>Realizacja</source>
+            <target>Execute</target>
+         </trans-unit>
+         <trans-unit id="90">
+            <source>Edycja</source>
+            <target>Edit</target>
+         </trans-unit>
+         <trans-unit id="91">
+            <source>Rabat</source>
+            <target>Discount</target>
+         </trans-unit>
+         <trans-unit id="92">
+            <source>Netto (-%)</source>
+            <target>Net (-%)</target>
+         </trans-unit>
+         <trans-unit id="93">
+            <source>Cena:</source>
+            <target>Price:</target>
+         </trans-unit>
+         <trans-unit id="94">
+            <source>Brutto (-%)</source>
+            <target>Gross (-%)</target>
+         </trans-unit>
+         <trans-unit id="95">
+            <source>ukryj</source>
+            <target>hide</target>
+         </trans-unit>
+         <trans-unit id="96">
+            <source>zmień</source>
+            <target>change</target>
+         </trans-unit>
+         <trans-unit id="97">
+            <source>Wystaw fakturę</source>
+            <target>Issue an invoice</target>
+         </trans-unit>
+         <trans-unit id="98">
+            <source>Klient prosi o fakturę</source>
+            <target>Customer asks for an invoice</target>
+         </trans-unit>
+         <trans-unit id="99">
+            <source>wystaw</source>
+            <target>issue</target>
+         </trans-unit>
+         <trans-unit id="100">
+            <source>Faktura proforma</source>
+            <target>Pro-forma invoice</target>
+         </trans-unit>
+         <trans-unit id="101">
+            <source>Faktura VAT</source>
+            <target>VAT invoice</target>
+         </trans-unit>
+         <trans-unit id="102">
+            <source>Podaj nazwę produktu</source>
+            <target>Enter a product name</target>
+         </trans-unit>
+         <trans-unit id="103">
+            <source>Podaj kod produktu</source>
+            <target>Enter a product code</target>
+         </trans-unit>
+         <trans-unit id="104">
+            <source>Popraw dane</source>
+            <target>Correct the data</target>
+         </trans-unit>
+         <trans-unit id="105">
+            <source>Musisz dodać przynajmniej jeden produkt</source>
+            <target>Add at least one product</target>
+         </trans-unit>
+         <trans-unit id="106">
+            <source>Uzupełnij ulicę</source>
+            <target>Enter a street address</target>
+         </trans-unit>
+         <trans-unit id="107">
+            <source>Uzupełnij numer domu</source>
+            <target>Enter a house number</target>
+         </trans-unit>
+         <trans-unit id="108">
+            <source>Uzupełnij kod pocztowy</source>
+            <target>Enter a postal code</target>
+         </trans-unit>
+         <trans-unit id="109">
+            <source>Uzupełnij miasto</source>
+            <target>Enter a city/town</target>
+         </trans-unit>
+         <trans-unit id="110">
+            <source>Kod rabatowy</source>
+            <target>Coupon code</target>
+         </trans-unit>
+         <trans-unit id="111">
+            <source>Kod</source>
+            <target>Code</target>
+         </trans-unit>
+         <trans-unit id="112">
+            <source>Rabat</source>
+            <target>Discount</target>
+         </trans-unit>
+         <trans-unit id="113">
+            <source>Ważny do</source>
+            <target>Expires</target>
+         </trans-unit>
+         <trans-unit id="114">
+            <source>adres:</source>
+            <target>address:</target>
+         </trans-unit>
+         <trans-unit id="115">
+            <source>adres cd:</source>
+            <target>address more:</target>
+         </trans-unit>
+         <trans-unit id="116">
+            <source>województwo:</source>
+            <target>region:</target>
+         </trans-unit>
+         <trans-unit id="117">
+            <source>Dołącz kod rabatowy</source>
+            <target>Add a coupon code</target>
+         </trans-unit>
+         <trans-unit id="118">
+            <source>Opis</source>
+            <target>Description</target>
+         </trans-unit>
+         <trans-unit id="119">
+            <source>Do powiadomienia e-mail zostanie dołączony jednorazowy kod rabatowy.
+               <br/>Kod rabatowy może być generowany wyłącznie dla statusów rodzaju 
+               <b>zrealizowane</b>
+            </source>
+            <target>A single coupon code will be added to an e-mail notification.
+               <br/>Coupon code can be generated only for the order status type 
+               <b>completed</b>
+            </target>
+         </trans-unit>
+         <trans-unit id="120">
+            <source>Ważny przez</source>
+            <target>Valid for</target>
+         </trans-unit>
+         <trans-unit id="121">
+            <source>dni</source>
+            <target>days</target>
+         </trans-unit>
+         <trans-unit id="122">
+            <source>Określa ilość dni, po upływie których, wygenerowany kod rabatowy staje się nieważny.
+               <br/>Wartość 0 oznacza brak limitu
+            </source>
+            <target>Set the number of days, after which a generated coupon code becomes invalid.
+               <br/>Value of 0 means there is no limit.
+            </target>
+         </trans-unit>
+         <trans-unit id="123">
+            <source>Dostępne parametry: {NUMER}, {DZIEN}, {MIESIAC}, {ROK}</source>
+            <target>Available parameters: {NUMBER}, {DAY}, {MONTH}, {YEAR}</target>
+         </trans-unit>
+         <trans-unit id="124">
+            <source>Minimalna wartość zamówienia:</source>
+            <target>Minimum order value:</target>
+         </trans-unit>
+         <trans-unit id="125">
+            <source>Wartość 0 oznacza brak progu</source>
+            <target>Value of 0 means there is no threshold</target>
+         </trans-unit>
+         <trans-unit id="126">
+            <source>Numer aukcji</source>
+            <target>Auction number</target>
+         </trans-unit>
+         <trans-unit id="127">
+            <source>Kody rabatowe są wyłączone</source>
+            <target>Coupon codes are disabled</target>
+         </trans-unit>
+         <trans-unit id="128">
+            <source>Włącz kody rabatowe</source>
+            <target>Enable the coupon codes</target>
+         </trans-unit>
+         <trans-unit id="129">
+            <source>Ostatnio sprzedane produkty</source>
+            <target>Recently sold products</target>
+         </trans-unit>
+         <trans-unit id="130">
+            <source>Wartość</source>
+            <target>Sales</target>
+         </trans-unit>
+         <trans-unit id="131">
+            <source>nr</source>
+            <target>no</target>
+         </trans-unit>
+         <trans-unit id="132">
+            <source>złożone</source>
+            <target>placed</target>
+         </trans-unit>
+         <trans-unit id="133">
+            <source>pot.</source>
+            <target>confirmed</target>
+         </trans-unit>
+         <trans-unit id="134">
+            <source>klient</source>
+            <target>customer</target>
+         </trans-unit>
+         <trans-unit id="135">
+            <source>kwota</source>
+            <target>amount</target>
+         </trans-unit>
+         <trans-unit id="136">
+            <source>Zamówienia o statusie "oczekuje"</source>
+            <target>Orders with status "pending"</target>
+         </trans-unit>
+         <trans-unit id="137">
+            <source>pokaż</source>
+            <target>show</target>
+         </trans-unit>
+         <trans-unit id="138">
+            <source>Faktury do wystawienia</source>
+            <target>Invoices to issue</target>
+         </trans-unit>
+         <trans-unit id="139">
+            <source>szt.</source>
+            <target>quantity</target>
+         </trans-unit>
+         <trans-unit id="140">
+            <source>Bon zakupowy: %code%</source>
+            <target>Gift card: %code%</target>
+         </trans-unit>
+         <trans-unit id="141">
+            <source>Termin dostawy</source>
+            <target>Delivery time</target>
+         </trans-unit>
+         <trans-unit id="142">
+            <source>Do zapłaty</source>
+            <target>To pay</target>
+         </trans-unit>
+         <trans-unit id="143">
+            <source>J.m.</source>
+            <target>UOM</target>
+         </trans-unit>
+         <trans-unit id="144">
+            <source>Pobierz fakturę</source>
+            <target>Download invoice</target>
+         </trans-unit>
+         <trans-unit id="145">
+            <source>Pobierz fakturę proforma</source>
+            <target>Download proforma invoice</target>
+         </trans-unit>
+         <trans-unit id="146">
+            <source>Dołącz link do faktury proforma</source>
+            <target>Include a link to a proforma invoice</target>
+         </trans-unit>
+         <trans-unit id="147">
+            <source>Do powiadomienia e-mail zostanie dołączony link do faktury proforma</source>
+            <target>The notification e-mail link will be appended to the proforma invoice</target>
+         </trans-unit>
+         <trans-unit id="148">
+            <source>Dołącz link do faktury</source>
+            <target>Include a link to a invoice</target>
+         </trans-unit>
+         <trans-unit id="149">
+            <source>Do powiadomienia e-mail zostanie dołączony link do faktury</source>
+            <target>The notification e-mail link will be appended to the invoice</target>
+         </trans-unit>
+         <trans-unit id="149">
+            <source>Faktura</source>
+            <target>Invoice</target>
+         </trans-unit>
+         <trans-unit id="150">
+            <source>Sprzedaż</source>
+            <target>Sale</target>
+         </trans-unit>
+         <trans-unit id="151">
+            <source>Konfiguracja zamówień</source>
+            <target>Orders configuration</target>
+         </trans-unit>
+         <trans-unit id="153">
+            <source>Domyślny status jest ustawiany dla każdego nowo złożonego zamówienia. <br/>Domyślnym statusem może być wyłącznie status rodzaju <b>oczekuje</b></source>
+            <target>The default status is set for every new order.<br/>Only the status type <b>pending</b> can be set as the default status</target>
+         </trans-unit>
+         <trans-unit id="154">
+            <source>Do powiadomienia e-mail zostanie dołączony jednorazowy kod rabatowy.<br/>Kod rabatowy może być generowany wyłącznie dla statusów rodzaju <b>zrealizowane</b></source>
+            <target>A single coupon code will be added to an e-mail notification.<br/>Coupon code can be generated only for the order status type <b>completed</b></target>
+         </trans-unit>
+         <trans-unit id="155">
+            <source>Określa ilość dni, po upływie których, wygenerowany kod rabatowy staje się nieważny.<br/>Wartość 0 oznacza brak limitu</source>
+            <target>Set the number of days, after which a generated coupon code becomes invalid.<br/>Value of 0 means there is no limit.</target>
+         </trans-unit>
+         <trans-unit id="156">
+            <source>Podaj kod</source>
+            <target>Enter code</target>
+         </trans-unit>
+         <trans-unit id="157">
+            <source>kod rabatowy</source>
+            <target>coupon code</target>
+         </trans-unit>
+         <trans-unit id="158">
+            <source>Kody</source>
+            <target>Codes</target>
+         </trans-unit>
+         <trans-unit id="159">
+             <source>Numer VAT UE został zweryfikowany za pośrednictwem usługi VIES. Kliknij na ikonkę, aby przejść do informacji szczegółowych.</source>
+             <target>EU VAT number has been verified via VIES service. Click on the icon to go into details.</target>
+         </trans-unit>
+         <trans-unit id="160">
+             <source>VAT UE</source>
+             <target>EU VAT</target>
+         </trans-unit>
+         <trans-unit id="161">
+            <source>Numer przesyłki:</source>
+            <target>Shipping number:</target>
+         </trans-unit>
+         <trans-unit id="162">
+            <source>Punkty</source>
+            <target>Points</target>
+         </trans-unit>
+         <trans-unit id="163">
+            <source>Wydane</source>
+            <target>Spend</target>
+         </trans-unit>
+         <trans-unit id="164">
+            <source>Zarobione</source>
+            <target>Earn</target>
+         </trans-unit>
+         <trans-unit id="165">
+            <source>Rozliczone</source>
+            <target>Settle</target>
+         </trans-unit>
+         <trans-unit id="166">
+            <source>tak</source>
+            <target>yes</target>
+         </trans-unit>
+         <trans-unit id="167">
+            <source>nie</source>
+            <target>no</target>
+         </trans-unit>
+         <trans-unit id="168">
+            <source>(rozlicz)</source>
+            <target>(settle)</target>
+         </trans-unit>
+         <trans-unit id="169">
+            <source>Numer przesyłki:</source>
+            <target>Shipping number:</target>
+         </trans-unit>
+         <trans-unit id="170">
+            <source>Rabat</source>
+            <target>Discount</target>
+         </trans-unit>
+         <trans-unit id="171">
+            <source>Zgoda na przesyłanie danych w celu zbadania opinii</source>
+            <target>Consent to send data for examine the opinion</target>
+         </trans-unit>         
+         <trans-unit id="172">
+            <source>Recenzja</source>
+            <target>Review</target>
+         </trans-unit>
+         <trans-unit id="178">
+            <source>Pokaż wszystkie</source>
+            <target>Show all</target>
+         </trans-unit>
+         <trans-unit id="179">
+            <source>Pokaż indywidualne</source>
+            <target>Show custom</target>
+         </trans-unit>
+         <trans-unit id="180">
+            <source>Tak</source>
+            <target>Yes</target>
+         </trans-unit>
+         <trans-unit id="181">
+            <source>Nie</source>
+            <target>No</target>
+         </trans-unit>
+         <trans-unit id="182">
+            <source>Kod produktu</source>
+            <target>Product code</target>
+         </trans-unit>
+         <trans-unit id="183">
+            <source>Udzielony rabat</source>
+            <target>Order discount</target>
+         </trans-unit>
+         <trans-unit id="184">
+            <source>Szukaj w historii zamówień</source>
+            <target>Search in order history</target>
+         </trans-unit>
+         <trans-unit id="185">
+            <source>Bon zakupowy</source>
+            <target>Gift card</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

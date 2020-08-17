@@ -1,0 +1,23 @@
+<!--<button class="btn btn-default inbank-calculate" data-title="{__ text='RATY Inbank'}" data-amount="{$amount}">{__ text="Oblicz"}</button>-->
+<img src="/plugins/stInBankPlugin/images/inbank_raty_v1.png" style="max-height: 27px; margin-left: 5px">
+<!--
+{literal}
+    <script>
+        jQuery(function($) {
+            $('.inbank-calculate').click(function() {
+                var btn = $(this);
+                var current = $('.payment-radio:checked');
+                var title = current.length ? current.data('payment-name') : btn.data('title');
+                var amount = btn.data('amount');
+                if ($.inBank.validateAmount(amount, title)) {
+                    var modal = $('#inbank-modal-message');
+
+                    $.inBank.showMessage(title, '<iframe src="https://brandwise.cloud/dev/inbank/calc/?price=' + amount + '" style="height: 826px; border: none;"></iframe>', true);
+                }
+
+                return false;
+            });
+        });
+    </script>
+{/literal}
+-->

@@ -1,0 +1,9 @@
+#sf_admin_list_th_id {
+    width: 100px;
+}
+
+#sf_admin_container #unassociated_field, #sf_admin_container #associated_field {
+	width: 250px;
+	
+}
+

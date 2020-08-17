@@ -1,0 +1,15 @@
+package:
+  name: stSlideBannerPlugin
+  stability: stable
+  version: 7.2.0.11
+  summary: Baner
+  description: 'Baner na stonie glownej'
+  notes: |
+    - Poprawka bledu 500 podczas instalacji
+  maintainers:
+    'Piotr Halas':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stFrontend: 1.2.0

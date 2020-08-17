@@ -1,0 +1,80 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Countries
+        countries_area_model_class: CountriesArea
+        theme:                      simple
+        head:
+            package:                stCountriesPlugin
+
+        applications:               [stDelivery]
+
+        custom_actions:
+          list:                     [countries_area]
+          edit:                     [countries_area]
+
+        list:
+          title:                    Lista krajów
+          peer_method:              doSelectWithI18n
+          peer_count_method:        doCountWithI18n
+          menu:
+            display:                [countries_list, countries_area_list]
+            fields:
+              countries_list:       {name: Lista krajów, action: @stCountriesPluginDefault}
+              countries_area_list:  {name: Lista stref, action: stCountriesBackend/countriesAreaList}
+          display:                  [name, is_active, is_default]
+          object_actions:
+            _edit:                  -
+          fields:
+            name:                   {name: Nazwa, sort_field: countries.opt_name, params: size=30}
+            is_active:              {name: Aktywny}
+            is_default:             {name: Domyślny}
+          filters:
+            name:                   {filter_field: countries.opt_name}
+          actions:                  []
+          select_actions:
+            display:                [activate, deactivate]
+            actions:
+              activate:             {name: Aktywuj, action: activateCountry}
+              deactivate:           {name: Dezaktywuj, action: deactivateCountry}
+
+
+
+        edit:
+          title:                    Edycja kraju %%name%%
+          display:                  [is_active, _edit_is_default, name]
+          fields:
+            name:                   {name: Nazwa, params: disabled=false}
+            is_active:              {name: Aktywny}
+            edit_is_default:        {name: Domyślny}
+          actions:
+            _list:                  {name: Lista krajów, i18n: stCountriesBackend}
+            _save:                  {name: Zapisz}
+
+        countries_area_list:
+          title:                    Lista stref
+          display:                  [=name, is_active]
+          object_actions:
+            _edit:                  -
+            _delete:                -
+          menu:                     {use: list.menu}
+          actions:
+            _create:                {name: Dodaj nową strefę, i18n: stCountriesBackend}
+          fields:
+            name:                   {name: Nazwa strefy}
+            is_active:              {name: Aktywna}
+
+        countries_area_edit:
+          title:                    Edycja strefy %%name%%
+          display:                  [is_active, name, ~edit_countries]
+          fields:
+            is_active:              {name: Aktywna}
+            name:                   {name: Nazwa}
+            edit_countries:         {name: Kraje, help: "Przytrzymaj klawisz <b>Ctrl</b>, aby wybrać wiele krajów jednocześnie"}
+          actions:
+            _delete:                {name: Usuń strefę, i18n: stCountriesBackend}
+            _list:                  {name: Lista stref, i18n: stCountriesBackend}
+            _save:                  {name: Zapisz}
+            _save_and_add:          {name: Zapisz i dodaj}
+          
+

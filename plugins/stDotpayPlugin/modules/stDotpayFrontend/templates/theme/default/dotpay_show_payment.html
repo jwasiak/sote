@@ -1,0 +1,42 @@
+{if $check_configuration}
+    <div id="st_box_payment">
+        <p>{__ text="Kliknij przycisk"} <b>{__ text='"Zapłać"'}</b> {__ text="aby przejść do serwisu Dotpay."}</p>
+        <p><img id="st_home" src="/images/frontend/theme/default/stDotpayPlugin/logo.jpg" alt=""/></p>
+        {$form_start}
+            {$input_id}
+            {$input_currency}
+            {$input_amount}
+            {$input_description}
+            {$input_lang}
+            {$input_channel}
+            {$input_ch_lock}
+            {$input_onlinetransfer}
+            {$input_url}
+            {$input_type}
+            {$input_buttontext}
+            {$input_urlc}
+            {$input_control}
+            {$input_firstname}
+            {$input_lastname}
+            {$input_email}
+            {$input_street}
+            {$input_street_n1}
+            {$input_street_n2}
+            {$input_city}
+            {$input_postcode}
+            {$input_phone}
+            {$input_country}
+            {$input_p_info}
+            {$input_p_email}
+            <div id="st_form-payment-submit" class="st_button-container">
+                <div class="st_button st_align-right">
+                    <div class="st_button-left">
+                        {$submit_button}
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+{else}
+    {__ text="Płatność została błędnie skonfigurowana."}
+{/if}

@@ -1,0 +1,17 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/config
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/config/schema.dbd.xml
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/config/schema.xml
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend/templates
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend/templates/theme
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend/templates/theme/default
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend/templates/theme/default/accessories_list.html
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend/templates/theme/default2
+/home/jarek/src/soteshop/plugins/stAccessoriesPlugin/modules/stAccessoriesFrontend/templates/theme/default2/accessories_list.html
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/frontend
+/home/jarek/src/soteshop/apps/frontend/i18n
+/home/jarek/src/soteshop/apps/frontend/i18n/stAccessoriesFrontend.en.xml

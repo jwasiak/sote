@@ -1,0 +1,8 @@
+<div class="languages">
+    {if count($languages) > 1}
+        {foreach item=language from=$languages}
+            {$language}
+        {/foreach}
+    {/if}
+    {slot name="language" hidden="true"}{/slot}
+</div>

@@ -1,0 +1,360 @@
+body,
+.caption .name
+{
+	font-weight: 400;
+}
+
+a:hover, a:focus
+{
+	color: #989898;
+}
+
+#vertical-categories li.active>a, .category:hover h2 a, a.primary
+{
+	color: #EAB600;
+}
+
+.tinymce_html h1, .tinymce_html h2, .tinymce_html h3
+{
+	font-family: 'Oswald', sans-serif;
+}
+
+.tinymce_html h1
+{
+	font-size: 1.333rem;
+}
+
+.tinymce_html h2
+{
+	font-size: 1.2rem;
+}
+
+.tinymce_html h3
+{
+	font-size: 1.067rem;
+}
+
+footer .container
+{
+	background-color: #fff;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
+{
+	color: #b5b5b5;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav>.open>a:focus
+{
+	background-color: #f3f3f3;
+	color: #000;
+}
+
+#header-navbar
+{
+	background-color: #f3f3f3;
+}
+
+.btn-group .btn-navbar,
+#product-navbar .btn,
+#shopping-cart .table td .btn-xs
+{
+	border-color: #dadada;
+	box-shadow: none;
+}
+
+.btn-navbar, .btn-navbar:active, .btn-navbar:hover, .btn-navbar:focus
+{
+	background-color: #eee;
+	color: #464646;
+}
+
+.btn-navbar.collapsed:not(:hover):focus, .btn-navbar.collapsed
+{
+	color: #464646;
+}
+
+.panel-title,
+#product-navbar h1, .title h1, .title h2
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#product-navbar .btn-group .btn,
+#btn-product-filter
+{
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+}
+
+#left .panel-default > .panel-heading,
+#vertical-categories > .panel-heading
+{
+	background-color: transparent;
+	color: #333;
+	margin: 0;
+	border: none;
+}
+
+.panel-default > .panel-heading
+{
+	border: none;
+}
+
+.panel-body
+{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+#vertical-categories
+{
+	box-shadow: none;
+}
+
+.product .price
+{
+	font-weight: 600;
+}
+
+.btn
+{
+	border: none;
+	-webkit-box-shadow: 0px 1px 2px #979797;
+    -moz-box-shadow: 0px 1px 2px #979797;
+    box-shadow: 0px 1px 2px #979797;
+}
+
+.btn-shopping-cart,
+.btn-primary,
+.information .btn-shopping-cart
+{
+	color: #000000;
+    background-color: #ffc705;
+    font-weight: 600;
+}
+
+.btn-shopping-cart:hover,
+.btn-shopping-cart:focus,
+.btn-shopping-cart:active,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.information .btn-shopping-cart:hover,
+.information .btn-shopping-cart:focus,
+.information .btn-shopping-cart:active
+{
+	background: #585858;
+    color: #fff;
+}
+
+.thumbnail .caption
+{
+	padding: 9px 17px;
+}
+
+.back-side-product
+{
+	border: none;
+}
+
+.product_group .other_group a:before
+{
+	background-color: #585858;
+}
+
+footer .list-group h5
+{
+	font-weight: 600;
+}
+
+footer .navbar-default
+{
+	background-color: #fff;
+}
+
+#homepage-carousel:before, 
+.homepage-carousel:before
+{
+	display: none;
+}
+
+#homepage-carousel, .homepage-carousel
+{
+	background-color: #fff;
+}
+
+#logo
+{
+	text-align: center;
+}
+
+.more .dropdown-toggle .icon-bar, #nav-button-menu.collapsed .icon-bar
+{
+	background-color: #464646;
+}
+
+.more.open .dropdown-toggle .icon-bar, #nav-button-menu.collapsed:hover .icon-bar, #nav-button-menu .icon-bar
+{
+	background-color: #000;
+}
+
+.card .prices .price
+{
+	color: #333;
+}
+
+.card .nav-tabs > li > a:hover, 
+.card .nav-tabs > li.active > a, 
+.card .nav-tabs > li.active > a:hover, 
+.card .nav-tabs>li.active>a:focus
+{
+	border-color: #FFC705;
+}
+
+.category .list-unstyled
+{
+	border: none;
+	box-shadow: 0 2px 2px rgba(0,0,0, .2)
+}
+
+#shopping-cart .panel-default, #order-confirm .panel-default { 
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+	#nav-menu
+	{
+		background-color: #fff;
+	}
+
+	#header-navbar
+	{
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.29);
+	}
+
+	#nav-menu .navbar-nav > li > a:hover, #nav-menu .navbar-nav>li.active>a,
+	#nav-menu .navbar-nav > li.dropdown > a:hover, #nav-menu .navbar-nav>li.open>a
+	{
+		background-color: #f3f3f3;
+	}
+
+	#nav-menu .dropdown-menu a,
+	#nav-menu>.navbar-nav>li>a,
+	#nav-menu .navbar-nav > li.dropdown > a:hover, #nav-menu .navbar-nav>li.open>a
+	{
+		color: #464646;
+	}
+
+	#nav-menu .navbar-nav > li > a:hover,
+	#nav-menu .navbar-nav > li.open > a, 
+	#nav-menu .navbar-nav>li.active>a
+	{
+		color: #929292;
+	}
+}
+
+@media (min-width: 768px) {
+
+	footer .navbar-default
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.panel-primary,
+	.panel-default,
+	.thumbnail,
+	#homepage-carousel, 
+	.homepage-carousel,
+	#one-column-layout #webpage-show,
+	#category_info
+	{
+		border: none;
+		-webkit-box-shadow: 0px 1px 2px #d3d3d3;
+	    -moz-box-shadow: 0px 1px 2px #d3d3d3;
+	    box-shadow: 0px 1px 2px #d3d3d3;
+	}
+
+	.navbar-collapse
+	{
+		padding-right: 0;
+	}
+
+	.row
+	{
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+	{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.home-list .product-list .thumbnail, 
+	#blog .thumbnail,
+	.thumbnail
+	{
+		margin-bottom: 14px;
+	}
+
+	#header
+	{	
+		background: url(/images/frontend/theme/giallorwd/bg_header.jpg) top left no-repeat;
+		min-height: 161px;
+	}
+
+	#logo a
+	{
+		height: 121px;
+		display: table-cell;
+	}
+
+	#logo
+	{
+		padding-left: 60px;
+	}
+
+	.product-filter-container .panel,
+	.product-filter-container .panel-body
+	{
+		padding: 0;
+		box-shadow: none;
+	}
+
+	.product-filter-container .panel > .panel-heading
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 992px) {
+
+	#nav-menu>.navbar-nav>li>a
+	{
+		color: #464646;
+		font-size: 1rem;
+		border-left: 1px solid #dadada; 
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
+
+	#nav-menu>.navbar-nav>li.home-icon>a
+	{
+		padding-top: 14px;
+		padding-bottom: 14px;
+		border-left: none;
+	}
+
+	#nav-menu .navbar-nav > li > a:hover, #nav-menu .navbar-nav>li.active>a
+	{
+		background-color: #eee;
+		color: #000;
+	}
+
+}

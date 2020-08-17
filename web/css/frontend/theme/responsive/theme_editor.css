@@ -1,0 +1,34 @@
+#theme-editor {
+   z-index: 100000;
+}
+
+#theme-editor .checkbox {
+   padding: 5px 5px;
+}
+
+#theme-editor .editor-config {
+   line-height: 0px;
+   padding-top: 14px;
+   padding-bottom: 14px;
+}
+
+#theme-editor .editor-config .glyphicon {
+   font-size: 22px;
+}
+
+#theme-editor.editor-autohide {
+   padding-bottom: 10px;
+}
+
+#theme-editor.editor-autohide .navbar {
+   display: none;
+}
+
+#theme-editor.editor-autohide:hover .navbar {
+   display: block;
+}
+
+#theme-editor .container
+{
+	background: none;
+}

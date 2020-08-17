@@ -1,0 +1,1 @@
+<?php echo select_tag("payment_type[module_name]",options_for_select(stPaymentType::getPaymentMethod(true), $payment_type->getModuleName())); ?>

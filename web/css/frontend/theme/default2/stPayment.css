@@ -1,0 +1,73 @@
+.payment p
+{
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align:left;
+    margin-left:24px;
+}
+
+#st_component-st_payment-list h3
+{
+    border-color:#E3E3E3;
+    border-style:solid;
+    border-width:0 0 1px;
+}
+
+#st_component-st_payment-list
+{
+    width:270px;
+}
+#st_component-st_payment-list .st_title
+{
+    border-color:#E3E3E3;
+    border-style:solid;
+    border-width:0 0 1px;
+    padding-left:5px;
+    margin-left:5px
+}
+.payment
+{
+    padding-left:5px;
+}
+
+#st_form-payment-submit
+{        
+    overflow:hidden;
+    height:45px;
+}
+
+#st_form-payment-submit .st_button
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_middle.png) repeat-x scroll left top;
+}
+
+#st_form-payment-submit .st_button .st_button-left
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_left.png) no-repeat scroll left top;
+}
+
+#st_form-payment-submit .st_button .st_button-left input
+{
+    background:transparent url(/images/frontend/theme/default/button_confirm_right.png) no-repeat scroll right top;
+    display:block;
+    padding:0px 40px 0px 10px;
+    height:41px;
+    font-weight: bold;
+}
+
+#st_box_payment
+{
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    clear: both;
+}
+
+#stPayment_return .content p{
+    text-align: center;
+}
+
+#order_payment .content
+{
+	padding: 10px 70px;
+}

@@ -1,0 +1,89 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                OnlineCodes
+        theme:                      simple
+        head:
+            applications:           [Product]
+            package:                appOnlineCodesPlugin
+
+        list:
+            menu:
+              display:              [list, online_files]
+              fields:
+                list:               {name: Lista kodów, action: appOnlineCodesBackend/index}
+                online_files:       {name: Lista plików, action: appOnlineCodesBackend/onlineFilesList}
+            title:                  Lista kodów
+            description:            Zarządzanie kodami i plikami online
+            display:                [code, _product_code, _product_name, usage_limit, used]
+            fields:
+                code:               {name: Kod}
+                product_code:       {name: Kod produktu, sort_field: product.code}
+                product_name:       {name: Nazwa produktu, sort_field: product.opt_name}
+                usage_limit:        {name: Limit użyć}
+                used:               {name: Użyty}
+            peer_method:            doSelectJoinProduct
+            filters:
+                product_code:       {partial: filter_by_product_code}
+                product_name:       {partial: filter_by_product_name}
+            object_actions:
+                _edit:              -
+                _delete:            -
+            actions:
+                _create:            {name: Dodaj nowy kod, i18n: appOnlineCodesBackend}
+
+        edit:
+            menu:                   {use: list.menu}
+            title:                  Edycja kodu
+            description:            Zarządzanie kodami i plikami online
+            display:
+                " ":                [code, _product_edit_code, _product_edit_name, usage_limit, used]
+            fields:
+                code:               {name: Kod}
+                product_edit_code:  {name: Kod produktu}
+                product_edit_name:  {name: Nazwa produktu}
+                usage_limit:        {name: Limit użyć, help: Wartość 0 oznacza brak limitu.}
+                used:               {name: Użyty}
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _delete:            {name: Usuń}
+                
+        online_files_model_class:   OnlineFiles
+        custom_actions:
+            list:                   [online_files]
+            edit:                   [online_files]
+        
+        online_files_list:
+            menu:                   {use: list.menu}
+            title:                  Lista plików
+            description:            Zarządzanie kodami i plikami online
+            display:                [_filename_list, _size, _product_code, _product_name]
+            fields:
+                filename_list:      {name: Nazwa, sort_field: online_files.filename}
+                size:               {name: Rozmiar}
+                product_code:       {name: Kod produktu, sort_field: product.code}
+                product_name:       {name: Nazwa produktu, sort_field: product.opt_name}
+            peer_method:            doSelectJoinProduct
+            filters:
+                filename_list:      {partial: filter_by_filename_list}
+                product_code:       {partial: filter_by_product_code}
+                product_name:       {partial: filter_by_product_name}
+            object_actions:
+                _delete:            -
+            actions:
+                _create:            {name: Dodaj nowy plik, i18n: appOnlineCodesBackend}
+
+        online_files_edit:
+            menu:                   {use: list.menu}
+            title:                  Edycja kodu
+            description:            Zarządzanie kodami i plikami online
+            display:
+                " ":                [_filename, _product_edit_code, _product_edit_name]
+            fields:
+                filename:           {name: Załącz plik}
+                product_edit_code:  {name: Kod produktu}
+                product_edit_name:  {name: Nazwa produktu}
+            actions:
+                _list:              {name: Lista, i18n: stAdminGeneratorPlugin}
+                _save:              {name: Zapisz, i18n: stAdminGeneratorPlugin}

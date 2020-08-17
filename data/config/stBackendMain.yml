@@ -1,0 +1,10 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2010/06/07 16:24:12
+      fields: 
+        is_navi_bar: "1"
+        is_icon_menu: "1"
+        date_type: "month"
+        

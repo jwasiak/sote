@@ -1,0 +1,11 @@
+edit:
+    display:		
+        "NONE":     [_mpn_code]
+    fields:
+        mpn_code:   {name: Kod MPN, params: size=20, i18n: stGoogleShoppingBackend, hide_row: true, module: stGoogleShoppingBackend}
+export:
+    fields:
+        mpn_code:   {name: Kod MPN, sample: 0123456789, type: string}
+import:
+    fields:
+        mpn_code:   {name: Kod MPN, sample: 0123456789, type: custom}

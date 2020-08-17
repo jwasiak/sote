@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2012-07-02T03:01:07Z">
+		<body>
+			<trans-unit id="1">
+				<source>Id</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Data dokonania płatności</source>
+				<target>Zahlungsdatum</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kwota</source>
+				<target>Betrag</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Typ płatności</source>
+				<target>Zahlungsart</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rozliczona</source>
+				<target>Verrechnet</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Nierozliczona</source>
+				<target>Nicht verrechnet</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>Schlüssel</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>Netto</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Vat</source>
+				<target>MwSt.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>Brutto</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>Menge</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Suma</source>
+				<target>Betrag</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Łączna wartość:</source>
+				<target>Gesamtwert:</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Rodzaj dostawy:</source>
+				<target>Lieferart:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Koszt przesyłki:</source>
+				<target>Versandkosten:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Numer przesyłki:</source>
+				<target>Sendungsnummer:</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Zamówienie nr:</source>
+				<target>Bestellung-Nr.:</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>potwierdzone</source>
+				<target>bestätigt</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>niepotwierdzone</source>
+				<target>nicht bestätigt</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Numer ID klienta:</source>
+				<target>ID-Nummer des Kunden:</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Email klienta:</source>
+				<target>E-Mail-Adresse des Kunden:</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Dane dostawy:</source>
+				<target>Lieferadresse:</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Dane billingowe:</source>
+				<target>Zahlerdaten:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Produkty</source>
+				<target>Produkte</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Łącznie</source>
+				<target>Gesamt</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dane płatności</source>
+				<target>Zahlungsdaten</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uwagi klienta</source>
+				<target>Kundenanmerkungen</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Notatki sprzedawcy</source>
+				<target>Verkäuferanmerkungen</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Bon towarowy: %code%</source>
+				<target>Gutschein: %code%</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Termin dostawy</source>
+				<target>Lieferdatum</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tel</source>
+				<target>Tel.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Telefon</source>
+				<target>Telefon</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Konto</source>
+				<target>Konto</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>NIP</source>
+				<target>Steuernummer</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

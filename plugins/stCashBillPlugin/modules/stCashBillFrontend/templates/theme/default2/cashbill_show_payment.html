@@ -1,0 +1,84 @@
+{use_stylesheet src="stUser.css"}
+<div id="privacy_overlay" style="height: auto">
+    <div class="privacy_overlay_content" style="text-align: center; height: auto">
+        <h2>CashBill</h2>
+        <p>{__ text="Za chwilę nastąpi przekierowanie na stronę płatności. Proszę czekać."}</p>
+        <p><img src="/images/frontend/theme/responsive/preloader.gif"></p>
+    </div>
+</div>
+<div id="st_box_payment">
+    <img id="st_home" src="/images/frontend/theme/default2/stCashBillPlugin/logo.png" alt=""/><br />
+    <span>
+        {$description}
+    </span>
+    {if $check_configuration}
+        <div id="cashbill_list">
+            {$form_start}
+                {if $show_variant == 'text'}
+                    {assign var='i' value=0}
+                    {foreach from=$channels item=channel}
+                    {assign var='i' value=$i+1}
+                        <div class="line">
+                            <input type="radio" name="channelId" id="check_{$i}" value="{$channel->id}" class="radiobutton"/> 
+                            <label class="name" for="check_{$i}">{$channel->name}</label>
+                        </div>
+                    {/foreach}
+                {elseif $show_variant == 'image'}
+                    {assign var='i' value=0}
+                    {foreach from=$channels item=channel}
+                    {assign var='i' value=$i+1}
+                        <div class="item box_form img_list">
+                            <label for="check_{$i}">
+                                <img src="{$channel->logoUrl}" />
+                                <h5 class="name">{$channel->name}</h5>
+                                <input type="radio" name="channelId" id="check_{$i}" value="{$channel->id}" class="radiobutton"/> 
+                            </label>
+                        </div>
+                    {/foreach}
+                {elseif $show_variant == 'none' && $redirect}
+                    {literal}
+                        <script type="text/javascript">
+                            jQuery(function($) {
+                                $(document).ready(function () {
+                                    $("#st_cashbill_form_new_payment").submit(function() {
+                                        var form = $(this);
+
+                                        if (form.data('submited')) {
+                                            return false;
+                                        }
+
+                                        form.data('submited', true);
+
+                                        $('#privacy_overlay').overlay({
+                                            mask: {
+                                                color: '#000',
+                                                loadSpeed: 'fast',
+                                                opacity: 0.5
+                                            },
+                                            close: '.close',
+                                            closeOnClick: false,
+                                            closeOnEsc: false,
+                                            top: "20%", 
+                                            speed: 'fast',
+                                            load: true,
+                                            oneInstance: true
+                                        });
+                                    }).submit();
+                                });
+                            });
+                        </script>
+                    {/literal}
+                {/if}
+                <div class="clear"></div>
+                <div class="buttons right">
+                    <button type="submit" class="important roundies">
+                        <span class="arrow_right">{__ text="Zapłać"}</span>
+                    </button>
+                </div>
+                <div class="clear"></div>
+            </form>
+        </div>
+    {else}
+        <br />{__ text="Płatność została błędnie skonfigurowana."}
+    {/if}
+</div>

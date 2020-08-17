@@ -1,0 +1,12 @@
+package:
+  name: stFixturesGiallo
+  stability: stable
+  version: 7.0.0.3
+  summary: Dane dla tematu giallo
+  description: Dane dla tematu giallo
+  notes: Poprawa fixtures gialloRWD
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysztof
+      email: krzysztof.beblo@sote.pl

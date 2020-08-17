@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Włączanie lub wyłączanie sklepu</source>
+                <target>Enable or disable your shop</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Ustawienia główne</source>
+                <target>General settings</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Wyłącz sklep</source>
+                <target>Lock your shop</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Tytuł strony</source>
+                <target>Page title</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Przepraszamy</source>
+                <target>Sorry</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Strona chwilowo niedostępna</source>
+                <target>This site is temporarily unavailable</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Obrazek</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Przywróć domyślny obrazek</source>
+                <target>Restore the default image</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Blokowanie sklepu</source>
+                <target>Lock your shop</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Przerwa techniczna.</source>
+                <target>Maintenance break.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Proszę spróbować później.</source>
+                <target>Please try again later.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

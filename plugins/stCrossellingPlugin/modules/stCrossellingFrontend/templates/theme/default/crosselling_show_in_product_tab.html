@@ -1,0 +1,16 @@
+<div id="st_promote_products_in_basket_frame_images">
+    {foreach key=row item=product from=$results}
+        <div class="st_promote_products_in_basket_box_image">
+            <div class="st_promote_products_in_basket_name">
+                {$product.name}
+            </div>
+            <div class="st_promote_products_in_basket_image">
+                {$product.image}
+            </div>
+            <div class="st_promote_products_in_basket_price">
+                {$product.brutto}
+            </div>
+        </div>
+    {/foreach}
+    <br class="clear_all" />
+</div>

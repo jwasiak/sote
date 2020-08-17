@@ -1,0 +1,58 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            Radar
+        theme:                  simple
+    
+        head:
+            package:            stRadarPlugin
+    
+        list:
+            title:              Lista produktów
+            description:        Zarządzanie porównywarką cen Radar
+            max_per_page:       20
+            display:            [id, _product, active]
+            peer_method:        doSelectJoinAll
+            peer_count_method:  doCountJoinAll
+            actions:
+                _
+            object_actions:
+                _edit:          -
+                _delete:        -
+            filters:
+                product:        {filter_field: product.opt_name}
+            fields:
+                id:             {name: ID}
+                product:        {name: Nazwa produktu, sort_field: product.opt_name, params: size=50}
+                active:         {name: Aktywny}
+            menu:
+                display:        [list, generate]
+                fields:
+                    list:       {name: Lista produktów, action: @stRadarPluginDefault}
+                    generate:   {name: Generowanie pliku xml, action: stRadarBackend/generateCustom}
+
+        edit:
+            title:              Edycja produktu
+            description:        Zarządzanie porównywarką cen Radar
+            menu:               {use: list.menu}
+            display:
+                "Dane głowne":  [id, product, active]
+                "Opisowe":      [description]
+            fields:
+                product:        {name: Nazwa produktu}
+                active:         {name: Aktywny}
+                description:    {name: Opis, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:300,width:400'}
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+                _delete:        {name: Usuń}
+                
+        generate_model_class:   Radar
+                
+        custom_actions:
+            custom:             [generate]
+            
+        generate_custom:
+            menu:               {use: list.menu}
+            title:              Generowanie pliku xml
+            description:        Zarządzanie porównywarką cen Radar

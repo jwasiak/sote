@@ -1,0 +1,23 @@
+---
+package: 
+  name: stUpdaterPlugin
+  stability: stable
+  version: 7.1.0.8
+  summary: stUpdaterPlugin
+  description: Dodawanie nowych modulow.
+  notes: |
+    - SOTESHOP 7.1
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    appImageTagPlugin: 7.0.1.6
+    stOpenGraphPlugin: 7.0.0.3
+    stTheme1Moda: 7.0.0.6
+    stFixturesModa: 7.0.0.7
+    stTaskScheluderPlugin: 7.0.0.12
+    stEservice2Plugin: 7.0.0.2
+    stTheme0Lazuli: 7.0.0.1
+    stFixturesLazuli: 7.0.2

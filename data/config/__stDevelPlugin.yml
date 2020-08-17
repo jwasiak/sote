@@ -1,0 +1,4 @@
+data:
+    username: marcin
+    password: qwerty
+    repository: 'svn://10.0.2.102/home/svn/soteshop_new'

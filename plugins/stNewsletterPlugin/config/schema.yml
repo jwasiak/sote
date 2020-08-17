@@ -1,0 +1,127 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stNewsletterPlugin.lib.model
+  st_newsletter_user: 
+    _attributes: 
+      phpName: NewsletterUser
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_guard_user_id: 
+      type: INTEGER
+      required: false
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: setnull
+    email: 
+      type: VARCHAR
+      size: 255
+    active: 
+      type: BOOLEAN
+      default: true
+    confirm: 
+      type: BOOLEAN
+      default: false
+    hash: 
+      type: VARCHAR
+      size: 255
+    language:
+      type: VARCHAR
+      size: 255  
+  st_newsletter_group: 
+    _attributes: 
+      phpName: NewsletterGroup
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    shortcut: 
+      type: VARCHAR
+      size: 255
+    is_public: 
+      type: BOOLEAN
+    is_default: 
+      type: BOOLEAN
+  st_newsletter_message: 
+    _attributes: 
+      phpName: NewsletterMessage
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_subject: 
+      type: VARCHAR
+      size: 255
+      required: true
+    opt_content: 
+      type: LONGTEXT
+    sent_at: 
+      type: TIMESTAMP
+  st_newsletter_user_has_newsletter_group: 
+    _attributes: 
+      phpName: NewsletterUserHasNewsletterGroup
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    newsletter_group_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_newsletter_group
+      foreignReference: id
+      onDelete: cascade
+    newsletter_user_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_newsletter_user
+      foreignReference: id
+      onDelete: cascade
+  st_newsletter_message_has_newsletter_group: 
+    _attributes: 
+      phpName: NewsletterMessageHasNewsletterGroup
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    newsletter_message_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_newsletter_message
+      foreignReference: id
+      onDelete: restrict
+    newsletter_group_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_newsletter_group
+      foreignReference: id
+      onDelete: restrict

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2010-11-04T02:49:47Z">
+		<body>
+			<trans-unit id="1">
+				<source>Strona o podanym adresie nie istnieje.</source>
+				<target>Strana s uvedenou adresou neexistuje.</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przejdź do strony głównej</source>
+				<target>Přejdi na hlavní stranu</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

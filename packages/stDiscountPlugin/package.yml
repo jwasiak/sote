@@ -1,0 +1,20 @@
+package:
+  name: stDiscountPlugin
+  stability: stable
+  version: 7.1.0.17
+  summary: 'Grupy rabatowe'
+  description: 'Zarzadzanie grupami rabatowymi'
+  notes: |
+     - Poprawka walidacji rabatu na zestaw
+  maintainers:
+    'Piotr Halas':
+      role: lead
+      user: piotr
+      email: piotr.halas@sote.pl
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stUser: 1.0.5
+    stProduct: 1.0.11.8

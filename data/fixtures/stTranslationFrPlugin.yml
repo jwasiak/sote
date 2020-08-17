@@ -1,0 +1,16 @@
+Language: 
+  Language_Fr: 
+    culture: pl_PL
+    name: Francuska
+    shortcut: fr
+    active_image: fr_active.png
+    inactive_image: fr_inactive.png
+    active: 0
+    language: fr
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Fr: 
+    id: Language_Fr
+    culture: en_US
+    name: French

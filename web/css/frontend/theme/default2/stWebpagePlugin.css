@@ -1,0 +1,67 @@
+#webpage_show .title h2
+{
+    float:left;
+}
+
+#webpage_groups, #webpage_show, #webpage_list
+{
+    overflow: hidden;
+}
+.group
+{
+    float: left;
+    width: 18%;
+    padding: 10px 0px;
+    margin-right: 1%;
+}
+
+.group .last
+{
+    margin-right: 0px;
+}
+
+#webpage_groups .group:empty
+{
+    display: none;
+}
+
+#webpage_groups .group:nth-child(4n+5)
+{
+    clear: left;
+}
+
+.first
+{
+    padding-left: 20px;
+}
+
+.group a
+{
+    display: block;
+}
+
+
+.webpage_overlay {
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  display: none;
+  width: 480px;
+  z-index: 10000;
+}
+
+.webpage_overlay_content {
+    color: #262626;
+    height: 470px;
+    margin: 10px;
+    overflow: auto;
+}
+
+.webpage_overlay .close {
+    background-image: url("/images/frontend/theme/default2/buttons/close.png");
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 35px;
+}

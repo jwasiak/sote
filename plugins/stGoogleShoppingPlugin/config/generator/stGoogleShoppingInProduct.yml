@@ -1,0 +1,24 @@
+export:
+    fields:
+        google_shoppinig:       {name: Google Shopping, class: stGoogleShopping, method: getProduct}
+
+import:
+    fields:
+        google_shoppinig:       {class: stGoogleShopping, method: setProduct}
+
+google_shopping_model_class:    GoogleShopping
+custom_actions:
+    edit:                       [google_shopping]
+google_shopping_edit:
+    forward_parameters:         [product_id]
+    build_options:
+        related_id:             forward_parameters.product_id
+    menu:                       {use: edit.menu}
+    description:                Zarządzanie produktami w sklepie.
+    title:                      Ustawienia produktu dla Google Shopping.
+    display:                
+        " ":                    [active]
+    fields:
+        active:                 {name: Przypisz, i18n: stGoogleShoppingBackend}
+    actions:
+        _save:                  {name: Zapisz}

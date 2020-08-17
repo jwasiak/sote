@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Informacje ogólne</source>
+                <target>General information</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Licencja</source>
+                <target>Licence</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Wymagania techniczne</source>
+                <target>Technical requirements</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja bazy danych</source>
+                <target>Database configuration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Pobieranie plików</source>
+                <target>Download the files</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Instalacja</source>
+                <target>Installation</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Informacje końcowe</source>
+                <target>Final information</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Baza danych nie jest pusta.</source>
+                <target>The database is not empty.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Witamy w programie instalacyjnym</source>
+                <target>Welcome to the installation of</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Dalej: Licencja</source>
+                <target>Next: Licence</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Popraw dane w formularzu</source>
+                <target>Correct the data in the form</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Problem:</source>
+                <target>Notice:</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Aby kontynuować musisz zaakceptować licencje.</source>
+                <target>Accept the license in order to continue.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Treść licencji:</source>
+                <target>The license content:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Akceptuje licencje</source>
+                <target>I accept the license</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Wstecz: Informacje ogólne</source>
+                <target>Back: General information</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Dalej: Wymagania techniczne</source>
+                <target>Next: Technical requirements</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Adres serwera bazy danych</source>
+                <target>Database host</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Skrypty uruchamiane z uprawnieniami użytkownika</source>
+                <target>Scripts are being run with the user's permissions</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Tryb safe_mode off</source>
+                <target>Safe_mode off</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Biblioteka cURL</source>
+                <target>cURL library</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Biblioteka JSON</source>
+                <target>JSON library</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Biblioteka XSL</source>
+                <target>XSL library</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Biblioteka GD2</source>
+                <target>GD2 library</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Obsługa Soap</source>
+                <target>Soap enabled</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Obsługa Multibyte String</source>
+                <target>Multibyte String enabled</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Obsługa MySQL</source>
+                <target>MySQL Support enabled</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Obsługa simpleXML</source>
+                <target>SimpleXML enabled</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Limit pamięci dla skryptu (64MB)</source>
+                <target>Memory limit (64MB)</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Czas wykonywania skryptu (30s)</source>
+                <target>Script execution time (30s)</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Biblioteka Mcrypt</source>
+                <target>Mcrypt library</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Wstecz: Licencja</source>
+                <target>Back: License</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Dalej: Konfiguracja bazy danych</source>
+                <target>Next: Database configuration</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Nazwa bazy danych</source>
+                <target>Database name</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Nazwa użytkownika bazy danych</source>
+                <target>User login</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Wstecz: Wymagania techniczne</source>
+                <target>Back: Technical requirements</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Dalej: Pobieranie plików</source>
+                <target>Next: Download the files</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Nie można połączyć się z bazą danych, sprawdz dane i spróbuj ponownie.</source>
+                <target>Unable to connect to the database, check the data and try again.</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Nie można połączyć sie z serwerem w celu wykonania procesu. Prosze o kontakt z administratorem serwera.</source>
+                <target>Unable to connect to the server in order to execute the process. Contact the server's administrator.</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Wstecz: Konfiguracja bazy danych</source>
+                <target>Back: Database configuration</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Dalej: Instalacja</source>
+                <target>Next: Installation</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Wersja PHP</source>
+                <target>PHP version</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Przejdź do konfiguracji</source>
+                <target>Go to the configuration</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Dalej: Informacje końcowe</source>
+                <target>Next: Final information</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Sklep został pomyślnie zainstalowany</source>
+                <target>The shop is successfully installed</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Adres sklepu</source>
+                <target>Your shop</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Panel administracyjny</source>
+                <target>Administration panel</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Panel aktualizacji</source>
+                <target>Update panel</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Dalej: Przejdź do rejestracji</source>
+                <target>Next: Go to the registration</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Rekonfiguracja bazy danych</source>
+                <target>Database reconfiguration</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Przejdź do panelu administracyjnego</source>
+                <target>Go to administrative panel</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Dane zostały zmienione</source>
+                <target>Data has been changed</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Numer licencji jest nieprawidłowy.</source>
+                <target>The license number is incorrect.</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Proszę podać numer licencji.</source>
+                <target>Enter the license number.</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Numer licencji</source>
+                <target>License number</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Przed przystąpieniem do instalacji oprogramowania</source>
+                <target>Before you start installing</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>podręcznikiem instalacji</source>
+                <target>the installation guide</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Wyłączony session.use_trans_sid</source>
+                <target>session.use_trans_sid off</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Biblioteka Zlib</source>
+                <target>Zlib library</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Wymagania instalacji nie są spełnione, proszę o kontakt z administratorem serwera.</source>
+                <target>The installation requirements are not met, contact the server's administrator.</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>, zalecane <strong>128MB</strong></source>
+                <target>, recommended <strong>128MB</strong></target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>s, zalecane <strong>60s</strong></source>
+                <target>s, recommended <strong>60s</strong></target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Tryb safe_mode wyłączony</source>
+                <target>Safe_mode off</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Obsługa Mutlibyte String</source>
+                <target>Mutlibyte String enabled</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Nie mogę zapisać pliku konfiguracyjnego.</source>
+                <target>Unable to save the configuration file.</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Złe kodowanie bazy danych, proszę zmienić na utf8_unicode_ci.</source>
+                <target>Invalid database encoding, change the encoding to utf8_unicode_ci.</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Wystąpił błąd podczas pobierania oprogramowania</source>
+                <target>An error occurred while downloading</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>podręcznika instalacji</source>
+                <target>the installation guide</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Wystąpił błąd podczas instalacji oprogramowania</source>
+                <target>An error occurred while installing</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Konfiguracja systemu</source>
+                <target>System configuration</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Domyślne ustawienia</source>
+                <target>Default settings</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Dalej: Domyślne ustawienia</source>
+                <target>Next: Default settings</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Waluta</source>
+                <target>Currency</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Wersja językowa sklepu</source>
+                <target>Language version of the shop</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Wersja językowa panelu sklepu</source>
+                <target>Language version of the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>SOTESHOP - instalacja</source>
+                <target>SOTESHOP - installation</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>proponujemy zapoznanie się z</source>
+                <target>read</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>SOTESHOP - panel aktualizacji</source>
+                <target>SOTESHOP - the update panel</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>większość problemów można rozwiązać korzystając z</source>
+                <target>most problems can be solved using</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Wystąpił błąd podczas aktualizacji oprogramowania</source>
+                <target>An error occurred while updating</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>ponowna próba aktualizacji nastąpi za 30 sekund</source>
+                <target>retry in 30 seconds</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>http://www.sote.pl/docs/instalacja</source>
+                <target>http://www.soteshop.com/docs/instalacja</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Kończenie pobierania plików</source>
+                <target>Finishing file download</target>		
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Budowanie bazy danych</source>
+                <target>Building database</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Pasek postępu</source>
+                <target>Progress bar</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Dalej: Budowanie bazy danych</source>
+                <target>Next: Building database</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Domyślny temat graficzny</source>
+                <target>Default theme</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Przykładowe dane</source>
+                <target>Example data</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Zapisywanie domyślnych ustawień:</source>
+                <target>Save default settings:</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Domyślny kraj</source>
+                <target>Default country</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Załaduj przykładowe dane</source>
+                <target>Load example data</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Numer licencji</source>
+                <target>License number</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Wystąpił problem z weryfikacją licencji. Skontaktuj się z office@sote.pl</source>
+                <target>There was a problem with the license verification. Please contact office@sote.pl</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Wstecz</source>
+                <target>Back</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Podana wartość jest nieprawidłowa. Proszę podać numer licencji.</source>
+                <target>Invalid value. Enter the license number.</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Hasło nie może zawierać znaków #, @, /.</source>
+                <target>Password can't contain the characters #, @, /.</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>instalacja sklepu</source>
+                <target>installation</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Dalej</source>
+                <target>Next</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Limit pamięci dla skryptu (128MB)</source>
+                <target>Memory limit (128MB)</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Obsługa baz danych PDO (MySQL, SQLite)</source>
+                <target>PDO (MySQL, SQLite) databases support enabled</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

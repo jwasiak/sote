@@ -1,0 +1,13 @@
+package:
+  name: appImageTagPlugin
+  stability: stable
+  version: 7.2.0.20
+  summary: Oznaczanie zdjec w kategoriach
+  description: Oznaczanie zdjec w kategoriach
+  notes: |
+    - Poprawka skalowania zdjec
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

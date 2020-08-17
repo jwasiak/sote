@@ -1,0 +1,16 @@
+Language: 
+  Language_Pt: 
+    culture: pl_PL
+    name: Portugalska
+    shortcut: pt
+    active_image: pt_active.png
+    inactive_image: pt_inactive.png
+    active: 0
+    language: pt
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Pt: 
+    id: Language_Pt
+    culture: en_US
+    name: Portuguese

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>支付</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>感谢您付款。</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>付款失败了。</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>付款设置错误。</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zakupy w systemie ratalnym LUKAS Raty dostępne są od 500zł do 10000zł wartości całego zamówienia.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Proszę zaznaczyć opcję: 'Oświadczam, że zapoznałem/am się z informacja o warunkach i sposobie udzielania kredytu ratalnego LUKAS Banku'</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Aby złożyć wniosek o kredyt ratalny w systemie LUKAS Bank przeczytaj poniższe oświadczenie:</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Wybrana została przez Ciebie forma płatności LUKAS Raty.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Do wypełnienia wniosku o kredyt ratalny LUKAS Banku niezbędne będą informacje zawarte w dowodzie osobistym.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Konieczne jest także podanie informacji o miejscu zatrudnienia, formie zatrudnienia (umowa o pracę, nr renty lub emerytury, inne), wysokości dochodu.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>LUKAS może wymagać od Ciebie dodatkowych informacji, poza tymi, które zawarte zostaną w wysłanym przez Ciebie wniosku.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Jeżeli wystąpi taka konieczność zostaniesz o tym poinformowany w trakcie kontaktu z przedstawicielem LUKAS Banku.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Przed wypełnieniem wniosku o kredyt ratalny LUKAS Banku zapoznaj się z</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Warunkami udzielania kredytu ratalnego LUKAS Banku.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Oświadczam, że zapoznałem/am się z informacja o warunkach i sposobie udzielania kredytu ratalnego LUKAS Banku.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Po wybraniu przycisku</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>"Wypełnij wniosek"</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>zostaniesz przeniesiony/na do serwisu LUKAS Bank SA.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Jest to równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez LUKAS Bank SA.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r Twoje dane będą przetwarzane przez LUKAS Bank w celu realizacji umowy kredytu oraz należytego jej wykonania.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Podanie danych ma charakter dobrowolny i przysługuje Ci prawo wglądu do tych danych oraz ich poprawiania.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Administratorem danych osobowych jest LUKAS Bank SA z siedzibą we Wrocławiu, Pl. Orląt Lwowski 1.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Informacje przesyłane do LUKAS Banku S.A. są chronione protokołem SSL.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Upewnij się, że jesteś na bezpiecznej stronie LUKAS Banku, sprawdź czy adres strony zaczyna się od https:// i czy w dolnym pasku stanu przeglądarki jest ikona kłódki.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Dane, które wpiszesz na kolejnych ekranach, są szyfrowane i chronione.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Aby złożyć wniosek o kredyt zapoznaj się z</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Warunkami udzielania kredytu ratalnego Credit Agricole Bank Polska</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Oświadczam, że zapoznałem/am się z informacją o warunkach i sposobie udzielania kredytu ratalnego Credit Agricole Bank Polska</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Do wypełnienia wniosku potrzebne będą dane z Twojego dowodu osobistego, a także informacje dotyczące miejsca i formy zatrudnienia oraz wysokości uzyskiwanego dochodu.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Jeżeli do decyzji kredytowej potrzebne będą dodatkowe informacje, poinformuje Cię o tym przedstawiciel Banku.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>zostaniesz przeniesiony/na na bezpieczne strony Credit Agricole Bank Polska S.A., wszystkie informacje przesyłane do Banku są chronione protokołem SSL.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Przejście na stronę Wniosku jest równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez Credit Agricole Bank Polska S.A.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r. Twoje dane będą przetwarzane przez Credit Agricole Bank Polska S.A. w celu realizacji umowy kredytu oraz należytego jej wykonania.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Administratorem danych osobowych jest Credit Agricole Bank Polska S.A. z siedzibą we Wrocławiu, Pl. Orląt Lwowskich 1.</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

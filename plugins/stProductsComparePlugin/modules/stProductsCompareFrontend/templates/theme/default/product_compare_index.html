@@ -1,0 +1,84 @@
+{if $products_compare}
+    <table>
+    <tr>
+        <td align="center" id="photo_first"></td>
+       {foreach key=row item=product from=$results} 
+        <td align="center" id="photo">
+            <div id="box_photo">
+                {$product.photo}
+            </div>
+            <div id="button_del">
+                <div id="button_del_middle">
+                    <div id="button_del_right">
+                        {$product.delete}
+                    </div>
+                </div>
+            </div>
+        </td>
+        {/foreach}
+    </tr>
+    <tr onmouseover="this.style.background='#f7f7f7'" onmouseout="this.style.background='#ffffff'">
+        <td class="name">{__ text="Nazwa"}:</td>
+        {foreach key=row item=product from=$results} 
+        <td class="value">
+            {$product.name}
+        </td>
+         {/foreach}
+    </tr>
+    <tr onmouseover="this.style.background='#f7f7f7'" onmouseout="this.style.background='#ffffff'">
+        <td class="name">{__ text="Producent"}:</td>
+        {foreach key=row item=product from=$results} 
+        <td class="value">
+            {$product.producer}
+        </td>  
+        {/foreach}
+    </tr>
+    {if $show_price}
+        <tr onmouseover="this.style.background='#f7f7f7'" onmouseout="this.style.background='#ffffff'">
+            <td class="name">{__ text="Cena netto"}:</td>
+            {foreach key=row item=product from=$results}
+                <td class="value">
+                    {if !$product.hide_price}
+                        {$product.price_netto}
+                    {else}
+                        -
+                    {/if}
+                </td>
+            {/foreach}
+        </tr>
+        <tr onmouseover="this.style.background='#f7f7f7'" onmouseout="this.style.background='#ffffff'">
+            <td class="name">{__ text="Cena brutto"}:</td>
+            {foreach key=row item=product from=$results}
+                <td class="value">
+                    {if !$product.hide_price}
+                        {$product.price_brutto}
+                    {else}
+                        -
+                    {/if}
+                </td>
+            {/foreach}
+        </tr>
+        <tr onmouseover="this.style.background='#f7f7f7'" onmouseout="this.style.background='#ffffff'">
+            <td class="name">{__ text="VAT"}:</td>
+            {foreach key=row item=product from=$results}
+                <td class="value">
+                    {if !$product.hide_price}
+                        {$product.vat}%
+                    {else}
+                        -
+                    {/if}
+                </td>
+            {/foreach}
+        </tr>
+      {/if}
+    </table>
+{else}
+    <h2>{__ text="Brak produktów do porównania."}</h2>
+    {if $hasLastViewedProduct}
+        <div id="st_product_compare-back_button" class="st_button st_align-left">
+            <div class="st_button-left">
+                {$lastViewedProduct}
+            </div>
+        </div>
+    {/if}
+{/if}

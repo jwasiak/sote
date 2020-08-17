@@ -1,0 +1,137 @@
+{set layout="one_column_layout"}
+
+<div id="st_application-user-login" class="box roundies">
+	<div class="title">
+		<h2>{__ text="Moje konto"}</h2>
+		<p>
+			{__ text="Zarejestruj nowe konto lub zaloguj na istniejące."}
+		</p>
+	</div>
+
+	<div class="st_content">
+
+		<div id="st_application-user-login-register" class="roundies frame box_form">
+			<h3>{__ text="Rejestracja"}</h3>
+
+			<div style="padding:25px;">
+
+				<div style="margin:0px auto; width: 315px; text-align: center">
+					{$new_user_icon}
+					<div class="buttons" style="display: table; margin: 10px auto;">
+						<a href="{$register_url}" class="regular roundies"> <span class="arrow_right">{__ text="Zarejestruj się"}</span> </a>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="st_application-user-login-login" class="roundies frame box_form">
+			<h3>{__ text="Logowanie"}</h3>
+
+			<div class="content">
+
+				{$form_start}
+
+				<fieldset>
+					<div class="st_row">
+					    <div class="error_tooltip">
+                            {if $error_email!=""}
+                                <img src="{image_path image='exclamation.png'}" title="{$error_email}"  alt="{$error_email}">
+                            {/if}
+                        </div>
+						<div class="st_field">
+							{$label_email}
+							{$input_email}
+						</div>
+					</div>
+
+					<div class="st_row">
+					    <div class="error_tooltip">
+                            {if $error_password!=""}
+                                <img src="{image_path image='exclamation.png'}" title="{$error_password}"  alt="{$error_password}">
+                            {/if}
+                        </div>
+						<div class="st_field left">
+							{$label_password}
+							{$input_password}
+
+						</div>
+
+						<div class="st_field left">
+							<div id="st_button-user-login_success" class="buttons right">
+								<button type="submit" class="regular roundies" >
+									{__ text="Zaloguj"}
+								</button>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+
+					{if $login_show_error}
+					<div class="st_row">
+						<div id="st_application-user-login-remind">
+							{$remind_password_link}
+						</div>
+					</div>
+					{/if}
+				</fieldset>
+
+				</form>
+				
+				<div id="external_google">
+
+					{slot name="login_google_user" hidden="true"}{/slot}
+
+                    {if $login_google_on == 1}
+					<div id="st_button-user-login-google" class="buttons right">
+						<a href="{$google_url}" class="regular roundies"> <img src="{image_path image='google.png'}" alt=""/> </a>
+					</div>
+                    {/if}
+
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</div>
+
+{literal}
+<script type="text/javascript">
+	jQuery(function($) {
+		$(document).ready(function() {
+		    
+		    $(".error_tooltip img[title]").tooltip({ 
+                effect: 'slide',
+                opacity: 1,
+                position: 'bottom right',
+                offset: [15,4],
+                tipClass: 'alert_tooltip'
+            });
+		    
+			$("label").inFieldLabels();
+
+			function equalHeight(group) {
+				tallest = 0;
+				group.each(function() {
+					$(this).css("height", "auto");
+					thisHeight = $(this).height();
+					if (thisHeight > tallest) {
+						tallest = thisHeight;
+					}
+				});
+				group.height(tallest);
+			}
+
+			equalHeight($(".frame"));
+
+		});
+
+	}); 
+</script>
+{/literal}

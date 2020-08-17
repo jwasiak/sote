@@ -1,0 +1,1 @@
+<?php echo link_to($user->getUsername(), 'stUser/edit?id='.$user->getId())?>

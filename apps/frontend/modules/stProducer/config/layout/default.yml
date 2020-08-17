@@ -1,0 +1,7 @@
+all:
+    .layout: 
+        name:     layout1
+        container_left: 
+            display:  [category.tree]
+        container_right: 
+            display:  []        

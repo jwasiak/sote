@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Bezpieczenstwo</source>
+                <target>Security</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Dostosuj poziom bezpieczeństwa w sklepie</source>
+                <target>Adjust the security level in the shop</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zarządzanie bezpieczeństwem</source>
+                <target>Manage the shop's security</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Włącz kody CAPTCHA</source>
+                <target>Enable captchas</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Trwa kodowanie danych klientów:</source>
+                <target>Encrypting the customers data in progress:</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Trwa kodowanie danych dostawy klientów:</source>
+                <target>Encrypting the customers delivery data in progress:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Trwa kodowanie danych billingowych klientów:</source>
+                <target>Encrypting the customers billing data in progress:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Włącza zabezpieczenia antyspamowe w sklepie</source>
+                <target>Enables anti-spam protection at the shop</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Włącz SSL</source>
+                <target>Enable SSL</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Włącza obsługe protokołu bezpieczeństwa SSL</source>
+                <target>Enables support for the SSL security protocol</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Serwer nie obsługuje protokołu SSL</source>
+                <target>Server doesn't support the SSL security protocol</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zakończono powodzeniem.</source>
+                <target>Completed successfully.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Wyłączony</source>
+                <target>Disabled</target>
+            </trans-unit>            
+            <trans-unit id="14">
+                <source>Dla całego sklepu</source>
+                <target>For whole shop</target>
+            </trans-unit>            
+            <trans-unit id="15">
+                <source>Dla procesu zamówienia i konta klienta</source>
+                <target>For orders and client account</target>
+            </trans-unit>            
+        </body>
+    </file>
+</xliff>

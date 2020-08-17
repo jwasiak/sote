@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Proszę sprawdzić czy klucz jest poprawny. Powinien mieć długość 32 znaków.</source>
+                <target>Check whether the key is correct. Key should contain 32 characters.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Proszę poprawnie uzupełnić pole. Proszę podawać tylko wartości liczbowe.</source>
+                <target>Fill in the field correctly. Enter the numerical values only.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Proszę poprawnie uzupełnić pole. Miminalna ilość kolumn to 1.</source>
+                <target>Fill in the field correctly. The minimum number of columns is 1.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Proszę poprawnie uzupełnić pole. Maksymalna ilość kolumn to 20.</source>
+                <target>Fill in the field correctly. The maximum number of columns is 20.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Konfiguracja płatności PayU.</source>
+                <target>Configure the PayU payment.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Id punktu płatności (pos_id)</source>
+                <target>POS ID (pos_id)</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Pierwszy klucz (md5)</source>
+                <target>First key (md5)</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Drugi klucz (md5)</source>
+                <target>Second key (MD5)</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Klucz autoryzacji płatności</source>
+                <target>Payment authorization key</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Sposób prezentacji płatności w sklepie</source>
+                <target>Type of the payment presentation</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Lista rozwijalna</source>
+                <target>Drop-down list</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Lista z polami do wyboru</source>
+                <target>Radio button list</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Lista z polami do wyboru z obrazkami</source>
+                <target>Radio button list with the images</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ilość kolumn z polami na liście</source>
+                <target>Number of the radio button columns</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Ustawienia Payback</source>
+                <target>Payback settings</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Włącz obsługę punktów Payback</source>
+                <target>Enable the Payback points</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Adresy powrotów i raportów</source>
+                <target>Addresses of the returns and reports</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Adres pozytywnego powrotu do sklepu</source>
+                <target>Address of the successful return to the shop </target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Adres błędnego powrotu do sklepu</source>
+                <target>Address of the failed return to the shop</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Adres raportów</source>
+                <target>Address the reports</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Płatność przez serwis PayU</source>
+                <target>PayU payment</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Brak prezentacji</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Jeśli nie masz jeszcze konta w PayU, załóż je tutaj.</source>
+                <target>If you do not have an PayU account, sign up here.</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Zakładanie konta</source>
+                <target>Setting up an account</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Waluta</source>
+                <target>Currency</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Włącz</source>
+                <target>Enable</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Brak zgodności z walutą "sklepu" PayU (Podaj konfigurację punktu płatności zgodną z wybraną walutą lub skontaktuj się z PayU)</source>
+                <target>Order and pos currencies are inconsistent(Choose another POS configuration or contact PayU)</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Podana konfiguracja punktu płatności jest nieprawidłowa</source>
+                <target>The given POS configuration is incorrect</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Wystąpił problem z połączeniem z usługą PayU (%%error%%)</source>
+                <target>There was a problem with the connection to PayU (%%error%%)</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Numer PosId</source>
+                <target>PosId number</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Przekierowuje automatycznie na stronę płatności po złożeniu zamówienia</source>
+                <target>Automatically redirects to the payment page after placing an order</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Automatyczne przekierowanie</source>
+                <target>Auto redirect</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

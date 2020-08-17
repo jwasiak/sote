@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Logowanie</source>
+				<target>Ouverture de session</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przypomnij hasło</source>
+				<target>Rappeler le mot de passe</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zarejestruj się</source>
+				<target>S’inscrire</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>E-mail (login)</source>
+				<target>Courriel (identifiant)</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Mot de passe</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Se connecter</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Moje konto</source>
+				<target>Mon compte</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>wyloguj</source>
+				<target>fermer la session</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Twoje konto w sklepie zostało założone.</source>
+				<target>Votre compte au magasin a été créé.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Witamy w naszym sklepie, dziękujemy za rejestracje.</source>
+				<target>Bienvenue dans notre magasin. Merci pour votre inscription.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Twój login</source>
+				<target>Votre identifiant</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Twoje hasło</source>
+				<target>Votre mot de passe</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Data założenia konta</source>
+				<target>Date de création du compte</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Twoje hasło do konto zostało zmienione</source>
+				<target>Le mot de passe de votre compte a été modifié</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>W sklepie zarejestrował się nowy klient.</source>
+				<target>Un nouveau client vient de s’inscrire au magasin.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>ID klienta</source>
+				<target>ID client</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Login klienta</source>
+				<target>Identifiant du client</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego hasło.</source>
+				<target>Saisissez le courriel qui sert d’identifiant. Le mot de passe sera envoyé à cette adresse.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>E-mail z nowym hasłem został wysłany na adres: %mail%</source>
+				<target>Le courriel contenant le nouveau mot de passe a été envoyé au : %mail%</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Polityka prywatności</source>
+				<target>Politique de confidentialité</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Twoje konto w sklepie zostało założone</source>
+				<target>Votre compte au magasin a été créé</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Twoje hasło do konto zostało zmienione.</source>
+				<target>Le mot de passe de votre compte a été modifié.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta.</source>
+				<target>Connectez-vous pour bénéficier d’accès à toutes les commandes et données du compte.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Rejestracja</source>
+				<target>Inscription</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Nie masz jeszcze założonego konta.</source>
+				<target>Vous n’avez pas encore créé votre compte.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Potwierdź hasło</source>
+				<target>Confirmer le mot de passe</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Akceptuję politykę prywatności</source>
+				<target>J’accepte la politique de confidentialité</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nie masz jeszcze założonego konta. Wystarczy, że podasz hasło dla loginu</source>
+				<target>Vous n’avez pas encore créé votre compte. Il suffit de saisir le mot de passe pour votre identifiant.</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uzyskasz w ten sposób pełne konto z dostępem do swoich danych i informacji o statusach zamówienia.</source>
+				<target>Cela permettra de créer un compte complet avec accès à vos données et aux informations sur le suivi des commandes.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane logowania</source>
+				<target>Données de connexion</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Zmień e-mail (login)</source>
+				<target>Modifier le courriel (identifiant)</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Zmień hasło</source>
+				<target>Changer le mot de passe</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Stare hasło</source>
+				<target>Ancien mot de passe</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nowe hasło</source>
+				<target>Nouveau mot de passe</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zmiana hasła dla konta</source>
+				<target>Changer le mot de passe du compte</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Vous avez dépassé le nombre de caractères autorisé.</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Podane hasło jest za krótkie min. 6 znaków.</source>
+				<target>Le mot de passe est trop court. Il doit contenir au moins 6 caractères.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+				<target>Vous avez dépassé le nombre de caractères autorisé. La longueur maximale du mot de passe est de 20 caractères.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Zarejestruj</source>
+				<target>S’inscrire</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Nie podałeś adresu e-mail</source>
+				<target>Vous n’avez pas saisi votre courriel</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Nie podałeś hasła.</source>
+				<target>Vous n’avez pas saisi votre mot de passe.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zły login lub hasło.</source>
+				<target>Identifiant ou mot de passe incorrect.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Wprowadzono zły numer.</source>
+				<target>Le numéro saisi est incorrect.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Aktualizuj</source>
+				<target>Mettre à jour</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Przypomnij</source>
+				<target>Rappeler</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Cyfry z obrazka</source>
+				<target>Les chiffres de l’image</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Vous devez accepter la politique de confidentialité.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Stare hasło jest błędne.</source>
+				<target>L’ancien mot de passe est incorrect.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Hasła nie są takie same.</source>
+				<target>Les mots de passe ne sont pas les mêmes.</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Twoje hasło do konta zostało zmienione.</source>
+				<target>Le mot de passe de votre compte a été modifié.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Format de courriel incorrect.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta.</source>
+				<target>À cause du changement de logiciel de notre magasin, nous vous prions de bien vouloir saisir votre courrier qui sera désormais votre identifiant de compte.</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Rejestracja danych.</source>
+				<target>Enregistrement de données.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Uzupełnij dane konta.</source>
+				<target>Complétez les données du compte.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Attente de la confirmation.</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Proszę sprawdzić pocztę na podany w czasie rejestracji adres został wysłany mail z prośbą o potwierdzenie konta.</source>
+				<target>Veuillez vérifier votre courriel. Un message vous demandant de confirmer le compte a été envoyé à l’adresse saisie lors de votre inscription.</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Brak adresu e-mail</source>
+				<target>Courriel non-renseigné</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak hasła.</source>
+				<target>Mot de passe non renseigné.</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>6 caractères au minimum</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>(Dla stałych klientów)</source>
+				<target>(Pour nos clients habituels)</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego link do zmiany hasła.</source>
+				<target>Saisissez le courriel qui sert d’identifiant. Le lien pour changer le mot de passe sera envoyé à cette adresse.</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Prośba o potwierdzenie rejestracji konta.</source>
+				<target>Demande de confirmer l’enregistrement du compte.</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Twoje konto nie zostało jeszcze potwierdzone. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Votre compte n’a pas encore été confirmé. Veuillez vérifier le courriel :</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>została wysłana prośba o potwierdzenie konta.</source>
+				<target>une demande de confirmer l’enregistrement du compte y a été envoyée.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Wróć do zakupów</source>
+				<target>Retour aux achats</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Dziękujemy za dokonanie rejestracji. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Merci pour votre inscription. Veuillez vérifier le courriel :</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Przejdź do koszyka</source>
+				<target>Voir mon panier</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>bardzo słabe</source>
+				<target>très faible</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>słabe</source>
+				<target>faible</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>normalne</source>
+				<target>normal</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>mocne</source>
+				<target>fort</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>bardzo mocne</source>
+				<target>très fort</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Potwierdzenie rejestracji</source>
+				<target>Confirmation de l’inscription</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>Dane dostępowe do konta</source>
+				<target>Données d’accès au compte</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Potwierdź rejestracje</source>
+				<target>Confirmer l’inscription</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Zmiana hasła.</source>
+				<target>Modifier le mot de passe.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Proszę sprawdzić pocztę.</source>
+				<target>Veuillez vérifier le courriel.</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Na podany w czasie rejestracji adres, został wysłany mail z nowymi danymi do konta sklepu.</source>
+				<target>Le courriel avec les nouvelles données du compte au magasin a été envoyé à l’adresse saisie lors de votre inscription.</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Przejdź do strony logowania</source>
+				<target>Aller à la page de connexion</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Twoje hasło zostało zmienione.</source>
+				<target>Votre mot de passe a été modifié.</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Aktualne dane dostępowe do konta</source>
+				<target>Données actuelles d’accès au compte</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Data modyfikacji konta</source>
+				<target>Date de modification du compte</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Przejdź na stronę sklepu.</source>
+				<target>Aller à la page du magasin.</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>E-mail z linkiem do utworzenia nowego hasła został wysłany na adres:</source>
+				<target>Le courriel avec le lien permettant de créer le nouveau mot de passe a été envoyé au :</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Skorzystaj z linku poniżej aby dokonać zmiany hasła.</source>
+				<target>Cliquez sur le lien ci-dessous pour modifier votre mot de passe.</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Link do zmiany hasła dla konta:</source>
+				<target>Lien pour changer le mot de passe du compte :</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Data wysłania linka</source>
+				<target>Date d’envoi du lien</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Podaj nowe hasło dla konta</source>
+				<target>Saisissez le nouveau mot de passe pour votre compte</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zmiana hasła</source>
+				<target>Modifier le mot de passe</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>usuń</source>
+				<target>supprimer</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Pomyślnie wylogowano użytkownika</source>
+				<target>Fermeture de session réussie</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+				<target>Dans quelque instants, vous serez redirigé vers la page d’accueil.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Potwierdzenie autentyczności adresu.</source>
+				<target>Confirmer l’authenticité de l’adresse.</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Twoje konto zostało już wcześniej potwierdzone.</source>
+				<target>Votre compte a été déjà confirmé.</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Wylogowano</source>
+				<target>Session fermée</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Twoje konto wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić dane.</source>
+				<target>Votre compte doit être confirmé. Cliquez le lien ci-dessous pour confirmer vos données.</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Prośba o potwierdzenie konta.</source>
+				<target>Demande de confirmer le compte</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Rejestracja nowego klienta</source>
+				<target>Enregistrement d’un nouveau client</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Informacje o koncie klienta</source>
+				<target>Informations sur le compte du client</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Przejdź do edycji konta</source>
+				<target>Aller à l’édition du compte</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Akceptuję</source>
+				<target>J’accepte</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>politykę prywatności</source>
+				<target>la politique de confidentialité</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>lub</source>
+				<target>ou</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Zaloguj używając</source>
+				<target>S’identifier avec</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Potwierdź rejestrację</source>
+				<target>Confirmer l’inscription</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Dane płatnika</source>
+				<target>Données du payeur</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Dane wysyłkowe</source>
+				<target>Données relatives à la livraison</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Dane do faktury</source>
+				<target>Données pour la facture</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Moje dane</source>
+				<target>Mes données</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Zmień</source>
+				<target>Modifier</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Zarejestruj nowe konto lub zaloguj na istniejące.</source>
+				<target>Enregistrer un nouveau compte ou se connecter à un compte existant.</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Podaj dane konta.</source>
+				<target>Saisissez les données du compte.</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Dane konta</source>
+				<target>Données du compte</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>Complétez les champs mis en évidence.</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Za chwilę nastąpi przekierowanie na stronę główną.</source>
+				<target>Dans quelques instants, vous serez redirigé vers la page d’accueil.</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Podaj adres email (login użytkownika)</source>
+				<target>Saisissez votre courriel (identifiant)</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Sprawdź pocztę na poniższy adres został wysłany link do zmiany hasła.</source>
+				<target>Vérifiez votre courriel. Le lien permettant de modifier votre mot de passe a été envoyé à l’adresse ci-dessous.</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Podaj nowe hasło.</source>
+				<target>Saisissez le nouveau mot de passe.</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>Login</source>
+				<target>Identifiant</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulamin</source>
+				<target>conditions</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>i przeczytałem</source>
+				<target>et lu</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Brak adresu email.</source>
+				<target>Adresse courriel non-renseignée.</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Cet utilisateur existe déjà.</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>zaloguj się</source>
+				<target>se connecter</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Zamówienia</source>
+				<target>Commandes</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Wyloguj</source>
+				<target>Se déconnecter</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Usuń</source>
+				<target>Supprimer</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Pola wymagane</source>
+				<target>Champs requis</target>
+			</trans-unit>
+			<trans-unit id="129">
+				<source>zmień</source>
+				<target>modifier</target>
+			</trans-unit>
+			<trans-unit id="130">
+				<source>Nie masz odpowiednich uprawnień</source>
+				<target>Vous ne disposez pas de droits suffisants</target>
+			</trans-unit>
+			<trans-unit id="131">
+				<source>Sprawdź pocztę i kliknij w link potwierdzający adres e-mail, aby aktywować konto w sklepie.</source>
+				<target>Vérifiez votre courrier et cliquez le lien pour confirmer votre adresse e-mail et activer votre compte au magasin.</target>
+			</trans-unit>
+			<trans-unit id="132">
+				<source>Na konto pocztowe</source>
+				<target>Un message vous demandant</target>
+			</trans-unit>
+			<trans-unit id="133">
+				<source>została wysłana wiadomość z prośbą o potwierdzenie konta.</source>
+				<target>de confirmer l’enregistrement du compte a été envoyé sur votre compte de messagerie.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

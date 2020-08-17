@@ -1,0 +1,12 @@
+data:
+    _types: { slide: [thumb], slide_mobile: [thumb], blog: [thumb], product: [small, icon, thumb, gallery, large, big, allegro], category: [thumb, small], producer: [large, thumb] }
+    general: { respect_exif_orientation: true }
+    gallery: { zoom_on: '1' }
+    watermark: { text: soteshop, font: Sansation_Light.ttf, color: '999999', size: '12', position: bottom, alpha: '64' }
+    app_image_tag: { thumb: { width: 120, height: 80, quality: 90, watermark: false, auto_crop: true } }
+    slide: { thumb: { width: '1150', height: '360', quality: '100', watermark: false, auto_crop: true } }
+    slide_mobile: { thumb: { width: '500', height: '489', quality: '100', watermark: false, auto_crop: true } }
+    blog: { thumb: { width: '640', height: '480', quality: '100', watermark: false, auto_crop: true } }
+    product: { small: { width: '342', height: '342', quality: '100', watermark: false, auto_crop: true }, icon: { width: '246', height: '246', quality: '100' }, thumb: { width: '246', height: '246', quality: '100' }, gallery: { width: '110', height: '110', quality: '100', auto_crop: true }, large: { width: '444', height: '444', quality: '100', watermark: true, auto_crop: true }, big: { width: '1000', height: '1000', quality: '100', watermark: true, auto_crop: false }, group: { width: 140, height: 140, quality: '100', watermark: '1' }, custom_1: { width: 372, height: 372, quality: '100', watermark: '1' }, allegro: { width: '768', height: '768', quality: '100', watermark: true, auto_crop: false } }
+    category: { small: { width: '212', height: '212', quality: '100', watermark: true, auto_crop: true }, icon: { width: '42', height: '42', quality: '100' }, thumb: { width: '246', height: '246', quality: '100', auto_crop: true, watermark: false }, large: { width: '256', height: '256', quality: '100', watermark: '1' }, big: { width: '512', height: '512', quality: '100', watermark: '1' }, group: { width: 140, height: 140, quality: '100', watermark: '1' }, custom_1: { width: 372, height: 372, quality: '100', watermark: '1' } }
+    producer: { small: { width: '128', height: '128', quality: '100', watermark: '0' }, icon: { width: '42', height: '42', quality: '100' }, thumb: { width: '212', height: '212', quality: '100', auto_crop: true }, large: { width: '212', height: '212', quality: '100', watermark: '0', auto_crop: true }, big: { width: '512', height: '512', quality: '100', watermark: '1' }, group: { width: 140, height: 140, quality: '100', watermark: '1' }, custom_1: { width: 372, height: 372, quality: '100', watermark: '1' } }

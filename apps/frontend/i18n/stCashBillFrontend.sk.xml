@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Platba</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Ďakujeme za zrealizovanie platby.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Platba nebola zrealizovaná.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Błąd podczas tworzenia nowej płatności.</source>
+				<target>Chyba pri tvorbe novej platby.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Zaplatiť</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Platba bola nakonfigurovaná nesprávne.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

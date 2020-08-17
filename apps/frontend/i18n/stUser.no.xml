@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Logowanie</source>
+				<target>Pålogging</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przypomnij hasło</source>
+				<target>Gjenopprette passord</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zarejestruj się</source>
+				<target>Registrer deg</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>E-mail (login)</source>
+				<target>E-post (brukernavn)</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Passord</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Logg inn</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Moje konto</source>
+				<target>Min konto</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>wyloguj</source>
+				<target>logg ut</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Twoje konto w sklepie zostało założone.</source>
+				<target>Din konto i nettbutikken er opprettet.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Witamy w naszym sklepie, dziękujemy za rejestracje.</source>
+				<target>Velkommen til vår nettbutikk, takk for registrering.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Twój login</source>
+				<target>Ditt brukernavn</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Twoje hasło</source>
+				<target>Ditt passord</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Data założenia konta</source>
+				<target>Dato for opprettelse</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Twoje hasło do konto zostało zmienione</source>
+				<target>Ditt passord er endret</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>W sklepie zarejestrował się nowy klient.</source>
+				<target>Ny kunde ble registrert i butikken.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>ID klienta</source>
+				<target>Kunde-ID</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Login klienta</source>
+				<target>Brukernavn</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego hasło.</source>
+				<target>Oppgi din e-postadresse, som skal brukes som brukernavn. Passordet skal sendes til denne adresse.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>E-mail z nowym hasłem został wysłany na adres: %mail%</source>
+				<target>E-post med nytt passord ble sendt til: %mail%</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Polityka prywatności</source>
+				<target>Personvern</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Twoje konto w sklepie zostało założone</source>
+				<target>Din konto i nettbutikken er opprettet.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Twoje hasło do konto zostało zmienione.</source>
+				<target>Ditt passord er endret.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta.</source>
+				<target>Logg inn og få full tilgang til ordrer og kontodetaljer.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Rejestracja</source>
+				<target>Registrering</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Nie masz jeszcze założonego konta.</source>
+				<target>Du har ikke opprettet en konto ennå.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Potwierdź hasło</source>
+				<target>Bekreft passord</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Jeg godtar personvernreglene</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nie masz jeszcze założonego konta. Wystarczy, że podasz hasło dla loginu</source>
+				<target>Du har ikke opprettet en konto ennå. Det er bare å skrive inn passord for brukernavnet</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uzyskasz w ten sposób pełne konto z dostępem do swoich danych i informacji o statusach zamówienia.</source>
+				<target>På denne måten får du en full konto med tilgang til dine data og informasjon om ordrestatus.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane logowania</source>
+				<target>Data for pålogging</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Zmień e-mail (login)</source>
+				<target>Endre e-postadresse (brukernavn)</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Zmień hasło</source>
+				<target>Endre passord</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Stare hasło</source>
+				<target>Gammelt passord</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nowe hasło</source>
+				<target>Nytt passord</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zmiana hasła dla konta</source>
+				<target>Endring av passord for kontoen</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Maksimalt antall tegn er overskredet.</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Podane hasło jest za krótkie min. 6 znaków.</source>
+				<target>Passordet er for kort; skal ha minst 6 tegn.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+				<target>Maksimalt antall tegn er overskredet (maks. 20 tegn).</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Zarejestruj</source>
+				<target>Registrer</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Nie podałeś adresu e-mail</source>
+				<target>Du har ikke skrevet inn noen e-postadresse.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Nie podałeś hasła.</source>
+				<target>Du har ikke skrevet inn noe passord.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zły login lub hasło.</source>
+				<target>Ugyldig brukernavn eller passord.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Wprowadzono zły numer.</source>
+				<target>Ugyldig nummer.</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Aktualizuj</source>
+				<target>Oppdater</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Przypomnij</source>
+				<target>Glemt brukernavn og/eller passord?</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Cyfry z obrazka</source>
+				<target>Tallene fra bilde</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Du må godta personvernreglene.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Stare hasło jest błędne.</source>
+				<target>Feil gammelt passord</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Hasła nie są takie same.</source>
+				<target>Passordene stemmer ikke overens med hverandre</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Twoje hasło do konta zostało zmienione.</source>
+				<target>Ditt passord er endret.</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>Ugyldig e-postadresse.</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta.</source>
+				<target>På grunn av endringer i vår programvare, vennligst oppgi din e-postadresse, som skal nå være ditt brukernavn.</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Rejestracja danych.</source>
+				<target>Registrering av data.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Uzupełnij dane konta.</source>
+				<target>Fyll ut kontoinformasjon.</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>Venter på bekreftelse.</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Proszę sprawdzić pocztę na podany w czasie rejestracji adres został wysłany mail z prośbą o potwierdzenie konta.</source>
+				<target>Sjekk e-posten. En melding med anmodning om kontobekreftelse ble sendt til adressen angitt ved registrering.</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Brak adresu e-mail</source>
+				<target>Manglende e-postadresse</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak hasła.</source>
+				<target>Ingen passord.</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>Minst 6 tegn</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>(Dla stałych klientów)</source>
+				<target>(For faste kunder)</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego link do zmiany hasła.</source>
+				<target>Skriv inn e-postadresse (dvs. brukernavn); en link til passordendring skal sendes til denne adresse.</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Prośba o potwierdzenie rejestracji konta.</source>
+				<target>Anmodning om bekreftelse på konto registrering.</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Twoje konto nie zostało jeszcze potwierdzone. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Kontoen din er ikke bekreftet ennå. Sjekk e-posten; vi har sendt til:</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>została wysłana prośba o potwierdzenie konta.</source>
+				<target>en anmodning om kontobekreftelse.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Wróć do zakupów</source>
+				<target>Tilbake til shopping</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Dziękujemy za dokonanie rejestracji. Proszę sprawdzić pocztę, na adres:</source>
+				<target>Takk for din registrering. Sjekk e-posten; vi har sendt til:</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Przejdź do koszyka</source>
+				<target>Gå til handlekurven</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>bardzo słabe</source>
+				<target>svært svakt</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>słabe</source>
+				<target>svakt</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>normalne</source>
+				<target>normalt</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>mocne</source>
+				<target>sterkt</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>bardzo mocne</source>
+				<target>veldig sterkt</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Potwierdzenie rejestracji</source>
+				<target>Bekreftelse på registrering</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>Dane dostępowe do konta</source>
+				<target>Innloggingsdata</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Potwierdź rejestracje</source>
+				<target>Bekrefte registreringen</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Zmiana hasła.</source>
+				<target>Endring av passord.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Proszę sprawdzić pocztę.</source>
+				<target>Sjekk e-posten.</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Na podany w czasie rejestracji adres, został wysłany mail z nowymi danymi do konta sklepu.</source>
+				<target>En melding med nye kontodata ble sendt til adresse som ble oppgitt ved registrering.</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Przejdź do strony logowania</source>
+				<target>Gå til innloggingssiden</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Twoje hasło zostało zmienione.</source>
+				<target>Ditt passord er endret.</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Aktualne dane dostępowe do konta</source>
+				<target>Aktuelle påloggingsdata</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Data modyfikacji konta</source>
+				<target>Dato for kontoendring</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Przejdź na stronę sklepu.</source>
+				<target>Gå til nettbutikken.</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>E-mail z linkiem do utworzenia nowego hasła został wysłany na adres:</source>
+				<target>E-post med link for å lage nytt passord ble sendt til følgende adresse:</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Skorzystaj z linku poniżej aby dokonać zmiany hasła.</source>
+				<target>Bruk linken nedenfor for å endre passordet ditt.</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Link do zmiany hasła dla konta:</source>
+				<target>Lenke for å endre passordet for kontoen din:</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Data wysłania linka</source>
+				<target>Dato for sending av link</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Podaj nowe hasło dla konta</source>
+				<target>Skriv inn nytt passord for kontoen din</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zmiana hasła</source>
+				<target>Endring av passord</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>usuń</source>
+				<target>Fjern</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Pomyślnie wylogowano użytkownika</source>
+				<target>Du er logget ut</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+				<target>Du vil straks bli omdirigert til hjemmesiden.</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Potwierdzenie autentyczności adresu.</source>
+				<target>Bekreftelse av adresse.</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Twoje konto zostało już wcześniej potwierdzone.</source>
+				<target>Kontoen din har allerede blitt bekreftet.</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Wylogowano</source>
+				<target>Logget ut</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Twoje konto wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić dane.</source>
+				<target>Kontoen din må bekreftes. Bruk linken nedenfor for å bekrefte dataene.</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Prośba o potwierdzenie konta.</source>
+				<target>Anmodning om kontobekreftelse.</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Rejestracja nowego klienta</source>
+				<target>Registrering av ny kunde</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Informacje o koncie klienta</source>
+				<target>Kontoinformasjon</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Przejdź do edycji konta</source>
+				<target>Gå til redigering av konto</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Akceptuję</source>
+				<target>Jeg godtar</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>politykę prywatności</source>
+				<target>personvernreglene</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>lub</source>
+				<target>eller</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Zaloguj używając</source>
+				<target>Logg deg på med</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Potwierdź rejestrację</source>
+				<target>Bekreft registreringen</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Dane płatnika</source>
+				<target>Betalerens data</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Dane wysyłkowe</source>
+				<target>Leveringsinformasjon</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Dane do faktury</source>
+				<target>Faktureringsinformasjon</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Moje dane</source>
+				<target>Mine data</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Zmień</source>
+				<target>Endre</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Zarejestruj nowe konto lub zaloguj na istniejące.</source>
+				<target>Registrer ny konto eller logg inn på eksisterende konto.</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Podaj dane konta.</source>
+				<target>Oppgi kontoinformasjon.</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Dane konta</source>
+				<target>Kontoinformasjon</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>Fyll ut merkede felter.</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Za chwilę nastąpi przekierowanie na stronę główną.</source>
+				<target>Du vil straks bli omdirigert til hjemmesiden.</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Podaj adres email (login użytkownika)</source>
+				<target>Skriv inn din e-postadresse (brukernavn)</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Sprawdź pocztę na poniższy adres został wysłany link do zmiany hasła.</source>
+				<target>Sjekk e-posten. En melding med link for passordendring er sendt til adressen nedenfor.</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Podaj nowe hasło.</source>
+				<target>Skriv inn ny passord.</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>Login</source>
+				<target>Brukernavn</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulamin</source>
+				<target>forskrifter</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>i przeczytałem</source>
+				<target>og lese</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Brak adresu email.</source>
+				<target>E-post adressen mangler.</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Brukeren finnes allerede.</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>zaloguj się</source>
+				<target>logg inn</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Zamówienia</source>
+				<target>Ordrer</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Wyloguj</source>
+				<target>Logg ut</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Usuń</source>
+				<target>Slett</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Pola wymagane</source>
+				<target>Obligatoriske felt</target>
+			</trans-unit>
+			<trans-unit id="129">
+				<source>zmień</source>
+				<target>endre</target>
+			</trans-unit>
+			<trans-unit id="130">
+				<source>Nie masz odpowiednich uprawnień</source>
+				<target>Du har ikke nødvendige rettigheter</target>
+			</trans-unit>
+			<trans-unit id="131">
+				<source>Sprawdź pocztę i kliknij w link potwierdzający adres e-mail, aby aktywować konto w sklepie.</source>
+				<target>Sjekk din e-post og klikk på linken med bekreftelse av e-postadresse for å aktivere kontoen din i butikken.</target>
+			</trans-unit>
+			<trans-unit id="132">
+				<source>Na konto pocztowe</source>
+				<target>Til e-postadresse</target>
+			</trans-unit>
+			<trans-unit id="133">
+				<source>została wysłana wiadomość z prośbą o potwierdzenie konta.</source>
+				<target>ble det sendt en melding som ber deg om å bekrefte kontoen din.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

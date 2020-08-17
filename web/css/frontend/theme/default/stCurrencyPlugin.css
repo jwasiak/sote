@@ -1,0 +1,13 @@
+#st_component-st_currency_plugin-pick_currency
+{
+    padding:6px 10px 0px 0px;
+    float:right;
+}
+
+#st_component-st_currency_plugin-pick_currency select#currency
+{
+    color:#747F94; 
+    background-color:white; 
+    font-weight:bold; 
+    border:none
+}

@@ -1,0 +1,17 @@
+package:
+  name: stOptimizationPlugin
+  stability: stable
+  version: 7.1.1.0
+  summary: Optymalizacja
+  description: 'Zarzadzanie optymalizacja sklepu'
+  notes: |
+    - Aktualizacja modulu.
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stBackend: 1.0.0
+    stBase: 1.0.0
+    stFrontend: 1.0.0

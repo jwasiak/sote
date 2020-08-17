@@ -1,0 +1,64 @@
+{assign var=delivery value=$order->getOrderDelivery()}
+<div id="eraty-santander-form" class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="eRaty Santader Consumer Bank"}
+    </div>
+    <div class="panel-body text-center">
+        <p style="margin-bottom: 20px;"><img src="/plugins/stSantanderRatyPlugin/images/eraty.png"></p>
+        <p>
+            {__ text="Przed złożeniem wniosku możesz zapoznać się z procedurą udzielenia kredytu ratalnego oraz obliczyć raty."}
+        </p>
+
+        <div class="row">
+            <div class="col-lg-6 how-to-buy" style="padding-bottom: 15px">
+                <a  target="_blank" class="btn btn-default btn-eraty" href="https://www.santanderconsumer.pl/raty-jak-kupic">
+                    <span>{__ text="Jak kupić na"}</span>
+                    <img src="/plugins/stSantanderRatyPlugin/images/eraty_btn.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-6 calculate" style="padding-bottom: 15px">
+                {st_get_component module="stSantanderFrontend" component="calculate" amount=$order_total_amount}
+            </div>
+        </div>
+
+        <form action=" https://wniosek.eraty.pl/formularz" method="post">
+            {foreach key=index item=order_product from=$order->getOrderProducts()}
+                <input name="idTowaru{$index+1}" readonly="readonly" type="hidden" value="{$order_product->getId()}">
+                <input name="nazwaTowaru{$index+1}" readonly="readonly" type="hidden" value="{$order_product->getName()}">
+                <input name="wartoscTowaru{$index+1}" readonly="readonly" type="hidden" value="{$order_product->getPriceBrutto(true)}">
+                <input name="liczbaSztukTowaru{$index+1}" readonly="readonly" type="hidden" value="{$order_product->getQuantity()}">
+                <input name="jednostkaTowaru{$index+1}" readonly="readonly" type="hidden" value="szt.">
+            {/foreach}
+            <input name="idTowaru{$index+2}" readonly="readonly" type="hidden" value="KosztPrzesylki">
+            <input name="nazwaTowaru{$index+2}" readonly="readonly" type="hidden" value="{$delivery->getName()}">
+            <input name="wartoscTowaru{$index+2}" readonly="readonly" type="hidden" value="{$delivery->getCostBrutto(true)}">
+            <input name="liczbaSztukTowaru{$index+2}" readonly="readonly" type="hidden" value="1">
+            <input name="jednostkaTowaru{$index+2}" readonly="readonly" type="hidden" value="szt.">
+            <input type="hidden" name="wartoscTowarow" value="{$order_total_amount}">
+            <input type="hidden" name="liczbaSztukTowarow" value="{$order_total_quantity}">
+            <input type="hidden" name="numerSklepu" value="{$shop_number}">
+            <input type="hidden" name="typProduktu" value="0">
+            <input type="hidden" name="sposobDostarczeniaTowaru" value="{$delivery->getName()}">
+            <input type="hidden" name="nrZamowieniaSklep" value="{$order->getId()}">
+            <input type="hidden" name="imie" value="{$client.name}">
+            <input type="hidden" name="nazwisko" value="{$client.surname}">
+            <input type="hidden" name="email" value="{$client.email}">
+            <input type="hidden" name="char" value="UTF-8">
+            <input type="hidden" name="wniosekZapisany" value="{$url_accepted}">
+            <input type="hidden" name="wniosekAnulowany" value="{$url_canceled}">
+            <p>
+                <label><input type="checkbox" required="required"> Zapoznałem się <a target="_blank" href="https://www.santanderconsumer.pl/raty-jak-kupic">z procedurą udzielenia kredytu konsumenckiego na zakup towarów i usług eRaty Santander Consumer Bank</a></label>
+            </p>
+            <p>
+                {__ text='Aby rozpocząć proces składania wniosku ratalnego należy zapoznać się z procedurą udzielenia kredytu, a następnie kliknąć na poniższy przycisk "Kupuję na raty z Santander Consumer Bank"'} 
+            </p>
+            <div class="text-right">
+                <button class="btn btn-primary btn-eraty" type="submit">
+                   <span>{__ text='Złóż wniosek'}</span>
+                   <img src="/plugins/stSantanderRatyPlugin/images/eraty_btn_white.png" alt="">
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

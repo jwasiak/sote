@@ -1,0 +1,103 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:           ProductGroup
+        product_model_class:   Product
+        theme:                 simple
+        custom_actions:
+            list:              [product]
+        head:
+            package:        stProductGroup      
+        applications:   [stProduct]
+        list:
+            peer_method:        doSelectWithI18n
+            peer_count_method:  doCountWithI18n
+            title:          Lista
+            description:    Zarządzanie grupami produktów, konfiguracja ustawień. 
+            display:        [=name]
+            actions:
+                _create:    {name: Dodaj}
+            object_actions:
+                _edit:      -
+                _delete:    -
+        fields:       
+            name:           {name: Nazwa, type: input_tag, params: size=50}
+            fields:         {name: Produkty w grupie}
+            product_limit:  {name: Ilość produktów wyświetlanych, params: size=3}
+        edit:
+            menu:
+                display:    [product]
+                fields:
+                    product:    {name: Przypisz produkty, action: stProductGroup/productList?product_group_id=%%id%%}
+            title:          Edycja grupy produktów
+            description:    Zarządzanie grupami produktów, konfiguracja ustawień.
+            display:        
+                "NONE":         [name, ~default_product_group, _new, product_limit]
+                "Etykieta":     [_image]
+            fields:
+                default_product_group:  {name: Typ}
+                image:   {name: Etykieta}
+                new:     {name: Produkty są w nowościach od:, hide_label: true}
+            actions:
+                _list:                      {name: Lista}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj}
+                _delete:                    {name: Usuń}
+        product_list:
+            use_stylesheet:                 [backend/stProductList.css]
+            use_helper:                     [stProduct/stProduct, stDepository]
+            forward_parameters:             [product_group_id]
+            filters:
+                list_image:                 {partial: filter_list_image, module: stProduct}
+            fields:
+                code:                       {name: Kod}
+                opt_name:                   {name: Nazwa, params: size=40, width: 50%, callback: list_product_name}
+                list_image:                 {name: Zdjęcie, width: 1%, callback: list_product_image}
+                opt_price_brutto:           {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label}
+                active:                     {name: Aktywny}
+                list_stock:                 {name: Stan magazynowy, i18n: stDepositoryBackend, callback: list_stock, sort_field: product.stock}
+            build_options:       
+                related_id:                 forward_parameters.product_group_id               
+                through_class:              ProductGroupHasProduct               
+            display:                        [list_image, opt_name, code, opt_price_brutto, active, list_stock]
+            select_actions:
+                display:                    [product_add_group, product_remove_group]
+                actions:
+                    product_add_group:      {name: Dodaj do grupy, action: productAddGroup, i18n: stAdminGeneratorPlugin}
+                    product_remove_group:   {name: Usuń z grupy, action: productRemoveGroup, i18n: stAdminGeneratorPlugin}
+            menu:                           {use: edit.menu}
+            title:                          Przypisywanie produktów do grupy produktów
+            description:                    Zarządzanie grupami produktów, konfiguracja ustawień. 
+            object_actions:                 [] 
+            actions:                        []
+
+        config:
+            title:                          Konfiguracja
+            description:                    Zarządzanie grupami produktów, konfiguracja ustawień.
+            display:                        
+              "NONE":                            [limitation]
+              "Produkty w grupie strona główna": [sort_main, sort_asc_desc]
+              "Etykieta":                        [label_link, label_count]
+            fields:
+              limitation:                   {name: Ogranicz produkty w grupie do wyświetlanej kategorii, checked: false, type: checkbox}
+              sort_main:
+                    name:                   Sortowanie produktów na stronie głównej
+                    type:                   select
+                    display:                [option1, option4]
+                    options:
+                        option1:            {name: moja kolejność, value: my_sort}
+                        option4:            {name: losowo, value: randomize}
+                        selected:           option1
+              sort_asc_desc:
+                    name:                   Sortuj
+                    type:                   select
+                    display:                [option1, option2]
+                    options:
+                        option1:            {name: rosnąco, value: asc}
+                        option2:            {name: malejąco, value: desc}
+                        selected:           option1
+              label_count:                  {name: Ilość wyświetlanych etykiet na produkcie, params: size=2}
+              label_link:                   {name: Link etykiety odsyła do grup produktu, checked: false, type: checkbox}
+            actions:
+                _save:                      {name: Zapisz}
+

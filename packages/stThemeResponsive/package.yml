@@ -1,0 +1,17 @@
+package:
+  name: stThemeResponsive
+  stability: stable
+  version: 7.8.2.10
+  summary: 'Edycja grafiki'
+  description: 'Temat graficzny responsive'
+  notes: |
+    - Dostosowanie pakietu do zmian w stEservicePlugin
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

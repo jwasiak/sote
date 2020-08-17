@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wystąpił problem podczas realizowania płatności za pośrednictwem serwisu Paypal.</source>
+				<target>Det oppstod et problem under behandling av betaling via Paypal.</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności. Twoje zamówienie zostanie zrealizowane po otrzymaniu płatności.</source>
+				<target>Takk for betalingen. Ordren din skal fullføres etter at betalingen er mottatt.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zamówienie zostało już opłacone.</source>
+				<target>Denne ordren er allerede betalt.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>%shop% - zamówienie numer: %no%</source>
+				<target>%shop% - ordrenummer: %no%</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać w systemie PayPal</source>
+				<target>Betal med PayPal</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zamówienie numer %number%</source>
+				<target>Ordrenummer %number%</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Przejdź do strony głównej</source>
+				<target>Gå til hjemmesiden</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa nie jest możliwa do wskazanego kraju</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

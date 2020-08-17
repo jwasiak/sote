@@ -1,0 +1,1 @@
+<?php $smarty->display('ajax_categories.html') ?>

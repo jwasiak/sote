@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="en_US" target-language="pl_PL" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>remove file</source>
+                <target>usuń obrazek</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

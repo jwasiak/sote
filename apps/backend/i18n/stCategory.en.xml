@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zarządzanie kategoriami w sklepie.</source>
+                <target>Manage the categories in the shop.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Edycja drzewa kategorii</source>
+                <target>Edit the category tree</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Menedżer kategorii</source>
+                <target>Manage the categories</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nazwa drzewa</source>
+                <target>Category tree name</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Zarządzaj drzewem kategorii</source>
+                <target>Manage the category tree</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Skracaj nazwę podkategorii:</source>
+                <target>Cut a subcategory name:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Pokaż podkategorie po kliknięciu w kategorię:</source>
+                <target>Show a subcategory by clicking on a category:</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Drzewo kategorii</source>
+                <target>Category tree</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Konfiguracja drzewa kategorii</source>
+                <target>Configuration of the category tree</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Ukryj nazwę drzew kategorii:</source>
+                <target>Hide the category tree name:</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Prezentacja drzewa kategorii:</source>
+                <target>Category tree presentation:</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Edycja kategorii %%name%%</source>
+                <target>Edit the category %%name%%</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Konfiguracja kategorii</source>
+                <target>Categories configuration</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Kategorie na stronie głównej</source>
+                <target>Categories on the main page</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Pokaż menu kategorii na stronie głównej:</source>
+                <target>Show the category menu on the main page</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Ilość wyświetlanych podkategorii:</source>
+                <target>Number of the displayed subcategories:</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Zwinięte</source>
+                <target>Collapsed </target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Rozwinięte do 1 poziomu</source>
+                <target>Expanded to the 1st level</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Rozwinięte do 2 poziomu</source>
+                <target>Expanded to the 2nd level</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Rozwinięte do 3 poziomu</source>
+                <target>Expanded to the 3rd level</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Rozwinięte do 4 poziomu</source>
+                <target>Expanded to the 4th level</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Rozwinięte do 5 poziomu</source>
+                <target>Expanded to the 5th level</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Rozwinięte bez ograniczeń</source>
+                <target>Fully expanded</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Podaj nazwę kategorii</source>
+                <target>Enter a category name</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Minimalna wartość to 1.</source>
+                <target>Minimum value is 1.</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Podaj liczbę wyświetlanych podkategorii</source>
+                <target>Enter the number of the displayed subcategories</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Podaj liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>usuń zdjęcie</source>
+                <target>delete an image</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Generuj automatycznie</source>
+                <target>Generate automatically</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Awansuj kategorię</source>
+                <target>Promote a category</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Przesuń kategorię w górę</source>
+                <target>Move a category up</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Przesuń kategorię w dół</source>
+                <target>Move a category down</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Degraduj kategorię</source>
+                <target>Degrade a category</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Przejdź do edycji kategorii</source>
+                <target>Go to the category</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Usuń kategorię - usuwa daną kategorię wraz z jej podkategoriami</source>
+                <target>Delete a category - deletes a category and its subcategories</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Usuń drzewo</source>
+                <target>Delete the category tree</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Nazwa kategorii</source>
+                <target>Category name</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Pokaż na stronie głównej</source>
+                <target>Show on the main page</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Strona główna</source>
+                <target>Main page</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Serwer nie pozwala na dołączanie plików większych od %s MB</source>
+                <target>Server doesn't allow to attach the files larger than %s MB</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Kategoria musi być wpierw zapisana do bazy danych...</source>
+                <target>Category must be first saved in the database...</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Ile znaków skracać nazwę podkategorii:</source>
+                <target>How many characters shorten a subcategory name:</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Podkategorie</source>
+                <target>Subcategories</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website's title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Wprowadź nazwę dla przyjaznego linku</source>
+                <target>Enter the name of the friendly link</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Dodaj meta tagi do kategorii %%category_path%%</source>
+                <target>Add the meta tags to the category %%category_path%%</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Tytuł strony</source>
+                <target>Site title</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Opis strony</source>
+                <target>Site description</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Przyjazny link</source>
+                <target>Friendly link</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Skracaj nazwę kategorii:</source>
+                <target>Cut a category name:</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Ile znaków skracać nazwę kategorii:</source>
+                <target>How many characters shorten a category name:</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Załącz/Zmień zdjęcie</source>
+                <target>Attach/Change an image</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Usunąć drzewo?</source>
+                <target>Delete the category tree?</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Zamierzasz usunąć całe drzewo kategorii. Jesteś pewien że chcesz kontynuować?</source>
+                <target>You are about to delete the entire category tree. Are you sure you want to continue?</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Tak</source>
+                <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Nie</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Anuluj</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Dodawanie kategorii, prosze czekać...</source>
+                <target>Adding a category, please wait...</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Operacja w toku...</source>
+                <target>Operation in progress...</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Kliknij dwukrotnie aby zmienić nazwę kategorii. Kliknij, przytrzymaj i przeciągnij aby zmienić jej położenie</source>
+                <target>Double click to change the category name. Click, hold and drag to change its position</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Edytuj</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Wybierz kategorię z drzewa do której chcesz dodać nową podkategorię i ponownie wciśnij ten przycisk</source>
+                <target>Select a category from the category tree, to which you want to add a new subcategory and then press this button</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Wybierz kategorię z drzewa, którą chcesz edytować a następnie wciśnij ten przycisk.</source>
+                <target>Select a category from the category tree that you want to edit and then press this button.</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Wybierz kategorię z drzewa którą chcesz usunać a następnie wciśnij ten przycisk.</source>
+                <target>Select a category from the category tree that you want to delete and then press this button.</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Usunąć kategorię?</source>
+                <target>Delete the category?</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Zamierzasz usunąć kategorię z drzewa. Jesteś pewien że chcesz kontynuować?</source>
+                <target>You are about to delete the category from the category tree. Are you sure you want to continue?</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Usuwanie kategorii, prosze czekać...</source>
+                <target>Deleting a category, please wait...</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Usuwa całe drzewo kategorii</source>
+                <target>Deletes the entire category tree</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Usuń drzewo</source>
+                <target>Delete the tree</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Usuwanie drzewa kategorii, prosze czekać...</source>
+                <target>Deleting the category tree, please wait...</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Kliknij dwukrotnie aby zmienić nazwę drzewa kategorii</source>
+                <target>Double click to change the name of the category tree</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Przenoszenie kategorii, prosze czekać...</source>
+                <target>Moving a category, please wait...</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Musisz podać nazwę kategorii</source>
+                <target>Enter a category name</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Zaznacz aby dodać produkt do kategorii</source>
+                <target>Check here to add a product to a category</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Zaznacz aby ustawić główną kategorię dla produktu</source>
+                <target>Select to set the main category for the product</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Rodzaj drzewa:</source>
+                <target>Category tree type:</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Domyślne</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Dynamiczne (zalecane przy dużej liczbie kategorii)</source>
+                <target>Dynamic (recommended for a large number of categories)</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Zawsze rozwinięte:</source>
+                <target>Always expanded:</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Niezależnie od wybranej kategorii drzewo zawsze jest rozwinięte do wybranego poziomu w "Prezentacja drzewa kategorii"</source>
+                <target>Regardless of the selected category, the category tree is always expanded to the set level in the "Category tree presentation"</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Pokaż ilość produktów w kategorii:</source>
+                <target>Show the number of the products in the category:</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Wszystkie</source>
+                <target>All</target>
+            </trans-unit>    
+            <trans-unit id="90">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>  
+            <trans-unit id="91">
+                <source>Ukryj w drzewie kategorii</source>
+                <target>Hide in the category tree</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Przypisz produkty</source>
+                <target>Assign the products</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Przypisywanie produktów do kategorii</source>
+                <target>Assign the products to the category</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Musisz podać nazwę drzewa</source>
+                <target>Enter the category tree name</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Nazwa już istnieje</source>
+                <target>Such name already exists</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Dodaj do kategorii</source>
+                <target>Add to the category</target>
+            </trans-unit>  
+            <trans-unit id="98">
+                <source>Usuń z kategorii</source>
+                <target>Remove from the category</target>
+            </trans-unit>  
+            <trans-unit id="99">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Poziome kategorie</source>
+                <target>Horizontal categories</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Konfiguracja poziomego drzewa</source>
+                <target>Configuration of horizontal tree</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Konfiguracja wyświetlania poziomych kategorii</source>
+                <target>Horizontal display configuration category</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Włącz poziome kategorie:</source>
+                <target>Turn on the horizontal categories:</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Pokaż obrazek kategorii:</source>
+                <target>Show picture category:</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Pokaż opis kategorii:</source>
+                <target>Show category description:</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Drzewo kategorii</source>
+                <target>Category tree</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Brak drzew kategorii</source>
+                <target>No category tree</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Pokaż produkty z podkategorii</source>
+                <target>Show products from subcategories</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Pokaż produkty z podkategorii:</source>
+                <target>Show products from subcategories</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Zezwalaj na pokazywanie kategorii ze wszystkich poziomów:</source>
+                <target>Allow to show categories in all levels</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Kolekcje produktów</source>
+                <target>Products collections</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Kolekcja produktów</source>
+                <target>Products collection</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>drzewo kategorii</source>
+                <target>category tree</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>Drzewo kategorii</source>
+                <target>Category tree</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Zastosuj</source>
+                <target>Apply</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Wpisz nazwę szukanej kategorii</source>
+                <target>Enter the name of searched category</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Nie możesz aktywować kategorii w przypadku, gdy kategoria narzędna jest nieaktywna</source>
+                <target>You can not activate a category if the parent category is inactive</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Ukrywaj kategorie bez produktów:</source>
+                <target>Hide categories without products:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

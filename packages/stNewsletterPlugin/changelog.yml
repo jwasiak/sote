@@ -1,0 +1,19 @@
+changelog:
+    stNewsletterPlugin-2.0.0.0:
+        version: {min: 1.0.0, max: 1.4.0.0}
+        priority: 1
+        url: http://www.sote.pl/soteshop/update
+        method:
+            name: smartyTemplatesChanged
+            params:
+                files:
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_add_to_list.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_box.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_confirm.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_index.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_list.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_remove.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_request_newsletter.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_unsubscribe_confirmation.html
+                    - apps/frontend/modules/stNewsletterFrontend/templates/theme/[MY_THEME]/newsletter_unsubscribe.html
+                    - web/css/frontend/theme/[MY_THEME]/stNewsletterPlugin.css

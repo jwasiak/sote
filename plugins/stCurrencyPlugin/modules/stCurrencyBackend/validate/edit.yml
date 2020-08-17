@@ -1,0 +1,12 @@
+fields:   
+    currency{name}:
+        required: 
+            msg:            Podaj nazwę waluty
+    currency{shortcut}:
+        required: 
+            msg:            Podaj kod ISO
+        sfStringValidator:
+            min_error:      Kod ISO musi zawierać 3 znaki
+            max_error:      Kod ISO musi zawierać 3 znaki
+            min:            3
+            max:            3

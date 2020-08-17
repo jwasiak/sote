@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>WebStore</source>
+                <target>WebStore</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zainstalowane dodatkowe aplikacje</source>
+                <target>Installed additional applications</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wersja</source>
+                <target>Version</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Darmowe aplikacje do pobrania</source>
+                <target>Free downloadable applications</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Aktywuj</source>
+                <target>Activate</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kup</source>
+                <target>Buy</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Pobierz</source>
+                <target>Download</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Brak połączenia z serwerem sote.pl.</source>
+                <target>No connection to the server sote.pl.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Nieprawidłowy kod aktywacji.</source>
+                <target>Invalid activation code.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Kod aktywacji został już wykorzystany.</source>
+                <target>The activation code has been already used.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Pakiet został aktywowany.</source>
+                <target>Package was activate.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Pakiet został pobrany.</source>
+                <target>Package was downloaded.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Aktywacja pakietu</source>
+                <target>Activate package</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Kod aktywacji</source>
+                <target>Activation code</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Informacje o pakiecie</source>
+                <target>Package information</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Tematy graficzne do pobrania</source>
+                <target>Available graphic themes for download</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Sprawdź nasze dodatkowe aplikacje</source>
+                <target>Check out our additional applications</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

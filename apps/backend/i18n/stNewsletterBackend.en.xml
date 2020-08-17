@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Newsletter</source>
+                <target>Newsletter</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nie podałeś skrótu</source>
+                <target>No abbreviation supplied</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Przekroczono dozwoloną liczbę znaków.</source>
+                <target>Maximum number of characters was exceeded.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Taki skrót już istnieje w bazie danych.</source>
+                <target>This abbreviation is already stored in the database.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nie podałeś adresu e-mail</source>
+                <target>Enter an email address</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid email address format.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Taki adres już istnieje w bazie danych.</source>
+                <target>This address is already stored in the database.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Brak tematu wiadomości.</source>
+                <target>Enter a message title.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Nie wysłano</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>adresow:</source>
+                <target>addresses:</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Konfiguracja newsletter</source>
+                <target>Configure your newsletter</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Nie podałeś nazwy</source>
+                <target>Enter a name</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Taka nazwa już istnieje w bazie danych.</source>
+                <target>This name is already stored in the database.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link.</source>
+                <target>If you no longer want to receive the messages, please click the link below.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Wypisz mnie z listy</source>
+                <target>Remove me from the mailing list</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu.</source>
+                <target>Thank you for your interest in our shop’s offer.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Adres został dodany do listy subscrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej.</source>
+                <target>Your address has been added to the mailing list. Please confirm that you want to receive the messages from us. To do so, activate your account by clicking the link provided below.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Potwierdź rejestrację</source>
+                <target>Confirm the registration</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów:</source>
+                <target>After you confirm your registration, you will receive the information on the following topics:</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Klient bez konta</source>
+                <target>Customer doesn't have an account</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Zakończono powodzeniem.</source>
+                <target>Completed successfully.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wysłano do:</source>
+                <target>Sent to:</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>klientów.</source>
+                <target>customer(s).</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wybierz grupy do wysłania, a następnie kliknij wyślij</source>
+                <target>Select the recipient groups and send a message</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Dokończ wysyłanie</source>
+                <target>Complete sending</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Wysłano</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Adres został potwierdzony.</source>
+                <target>Address has been confirmed.</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Zatwierdz adres.</source>
+                <target>Confirm this address.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Pokaż pole rejestracji przy składaniu zamowienia:</source>
+                <target>Show the newsletter's registration box in the shopping cart:</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Lista wiadomości</source>
+                <target>List of newsletters</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Wysyłanie wiadomości do klientów</source>
+                <target>Send the messages to your customers</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Utworzono</source>
+                <target>Created</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Temat</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Wysłano</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Wiadomości</source>
+                <target>Messages</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Adresy</source>
+                <target>Addresses</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Grupy</source>
+                <target>Groups</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Eksport</source>
+                <target>Export</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Import</source>
+                <target>Import</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Edycja wiadomości</source>
+                <target>Edit a message</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Treść</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Wysłano</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Nie wybrano grup do wysłania.</source>
+                <target>Select at least one group</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Adresów</source>
+                <target>Number of addresses</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Zapisz i wybierz grupy do wysłania</source>
+                <target>Save and select the recipients</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Wysyłanie wiadomości</source>
+                <target>Send the message</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Status wysyłania</source>
+                <target>Sending status</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Popraw</source>
+                <target>Correct</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Wyślij</source>
+                <target>Send</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Lista adresów</source>
+                <target>List of addresses</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Potwierdzony</source>
+                <target>Confirmed</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Edycja adresów</source>
+                <target>Edit the address</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Informacje o kliencie</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Adres e-mail</source>
+                <target>Email address</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Zapisz i wyślij prośbę o potwierdzenie</source>
+                <target>Save and send the confirmation request</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Lista grup</source>
+                <target>List of groups</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Wybrana grupa</source>
+                <target>Selected group</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>nie zawiera adresow.</source>
+                <target>doesn't contain any addresses.</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Domyślna</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Edycja grup</source>
+                <target>Edit groups</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Możliwość dodania przez stronę</source>
+                <target>Enable an ability to join the mailing group in the shop</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Domyślna grupa</source>
+                <target>Default group</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Rejestracja na liście subskrypcji.</source>
+                <target>Subscription list registration.</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Eksport adresów e-mail</source>
+                <target>Export the email addresses</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Import adresów e-mail</source>
+                <target>Import the email addresses</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Wysłana</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Utworzona</source>
+                <target>Created</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Zapisz i wyślij</source>
+                <target>Save and send</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Jesteś pewień, że chcesz wysłać tą wiadomość do wybranych grup?</source>
+                <target>Are you sure you want to send this message to the selected groups?</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Musisz wybrać przynajmniej jedną grupę</source>
+                <target>You have to select at least one group</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Wysyłanie wiadomości %completed%/%from% zakończone sukcesem.</source>
+                <target>Sending messages %completed%/%from% successfully completed.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Powróć do edycji</source>
+                <target>Back to edit</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Wysyłanie wiadomości w toku %current%/%from%</source>
+                <target>Sending messages in progress %current%/%from%</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Wyłącz newsletter w sklepie:</source>
+                <target>Disable newsletter in the shop:</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Domyślny język wysyłania</source>
+                <target>Default language to send</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Domyślny język wysyłania:</source>
+                <target>Default language to send:</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Szablon html:</source>
+                <target>Html template:</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Narodowość</source>
+                <target>Nationality</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Dodatkowa wiadomość po rejestracji</source>
+                <target>Additional message after registration</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Włącz dodatkową wiadomość:</source>
+                <target>Enable additional message:</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Temat:</source>
+                <target>Title:</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Szablon wiadomości</source>
+                <target>Message template</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Kod html:</source>
+                <target>Code html:</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Teksty na stronie rejestracji</source>
+                <target>Texts on the registration page</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Tytuł:</source>
+                <target>Title:</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Teksty na stronie głównej</source>
+                <target>Home page texts</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Tekst:</source>
+                <target>Text:</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Tekst pod rejestracją:</source>
+                <target>Text under registration:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

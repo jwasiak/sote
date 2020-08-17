@@ -1,0 +1,83 @@
+default:
+    Tax_1:
+        vat: 0
+        vat_name: 0%
+CZE:
+    Tax_1:
+        vat: 20
+        vat_name: 20%
+    Tax_2:
+        vat: 10
+        vat_name: 10%
+DEU:
+    Tax_1:
+        vat: 19
+        vat_name: 19%
+    Tax_2:
+        vat: 7
+        vat_name: 7%
+ESP:
+    Tax_1:
+        vat: 18
+        vat_name: 18%
+    Tax_2:
+        vat: 8
+        vat_name: 8%
+    Tax_3:
+        vat: 4
+        vat_name: 4%
+FRA:
+    Tax_1:
+        vat: 19.6
+        vat_name: 19.6%
+    Tax_2:
+        vat: 5.5
+        vat_name: 5.5%
+    Tax_3:
+        vat: 2.1
+        vat_name: 2.1%
+GBR:
+    Tax_1:
+        vat: 20
+        vat_name: 20%
+    Tax_2:
+        vat: 5
+        vat_name: 5%
+ITA:
+    Tax_1:
+        vat: 20
+        vat_name: 20%
+    Tax_2:
+        vat: 10
+        vat_name: 10%
+PRT:
+    Tax_1:
+        vat: 23
+        vat_name: 23%
+    Tax_2:
+        vat: 13
+        vat_name: 13%
+    Tax_3:
+        vat: 6
+        vat_name: 6%
+RUS:
+    Tax_1:
+        vat: 18
+        vat_name: 18%
+    Tax_2:
+        vat: 10
+        vat_name: 10%
+SVK:
+    Tax_1:
+        vat: 19
+        vat_name: 19%
+    Tax_2:
+        vat: 10
+        vat_name: 10%
+    Tax_3:
+        vat: 6
+        vat_name: 6%
+USA:
+    Tax_1:
+        vat: 0
+        vat_name: 0%

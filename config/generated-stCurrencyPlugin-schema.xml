@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stCurrencyPlugin.lib.model" noXsd="true">
+
+  <table name="st_currency" phpName="Currency" isI18N="true" i18nTable="st_currency_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="currency_standard_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_currency_standard" onDelete="setnull">
+      <reference local="currency_standard_id" foreign="id" />
+    </foreign-key>
+    <column name="shortcut" type="VARCHAR" size="20" />
+    <column name="exchange" type="DECIMAL" size="6" scale="4" />
+    <column name="active" type="BOOLEAN" />
+    <column name="main" type="BOOLEAN" />
+    <column name="front_symbol" type="VARCHAR" size="20" />
+    <column name="back_symbol" type="VARCHAR" size="20" />
+    <column name="nbp_exchange" type="FLOAT" />
+    <column name="system" type="BOOLEAN" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+  </table>
+
+  <table name="st_currency_standard" phpName="CurrencyStandard">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="code" type="INTEGER" />
+    <column name="shortcut" type="VARCHAR" size="20" />
+  </table>
+
+  <table name="st_currency_i18n" phpName="CurrencyI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_currency" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="64" />
+  </table>
+
+</database>

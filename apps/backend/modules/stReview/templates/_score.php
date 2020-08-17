@@ -1,0 +1,1 @@
+<?php echo select_tag('review[score]', options_for_select(Array('- ', '1', '2', '3', '4', '5'), $review->getScore(), array('id'=>'review[score]'))) ?>

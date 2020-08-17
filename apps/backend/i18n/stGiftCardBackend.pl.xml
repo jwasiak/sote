@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="pl_PL" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>code_format.help</source>
+                <target>
+                    <b>@</b> - unikalna liczba [wymagany]<br />
+                    <b>#</b> - losowa litera A-Z [opcjonalny]<br />
+                    <b>9</b> - losowa liczba 0-9 [opcjonalny]                    
+                </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

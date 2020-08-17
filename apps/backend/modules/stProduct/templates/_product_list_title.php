@@ -1,0 +1,1 @@
+<?php echo ProductPeer::retrieveByPK($forward_parameters['product_id']); ?>

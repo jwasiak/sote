@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Zapisz</source>
+				<target>保存</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Waluta</source>
+				<target>货币</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

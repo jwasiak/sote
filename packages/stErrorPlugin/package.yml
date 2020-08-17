@@ -1,0 +1,14 @@
+---
+package: 
+  name: stErrorPlugin
+  stability: stable
+  version: 2.1.0.4
+  summary: Obsluga bledow
+  description: Obsluga bledow Error 404 - Page not found
+  notes: |
+    - Aktualizacja wygladu strony informujacej o bledzie 404
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

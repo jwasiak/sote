@@ -1,0 +1,23 @@
+package:
+  name: stOrder
+  stability: stable
+  version: 7.4.4.21
+  summary: Zamowienia
+  description: 'Zarzadzanie zamowieniami sklepu'
+  notes: |
+     - Poprawka wyswietlania statusu zamowienia
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.9.15
+    stBackend: 1.0.4.28
+    stUser: 1.0.7.39
+    stProduct: 1.0.17.5
+    stDelivery: 1.0.4.32
+    stBasket: 1.0.6.31
+    stPayment: 1.0.5.12
+    stMailPlugin: 1.0.2.5
+    stSecurityPlugin: 1.0.2.7

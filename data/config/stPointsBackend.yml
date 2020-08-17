@@ -1,0 +1,24 @@
+data:
+  points_system_is_active: false
+  points_system_only_authenticated: false
+  points_show_in_login_status: '1'
+  points_release_on: false
+  points_release_value: '200'
+  order_status_on: false
+  order_status_type: '4'
+  product_card_show_points: '1'
+  product_card_display_type: value_earn
+  product_full_list_show_points: '1'
+  product_full_list_display_type: value_earn_alternative
+  product_short_list_show_points: '1'
+  product_short_list_display_type: value_earn_alternative
+  product_alternative_list_show_points: '1'
+  product_alternative_list_display_type: value_earn_alternative
+  product_group_show_points: '1'
+  product_group_display_type: value_earn_alternative
+  points_system_install_update: '1'
+  _i18n:
+    en_US:
+      points_shortcut: pts
+    pl_PL:
+      points_shortcut: pkt

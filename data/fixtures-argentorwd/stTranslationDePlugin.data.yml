@@ -1,0 +1,371 @@
+ProductI18n:  
+  ProductI18n_de_1:
+    id: Product_1
+    culture: de
+    name: Pokal
+    url: pokal
+    uom: St.
+  ProductI18n_de_2:
+    id: Product_2
+    culture: de
+    name: Stoppuhr
+    url: stoppuhr
+    uom: St.
+  ProductI18n_de_3:
+    id: Product_3
+    culture: de
+    name: Kopfhörer
+    url: kopfhorer
+    uom: St.
+  ProductI18n_de_4:
+    id: Product_4
+    culture: de
+    name: Hängende Lautsprecher
+    url: hangende-lautsprecher
+    uom: St.
+  ProductI18n_de_5:
+    id: Product_5
+    culture: de
+    name: Kopfhörer 200
+    url: kopfhorer-200
+    uom: St.
+  ProductI18n_de_6:
+    id: Product_6
+    culture: de
+    name: Laptop
+    url: laptop
+    uom: St.
+  ProductI18n_de_7:
+    id: Product_7
+    culture: de
+    name: Goldring mit Diamant
+    url: goldring-mit-diamant
+    uom: St.
+  ProductI18n_de_8:
+    id: Product_8
+    culture: de
+    name: Silber Ring
+    url: silber-ring
+    uom: St.
+  ProductI18n_de_9:
+    id: Product_9
+    culture: de
+    name: Lautsprecher
+    url: lautsprecher
+    uom: St.
+  ProductI18n_de_10:
+    id: Product_10
+    culture: de
+    name: Computer
+    url: computer
+    uom: St.
+  ProductI18n_de_11:
+    id: Product_11
+    culture: de
+    name: GoodPix 130ES Kamera
+    url: goodpix-130es-kamera
+    uom: St.
+  ProductI18n_de_12:
+    id: Product_12
+    culture: de
+    name: Speicherstick 8GB
+    url: speicherstick-8gb
+    uom: St.
+
+CategoryI18n:
+  CategoryI18n_de_1:
+    id: Category_1
+    culture: de
+    name: Kategorien
+    url: kategorien
+  CategoryI18n_de_2:
+    id: Category_2
+    culture: de
+    name:  Audio
+    url: audio
+  CategoryI18n_de_3:
+    id: Category_3
+    culture: de
+    name: Lautsprecher
+    url: audio-lautsprecher
+  CategoryI18n_de_4:
+    id: Category_4
+    culture: de
+    name: Kopfhörer
+    url: audio-kopfhorer
+  CategoryI18n_de_5:
+    id: Category_5
+    culture: de
+    name: Computer
+    url: computer
+  CategoryI18n_de_6:
+    id: Category_6
+    culture: de
+    name:  Fotografie
+    url: fotografie
+  CategoryI18n_de_8:
+    id: Category_8
+    culture: de
+    name: Schmuck
+    url: schmuck
+  CategoryI18n_de_9:
+    id: Category_9
+    culture: de
+    name: Geschenkartikel
+    url: geschenkartikel
+  CategoryI18n_de_18:
+    id: Category_10
+    culture: de
+    name: Menü
+    url: menu
+  CategoryI18n_de_20:
+    id: Category_11
+    culture: de
+    name: Elektronik
+    url: elektronik
+  CategoryI18n_de_22:
+    id: Category_12
+    culture: de
+    name: Geschenkartikel
+    url: geschenkartikel
+  CategoryI18n_de_24:
+    id: Category_13
+    culture: de
+    name: Sonderangebote
+    url: sonderangebote
+  CategoryI18n_de_26:
+    id: Category_14
+    culture: de
+    name: Fotografie
+    url: electronik-fotografie
+  CategoryI18n_de_28:
+    id: Category_15
+    culture: de
+    name: Computer
+    url: electronik-computer
+  CategoryI18n_de_30:
+    id: Category_16
+    culture: de
+    name: Lautsprecher
+    url: electronik-lautsprecher
+  CategoryI18n_de_32:
+    id: Category_17
+    culture: de
+    name: Kopfhörer
+    url: electronics-kopfhorer
+  CategoryI18n_de_34:
+    id: Category_18
+    culture: de
+    name: Für sie
+    url: geschenkartikel-fur-sie
+  CategoryI18n_de_36:
+    id: Category_19
+    culture: de
+    name: Für ihn
+    url: geschenkartikel-fur-ihn
+  CategoryI18n_de_38:
+    id: Category_20
+    culture: de
+    name: Schmuck
+    url: sonderangebote-schmuck
+  CategoryI18n_de_40:
+    id: Category_21
+    culture: de
+    name: Computer
+    url: sonderangebote-computer
+  CategoryI18n_de_42:
+    id: Category_22
+    culture: de
+    name: Audio
+    url: sonderangebote-audio
+  CategoryI18n_de_42:
+    id: Category_23
+    culture: de
+    name: Fotografie
+    url: sonderangebote-fotografie
+
+ProductGroupI18n:
+  ProductGroupI18n_de_1:
+    id: ProductGroup_1
+    culture: de
+    name: Aktionen
+    url: aktionen
+  ProductGroupI18n_de_2:
+    id: ProductGroup_2
+    culture: de
+    name: Verkauf
+    url: verkauf
+  ProductGroupI18n_de_3:
+    id: ProductGroup_3
+    culture: de
+    name: Empfohlen
+    url: empfohlen
+  ProductGroupI18n_de_4:
+    id: ProductGroup_4
+    culture: de
+    name: Home
+    url: home
+  ProductGroupI18n_de_6:
+    id: ProductGroup_6
+    culture: de
+    name: Neue Produkte
+    url: neue-produkte
+
+BoxI18n:
+  BoxI18n_de_1:
+    id: Box_1
+    culture: de
+    name: Lieferung
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Lieferung" />
+  BoxI18n_de_2:
+    id: Box_2
+    culture: de
+    name: Zahlungen
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Zahlungen" />
+
+WebpageI18n:
+  WebpageI18n_de_1:
+    id: Webpage_1
+    culture: de
+    name: Wir über uns
+    content: Beispieltext.
+    url: wir-uber-uns
+  WebpageI18n_de_2:
+    id: Webpage_2
+    culture: de
+    name: Nutzungsbedingungen
+    content: Beispieltext.
+    url: nutzungsbedingungen
+  WebpageI18n_de_3:
+    id: Webpage_3
+    culture: de
+    name: Kontakt
+    content: Beispieltext.
+    url: kontakt
+  WebpageI18n_de_4:
+    id: Webpage_4
+    culture: de
+    name: Datenschutz
+    content: Beispieltext.
+    url: datenschutz
+  WebpageI18n_de_5:
+    id: Webpage_5
+    culture: de
+    name: Versand
+    content: Beispieltext.
+    url: versand
+  WebpageI18n_de_6:
+    id: Webpage_6
+    culture: de
+    name: Zahlungen
+    content: Beispieltext.
+    url: zahlungen
+  WebpageI18n_de_7:
+    id: Webpage_7
+    culture: de
+    name: Widerrufsrecht
+    content: Beispieltext.
+    url: widerrufsrecht
+
+WebpageGroupI18n:
+   WebpageGroupI18n_de_2:
+    id: WebpageGroup_2
+    culture: de
+    name: Angaben
+ WebpageGroupI18n_de_3:
+    id: WebpageGroup_3
+    culture: de
+    name: Schlagzeile
+   WebpageGroupI18n_de_4:
+    id: WebpageGroup_4
+    culture: de
+    name: Infoseiten
+
+TextI18n:
+  TextI18n_de_1:
+    id: Text_1
+    culture: de
+    name: Home
+    content: Willkommen
+
+DeliveryI18n:
+  DeliveryI18n_de_1:
+    id: Delivery_1
+    culture: de
+    name: Selbst abholen
+  DeliveryI18n_de_2:
+    id: Delivery_2
+    culture: de
+    name: Post
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_de_1: 
+    id: PaymentType_1
+    culture: de
+    name: Bargeld
+  PaymentTypeI18n_de_2: 
+    id: PaymentType_2
+    culture: de
+    name: Überweisung
+
+NewsletterGroupI18n:
+  NewsletterGroupI18n_de_1:
+    id: NewsletterGroup_1
+    culture: de
+    name: Neuigkeiten
+    description: >
+      <p>Die Neuigkeiten aus unserem Shop liefern aktualle Informationen über unser Angebot. Wählen Sie diesen Newsletter, um auf dem Laufenden mit unseren Produkten zu bleiben.</p>
+  NewsletterGroupI18n_de_2:
+    id: NewsletterGroup_2
+    culture: de
+    name:  Angebote
+    description: >
+      <p>Informationen über die neuesten Sonderangebote und Produkte. Verpassen Sie alle die günstigen Gelegenheiten nicht und abonnieren Sie diesen Newsletter.</p>
+  NewsletterGroupI18n_de_3:
+    id: NewsletterGroup_3
+    culture: de
+    name: Klub
+    description: >
+      <p>Wenn Sie ein Mitglied unseres Clubs werden und an Shop-Events und Sonderangeboten teilnehmen wollen, melden Sie sich für diesen Newsletter an.</p>
+
+AvailabilityI18n:
+  AvailabilityI18n_de_1:
+    id: Availability_1
+    culture: de
+    availability_name: Fehlt
+  AvailabilityI18n_de_2:
+    id: Availability_2
+    culture: de 
+    availability_name: Verfügbar
+
+MailDescriptionI18n:
+  MailDescriptionI18n_de_3:
+    id: MailDescription_3
+    culture: de
+    description: >
+      Ihr Konto wurde erfolgreich registriert. Sie können sich nun mit den nachstehenden Zugangsdaten anmelden.
+    name: Customer - new account - header
+  MailDescriptionI18n_de_4:
+    id: MailDescription_4
+    culture: de
+    description: >
+      <span style='color: #ff0000;'>Das Konto wird nicht aktiviert, bis Sie die Registrierung bestätigt haben.</span><br /><br/>Machen Sie sich mit dem kompletten Angebot unseres Shops bekannt.
+    name: Customer - new account - footer
+  MailDescriptionI18n_de_7:
+    id: MailDescription_7
+    culture: de
+    description: >
+      Wir bedanken uns für Ihre Bestellung.<br />
+    name: Order - order data - header
+  MailDescriptionI18n_de_8:
+    id: MailDescription_8
+    culture: de
+    description: >
+      Wir bedanken uns für Ihren Einkauf in unserem Shop. Ihre Bestellung wird so schnell wie möglich geliefert.<br />
+    name: Order - order data - footer
+  MailDescriptionI18n_de_9:
+    id: MailDescription_9
+    culture: de
+    description: >
+      Der Status Ihrer Bestellung hat sich geändert. Aktueller Bestellungsstatus: {ORDER_STATUS}
+    name: Order - status change - header

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Informacje o sklepie</source>
+                <target>Shop information</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Informacje o licencji</source>
+                <target>License information</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nazwa sprzedawcy / Firma</source>
+                <target>Seller name / Company</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>NIP</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Ulica, nr domu</source>
+                <target>Street address, house number</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Kod, miasto</source>
+                <target>Postal code, city/town</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Telefon</source>
+                <target>Phone number</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Fax</source>
+                <target>Fax</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Rachunek bankowy</source>
+                <target>Bank account</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Kontaktowy adres e-mail</source>
+                <target>E-mail</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Numer licencji</source>
+                <target>License</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Firma</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Imie i nazwisko</source>
+                <target>Name and surname</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Zmień numer licencji</source>
+                <target>Change the license number</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Proszę sprawdzić czy numer licencji oraz jego format są poprawne.<br/>Numer licencji powinien zawierać 29 znaków w formacie xxxx-xxxx-xxxx-xxxx-xxxx-xxxx.</source>
+                <target>Check if the license number and its format are correct.<br/>License number should have 29 characters in the format xxxx-xxxx-xxxx-xxxx-xxxx-xxxx.</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Nie można zmienić numeru licencji wersji komercyjnej.</source>
+                <target>You can't change the license number of a commercial version.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Numer licencji wersji Open może zostać zmieniony tylko na numer licencji wersji komercyjnej.</source>
+                <target>The license number of the Open version can be only changed to the license number of a commercial version.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Numer licencji jest nieprawidłowy.</source>
+                <target>The license number is invalid.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Telefon jest widoczny wyłącznie dla urządzeń mobilnych</source>
+                <target>The phone is visible only for mobile devices</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Pokaż telefon</source>
+                <target>Show phone</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Musisz podać telefon w formacie miedzynarodowym</source>
+                <target>The number must be in international format</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>Id</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Data dokonania płatności</source>
+				<target>Дата выполнения оплаты</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kwota</source>
+				<target>Сумма</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Typ płatności</source>
+				<target>Тип платежа</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Status</source>
+				<target>Статус</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rozliczona</source>
+				<target>Учтенная</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Nierozliczona</source>
+				<target>Не учтенная</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>Код</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>Название</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>Нетто</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Vat</source>
+				<target>НДС</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>Брутто</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>Количество</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Suma</source>
+				<target>Сумма</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Łączna wartość:</source>
+				<target>Общая стоимость:</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Rodzaj dostawy:</source>
+				<target>Тип доставки:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Koszt przesyłki:</source>
+				<target>Стоимость отправления:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Numer przesyłki:</source>
+				<target>Номер отправления:</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Zamówienie nr:</source>
+				<target>Номер заказа:</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>potwierdzone</source>
+				<target>подтверждено</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>niepotwierdzone</source>
+				<target>не подтверждено</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Numer ID klienta:</source>
+				<target>Номер ID клиента:</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Email klienta:</source>
+				<target>Адрес электронной почты клиента:</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Dane dostawy:</source>
+				<target>Данные доставки:</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Dane billingowe:</source>
+				<target>Биллинговые данные:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Produkty</source>
+				<target>Продукты</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Łącznie</source>
+				<target>Всего</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dane płatności</source>
+				<target>Данные платежа</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uwagi klienta</source>
+				<target>Замечания клиента</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Notatki sprzedawcy</source>
+				<target>Замечания продавца</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Bon towarowy: %code%</source>
+				<target>Товарный бон: %code%</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Termin dostawy</source>
+				<target>Срок доставки</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tel</source>
+				<target>тел.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Telefon</source>
+				<target>Телефон</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Konto</source>
+				<target>Счет</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>NIP</source>
+				<target>ИНН/NIP</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

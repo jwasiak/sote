@@ -1,0 +1,135 @@
+<div class="row">
+    <div class="col-sm-6 col-lg-6">
+        <div class="radio">
+            <label> {$radio_delivery_customer_type1}
+                {$label_delivery_customer_type1} </label>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-6">
+        <div class="radio">
+            <label> {$radio_delivery_customer_type2}
+                {$label_delivery_customer_type2} </label>
+        </div>
+    </div>
+</div>
+<div id="company_delivery_fields">
+
+    <div class="form-group  {if $error_delivery_company!=''}has-error{/if}">
+        {if $error_delivery_company!=""}<label class="control-label" for="company_delivery">{$error_delivery_company}</label>{/if}
+        {$input_delivery_company}
+    </div>
+
+</div>
+
+<div class="form-group  {if $error_delivery_full_name!=''}has-error{/if}">
+    {if $error_delivery_full_name!=""}<label class="control-label" for="full_name_delivery">{$error_delivery_full_name}</label>{/if}
+    {$input_delivery_full_name}
+</div>
+
+<div class="form-group  {if $error_delivery_address!=''}has-error{/if}">
+    {if $error_delivery_address!=""}<label class="control-label" for="address_delivery">{$error_delivery_address}</label>{/if}
+    {$input_delivery_address}
+</div>
+
+{if $show_address_more==1}
+<div class="form-group">
+    {$input_delivery_address_more}
+</div>
+{/if}
+
+{if $show_region==1}
+<div class="form-group">
+    {$input_delivery_region}
+</div>
+{/if}
+
+<div class="row">
+    <div class="col-sm-6 col-lg-4">
+
+        <div class="form-group  {if $error_delivery_code!=''}has-error{/if}">
+            {if $error_delivery_code!=""}<label class="control-label" for="code_delivery">{$error_delivery_code}</label>{/if}
+            {$input_delivery_code}
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-8">
+        <div class="form-group  {if $error_delivery_town!=''}has-error{/if}">
+            {if $error_delivery_town!=""}<label class="control-label" for="town_delivery">{$error_delivery_town}</label>{/if}
+            {$input_delivery_town}
+        </div>
+    </div>
+</div>
+
+<div class="form-group {if $error_delivery_country!=''}has-error{/if}">
+    {if $error_delivery_country!=""}<label class="control-label" for="country_delivery">{$error_delivery_country}</label>{/if}
+    {$select_delivery_country}
+</div>
+
+{if $show_pesel==1}
+<div class="form-group">
+    {$input_delivery_pesel}
+</div>
+{/if}
+
+<div class="form-group  {if $error_delivery_phone!=''}has-error{/if}">
+    {if $error_delivery_phone!=""}<label class="control-label" for="phone_delivery">{$error_delivery_phone}</label>{/if}
+    {$input_delivery_phone}
+</div>
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function() {
+
+            var star_placeholder_delivery = $("#full_name_delivery").attr("placeholder");        
+            var no_star_placeholder_delivery = star_placeholder_delivery.substring(2);
+
+            if ($('#user_data_delivery_customer_type_2').attr('checked')) {
+                $("#company_delivery_fields").show();
+                $("#full_name_delivery").attr("placeholder",no_star_placeholder_delivery);
+            } else {
+                $("#company_delivery_fields").hide();
+                $("#full_name_delivery").attr("placeholder", star_placeholder_delivery);
+            }
+
+            $('#user_data_delivery_customer_type_1').click(function() {
+                $("#company_delivery_fields").hide();                
+                $("#full_name_delivery").attr("placeholder", star_placeholder_delivery);
+            });
+
+            $('#user_data_delivery_customer_type_2').click(function() {
+                $("#company_delivery_fields").show();          
+                $("#full_name_delivery").attr("placeholder", no_star_placeholder_delivery);      
+            });
+
+        });
+
+        $('#user_data_delivery_country').change(function() {
+
+            $('#delivery-country')
+                .data('ignore-billing-update', true)
+                .val($(this).val())
+                .change();
+
+            var isSmoothScrollSupported = 'scrollBehavior' in document.documentElement.style;
+
+            var offset = $('#shopping-cart-delivery').offset();
+
+            var options = {
+                "behavior": "smooth",
+                "top": offset.top - 60
+            };
+
+            if (isSmoothScrollSupported) {
+                // Native smooth scrolling
+                window.scrollTo(options);
+            } else if (window.jQuery && jQuery.scrollTo) {
+                // jQuery scrollTo (you can change to you plugin/realization)
+                $('body').animate({ scrollTop: options.top }, 1000);
+            }
+        });
+    });
+
+</script>
+{/literal}

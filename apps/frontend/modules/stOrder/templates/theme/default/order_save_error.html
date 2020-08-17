@@ -1,0 +1,15 @@
+<div id="st_application-order_save" class="st_application" >
+   <h1 class="st_title">
+      {__ text="Wystąpił problem podczas składania zamówienia"} 
+   </h1>
+   <div class="st_content">
+      <ul>
+         {foreach item=error from=$errors}
+         <li>{$error}</li>
+         {/foreach}
+      </ul>
+      <div class="st_button">
+         <div class="st_button-left"><a href="{$return_url}">{__ text="Wróć do koszyka"}</a></div>
+      </div>      
+   </div>
+</div>

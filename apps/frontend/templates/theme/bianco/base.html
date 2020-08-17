@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{$lang}">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
+      {use_javascript src="jquery-1.8.3.min.js" position="first"}
+      {use_javascript src="/bootstrap/js/bootstrap.min.js" position="first"}
+      {use_javascript src="bootstrap-hover-dropdown.min.js" position="first"}
+
+      {use_javascript src="jquery.stickybox.js" position="first"}
+      {use_javascript src="jquery.equilizer.js" position="first"}
+      {use_javascript src="lightGallery.min.js" position="first"}
+      {use_javascript src="easing.js"}
+      {use_javascript src="bootstrap-slider.min.js"}
+      {use_javascript src="bloodhund.min.js"}
+      {use_javascript src="bootstrap-typeahead.js"}
+      {use_javascript src="tmpl.min.js"}
+      {use_javascript src="/swiper-slider/js/swiper450.min.js"}
+      
+      {use_stylesheet src="style.css" position="first"}
+      {use_stylesheet src="theme.css" position="first"}
+      {use_stylesheet src="theme_editor.css" position="first"}
+      {use_stylesheet src="lightGallery.css" position="first"}
+      {use_stylesheet src="bootstrap-slider.css" position="first"}
+      {use_stylesheet src="/swiper-slider/css/swiper.min.css"}
+      
+      {include_meta}
+      <link href="/bootstrap/css/bootstrap.min.css?v320" rel="stylesheet" type="text/css" />
+      {include_stylesheets minify="true"}
+      {include_javascripts minify="true"}
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+      {include_file id="_fonts"}
+      {st_get_component module="stGoogleAnalyticsFrontend" component="standard"}  
+      {slot name="before-head-ends" hidden="true"}{/slot}
+   </head>
+   <body>
+      {slot name="base-header" hidden="true"}{/slot} 
+      {render_layout default="one_column"}
+      {slot name="base-footer" hidden="true"}{/slot}
+      {if $shopinfo->get('phone') && $shopinfo->get('show_phone')}
+         <a id="phone-call" href="tel:{$shopinfo->get('phone')}"><span class="glyphicon glyphicon-earphone"></span></a> 
+      {/if}
+      <a href="#" id="toTop"><span class="glyphicon glyphicon-arrow-up"></span></a>
+   </body>
+</html>

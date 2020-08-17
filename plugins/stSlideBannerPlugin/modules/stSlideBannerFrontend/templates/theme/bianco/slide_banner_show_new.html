@@ -1,0 +1,102 @@
+<div id="homepage-carousel{$group_name}" class="homepage-carousel slide-banner-new">
+    {if $count > 1}
+        <a class="arrow-left {$group_name}left relative" href="#" ></a>
+        <a class="arrow-right {$group_name}right relative" href="#" ></a>
+    {/if}
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {foreach from=$banners item=banner name=slide}
+                
+                 <div  
+                    {if $banner->getLink() && !$banner->getButtonLink()}
+                        {if $banner->hasAbsoluteLink()}                            
+                            onclick="window.open('{$banner->getLink()}', '_blank');"
+                        {else}                            
+                            onclick="window.open('{$banner->getLink()}', '_parent');"
+                        {/if}
+                          
+                    {/if}
+                    
+                    {if $banner->getButtonLink()}
+                        {if $banner->hasAbsoluteButtonLink()}                            
+                            onclick="window.open('{$banner->getButtonLink()}', '_blank');"
+                        {else}                            
+                            onclick="window.open('{$banner->getButtonLink()}', '_parent');"
+                        {/if}
+                     {/if}                 
+                 class="swiper-slide swiper-slide-desktop"  {if $banner->getImage()} style="background-image: url({st_asset_image_path image=$banner->getImagePath() type='thumb' for='slide'});"{/if}>
+                    <div class="swiper-slide swiper-slide-mobile" {if $banner->getImageSmall()} style="background-image: url({st_asset_image_path image=$banner->getImageSmallPath() type='thumb' for='slide_mobile'});"{/if}>
+
+                            <div class="caption {if $banner->getBannerDescriptionPosition()==0}dark{else}light{/if}"
+                                 style="
+                                 {if $banner->getBannerMarginLeft()!=""}margin-left:{$banner->getBannerMarginLeft()}%;{/if}
+                                 {if $banner->getBannerMarginRight()!=""}margin-right:{$banner->getBannerMarginRight()}%;{/if}
+                            ">
+                                <h3>{$banner->getBannerTitle()}</h3>
+                                <p>{$banner->getBannerDescription()}</p>
+                                
+                                {if $banner->getButtonText()!=""}
+                                <a class="btn btn-primary">
+                                    {$banner->getButtonText()}
+                                </a>
+                                {/if}
+                                
+                            </div>  
+                    </div>
+                </div>   
+            {/foreach}
+        </div>
+        {if $count > 1}
+            <div class="{$group_name}-pagination swiper-pagination"></div>
+        {/if}
+    </div>
+</div>  
+
+{literal}
+<style type="text/css">
+    #homepage-carousel .swiper-slide
+    {
+        min-height: 410px;
+    }
+
+    @media (min-width: 768px) {
+        #homepage-carousel .swiper-slide
+        {
+            min-height: 500px;
+        }        
+    }
+</style>
+{/literal}
+
+{if $count > 1}
+    {literal}
+    <script type="text/javascript">
+    jQuery(function ($) {    
+        $(document).ready(function() {
+            var swiper = new Swiper('#homepage-carousel{/literal}{$group_name}{literal} .swiper-container', {
+                pagination: {
+                    el: '.{/literal}{$group_name}{literal}-pagination',
+                    type: 'bullets',
+                    clickable: true,
+                    bulletClass: 'swiper-pagination-switch',
+                    bulletActiveClass: 'swiper-active-switch',
+                },
+                autoplay: {
+                    delay: 10000,
+                    disableOnInteraction: true,
+                },
+                navigation: {
+                    nextEl: '.{/literal}{$group_name}{literal}right',
+                    prevEl: '.{/literal}{$group_name}{literal}left',
+                },
+                loop:true,
+                grabCursor: true,
+                speed: 700,
+                effect: 'fade'
+
+            });
+        });   
+    });
+    </script>
+    {/literal}
+{/if}

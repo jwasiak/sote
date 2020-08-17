@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>p24_posId:Incorrect pos_id</source>
+                <target>Podane id sprzedawcy jest nieprawidłowe</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>p24_sign:Incorrect CRC value</source>
+                <target>Podany klucz CRC jest nieprawidłowy</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>unfinished_registration:given merchant has unfinished registration process</source>
+                <target>Sprzedawca nie dokończył procesu rejestracji</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,30 @@
+#stats_config_name
+{
+    width: 190px; 
+    text-align: right;
+}
+
+.st_stats-radio
+{
+    padding-right:30px;
+}
+
+#sf_admin_container .form-row label
+{
+    text-align: right;
+}
+
+#sf_admin_container .sf_admin_list th
+{
+    text-align: right;
+}
+.stats_table_name
+{
+    padding: 2px 5px; 
+    text-align: right;
+}
+
+.stats_table_value
+{
+    padding: 3px 5px;
+}

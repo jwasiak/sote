@@ -1,0 +1,10 @@
+{include_content id="st_layout_container_foot"}
+{st_get_component module="stWebpageFrontend" component="footerWebpage"}
+{st_get_component module="stFrontendMain" component="copyright" params="open='$open'"}
+
+{if $show_online_users}
+<div id="online">
+{__ text="Użytkownicy online" langCatalogue="stFrontend"}: {$users_online}
+</div>
+{/if}
+{include_st_component module="stGoogleAnalyticsFrontend" component="standard"}

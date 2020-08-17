@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Koszyk</source>
+                <target>Shopping cart</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Limit ilości sztuk danego produktu:</source>
+                <target>Product quantity limit:</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Wartość nie może być pusta</source>
+                <target>Value can't be empty</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Minimalna wartość to 1</source>
+                <target>Minimum value is 1</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Maksymalna wartość to 1000000</source>
+                <target>Maximum value is 1000000</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wartość musi być liczbą całkowitą</source>
+                <target>Value must be an integer</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Podgląd aktualnych zakupów w sklepie klientów zarejestrowanych</source>
+                <target>Check the current shoppings of the registered customers</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>ID</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Ilość</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Razem</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Klient</source>
+                <target>Customer</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ostatnia aktywność</source>
+                <target>Recent activity</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Ilość produktów</source>
+                <target>Number of products</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Łączna wartość (brutto)</source>
+                <target>Total amount (gross price)</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Lista produktów w koszyku klienta %%~basket_client%% z dnia %%~basket_date%%</source>
+                <target>List of the products in the customer %%~basket_client%% shopping cart from %%~basket_date%%</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>niezalogowany</source>
+                <target>guest</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Pokaż produkty polecane na stronie koszyka:</source>
+                <target>Show products recommended on the cart:</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Konfiguracja koszyka</source>
+                <target>Shopping cart configuration</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Koszyki</source>
+                <target>Shopping carts</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Dodaj produkt bez przeładowania strony:</source>
+                <target>Add product without reloading the page:</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Pokaż kod:</source>
+                <target>Show code:</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Pokaż zdjęcie:</source>
+                <target>Show image:</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Pokaż pole netto:</source>
+                <target>Show net field:</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Pokaż pole VAT:</source>
+                <target>Show VAT field:</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Pokaż pole jednostka miary:</source>
+                <target>Show unit of measure field:</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Pokaż cross-seling na stronie koszyka:</source>
+                <target>Show cross-selling in the basket:</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Zapamiętuj koszyk klienta:</source>
+                <target>Remember the customer basket:</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>przez 24 godziny</source>
+                <target>for 24 hours</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>przez 1 tydzień</source>
+                <target>for 1 week</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>przez 2 tygodnie</source>
+                <target>for 2 weeks</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Prezentacja Koszyka</source>
+                <target>Shopping cart presentation</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Pokaż pole rabat:</source>
+                <target>Show discount field:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

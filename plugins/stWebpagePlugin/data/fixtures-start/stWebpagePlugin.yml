@@ -1,0 +1,92 @@
+Webpage: 
+  Webpage_1: 
+    active: 1
+    culture: pl_PL
+    name: O firmie
+    content: To jest strona o firmie....
+    url: o-firmie 
+  Webpage_2: 
+    culture: pl_PL
+    name: Regulamin
+    content: To jest strona regulamin...
+    active: 1
+    url: regulamin
+    state: TERMS
+  Webpage_3: 
+    culture: pl_PL
+    name: Kontakt
+    content: To jest strona kontakt...
+    active: 1
+    url: kontakt
+  Webpage_4: 
+    culture: pl_PL
+    name: Polityka prywatności
+    content: To jest strona polityka prywatności...
+    active: 1
+    url: polityka-prywatnosci
+    state: PRIVACY
+
+
+WebpageI18n:
+  WebpageI18n_1:
+    id: Webpage_1
+    culture: en_US
+    name: About Company
+    content: This is the company information page...
+    url: about-company
+  WebpageI18n_2: 
+    id: Webpage_2
+    culture: en_US
+    name: Terms and Conditions
+    content: This is the Terms and Conditions page...
+    url: terms-and-conditions
+  WebpageI18n_3: 
+    id: Webpage_3
+    culture: en_US
+    name: Contact
+    content: This is the Contact page...
+    url: contact
+  WebpageI18n_4:    
+    id: Webpage_4
+    culture: en_US
+    name: Privacy policy
+    content: This is the Privacy policy page...
+    url: privacy-policy
+
+
+WebpageGroup: 
+  WebpageGroup_2:
+    culture: pl_PL
+    name: Informacje
+    group_page: INFO
+    show_footer: 1
+  WebpageGroup_3:
+    culture: pl_PL
+    name: Nagłówek
+    group_page: HEADER
+    show_header: 1
+
+WebpageGroupI18n:
+   WebpageGroupI18n_2:
+    id: WebpageGroup_2
+    culture: en_US
+    name: Information
+   WebpageGroupI18n_4:
+    id: WebpageGroup_3
+    culture: en_US
+    name: Header
+
+    
+WebpageGroupHasWebpage: 
+  WebpageGroupHasWebpage_4:
+    webpage_id: Webpage_1
+    webpage_group_id: WebpageGroup_2
+    rank: 1
+  WebpageGroupHasWebpage_5:
+    webpage_id: Webpage_2
+    webpage_group_id: WebpageGroup_2
+    rank: 2
+  WebpageGroupHasWebpage_6:
+    webpage_id: Webpage_3
+    webpage_group_id: WebpageGroup_2
+    rank: 3

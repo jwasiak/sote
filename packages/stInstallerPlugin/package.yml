@@ -1,0 +1,12 @@
+package:
+    name: stInstallerPlugin
+    stability: stable
+    version: 8.0.0.5
+    summary: Instalator
+    description: 'Instalowanie aplikacji w sklepie'
+    notes: 'Poprawki interfejsowe panelu administracyjnego'
+    maintainers:
+        'Marek Jakubowicz':
+            role: lead
+            user: marek
+            email: marek.jakubowicz@sote.pl

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$lang}" lang="{$lang}">
+   <head>
+      {use_javascript src="jquery-1.7.2.min.js" position="first"}
+      {use_javascript src="jquery-no-conflict.js" position="first"}
+      {use_javascript src="jquery.tools-1.2.6.min.js" position="first"}
+      {use_javascript src="/js/less.min.js"}
+      {use_stylesheet src="style.css" position="first"}
+      {use_less src="config.less" position="first"}
+      {use_less src="theme.less" position="first"}
+      {use_less src="style.less" position="first"}
+      {include_meta}
+      {include_stylesheets minify="true"}
+      {include_less}
+      {include_javascripts minify="true"}
+      <!--[if IE 6]>
+         {stylesheet_tag href='ie6.css'}
+      <![endif]-->
+      <!--[if IE 7]>
+         {stylesheet_tag href='ie7.css'}
+      <![endif]-->
+      <!--[if IE 8]>
+         {stylesheet_tag href='ie8.css'}
+      <![endif]-->     
+      <!--[if IE 9]>
+         {stylesheet_tag href='ie9.css'}
+      <![endif]-->     
+      <!--[if IE 10] -->
+      {php}
+      if(strpos($_SERVER['HTTP_USER_AGENT'], "MSIE 10")){
+      {/php}
+         {stylesheet_tag href='ie10.css'}
+      {php}
+      }
+      {/php}
+      <!--[endif] -->       
+
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+      {slot name="before_head_ends" hidden="true"}{/slot}
+   </head>
+   <body>
+      {slot name="base_header" hidden="true"}{/slot}
+      {render_layout default="three_column_layout"}
+      {slot name="base_footer" hidden="true"}{/slot}
+   </body>
+</html>

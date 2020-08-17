@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2012-07-02T03:01:09Z">
+		<body>
+			<trans-unit id="1">
+				<source>Newsletter</source>
+				<target>Boletín informativo</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu.</source>
+				<target>Inscríbese en el boletín informativo para recibir información de la tienda. </target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>E-mail</source>
+				<target>Correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Akceptuję politykę prywatności</source>
+				<target>Acepto la política de privacidad</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras del dibujo</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Adres</source>
+				<target>Dirección</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>został usunięty z listy subskrypcji.</source>
+				<target>ha sido borrada del listado de la suscripción.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Newseltter</source>
+				<target>Boletín informativo</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Brak adresu e-mail</source>
+				<target>Falta el correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Twój email...</source>
+				<target>Su correo electrónico...</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>został potwierdzony na liście subskrypcji</source>
+				<target>ha sido confirmado en el listado de la suscripción</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu.</source>
+				<target>Gracias por su interés en nuestra oferta.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Adres został dodany do listy subskrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej.</source>
+				<target>La dirección ha sido aňadida al listado de la suscripción. Confirme que quiere recibir información de nuestra parte al activar la cuenta, haciendo clíc en el enlace de abajo.</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdź rejestrację</source>
+				<target>Confirmar la inscripción</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów</source>
+				<target>Después de confirmar la inscripción se le enviarán informaciones sobre los temas siguientes</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link.</source>
+				<target>Si ya no quiere recibir información de nuestra parte, haga clíc en el enlace de abajo.</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wypisz mnie z listy</source>
+				<target>Bórreme del listado</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>został dodany do listy subskrypcji.</source>
+				<target>ha sido aňadido al listado de la suscripción.</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Za chwile otrzymacie państwo mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>Dentro de poco recibirá un mensaje pidiéndole que confirme la inscripción.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z następujących tematów</source>
+				<target>Después de la confirmación de la inscripción, en la dirección antes mencionada se enviará información sobre los siguientes temas</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>El número permitido de signos ha sido excedido.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dodaj</source>
+				<target>Aňadir </target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>El formato de la dirección de correo electrónico es incorrecto.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Taki adres już istnieje w bazie danych.</source>
+				<target>Esta dirección ya está en nuestra base de datos.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Número incorrecto</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>Tiene que aceptar la política de privacidad.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rejestracja na liście subskrypcji.</source>
+				<target>Inscripción en el listado de la suscripción.</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Na adres</source>
+				<target>Gracias por usar nuestro sistema de avisos. A la dirección </target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>został wysłany mail z prośbą o potwierdzenie rejestracji.</source>
+				<target>ha sido enviado un mensaje pidiéndole que confirme la inscripción.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z grup</source>
+				<target>Después de la confirmación de la inscripción, en la dirección antes mencionada se enviará información de los grupos</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wróć do zakupów</source>
+				<target>Volver a la compra</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Dziękujemy za skorzystanie z naszego systemu powiadomień. Adres</source>
+				<target>Gracias por usar nuestro sistema de avisos. La dirección</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>został potwierdzony na liście subskrypcji.</source>
+				<target>ha sido confirmada en el listado de la suscripción.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Zapisz się na newsletter aby dostawać informacje ze sklepu. Wybierz działy informacji z których chcesz otrzymywać wiadomości.</source>
+				<target>Inscríbese en nuestro boletín informativo para recibir información sobre la tienda. Escoge los campos de información de su interés para recibir mensajes.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapisz mnie na newsletter</source>
+				<target>Inscríbeme en el boletín informativo</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wiadomości z list subskrypcji będą przychodziły na adres</source>
+				<target>Los mensajes de los listados de la suscripción serán enviados a la siguiente dirección :</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Jeżeli chcą Państwo zmienić grupy powiadomień lub adres na który mają być wysyłane wiadomości proszę skorzystać z formularza poniżej.</source>
+				<target>Si quiere cambiar de grupo de avisos o la dirección a la que quiere que se envíen los mensajes, use el formulario presentado abajo.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Aktualizuj</source>
+				<target>Actualizar </target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Usuń mnie z listy</source>
+				<target>Borrarme del listado</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>Este usuario ya existe.</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Dane zostały zaktualizowane.</source>
+				<target>Los datos han sido actualizados.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zapisz się na newsletter</source>
+				<target>Boletín de noticias Suscribirse</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>W każdym momencie możesz zrezygnować.</source>
+				<target>Puede cancelar el servicio cuando quiera</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Prośba o wypisanie z listy</source>
+				<target>Borrarme del listado</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Dane subskrypcji</source>
+				<target>Detalles de la suscripción</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Podaj swój adres.</source>
+				<target>Introduzca su dirección de correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Sprawdź skrzynkę pocztową.</source>
+				<target>Consulte su correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Na podany adres wysłano mail z prośbą o potwierdzenie.</source>
+				<target>Se ha enviado un correo electrónico de confirmación a la dirección indicada</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Kontynuuj zakupy</source>
+				<target>Continuar comprando</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Potwierdzenie rezygnacji.</source>
+				<target>Confirmación de la anulación</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Adres został usunięty.</source>
+				<target>La dirección ha sido eliminada</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Moje konto</source>
+				<target>Mi cuenta</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Potwierdzenie rejestracji.</source>
+				<target>Confirmación del registro</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Adres został potwierdzony.</source>
+				<target>La dirección ha sido confirmada</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Adres e-mail</source>
+				<target>Dirección de correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Wyślij</source>
+				<target>Enviar</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Na twój adres "%%email%%" został wysłany link potwierdzający wypisanie się z newslettera.</source>
+				<target>Se ha enviado un enlace a su dirección "%%email%%" para que confirme la desinscripción del newsletter</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Potwierdzenie rezygnacji z listy subskrypcji</source>
+				<target>Confirmación de renuncia a la lista de suscripción</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Została wysłana prośba o wypisanie Twojego adresu e-mail z listy subskrypcji. Jeżeli prośba nie została wysłana przez Ciebie lub chcesz pozostać na liście prosimy o zignorowanie tej wiadomości, w innym wypadku kliknij w poniższy link aby potwierdzić wypisanie się z listy subskrypcji:</source>
+				<target>Hemos recibido una solicitud para eliminar su correo electrónico de nuestra lista de suscriptores. Si no ha sido usted quien la envió o si desea permanecer en la lista, por favor ignore este mensaje. En caso contrario, haga clic en el enlace de más abajo para confirmar la eliminación de su correo electrónico de la lista de suscriptores:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

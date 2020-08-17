@@ -1,0 +1,167 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.appAddPricePlugin.lib.model
+  app_add_price: 
+    _attributes: 
+      phpName: AddPrice
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id:
+      type: integer
+      required: true
+      primaryKey: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    currency_id:
+      type: integer
+      isCulture: true
+      primaryKey: true
+      foreignTable: st_currency
+      foreignReference: id
+      onDelete: cascade
+    tax_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_tax
+      foreignReference: id
+      onDelete: setnull
+    opt_vat: 
+      type: DECIMAL
+      size: 10
+      scale: 2    
+    price_netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    old_price_netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    old_price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    wholesale_a_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    wholesale_a_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    wholesale_b_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    wholesale_b_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2 
+      required: true
+      default: 0
+    wholesale_c_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    wholesale_c_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+  app_add_group_price: 
+    _attributes: 
+      phpName: AddGroupPrice
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id:
+      type: integer
+      required: true
+      primaryKey: true
+      foreignTable: st_group_price
+      foreignReference: id
+      onDelete: cascade
+    currency_id:
+      type: integer
+      isCulture: true
+      primaryKey: true
+      foreignTable: st_currency
+      foreignReference: id
+      onDelete: cascade
+    tax_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_tax
+      foreignReference: id
+      onDelete: setnull
+    opt_vat: 
+      type: DECIMAL
+      size: 10
+      scale: 2    
+    price_netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    old_price_netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    old_price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    wholesale_a_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    wholesale_a_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    wholesale_b_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    wholesale_b_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2 
+    wholesale_c_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    wholesale_c_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2      

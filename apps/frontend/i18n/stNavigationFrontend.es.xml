@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2012-07-02T03:01:09Z">
+		<body>
+			<trans-unit id="1">
+				<source>Start</source>
+				<target>Inicio </target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Historia</source>
+				<target>Historia </target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Historia oglądanych produktów</source>
+				<target>Historia de los productos vistos</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ostatnio oglądane</source>
+				<target>Últimos </target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszyk</source>
+				<target>Cesta </target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Potwierdzenie zamówienia</source>
+				<target>Confirmación del pedido</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Podsumowanie zamówienia / Płatności</source>
+				<target>Resumen del pedido / Pago</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Szukaj</source>
+				<target>Buscar </target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Podsumowanie zamówienia</source>
+				<target>Resumen del pedido</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Płatność</source>
+				<target>Pago</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

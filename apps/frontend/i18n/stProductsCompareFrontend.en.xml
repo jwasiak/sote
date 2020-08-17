@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+            <trans-unit id="1">
+                <source>Porównaj produkty</source>
+                <target>Compare products</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Dodaj produkt do porównania</source>
+                <target>Add product to compare</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Usuń produkt z porównania</source>
+                <target>Remove product from compare</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>usuń</source>
+                <target>remove</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Producent</source>
+                <target>Manufacturer</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Cena netto</source>
+                <target>Net price</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Cena brutto</source>
+                <target>Gross price</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>VAT</source>
+                <target>VAT</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Brak produktów do porównania.</source>
+                <target>No products to compare.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wróć do ostatnio oglądanego produktu</source>
+                <target>Return to last viewed product</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

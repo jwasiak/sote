@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+    background: #e6e6e6;
+}
+
+#box_error500 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+}
+
+#box_error500_left,#box_error500_right {
+    float: left;
+}
+
+#box_error500_left {
+    padding: 0 0 20px 20px;
+}
+
+#box_error500_right {
+    padding: 2px 0px 0px 20px;
+}
+
+.txt_red {
+    color: #2e2e2e;
+    font-size: 15px;
+}
+
+.txt {
+    font-size: 12px;
+    padding-top: 4px;
+    color: #999;
+}
+
+.clear
+{
+    clear: both;
+}

@@ -1,0 +1,6 @@
+config:
+    display:
+        "Koszyk":   [hide_basket, show_basket_quantity]
+    fields:
+        hide_basket:            {name: Ukryj koszyk, checked: false, type: checkbox}
+        show_basket_quantity:   {name: Włącz możliwość wpisywania ilość sztuk na karcie produktu, type: checkbox, checked: false}

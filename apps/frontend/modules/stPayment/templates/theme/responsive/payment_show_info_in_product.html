@@ -1,0 +1,16 @@
+{if $santander} 
+    <li id="eraty-santander-calculate">
+        {st_get_component module="stSantanderFrontend" component="calculate" id=$id product=$product amount=$amount}
+    </li>
+{/if}
+{if $lukas}
+    {st_get_component module="stLukasFrontend" component="calculate" id=$id product=$product amount=$amount}
+{/if}
+
+{capture name="name" assign="inbank"}
+{st_get_component module="stInBankFrontend" component="calculate" product=$product amount=$amount}    
+{/capture}
+
+{if $inbank}
+    <li style="margin-top: 12px">{$inbank}</li>
+{/if}

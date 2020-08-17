@@ -1,0 +1,4 @@
+all:
+    stylesheets: [update/setup.css?v2]
+    metas:
+        title: SOTESHOP - instalacja

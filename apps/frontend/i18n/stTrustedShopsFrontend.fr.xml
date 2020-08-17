@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2011-11-04T04:26:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+				<target>Marque de qualité Trusted Shops – vous pouvez vérifier la validité ici !</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+				<target>En tant que membre Trusted Shops, nous vous offrons un service complémentaire exceptionnel: la Protection AcheteurTrusted Shops. Les frais relatifs à cette garantie sont entièrement à notre charge, alors n'hésitez pas, il vous suffit de vous inscrire.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+				<target>Enregistrez-vous pour la garantie Protection Acheteur Trusted Shops...</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ochrona Kupującego Trusted Shops</source>
+				<target>Trusted Shops, la Protection de l’Acheteur</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Ochrona Kupującego do</source>
+				<target>La Protection de l’Acheteur jusqu’à</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>z VAT</source>
+				<target>TVA</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+				<target>Trusted Shops, la Protection de l’Acheteur, protège vous achats en ligne. J’autorise le transfert et</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>zapisywanie</source>
+				<target>la sauvegarde</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+				<target>de mon adresse courriel par Trusted Shops dans le but de fournir le service de Protection de l’Acheteur.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Warunki gwarancji</source>
+				<target>Conditions de la garantie</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>dla Ochrony Kupującego.</source>
+				<target>pour la Protection de l’Acheteur.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops.</source>
+				<target>a le label de qualité Trusted Shops avec la Protection Acheteur.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Więcej informacji o</source>
+				<target>Pour plus d'informations sur</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Zobacz opinie klientów sklepu</source>
+				<target>Consulter les opinions des clients du magasin</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Opinie klientów sklepu</source>
+				<target>Opinions des clients du magasin</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Ubezpieczenie Trusted Shops</source>
+				<target>Assurance Trusted Shops</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Zobacz więcej...</source>
+				<target>Plus d’informations...</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>https://www.trustedshops.pl/shop/certificate.php</source>
+				<target>https://www.trustedshops.fr/shop/certificate.php</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>http://www.trustedshops.pl/sklep_internetowy/profil</source>
+				<target>http://www.trustedshops.fr/boutique_en_ligne/profil</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>https://www.trustedshops.pl/opinia/info_</source>
+				<target>https://www.trustedshops.fr/evaluation/info_</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>https://www.trustedshops.pl/opinia/ocen_</source>
+				<target>https://www.trustedshops.fr/evaluation/evaluer_</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Czy jesteś zadowolony z naszych usług?</source>
+				<target>Etes vous satisfait du service chez?</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Napisz komentarz i wystaw nam ocenę.</source>
+				<target>Vous pouvez donner votre avis et nous évaluer.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

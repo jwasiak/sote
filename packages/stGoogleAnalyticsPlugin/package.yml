@@ -1,0 +1,17 @@
+package:
+  name: stGoogleAnalyticsPlugin
+  stability: stable
+  version: 7.0.0.7
+  summary: 'Google Analytics'
+  description: 'Integracja z Google Analytics'
+  notes: |
+    - Rozszerzenie i optymalizacja Google Analytics
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stFrontend: 1.0.9.15
+    stBackend: 1.0.4.28
+    stOrder: 1.0.9.56

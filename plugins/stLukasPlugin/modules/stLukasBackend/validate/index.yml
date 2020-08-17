@@ -1,0 +1,4 @@
+fields:
+    config{param_profile}:
+        required:
+            msg:    Proszę uzupełnić pole.

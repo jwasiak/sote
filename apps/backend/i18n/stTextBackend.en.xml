@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzaj tekstami w sklepie</source>
+                <target>Manage your texts in the shop</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Treść tekstu</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Brak tekstów na stronie</source>
+                <target>No texts</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Edycja tekstu na stronie</source>
+                <target>Edit the text</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Treść strony</source>
+                <target>Site content</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Teksty</source>
+                <target>Texts</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

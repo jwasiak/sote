@@ -1,0 +1,79 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Review
+        theme:                      simple
+    
+        head:
+            package:                stReview
+            
+        applications:               [stProduct, stUser]
+    
+        list:
+            use_stylesheet:         [backend/stProductList.css]
+            use_helper:             [stProduct/stProduct]
+            title:                  Lista
+            description:            Recenzje produktów.
+            filters:
+                list_image:         {partial: filter_list_image, module: stProduct}
+            display:                [_created_at, _list_image, _product, _score_star, is_pin_review, _desc_list, _language_list, _add_actions]
+            actions:
+                none
+            object_actions:
+                _edit:      -
+                _delete:    -
+            fields:
+                created_at:              {name: Utworzona, params: size=15}
+                list_image:              {name: Zdjęcie, width: 1%, i18n: stProduct}
+                desc_list:               {name: Recenzja}
+                product:                 {name: Produkt, params: size=35}
+                sf_guard_user_id_list:   {name: Autor, params: size=25}
+                score_star:              {name: Ocena, params: size=45}
+                language_list:           {name: Język}
+                add_actions:             {name: Publikacja}
+                is_pin_review:           {name: Wyróżniona}
+            filters:
+                product:                 {filter_field: product.name}
+                sf_guard_user_id_list:   {partial: filter_client}
+                agreement:               {filter_field: review.active}
+            sort:                        [created_at, desc]
+
+        config:
+            title:                  Konfiguracja recenzji
+            description:            Recenzje produktów.
+            display:                [is_active]
+            fields:
+                is_active:             {name: Aktywny, checked: false, type: checkbox}
+            actions:
+                _save:              {name: Zapisz}
+
+        edit:
+            title:                  Edycja recenzji
+            description:            Recenzje produktów.
+            display:                [_created_at, _language, _product_link, agreement, is_pin_review, user_review_verified, _score, description, ~admin_name, _user_picture, user_facebook, user_instagram, user_youtube, user_twitter]
+            fields:
+                created_at:         {name: Utworzona}
+                language:           {name: Język wpisu}
+                description:        {name: Recenzja, type: textarea_tag, params: size=75x10 rich=false tinymce_options='height:300,width:400,theme:'simple''}
+                score:              {name: Ocena}
+                agreement:          {name: Publikacja}
+                active:             {name: Aktywna}
+                product_id:         {name: Produkt, type: input_tag}
+                product_link:       {name: Produkt}
+                admin_name:         {name: Podpis, type: input_tag, params: size=75}
+                anonymous:          {name: Podpis anonimowego użytkownika}
+                admin_active:       {name: Recenzja od administratora}
+                score:              {name: Ocena}
+                sf_guard_user_id:   {name: Klient}
+                user_picture:       {name: Zdjęcie, type: input_tag, params: size=75}
+                user_facebook:      {name: Facebook, type: input_tag, params: size=75}
+                user_instagram:     {name: Instagram, type: input_tag, params: size=75}
+                user_youtube:       {name: Youtube, type: input_tag, params: size=75}
+                user_twitter:       {name: Twitter, type: input_tag, params: size=75}
+                user_review_verified: {name: Zweryfikowane }
+                is_pin_review:       {name: Wyróżnij, help: "Recenzja zostanie przypięta do góry."}
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _save_and_add:      {name: Zapisz i dodaj}
+                _delete:            {name: Usuń}

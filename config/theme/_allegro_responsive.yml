@@ -1,0 +1,25 @@
+
+
+editor_config:
+   slots: ~
+   media:
+      xs: ~
+      onlyxs: "max-width: 767px"
+      sm: "min-width: 768px"
+      md: "min-width: 992px"
+      lg: "min-width: 1200px"
+
+   graphic: 
+      allegro_template: 
+         display:                      [logo, baner, bg_header, nav_border, link_border, link_hover, heading_color]
+         fields:
+            logo:                      {label: Logo, type: image, default: "logo.png", help: "Zalecany rozmiar: 71x21"}
+            bg_header:                 {label: Kolor tła menu, type: css, selector: "div#userTemplate #overbaner", property: background-color, default: "#dd1911" }
+            link_hover:                {label: Kolor tła linku - po najechaniu, type: css, selector: "div#userTemplate #menu-top a:hover", property: background-color, default: "#EC413C" }
+            link_border:               {label: Kolor separatora linków, type: css, selector: "div#userTemplate #menu-top a, div#userTemplate #menu-top li:first-child a", property: border-color, default: "#e5524d" }
+            nav_border:                {label: Kolor obramowania menu, type: css, selector: "div#userTemplate #overbaner", property: "border-bottom-color", default: "#b01f1d" }
+            heading_color:             {label: Kolor tekstu nagłówka, type: css, selector: "div#userTemplate .title", property: "color", default: "#dc1811" }
+            baner:                     {label: Obraz nagłówka, type: image, default: "banner.jpg", help: "Zalecany rozmiar: 1200x148"}
+         generated:
+            bg_header:
+               - { selector: "div#userTemplate #footer", property: "border-color" }

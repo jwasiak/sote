@@ -1,0 +1,7 @@
+fields:
+    newsletter_message{subject}:
+        required:
+            msg:     Brak tematu wiadomości.
+    newsletter_message{newsletter_group}:
+        required:
+            msg:     Musisz wybrać przynajmniej jedną grupę

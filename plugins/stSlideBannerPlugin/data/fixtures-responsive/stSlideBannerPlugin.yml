@@ -1,0 +1,13 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_2
+    image: /picture/en_US/responsive_1.jpg
+    image_small: /picture/en_US/responsive_1_small.jpg
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_2:
+    language_id: Language_2
+    image: /picture/en_US/responsive_2.jpg
+    image_small: /picture/en_US/responsive_2_small.jpg
+    is_active: 1
+    opt_culture: en_US

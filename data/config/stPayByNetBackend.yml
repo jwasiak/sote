@@ -1,0 +1,10 @@
+data:
+    id_clinet: ''
+    password: ''
+    test: 0
+    account: ''
+    account_name: ''
+    account_code: ''
+    account_city: ''
+    account_street: ''
+    account_country: 36

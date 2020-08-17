@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2015-01-15T10:24:46Z">
+		<body>
+			<trans-unit id="1">
+				<source>Blog</source>
+				<target>Blog</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Podaj nazwę grupy</source>
+                <target>Enter a group name</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Podaj liczbę wyświetlanych produktów w grupie</source>
+                <target>Enter the number of the displayed products in the group</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nie możesz wyświetlić w grupach więcej niż 36 produktów.</source>
+                <target>You can't display more than 36 products in the group.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Podaj liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Zarządzanie grupami produktów, konfiguracja ustawień.</source>
+                <target>Manage the product groups</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Dodaj nową grupę produktów</source>
+                <target>Add a new product group</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Id</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Nazwa grupy produktów</source>
+                <target>Product group name</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Produkty w grupie</source>
+                <target>Products in the group</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Ilość produktów wyświetlanych</source>
+                <target>Number of the displayed products</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przypisz produkty</source>
+                <target>Assign the products</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Edycja grupy produktów</source>
+                <target>Edit a product group</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Przypisywanie produktów do grupy produktów</source>
+                <target>Assign the products to the product group</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wprowadź nazwę dla przyjaznego linku</source>
+                <target>Enter the name of the friendly link</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Dodaj meta tagi do grupy produktów.</source>
+                <target>Add the meta tags to the product group.</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Tytuł strony</source>
+                <target>Site title</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Opis strony</source>
+                <target>Site description</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Przyjazny link</source>
+                <target>Friendly link</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Zarządzanie grupami produktów w sklepie.</source>
+                <target>Manage the product groups</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Grupy produktow</source>
+                <target>Product groups</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Promocje</source>
+                <target>Promotions</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Wyprzedaż</source>
+                <target>Sale</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Polecamy</source>
+                <target>Recommended</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Strona główna</source>
+                <target>Homepage products</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Polecamy w koszyku</source>
+                <target>Recommended in the shopping cart</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Nowości</source>
+                <target>New products</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Ogranicz produkty w grupie do wyświetlanej kategorii:</source>
+                <target>Limit products inside group within the selected category:</target>
+            </trans-unit>
+           <trans-unit id="42">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+           <trans-unit id="43">
+                <source>Konfiguracja grup produktów</source>
+                <target>Product groups configuration</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Produkty w grupie strona główna</source>
+                <target>Homepage products</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Sortowanie produktów na stronie głównej:</source>
+                <target>Sort homepage products:</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Sortuj:</source>
+                <target>Sort:</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>po nazwie</source>
+                <target>by name</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>po cenie</source>
+                <target>by price</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>po dacie dodania</source>
+                <target>by date add</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>losowo</source>
+                <target>by random</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>rosnąco</source>
+                <target>ascending</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>malejąco</source>
+                <target>descending</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Etykieta</source>
+                <target>Label</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Własny obrazek</source>
+                <target>My image</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Ilość wyświetlanych etykiet na produkcie:</source>
+                <target>Number of the displayed labels on a product:</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Link etykiety odsyła do grup produktu:</source>
+                <target>Label link indicates a product group:</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Podaj liczbę etykiet wyświetlanych na produkcie</source>
+                <target>Enter the number of the displayed labels on a product</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Minimalna wartość to 1.</source>
+                <target>Minimum number is 1.</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Maksymalna wartość to 5.</source>
+                <target>Maximum number is 5.</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Podaj liczbę całkowitą</source>
+                <target>Enter an integer</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>usuń obrazek</source>
+                <target>remove the image</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Optymalizacja grup produktów</source>
+                <target>Product groups optimization</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>moja kolejność</source>
+                <target>my order</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Wybierz sposób wyświetlania nowości</source>
+                <target>Display new products</target>
+            </trans-unit>  
+             <trans-unit id="67">
+                <source>przypisane produkty</source>
+                <target>by assigned products</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Grupy produktów</source>
+                <target>Products groups</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

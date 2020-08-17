@@ -1,0 +1,70 @@
+<form>
+    <fieldset style="border: none;">
+        <div id="order_form_description" class="roundies box_form">
+            <h3><b>4</b> {__ text="Uwagi do zamówienia"}</h3>
+            <div class="st_field">
+                <label id="order_description_text_label" for="order_description_text">{__ text="Treść uwag"}</label>
+                <textarea id="order_description_text" >{$description}</textarea>
+            </div>
+            
+        </div>
+    </fieldset>
+</form>
+
+<div class="clear"></div>
+{if !$is_authenticated}
+
+	<div id="st_user-basket-login-form">
+		{st_get_component module="stUser" component="basketLoginForm"}
+	</div>
+      
+	<form action="{$action}#user_delivery_form" class="st_form_ver6" method="post" id="user_delivery_form">      
+	{st_get_component module="stUserData" component="orderForm"}
+   
+{else}
+
+	<form action="{$action}#user_delivery_form" class="st_form_ver6" method="post" id="user_delivery_form">
+
+	
+	<div id="order_form_login">
+		
+	<div id="order_form_billing" class="roundies box_form left data_frame">
+		<h3><b>5</b> {__ text="Dane płatnika"}</h3>
+		<div id="user_billing_profile_container">{$billing_profiles}</div>
+		<div id="user_billing_form_content">		
+		{st_get_component module="stUserData" component="orderFormBilling"}
+		</div>
+	</div>
+	
+	<div id="order_form_delivery" class="roundies box_form right data_frame">
+		<h3><b>6</b> {__ text="Dane wysyłkowe"}</h3>
+		<div id="user_delivery_profile_container">{$delivery_profiles}</div>
+		<div id="user_delivery_form_content">
+			{st_get_component module="stUserData" component="orderFormDelivery"}
+		</div>
+	</div>
+	
+	</div>
+
+{/if}
+
+   <div class="clear"></div>
+
+   <div id="st_user-order-submit-button">
+      {st_get_component module="stOrder" component="submitButton"}
+   </div>
+</form>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {
+        $('#order_description_text').click(function(){
+            $('#order_description_text').css("height","55px");
+        });
+    });
+});
+</script>
+{/literal}

@@ -1,0 +1,83 @@
+<div id="last_orders_by_user">   
+    {if $unconfirmed_orders == 1}
+	<div id="unconfirm_order" class="roundies box_form">
+        <h3>{__ text="Niepotwierdzone zamówienia"}</h3>
+        <div class="content">
+        {foreach item=order from=$results}
+        {if $count_unconfirmed < 3}
+	            {if $order.is_confirmed_orders == 0}
+	            {if $count_unconfirmed++}{/if}
+	                <div class="st_order-last_order">
+	                    <div>
+	                        {$order.link}
+	                        {$order.is_confirmed}
+	                    </div>
+	                    <ul>
+	                        {foreach item=order_product from=$order.products}
+	                            <li>{$order_product.photo} {$order_product.quantity} x {$order_product.name}</li>
+	                        {/foreach}
+	                    </ul>
+	                </div>
+	            {/if}
+        {/if}	
+        {/foreach}
+        
+        {if $count_unconfirmed > 2}
+        <div class="buttons" id="st_button_show_order">
+	        <a href="{$check_all_url}" class="regular roundies">
+	            {__ text="Pokaż wszystkie"}<img src="/images/frontend/theme/default2/buttons/arrow_right.png" alt=""/>
+	        </a>
+    	</div>
+    	<div class="clear"></div>
+    	{/if}
+    	
+        </div>
+    </div>
+    {/if}
+    
+    {if $confirmed_orders == 1}
+    <div id="confirm_order" class="roundies box_form">
+        <h3>{__ text="Potwierdzone zamówienia"}</h3>
+        <div class="content">
+        {foreach item=order from=$results}
+        {if $count_confirmed < 3}	
+			        
+            {if $order.is_confirmed_orders == 1}
+            {if $count_confirmed++}{/if}
+            <div class="st_order-last_order">
+                <div>
+                    {$order.link}
+                </div>
+                <ul>
+                    {foreach item=order_product from=$order.products}
+                        <li> {$order_product.photo} {$order_product.quantity} x {$order_product.name}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            {/if}
+        {/if}
+        {/foreach}
+        
+        {if $count_confirmed > 2}
+        <div class="buttons" id="st_button_show_order">
+	        <a href="{$check_all_url}" class="regular roundies">
+	            {__ text="Pokaż wszystkie"}<img src="/images/frontend/theme/default2/buttons/arrow_right.png" alt=""/>
+	        </a>
+    	</div>
+    	<div class="clear"></div>
+    	{/if}
+    	
+        </div>
+        
+    </div>
+    {/if}
+    
+
+    {if isset($no_orders)}
+    	<div id="no_order" class="roundies box_form">
+    		<div class="content">
+        	<p style="text-align: center">{__ text="Aktualnie nie posiadasz żadnych zamówień"}</p>
+        	</div>
+        </div>
+    {/if}
+</div>

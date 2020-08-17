@@ -1,0 +1,1 @@
+<?php echo select_tag('config[order_field]', options_for_select(array("default"=>__("Trafność"),"name"=>__("Nazwa"),"price"=>__("Cena")),$config->get('order_field',"name"))) ?>

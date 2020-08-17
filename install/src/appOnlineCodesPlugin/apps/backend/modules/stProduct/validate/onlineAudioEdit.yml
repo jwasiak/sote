@@ -1,0 +1,12 @@
+fillin:
+    enabled:      true
+
+fields:
+    online_files{name}:
+        required:
+            msg:        Proszę podać nazwę
+    online_files{filename}:
+        required:
+            msg:        Proszę podać plik
+        file: true
+

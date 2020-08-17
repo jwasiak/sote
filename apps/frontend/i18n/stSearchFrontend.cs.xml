@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2012-07-02T03:01:05Z">
+		<body>
+			<trans-unit id="1">
+				<source>Producent</source>
+				<target>Výrobce</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Proszę podać prawidłowe kryteria wyszukiwania, minimalna ilość znaków %min_len%.</source>
+				<target>Uveďte, prosím, správné kritéria pro vyhledávání, minimální počet znaků %min_len%.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>szukaj</source>
+				<target>hledat</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukanie standardowe</source>
+				<target>Standardní vyhledávání</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Szukanie zaawansowane</source>
+				<target>Rozšířené vyhledávání</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Cena od</source>
+				<target>Cena od</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>do</source>
+				<target>do</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>brutto</source>
+				<target>Včetně DPH</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>netto</source>
+				<target>Bez DPH</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Niestety żaden produkt nie spełnia kryteriów wyszukiwania które wpisałeś. Spróbuj użyć innego słowa lub wyszukaj produkt według kategorii.</source>
+				<target>Bohužel, žádny produkt nesplňuje Vámi zadaná kritéria vyhledávání. Zkuste použít jiná klíčová slova nebo vyhledejte produkt podle kategorie.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyszukiwanie</source>
+				<target>Vyhledávání</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dowolny</source>
+				<target>Libovolný</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Szukaj</source>
+				<target>Hledej</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Dokładne szukanie</source>
+				<target>Přesné vyhledávání</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dopasuj wszystkie wyrazy</source>
+				<target>Přizpůsobit všechny výrazy</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Filtruj po producentach</source>
+				<target>Filtrovat podle výrobce</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wszyscy producenci</source>
+				<target>Všichni výrobci</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Sortuj po</source>
+				<target>Třídit podle</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Trafności</source>
+				<target>Výstižnosti</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cenie</source>
+				<target>Ceny</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwie</source>
+				<target>Názvu</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nazwa produktu</source>
+				<target>Název výrobku</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Kategorie</source>
+				<target>Kategorie</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Wybierz producenta</source>
+				<target>Vyberte výrobce</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Przytrzymaj Ctrl aby zaznaczyć wiele kategorii.</source>
+				<target>Chcete-li označit více než pouze jednou kategorii, stlačte a podržte tlačítko Ctrl.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Szukaj w opisach</source>
+				<target>Hledat v opisech</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Najnowszym</source>
+				<target>Nejnovějším</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Więcej</source>
+				<target>Vice</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Więcej wyników</source>
+				<target>Víc výsledků</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>tylko za punkty</source>
+				<target>pouze za body</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>dodaj do koszyka</source>
+				<target>přidat do košíka</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>Nemáš dostatečné množství bodů.</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>Chceš-li produkt koupit, musíš se přihlásit.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Nebyl dosažen bodový práh.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>K dosažení prahu zbývá</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,48 @@
+<div id="st_frame_platnoscipl">
+    {if $check_configuration == true}
+        <div id="st_txt_platnoscipl">
+            <p>{__ text="Wybierz płatność i kliknij przycisk"} <b>{__ text='"Zapłać"'}</b> {__ text="aby przejść do serwisu PayU."}</p>
+        </div>
+        <div class="st_logo_platnosci">
+            <img src="/images/frontend/theme/default/stPlatnosciPlPlugin/logo.png" alt="Płatności.pl"/>
+        </div>
+        {$form_start}
+            {$hidden_pos_id}
+            {$hidden_pos_auth_key}
+            {$hidden_session_id}
+            {$hidden_amount}
+            {$hidden_desc}
+            {$hidden_order_id}
+            {$hidden_first_name}
+            {$hidden_last_name}
+            {$hidden_street}
+            {$hidden_street_hn}
+            {$hidden_street_an}
+            {$hidden_city}
+            {$hidden_post_code}
+            {$hidden_email}
+            {$hidden_language}
+            {$hidden_client_ip}
+            <script language="JavaScript" type="text/javascript" src="https://www.platnosci.pl/paygw/UTF/js/{$pos_id}/{$md5_first_key}/paytype.js"></script>
+            <script language="JavaScript" type="text/javascript">{$variant_name}</script>
+            {if $payback == true}
+                <br class="st_clear-all" />
+                <div id="st_form-payment-input_tag" class="st_row">
+                    {$payback_login_label}
+                    <div class="st_field">
+                        {$payback_login}
+                    </div>
+                </div>
+            {/if}
+            <div id="st_form-payment-submit" class="st_button-container">
+                <div class="st_button st_align-right">
+                    <div class="st_button-left">
+                        {$pay_submit}
+                    </div>
+                </div>
+            </div>
+        </form>
+    {else}
+        {__ text="Płatność została błędnie skonfigurowana."}
+    {/if}
+</div>

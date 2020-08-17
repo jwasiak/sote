@@ -1,0 +1,63 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stQuestionPlugin.lib.model
+  st_questions: 
+    _attributes: 
+      phpName: Questions
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    item_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: setnull
+    question_status_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_question_status
+      foreignReference: id
+      onDelete: restrict
+    email: 
+      type: VARCHAR
+      size: 255
+    type: 
+      type: VARCHAR
+      size: 20
+    item_name: 
+      type: VARCHAR
+      size: 255
+    text: 
+      type: LONGVARCHAR
+    answer_text: 
+      type: LONGVARCHAR
+  st_question_status: 
+    _attributes: 
+      phpName: QuestionStatus
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    status_type: 
+      type: VARCHAR
+      size: 255
+    is_default: 
+      type: BOOLEAN
+    is_system_default: 
+      type: BOOLEAN

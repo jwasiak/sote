@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wystąpił błąd podczas synchronizacji oferty %offer%:\n%error%</source>
+                <target>An error occurred while synchronizing the offer %offer%:\n%error%</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Synchronizacja oferty %offer%</source>
+                <target>Synchronization of the offer %offer%</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zakończenie ofert %offers% z powodu braku produktów na magazynie</source>
+                <target>Completion of offers number %offers% due to a lack of products in stock</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Wznowienie ofert %offers% z powodu ponownej dostępności produktów na magazynie</source>
+                <target>Resumption of offer number %offers% due to the re-availability of products in stock</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

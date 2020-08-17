@@ -1,0 +1,16 @@
+---
+package: 
+  name: stRSSPlugin
+  stability: stable
+  version: 1.0.1
+  summary: Kanaly RSS
+  description: Obsluga kanalow RSS
+  notes: Aktualizacja z 5.0.0 do 5.0.1
+  maintainers: 
+    Daniel Mendalka: 
+      role: lead
+      user: daniel
+      email: daniel.mendalka@sote.pl
+  dependency: 
+    stFrontend: 1.0.4
+    stNewsletterPlugin: 1.0.3

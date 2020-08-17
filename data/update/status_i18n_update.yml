@@ -1,0 +1,37 @@
+---
+Anulowane: 
+  cs: Zrušeno
+  de: Abgesagt
+  es: Cancelado
+  fr: Annulé
+  it: Annullato
+  pt: Cancelado
+  ru: Отменено
+  sk: Zrušil
+Oczekuje: 
+  cs: Očekává
+  de: Erwartete
+  es: Espera
+  fr: Attendus
+  it: Previsto
+  pt: Esperado
+  ru: Ожидаемые
+  sk: Očakáva
+W trakcie realizacji: 
+  cs: Probíhající
+  de: Laufenden
+  es: En curso
+  fr: En cours
+  it: In corso
+  pt: Em curso
+  ru: Постоянный
+  sk: Prebiehajúce
+Zrealizowane: 
+  cs: Dokončeno
+  de: Fertiggestellt
+  es: Completado
+  fr: Terminé
+  it: Completato
+  pt: Concluída
+  ru: Завершено
+  sk: Dokončené

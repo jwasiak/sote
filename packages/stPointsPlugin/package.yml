@@ -1,0 +1,16 @@
+---
+package: 
+  name: stPointsPlugin
+  stability: stable
+  version: 7.0.5.4
+  summary: System punktowy
+  description: System punktowy
+  notes: |
+     - Poprawki bledow notice PHP
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    soteshop_base: 6.0.0

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Ustawienia trybu developerskiego</source>
+                <target>Developer mode settings</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Adres IP</source>
+                <target>IP address</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Włącz tryb developerski</source>
+                <target>Enable a developer mode</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Panel sklepu:</source>
+                <target>Administrative panel:</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Linki do stron w trybie developerskim dostępne tylko dla wskazanego IP:</source>
+                <target>Links to the pages with enabled developer mode. Available only for an indicated IP:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Sklep:</source>
+                <target>Shop:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>SOTESHOP - panel aktualizacji</source>
+                <target>SOTESHOP - the update panel</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

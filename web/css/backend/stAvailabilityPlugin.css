@@ -1,0 +1,27 @@
+.form_label
+{
+    float:left;
+    width: 180px;
+    padding-top: 3px;
+}
+
+.form_value
+{
+    clear:right;
+    margin: 10px;
+}
+
+.form_label_symbol
+{
+    float:left;
+    width: 170px;
+    padding-top: 15px;
+}
+
+
+#st_availability-symbol-list li
+{
+    float: left;
+    text-align: center;
+    padding: 5px 20px;
+}

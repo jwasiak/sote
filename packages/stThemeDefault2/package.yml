@@ -1,0 +1,28 @@
+package:
+  name: stThemeDefault2
+  stability: stable
+  version: 2.1.3.7
+  summary: 'Temat Default2'
+  description: 'Grafika szablonu Default2'
+  notes: |
+    - Dostosowanie pakietu do zmian w stBlogPlugin
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+    'Marek Jakubowicz':
+      role: contributor
+      user: marek
+      email: marek.jakubowicz@sote.pl
+  dependency:
+    stThemePlugin: 1.0.8
+    stFrontend: 1.1.0.12

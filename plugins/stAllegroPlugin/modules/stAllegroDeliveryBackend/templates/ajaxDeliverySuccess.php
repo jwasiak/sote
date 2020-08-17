@@ -1,0 +1,1 @@
+<?php echo st_get_component('stAllegroDeliveryBackend', 'deliveries', array('id' => $id, 'auction' => $auction, 'namespace' => $namespace, 'environment' => $environment, 'show' => $show));

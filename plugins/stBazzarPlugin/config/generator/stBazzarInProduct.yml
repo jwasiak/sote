@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_bazzar:         {name: Bazzar, class: stBazzar, method: getProduct}
+
+import:
+    fields:
+        product_bazzar:         {class: stBazzar, method: setProduct}

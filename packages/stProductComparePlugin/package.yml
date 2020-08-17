@@ -1,0 +1,15 @@
+package:
+  name: stProductComparePlugin
+  stability: stable
+  version: 2.2.1.1
+  summary: 'Porownywarka produktow'
+  description: 'Porownywarka produktow'
+  notes: |
+    - Poprawka wyswietlania dla ukrytych cen w sklepie
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stProduct: 1.0.19.1

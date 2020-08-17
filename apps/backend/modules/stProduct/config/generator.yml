@@ -1,0 +1,483 @@
+generator:    
+    class:              stAdminGenerator
+    param:
+        model_class:                Product
+        attachment_model_class:     ProductHasAttachment
+        duplicate_model_class:      Product
+        dimension_model_class:      ProductDimension
+
+        theme:                      simple
+        head:
+            package:                stProduct
+
+        applications:               [stCategory, stProducer, stProductGroup, stQuestionPlugin]
+
+        custom_actions:
+            list:                   [attachment, duplicate, dimension]
+            edit:                   [attachment, dimension]
+            config:                 [presentation]
+
+        list:
+            use_stylesheet:         [backend/stProductList.css]
+            use_helper:             [stProduct]
+            auto_width:             true
+            display:                [list_image, =name, code, opt_price_brutto,  producer_id, active, priority]
+            fields:
+                code:               {name: Kod, width: 10%, min_width: 80px}
+                name:               {name: Nazwa, params: size=40, sort_field: product_i18n.name, width: 35%, callback: list_product_name}
+                opt_price_brutto:   {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label}
+                producer_id:        {name: Producent, width: 13%, min_width: 90px, callback: list_product_producer}
+                list_image:         {name: Zdjęcie, width: 1%, callback: list_product_image}
+                active:             {name: Aktywny, width: 1%, align: center}
+                priority:           {name: Priorytet, params: size=10, align: center}}
+            editable:
+              code:                 -
+              name:                 -
+              producer_id:          -
+              active:               -
+              list_price:           -
+              priority:             -
+            additional_filters:     [description, weight, stock, hide_price, allegro]
+            filters:
+                producer_id:        {filter_field: producer_i18n.name}
+                name:               {filter_field: product_i18n.name}
+                list_image:         {partial: filter_list_image}
+                description:        {name: Opis, filter_field: product_i18n.description, params: size=21}
+                weight:             {name: Waga}
+                stock:              {name: Stan magazynowy}
+                hide_price:         {partial: filter_list_hide_price, filter_field: product.hide_price, name: Ukryj cenę}
+                allegro:            {partial: filter_allegro, name: Wystawiony na allegro}
+            select_actions:
+              display:
+                "Ustaw aktywne:":   [product_enabled, product_disabled]
+              actions:
+                _delete:            -
+                product_enabled:    {name: Tak, confirm: "Ustaw aktywne: Tak", action: productEnable, i18n: stAdminGeneratorPlugin}
+                product_disabled:   {name: Nie, confirm: "Ustaw aktywne: Nie", action: productDisable, i18n: stAdminGeneratorPlugin}
+
+            menu:
+                display:            [list, export, import]
+                fields:
+                     list:          {name: Lista, action: @stProductDefault}
+                     config:        {name: Konfiguracja, action: stProduct/config}
+                     presentation_config:  {name: Prezentacja, action: stProduct/presentationConfig}
+                     export:        {name: Eksport, action: stProduct/export}
+                     import:        {name: Import, action: stProduct/import}
+            description:            Zarządzanie produktami w sklepie. 
+            title:                  Lista    
+            max_per_page:           12
+            peer_method:            doSelectWithI18n
+            peer_count_method:      doCountWithI18n
+            actions:
+                export:             {name: Eksport, action: export?type=list, i18n: stProduct, icon: file}
+                _create:            {name: Dodaj}
+            object_actions:
+                _edit:              -
+                _delete:            -
+            empty_message:          {message: Brak produktów, i18n: stProduct}
+        new:
+           title:                   Nowy produkt
+
+        edit:
+            use_stylesheet:         [backend/stProductEdit.css?v3]
+            use_helper:             [stProduct, stDeliveryBackend/stDeliveryBackend]
+            menu:
+                display:            [attachment, duplicate]
+                fields:                  
+                    _edit:          {name: Edycja podstawowa}
+                    attachment:     {name: Załączniki, action: stProduct/attachmentList?product_id=%%id%%}
+                    duplicate:      {name: Duplikaty, action: stProduct/duplicateList?product_id=%%id%%}
+            title:                  Edycja podstawowa
+            old_config:
+                "Punkty":   true
+            display:
+                "NONE":                         [active, code, name, man_code]
+                "Ceny":                         [~edit_currency, vat, _price, _old_price, hide_price]
+                "Cena zasadnicza":              [~bpum_default, ~bpum]
+                "Punkty":                       [_points_only, points_value, points_earn]
+                "Producent/Kategorie/Grupy":    [producer_id, product_category, product_group, product_accessories, product_recommend, priority, main_page_order]
+                "Dostępność/Magazyn":           [availability_id, stock_managment, stock, execution_time, uom, is_stock_validated, stock_in_decimals, min_qty, max_qty, step_qty]
+                "Dostawa":                      [dimension_id, width, height, depth, weight, product_delivery, _delivery_price]
+                "Rabaty":                       [max_discount, discount_group]
+                "Zdjęcia":                      [product_image]
+                "Opis":                         [short_description, description, search_keywords]
+            fields:
+                delivery_price:             {name: Koszt dostawy, help: Koszt dostawy doliczany do łącznego kosztu dostawy dla każdej sztuki produktu}
+                dimension_id:               {name: Rozmiar, type: product_dimension}
+                product_delivery:           {name: Dostawy, type: product_delivery, params: control_name=product_delivery}
+                height:                     {name: Wysokość, type: delivery_dimension, params: size=8 decimals=1}
+                width:                      {name: Szerokość, type: delivery_dimension, params: size=8 decimals=1}
+                depth:                      {name: Głębokość, type: delivery_dimension, params: size=8 decimals=1}
+                man_code:                   {name: Kod producenta, help: Kod kreskowy EAN | UPC lub JAN}
+                active:                     {name: Aktywny}
+                name:                       {name: Nazwa, required: true, params: disabled=false size=78}
+                producer_id:                {name: Producent, type: product_producer}
+                product_category:           {name: Kategorie, type: product_category, params: control_name=product_category}
+                price:                      {name: Cena}
+                bpum_default_id:            {name: Jednostka, params: include_custom="---" include_blank=false, help: "Jednostka miary ceny zasadniczej."}
+                bpum_default_value:         {name: Ilość}
+                bpum_id:                    {name: Jednostka, params: include_custom="---" include_blank=false, help: "Jednostka miary ceny zasadniczej."}
+                bpum_value:                 {name: Prezentuje cenę dla}
+                bpum_default:               {name: Ilość jednostki miary, help: "Całkowita miara dla jednostki produktu np. 1kg, 10m, 100l."}
+                bpum:                       {name: Prezentuje cenę dla, help: "Wartość i jednostka dla jakiej ma być prezentowana cena zasadnicza."}
+                old_price:                  {name: Stara cena}
+                product_image:              {name: Zdjęcie, hide_label: true, type: product_image}
+                code:                       {name: Kod, params: size=32}
+                vat:                        {name: Vat, type: product_tax}
+                description:                {name: Opis pełny, type: textarea_tag, params: "rich=true tinymce_options=height:200,width:'100%' disabled=false"}
+                short_description:          {name: Opis skrócony, type: textarea_tag, params: "rich=true tinymce_options=height:100,width:'100%',theme:'simple' disabled=false"}
+                enclosure:                  {name: Załącznik}
+                hide_price:                 {name: Ukryj cenę, type: product_hide_price}
+                edit_currency:              {name: Waluta}
+                stock:                      {name: Stan magazynowy, type: product_stock}
+                execution_time:             {name: Czas realizacji, params: disabled=false size=40}
+                uom:                        {name: Jednostka miary, type: product_uom, params: size=8}
+                max_qty:                    {name: Maksymalna ilość, help: Maksymalna ilość produktu jaką może zamówić klient w ramach jednego zamówienia (0 oznacza brak), type: product_price}
+                min_qty:                    {name: Minimalna ilość, help: Minimalna ilość produktu jaką musi zamówić klient, type: product_price}
+                step_qty:                   {name: Wielokrotność ilości, help: Jeśli podana wyświetla liste wyboru ilości produktu o podanej wielokrotności zamiast pola tekstowego, type: product_step_qty} 
+                availability_id:            {name: Dostępność, type: product_availability}
+                weight:                     {name: Waga, type: product_weight}
+                is_stock_validated:         {name: Sprawdzaj stan magazynowy, type: product_is_stock_validated, help: "Jeśli zaznaczone/ozdnaczone włącza/wyłącza sprawdzanie stanów magazynowy w koszyku. Pole jest ignorowane jeżeli w <b>Konfiguracja -> Konfiguracja produktów</b> opcja <b>Sprawdzanie stanu magazynowego w koszyku</b> jest odznaczona"}
+                stock_in_decimals:          {name: Zezwalaj na części dziesiętne w ilości, type: product_stock_in_decimals}
+                max_discount:               {name: Maksymalny rabat, postfix: "%"}
+                discount_group:             {name: Grupy rabatowe, type: product_discount_group, params: control_name=discount_group}
+                product_group:              {name: Grupy, type: product_group, params: control_name=product_group}
+                product_accessories:        {name: Akcesoria, type: product_accessories, params: control_name=product_accessories}
+                product_recommend:          {name: Polecane produkty, type: product_recommend, params: control_name=product_recommend}
+                priority:                   {name: Priorytet}
+                main_page_order:            {name: Kolejność na stronie głównej}
+                points_value:               {name: Cena w punktach, help: "Liczba punktów jaką należy wydać aby nabyć towar.",support: true}
+                points_earn:                {name: Zarobione punkty, help: "Liczba punktów jakie klient sklepu otrzyma za zakupienie tego produktu.",support: true}
+                points_only:                {name: Produkt tylko za punkty}
+                stock_managment:            {name: Zarządzaj magazynem, type: product_stock_managment }
+                search_keywords:            {name: Opis do wyszukiwania, help: "Opis wyszukiwania nie pojawia się na karcie produktu, ale system będzie analizował go podczas wyszukiwania", params: disabled=false, type: textarea_tag}
+            actions:
+                view_product:               {name: Zobacz produkt w sklepie, action: viewProduct, i18n: stProduct, icon: view_shop}
+                _list:                      {name: Pokaż listę}
+                _duplicate:                 {name: Duplikuj, i18n: stProduct}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj kolejny}
+                _delete:                    {name: Usuń}
+
+        config:
+            use_helper:                     [stProduct]
+            title:                          Konfiguracja 
+            description:                    Zarządzanie produktami w sklepie.
+            menu:                           
+                display:                    [general, dimension]
+                fields:
+                    general:                {name: Konfiguracja, action: stProduct/config}
+                    dimension:              {name: Rozmiary, action: stProduct/dimensionList}
+            display:        
+                "NONE":                     [show_unique, list_type, sort_type, sort_asc_desc]
+                "Ceny produktów":           [global_price_netto, show_without_price, show_price_filter, global_hide_price]
+                "Ilość produktów na":       [long_list, short_list, other_list]
+                "Dostawy":                  [delivery_price_type]
+            fields:
+                show_unique:                {name: Nie pozwalaj na dublowanie produktów na stronie, checked: false, type: checkbox}
+                global_hide_price:          {name: Ukryj cenę, type: config_hide_price, help: "Ukrywa cenę dla wszystkich produktów w sklepie"}
+                global_price_netto:         {name: Ceny tylko w netto, checked: false, type: checkbox}
+                long_list:                  {name: liście pełnej}
+                short_list:                 {name: liście skróconej, hide_install_version: 6.6.4}
+                other_list:                 {name: liście alternatywnej, hide_install_version: 6.6.4}
+                show_without_price:         {name: Pokaż produkty tylko z ustawioną ceną, checked: false, type: checkbox}
+                show_price_filter:          {name: Pokaż filtr po cenie, type: checkbox, help: "Ze względu na stopień skomplikowania rabatów ceny po rabacie nie są filtrowane"}
+                delivery_price_type:    
+                    name: Koszt dostawy
+                    type: select
+                    display:                [netto, brutto]
+                    options:
+                        netto:              {name: Netto}
+                        brutto:             {name: Brutto}   
+                list_type:
+                    name:                   Domyślny typ prezentacji listy
+                    hide_install_version:   6.6.4
+                    type:                   select
+                    display:                [long, short, other]
+                    options:
+                        long:               {name: Lista pełna, value: long}
+                        short:              {name: Lista skrócona, value: short}
+                        other:              {name: Lista alternatywna, value: other}
+                        selected:           long
+                sort_type:
+                    name:                   Domyślne sortowanie po 
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Nazwie, value: name}
+                        option2:            {name: Cenie, value: price}
+                        option3:            {name: Najnowszym, value: created_at}
+                        option4:            {name: Priorytecie, value: priority}
+                        selected:           option4
+                sort_asc_desc:
+                    name:                   Domyślnie sortuj
+                    type:                   select
+                    display:                [option1, option2]
+                    options:
+                        option1:            {name: Rosnąco, value: asc}
+                        option2:            {name: Malejąco, value: desc}
+                        selected:           option1
+            actions:
+                _save:                      {name: Zapisz}
+
+        presentation_config:
+            title:                          Prezentacja
+            description:                    Zarządzanie produktami w sklepie.
+            hide_install_version:
+                "Lista skrócona":           6.6.4
+            display:        
+                "Karta produktu":                   [show_code, show_name, show_availability, show_depository, show_price, show_uom, show_basic_price, price_view, show_old_price, show_saved_price, show_discount, discount_type, show_compare, show_image, show_galery, show_description, show_short_description, show_other_products, other_products_num, show_accessories, _show_product_recomandation, show_review, show_weight, show_execute_time, show_manufacturer, show_man_code]
+                "Lista pełna":                      [show_name_long, cut_name_long, cut_name_num_long, show_availability_long, show_depository_long, show_image_long, show_price_long, show_uom_long, show_basic_price_long, price_view_long, show_old_price_long, show_discount_long, show_basket_long, show_description_long, show_weight_long]
+                "Lista skrócona":                   [show_name_short, cut_name_short, cut_name_num_short, show_code_short, show_image_short, show_price_short, show_uom_short, show_basic_price_short, price_view_short, show_old_price_short, show_discount_short, show_basket_short, show_weight_short]
+                "Polecane produkty i akcesoria":    [show_name_other, cut_name_other, cut_name_num_other, show_image_other, show_price_other, show_uom_other, show_basic_price_other, price_view_other, show_old_price_other, show_discount_other]
+                "Grupy produktów - strona główna":  [show_name_group, cut_name_group, cut_name_num_group, show_availability_group, show_depository_group, show_image_group, show_image_group, show_price_group, show_uom_group, show_basic_price_group, price_view_group, show_description_group, description_type_group, cut_description_group, cut_description_num_group, show_old_price_group, show_discount_group, show_weight_group]
+            fields:
+                show_code:                  {name: Pokaż kod produktu, checked: false, type: checkbox}
+                show_name:                  {name: Pokaż nazwę produktu, checked: true, type: checkbox}
+                show_price:                 {name: Pokaż cenę produktu, checked: true, type: checkbox}
+                show_basic_price:           {name: Pokaż cenę zasadniczą, checked: false, type: checkbox}
+                show_basic_price_long:      {name: Pokaż cenę zasadniczą, checked: false, type: checkbox}
+                show_basic_price_short:     {name: Pokaż cenę zasadniczą, checked: false, type: checkbox}
+                show_uom:                   {name: Pokaż jednostkę miary przy cenie, checked: false, type: checkbox}
+                show_old_price:             {name: Pokaż starą cenę produktu, checked: true, type: checkbox}
+                show_depository:            {name: Pokaż stan magazynowy, checked: false, type: checkbox, i18n: stDepositoryBackend}
+                show_depository_long:       {name: Pokaż stan magazynowy, checked: false, type: checkbox, i18n: stDepositoryBackend}  
+                show_depository_group:      {name: Pokaż stan magazynowy, checked: false, type: checkbox, i18n: stDepositoryBackend} 
+                show_availability:          {name: Pokaż dostępność, checked: false, type: checkbox}
+                price_view:
+                    name:                   Wyświetlenie ceny przy produkcie
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę brutto, value: only_gross}
+                        option2:            {name: Wyświetlaj tylko cenę netto, value: only_net}
+                        option3:            {name: Wyświetlaj cenę netto i brutto - wyróżnij brutto, value: gross_net}
+                        option4:            {name: Wyświetlaj cenę netto i brutto - wyróżnij netto, value: net_gross}
+                        selected:           option1
+                show_saved_price:           {name: Pokaż cenę katalogową, checked: false, type: checkbox}
+                show_discount:              {name: Pokaż zaoszczędzoną kwotę przy rabacie, checked: false, type: checkbox}
+                discount_type:
+                    name:                   Prezentacja rabatu
+                    type:                   select
+                    display:                [option1, option2, option3]
+                    options:
+                        option1:            {name: Wyświetlaj zaoszczędzone kwotę i procent, value: discount_amount_percentage}
+                        option2:            {name: Wyświetlaj tylko zaoszczędzoną kwotę, value: discount_amount}
+                        option3:            {name: Wyświetlaj tylko zaoszczędzony procent, value: discount_percentage}
+                        selected:           option1
+                show_compare:               {name: Pokaż dodanie do porównania, checked: true, type: checkbox, old_config: true}
+                show_image:                 {name: Pokaż zdjęcie produktu, checked: true, type: checkbox}
+                show_galery:                {name: Pokaż galerię produktu, checked: true, type: checkbox}
+                show_short_description:     {name: Pokaż skrócony opis produktu, checked: true, type: checkbox}
+                show_description:           {name: Pokaż pełny opis produktu, checked: true, type: checkbox}
+                show_other_products:        {name: Pokaż polecane produkty, checked: true, type: checkbox}
+                other_products_num:         {name: Liczba produktów polecanych, params: size=2}
+                show_accessories:           {name: Pokaż akcesoria, checked: true, type: checkbox}
+                show_product_recomandation: {name: Włącz rekomendację produktu, checked: true, type: checkbox}
+                show_review:                {name: Pokaż recenzje produktu, checked: true, type: checkbox}
+                show_weight:                {name: Pokaż wagę produktu, checked: true, type: checkbox}
+                show_weight_long:           {name: Pokaż wagę produktu, checked: false, type: checkbox}
+                show_weight_short:          {name: Pokaż wagę produktu, checked: false, type: checkbox}
+                show_weight_group:          {name: Pokaż wagę produktu, checked: false, type: checkbox}
+                show_manufacturer:          {name: Pokaż producenta, checked: false, type: checkbox}
+                show_man_code:              {name: Pokaż kod producenta, checked: false, type: checkbox}
+                show_execute_time:          {name: Pokaż czas realizacji, checked: true, type: checkbox}
+                show_name_long:             {name: Pokaż nazwę produktu, checked: true, type: checkbox}
+                cut_name_long:              {name: Skracaj nazwę produktu, checked: true, type: checkbox}
+                cut_name_num_long:          {name: Ile znaków skracać nazwę produktu, params: size=4}
+                show_image_long:            {name: Pokaż zdjęcie produktu, checked: true, type: checkbox}
+                show_price_long:            {name: Pokaż cenę produktu, checked: true, type: checkbox}
+                show_uom_long:              {name: Pokaż jednostkę miary przy cenie, checked: false, type: checkbox}
+                show_old_price_long:        {name: Pokaż starą cenę produktu, checked: true, type: checkbox}
+                show_description_long:      {name: Pokaż opis produktu, checked: true, type: checkbox}
+                price_view_long:
+                    name:                   Wyświetlenie ceny na liście
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę brutto, value: only_gross}
+                        option2:            {name: Wyświetlaj tylko cenę netto, value: only_net}
+                        option3:            {name: Wyświetlaj cenę netto i brutto - wyróżnij brutto, value: gross_net}
+                        option4:            {name: Wyświetlaj cenę netto i brutto - wyróżnij netto, value: net_gross}
+                        selected:           option1
+                show_discount_long:         {name: Pokaż rabat, checked: false, type: checkbox}
+                show_basket_long:           {name: Pokaż koszyk, checked: true, type: checkbox}
+                show_availability_long:     {name: Pokaż dostępność, checked: false, type: checkbox}
+                show_name_short:            {name: Pokaż nazwę produktu, checked: true, type: checkbox}
+                cut_name_short:             {name: Skracaj nazwę produktu, checked: true, type: checkbox}
+                cut_name_num_short:         {name: Ile znaków skracać nazwę produktu, params: size=4}
+                show_image_short:           {name: Pokaż zdjęcie produktu, checked: true, type: checkbox}
+                show_code_short:            {name: Pokaż kod produktu, checked: false, type: checkbox}
+                show_price_short:           {name: Pokaż cenę produktu, checked: true, type: checkbox}
+                show_uom_short:             {name: Pokaż jednostkę miary przy cenie, checked: false, type: checkbox}
+                show_old_price_short:       {name: Pokaż starą cenę produktu, checked: true, type: checkbox}
+                price_view_short:
+                    name:                   Wyświetlenie ceny na liście
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę brutto, value: only_gross}
+                        option2:            {name: Wyświetlaj tylko cenę netto, value: only_net}
+                        option3:            {name: Wyświetlaj cenę netto i brutto - wyróżnij brutto, value: gross_net}
+                        option4:            {name: Wyświetlaj cenę netto i brutto - wyróżnij netto, value: net_gross}
+                        selected:           option1
+                show_discount_short:        {name: Pokaż rabat, checked: false, type: checkbox}
+                show_basket_short:          {name: Pokaż koszyk, checked: true, type: checkbox}
+                show_name_other:            {name: Pokaż nazwę produktu, checked: true, type: checkbox}
+                cut_name_other:             {name: Skracaj nazwę produktu, checked: true, type: checkbox}
+                cut_name_num_other:         {name: Ile znaków skracać nazwę produktu, params: size=2}
+                show_image_other:           {name: Pokaż zdjęcie produktu, checked: true, type: checkbox}
+                show_price_other:           {name: Pokaż cenę produktu, checked: true, type: checkbox}
+                show_uom_other:             {name: Pokaż jednostkę miary przy cenie, checked: false, type: checkbox}
+                show_basic_price_other:     {name: Pokaż cenę zasadniczą, checked: false, type: checkbox}
+                show_old_price_other:       {name: Pokaż starą cenę produktu, checked: true, type: checkbox}
+                price_view_other:
+                    name:                   Wyświetlenie ceny na liście
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę brutto, value: only_gross}
+                        option2:            {name: Wyświetlaj tylko cenę netto, value: only_net}
+                        option3:            {name: Wyświetlaj cenę netto i brutto - wyróżnij brutto, value: gross_net}
+                        option4:            {name: Wyświetlaj cenę netto i brutto - wyróżnij netto, value: net_gross}
+                        selected:           option1    
+                show_discount_other:        {name: Pokaż rabat, checked: false, type: checkbox}
+                show_availability_other:    {name: Pokaż dostępność, checked: false, type: checkbox}
+                show_name_group:            {name: Pokaż nazwę produktu, checked: true, type: checkbox}
+                cut_name_group:             {name: Skracaj nazwę produktu, checked: true, type: checkbox}
+                cut_name_num_group:         {name: Ile znaków skracać nazwę produktu, params: size=4}
+                show_image_group:           {name: Pokaż zdjęcie produktu, checked: true, type: checkbox}
+                show_price_group:           {name: Pokaż cenę produktu, checked: true, type: checkbox}
+                show_uom_group:             {name: Pokaż jednostkę miary przy cenie, checked: false, type: checkbox}
+                show_basic_price_group:     {name: Pokaż cenę zasadniczą, checked: false, type: checkbox}
+                price_view_group:
+                    name:                   Wyświetlenie ceny na liście
+                    type:                   select
+                    display:                [option1, option2, option3, option4]
+                    options:
+                        option1:            {name: Wyświetlaj tylko cenę brutto, value: only_gross}
+                        option2:            {name: Wyświetlaj tylko cenę netto, value: only_net}
+                        option3:            {name: Wyświetlaj cenę netto i brutto - wyróżnij brutto, value: gross_net}
+                        option4:            {name: Wyświetlaj cenę netto i brutto - wyróżnij netto, value: net_gross}
+                        selected:           option1        
+                show_description_group:     {name: Pokaż opis skrócony produktu, checked: true, type: checkbox}
+                description_type_group:           
+                    name:                   Jaki opis ma być używany
+                    type:                   select
+                    display:                [option1, option2]
+                    options:
+                        option1:            {name: Opis skrócony, value: short}
+                        option2:            {name: Opis pełny, value: full}
+                        selected:           option1
+                cut_description_group:      {name: Skracaj wybrany opis, type: checkbox}
+                cut_description_num_group:  {name: Ile znaków skracać opis produktu, params: size=4}
+                show_old_price_group:       {name: Pokaż starą cenę produktu, checked: true, type: checkbox}
+                show_discount_group:        {name: Pokaż rabat, checked: false, type: checkbox}
+                show_availability_group:    {name: Pokaż dostępność, checked: false, type: checkbox}
+            actions:
+                _save:                      {name: Zapisz}
+
+        export:
+            include_file:                   export.yml
+
+        import:
+            include_file:                   import.yml
+
+        attachment_list:
+            forward_parameters:             [product_id]
+            build_options:
+                related_id:                 forward_parameters.product_id
+            title:                          Załączniki
+            description:                    Zarządzanie plikami produktu.
+            display:                        [_attachment_list_name, _attachment_list_lang_flag, attachment_list_filesize, is_active]
+            menu:                           {use: edit.menu}
+            fields:
+              attachment_list_name:         {name: Nazwa}
+              attachment_list_filesize:     {name: Rozmiar}
+              is_active:                    {name: Aktywny}
+              attachment_list_lang_flag:    {name: Wersja językowa}
+            empty_message:                  {message: Brak załączników, i18n: stProduct}
+            peer_method:                    doSelectJoinAll
+            filters:
+              language:                     {filter_field: product_has_attachment.language_id}
+            object_actions:
+                _edit:                      -
+                _delete:                    -
+            actions:
+                _create:                    {name: Dodaj załącznik, i18n: stProduct}
+
+        attachment_edit:
+            forward_parameters:             [product_id]
+            build_options:
+                related_id:                 forward_parameters.product_id
+            title:                          Edycja załącznika
+            description:                    Zarządzanie plikami produktu.
+            menu:                           {use: edit.menu}
+            display:                        [is_active, _attachment_edit_language, _attachment_edit_file, _attachment_edit_filename, description]
+            fields:
+              is_active:                    {name: Aktywny}
+              attachment_edit_language:     {name: Wersja językowa, help: Po zapisaniu wersja językowa zostaje zablokowana}
+              attachment_edit_file:         {name: Załącz/Zmień plik}
+              attachment_edit_filename:     {name: Nazwa pliku}
+              description:                  {name: Opis, help: Dodatkowy opis wyświetlany przy każdym załączniku, type: textarea_tag, params: cols=30}
+            actions:
+                _delete:                    {name: Usuń}
+                _list:                      {name: Lista załączników, i18n: stProduct}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj nowy}
+
+        duplicate_list:
+            peer_method:                    doSelectWithI18n
+            forward_parameters:             [product_id]
+            description:                    Zarządzanie produktami w sklepie.
+            build_options:
+                related_id:                 forward_parameters.product_id
+            title:                          Duplikaty
+            menu:                           {use: edit.menu}
+            display:                        [=code, _list_image, =name]
+            fields:
+                name:                              {name: Nazwa, params: size=40 link_to="stProduct/edit?id=%%id%%"}
+                list_image:                        {name: Zdjęcie}
+                code:                              {name: Kod produktu, params: link_to="stProduct/edit?id=%%id%%"}
+            filters:
+                name:                              {filter_field: product_i18n.name}
+                code:                              {filter_field: product.code}
+            object_actions:                 []
+            actions:
+                _duplicate:                {name: Zduplikuj ten produkt, i18n: stProduct}
+            empty_message:                 {message: Ten produkt nie ma duplikatów, i18n: stProduct}
+
+        dimension_list:
+            use_helper:                 [stDeliveryBackend/stDeliveryBackend]
+            menu:                       {use: config.menu}
+            title:                      Rozmiary
+            display:                    [name, width, height, depth]
+            fields:
+                name:                   {name: Nazwa}
+                width:                  {name: Szerokość, callback: list_delivery_dimension}
+                height:                 {name: Wysokość, callback: list_delivery_dimension}
+                depth:                  {name: Głębokość, callback: list_delivery_dimension}
+            object_actions:
+                _edit:                  -
+                _delete:                -  
+            actions:
+                _create:                {name: Dodaj}
+
+        dimension_edit:
+            menu:                       {use: config.menu}
+            use_helper:                 [stDeliveryBackend/stDeliveryBackend]
+            title:                      Edycja rozmiaru
+            display:                    [name, width, height, depth]
+            fields:
+                name:                   {name: Nazwa}
+                height:                 {name: Wysokość, type: delivery_dimension, params: "size=8 decimals=1"}
+                width:                  {name: Szerokość, type: delivery_dimension, params: "size=8 decimals=1"}
+                depth:                  {name: Głębokość, type: delivery_dimension, params: "size=8 decimals=1"}
+            actions:
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj}
+
+        dimension_create:
+            title:                       Dodaj nowy rozmiar
+

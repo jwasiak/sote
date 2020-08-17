@@ -1,0 +1,62 @@
+<div id="st_paczkomaty">
+    <div id="paczkomaty_overlay">
+        <div class="paczkomaty_overlay_content"></div>
+    </div>
+</div>
+{literal}
+    <script type="text/javascript" src="{/literal}{$mapJsUrl}{literal}"></script>
+    <script type="text/javascript" language="javascript">
+        jQuery(function ($) {
+            var messages = {/literal}{$messages}{literal}
+
+            $(document).ready(function() {
+                {/literal}
+                {if $number != ''}
+                    $.paczkomatySelectMachine('{$number}', messages);
+                {/if}
+                {literal}
+                $('.st_delivery-default').click(function() {
+                    $.paczkomatyRestoreBasket(messages);
+                });
+
+                $('.st_delivery-label').click(function() {
+                    $.paczkomatyRestoreBasket(messages);
+                });
+
+                $('#user_delivery_form').submit(function() {
+                    var deliveryIdChecked = $('input.st_delivery-default:checked').val();
+
+                    if($('#st_paczkomaty_delivery-' + deliveryIdChecked).length && !$('#st_paczkomaty_delivery_address-' + deliveryIdChecked).is(':visible')) {
+                        alert(messages[3]);
+                        return false;
+                    }
+                });
+
+                $('#st_basket-delivery').on('click', '.paczkomaty_active_overlay', function() {
+                    $.paczkomatyRestoreBasket(messages);
+
+                    var deliveryId = $(this).data('delivery-id');
+
+                    $("#delivery_default_delivery-" + deliveryId).prop('checked', true);
+                    $("#delivery_default_delivery-" + deliveryId).trigger('click');
+
+                    $('#paczkomaty_overlay').data('overlay', '');
+                    $('#paczkomaty_overlay').overlay({
+                        oneInstance: false,
+                        onBeforeLoad: function() {
+                            var wrap = this.getOverlay().find('.paczkomaty_overlay_content');
+                            $.get('{/literal}{$mapUrl}{literal}/' + deliveryId, function(data) {
+                                wrap.html(data);
+                            });
+                        },
+                        onClose: function () {
+                            var wrap = this.getOverlay().find('.paczkomaty_overlay_content');
+                            wrap.html('');
+                        },
+                        load: true
+                    });
+                });
+            });
+        });
+    </script>
+{/literal}

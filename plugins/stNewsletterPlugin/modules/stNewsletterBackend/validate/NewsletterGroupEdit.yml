@@ -1,0 +1,13 @@
+fields:
+    newsletter_group{name}:
+        required:
+            msg:       Nie podałeś nazwy
+            
+        sfStringValidator:
+            max:          30
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+            
+        sfPropelUniqueValidator:
+            class:        NewsletterGroup
+            column:       opt_name
+            unique_error: Taka nazwa już istnieje w bazie danych.

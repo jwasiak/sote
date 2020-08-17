@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2015-01-15T02:17:39Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wybierz Paczkomat</source>
+				<target>Выберите Почтомат</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Podaj kod pocztowy</source>
+				<target>Указать почтовый индекс</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Podany kod pocztowy jest nieprawidłowy.</source>
+				<target>Указанный почтовый индекс является некорректным.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukaj</source>
+				<target>Искать</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wybierz miasto</source>
+				<target>Выберите город</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>wszystkie lokalizacje</source>
+				<target>все местоположения</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmień Paczkomat</source>
+				<target>Изменить Почтомат</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Dostawa Paczkomaty</source>
+				<target>Доставка Почтоматы</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę wybrać Paczkomat.</source>
+				<target>Выберите Почтомат.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Paczkomat</source>
+				<target>Почтомат</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wybierz z listy</source>
+				<target>Выберите из списка</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wybierz</source>
+				<target>Выбрать</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

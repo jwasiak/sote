@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Payment</target>
+			</trans-unit>
+            <trans-unit id="2">
+                <source>Wybierz płatność i kliknij przycisk</source>
+                <target>Select payment and click</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>"Zapłać"</source>
+                <target>"Pay"</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>aby przejść do serwisu PayU.</source>
+                <target>to go to the PayU site.</target>
+            </trans-unit>
+			<trans-unit id="5">
+                <source>Zapłać</source>
+                <target>Pay</target>
+            </trans-unit>
+            <trans-unit id="6">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Thank you for your payment.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>The payment was configured incorrectly.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>The payment was not completed.</target>
+			</trans-unit>
+            <trans-unit id="9">
+                <source>Login Payback</source>
+                <target>Payback username</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Skontaktuj się z nami</source>
+                <target>Please contact us</target>
+            </trans-unit>
+			<trans-unit id="11">
+                <source>Wystąpił problem z połączeniem się z serwisem PayU.</source>
+                <target>There was a problem with the connection to PayU.</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

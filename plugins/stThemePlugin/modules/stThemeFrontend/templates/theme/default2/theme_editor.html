@@ -1,0 +1,81 @@
+<div id="st_theme_editor">
+  <ul>    
+    <li><a href="{$return_url}">{__ text='Powrót'}</a></li>
+    <li><a href="{$logout_url}">{__ text='wyloguj' catalogue='stUser'}</a></li>
+    <li id="editor_choose">
+      <div id="editor_config">
+        <img src="/images/theme/config.png" alt="" />
+        <div class="editor_menu">
+          <ul>                   
+            {if $theme->getVersion() >= 2}          
+              <li><label for="theme_edit_mode" style="cursor: pointer">{__ text='Edycja'}</label> <input type="checkbox" value="1" id="theme_edit_mode" /></li>
+              <li><label for="editor_bar_hide" style="cursor: pointer">{__ text='Autoukrywanie paska'}</label> <input type="checkbox" value="1" id="editor_bar_hide" /></li>              
+              <li {if !$theme->countSmartySlots()}style="display: none"{/if}><a id="restore_default_layout" href="{$restore_slots_url}">{__ text='Przywróć domyślny układ'}</a></li>
+              <li><a href="/backend.php/theme/graphicEdit/id/{$theme->getId()}">{__ text='Konfiguracja grafiki'}</a></li>
+            {/if}                   
+          </ul>            
+        </div>
+      </div>
+    </li>
+    <li class="clr"></li>
+  </ul>
+  {if $notice}
+    <div class="editor_message"><h3>{$notice}</h3></div>
+    {literal}
+    <script type="text/javascript">
+      setTimeout(function() { jQuery('#st_theme_editor .editor_message').fadeOut() }, 4000);   
+    </script>
+    {/literal}
+  {/if}   
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function($) {
+   $(document).ready(function() { 
+      var editor = $('#st_theme_editor');
+
+      $('#restore_default_layout').click(function() {
+         return window.confirm('{/literal}{__ text="Jesteś pewien, że chcesz przywrócić domyślny układ dla wybranego tematu?"}{literal}');
+      });
+
+      $('body').prepend(editor);
+
+      editor.find('#editor_apply a').click(function(event) { 
+        var answer = window.confirm('{/literal}{__ text="Zmiany w konfiguracji palety kolorów i grafiki zostaną zastosowane. Jesteś pewien?"}{literal}'); 
+
+        if (!answer)
+        {
+           event.preventDefault();    
+        }
+      });
+      
+      editor.find('#editor_default a').click(function(event) { 
+        var answer = window.confirm('{/literal}{__ text="Wybrany temat zostanie ustawiony jako domyślny. Jesteś pewien?"}{literal}'); 
+
+        if (!answer)
+        {
+           event.preventDefault();    
+        }
+      });      
+
+      var text = {enable: '{/literal}{__ text="Ukryj"}{literal}', disable: '{/literal}{__ text="Pokaż"}{literal}'};
+
+      $('#editor_bar_hide').change(function() {
+         if (this.checked) {
+            editor.children('ul').addClass('editor_hidden');
+         } else {
+            editor.children('ul').removeClass('editor_hidden');
+         }
+
+         $.cookies.set('st_theme_editor.autohide', this.checked, { path: '/' });
+      });
+
+      if ($.cookies.get('st_theme_editor.autohide'))
+      {
+         $('#editor_bar_hide').click(); 
+      }
+   });
+});
+</script>
+{/literal}

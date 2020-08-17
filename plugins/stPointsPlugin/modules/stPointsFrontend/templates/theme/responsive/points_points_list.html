@@ -1,0 +1,44 @@
+<div class="roundies box_form">
+<h3>{__ text="Twoje punkty"}</h3>
+<div class="content">
+<br/>
+{__ text="Aktualnie posiadasz"}: <b>{$user_points} {$points_shortcut}</b>
+{if $release_points!="release_off" && $release_points!="release_on"}
+    <br/>
+    {__ text="Próg aktywacji punktów nie został osiągnięty"} - {__ text="do aktywacji brak"}: <b>{$release_points} {$points_shortcut}</b>. <br/>{__ text="Po zgromadzeniu łącznie"} <b>{$points_release_value} {$points_shortcut}</b> {__ text="będzie można dokonywać zakupów za punkty."} <br/>{__ text="Aktywacja jest jednorazowa."}<br/> {__ text="Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane."} 
+{elseif $release_points=="release_on"}
+    <br/>
+    {__ text="Próg aktywacji punktów"}: <b>{__ text="osiągnięty"}</b>    
+{/if}
+<br/><br/>
+</div></div>
+
+<div class="roundies box_form">
+<h3>{__ text="Lista operacji"}</h3>
+<div class="content">
+<br/>
+<table class="st_tabular-list roundies order_table" cellspacing="0" style="width: 100%;">
+    <thead>
+        <tr>
+            <th style='text-align:center; width: 120px;'><span>{__ text="Data"}</span></th>
+            <th style='text-align:right; width: 80px;'><span>{__ text="Operacja"}</span></th>
+            <th style='text-align:right; width: 80px;'><span>{__ text="Stan konta"}</span></th>
+            <th style='text-align:center; width: 200px;'><span>{__ text="Zmienił"}</span></th>
+            <th style='text-align:center;'><span>{__ text="Opis"}</span></th>
+        </tr>
+    </thead>
+    <tbody>
+        {foreach key=row item=points from=$results}
+            
+                <tr>
+                    <td>{$points.created_at}</td>
+                    <td style='text-align:right;'>{$points.change_points}</td>
+                    <td style='text-align:right;'>{$points.points}</td>
+                    <td style='text-align:center;'>{$points.change}</td>
+                    <td style='text-align:center;'>{$points.description}</td>
+                </tr>
+            
+        {/foreach}
+    </tbody>
+</table>
+</div></div>

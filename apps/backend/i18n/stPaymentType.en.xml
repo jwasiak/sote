@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Podaj nazwę typu płatności.</source>
+                <target>Enter the payment method name.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Przejdź do konfiguracji</source>
+                <target>Go to the payment configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Płatność skonfigurowana poprawnie</source>
+                <target>Payment is properly configured</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Płatność nie została jeszcze skonfigurowana</source>
+                <target>Payment hasn't been configured</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Płatność nie posiada konfiguracji.</source>
+                <target>Payment doesn't need configuration.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nazwa typu płatności</source>
+                <target>Payment method name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Sposób płatności</source>
+                <target>Payment method</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Opis typu płatności</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Lista typów płatności</source>
+                <target>List of the payment methods</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zarządzanie płatnościami klientów, wprowadzanie wpłat, konfiguracja płatności.</source>
+                <target>Manage the customer payments, payment methods configuration.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dodaj nową formę płatości</source>
+                <target>Add a new payment method</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Płatności klienta</source>
+                <target>Customers payments</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Edycja typu płatności</source>
+                <target>Edit the payment method</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Płatność offline bez potwierdzenia</source>
+                <target>Offline payment without confirmation</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Podstawowe dane</source>
+                <target>Basic data</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Aby płatność była widoczna po stronie sklepu musi być prawidłowo skonfigurowana</source>
+                <target>Payment must be properly configured in order to be visible in the shop</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Konfiguracja płatności</source>
+                <target>Payment configuration</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Karta</source>
+                <target>Credit card</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Za pobraniem</source>
+                <target>Cash on delivery </target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Kompensata</source>
+                <target>Offsetting</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Przelew</source>
+                <target>Payment via bank transfer </target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Gotówka</source>
+                <target>Cash</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Rodzaj płatności</source>
+                <target>Payment type</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Opis na stronie podsumowania zamówienia/płatności</source>
+                <target>Description at the order's/payment's summary page</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Płatności</source>
+                <target>Payments</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Ukryj dla klientów hurtowych</source>
+                <target>Hide for wholesale customers</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Nie można usunąć płatności "%payment%", ponieważ przypisana jest do przynajmniej jednego zamówienia. Zamiast usunąć odznacz opcje "Aktywna"</source>
+                <target>Unable to remove payment "%payment%" because it is assigned to at least one order. Instead of removing uncheck the "Active" option</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

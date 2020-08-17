@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wartość koszyka</source>
+				<target>购物车的总价值</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Koszt dostawy</source>
+				<target>运费</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Razem do zapłaty</source>
+				<target>订单总计</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dostawa</source>
+				<target>送货方式</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszty</source>
+				<target>订单价格</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatności</source>
+				<target>支付</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kraj dostawy</source>
+				<target>运送国家</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy</source>
+				<target>您购物车里的商品不符合运输的标准。请减小购物车里的商品数量或联系卖方找出别的运送方式。</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Bony zakupowe</source>
+				<target>购物券</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zapłacono</source>
+				<target>已付</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data i czas</source>
+				<target>日期和时间</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Czas dostawy</source>
+				<target>送货时间</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Dzień dostawy</source>
+				<target>送货日期</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wybrana dostawa nie posiada zdefiniowanych płatności</source>
+				<target>选定的输送没有被限定的支付方式</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Brak zdefiniowanych dostaw lub stref w sklepie</source>
+				<target>在本店， 没有被限定的运输或地区</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Koszt</source>
+				<target>订单价格</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność punktami</source>
+				<target>付积分</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

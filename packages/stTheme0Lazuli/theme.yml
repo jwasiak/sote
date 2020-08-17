@@ -1,0 +1,10 @@
+theme:
+    package: stTheme0Lazuli
+    name: lazuli
+    fixtures: fixtures-lazuli
+    version: 8
+    default: 0
+    priority: 0
+    type: open
+    install: true
+    copyable: true

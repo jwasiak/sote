@@ -1,0 +1,25 @@
+fields:
+    mail_smtp_profile{name}:
+        required:
+            msg:       Podaj nazwę profilu
+
+        sfStringValidator:
+          max:          255
+          max_error:    Przekroczono dozwoloną liczbę znaków.
+
+    mail_smtp_profile{host}:
+        required:
+            msg:       Podaj adres serwera.
+
+        sfStringValidator:
+          max:          255
+          max_error:    Przekroczono dozwoloną liczbę znaków.
+          
+    mail_smtp_profile{port}:
+        required:
+            msg:       Podaj port serwera.
+
+        sfNumberValidator:
+          type: integer
+          type_error: Port serwera musi być liczbą całkowitą
+          nan_error: Port serwera musi być liczbą całkowitą                

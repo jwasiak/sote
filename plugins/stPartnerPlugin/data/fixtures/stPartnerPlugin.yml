@@ -1,0 +1,19 @@
+Text:
+    Text_2:
+        system_name: stPartnerInfo
+        active: 1
+        culture: pl_PL
+        name: Partner
+        content: > 
+            Zapraszamy do skorzystania z naszego programu partnerskiego.<br /><br />
+            Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci.<br /><br />
+            Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep.<br /><br />Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.
+TextI18n:
+    TextI18n_4:
+        id: Text_2
+        culture: en_US
+        name: Partner
+        content: >
+            We invite you to join our Partner Program.<br /><br />
+            This program was created for individuals and companies that want to promote and advertise our store in the Internet.<br /><br />
+            After applying to join the program by completing the form on the right, your details will be verified by our administrator. In case of positive verification, you will receive a unique Partner Number you will use for referring customers to our store.<br /><br />Transactions made by customers referred by you will be registered in the system and your account will be credited with commissions for completed orders.

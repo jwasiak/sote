@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+				<target>Trusted Shops kvalitetsmerke – her kan du sjekke gyldigheten!</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+				<target>I tillegg tilbyr vi Trusted Shops kjøperbeskyttelse. Vi dekker hele kostnaden av denne garantien, det er nok å registrere for å anvende den.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+				<target>Melding til Trusted Shops kjøperbeskyttelse</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ochrona Kupującego Trusted Shops</source>
+				<target>Trusted Shops kjøperbeskyttelse</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Ochrona Kupującego do</source>
+				<target>Kjøperbeskyttelse opp til</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>z VAT</source>
+				<target>inkl. MVA</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+				<target>Trusted Shops kjøperbeskyttelse beskytter din online shopping. Jeg samtykker til overføring og</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>zapisywanie</source>
+				<target>lagring av</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+				<target>min e-post av Trusted Shops for å gjennomføre kjøperbeskyttelse.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Warunki gwarancji</source>
+				<target>Garantivilkår</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>dla Ochrony Kupującego.</source>
+				<target>for kjøperbeskyttelse.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops. Zobacz więcej...</source>
+				<target>er en nettbutikk med godkjenning og kjøperbeskyttelse sertifisert av Trusted Shops. Les mer...</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Więcej informacji o</source>
+				<target>Mer om</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Zobacz opinie klientów sklepu</source>
+				<target>Se kundeanmeldelser</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Opinie klientów sklepu</source>
+				<target>Kundeanmeldelser</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Ubezpieczenie Trusted Shops</source>
+				<target>Trusted Shops forsikring</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

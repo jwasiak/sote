@@ -1,0 +1,485 @@
+    <div id="order_form">
+	
+<div id="order_form_billing" class="roundies box_form">
+	<h3><b>5</b> {__ text="Dane płatnika"}</h3>
+	
+	<div class="box_form_content">
+        {slot name="user_before_order_fieldset_billing" hidden="true"}{/slot}
+    <fieldset>
+
+	<div class="st_row">
+    	<div class="st_field">
+    	
+    	</div>
+	</div>
+
+    <div class="st_row">
+        <div style="float:left;margin-right: 10px;">{$radio_billing_customer_type1} <i class="gray_text">{$label_billing_customer_type1}</i></div>
+
+        <div style="float:left;">{$radio_billing_customer_type2} <i class="gray_text">{$label_billing_customer_type2}</i></div>
+        <div class="clear"></div>
+    </div>
+        
+    <div id="company_billing_fields">
+	    <div class="st_row row_company">
+	    	<div class="error_tooltip">
+               {if $error_billing_company!=""}
+                    <img src="{image_path image='exclamation.png'}" title="{$error_billing_company}"  alt="{$error_billing_company}">
+               {/if}
+            </div>
+	        <div class="st_field">
+	        	{$label_billing_company}
+	            {$input_billing_company}
+	        </div>
+	    </div>
+	    <div  class="st_row row_nip">
+	    	<div class="error_tooltip">
+               {if $error_billing_vat!=""}
+                    <img src="{image_path image='exclamation.png'}" title="{$error_billing_vat}"  alt="{$error_billing_vat}">
+               {/if}
+            </div>
+	        <div class="st_field">
+	        	{$label_billing_nip}
+	            {$input_billing_nip}
+	        </div>
+	    </div>   
+    </div>
+   
+    <div class="st_row row_full_name">
+    	    <div class="error_tooltip">
+               {if $error_billing_full_name!=""}
+                    <img src="{image_path image='exclamation.png'}" title="{$error_billing_full_name}"  alt="{$error_billing_full_name}">
+               {/if}
+            </div>
+        <div class="st_field">
+        	{$label_billing_full_name}
+            {$input_billing_full_name}
+        </div>
+    </div>
+    
+    <div class="st_row row_address">
+    	<div class="error_tooltip">
+           {if $error_billing_address!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_billing_address}"  alt="{$error_billing_address}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_billing_address}    
+            {$input_billing_address}
+        </div>
+    </div>
+    
+	{if $show_address_more==1}
+    <div class="st_row row_address_more">
+        <div class="st_field">
+        	{$label_billing_address_more}
+            {$input_billing_address_more}
+        </div>
+    </div>
+    {/if}
+    
+    {if $show_region==1}
+    <div class="st_row row_region">
+        <div class="st_field">
+        	{$label_billing_region}
+            {$input_billing_region}
+        </div>
+    </div>
+    {/if}
+
+    <div class="st_row row_code_town">
+    	<div class="error_tooltip">
+           {if $error_billing_code_town!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_billing_code_town}"  alt="{$error_billing_code_town}">
+           {/if}
+        </div>
+        
+        <div class="st_field left">
+        	{$label_billing_code}
+            {$input_billing_code}
+        </div>
+        
+        <div class="st_field left" style="margin-left:4px;">
+        	{$label_billing_town}
+            {$input_billing_town}
+        </div>
+        
+    <div class="clear"></div>
+    </div>
+    
+    <div class="st_row row_country">
+        <div class="st_field">
+        {$select_billing_country}
+        </div> 
+    </div>
+
+	{if $show_pesel==1}
+    <div class="st_row row_pesel">
+        <div class="st_field">
+        	{$label_billing_pesel}
+            {$input_billing_pesel}
+        </div>
+    </div>
+    {/if}
+    
+    <div class="st_row row_phone">
+    	<div class="error_tooltip">
+           {if $error_billing_phone!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_billing_phone}"  alt="{$error_billing_phone}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_billing_phone}
+            {$input_billing_phone}
+        </div>
+    </div>
+  
+	
+	<div class="st_row row_email">
+	       
+           <div class="error_tooltip">
+               {if $error_billing_email!=""}
+                    <img src="{image_path image='exclamation.png'}" title="{$error_billing_email}"  alt="{$error_billing_email}">
+               {/if}
+           </div>
+	    
+	        <div class="st_field left">
+	        	{$label_billing_email}    
+	            {$input_billing_email}
+	        </div>
+	        
+    </div>
+	    
+	    <div class="st_row row_email">
+	    	
+	        <div class="st_field left gray_text vertical-align-middle">
+	    	{$checkbox_create_account}
+	        <span >{__ text="Załóż konto"}</span>
+	    </div>
+	    </div>
+	        
+		<div id="account_fields">
+			      
+		    <div class="st_row row_password1">
+		    	
+		    	 <div class="error_tooltip">
+                   {if $error_billing_password1!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_billing_password1}"  alt="{$error_billing_password1}">
+                   {/if}
+                </div>
+		        <div class="st_field">
+		        	{$label_billing_password1}    
+		            {$input_billing_password1}
+		        </div>
+		    </div>
+		            
+		    <div class="st_row row_password2">
+		    	<div class="error_tooltip">
+                   {if $error_billing_password2!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_billing_password2}"  alt="{$error_billing_password2}">
+                   {/if}
+                </div>
+		        <div class="st_field">
+		        	{$label_billing_password2}    
+		            {$input_billing_password2}
+		        </div>
+		    </div>
+		    
+	    </div>
+	   
+	{if $show_invoice_request==1 && $auto_invoice_request!=1}
+	<div class="st_row">
+        <div class="st_field gray_text vertical-align-middle">
+        	{$checkbox_invoice}
+        	<span >{__ text="Chcę otrzymać fakturę vat"}</span>
+        </div>
+    </div>
+    {/if}
+	
+	<div class="st_row row_email">
+	    	
+        <div class="st_field left gray_text vertical-align-middle">
+        	{$checkbox_different_delivery}
+            <span >{__ text="Inne dane wysyłkowe"}</span>
+        </div>
+    </div>
+    
+    </fieldset>
+    </div>
+    
+    <div id="order_form_delivery">
+    <h3><b>6</b> {__ text="Dane wysyłkowe"}</h3>
+    
+    <div class="box_form_content">		
+    <fieldset>
+    
+    <div class="st_row">
+        <div style="float:left;">{$radio_delivery_customer_type1} <i class="gray_text">{$label_delivery_customer_type1}</i></div>
+
+        <div style="float:left;">{$radio_delivery_customer_type2} <i class="gray_text">{$label_delivery_customer_type2}</i></div>
+        <div class="clear"></div>
+    </div>
+        
+    <div id="company_delivery_fields">
+	    <div class="st_row row_company">
+	    	<div class="error_tooltip">
+               {if $error_delivery_company!=""}
+                    <img src="{image_path image='exclamation.png'}" title="{$error_delivery_company}"  alt="{$error_delivery_company}">
+               {/if}
+            </div>
+	        <div class="st_field">
+	        	{$label_delivery_company}
+	            {$input_delivery_company}
+	        </div>
+	    </div>   
+    </div>
+   
+    <div class="st_row row_full_name">
+	    <div class="error_tooltip">
+           {if $error_delivery_full_name!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_full_name}"  alt="{$error_delivery_full_name}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_delivery_full_name}
+            {$input_delivery_full_name}
+        </div>
+    </div>
+    
+    <div class="st_row row_address">
+    	  <div class="error_tooltip">
+           {if $error_delivery_address!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_address}"  alt="{$error_delivery_address}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_delivery_address}    
+            {$input_delivery_address}
+        </div>
+    </div>
+    
+	{if $show_address_more==1}
+    <div class="st_row row_address_more">
+        <div class="st_field">
+        	{$label_delivery_address_more}
+            {$input_delivery_address_more}
+        </div>
+    </div>
+    {/if}
+    
+    {if $show_region==1}
+    <div class="st_row row_region">
+        <div class="st_field">
+        	{$label_delivery_region}
+            {$input_delivery_region}
+        </div>
+    </div>
+    {/if}
+
+    <div class="st_row row_code_town">
+    	 <div class="error_tooltip">
+           {if $error_delivery_code_town!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_code_town}"  alt="{$error_delivery_code_town}">
+           {/if}
+        </div>
+                
+        <div class="st_field left">
+        	{$label_delivery_code}
+            {$input_delivery_code}
+        </div>
+        
+        <div class="st_field left" style="margin-left:4px;">
+        	{$label_delivery_town}
+            {$input_delivery_town}
+        </div>
+        
+    <div class="clear"></div>
+    </div>
+    
+    <div class="st_row row_country">
+        <div class="st_field">
+        {$select_delivery_country}
+        </div> 
+    </div>
+    
+    <div class="st_row row_phone" style="margin-bottom:15px;">
+    	<div class="error_tooltip">
+           {if $error_delivery_phone!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_delivery_phone}"  alt="{$error_delivery_phone}">
+           {/if}
+        </div>
+        <div class="st_field">
+        	{$label_delivery_phone}
+            {$input_delivery_phone}
+        </div>
+    </div>
+    
+    
+
+
+</fieldset>
+
+</div>         
+</div>
+
+	<div id="footer_form">
+	<fieldset>
+	{$description}
+	{$under_basket_socket}
+		
+	<div class="st_row">
+        <div class="st_field vertical-align-middle {if $error_billing_privacy==1} red {/if}">
+        	{$checkbox_privacy}
+        	{$link_to_privacy}
+        </div>
+    </div>
+    
+    
+
+	{if isset($captcha_on)}		
+	<div id="captcha_form" class="st_row">
+		
+	    
+	    <div style="margin-bottom: 2px;">
+	        {$get_captcha}
+	    </div>
+	    <div class="error_tooltip">
+           {if $error_captcha!=""}
+                <img src="{image_path image='exclamation.png'}" title="{$error_captcha}"  alt="{$error_captcha}">
+           {/if}
+        </div>
+	    <div class="st_field">
+	    	{$label_captcha}
+	        {$input_captcha}
+	    </div>
+	    
+	</div>
+	{/if}		
+    
+    <div class="st_row">
+        <div class="st_field gray_text vertical-align-middle">
+            <span>&nbsp;&nbsp;*&nbsp;{__ text="Pola wymagane"}</span>
+        </div>
+    </div>
+    		
+    </fieldset>
+    </div>
+
+</div>
+
+</div>
+
+{$hidden_is_authenticated}
+
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{
+	    $(".error_tooltip img[title]").tooltip({ 
+            effect: 'slide',
+            opacity: 1,
+            position: 'bottom right',
+            offset: [15,4],
+            tipClass: 'alert_tooltip'
+        });
+	    
+		$("#password1_billing").pstrength();
+		
+		$("label").inFieldLabels();
+		
+		if($('#create_account').attr('checked'))
+		{
+			$("#account_fields").show();
+		}else{
+			$("#account_fields").hide();	
+		}
+ 	 
+		$('#create_account').click(function(){
+		$("#account_fields").toggle();
+		});
+		
+		if($('#different_delivery').attr('checked'))
+		{
+			$("#order_form_delivery").show();
+		}else{
+			$("#order_form_delivery").hide();	
+		}
+
+        var countryId = $('#user_data_delivery_country').val();
+
+        stUser.updateAnonymousForms(countryId);
+ 	 
+		$('#different_delivery').click(function(){
+		$("#order_form_delivery").toggle();
+		});
+		
+		
+		if($('#user_data_billing_customer_type_2').attr('checked'))
+		{
+			$("#company_billing_fields").show();
+			$("#full_name_billing_label").text({/literal}"{$label_billing_full_name_text}"{literal});
+			
+		}else{
+			$("#company_billing_fields").hide();	
+			
+		}
+ 	 
+ 	 	$('#user_data_billing_customer_type_1').click(function(){
+		$("#company_billing_fields").hide();
+		$("#full_name_billing_label").text({/literal}"* {$label_billing_full_name_text}"{literal});
+		});
+ 	 
+		$('#user_data_billing_customer_type_2').click(function(){
+		$("#company_billing_fields").show();
+		$("#full_name_billing_label").text({/literal}"{$label_billing_full_name_text}"{literal}); 
+		});
+		
+		if($('#user_data_delivery_customer_type_2').attr('checked'))
+		{
+			$("#company_delivery_fields").show();
+			$("#full_name_delivery_label").text({/literal}"{$label_delivery_full_name_text}"{literal});
+		}else{
+			$("#company_delivery_fields").hide();	
+		}
+ 	 
+ 	 	$('#user_data_delivery_customer_type_1').click(function(){
+		$("#company_delivery_fields").hide();
+		$("#full_name_delivery_label").text({/literal}"* {$label_delivery_full_name_text}"{literal});
+		});
+ 	 
+		$('#user_data_delivery_customer_type_2').click(function(){
+		$("#company_delivery_fields").show();
+		$("#full_name_delivery_label").text({/literal}"{$label_delivery_full_name_text}"{literal});
+		});
+		
+		$('#user_data_billing_privacy').click(function(){
+			$("#captcha_form").toggle();
+		});	
+		
+		if($('#user_data_billing_privacy').attr('checked'))
+		{
+			$("#captcha_form").show()
+		}else{
+			$("#captcha_form").hide();
+		}
+		 
+	 });
+
+    $('#user_data_billing_country').change(function() {
+      $('#delivery_country').change();
+    });
+       
+    $('#user_data_delivery_country').change(function() {
+        $('#delivery_country').val($(this).val()).change();
+    });
+    
+     $("#order_description_text").change(function () {
+        $("#order_description").val($("#order_description_text").val());
+      });
+});
+
+</script>
+{/literal}

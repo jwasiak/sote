@@ -1,0 +1,30 @@
+{literal}
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {   
+    
+        var cookies = '<div id="cookies_message" style="background: #{/literal}{$cookiesInfoBackground}{literal};"><div id="cookies_frame" style="width: {/literal}{$cookiesInfoWidth}{literal}px;"><div id="cookies_close"><span class="glyphicon glyphicon-remove"></span></div><div id="cookies_content" style="color:#{/literal}{$cookiesInfoColor}{literal};">{/literal}{$cookiesDescription}{literal}</div></div></div>'; 
+        $( "footer" ).after(cookies); 
+         
+        var cookies_message = $('#cookies_message');
+        var height_cookies_message = $('#cookies_message').height();
+        if (!$.cookies.get('cookies_message_hidden')) {
+            cookies_message.show();
+            $("html").css("padding-bottom", height_cookies_message);
+        }
+
+        $('#cookies_close').click(function(){
+            cookies_message.hide();
+            var expires_at = new Date();
+            var years = 20;
+            expires_at.setTime(expires_at.getTime() + 1000 * years * 365 * 24 * 60 * 60);
+            $.cookies.set('cookies_message_hidden', true, {path: '/', expiresAt: expires_at});
+            $("html").css("padding-bottom", "0");
+        });
+    });
+});
+</script>
+{/literal}

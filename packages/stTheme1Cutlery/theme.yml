@@ -1,0 +1,9 @@
+theme:
+    package: stTheme1Cutlery
+    name: cutlery
+    fixtures: fixtures-cutlery
+    version: 7
+    default: 0
+    type: open
+    install: true
+    copyable: true

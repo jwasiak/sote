@@ -1,0 +1,52 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stTaskPlugin.lib.model
+  st_task:
+    _attributes: 
+      phpName: Task
+    id: ~
+    is_active:
+      type: BOOLEAN
+      default: true
+    task_id:
+      type: VARCHAR
+      size: 64
+      unique: true
+    task_priority:
+      type: INTEGER
+      default: 0
+    status:
+      type: INTEGER
+      default: 0
+    time_interval:
+      type: INTEGER
+    execute_at:
+      type: TIME
+      required: false
+    last_executed_at:
+      type: TIMESTAMP
+      required: false
+    last_finished_at:
+      type: TIMESTAMP
+      required: false
+    last_active_at:
+      type: TIMESTAMP
+      required: false
+  st_task_log:
+    _attributes: 
+      phpName: TaskLog
+    id: ~
+    created_at: 
+      type: TIMESTAMP
+    task_id:
+      type: integer
+      required: true
+      foreignTable: st_task
+      foreignReference: id
+      onDelete: cascade
+    type:
+      type: INTEGER
+    message:
+      type: LONGVARCHAR

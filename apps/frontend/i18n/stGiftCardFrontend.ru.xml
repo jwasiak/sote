@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2011-11-04T04:25:59Z">
+		<body>
+			<trans-unit id="1">
+				<source>Bon zakupowy</source>
+				<target>Закупочный бон</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wprowadź kod</source>
+				<target>Введите код</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Aktywuj</source>
+				<target>Активировать</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Bon o podanym kodzie nie istnieje</source>
+				<target>Бон с указанным кодом не существует</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Bon o podanym kodzie jest już aktywny</source>
+				<target>Бон с указанным кодом уже активен</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Bon o podanym kodzie jest nieważny</source>
+				<target>Бон с указанным кодом недействителен</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Bonem o podanym kodzie można płacić wyłącznie w walucie %currency%</source>
+				<target>Боном с указанным кодом можно платить исключительно в валюте %currency%</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Usuń bon</source>
+				<target>Удалить бон</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Musisz złożyć zamówienie za minimum %%amount%%</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

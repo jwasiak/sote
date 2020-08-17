@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_okazje:         {name: Okazje, class: stOkazje, method: getProduct}
+        
+import:
+    fields:
+        product_okazje:         {class: stOkazje, method: setProduct}

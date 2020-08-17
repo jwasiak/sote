@@ -1,0 +1,151 @@
+    <div class="row">
+        <div class="col-sm-6 col-lg-6">
+        <div class="radio">
+            <label>
+                {$radio_customer_type1}
+                {$label_customer_type1}
+            </label>
+        </div>
+        </div>
+        <div class="col-sm-6 col-lg-6">
+        <div class="radio">
+            <label>
+                {$radio_customer_type2}
+                {$label_customer_type2}
+            </label>
+        </div>
+        </div>
+        </div>
+        
+        <div id="company_fields">
+            <div class="form-group  {if $error_company!=''}has-error{/if}">
+                {if $error_company!=""}<label class="control-label" for="company">{$error_company}</label>{/if}
+                {$input_company}
+            </div>
+            
+            <div class="form-group  {if $error_nip!=''}has-error{/if}">
+                {if $error_nip!=""}<label class="control-label" for="nip">{$error_nip}</label>{/if}
+                {$input_nip}
+            </div>
+        </div>
+        
+        <div class="form-group  {if $error_full_name!=''}has-error{/if}">
+            {if $error_full_name!=""}<label class="control-label" for="full_name">{$error_full_name}</label>{/if}
+            {$input_full_name}
+        </div>
+        
+        <div class="form-group  {if $error_address!=''}has-error{/if}">
+            {if $error_address!=""}<label class="control-label" for="address">{$error_address}</label>{/if}
+            {$input_address}
+        </div>
+        
+        {if $show_address_more==1}
+        <div class="form-group">
+            {$input_address_more}
+        </div>
+        {/if}
+        
+        {if $show_region==1}
+        <div class="form-group">
+            {$input_region}
+        </div>
+        {/if}
+        
+        <div class="row">
+            
+            <div class="col-sm-6 col-lg-4">
+            
+            <div class="form-group  {if $error_code!=''}has-error{/if}">
+                {if $error_code!=""}<label class="control-label" for="code">{$error_code}</label>{/if}
+                {$input_code}
+            </div>
+            </div>
+                    
+            <div class="col-sm-6 col-lg-8">
+            <div class="form-group  {if $error_town!=''}has-error{/if}">
+                {if $error_town!=""}<label class="control-label" for="town">{$error_town}</label>{/if}
+                {$input_town}
+            </div>
+            </div>    
+        </div>
+        
+        <div class="form-group">                    
+            {$select_country}
+        </div>
+        
+        {if $show_pesel==1}
+        <div class="form-group">
+            {$input_pesel}
+        </div>
+        {/if}
+        
+        <div class="form-group  {if $error_phone!=''}has-error{/if}">
+            {if $error_phone!=""}<label class="control-label" for="phone">{$error_phone}</label>{/if}
+            {$input_phone}
+        </div>
+            
+        {if $is_default!=1}
+        <div class="form-group">
+            <div class="checkbox">
+                <label>
+                  {$checkbox_set_as_default} {__ text="Ustaw jako domyślne"}
+                </label>
+            </div>
+        </div>    
+                    
+            <a class="btn btn-default pull-left" href="{$delete_url}">{__ text="Usuń"}</a>
+            
+        {else}
+        <div class="form-group">
+            <div class="checkbox">
+                <label>
+                   <input type="checkbox" value="1" disabled="disabled" checked="true">
+                   <input type="hidden" value="1" id="st_form-user-default" name="user_data[isDefault]">
+                   {__ text="Ustaw jako domyślne"}
+                </label>
+            </div>
+        </div>    
+        {/if}
+      
+        <button type="submit" class="btn btn-primary pull-right" >
+            {__ text="Zapisz"}
+        </button>
+             
+        {$hidden_show_edit_profile_form}
+        {$hidden_uderdata_type}
+        {$hidden_user_data_id}
+        {$hidden_user_data_is_billing}
+        {$hidden_userdata_id}
+        
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {   
+        var star_placeholder = $("#full_name").attr("placeholder");        
+        var no_star_placeholder = star_placeholder.substring(2);
+                
+        if($('#user_data_customer_type_2').attr('checked'))
+        {
+            $("#company_fields").show();
+            $("#full_name").attr("placeholder",no_star_placeholder);
+        }else{
+            $("#company_fields").hide();
+            $("#full_name").attr("placeholder",star_placeholder);
+        }
+     
+        $('#user_data_customer_type_1').click(function(){
+            $("#company_fields").hide();
+            $("#full_name").attr("placeholder",star_placeholder);        
+        });
+     
+        $('#user_data_customer_type_2').click(function(){
+            $("#company_fields").show();
+            $("#full_name").attr("placeholder",no_star_placeholder);        
+        });
+        
+    });
+});
+</script>
+{/literal}

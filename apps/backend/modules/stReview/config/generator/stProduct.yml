@@ -1,0 +1,76 @@
+review_model_class: Review
+
+applications:                   [stReview]
+
+custom_actions: 
+    list:                       [review]
+    edit:                       [review]
+
+edit:
+    menu:
+        display:                [review]
+        fields:
+            review:             {name: Recenzje, action: stProduct/reviewList?product_id=%%id%%}
+    
+review_list:
+    forward_parameters:         [product_id]
+    build_options:
+        related_id:             forward_parameters.product_id    
+    display:                    [_created_at, _score_star, is_pin_review, _desc_list, _language_list, _add_actions]
+    menu:                       {use: edit.menu}
+    description:                Zarządzanie produktami w sklepie.
+    title:                      Lista recenzji produktu %%_product_review%%
+    fields:
+        id:                     {name: ID}
+        created_at:             {name: Utworzona, module: stReview}
+        product:                {name: Produkt, type: input_tag, params: disabled=false}
+        sf_guard_user_id_list:  {name: Klient, params: size=35 , module: stReview}
+        description:            {name: Recenzja, params: truncate_text=70}
+        desc_list:              {name: Recenzja, params: size=35, module: stReview}
+        score_star:             {name: Ocena, module: stReview}
+        language_list:          {name: Język, module: stReview, i18n: stReview}
+        add_actions:            {name: Publikacja, module: stReview}
+        agreement:              {name: Publikacja}
+        active:                 {name: Aktywna}
+        status:                 {name: Wyświetlana, module: stReview}
+        product_review:         {module: stReview}
+        is_pin_review:           {name: Wyróżniona}
+        
+    actions:
+        _create:                {name: Dodaj recenzję, i18n: stReview}
+    object_actions:
+        _edit:                  -
+        _delete:                -
+    filters:
+        sf_guard_user_id_list:   {filter_field: product.name}
+        status:                  {filter_field: product.name}
+   
+review_edit:
+    forward_parameters:         [product_id]
+    build_options:
+        related_id:             forward_parameters.product_id
+    display:                    [_created_at, _language, agreement,  is_pin_review, user_review_verified, _score, description, ~admin_name, _user_picture, user_facebook, user_instagram, user_youtube, user_twitter]
+    menu:                       {use: edit.menu}        
+    description:                Zarządzanie produktami w sklepie.
+    title:                      Dodaj recenzję produktu %%_product_review%%
+    fields:
+        created_at:             {name: Utworzona, hide_on_create: true, module: stReview}
+        language:               {name: Język wpisu, i18n: stReview}
+        admin_name:             {name: Podpis, type: input_tag, params: size=75, module: stReview}
+        description:            {name: Recenzja, type: textarea_tag, params: size=75x10 rich=false tinymce_options='height:300,width:400,theme:'simple''}
+        agreement:              {name: Publikacja}
+        active:                 {name: Aktywna}
+        score:                  {name: Ocena, module: stReview}
+        product_review:         {module: stReview}
+        user_picture:           {name: Zdjęcie, type: input_tag, params: size=75}
+        user_facebook:          {name: Facebook, type: input_tag, params: size=75}
+        user_instagram:         {name: Instagram, type: input_tag, params: size=75}
+        user_youtube:           {name: Youtube, type: input_tag, params: size=75}
+        user_twitter:           {name: Twitter, type: input_tag, params: size=75}
+        user_review_verified:   {name: Zweryfikowane }
+        is_pin_review:          {name: Wyróżnij , help: "Recenzja zostanie przypięta do góry."}
+    actions:
+        _list:                  {name: Lista}
+        _save:                  {name: Zapisz}
+        _save_and_add:          {name: Zapisz i dodaj}
+        _delete:                {name: Usuń}

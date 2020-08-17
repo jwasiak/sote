@@ -1,0 +1,16 @@
+package:
+  name: stCashBillPlugin
+  stability: stable
+  version: 7.1.0.3
+  summary: CashBill
+  description: 'Konfiguracja platnosci CashBill'
+  notes: |
+     - Poprawka przekierowania
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.5.3
+    stConfigurationPlugin: 1.0.3.7

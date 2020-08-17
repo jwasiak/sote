@@ -1,0 +1,1 @@
+<?php echo __(OrderStatusPeer::getNameFromType($order_status->getOrderStatusType())) ?>

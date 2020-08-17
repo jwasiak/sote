@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zadanie</source>
+                <target>Task</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Ostatnio wykonane</source>
+                <target>Last executed at</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zaplanowane wykonanie</source>
+                <target>Scheduled Execution</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Uruchom ręcznie</source>
+                <target>Run manually</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Oczekuje</source>
+                <target>Pending</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>W trakcie wykonywania</source>
+                <target>In progress</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Harmonogram zadań</source>
+                <target>Task scheluder</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Aktywne:</source>
+                <target>Active:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Wykonuj zadanie</source>
+                <target>Run task</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Lista zadań</source>
+                <target>Task list</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>co 15 minut</source>
+                <target>every 15 minutes</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>co 30 minut</source>
+                <target>every 30 minutes</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>co 1 godzinę</source>
+                <target>every hour</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>co 2 godziny</source>
+                <target>every 2 hours</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>co 4 godziny</source>
+                <target>every 4 hours</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>co 6 godzin</source>
+                <target>every 6 hours</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>co 12 godzin</source>
+                <target>every 12 hours</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>raz dziennie</source>
+                <target>once a day</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>co tydzień</source>
+                <target>every week</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Systemowe</source>
+                <target>System</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Zadania systemowe nie mogą być zmieniane</source>
+                <target>System tasks cannot be changed</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Utworzony</source>
+                <target>Created at</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Rodzaj</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Informacja</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Ostrzeżenie</source>
+                <target>Warning</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Błąd</source>
+                <target>Error</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Zadanie nie wymagało wykonania</source>
+                <target>The task did not require running</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Rozpoczęcie wykonywania</source>
+                <target>Task started</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Zakończenie wykonywania</source>
+                <target>Task ended</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Wykonano %progress%%</source>
+                <target>Progress %progress%%</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Zadania zostały wykonane pomyślnie</source>
+                <target>Tasks completed successfully</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>%message% w linii %line% w pliku %file%:%trace%</source>
+                <target>%message% on line %line% in file %file%:%trace%</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Logi</source>
+                <target>Logs</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Edycja "%%name%%"</source>
+                <target>Edit the "%%name%%"</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Konfiguracja dla zadania cron:</source>
+                <target>Cron configuration:</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Aktywne</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>co 10 minut</source>
+                <target>every 10 minutes</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Zadanie cron nie zostało poprawnie skonfigurowane. Zadanie cron musi być uruchamiane co 5 minut</source>
+                <target>The cron task has not been configured correctly. The cron task must be run every 5 minutes</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Ostatnie uruchomienie zadania cron: %date%</source>
+                <target>Last run of cron task: %date%</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Status konfiguracji:</source>
+                <target>Configuration status:</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Do poprawnego działania moduł wymaga wersji PHP 7.1.x (aktualnie ustawiona wersja PHP: %version%)</source>
+                <target>The module requires PHP 7.1.x to work properly (currently set PHP version: %version%)</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Pomyślne przywrócenie utraconego połączenia MySQL</source>
+                <target>Successfully restoring a lost MySQL connection</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Wystąpił błąd podczas próby wznawiania utraconego połączenia MySQL</source>
+                <target>An error occurred while trying to recover a lost MySQL connection</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

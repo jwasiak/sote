@@ -1,0 +1,8 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2010/07/01 9:00:00
+      fields: 
+        param_profile: ""
+        shop_name: ""

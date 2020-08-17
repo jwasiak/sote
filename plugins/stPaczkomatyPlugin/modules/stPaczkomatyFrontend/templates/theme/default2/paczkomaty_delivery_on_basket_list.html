@@ -1,0 +1,14 @@
+{use_stylesheet src="stPaczkomatyPlugin.css"}
+
+<div data-delivery-id="{$id}" class="inpost-easypack"{if $point} data-inpost-point="{$point.name}" data-inpost-cod="{$point.cod}"{/if}>
+    <a href="#" class="inpost-easypack-trigger">{__ text="Wybierz Paczkomat"}</a>
+    {if $point}
+        <div class="inpost-easypack-address">
+            <b>{$point.name}</b><br>
+            {$point.address.street} {$point.address.building_number}{if $point.address.flat_number} / {$point.address.flat_number}{/if}<br>
+            {$point.address.post_code} {$point.address.city}
+        </div>
+    {else}
+        <div class="inpost-easypack-address" style="display: none;"></div>
+    {/if}
+</div>

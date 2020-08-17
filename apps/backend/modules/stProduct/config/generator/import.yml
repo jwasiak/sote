@@ -1,0 +1,49 @@
+import:
+    default:        stImporterCsv
+    title:          Import z pliku   
+    description:    Zarządzanie produktami w sklepie.        
+    menu:           {use: list.menu}
+    default_class: stProductImportExport
+    fields:             
+        code:               {name: Kod, sample: 123, require: true, type: custom}
+        name:               {name: Nazwa, sample: Produkt testowy, require: true, type: custom}
+        currency_iso:       {name: Waluta, type: custom, sample: PLN, require: true}
+        currency_exchange:  {name: Kurs, type: custom, sample: 1.2}
+        vat_value:          {name: Vat, sample: 0, require: true, type: double}
+        price_netto:        {name: Cena netto, sample: 123.45, type: custom}
+        price_brutto:       {name: Cena brutto, sample: 123.45, type: custom}
+        old_price_netto:    {name: Stara cena netto, sample: 125.00, type: custom}
+        old_price_brutto:   {name: Stara cena brutto, sample: 125.00, type: custom}
+        active:             {name: Aktywny, sample: 1, type: integer}
+        description:        {name: Opis, sample: Długi opis produktu}
+        short_description:  {name: Opis skrócony, sample: Krótki opis produktu}
+        search_keywords:    {name: Opis do wyszukiwania, type: string, i18n_file: stProduct}
+        product_images:     {name: Zdjęcia, sample: image-1.jpg, class: stProductImportExport, md5hash: true }
+        weight:             {name: Waga, sample: 2.5, type: double}
+        hide_price:         {name: Ukryj cenę, sample: 1, type: integer, class: stProductImportExport}
+        uom:                {name: Jednostka miary, sample: szt., type: string, require: true}
+        min_qty:            {name: Minimalna ilość, sample: 0.01, type: custom}
+        max_qty:            {name: Maksymalna ilość, sample: 0.00, type: double}
+        step_qty:           {name: Wielokrotność ilości, sample: 0.00, type: double}
+        is_stock_validated: {name: Sprawdzaj stan magazynowy, sample: 1, type: integer}
+        stock_in_decimals:  {name: Zezwalaj na części dziesiętne w ilości, sample: 1, type: integer}
+        stock_managment:    {name: Zarządzaj magazynem z opcjami produktu, type: integer, class: stProductImportExport }
+        max_discount:       {name: Maksymalny rabat, sample: 100, type: double}
+        execution_time:     {name: Czas realizacji, sample: 1 dzień}
+        man_code:           {name: Kod producenta, sample: 5900820005184}
+        points_value:       {name: Cena w punktach, sample: 1, type: integer}
+        points_earn:        {name: Zarobione punkty, sample: 1, type: integer}
+        points_only:        {name: Produkt tylko za punkty, sample: 0, type: integer}
+        priority:           {name: Priorytet, sample: 0, type: integer}
+        bpum_default_id:    {name: Jednostka, sample: 0, type: integer}
+        bpum_default_value: {name: Ilość, sample: 2.5, type: double}
+        bpum_id:            {name: Jednostka, sample: 0, type: integer}
+        bpum_value:         {name: Prezentuje cenę dla, sample: 2.5, type: double}
+        product_recommend:  {name: Polecane produkty, class: stRecommendedProductsImportExport, md5hash: true }
+        width:              {name: Szerokość, type: double }
+        height:             {name: Wysokość, type: double }
+        depth:              {name: Głębokość, type: double }
+        delivery_price:     {name: Koszt dostawy, type: double } 
+        deliveries:         {name: Dostawy, class: stProductImportExport, type: custom, md5hash: true } 
+        attributes_label:   {name: Atrybuty - tytuł, type: string, i18n_file: stProduct}
+    primary_key:            code

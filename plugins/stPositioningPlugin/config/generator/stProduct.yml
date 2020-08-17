@@ -1,0 +1,29 @@
+positioning_model_class:        ProductHasPositioning
+
+custom_actions:
+    edit:                       [positioning]
+
+positioning_create:
+    title:                      Dodaj meta tagi do produktu
+
+positioning_edit:
+    title:                      Dodaj meta tagi do produktu
+    forward_parameters:         [product_id]
+    menu:                       {use: edit.menu}
+    build_options:
+        related_id:             forward_parameters.product_id
+    display:                    [_product_url, ~product_type, title, description, keywords]
+    fields:
+        product_url:            {name: Przyjazny link}
+        product_type:           {name: Opcje wyświetlania, module: stPositioningBackend}
+        title:                  {name: Tytuł strony, help: "Tytuł należy zmieścić w około 65-75 znakach wraz ze spacjami.", params: size=50 disabled=false, i18n: stPositioningBackend}
+        keywords:               {name: Słowa kluczowe, help: "Słowa kluczowe powinny być oddzielone przecinkiem. Przykład: słowo, słowo, słowo", type: textarea_tag, params: size=60x4, i18n: stPositioningBackend}
+        description:            {name: Opis strony, help: "Opis strony powinien mieć mniej niż 160 znaków ze spacjami.", type: textarea_tag, params: size=60x5, i18n: stPositioningBackend}
+    actions:
+        _save:                  {name: Zapisz}
+
+edit:
+    menu:
+        display:                [positioning]
+        fields:
+            positioning:        {name: Pozycjonowanie, action: stProduct/positioningEdit?product_id=%%id%%}

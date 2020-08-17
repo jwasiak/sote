@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Logowanie</source>
+				<target>登录</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przypomnij hasło</source>
+				<target>提醒密码</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zarejestruj się</source>
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>E-mail (login)</source>
+				<target>电子邮件（用户名）</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>密码</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>登录</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Moje konto</source>
+				<target>我的帐户</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>wyloguj</source>
+				<target>登出</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Twoje konto w sklepie zostało założone.</source>
+				<target>您的帐户已建立。</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Witamy w naszym sklepie, dziękujemy za rejestracje.</source>
+				<target>欢迎光临我们商店！谢谢注册。</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Twój login</source>
+				<target>您的用户名</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Twoje hasło</source>
+				<target>您的密码</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Data założenia konta</source>
+				<target>开帐户日期</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Twoje hasło do konto zostało zmienione</source>
+				<target>您的帐户密码已更改</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>W sklepie zarejestrował się nowy klient.</source>
+				<target>商店有新客户注册。</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>ID klienta</source>
+				<target>客户ID</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Login klienta</source>
+				<target>客户用户名</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego hasło.</source>
+				<target>请输入您的电子邮件地址，邮件地址也是您的用户名，您的密码将发送到您的邮箱。</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>E-mail z nowym hasłem został wysłany na adres: %mail%</source>
+				<target>新密码的邮件已发到：%mail%</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Polityka prywatności</source>
+				<target>隐私政策</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Twoje konto w sklepie zostało założone</source>
+				<target>您的帐户已建立。</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Twoje hasło do konto zostało zmienione.</source>
+				<target>您的帐户密码已更改。</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta.</source>
+				<target>请登录以便存取订单和帐户的详细信息。</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Rejestracja</source>
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Nie masz jeszcze założonego konta.</source>
+				<target>您还没有帐户</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Potwierdź hasło</source>
+				<target>确认密码</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Akceptuję politykę prywatności</source>
+				<target>我接受隐私政策</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nie masz jeszcze założonego konta. Wystarczy, że podasz hasło dla loginu</source>
+				<target>您还没有帐户。只需输入登录密码</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uzyskasz w ten sposób pełne konto z dostępem do swoich danych i informacji o statusach zamówienia.</source>
+				<target>您还没有帐户。开帐户只需输入您的电子邮件地址为用户名，就可以存取自己的个人信息和订单状态的信息。</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Dane logowania</source>
+				<target>登录信息</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Zmień e-mail (login)</source>
+				<target>修改电子邮件地址（用户名）</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Zmień hasło</source>
+				<target>更改密码</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Stare hasło</source>
+				<target>旧密码</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nowe hasło</source>
+				<target>新密码</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zmiana hasła dla konta</source>
+				<target>更改帐户密码</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>允许的字符数量被超出了。</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Podane hasło jest za krótkie min. 6 znaków.</source>
+				<target>您输入的密码太短， 最少6个字符。</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+				<target>允许的字符数已被超过，最多20个字符。</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Zarejestruj</source>
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Nie podałeś adresu e-mail</source>
+				<target>您没有填写电子邮件地址</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Nie podałeś hasła.</source>
+				<target>您没填写密码</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zły login lub hasło.</source>
+				<target>用户名或密码不正确</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Wprowadzono zły numer.</source>
+				<target>您输入的验证码不正确。</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Aktualizuj</source>
+				<target>更新</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Przypomnij</source>
+				<target>提醒</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Cyfry z obrazka</source>
+				<target>图片上的数字</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Musisz wyrazić zgodę na politykę prywatności.</source>
+				<target>您必须同意隐私政策。</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Stare hasło jest błędne.</source>
+				<target>旧密码不正确。</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Hasła nie są takie same.</source>
+				<target>密码不一致。</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Twoje hasło do konta zostało zmienione.</source>
+				<target>您的帐户密码已更改。</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Nieprawidłowy format adresu e-mail.</source>
+				<target>电子邮件格式不正确。</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta.</source>
+				<target>由于网店系统的变化，请输入电子邮件地址，该地址将成为您的用户名。</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Rejestracja danych.</source>
+				<target>信息注册</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Uzupełnij dane konta.</source>
+				<target>请补填帐户信息。</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Oczekiwanie na potwierdzenie.</source>
+				<target>等待确认</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Proszę sprawdzić pocztę na podany w czasie rejestracji adres został wysłany mail z prośbą o potwierdzenie konta.</source>
+				<target>请查看电子邮箱，帐户确认的邮件已发送到您的电子邮箱。</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Brak adresu e-mail</source>
+				<target>该用户名不存在</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Brak hasła.</source>
+				<target>未填写密码</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Minimalnie 6 znaków</source>
+				<target>最少6个字符</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>(Dla stałych klientów)</source>
+				<target>（对会员）</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego link do zmiany hasła.</source>
+				<target>请输入您用户名的电子邮件地址。我们将发送修改密码的链接到本地址。</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Prośba o potwierdzenie rejestracji konta.</source>
+				<target>确认帐户请求</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Twoje konto nie zostało jeszcze potwierdzone. Proszę sprawdzić pocztę, na adres:</source>
+				<target>您的帐户还未确认，请查看电子邮件 %e-mail% 并确认：</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>została wysłana prośba o potwierdzenie konta.</source>
+				<target>确认帐户请求已被发送。</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Wróć do zakupów</source>
+				<target>继续购物</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Dziękujemy za dokonanie rejestracji. Proszę sprawdzić pocztę, na adres:</source>
+				<target>谢谢您的注册。请到%e-mail%查看您的电子邮件。:</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Przejdź do koszyka</source>
+				<target>去购物车</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>bardzo słabe</source>
+				<target>很弱</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>słabe</source>
+				<target>弱</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>normalne</source>
+				<target>一般</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>mocne</source>
+				<target>强</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>bardzo mocne</source>
+				<target>很强</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Potwierdzenie rejestracji</source>
+				<target>注册确认</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>Dane dostępowe do konta</source>
+				<target>登录帐号信息</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Potwierdź rejestracje</source>
+				<target>确认注册</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Zmiana hasła.</source>
+				<target>更改密码</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Proszę sprawdzić pocztę.</source>
+				<target>请查看电子邮件。</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Na podany w czasie rejestracji adres, został wysłany mail z nowymi danymi do konta sklepu.</source>
+				<target>商店帐户的新信息已发到在注册过程中填写的地址。</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Przejdź do strony logowania</source>
+				<target>去登录页</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Twoje hasło zostało zmienione.</source>
+				<target>您的密码已更改。</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Aktualne dane dostępowe do konta</source>
+				<target>当前的帐户信息</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>Data modyfikacji konta</source>
+				<target>帐户更改日期</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Przejdź na stronę sklepu.</source>
+				<target>去商店页面</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>E-mail z linkiem do utworzenia nowego hasła został wysłany na adres:</source>
+				<target>更改密码的链接已发到下面的地址：:</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Skorzystaj z linku poniżej aby dokonać zmiany hasła.</source>
+				<target>请用下面的链接以便更改密码。</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Link do zmiany hasła dla konta:</source>
+				<target>更改密码的链接:</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Data wysłania linka</source>
+				<target>发链接的日期</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Podaj nowe hasło dla konta</source>
+				<target>请输入新的帐户密码</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>Zmiana hasła</source>
+				<target>更改密码</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>usuń</source>
+				<target>删除</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>Pomyślnie wylogowano użytkownika</source>
+				<target>用户登出成功</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+				<target>稍后将自动返回首页。</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>Potwierdzenie autentyczności adresu.</source>
+				<target>地址验证</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>Twoje konto zostało już wcześniej potwierdzone.</source>
+				<target>您的帐户已被确认。</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>Wylogowano</source>
+				<target>已退出</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Twoje konto wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić dane.</source>
+				<target>您的帐号需要确认。 请用下边的链接以便确认信息。</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Prośba o potwierdzenie konta.</source>
+				<target>确认帐户请求</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Rejestracja nowego klienta</source>
+				<target>新客户注册</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Informacje o koncie klienta</source>
+				<target>客户的帐户信息</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Przejdź do edycji konta</source>
+				<target>去帐户编辑</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Akceptuję</source>
+				<target>接受</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>politykę prywatności</source>
+				<target>隐私政策</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>lub</source>
+				<target>或者</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Zaloguj używając</source>
+				<target>%——% 用%——%登录</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Potwierdź rejestrację</source>
+				<target>请确认您的注册</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Dane płatnika</source>
+				<target>支付人信息</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Dane wysyłkowe</source>
+				<target>送货信息</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Dane do faktury</source>
+				<target>发票信息</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Moje dane</source>
+				<target>我的信息</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Zmień</source>
+				<target>修改</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>Zarejestruj nowe konto lub zaloguj na istniejące.</source>
+				<target>登录或注册新帐户</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Podaj dane konta.</source>
+				<target>请填写帐户信息</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Dane konta</source>
+				<target>帐户信息</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Uzupełnij zaznaczone pola.</source>
+				<target>请填写选定的项目</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Za chwilę nastąpi przekierowanie na stronę główną.</source>
+				<target>稍后将自动返回首页</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Podaj adres email (login użytkownika)</source>
+				<target>请输入电子邮件地址 （用户名）</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Sprawdź pocztę na poniższy adres został wysłany link do zmiany hasła.</source>
+				<target>请查看电子邮件，修改密码的链接已被发送到下面的地址</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Podaj nowe hasło.</source>
+				<target>请输入新密码</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>Login</source>
+				<target>用户名</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulamin</source>
+				<target>法规</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>i przeczytałem</source>
+				<target>已阅读</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>Brak adresu email.</source>
+				<target>没有邮箱地址</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Taki użytkownik już istnieje.</source>
+				<target>该用户已经存在。</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>zaloguj się</source>
+				<target>登录</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Zamówienia</source>
+				<target>订单</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Wyloguj</source>
+				<target>退出</target>
+			</trans-unit>
+			<trans-unit id="127">
+				<source>Usuń</source>
+				<target>消除</target>
+			</trans-unit>
+			<trans-unit id="128">
+				<source>Pola wymagane</source>
+				<target>必填项</target>
+			</trans-unit>
+			<trans-unit id="129">
+				<source>zmień</source>
+				<target>变化</target>
+			</trans-unit>
+			<trans-unit id="130">
+				<source>Nie masz odpowiednich uprawnień</source>
+				<target>您没有适当的权限</target>
+			</trans-unit>
+			<trans-unit id="131">
+				<source>Sprawdź pocztę i kliknij w link potwierdzający adres e-mail, aby aktywować konto w sklepie.</source>
+				<target>请检查您的电子邮件并点击确认链接的电子邮件来激活您在商店的帐号。</target>
+			</trans-unit>
+			<trans-unit id="132">
+				<source>Na konto pocztowe</source>
+				<target>邮件帐户</target>
+			</trans-unit>
+			<trans-unit id="133">
+				<source>została wysłana wiadomość z prośbą o potwierdzenie konta.</source>
+				<target>已经发送消息，要求确认您的帐户。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

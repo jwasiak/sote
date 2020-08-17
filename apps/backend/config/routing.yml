@@ -1,0 +1,37 @@
+###
+# Backend default rules
+###
+check_service:
+  url: /check_service
+  param: { module: stBackend, action: checkService }
+  
+homepage:
+    url:    /
+    param:  {module: stDashboard, action: index}
+
+Open:
+    url:    /backend/Open
+    param: {module: stBackendMain, action: Open}
+    
+default_symfony:
+    url:    /symfony/:action/*
+    param:  {module: default}
+
+default_index:
+    url:    /:module
+    param:  {action: index}
+
+stDashboard:
+    url:    /dashboard/:action
+    param: {module: stDashboard, action: index} 
+    
+stDashboardGadget:
+    url:    /dashboard_gadget/:action
+    param: {module: stDashboardGadget, action: index}   
+
+stSoteshopNewsGadget:
+    url:    /soteshop_news_gadget/:action
+    param: {module: stSoteshopNewsGadget, action: index}   
+
+default:
+    url:    /:module/:action/*   

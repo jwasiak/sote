@@ -1,0 +1,180 @@
+ProductI18n:  
+  ProductI18n_sk_1:
+    id: Product_1
+    culture: sk
+    name: Pohár
+    url: pohar
+  ProductI18n_sk_2:
+    id: Product_2
+    culture: sk
+    name: Stopky
+    url: stopky
+  ProductI18n_sk_3:
+    id: Product_3
+    culture: sk
+    name: Slúchadlá
+    url: sluchadla
+  ProductI18n_sk_4:
+    id: Product_4
+    culture: sk
+    name: Reentrantní reproduktory
+    url: reentrantni-reproduktory
+  ProductI18n_sk_5:
+    id: Product_5
+    culture: sk
+    name: Slúchadlá 200
+    url: sluchadla-200
+  ProductI18n_sk_6:
+    id: Product_6
+    culture: sk
+    name: Laptop
+    url: laptop
+  ProductI18n_sk_7:
+    id: Product_7
+    culture: sk
+    name: Zlatý prsteň s diamantom
+    url: zlaty-prsten-s-dimantom
+  ProductI18n_sk_8:
+    id: Product_8
+    culture: sk
+    name: Strieborný prsteň
+    url: strieborný-prsteň
+  ProductI18n_sk_9:
+    id: Product_9
+    culture: sk
+    name: Reproduktor
+    url: reproduktor
+  ProductI18n_sk_10:
+    id: Product_10
+    culture: sk
+    name: Počítač
+    url: pocitac
+  ProductI18n_sk_11:
+    id: Product_11
+    culture: sk
+    name: Fotoaparát GoodPix 130ES
+    url: fotoaparat-goodpix-130es
+  ProductI18n_sk_12:
+    id: Product_12
+    culture: sk
+    name: Pamäťová karta 8GB
+    url: pamatova-karta-8gb
+    
+CategoryI18n:
+  CategoryI18n_sk_1:
+    id: Category_1
+    culture: sk
+    name: Kategórie
+    url: kategorie
+  CategoryI18n_sk_2:
+    id: Category_2
+    culture: sk
+    name:  Zvuk
+    url: zvuk
+  CategoryI18n_sk_3:
+    id: Category_3
+    culture: sk
+    name: Reproduktory
+    url: zvuk-reproduktory
+  CategoryI18n_sk_4:
+    id: Category_4
+    culture: sk
+    name: Slúchadlá
+    url: zvuk-sluchadla
+  CategoryI18n_sk_5:
+    id: Category_5
+    culture: sk
+    name: Počítače
+    url: pocitace
+  CategoryI18n_sk_6:
+    id: Category_6
+    culture: sk
+    name:  Fotografovanie
+    url: fotografovanie
+  CategoryI18n_sk_8:
+    id: Category_8
+    culture: sk
+    name: Šperky
+    url: sperky
+  CategoryI18n_sk_9:
+    id: Category_9
+    culture: sk
+    name: Darčeky
+    url: darceky
+    
+BoxI18n:
+  BoxI18n_sk_1:
+    id: Box_1
+    culture: sk
+    name: Dodanie
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Dodanie"/>
+  BoxI18n_sk_2:
+    id: Box_2
+    culture: sk
+    name: Platby
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Platby" />
+    
+ProductGroupI18n:
+  ProductGroupI18n_sk_1:
+    id: ProductGroup_1
+    culture: sk
+    name: Akcia
+    url: akcia
+  ProductGroupI18n_sk_2:
+    id: ProductGroup_2
+    culture: sk
+    name: Predaj
+    url: predaj
+  ProductGroupI18n_sk_3:
+    id: ProductGroup_3
+    culture: sk
+    name: Odporúčané
+    url: odporucane
+  ProductGroupI18n_sk_4:
+    id: ProductGroup_4
+    culture: sk
+    name: Domov
+    url: domov
+  ProductGroupI18n_sk_5:
+    id: ProductGroup_5
+    culture: sk
+    name: Odporúčaná v nákupnom košíku
+    url: odporucana-v-nakupnom-kosiku
+  ProductGroupI18n_sk_6:
+    id: ProductGroup_6
+    culture: sk
+    name: Nové produkty
+    url: nove-produkty
+
+WebpageI18n:
+  WebpageI18n_sk_1:
+    id: Webpage_1
+    culture: sk
+    name: Obchodné podmienky
+    content: Príklad textu.
+    url: obchodne-podmienky
+  WebpageI18n_sk_2:
+    id: Webpage_2
+    culture: sk
+    name: O nás
+    content: Príklad textu.
+    url: o-nas
+  WebpageI18n_sk_3:
+    id: Webpage_3
+    culture: sk
+    name: Kontakt
+    content: Príklad textu.
+    url: kontakt
+  WebpageI18n_sk_4:
+    id: Webpage_4
+    culture: sk
+    name: Ochrana osobných údajov
+    content: Príklad textu.
+    url: ochrana-osobnych-udajov
+
+TextI18n:
+  TextI18n_sk_1:
+    id: Text_1
+    culture: sk
+    name: Domov
+    content: Vitajte

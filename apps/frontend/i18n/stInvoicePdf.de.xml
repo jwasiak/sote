@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2012-07-02T03:01:07Z">
+		<body>
+			<trans-unit id="1">
+				<source>Faktury</source>
+				<target>Rechnungen</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Nabywca</source>
+				<target>Käufer</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>oryginał</source>
+				<target>Original</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kopia</source>
+				<target>Kopie</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Słownie</source>
+				<target>in Worten</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wystawił(a)</source>
+				<target>Ausgestellt von</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Sprzedawca</source>
+				<target>Verkäufer</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>według stawki VAT</source>
+				<target>nach dem MwSt.-Satz</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>wartość netto</source>
+				<target>Nettowert</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>kwota VAT</source>
+				<target>MwSt.-Betrag</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>wartość brutto</source>
+				<target>Bruttowert</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podstawowy podatek VAT</source>
+				<target>MwSt.-Grundlage</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podatek VAT</source>
+				<target>MwSt.</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Razem</source>
+				<target>Summe</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapłacono</source>
+				<target>Bezahlt</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Do zapłaty</source>
+				<target>Fälliger Betrag</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Razem do zapłaty</source>
+				<target>Fälliger Gesamtbetrag</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Faktura Proforma</source>
+				<target>Pro-forma-Rechnung</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Faktura VAT</source>
+				<target>Rechnung mit ausgewiesener MwSt.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Lp</source>
+				<target>Lfd. Nr.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwa</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>PKWiU</source>
+				<target>Polnische Produkt- und Dienstleistungsklassifizierung</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ilość</source>
+				<target>Menge</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>j.m.</source>
+				<target>Einheit</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Rabat</source>
+				<target>Rabatt</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena jed.</source>
+				<target>Einzelpreis</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>netto</source>
+				<target>Netto</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>brutto</source>
+				<target>Brutto</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>VAT</source>
+				<target>MwSt.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Wartość netto</source>
+				<target>Nettowert</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wartość brutto</source>
+				<target>Bruttowert</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Pobierz fakturę proforma</source>
+				<target>Pro-forma-Rechnung herunterladen</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Miejsce wystawienia</source>
+				<target>Ausstellungsort</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Data sprzedaży</source>
+				<target>Verkaufsdatum</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Data wystawienia</source>
+				<target>Ausstellungsdatum</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Odebrał(a)</source>
+				<target>Empfänger</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Dostawa</source>
+				<target>Lieferung</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>tysiące</source>
+				<target>tausend</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>tysięcy</source>
+				<target>tausend</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>tysiąc</source>
+				<target>tausend</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>jeden</source>
+				<target>ein</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>dwa</source>
+				<target>zwei</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>trzy</source>
+				<target>drei</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>cztery</source>
+				<target>vier</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>pięć</source>
+				<target>fünf</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>sześć</source>
+				<target>sechs</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>siedem</source>
+				<target>sieben</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>osiem</source>
+				<target>acht</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>dziewięć</source>
+				<target>neun</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>dziesięć</source>
+				<target>zehn</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>dwadzieścia</source>
+				<target>zwanzig</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>trzydzieści</source>
+				<target>dreißig</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>czterdzieści</source>
+				<target>vierzig</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>pięćdziesiąt</source>
+				<target>fünfzig</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>sześćdziesiąt</source>
+				<target>sechzig</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>siedemdziesiąt</source>
+				<target>siebzig</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>osiemdziesiąt</source>
+				<target>achtzig</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>dziewięćdziesiąt</source>
+				<target>neunzig</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>sto</source>
+				<target>hundert</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>dwieście</source>
+				<target>zweihundert</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>trzysta</source>
+				<target>dreihundert</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>czterysta</source>
+				<target>vierhundert</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>pięćset</source>
+				<target>fünfhundert</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>sześćset</source>
+				<target>sechshundert</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>siedemset</source>
+				<target>siebenhundert</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>osiemset</source>
+				<target>achthundert</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>dziewięćset</source>
+				<target>neunhundert</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>jedenaście</source>
+				<target>elf</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>dwanaście</source>
+				<target>zwölf</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>trzynaście</source>
+				<target>dreizehn</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>czternaście</source>
+				<target>vierzehn</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>piętnaście</source>
+				<target>fünfzehn</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>szesnaście</source>
+				<target>sechzehn</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>siedemnaście</source>
+				<target>siebzehn</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>osiemnaście</source>
+				<target>achtzehn</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>dziewiętnaście</source>
+				<target>neunzehn</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>szt.</source>
+				<target>St.</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>NIP</source>
+				<target>Steuernummer</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Pozostało do zapłaty</source>
+				<target>Ausstehender Betrag</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>płatność gotówką</source>
+				<target>Barzahlung</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>płatne gotówką</source>
+				<target>Barzahlung</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>płatność przelewem</source>
+				<target>Zahlung per Überweisung</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>płatne przelewem</source>
+				<target>Zahlung per Überweisung</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Maksymalny czas oczekiwania na płatność</source>
+				<target>Maximale Zeit für die Zahlung</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>termin płatności</source>
+				<target>Zahlungsziel</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>dni</source>
+				<target>Tage</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Rodzaj płatności</source>
+				<target>Zahlungsart</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>za pobraniem</source>
+				<target>gegen Nachnahme</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>płatność</source>
+				<target>Zahlungsart</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>gotówką</source>
+				<target>bar</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>przelewem</source>
+				<target>mit Überweisung</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>Proforma</source>
+				<target>Pro-Forma-Rechnung</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

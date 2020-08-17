@@ -1,0 +1,12 @@
+<div class="st_application">
+   <h1 class="st_title">
+      {__ text="Paypal"}
+   </h1>
+   <p id="st_paypal-message-success">
+      {if $already_payed}
+      {__ text="Zamówienie zostało już opłacone."}
+      {else}
+      {$paypal_button}
+      {/if}
+   </p>
+</div>

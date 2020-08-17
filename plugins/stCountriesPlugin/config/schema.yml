@@ -1,0 +1,79 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stCountriesPlugin.lib.model
+  st_countries: 
+    _attributes: 
+      phpName: Countries
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    iso_a2: 
+      type: CHAR
+      size: 2
+    iso_a3: 
+      type: CHAR
+      size: 3
+    continent: 
+      type: LONGVARCHAR
+    number: 
+      type: VARCHAR
+      size: 3
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    is_active: 
+      type: BOOLEAN
+      default: 0
+    is_default: 
+      type: BOOLEAN
+      default: 0
+  st_countries_area: 
+    _attributes: 
+      phpName: CountriesArea
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+    is_active: 
+      type: BOOLEAN
+      default: 0
+  st_countries_area_has_countries: 
+    _attributes: 
+      phpName: CountriesAreaHasCountries
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    countries_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_countries
+      foreignReference: id
+      onDelete: cascade
+    countries_area_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_countries_area
+      foreignReference: id
+      onDelete: cascade

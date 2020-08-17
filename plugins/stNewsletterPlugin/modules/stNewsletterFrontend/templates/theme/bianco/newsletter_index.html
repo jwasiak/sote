@@ -1,0 +1,89 @@
+{set layout="one_column"}
+<div id="user-newsletter">
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            <div class="panel-title text-center">{$register_text_title}</div>
+        </div>
+        <div class="panel-body text-center">
+            <div class="newsletter-txt">{$register_text_description}</div>
+            {$form_start}
+                <div class="groups row">
+                    {if $newsletterGroup}
+                        {foreach key=row item=news_group from=$results}
+                        <div class="col-xs-4">
+                            <div class="checkbox" >
+                                <label>
+                                    {$news_group.input} {$news_group.name} <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="top" title="{$news_group.description}"></span>
+                                </label>
+                            </div> 
+                        </div>
+                        {/foreach}
+                    {/if}  
+                </div>
+
+                {if $update == 1}
+                    <div class="alert alert-success" role="alert">{__ text="Dane zostały zaktualizowane."}</div>
+                {/if}
+                <div class="form-group">
+                    {if $error_email!=""}<label class="control-label {if $error_email!=''}has-error{/if}" for="email">{$error_email}</label>{/if}
+                    {$input_email}
+                </div>
+                <div class="checkbox text-left checkbox_privacy">
+                    <label class="{if $error_privacy==1}checkbox_error{/if} text-muted small">
+                        {$checkbox_privacy} {$terms_privacy_newsletter_text}
+                    </label>
+                </div>
+                {if isset($captcha_on)}
+                    <div class="captcha_form">
+                        <div id="captcha_form" class="row">
+                            {if $error_captcha!=""}
+                                <div class="col-xs-12 clearfix {if $error_captcha!=''}has-error{/if}">
+                                    <div class="row">
+                                        <label class="control-label col-xs-6 pull-right" for="captcha_img">{$error_captcha}</label>
+                                    </div>
+                                </div>
+                            {/if}
+                            <div class="captcha-img col-xs-6">
+                                {$get_captcha}
+                            </div>
+                            <div class="col-xs-6 form-group captcha-input">
+                                {$input_captcha}
+                            </div>
+                        </div>
+                    </div>
+                {/if}        
+                <button type="submit" class="btn btn-primary" >
+                    {__ text="Dodaj adres"}
+                </button>
+                {$register_text_under_register}
+                {$hidden_new_user}
+            </form>   
+        </div>
+    </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{		
+        $('#user-newsletter .groups .checkbox .glyphicon').tooltip();
+			 
+		$('#st_form-user-privacy').click(function(){
+		    console.log("click");
+			$("#captcha_form").toggle();
+		});	
+		
+		if($('#st_form-user-privacy').attr('checked'))
+		{
+			$("#captcha_form").show()
+		}else{
+			$("#captcha_form").hide();
+		}	 
+	});
+	
+	
+});
+</script>
+{/literal}

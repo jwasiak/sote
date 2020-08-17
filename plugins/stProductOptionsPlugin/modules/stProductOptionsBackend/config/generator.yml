@@ -1,0 +1,21 @@
+generator:
+    class:                    stAdminGenerator
+    param:
+      model_class:            ProductOptionsTemplate
+      theme:                  simple
+      applications:           [stProduct]
+  
+      head:
+          package:            stProductOptionsPlugin
+          
+      list:
+        forward_parameters: [product_id]
+        display: [=name]
+        fields:
+          name:   
+            name: Wybierz szablon którego chcesz użyć
+            params: link_to = 'stProductOptionsBackend/useTemplate?template_id=%%id%%&product_id='
+        actions:  {}
+        
+          
+      

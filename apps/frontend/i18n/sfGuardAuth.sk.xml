@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2010-11-04T02:51:44Z">
+		<body>
+			<trans-unit id="1">
+				<source>Nie masz wystarczających uprawnień aby oglądać tą stronę</source>
+				<target>Nemáte dostatočné oprávnenia, ktoré by Vám umožňovali prezeranie tejto stránky.</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Edytor grafiki</source>
+				<target>Grafický editor</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zaloguj się podając dane dostępowe do panelu administracyjnego.</source>
+				<target>Prihláste sa zadaním v paneli administrátora svojich prístupových údajov.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Użytkownik</source>
+				<target>Užívateľ</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Heslo</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Prihlásiť</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Proszę podać nazwę użytkownika</source>
+				<target>Zadajte, prosím, užívateľské meno</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Proszę podać hasło</source>
+				<target>Zadajte, prosím, heslo</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę podać poprawną nazwę użytkownika i hasło</source>
+				<target>Zadajte, prosím, správne užívateľské meno a heslo</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,46 @@
+propel:
+    st_order_product:
+        _attributes:
+            phpName: OrderProduct
+        price_modifiers:
+          type: LONGVARCHAR
+          phpType: array
+        discount:
+          type: VARCHAR
+          size: 1024
+          phpType: array
+        currency:
+          type: VARCHAR
+          size: 1024
+          phpType: array
+        wholesale:
+          type: VARCHAR
+          size: 1024
+          phpType: array        
+    st_order_status: 
+        _attributes: 
+            phpName: OrderStatus
+            isI18N: true
+            i18nTable: st_order_status_i18n
+        opt_name: {change_column: name}
+
+    st_order_status_i18n: 
+        _attributes: 
+            phpName: OrderStatusI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_order_status
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        description: 
+            type: LONGVARCHAR

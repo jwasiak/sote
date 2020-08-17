@@ -1,0 +1,21 @@
+<div class="new_search-box">
+    <h2>{__ text="Wyszukiwanie" langCatalogue="stSearchFrontend"}</h2>
+    <div class="content">
+        {$form_start}
+        {$search_input}
+        <div class="buttons right">
+            <button class="roundies regular" type="submit"/>{__ text="Szukaj" langCatalogue="stSearchFrontend"}</button>
+        </div>
+        </form>
+        {$filters}
+        <div id="product_other">
+            {$list}
+        </div>
+        {if $more}
+            <div id="more_button" class="buttons right">{$more}</div>
+        {/if}
+        {if $no_results eq 1}
+            {__ text="Niestety żaden produkt nie spełnia kryteriów wyszukiwania które wpisałeś. Spróbuj użyć innego słowa lub wyszukaj produkt według kategorii." langCatalogue="stSearchFrontend}
+        {/if}        
+    </div>
+</div>

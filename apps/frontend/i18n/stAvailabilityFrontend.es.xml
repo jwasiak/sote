@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2012-07-02T03:01:09Z">
+		<body>
+			<trans-unit id="1">
+				<source>Dostępność</source>
+				<target>Disponibilidad </target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Powiadom mnie o dostępności produktu</source>
+				<target>Avísenme acerca de la disponibilidad del producto</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>W chwili obecnej nie możemy określić kiedy produkt</source>
+				<target>Por el momento no podemos determinar cuando el producto</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>będzie dostępny w naszym sklepie.</source>
+				<target>estará disponible en nuestra tienda.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Prosimy o podanie adresu email na który wyślemy powiadomienie.</source>
+				<target>Por favor, introduce tu dirección email a la que enviaremos una notificación.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wyślij prośbę o powiadomienie</source>
+				<target>Enviar una solicitud de notificación.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>E-mail</source>
+				<target>Correo electrónico</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Treść</source>
+				<target>Contenido</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras del dibujo</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Proszę o przesłanie informacji o ponownej dostępności produktu w ofercie.</source>
+				<target>Por favor, envíenme la información acerca de la disponibilidad de producto en la tienda.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Podany adres jest nieprawidłowy.</source>
+				<target>La dirección especificada no es válida.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wprowadzono zły numer.</source>
+				<target>Número incorrecto</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Pregunta sobre la disponibilidad del producto</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Informacje o dostępności należy przesłać na</source>
+				<target>La información relativa a la disponibilidad debe ser enviada a</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod produktu</source>
+				<target>Código del producto</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Producent</source>
+				<target>Fabricante </target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Kategoria</source>
+				<target>Categoría </target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Czas realizacji</source>
+				<target>Tiempo de realización</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

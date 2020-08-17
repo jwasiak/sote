@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Bon zakupowy</source>
+				<target>Vale-regalo</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wprowadź kod</source>
+				<target>Introduzca el código</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Aktywuj</source>
+				<target>Activar</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Bon o podanym kodzie nie istnieje</source>
+				<target>No hay vale-regalo con este código</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Bon o podanym kodzie jest już aktywny</source>
+				<target>El vale-regalo con este código ya ha sido activado</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Bon o podanym kodzie jest nieważny</source>
+				<target>El vale-regalo con este código no es válido</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Bonem o podanym kodzie można płacić wyłącznie w walucie %currency%</source>
+				<target>El vale-regalo con este código puede usarse solamente para pagar en %moneda%</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Usuń bon</source>
+				<target>Suprimir vale-regalo</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Musisz złożyć zamówienie za minimum %%amount%%</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

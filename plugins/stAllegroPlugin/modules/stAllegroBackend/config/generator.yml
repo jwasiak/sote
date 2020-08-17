@@ -1,0 +1,93 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                AllegroAuction
+        theme:                      simple
+        head:
+            package:                stAllegroPlugin
+
+        applications:               [stProduct]
+
+        list:
+            fields:
+                list_name:          {name: "Tytuł"}
+                list_status:        {name: "Status"}
+                list_price:         {name: Cena}
+                list_product_code:  {name: Kod produktu}
+                list_number:        {name: Numer}
+            filters:
+                list_name:          {partial: filter_offer_name}
+                list_product_code:  {partial: filter_offer_product_code}
+                list_price:         {partial: filter_offer_price}
+                list_status:        {partial: filter_offer_status}
+                list_number:        {partial: filter_offer_number}
+            forward_parameters:     [product_id]
+            title:                  "Lista ofert"
+            description:            "Zarządzanie systemami aukcyjnymi, wystawianie produktów na aukcje, konfiguracja ustawień."
+            display:                [list_name, list_product_code, list_price, list_status, list_number]
+            menu:
+                display:            [list, order]
+                fields:
+                    list:           {name: "Lista ofert", action: stAllegroBackend/list}
+                    order:          {name: "Import zamówień", action: stAllegroBackend/importOrder}
+            select_actions:
+                display:
+                    "Aukcje:":      [create, duplicate]
+                actions:
+                    _delete:        -
+                    create:         {name: "Wystaw", action: createAuctions, module: stAllegroBackend, i18n: stAllegroBackend}
+                    duplicate:      {name: "Kopiuj", action: duplicateAuctions, module: stAllegroBackend, i18n: stAllegroBackend}
+            actions:                []
+
+        custom_actions:
+           custom:                  [category]
+
+        category_custom:
+            title:                  "Pobieranie kategorii Allegro"
+            description:            "Zarządzanie systemami aukcyjnymi, wystawianie produktów na aukcje, konfiguracja ustawień."
+            menu:                   {use: config.menu}
+
+        config:
+            use_helper:             [stAllegro, stAllegroDelivery]
+            title:                  "Konfiguracja"
+            description:            "Zarządzanie systemami aukcyjnymi, wystawianie produktów na aukcje, konfiguracja ustawień."
+            menu:
+                display:            [config, delivery]
+                fields:
+                    config:         {name: "Konfiguracja", action: stAllegroBackend/config}
+                    delivery:       {name: "Cenniki dostawy", action: stAllegroDeliveryBackend/list}
+            display:
+                "Ustawienia konta Allegro.pl":                  [enable, sandbox, client_id, _client_secret]
+                "Lokalizacja":                                  [~allegro_pl_state, allegro_pl_city, allegro_pl_post_code]
+                "Dostawa i płatność":                           [delivery_shipping_rates_id, delivery_handling_time, payments_invoice]
+                "Warunki reklamacji / gwarancji / zwrotów":     [warranty, implied_warranty, return_policy]  
+                "Import zamówień":                              [import_product_name] 
+                "Oferty":                                       [_offer_product_commission, offer_sync_product_price]
+            fields:
+                enable:                     {name: Włącz, type: checkbox }
+                sandbox:                    {name: Sandbox, type: checkbox }
+                offer_sync_product_price:   {name: Synchronizuj cenę produktu, type: checkbox}
+                offer_product_commission:   {name: "Prowizja [%]", help: Jeśli ustawiona prowizja doliczana jest do ceny produktu podczas wystawiania lub aktualizacji oferty}
+                client_id:                  {name: Client ID, required: true, params: size=40}
+                client_secret:              {name: Client Secret, required: true}
+                allegro_pl_state:           {name: "Region", required: true}
+                allegro_pl_city:            {name: "Miasto", required: true}
+                allegro_pl_post_code:       {name: "Kod pocztowy", params: size=6, required: true}
+                bank_account1:              {name: "Numer konta bankowego", params: size=28}
+                bank_account2:              {name: "Dodatkowy numer konta bankowego", params: size=28}
+                warranty:                   {name: Informacja o gwarancji, callback: st_allegro_warranty_select_tag}
+                implied_warranty:           {name: Warunki reklamacji, callback: st_allegro_implied_warranty_select_tag}
+                return_policy:              {name: Warunki zwrotów, callback: st_allegro_return_policy_select_tag}
+                delivery_shipping_rates_id: {name: Domyślny cennik dostawy, callback: st_allegro_shippin_rates_select_tag}
+                delivery_handling_time:     {name: Domyślny czas wysyłki, callback: st_allegro_delivery_times_select_tag}
+                payments_invoice:           {name: Domyślne opcje faktury, callback: st_allegro_payments_invoice_select_tag}
+                import_product_name:        
+                    name:                   Nazwy produktów
+                    type:                   select
+                    display:                [offer, product]
+                    help:                   Określa czy produkty zachowają swoją oryginalną nazwę czy nazwę jaka jest wyśietlana po stronie oferty Allegro
+                    options:
+                        product:            {name: Oryginalna nazwa produktu}
+                        offer:              {name: Tytuł oferty Allegro}
+            actions:
+                _save:                      {name: Zapisz}

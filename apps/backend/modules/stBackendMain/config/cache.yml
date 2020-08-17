@@ -1,0 +1,7 @@
+_showNaviBar:
+  enabled: on
+  clientLifeTime: 0
+  lifeTime: 0
+  view:
+    stylesheets: [backend/ddlevelsfiles/ddlevelsmenu-base.css, backend/ddlevelsfiles/ddlevelsmenu-topbar.css, backend/ddlevelsfiles/ddlevelsmenu-sidebar.css]
+    javascripts: [backend/ddlevelsfiles/ddlevelsmenu.js]

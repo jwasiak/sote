@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Włączanie i wyłączanie sklepu</source>
+                <target>Enable or disable your shop</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wyłącz sklep</source>
+                <target>Lock your shop</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Twoje zmiany zostały zapisane</source>
+                <target>Your changes were saved</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

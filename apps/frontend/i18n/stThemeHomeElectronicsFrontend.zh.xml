@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-11-19T03:51:45Z">
+		<body>
+			<trans-unit id="1">
+				<source>więcej</source>
+				<target>viac</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zobacz więcej</source>
+				<target>Ukáž viac</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Waluta</source>
+				<target>Mena</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Hodnota</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wpisz szukane słowo</source>
+				<target>Vložte hľadané slovo</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Ilość</source>
+				<target>Množstvo</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

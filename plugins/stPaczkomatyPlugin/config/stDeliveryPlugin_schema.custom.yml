@@ -1,0 +1,10 @@
+propel:
+  st_delivery: 
+    _attributes: 
+      phpName: Delivery
+    paczkomaty_type:
+      type: VARCHAR
+      size: 5
+    paczkomaty_size:
+      type: VARCHAR
+      size: 5

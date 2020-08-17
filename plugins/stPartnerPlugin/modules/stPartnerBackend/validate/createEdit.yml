@@ -1,0 +1,40 @@
+fields:
+    partner{partner_name}:
+        required:
+            msg:       Nie podałeś adresu e-mail
+            
+        sfStringValidator:
+            max:          40
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+            
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail.
+            
+        sfPropelUniqueValidator:
+            class:        sfGuardUser
+            column:       username
+            unique_error: Taki adres już istnieje w bazie danych.
+    
+    partner{partner_password}:
+        required:
+            msg:       Nie podałeś hasła.
+        
+        sfStringValidator:
+            min:       3
+            min_error: Podane hasło jest za krótkie, mininum 3 znaki.
+            max:       20
+            max_error:    Przekroczono dozwoloną długość hasła, maksimum 20 znaków.
+        
+    partner{partner_confirm_password}:
+        required:
+            msg:       Nie podałeś hasła.
+        
+        sfStringValidator:
+            min:       3
+            min_error: Podane hasło jest za krótkie, mininum 3 znaki.
+            max:       20
+            max_error:    Przekroczono dozwoloną długość hasła, maksimum 20 znaków.
+        
+        sfCompareValidator:
+            check: partner[partner_password]
+            compare_error: Hasła nie są takie same.

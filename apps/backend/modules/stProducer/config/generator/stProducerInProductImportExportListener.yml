@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_producer:   {name: Producent, class: ProducerPeer, md5hash: true }
+
+import:
+    fields:
+        product_producer:   {class: ProducerPeer, md5hash: true }

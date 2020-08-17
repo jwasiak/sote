@@ -1,0 +1,17 @@
+---
+package: 
+  name: stTooltipPlugin
+  stability: stable
+  version: 1.0.1.4
+  summary: System pomocy
+  description: Ststem dynamicznej pomocy
+  notes: Aktualizacja tooltipa
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+    Marcin Butlak: 
+      role: contributor
+      user: marcin
+      email: marcin.butlak@sote.pl

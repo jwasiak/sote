@@ -1,0 +1,19 @@
+package:
+  name: stReview
+  stability: stable
+  version: 7.4.2.8
+  summary: Recenzje
+  description: 'Recenzje produktow i transakcji'
+  notes: |
+    - Poprawka dla allegro
+  maintainers:
+    'Pawel Byszewski':
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stProduct: 1.0.16.7

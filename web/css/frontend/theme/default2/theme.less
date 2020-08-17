@@ -1,0 +1,844 @@
+body
+{
+    background: url(/images/frontend/theme/default2/body.gif) top left repeat-x;
+}
+
+#bg_container
+{
+    background: url(/images/frontend/theme/default2/bg_container.gif) top center repeat-y;
+    overflow: hidden;
+    margin-bottom: 25px;  
+    min-width: @width;  
+}
+
+#bg_container_bottom
+{
+    background: url(/images/frontend/theme/default2/bg_container_bottom.gif) bottom center no-repeat;
+    overflow: hidden;
+}
+
+#middle, #navigation
+{
+    padding: 0px @bgmargin;
+}
+
+#path
+{
+    background-color: #fff;
+    position: relative;
+    top: 5px;
+}
+
+#path .not_active_last
+{
+    color: #000;
+}
+
+#banner_middle 
+{
+    background: @color5;
+    width: (@column*3)+(@space*2);
+    height: 192px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;      
+}
+
+.title
+{
+    margin:10px;
+}
+
+.title p
+{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-style:italic;
+}
+
+.box
+{
+    border: 1px solid @border;
+    margin-bottom: 10px;
+    background-color: @white;        
+}
+
+.box .head
+{
+    padding: 5px 5px 4px 10px;
+    border-bottom: 1px solid @border;
+    background: url(/images/frontend/theme/default2/bg_gradient.png) top left repeat-x;
+    background-color: @head;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+#category_tree .head
+{
+    background-color: @head_selected;
+    border-bottom: 1px solid @head_selected;
+}
+
+#category_tree
+{
+    border: none;
+}
+
+#category_tree .content
+{    
+    border: 1px solid @border;
+    border-top: none;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;    
+}
+
+#category_tree h3
+{
+    color: @head_selected_text;
+}
+
+.box h3.head
+{
+    color: @head_text;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.box h3.head a
+{
+    background: url(/images/frontend/theme/default2/buttons/heading-arrow.png) center right no-repeat;
+    text-decoration: none;
+    display: block;
+    color: @head_text;
+}
+
+.box .content
+{
+    padding: 5px 10px;    
+}
+
+.roundies
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.clear, .st_clear_all
+{
+    clear: both;
+    font-size: 0px;
+    line-height: 0%;
+    padding:0;
+    margin:0;
+    height: 0px;
+}
+
+.buttons a, .buttons button, button[disabled="disabled"]:hover
+{
+    display:block;
+    float:left;
+    background-color: lighten(@button,24%);
+    border:1px solid @button;
+    border-top:1px solid lighten(@button,15%);
+    border-left:1px solid lighten(@button,15%);
+    line-height:130%;
+    text-decoration:none;
+    color:@text;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+
+.buttons button
+{
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+
+.buttons button[type]
+{
+    padding: 5px 7px 5px 7px; /* Firefox */
+    line-height:17px; /* Safari */
+}
+
+*:first-child+html button[type]
+{
+    padding: 4px 10px 3px 7px; /* IE7 */
+}
+
+.buttons button img, .buttons a img
+{
+    margin:0 0px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+/* BASE */
+button:hover, .buttons a:hover
+{
+    background-color:darken(@button,5%);
+    border:1px solid darken(@button,7%);
+    color: @text;
+}
+
+.buttons a:active
+{
+    background-color:darken(@button,9%);
+    border:1px solid darken(@button,11%);
+    color:@white;
+}
+
+/* DEFAULT */
+button.regular, .buttons a.regular
+{
+    color: #000;
+}
+
+.buttons a.regular:hover, button.regular:hover
+{
+    background-color:darken(@button,5%);
+    border:1px solid darken(@button,7%);
+    color: @text;
+}
+
+.buttons a.regular:active
+{
+    background-color:darken(@button,9%);
+    border:1px solid darken(@button,11%);
+    color:@white;
+}
+
+button[disabled="disabled"]
+{
+    opacity: 0.3;
+}
+
+button[disabled="disabled"]:hover
+{
+    background-color: lighten(@button,24%);
+    border:1px solid @button;
+    border-top:1px solid lighten(@button,15%);
+    border-left:1px solid lighten(@button,15%);
+}
+
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float:right;
+}
+
+#left .container_content
+{
+    padding-top: 10px;
+}
+
+#main .container_content
+{
+    padding-top: 10px;
+} 
+
+#right .container_content 
+{
+    padding-top: 10px;
+}
+
+#overbaner
+{
+    padding: 5px 0px 4px 0px;
+    overflow: hidden;
+}
+
+#currency
+{
+    margin: 3px;
+}
+
+.languages
+{
+    position: relative;
+    top: 4px;
+}
+
+.txt_lang
+{
+    position: relative;
+    top: -3px;
+}
+
+#online
+{
+    float: left;
+    padding: 10px 0px 5px 0px;
+    color: lighten(@text,30%);
+}
+
+#underbaner
+{
+    border: 1px solid @bar_border;
+    background: url(/images/frontend/theme/default2/bg_gradient_menu.png) top left repeat-x;
+    background-color: @bar;
+    overflow: hidden;
+    padding-right: 5px;    
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;        
+    color: @bar_text;
+    height: 34px;
+}
+
+#underbaner #pick
+{
+    position: relative;
+    top: 6px;
+    color: @color1;
+}
+
+#underbaner .languages
+{
+    position: relative;
+    top: 11px;
+}
+
+#underbaner #search #keywords input
+{
+    border: none;
+}
+
+#underbaner #search
+{
+    position: relative;
+    top: 6px;
+}
+
+#content_baner
+{
+    overflow: hidden;
+}
+
+.logo
+{
+    color: @black;    
+    padding-top: 11px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: @black;        
+}
+
+.icon_logo
+{
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.box_logo
+{
+    float: left;
+    padding-top: 6px;
+}
+
+.box_logo h1
+{
+    font-size: 22px;
+}
+
+.txt_logo a
+{
+    font-size: 10px;
+    color: lighten(@black,65%);
+}
+
+.column_baner_right
+{
+    color: @black;
+    padding-top: 5px;
+}
+
+.column_baner_right a
+{
+    color: @color1;
+}
+
+.column_baner_right .header
+{
+    padding-top: 1px;
+    color: @color1;
+}
+
+.row
+{
+    overflow: hidden;    
+    padding: 5px 0px;
+}
+
+#header #home
+{
+    padding: 9px 10px 0 15px;
+}
+
+#underbaner a
+{
+    color: @bar_text;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#underbaner a:hover
+{
+    text-decoration: underline;
+}
+
+#header .left
+{
+    padding-right: 10px;
+}
+
+#header .right
+{
+    padding-left: 10px;
+}
+
+#copyright
+{
+    text-align: right;
+    float:right;
+    padding: 10px 0px;
+}
+
+#copyright .link
+{
+    float:left;
+}
+
+#copyright .link a
+{
+    text-decoration: none;
+    color: lighten(@text,30%);
+}
+
+#copyright .logo_sote
+{
+    float: left;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#copyright .logo_en
+{
+    float: left;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+#open
+{
+    clear: both;
+    display: block;
+    color: @color4;
+    text-decoration:none;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.header a
+{
+    display: block;
+    padding: 8px 10px 0px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+}
+
+#navigation
+{
+    overflow: hidden;
+}
+
+#footer
+{
+    border: 1px solid @border;
+    background-color: @foot;
+    margin-top: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;    
+}
+
+#footer h4
+{
+    font-weight: bold;
+    color: @color1;
+}
+
+#footer a
+{
+    color: darken(@color2,10%);
+}
+
+.txt_input
+{
+    position: relative;
+    top:2px;
+}
+
+.txt
+{
+    position: relative;
+    top:2px;
+}
+
+#header .row .left
+{
+    padding-right: 3px;
+}
+
+#header .row .right
+{
+    padding-left: 3px;
+}
+
+.space10_right
+{
+    padding-right: 10px;
+}
+
+/* formularze */
+
+.st_form
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+.st_form .st_row
+{
+    padding: 5px 0px;
+    clear: both;
+
+}
+
+.st_form .st_row_last
+{
+    clear: both;
+    border-top: 1px solid @border;
+    background-color: @color5;
+}
+
+.st_form label
+{
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+
+.st_form .st_field
+{
+    margin-left: 110px;
+}
+
+.st_form .st_error
+{
+    margin-left: 110px;
+    color: red;
+}
+
+#main_categories .category a, #subcategories .name a
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#main_products .basket, #product_long .basket
+{
+    background-color: @color5;   
+    border-top:1px solid lighten(@color1,75%);
+}
+
+#main_products .description, #product_long .description
+{
+    color: lighten(@color1,45%);
+}
+
+.basket a
+{
+    color: @a_selected;
+}
+
+.box .content .full
+{
+    background-color: @white;
+}
+
+/** do elementów przesuwania [wyrzucic] **/
+
+.block-hover
+{
+    border: 1px dashed @color3;
+}
+
+#schowek_add
+{
+    padding-right:12px;
+    margin-right:12px;
+    border-right:1px solid @color3;
+}
+
+#js_frame
+{
+    display:none;
+}
+
+#img_delivery,#img_card
+{
+    margin-top: 10px;
+}
+
+
+/* module stBasket */
+
+#st_basket-add-button-content
+{
+    background-color: lighten(@button,24%);
+    border: 1px solid @button;
+    border-top: 1px solid lighten(@button,15%);
+    border-left: 1px solid lighten(@button,15%);
+    color:@text;    
+}
+
+#st_basket-add-button-content input
+{
+    color: #000;
+}
+
+/* module stCategory */
+
+#st_category-list > li
+{
+	border-top: 1px solid @border;
+}
+
+#main_categories, #subcategories
+{
+    margin-left: 0px - @space3on4;
+    margin-right: 0px - @space3on4;    
+}
+
+#main_categories .item, #subcategories .item
+{
+    width: @column3on4;
+    margin-left: @space3on4;
+}
+
+#main_categories .image, #subcategories .image
+{
+    width: @column3on4 - 2;
+}
+
+#main_categories .item .box, #subcategories .item .box
+{
+    background-color: #fff;
+}
+
+/* module stCurrencyPlugin */
+
+#pick select#currency
+{
+    border: 1px solid @color3;
+    color: @black; 
+    background-color:@white; 
+}
+
+/* module stNavigationPlugin */
+
+#path a
+{
+    color: lighten(@color1,15%);
+}
+
+#path .not_active
+{
+    color: @color1;
+}
+
+/* module stNewsletterPlugin */
+
+#newsletter .content .sign .email
+{
+    border: 1px solid @border;
+}
+
+#newsletter .content .sign .email input
+{
+    background-color: @white;
+}
+
+#newsletter .content .sign .email .submit input
+{
+    border: 1px solid @border;
+    background-color: @white;
+}
+
+.email #newsletter_email
+{
+    color: #000;
+}
+
+/* module stProduct */
+
+.price, .major_price span
+{
+    color: @black;
+}
+
+.minor_price
+{
+    color: @black;
+}
+
+.old_price, .old_price span, .price .old_price
+{
+    color: @red;
+}
+
+#list #product_other
+{
+   margin-left: 0px - @space3on5;
+   margin-right: 0px - @space3on5;   
+}
+
+#product_other .item, #product_recommend .item, #product_accessories .item
+{
+    width: @column3on5;
+    margin-left: @space3on5;
+}
+
+#product_other .image, #product_recommend .image, #product_accessories .image
+{
+    width: @column3on5 - 2;
+}
+
+/* Product list long and main */
+@columnx: @space * (-1);
+
+#main_products, #product_long
+{
+    margin: 0px @columnx 10px @columnx;
+}
+
+#main_products .item, #product_long .item
+{
+    width: @column - 2;
+    margin-left: @space;
+}
+
+#product_other .image, #product_recommend .image, #product_accessories .image
+{
+    border: 1px solid @border;
+    background-color: #fff;
+}
+
+#product_short .bg_grey_short td
+{
+    background-color: darken(@white,5%);
+}
+
+.box_photo_sort 
+{
+    border: 1px solid @border;    
+    background-color: @white;
+}
+
+#product_card .label
+{
+    border: 1px solid @border;
+}
+
+#product_card .information .price
+{
+    border-top: 1px dotted @border;
+}
+
+#product_card .information .basket
+{
+    border-bottom: 1px dotted @border;
+}
+
+.border_basket
+{
+    border-top: 1px solid @white;
+}
+
+/* module stTabNavigatorPlugin */
+
+.st_tab_navigator li a 
+{
+    color: @text;
+    background-color: @white;
+    border-top:1px solid @border;
+    border-left:1px solid @border;
+    border-right:1px solid @border;
+    border-bottom:1px solid @white;    
+}
+
+.st_tab_navigator li a span
+{
+    background-color: lighten(@black,95%);
+}
+
+.st_tab_navigator li.st_selected a
+{
+    color: @text;
+}
+
+.st_tab_navigator li.st_selected a span
+{
+    background-color:@white;
+}
+
+.st_content_tab 
+{
+    border: 1px solid @border;
+    background-color: @white;
+}
+
+.name a, .product_link a
+{
+    color: @black;
+}
+
+#basket_tooltip table th, #basket_tooltip table td, #basket_products table th, #basket_products table td
+{
+    background-color: #fff;
+}
+
+.st_basket-product-name a
+{
+    color: #000;
+}
+
+.box_info .content
+{
+    padding: 10px;
+}
+
+#recommend_overlay, #recommend_shop_overlay
+{
+    background-color: @white;
+}

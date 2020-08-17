@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Blog</source>
+				<target>Blog</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>więcej</source>
+				<target>more</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kategorie</source>
+				<target>Categories</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zobacz wszystkie wpisy</source>
+				<target>View all entries</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

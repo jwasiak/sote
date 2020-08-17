@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[gift_card_code]', isset($filters['gift_card_code']) ? $filters['gift_card_code'] : null) ?> 

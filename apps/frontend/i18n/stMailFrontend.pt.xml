@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-11-04T04:27:00Z">
+		<body>
+			<trans-unit id="1">
+				<source>Temat</source>
+				<target>Título</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zawartość</source>
+				<target>Conteúdo</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Adres nadawcy</source>
+				<target>Endereço do remetente</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Adres odbiorcy</source>
+				<target>Endereço do destinatário</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Załącz plik</source>
+				<target>Anexar o ficheiro</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Serwer poczty wychodzącej (SMTP)</source>
+				<target>Servidor de correio de saída (SMTP)</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Adres hosta</source>
+				<target>Endereço do host</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Port</source>
+				<target>Porta</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Szyfrowanie</source>
+				<target>Encriptação</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Brak</source>
+				<target>Sem dados</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>TLS</source>
+				<target>TLS (Segurança da Camada de Transporte)</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>SSL</source>
+				<target>SSL (Protocolo de Camada de Sockets Segura)</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Użytkownik</source>
+				<target>Utilizador</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Hasło</source>
+				<target>Senha (password)</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Wyślij</source>
+				<target>Envie</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wystąpił problem podczas łączenia się z serwerem SMTP: zweryfikuj  oraz wybrany rodzaj </source>
+				<target>Erro na ligação com o servidor SMTP: verifique   e o tipo escolhido</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Błędna autoryzacja SMTP - wprowadź nazwę użytkownika i hasło ponownie</source>
+				<target>Erro na autorização SMTP. Indique o nome do utilizador e a senha (password) </target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Wystąpił problem z wysłaniem wiadomości...</source>
+				<target>Erro do envio da mensagem</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Twoja wiadomość została wysłana poprawnie</source>
+				<target>A sua mensagem foi enviada correctamene</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Powrót</source>
+				<target>Voltar</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

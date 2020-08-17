@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-11-04T04:27:00Z">
+		<body>
+			<trans-unit id="1">
+				<source>Lista stron www</source>
+				<target>Lista dos sites</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sklep</source>
+				<target>Loja</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>regulamin</source>
+				<target>regulamento</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>politykę prywatności</source>
+				<target>A política da privacidade</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,24 @@
+package:
+  name: stThemePlugin
+  stability: stable
+  version: 7.1.0.28
+  summary: 'Edycja grafiki'
+  description: 'Zarzadzanie tematami graficznymi sklepu'
+  notes: |
+    - Poprawka bledow typu notice w trybie deweloperskim 
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+    'Marek Jakubowicz':
+      role: contributor
+      user: marek
+      email: marek.jakubowicz@sote.pl
+  dependency:
+    stFrontend: 1.1.0.11
+    stJavascriptDropMenuPlugin: 1.1.0.1

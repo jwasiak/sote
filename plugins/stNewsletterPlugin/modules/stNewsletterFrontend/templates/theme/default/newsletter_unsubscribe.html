@@ -1,0 +1,28 @@
+<div class="st_application" style="padding-bottom: 10px">
+    <h1 class="st_title">{__ text="Newsletter - prośba o wypisanie z listy"}</h1>
+
+    <form action="{$form.action}" method="post" style="width: 172px; margin: 0 auto">
+        <p>
+            <label for="newsletter_email">{__ text="Adres e-mail"}</label><br />
+            <input type="text" name="newsletter[email]" value="{$form.email}" id="newsletter_email" style="width: 164px" />
+            {if $form.errors.email}
+                <span style="color: red">{$form.errors.email}</span>
+            {/if}            
+        </p>
+        <p>{$form.captcha}</p>
+        <p>
+            <label for="newsletter_captcha">{__ text="Cyfry z obrazka"}</label><br />
+            <input type="text" name="newsletter[captcha]" id="newsletter_captcha" style="width: 164px" />
+            {if $form.errors.captcha}
+                <span style="color: red">{$form.errors.captcha}</span>
+            {/if}
+        </p>
+        <div id="st_button-user-remind" class="st_button-container">
+            <div class="st_button st_align-right">
+                <div class="st_button-left">
+                    <input type="submit" value="{__ text='Wyślij'}" />      
+                </div>
+            </div>
+        </div>       
+    </form>
+</div>

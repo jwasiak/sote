@@ -1,0 +1,19 @@
+BoxGroup:
+    BoxGroup_1:
+      culture: pl_PL
+      name: Lewa kolumna
+      box_group: LEFT
+    BoxGroup_2:
+      culture: pl_PL
+      name: Prawa kolumna
+      box_group: RIGHT
+
+BoxGroupI18n:
+    BoxGroupI18n_1:
+      id: BoxGroup_1
+      culture: en_US
+      name: Left column
+    BoxGroupI18n_2:
+      id: BoxGroup_2
+      culture: en_US
+      name: Right column

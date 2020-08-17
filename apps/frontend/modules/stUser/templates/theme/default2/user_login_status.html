@@ -1,0 +1,48 @@
+<div id="user_status">
+    
+    {if $is_authenticated && $account_type=="full"}
+        <div id="user_status_info"><a href="{url_for internal='stUserData/userPanel' secure=true}">{$username}</a>{if $points_system_is_active==1 && $points_show==1}{$points}{/if}</div>
+        <div class="tooltip_account tooltip roundies" style="padding:10px 30px;">
+            <a href="{url_for internal='stUserData/userPanel' secure=true}">{__ text="Moje konto"}</a>
+            <a href="{url_for internal='stOrder/list' secure=true}">{__ text="Zamówienia"}</a>
+            <span>{$logout}</span>
+        </div>
+    {elseif $is_authenticated && $account_type=="annonymous"}
+        <div id="user_status_info"><a href="{url_for internal='stUser/createPassword' secure=true}">{$username}</a></div>
+        <div class="tooltip_account tooltip roundies" style="padding:10px 30px;">
+            <span>{$remove}</span>
+        </div>
+    {elseif $is_authenticated && $account_type=="external"}
+        <div id="user_status_info">{$external}<a href="{url_for internal='stUserData/userPanel' secure=true}">{$username}</a>{if $points_system_is_active==1 && $points_show==1}{$points}{/if}</div>
+        <div class="tooltip_account tooltip roundies" style="padding:10px 30px;">
+            <a href="{url_for internal='stUserData/userPanel' secure=true}">{__ text="Moje konto"}</a>
+            <a href="{url_for internal='stOrder/list' secure=true}">{__ text="Zamówienia"}</a>
+            <span>{$logout}</span>
+        </div>        
+    {else}
+        <div id="user_status_info">{$my_account}</div>
+        <div class="tooltip_account tooltip roundies" style="padding:10px 30px;">                        
+            <a href="{url_for internal='stUser/loginUser' secure=true}">{__ text="Zaloguj"}</a>
+            <a href="{url_for internal='stUser/createAccount' secure=true}">{__ text="Zarejestruj"}</a>           
+        </div>    
+    {/if}
+
+</div>
+
+
+{literal}
+<script type="text/javascript" language="javascript">
+    jQuery(function ($) {
+         $(document).ready(function () {
+            $("#user_status_info").tooltip({ 
+               effect: 'slide',
+               opacity: 1,
+               position: 'bottom center',
+               offset: [10,0]
+
+            });
+        });
+    });
+
+</script>
+{/literal}

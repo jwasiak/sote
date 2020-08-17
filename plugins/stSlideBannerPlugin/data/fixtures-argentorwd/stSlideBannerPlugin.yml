@@ -1,0 +1,16 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_2
+    image: /picture/en_US/argentorwd-1.jpg
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_2:
+    language_id: Language_2
+    image: /picture/en_US/argentorwd-2.jpg
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_3:
+    language_id: Language_2
+    image: /picture/en_US/argentorwd-3.jpg
+    is_active: 1
+    opt_culture: en_US

@@ -1,0 +1,13 @@
+<ol class="breadcrumb hidden-xs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    	<a itemprop="item" href="{url_for internal=$homepage_url absolute=true}"><span itemprop="name">{__ text="Start" langCatalogue="stNavigationFrontend"}</span></a>
+    	<meta itemprop="position" content="1" />
+    </li>
+    {php}$this->assign("i",2);{/php}
+	{foreach item=breadcrumb from=$breadcrumbs name="breadcrumbs"}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        	<a itemprop="item" href="{url_for internal=$breadcrumb.link absolute=true}"><span itemprop="name">{$breadcrumb.name}</span></a>
+        	<meta itemprop="position" content="{$i++}" />
+        </li>
+	{/foreach}
+</ol>

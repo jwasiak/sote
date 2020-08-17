@@ -1,0 +1,31 @@
+<form class="product-attribute-filter-container" action="{urlfor internal=$action_url}" method="post">
+   <div class="filter-title">{__ text="Producent"}</div>
+
+      <div class="form-group text-filter">
+         <input type="hidden" name="fields" value="producer">
+         <select name="product_filter[producer]" class="form-control producer-select">
+            <option value="">{__ text="Wszyscy producenci" catalogue="stProducer"}</option>
+            {foreach key=id item=producer from=$producers}
+               {if $id == $filters.producer}
+                  <option selected="selected" value="{$id}">{$producer.label}</option>
+               {else}
+                  <option value="{$id}">{$producer.label}</option>
+               {/if}
+            {/foreach}
+         </select>
+      </div>
+        
+      {if $filters.producer}
+          <div class="clearfix"><a href="{urlfor internal=$reset_url}" class="pull-right reset">{__ text="wyczyść"} <span class="glyphicon glyphicon-remove"></span></a></div>
+      {/if}    
+</form>
+
+{literal}
+<script type="text/javascript">
+   jQuery(function($) {
+      $('#producer-filter').on('change', 'select', function() {
+         this.form.submit();
+      });
+   });
+</script>
+{/literal}

@@ -1,0 +1,7 @@
+fields:
+    config{dotpay_id}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    config{pin}:
+        required:
+            msg:    Proszę uzupełnić pole.

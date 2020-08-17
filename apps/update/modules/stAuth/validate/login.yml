@@ -1,0 +1,15 @@
+fields:
+    register{email}:
+        required:
+            msg:          Nie podałeś adresu email.
+
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail.
+
+    register{password1}:
+        required:
+            msg:       Nie podałeś hasła.
+
+        sfStringValidator:
+            min:       6
+            min_error: Podane hasło jest za krótkie min. 6 znaków.

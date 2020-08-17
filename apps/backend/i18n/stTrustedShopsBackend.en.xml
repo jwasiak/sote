@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Znak Jakości i Ochrona Kupującego</source>
+                <target>Seal of Approval and Buyer Protection</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Trusted Shops jest znanym internetowym znakiem jakości przydzielanym sklepom internetowym wraz z tzw. Ochroną Kupującego dla Państwa klientów. W przypadku certyfikacji państwa sklep internetowy zostaje poddany rozległym testom. Taki audyt obejmuje ponad 100 kryteriów, kierując się zarówno wymaganiami ochrony konsumenta, jak i prawem krajowym oraz UE.</source>
+                <target>Trusted Shops is the well-known internet Seal of Approval for online shops which also offers customers a Buyer Protection. During the audit, your online shop is subjected to extensive and thorough tests. This audit, consisting of over 100 individual criteria, is based on the requirements of consumer protection, national and European laws.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Większe obroty przez większe zaufanie!</source>
+                <target>More trust leads to more sales!</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Znak jakości Trusted Shops to optymalny sposób na zwiększenie zaufania klientów internetowych. Zaufanie zwiększa gotowość klientów do dokonywania zakupów u Państwa.</source>
+                <target>The Trusted Shops seal of approval is the optimal way to increase the trust of your online customers. Trust increases customers' willingness to buy from you.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Mniej przerwanych zakupów</source>
+                <target>Less abandoned purchases</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Oferują Państwo ważki argument swoim klientom internetowym: Ochronę Kupującego Trusted Shops. Dzięki temu dodatkowemu zabezpieczeniu rzadziej dochodzi do przerywania zakupów.</source>
+                <target>Give your online customers a strong reason to buy proposing the Trusted Shops Buyer Protection. This additional security leads to less shopping basket abandonment.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Zyskowne i trwałe stosunki z klientami</source>
+                <target>Profitable and long-term customer relationship</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Znak Jakości Trusted Shops z Ochroną Kupującego to dla wielu kupujących w Internecie trwały sygnał bezpiecznych zakupów internetowych. Z jednorazowych nabywców powstają stalli klienci.</source>
+                <target>For many online shoppers, the Trusted Shops Seal of Approval with Buyer Protection is an effective sign of quality for safe shopping on the internet. One-time buyers become regular customers.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Zarejestruj się teraz!</source>
+                <target>Apply now!</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Integracja z serwisem Trusted Shops.</source>
+                <target>Integration with Trusted Shops.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Informacje ogólne</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Lista certyfikatów</source>
+                <target>List of certificates</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Certyfikat</source>
+                <target>Certificate</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>URL</source>
+                <target>URL</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Język</source>
+                <target>Language</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Zarządzanie certyfikatami Trusted Shops</source>
+                <target>Manage Trusted Shops certificate</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Dodaj nowy certyfikat</source>
+                <target>Add new certificate</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Niemiecki</source>
+                <target>Germany</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Angielski</source>
+                <target>English</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Francuski</source>
+                <target>French</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Polski</source>
+                <target>Polish</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>ważny</source>
+                <target>valid</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>wygasły</source>
+                <target>policy expired</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>zablokowany</source>
+                <target>disabled</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>(jeszcze) nie wydany</source>
+                <target>not approved (yet)</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>testowy</source>
+                <target>test</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Nazwa użytkownika lub hasło są nieprawidłowe. Skontaktuj się z Trusted Shops pod adresem service@trustedshops.pl</source>
+                <target>Username or password invalid. Please contact Trusted Shops at service@trustedshops.co.uk</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Ramy kredytowe w Trusted Shops zostały unieważnione. Skontaktuj się z Trusted Shops pod adresem service@trustedshops.pl</source>
+                <target>You have reached your credit limit. Please contact service@trustedshops.co.uk</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Brak ram kredytowych w Trusted Shops. Skontaktuj się z Trusted Shops pod adresem service@trustedshops.pl</source>
+                <target>No credit available from Trusted Shops. Please contact service@trustedshops.co.uk</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Dane nie mogły zostać zapisane. Skontaktuj się z Trusted Shops pod adresem service@trustedshops.pl</source>
+                <target>The data could not be saved. Please contact Trusted Shops at service@trustedshops.co.uk</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Edycja certyfikatu</source>
+                <target>Edit the certificate</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Sklep</source>
+                <target>Shop</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Ochrona kupujących</source>
+                <target>Buyer Protection</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Nazwa użytkownika</source>
+                <target>Username</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Przypisanie metod płatności</source>
+                <target>Assign payment methods</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Medoty płatności</source>
+                <target>Payment methods</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Logo Trusted Shops</source>
+                <target>Trusted Shops Seal of Approval box options</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Pokaż logo</source>
+                <target>Display Trusted Shops Seal</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Płatności sklepu</source>
+                <target>Shop paymnets</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Płatności Trusted Shops</source>
+                <target>Trusted Shops payments</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Opinia Klienta Trusted Shops</source>
+                <target>Trusted Shops Customer Rating</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Pozytywne i weryfikowalne opinie klientów są ważną informacją dla kupujących w Internecie o wiarygodności sklepu internetowego. Niezbędne oprogramowanie jest już zintegrowane w SOTESHOP, dzięki czemu wystarczy kilka kliknięć, aby pobrać i pokazywać opinie klientów w swoim sklepie internetowym.</source>
+                <target>For online buyers, positive and verifiable customer ratings are an important indication of an online shop's trustworthiness. The required software is already included in SOTESHOP, so you can start collecting customer ratings in your online shop, too. Integration is easy with just a few clicks.</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Pomoc orientacyjna dla Państwa klientów</source>
+                <target>Orientation support for your customers</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Zadowoleni klienci są najlepszymi sprzedawcami. Wystarczy pozwolić klientom przemówić za Państwem i potwierdzić wygodne oraz bezpieczne zakupy w Państwa sklepie.</source>
+                <target>Satisfied customers are your best sales people. Let your customers speak for themselves as to how safe and easy it is to buy from your online shop.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Podstawa optymalizacji sklepu</source>
+                <target>Basis for shop optimisation</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Swoimi opiniami klienci chętnie pomagają w optymalizacji procesów w Państwa sklepie. Im lepiej bowiem działa sklep internetowy, tym bardziej zadowoleni są Państwa klienci.</source>
+                <target>Your customers are happy to help you optimise your shop with their feedback. After all, the better your online shop works, the more satisfied your customers will be.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Zwiększanie zasięgu przez Facebook, Twitter i Google</source>
+                <target>Increase reach via Facebook, Twitter and Google</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Klienci rozpowszechniają polecenia sklepów przez Facebook i Twitter bezpośrednio do przyjaciół i znajomych. Opinie są automatycznie umieszczane w indeksie Google i wyświetlane w Google Shopping.</source>
+                <target>Your customers spread reviews and rating on Facebook and Twitter directly to friends and followers. Ratings are automatically listed in the Google-Index and are displayed in Google Shopping.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Dziękujemy za aktywację funkcji Opinia Klienta Trusted Shops!</source>
+                <target>Thank you for activating Trusted Shops Customer Ratings.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Nieprawidłowy identyfikator Trusted Shops.</source>
+                <target>Invalid Trusted Shops ID.</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Dla tego identyfikatora Trusted Shops nie nastąpiła jeszcze aktywacja Opinii Klienta.</source>
+                <target>Customer Ratings have not yet been activated for this Trusted Shops ID.</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Zaloguj się</source>
+                <target>Please register</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>tutaj</source>
+                <target>here</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>lub skontaktuj się z serwisem pod adresem serwis@trustedshops.pl.</source>
+                <target>or contact service@trustedshops.co.uk.</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops. Zobacz więcej...</source>
+                <target>is a certified online shop with Trusted Shops Buyer Protection. More...</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+                <target>Trusted Shops Seal of Approval - Click to verify.</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Podgląd</source>
+                <target>Preview</target>
+            </trans-unit>
+             <trans-unit id="61">
+                <source>polecenie zapłaty</source>
+                <target>direct debit</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>karta kredytowa</source>
+                <target>credit card</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>faktura</source>
+                <target>invoice</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>gotówką przy dostawie</source>
+                <target>cash on delivery</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>przedpłata</source>
+                <target>prepayment</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>czek</source>
+                <target>cheque</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Paybox</source>
+                <target>Paybox</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>PayPal</source>
+                <target>PayPal</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>gotówką przy odbiorze</source>
+                <target>cash on pickup</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>finansowanie</source>
+                <target>financing</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>leasing</source>
+                <target>leasing</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>T-Pay</source>
+                <target>T-Pay</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Click&amp;Buy</source>
+                <target>Click&amp;Buy</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Giropay</source>
+                <target>Giropay</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Google Checkout</source>
+                <target>Google Checkout</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>karta sklepu</source>
+                <target>online shop payment card</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>bezpośrednio przez e-banking</source>
+                <target>DIRECTebanking.com
+                </target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>moneybookers.com</source>
+                <target>moneybookers.com</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>inne</source>
+                <target>Other method of payment</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Ochrona kupującego</source>
+                <target>Buyer protection</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Opinia klienta</source>
+                <target>Customer rating</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Nieaktywny</source>
+                <target>Inactive</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Aktywuj</source>
+                <target>Activate</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Widget</source>
+                <target>Widget</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Pokaż widget</source>
+                <target>Show widget</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Pokaż link opinii w mailu z potwierdzeniem zamówienia</source>
+                <target>Show rating link in order confirm mail</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Tryb testowy</source>
+                <target>Test mode</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Włącz tryb testowy:</source>
+                <target>Enable test mode:</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Adres url</source>
+                <target>URL address</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Adres należy podać bez protokołu (http://, https://).</source>
+                <target>The address should be provided without the protocol (http://, https ://).</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Sklep korzysta z domyślnych ustawień przypisania metod płatności.</source>
+                <target>Shop uses the default settings for the assignment of payment methods.</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Jeżeli chcesz je zmienić przejdź do</source>
+                <target>If you want to change it, go to</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>opcji zaawansowanych.</source>
+                <target>the advanced options.</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Opcja służy do przypisania metod płatności sklepu z metodami płatności z systemu Trusted Shops.</source>
+                <target>This option is used to assign payment methods to store payment method from the Trusted Shops.</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>już zintegrował produkty Trusted Shops w panelu</source>
+                <target>already integrated the products Trusted Shops panel</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>aktywny</source>
+                <target>active</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Opinia klientów</source>
+                <target>Customer reviews</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Kliknij, aby przejdź do centrum integracji TrustedShops i pobrać kod Trustbadge.</source>
+                <target>Click here to find a step-by-step instructions in TrustedShops integration center.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,17 @@
+package:
+  name: stBasicPricePlugin
+  stability: stable
+  version: 7.0.1.1
+  summary: 'Jednostki miar cen zasadniczych'
+  description: 'Jednostki miar cen zasadniczych'
+  notes: |
+    - Dodanie ikony do konfiguracji
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl  

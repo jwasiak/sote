@@ -1,0 +1,12 @@
+package:
+  name: stPrototypePlugin
+  stability: stable
+  version: 2.0.0
+  summary: Prototype
+  description: Prototype
+  notes: 'Wydanie wersji SOTESHOP 6'
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

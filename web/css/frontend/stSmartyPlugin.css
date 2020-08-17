@@ -1,0 +1,233 @@
+.smarty_button a,
+.smarty_button button {
+    -moz-box-sizing: border-box;
+    background-color: #F2F2F2;
+    background-image: -moz-linear-gradient(center top , #F2F2F2 0%, #CCCCCC 100%);
+    border: 1px solid #CCCCCC;
+    color: #262626;
+    cursor: pointer;
+    display: table-cell;
+    font-size: 13px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 13px;
+    padding: 0 14px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    box-shadow: 0 1px 1px rgb(235,235,235);
+}
+
+.smarty_button a:hover {
+   border-color: #828282;
+   opacity: 0.9;
+}
+
+.smarty_popup_window {
+   z-index: 31000;
+   width: 615px;
+   min-height: 230px;
+   background-color: #ccc;
+   display: none;
+}
+
+.smarty_preloader {
+   background: url('/images/backend/beta/gadgets/preloader/160x24.gif') no-repeat center center #fff;
+}
+
+.smarty_popup_window > .smarty_popup_container > h2 {
+   font-size: 16px;
+   color: #fff;
+   border-bottom: none;
+   padding: 15px 10px;
+   margin: 0px;
+   background: #EF1616;
+   text-align: center;
+}
+
+.smarty_popup_window > .smarty_popup_container > .content {
+   padding: 10px;
+}
+
+.smarty_popup_window .close {
+   position: absolute;
+   width: 100%;
+   text-align: right;
+   top: 7px;
+   right: 5px;
+}
+
+.smarty_popup_window .form-row {
+   margin-top: 10px;
+}
+
+.smarty_popup_window .form-row:first-child {
+   margin-top: 0px;
+}
+
+.smarty_popup_window .smarty_button
+{
+  margin-top: 20px;
+}
+
+.smarty_popup_window .smarty_button *
+{
+  text-transform: lowercase;
+}
+
+.smarty_popup_window .close img {
+   cursor: pointer;
+}
+
+.smarty_popup_window > .smarty_popup_container > .content {
+   background-color: #fff;
+}
+
+.smarty_component .smarty_handle {
+   position: absolute;
+   background: url('/images/smarty_slot_component.png');
+   opacity: 0.3;
+   z-index: 10000;
+}
+
+.smarty_placeholder {
+   background-color: #ccc;
+   min-height: 50px;
+   margin-bottom: 10px;
+}
+
+.smarty_orientation_horizontal .smarty_component,
+.smarty_orientation_horizontal .smarty_placeholder {
+   float: left;
+}
+
+
+
+.smarty_component:hover .smarty_handle {
+   opacity: 0.5;
+}
+
+.smarty_component .smarty_menu {
+   display: none;
+   position: absolute;
+   z-index: 11000;
+   padding: 5px;
+   text-align: right;
+   box-sizing: border-box;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+}
+
+.smarty_slot .smarty_menu,
+.smarty_slot .smarty_handle {
+   cursor: move;
+}
+
+.smarty_slot_placeholder {
+   min-height: 100px;
+   background: #eee;
+}
+
+.smarty_component:hover .smarty_menu {
+   display: block !important;
+}
+
+
+
+.smarty_component .smarty_menu a {
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   cursor: pointer;   
+   background: none no-repeat center center #fff;
+   padding: 3px;
+   border: 1px solid #888;
+}
+
+
+.smarty_component .smarty_menu .smarty_edit {
+
+   background-image: url(/images/backend/beta/icons/16x16/edit.png);
+}
+
+.smarty_popup_window input,
+.smarty_popup_window select,
+.smarty_popup_window textarea {
+   background: #fff;
+   border: 1px solid #ccc;
+   color: #262626;
+   font-size: 14px;
+   padding: 5px;
+}
+
+.smarty_popup_window div.form_error {
+   color: red;
+}
+
+.smarty_popup_window input.form_error {
+   border: 1px solid red !important; 
+}
+
+.smarty_popup_window label {
+   color: #262626;
+   font-size: 14px;
+}
+
+.smarty_popup_window input[type="text"],
+.smarty_popup_window input[type="password"],
+.smarty_popup_window textarea {
+   width: 100%;
+}
+
+.smarty_popup_window textarea {
+   height: 150px;
+}
+
+#content_block_form .smarty_image img {
+   display: block;
+   margin-bottom: 5px;
+}
+
+#smarty_login_form {
+   width: 350px;
+   min-height: 0;
+   box-shadow: 0 0 80px rgba(0,0,0, .6);
+   border: 1px solid #fff;
+}
+
+#smarty_login_form > .smarty_popup_container > .content {
+   padding: 20px 41px;
+}
+
+
+#smarty_login_form .navigation a {
+    text-decoration: none;
+}
+
+#smarty_login_form .navigation a span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 16px;
+}
+
+#smarty_login_form .navigation li:first-child {
+    float: left;
+}
+
+#smarty_login_form .navigation li {
+    float: right;
+}
+
+#smarty_login_form form {
+    clear: both;
+}
+
+#smarty_login_form input[type="text"], #smarty_login_form input[type="password"]
+{
+  padding: 8px 5px;
+}
+
+.tinymce-container {
+  margin-top: -25px;
+}

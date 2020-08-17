@@ -1,0 +1,19 @@
+<div id="st_box_payment">
+    {if $check_configuration == true}
+        <img src="/images/frontend/theme/default2/stPayByNetPlugin/logo.png" alt="PayByNet"/><br />
+        <span>
+            {$description}
+        </span>
+        {$form_start}
+            {$hidden_hashtrans}
+            <div class="buttons right">
+                <button type="submit" class="important roundies">
+                    <span class="arrow_right">{__ text="Zapłać"}</span>
+                </button>
+            </div>
+            <br class="clear" />
+        </form>
+    {else}
+        {__ text="Płatność została błędnie skonfigurowana."}
+    {/if}
+</div>

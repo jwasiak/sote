@@ -1,0 +1,14 @@
+fillin:
+    enabled:      true
+
+fields:
+    discount_user{discount}:
+        required:
+            msg:        Proszę podać warość rabatu
+        sfNumberValidator:
+            nan_error:  Proszę podać wartość liczbową
+            min:        0
+            min_error:  Minimalna wartość rabatu to 0%
+            max:        100
+            max_error:  Maksymalna wartość rabatu to 100%
+            

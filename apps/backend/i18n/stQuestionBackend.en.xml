@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zapytania</source>
+                <target>Inquiries</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>anulowane</source>
+                <target>cancelled</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>nowe</source>
+                <target>new</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>oczekuje</source>
+                <target>pending</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>wysłane</source>
+                <target>sent</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Podaj nazwę statusu</source>
+                <target>Enter a status name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Nazwa produktu:</source>
+                <target>Product name:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kod produktu:</source>
+                <target>Product code:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Producent:</source>
+                <target>Manufacturer:</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Kategoria:</source>
+                <target>Category:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Treść odpowiedzi</source>
+                <target>Answer</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przejdź do produktu</source>
+                <target>Go to the product</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Dostępność</source>
+                <target>Availability</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dla produktów z ukrytą ceną</source>
+                <target>For the products with a hidden price</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Odpowiedź na pytanie o dostępnosc produktu:</source>
+                <target>Information about the product availability:</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Odpowiedź na pytanie o cenę produktu:</source>
+                <target>Information about the product price:</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Statusy</source>
+                <target>Statuses</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Rodzaj</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Utwórz</source>
+                <target>Create</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Edycja statusu %%name%%</source>
+                <target>Edit the status %%name%%</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Treść odpowiedzi:</source>
+                <target>Answer:</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Domyślny status jest ustawiany dla każdego nowo złożonego zapytania</source>
+                <target>The default status is set for each new inquiry</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Pokaż nazwę produktu:</source>
+                <target>Show a product name:</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Pokaż skrócony opis:</source>
+                <target>Show a short description:</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Zarządzanie zapytaniami</source>
+                <target>Manage the inquiries</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Wysłane</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Typ zapytania</source>
+                <target>Inquiry type</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Produkt</source>
+                <target>Product</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Adres e-mail pytającego</source>
+                <target>Email address</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Edycja zapytania</source>
+                <target>Edit an inquiry</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Treść zapytania</source>
+                <target>Inquiry</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Zapisz i wyślij</source>
+                <target>Save and send</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Zapytania o cenę produktu</source>
+                <target>Product price inquiry</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Zapytania o dostępność produktu</source>
+                <target>Product availability inquiry</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Wygląd produktu w zapytaniu</source>
+                <target>Product presentation in the inquiry</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Zastosowanie:</source>
+                <target>Usage:</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Włączenie modułu:</source>
+                <target>Enable the module:</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Tylko dla zalogowanych użytkowników:</source>
+                <target>Only for the logged users:</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Pokazuj przy dostępności:</source>
+                <target>Show when a product availability is:</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Zawsze pokazuj przy produkcie z opcjami:</source>
+                <target>Always show if a product has the options:</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Pokaż zdjęcie produktu:</source>
+                <target>Show a product image:</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Pokaż kod produktu:</source>
+                <target>Show a product code:</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Zapytania ofertowe</source>
+                <target>Inquiries</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Konfiguracja zapytań</source>
+                <target>Inquiries configuration</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

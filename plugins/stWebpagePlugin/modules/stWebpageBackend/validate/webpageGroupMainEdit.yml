@@ -1,0 +1,4 @@
+fields:
+    webpage_group{name}:
+        required:
+            msg:        Podaj tytuł grupy linków

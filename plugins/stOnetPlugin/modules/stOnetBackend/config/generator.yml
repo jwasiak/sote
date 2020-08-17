@@ -1,0 +1,57 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            Onet
+        theme:                  simple
+    
+        head:
+            package:            stOnetPlugin
+
+        list:
+            title:              Lista produktów
+            description:        Zarządzanie porównywarką cen Onet
+            max_per_page:       20
+            display:            [id, _product, active]
+            peer_method:        doSelectJoinAll
+            actions:
+                _
+            object_actions:
+                _edit:          -
+                _delete:        -
+            filters:
+                product:        {filter_field: product.name}
+            fields:
+                id:             {name: ID}
+                product:        {name: Nazwa produktu, sort_field: product.name, params: size=50}
+                active:         {name: Aktywny}
+            menu:
+                fields:
+                    list:       {name: Lista produktów, action: @stOnetPluginDefault}
+                    generate:   {name: Generowanie pliku xml, action: stOnetBackend/generateCustom}
+                display:        [list, generate]   
+
+        edit:
+            title:              Edycja produktu
+            description:        Zarządzanie porównywarką cen Onet
+            display:
+                "Dane głowne":  [id, product, active]
+                "Opisowe":      [description]
+            fields:
+                product:        {name: Nazwa produktu}
+                active:         {name: Aktywny}
+                description:    {name: Opis, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:300,width:400'}
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+                _delete:        {name: Usuń}      
+
+        
+        generate_model_class:   Onet
+        
+        custom_actions:
+            custom:             [generate]
+
+        generate_custom:
+            menu:               {use: list.menu}
+            title:              Generowanie pliku xml
+            description:        Zarządzanie porównywarką cen Onet

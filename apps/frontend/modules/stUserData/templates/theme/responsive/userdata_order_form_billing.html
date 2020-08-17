@@ -1,0 +1,224 @@
+<div class="row">
+    <div class="col-sm-6 col-lg-6">
+        <div class="radio">
+            <label> {$radio_billing_customer_type1}
+                {$label_billing_customer_type1} </label>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-6">
+        <div class="radio">
+            <label> {$radio_billing_customer_type2}
+                {$label_billing_customer_type2} </label>
+        </div>
+    </div>
+</div>
+
+<div id="company_billing_fields">
+    <div class="form-group  {if $error_billing_company!=''}has-error{/if}">
+        {if $error_billing_company!=""}<label class="control-label" for="company_billing">{$error_billing_company}</label>{/if}
+        {$input_billing_company}
+    </div>
+
+    <div class="form-group  {if $error_billing_vat!=''}has-error{/if}">
+        {if $error_billing_vat!=""}<label class="control-label" for="company_billing">{$error_billing_vat}</label>{/if}
+        {$input_billing_nip}
+    </div>
+</div>
+
+<div class="form-group  {if $error_billing_full_name!=''}has-error{/if}">
+    {if $error_billing_full_name!=""}<label class="control-label" for="full_name_billing">{$error_billing_full_name}</label>{/if}
+    {$input_billing_full_name}
+</div>
+
+<div class="form-group  {if $error_billing_address!=''}has-error{/if}">
+    {if $error_billing_address!=""}<label class="control-label" for="address_billing">{$error_billing_address}</label>{/if}
+    {$input_billing_address}
+</div>
+
+{if $show_address_more==1}
+<div class="form-group">
+    {$input_billing_address_more}
+</div>
+{/if}
+
+{if $show_region==1}
+<div class="form-group">
+    {$input_billing_region}
+</div>
+{/if}
+
+<div class="row">
+    <div class="col-sm-6 col-lg-4">
+        <div class="form-group  {if $error_billing_code!=''}has-error{/if}">
+            {if $error_billing_code!=""}<label class="control-label" for="code_billing">{$error_billing_code}</label>{/if}
+            {$input_billing_code}
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-8">
+        <div class="form-group  {if $error_billing_town!=''}has-error{/if}">
+            {if $error_billing_town!=""}<label class="control-label" for="town_billing">{$error_billing_town}</label>{/if}
+            {$input_billing_town}
+        </div>
+    </div>
+</div>
+
+<div class="form-group {if $error_billing_country!=''}has-error{/if}">
+    {if $error_billing_country!=""}<label class="control-label" for="country_billing">{$error_billing_country}</label>{/if}
+    {$select_billing_country}
+</div>
+
+{if $show_pesel==1}
+<div class="form-group">
+    {$input_billing_pesel}
+</div>
+{/if}
+
+<div class="form-group  {if $error_billing_phone!=''}has-error{/if}">
+    {if $error_billing_phone!=""}<label class="control-label" for="phone_billing">{$error_billing_phone}</label>{/if}
+    {$input_billing_phone}
+</div>
+
+{$description}
+{$under_basket_socket}
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function() {
+            
+            var star_placeholder_billing = $("#full_name_billing").attr("placeholder");        
+            var no_star_placeholder_billing = star_placeholder_billing.substring(2);
+
+            if ($('#user_data_billing_customer_type_2').attr('checked')) {
+                $("#company_billing_fields").show();
+                $("#full_name_billing").attr("placeholder",no_star_placeholder_billing);
+            } else {
+                $("#company_billing_fields").hide();
+                $("#full_name_billing").attr("placeholder",star_placeholder_billing);
+            }
+
+            $('#user_data_billing_customer_type_1').click(function() {
+                $("#company_billing_fields").hide();
+                $("#full_name_billing").attr("placeholder",star_placeholder_billing);
+            });
+
+            $('#user_data_billing_customer_type_2').click(function() {
+                $("#company_billing_fields").show();
+                $("#full_name_billing").attr("placeholder",no_star_placeholder_billing);
+            });
+
+            $("#company_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#company_delivery").val();
+                $(".row_company label").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#company_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+            $("#full_name_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#full_name_delivery").val();
+                $(".row_full_name label").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#full_name_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+            $("#address_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#address_delivery").val();
+                $(".row_address label").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#address_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+            $("#address_more_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#address_more_delivery").val();
+                $(".row_address-more label").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#address_more_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+            
+            $("#region_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#region_delivery").val();
+                $(".row_address-more label").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#region_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+
+            $("#code_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#code_delivery").val();
+                $("#label_code").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#code_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+            $("#town_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#town_delivery").val();
+                $("#label_town").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#town_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+            $("#phone_billing").change(function() {
+                var word_billing = $(this).get(0).defaultValue;
+                var word_delivery = $("#phone_delivery").val();
+                $(".row_phone label").hide();
+
+                if (word_billing == word_delivery) {
+                    $("#phone_delivery").val($(this).val());
+                    $(this).get(0).defaultValue = $(this).val();
+
+                    return false;
+                }
+            });
+
+            $("#order_description_text").change(function() {
+                $("#order_description").val($("#order_description_text").val());
+            });
+
+        });
+    }); 
+</script>
+{/literal}

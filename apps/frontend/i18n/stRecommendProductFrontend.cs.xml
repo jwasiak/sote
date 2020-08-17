@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2011-11-10T03:22:20Z">
+		<body>
+			<trans-unit id="1">
+				<source>treść wiadomości</source>
+				<target>obsah zprávy</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>twój adres e-mail</source>
+				<target>Vaše e-mailová adresa</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>informacje dodatkowe</source>
+				<target>dodatkové informace</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>emailová adresa Vašeho známého</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>cyfry z obrazka</source>
+				<target>číslice z obrázku</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wiadomość o treści</source>
+				<target>Zpráva v znění</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>została wysłana do</source>
+				<target>byla odeslána do</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Polecenie produktu</source>
+				<target>Doporučit produkt</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Dziękujemy</source>
+				<target>Děkujeme</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>Tomuto známému jste již raz doporučení poslali.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Możesz polecić produkt innemu znajomemu</source>
+				<target>Produkt můžete doporučit jinému známému</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Odeslat</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Poleć produkt</source>
+				<target>Doporučit produkt</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Brak adresu e-mail</source>
+				<target>Adresa emailu nebyla zadána.</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Nesprávný formát emailové adresy</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Zadejte správné číslice</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Powrót</source>
+				<target>Zpět</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Data polecenia produktu</source>
+				<target>Data doporučení produktu</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Produkt polecił</source>
+				<target>Produkt doporučil</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Adresat (e-mail)</source>
+				<target>Odběratel (email)</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Treść</source>
+				<target>Obsah</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nadawca (e-mail)</source>
+				<target>Odesílatel (email)</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Cyfry z obrazka</source>
+				<target>Čísla z obrázku</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Polecenie produktu.</source>
+				<target>Doporučení produktu.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Bylo uvedené špatné číslo.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Polecone od</source>
+				<target>Doporučoval</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Tato zpráva byla odeslaná z internetového obchodu</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Pokaż produkt w sklepie</source>
+				<target>Ukaž produkt v obchodě</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Opis produktu</source>
+				<target>Popis produktu</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

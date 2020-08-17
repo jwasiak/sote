@@ -1,0 +1,16 @@
+Language: 
+  Language_Cs: 
+    culture: pl_PL
+    name: Czeska
+    shortcut: cs
+    active_image: cs_active.png
+    inactive_image: cs_inactive.png
+    active: 0
+    language: cs
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Cs: 
+    id: Language_Cs
+    culture: en_US
+    name: Czech

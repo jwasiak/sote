@@ -1,0 +1,197 @@
+<script src="https://mapa.ecommerce.poczta-polska.pl/widget/scripts/ppwidget.js?v1"></script>
+
+<div class="modal fade modal-vertical-centered" id="poczta-polska-message-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{__ text="Poczta Polska"}</h4>
+      </div>
+      <div class="modal-body text-center"></div>
+      <div class="modal-footer">
+        <div class="text-center">
+            <button type="button" class="btn btn-default" data-dismiss="modal">{__ text="Zamknij"}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).on('poczta-polska-widget-init', function() {
+            var deliveryPoints = $('.poczta-polska-container');
+            var savedPoint = getParameter('poczta_polska_pickup_point');
+            {/literal}
+            var payments = {$payments};
+            {literal}
+
+            var i18n = {
+            {/literal}
+                change_delivery_point: '{__ text="Wybrany punkt nie obsługuje płatności przy odbiorze.<br>Zmień płatność lub wybierz inny punkt odbioru."}',
+                choose_delivery_point: '{__ text="Wybierz punkt odbioru"}'
+            {literal}
+            }
+
+            function setParameter(name, value) {
+                var storage = window.localStorage;
+                storage.setItem(name, typeof value === 'object' ? JSON.stringify(value) : value);
+            }
+
+            function getParameter(name, defaultValue = null) {
+                var storage = window.localStorage;
+                var value = storage.getItem(name);
+                try {
+                    return JSON.parse(value);
+                } catch(e) {}
+
+                return value ? value : defaultValue;
+            }
+
+            function pointUpdate(pocztaPolskaAddress, point) {
+                pocztaPolskaAddress.html('<b>'+point.name+'</b><br>'+point.street+'<br>'+point.zipCode+' '+point.city).data('map', point.street+' '+point.zipCode+' '+point.city).data('type', point.type);
+                $('#user_data_billing_poczta_polska').val(JSON.stringify(point));
+            }
+
+            function showMessage(message) {
+                var modal = $('#poczta-polska-message-modal');
+                modal.find('.modal-body').html(message);
+                modal.modal('show');
+            }
+
+            function validateDeliveryPoint(validateEmpty) {
+                var container = $('#shopping-cart-delivery .delivery-radio:checked').parent();
+                var payment_id = $('#shopping-cart-payment .radio input[type=radio]:checked').val();
+
+                var pocztaPolskaAddress = container.find('.poczta-polska-address');
+
+                if (pocztaPolskaAddress.length) {
+                    if (validateEmpty && !pocztaPolskaAddress.data('type'))  {
+                        showMessage(i18n.choose_delivery_point);
+                        return false;
+                    } else if (pocztaPolskaAddress.data('type') && pocztaPolskaAddress.data('type') != "POCZTA" && (payments.indexOf(payment_id) > -1 || payments.indexOf(Number(payment_id)) > -1)) {
+                        showMessage(i18n.change_delivery_point);
+                        return false;
+                    } 
+                }
+                
+                return true;                
+            }
+            
+            $('#user_delivery_form').submit(function() {
+                return validateDeliveryPoint(true);
+            });
+
+            $('#shopping-cart-payment').on('change', 'input[type=radio]', function() {
+                $('#basket-update-modal').one('hidden.bs.modal', function() {
+                    validateDeliveryPoint();
+                });
+            });
+
+            deliveryPoints.each(function() {
+                var deliveryPoint = $(this);
+
+                if (deliveryPoint.data('init')) {
+                    return false;
+                }
+
+                deliveryPoint.data('init', true);
+
+                {/literal}
+                var url = "{url_for internal='@stPocztaPolskaFrontend'}";
+                var id = deliveryPoint.data('delivery-id');
+                var shopping_cart_delivery = $('#shopping-cart-delivery');
+                var selected = $('#shopping-cart-delivery .delivery-radio:checked').val() == id;
+                var is_authenticated = {$sf_user->isAuthenticated()|string_format:"%d"};
+                {literal}
+
+                if (savedPoint) {
+                    pointUpdate(deliveryPoint.children('.poczta-polska-address'), savedPoint);
+                }
+
+                deliveryPoint.on("click", ".poczta-polska-delivery-point", function() {
+                    var clientAddress = undefined;
+
+                    if ($('#different_delivery').prop('checked') || is_authenticated) {
+                        clientAddress = $('#code_delivery').val() ? $('#code_delivery').val() : $('#code_billing').val();
+                    } else {
+                        clientAddress = $('#code_billing').val();
+                    }
+
+                    var link = $(this);
+                    var payment_id = $('#shopping-cart-payment .radio input[type=radio]:checked').val();
+                    var pobranie = (payments.indexOf(payment_id) > -1 || payments.indexOf(Number(payment_id)) > -1);
+                    var address = savedPoint ? savedPoint.street+' '+savedPoint.zipCode+' '+savedPoint.city : clientAddress;
+                    var pocztaPolskaAddress = deliveryPoint.children('.poczta-polska-address');
+
+                    PPWidgetApp.toggleMap({ 
+                        callback: function(point) {
+                            var radio = link.closest('.radio').find('input[type="radio"]');
+                            pointUpdate(pocztaPolskaAddress, point);
+                            setParameter('poczta_polska_pickup_point', point);
+                            if (!radio.prop('checked')) {
+                                radio.prop('checked', true).change();
+                            }
+                        }, 
+                        'payOnPickup': pobranie,
+                        'address': address
+                    });
+
+                    return false;
+                });
+            
+
+                function update() {
+                    var different_delivery = $('#different_delivery');
+                
+                    if (selected) {
+                        shopping_cart_delivery.data('delivery-type', 'poczta-polska');
+                        shopping_cart_delivery.attr('data-delivery-type', 'poczta-polska');
+                    }
+
+                    var update = shopping_cart_delivery.data('delivery-type') == 'poczta-polska';
+
+                    if (selected) {
+                        if (update) {
+                            if (different_delivery.prop('checked')) {
+                                different_delivery.get(0).click();
+                            }
+
+                            different_delivery.prop('disabled', true);
+                            if (is_authenticated) {
+                                $('#order_form_delivery').hide();
+                                $('#order_form_billing').parent().addClass('col-sm-push-6');
+                            }
+                        }
+                        deliveryPoint.children('.poczta-polska-address').show();
+                        console.log('show poczta');
+                    } else {                        
+                        deliveryPoint.children('.poczta-polska-address').hide();
+                        console.log('hide poczta');
+                        
+                        if (update) {                 
+                            different_delivery.prop('disabled', false);       
+                            
+                            if (is_authenticated) {
+                                $('#order_form_delivery').show();
+                                $('#order_form_billing').parent().removeClass('col-sm-push-6');
+                            }
+                        }
+                    }
+                }
+
+                update();
+
+                shopping_cart_delivery.on('change', '.delivery-radio', function() {
+                    selected = $(this).val() == id;
+                    update();
+                });
+         
+            });
+        }).ready(function() {
+            $(this).trigger('poczta-polska-widget-init');
+        });
+    });
+</script>
+{/literal}

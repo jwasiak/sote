@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-11-04T04:27:00Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Pagamento</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Kliknij przycisk</source>
+				<target>Prima o botão</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>"Zapłać"</source>
+				<target>"Pagar"</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>aby przejść do serwisu Przelewy24.</source>
+				<target>Para ir ao site Przelewy24.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Pagar</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Agradecemos a efectuação do pagamento</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Pagamento configurado de forma errada.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Pagamento não foi realizado</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

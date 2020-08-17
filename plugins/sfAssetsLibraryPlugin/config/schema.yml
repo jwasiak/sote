@@ -1,0 +1,58 @@
+propel:
+   _attributes:    { package: plugins.sfAssetsLibraryPlugin.lib.model }
+
+   sf_asset_folder:
+      _attributes:      
+         phpName: sfAssetFolder
+      id:
+      tree_left:        { type: integer, required: true }
+      tree_right:       { type: integer, required: true }
+      tree_parent:      { type: integer, foreignTable: sf_asset_folder, foreignReference: id, onDelete: restrict}
+      tree_depth:       { type: integer }
+      static_scope:     integer
+      name:             varchar(255)
+      relative_path:    varchar(255)
+      is_enabled:       { type: boolean, default: true}
+      created_at:
+      updated_at:
+      _uniques:
+         uk_relative_path: [relative_path]
+
+   sf_asset:
+      _attributes:      
+         phpName: sfAsset
+         isI18N: true
+         i18nTable: sf_asset_i18n         
+      id:
+      folder_id:        { type: integer, foreignTable: sf_asset_folder, foreignReference: id, required: true, onDelete: CASCADE, onUpdate: CASCADE }
+      filename:         varchar(255)
+      opt_description:  { change_column: description, type: LONGVARCHAR }
+      author:           varchar(255)
+      copyright:        varchar(100)
+      type:             varchar(10)
+      filesize:
+         type:           DECIMAL
+         size: 10
+         scale: 2      
+      created_at:
+      updated_at:
+      _uniques:
+         uk_folder_filename: [folder_id, filename]
+
+   sf_asset_i18n:
+      _attributes: 
+         phpName: sfAssetI18n
+      id: 
+         type: integer
+         required: true
+         primaryKey: true
+         foreignTable: sf_asset
+         foreignReference: id
+         onDelete: cascade
+      culture:
+         isCulture: true
+         primaryKey: true
+         type: VARCHAR
+         size: 7
+      description:
+         type: LONGVARCHAR

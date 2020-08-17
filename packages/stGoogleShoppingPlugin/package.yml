@@ -1,0 +1,16 @@
+---
+package: 
+  name: stGoogleShoppingPlugin
+  stability: stable
+  version: 7.0.8.8
+  summary: Google Shopping
+  description: Zarzadzanie Google Shopping
+  notes: |
+    - Poprawka wersji php
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stPriceCompare: 1.0.3

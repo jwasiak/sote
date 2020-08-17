@@ -1,0 +1,71 @@
+<div id="st_gift_card" class="roundies box_form" style="margin-bottom:0px;">
+   <h3>{__ text="Bon zakupowy"}</h3>
+   {if $gift_cards}
+   <ul id="st_gift_card-list">
+      {foreach item=gift_card from=$gift_cards}
+      <li>{$gift_card.code}: {$gift_card.amount|st_currency_format} <a href="{$gift_card.remove_url}"><img src="{$remove_icon}" alt="{__ text='Usuń bon'}" title="{__ text='Usuń bon'}"/></a></li>
+      {/foreach}
+   </ul>
+   {else}
+   <form action="{$form.action}" method="post"> 
+      
+         
+
+         <div id="st_gift_card-form">
+         	{if $form.error}
+         <div class="form-error">
+            {$form.error}
+         </div>
+         {/if}
+             
+             
+             <fieldset>
+		<div class="st_row left">
+	        <div class="st_field">
+	            <label for="gift_card_code">{__ text="Wprowadź kod"}</label>
+	            <input id="gift_card_code" name="gift_card[code]" type="text" value="{$form.code}" />
+             <input type="hidden" name="gift_card[return_url]" value="{$form.return_url}" />
+	        </div>
+	    </div>
+	    
+	    <div class="st_row left">
+	        <div class="st_field">
+	     
+		     	<div class="buttons">
+	                <button class="regular roundies" type="submit">
+	                   {__ text="Aktywuj"}
+	                </button>
+	            </div>
+	        
+	        </div>
+	    </div>
+
+        
+		<div class="clear"></div>         
+            
+
+	  </fieldset>
+             
+             
+             
+             
+            
+        </div>
+
+   </form>
+   {/if}
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{		
+		$("label").inFieldLabels();
+			 
+	 });
+});
+
+</script>
+{/literal}

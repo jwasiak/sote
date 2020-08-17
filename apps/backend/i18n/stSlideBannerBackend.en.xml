@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Baner</source>
+                <target>Banner</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Baner na stonie glownej</source>
+                <target>Banner on the main page</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zarządzanie banerem na stronie głównej.</source>
+                <target>Manage banner on the homepage.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Slajdy</source>
+                <target>Slides</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Slajd</source>
+                <target>Slide</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Wersja językowa</source>
+                <target>Language version</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Edycja slajdu.</source>
+                <target>Edit a slide.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Obrazek</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Link</source>
+                <target>Link</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Włącz baner</source>
+                <target>Enable a banner</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Szerokość banera</source>
+                <target>Banner width</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Wartość podawana w procentach lub pikselach np. 100% lub 200px.</source>
+                <target>The value is given in percent or in pixels, eg 100% or 200px.</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Wysokość banera</source>
+                <target>Banner heigth</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Kolor tekstu</source>
+                <target>Text color</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Kolor tekstu w opisie banera</source>
+                <target>Text color in the banner's description</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Kolor tła</source>
+                <target>Background color</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Kolor tła w opisie banera</source>
+                <target>Background color in the banner's description</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Ignoruj wersję językowe</source>
+                <target>Ignore a language version</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wyświetla wszystkie slajdy niezależnie od języka</source>
+                <target>Displays all the slides, independently of a language version</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Rodzaj zmiany</source>
+                <target>Type of change</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>losowy</source>
+                <target>random</target>
+            </trans-unit>
+            <trans-unit id="226">
+                <source>przenikanie</source>
+                <target>fade</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Czas wyświetlania slajdu</source>
+                <target>Slide duration</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Szybkość animacji</source>
+                <target>Animation speed</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Pobierz rozmiar banera ze zdjęcia</source>
+                <target>Set size of banner from photo</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Ustala rozmiar baneru jak rozmiar zdjęcia. Nie pobiera go z konfiguracji.</source>
+                <target>Sets the size of the banner as the picture size. Do not use it from the configuration below.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Konfiguracja banerów</source>
+                <target>Banners configuration</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Banery</source>
+                <target>Banners</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Wyświetlaj w tematach</source>
+                <target>Display in theme</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Tylko desktop</source>
+                <target>Only desktop</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Tylko responsive</source>
+                <target>Only responsive</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Obrazek (wersja mobilna)</source>
+                <target>Image (mobile version)</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Załącz obrazek</source>
+                <target>Attach image</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Włącz grupy banerów</source>
+                <target>Turn a group of banners</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Nazwa grupy</source>
+                <target>Group name</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Opcja dla webmasterów dająca możliwość tworzenia kolejnych banerów w tematach indywidualnych</source>
+                <target>This option gives webmasters the ability to create more banners in individual topics</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Zachęcenie do podjęcia akcji (CTA Call to Action).</source>
+                <target>Encouragement to take action (CTA Call to Action).</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Margines lewy</source>
+                <target>Left margin</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Margines prawy</source>
+                <target>Right margin</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Tytuł na banerze</source>
+                <target>Title on the banner</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Przycisk</source>
+                <target>Button</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Link przycisku</source>
+                <target>Button Link</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Zdjęcie</source>
+                <target>Picture</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Zdjęcie (wersja mobilna)</source>
+                <target>Photo (mobile version)</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Opis zdjęcia dla wyszukiwarek</source>
+                <target>Photo description for search engines</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Link do strony, która ma się otworzyć po kliknięciu w baner.</source>
+                <target>Link to the page that should open after clicking on the banner.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Opcja dla webmasterów. Pozwala na utworzenie dodatkowych grup banerów na stronie.</source>
+                <target>Webmaster option. It allows you to create additional banner groups on the site.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Tekst, który pojawi się na banerze.</source>
+                <target>The text that will appear on the banner.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>1-2 krótkie zdania opisujące to, co znajduje się na stronie, do której odsyła baner.</source>
+                <target>1-2 short sentences describing what is on the page to which the banner refers.</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Np. Sprawdź, Dowiedz się więcej, Przeczytaj, Zamów.</source>
+                <target>E.g. Check, Learn more, Read, Order.</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Link do strony, która ma się otworzyć po kliknięciu w przycisk.</source>
+                <target>Link to the page that will open after clicking the button.</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Pozwala ustawić procentowy margines od lewej strony</source>
+                <target>Sets the percentage margin from the left</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Pozwala ustawić procentowy margines od prawej strony</source>
+                <target>Sets the percentage margin on the right</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Ciemny</source>
+                <target>Dark</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Jasny</source>
+                <target>Bright</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Wersja</source>
+                <target>Version</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Zdjęcie z opisem</source>
+                <target>Picture with description</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Opcja dla webmasterów. Pozwala na utworzenie dodatkowych grup banerów na stronie.</source>
+                <target>Webmaster option. It allows you to create additional banner groups on the site.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,17 @@
+package:
+  name: stPayByNetPlugin
+  stability: stable
+  version: 7.1.1.12
+  summary: PayByNet
+  description: 'Konfiguracja platnosci PayByNet'
+  notes: |
+     - Poprawka przekazywania prawidlowego numeru id banku
+     - Poprawka wyswietlania listy bankow w tematach opartych na default2
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.5.3
+    stConfigurationPlugin: 1.0.3.7

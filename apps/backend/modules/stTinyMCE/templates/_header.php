@@ -1,0 +1,1 @@
+<?php echo st_get_admin_head(array('@stTinyMCEBackend', __('Edytor WYSIWYG'), '/images/backend/main/icons/red/stTinyMCEPlugin.png'), $title) ?>

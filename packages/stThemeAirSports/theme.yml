@@ -1,0 +1,9 @@
+theme:
+    package: stThemeAirSports
+    name: airsports
+    fixtures: fixtures-air
+    version: 7
+    default: 0
+    type: open
+    install: true
+    copyable: true

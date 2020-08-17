@@ -1,0 +1,89 @@
+{use_javascript src="stPrice.js"}
+<form class="filter-left price-filter-box" action="{urlfor internal=$action_url}" method="post">
+    <input type="hidden" name="fields" value="price">
+    <div class="product-filter-price">
+        <div class="form-group clearfix">
+            <div class="pull-left input-price-filter"><input type="text"  name="product_filter[price][min]" class="product-filter-price-min" size="3" value="{$filters.price.min}" />{$currency}</div>
+            <div class="pull-right input-price-filter"><input type="text" name="product_filter[price][max]" class="product-filter-price-max" size="3" value="{$filters.price.max}" />{$currency}</div>
+        </div>
+        <div class="form-group product-filter-price-slider">
+            <input type="text" style="display: none" value="" data-slider-min="{$value.min}" data-slider-max="{$value.max}" data-slider-step="1" data-slider-value="[{$filters.price.min},{$filters.price.max}]">
+        </div>
+
+        {if $filters.price != $value}
+            <div class="clearfix">
+                <a href="{urlfor internal=$reset_url}" class="reset pull-right">{__ text="wyczyść"} <span class="clear-value"></span></a>
+            </div>
+        {/if}
+            
+    </div>
+</form>
+{literal}
+<script type="text/javascript">
+jQuery(function($) {
+    function update() {
+        var current = $(this);
+        var priceSlider = current.closest('.product-filter-price').find('.product-filter-price-slider input');
+
+        current.val(stPrice.fixNumberFormat(current.val(), 0));
+
+        var value = priceSlider.slider('getValue');
+
+        if (current.hasClass('product-filter-price-min')) {
+            value[0] = Number(current.val());
+        } else {
+            value[1] = Number(current.val());
+        }
+
+        priceSlider.slider('setValue', value);
+
+        value = priceSlider.slider('getValue');
+        
+        if (current.hasClass('product-filter-price-min')) {
+            current.val(value[0]);
+        } else {
+            current.val(value[1]);
+        }
+        
+        priceSlider.closest('form').submit();
+    }    
+
+    $(document).ready(function() {
+
+        function resizeInput() {
+            $(this).attr('size', $(this).val().length);
+        }    
+
+        $('.product-filter-price .input-price-filter input').keyup(resizeInput).each(resizeInput);
+
+
+        $('.product-filter-price').each(function() {
+            var $this = $(this);
+
+            if (!$this.data('initialized')) {
+                $this.data('initialized', true);
+                var min = $this.find('.product-filter-price-min');
+                var max = $this.find('.product-filter-price-max');
+                var priceSlider = $this.find('.product-filter-price-slider > input');
+                priceSlider.slider({
+                    tooltip: 'hide',
+                    range: true
+                }).on('slide', function(e) {
+                    min.val(e.value[0]);
+                    max.val(e.value[1]);
+                }).on('slideStop', function() {
+                    value = priceSlider.slider('getValue');
+                    min.val(value[0]);
+                    max.val(value[1]);
+                    priceSlider.closest('form').submit();
+                });
+
+                min.change(update);
+                max.change(update);
+            }
+        });
+    });
+});
+
+</script>
+{/literal}

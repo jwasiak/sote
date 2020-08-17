@@ -1,0 +1,41 @@
+<div id="paybynet-content">
+    {foreach item=bank key=id from=$banks}
+        <div>
+            <label>
+                <input type="radio" class="st-paybynet-input" id="st-paybynet-input-{$id}" data-id="{$id}" name="delivery[default_payment]" value="">
+                {$bank}
+            </label>
+        </div>
+    {/foreach}
+</div>
+{literal}
+    <script type="text/javascript">
+        jQuery(function ($){
+            $(document).ready(function() {
+                var div = $("#paybynet-content").parent().parent();
+                var vv = div.find('input[name="delivery[default_payment]"]').val();
+
+                if (div.find('input').prop('checked')) {
+                    if ($('#st-paybynet-payment-id').val() != '') {
+                        $('#st-paybynet-input-' + $('#st-paybynet-payment-id').val()).prop('checked', true);
+                    } else {
+                        $('#st-paybynet-input-24900005').prop('checked', true);
+                    }
+                }
+
+                div.find('#paybynet-content input').each(function(item) {
+                    $(this).val(vv);
+                });
+
+                div.find('input:not(.st-paybynet-input)').each(function(item) {
+                    $(this).remove();
+                });
+
+                div.find('p').remove();
+                $('.st-paybynet-input').click(function() {
+                    $('#st-paybynet-payment-id').val($(this).attr('data-id'));
+                });
+            });
+        });
+    </script>
+{/literal}

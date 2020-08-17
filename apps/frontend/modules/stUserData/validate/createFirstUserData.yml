@@ -1,0 +1,30 @@
+fields: 
+    user_data_billing{address}:
+        required:
+            msg:       Brak adresu.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.       
+    
+    user_data_billing{address_more}:
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+      
+    user_data_billing{town}:
+        required:
+            msg:       Brak miasta.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+      
+    user_data_billing{code}:
+        required:
+            msg:       Brak kodu.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.    

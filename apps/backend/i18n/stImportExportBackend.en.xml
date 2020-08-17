@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wyświetl błędy importu</source>
+                <target>Display the import errors</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Pobierz plik</source>
+                <target>Download the file</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Niepoprawny format ceny "%data%".</source>
+                <target>Invalid price "%data%" format.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Niewystarczająca liczba parametrów opcji, proszę podać modyfikator ceny,netto,identyfikator obrazka,stan magazynowy,domyślna opcja</source>
+                <target>Insufficient number of the options parameters, enter the price modifier,net,image ID,stock,the default option</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Profil domyślny</source>
+                <target>Default profile</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Proszę podać nazwę profilu</source>
+                <target>Enter a profile name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Profil o podanej nazwie już istnieje, proszę podać inną nazwę</source>
+                <target>Profile with the given name already exists, enter a different name</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Edycja profilu importu/eksportu</source>
+                <target>Edit a profile import/export</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Zarządzanie modułem importu/eksportu</source>
+                <target>Manage the import/export</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Dostępne pola</source>
+                <target>Available fields</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wybrane pola</source>
+                <target>Selected fields</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Wybierz format importu:</source>
+                <target>Select an import format:</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Pola</source>
+                <target>Fields</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Moduł</source>
+                <target>Module</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Dodaj profil</source>
+                <target>Add a profile</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Profile importu</source>
+                <target>Import profiles</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Eksportuj</source>
+                <target>Export</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Wyświetl błędy eksportu</source>
+                <target>Display the export errors</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Proszę wybrać co najmniej jedno pole.</source>
+                <target>Select at least one field.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Plik configuracyjny exportu nie istnieje.</source>
+                <target>Export configuration file doesn't exist.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Plik z danymi nie istnieje lub nie można go doczytać.</source>
+                <target>Data file doesn't exist or can't by fully read..</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Brak wymaganego pola %s% lub jego wartość jest niepoprawna.</source>
+                <target>No required field %s or its value is incorrect.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Brak wymaganego pola: %s%</source>
+                <target>No required field: %s%</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Niepoprawna wartość pola</source>
+                <target>Incorrect field value</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>nie jest ciągiem znaków</source>
+                <target>is not a string</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>nie jest liczbą</source>
+                <target>is not a number</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>nie jest 1 lub 0</source>
+                <target>is not 1 or 0</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>nie jest liczbą całkowitą</source>
+                <target>is not an integer</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Błędna lina danych dla opcji produktu "%line%</source>
+                <target>Incorrect data line for a product option "%line%</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Niepoprawne kodowanie dla pola %field%</source>
+                <target>Incorrect encoding of the field %field%</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Export do pliku Microsoft Office 2003</source>
+                <target>Export to Microsoft Office 2003 file</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Import pliku Microsoft Office 2003</source>
+                <target>Import Microsoft Office 2003 file</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Export do pliku csv (Windows-1250)</source>
+                <target>Export to csv file (Windows-1250)</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Import pliku csv (Windows-1250)</source>
+                <target>Import csv file (Windows-1250)</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Export do pliku csv (UTF-8)</source>
+                <target>Export to csv file (UTF-8)</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Import pliku csv (UTF-8)</source>
+                <target>Import csv file (UTF-8)</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Ostrzeżenie</source>
+                <target>Notice</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Wybierz format exportu:</source>
+                <target>Select an export format:</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Wybierz Profil</source>
+                <target>Select a profile</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Zarządzaj profilami</source>
+                <target>Manage the profiles</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Błąd krytyczny</source>
+                <target>Fatal error</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Błąd</source>
+                <target>Error</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Nieprawidłowy format pliku</source>
+                <target>Invalid file format</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Wystąpiły błędy podczas importu danych.</source>
+                <target>Errors occurred while importing the data.</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Dane zostały zaimportowane pomyślnie</source>
+                <target>Data was imported successfully</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Proszę wybrać format pliku</source>
+                <target>Select a file format</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Nie wybrano pliku z danymi</source>
+                <target>Select the data file</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Plik z danymi</source>
+                <target>Data file</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Wybierz format exportu</source>
+                <target>Select an export format</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Plik z danymi:</source>
+                <target>Data file:</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Pliki na serwerze:</source>
+                <target>Files on server:</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Pobierz przykładowy plik</source>
+                <target>Download the sample file</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Importuj</source>
+                <target>Import</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Identyfikator</source>
+                <target>Identifier</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Nieprawidłowy format pliku</source>
+                <target>Invalid file format</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Wystąpiły błędy podczas importu danych.</source>
+                <target>Errors occurred while importing the data.</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Dane zostały zaimportowane pomyślnie</source>
+                <target>The data has been imported successfully</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Proszę wybrać format pliku</source>
+                <target>Please choose the file format</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Nie można dodać produktu, brak wymaganych pól</source>
+                <target>You can not add a product, the lack of the required fields</target>
+            </trans-unit>			
+            <trans-unit id="64">
+                <source>Brak wymaganego pola %s% lub jego wartość jest niepoprawna.</source>
+                <target>Missing required field% s% or its value is incorrect.</target>
+            </trans-unit>			
+            <trans-unit id="65">
+                <source>Niepoprawna wartość pola </source>
+                <target>Invalid field value</target>
+            </trans-unit>				
+            <trans-unit id="66">
+                <source>nie jest ciągiem znaków</source>
+                <target>is not a string</target>
+            </trans-unit>				
+            <trans-unit id="67">
+                <source>nie jest liczbą</source>
+                <target>is not a number</target>
+            </trans-unit>				
+            <trans-unit id="68">
+                <source>nie jest 1 lub 0</source>
+                <target>is not 1 or 0</target>
+            </trans-unit>				
+            <trans-unit id="69">
+                <source>nie jest liczbą całkowitą</source>
+                <target>is not an integer</target>
+            </trans-unit>							
+            <trans-unit id="70">
+                <source><![CDATA[Pole <b>%field%</b> zawiera znaki z poza zakresu kodowania <b>%encoding%</b>.]]></source>
+                <target><![CDATA[The <b>%field%</b> field contains characters outside of the <b>%encoding%</b> encoding range.]]></target>
+            </trans-unit>	
+            <trans-unit id="71">
+                <source><![CDATA[Pole <b>%field%</b> posiada więcej niż 32 000 znaków.]]></source>
+                <target><![CDATA[The field <b>%field%</b> has more than 32000 characters.]]></target>
+            </trans-unit>			
+            <trans-unit id="72">
+                <source><![CDATA[Eksport pola zostaje pominięty i jego wartość zostaje zastąpiona w pliku eksportu przez <b>[N/A]</b>. Proszę nie edytować zawartości kolumn z wartością <b>[N/A]</b>, w innym wypadku (przy ponownym imporcie) wartość tego pola zostanie nadpisana.]]></source>
+                <target><![CDATA[The field export is omitted and its value is replaced in the export file by <b>[N/A]</b>. Please do not edit the contents of the columns with the value <b>[N/A]</b>, otherwise (when re-importing) the value of this field will be overwritten.]]></target>
+            </trans-unit>	
+        </body>
+    </file>
+</xliff>

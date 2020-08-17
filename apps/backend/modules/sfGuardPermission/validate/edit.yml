@@ -1,0 +1,16 @@
+methods:
+    post:
+        - "sf_guard_permission{name}"
+
+names:
+    sf_guard_permission{name}:
+        required:     yes
+        required_msg: Proszę podać nazwę uprawnienia.
+        validators:   nameUniqueValidator
+
+nameUniqueValidator: 
+    class:          sfPropelUniqueValidator
+    param:
+        class:        sfGuardPermission
+        column:       name
+        unique_error: Uprawnienie już istnieje, proszę podać inną nazwę.

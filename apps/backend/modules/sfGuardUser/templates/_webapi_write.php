@@ -1,0 +1,1 @@
+<?php echo checkbox_tag('webapi_write',1,$sf_guard_user->hasPermission("webapi_write"));?>

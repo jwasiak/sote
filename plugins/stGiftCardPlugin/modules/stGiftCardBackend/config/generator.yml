@@ -1,0 +1,98 @@
+generator: 
+    class:                                   stAdminGenerator
+
+    param: 
+        model_class:                         GiftCard
+        product_model_class:                 Product
+        theme:                               simple
+
+        custom_actions:
+            list:                           [product]
+
+        head: 
+            package:                         stGiftCardPlugin  
+
+        edit:
+            title:                           Edycja %%code%%
+            description:                     Zarządzanie bonami zakupowymi w sklepie  
+            i18n:
+                "Kategorie i producenci":   stDiscountBackend 
+            display:                         
+                "NONE":                     [_status, _currency_id, code, _amount, _min_order_amount, valid_to, allow_all_products]
+                "Kategorie i producenci":   [_categories, _producers]
+            menu:
+                display:                    [product]
+                fields:
+                    _edit:                  {name: Edycja, i18n_catalogue: stDiscountBackend}
+                    product:                {name: Przypisz produkty, action: @stGiftCardPlugin?action=productList&gift_card_id=%%id%%, i18n_catalogue: stDiscountBackend}
+            fields:
+               code:                         {name: Kod, params: maxlength=64}
+               status:                       {name: Status}
+               amount:                       {name: Kwota brutto}
+               min_order_amount:             {name: Minimalna kwota zamówienia}
+               valid_to:                     {name: Ważny do, help: Puste pole oznacza brak progu}
+               currency_id:                  {name: Waluta}
+               categories:                   {name: Kategorie, i18n: stCategory}
+               producers:                    {name: Producenci, i18n: stProducer}
+               allow_all_products:           {name: Dla wszystkich produktów, help: "Jeśli zaznaczone bon będzie dostępny dla wszystkich produktów w sklepie", params: class=all_products}
+            actions:
+                _list:                       {name: Lista}
+                _save:                       {name: Zapisz}
+                _save_and_add:               {name: Zapisz i dodaj nowy}
+                _delete:                     {name: Usuń}
+
+        list:
+            title:                           Lista
+            description:                     Zarządzanie bonami zakupowymi w sklepie
+            display:                         [code, _amount, _min_order_amount, _currency_id, _status, valid_to]
+            filters:
+              status:                        {partial: filter_status}
+            fields:
+              list_status:                   {name: Status}
+              currency_id:                   {name: Waluta}
+              code:                          {name: Kod}
+              status:                        {name: Status}
+              amount:                        {name: Kwota brutto}
+              valid_to:                      {name: Ważny do}
+              min_order_amount:              {name: Minimalna kwota zamówienia}
+            peer_method:                     doSelectJoinCurrency
+            object_actions:
+              _edit: -
+              _delete: -
+            actions:
+                _create:                     {name: Dodaj}
+
+        product_list:
+            use_stylesheet:                 [backend/stProductList.css]
+            use_helper:                     [stProduct/stProduct]
+            forward_parameters:             [gift_card_id]
+            filters:
+                list_image:                 {partial: filter_list_image, module: stProduct}
+            fields:
+                code:                       {name: Kod, i18n: stProduct}
+                opt_name:                   {name: Nazwa, params: size=50, i18n: stProduct}
+                list_image:                 {name: Zdjęcie, width: 1%, callback: list_product_image, i18n: stProduct}
+                opt_price_brutto:           {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label, i18n: stProduct}
+                active:                     {name: Aktywny, width: 1%, align: center, i18n: stProduct}
+            build_options:
+                through_class:              GiftCardHasProduct         
+                related_id:                 forward_parameters.gift_card_id         
+            display:                        [list_image, opt_name, code, opt_price_brutto, active]
+            menu:                           {use: edit.menu}
+            title:                          Przypisywanie produktów do kuponu rabatowego
+            description:                    Zarządzanie rabatami w sklepie
+            object_actions:                 [] 
+            actions:                        []
+
+        config:
+          title:                             Konfiguracja
+          description:                       Zarządzanie bonami zakupowymi w sklepie
+          display:                           [enabled, code_format]
+          fields:
+            enabled:                         {name: Włącz bony zakupowe, type: checkbox}
+            code_format:                    
+              name: Format kodu
+              help: code_format.help
+              params: maxlength=32 size=30
+          actions:  
+              _save:                         {name: Zapisz}

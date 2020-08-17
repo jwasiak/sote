@@ -1,0 +1,36 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_1
+    image: /picture/pl_PL/bianco1.jpg
+    image_small: /picture/pl_PL/bianco1-small.jpg
+    is_active: 1
+    opt_culture: pl_PL
+    banner_title: Najlepsza jakość dźwięku
+    banner_description: <p>Obejrzyj najnowsze produkty<br />z profesjonalnej i nowoczesnej kolekcji Modern.</p>
+    button_text: Obejrzyj produkty
+    button_link: /category/modern
+    banner_margin_right: 35
+    banner_description_position: 0
+  SlideBanner_2:
+    language_id: Language_1
+    image: /picture/pl_PL/bianco2.jpg
+    image_small: /picture/pl_PL/bianco2-small.jpg
+    is_active: 1
+    opt_culture: pl_PL
+    banner_title: Jak wybrać słuchawki?
+    banner_description: <p>Dowiedz się, jakie słuchawki wybrać do biegania, słuchania muzyki w domu lub podróży.</p>
+    button_text: Sprawdź
+    button_link: /category/sluchawki
+    banner_margin_left: 38
+    banner_description_position: 0
+  SlideBanner_3:
+    language_id: Language_1
+    image: /picture/pl_PL/bianco3.jpg
+    image_small: /picture/pl_PL/bianco3-small.jpg
+    is_active: 1
+    opt_culture: pl_PL
+    banner_title: Dołącz do naszego klubu
+    banner_description: <p>Dołącz do naszego klubu i otrzymaj rabat na pierwsze zakupy. Dowiedz się pierwszy o nowościach i promocjach.</p>
+    button_text: Dołącz
+    button_link: /newsletter
+    banner_margin_left: 38

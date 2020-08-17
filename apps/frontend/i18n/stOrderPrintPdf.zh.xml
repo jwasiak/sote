@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Id</source>
+				<target>Id </target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Data dokonania płatności</source>
+				<target>支付日期</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kwota</source>
+				<target>金额：</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Typ płatności</source>
+				<target>支付类型</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Status</source>
+				<target>状态</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rozliczona</source>
+				<target>已交付</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Nierozliczona</source>
+				<target>未交付</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>邮政编码</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>名称</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>净价</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Vat</source>
+				<target>增值税</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>总价</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>数量</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Suma</source>
+				<target>总</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Łączna wartość:</source>
+				<target>一共：:</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Rodzaj dostawy:</source>
+				<target>送货方式：:</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Koszt przesyłki:</source>
+				<target>运费：:</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Numer przesyłki:</source>
+				<target>包裹号码:</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Zamówienie nr:</source>
+				<target>订单号:</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>potwierdzone</source>
+				<target>已被确认</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>niepotwierdzone</source>
+				<target>未被确认</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Numer ID klienta:</source>
+				<target>顾客ID号码：:</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Email klienta:</source>
+				<target>顾客的电子邮件：:</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Dane dostawy:</source>
+				<target>送货信息:</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Dane billingowe:</source>
+				<target>支付人信息:</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Produkty</source>
+				<target>产品</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Łącznie</source>
+				<target>一共</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Dane płatności</source>
+				<target>支付信息</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Uwagi klienta</source>
+				<target>顾客的备注</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Notatki sprzedawcy</source>
+				<target>卖方的注释</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Bon towarowy: %code%</source>
+				<target>礼券：%code% </target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Termin dostawy</source>
+				<target>送货日期</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tel</source>
+				<target>电话号码</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Telefon</source>
+				<target>电话</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Konto</source>
+				<target>帐户</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>NIP</source>
+				<target>纳税识别号</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

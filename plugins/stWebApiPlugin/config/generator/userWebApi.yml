@@ -1,0 +1,111 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+webapi:
+    fields:
+        id:                 {type: integer}
+        username:           {type: string}
+        last_login:         {type: integer}
+        is_active:          {type: boolean}
+        is_confirm:         {type: boolean}
+        is_admin_confirm:   {type: boolean}
+        wholesale:          {type: integer, custom: true}
+        points:             {type: integer}
+        sf_guard_user_id:   {type: integer}
+        countries_id:       {type: integer}
+        is_billing:         {type: integer}
+        is_default:         {type: integer}
+        name:               {type: string}
+        surname:            {type: string}
+        street:             {type: string}
+        house:              {type: string}
+        flat:               {type: string}
+        full_name:          {type: string}
+        address:            {type: string}
+        address_more:       {type: string}
+        code:               {type: string}
+        town:               {type: string}
+        phone:              {type: string}
+        company:            {type: string}
+        vat_number:         {type: string}
+        last_login:         {type: dateTime}
+        password:           {type: string}
+        discount:           {type: double, custom: true}
+
+    methods:
+        AddUser:
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=username, =password, is_confirm, is_admin_confirm, wholesale, discount]
+                out:        [id]
+        CountUser:
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        [_count]
+        GetUser:
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [created_at, id, username, last_login, is_confirm, is_admin_confirm, wholesale, points, discount]
+        DeleteUser:
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetUserList:
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        [created_at, id, username, last_login, is_confirm, is_admin_confirm, wholesale, points, discount]
+        UpdateUser:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, is_confirm, is_admin_confirm, wholesale, discount]
+                out:        [_update]
+        AddUserProfile: 
+            peer:           UserData
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=sf_guard_user_id, =countries_id, is_billing, is_default, name, surname, street, house, flat, full_name, address, address_more, code, town, phone, company, vat_number]
+                out:        [id]
+        CountUserProfile:
+            peer:           UserData
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [_offset, _limit, sf_guard_user_id, _modified_from, _modified_to]
+                out:        [_count]
+        DeleteUserProfile:
+            peer:           UserData
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetUserProfile:
+            peer:           UserData
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id] 
+                out:        [created_at, updated_at, id, sf_guard_user_id, countries_id, is_billing, is_default, name, surname, street, house, flat, code, town, phone, company, vat_number, full_name, address, address_more]
+        GetUserProfileList: 
+            peer:           UserData
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, sf_guard_user_id, _modified_from, _modified_to]
+                out:        [created_at, updated_at, id, sf_guard_user_id, countries_id, is_billing, is_default, name, surname, street, house, flat, code, town, phone, company, vat_number, full_name, address, address_more]
+        UpdateUserProfile:
+            peer:           UserData
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, sf_guard_user_id, countries_id, is_billing, is_default, name, surname, street, house, flat, full_name, address, address_more, code, town, phone, company, vat_number]
+                out:        [_update]

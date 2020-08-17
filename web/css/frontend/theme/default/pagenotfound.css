@@ -1,0 +1,60 @@
+.st_pagenotfound_frame
+{   
+    padding: 10px;
+    font-size:1.1em;
+    padding-left: 20px;
+}
+
+.st_pagenotfound_frame h2
+{
+    margin-left: -10px;
+}
+
+.st_f_text_frame_footer
+{
+	clear: both;
+}
+
+.st_pagenotfound_frame ul.hidden ul
+{
+		margin-left: 10px;
+}
+
+.st_pagenotfound_frame ul.hidden li a
+{
+    text-decoration: none;
+}
+
+.st_pagenotfound_frame ul.hidden li a
+{
+    text-decoration: none;
+}
+
+.st_pagenotfound_left
+{
+	
+}
+
+.st_pagenotfound_right
+{
+	width: 50%
+	float: right;
+}
+
+.st_button_pagenotfound
+{
+    padding: 10px;
+}
+
+#st_button-pagenotfound_success .st_button-left 
+{
+    
+    font-weight: normal;
+    padding-left: 10px;
+    background-image: url('/images/frontend/theme/default/button/arrow_left.gif');   
+}
+
+#st_button-pagenotfound_success input
+{
+    background:transparent url(/images/frontend/theme/default/button_right.gif) no-repeat scroll right top;
+}

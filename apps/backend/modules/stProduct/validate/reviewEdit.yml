@@ -1,0 +1,8 @@
+fields:
+    review{score}:
+        sfNumberValidator:
+            nan_error:    Podaj ocenę produktu
+            min:          1
+            min_error:    Minimalna ocena wynosi 1
+            max:          5
+            max_error:    Maksymalna ocena wynosi 5

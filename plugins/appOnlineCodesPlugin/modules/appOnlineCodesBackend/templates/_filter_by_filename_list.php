@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[by_filename_list]', isset($filters['by_filename_list']) ? $filters['by_filename_list'] : null, array('size' => 15));

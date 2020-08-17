@@ -1,0 +1,18 @@
+package:
+  name: stWebpagePlugin
+  stability: stable
+  version: 7.5.0.7
+  summary: 'Strony WWW'
+  description: 'Zarzadzaj stronami www sklepu'
+  notes: |
+     - Poprawka kompatybilnosci
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stFrontend: 1.1.0.11
+    stBackend: 1.1.0.13
+    stTextPlugin: 1.0.1.10
+    stBoxPlugin: 1.0.1.7

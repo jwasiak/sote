@@ -1,0 +1,28 @@
+<div id="privacy_overlay">
+    <div class="privacy_overlay_content"></div>
+</div>
+<div id="terms_overlay">
+    <div class="terms_overlay_content"></div>
+</div>
+<div id="user_data_billing_privacy_content">
+        
+	{if $culture == "de"}
+		{__ text="Ich habe"}
+		{st_get_component module="stWebpageFrontend" component="link" state="TERMS" label="die AGB's"}
+	    {__ text="und"}
+	    {st_get_component module="stWebpageFrontend" component="link" state="PRIVACY" label="die Datenschutzrichtlinien"}
+	    {__ text="gelesen und stimme ihnen zu."}
+	{else}
+	   
+	    {if $privacy_only == "true"}
+	        {__ text="Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z"} {if $new_window== "true"}<a href="{$privacy_url}" target="_blank">{__ text="polityką prywatności"}</a>{else}{st_get_component module="stWebpageFrontend" component="link" state="PRIVACY" label="polityką prywatności"}{/if}.	       	    
+    	{else}    	
+             
+           {$terms_privacy_text}
+            
+           
+                                  
+        {/if}	    
+        
+	{/if}
+</div>

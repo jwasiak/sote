@@ -1,0 +1,30 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-{$analytics_part2}-{$analytics_part3}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){literal}{dataLayer.push(arguments)};{/literal}
+  gtag('js', new Date());
+  gtag('config', 'UA-{$analytics_part2}-{$analytics_part3}');
+  {slot name="analytics" hidden="true"}{/slot}
+{if $ecommerce_check == 1}
+	gtag('event', 'purchase', {literal}{{/literal}
+	  "transaction_id": "{$order_id}",
+	  "affiliation": "{$host}",
+	  "value": {$order_amount},
+	  "currency": "{$currency}",
+	  "tax": 0,
+	  "shipping": {$delivery_cost},
+	  "items": [
+	  {foreach item=order_product from=$results name=product}
+	    {literal}{{/literal}
+	      "id": "{$order_product.product_code}",
+	      "name": "{$order_product.product_name}",
+	      "category": "{$order_product.product_category}",
+	      "variant": "{$order_product.product.options}",
+	      "quantity": {$order_product.product_quantity},
+	      "price": '{$order_product.product_price}'
+	   {literal}}{/literal}{if not $smarty.foreach.product.last},{/if}
+	   {/foreach}
+	  ]
+	{literal}});{/literal}
+{/if}
+</script>

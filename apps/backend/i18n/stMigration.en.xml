@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Brak danych migracyjnych...</source>
+                <target>No migration data...</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Adres sklepu</source>
+                <target>Shop address</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zweryfikuj podane dane dostępowe.</source>
+                <target>Verify the access data.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Jeżeli dane są prawidłowe skontaktuj się z administratorem serwera, na którym znajduje się importowany sklep i poproś aby umożliwił dostęp do bazy danych o nazwie "%s" na adres IP "%s" dla użytkownika "%s"</source>
+                <target>If the access data is correct you should contact the server administrator and ask to set the access to database named "%s" for IP address "%s" and user "%s"</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Połączenie z bazą danych</source>
+                <target>Database connection</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Baza danych "%s" nie istnieje</source>
+                <target>Database "%s" doesn't exist</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Usuń dane</source>
+                <target>Delete the data</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Baza danych</source>
+                <target>Database</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Importuj z</source>
+                <target>Import from</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Host</source>
+                <target>Host</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Port</source>
+                <target>Port</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Nazwa użytkownika</source>
+                <target>User login</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Podany adres nie istnieje</source>
+                <target>URL address given doesn't exists</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Import danych z zewnętrznych systemów</source>
+                <target>Import the data from the external systems</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Dotychczasowe dane w sklepie w wersji 5.0 zostaną skasowane przed rozpoczęciem migracji.</source>
+                <target>The current data will be deleted from the shop (version 5.0) before the migration.</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Import zamówień</source>
+                <target>Import the orders</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Importuj</source>
+                <target>Import</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Import produktów</source>
+                <target>Import the products</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Wartość nie może być pusta</source>
+                <target>Value can't be empty</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Podana wartość nie jest liczbą</source>
+                <target>Value must be a number</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Podana wartość nie jest liczbą całkowitą</source>
+                <target>Value must be an integer</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Podany adres posiada nieprawidłowy format (przykład: http://example.com)</source>
+                <target>Invalid url address format (example: http://example.com)</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>SOTEeSKLEP 4.0 (RC23 lub wyższa)</source>
+                <target>SOTEeSKLEP 4.0 (RC23 or higher)</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Przenosze zdjęcia z produktu o id "%s" do produktu o kodzie "%s"</source>
+                <target>Moving images from product with id "%s" to product with code "%s"</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Produkt nie zawiera zdjęć...</source>
+                <target>Product doesn't have any images...</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Obraz "%s" [%s] nie posiada formatu jpg, gif lub png</source>
+                <target>Image "%s" [%s] doesn't have correct format jpg, gif or png</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Obraz "%s" [%d x %d] przekracza dozwolony rozmiar 1280 x 1280</source>
+                <target>Image "%s" [%d x %d] exceeds available size 1280 x 1280</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Obraz "%s" nie istnieje</source>
+                <target>Image "%s" doesn't exist</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Usuwanie aktualnych danych</source>
+                <target>Deleting the current data</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Import danych</source>
+                <target>Import data</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Import danych zakończony sukcesem</source>
+                <target>Data import is successfully finished</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Import recenzji</source>
+                <target>Import the reviews</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Import klientów</source>
+                <target>Import the customers</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Migracja danych</source>
+                <target>Data migration</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Baza danych przenoszonego sklepu</source>
+                <target>Database</target>
+            </trans-unit>       
+            <trans-unit id="38">
+                <source>Adres www przenoszonego sklepu</source>
+                <target>URL address of the migrated shop</target>
+            </trans-unit>          
+        </body>
+    </file>
+</xliff>

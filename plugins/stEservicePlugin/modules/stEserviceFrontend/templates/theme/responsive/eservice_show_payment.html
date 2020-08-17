@@ -1,0 +1,23 @@
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="eService"}
+    </div>
+    <div class="panel-body text-center">
+        {if $check_configuration}
+            <img src="/images/frontend/theme/default2/stEservicePlugin/logo.png" alt="{__ text="eService"}" style="margin: 20px 0px" />
+            <div>
+                {$description}
+            </div>
+            <form action="{$url}" method="get">
+                {foreach key=name item=value from=$params}
+                    <input type="hidden" name="{$name}" value="{$value}" />
+                {/foreach}                
+                <button type="submit" class="btn btn-primary">
+                    {__ text="Zapłać"}
+                </button>
+            </form>
+        {else}
+            {__ text="Płatność została błędnie skonfigurowana."}
+        {/if}
+    </div>
+</div>

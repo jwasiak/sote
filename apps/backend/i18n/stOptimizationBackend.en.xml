@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zarządzanie optymalizacją sklepu</source>
+                <target>Manage the shop's optimization</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Włącz optymalizacje sklepu</source>
+                <target>Enable the shop's optimization</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Wyczyść pamięć podręczną</source>
+                <target>Clear cache</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Uwaga:</source>
+                <target>Notice:</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Po wyłączeniu optymalizacji, wyświelane strony sklepu nie będą zapisywane do pamięci podręcznej.</source>
+                <target>If you turn off the optimization, the shown sites will not be saved in cache.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Pamięć podręczna została wyczyszczona</source>
+                <target>Cache has been cleared</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Optymalizacja</source>
+                <target>Optimization</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

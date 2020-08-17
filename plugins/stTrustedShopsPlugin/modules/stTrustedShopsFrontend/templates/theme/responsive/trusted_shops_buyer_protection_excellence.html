@@ -1,0 +1,31 @@
+<div class="panel panel-default" id="basket-login-user">
+    <div class="panel-heading">{__ text="Ochrona Kupującego Trusted Shops"}</div>    
+
+    <div class="panel-body">    
+          
+    <div class="checkbox">
+        <label>
+          {$checkbox} {if $big_amount == 1}{__ text="Ochrona Kupującego powyżej"}{else}{__ text="Ochrona Kupującego do"}{/if} {$amount} {$currency} ({$price} {$currency} {__ text="z VAT"})
+        </label>
+    </div>
+
+      
+    <div id="trusted-shops-excellence-logo" class="pull-left" style="margin:10px;"> 
+        <a href="https://www.trustedshops.com/shop/certificate.php?shop_id={$certificate}" target="_blank">
+            <img id="st_home" src="/images/frontend/theme/default2/stTrustedShopsPlugin/logo.png" alt=""/>
+        </a>
+    </div>
+    
+    <div id="trusted-shops-excellence-content" style="margin:10px;">        
+        {__ text="Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i"}
+        <a href="https://www.trustedshops.com/shop/data_privacy.php?shop_id={$certificate}" target="_blank">{__ text="zapisywanie"}</a>
+        {__ text="mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego."}
+        <a href="https://www.trustedshops.com/shop/protection_conditions.php?shop_id={$certificate}" target="_blank">{__ text="Warunki gwarancji"}</a>
+        {__ text="dla Ochrony Kupującego."}
+    </div>
+
+      
+        
+    </div>
+    
+</div>

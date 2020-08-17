@@ -1,0 +1,12 @@
+<div id="st_box_payment">
+    <span>
+        {$description}
+    </span>
+    <p id="st_paypal-message-success">
+        {if $already_payed}
+            {__ text="Zamówienie zostało już opłacone."}
+        {else}
+            {$paypal_button}
+        {/if}
+    </p>
+</div>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2011-11-04T04:27:00Z">
+		<body>
+			<trans-unit id="1">
+				<source>treść wiadomości</source>
+				<target>Conteúdo da mensagem</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>twój adres e-mail</source>
+				<target>Seu endereço email</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>informacje dodatkowe</source>
+				<target>Informações adicionais</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>Endereço email do seu amigo</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>cyfry z obrazka</source>
+				<target>Números da imagem</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wiadomość o treści</source>
+				<target>A seguinte mensagem</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>została wysłana do</source>
+				<target>Foi enviada para</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Polecenie produktu</source>
+				<target>Recomendação do produto</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Dziękujemy</source>
+				<target>Obrigado</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>A recomendação já foi enviada para este amigo</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Możesz polecić produkt innemu znajomemu</source>
+				<target>Pode recomendar o produto a outro amigo</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Envie</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Poleć produkt</source>
+				<target>Recomende o produto</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Brak adresu e-mail</source>
+				<target>Insira o email </target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Inválido formato do endereço email </target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Introduza os dígitos correctos</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Powrót</source>
+				<target>Voltar</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Data polecenia produktu</source>
+				<target>Data da recomendação do produto</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Produkt polecił</source>
+				<target>Produto recomendado por</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Adresat (e-mail)</source>
+				<target>Destinatário (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Treść</source>
+				<target>Conteúdo</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nadawca (e-mail)</source>
+				<target>Emissor (e-mail)</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Cyfry z obrazka</source>
+				<target>Cifras da imagem</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Polecenie produktu.</source>
+				<target>Ordem do produto</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>O número introduzido está errado</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Polecone od</source>
+				<target>Recomendado de</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Esta mensagem foi enviada da loja da internet</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Pokaż produkt w sklepie</source>
+				<target>Mostre o produto na loja</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Opis produktu</source>
+				<target>Descrição do produto</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

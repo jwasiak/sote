@@ -1,0 +1,53 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stBoxPlugin.lib.model
+  st_box: 
+    _attributes: 
+      phpName: Box
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    box_group_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_box_group
+      foreignReference: id
+      onDelete: restrict
+    active: 
+      type: BOOLEAN
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_content: 
+      type: LONGVARCHAR
+    show_title: 
+      type: BOOLEAN
+    webmaster_id: 
+      type: VARCHAR
+      size: 255
+  st_box_group: 
+    _attributes: 
+      phpName: BoxGroup
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    box_group: 
+      type: VARCHAR
+      size: 45

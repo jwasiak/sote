@@ -1,0 +1,67 @@
+OrderStatus:
+    OrderStatus_1:
+        culture: pl_PL
+        name:   Anulowane
+        type:   ST_CANCELED
+        is_system_default: true
+    OrderStatus_2:
+        culture: pl_PL
+        name:   Oczekuje
+        type:   ST_PENDING
+        is_default: true
+        is_system_default: true     
+    OrderStatus_3:
+        culture: pl_PL
+        name:   W trakcie realizacji
+        type:   ST_PENDING
+    OrderStatus_4:
+        culture: pl_PL
+        name:   Zrealizowane
+        type:   ST_COMPLETE
+        is_system_default: true
+OrderStatusI18n:
+    OrderStatusI18n_1:
+        id: OrderStatus_1
+        culture: en_US
+        name: Cancelled
+    OrderStatusI18n_2:
+        id: OrderStatus_2
+        culture: en_US
+        name: Pending
+    OrderStatusI18n_3:
+        id: OrderStatus_3
+        culture: en_US
+        name: In progress
+    OrderStatusI18n_4:
+        id: OrderStatus_4
+        culture: en_US
+        name: Delivered
+Text:
+    Text_3:
+        system_name: stOrderSummary
+        active: 0
+        culture: pl_PL
+        name: Podsumowanie zamówienia
+        content: >
+            Podsumowanie zamówienia
+    Text_confirm_order:
+        system_name: stOrderConfirm
+        active: 0
+        culture: pl_PL
+        name: Potwierdzenie zamówienia
+        content: >
+            Akceptuje <a href="/webpage/regulamin.html">regulamin sklepu</a> i zapoznałem się z <a href="/webpage/regulamin.html">prawem do odstąpienia od umowy</a>.
+    
+TextI18n:
+    TextI18n_3:
+        id: Text_3
+        culture: en_US
+        name: Order summary
+        content: >
+            Order summary
+    TextI18n_confirm_order:
+        id: Text_confirm_order
+        culture: en_US
+        name: Order confirm
+        content: >
+            I accept the shop's  <a href="/webpage/terms-and-conditions.html">terms</a> and also I acquainted with the  <a href="/webpage/terms-and-conditions.html">right to withdraw from the agreement</a>.

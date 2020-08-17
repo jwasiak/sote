@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja płatności Dotpay.</source>
+                <target>Configure the Dotpay payment.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Identyfikator</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Numer PIN do weryfikacji płatności</source>
+                <target>PIN number for the payment verification</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Tekst przycisku powrotu do sklepu</source>
+                <target>Text of the "return to the shop" button</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Powrót do sklepu.</source>
+                <target>Return to the shop.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Ustawienia kanałów płatności</source>
+                <target>Settings of the payment channels</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Wyłącz kanały płatności jeżeli bank jest nieczynny</source>
+                <target>Disable the payment channels if a bank is closed</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Domyślny kanał</source>
+                <target>Default payment channel</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Włącz blokowanie innych kanałów niż domyślny</source>
+                <target>Enable blocking the other channels than the default</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>karty płatnicze</source>
+                <target>payment cards</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Przelew/Przekaz</source>
+                <target>Postal/bank transfer</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Płatność przez serwis dotpay.pl</source>
+                <target>Dotpay payment</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Nazwa sklepu</source>
+                <target>Shop name</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Tryb testowy</source>
+                <target>Test mode</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

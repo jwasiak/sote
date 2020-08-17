@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2012-07-02T03:01:19Z">
+		<body>
+			<trans-unit id="1">
+				<source>Musisz być zalogowany aby zapytać o cenę</source>
+				<target>Ak sa chcete opýtať na cenu, musíte byť zalogovaný/á</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Musisz być zalogowany aby zapytać o dostępność</source>
+				<target>Ak sa chcete opýtať aká je dostupnosť produktu, musíte byť zalogovaný/á </target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zapytaj o cenę</source>
+				<target>Opýtajte sa na cenu</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapytaj o dostępność</source>
+				<target>Opýtajte sa na dostupnosť</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak adresu e-mail</source>
+				<target>Nebola zadaná e-mailová adresa</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Nesprávny formát emailovej adresy</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>powrót do produktu</source>
+				<target>späť k produktu</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Zapytanie o dostępność</source>
+				<target>Otázka na dostupnosť</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Zapytanie o cenę</source>
+				<target>Otázka na cenu</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Treść zapytania</source>
+				<target>Znenie otázky</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij zapytanie</source>
+				<target>Odoslať otázku</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie zostało wysłane poprawnie</source>
+				<target>Otázka bola úspešne odoslaná</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Proszę o informacje o cenie produktu</source>
+				<target>Prosím o informáciu o cene produktu</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Proszę o informacje o dostępności produktu</source>
+				<target>Prosím o informáciu o dostupnosti produktu</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Zaloguj się, aby zapytać o cenę</source>
+				<target>Prihláste sa, ak sa chcete opýtať na cenu</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Zaloguj się, aby zapytać o dostępność</source>
+				<target>Prihláste sa, ak sa chcete opýtať na dostupnosť </target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Zapytanie o produkt</source>
+				<target>Otázka týkajúca sa produktu</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>zostało pomyślnie wysłane</source>
+				<target>bola úspešne odoslaná</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kod</source>
+				<target>Kód</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zapytanie nie może zostać wysłane, gdyż taki produkt nie istnieje</source>
+				<target>Otázka nemôže byť odoslaná, nakoľko daný produkt neexistuje</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Otázka na dostupnosť produktu</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zapytanie o cenę produktu</source>
+				<target>Otázka na cenu produktu</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>zapytanie nr</source>
+				<target>otázka č.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>dostępności</source>
+				<target>na dostupnosť</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>cenie</source>
+				<target>na cenu</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Witam</source>
+				<target>Zdravím</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>proszę o informację o</source>
+				<target>prosím o informácie o </target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>produktu</source>
+				<target>produkte</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Kod produktu</source>
+				<target>Kód produktu</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Producent</source>
+				<target>Výrobca</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kategoria</source>
+				<target>Kategória</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Przejdź do zapytania</source>
+				<target>Prejsť k otázke</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Informacje dodatkowe</source>
+				<target>Dodatočné informácie</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapytanie wysłał</source>
+				<target>Odosielateľ</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Treść</source>
+				<target>Obsah</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Cyfry z obrazka</source>
+				<target>Čísla z obrázku</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Wyślij</source>
+				<target>Odoslať</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Nadawca (e-mail)</source>
+				<target>Odosielateľ (email)</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

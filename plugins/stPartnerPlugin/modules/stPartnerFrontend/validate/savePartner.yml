@@ -1,0 +1,61 @@
+fields: 
+    partner_data{company}:
+        sfStringValidator:
+           max:          255
+           max_error:    Przekroczono dozwoloną liczbę znaków.    
+        
+    partner_data{name}:
+        required:
+            msg:       Brak imienia.
+            
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+        
+    partner_data{surname}:
+        required:
+            msg:       Brak nazwiska.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+      
+    partner_data{street}:
+        required:
+            msg:       Brak ulicy.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.       
+    
+    partner_data{house}:
+        required:
+            msg:       Brak domu.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+      
+    partner_data{town}:
+        required:
+            msg:       Brak miasta.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+      
+    partner_data{code}:
+        required:
+            msg:       Brak kodu.
+        
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+    
+    partner_data{phone}: 
+        required:
+            msg:       Brak telefonu.
+
+        sfStringValidator:
+            max:          255
+            max_error:    Przekroczono dozwoloną liczbę znaków.        

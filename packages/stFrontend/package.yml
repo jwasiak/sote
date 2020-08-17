@@ -1,0 +1,22 @@
+package:
+  name: stFrontend
+  stability: stable
+  version: 7.0.1.9
+  summary: Frontend
+  description: Frontend
+  notes: |
+    - Dodanie tlumaczen
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stBase: 1.1.0.18
+    stBackend: 1.1.0.13
+    stThemePlugin: 1.0.7.20
+    stErrorPlugin: 1.0.2.2
+    stSmartyPlugin: 1.1.0.1
+    stLanguagePlugin: 1.1.0.8
+    stMinifyPlugin: 1.0.1.1
+    stSymfonyUpdate: 1.1.19.1

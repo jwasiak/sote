@@ -1,0 +1,280 @@
+sfAsset:
+  sfAsset_13:
+    folder_id: sfAssetFolder_58
+    filename: giallo_woman.png
+    type: image
+  sfAsset_14:
+    folder_id: sfAssetFolder_58
+    filename: giallo_man.png
+    type: image
+  sfAsset_15:
+    folder_id: sfAssetFolder_58
+    filename: giallo_kids.png
+    type: image
+  sfAsset_16:
+    folder_id: sfAssetFolder_58
+    filename: giallo_winter.png
+    type: image
+  sfAsset_17:
+    folder_id: sfAssetFolder_58
+    filename: giallo_flip.png
+    type: image
+Category: 
+  Category_17: 
+    lft: 1
+    rgt: 14
+    scope: 1
+    culture: pl_PL
+    name: Kategorie
+    depth: 0
+    root_position: 1
+  Category_25: 
+    lft: 1
+    rgt: 24
+    scope: 25
+    culture: pl_PL
+    name: Menu
+    depth: 0
+    is_hidden: 1
+    root_position: 2
+  Category_18: 
+    lft: 6
+    rgt: 7
+    scope: 1
+    parent_id: Category_17
+    culture: pl_PL
+    name: Dziecięce
+    depth: 1
+    is_active: 1
+    sf_asset_id: sfAsset_15
+  Category_21: 
+    lft: 4
+    rgt: 5
+    scope: 1
+    parent_id: Category_17
+    culture: pl_PL
+    name: Męskie
+    depth: 1
+    is_active: 1
+    sf_asset_id: sfAsset_14
+  Category_22: 
+    lft: 2
+    rgt: 3
+    scope: 1
+    parent_id: Category_17
+    culture: pl_PL
+    name: Damskie
+    depth: 1
+    is_active: 1
+    sf_asset_id: sfAsset_13
+  Category_23: 
+    lft: 8
+    rgt: 9
+    scope: 1
+    parent_id: Category_17
+    culture: pl_PL
+    name: Zimowe
+    depth: 1
+    is_active: 1
+    sf_asset_id: sfAsset_16
+  Category_24: 
+    lft: 12
+    rgt: 13
+    scope: 1
+    parent_id: Category_17
+    culture: pl_PL
+    name: Japonki
+    depth: 1
+    is_active: 1
+    sf_asset_id: sfAsset_17
+  Category_40: 
+    lft: 10
+    rgt: 17
+    scope: 25
+    parent_id: Category_25
+    culture: pl_PL
+    name: Damskie
+    depth: 1
+    is_active: 1
+  Category_41: 
+    lft: 18
+    rgt: 23
+    scope: 25
+    parent_id: Category_25
+    culture: pl_PL
+    name: Dziecięce
+    depth: 1
+    is_active: 1
+  Category_39: 
+    lft: 2
+    rgt: 9
+    scope: 25
+    parent_id: Category_25
+    culture: pl_PL
+    name: Męskie
+    depth: 1
+    is_active: 1
+  Category_47: 
+    lft: 13
+    rgt: 14
+    scope: 25
+    parent_id: Category_40
+    culture: pl_PL
+    name: Zimowe
+    depth: 2
+    is_active: 1
+  Category_48: 
+    lft: 19
+    rgt: 20
+    scope: 25
+    parent_id: Category_41
+    culture: pl_PL
+    name: Kapcie
+    depth: 2
+    is_active: 1
+  Category_49: 
+    lft: 21
+    rgt: 22
+    scope: 25
+    parent_id: Category_41
+    culture: pl_PL
+    name: Zimowe
+    depth: 2
+    is_active: 1
+  Category_42: 
+    lft: 3
+    rgt: 4
+    scope: 25
+    parent_id: Category_39
+    culture: pl_PL
+    name: Sportowe
+    depth: 2
+    is_active: 1
+  Category_43: 
+    lft: 7
+    rgt: 8
+    scope: 25
+    parent_id: Category_39
+    culture: pl_PL
+    name: Japonki 
+    depth: 2
+    is_active: 1
+  Category_44: 
+    lft: 5
+    rgt: 6
+    scope: 25
+    parent_id: Category_39
+    culture: pl_PL
+    name: Zimowe
+    depth: 2
+    is_active: 1
+  Category_45: 
+    lft: 11
+    rgt: 12
+    scope: 25
+    parent_id: Category_40
+    culture: pl_PL
+    name: Sportowe
+    depth: 2
+    is_active: 1
+  Category_46: 
+    lft: 15
+    rgt: 16
+    scope: 25
+    parent_id: Category_40
+    culture: pl_PL
+    name: Japonki
+    depth: 2
+    is_active: 1
+
+CategoryI18n:
+  CategoryI18n_2:
+    id: Category_17
+    culture: en_US
+    name: Categories
+    url: categories
+  CategoryI18n_3:
+    id: Category_25
+    culture: en_US
+    name: Menu
+    url: menu
+  CategoryI18n_4:
+    id: Category_18
+    culture: en_US
+    name: Kids
+    url: kids
+  CategoryI18n_5:
+    id: Category_21
+    culture: en_US
+    name: Men
+    url: men
+  CategoryI18n_6:
+    id: Category_22
+    culture: en_US
+    name: Woman
+    url: woman
+  CategoryI18n_7:
+    id: Category_23
+    culture: en_US
+    name: Winter
+    url: winter
+  CategoryI18n_8:
+    id: Category_24
+    culture: en_US
+    name: Flip flops
+    url: flip-flops
+  CategoryI18n_9:
+    id: Category_40
+    culture: en_US
+    name: Woman
+    url: menu-woman
+  CategoryI18n_10:
+    id: Category_41
+    culture: en_US
+    name: Kids
+    url: menu-kids
+  CategoryI18n_11:
+    id: Category_39
+    culture: en_US
+    name: Men
+    url: menu-men
+  CategoryI18n_12:
+    id: Category_47
+    culture: en_US
+    name: Winter
+    url: woman-winter
+  CategoryI18n_13:
+    id: Category_48
+    culture: en_US
+    name: Slippers
+    url: kids-slippers
+  CategoryI18n_14:
+    id: Category_49
+    culture: en_US
+    name: Winter
+    url: kids-winter
+  CategoryI18n_15:
+    id: Category_42
+    culture: en_US
+    name: Sport
+    url: man-sport
+  CategoryI18n_16:
+    id: Category_43
+    culture: en_US
+    name: Flip flops
+    url: man-flip-flops
+  CategoryI18n_17:
+    id: Category_44
+    culture: en_US
+    name: Winter
+    url: man-winter
+  CategoryI18n_18:
+    id: Category_45
+    culture: en_US
+    name: Sport
+    url: woman-sport
+  CategoryI18n_19:
+    id: Category_46
+    culture: en_US
+    name: Flip flops
+    url: woman-flip-flops

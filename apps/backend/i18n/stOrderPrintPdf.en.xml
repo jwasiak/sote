@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Id</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Data dokonania płatności</source>
+                <target>Payment date</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Kwota</source>
+                <target>Amount</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Typ płatności</source>
+                <target>Payment type</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Rozliczona</source>
+                <target>Settled</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Nierozliczona</source>
+                <target>Unsettled</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Netto</source>
+                <target>Net</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Vat</source>
+                <target>VAT</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Brutto</source>
+                <target>Gross</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Ilość</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Suma</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Łączna wartość:</source>
+                <target>Total amount:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Rodzaj dostawy</source>
+                <target>Delivery type</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Koszt przesyłki:</source>
+                <target>Delivery cost:</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Numer przesyłki:</source>
+                <target>Delivery number:</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Zamówienie nr:</source>
+                <target>Order nr:</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>potwierdzone</source>
+                <target>confirmed</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>niepotwierdzone</source>
+                <target>unconfirmed</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Numer ID klienta:</source>
+                <target>Customer ID number:</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Email klienta:</source>
+                <target>Customer email:</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Dane dostawy</source>
+                <target>Delivery data</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Dane billingowe</source>
+                <target>Billing data</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Produkty</source>
+                <target>Products</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Łącznie</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Dane płatności</source>
+                <target>Payment data</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Uwagi klienta</source>
+                <target>Customer notes</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Notatki sprzedawcy</source>
+                <target>Seller notes</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Bon towarowy: %code%</source>
+                <target>Gift card: %code%</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Termin dostawy</source>
+                <target>Delivery time</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Grupa hurtowa:</source>
+                <target>Group wholesale:</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Kod rabatowy</source>
+                <target>Coupon code</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Udzielony rabat</source>
+                <target>Discount</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Faktura VAT</source>
+                <target>Invoice</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>tak</source>
+                <target>yes</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>nie</source>
+                <target>no</target>
+            </trans-unit>
+                                 
+        </body>
+    </file>
+</xliff>

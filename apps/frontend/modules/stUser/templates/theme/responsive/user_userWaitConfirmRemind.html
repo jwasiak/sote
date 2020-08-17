@@ -1,0 +1,24 @@
+{set layout="one_column"}
+
+<div id="wait-confirm-remind">
+
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            {__ text="Prośba o potwierdzenie konta."}
+        </h3>
+    </div>
+    <div class="panel-body text-center">
+        <p>{__ text="Na konto pocztowe"} {$username} {__ text="została wysłana wiadomość z prośbą o potwierdzenie konta. Sprawdź pocztę i kliknij w załączony link."}</p>        
+
+        <p>
+    {if $show_basket != 0}
+        <a href="/" class="btn btn-default pull-left"> {__ text="Wróć do zakupów"} </a>
+        <a href="{$go_to_basket_url}" class="btn btn-default pull-right">{__ text="Przejdź do koszyka"}</a>
+    {else}
+        <a href="/" class="btn btn-default">{__ text="Wróć do zakupów"}</a>
+    {/if}
+        </p>
+    </div>
+</div>
+</div>

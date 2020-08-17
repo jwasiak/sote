@@ -1,0 +1,4 @@
+fields:
+    config{pos_id}:
+        required:
+            msg:    Proszę uzupełnić pole.

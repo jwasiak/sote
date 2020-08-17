@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2011-11-10T03:22:20Z">
+		<body>
+			<trans-unit id="1">
+				<source>Porównaj produkty</source>
+				<target>Porovnat výrobky</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dodaj produkt do porównania</source>
+				<target>Přidat výrobek k porovnání</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Usuń produkt z porównania</source>
+				<target>Odstranit výrobek z porovnávání</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>usuń</source>
+				<target>odstranit</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa</source>
+				<target>Název</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Producent</source>
+				<target>Výrobce</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Cena netto</source>
+				<target>Cena bez DPH</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Cena brutto</source>
+				<target>Cena s DPH</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>VAT</source>
+				<target>DPH</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Brak produktów do porównania.</source>
+				<target>Nebyli vybrané žádné výrobky k porovnání</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wróć do ostatnio oglądanego produktu</source>
+				<target>Zpět na předchozí produkt</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

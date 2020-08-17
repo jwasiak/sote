@@ -1,0 +1,6 @@
+export:
+    fields:
+        product_sklepy24:         {name: Sklepy24, class: stSklepy24, method: getProduct}
+import:
+    fields:
+        product_sklepy24:         {class: stSklepy24, method: setProduct}

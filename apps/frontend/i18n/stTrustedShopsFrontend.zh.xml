@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+				<target>Trusted Shops 质量标志 – 这里检查它的有效性！</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+				<target>zarejestrować, aby z niej skorzystać. 我们承担全部的保险费用，您只要注册就可以使用。</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+				<target>申请Trusted Shops 买家保护</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ochrona Kupującego Trusted Shops</source>
+				<target>Trusted Shops 买家保护</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Ochrona Kupującego do</source>
+				<target>买家保护到</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>z VAT</source>
+				<target>跟增值税</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+				<target>买家保护保护您在网上购物。我同意传输和</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>zapisywanie</source>
+				<target>存储</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+				<target>我的电子邮件地址</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Warunki gwarancji</source>
+				<target>保证条件</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>dla Ochrony Kupującego.</source>
+				<target>对买家保护</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops. Zobacz więcej...</source>
+				<target>本网店有Trusted Shops的买家保护证书。查看更多…</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Więcej informacji o</source>
+				<target>详情</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Zobacz opinie klientów sklepu</source>
+				<target>看顾客反馈意见</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Opinie klientów sklepu</source>
+				<target>顾客反馈意见</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Ubezpieczenie Trusted Shops</source>
+				<target>Trusted Shops 保险</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

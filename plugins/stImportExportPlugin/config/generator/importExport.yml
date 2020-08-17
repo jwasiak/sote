@@ -1,0 +1,2 @@
+include_action_files: [/plugins/stImportExportPlugin/config/generator/extendActions.php]
+include_component_files: [/plugins/stImportExportPlugin/config/generator/extendComponents.php]

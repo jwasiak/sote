@@ -1,0 +1,14 @@
+{if isset($show_ask_price)}
+    {if isset($ask_price_login)}
+        <div class="question_link">{$price_question}</div>
+    {else}
+        <div class="question_login">{__ text="Zaloguj się, aby zapytać o cenę"}.</div>
+    {/if}
+{/if}
+{if isset($show_ask_depository)}
+    {if isset($ask_depository_login)}
+        <div class="question_link">{$depository_question}</div>
+    {else}
+        <div class="question_login">{__ text="Zaloguj się, aby zapytać o dostępność"}.</div>
+    {/if}
+{/if}

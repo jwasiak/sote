@@ -1,0 +1,28 @@
+PaymentType:
+  PaymentType_11:
+    module_name: stLukas
+    active: 0
+    culture: pl_PL
+    name: Credit Agricole Raty
+
+PaymentTypeI18n:
+  PaymentTypeI18n_11:
+    id: PaymentType_11
+    culture: en_US
+    name: Credit Agricole Raty
+
+Box:
+  Box_Lukas:
+    culture:    pl_PL
+    active:     0
+    show_title: 1
+    name:       Credit Agricole Raty
+    content:    '<p style="text-align: center;"><a href="#" onClick="window.open('/lukas/procedure','lukasWindow','location=no,scrollbars=yes,resizable=yes,toolbar=no,menubar=no,height=600,width=840');"><img src="https://ewniosek.credit-agricole.pl/eWniosek/res/CA_grafika/raty_180x66_przezroczysty.png" border="0" width="160" alt="LukasRaty"/></a></p>'
+    box_group_id: BoxGroup_2
+
+BoxI18n:
+  BoxI18n_Lukas:
+    id:         Box_Lukas
+    culture:    en_US
+    name:       Credit Agricole Raty
+    content:    '<p style="text-align: center;"><a href="#" onClick="window.open('/lukas/procedure','lukasWindow','location=no,scrollbars=yes,resizable=yes,toolbar=no,menubar=no,height=600,width=840');"><img src="https://ewniosek.credit-agricole.pl/eWniosek/res/CA_grafika/raty_180x66_przezroczysty.png" border="0" width="160" alt="LukasRaty"/></a></p>'

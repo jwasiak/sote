@@ -1,0 +1,158 @@
+<div id="full-list">
+    <div class="panel panel-default">
+        <div class="panel-heading">{__ text="Wybierz prezent" catalogue="stBasket"}</div>
+        <div class="panel-body">
+            <div id="gift_group" class="product-list">
+                <div class="full-list group-line row">
+                    {assign var='i' value=0}
+                    {foreach key=row item=product from=$results}
+                    {assign var='i' value=$i+1} 
+                        {if $row < $max}
+                        <div class="product col-xs-4 col-sm-4 col-md-3 col-lg-3 item nr_{$i}">
+                            <div class="thumbnail clearfix view-img">        
+                                <div class="image">
+                                    <a href="{$product.link}">
+                                        {$product.large_photo}
+                                    </a>
+                                </div>
+                                <div class="caption clearfix">
+                                    <div class="caption_inner"> 
+                                        <p class="text-center name"><span class="product_name">{$product.name}</span></p>
+                                        <div class="main_price text-center">
+                                            {if $product.old_price}
+                                                <div class="discount-old_price text-center">
+                                                    <div class="price old_price">
+                                                        {$product.old_price}
+                                                    </div>
+                                                </div>    
+                                            {/if}            
+                                            <div class="price">{$product.price}</div>
+                                        </div>
+                                        <div class="product-shopping-cart">
+                                            {$product.basket}
+                                        </div>   
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div>   
+                        {/if}
+                    {/foreach}
+                </div>
+
+                {if $more}
+                    <div class="text-right">
+                        <button id="gift-group-more" type="button" class="btn btn-default" data-toggle="modal" data-target="#gift-group-modal">{__ text="Więcej" catalogue="stProduct"}</button>
+                    </div>
+                {/if}
+            </div>
+        </div>
+    </div>   
+            
+    {if $more}
+        <div id="gift-group-modal" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">{__ text="Wybierz prezent" catalogue="stBasket"}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="full-list row" data-equalizer>
+                            {foreach key=row item=product from=$results}
+                                <div class="product col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                                    <div class="thumbnail clearfix view-img">        
+                                        <div class="image" data-equalizer-watch="image" style="min-height: 250px"><a href="#">{$product.photo}</a></div>
+                                        <div class="caption clearfix" data-equalizer-watch="caption">
+                                            <div class="caption_inner"> 
+                                                <p class="text-center name"><span class="product_name">{$product.name}</span></p>
+                                                <div class="main_price text-center">
+                                                    {if $product.old_price}
+                                                        <div class="discount-old_price text-center">
+                                                            <div class="price old_price">
+                                                                {$product.old_price}
+                                                            </div>
+                                                        </div>    
+                                                    {/if}            
+                                                    <div class="price">{$product.price}</div>
+                                                </div>
+                                                <div class="product-shopping-cart">
+                                                    {$product.basket}
+                                                </div>   
+                                            </div>
+                                        </div>      
+                                    </div>  
+                                </div>   
+                            {/foreach}
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    {/if}
+</div>
+{literal}
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+    $('#gift_group, #gift-group-modal').on('click', '.basket_add_link', function() {
+        var link = $(this);
+
+        var href = link.attr('href');
+
+        if (href.indexOf('?') != -1) {
+            href += '&gift=1';
+        } else {
+            href += '?gift=1';
+        }
+
+        link.attr('href', href);
+    });
+
+    $('#gift-group-modal').on('shown.bs.modal', function() {
+        $(window).resize();
+    }); 
+
+
+    var productId = '#full-list ';
+
+    $(document).ready(function() {  
+        var images = $('#full-list .image img');
+        var cnt = images.length;
+
+        function loaded() {
+            cnt--;
+            if (cnt == 0) {
+                $('#full-list .group-line').masonry({
+                    itemSelector: '.item'
+                });
+                heightMainProd(productId);
+            }
+        }
+
+        for (var i = 0; i < images.length; i++) {
+            var image = images[i];
+
+            if (image.complete || image.readyState === 4) {
+                loaded();
+            }
+            else {
+                var $image = $(image);
+                if (!$image.attr('src')) {
+                    loaded();
+                } else {
+                    $image.one("load", loaded);
+                }
+            }
+        }
+
+        $(window).resize(function() {
+            heightMainProd(productId);
+        });  
+    });   
+
+
+
+});
+//]]>
+</script> 
+{/literal}

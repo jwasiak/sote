@@ -1,0 +1,19 @@
+rendering: ~
+web_debug: ~
+security:  ~
+
+# generally, you will want to insert your own filters here
+
+cache:     ~
+fastcache:
+  class: sfSuperCacheFilter
+common:    
+  enabled: false
+price_compare:
+    class: stPriceCompareFilter
+language:
+    class: stLanguageFilter
+positioning:
+    class: stPositioningFilter
+flash:     ~
+execution: ~

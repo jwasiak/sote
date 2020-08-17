@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Edycja strefy %%name%%</source>
+                <target>Edit an area %%name%%</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Kraje</source>
+                <target>Countries</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Przytrzymaj klawisz <b>Ctrl</b>, aby wybrać wiele krajów jednocześnie</source>
+                <target>Hold down <b>Ctrl</b> key to select multiple countries simultaneously</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Usuń strefę</source>
+                <target>Delete an area</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nazwa strefy</source>
+                <target>Area name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Musisz podać nazwę dla strefy</source>
+                <target>Enter an area name</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Musisz wybrać przynajmniej jeden kraj dla strefy</source>
+                <target>Select at least one country</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Strefa o podanej nazwie juz istnieje</source>
+                <target>Area with the given name already exists</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Brak aktywnych krajów, przejdź do konfiguracji krajów</source>
+                <target>No active countries, go to countries configuration</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Lista krajów</source>
+                <target>List of countries</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Lista stref</source>
+                <target>List of areas</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Aktywuj</source>
+                <target>Activate</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Dezaktywuj</source>
+                <target>Deactivate</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Edycja kraju %%name%%</source>
+                <target>Edit a country %%name%%</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Dodaj nową strefę</source>
+                <target>Add a new area</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

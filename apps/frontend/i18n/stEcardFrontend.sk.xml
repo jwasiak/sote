@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2011-11-10T03:22:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Platba</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Ďakujeme za zrealizovanie platby.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kliknij przycisk zapłać aby przejść do serwisu eCard.</source>
+				<target>Ak chcete prejsť do servisu eCard, kliknite tlačidlo zaplatiť.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapłać</source>
+				<target>Zaplatiť</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Splatnosť bola špatnie konfigurovaná.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Platba nebola zrealizovaná.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kliknij przycisk</source>
+				<target>Kliknite tlačidlo</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>"Zapłać"</source>
+				<target>"Zaplatiť"</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>aby przejść do serwisu eCard.</source>
+				<target>ak chcete prejsť do servisu eCard.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

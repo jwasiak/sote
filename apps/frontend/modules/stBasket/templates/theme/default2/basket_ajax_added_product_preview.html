@@ -1,0 +1,43 @@
+<div id="added_product_preview" style="display: none" class="box roundies">
+   <h3 class="head">{__ text="Produkt został dodany do koszyka"}</h3>
+   <div class="content">
+   {foreach item=product from=$products}
+      <div class="item">
+         <div class="image">
+            <a class="full" href="{$product.url}"><img src="{$product.image}" alt="" /></a>
+         </div>
+         <div class="info">
+            <a href="{$product.url}">{$product.name}</a>
+            <span>{$product.options}</span>
+            <div class="quantity">
+               {if $product.error}
+                {if $product.points_product == 1}
+                        <span class="error">{$product.quantity} {$product.uom} x {$product.points_value} {$product.points_shortcut}</span>
+                   {else}
+                        <span class="error">{$product.quantity} {$product.uom} x {$product.price|st_currency_format}</span>
+                   {/if}
+               <div class="tooltip tooltip_warning roundies">{$product.error}</div>
+               {else}
+                   {if $product.points_product == 1}
+                        {$product.quantity} {$product.uom} x {$product.points_value} {$product.points_shortcut}
+                   {else}
+                        {$product.quantity} {$product.uom} x {$product.price|st_currency_format}
+                   {/if}
+               {/if}
+            </div>
+         </div>
+      </div>
+   {/foreach}
+      <div class="buttons right">
+         <a class="roundies important" href="{$basket_url}">
+            <span class="arrow_right">{__ text="Koszyk"}</span>
+         </a>
+      </div>
+      <div class="buttons">
+         <a class="roundies" href="#" onclick="jQuery('#added_product_preview').data('overlay').close(); return false">
+            <span class="arrow_left icon_left">{__ text="Kontynuuj zakupy"}</span>
+         </a>
+      </div>
+      <div class="clear"></div>
+   </div>
+</div>

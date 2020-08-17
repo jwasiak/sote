@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2012-08-30T03:28:32Z">
+		<body>
+			<trans-unit id="1">
+				<source>Start</source>
+				<target>Start</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Historia</source>
+				<target>Historikk</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Historia oglądanych produktów</source>
+				<target>Produkter som du har sett på</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ostatnio oglądane</source>
+				<target>Nylig sett</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszyk</source>
+				<target>Handlevognen</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Potwierdzenie zamówienia</source>
+				<target>Ordrebekreftelse</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Podsumowanie zamówienia / Płatności</source>
+				<target>Ordre/betalingssammendrag</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Szukaj</source>
+				<target>Søk</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Podsumowanie zamówienia</source>
+				<target>Ordresammendrag</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Płatność</source>
+				<target>Betaling</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

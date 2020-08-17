@@ -1,0 +1,1 @@
+<?php echo st_colorpicker_input_tag('config[link_color]', $config->get('link_color')) ?>

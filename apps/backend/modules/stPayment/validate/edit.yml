@@ -1,0 +1,7 @@
+fields:
+    payment{amount}:
+        required:
+            msg:    Podaj kwotę płatności.
+    payment{payment_type_id}:
+        required:
+            msg:    Podaj typ płatności.

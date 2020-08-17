@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2014-01-01T00:00:01Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Identyfikator Punktu Płatności</source>
+                <target>Payment point ID</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Klucz Punktu Płatności</source>
+                <target>Payment point key</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Włącz tryb testowy</source>
+                <target>Enable the test mode</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wybór kanału płatności (banku)</source>
+                <target>Channel payment selection</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>W serwisie CashBill (zalecana)</source>
+                <target>In CashBill service (recommended)</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>W sklepie, graficzna</source>
+                <target>In shop, graphics</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>W sklepie, tekstowa</source>
+                <target>In shop, text</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Adres serwerowego potwierdzenia transakcji</source>
+                <target>Address of the transaction confirmation</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przewodnik Płatności CashBill dla SOTE</source>
+                <target>Guide CashBill Payments for SOTE</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zobacz krótki przewodnik uruchomienia Płatności CashBill. Sprawdź promocyjne warunki dla klientów SOTE.</source>
+                <target>See a guide to start Payments CashBill. Check the promotional terms and conditions for customers SOTE.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Pobierz przewodnik</source>
+                <target>Download guide</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Płatność przez serwis CashBill</source>
+                <target>CashBill payment</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

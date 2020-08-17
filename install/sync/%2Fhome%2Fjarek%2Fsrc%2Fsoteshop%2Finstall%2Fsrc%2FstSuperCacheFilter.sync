@@ -1,0 +1,14 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin/config
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin/config/config.php
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin/lib
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin/lib/sfSuperCacheListener.class.php
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin/lib/filters
+/home/jarek/src/soteshop/plugins/sfSuperCachePlugin/lib/filters/sfSuperCacheFilter.class.php
+/home/jarek/src/soteshop/data
+/home/jarek/src/soteshop/data/update
+/home/jarek/src/soteshop/data/update/stSuperCacheFilter.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stSuperCacheFilter
+/home/jarek/src/soteshop/packages/stSuperCacheFilter/package.yml

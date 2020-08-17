@@ -1,0 +1,51 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_user_points: 
+    _attributes: 
+      phpName: UserPoints
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_guard_user_id: 
+      type: INTEGER
+      required: true
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: restrict  
+    points: 
+      type: INTEGER
+      default: 0
+    change_points: 
+      type: INTEGER
+      default: 0
+    change_points_varchar: 
+      type: VARCHAR
+      size: 10  
+    description: 
+      type: VARCHAR
+      size: 255    
+    order_id: 
+      type: INTEGER
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    order_number: 
+      type: VARCHAR
+      size: 255
+    order_hash: 
+      type: VARCHAR
+      size: 255  
+    admin_id: 
+      type: INTEGER
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade

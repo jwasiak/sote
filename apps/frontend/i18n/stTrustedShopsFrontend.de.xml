@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2011-11-04T01:50:23Z">
+		<body>
+			<trans-unit id="1">
+				<source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+				<target>Trusted Shops-Qualitätszeichen – hier können Sie die Gültigkeit prüfen!</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+				<target>Als zusätzlichen Service bieten wir Ihnen den Trusted Shops Käuferschutz an. Wir übernehmen alle Kosten dieser Garantie, Sie müssen sich lediglich anmelden.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+				<target>Anmeldung zum Trusted Shops-Käuferschutz</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ochrona Kupującego Trusted Shops</source>
+				<target>Trusted Shops-Käuferschutz</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Ochrona Kupującego do</source>
+				<target>Käuferschutz</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>z VAT</source>
+				<target>inkl. MwSt.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+				<target>Der Trusted Shops-Käuferschutz schützt Sie bei Internetkäufen. Ich stimme der Übermittlung und</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>zapisywanie</source>
+				<target>Speicherung</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+				<target>meiner E-Mail-Adresse durch Trusted Shops zu, damit ich den Käuferschutz nutzen kann.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Warunki gwarancji</source>
+				<target>Garantiebestimmungen</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>dla Ochrony Kupującego.</source>
+				<target>für den Käuferschutz.</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops.</source>
+				<target>trägt das Trusted Shops Gütesiegel mit Käuferschutz.</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Więcej informacji o</source>
+				<target>Mehr Informationen über</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Zobacz opinie klientów sklepu</source>
+				<target>Bewertungen von Shopkunden anzeigen</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Opinie klientów sklepu</source>
+				<target>Bewertungen von Shopkunden</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Ubezpieczenie Trusted Shops</source>
+				<target>Trusted Shops-Versicherung</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Zobacz więcej...</source>
+				<target>Mehr...</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>https://www.trustedshops.pl/shop/certificate.php</source>
+				<target>https://www.trustedshops.de/shop/certificate.php</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>http://www.trustedshops.pl/sklep_internetowy/profil</source>
+				<target>http://www.trustedshops.de/profil</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>https://www.trustedshops.pl/opinia/info_</source>
+				<target>https://www.trustedshops.de/bewertung/info_</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>https://www.trustedshops.pl/opinia/ocen_</source>
+				<target>https://www.trustedshops.de/bewertung/bewerten_</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Czy jesteś zadowolony z naszych usług?</source>
+				<target>Waren Sie mit Ihrem Einkauf und unserem Service zufrieden?</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Napisz komentarz i wystaw nam ocenę.</source>
+				<target>Wir freuen uns auf Ihr Feedback.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

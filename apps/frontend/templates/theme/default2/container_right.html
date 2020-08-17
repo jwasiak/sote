@@ -1,0 +1,10 @@
+<div class="container_content portal-column" id="portal_right"> 
+    {slot name="layout_container_right"}
+        {component name="stNavigationFrontend/productsBox"}
+        {component name="stProduct/productGroup" parameters="product_group: PROMOTION"} 
+        {component name="stProduct/productGroup" parameters="product_group: SALES"}
+        {component name="stBoxFrontend/boxGroup" parameters="box_group: RIGHT"}
+        {component name="stTrustedShopsFrontend/showSealbox"}
+        {component name="stTrustedShopsFrontend/showRatingWidget"}
+    {/slot} 
+</div>

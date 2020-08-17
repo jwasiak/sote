@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Pasek postępu:</source>
+                <target>Progress bar:</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Nie można połączyć sie z serwerem w celu wykonania procesu. Prosze o kontakt z serwisem oprogramowania www.serwis.sote.pl.</source>
+                <target>Unable to connect to the server in order to execute the process. Contact the software service at www.serwis.sote.pl.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nie można połączyć sie z serwerem w celu wykonania procesu. Prosze o kontakt z administratorem serwera.</source>
+                <target>Unable to connect to the server in order to execute the process. Contact the server's administrator.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Aktualizacja została przerwana ze względu na duże obciążenie serwera. Proszę spróbować ponownie za kilka minut.</source>
+                <target>The update has been aborted due to the high server's load. Please try again in a few minutes.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wystąpił problem podczas wykonywania operacji, ponowna próba za</source>
+                <target>The problem has occured during the operation, retry in</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>sekund</source>
+                <target>seconds</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wystąpił problem podczas wykonywania zadania</source>
+                <target>The problem occurred while performing the task</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

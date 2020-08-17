@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie walutami, ustalanie kursów</source>
+                <target>Manage the currencies, fix the exchange rates</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Nazwa waluty</source>
+                <target>Currency name</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Skrót</source>
+                <target>Abbreviation</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Kurs</source>
+                <target>Exchange rate</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Domyślna</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Dodaj nową walutę</source>
+                <target>Add a new currency</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Edycja waluty %%name%%</source>
+                <target>Edit the currency %%name%%</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>kurs musi być liczbą wiekszą od zera i wprowadzany z kropką</source>
+                <target>exchange rate must be a number greater than zero and entered with the dot</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Symbol przed</source>
+                <target>Symbol before</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Symbol za</source>
+                <target>Symbol after</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Główna</source>
+                <target>Main</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Błąd podczas otwierania zdalnego pliku z informacją o katalogu! System przerwał pracę.</source>
+                <target>An error occured while opening the remote file with information about the directory! System has stopped working.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Waluta główna nie może być odznaczona.</source>
+                <target>The main currency must be marked.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Nie można usunąć waluty głównej.</source>
+                <target>The main currency can't be deleted.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Podaj nazwę waluty</source>
+                <target>Enter the currency name</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Podaj skrót waluty</source>
+                <target>Enter the currency abbreviation</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Podaj kod ISO</source>
+                <target>Enter the ISO code</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Kod ISO musi zawierać 3 znaki</source>
+                <target>ISO code must have 3 characters</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Kod ISO</source>
+                <target>ISO code</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Opcje dodatkowe</source>
+                <target>Additional options</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Lista kodów zgodnych ze specyfikacją ISO 4217:</source>
+                <target>List of the codes compatible with ISO 4217:</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Aktualne kursy walut:</source>
+                <target>The current exchange rates:</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Waluta</source>
+                <target>Currency</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Waluty</source>
+                <target>Currencies</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Domyślnie wybrana waluta po stronie sklepu</source>
+                <target>Currency will be set as default in the shop</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Niepoprawny format liczbowy kursu (przykładowy format: 10, 10.1234)</source>
+                <target>Invalid exchange rate format (the correct format: 10, 10.1234)</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Wartość kursu musi być większa od 0</source>
+                <target>Exchange rate value must be greater than 0</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Nowa waluta</source>
+                <target>New currency</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Aktywna waluta po stronie sklepu</source>
+                <target>Currency will be set as active in the shop</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Euro</source>
+                <target>Euro</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Dolar amerykański</source>
+                <target>US dollar</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Funt brytyjski</source>
+                <target>Pound sterling</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Korona duńska</source>
+                <target>Danish krone</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Korona norweska</source>
+                <target>Norwegian krone</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Frank szwajcarski</source>
+                <target>Swiss franc</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Dolar australyjski</source>
+                <target>Australian dollar</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Jen japoński</source>
+                <target>Japanese yen</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Dolar kanadyjski</source>
+                <target>Canadian dollar</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Rand południowoafrykański</source>
+                <target>South African rand</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Lew bułgarski</source>
+                <target>Bulgarian lev</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Kuna chorwacka</source>
+                <target>Croatian kuna</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Korona czeska</source>
+                <target>Czech koruna</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Ruble rosyjskie</source>
+                <target>Russian ruble</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Lira turecka</source>
+                <target>Turkish lira</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Hrywna ukraińska</source>
+                <target>Ukrainian hryvnia</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Forint wegierski</source>
+                <target>Hungarian forint</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Polski złoty</source>
+                <target>Polish zloty</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Leje rumuńskie</source>
+                <target>Romanian leu</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Aktualne kursy walut: <a target="_blank" style="color:#aaa" href="http://nbp.pl/home.aspx?f=/kursy/kursya.html">http://nbp.pl/home.aspx?f=/kursy/kursya.html</a></source>
+                <target>The current exchange rates: <a target="_blank" style="color:#aaa" href="http://nbp.pl/home.aspx?f=/kursy/kursya.html">http://nbp.pl/home.aspx?f=/kursy/kursya.html</a></target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Lista kodów zgodnych ze specyfikacją ISO 4217: <a target="_blank" style="color:#aaa" href="http://www.iso.org/iso/support/currency_codes_list-1.htm">http://www.iso.org/iso/support/currency_codes_list-1.htm</a></source>
+                <target>List of the codes compatible with ISO 4217: <a target="_blank" style="color:#aaa" href="http://www.iso.org/iso/support/currency_codes_list-1.htm">http://www.iso.org/iso/support/currency_codes_list-1.htm</a></target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Wybrana waluta już istnieje...</source>
+                <target>The chosen currency already exists...</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Waluta z podanym kodem ISO już istnieje...</source>
+                <target>Currency with the given ISO code already exists...</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Chiński yuan</source>
+                <target>Chinese yuan</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Korona szwedzka</source>
+                <target>Swedish krona</target>
+            </trans-unit>
+            <trans-unit id="233">
+                <source>Wartość kursu nie może być równa 1</source>
+                <target>Exchange rate can not be equal to 1</target>
+            </trans-unit>
+            <trans-unit id="234">
+                <source>Odwrotny kurs:</source>
+                <target>Inverse exchange rate</target>
+            </trans-unit>
+            <trans-unit id="235">
+                <source>Jeśli zaznaczone waluty obce przeliczane są względem odwrotnego kursu</source>
+                <target>If selected foreign currencies are calculated with the inverse exchange rate</target>
+            </trans-unit>
+            <trans-unit id="236">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="237">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>            
+        </body>
+    </file>
+</xliff>

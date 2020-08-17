@@ -1,0 +1,97 @@
+propel:
+  _attributes:      { package: plugins.stGiftCardPlugin.lib.model }  
+  st_gift_card:
+    _attributes:
+      phpName: GiftCard
+    id: ~
+    status:
+      type:     VARCHAR
+      size:     1
+      default:  A
+    amount:
+      type:     DECIMAL
+      size:     10
+      scale:    2  
+      required: true
+    min_order_amount:
+      type:     INTEGER
+      default:  0
+      required: true
+    code:
+      type:     VARCHAR
+      size:     64
+      required: true
+    valid_to:
+      type:     DATE        
+    currency_id:
+      type:     INTEGER
+      required: true
+      foreignTable: st_currency
+      foreignReference: id
+      onDelete: cascade    
+    allow_all_products:
+      type: BOOLEAN
+      required: false  
+    _uniques: 
+      code_idx:     [code]
+    _indexes:
+      status_idx:   [status]
+
+  st_gift_card_has_category: 
+    _attributes: 
+      phpName: GiftCardHasCategory
+    gift_card_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_gift_card
+      foreignReference: id
+      onDelete: cascade
+    category_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_category
+      foreignReference: id
+      onDelete: cascade
+    is_opt:
+      type: BOOLEAN
+      default: 0
+      required: true
+
+  st_gift_card_has_producer: 
+    _attributes: 
+      phpName: GiftCardHasProducer
+    gift_card_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_gift_card
+      foreignReference: id
+      onDelete: cascade
+    producer_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_producer
+      foreignReference: id
+      onDelete: cascade
+
+  st_gift_card_has_product: 
+    _attributes: 
+      phpName: GiftCardHasProduct
+    gift_card_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_gift_card
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+      

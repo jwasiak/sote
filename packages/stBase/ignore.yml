@@ -1,0 +1,5 @@
+ignore:
+    - web/.htaccess
+    - config/limits.yml
+    - lib/event/sfEvent.class.php
+    - lib/event/stEventDispatcher.class.php

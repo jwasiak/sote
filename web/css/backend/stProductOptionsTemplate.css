@@ -1,0 +1,57 @@
+#st_product_options_template-field-list li b, #st_product_options_template-field-list li span, #st_product_options_template-field-list li form, #st_product_options_template-field-list li ul
+{
+    float: left;
+    margin-right: 10px;
+}
+
+#st_product_options_template-field-list li
+{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#sf_admin_container .st_product_options_template-field-menu li
+{
+    float: left;
+    margin-right: 5px;
+}
+
+#sf_admin_container .st_product_options_template-field-menu a
+{
+    border: 1px solid #eee;
+    display: block;
+    padding: 2px;
+}
+
+#sf_fieldset_zarz__dzaj_atrybutami_slide div.form-row
+{
+    width: 850px; 
+    position: relative;
+}
+
+#st_application-st_product_options_template-add_button
+{
+    float:right;
+    position: absolute;
+    left: 290px;
+    top: 8px;
+}
+
+#st_application-st_product_options_template-html_button
+{
+    float:right;
+    position: absolute;
+    right: 15px; 
+    top: 8px;
+}
+
+.st_application-st_product_options_template_product_options_template_name
+{
+    width: 110px;
+}
+
+span.st_application-st_product_options_template-product_options_row
+{
+    width:220px;
+}
+

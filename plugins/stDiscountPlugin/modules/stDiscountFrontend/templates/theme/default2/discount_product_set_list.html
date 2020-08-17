@@ -1,0 +1,64 @@
+{use_stylesheet src="stDiscountPlugin.css"}
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+       function equalHeight(group)
+       {
+       tallest = 0;
+       group.each(function() {
+          thisHeight = $(this).height();
+          if(thisHeight > tallest) {
+             tallest = thisHeight;
+          }
+        });
+        group.height(tallest);
+        }
+
+        $(document).ready(function() {
+           equalHeight($("#product_set_discounts .image"));
+           equalHeight($("#product_set_discounts .name"));
+           equalHeight($("#product_set_discounts .price"));
+           equalHeight($("#product_set_discounts .item_discount_set"));
+        });
+
+        $(window).load(function() {
+           equalHeight($("#product_set_discounts .image"));
+           equalHeight($("#product_set_discounts .name"));
+           equalHeight($("#product_set_discounts .price"));
+           equalHeight($("#product_set_discounts .item_discount_set"));
+        });
+});
+</script>
+{/literal}
+
+<div class="block box roundies box_group">
+    <h3 class="head">{__ text="W zestawie kupisz taniej"}</h3>
+    <div class="content">
+        {foreach item=discount from=$discounts}
+        {assign var=products value=$discount->getProducts()}
+        {if $products}
+            <div class="discount_row">
+                {foreach item=product from=$products name="products"} 
+                    <div class="item item_discount_set">
+                        <div class="image roundies">{st_product_image_tag product=$product include_link=true image_type="thumb"}</div>
+                        <div class="name">{$product->getName()}</div>
+                        {st_product_price_tag product=$product view="short"}
+                    </div> 
+                    {if !$smarty.foreach.products.last}
+                    <div class="item_discount_set plus"></div>
+                    {/if}
+                {/foreach} 
+                <div class="discount_summary">
+                    <span class="old_price">{$discount->getTotalProductAmount(false)|st_currency_format}</span><br />
+                    <b>{$discount->getTotalProductAmount()|st_currency_format}</b>
+                    <div class="buttons">
+                        {st_discount_basket_add_button discount=$discount}
+                    </div>
+                </div>
+                <div class="clear"></div>                    
+            </div>
+        {/if}
+        {/foreach}
+    </div>
+</div>

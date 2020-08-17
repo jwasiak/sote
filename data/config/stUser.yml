@@ -1,0 +1,16 @@
+all:
+  .auto_generated:
+    config:
+      last_modified: '2010/03/18 10:13:49'
+      fields:
+        show_users_online: '1'
+        show_region: '0'
+        show_pesel: '0'
+        validate_phone: '0'
+        send_email_admin_confirm: '1'
+        show_address_more: '0'
+        change_default_user: '0'
+        google_auth_on: '0'
+        google_client_id: ''
+        google_secret_id: ''
+        google_developer_key: ''

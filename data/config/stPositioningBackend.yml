@@ -1,0 +1,10 @@
+all:
+  .auto_generated:
+    config:
+      last_modified: '2009/10/23 12:31:02'
+      fields:
+        langs:
+          pl: pl_PL
+        verify:
+        seolinks: ''
+        build_seo_links: 1

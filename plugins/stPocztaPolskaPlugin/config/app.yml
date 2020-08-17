@@ -1,0 +1,7 @@
+all:
+    navigation_bar:
+      display:
+        orders:
+          poczta_polska:    ~
+      items:
+        poczta_polska:      {label: Poczta Polska, route: "@stPocztaPolskaBackend",  icon: stPocztaPolskaPlugin.png}

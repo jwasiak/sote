@@ -1,0 +1,226 @@
+{set layout="one_column"}
+
+<div class="user-control">
+    {st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="1"}
+      
+    <div id="user-panel">
+
+        {if $last_order}
+
+            <div id="last-order">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <h3>{__ text="Ostatnie zamówienie"}</h3>
+
+                        <ul class="nav">
+                            <li>{__ text="Status"}: <span class="last-order-status">{$last_order_status}</span></li>
+                            <li>{__ text="Numer zamówienia"}: <b>{$last_order_order_number}</b></li>
+                            {if $last_order_delivery_number}<li>{__ text="Numer przesyłki"}: <b>{$last_order_delivery_number}</b></li>{/if}
+                            <li>{__ text="Data złożenia zamówienia"}: <b>{$last_order_created_at}</b></li> 
+                            <li class="space"></li>             
+                            <li>{__ text="Wartość koszyka"}: <b>{$last_order_total_product_price}</b></li>
+                            <li>{__ text="Dostawa"}: <b>{$last_order_delivery_name}</b> ({$last_order_delivery_cost})</li>
+                            <li>{__ text="Razem do zapłaty"}: <b>{$last_order_total_amount}</b></li>
+                            <li class="space"></li>
+                            <li>{__ text="Metoda płatności"}: <b>{$payment_name}</b></li>
+                            <li>{__ text="Opłacone"}: <b>{$is_paid}</b></li>
+                        </ul>
+
+                        <div class="row product-list" data-equalizer>
+                           {foreach key=row item=order_product from=$results}
+                              <div class="product col-xs-6 col-sm-3">
+                                  <div class="thumbnail">
+                                      <div class="image" data-equalizer-watch="image">{$order_product.photo}</div>
+                                      <div class="caption text-center" data-equalizer-watch="caption">                                      
+                                          <h4 class="name">
+                                              {if isset($order_product.product_name)}{$order_product.product_name}{else}{if isset($order_product.validate)}{$order_product.name_show}{else}{$order_product.name}{/if}{/if}
+                                          </h4>
+                                          <div class="text-muted">
+                                              ({if $show_netto_in_basket}{if $order_product.is_item_by_points} - {else}{$order_product.price}{/if}{/if}
+                                              {if $show_tax_in_basket}{if $order_product.is_item_by_points} - {else}{$order_product.vat} % {/if}{/if}
+                                              {if $order_product.is_item_by_points} - {else}{$order_product.price_true}{/if}
+                                              
+                                              {if $points_system_is_active}   
+                                              {if $order_product.is_item_by_points} {$order_product.points_value} {else} - {/if}
+                                              {/if}
+                                              x 
+                                              {$order_product.quantity} {$order_product.uom}
+                                              )
+                                          </div> 
+                                          <div class="price">
+                                            {if $order_product.is_item_by_points} {$order_product.points_sum_value} {$points_shortcut} {else} {$order_product.total_amount}{/if}
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                           {/foreach}
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+
+        {else}
+
+        {if $billing_edit_url!="" || $delivery_edit_url!=""}
+        <div class="panel panel-default center-block info-panel"> 
+           <div class="panel-body text-center">    
+                <p>{__ text="Aktualnie nie posiadasz nowych zamówień."}</p>   
+                <p class="text-center"><a href="/" class="btn btn-default">{__ text="Wróć do zakupów"}</a></p>             
+           </div>
+        </div>
+        {/if}
+
+    {/if}
+
+
+    {if $billing_edit_url=="" || $delivery_edit_url==""}    
+                
+    <div class="panel panel-default center-block" style="border: 1px solid #e9e9e9;margin-top: 100px;max-width: 50%;">
+      <div class="panel-body">
+        
+        <p>{__ text="Witaj w panelu klienta."}<br/>{__ text="Twoje konto jest w pełni aktywne. Wszelkie informacje będą przesyłane na adres"} {$user_email}</p>
+        
+        <p class="text-center"><a href="/user_data/createFirstUserData" class="btn btn-default">{__ text="Dodaj dane klienta"}</a></p>
+        
+      </div>
+    </div>
+
+    {else}
+
+    <div class="row row-first" data-equalizer>
+         <div class="col-sm-4 col-md-4">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="panel-trigger" >{__ text="Dane konta"}</span> 
+                </div>
+                <div class="panel-body" data-equalizer-watch>
+                   
+                   <p>{__ text="Twoje konto jest w pełni aktywne wszelkie informacje będą przesyłane na adres"}</p>
+                   <p>{$user_email}</p> 
+                   
+                </div>
+            </div>        
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="panel-trigger" >{__ text="Dane płatnika"}</span> 
+                </div>
+                <div class="panel-body" data-equalizer-watch>
+                    
+                    {if $billing_edit_url && $billing_address!=""}
+                    
+                    <a class="edit-btn pull-right" href="{$billing_edit_url}">
+                        {__ text="zmień"}
+                    </a>
+                    {if $billing_company!=""}
+                    {__ text="Dane do faktury"}
+                    <br/>
+                    {$billing_company}
+                    <br/>
+                    {$billing_vat_number}
+                    <br/>
+                    {/if}
+
+                    <b>{$billing_full_name}</b>
+                    <br/>
+
+                    {$billing_address}
+                    <br/>
+
+                    {if $billing_address_more!=""}
+                    {$billing_address_more}
+                    <br/>
+                    {/if}
+
+                    {if $billing_region!=""}
+                    {$billing_region}
+                    <br/>
+                    {/if}
+
+                    {$billing_code}
+                    {$billing_town}
+                    <br/>
+
+                    {$billing_country}
+                    <br/>
+                    {$billing_phone}
+                    <br/>
+                    
+                    {else}
+            
+                    <a class="btn btn-default pull-right" href="/user_data/createFirstUserDataBilling">{__ text="Dodaj dane billingowe"}</a>
+                    
+                    {/if}
+
+                </div>
+            </div>        
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+
+            
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="panel-trigger" >{__ text="Dane wysyłkowe"}</span>
+                </div>
+                <div class="panel-body" data-equalizer-watch>
+                    
+                    {if $delivery_edit_url && $delivery_address!=""}
+                    
+                    <a class="edit-btn pull-right" href="{$delivery_edit_url}">
+                        {__ text="zmień"}
+                    </a>
+
+                    {if $delivery_company!=""}
+                    {$delivery_company}
+                    <br/>
+                    {/if}
+
+                    <b>{$delivery_full_name}</b>
+                    <br/>
+
+                    {$delivery_address}
+                    <br/>
+
+                    {if $delivery_address_more!=""}
+                    {$delivery_address_more}
+                    <br/>
+                    {/if}
+
+                    {if $delivery_region!=""}
+                    {$delivery_region}
+                    <br/>
+                    {/if}
+
+                    {$delivery_code}
+                    {$delivery_town}
+                    <br/>
+
+                    {$delivery_country}
+                    <br/>
+                    {$delivery_phone}
+                    <br/>
+                    
+                    {else}
+            
+                    <a class="btn btn-default pull-right" href="/user_data/createFirstUserDataDelivery">{__ text="Dodaj dane dostawy"}</a>
+                    
+                    {/if}
+
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+    {/if}          
+    </div>    	
+</div>

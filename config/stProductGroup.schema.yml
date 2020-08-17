@@ -1,0 +1,60 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_product_group: 
+    _attributes: 
+      phpName: ProductGroup
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_group: 
+      type: VARCHAR
+      size: 255
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    product_limit: 
+      type: INTEGER
+    opt_url: 
+      type: VARCHAR
+      size: 255
+    opt_label:
+      type: VARCHAR
+      size: 255
+    opt_image:
+      type: VARCHAR
+      size: 255   
+    from_basket_value:
+      type: INTEGER     
+  st_product_group_has_product: 
+    _attributes: 
+      phpName: ProductGroupHasProduct
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    product_group_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product_group
+      foreignReference: id
+      onDelete: cascade

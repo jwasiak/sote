@@ -1,0 +1,7 @@
+fields:
+    ecard{ecard_id}:
+        required:
+            msg:    Proszę uzupełnić pole.
+    ecard{ecard_password}:
+        required:
+            msg:    Proszę uzupełnić pole.

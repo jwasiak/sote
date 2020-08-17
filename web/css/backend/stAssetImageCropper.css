@@ -1,0 +1,124 @@
+.crop_overlay .content {
+   padding-top: 0px !important;
+   min-height: 200px;
+}
+
+.crop_overlay .admin_actions {
+   background: #fff;
+   float: none;
+   margin: 0;
+   padding: 10px;
+}
+
+.crop_overlay .admin_actions li {
+   float: right;
+}
+
+.crop_overlay .admin_actions li.clr {
+   float: none;
+}
+
+.crop_overlay {
+   z-index: 100000;
+   width: 632px;
+}
+
+.crop_overlay .tabs {
+   background: #fff;
+}
+
+.crop_overlay .tabs li {
+   float: left;
+   margin-right: -1px;
+}
+
+.crop_overlay .tabs a {
+   display: block;
+   padding: 5px 10px;
+   text-decoration: none;
+   border: 1px solid #ccc;
+}
+
+.crop_overlay .tabs a:empty {
+   display: none;
+}
+
+.crop_overlay .tabs li:first-child a {
+   border-left: none;
+}
+
+.crop_overlay .tabs a.current {
+   border-bottom-color: #eee;
+   background: #eee;
+}
+
+.crop_overlay .tabs {
+   margin-bottom: -1px;
+}
+
+.crop_overlay .tabs li.clr {
+   float: none;
+}
+
+.crop_overlay .panes > div {
+   padding: 0px 5px 5px 5px;
+   background: #eee;
+   text-align: center;
+}
+
+.crop_overlay .panes > div .jcrop-holder {
+   margin: 0 auto;
+}
+
+.crop_overlay .tools {
+   border-top: 1px solid #ccc;
+   background: #eee;
+   padding: 5px 10px;
+}
+.crop_overlay .tools li {
+   background: #fff;
+   float: left;
+   margin-right: 3px;
+} 
+.crop_overlay .tools a {
+   background: url('/images/backend/icons/shape_align.png') no-repeat 0 0;
+   background-color: inherit;
+   display: block;
+   width: 16px;
+   height: 16px;
+   border: 1px solid #ccc;
+   padding: 4px;
+   background-origin: content-box;
+   background-clip: content-box;
+}
+
+.crop_overlay .tools li:hover a {
+   border-color: #888888;   
+}
+
+.crop_overlay .tools a.disabled {
+   border-color: #ccc !important;
+   opacity: 0.5;
+   cursor: default;
+}
+
+
+.crop_overlay .tools a.align_center {
+   background-position: -16px 0px;
+}
+
+.crop_overlay .tools a.align_right {
+   background-position: -32px 0px;
+}
+
+.crop_overlay .tools a.align_top {
+   background-position: -48px 0px;
+}  
+
+.crop_overlay .tools a.align_middle {
+   background-position: -64px 0px;
+}
+
+.crop_overlay .tools a.align_bottom {
+   background-position: -80px 0px;
+}  

@@ -1,0 +1,29 @@
+<div id="st_discount-coupon-code">
+   <h3 class="st_title">{__ text="Kod rabatowy"}</h3>
+{if $coupon_code}
+    <div id="st_discount-coupon-info">
+      {__ text="Udzielony rabat"}: <b>{$coupon_code.discount}%</b>
+   </div>
+{else}
+<form action="{$form.action}" method="post"> 
+   {if $form.error}
+   <div id="st_discount-coupon-error">
+      {__ text=$form.error}
+    </div>
+   {/if}
+   <div id="st_discount-coupon-form">
+      <div class="label">
+        <label for="discount_coupon_code">{__ text="Wprowadź kod"}:</label>
+      </div>
+      <input id="discount_coupon_code" name="discount[coupon_code]" type="text" value="{$form.code}" />
+      <input type="hidden" name="discount[return_url]" value="{$form.return_url}" />
+        
+        <div class="st_button st_align-right" id="st_basket-confirm_code">
+            <div class="st_button-left"><input type="submit" value="{__ text='Aktywuj'}"></div>
+        </div>
+        <br class="st_clear_all" />
+        
+   </div>
+</form>
+{/if}
+</div>

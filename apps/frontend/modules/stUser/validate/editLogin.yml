@@ -1,0 +1,16 @@
+fields:
+    user{email}:
+        required:
+            msg:      Brak adresu email.
+            
+        sfStringValidator:
+            max:          60
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+            
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail.
+            
+        sfPropelUniqueValidator:
+            class:        sfGuardUser
+            column:       username
+            unique_error: Taki adres już istnieje w bazie danych.

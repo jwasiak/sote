@@ -1,0 +1,16 @@
+---
+package: 
+  name: stBlogPlugin
+  stability: stable
+  version: 7.1.7.10
+  summary: Blog
+  description: Blog
+  notes: |
+    - Poprawka przekierowan
+  maintainers: 
+    Pawel Byszewski: 
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency: 
+    soteshop_base: 6.0.0

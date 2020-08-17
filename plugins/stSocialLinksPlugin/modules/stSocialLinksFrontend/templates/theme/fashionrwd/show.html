@@ -1,0 +1,44 @@
+<div id="social" class="list-group col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <h5>{__ text="Znajdź nas na" langCatalogue="stSocialLinksFrontend"}</h5>
+    {if $facebook}
+        <a href="{$facebook}" target="_blank" rel="noopener">
+            <img src="{image_path image='social/facebook.png'}" alt=" " width="37" height="37"/>
+        </a>
+    {/if}
+    {if $twitter}    
+    <a href="{$twitter}" target="_blank" rel="noopener">
+        <img src="{image_path image='social/twitter.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+    {if $youtube}    
+    <a href="{$youtube}" target="_blank" rel="noopener">
+        <img src="{image_path image='social/youtube.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+    {if $google}    
+    <a href="{$google}" target="_blank" rel="noopener">
+        <img src="{image_path image='social/google-plus.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+    {if $instagram}    
+    <a href="{$instagram}" target="_blank" rel="noopener">
+        <img src="{image_path image='social/instagram.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+    {if $pinterest}    
+    <a href="{$pinterest}" target="_blank" rel="noopener">
+        <img src="{image_path image='social/pinterest.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+    {if $allegro}    
+    <a href="{$allegro}" target="_blank" rel="noopener">
+        <img src="{image_path image='social/allegrolink.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+    {slot name="social-links" hidden="true"}{/slot}
+    {if $newsletter}    
+    <a href="/newsletter/add">
+        <img src="{image_path image='social/newsletter.png'}" alt=" " width="37" height="37"/>
+    </a>
+    {/if}
+</div> 

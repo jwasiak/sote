@@ -1,0 +1,63 @@
+{if $is_authenticated}
+
+    {if $external_account != ""}
+    <div id="external_account">
+        <h3>
+            {if $external_account == "google"}<img src="{image_path image='google_icon.png'}" alt="google" />{/if}
+            <a href="/user_data/userPanel" name="external_account">{$username}</a>
+            {if $external_account == "google"}<span class="st_user_title">({__ text="Zalogowano z konta google"})</span>{/if}
+        </h3>
+    </div>
+    {/if}
+
+    <form action="{$action}" class="st_form" method="post" id="st_user-login_form">
+        
+        <div id="st_user-basket_billing_login_form">
+            {st_get_component module="stUserData" component="basketLoginUserBillingForm"}    
+        </div>
+        
+        <div id="st_user-basket_delivery_login_form">
+            {st_get_component module="stUserData" component="basketLoginUserDeliveryForm"}
+        </div> 
+                <br class="st_clear_all" />   
+        <div id="st_order-quastion" class="st_component" style="border: none;">
+            <h5 class="st_title">
+                {__ text="Uwagi do zamówienia"}
+            </h5>
+            <div style="margin: 5px 15px 5px 5px; padding-top: 8px;">
+            <textarea name="description" id="st_user-description">{$description}</textarea>  
+            </div>
+        </div>
+        <div id="st_user-order-submit-button">
+            {st_get_component module="stOrder" component="submitButton"}
+        </div>
+    </form>
+
+{else}
+
+    <a name="selectUserData"></a>
+    <div id="st_user-basket">
+
+        <div id="st_user-basket-frama1">
+        
+            {st_get_component module="stUser" component="basketLoginForm"}
+            
+        </div>
+    
+            <form action="{$action}" class="st_form" method="post" id="st_user-register_form">
+                {st_get_component module="stUserData" component="basketUserDataForm"}
+                <div id="st_order-quastion" class="st_component" style="border: none;">
+                    <h5 class="st_title">
+                        {__ text="Uwagi do zamówienia"}
+                    </h5>
+                    <div style="margin: 5px 15px 5px 5px; padding-top: 8px;">
+                    <textarea name="description" id="st_user-description">{$description}</textarea>  
+                    </div>
+                </div>         
+                <div id="st_user-order-submit-button">
+                    {st_get_component module="stOrder" component="submitButton"}
+                </div>
+            </form>
+    
+    </div>
+{/if}

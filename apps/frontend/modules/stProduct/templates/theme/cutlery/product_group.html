@@ -1,0 +1,45 @@
+<div id="product_group_{$product_group}" class="product_group">
+    <div class="product clearfix panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">{$group_name_title}</h3>
+        </div>
+        <div class="panel-body">
+        {foreach key=row item=product from=$results} 
+            {if $row == 0} 
+                <div class="image">{$product.photo}</div>
+                <div class="st_product_options-color-on-list">{$product.colors}</div>
+                <div class="caption">
+                <p class="name">{$product.name}</p>
+                {if $show_availability}
+                    <div class="product-availability">
+                        {$product.availability}
+                        {if $show_stock}
+                            ({$product.stock} {$product.uom})
+                        {/if}
+                    </div>
+                {elseif $show_stock}
+                    <div class="product-availability">
+                        {__ text="Dostępność" langCatalogue="stAvailabilityFrontend"}: {$product.stock} {$product.uom}
+                    </div>
+                {/if}
+                {if $product.check_price!=1}
+                    {if $price_view=='net_gross'}
+                        <div class="price"><span class="txt">{__ text="netto"}:</span> <span class="nowrap">{$product.price_net}</span></div>
+                        <div class="minor_price price">({__ text="brutto"}: <span class="nowrap">{$product.price}</span>)</div>
+                    {elseif $price_view=='only_gross'}
+                        <div class="price"><span class="txt">{__ text="Cena"}:</span> <span class="nowrap">{$product.price}</span></div>
+                    {elseif $price_view=='only_net'}
+                        <div class="price"><span class="txt">{__ text="netto"}:</span> <span class="nowrap">{$product.price_net}</span></div>
+                    {elseif $price_view=='gross_net'}
+                        <div class="price"><span class="txt">{__ text="brutto"}:</span> <span class="nowrap">{$product.price}</span></div>
+                        <div class="minor_price price">({__ text="netto"}: <span class="nowrap">{$product.price_net}</span>)</div>
+                    {/if}
+                {/if}
+                </div>
+            {else}
+                <div class="other_group">{$product.name}</div>
+            {/if}
+        {/foreach}
+        </div>
+    </div>
+</div>

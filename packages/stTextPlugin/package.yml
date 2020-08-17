@@ -1,0 +1,16 @@
+package:
+  name: stTextPlugin
+  stability: stable
+  version: 2.0.0.1
+  summary: Teksty
+  description: 'Zarzadzanie tekstami w sklepie'
+  notes: Poprawka czyszczenie cache
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+    'Paweł Byszewski':
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl

@@ -1,0 +1,10 @@
+changelog:
+    stSearchPlugin-1.2.0.1:
+        version: {min: 1.0.0, max: 1.0.8.83}
+        priority: 1
+        method:
+            name: smartyTemplatesChanged
+            params:
+                files:
+                    - plugins/stSearchPlugin/modules/stSearchFrontend/templates/theme/[MY_THEME]/search_main_search_box.html
+

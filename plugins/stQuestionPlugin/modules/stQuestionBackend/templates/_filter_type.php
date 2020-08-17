@@ -1,0 +1,1 @@
+<?php echo select_tag('filters[type]', options_for_select(array('' => '---','depository' => __('Dostępność'), 'price' => __('Cena')), $filters['type'])) ?>

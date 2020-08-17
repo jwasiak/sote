@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Logowanie</source>
+				<target>Log in</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przypomnij hasło</source>
+				<target>I forgot my password</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zarejestruj się</source>
+				<target>Register</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>E-mail (login)</source>
+				<target>E-mail (login)</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Password</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Log in</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Moje konto</source>
+				<target>My account</target>
+			</trans-unit>
+			 <trans-unit id="8">
+                <source>wyloguj</source>
+                <target>Log out</target>
+            </trans-unit>
+			<trans-unit id="9">
+				<source>Twoje konto w sklepie zostało założone.</source>
+				<target>Your account has been created.</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Witamy w naszym sklepie, dziękujemy za rejestracje.</source>
+				<target>Welcome to our online store. Thank you for registering.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Twój login</source>
+				<target>Your login</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Twoje hasło</source>
+				<target>Your password</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Data założenia konta</source>
+				<target>Account creation date</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Twoje hasło do konto zostało zmienione</source>
+				<target>Password to your account has been changed</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>W sklepie zarejestrował się nowy klient.</source>
+				<target>A new customer has registered.</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>ID klienta</source>
+				<target>Customer ID</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Login klienta</source>
+				<target>Customer login</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego hasło.</source>
+				<target>Enter the e-mail address used as login. A new password will be sent to this address.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>E-mail z nowym hasłem został wysłany na adres: %mail%</source>
+				<target>An e-mail message with your new password has been sent to the following address: %mail%</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Polityka prywatności</source>
+				<target>Privacy policy</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Twoje konto w sklepie zostało założone</source>
+				<target>Your account has been created</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Twoje hasło do konto zostało zmienione.</source>
+				<target>Password to your account has been changed.</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Zaloguj się aby uzyskać pełen dostęp do zamówień i danych konta.</source>
+				<target>Log in to access your orders and account data.</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Rejestracja</source>
+				<target>Register</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Nie masz jeszcze założonego konta.</source>
+				<target>You do not have an account.</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Potwierdź hasło</source>
+				<target>Confirm password</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Akceptuję politykę prywatności</source>
+				<target>I accept the Privacy Policy</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Nie masz jeszcze założonego konta. Wystarczy, że podasz hasło dla loginu</source>
+				<target>You do not have an account. Just enter the password for your login</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Uzyskasz w ten sposób pełne konto z dostępem do swoich danych i informacji o statusach zamówienia.</source>
+				<target>A full account will be created, enabling you to access your data and order status information.</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Dane logowania</source>
+				<target>Login credentials</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Zmień e-mail (login)</source>
+				<target>Change e-mail (login)</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Zmień hasło</source>
+				<target>Change your password</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Stare hasło</source>
+				<target>Old password</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Nowe hasło</source>
+				<target>New password</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Zmiana hasła dla konta</source>
+				<target>Change account password</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Przekroczono dozwoloną liczbę znaków.</source>
+				<target>Maximum number of characters exceeded.</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Podane hasło jest za krótkie min. 6 znaków.</source>
+				<target>The password is too short. It must be at least 6 characters long.</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+				<target>The password is too long. It must not exceed 20 characters.</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Zarejestruj</source>
+				<target>Register</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Nie podałeś adresu e-mail</source>
+				<target>No e-mail supplied</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Nie podałeś hasła.</source>
+				<target>No password supplied.</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Zły login lub hasło.</source>
+				<target>Invalid login or password.</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Wprowadzono zły numer.</source>
+				<target>Invalid number entered</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Aktualizuj</source>
+				<target>Update</target>
+			</trans-unit>
+			<trans-unit id="45">
+                <source>Przypomnij</source>
+                <target>Remind</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Cyfry z obrazka</source>
+                <target>Digits from the image</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Musisz wyrazić zgodę na politykę prywatności.</source>
+                <target>You are required to accept our Privacy Policy.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Stare hasło jest błędne.</source>
+                <target>The old password is invalid.</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Twoje hasło do konta zostało zmienione.</source>
+                <target>Password to your account has been changed.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid e-mail address format.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>W związku ze zmianą oprogramowania naszego sklepu, prosimy o podanie adresu email, który od tej pory będzie stanowił login do konta.</source>
+                <target>Due to an update of our store’s software, we kindly ask you to provide your e-mail, which since now will be your login.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Rejestracja danych.</source>
+                <target>Data registration.</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Uzupełnij dane konta.</source>
+                <target>Complete your account’s data.</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Oczekiwanie na potwierdzenie.</source>
+                <target>Waiting for confirmation.</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Proszę sprawdzić pocztę na podany w czasie rejestracji adres został wysłany mail z prośbą o potwierdzenie konta.</source>
+                <target>Please check your e-mail. An account confirmation message was sent to the e-mail you have provided during registration.</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Brak adresu e-mail</source>
+                <target>No e-mail supplied</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Brak hasła.</source>
+                <target>No password supplied</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Minimalnie 6 znaków</source>
+                <target>Minimum of 6 characters</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>(Dla stałych klientów)</source>
+                <target>(For regular clients)</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Podaj adres email, który służy jako login użytkownika, zostanie wysłane na niego link do zmiany hasła.</source>
+                <target>Enter email address, which serves you as user login. Link for changing the password will be sent on this addess.</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Prośba o potwierdzenie konta.</source>
+                <target>Request for confirming the registration of the account.</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Twoje konto nie zostało jeszcze potwierdzone. Proszę sprawdzić pocztę, na adres:</source>
+                <target>Your account wasn't still confirmed. Please check your e-mail:</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>została wysłana prośba o potwierdzenie konta.</source>
+                <target>The request for confirming the registration of the account was sent to this address.</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Wróć do zakupów</source>
+                <target>Back to shopping</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Proszę sprawdzić pocztę, na adres:</source>
+                <target>Thank you for the registration. Please check your e-mail:</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>została wysłana prośba o potwierdzenie konta.</source>
+                <target>The mail with the request for confirming the account was sent.</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Przejdź do koszyka</source>
+                <target>Go to shopping cart</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>bardzo słabe</source>
+                <target>very weak</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>słabe</source>
+                <target>weak</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>normalne</source>
+                <target>normal</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>mocne</source>
+                <target>strong</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>bardzo mocne</source>
+                <target>very strong</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Potwierdzenie rejestracji</source>
+                <target>Confirming the registration</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Dane dostępowe do konta</source>
+                <target>Access data to the account</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Potwierdź konto</source>
+                <target>Confirm account</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Zmiana hasła.</source>
+                <target>Change of password.</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Proszę sprawdzić pocztę.</source>
+                <target>Please check your e-mail</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Na podany w czasie rejestracji adres, został wysłany mail z nowymi danymi do konta sklepu.</source>
+                <target>The mail with new data to the account of the shop was sent to the address given during the registration.</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Przejdź do strony logowania</source>
+                <target>Go to logging page</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Twoje hasło zostało zmienione.</source>
+                <target>Your password was changed</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Aktualne dane dostępowe do konta</source>
+                <target>Current access data to the account</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Data modyfikacji konta</source>
+                <target>Date of the modification of the account</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Przejdź na stronę sklepu.</source>
+                <target>Go to shop page</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>E-mail z linkiem do utworzenia nowego hasła został wysłany na adres:</source>
+                <target>E-mail with the link for creating the new password was sent to the address:</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Skorzystaj z linku poniżej aby dokonać zmiany hasła.</source>
+                <target>Use the link below in order to change the password.</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Link do zmiany hasła dla konta:</source>
+                <target>Link for the change of password for the account:</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Data wysłania linka</source>
+                <target>Date of sending the link</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Podaj nowe hasło dla konta</source>
+                <target>Type the new password for the account</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Zmiana hasła</source>
+                <target>Change of password</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>usuń</source>
+                <target>remove</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Pomyślnie wylogowano użytkownika</source>
+                <target>User was successfully logged out</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+                <target>In a moment you will be redirected  to the main page.</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Potwierdzenie autentyczności adresu.</source>
+                <target>Confirmation of the address authenticity.</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Twoje konto zostało już wcześniej potwierdzone.</source>
+                <target>Your account has been already confirmed.</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Wylogowano</source>
+                <target>Logged out</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Twoje konto wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić dane.</source>
+                <target>Your account has to be confirmed. Use the link below to confirm the data.</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Prośba o potwierdzenie konta.</source>
+                <target>Request for confirming the account.</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>W sklepie zarejestrował się nowy klient.</source>
+                <target>The shop registered a new client.</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Rejestracja nowego klienta</source>
+                <target>The shop registered a new client</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Informacje o koncie klienta</source>
+                <target>Customer Account Information</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Przejdź do edycji konta</source>
+                <target>Go to edit account</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Akceptuję</source>
+                <target>I accept the</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>politykę prywatności</source>
+                <target>Privacy Policy</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>lub</source>
+                <target>or</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Zaloguj używając</source>
+                <target>Sign in using</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Potwierdź rejestrację</source>
+                <target>Confirm registration</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Za chwile nastąpi przekierowanie na stronę główną.</source>
+                <target>In a moment you will be redirected  to the main page.</target>
+            </trans-unit>
+              <trans-unit id="108">
+                <source>Dane płatnika</source>
+                <target>Payer data</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Dane wysyłkowe</source>
+                <target>Shipping data</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Dane do faktury</source>
+                <target>Invoice data</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Moje dane</source>
+                <target>My Profile</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Zmień</source>
+                <target>Change</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Zarejestruj nowe konto lub zaloguj na istniejące.</source>
+                <target>Register a new account or login to existing ones.</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>Podaj dane konta.</source>
+                <target>Enter your account information.</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Dane konta</source>
+                <target>Account information</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Uzupełnij zaznaczone pola.</source>
+                <target>Complete the selected fields.</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Za chwilę nastąpi przekierowanie na stronę główną.</source>
+                <target>You are about to be redirected to the home page.</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Podaj adres email (login użytkownika)</source>
+                <target>Enter your email address (user login)</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Sprawdź pocztę na poniższy adres został wysłany link do zmiany hasła.</source>
+                <target>Check e-mail to the following address was sent a link to change your password.</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Podaj nowe hasło.</source>
+                <target>Enter your new password.</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Login</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>regulamin</source>
+                <target>Terms and Conditions</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>i przeczytałem</source>
+                <target>and read the</target>
+            </trans-unit>
+             <trans-unit id="123">
+                <source>Brak adresu email.</source>
+                <target>No email address.</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>Taki użytkownik już istnieje.</source>
+                <target>The user already exists.</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>zaloguj się</source>
+                <target>log in</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Zamówienia</source>
+                <target>Orders</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>wyloguj</source>
+                <target>logout</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>Wyloguj</source>
+                <target>Log out</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>Usuń</source>
+                <target>Remove</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>Pola wymagane</source>
+                <target>Required fields</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>zmień</source>
+                <target>change</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Nie masz odpowiednich uprawnień</source>
+                <target>You do not have appropriate permissions</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>Sprawdź pocztę i kliknij w link potwierdzający adres e-mail, aby aktywować konto w sklepie.</source>
+                <target>Check your email and click the confirmation link email to activate your account in the store.</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>Na konto pocztowe</source>
+                <target>Mail account</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>została wysłana wiadomość z prośbą o potwierdzenie konta.</source>
+                <target>sent a message asking you to confirm your account.</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Zaloguj się</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Nie masz konta?</source>
+                <target>Do not have an account?</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Załóż konto</source>
+                <target>Create account</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>Dodaj dane billingowe</source>
+                <target>Add billing</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>Dodaj dane dostawy</source>
+                <target>Add delivery</target>           
+            </trans-unit>
+            <trans-unit id="141">
+                <source>Strona główna</source>
+                <target>Homepage</target>           
+            </trans-unit>
+            <trans-unit id="142">
+                <source>Na adres</source>
+                <target>For address</target>           
+            </trans-unit> 
+            <trans-unit id="143">
+                <source>została wysłana wiadomość z potwierdzeniem zmiany hasła.</source>
+                <target>was sent a confirmation message to change the password.</target>           
+            </trans-unit>
+            <trans-unit id="144">
+                <source>została wysłana wiadomość z linkiem do nadania nowego hasła. Sprawdź pocztę.</source>
+                <target>was sent a message with a link to give a new password. Check your mail.</target>           
+            </trans-unit>
+            <trans-unit id="145">
+                <source>Taki adres już istnieje w bazie danych.</source>
+                <target>This address already exists in the database.</target>           
+            </trans-unit>
+            <trans-unit id="146">
+                <source>została wysłana wiadomość z prośbą o potwierdzenie konta. Sprawdź pocztę i kliknij w załączony link.</source>
+                <target>was sent a message asking you to confirm your account. Check your email and click on the attached link.</target>           
+            </trans-unit>
+            <trans-unit id="147">
+                <source>Dane zostały zaktualizowane.</source>
+                <target>The data have been updated.</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>Po usunięciu konta wszystkie dane zostaną bezpowrotnie skasowane.</source>
+                <target>After the account is deleted, all data will be irretrievably erased.</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>Jesteś pewien, że chcesz usunąć konto tej operacji nie będzie można cofnąć ?</source>
+                <target>Are you sure you want to delete the account this operation can not be undone?</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>Usuń konto</source>
+                <target>Delete account</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>Prośba o potwierdzenie usunięcia konta.</source>
+                <target>Request to delete the account.</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>Proszę sprawdzić pocztę, na adres</source>
+                <target>Please check your email at the email</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>została wysłana prośba o potwierdzenie operacji usunięcia konta.</source>
+                <target>has been sent a request to confirm the operation to remove the account.</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>Operacja usunięcia konta wymaga potwierdzenia. Skorzystaj z linku poniżej aby potwierdzić usunięcie konta.</source>
+                <target>Surgery to remove the account requires confirmation. Use the link below to confirm the deletion of the account.</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>Potwierdź usunięcie konta</source>
+                <target>Confirm the deletion of the account</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>Pomyślnie usunięto użytkownika</source>
+                <target>User removed successfully</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>Wyślij</source>
+                <target>Send</target>
+            </trans-unit>
+            <trans-unit id="158">
+                <source>Przypomnienie hasła</source>
+                <target>Password remind</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>Link do zmiany hasła</source>
+                <target>Link to change a password</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>Logowanie dla stałych klientów</source>
+                <target>Login for regular customers</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z</source>
+                <target>I agree to the processing of personal data from</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>polityką prywatności</source>
+                <target>privacy policy</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>Jeśli masz już konto w sklepie,</source>
+                <target>If you already have an account,</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>zaloguj się.</source>
+                <target>log in.</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

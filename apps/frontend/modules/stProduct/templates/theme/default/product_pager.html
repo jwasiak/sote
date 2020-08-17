@@ -1,0 +1,26 @@
+<div class="st_product_pager">
+    <div class="st_product-pager-left">
+        {if $current_page!=1}
+            {st_link_to uri="$first_page"}<img src="/images/frontend/theme/default/arrow_pager_main_left.png" alt="{__ text="Pierwsza strona"}" />{/st_link_to}
+            {st_link_to uri="$previous_page_url"}<img src="/images/frontend/theme/default/arrow_pager_left.png" alt="{__ text="Poprzednia strona"}" style="margin-right: 2px;" />{/st_link_to}
+        {else}
+            <div class="st_product-pager-space"></div>
+        {/if}
+    </div>
+    <div class="st_product-pager-center">
+        {foreach key=row item=page from=$links}
+            {$page.page}
+        {/foreach}                                                
+        <span class="st_pager_lastone">{__ text="z"} {$last_page}</span>
+    </div>
+    
+    <div class="st_product-pager-right">
+    {if $current_page!=$last_page}
+        {st_link_to uri="$next_page_url"}<img src="/images/frontend/theme/default/arrow_pager_right.png" alt="{__ text="Następna strona"}" />{/st_link_to}
+        {st_link_to uri="$last_page_url"}<img src="/images/frontend/theme/default/arrow_pager_main_right.png" alt="{__ text="Ostatnia strona"}" style="margin-left: 2px;" />{/st_link_to}   
+    {else}
+    <div class="st_product-pager-space"></div>
+    {/if} 
+    </div>
+    <br class="st_clear_all"/>
+</div>

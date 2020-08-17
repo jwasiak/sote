@@ -1,0 +1,43 @@
+<div id="gift-box">    
+    {if $gift_cards}
+        {if $form.error}
+            <div class="form-group">
+                <div class="bg-danger">
+                    {__ text=$form.error}
+                </div>   
+            </div>
+        {/if}   
+        <div class="form-group">
+            {foreach item=gift_card from=$gift_cards}
+                <div class="row">
+                    <div class="col-xs-8">
+                        <b>{$gift_card.code}</b> <a class="primary" href="{$gift_card.remove_url}"><span class="glyphicon glyphicon-remove-circle"></span></a>:
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        {$gift_card.amount|st_currency_format}
+                    </div>
+                </div>
+            {/foreach}
+        </div>
+    {else}
+        <form action="{$form.action}" method="post">
+            {if $form.error}
+                <div class="form-group">
+                    <div class="bg-danger">
+                        {__ text=$form.error}
+                    </div>   
+                </div>
+            {/if}         
+            <div class="form-group input-group">
+            
+                <input class="form-control" placeholder="{__ text='Wprowadź kod bonu'}" id="gift_card_code" name="gift_card[code]" type="text" value="{$form.code}" />
+                <input type="hidden" name="gift_card[return_url]" value="{$form.return_url}" />
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        {__ text="Aktywuj"}
+                    </button>
+                </span>                                
+            </div>
+        </form>
+    {/if}   
+</div>

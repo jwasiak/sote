@@ -1,0 +1,13 @@
+<div id="st_navigation_bar-user" class="st_navigation_bar_user">
+	<ul>
+        {foreach key=row item=tab from=$results}
+            {if isset($tab.is_tab)}
+                <li class="st_first{$tab.selected_tab}">{$tab.link_to_module}</li>
+            {elseif isset($tab.is_tab)}
+                <li class="st_last{$tab.selected_tab}">{$tab.link_to_module}</li>
+            {else}
+                <li class="none{$tab.selected_tab}">{$tab.link_to_module}</li>
+            {/if}
+        {/foreach}
+	</ul>
+</div>

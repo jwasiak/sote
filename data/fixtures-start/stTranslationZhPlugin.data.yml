@@ -1,0 +1,196 @@
+ProductI18n:  
+  ProductI18n_zh_1:
+    id: Product_1
+    culture: zh
+    name: 杯
+    url: cup
+  ProductI18n_zh_2:
+    id: Product_2
+    culture: zh
+    name: 秒表
+    url: stopwatch
+  ProductI18n_zh_3:
+    id: Product_3
+    culture: zh
+    name: 耳机
+    url: headphones
+  ProductI18n_zh_4:
+    id: Product_4
+    culture: zh
+    name: 挂性音箱
+    url: hanging-speakers
+  ProductI18n_zh_5:
+    id: Product_5
+    culture: zh
+    name: 耳机200
+    url: headphones-200
+  ProductI18n_zh_6:
+    id: Product_6
+    culture: zh
+    name: 笔记本电脑
+    url: laptop
+  ProductI18n_zh_7:
+    id: Product_7
+    culture: zh
+    name: 金钻石戒指
+    url: gold-ring-with-diamond
+  ProductI18n_zh_8:
+    id: Product_8
+    culture: zh
+    name: 银戒指
+    url: silver-ring
+  ProductI18n_zh_9:
+    id: Product_9
+    culture: zh
+    name: 音箱
+    url: speaker
+  ProductI18n_zh_10:
+    id: Product_10
+    culture: zh
+    name: 电脑
+    url: computer
+  ProductI18n_zh_11:
+    id: Product_11
+    culture: zh
+    name: GoodPix 130 ES 相机
+    url: camera-goodpix-130es
+  ProductI18n_zh_12:
+    id: Product_12
+    culture: zh
+    name: 记忆卡
+    url: memory-stick-8gb
+    
+CategoryI18n:
+  CategoryI18n_zh_1:
+    id: Category_1
+    culture: zh
+    name: 分类
+    url: categories
+  CategoryI18n_zh_2:
+    id: Category_2
+    culture: zh
+    name:  音响设备
+    url: audio
+  CategoryI18n_zh_3:
+    id: Category_3
+    culture: zh
+    name: 音箱
+    url: audio-speakers
+  CategoryI18n_zh_4:
+    id: Category_4
+    culture: zh
+    name: 耳机
+    url: audio-headphones
+  CategoryI18n_zh_5:
+    id: Category_5
+    culture: zh
+    name: 电脑
+    url: computer
+  CategoryI18n_zh_6:
+    id: Category_6
+    culture: zh
+    name:  摄影
+    url: photography
+  CategoryI18n_zh_8:
+    id: Category_8
+    culture: zh
+    name: 珠宝
+    url: jewellery
+  CategoryI18n_zh_9:
+    id: Category_9
+    culture: zh
+    name: 礼品
+    url: gifts
+
+ProductGroupI18n:
+  ProductGroupI18n_zh_1:
+    id: ProductGroup_1
+    culture: zh
+    name: 促销活动
+    url: promotions
+  ProductGroupI18n_zh_2:
+    id: ProductGroup_2
+    culture: zh
+    name: 打折促销
+    url: sale
+  ProductGroupI18n_zh_3:
+    id: ProductGroup_3
+    culture: zh
+    name: 推荐
+    url: recommended
+  ProductGroupI18n_zh_4:
+    id: ProductGroup_4
+    culture: zh
+    name: 首页商品
+    url: homepage-products
+  ProductGroupI18n_zh_5:
+    id: ProductGroup_5
+    culture: zh
+    name: 推荐在购物车
+    url: recommended-in-shopping-cart
+  ProductGroupI18n_zh_6:
+    id: ProductGroup_6
+    culture: zh
+    name: 新商品
+    url: new-products
+
+BoxI18n:
+  BoxI18n_zh_1:
+    id: Box_1
+    culture: zh
+    name: 交货
+    content: <img src="/uploads/images/deliver_zh.png" border="0" width="167" height="167" alt="Delivery"/>
+  BoxI18n_zh_2:
+    id: Box_2
+    culture: zh
+    name: 付款
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Payments" />
+
+WebpageI18n:
+  WebpageI18n_zh_1:
+    id: Webpage_1
+    culture: zh
+    name: 关于公司
+    content: 这是公司信息业面
+    url: about-company
+  WebpageI18n_zh_2:
+    id: Webpage_2
+    culture: zh
+    name: 条款和条件
+    content: 这是条款和条件的页面
+    url: terms-and-conditions
+  WebpageI18n_zh_3:
+    id: Webpage_3
+    culture: zh
+    name: 联系我们
+    content: 这是联系的页面
+    url: contact
+  WebpageI18n_zh_4:
+    id: Webpage_4
+    culture: zh
+    name: 隐私政策
+    content: 这是隐私政策的页面
+    url: privacy-policy
+
+TextI18n:
+  TextI18n_zh_1:
+    id: Text_2
+    culture: zh
+    name: 首页
+    content: 欢迎购物
+  TextI18n_zh_3:
+    id: Text_3
+    culture: zh
+    name: 订单总结
+    content: >
+        如果您选择电汇付款， 请发送到下面的帐号<br />
+        {BANK}.<br />
+        在相应的字段请输入：订单号{NUMBER}付款。<br />
+        如有疑问，请致电{PHONE}<br />
+        或发邮件至{EMAIL}。
+  TextI18n_confirm_order:
+    id: Text_confirm_order
+    culture: zh
+    name: 订单确认
+    content: >
+        我接受店的 <a href="/webpage/terms-and-conditions.html">条件</a>，我也意识 <a href="/webpage/terms-and-conditions.html">到退出协议的权利</a>。

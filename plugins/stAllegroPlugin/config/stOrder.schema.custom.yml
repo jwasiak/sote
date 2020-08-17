@@ -1,0 +1,23 @@
+propel:
+    st_order:
+        _attributes: {phpName: Order}
+        opt_allegro_nick:
+            type: VARCHAR
+            size: 255
+        opt_allegro_checkout_form_id:
+            type: CHAR
+            size: 36
+            index: unique
+        
+    st_order_product:
+        _attributes: {phpName: OrderProduct}
+        allegro_auction_id:
+            type: BIGINT
+
+    st_order_delivery:
+        _attributes: {phpName: OrderDelivery}
+        opt_allegro_delivery_method_id:
+            type: CHAR
+            size: 36   
+        opt_allegro_delivery_smart:
+            type: BOOLEAN    

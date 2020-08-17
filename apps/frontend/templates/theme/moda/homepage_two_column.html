@@ -1,0 +1,29 @@
+<header class="homepage">
+    {include_file id="_header"}
+</header>
+<div id="two-column-layout"> 
+    <div class="container">
+        <div class="bg-white">
+            <div class="row">
+                <div id="content" class="col-md-9 col-md-push-3 col-lg-9 col-lg-push-3">
+                	{$content}
+                </div>
+                <div id="left" class="col-md-3 col-md-pull-9 col-lg-3 col-lg-pull-9 hidden-sm hidden-xs">
+                    <div id="category-thumbnail" class="thumbnail">
+                        {st_get_component module="stCategoryTree" component="vertical"}
+                    </div>
+                    {st_get_component module="stBoxFrontend" component="boxGroup" params="box_group=LEFT"}
+                    {st_get_component module="stTrustedShopsFrontend" component="showRatingWidget"}
+                    {slot name="left-column-bottom" hidden="true"}{/slot}
+                </div>
+            </div>
+            {include_file id="_seo"}
+			{st_get_component module="stFrontendMain" component="mainText"}
+			{st_get_component module="stBlogFrontend" component="index"}
+			{slot name="main-index-bottom" hidden="true"}{/slot}
+        </div>
+    </div>
+    <footer>
+        {include_file id="_footer"}
+    </footer>
+</div>

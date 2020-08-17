@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Identyfikator</source>
+                <target>Identifier</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Tryb testowy</source>
+                <target>Test mode</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Ustawienia rachunku bankowego</source>
+                <target>Bank account settings</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Numer rachunku bankowego</source>
+                <target>Bank account number</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Nazwa sprzedawcy</source>
+                <target>Seller name</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Kod pocztowy</source>
+                <target>Post code</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Miasto</source>
+                <target>City/Town</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Adres</source>
+                <target>Address</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Kraj</source>
+                <target>Country</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Adres powiadomień</source>
+                <target>Notifications address</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Włącz obsługę kart płatniczych</source>
+                <target>Enable payment via card</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Płatność przez serwis PayByNet</source>
+                <target>PayByNet payment</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

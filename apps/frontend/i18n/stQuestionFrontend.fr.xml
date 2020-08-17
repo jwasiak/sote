@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Musisz być zalogowany aby zapytać o cenę</source>
+				<target>Vous devez vous connecter pour demander les prix</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Musisz być zalogowany aby zapytać o dostępność</source>
+				<target>Vous devez vous connecter pour demander la disponibilité</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zapytaj o cenę</source>
+				<target>Demander les prix</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapytaj o dostępność</source>
+				<target>Demander la disponibilité</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak adresu e-mail</source>
+				<target>Courriel non-renseigné</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Format de courriel incorrect</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>powrót do produktu</source>
+				<target>retour au produit</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Zapytanie o dostępność</source>
+				<target>Demande de disponibilité</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Zapytanie o cenę</source>
+				<target>Demande de prix</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Treść zapytania</source>
+				<target>Contenu de la demande</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>E-mail</source>
+				<target>Courriel</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij zapytanie</source>
+				<target>Envoyer la requête</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie zostało wysłane poprawnie</source>
+				<target>Votre requête a été envoyée correctement</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Proszę o informacje o cenie produktu</source>
+				<target>J’aimerais me renseigner sur le prix du produit</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Proszę o informacje o dostępności produktu</source>
+				<target>J’aimerais me renseigner sur la disponibilité du produit</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Zaloguj się, aby zapytać o cenę</source>
+				<target>Connectez-vous pour demander les prix</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Zaloguj się, aby zapytać o dostępność</source>
+				<target>Connectez-vous pour demander la disponibilité</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Zapytanie o produkt</source>
+				<target>La question sur le produit</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>zostało pomyślnie wysłane</source>
+				<target>a été envoyée correctement</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kod</source>
+				<target>Code</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zapytanie nie może zostać wysłane, gdyż taki produkt nie istnieje</source>
+				<target>La requête ne peut pas être envoyée car le produit concerné n’existe pas</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Demande de disponibilité du produit</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Zapytanie o cenę produktu</source>
+				<target>Demande de prix du produit</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>zapytanie nr</source>
+				<target>requête no</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>dostępności</source>
+				<target>la disponibilité</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>cenie</source>
+				<target>le prix</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Witam</source>
+				<target>Bonjour</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>proszę o informację o</source>
+				<target>j’aimerais me renseigner sur</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>produktu</source>
+				<target>du produit</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Kod produktu</source>
+				<target>Code du produit</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Producent</source>
+				<target>Producteur</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kategoria</source>
+				<target>Catégorie</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Przejdź do zapytania</source>
+				<target>Aller à la requête</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Informacje dodatkowe</source>
+				<target>informations additionnelles</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Zapytanie wysłał</source>
+				<target>L'expéditeur</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Treść</source>
+				<target>Contenu</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Cyfry z obrazka</source>
+				<target>Les chiffres de l’image</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Wyślij</source>
+				<target>Envoyer</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Nadawca (e-mail)</source>
+				<target>Expéditeur (courriel)</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

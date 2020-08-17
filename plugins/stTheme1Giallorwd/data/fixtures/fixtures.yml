@@ -1,0 +1,6 @@
+Theme:
+  Theme_giallorwd:
+    base_theme_id:  Theme_argentorwd
+    name:           giallorwd
+    version:        7
+    is_system_default: 1

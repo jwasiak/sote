@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Lista aukcji</source>
+                <target>List of auctions</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Szablony</source>
+                <target>Templates</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Cenniki dostawy</source>
+                <target>Delivery price lists</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Import kategorii</source>
+                <target>Import the categories</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Import zamówień</source>
+                <target>Import the orders</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Tryb</source>
+                <target>Environment</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Serwis testowy - Sandbox</source>
+                <target>Test - Sandbox</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Przed przystąpieniem do zmiany cennika należy skonfigurować moduł w trybie "%environment%".</source>
+                <target>Before make changes in delivery price list, you must configure the module for the "%environment%" environment.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>wszystkie</source>
+                <target>all</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>tylko zaznaczone</source>
+                <target>only selected</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Cennik</source>
+                <target>Price list</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Edycja cennika dostawy</source>
+                <target>Edit a delivery price list</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>zł</source>
+                <target>zł</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Pierwsza sztuka</source>
+                <target>First piece</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Kolejna sztuka</source>
+                <target>Another piece</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Ilość w paczce</source>
+                <target>Number in package</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Maksymalna kwota to %price% zł.</source>
+                <target>The maximum amount is %price% zł.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Proszę podać nazwę listy dostaw.</source>
+                <target>Please give the name delivery price list.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>inpost</source>
+                <target>InPost</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>other</source>
+                <target>Other delivey methods</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>countries</source>
+                <target>Delivery abroad</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>pia</source>
+                <target>Paid in advanced</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>cod</source>
+                <target>Cash on delivery</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

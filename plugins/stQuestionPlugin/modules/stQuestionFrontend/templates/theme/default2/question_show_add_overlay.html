@@ -1,0 +1,76 @@
+<div id="st_application-st_question-add" class="st_application" style="border:none;">
+
+<div class="title">
+    <h2>
+        {if $question_type=="price"}
+            {__ text="Zapytaj o cenę"}
+        {/if}
+        {if $question_type=="depository"}
+            {__ text="Zapytaj o dostępność"}
+        {/if}
+    </h2>
+</div>
+    
+     <div class="st_content">
+        {$form_start}
+        
+            <fieldset>
+
+                <div class="st_row">    
+                    {$label_description}
+                    <div class="st_field">
+                        {$input_description}
+                    </div>
+                </div>
+
+                <div class="st_row">
+                    {$error_username}
+                    <b>{$label_username}</b>
+                    <div class="st_field">
+                        {$input_username}
+                    </div>
+                </div>
+
+                {if $is_authenticated==false}
+
+                <div class="st_row {if $error_privacy==1}checkbox_error{/if}" >
+                    <div class="st_field vertical-align-middle " style="margin-left: 96px;padding: 10px; margin-bottom: 60px;">      
+                                                 
+                    {$checkbox_privacy}
+                    {st_get_partial partial="stUser/privacy" params="privacy_only=true new_window=true"}                                                
+                    
+                    </div>
+                </div>
+
+                {if isset($captcha_on)}
+                    <div class="st_row">
+                        {$error_captcha}
+                        <div style="margin-bottom: 2px; margin-top: 2px; margin-left:110px;">
+                            {$get_captcha}
+                        </div>
+                        <b>{$label_captcha}</b>
+                        <div class="st_field">
+                            {$input_captcha}
+                        </div>
+                    </div>
+                {/if}
+                
+                {/if}
+                
+                <div class="st_row">
+                    <div id="button-add-question" class="buttons right">
+                        <button type="submit" class="regular roundies">
+                            {__ text="Wyślij"}
+                        </button>
+                    </div>
+                </div>
+
+            </fieldset>
+
+                    
+        {$hidden_question_type}
+        {$hidden_product_id}
+        </form>
+    </div>
+    
+</div>

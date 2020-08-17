@@ -1,0 +1,141 @@
+data:
+  mode_de: 0
+  mode_de_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  mode_fr: 0
+  save_for: 3
+  cookies_info_color: '000000'
+  cookies_info_background: 'cccccc'
+  cookies_info_width: 990
+  cookies_info_on: 1
+  change_terms_color: '000000'
+  change_terms_background: 'cccccc'
+  change_terms_width: 990
+  change_terms_on: 0
+  change_terms_cookie_hash: ''
+  change_terms_cookie_time: ''
+  basket_opinion_show: 1
+  terms_in_mail_confirm_order_format: 'pdf'
+  right_2_cancel_in_mail_confirm_order_format: 'pdf'
+  basket_opinion_show_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  terms_in_mail_confirm_order: 1
+  terms_in_mail_confirm_order_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  right_2_cancel_in_mail_confirm_order: 1
+  right_2_cancel_in_mail_confirm_order_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  terms_right_2_cancel: 1
+  terms_right_2_cancel_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  terms_digital: 1
+  terms_digital_show_online: 1
+  terms_digital_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  terms_service: 1
+  terms_service_products: 1
+  terms_service_countrys: 'a:29:{i:0;s:2:"AT";i:1;s:2:"BE";i:2;s:2:"BG";i:3;s:2:"HR";i:4;s:2:"CY";i:5;s:2:"CZ";i:6;s:2:"DK";i:7;s:2:"EE";i:8;s:2:"FI";i:9;s:2:"FR";i:10;s:2:"GR";i:11;s:2:"ES";i:12;s:2:"NL";i:13;s:2:"IE";i:14;s:2:"LT";i:15;s:2:"LU";i:16;s:2:"LV";i:17;s:2:"MT";i:18;s:2:"MC";i:19;s:2:"DE";i:20;s:2:"PL";i:21;s:2:"PT";i:22;s:2:"RO";i:23;s:2:"SK";i:24;s:2:"SI";i:25;s:2:"SE";i:26;s:2:"HU";i:27;s:2:"GB";i:28;s:2:"IT";}'
+  courier_fee: 1
+  courier_fee_countrys: 'a:1:{i:0;s:2:"DE";}'
+  _i18n:
+    en_US:
+      description: 'This site uses cookies. By continuing to browse this site you are agreeing to use of cookies. More information can be found in the <a href="{LINK_TO_PRIVACY}" >Privacy Policy</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) incl. VAT excl. {LINK_TO_DELIVERY}shipping costs{/LINK_TO_DELIVERY}'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_digital_text: 'I consent to the starting of the supply of the digital content during the legal cooling off period and I acknowledge that my right to cancel the contract will be lost with this consent to start the supply of the digital content.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+      terms_right_2_cancel_text: 'I have received this Notice of my {RIGHT_TO_CANCEL}right to cancel{/RIGHT_TO_CANCEL} and {TERMS_AND_CONDITIONS}Terms and Conditions{/TERMS_AND_CONDITIONS}'
+      terms_privacy_text: 'I agree to the processing of personal data from {LINK_TO_PRIVACY}privacy policy{/LINK_TO_PRIVACY}.'
+      terms_privacy_newsletter_text: 'I agree to the processing of personal data from {LINK_TO_PRIVACY}privacy policy{/LINK_TO_PRIVACY}.'
+      terms_shop_text: 'I accept the {LINK_TO_TERMS}terms{/LINK_TO_TERMS} and read the {LINK_TO_PRIVACY}privacy policy{/LINK_TO_PRIVACY}.'
+    pl_PL:
+      description: 'Korzystanie ze strony oznacza zgodę na wykorzystywanie plików cookie, niektóre mogą być już zapisane w przeglądarce. Więcej informacji można znaleźć w <a href="{LINK_TO_PRIVACY}" >polityce prywatności</a>.'
+      change_terms_description: 'Zaktualizowaliśmy ważne informację o przetwarzaniu danych. <br/> Więcej informacji można znaleźć w <a href="{LINK_TO_PRIVACY}" >polityce prywatności</a> i <a href="{LINK_TO_TERMS}" >regulaminie</a>.'
+      star: '*) brutto + {LINK_TO_DELIVERY}koszty dostawy{/LINK_TO_DELIVERY}'
+      basket_opinion_text: 'Wyrażam zgodę na przetwarzanie moich danych osobowych, w postaci adresu e-mail, w celu zbadania opinii o poziomie zadowolenia z przeprowadzonego zakupu.
+      terms_digital_text: 'Proszę o bezzwłoczny dostęp do informacji cyfrowej. Jestem świadomy, że moje prawo od odstąpienia od umowy wygasza wraz z uzyskaniem dostępu.'
+      terms_service_text: 'Wyrażam zgodę i proszę zarazem o spełnienie świadczenia przed upływem terminu do odstąpienia od umowy. Jestem świadomy/a, że w przypadku całkowitego spełnienia świadczenia tracę moje prawo do odstąpienia od umowy.'
+      terms_right_2_cancel_text: 'Zapoznałem się z moim {RIGHT_TO_CANCEL}prawem do odstąpienia od umowy{/RIGHT_TO_CANCEL} oraz {TERMS_AND_CONDITIONS}regulaminem{/TERMS_AND_CONDITIONS}'
+      terms_privacy_text: 'Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z {LINK_TO_PRIVACY}polityką prywatności{/LINK_TO_PRIVACY}.'
+      terms_privacy_newsletter_text: 'Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z {LINK_TO_PRIVACY}polityką prywatności{/LINK_TO_PRIVACY}.'
+      terms_shop_text: 'Akceptuję {LINK_TO_TERMS}regulamin{LINK_TO_TERMS} i przeczytałem {LINK_TO_PRIVACY}politykę prywatności{/LINK_TO_PRIVACY}.'
+    de:
+      description: 'This site uses cookies. By continuing to browse this site you are agreeing to use of cookies. More information can be found in the <a href="{LINK_TO_PRIVACY}" >Privacy Policy</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) inkl. MwSt. zzgl. {LINK_TO_DELIVERY}Versandkosten{/LINK_TO_DELIVERY}'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_digital_text: 'Ja, ich möchte sofort Zugang zu dem digitalen Inhalt und weiß, dass mein Widerrufsrecht mit dem Zugang erlischt.'
+      terms_service_text: 'Ich bin einverstanden und bitte gleichzeitig die Erfüllung der Vorschrift vor Ablauf der Frist vom Vertrag zurücktreten. Ich bin mir bewusst, dass in der vollständigen Erfüllung der Rückstellung verlieren mein Recht, vom Vertrag zurückzutreten.'
+      terms_right_2_cancel_text: 'Ich habe mein {RIGHT_TO_CANCEL}Widerrufsrecht{/RIGHT_TO_CANCEL} zur Kenntnis genommen. Ich erkläre mich mit {TERMS_AND_CONDITIONS}den AGB{/TERMS_AND_CONDITIONS} einverstanden.'      
+      terms_privacy_text: 'Ich stimme der Verarbeitung meiner persönlichen Daten gemäß den {LINK_TO_PRIVACY}Datenschutzbestimmungen zu{/LINK_TO_PRIVACY}.'
+      terms_privacy_newsletter_text: 'Ich stimme der Verarbeitung meiner persönlichen Daten gemäß den {LINK_TO_PRIVACY}Datenschutzbestimmungen zu{/LINK_TO_PRIVACY}.'
+      terms_shop_text: 'Ich akzeptiere {LINK_TO_TERMS}die Allgemeinen Geschäftsbedingungen{LINK_TO_TERMS} und habe {LINK_TO_PRIVACY}di Datenschutzerklärung gelese{/LINK_TO_PRIVACY}.'      
+      
+      
+    cs:
+      description: 'Prohlížením tohoto webu vyjadřujete svůj souhlas s používáním souborů cookies. Některé z nich již mohou být zapsané ve Vašem prohlížeči. Více informací lze nalézt v <a href="{LINK_TO_PRIVACY}">části Politika ochrany soukromí</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) Včetně DPH + {LINK_TO_DELIVERY}náklady na dodávku{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Prosím o okamžité zpřístupnění digitálních informací. Jsem si vědom toho, že moje právo odstoupit od smlouvy po získání přístupu zaniká.'
+      terms_right_2_cancel_text: 'Obeznámil jsem se se svým {RIGHT_TO_CANCEL}právem odstoupit od smlouvy{/RIGHT_TO_CANCEL} a {TERMS_AND_CONDITIONS}obchodními podmínkami{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    es:
+      description: 'El acceso a este sitio implica estar de acuerdo con la utilización de cookies. Ciertas cookies pueden conservarse en tu navegador. Para más información consultar <a href="{LINK_TO_PRIVACY}">la Política de Privacidad</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) bruto + {LINK_TO_DELIVERY}tarifas de envío{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Solicito acceso directo a la información digital. Soy consciente de que mi derecho a renunciar al contrato de compra expira con la obtención del acceso.'
+      terms_right_2_cancel_text: 'He leído la información sobre {RIGHT_TO_CANCEL}mi derecho a renunciar al contrato de compra{/RIGHT_TO_CANCEL} y {TERMS_AND_CONDITIONS}el reglamento{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    fr:
+      description: 'En visitant cette page, vous acceptez l’utilisation des fichiers cookie dont certains peuvent être déjà sauvegardés dans votre navigateur. Pour plus d’informations, veuillez consulter <a href="{LINK_TO_PRIVACY}">la politique matière de respect de la vie privée</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) TTC + {LINK_TO_DELIVERY}frais de livraison{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Je demande l’accès immédiat à l’information numérique. Je suis conscient que mon droit de rétractation expire au moment d’accès.'
+      terms_right_2_cancel_text: 'J’ai pris connaissance de mon {RIGHT_TO_CANCEL}droit de rétractation{/RIGHT_TO_CANCEL} et {TERMS_AND_CONDITIONS}conditions{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    it:
+      description: 'L’utilizzo del sito comporta il consenso all’impiego di file cookie, alcuni dei quali possono essere già memorizzati nel programma di navigazione. Sono disponibili ulteriori informazioni nelle <a href="{LINK_TO_PRIVACY}">direttive sulla privacy</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) lordo + {LINK_TO_DELIVERY}costi di consegna{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Chiedo di accedere immediatamente alle informazioni criptate. Sono consapevole che, al momento dell’accesso, il mio diritto di recedere dal contratto decade.'
+      terms_right_2_cancel_text: 'Ho preso conoscenza del mio {RIGHT_TO_CANCEL}diritto di recedere dal contratto{/RIGHT_TO_CANCEL} e {TERMS_AND_CONDITIONS}con regolamento{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    "no":
+      description: 'Ved å bruke dette nettstedet gir du ditt samtykke til bruk av informasjonskapsler (cookies); noen kan allerede være lagret i nettleseren din. Mer informasjon finner du i <a href="{LINK_TO_PRIVACY}">personvernpolitikk</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) brutto + {LINK_TO_DELIVERY}fraktkostnader{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Jeg ønsker umiddelbar tilgang til digital informasjon. Jeg er klar over at min angrerett bortfaller ved å få tilgang.'
+      terms_right_2_cancel_text: 'Jeg har blitt kjent med min {RIGHT_TO_CANCEL}angrerett{/RIGHT_TO_CANCEL} og {TERMS_AND_CONDITIONS}regler{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    pt:
+      description: 'Ao utilizar a página autoriza para o uso de ficheiros cookies, alguns podem estar gravados no browser. Mais informações em <a href="{LINK_TO_PRIVACY}">política de privacidade</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) Bruto + {LINK_TO_DELIVERY}custos de entrega{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Solicito o acesso imediato à informação digital. Estou consciente de que o meu direito  à rescisão de contrato expira ao conseguir o acesso.'
+      terms_right_2_cancel_text: 'Tomei conhecimento do meu {RIGHT_TO_CANCEL}direito à rescisão de contrato{/RIGHT_TO_CANCEL} e {TERMS_AND_CONDITIONS}regulamento{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    ru:
+      description: 'Использование этого сайта означает Ваше согласие на использование файлов куки, некоторые из них уже могут быть сохранены в вашем браузере. Более подробную информацию можно найти в разделе <a href="{LINK_TO_PRIVACY}">политика конфиденциальности</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) брутто + {LINK_TO_DELIVERY}стоимость доставки{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Предоставьте мне незамедлительно доступ к цифровой информации. Я знаю, что мое право отказа от договора истекает, когда будет предоставлен доступ.'
+      terms_right_2_cancel_text: 'Я ознакомился со своим {RIGHT_TO_CANCEL}правом отказа от договора{/RIGHT_TO_CANCEL} и {TERMS_AND_CONDITIONS}польз.соглашением{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    sk:
+      description: 'Prezeraním tejto stránky vyjadrujete svoj súhlas s používaním súborov cookies. Niektoré z nich už môžu byť zapísané v prehliadači. Viac informácií môžeš nájsť v <a href="{LINK_TO_PRIVACY}">časti Politika ochrany súkromia</a>.'
+      change_terms_description: 'We have updated important information about data processing. <br/> More information can be found in the <a href="{LINK_TO_PRIVACY}"> privacy policy </a> and <a href="{LINK_TO_TERMS}"> regulations </a>.'
+      star: '*) Včetne DPH + {LINK_TO_DELIVERY}náklady na dopravu{/LINK_TO_DELIVERY}'
+      terms_digital_text: 'Prosím o okamžité sprístupnenie digitálnych informácií. Som si vedomý toho, že moje právo odstúpiť od zmluvy po získaní prístupu zaniká.'
+      terms_right_2_cancel_text: 'Oboznámil som sa s mojim {RIGHT_TO_CANCEL}právom odstúpiť od zmluvy{/RIGHT_TO_CANCEL} a {TERMS_AND_CONDITIONS}obchodnými podmienkami{/TERMS_AND_CONDITIONS}.'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+    zh:
+      description: '使用本网站即表示您同意使用小型文本文件，有些可能已经被保存在您的浏览器。更多信息可以在这里找到 <a href="{LINK_TO_PRIVACY}">隐私政策</a>.'
+      star: '*) 总价 + {LINK_TO_DELIVERY}运费{/LINK_TO_DELIVERY}'
+      terms_digital_text: '请立即给我数字信息的方式。我知道我有取消协议的权利，直到当我得到信息。'
+      terms_right_2_cancel_text: '我已知道我的 {RIGHT_TO_CANCEL}权利取消协议{/RIGHT_TO_CANCEL} 和 {TERMS_AND_CONDITIONS}使用条件{/TERMS_AND_CONDITIONS}'
+      basket_opinion_text: 'I hereby authorize you to process my personal data as my e-mail address in order to examine the satisfaction level of the purchase.'
+      terms_service_text: 'I agree and please at the same time the fulfillment of the provision before the deadline to withdraw from the contract. I am aware that in the complete fulfillment of the provision lose my right to withdraw from the contract.'
+      

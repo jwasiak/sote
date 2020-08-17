@@ -1,0 +1,18 @@
+PaymentType: 
+  PaymentType_5: 
+    created_at: 2008-02-12 16:05:15
+    updated_at: 2008-02-12 16:05:15
+    module_name: stDotpay
+    active: 0
+    culture: pl_PL
+    name: Dotpay
+    summary_description: >
+      <p style="text-align: center;">Visa, MasterCard, JCB, Diners Club, Visa Electron, Maestro<br /> Przelewy online</p>
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_5: 
+    id: PaymentType_5
+    culture: en_US
+    name: Dotpay
+    summary_description: >
+      <p style="text-align: center;">Visa, MasterCard, JCB, Diners Club, Visa Electron, Maestro<br /> Online transfers</p>

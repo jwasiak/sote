@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stInvoicePlugin.lib.model" noXsd="true">
+
+  <table name="st_invoice" phpName="Invoice">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="invoice_user_seller_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_invoice_user_seller" onDelete="restrict">
+      <reference local="invoice_user_seller_id" foreign="id" />
+    </foreign-key>
+    <column name="invoice_user_customer_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_invoice_user_customer" onDelete="restrict">
+      <reference local="invoice_user_customer_id" foreign="id" />
+    </foreign-key>
+    <column name="order_id" type="INTEGER" />
+    <foreign-key foreignTable="st_order" onDelete="setnull">
+      <reference local="order_id" foreign="id" />
+    </foreign-key>
+    <column name="invoice_currency_id" type="INTEGER" />
+    <foreign-key foreignTable="st_invoice_currency" onDelete="restrict">
+      <reference local="invoice_currency_id" foreign="id" />
+    </foreign-key>
+    <column name="invoice_proforma_id" type="INTEGER" />
+    <column name="company_description" type="LONGVARCHAR" />
+    <column name="invoice_description" type="LONGVARCHAR" />
+    <column name="order_discount" type="DECIMAL" size="10" scale="2" />
+    <column name="date_selle" type="DATE" />
+    <column name="date_create_copy" type="DATE" />
+    <column name="number" type="VARCHAR" size="45" />
+    <column name="signature_seller" type="VARCHAR" size="45" />
+    <column name="signature_customer" type="VARCHAR" size="45" />
+    <column name="opt_total_ammount_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="town" type="VARCHAR" size="255" />
+    <column name="curency" type="VARCHAR" size="20" />
+    <column name="max_day" type="VARCHAR" size="20" default="none" />
+    <column name="payment_type" type="VARCHAR" size="20" default="none" />
+    <column name="is_proforma" type="BOOLEAN" default="1" />
+    <column name="is_request" type="BOOLEAN" default="0" />
+    <column name="is_confirm" type="BOOLEAN" default="0" />
+    <index name="order_number">
+      <index-column name="date_create_copy" />
+    </index>
+  </table>
+
+  <table name="st_invoice_status" phpName="InvoiceStatus">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="invoice_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_invoice" onDelete="cascade">
+      <reference local="invoice_id" foreign="id" />
+    </foreign-key>
+    <column name="payment_id" type="INTEGER" default="0" />
+    <column name="opt_payment_type_name" type="VARCHAR" size="255" />
+    <column name="opt_payment_status" type="BOOLEAN" default="0" />
+    <column name="opt_payment_type_id" type="INTEGER" />
+    <column name="hand_mod" type="BOOLEAN" default="0" />
+    <column name="paid_amount" type="DECIMAL" size="10" scale="2" />
+  </table>
+
+  <table name="st_invoice_product" phpName="InvoiceProduct">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="invoice_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_invoice" onDelete="cascade">
+      <reference local="invoice_id" foreign="id" />
+    </foreign-key>
+    <column name="product_id" type="INTEGER" />
+    <foreign-key foreignTable="st_product" onDelete="setnull">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+    <column name="name" type="VARCHAR" size="1024" />
+    <column name="code" type="VARCHAR" size="255" />
+    <column name="pkwiu" type="VARCHAR" size="255" />
+    <column name="quantity" type="DECIMAL" size="8" scale="2" />
+    <column name="measure_unit" type="VARCHAR" size="20" />
+    <column name="discount" type="FLOAT" />
+    <column name="price_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="price_brutto" type="DECIMAL" size="10" scale="2" />
+    <column name="vat" type="FLOAT" />
+    <column name="vat_id" type="INTEGER" />
+    <column name="total_price_netto" type="DECIMAL" size="10" scale="2" />
+    <column name="vat_ammount" type="DECIMAL" size="10" scale="2" />
+    <column name="opt_total_price_brutto" type="DECIMAL" size="10" scale="2" />
+  </table>
+
+  <table name="st_invoice_user_customer" phpName="InvoiceUserCustomer">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="country" type="VARCHAR" size="255" />
+    <column name="full_name" type="VARCHAR" size="255" />
+    <column name="name" type="VARCHAR" size="1024" />
+    <column name="surname" type="VARCHAR" size="255" />
+    <column name="address" type="VARCHAR" size="255" />
+    <column name="address_more" type="VARCHAR" size="255" />
+    <column name="region" type="VARCHAR" size="255" />
+    <column name="street" type="VARCHAR" size="255" />
+    <column name="house" type="VARCHAR" size="255" />
+    <column name="flat" type="VARCHAR" size="255" />
+    <column name="code" type="VARCHAR" size="255" />
+    <column name="town" type="VARCHAR" size="255" />
+    <column name="company" type="VARCHAR" size="255" />
+    <column name="vat_number" type="VARCHAR" size="255" />
+    <column name="pesel" type="VARCHAR" size="255" />
+    <column name="crypt" type="BOOLEAN" default="0" />
+  </table>
+
+  <table name="st_invoice_user_seller" phpName="InvoiceUserSeller">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="country" type="VARCHAR" size="255" />
+    <column name="full_name" type="VARCHAR" size="255" />
+    <column name="name" type="VARCHAR" size="1024" />
+    <column name="surname" type="VARCHAR" size="255" />
+    <column name="address" type="VARCHAR" size="255" />
+    <column name="address_more" type="VARCHAR" size="255" />
+    <column name="region" type="VARCHAR" size="255" />
+    <column name="street" type="VARCHAR" size="255" />
+    <column name="house" type="VARCHAR" size="255" />
+    <column name="flat" type="VARCHAR" size="255" />
+    <column name="code" type="VARCHAR" size="255" />
+    <column name="town" type="VARCHAR" size="255" />
+    <column name="company" type="VARCHAR" size="255" />
+    <column name="vat_number" type="VARCHAR" size="255" />
+    <column name="crypt" type="BOOLEAN" default="0" />
+  </table>
+
+  <table name="st_invoice_currency" phpName="InvoiceCurrency">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="exchange" type="FLOAT" />
+    <column name="shortcut" type="VARCHAR" size="20" />
+    <column name="front_symbol" type="VARCHAR" size="20" />
+    <column name="back_symbol" type="VARCHAR" size="20" />
+  </table>
+
+</database>

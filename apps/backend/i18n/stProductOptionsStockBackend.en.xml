@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Stan magazynowy opcji</source>
+                <target>Option stock</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wprowadź nieujemną wartość</source>
+                <target>Enter a nonnegative value</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Wprowadź wartość liczbową</source>
+                <target>Enter a numerical value</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

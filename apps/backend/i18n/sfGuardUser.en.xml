@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę podać hasło</source>
+                <target>Enter the password</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Nie można usunąć ostatniego użytkownika</source>
+                <target>The last user can't be deleted</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zarządzanie i konfiguracja kont administratorów</source>
+                <target>Manage and configure the administrators accounts</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Id</source>
+                <target>Id</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Login</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Ostatnio logowany</source>
+                <target>Last logged</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Super admin</source>
+                <target>Super admin</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Informacje</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Ponów hasło</source>
+                <target>Repeat the password</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Uprawnienia</source>
+                <target>Permissions</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>logowanie do panelu administracyjnego</source>
+                <target>access to the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>logowanie do panelu aktualizacji</source>
+                <target>access to the update panel</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Edycja administratora %%username%%</source>
+                <target>Edit the administrator %%username%%</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Zarządzanie i konfiguracja kont administratorów panelu</source>
+                <target>Manage and configure the administrators accounts</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Grupy/Role</source>
+                <target>Groups/Roles</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Proszę podać nazwę administratora.</source>
+                <target>Enter the login.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Proszę podać hasło.</source>
+                <target>Enter the password.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Podany użytkownik istnieje, proszę podać inną nazwę.</source>
+                <target>This user already exists, enter a different name.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Hasło nie może być krótsze niz 6 znaków.</source>
+                <target>Password can't be shorter than 6 characters.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Hasło nie zostało powtórzone poprawnie.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid e-mail address format.</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Edycja użytkownika %%username%%</source>
+                <target>Edit the user %%username%%</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Edycja</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>WebApi</source>
+                <target>WebApi</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Zapis danych WebApi</source>
+                <target>Record a WebApi data</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Odczyt danych WebApi</source>
+                <target>Read a WebApi data</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Błąd podczas usuwania.</source>
+                <target>Error occured while deleting.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Uwaga:</source>
+                <target>Notice:</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Administratorzy</source>
+                <target>Administrators</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Nie masz wystarczających uprawnień aby oglądać tą stronę.</source>
+                <target>You don't have the required permission to access this page.</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Zapomniałeś hasła?</source>
+                <target>Forgot your password?</target>
+            </trans-unit>     
+            <trans-unit id="36">
+                <source>Zaloguj się</source>
+                <target>Login</target>
+            </trans-unit>   
+            <trans-unit id="37">
+                <source>Nie posiadasz odpowiednich uprawnień do wykonania tej operacji</source>
+                <target>You do not have permission to perform this operation</target>
+            </trans-unit>   
+            <trans-unit id="38">
+                <source>Grupy uprawnień</source>
+                <target>Permission grups</target>
+            </trans-unit> 
+            <trans-unit id="39">
+                <source>Uprawnienia modułów</source>
+                <target>Modules permissions</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b></source>
+                <target>To selected/deselect chosen option hold the <b>Ctrl</b> key</target>
+            </trans-unit> 
+            <trans-unit id="41">
+                <source>dostęp</source>
+                <target>access</target>
+            </trans-unit> 
+            <trans-unit id="42">
+                <source>modyfikacja</source>
+                <target>modification</target>
+            </trans-unit>  
+            <trans-unit id="43">
+                <source>Panel administracyjny</source>
+                <target>Administration control panel</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Panel uaktualnień</source>
+                <target>Update control panel</target>
+            </trans-unit>                        
+            <trans-unit id="45">
+                <source>Nie możesz usunąć własnego konta</source>
+                <target>You can't delete your own account</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>odwiedź stronę sklepu</source>
+                <target>visit shop site</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Zamknij</source>
+                <target>Close</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Wpisz cyfry z obrazka</source>
+                <target>Enter digits from the image</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

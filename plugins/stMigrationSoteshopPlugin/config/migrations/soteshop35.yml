@@ -1,0 +1,11 @@
+migration:
+    _attributes:
+      extend:                           soteshop31.yml
+    
+    products:
+        params:
+            source:                     {query: "SELECT m.*, d.num as stock FROM main m LEFT JOIN (depository d) ON d.user_id_main = m.user_id"}
+        model_fillin:
+            Product:
+                stock:                  {params: stock}  
+                m_positioning:          {params: [google_title, google_keywords, google_description]}            

@@ -1,0 +1,12 @@
+data:
+  test: 0
+  dotpay_id:  
+  pin: 
+  button_back_text: Powrót do sklepu.
+  _i18n:
+    pl_PL:
+      button_back_text: Powrót do sklepu.
+      shop_name: ''
+    en_US:
+      button_back_text: Back to shop.
+      shop_name: ''

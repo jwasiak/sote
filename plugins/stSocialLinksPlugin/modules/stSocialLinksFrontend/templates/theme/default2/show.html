@@ -1,0 +1,79 @@
+{literal}
+<script type='text/javascript'>
+    jQuery(document).ready(function($){
+
+        var heightSocial = $('#social_foot').height();
+        $('#webpage_groups').css('min-height', heightSocial + 40);
+
+        $("#social a").hover(
+        function() {
+            $(this).stop().find(".a").animate({"opacity": "0"}, "100");
+            $(this).stop().find(".b").animate({"opacity": "1"}, "100");
+        },
+        function() {
+            $(this).stop().find(".a").animate({"opacity": "1"}, "400");
+            $(this).stop().find(".b").animate({"opacity": "0"}, "400");
+        });  
+    });
+</script>
+{/literal}
+<div id="social">
+    {slot name="social_links" hidden="true"}{/slot}
+    {if $facebook}
+    <div class="fb_foot">
+        <a href="{$facebook}" target="_blank">
+            <img src="{image_path image='social/fb_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/fb.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    {if $twitter}
+    <div class="tweet_foot">
+        <a href="{$twitter}" target="_blank">
+            <img src="{image_path image='social/tweet_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/tweet.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    {if $youtube}
+    <div class="yt_foot">
+        <a href="{$youtube}" target="_blank">
+            <img src="{image_path image='social/yt_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/yt.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    {if $instagram}
+    <div class="instagram_foot">
+        <a href="{$instagram}" target="_blank">
+            <img src="{image_path image='social/instagram_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/instagram.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    {if $pinterest}
+    <div class="gpinterest_foot">
+        <a href="{$pinterest}" target="_blank">
+            <img src="{image_path image='social/pinterest_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/pinterest.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    {if $allegro}
+    <div class="allegro_foot">
+        <a href="{$allegro}" target="_blank">
+            <img src="{image_path image='social/allegro_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/allegro.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    {if $newsletter}
+    <div class="newsletter_foot">
+        <a href="/newsletter/add">
+            <img src="{image_path image='social/newsletter_bw.png'}" alt=" " class="a" width="32" height="32"/>
+            <img src="{image_path image='social/newsletter.png'}" alt=" " class="b" width="32" height="32"/>
+        </a>
+    </div>
+    {/if}
+    <div class="clear"></div>
+</div> 

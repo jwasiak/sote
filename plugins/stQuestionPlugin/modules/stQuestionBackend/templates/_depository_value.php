@@ -1,0 +1,1 @@
+<?php echo object_select_tag($config->get('depository_value'), 'getId', array('related_class'=>'Availability', 'control_name'=>'config[depository_value]'))?>

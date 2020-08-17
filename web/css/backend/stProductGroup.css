@@ -1,0 +1,31 @@
+.product_group_star
+{
+	margin: 0px;
+}
+
+.pg_my_image
+{
+	margin: 10px 0px;
+}
+
+.pg_star img
+{
+	margin: 0px 5px 0px 3px;
+	position: relative;
+	top: 8px;
+}
+
+.pg_my_image img
+{
+	margin: 0px 5px 0px 10px;
+}
+
+.pg_none input, .pg_my_image input
+{
+	margin-right: 5px;
+}
+
+.desc_label
+{
+	float: left;
+}

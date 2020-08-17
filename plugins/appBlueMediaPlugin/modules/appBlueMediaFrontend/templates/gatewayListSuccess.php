@@ -1,0 +1,1 @@
+<?php $smarty->display('gateway_list.html') ?>

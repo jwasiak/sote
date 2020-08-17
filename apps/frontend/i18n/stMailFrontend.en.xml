@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Temat</source>
+				<target>Subject</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zawartość</source>
+				<target>Contents</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Adres nadawcy</source>
+				<target>Sender address</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Adres odbiorcy</source>
+				<target>Recipient address</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Załącz plik</source>
+				<target>Attach file</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Serwer poczty wychodzącej (SMTP)</source>
+				<target>Outgoing mail server (SMTP)</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Adres hosta</source>
+				<target>Host address</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Port</source>
+				<target>Port</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Szyfrowanie</source>
+				<target>Encryption</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Brak</source>
+				<target>None</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>TLS</source>
+				<target>TLS</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>SSL</source>
+				<target>SSL</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Użytkownik</source>
+				<target>Username</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Hasło</source>
+				<target>Password</target>
+			</trans-unit>
+			<trans-unit id="15">
+                <source>Wyślij</source>
+                <target>Send</target>
+            </trans-unit>
+			<trans-unit id="16">
+				<source>Wystąpił problem podczas łączenia się z serwerem SMTP: zweryfikuj <b>adres serwera</b> oraz wybrany rodzaj <b>szyfrowania</b></source>
+				<target>Error connecting to SMTP server: check <b>server address</b> and <b>encryption</b> type specified</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Błędna autoryzacja SMTP - wprowadź nazwę użytkownika i hasło ponownie</source>
+				<target>SMTP authorization error: enter username and password</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Wystąpił problem z wysłaniem wiadomości...</source>
+				<target>A problem occurred while sending the message...</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Twoja wiadomość została wysłana poprawnie</source>
+				<target>You message has been successfully sent</target>
+			</trans-unit>
+			<trans-unit id="20">
+                <source>Powrót</source>
+                <target>Return</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,64 @@
+#gift_group .item {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    margin-right: 14px;
+}
+
+
+#gift_group > div {
+    padding: 15px 10px 0px 10px;
+}
+
+#gift_group .price,
+#gift_group .image,
+#gift_group .name {
+    margin-bottom: 5px;    
+}
+
+#gift_group .price > s {
+    color: #bbb;
+    font-weight: normal;
+}
+
+#gift_group .buttons {
+    display: inline-block;
+}
+
+#gift_group .tooltip {
+    text-align: center;
+}
+
+
+#gift_group .tooltip .description {
+    margin-top: 10px;
+}
+
+#gift_group_more {
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+#gift_group_overlay {
+    background-color: #FFFFFF;
+    border: 1px solid #666666;
+    display: none;
+    width: 954px;
+    z-index: 1000;    
+}
+
+#gift_group_overlay > div {
+    padding: 10px 0px 0px 20px;
+    margin-right: -10px;
+}
+
+#gift_group_overlay .close {
+    background-image: url("/images/frontend/theme/default2/buttons/close.png");
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    right: -17px;
+    top: -17px;
+    width: 35px;
+}

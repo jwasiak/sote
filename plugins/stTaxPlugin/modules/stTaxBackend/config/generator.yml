@@ -1,0 +1,37 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:      Tax
+        theme:            simple
+        head:
+            package:      stTaxPlugin
+        applications:                           [stProduct, stOrder, stDelivery, stInvoicePlugin]
+        list:
+            title:                              Lista
+            description:                        Zarządzaj stawkami VAT 
+            display:                            [vat_name, _vat_list, is_default, is_active]
+            fields:
+                is_active:                      {name: Aktywna}
+                vat_list:                       {name: Wartość, sort_field: tax.vat}
+                vat_name:                       {name: Nazwa}
+                is_default:                     {name: Domyślny VAT}
+            actions:
+                _create:                        {name: Dodaj}
+            object_actions:
+                _edit:                          -
+                _delete:                        -  
+            empty_message:                      Brak stawek VAT
+        edit:
+            title:                              Edycja stawki VAT
+            description:                        Zarządzaj stawkami VAT 
+            display:                            [is_active, _edit_is_default, vat_name, _vat]
+            fields:
+                is_active:                      {name: Aktywna, required: false }
+                vat:                            {name: Wartość}
+                vat_name:                       {name: Nazwa}
+                edit_is_default:                {name: Domyślny VAT, help: Domyślnie wybrana stawka VAT podczas dodawania nowego produktu lub dostawy}
+            actions:
+                _delete:                        {name: Usuń}
+                _list:                          {name: Lista}
+                _save:                          {name: Zapisz}
+                _save_and_add:                  {name: Zapisz i dodaj}

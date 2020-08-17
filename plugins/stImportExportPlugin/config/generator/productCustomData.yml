@@ -1,0 +1,11 @@
+export:
+    fields:             
+        positioning_title:              {name: Pozycjonowanie_Tytuł, type: string, class: stImportExportProductCustomData}
+        positioning_keywords:           {name: Pozycjonowanie_Słowa_Kluczowe, type: string, class: stImportExportProductCustomData}
+        positioning_desc:               {name: Pozycjonowanie_Opis, type: string, class: stImportExportProductCustomData}
+
+import:
+    fields:             
+        positioning_title:              {name: Pozycjonowanie_Tytuł, type: string, class: stImportExportProductCustomData}
+        positioning_keywords:           {name: Pozycjonowanie_Słowa_Kluczowe, type: string, class: stImportExportProductCustomData}
+        positioning_desc:               {name: Pozycjonowanie_Opis, type: string, class: stImportExportProductCustomData}                

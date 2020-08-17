@@ -1,0 +1,6 @@
+propel:
+    st_product:
+        _attributes:    {phpName: Product}
+        mpn_code:
+            type: VARCHAR
+            size: 255

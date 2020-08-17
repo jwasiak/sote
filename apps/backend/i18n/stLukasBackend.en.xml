@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja płatności Credit Agricole Raty</source>
+                <target>Configure the Credit Agricole Raty payment.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Identyfikator</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Ustawienia główne</source>
+                <target>Main settings</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nazwa sklepu</source>
+                <target>Shop name</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Płatność Credit Agricole Raty</source>
+                <target>Credit Agricole Raty payment</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Adresy powrotów i eWniosku</source>
+                <target>Addresses of the returns and eWniosek</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Adres eWniosku, procedury i symulatora</source>
+                <target>Addresss of the eWniosek, procedure and simulator</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Adres powrotu po złożeniu wniosku</source>
+                <target>The return address after application</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Adres powrotu po rezygnacji</source>
+                <target>The return address after resignation</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Ustawienia produktu dla płatnosci Credit Agricole Raty.</source>
+                <target>Product settings for the Credit Agricole Raty payment.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wyłącz możliwość zakupu</source>
+                <target>Product can't be bought via the Credit Agricole Raty payment</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wartość koszyka</source>
+				<target>Prix du panier</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Koszt dostawy</source>
+				<target>Coût de livraison</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Razem do zapłaty</source>
+				<target>Total à payer</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dostawa</source>
+				<target>Livraison</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszty</source>
+				<target>Charges</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatności</source>
+				<target>Paiements</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kraj dostawy</source>
+				<target>Pays de livraison</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy</source>
+				<target>Produits dans le panier ne répondent pas aux critères de la livraison. Réduire la quantité de produits dans le panier ou contactez le vendeur afin d'établir un mode de transport alternatif.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Bony zakupowe</source>
+				<target>Bons d’achat</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zapłacono</source>
+				<target>Payé</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data i czas</source>
+				<target>Date et heure</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Czas dostawy</source>
+				<target>Heure de livraison</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Dzień dostawy</source>
+				<target>Jour de livraison</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wybrana dostawa nie posiada zdefiniowanych płatności</source>
+				<target>Aucun paiement défini pour la livraison choisie</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Brak zdefiniowanych dostaw lub stref w sklepie</source>
+				<target>Pas de livraisons ou zones de magasin définies</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Koszt</source>
+				<target>Coût</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność punktami</source>
+				<target>Paiement avec des points</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

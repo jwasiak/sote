@@ -1,0 +1,73 @@
+<form class="product-attribute-filter-container filter-left" action="{urlfor internal='@stProduct?action=filter'}?category_id={$category->getId()}" method="post">
+   <input type="hidden" name="type" value="attr" />
+   {foreach from=$attributes key=id item=attribute}
+      {if !isset($variants[$id]) || empty($variants[$id])}
+         {php}continue{/php}
+      {/if}
+      <div class="filter-title">{$attribute.name}</div>
+      
+         {if $attribute.type == 'B'}
+            {foreach from=`$variants[$id]` key=vid item=variant}  
+               <div class="form-group boolean-filter">
+                  <div class="checkbox">
+                     <label>
+                        <input type="checkbox" name="app_product_filter[{$id}][{$vid}]" value="{$vid}" {if isset($selected[$vid])}checked{/if} />
+                        {__ text="Tak"}
+                     </label>
+                  </div>
+               </div>
+            {/foreach}
+         {elseif $attribute.type == 'C'}
+            <div class="form-group colors-filter clearfix">
+               {foreach from=`$variants[$id]` key=vid item=variant}  
+                  <span class="colors-filter-item">
+                     <button class="btn btn-default{if isset($selected[$vid])} active{/if}" style="{if $variant.type == 'C'}background-color: #{$variant.value}{else}background-image: url(/{$variant.value}){/if}"type="button" data-color="hex-#{$variant.value}"></button> 
+                     <input class="sr-only" type="checkbox" name="app_product_filter[{$id}][{$vid}]" value="{$vid}" {if isset($selected[$vid])}checked{/if} />
+                  </span>
+               {/foreach}   
+            </div>      
+         {else}
+            {foreach from=`$variants[$id]` key=vid item=variant} 
+               <div class="form-group text-filter">
+                  <div class="checkbox">
+                     <label>
+                        <input type="checkbox" name="app_product_filter[{$id}][{$vid}]" value="{$vid}" {if isset($selected[$vid])}checked{/if} />
+                        {$variant.value}
+                     </label>
+                  </div>
+               </div>
+            {/foreach} 
+         {/if}
+         
+         {if $filters[$id]}
+            <div class="clearfix"><a href="{$reset_url}?filter={$id}" class="pull-right reset">{__ text="wyczyść"} <span class="clear-value"></span></a></div>
+         {/if}
+
+   {/foreach}
+</form>
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+   $(document).ready(function() {
+      $('.product-attribute-filter-container').each(function() {
+         var $this = $(this);
+
+         if (!$this.data('initialized')) {
+            $this.data('initialized', true);
+            $this.on('click', '.colors-filter button', function() {
+               var btn = $(this);
+               btn.toggleClass('active').next().click();
+            })
+            .on('change', 'input', function() {
+               $(this).closest('form').submit();
+            });
+
+         }
+      });
+   });
+});
+//]]>   
+</script>
+{/literal}

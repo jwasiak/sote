@@ -1,0 +1,16 @@
+<div id="st_box_foot">
+    <div id="st_foot">
+        {foreach key=row item=webpages_group from=$results}
+            {st_get_component module="stWebpageFrontend" component="groupWebpage" params="id=`$webpages_group.id`"}
+        {/foreach}
+       
+        <div class="box_group_webpage">
+            <h3>{__ text="Sklep"}</h3>
+            <ul>
+                <li>{link text="Strona główna" langCatalogue="stFrontend" uri="@homepage"}</li>
+                <li>{link text="Poleć sklep" langCatalogue="stRecommendShopFrontend" uri="/recommend_shop/index"}</li>
+                <li>{link text="Mapa serwisu" langCatalogue="stSitemapFrontend" uri="/sitemap"}</li>
+            </ul>
+        </div>
+    </div>
+</div>

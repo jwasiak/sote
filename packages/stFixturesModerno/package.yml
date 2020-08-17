@@ -1,0 +1,12 @@
+package:
+  name: stFixturesModerno
+  stability: stable
+  version: 7.0.0.1
+  summary: Dane dla tematu moderno
+  description: Dane dla tematu moderno
+  notes: Dostosowanie do tematu modernorwd
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysztof
+      email: krzysztof.beblo@sote.pl

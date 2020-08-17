@@ -1,0 +1,45 @@
+.form-row
+{
+    width: 800px;
+}
+
+.content
+{
+    margin-top: 10px;
+
+}
+.st_admin-item-list li
+{
+    border-bottom:1px solid #EFEFEF;
+    clear:both;
+    padding:5px 0 !important;
+}
+
+.st_admin-item-list span
+{
+    width: 300px !important;
+}
+
+input#product_stock
+{
+    float: left;
+    margin-top: 2px;
+    
+}
+
+#st_edit_stock_action
+{
+    float: left !important;
+    margin: 0px !important;
+}
+
+#st_edit_stock_action div
+{
+    float: left;
+}
+
+ul.st_product_options_path
+{
+    text-align: left;
+    margin-left: 10px !important;
+}

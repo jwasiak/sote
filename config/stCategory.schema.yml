@@ -1,0 +1,75 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_category: 
+    _attributes: 
+      phpName: Category
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_image: 
+      type: VARCHAR
+      size: 255
+    lft: 
+      type: INTEGER
+    rgt: 
+      type: INTEGER
+    scope: 
+      type: INTEGER
+      required: false
+    main_page: 
+      type: BOOLEAN
+    parent_id: 
+      type: INTEGER
+      foreignTable: st_category
+      foreignReference: id
+      onDelete: restrict
+    sf_asset_id: 
+      type: INTEGER
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: setnull
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    opt_image_crop:
+      type:    VARCHAR
+      size:    450
+      phpType: array
+      phpName: ImageCrop      
+    depth: 
+      type: INTEGER
+      required: true
+      default: 0
+    root_position: 
+      type: INTEGER
+    is_active: 
+      type: BOOLEAN
+      required: true
+      default: true
+    is_hidden: 
+      type: BOOLEAN
+      required: true
+      default: false
+    show_children_products:
+      type: BOOLEAN
+      required: true
+      default: false
+    _indexes: 
+      category_Index1: 
+        - depth
+      category_Index2: 
+        - lft
+        - scope
+      scope_idx:
+        - scope

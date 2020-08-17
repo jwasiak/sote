@@ -1,0 +1,1 @@
+<?php echo select_tag('webpage_group[default_group_page]', options_for_select($default_group_page,$webpage_group->getGroupPage()));?>

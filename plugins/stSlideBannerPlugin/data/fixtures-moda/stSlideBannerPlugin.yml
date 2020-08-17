@@ -1,0 +1,19 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-moda-1.jpg
+    image_small: /picture/pl_PL/baner-moda-1-small.jpg
+    is_active: 1
+    opt_culture: pl_PL
+  SlideBanner_2:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-moda-2.jpg
+    image_small: /picture/pl_PL/baner-moda-2-small.jpg
+    is_active: 1
+    opt_culture: pl_PL
+  SlideBanner_3:
+    language_id: Language_1
+    image: /picture/pl_PL/baner-moda-3.jpg
+    image_small: /picture/pl_PL/baner-moda-3-small.jpg
+    is_active: 1
+    opt_culture: pl_PL

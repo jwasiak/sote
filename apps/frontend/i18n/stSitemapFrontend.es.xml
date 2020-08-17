@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Strony informacyjne</source>
+				<target>Páginas informativas </target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Mapa serwisu</source>
+				<target>Mapa del servicio</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Producenci</source>
+				<target>Fabricantes</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

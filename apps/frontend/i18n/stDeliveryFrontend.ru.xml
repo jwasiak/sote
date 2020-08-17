@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2012-07-02T03:01:31Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wartość koszyka</source>
+				<target>Стоимость корзины</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Koszt dostawy</source>
+				<target>Стоимость доставки</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Razem do zapłaty</source>
+				<target>Всего к оплате</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dostawa</source>
+				<target>Доставка</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszty</source>
+				<target>Корзины</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatności</source>
+				<target>Платежи</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kraj dostawy</source>
+				<target>Страна доставки</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy</source>
+				<target>Продукты в корзине не отвечают критериям доставки. Уменьшить количество продуктов в корзину или связаться с продавцом, чтобы установить альтернативный способ доставки.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Bony zakupowe</source>
+				<target>Закупочные боны</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Zapłacono</source>
+				<target>Заплачено</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Data i czas</source>
+				<target>Дата и время</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Czas dostawy</source>
+				<target>Время доставки</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Dzień dostawy</source>
+				<target>День доставки</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wybrana dostawa nie posiada zdefiniowanych płatności</source>
+				<target>Выбранная поставка не имеет определенных платежей</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Brak zdefiniowanych dostaw lub stref w sklepie</source>
+				<target>Нет определенных поставок или зон в магазине</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Koszt</source>
+				<target>Корзина</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność punktami</source>
+				<target>Платеж баллами</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

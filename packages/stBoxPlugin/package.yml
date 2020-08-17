@@ -1,0 +1,15 @@
+package:
+  name: stBoxPlugin
+  stability: stable
+  version: 7.0.0.1
+  summary: 'Boksy informacyjne'
+  description: 'Boksy informacyjne'
+  notes: |
+    - Poprawki i18n
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stWebpagePlugin: 1.0.2.16

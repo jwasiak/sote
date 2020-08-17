@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>ID_Użytkownika</source>
+                <target>User ID</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Potwierdzony</source>
+                <target>Confirmed</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Grupy</source>
+                <target>Groups</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

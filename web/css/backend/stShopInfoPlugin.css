@@ -1,0 +1,100 @@
+#st_licence_info
+{  
+    margin: 20px; 
+}
+
+#st_licence_info .st_label
+{
+    float: left;    
+    width: 150px;
+}
+
+#st_licence_info .st_label2
+{
+    text-align: right;
+    float: left;    
+    width: 250px;
+    margin-right: 8px;
+}
+
+#st_form-licence_info-company input
+{
+    width: 233px;   
+}
+
+#st_form-licence_info-nip input
+{
+    width: 233px;
+}
+
+#st_shop_info_phone {
+    width: 233px;
+}
+
+#st_form-licence_info-street input
+{
+    width: 163px;
+}
+
+#st_form-licence_info-house input,
+#st_form-licence_info-flat input
+{
+    width: 29px;
+
+}
+
+#st_form-address-sep,
+#st_form-licence_info-street,
+#st_form-licence_info-house input,
+#st_form-licence_info-flat input {
+    vertical-align: middle;
+}
+
+#st_form-address-sep {
+    vertical-align: middle;
+}
+
+#st_form-licence_info-code input
+{
+    width: 70px;
+}
+
+#st_form-licence_info-town input
+{
+    width: 160px;
+}
+
+#st_form-licence_info-phone input
+{
+    width: 233px;
+}
+
+#st_form-licence_info-fax input
+{
+    width: 233px;
+}
+
+#st_form-licence_info-bank input
+{
+    width: 233px;
+}
+
+#st_form-licence_info-email input
+{
+    width: 233px;
+}
+
+#st_register
+{  
+    margin-left: 50px; 
+}
+
+#st_register .st_row  
+{
+    padding-bottom: 2px;
+}
+
+#st_register .st_row label 
+{
+
+}

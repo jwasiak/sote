@@ -1,0 +1,44 @@
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="Skrill"}
+    </div>
+    <div class="panel-body text-center">
+        {if $check_configuration}
+            <img src="/images/frontend/theme/default2/stMoneybookersPlugin/logo_with_bank.png" alt="{__ text="Skrill"}"/><br />
+            <span>
+                {$description}
+            </span>
+            {$form_start}
+                {$input_pay_to_email}
+                {$input_recipient_description}
+                {$input_transaction_id}
+                {$input_return_url}
+                {$input_return_url_text}
+                {$input_cancel_url}
+                {$input_status_url}
+                {$input_language}
+                {$input_firstname}
+                {$input_lastname}
+                {$input_address}
+                {$input_postal_code}
+                {$input_city}
+                {$input_country}
+                {$input_amount}
+                {$input_currency}
+                {$input_detail1_description}
+                {$input_detail1_text}
+                {$input_merchant_fields}
+                {$input_hash}
+                {$input_referring_platform}
+                {$input_hide_login}
+                {$input_pay_from_email}
+                {$input_payment_methods}
+                <button type="submit" class="btn btn-primary pull-right">
+                    {__ text="Zapłać"}
+                </button>
+            </form>
+        {else}
+            {__ text="Płatność została błędnie skonfigurowana."}
+        {/if}
+    </div>
+</div>

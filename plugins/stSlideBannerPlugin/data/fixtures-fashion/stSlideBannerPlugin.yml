@@ -1,0 +1,12 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_2
+    image: /picture/en_US/fashion1.png
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_2:
+    language_id: Language_2
+    image: /picture/en_US/fashion2.png
+    is_active: 1
+    opt_culture: en_US
+    group_name: baner_2

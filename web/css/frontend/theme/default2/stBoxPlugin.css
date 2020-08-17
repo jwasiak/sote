@@ -1,0 +1,15 @@
+.box_info .content
+{
+    font-size: 0.93em;
+}
+
+.box_info p
+{
+    margin: 5px 0px;
+}
+
+.box_info img
+{
+	max-width: 100%;
+	height: auto;
+}

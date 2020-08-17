@@ -1,0 +1,16 @@
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="Przelewy24"}
+    </div>
+    <div class="panel-body text-center">
+        <p><img src="/plugins/stPrzelewy24Plugin/images/logo.png" alt="" /></p>
+        <p>{__ text="Wystąpił problem z połączeniem się z serwisem Przelewy24."}</p>
+        {if $contact_url}
+            <p>
+                <a href="{$contact_url}" class="btn btn-primary">
+                    {__ text="Skontaktuj się z nami"}
+                </a>      
+            </p>
+        {/if}
+    </div>
+</div>

@@ -1,0 +1,36 @@
+all:
+    sfAssetsLibrary:
+        upload_dir:         media                    
+        check_type:         true                    
+        types:              [image, txt, archive, pdf, xls, doc, ppt, odp, ods, odt]  
+        thumbnail_dir:      thumbnail               
+        use_ImageMagick:    false                 
+        thumbnails:
+          icon:
+              width:      42
+              height:     42
+              watermark:  false
+
+          thumb:
+              width:      84
+              height:     84
+              watermark:  false
+
+          small:
+              width:      128
+              height:     128
+              watermark:  true
+
+          large:
+              width:      256
+              height:     256
+              watermark:  true
+
+          big:
+              width:      512
+              height:     512
+              watermark:  true
+
+                                            
+        search_pager_size:  20                    
+        mass_upload_size:   0     

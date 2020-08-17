@@ -1,0 +1,81 @@
+<div id="product-navbar">
+    <h1>{$title}</h1>
+    {if $search_link && $search_link->getDescription()}
+        <div class="tinymce_html">
+            {$search_link->getDescription()}
+        </div>
+    {/if}
+</div>
+
+{if $query && !$search_link}
+    <div class="clearfix"></div>
+    <form action="{urlfor internal="stProduct/list"}" class="form-inline search product-search" method="get">
+        <div class="input-group col-xs-12">
+            <label class="sr-only" for="search">{__ text="Wyszukaj"}</label>
+            <input type="search" autocomplete="off" class="form-control" name="query" value="{$query}" placeholder='{__ text="Wpisz czego szukasz" catalogue="stFrontend"}' />
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+            </span>                                
+        </div>
+    </form>
+{/if}
+
+{slot name="product-list-after-title" hidden="true"}{/slot}
+
+{if $description}
+    <div id="category_info" class="thumbnail">
+        <div class="row">
+            <div class="image text-center col-xs-3">{$image}</div>
+            <div class="description tinymce_html col-xs-9">{$description}</div>
+         </div>
+    </div>
+{/if}
+
+{st_get_component module="stCategoryTree" component="horizontalChildren" category=$category limit=5}     
+
+<div class="sort pull-right">
+    <div class="btn-group hidden-sm hidden-xs">
+        {strip}
+        <div id="producer-filter" class="hidden">
+            {st_get_component module="stProduct" component="producerFilter"}
+        </div>
+        {/strip}
+    </div>
+    <button id="btn-product-filter" type="button" class="btn btn-default btn-group hidden-md hidden-lg" data-toggle="modal" data-target="#product-filter-modal">
+       <span class="glyphicon glyphicon-filter"></span>
+    </button>                    
+    {$sort}
+    {if $show_types}{$list_type}{/if}  
+</div> 
+
+<div class="clearfix"></div>
+
+<div class="product-list clearfix" data-equalizer>
+    {if $show_no_products_notice}        
+        {if $query}
+            <div class="text-center center-block">{__ text="Brak produktów dla podanego wyszukiwania. Spróbuj wpisać inne wyrażenie lub poszukać produktu, korzystając z kategorii sklepu."}</div>
+        {else}       
+            {__ text="Brak produktów dla wybranych kryteriów"}
+        {/if}
+    {else}
+        {slot name="before_product_list" hidden="true"}{/slot}
+        {$product_list}
+        {$pager}
+        {slot name="after_product_list" hidden="true"}{/slot}
+    {/if}
+</div>
+
+{if $category}
+{literal}
+<script type="text/javascript">  
+//<![CDATA[
+jQuery(function($) {
+    $(document).ready(function() {
+        var href = '{/literal}{$category_url}{literal}';
+        $('.horizontal-categories').trigger('highlight', href);
+    });
+});
+//]]>
+</script>
+{/literal}
+{/if}

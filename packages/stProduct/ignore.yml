@@ -1,0 +1,9 @@
+ignore:
+    - wino_polwytrawne.jpg
+    - buty_meskie.jpg
+    - .jpg
+    - readme.txt
+    - icon_recommend.gif
+
+ignore_replace:
+    - /stProduct\.en\.xml$/

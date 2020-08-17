@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2010-11-04T02:51:38Z">
+		<body>
+			<trans-unit id="1">
+				<source>Nie masz wystarczających uprawnień aby oglądać tą stronę</source>
+				<target>У вас нет достаточных прав для просмотра данной страницы</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Edytor grafiki</source>
+				<target>Редактор графики</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zaloguj się podając dane dostępowe do panelu administracyjnego.</source>
+				<target>Зайдите в систему, указав данные для доступа на панель администрирования.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Użytkownik</source>
+				<target>Пользователь</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Пароль</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Войти</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Proszę podać nazwę użytkownika</source>
+				<target>Указать имя пользователя</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Proszę podać hasło</source>
+				<target>Укажите пароль</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę podać poprawną nazwę użytkownika i hasło</source>
+				<target>Указать правильное имя пользователя и пароль</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

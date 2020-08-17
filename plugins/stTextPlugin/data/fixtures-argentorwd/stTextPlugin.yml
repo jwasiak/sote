@@ -1,0 +1,16 @@
+Text:
+    Text_1:
+        system_name: stFrontendMain-middle
+        active: 0
+        culture: pl_PL
+        name: Strona główna
+        content: >
+            Zapraszamy na zakupy.
+
+TextI18n:
+    TextI18n_2:
+        id: Text_1
+        culture: en_US
+        name: Homepage
+        content: >
+            We're inviting to the shopping.

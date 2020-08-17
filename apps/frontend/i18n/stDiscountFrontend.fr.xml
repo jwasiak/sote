@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2011-11-04T04:26:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Rabaty</source>
+				<target>Remises</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Lista przypisanych rabatów</source>
+				<target>Liste de remises attribuées</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwa</source>
+				<target>Nom</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Prix</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Produkty</source>
+				<target>Produits</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Rabat ogólny</source>
+				<target>Remise générale</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista produktów</source>
+				<target>Liste de produits</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Produkty w grupie rabatowej</source>
+				<target>Produits dans le groupe de remise</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Do grupy rabatowej %group% nie przypisano jeszcze żadnego produktu</source>
+				<target>Aucun produit n’a été attribué au groupe de remise %group%</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Moje konto</source>
+				<target>Mon compte</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wprowadź kod rabatowy</source>
+				<target>Entrez le code de réduction</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podany kod jest nieważny</source>
+				<target>À la suite de code n'est pas valide</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podany kod nie istnieje</source>
+				<target>Le code donné n'existe pas</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Wprowadź kod</source>
+				<target>Saisissez votre code</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Kod rabatowy</source>
+				<target>Code de réduction</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Udzielony rabat</source>
+				<target>Un rabais</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Aktywuj</source>
+				<target>Activer</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dokonaj zakupu za %amount% a otrzymasz rabat %discount% na aktualne zamówienie</source>
+				<target>Si vous effectuez un achat pour %amount%, vous recevrez une remise de %discount% pour votre commande actuelle</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>W zestawie kupisz taniej</source>
+				<target>Achetez un ensemble pour payer moins cher</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>do koszyka</source>
+				<target>au panier</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Brak rabatów</source>
+				<target>Pas de remises</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

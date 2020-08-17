@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Konfiguracja zdjęć</source>
+                <target>Image configuration</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Znak wodny</source>
+                <target>Watermark</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Produkty</source>
+                <target>Products</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Producent</source>
+                <target>Manufacturer</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Tekst:</source>
+                <target>Text:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Czcionka:</source>
+                <target>Font:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Kolor:</source>
+                <target>Color:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Maksymalny rozmiar:</source>
+                <target>Maximum size:</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Pozycja:</source>
+                <target>Position:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Stopień przezroczystości:</source>
+                <target>Transparency:</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Lista pełna:</source>
+                <target>Full list:</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Lista skrócona:</source>
+                <target>Short list:</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Lista alternatywna:</source>
+                <target>Other list:</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Karta:</source>
+                <target>Product card:</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Powiększone:</source>
+                <target>Enlarged:</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>słaba</source>
+                <target>low</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>dobra</source>
+                <target>average</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>najlepsza</source>
+                <target>high</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Szerokość</source>
+                <target>Width</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Wysokość</source>
+                <target>Height</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Jakość</source>
+                <target>Quality</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Logo:</source>
+                <target>Logo:</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Strona producenta:</source>
+                <target>Manufacturer page:</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Strona główna:</source>
+                <target>Main page:</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Strona kategorii:</source>
+                <target>Category page:</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Zdjęcie musi być formatu jpeg, gif lub png</source>
+                <target>Image format must be jpeg, gif or png</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Musisz załączyć plik</source>
+                <target>Attache the file</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Rozmiar zdjęcia nie może przekraczać 1280x1280 pikseli</source>
+                <target>Image size can't exceed 1280x1280 pixels</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Brak obsługi kopiowania plików na serwer. Skontaktuj sie z administratorem serwera, aby uaktywnił opcję "file_uploads" w konfiguracji php</source>
+                <target>You're unable to copy the files to the server. Contact the server administrator in order to activated the option "file_uploads" in php configuration</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Rozmiar pliku nie może przekraczać %s.</source>
+                <target>File size can't exceed %s.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Podaj tekst</source>
+                <target>Enter a text</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Maksymalna długość to 30 znaków</source>
+                <target>Maximum length is 30 characters</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Podaj kolor</source>
+                <target>Enter a color</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Kolor musi być wartością heksadecymalną</source>
+                <target>Color must be a hexadecimal value</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>szerokość</source>
+                <target>width</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>wysokość</source>
+                <target>height</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Minimalna</source>
+                <target>Minimum</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>to</source>
+                <target>is</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>musi być liczbą całkowitą</source>
+                <target>must be an integer</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Konfiguracja wyświetlania galerii</source>
+                <target>Setting up gallery display</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Włącz zoom zdjęć</source>
+                <target>Turn on zoom</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Galeria</source>
+                <target>Gallery</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Przycinaj</source>
+                <target>Trim</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Galeria:</source>
+                <target>Gallery:</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Lista pełna</source>
+                <target>Full list</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Lista skrócona</source>
+                <target>Short list</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Lista alternatywna</source>
+                <target>Other list</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Karta</source>
+                <target>Product card</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Powiększone</source>
+                <target>Enlarged</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Logo</source>
+                <target>Logo</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Strona producenta</source>
+                <target>Manufacturer page</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Strona główna</source>
+                <target>Main page</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Strona kategorii</source>
+                <target>Category page</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Zamknij</source>
+                <target>Close</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Kadruj</source>
+                <target>Crop</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Kadrowanie zdjęcia</source>
+                <target>Cropping an image</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Wyrównaj do lewej</source>
+                <target>Align left</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Wycentruj w poziomie</source>
+                <target>Center horizontally</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Wyrównaj do prawej</source>
+                <target>Align right</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Wyrównaj do góry</source>
+                <target>Align top</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Wycentruj w pionie</source>
+                <target>Center vertically</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Wyrównaj do dołu</source>
+                <target>Align bottom</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Wersja normalna:</source>
+                <target>Normal version:</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Wersja mobilna:</source>
+                <target>Mobile version:</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Zdjęcie nie wymaga kadrowania, ponieważ nie przekracza rozmiaru %%cw%%x%%ch%%.</source>
+                <target>The photo does not require cropping, because it does not exceed the size of %%cw%%x%%ch%%</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Załączone zdjęcie jest za małe, zalecany minimalny rozmiar to %%cw%%x%%ch%%.</source>
+                <target>The attached photo is too small, the recommended minimum size %%cw%%x%%ch%%</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Banery</source>
+                <target>Banners</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Przywróć domyślne</source>
+                <target>Restore defaults</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Domyślna konfiguracja została przywrócona</source>
+                <target>The default configuration has been restored</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Biblioteka:</source>
+                <target>Library:</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Biblioteka używana do obróbki zdjęć. Domyślnie ustawiania jest ImageMagick jeżeli jest dostępna.</source>
+                <target>Library used for photo processing. The default setting is ImageMagick if available.</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Konfiguracja ogólna</source>
+                <target>General configuration</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Opcja pozwala generować lepszej jakości zdjęcia kosztem większego obciążenia serwera. W przypadku problemów z wydajnością proszę odznaczyć tą opcję</source>
+                <target>The option allows you to generate better quality images at the cost of higher server load. In case of performance problems please deselect this option</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Generuj obrazy wysokiej jakości:</source>
+                <target>Generate high quality images:</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Obracaj zdjęcie zgodnie z inf. EXIF:</source>
+                <target>Rotate the photo according to the EXIF INFO:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,135 @@
+<form action="#" class="form-horizontal">
+    {$options}
+</form>
+
+{literal}
+
+<script id="options-tpl" type="text/x-template">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span> <span class="text">#selected#</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            #content#
+        </ul>
+    </div>     
+</script>
+
+<script id="options-color-tpl" type="text/x-template">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span> #icon# <span class="text">#selected#</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            #content#
+        </ul>
+    </div>     
+</script>
+
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+    function escapeHtml(text) {
+      var map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      };
+     
+      return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+    }
+
+    var tpl = $('#options-tpl').html();
+    var colorTpl = $('#options-color-tpl').html();
+{/literal}
+    var isMobile = {$is_mobile|string_format:"%d"};
+{literal}
+    function renderSelectTpl(select) {
+        var content = '';
+        var selected = null;
+
+        select.children().each(function() {
+            var option = $(this);
+
+            if (option.val() == select.val()) {
+                selected = option;
+                content += '<li class="active"><a href="#" data-value="'+option.val()+'">'+option.text()+'</a></li>';
+            } else {
+                content += '<li><a href="#" data-value="'+option.val()+'">'+option.text()+'</a></li>';
+            }
+        });
+
+        return tpl.replace('#selected#', selected.text()).replace('#content#', content);
+    }
+
+    function renderColorsTpl(select) {
+        var content = '';
+        var selected = null;
+
+        select.children().each(function() {
+            var option = $(this);
+            var color = option.data('color');
+
+            if (color[0] != '#') {
+                var image = '<span class="icon" style="background-image: url('+color+')"></span>'; 
+                var title = escapeHtml('<img src="'+color+'" style="max-width: 100%; max-height: 200px">');
+
+            } else {
+                var image = '<span class="icon" style="background: '+color+'"  data-color="hex-' + color + '"></span>';    
+                var title = '';
+            }            
+
+            if (option.val() == select.val()) {
+                selected = option;
+                content += '<li class="active"><a href="#" data-value="'+option.val()+'" data-color="'+color+'" title="'+title+'">'+image+option.text()+'</a></li>';
+            } else {
+                content += '<li><a href="#" data-value="'+option.val()+'" data-color="'+option.data('color')+'" title="'+title+'">'+image+option.text()+'</a></li>';
+            }          
+        });
+
+        if (selected.data('color')[0] != '#') {
+            var icon = '<span class="icon" style="background-image: url('+selected.data('color')+')"></span>';
+        } else {
+            var icon = '<span class="icon" style="background: '+selected.data('color')+'" data-color="hex-'+selected.data('color')+'"></span>';
+        }
+            
+        return colorTpl.replace('#icon#', icon).replace('#selected#', selected.text()).replace('#content#', content);
+    }        
+    
+    var options = $('.st_product_options_select');
+    options.hide();
+    options.each(function() {
+        var select = $(this);
+
+        if (select.hasClass('colors')) {
+            var dropdown = $(renderColorsTpl(select));
+        } else {
+            var dropdown = $(renderSelectTpl(select));
+        }
+
+        dropdown.on('click', 'a',  function(e) {
+            var link = $(this);
+            if (!link.parent().hasClass('active')) {
+                var select = link.parents('.btn-group').first().next();
+                select.val(link.data('value')).trigger('change');
+            }
+            e.preventDefault();
+        });
+
+        if (!isMobile) {
+            dropdown.find('a[data-color]').tooltip({
+                container: 'body',
+                placement: 'left',
+                html: true
+            });
+        }
+
+        select.before(dropdown);
+    });
+
+});
+//]]>
+</script>
+{/literal}

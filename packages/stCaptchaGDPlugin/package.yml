@@ -1,0 +1,14 @@
+---
+package: 
+  name: stCaptchaGDPlugin
+  stability: stable
+  version: 7.0.0.0
+  summary: Captcha GD
+  description: Captcha GD
+  notes: |
+    - Poprawka walidacji kodu captcha
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!</source>
+                <target>Trusted Shops Seal of Approval - Click to verify.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Jako dodatkowy serwis oferujemy Ochronę Kupującego Trusted Shops. Przejmujemy pełny koszt tej gwarancji, wystarczy się tylko zarejestrować, aby z niej skorzystać.</source>
+                <target>We offer you the Trusted Shops Buyer Protection as an additional service. We cover all costs for this guarantee. All you have to do is register!</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zgłoszenie do Ochrony Kupującego Trusted Shops</source>
+                <target>Register for Trusted Shops Buyer Protection</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Ochrona Kupującego Trusted Shops</source>
+                <target>Trusted Shops Buyer Protection</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Ochrona Kupującego do</source>
+                <target>Buyer Protection up to</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>z VAT</source>
+                <target>incl. VAT</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Ochrona Kupującego Trusted Shops zabezpiecza Twoje zakupy internetowe. Wyrażam zgodę na przekazywanie i</source>
+                <target>The Trusted Shops Buyer Protection secures your online purchase. I agree to my email address being transferred and</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>zapisywanie</source>
+                <target>saved</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>mojego adresu e-mail przez Trusted Shops w celu realizacji usługi Ochrony Kupującego.</source>
+                <target>for the purposes of Buyer Protection processing by Trusted Shops.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Warunki gwarancji</source>
+                <target>Conditions</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>dla Ochrony Kupującego.</source>
+                <target>for Buyer Protection.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops.</source>
+                <target>is a certified online shop with Trusted Shops Buyer Protection.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Więcej informacji o</source>
+                <target>Information about</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Zobacz opinie klientów sklepu</source>
+                <target>See customer ratings</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Opinie klientów sklepu</source>
+                <target>Customer ratings</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ubezpieczenie Trusted Shops</source>
+                <target>Trusted Shops Buyer Protection</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Zobacz więcej...</source>
+                <target>More...</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>https://www.trustedshops.pl/shop/certificate.php</source>
+                <target>https://www.trustedshops.co.uk/shop/certificate.php</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>http://www.trustedshops.pl/sklep_internetowy/profil</source>
+                <target>http://www.trustedshops.co.uk/profile</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>https://www.trustedshops.pl/opinia/info_</source>
+                <target>https://www.trustedshops.co.uk/buyerrating/info_</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>https://www.trustedshops.pl/opinia/ocen_</source>
+                <target>https://www.trustedshops.com/buyerrating/rate_</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Czy jesteś zadowolony z naszych usług?</source>
+                <target>Were you satisfied with our service?</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Napisz komentarz i wystaw nam ocenę.</source>
+                <target>Please write a review and rate us.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

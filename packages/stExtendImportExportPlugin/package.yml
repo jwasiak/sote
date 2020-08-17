@@ -1,0 +1,16 @@
+---
+package: 
+  name: stExtendImportExportPlugin
+  stability: stable
+  version: 7.1.0.0
+  summary: Import eksport opisow w wersjach jezykowych
+  description: Import eksport opisow w wersjach jezykowych
+  notes: |
+    - Dodanie wyszukiwania po ukrytym opisie
+  maintainers: 
+    Pawel Byszewski: 
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency: 
+    soteshop_base: 6.1.0

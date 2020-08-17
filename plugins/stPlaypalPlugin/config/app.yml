@@ -1,0 +1,31 @@
+all:
+  stPaypal:
+    api_endpoints:
+      live:         "https://api-3t.paypal.com/nvp"
+      sandbox:      "https://api-3t.sandbox.paypal.com/nvp"
+      beta-sandbox: "https://api-3t.beta-sandbox.paypal.com/nvp"
+    api_version:    "60.0"
+    urls:
+      live:         "https://www.paypal.com/webscr"
+      sandbox:      "https://www.sandbox.paypal.com/webscr"
+    button_culture_locale:
+      at: de_DE
+      au: en_AU
+      be: en_US
+      c2: en_US
+      ch: de_DE
+      cn: zh_CN
+      de: de_DE
+      es: es_ES
+      fr: fr_FR
+      gb: en_GB
+      gf: fr_FR
+      gi: en_US
+      gp: fr_FR
+      ie: en_US
+      it: it_IT
+      jp: ja_JP
+      us: en_US
+      pl_PL: pl_PL
+      en_US: en_US
+      default: en_US

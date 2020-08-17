@@ -1,0 +1,60 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+
+webapi:
+    fields:
+        id:                     {type: integer}
+        code:                   {type: string}
+        used:                   {type: integer}
+        valid_usage:            {type: integer}
+        valid_from:             {type: dateTime}
+        valid_to:               {type: dateTime}
+        discount:               {type: double}
+
+    methods:
+        AddDiscountCouponCode:
+            culture:        false
+            peer:           DiscountCouponCode
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [code, =discount, valid_usage, valid_from, valid_to]
+                out:        [id]
+        CountDiscountCouponCode:
+            culture:        false
+            peer:           DiscountCouponCode
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                out:        [_count]
+        DeleteDiscountCouponCode:
+            culture:        false
+            peer:           DiscountCouponCode
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetDiscountCouponCode:
+            culture:        false
+            peer:           DiscountCouponCode
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [id, code, discount, valid_usage, valid_from, valid_to, used]
+        GetDiscountCouponCodeList:
+            culture:        false
+            peer:           DiscountCouponCode
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        [id, code, =discount, valid_usage, valid_from, valid_to, used]
+        UpdateDiscountCouponCode:
+            culture:        false
+            peer:           DiscountCouponCode
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, code, =discount, valid_usage, valid_from, valid_to]
+                out:        [_update]

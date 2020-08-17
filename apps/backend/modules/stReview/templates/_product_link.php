@@ -1,0 +1,1 @@
+<?php echo st_link_to($review->getProduct(),'stProduct/reviewEdit?product_id='.$review->getProduct()->getId().'&id='.$review->getId()); ?>

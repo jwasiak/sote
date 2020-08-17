@@ -1,0 +1,16 @@
+# default values
+all:        
+    sf_captchagd:
+        image_width:                172 # image width in pixels
+        image_height:               50 # image height in pixels
+        chars:                      "1234567890" # possible chars in captcha
+        length:                     4 # length of captcha
+        font_size:                  18 # font size
+
+        # possible chars colors
+        font_color:                 ["8b8787", "550707", "3526E6", "88531E"]
+
+        # chars fonts
+        fonts:                      ["molten/molten.ttf", "akbar/akbar.ttf"] 
+        background_color:           FFFFFF # image background color
+        border_color:               CCCCCC # image border color

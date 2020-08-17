@@ -1,0 +1,19 @@
+fields:
+  basic_price_unit_measure{unit_name}:
+    required:
+      msg:    Brak nazwy jednostki
+  basic_price_unit_measure{multiplier}:
+    required:
+      msg:    Brak mnożnika
+    sfNumberValidator:
+      min: 0.0001
+      min_error: Minimalna ilość musi być większa od 0
+      type: any
+      type_error: Podaj liczbę
+      nan_error: Podaj liczbę          
+  basic_price_unit_measure{unit_symbol}:
+    required:
+      msg:    Brak symbolu
+  basic_price_unit_measure{unit_group}:
+    required:
+      msg:    Brak grupy     

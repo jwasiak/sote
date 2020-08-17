@@ -1,0 +1,112 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:      Category
+        product_model_class:   Product
+        theme:            simple
+        custom_actions:
+            list:              [product]
+        head:
+            package:            stCategory
+        applications:           [stProduct]
+        edit:
+            menu:
+                display:        [product]
+                fields:
+                    product:    {name: Przypisz produkty, action: stCategory/productList?category_id=%%id%%}
+            title:              Edycja kategorii %%name%%
+            display:
+                "NONE":          [_is_active, is_hidden, _show_children_products, _main_page, name, _image, description]
+            fields:
+                is_active:                  {name: Aktywna, required: false}
+                is_hidden:                  {name: Ukryj w drzewie kategorii, required: false}
+                show_children_products:     {name: Pokaż produkty z podkategorii, required: false}
+                name:                       {name: Nazwa kategorii, params: disabled=false, required: true}
+                description:                {name: Opis, type: textarea_tag, params: size=90x20 rich=true tinymce_options='height:400,width:600' disabled=false}
+                image:                      {name: Załącz/Zmień zdjęcie}
+                main_page:                  {name: Pokaż na stronie głównej}
+            actions:
+                _list:                      {name: Menedżer kategorii, action: manager, i18n: stCategory}
+                _save:                      {name: Zapisz}
+
+        product_list:
+            use_stylesheet:                 [backend/stProductList.css]
+            use_helper:                     [stProduct/stProduct]
+            forward_parameters:             [category_id]
+            filters:
+                list_image:                 {partial: filter_list_image, module: stProduct}
+            fields:
+                code:                       {name: Kod, i18n: stProduct}
+                opt_name:                   {name: Nazwa, params: size=50, i18n: stProduct}
+                list_image:                 {name: Zdjęcie, width: 1%, callback: list_product_image, i18n: stProduct}
+                opt_price_brutto:           {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label, i18n: stProduct}
+                active:                     {name: Aktywny, width: 1%, align: center, i18n: stProduct}
+            build_options:       
+                related_id:                 forward_parameters.category_id               
+                through_class:              ProductHasCategory             
+            display:                        [list_image, opt_name, code, opt_price_brutto, active]
+            select_actions:
+                display:                    [product_add_group, product_remove_group]
+                actions:
+                    product_add_group:      {name: Dodaj do kategorii, action: productAddGroup}
+                    product_remove_group:   {name: Usuń z kategorii, action: productRemoveGroup}
+            menu:                           {use: edit.menu}
+            title:                          Przypisywanie produktów do kategorii
+            object_actions:                 []
+            actions:                        []
+        config:
+            old_config:
+                "Drzewo kategorii":         true
+                "Konfiguracja wyświetlania poziomych kategorii":    true
+            description:        Zarządzanie kategoriami w sklepie. 
+            title:              Konfiguracja
+            display:
+                "NONE":                             [show_children_products, hide_categories_without_products]
+                "Drzewo kategorii":                 [tree_type, hide_root, expand_root, expand_always, show_product_count]
+                "Podkategorie":                     [show_subcategories, cut_subcategories_name, cut_subcategories_name_num]
+                "Kategorie na stronie głównej":     [category_main_menu_all_depths, show_category_main_menu, subcategory_main_menu_num, cut_tree_cat_name, cut_tree_cat_name_num, cut_tree_subcat_name, cut_tree_subcat_name_num]
+                "Konfiguracja wyświetlania poziomych kategorii":    [menu_on, _cathor_tree, image_on, description_on]
+            fields:
+                hide_categories_without_products:   {name: Ukrywaj kategorie bez produktów, type: checkbox}
+                show_children_products:             {name: Pokaż produkty z podkategorii, type: checkbox}
+                show_subcategories:                 {name: Pokaż podkategorie po kliknięciu w kategorię, type: checkbox}
+                show_category_main_menu:            {name: Pokaż menu kategorii na stronie głównej, type: checkbox}
+                category_main_menu_all_depths:      {name: Zezwalaj na pokazywanie kategorii ze wszystkich poziomów, type: checkbox}
+                main_page:                          {name: Strona główna}
+                image:                              {name: Zdjęcie}
+                hide_root:                          {name: Ukryj nazwę drzew kategorii, type: checkbox}
+                show_product_count:                 {name: Pokaż ilość produktów w kategorii, type: checkbox}
+                expand_always:                      {name: Zawsze rozwinięte, type: checkbox, help: Niezależnie od wybranej kategorii drzewo zawsze jest rozwinięte do wybranego poziomu w "Prezentacja drzewa kategorii"}
+                tree_type:
+                  name:                             Rodzaj drzewa
+                  type:                             select
+                  display:                          [default, ajax]
+                  options:
+                    default:                        {name: Domyślne, value: default}
+                    ajax:                           {name: Dynamiczne (zalecane przy dużej liczbie kategorii), value: ajaxTree}
+                expand_root:                        
+                    name:                           Prezentacja drzewa kategorii
+                    type:                           select
+                    display:                        [never, level_1, level_2, level_3, level_4, level_5, always]
+                    options:
+                        never:                      {name: Zwinięte, value: -1}
+                        level_1:                    {name: Rozwinięte do 1 poziomu, value: 0}
+                        level_2:                    {name: Rozwinięte do 2 poziomu, value: 1}
+                        level_3:                    {name: Rozwinięte do 3 poziomu, value: 2}
+                        level_4:                    {name: Rozwinięte do 4 poziomu, value: 3}
+                        level_5:                    {name: Rozwinięte do 5 poziomu, value: 4}
+                        always:                     {name: Rozwinięte bez ograniczeń, value: 10000}
+                subcategory_main_menu_num:          {name: Ilość wyświetlanych podkategorii, params: size=2}
+                cut_subcategories_name:             {name: Skracaj nazwę podkategorii, type: checkbox, old_config: true}
+                cut_subcategories_name_num:         {name: Ile znaków skracać nazwę podkategorii, params: size=2, old_config: true}
+                cut_tree_cat_name:                  {name: Skracaj nazwę kategorii, type: checkbox}
+                cut_tree_cat_name_num:              {name: Ile znaków skracać nazwę kategorii, params: size=2}
+                cut_tree_subcat_name:               {name: Skracaj nazwę podkategorii, type: checkbox}
+                cut_tree_subcat_name_num:           {name: Ile znaków skracać nazwę podkategorii, params: size=2}
+                menu_on:                            {name: Włącz poziome kategorie, type: checkbox}
+                cathor_tree:                        {name: Drzewo kategorii, hide_label: true}
+                image_on:                           {name: Pokaż obrazek kategorii, type: checkbox}
+                description_on:                     {name: Pokaż opis kategorii, type: checkbox}
+            actions:
+                _list:          {name: Menedżer kategorii, action: manager, i18n: stCategory}
+                _save:          {name: Zapisz}

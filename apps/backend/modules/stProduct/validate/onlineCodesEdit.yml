@@ -1,0 +1,11 @@
+fillin:
+    enabled:      true
+
+fields:
+    online_codes{name}:
+        required:
+            msg:        Proszę podać nazwę
+     online_codes{code}:
+        required:
+            msg:        Proszę podać kod
+

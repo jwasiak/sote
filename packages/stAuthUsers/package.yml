@@ -1,0 +1,16 @@
+package:
+  name: stAuthUsers
+  stability: stable
+  version: 7.0.2.2
+  summary: Administratorzy
+  description: 'Zarzadzanie i konfiguracja kont uzytkownikow'
+  notes: |
+    - Poprawka dla dem
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stGuardPlugin: 1.0.0
+    stConfigurationPlugin: 1.0.1

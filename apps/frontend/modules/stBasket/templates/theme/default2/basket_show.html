@@ -1,0 +1,28 @@
+<div id="basket_icon" class="right">
+    {$basket_icon}
+</div>
+<div class="right">
+    {$amount_icon}
+    {if isset($basket_array)}
+    <div id="basket_tooltip" class="tooltip roundies">
+        <table style="border:none;">
+        {foreach from=$basket_array item=basket_item}
+            <tr>
+                <td style="border:none;">{$basket_item.image}</td>
+                <td style="border:none;">{$basket_item.name}</td>
+                {if $basket_item.product_for_points && $points_system_is_active}                
+                <td class="sum_right">{$basket_item.quantity} x {$basket_item.points_value}</td>
+                {else}
+                <td class="sum_right">{$basket_item.quantity} x {$basket_item.price}</td>
+                {/if}
+            </tr>
+        {/foreach}
+            <tr><td colspan="3" class="sum_right">{__ text="razem"}: <b>{$basket_amount}{if $basket_points_amount!=0 && $points_system_is_active} / {$basket_points_amount} {$points_shortcut}{/if}</b></td></tr>
+        </table>
+    </div>
+    {else}
+    <div id="basket_tooltip" class="tooltip roundies">
+        {__ text="Koszyk jest pusty"}
+    </div>
+    {/if}
+</div>

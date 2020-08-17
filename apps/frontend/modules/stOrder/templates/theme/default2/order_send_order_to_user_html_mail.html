@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+<head style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+
+<meta name="viewport" content="width=device-width" style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+<title style="margin: 0;padding: 0;font-family: Arial, sans-serif;">ZURBemails</title>
+
+<style style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+{literal}
+/* ------------------------------------- 
+        GLOBAL 
+------------------------------------- */
+* { 
+    margin:0;
+    padding:0;
+}
+* { font-family: Arial, sans-serif; }
+
+img { 
+    max-width: 100%; 
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased; 
+    -webkit-text-size-adjust:none; 
+    width: 100%!important; 
+    height: 100%;
+}
+
+
+/* ------------------------------------- 
+        ELEMENTS 
+------------------------------------- */
+a { color: #{/literal}{$link_color}{literal};}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+
+    background-color: #ebebeb;
+    
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn { 
+    display:block;
+    width:100%;
+}
+
+/* ------------------------------------- 
+        HEADER 
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* ------------------------------------- 
+        BODY 
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* ------------------------------------- 
+        FOOTER 
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+    
+}
+
+
+/* ------------------------------------- 
+        TYPOGRAPHY 
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: Arial, sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul { 
+    margin-bottom: 10px; 
+    font-weight: normal; 
+    font-size:12px; 
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+/* ------------------------------------- 
+        SIDEBAR 
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*  font-weight:bold; */
+    margin-right:10px;
+/*  text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* --------------------------------------------------- 
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:600px;
+    margin:0 auto;
+    display:block; 
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.social .column tr td { padding: 15px; }
+
+.user_data .column tr td { padding-bottom: 15px; }
+
+.column-wrap { 
+    padding:0!important; 
+    margin:0 auto; 
+    max-width:600px!important;
+}
+.column table { width:100%;}
+
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.user_data .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* ------------------------------------------- 
+        PHONE
+        For clients that support media queries.
+        Nothing fancy. 
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+    
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+}
+{/literal}
+</style>
+
+</head>
+ 
+<body bgcolor="#FFFFFF" style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: none;height: 100%;width: 100%!important;">
+
+<!-- HEADER -->
+<table class="head-wrap" bgcolor="#{$bg_header_color}" style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;width: 100%;">
+    <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;">
+        <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;"></td>
+        <td class="header container" style="margin: 0 auto!important;padding: 0;font-family: Arial, sans-serif;font-size: 12px;display: block!important;max-width: 600px!important;clear: both!important;">
+                
+                <div class="content" style="margin: 0 auto;padding: 15px;font-family: Arial, sans-serif;font-size: 12px;max-width: 600px;display: block;">
+                <table bgcolor="#{$bg_header_color}" style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;width: 100%;">
+                    <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;">
+                        <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;">{if $logo!=""}<img src="http://{$host}/uploads{$logo}?version=1" style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;max-width: 100%; max-height: 50px;">{/if}</td>
+                        <td align="right" style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><h6 class="collapse" style="margin: 0!important;padding: 0;font-family: &quot;helveticaneue-light&quot: ;, &quot: ;helvetica neue light&quot: ;helvetica neue&quot: ;, helvetica, arial, &quot: ;lucida grande&quot: ;, sans-serif: ;line-height: 1.1;margin-bottom: 15px;color: #444;font-weight: 900;font-size: 14px;text-transform: uppercase;">{$created_at}</h6></td>
+                    </tr>
+                </table>
+                </div>
+                
+        </td>
+        <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;"></td>
+    </tr>
+</table><!-- /HEADER -->
+
+
+<!-- BODY -->
+<table class="body-wrap" cellpadding="0" cellspacing="0" style="margin: 0;padding: 0;font-family: Arial, sans-serif;width: 100%;">
+    <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+        <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;"></td>
+        <td class="container" bgcolor="#FFFFFF" style="margin: 0 auto!important;padding: 0;font-family: Arial, sans-serif;display: block!important;max-width: 600px!important;clear: both!important;">
+
+            <div class="content" style="margin: 0 auto;padding: 15px;font-family: Arial, sans-serif;max-width: 600px;display: block;">
+            <table cellpadding="0" cellspacing="0" style="margin: 0;padding: 0;font-family: Arial, sans-serif;width: 100%;">
+                <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                    <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        <p style="font-size: 12px;margin: 0;padding: 0;font-family: Arial, sans-serif;margin-bottom: 10px;font-weight: normal;line-height: 1.6;">{$user_head}</p>
+                        
+                        <h4 style="margin: 0;padding: 0;font-family: &quot;helveticaneue-light&quot: ;, &quot: ;helvetica neue light&quot: ;helvetica neue&quot: ;, helvetica, arial, &quot: ;lucida grande&quot: ;, sans-serif: ;line-height: 1.1;margin-bottom: 15px;color: #000;font-weight: 500;font-size: 23px;"> {__ text="Zamówienie numer"}: {$number}</h4>
+                            
+                            <p style="font-size: 12px;margin: 0;padding: 0;font-family: Arial, sans-serif;margin-bottom: 10px;font-weight: normal;line-height: 1.6;">{$user_content_head}</p>
+                         
+                            {if $create_account == 1}
+                            <span style="font-size: 12px;color: #576278;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Dane dostępowe do konta"}:</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                            <span style="font-size: 12px;color: #576278;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Login"}:&nbsp;&nbsp;</span><span style="font-size: 12px;color: #404040;font-weight: bold;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$username}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                            {/if}
+            
+                            {if $create_account == 0}
+                            <span style="font-size: 12px;color: #576278;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Użytkownik"}: </span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                            <span style="font-size: 12px;color: #404040;font-weight: bold;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$username}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                            {/if}
+                            
+                           <table class="user_data" width="100%" cellpadding="0" cellspacing="0" style="margin: 0;padding: 0;font-family: Arial, sans-serif;width: 100%;">
+                            <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                    
+                                    <!-- column 1 -->
+                                    <table align="left" class="column" cellpadding="0" cellspacing="0" style="margin: 0;padding: 0;font-family: Arial, sans-serif;width: 280px;float: left;min-width: 279px;">
+                                        <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                            <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;padding-bottom: 15px;">                
+                                                <span style="font-size: 12px;color: #576278;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Dane bilingowe"}: </span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                
+                                                {if $billing_company != ""}
+                                                <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_company}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                {if $vat_nr != ""}
+                                                <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="NIP"}: {$vat_nr}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                <span style="font-size: 14px;color: #404040;font-weight: bold;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_full_name}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_address}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                
+                                                {if $billing_address_more != ""}
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_address_more}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                {if $billing_region != ""}
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_region}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                {if $billing_code_town != ""}
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_code_town}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                {if $billing_country != ""}
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_country}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                {if $billing_pesel != ""}
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="PESEL"}: {$billing_pesel}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                {/if}
+                                
+                                                <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$billing_full_phone}</span>
+                                                                        
+                                            </td>
+                                        </tr>
+                                    </table><!-- /column 1 -->  
+                                    
+                                    <!-- column 2 -->
+                                    <table align="left" class="column" cellpadding="0" cellspacing="0" style="margin: 0;padding: 0;font-family: Arial, sans-serif;width: 280px;float: left;min-width: 279px;">
+                                        <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                            <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;padding-bottom: 15px;">                
+                                                <span style="font-size: 12px;color: #576278;margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Dane dostawy"}: </span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">                                                                                                                                                                  
+                                                
+                                                   {if $delivery_company != ""}
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_company}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                    {/if}
+                                    
+                                                    <span style="font-size: 14px;color: #404040;font-weight: bold;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_full_name}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_address}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                    
+                                                    {if $delivery_address_more != ""}
+                                                        <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_address_more}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                    {/if}
+                                    
+                                                    {if $delivery_region != ""}
+                                                        <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_region}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                    {/if}
+                                    
+                                                    {if $delivery_code_town != ""}
+                                                        <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_code_town}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                    {/if}
+                                    
+                                                    {if $delivery_country != ""}
+                                                        <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_country}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                                    {/if}
+                                    
+                                                    <span style="font-size: 12px;color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_full_phone}</span>                                
+                
+                                            </td>
+                                        </tr>
+                                    </table><!-- /column 2 -->
+
+                                </td>
+                            </tr>
+                        </table><!-- /social & contact -->                            
+                        
+                        <div style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                            <table cellpadding="0" cellspacing="0" border="0" width="600" style="margin: 0;padding: 0;font-family: Arial, sans-serif;width: 100%;">
+                                
+                                <tbody style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                    {foreach key=row item=product from=$results}
+                                    <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                        <td style="font-size: 12px;color: #404040;border-bottom: 1px solid #cccccc;margin: 0;padding: 0;font-family: Arial, sans-serif;" align="left" valign="bottom">
+                                            <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                            {$product.code} <strong style="margin: 0;padding: 0;font-family: Arial, sans-serif;">{$product.name}</strong>
+                                            {$product.quantity} {$product.uom} x {if $product.is_item_by_points} {$product.points_value} {else} {$product.netto} x {$product.vat} % {/if}
+                                        </td>
+                                        <td width="30%" style="font-size: 12px;color: #404040;border-bottom: 1px solid #cccccc;margin: 0;padding: 0;font-family: Arial, sans-serif;" align="right" valign="bottom">
+                                            <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                            {if $product.is_item_by_points} {$product.points_value} {else} {$product.total_amount} {/if}
+                                        </td>                                           
+                                    </tr>
+                                                                                                    
+                                    {/foreach}
+                                    
+                                    <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                        <td style="font-size: 12px;color: #404040;border-bottom: 1px solid #cccccc;margin: 0;padding: 0;font-family: Arial, sans-serif;" align="left" valign="bottom">
+                                            <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">                                             
+                                            {__ text="Płatność"}: <span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$payment_name}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">                                            
+                                            {if $delivery_date != ""}                                                
+                                                {__ text="Termin dostawy"}:  <span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_date}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                            {/if}                                            
+                                            {__ text="Dostawy"}:  <span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$delivery_name}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                            
+                                            
+                                        </td>
+                                        <td width="30%" style="font-size: 12px;color: #404040;border-bottom: 1px solid #cccccc;margin: 0;padding: 0;font-family: Arial, sans-serif;" align="right" valign="bottom">                                            
+                                            {$delivery_cost}
+                                        </td>                                           
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div style="float: right;font-size: 12px;color: #576278;text-align: right;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        {if $paid || $discount}
+                            {__ text="Razem"}<br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$total_amount}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        {/if}            
+                        {if $discount}
+                            {__ text="Rabat"}<br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">-{$discount}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        {/if}
+                        {if $paid}
+                            {__ text="Zapłacono"}<br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$paid}</span><br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        {/if}          
+                            {__ text="Łączna kwota do zapłaty"}<br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><span style="color: #000;font-size: 14px;margin: 0;padding: 0;font-family: Arial, sans-serif;"><b style="margin: 0;padding: 0;font-family: Arial, sans-serif;">{$final_total_amount}</b></span>
+                            {if $total_points_value != 0}
+                            <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;"><span style="color: #000;font-size: 14px;margin: 0;padding: 0;font-family: Arial, sans-serif;"><b style="margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Koszt"} {$points_shortcut}: {$total_points_value}</b></span>
+                            {/if}
+                        </div>                                               
+                        <br style="clear: both;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        
+                        {if $order_total_points_earn != 0}
+                            <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">{__ text="Za zamówienie otrzymasz"}: <span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$order_total_points_earn} {$points_shortcut}</span>
+                        {/if}
+        
+                        {if $comment != ""}
+                            <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                            <div style="font-size: 12px;color: #576278;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                {__ text="Uwagi do zamówienia"}:<br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                <span style="color: #404040;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$comment}</span>
+                            </div>                                            
+                            <br style="clear: both;margin: 0;padding: 0;font-family: Arial, sans-serif;">    
+                        {/if}
+                                                 
+                        <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        <!-- Callout Panel -->
+                        {if $order_submit !=""}
+                        <p class="callout" style="text-align: center;margin: 0;padding: 15px;font-family: Arial, sans-serif;font-size: 12px;margin-bottom: 15px;font-weight: normal;line-height: 1.6;background-color: #{$bg_action_color};">                                                       
+                            {$order_submit}                                                       
+                            <span style="color: red;margin: 0;padding: 0;font-family: Arial, sans-serif;">{$order_submit_text}</span>
+                        </p><!-- /Callout Panel -->
+                        {/if}                 
+                        
+                        <p style="font-size: 12px;margin: 0;padding: 0;font-family: Arial, sans-serif;margin-bottom: 10px;font-weight: normal;line-height: 1.6;">{$user_content_foot}</p>
+                        
+                        <br style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                        
+                        <div style="font-size: 14px;color: #404040;font-weight: bold margin-top: 10px;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                           <b style="margin: 0;padding: 0;font-family: Arial, sans-serif;">{$webpage_terms_name}</b>
+                        </div>
+                        <div style="line-height: 18px;font-size: 10px;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                           {$webpage_terms_content}
+                        </div>
+                        
+                        <div style="font-size: 14px;color: #404040;font-weight: bold margin-top: 10px;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                           <b style="margin: 0;padding: 0;font-family: Arial, sans-serif;">{$webpage_right_2_cancel_name}</b>
+                        </div>
+                        <div style="line-height: 18px;font-size: 10px;margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                           {$webpage_right_2_cancel_content}
+                        </div>
+                                                
+                        <!-- social & contact -->
+                        <table class="social" width="100%" style="margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 12px;background-color: #{$bg_footer_color};width: 100%;">
+                            <tr style="margin: 0;padding: 0;font-family: Arial, sans-serif;">
+                                <td style="font-size: 12px;margin: 0;padding: 0;font-family: Arial, sans-serif;">                                                                                                    
+                                    {$user_foot}                                                                                                                                                                                                                           
+                                </td>
+                            </tr>
+                        </table><!-- /social & contact -->
+                        
+                    </td>
+                </tr>
+            </table>
+            </div><!-- /content -->
+                                    
+        </td>
+        <td style="margin: 0;padding: 0;font-family: Arial, sans-serif;"></td>
+    </tr>
+</table><!-- /BODY -->
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+---
+package: 
+  name: stWebBrowserPlugin
+  stability: stable
+  version: 7.4.0.0
+  summary: Web Browser
+  description: Web Browser
+  notes: |
+     - Aktualizacja dla PHP 7.0.x oraz 7.1.x
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

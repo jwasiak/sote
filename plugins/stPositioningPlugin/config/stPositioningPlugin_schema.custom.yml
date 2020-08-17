@@ -1,0 +1,263 @@
+propel:
+    st_positioning: 
+        _attributes: 
+            phpName: Positioning
+            isI18n: true
+            i18nTable: st_positioning_i18n
+
+    st_positioning_i18n:
+        _attributes:
+            phpName: PositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        title_product:
+            type: VARCHAR
+            size: 255
+        title_category:
+            type: VARCHAR
+            size: 255
+        title_manufacteur:
+            type: VARCHAR
+            size: 255
+        title_blog:
+            type: VARCHAR
+            size: 255
+        title_product_group:
+            type: VARCHAR
+            size: 255
+        title_webpage:
+            type: VARCHAR
+            size: 255
+        type:
+            type: integer
+        default_title:
+            type: VARCHAR
+            size: 255
+
+    st_product_has_positioning:
+        _attributes:
+            phpName: ProductHasPositioning
+            isI18n: true
+            i18nTable: st_product_has_positioning_i18n
+        opt_title: {change_column: title}
+        opt_keywords: {change_column: keywords}
+        opt_description: {change_column: description}
+
+    st_product_has_positioning_i18n:
+        _attributes:
+            phpName: ProductHasPositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_product_has_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        type:
+            type: integer
+            
+    st_product_group_has_positioning: 
+        _attributes:
+            phpName: ProductGroupHasPositioning
+            isI18n: true
+            i18nTable: st_product_group_has_positioning_i18n
+        opt_title: {change_column: title}
+        opt_keywords: {change_column: keywords}
+        opt_description: {change_column: description}
+
+    st_product_group_has_positioning_i18n:
+        _attributes:
+            phpName: ProductGroupHasPositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_product_group_has_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        type:
+            type: integer
+            
+    st_category_has_positioning:
+        _attributes:
+            phpName: CategoryHasPositioning
+            isI18n: true
+            i18nTable: st_category_has_positioning_i18n
+        opt_title: {change_column: title}
+        opt_keywords: {change_column: keywords}
+        opt_description: {change_column: description}
+
+    st_category_has_positioning_i18n:
+        _attributes:
+            phpName: CategoryHasPositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_category_has_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        type:
+            type: integer
+
+    st_webpage_has_positioning:
+        _attributes:
+            phpName: WebpageHasPositioning
+            isI18n: true
+            i18nTable: st_webpage_has_positioning_i18n
+        opt_title: {change_column: title}
+        opt_keywords: {change_column: keywords}
+        opt_description: {change_column: description}
+
+    st_webpage_has_positioning_i18n:
+        _attributes:
+            phpName: WebpageHasPositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_webpage_has_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        type:
+            type: integer
+
+    st_producer_has_positioning:
+        _attributes:
+            phpName: ProducerHasPositioning
+            isI18n: true
+            i18nTable: st_producer_has_positioning_i18n
+        opt_title: {change_column: title}
+        opt_keywords: {change_column: keywords}
+        opt_description: {change_column: description}
+
+    st_producer_has_positioning_i18n:
+        _attributes:
+            phpName: ProducerHasPositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_producer_has_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        type:
+            type: integer   
+
+    st_blog_has_positioning:
+        _attributes:
+            phpName: BlogHasPositioning
+            isI18n: true
+            i18nTable: st_blog_has_positioning_i18n
+        opt_title: {change_column: title}
+        opt_keywords: {change_column: keywords}
+        opt_description: {change_column: description}
+
+    st_blog_has_positioning_i18n:
+        _attributes:
+            phpName: BlogHasPositioningI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_blog_has_positioning
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        title:
+            type: VARCHAR
+            size: 255
+        keywords:
+            type: VARCHAR
+            size: 255
+        description:
+            type: LONGVARCHAR
+        type:
+            type: integer   

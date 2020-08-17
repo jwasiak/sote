@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Domyślnie</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Obsluga poczty</source>
+                <target>Mail</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Kliknij</source>
+                <target>Click</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>aby zdefiniować główne konto sklepu.</source>
+                <target>to define main email account.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Sklep internetowy.</source>
+                <target>Internet shop.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Główne konto sklepu zostało poprawnie skonfigurowane.</source>
+                <target>Main email account has been properly configured.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Informacje o zamówieniach oraz pytania do zamówień będą przychodziły na adres:</source>
+                <target>Information about orders and questions to orders will be sent to the following address:</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Nie odpowiadaj na tą wiadomość, została ona wygenerowany automatycznie przez system.</source>
+                <target>Don't reply to this message, it has been generated automatically by the system.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Konta pocztowe</source>
+                <target>Email accounts</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Serwery pocztowe</source>
+                <target>Mail servers</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Teksty w mailach</source>
+                <target>Texts in the emails</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Dodaj konto pocztowe</source>
+                <target>Add an email account</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Adres serwera</source>
+                <target>Server address</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dodaj serwer pocztowy</source>
+                <target>Add a mail server</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Używaj połączenie szyfrowane</source>
+                <target>Use a secure connection</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Bez szyfrowania</source>
+                <target>Never</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Port</source>
+                <target>Port</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Przekroczono dozwoloną liczbę znaków.</source>
+                <target>Maximum number of characters was exceeded.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Brak adresu serwera.</source>
+                <target>Enter a server address</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Brak nazwy profilu</source>
+                <target>Enter a server name</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Konto o podanym adresie e-mail już istnieje</source>
+                <target>Account with the given e-mail already exists</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Edycja danych konta pocztowego %%email%%</source>
+                <target>Edit the email account %%email%%</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Konfiguracja kont pocztowych, ustawienia głównego konta sklepu.</source>
+                <target>Configure the email accounts</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Edycja danych serwera pocztowego (smtp) %%name%%</source>
+                <target>Edit the mail server (SMTP) %%name%%</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Edycja tekstu maila</source>
+                <target>Edit a mail text</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Edycja maila</source>
+                <target>Edit an email</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Adres konta</source>
+                <target>Email address</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Nazwa użytkownika</source>
+                <target>Username</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Serwer pocztowy</source>
+                <target>Mail server</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Wystąpił błąd podczas wysyłania wiadomości weryfikującej konto e-mail, sprawdź czy poniższe dane są prawidłowe...</source>
+                <target>Error occurred while sending an e-mail with the account verification, make sure the given data is correct</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Twoje zmiany zostały zapisane - odbierz e-mail weryfikacyjny wysłany na adres</source>
+                <target>Your changes were saved - receive a verification email sent to the address</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Podany adres e-mail posiada nieprawidłowy format lub nie istnieje...</source>
+                <target>Email address has invalid format or doesn't exist...</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Brak użytkownika...</source>
+                <target>Enter the username...</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Brak hasła...</source>
+                <target>Enter the password...</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>tutaj</source>
+                <target>here</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>TLS</source>
+                <target>TLS</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>SSL</source>
+                <target>SSL</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Treść</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Konfiguracja e-mail - sklep</source>
+                <target>Email configuration - shop</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Główne konto pocztowe sklepu nie zostało zdefiniowane. Kliknij</source>
+                <target>The main e-mail account has not been defined yet. Click</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>aby je zdefiniować</source>
+                <target>to define it.</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Jeżeli podana jest wyświetlana jako nadawca zamiast adresu e-mail</source>
+                <target>If given is displayed as the sender instead of an e-mail address</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Podaj nazwę profilu</source>
+                <target>Enter the profile's name</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Podaj adres serwera.</source>
+                <target>Enter the server's address.</target>
+            </trans-unit>
+             <trans-unit id="49">
+                <source>Szablon</source>
+                <target>Layout</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Kolor nagłówka:</source>
+                <target>Header color</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Kolor stopki:</source>
+                <target>Footer color</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Ważny kolor:</source>
+                <target>Important color</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Ważny link:</source>
+                <target>Important link</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Kolor linków:</source>
+                <target>Link color</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Konfiguracja szablonu</source>
+                <target>Layout config</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

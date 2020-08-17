@@ -1,0 +1,15 @@
+<div id="trusted_shops_sealbox">
+    <div class="trusted_shops_sealbox_top_small"></div>
+    <div class="trusted_shops_sealbox_middle">
+        {$form}
+            {$shopId}
+            <img src="/images/frontend/theme/default/stTrustedShopsPlugin/logo.png" alt="" title="{__ text="Znak Jakości Trusted Shops – tu możesz sprawdzić ważność!"}" onClick="document.getElementById('trustedShopsSealboxForm').submit();"/>
+        </form>
+        <div class="trusted_shops_sealbox_txt">
+            <a href="http://www.trustedshops.com/profile/{$urlShopName}_{$certificate}.html" title="{__ text="Więcej informacji o"} {$shopName}" target="_blank">
+                {$shopName} {__ text="to sklep internetowy z Certyfikatem i Ochroną Kupującego, certyfikowany przez Trusted Shops. Zobacz więcej..."}
+            </a>
+        </div>
+    </div>
+    <div class="trusted_shops_sealbox_bottom"></div>
+</div>

@@ -1,0 +1,469 @@
+sfAsset:
+  sfAsset_11:
+    folder_id: sfAssetFolder_58
+    filename: tools.png
+    type: image
+  sfAsset_12:
+    folder_id: sfAssetFolder_58
+    filename: accessories.png
+    type: image
+  sfAsset_13:
+    folder_id: sfAssetFolder_58
+    filename: bikes.png
+    type: image
+  sfAsset_14:
+    folder_id: sfAssetFolder_58
+    filename: helmet.png
+    type: image
+  sfAsset_15:
+    folder_id: sfAssetFolder_58
+    filename: security.png
+    type: image
+  sfAsset_16:
+    folder_id: sfAssetFolder_58
+    filename: mountain.png
+    type: image
+  sfAsset_17:
+    folder_id: sfAssetFolder_58
+    filename: cyclocross.png
+    type: image
+Category: 
+  Category_1: 
+    lft: 1
+    rgt: 24
+    depth: 0
+    scope: 1
+    culture: pl_PL
+    name: Kategorie
+    root_position: 1
+  Category_13: 
+    lft: 1
+    rgt: 40
+    depth: 0
+    scope: 13
+    culture: pl_PL
+    name: Menu
+    is_hidden: 1
+    root_position: 2
+  Category_2: 
+    lft: 16
+    rgt: 17
+    scope: 1
+    main_page: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Części
+    depth: 1
+    sf_asset_id: sfAsset_11
+  Category_5: 
+    lft: 12
+    rgt: 13
+    scope: 1
+    main_page: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Akcesoria
+    depth: 1
+    sf_asset_id: sfAsset_12
+  Category_6: 
+    lft: 2
+    rgt: 11
+    scope: 1
+    main_page: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Rowery
+    depth: 1
+    sf_asset_id: sfAsset_13
+  Category_7: 
+    lft: 14
+    rgt: 15
+    scope: 1
+    main_page: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Kaski 
+    depth: 1
+    sf_asset_id: sfAsset_14
+  Category_8: 
+    lft: 22
+    rgt: 23
+    scope: 1
+    main_page: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Zabezpieczenia
+    depth: 1
+    sf_asset_id: sfAsset_15
+  Category_14: 
+    lft: 2
+    rgt: 13
+    scope: 13
+    parent_id: Category_13
+    culture: pl_PL
+    name: górskie
+    depth: 1
+    is_hidden: 1
+  Category_15: 
+    lft: 14
+    rgt: 21
+    scope: 13
+    parent_id: Category_13
+    culture: pl_PL
+    name: kolarki
+    depth: 1
+    is_hidden: 1
+  Category_16: 
+    lft: 22
+    rgt: 31
+    scope: 13
+    parent_id: Category_13
+    culture: pl_PL
+    name: miejskie
+    depth: 1
+    is_hidden: 1
+  Category_17: 
+    lft: 32
+    rgt: 39
+    scope: 13
+    parent_id: Category_13
+    culture: pl_PL
+    name: turystyczne
+    depth: 1
+    is_hidden: 1
+  Category_33: 
+    lft: 20
+    rgt: 21
+    scope: 1
+    main_page: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Pedały
+    depth: 1
+  Category_10: 
+    lft: 5
+    rgt: 6
+    scope: 1
+    parent_id: Category_6
+    culture: pl_PL
+    name: Kolarki
+    depth: 2
+    sf_asset_id: sfAsset_17
+  Category_9: 
+    lft: 3
+    rgt: 4
+    scope: 1
+    parent_id: Category_6
+    culture: pl_PL
+    name: Górskie
+    depth: 2
+    sf_asset_id: sfAsset_16
+  Category_11: 
+    lft: 7
+    rgt: 8
+    scope: 1
+    parent_id: Category_6
+    culture: pl_PL
+    name: Miejskie
+    depth: 2
+  Category_12: 
+    lft: 9
+    rgt: 10
+    scope: 1
+    parent_id: Category_6
+    culture: pl_PL
+    name: Turystyczne
+    depth: 2
+  Category_18: 
+    lft: 3
+    rgt: 4
+    scope: 13
+    parent_id: Category_14
+    culture: pl_PL
+    name: akcesoria
+    depth: 2
+    is_hidden: 1
+  Category_19: 
+    lft: 5
+    rgt: 6
+    scope: 13
+    parent_id: Category_14
+    culture: pl_PL
+    name: hamulce
+    depth: 2
+    is_hidden: 1
+  Category_20: 
+    lft: 9
+    rgt: 10
+    scope: 13
+    parent_id: Category_14
+    culture: pl_PL
+    name: kaski
+    depth: 2
+    is_hidden: 1
+  Category_22: 
+    lft: 7
+    rgt: 8
+    scope: 13
+    parent_id: Category_14
+    culture: pl_PL
+    name: pedały
+    depth: 2
+    is_hidden: 1
+  Category_23: 
+    lft: 15
+    rgt: 16
+    scope: 13
+    parent_id: Category_15
+    culture: pl_PL
+    name: akcesoria
+    depth: 2
+    is_hidden: 1
+  Category_24: 
+    lft: 19
+    rgt: 20
+    scope: 13
+    parent_id: Category_15
+    culture: pl_PL
+    name: kaski
+    depth: 2
+    is_hidden: 1
+  Category_25: 
+    lft: 17
+    rgt: 18
+    scope: 13
+    parent_id: Category_15
+    culture: pl_PL
+    name: części
+    depth: 2
+    is_hidden: 1
+  Category_26: 
+    lft: 23
+    rgt: 24
+    scope: 13
+    parent_id: Category_16
+    culture: pl_PL
+    name: akcesoria
+    depth: 2
+    is_hidden: 1
+  Category_27: 
+    lft: 25
+    rgt: 26
+    scope: 13
+    parent_id: Category_16
+    culture: pl_PL
+    name: części
+    depth: 2
+    is_hidden: 1
+  Category_28: 
+    lft: 27
+    rgt: 28
+    scope: 13
+    parent_id: Category_16
+    culture: pl_PL
+    name: kaski
+    depth: 2
+    is_hidden: 1
+  Category_29: 
+    lft: 29
+    rgt: 30
+    scope: 13
+    parent_id: Category_16
+    culture: pl_PL
+    name: zabezpieczenia
+    depth: 2
+    is_hidden: 1
+  Category_30: 
+    lft: 33
+    rgt: 34
+    scope: 13
+    parent_id: Category_17
+    culture: pl_PL
+    name: akcesoria
+    depth: 2
+    is_hidden: 1
+  Category_31: 
+    lft: 35
+    rgt: 36
+    scope: 13
+    parent_id: Category_17
+    culture: pl_PL
+    name: części
+    depth: 2
+    is_hidden: 1
+  Category_32: 
+    lft: 37
+    rgt: 38
+    scope: 13
+    parent_id: Category_17
+    culture: pl_PL
+    name: kaski
+    depth: 2
+    is_hidden: 1
+  Category_34: 
+    lft: 11
+    rgt: 12
+    scope: 13
+    parent_id: Category_14
+    culture: pl_PL
+    name: zabezpieczenia
+    depth: 2
+    is_hidden: 1
+
+CategoryI18n:
+  CategoryI18n_2:
+    id: Category_1
+    culture: en_US
+    name: Categories
+    url: categories
+  CategoryI18n_3:
+    id: Category_13
+    culture: en_US
+    name: Menu
+    url: menu
+  CategoryI18n_4:
+    id: Category_2
+    culture: en_US
+    name: Parts
+    url: parts
+  CategoryI18n_5:
+    id: Category_5
+    culture: en_US
+    name: Accessories
+    url: accessories
+  CategoryI18n_6:
+    id: Category_6
+    culture: en_US
+    name: Bikes
+    url: bikes
+  CategoryI18n_7:
+    id: Category_7
+    culture: en_US
+    name: Helmets
+    url: helmets
+  CategoryI18n_8:
+    id: Category_8
+    culture: en_US
+    name: Security
+    url: security
+  CategoryI18n_9:
+    id: Category_14
+    culture: en_US
+    name: Mountain
+    url: mountain
+  CategoryI18n_10:
+    id: Category_15
+    culture: en_US
+    name: Cyclocross
+    url: cyclocross
+  CategoryI18n_11:
+    id: Category_16
+    culture: en_US
+    name: City
+    url: city
+  CategoryI18n_12:
+    id: Category_17
+    culture: en_US
+    name: Tourist
+    url: tourist
+  CategoryI18n_13:
+    id: Category_33
+    culture: en_US
+    name: Pedals
+    url: pedals
+  CategoryI18n_14:
+    id: Category_10
+    culture: en_US
+    name: Cyclocross
+    url: bikes-cyclocross
+  CategoryI18n_15:
+    id: Category_9
+    culture: en_US
+    name: Mountain
+    url: bikes-mountain
+  CategoryI18n_16:
+    id: Category_11
+    culture: en_US
+    name: City
+    url: bikes-city
+  CategoryI18n_17:
+    id: Category_12
+    culture: en_US
+    name: Tourist
+    url: bikes-tourist
+  CategoryI18n_18:
+    id: Category_18
+    culture: en_US
+    name: Accessories
+    url: mountain-accessories
+  CategoryI18n_19:
+    id: Category_19
+    culture: en_US
+    name: Brakes
+    url: mountain-brakes
+  CategoryI18n_20:
+    id: Category_20
+    culture: en_US
+    name: Helmets
+    url: mountain-helmets
+  CategoryI18n_21:
+    id: Category_22
+    culture: en_US
+    name: Pedals
+    url: mountain-pedals
+  CategoryI18n_22:
+    id: Category_23
+    culture: en_US
+    name: Accessories
+    url: cyclocross-accessories
+  CategoryI18n_24:
+    id: Category_24
+    culture: en_US
+    name: Helmets
+    url: cyclocross-helmets
+  CategoryI18n_25:
+    id: Category_25
+    culture: en_US
+    name: Parts
+    url: cyclocross-parts
+  CategoryI18n_26:
+    id: Category_26
+    culture: en_US
+    name: Accessories
+    url: city-accessories
+  CategoryI18n_27:
+    id: Category_27
+    culture: en_US
+    name: Parts
+    url: city-parts
+  CategoryI18n_28:
+    id: Category_28
+    culture: en_US
+    name: Helmets
+    url: city-helmets
+  CategoryI18n_29:
+    id: Category_29
+    culture: en_US
+    name: Security
+    url: city-security
+  CategoryI18n_30:
+    id: Category_30
+    culture: en_US
+    name: Accessories
+    url: tourist-accessories
+  CategoryI18n_31:
+    id: Category_31
+    culture: en_US
+    name: Parts
+    url: tourist-parts
+  CategoryI18n_32:
+    id: Category_32
+    culture: en_US
+    name: Helmets
+    url: tourist-helmets
+  CategoryI18n_34:
+    id: Category_34
+    culture: en_US
+    name: Security
+    url: mountain-security
+

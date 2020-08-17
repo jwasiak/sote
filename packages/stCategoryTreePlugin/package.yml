@@ -1,0 +1,17 @@
+package:
+  name: stCategoryTreePlugin
+  stability: stable
+  version: 7.2.0.24
+  summary: 'Drzewo kategorii'
+  description: 'Zarzadzanie drzewem kategorii produktow'
+  notes: |
+    - Dodanie mozliwosci wylaczenia opcji "Ukrywaj kategorie bez produktow"
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.8.12
+    stBackend: 1.0.4
+    stExtjs2Plugin: 1.0.0

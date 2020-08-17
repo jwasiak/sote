@@ -1,0 +1,8 @@
+export:
+    fields:
+        product_categories:   {name: Kategorie, class: CategoryPeer, md5hash: true }
+
+import:
+    fields:
+        product_categories:   {class: CategoryPeer, md5hash: true }
+             

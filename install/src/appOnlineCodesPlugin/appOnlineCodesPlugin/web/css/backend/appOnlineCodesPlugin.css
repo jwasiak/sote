@@ -1,0 +1,56 @@
+#app_online_codes-autocomplete-template {
+    display: none;
+}
+
+
+#app_online_codes-autocomplete-template
+{
+   display: none;
+}
+
+.app_online_codes-autocomplete-item
+{
+   padding: 5px 10px;
+
+   height: 42px;
+}
+
+.app_online_codes-autocomplete-item .image
+{
+    float: left;
+
+    width: 42px;
+
+    text-align: center;
+}
+
+.app_online_codes-autocomplete-item img
+{
+   max-width: 42px;
+
+   max-height: 42px;
+}
+
+.app_online_codes-autocomplete-item .content
+{
+   margin-left: 52px;
+}
+
+.app_online_codes-autocomplete-item h2
+{
+   font-size: 8pt;
+
+   margin: 0px;
+}
+
+.app_online_codes-autocomplete-item li
+{
+   font-size: 8pt;
+
+   display: inline;
+}
+
+.app_online_codes-autocomplete-item
+{
+   clear: left;
+}

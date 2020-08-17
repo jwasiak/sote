@@ -1,0 +1,51 @@
+Positioning:
+  Positioning_1:
+    culture: pl_PL
+    name: Wartości domyślne
+    system_name: DEFAULT_VALUE
+    title: Sklep internetowy
+    keywords: " "
+    description: " "
+    title_product: "{NAME}"
+    title_category: "{NAME}"
+    title_manufacteur: "{NAME}"
+    title_blog: "{NAME}"
+    title_product_group: "{NAME}"
+    title_webpage: "{NAME}" 
+  Positioning_2:
+    culture: pl_PL
+    name: Strona główna
+    system_name: HOMEPAGE
+    title:
+    keywords:
+    description:
+    type: 0
+  Positioning_3:
+    culture: pl_PL
+    name: Mapa serwisu
+    system_name: SITEMAP
+    title:
+    keywords:
+    description:
+    type: 0
+    
+PositioningI18n:
+  PositioningI18n_1:
+    id: Positioning_1
+    culture: en_US
+    title: Internet shop
+    title_product: "{NAME}"
+    title_category: "{NAME}"
+    title_manufacteur: "{NAME}"
+    title_blog: "{NAME}"
+    title_product_group: "{NAME}"
+    title_webpage: "{NAME}" 
+    type: 0
+  PositioningI18n_2:
+    id: Positioning_2
+    culture: en_US
+    type: 0
+  PositioningI18n_3:
+    id: Positioning_3
+    culture: en_US
+    type: 0

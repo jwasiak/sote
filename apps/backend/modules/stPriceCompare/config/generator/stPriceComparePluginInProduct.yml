@@ -1,0 +1,13 @@
+price_compare_model_class:  Product
+
+custom_actions:
+    custom:                 [price_compare]
+    
+    
+price_compare_custom:
+    forward_parameters:     [product_id]
+    build_options:
+        related_id:         forward_parameters.product_id
+    menu:                   {use: edit.menu}
+    description:            Zarządzanie produktami w sklepie.
+    title:                  Dodaj produkt do porównywarek cen.

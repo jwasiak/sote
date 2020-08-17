@@ -1,0 +1,35 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stTrustPlugin.lib.model
+  st_trust: 
+    _attributes: 
+      phpName: Trust
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id:
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    field_on:
+      type: BOOLEAN
+      default: 0    
+    field_f_on:
+      type: BOOLEAN
+      default: 0             
+    field_s_on:
+      type: BOOLEAN
+      default: 0     
+    field_t_on:
+      type: BOOLEAN
+      default: 0

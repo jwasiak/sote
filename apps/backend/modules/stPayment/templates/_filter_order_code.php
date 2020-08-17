@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[order_code]', isset($filters['order_code']) ? $filters['order_code'] : '') ?>

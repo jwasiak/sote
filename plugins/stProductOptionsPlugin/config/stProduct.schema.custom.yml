@@ -1,0 +1,8 @@
+propel:
+    st_product:
+        _attributes:    {phpName: Product}
+        opt_has_options: 
+          type: INTEGER
+        options_color:
+          type: LONGVARCHAR
+          phpType: array

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2012-07-02T03:01:15Z">
+		<body>
+			<trans-unit id="1">
+				<source>Faktury</source>
+				<target>Facturas</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Nabywca</source>
+				<target>Comprador</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>oryginał</source>
+				<target>Original</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>kopia</source>
+				<target>Cópia</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Słownie</source>
+				<target>Por extenso</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wystawił(a)</source>
+				<target>Emitiu</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Sprzedawca</source>
+				<target>Vendedor</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>według stawki VAT</source>
+				<target>Taxa IVA</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>wartość netto</source>
+				<target>Valor líquido</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>kwota VAT</source>
+				<target>Valor IVA</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>wartość brutto</source>
+				<target>Valor bruto</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Podstawowy podatek VAT</source>
+				<target>Taxa basica do IVA</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Podatek VAT</source>
+				<target>Imposto IVA</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Razem</source>
+				<target>Total</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Zapłacono</source>
+				<target>Pago</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Do zapłaty</source>
+				<target>Por pagar</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Razem do zapłaty</source>
+				<target>Total para pagar</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Faktura Proforma</source>
+				<target>Factura proforma</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Faktura VAT</source>
+				<target>Factura IVA</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Lp</source>
+				<target>No.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwa</source>
+				<target>Nome</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>PKWiU</source>
+				<target>Classificação Polaca dos Produtos e Serviços</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Ilość</source>
+				<target>Quantidade</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>j.m.</source>
+				<target>Unidade de medida</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Rabat</source>
+				<target>Desconto</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena jed.</source>
+				<target>Preço unitário</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>netto</source>
+				<target>Líquido</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>brutto</source>
+				<target>Bruto</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>VAT</source>
+				<target>IVA</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Wartość netto</source>
+				<target>Valor liquido</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Wartość brutto</source>
+				<target>Valor bruto</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Pobierz fakturę proforma</source>
+				<target>Guardar a factura proforma</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Miejsce wystawienia</source>
+				<target>Factura emitida em</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Data sprzedaży</source>
+				<target>Data da venda</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Data wystawienia</source>
+				<target>Data da emissão</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Odebrał(a)</source>
+				<target>Factura recebida por</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Dostawa</source>
+				<target>Entrega</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>tysiące</source>
+				<target>Mil</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>tysięcy</source>
+				<target>Mil</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>tysiąc</source>
+				<target>Mil</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>jeden</source>
+				<target>Um</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>dwa</source>
+				<target>Dois</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>trzy</source>
+				<target>Três</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>cztery</source>
+				<target>Quatro</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>pięć</source>
+				<target>Cinco</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>sześć</source>
+				<target>Seis</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>siedem</source>
+				<target>Sete</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>osiem</source>
+				<target>Oito</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>dziewięć</source>
+				<target>Nove</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>dziesięć</source>
+				<target>Dez</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>dwadzieścia</source>
+				<target>Vinte</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>trzydzieści</source>
+				<target>Trinta</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>czterdzieści</source>
+				<target>Quarenta</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>pięćdziesiąt</source>
+				<target>Cinquenta</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>sześćdziesiąt</source>
+				<target>Sessenta</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>siedemdziesiąt</source>
+				<target>Setenta</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>osiemdziesiąt</source>
+				<target>Oitenta</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>dziewięćdziesiąt</source>
+				<target>Noventa</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>sto</source>
+				<target>Cem</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>dwieście</source>
+				<target>Duzentos</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>trzysta</source>
+				<target>Trezentos</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>czterysta</source>
+				<target>Quatrocentos</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>pięćset</source>
+				<target>Quinhentos</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>sześćset</source>
+				<target>Seiscentos</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>siedemset</source>
+				<target>Setecentos</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>osiemset</source>
+				<target>Oitocentos</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>dziewięćset</source>
+				<target>Novecentos</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>jedenaście</source>
+				<target>Onze</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>dwanaście</source>
+				<target>Doze</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>trzynaście</source>
+				<target>Treze</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>czternaście</source>
+				<target>Catorze</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>piętnaście</source>
+				<target>Quinze</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>szesnaście</source>
+				<target>Dezasseis</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>siedemnaście</source>
+				<target>Dezassete</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>osiemnaście</source>
+				<target>Dezoito</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>dziewiętnaście</source>
+				<target>Dezanove</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>szt.</source>
+				<target>Peças</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>NIP</source>
+				<target>Nif</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Pozostało do zapłaty</source>
+				<target>Falta por pagar</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>płatność gotówką</source>
+				<target>pagamento em dinheiro</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>płatne gotówką</source>
+				<target>pago em dinheiro</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>płatność przelewem</source>
+				<target>pagamento por transferência</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>płatne przelewem</source>
+				<target>pago por transferência</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Maksymalny czas oczekiwania na płatność</source>
+				<target>Prazo máximo da espera do pagamento</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>termin płatności</source>
+				<target>prazo do pagamento</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>dni</source>
+				<target>dias</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Rodzaj płatności</source>
+				<target>Forma do pagamento</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>za pobraniem</source>
+				<target>pago na entrega</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>płatność</source>
+				<target>pagamento</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>gotówką</source>
+				<target>em espécie</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>przelewem</source>
+				<target>com transferência</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

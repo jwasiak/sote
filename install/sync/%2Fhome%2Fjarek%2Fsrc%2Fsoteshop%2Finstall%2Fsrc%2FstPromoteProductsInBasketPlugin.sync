@@ -1,0 +1,12 @@
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stPromoteProductsInBasketPlugin
+/home/jarek/src/soteshop/packages/stPromoteProductsInBasketPlugin/package.yml
+/home/jarek/src/soteshop/packages/stPromoteProductsInBasketPlugin/phpdoc.yml
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/frontend
+/home/jarek/src/soteshop/apps/frontend/modules
+/home/jarek/src/soteshop/apps/frontend/modules/stPromoteProductsInBasket
+/home/jarek/src/soteshop/apps/frontend/modules/stPromoteProductsInBasket/actions
+/home/jarek/src/soteshop/apps/frontend/modules/stPromoteProductsInBasket/actions/components.class.php
+/home/jarek/src/soteshop/apps/frontend/modules/stPromoteProductsInBasket/templates
+/home/jarek/src/soteshop/apps/frontend/modules/stPromoteProductsInBasket/templates/_showProducts.php

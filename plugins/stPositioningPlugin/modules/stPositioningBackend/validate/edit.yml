@@ -1,0 +1,13 @@
+fields:
+    positioning{title}:
+        sfStringValidator:
+            max: 255
+            max_error: Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.
+    positioning{keywords}:
+        sfStringValidator:
+            max: 255
+            max_error: Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.
+    positioning{description}:
+        sfStringValidator:
+            max: 65000
+            max_error: Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.

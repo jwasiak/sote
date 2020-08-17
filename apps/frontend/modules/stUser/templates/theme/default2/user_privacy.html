@@ -1,0 +1,28 @@
+<div id="privacy_overlay">
+    <div class="privacy_overlay_content"></div>
+</div>
+<div id="terms_overlay">
+    <div class="terms_overlay_content"></div>
+</div>
+<div id="user_data_billing_privacy_content" style="width: 250px;">	
+	
+	{if $culture == "de"}
+        {__ text="Ich habe"}
+        <a href="#active_terms_overlay" id="active_terms_overlay">{__ text="die AGB's"}</a>
+        {__ text="und"}
+        <a href="#active_overlay" id="active_overlay">{__ text="die Datenschutzrichtlinien"}</a>
+        {__ text="gelesen und stimme ihnen zu."}
+    {else}
+       
+        {if $privacy_only == "true"}
+            {__ text="Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z"} {if $new_window== "true"}<a href="{$privacy_url}" target="_blank">{__ text="polityką prywatności"}</a>{else}<a href="#active_overlay" id="active_overlay">{__ text="polityką prywatności"}</a>{/if}.               
+        {else}
+            {__ text="Akceptuję"} 
+            <a href="#active_terms_overlay" id="active_terms_overlay">{__ text="regulamin"}</a>
+            {__ text="i przeczytałem"}
+            <a href="#active_overlay" id="active_overlay_1">{__ text="politykę prywatności"}</a>.
+            {__ text="Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z"} <a href="#active_overlay" id="active_overlay_2">{__ text="polityką prywatności"}</a>.                      
+        {/if}       
+        
+    {/if}
+</div>

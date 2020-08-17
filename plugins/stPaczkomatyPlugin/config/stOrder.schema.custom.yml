@@ -1,0 +1,7 @@
+propel:
+  st_order_delivery: 
+    _attributes: 
+      phpName: OrderDelivery
+    paczkomaty_number: 
+      type: VARCHAR
+      size: 20

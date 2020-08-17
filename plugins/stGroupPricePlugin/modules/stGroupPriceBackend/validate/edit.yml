@@ -1,0 +1,4 @@
+fields:
+   group_price{name}:
+      required:
+         msg: Brak nazwy grupy

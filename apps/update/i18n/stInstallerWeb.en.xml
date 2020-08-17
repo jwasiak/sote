@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Pobierz aktualizacje</source>
+                <target>Download the updates</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Instaluj</source>
+                <target>Install</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Twoja Historia</source>
+                <target>History</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>RSS Aktualizacji</source>
+                <target>RSS</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Narzędzia eksperta</source>
+                <target>Expert's tools</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nie ma dostępnych aktualizacji.</source>
+                <target>There are no updates available.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Wróć do panelu sklepu</source>
+                <target>Go to administrative panel</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Wyloguj</source>
+                <target>Logout</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Dostępne aktualizacje:</source>
+                <target>Available updates:</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Pobierz wszystkie</source>
+                <target>Download all</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Pobierz</source>
+                <target>Download</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Aplikacje pobrane i niezainstalowane. Kliknij "Instaluj".</source>
+                <target>Applications downloaded and not installed. Click "Install".</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Aplikacje zostały poprawnie zweryfikowane. Nie ma modyfikacji plików systemowych.</source>
+                <target>Applications have been properly verified. There is no modification of the system files.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Konfiguracja bazy danych</source>
+                <target>Database configuration</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Uaktualnienia</source>
+                <target>Updates</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Uaktualnij aplikacje w sklepie</source>
+                <target>Update the applications in the shop</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Raport instalacji</source>
+                <target>Installation report</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Pobieram</source>
+                <target>Downloading</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Aplikacje pobrane.</source>
+                <target>Applications downloaded.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Nie ma aplikacji do aktualizacji.</source>
+                <target>There are no applications to update.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Pobierz następną</source>
+                <target>Download the next one</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Instalacja pakietów</source>
+                <target>Installing the packages</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Aplikacja SOTESHOP</source>
+                <target>SOTESHOP application</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Instaluj bez zależności (nodeps)</source>
+                <target>Install without the dependencies (nodeps)</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wymuś instalację (force)</source>
+                <target>Force the installation (force)</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Weryfikacja wszystkich aplikacji</source>
+                <target>Verifying all of the applications</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Pobieranie aktualizacji zostało przerwane i nie możliwa jest instalacja aktualizacji.</source>
+                <target>Downloading the update was interrupted and it's impossible to install the update.</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Ponów pobieranie aktualizacji</source>
+                <target>Repeat the download of the updates</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Weryfikacja i instalacja aktualizacji</source>
+                <target>Verify and install the updates</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Instaluj wszystkie</source>
+                <target>Install all</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Pobieranie aktualizacji</source>
+                <target>Downloading the updates</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Blokowanie sklepu</source>
+                <target>Lock the shop</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Weryfikacja instalacji</source>
+                <target>Verify the installation</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Zainstalowane aplikacje</source>
+                <target>Installed applications</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Tryb developerski</source>
+                <target>Developer mode</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Optymalizacja</source>
+                <target>Optimization</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Naprawa aktualizacji</source>
+                <target>Repair the update</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Zsynchronizowane aplikacje</source>
+                <target>Synchronized applications</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Instaluj aktualizacje</source>
+                <target>Install the updates</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Nowe:</source>
+                <target>New applications:</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Aktualizowane:</source>
+                <target>Applications to update:</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Usunięte:</source>
+                <target>Deleted:</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Nie ma pobranych aplikacji do aktualizacji.</source>
+                <target>There are no downloaded applications to update.</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>RSS Wiadomości z najnowszymi aktualizacjami.</source>
+                <target>RSS of the latest updates.</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Dodaj kanał RSS do swojego programu pocztowego, będziesz otrzymywać wiadomości o aktualizacjach w programie.</source>
+                <target>Add a RSS feed to your email program. You will receive the news about the updates.</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Kanał RSS z najnowszymi aktualizacjami</source>
+                <target>RSS feed of the latest updates</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Wykryto błędne zakończenie aktualizacji. Wywołaj automatyczną naprawę aktualizacji.</source>
+                <target>The update wasn't properly completed. Start an automatic repair of the update.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Serwer nie spełnia wymagań technicznych, aktualizacja nie jest możliwa.</source>
+                <target>The server does not meet the technical requirements, the update is not possible.</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Brak biblioteki cURL</source>
+                <target>No cURL library</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Sklep nie jest uruchomiony z prawami użytkownika</source>
+                <target>The shop is not being run with the user's permissions.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Sklep jest uruchomiony w trybie safe_mode</source>
+                <target>The shop is running in the safe_mode</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Brak biblioteki JSON</source>
+                <target>No JSON library</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Nie można wykonać instalacji, gdyż czas wykonania skryptu na serwerze jest zbyt krótki.</source>
+                <target>Unable to execute the installation, the time of executing the script on the server (max_execution_time) is too short.</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Minimalny czas jaki jest wymagany do poprawnego wykonania instalacji to</source>
+                <target>The minimum execution time required for the correct installation is</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>sekund</source>
+                <target>seconds</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Maksymalny czas wykonania skryptu PHP na serwerze to</source>
+                <target>The maximum execution time of a PHP script on the server is</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Jak zmienić czas wykonywania na serwerze:</source>
+                <target>How to change the execution time on the server:</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Wyczyszczenie pamięci podręcznej PEAR: symfony pear clear-cache</source>
+                <target>Command for clearing the PEAR cache: symfony pear clear-cache</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Strona o podanym adresie nie istnieje.</source>
+                <target>The requested page does not exist.</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Optymalizacja i czyszczenie instalacji</source>
+                <target>Optimization and cleaning the installation</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Lista aplikacji do aktualizacji:</source>
+                <target>List of the applications to update:</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Lista zainstalowanych aplikacji:</source>
+                <target>List of the installed applications:</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Lista pobranych aplikacji:</source>
+                <target>List of the downloaded applications:</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Historia instalacji/aktualizacji</source>
+                <target>History of the installation/update</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Wyczyszczenie cache</source>
+                <target>Clearing the cache</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Nie można zainstalować aktualizacji. System wykrył modyfikację kodu.</source>
+                <target>Unable to install the update. The system detected a modification of the code.</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Przeczytaj jak zainstalować aktualizacje do programu z modyfikacjami.</source>
+                <target>Read how to install the updates if the code has been modified.</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Zmodyfikowane pliki:</source>
+                <target>The modified files:</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Instalacja aplikacji (Uwaga! Nie zamykaj okna przeglądarki, aż instalacja się nie skończy):</source>
+                <target>Installing the application (Notice! Don't close your browser window until the installation is finished):</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Instalacja aktualizacji zakończona.</source>
+                <target>Installing the update is completed.</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Czyszczę:</source>
+                <target>Removing:</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Czyszczenie poprzedniej aktualizacji</source>
+                <target>Cleaning the previous update</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Optymalizacja ilości plików</source>
+                <target>Optimizing the number of files</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Optymalizuje</source>
+                <target>Optimizing</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Konfiguracja i optymalizacja systemu.</source>
+                <target>Configuration and optimization of the system.</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Weryfikacja</source>
+                <target>Verification</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>SOTESHOP - panel aktualizacji</source>
+                <target>SOTESHOP - the update panel</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Pobieranie aplikacji:</source>
+                <target>Downloading the applications:</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Pobieranie aktualizacji</source>
+                <target>Downloading the updates</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>System wykrył zmianę serwera.</source>
+                <target>System has detected a change of the server.</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Program został dostosowany do nowej lokalizacji.</source>
+                <target>Program was adapted to the new location.</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Uaktualnij dostęp do bazy danych</source>
+                <target>Update the access data to the database</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Nie można utworzyć pliku ticketa</source>
+                <target>Unable to create the ticket file</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Instalacja aktualizacji (Uwaga! Nie zamykaj okna przeglądarki, aż instalacja się nie skończy):</source>
+                <target>Installing the update (Notice! Don't close your browser window until the installation is finished):</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Zakończono pobieranie pakietów</source>
+                <target>Downloading the packages is completed</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Pobieranie</source>
+                <target>Downloading</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Pobieranie aplikacji</source>
+                <target>Downloading the applications</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Czyszczenie plików tymczasowych</source>
+                <target>Cleaning the temporary files</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Kopiowanie plików</source>
+                <target>Copying the files</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Konfiguracja instalacji</source>
+                <target>Configuration of the installation</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Tworzenie struktury bazy danych</source>
+                <target>Creating the database structure</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Tworzenie modelu bazy danych</source>
+                <target>Creating the database model</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Zamów wersję komercyjną</source>
+                <target>Order a commercial version</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Wczytywanie danych</source>
+                <target>Uploading the data</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Ładowanie domyślnych danych. Uruchomienie sklepu.</source>
+                <target>Loading the default data. Running the shop</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Czyszczę</source>
+                <target>Removing</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Wersja</source>
+                <target>Version</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Konfiguracja i optymalizacja systemu</source>
+                <target>Configuration and optimization of the system</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Aktualizacje</source>
+                <target>Updates</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Nowości</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Pobierz</source>
+                <target>Download</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Aktywuj</source>
+                <target>Activate</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Konfiguracja MySQL</source>
+                <target>MySQL configuration</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Historia aktualizacji</source>
+                <target>History of the updates</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>Weryfikacja systemu</source>
+                <target>Verification of the system</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Nie można zainstalować aktualizacji. System wykrył modyfikację kodu. Twoj system może nie działać poprawnie.</source>
+                <target>Unable to install the update. The system detected a modification of the code. Your system may not work correctly.</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Data modyfikacji</source>
+                <target>Date of modification</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Nr</source>
+                <target>No.</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Ikonka</source>
+                <target>Icon</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Aktualizuj</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Usuń</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Nie znaleziono archiwum.</source>
+                <target>There is no archive found.</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Opis zmian aktualizacji</source>
+                <target>Description of the update changes</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>W Twoim sklepie wykryto indywidualny temat graficzny:</source>
+                <target>Individual graphics was detected in your shop:</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Poniżej przedstawione pliki zostaną zarchiwizowane i napisane. Przeczytaj opis zmian.</source>
+                <target>The following files will be archived and overwritten. Read the description of the changes.</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>Aktualizuj wszystkie</source>
+                <target>Update all</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>Proszę zaakceptować zmiany</source>
+                <target>Accept the changes</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>Subskrybuj RSS</source>
+                <target>Subscribe RSS</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>Aktywacja aktualizacji</source>
+                <target>Activation of update</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>Załącz pakiet</source>
+                <target>Attach a package</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>Ignoruj zależności (nodeps)</source>
+                <target>Ignore the dependencies (nodeps)</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>Rekonfiguracja bazy danych</source>
+                <target>Database reconfiguration</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>Wszystkie aktualizacje są aktywne.</source>
+                <target>All updates are active.</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>Dostępne aktualizacje</source>
+                <target>Available updates</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>Nie ma nowych aktualizacji.</source>
+                <target>There are no new updates.</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>Aplikacje pobrane i niezainstalowane. Kliknij: Instaluj</source>
+                <target>Applications downloaded and not installed. Click: Install</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Załączanie pakietów aktualizacji</source>
+                <target>Attaching the update packages</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>Home Aktualizacje</source>
+                <target>Home - Update</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>Panel sklepu</source>
+                <target>Administrative panel</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>Strona sklepu</source>
+                <target>Shop's site</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Nie ma pobranych aktualizacji do instalacji.</source>
+                <target>There are no downloaded applications to install.</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Aktualizaje zostały pobrane</source>
+                <target>Updates have been downloaded</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Instaluj pobrane aktualizacje</source>
+                <target>Install the downloaded updates</target>
+            </trans-unit>
+            <trans-unit id="139">
+                <source>Instalacja aktualizacji</source>
+                <target>Install the updates</target>
+            </trans-unit>
+            <trans-unit id="140">
+                <source>Odświeżenie pamięci podręcznej aplikacji</source>
+                <target>Refreshing the applications cache</target>
+            </trans-unit>
+            <trans-unit id="141">
+                <source>Tworzenie modelu bazy danych - Weryfikacja</source>
+                <target>Creating the database model - Verifying</target>
+            </trans-unit>
+            <trans-unit id="142">
+                <source>Tworzenie modelu bazy danych - Usuwanie starych plików</source>
+                <target>Creating the database model - Deleting old files</target>
+            </trans-unit>
+            <trans-unit id="143">
+                <source>Tworzenie modelu bazy danych - Generowanie schematów XML</source>
+                <target>Creating the database model - Generating XML schemas</target>
+            </trans-unit>
+            <trans-unit id="144">
+                <source>Tworzenie modelu bazy danych - Generowanie klas modeli</source>
+                <target>Creating the database model - Generating classes of models</target>
+            </trans-unit>
+            <trans-unit id="145">
+                <source>Tworzenie modelu bazy danych - Generowanie zapytań SQL</source>
+                <target>Creating the database model - Generating SQL queries</target>
+            </trans-unit>
+            <trans-unit id="146">
+                <source>Tworzenie modelu bazy danych - Aktualizacja struktury bazy danych</source>
+                <target>Creating the database model - Updating the database structure</target>
+            </trans-unit>
+            <trans-unit id="147">
+                <source>Załącz</source>
+                <target>Attach</target>
+            </trans-unit>
+            <trans-unit id="148">
+                <source>Budowanie bazy danych</source>
+                <target>Building database</target>
+            </trans-unit>
+            <trans-unit id="149">
+                <source>Pasek postępu</source>
+                <target>Progress bar</target>
+            </trans-unit>
+            <trans-unit id="150">
+                <source>Ładowanie domyślnych danych. Uruchomienie sklepu</source>
+                <target>Loading the default data. Running the shop</target>
+            </trans-unit>
+            <trans-unit id="151">
+                <source>Dalej: Budowanie bazy danych</source>
+                <target>Next: Building database</target>
+            </trans-unit>
+            <trans-unit id="152">
+                <source>Kończenie pobierania plików</source>
+                <target>Finishing file download</target>
+            </trans-unit>
+            <trans-unit id="153">
+                <source>Kod aktywacji</source>
+                <target>Activation code</target>
+            </trans-unit>
+            <trans-unit id="154">
+                <source>Brak pakietu do instalacji.</source>
+                <target>No package to install.</target>
+            </trans-unit>
+            <trans-unit id="155">
+                <source>Brak połączenia z serwerem sote.pl.</source>
+                <target>No connection to the server sote.pl.</target>
+            </trans-unit>
+            <trans-unit id="156">
+                <source>Nieprawidłowy kod aktywacji.</source>
+                <target>Invalid activation code.</target>
+            </trans-unit>
+            <trans-unit id="157">
+                <source>Kod aktywacji został już wykorzystany.</source>
+                <target>The activation code has been already used.</target>
+            </trans-unit>
+            <trans-unit id="158">
+                <source>Niepoprawny format pliku.</source>
+                <target>Invalid file format.</target>
+            </trans-unit>
+            <trans-unit id="159">
+                <source>Błąd podczas wgrywania pliku.</source>
+                <target>An error occured while uploading the file.</target>
+            </trans-unit>
+            <trans-unit id="160">
+                <source>Plik został wgrany.</source>
+                <target>File was uploaded.</target>
+            </trans-unit>
+            <trans-unit id="161">
+                <source>Test wymagań technicznych serwera</source>
+                <target>Server's technical requirements test</target>
+            </trans-unit>
+            <trans-unit id="162">
+                <source>Wersja PHP (5.4.x - 7.1.x)</source>
+                <target>PHP version (5.4.x - 7.1.x)</target>
+            </trans-unit>
+            <trans-unit id="163">
+                <source>Skrypty uruchamiane z uprawnieniami użytkownika</source>
+                <target>Scripts are being run with the user's permissions</target>
+            </trans-unit>
+            <trans-unit id="164">
+                <source>Tryb safe_mode off</source>
+                <target>Safe_mode off</target>
+            </trans-unit>
+            <trans-unit id="165">
+                <source>Biblioteka cURL</source>
+                <target>cURL library</target>
+            </trans-unit>
+            <trans-unit id="166">
+                <source>Biblioteka JSON</source>
+                <target>JSON library</target>
+            </trans-unit>
+            <trans-unit id="167">
+                <source>Biblioteka XSL</source>
+                <target>XSL library</target>
+            </trans-unit>
+            <trans-unit id="168">
+                <source>Biblioteka GD2</source>
+                <target>GD2 library</target>
+            </trans-unit>
+            <trans-unit id="169">
+                <source>Obsługa Soap</source>
+                <target>Soap enabled</target>
+            </trans-unit>
+            <trans-unit id="170">
+                <source>Obsługa Multibyte String</source>
+                <target>Multibyte String enabled</target>
+            </trans-unit>
+            <trans-unit id="171">
+                <source>Obsługa MySQL</source>
+                <target>MySQL Support enabled</target>
+            </trans-unit>
+            <trans-unit id="172">
+                <source>Obsługa simpleXML</source>
+                <target>SimpleXML enabled</target>
+            </trans-unit>
+            <trans-unit id="173">
+                <source>Limit pamięci dla skryptu (64MB)</source>
+                <target>Memory limit (64MB)</target>
+            </trans-unit>
+            <trans-unit id="174">
+                <source>Czas wykonywania skryptu (30s)</source>
+                <target>Script execution time (30s)</target>
+            </trans-unit>
+            <trans-unit id="175">
+                <source>Biblioteka Mcrypt</source>
+                <target>Mcrypt library</target>
+            </trans-unit>
+            <trans-unit id="176">
+                <source>Wyłączony session.use_trans_sid</source>
+                <target>session.use_trans_sid off</target>
+            </trans-unit>
+            <trans-unit id="177">
+                <source>Biblioteka Zlib</source>
+                <target>Zlib library</target>
+            </trans-unit>
+            <trans-unit id="178">
+                <source>Lokalna instalacja Symfony</source>
+                <target>Local Symfony library</target>
+            </trans-unit>
+            <trans-unit id="179">
+                <source>Lokalna instalacja Pear</source>
+                <target>Local Pear library</target>
+            </trans-unit>
+            <trans-unit id="180">
+                <source>Weryfikacja tematu graficznego sklepu</source>
+                <target>Shop's graphic theme verification</target>
+            </trans-unit>
+            <trans-unit id="181">
+                <source>Weryfikacja została zakończona pomyślnie.</source>
+                <target>Verification successfully completed.</target>
+            </trans-unit>
+            <trans-unit id="182">
+                <source>Dostępna jest nowa wersja SOTESHOP 6:</source>
+                <target>New version SOTESHOP 6 is available:</target>
+            </trans-unit>
+            <trans-unit id="183">
+                <source>więcej</source>
+                <target>more</target>
+            </trans-unit>
+            <trans-unit id="184">
+                <source>Jeśli chcesz pobrać aktualizacje do wersji 6, musisz zaktualizować grafikę do nowszej wersji:</source>
+                <target>If you want to download updates to version 6, you have to first update your graphics to newer version:</target>
+            </trans-unit>
+            <trans-unit id="185">
+                <source>Nie można połączyć sie z bazą danych w celu wykonania weryfikacji.</source>
+                <target>Unable to connect to the database in order to make verification.</target>
+            </trans-unit>
+            <trans-unit id="186">
+                <source>Prosze o kontakt z serwisem oprogramowania www.serwis.sote.pl.</source>
+                <target>Contact your software service at www.serwis.sote.pl.</target>
+            </trans-unit>
+            <trans-unit id="187">
+                <source>Wystąpił błąd podczas weryfikacja tematu graficznego.</source>
+                <target>Error occurred during graphic theme's verification.</target>
+            </trans-unit>
+            <trans-unit id="188">
+                <source>http://www.sote.pl/soteshop6</source>
+                <target>http://www.soteshop.com/soteshop6</target>
+            </trans-unit>
+            <trans-unit id="189">
+                <source>http://www.sote.pl/soteshop6/update</source>
+                <target>http://www.soteshop.com/soteshop6/update</target>
+            </trans-unit>
+            <trans-unit id="190">
+                <source>Korzystasz z przeglądarki Internet Explorer 7 lub niższej.</source>
+                <target>You're using Internet Explorer 7 browser or even lower version.</target>
+            </trans-unit>
+            <trans-unit id="191">
+                <source>Do poprawnego działania panelu aktualizacji oraz sklepu zalecamy skorzystanie z nowszej wersji przeglądarki lub innej zgodnej ze standardem W3C.</source>
+                <target>For proper work of the update panel and your shop, we recommend using a newer version of your browser or other browser which is up to W3C standard.</target>
+            </trans-unit>
+            <trans-unit id="192">
+                <source>Poniżej lista przeglądarek zalecanych do obsługi panelu administracyjnego:</source>
+                <target>Here is the list of recommended browsers to operate the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="193">
+                <source>Więcej informacji na temat instalacji przeglądarek znajdziecie Państwo</source>
+                <target>You can find more information about browsers' installation</target>
+            </trans-unit>
+            <trans-unit id="194">
+                <source>UWAGA: Instalujesz aktualizację do wersji SOTESHOP 6.</source>
+                <target>NOTICE: You're installing SOTESHOP 6</target>
+            </trans-unit>
+            <trans-unit id="195">
+                <source>Program różni się od wersji 5 procesem zamówienia i panelem administracyjnym.</source>
+                <target>The program differs from your current version 5 in the order process and the administrative panel.</target>
+            </trans-unit>
+            <trans-unit id="196">
+                <source>Więcej informacji o zmianach:</source>
+                <target>Find out more about the changes at:</target>
+            </trans-unit>
+            <trans-unit id="197">
+                <source>http://www.sote.pl</source>
+                <target>http://www.soteshop.com</target>
+            </trans-unit>
+            <trans-unit id="198">
+                <source>Możesz zainstalować aktualizację automatycznie (wymagane zrobienie archiwizacji sklepu przed instalacją) lub możesz zlecić aktualizację pod nadzorem serwisu, więcej informacji:</source>
+                <target>You can install the update automatically (making the backup is required before installation) or you can have the update done under supervision of our service, for more information go to:</target>
+            </trans-unit>
+            <trans-unit id="199">
+                <source>http://www.sote.pl/update6.html</source>
+                <target>http://www.soteshop.com/update6.html</target>
+            </trans-unit>
+            <trans-unit id="200">
+                <source>Nie można wykonać automatycznej aktualizacji do wersji SOTESHOP 6, gdyż w Twoim sklepie są indywidualne modyfikacje.</source>
+                <target>You can't automatically update to SOTESHOP 6, because there are the individual modifications in your shop.</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>Skontaktuj się z nami</source>
+                <target>Contact us</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>http://www.sote.pl/page/contact</source>
+                <target>http://www.soteshop.com/page/contact</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>Dalej</source>
+                <target>Next</target>
+            </trans-unit>
+            <trans-unit id="204">
+                <source>tutaj</source>
+                <target>here</target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>Panel aktualizacji</source>
+                <target>Update panel</target>
+            </trans-unit>
+            <trans-unit id="206">
+                <source>Sklep aktualny</source>
+                <target>Your shop is fully updated</target>
+            </trans-unit>
+            <trans-unit id="207">
+                <source>Sklep nieaktualny</source>
+                <target>Your shop is not up to date</target>
+            </trans-unit>
+            <trans-unit id="209">
+                <source>Zaktualizuj swój sklep do najnowszej wersji.</source>
+                <target>Update your shop to the newest version.</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>Twój sklep jest zaktualizowany do najnowszej wersji.</source>
+                <target>Your shop is updated to the newest version.</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>Darmowy sklep internetowy SOTESHOP Open</source>
+                <target>Free online shop SOTESHOP Open</target>
+            </trans-unit>
+            <trans-unit id="212">
+                <source>Zamów wersję komercyjną</source>
+                <target>Order commercial version</target>
+            </trans-unit>
+            <trans-unit id="213">
+                <source>Dostępna jest nowa wersja sklepu.</source>
+                <target>There is a new version of the shop.</target>
+            </trans-unit>
+            <trans-unit id="214">
+                <source>Zamów aktualizację do wersji 7.</source>
+                <target>Order shop updare to version 7.</target>
+            </trans-unit>
+            <trans-unit id="215">
+                <source>http://www.sote.pl/aktualizacja-soteshop-z-wersji-6-do-7.html</source>
+                <target>http://www.soteshop.com/soteshop-update-from-version-6-to-7.html</target>
+            </trans-unit>
+            <trans-unit id="216">
+                <source>Zamów wersję komercyjną.</source>
+                <target>Order a commercial version.</target>
+            </trans-unit>
+            <trans-unit id="217">
+                <source>http://www.sote.pl/licencja-soteshop.html</source>
+                <target>http://www.soteshop.com/soteshop-license.html</target>
+            </trans-unit>
+            <trans-unit id="218">
+                <source>Wersja OPEN nie posiada dostępu do aktualizacji. </source>
+                <target>OPEN version does not have an access to the update.</target>
+            </trans-unit>
+            <trans-unit id="219">
+                <source>Dostęp do aktualizacji wygasł dnia</source>
+                <target>Access to update expired on</target>
+            </trans-unit>
+            <trans-unit id="220">
+                <source>Aplikacje zostały pobrane</source>
+                <target>Applications were downloaded</target>
+            </trans-unit>
+            <trans-unit id="221">
+                <source>Przedłuż usługę korzystania z SOTESHOP. Twój sklep będzie zablokowany za %days% dni</source>
+                <target>Extend the service of using SOTESHOP. Your store will be blocked in %days% days</target>
+            </trans-unit>
+            <trans-unit id="222">
+                <source>Przedłuż usługę korzystania z SOTESHOP</source>
+                <target>Extend the service of using SOTESHOP</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

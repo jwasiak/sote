@@ -1,0 +1,36 @@
+<div id="main_categories" class="row" data-equalizer>
+{assign var='i' value=0}
+{foreach key=row item=category from=$results}  
+{assign var='i' value=$i+1} 
+    <div class="product col-xs-6 col-sm-4 nr_{$i}">
+        <div class="thumbnail clearfix text-center">
+            <div class="image" data-equalizer-watch>{$category.photo}</div>
+            <h3 class="name" data-equalizer-watch>{$category.name}</h3>
+        </div>
+    </div>  
+{/foreach}
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($) {   
+
+    $(document).ready(function() {      
+        heightMain();
+        $(window).resize(function() {
+            heightMain();
+        });      
+
+        var images = $('#main_categories .image img');
+        var cnt = images.length;
+
+        images.load(function() {
+            cnt--;
+            if (cnt == 0) {
+                heightMain();
+            }
+        });
+    });   
+});
+</script>
+{/literal}

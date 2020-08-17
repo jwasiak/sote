@@ -1,0 +1,50 @@
+<div id="st_user-login" class="st_component" style="border:none;">
+    {$form_start}
+        <h5 class="st_title">
+            {__ text="Logowanie"}
+            <span class="st_user_title">{__ text="(Dla stałych klientów)"}</span>
+        </h5>
+        <fieldset>
+            <div class="st_row" id="st_user-login-link">
+                    {$remind_password}
+            </div>
+            <div class="st_row">
+                {$error_email}
+                {$label_email}
+                <div class="st_field">                                                
+                    {$email}
+                </div>
+            </div>          
+            <div class="st_row">
+                {$error_password}
+                {$label_password}
+                <div class="st_field">
+                    {$password}
+                </div>
+            </div>
+            <div class="st_row" >
+                <div id="st_button-user-login" class="st_button-container">
+                    <div class="st_button st_align-right">
+                        <div class="st_button-left">
+                            {$login_submit}
+                        </div>
+                    </div> 
+               </div>
+            </div>        
+        </fieldset>    
+    </form>
+</div>
+
+    <div class="separate">
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> {__ text="lub"} <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </div>
+
+    <div id="external_google">
+
+        <div class="left label">
+        {__ text="Zaloguj używając"}:
+        {slot name="login_google_basket" hidden="true"}{/slot}
+        <a href="/user/googleSingIn/back/basket"><img id="google_buttton" alt="" src="/images/frontend/theme/default/google.png"></a>
+        </div>
+       
+    </div>

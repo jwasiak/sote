@@ -1,0 +1,95 @@
+{if $unconfirmed_orders == 1}
+    <h4>{__ text="Niepotwierdzone zamówienia"}</h4>
+    <table class="table table-hover table-responsive unconfirmed" cellspacing="0" width="100%">
+        <colgroup class="hidden-xs">
+        	<col width="10%">
+            <col width="25%">
+    		<col width="15%">
+    		<col width="12%">
+    		<col width="12%"> 
+    		<col width="7%">
+    		<col width="21%">
+        </colgroup>
+        <thead>
+            <tr>
+                <th >{__ text="Numer"}</th>
+                <th >{__ text="Data złożenia"}</th>
+                <th class="th-td-center">{__ text="Status"}</th>
+                <th class="th-td-right">{__ text="Kwota"}</th>
+                <th class="th-td-center">{__ text="Opłacone"}</th>
+                <th class="th-td-center">{__ text="Faktury"}</th>
+                <th class="th-td-center">{__ text="Potwierdzone"}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {foreach key=row item=order from=$results}
+                {if $order.is_confirmed_orders == 0}
+                    <tr class="cursor-hand">
+                        <td data-th='{__ text="Numer"}' class="numer product-image mobile">{$order.number}</td>
+                        <td data-th='{__ text="Data złożenia"}' class="product-name mobile">{$order.created_at}</td>
+                        <td data-th='{__ text="Status"}' class="th-td-center status mobile"><b>{$order.status}</b></td>
+                        <td data-th='{__ text="Kwota"}' class="th-td-right mobile">{$order.total_amount}</td>
+                        <td data-th='{__ text="Opłacone"}' class="th-td-center mobile is_paid"><b>{$order.is_paid}</b></td>
+                        <td data-th='{__ text="Faktury"}' class="th-td-center mobile">{$order.invoice}</td>
+                        <td data-th='{__ text="Potwierdzone"}' class="th-td-center last-td mobile"><b class="underline">{$order.is_confirmed}</b></td>
+                    </tr>                
+                {/if}
+            {/foreach}
+        </tbody>
+    </table>
+{/if}
+
+{if $confirmed_orders == 1}
+    <h4>{__ text="Potwierdzone zamówienia"}</h4>
+    <table class="table table-hover table-responsive" cellspacing="0" width="100%">
+        <colgroup class="hidden-xs">
+            <col width="10%">
+            <col width="25%">
+            <col width="15%">
+            <col width="12%">
+            <col width="12%"> 
+            <col width="7%">
+            <col width="21%">
+        </colgroup>
+        <thead>
+            <tr>
+                <th >{__ text="Numer"}</th>
+                <th >{__ text="Data złożenia"}</th>
+                <th class="th-td-center">{__ text="Status"}</th>
+                <th class="th-td-right">{__ text="Kwota"}</th>
+                <th class="th-td-center">{__ text="Opłacone"}</th>
+                <th class="th-td-center">{__ text="Faktury"}</th>
+                <th class="th-td-center">{__ text="Potwierdzone"}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {foreach key=row item=order from=$results}
+                {if $order.is_confirmed_orders == 1}
+                    <tr class="cursor-hand {$order.link}">
+                        <td data-th='{__ text="Numer"}' class="numer product-image mobile">{$order.number}</td>
+                        <td data-th='{__ text="Data złożenia"}' class="product-name mobile">{$order.created_at}</td>
+                        <td data-th='{__ text="Status"}' class="th-td-center status mobile"><b>{$order.status}</b></td>
+                        <td data-th='{__ text="Kwota"}' class="th-td-right mobile">{$order.total_amount}</td>
+                        <td data-th='{__ text="Opłacone"}' class="th-td-center mobile is_paid"><b>{$order.is_paid}</b></td>
+                        <td data-th='{__ text="Faktury"}' class="th-td-center mobile">{$order.invoice}</td>
+                        <td data-th='{__ text="Potwierdzone"}' class="th-td-center last-td mobile"><b>{$order.is_confirmed}</b></td>
+                    </tr>
+                {/if}
+            {/foreach}
+        </tbody>
+    </table>
+{/if}
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {   
+        $("tr").click(function() {
+          window.location.href = $(this).find("a").attr("href");
+        });
+    });  
+});
+</script>
+{/literal}

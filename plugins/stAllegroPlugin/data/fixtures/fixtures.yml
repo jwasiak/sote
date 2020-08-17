@@ -1,0 +1,7 @@
+PaymentType:
+    AllegroPaymentType_1: 
+        module_name: "stAllegro"
+        hide_module: 1
+        active: 0
+        culture: "pl_PL"
+        name: "Płatność w serwisie Allegro"

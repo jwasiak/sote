@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Bony zakupowe</source>
+                <target>Gift cards</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie bonami zakupowymi w sklepie</source>
+                <target>Manage the gift cards in the shop</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Kwota brutto</source>
+                <target>Gross Amount</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Waluta</source>
+                <target>Currency</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Ważny do</source>
+                <target>Valid to</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Włącz bony zakupowe:</source>
+                <target>Enable the gift cards:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Edycja %%code%%</source>
+                <target>Edit %%code%%</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Oczekuje</source>
+                <target>Pending</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Wykorzystany</source>
+                <target>Used</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Puste pole oznacza brak progu</source>
+                <target>An empty field means there is no threshold</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Podaj kod</source>
+                <target>Enter a product code</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Kwota musi być większa od 0</source>
+                <target>Amount must be greater than 0</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Kwota posiada nieprawidłowy format (przykład: 10.00, 10)</source>
+                <target>Amount has an invalid format (the correct format: 10, 10.00)</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Konfiguracja bonów zakupowych</source>
+                <target>Gift cards configuration</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Bon towarowy o podanym kodzie już istnieje</source>
+                <target>Gift card with the given code already exists</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Minimalna kwota zamówienia</source>
+                <target>Minimum order amount</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>code_format.help</source>
+                <target>
+                    <b>@</b> - unique number [required]<br />
+                    <b>#</b> - random letter A-Z [optional]<br />
+                    <b>9</b> - random number 0-9 [optional]                    
+                </target>
+            </trans-unit> 
+            <trans-unit id="23">
+                <source>Format kodu:</source>
+                <target>Code format:</target>
+            </trans-unit>  
+            <trans-unit id="24">
+                <source>Podaj format kodu</source>
+                <target>Enter code format</target>
+            </trans-unit> 
+            <trans-unit id="25">
+                <source>Parametr "@" jest wymagany</source>
+                <target>The parameter "@" is required</target>
+            </trans-unit>                                  
+            <trans-unit id="26">
+                <source>Jeśli zaznaczone bon będzie dostępny dla wszystkich produktów w sklepie</source>
+                <target>If the selected the gift card will be available for all products in the store</target>
+            </trans-unit>                                  
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,15 @@
+<div id="st_product-pager">
+    {if $currentPage != 1} 
+        {$firstPage}
+        {$previousPage}
+    {/if}
+    {foreach item=page from=$pages}
+        {$page.page}
+        {$page.max}
+    {/foreach}
+    {if $currentPage != $lastPageNumber}
+        {$nextPage}
+        {$lastPage}
+    {/if}
+    <br style="clear: both;" />
+</div>

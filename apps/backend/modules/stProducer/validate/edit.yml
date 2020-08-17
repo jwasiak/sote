@@ -1,0 +1,11 @@
+fields:
+    producer{name}:
+        required:
+          msg: Podaj nazwę producenta
+        sfStringValidator:
+          min: 2
+          min_error: Zbyt krótka nazwa producenta
+        sfPropelUniqueValidator:
+          class:        Producer
+          column:       opt_name
+          unique_error: Producent o podanej nazwie już istnieje

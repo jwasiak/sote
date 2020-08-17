@@ -1,0 +1,11 @@
+fields:
+    delivery_sections{value_from}:
+        required:
+            msg:    Podaj przedział od
+        sfNumberValidator:
+            nan_error:    Liczba musi być wprowadzona z kropką
+    delivery_sections{amount}:
+        required:
+            msg:    Podaj cenę
+        sfNumberValidator:
+            nan_error:    Cena musi być liczbą wprowadzona z kropką

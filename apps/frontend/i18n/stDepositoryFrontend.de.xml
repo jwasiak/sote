@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2011-11-04T01:50:23Z">
+		<body>
+			<trans-unit id="1">
+				<source>W magazynie</source>
+				<target>Auf Lager</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>szt.</source>
+				<target>St.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>W tej chwili dostępnych jest tylko %depository% sztuk tego produktu</source>
+				<target>Zurzeit sind nur %depository% Stück dieses Produktes erhältlich</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

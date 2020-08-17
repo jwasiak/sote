@@ -1,0 +1,8 @@
+product_group:
+    NONE: Brak
+    PROMOTION: Promocje
+    SALES: Wyprzedaż
+    RECOMMEND: Polecamy
+    MAIN_PAGE: Strona główna
+    BASKET:    Polecamy w koszyku
+    NEW:       Nowości

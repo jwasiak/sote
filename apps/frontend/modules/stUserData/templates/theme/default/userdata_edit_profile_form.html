@@ -1,0 +1,128 @@
+<div id="st_user-edit_data" class="st_component">
+    {$form_start}
+    <fieldset>
+        {$error_message}
+        {$error_company}
+        {$error_full_name}
+        {$error_address}
+        {$error_address_more}
+        {$error_region}
+        {$error_code}
+        {$error_town}
+        {$error_phone}
+        {$error_vat}      
+        
+        {if isset($billing_data)}
+            <h5 class="st_title">
+                {__ text="Dane billingowe"}
+            </h5>
+        {else}
+            <h5 class="st_title">
+                {__ text="Dane dostawy"}
+            </h5>
+        {/if}
+        <div id="st_form-user-field1" class="st_row">    
+            <label for="st_form-userData-field1">{__ text="Firma"} <sup>[1]</sup></label>
+            <div class="st_field">
+                {$input_company}
+            </div>
+        </div>        
+        <div id="st_form-user-field3" class="st_row">
+            <label for="st_form-userData-field3">{__ text="Imię i nazwisko"} <sup>[1]</sup></label>
+            <div class="st_field">
+                {$input_full_name}
+            </div>
+        </div>
+        <div id="st_form-user-field4" class="st_row">
+            <b>{$label_address}</b>
+            <div class="st_field">
+                <span>{__ text="np. Nazwa ulicy nr/nr"}</span>
+                {$input_address}
+            </div>
+        </div>
+        <div id="st_form-user-field4" class="st_row">
+            {$label_address_more}
+            <div class="st_field">
+                <span>{__ text="adres ciąg dalszy"}</span>
+                {$input_address_more}
+            </div>
+        </div>
+        {if $show_region==1}
+        <div id="st_form-user-field4" class="st_row">
+            {$label_region}
+            <div class="st_field">
+                {$input_region}
+            </div>
+        </div>
+        {/if}
+        <div id="st_form-user-field5" class="st_row">
+            <b>{$label_code_town}</b>
+            <div class="st_field">
+                {$input_code}
+                {$input_town}
+            </div>
+        </div>
+        <div id="st_form-user-field6" class="st_row">
+            <b>{$label_country}</b>
+            <div class="st_field">
+                {$select_country}            
+            </div> 
+        </div>
+        {if $show_pesel==1}
+        <div id="st_form-user-field4" class="st_row">
+            {$label_pesel}
+            <div class="st_field">
+                {$input_pesel}
+            </div>
+        </div>
+        {/if}
+        <div id="st_form-user-field7" class="st_row">
+            <b>{$label_phone}</b>
+            <div class="st_field">
+                {$input_phone}
+            </div>
+        </div>
+        {if isset($billing_data)}
+            <div id="st_form-user-field10" class="st_row">
+                {$label_nip}
+                <div class="st_field">
+                    {$input_nip}
+                </div>
+            </div>   
+        {/if}
+        {$hidden_is_default}
+        {if isset($is_not_default)}
+            <div id="st_form-user-field10" class="st_row" style="margin-left:105px;">
+                {$checkbox_set_as_default}
+                {__ text="Ustaw jako domyślne dane."}
+            </div>
+        {/if}
+        <div class="st_row">
+            <div class="st_field">
+                <span><b>* {__ text="Pola pogrubione są wymagane."}</b></span>
+            </div>
+            <div class="st_field">
+                <span><sup>[1]</sup> <b>{__ text="Jedno z pól jest wymagane."}</b></span>
+            </div>
+        </div>
+        <div id="st_form-user-field10" class="st_row">
+            <div id="st_button-user-edit_data" class="st_button-container" style="margin-right:17px;">
+                <div class="st_button st_align-right">
+                    <div class="st_button-left">
+                        {$save_submit}                     
+                    </div>
+                </div>
+            </div>
+        </div>
+        {$hidden_show_edit_profile_form}
+        {$hidden_uderdata_type}
+        {$hidden_user_data_id}
+        {$hidden_user_data_is_billing}
+        {$hidden_userdata_id}
+    </form>
+</div>
+
+</div>
+</div>
+<br class="st_clear_all" />    
+</div>

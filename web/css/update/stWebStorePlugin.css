@@ -1,0 +1,119 @@
+#applications-list {
+	width: 100%;
+}
+
+#applications-list a
+{
+	text-decoration: none;
+}
+
+#applications-list thead tr {
+	background-color: #f1f1f1;
+}
+
+#applications-list thead th {
+	text-align: left;
+}
+
+
+
+.application-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.application-icon-th {
+	width: 30px;
+}
+
+#applications-list .st_admin-actions {
+	float: left;
+	margin: 0px;
+}
+
+#applications-list .st_admin-actions li {
+	margin: 0px;
+}
+
+.package-info {
+	float: left;
+	width: 625px;
+}
+
+.package-info li span {
+	font-weight: bold;
+	float: left;
+	width: 150px;
+}
+
+.package-info-description {
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #f6f6f6; border-radius : 5px;
+	-web-kit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.package-info-column-right {
+	float: left;
+	width: 220px;
+	margin-left: 20px;
+}
+
+.package-info-image {
+	width: 220px;
+	height: 220px;
+	position: relative;
+	top: -5px;
+}
+
+.package-info-column-right .st_admin-actions {
+	float: none;
+}
+
+.package-info-column-right .st_admin-actions  .st_admin-action-add {
+    margin-left: 30px;    
+}
+
+.package-info-column-right .st_admin-actions .st_admin-action-download {
+    margin-left: 65px;
+}
+
+.st_admin-actions a {
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #000000;
+    cursor: pointer;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    height: 22px;
+    margin: 0;
+    padding: 4px 10px 0px 35px;
+    display: block;
+    text-decoration: none;
+}
+
+#button_buy {
+	border: 1px solid #ddd;
+	height: 23px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	background-position: 10px 8px;
+	padding-top: 6px;
+	padding-left: 31px;
+	background-color: #f8f8f8;
+}
+
+#button_buy:hover
+{
+	font-size: 12px;
+	background-color: #eee;
+
+}
+
+table
+{
+	border-color: #ddd;
+}

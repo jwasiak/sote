@@ -1,0 +1,52 @@
+generator:
+    class:                     stAdminGenerator
+    param:
+        model_class:             Producer
+        theme:                   simple
+        head:
+            package:             stProducer     
+            title:               Producenci
+            description:         Zarządzanie producentami w sklepie. 
+        applications:            [stProduct]
+        list:
+            display:             [_list_image, =name]
+            title:               Lista
+            description:         Zarządzanie producentami w sklepie. 
+            fields:
+                 name:          {name: Nazwa, sort_field: producer_i18n.name}
+                 list_image:    {name: Logo}
+            actions:
+                _create:         {name: Dodaj}
+            object_actions:
+                _edit:           -
+                _delete:         -
+            peer_method:         doSelectWithI18n
+            peer_count_method:   doCountWithI18n
+            filters:
+                name:            {filter_field: producer_i18n.name}
+
+        edit:
+            title:               Edycja producenta %%name%%   
+            description:         Zarządzanie producentami w sklepie.
+            display:
+                "NONE":          [id, name, _image, description]
+            fields:
+                name:            {name: Nazwa, params: disabled=false size=40}
+                description:     {name: Opis, type: textarea_tag, params: size=90x20 rich=true tinymce_options='height:300,width:600' disabled=false}
+                image:           {name: Załącz/Zmień Logo}
+            actions:                        
+                _list:           {name: Lista} 
+                _save:           {name: Zapisz}      
+                _delete:         {name: Usuń}
+                _save_and_add:   {name: Zapisz i dodaj}
+        config:
+            title:               Konfiguracja
+            description:         Zarządzanie producentami w sklepie.
+            display:             [show_select_above_category, show_filter_in_category, clear_filter]
+            fields:
+                 show_select_above_category:  {name: Pokaż filtr producentów nad drzewem kategorii, type: checkbox, old_config: true}
+                 show_filter_in_category:     {name: Pokaż "filtruj po producentach" po wyborze kategorii, type: checkbox}
+                 clear_filter:                {name: Zeruj filtr producentów po przejściu na stronę główną, type: checkbox}
+            actions:
+                _save:                      {name: Zapisz}
+                

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2010-11-04T02:51:44Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Platba</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Kliknij przycisk</source>
+				<target>Kliknite tlačidlo</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>"Zapłać"</source>
+				<target>"Zaplatiť"</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>aby przejść do serwisu Moneybookers.</source>
+				<target>ak chcete prejsť do servisu Moneybookers.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Zaplatiť</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Ďakujeme za zrealizovanie platby.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Platba bola nakonfigurovaná nesprávne.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Platba nebola zrealizovaná.</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>sklepu</source>
+				<target>obchodu</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,8 @@
+fields:
+   delivery_type{name}:
+      required:   
+         msg: Musisz podać nazwę grupy
+      sfPropelUniqueValidator:
+         class:          DeliveryType
+         column:         name
+         unique_error:   "Podana grupa już instnieje, proszę podać inną nazwę."

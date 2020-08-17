@@ -1,0 +1,32 @@
+positioning_model_class:        CategoryHasPositioning
+
+custom_actions:
+    edit:                       [positioning]
+
+positioning_create:
+    title:                      Dodaj meta tagi do kategorii %%category_path%%
+
+positioning_edit:
+    forward_parameters:         [category_id]
+    menu:                       {use: edit.menu}
+    build_options:
+        related_id:             forward_parameters.category_id
+    description:                Zarządzanie kategoriami w sklepie.
+    title:                      Dodaj meta tagi do kategorii %%category_path%%
+    display:
+        "NONE":                 [_category_url, ~category_type, title, description, keywords]
+    fields:
+        category_type:          {name: Opcje wyświetlania, module: stPositioningBackend}
+        title:                  {name: Tytuł strony, help: "Tytuł należy zmieścić w około 65-75 znakach wraz ze spacjami.", params: size=50 disabled=false, i18n: stPositioningBackend}
+        keywords:               {name: Słowa kluczowe, help: "Słowa kluczowe powinny być oddzielone przecinkiem. Przykład: słowo, słowo, słowo", type: textarea_tag, params: size=60x4, i18n: stPositioningBackend}
+        description:            {name: Opis strony, help: "Opis strony powinien mieć mniej niż 160 znaków ze spacjami.", type: textarea_tag, params: size=60x5, i18n: stPositioningBackend}
+        category_url:           {name: Przyjazny link}
+    actions:
+        _save:                  {name: Zapisz}  
+
+edit:
+    menu:
+        display:                [positioning]
+        fields:
+            _edit:              {name: Edycja podstawowa}
+            positioning:        {name: Pozycjonowanie, action: stCategory/positioningEdit?category_id=%%id%%}

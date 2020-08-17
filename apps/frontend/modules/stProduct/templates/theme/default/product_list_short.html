@@ -1,0 +1,45 @@
+<div id="st_component-st_product-product_list_short_head"></div>
+{foreach key=row item=product from=$results} 
+    <div class="st_component-st_product-product_list_short">
+        <div class="st_product-list_short_product_image">{if ($show_image)==1}{$product.photo}{/if}</div>
+        <div class="st_product-list_short_product_name">
+            {if ($show_name)==1}{$product.name}{/if}
+            {if ($show_code)==1}<br />{__ text="Kod"}: {$product.code}{/if}
+        </div>    
+        {if ($show_price)==1}
+            {if ($product.check_price)!=1}
+                {if $price_view=='net_gross'}
+                    <div class="st_product-list_short_product_price">{$product.price_net}<br /> (<span>{$product.price}</span>)</div>
+                {elseif $price_view=='only_gross'}
+                    <div class="st_product-list_short_product_price">{$product.price}</div>
+                {elseif $price_view=='only_net'}
+                    <div class="st_product-list_short_product_price">{$product.price_net}</div>
+                {elseif $price_view=='gross_net'}
+                    <div class="st_product-list_short_product_price">{$product.price}<br /> (<span>{$product.price_net}</span>)</div>
+                {/if}
+                {if $show_discount==1 && $product.discount!=0}
+                    <div class="st_product-list_short_product_discount">{__ text="Rabat"}: <span>{$product.discount} %</span></div>
+                {elseif ($show_old_price==1)}  
+                    {if $product.check_old_price==1}
+                        {if ($price_view=='net_gross' || $price_view=='only_net')}
+                            <div class="st_product-list_short_product_old_price">{__ text="Stara cena"}:<br /> <span>{$product.old_price_net}</span></div>
+                        {else}
+                            <div class="st_product-list_short_product_old_price">{__ text="Stara cena"}:<br /> <span>{$product.old_price}</span></div>
+                        {/if}
+                    {else}
+                        <div class="st_product-list_short_product_discount"></div>
+                    {/if}
+                {else}
+                    <div class="st_product-list_short_product_discount"></div>
+                {/if}
+                {if $show_basket==1}
+                    {$product.basket}
+                {/if}
+            {/if}
+        {/if}
+        <br class="st_clear_all" />
+    </div>
+{/foreach}                          
+<div id="st_component-st_product-product_list_short_foot">
+    <br class="st_clear_all" />
+</div>

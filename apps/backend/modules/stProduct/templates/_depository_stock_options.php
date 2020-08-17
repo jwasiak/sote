@@ -1,0 +1,1 @@
+<?php echo st_get_component('stProductOptionsStockBackend', 'depositoryStockOptions',array('product' => $product, 'forward_parameters' => $forward_parameters))?>

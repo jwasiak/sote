@@ -1,0 +1,6 @@
+<h1>{__ text="Lista stron www"}:</h1><br />
+<ul>
+    {foreach key=row item=webpage from=$results} 
+        <li>{$webpage.link}</li>
+    {/foreach}
+</ul>

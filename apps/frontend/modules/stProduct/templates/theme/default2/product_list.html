@@ -1,0 +1,26 @@
+<div id="list">
+    {if $category_id>0}
+        {$category_info}
+    {elseif $producer_id>0}
+        {$producer_info}
+    {else}
+        <h2>{$title_text}</h2>
+    {/if}
+    
+    {if $product_all>0}
+        {slot name="before_product_list_sort" hidden="true"}{/slot}
+       <div class="roundies box box_product_type">
+            {$producer_filter}
+            {$sort}
+            {$list_type}
+        <div class="clear"></div>
+        </div>
+        {slot name="before_product_list" hidden="true"}{/slot}
+        {$pager}
+        {$product_list}       
+        {$pager}
+        {slot name="after_product_list" hidden="true"}{/slot}
+    {elseif $show_no_products_notice}
+        <p class="center">{__ text="Brak produktów dla wybranych kryteriów"}</p>
+    {/if}
+</div>

@@ -1,0 +1,2763 @@
+Countries:
+  Countries_1:
+    iso_a2: AL
+    iso_a3: ALB
+    continent: E
+    number: "008"
+    culture: pl_PL
+    name: Albania
+    is_active: 1
+  Countries_2:
+    iso_a2: AD
+    iso_a3: AND
+    continent: E
+    number: "020"
+    culture: pl_PL
+    name: Andora
+    is_active: 1
+  Countries_3:
+    iso_a2: AM
+    iso_a3: AMR
+    continent: E
+    number: "051"
+    culture: pl_PL
+    name: Armenia
+    is_active: 1
+  Countries_4:
+    iso_a2: AT
+    iso_a3: AUT
+    continent: E
+    number: "040"
+    culture: pl_PL
+    name: Austria
+    is_active: 1
+  Countries_5:
+    iso_a2: AZ
+    iso_a3: AZE
+    continent: E
+    number: "031"
+    culture: pl_PL
+    name: Azerbejdżan
+    is_active: 1
+  Countries_6:
+    iso_a2: BY
+    iso_a3: BLR
+    continent: E
+    number: "112"
+    culture: pl_PL
+    name: Białoruś
+    is_active: 1
+  Countries_7:
+    iso_a2: BE
+    iso_a3: BEL
+    continent: E
+    number: "056"
+    culture: pl_PL
+    name: Belgia
+    is_active: 1
+  Countries_8:
+    iso_a2: BA
+    iso_a3: BIH
+    continent: E
+    number: "070"
+    culture: pl_PL
+    name: Bośnia i Hercegowina
+    is_active: 1
+  Countries_9:
+    iso_a2: BG
+    iso_a3: BGR
+    continent: E
+    number: "100"
+    culture: pl_PL
+    name: Bułgaria
+    is_active: 1
+  Countries_10:
+    iso_a2: HR
+    iso_a3: HRV
+    continent: E
+    number: "191"
+    culture: pl_PL
+    name: Chorwacja
+    is_active: 1
+  Countries_11:
+    iso_a2: CY
+    iso_a3: CYP
+    continent: E
+    number: "196"
+    culture: pl_PL
+    name: Cypr
+    is_active: 1
+  Countries_12:
+    iso_a2: CZ
+    iso_a3: CZE
+    continent: E
+    number: "203"
+    culture: pl_PL
+    name: Czechy
+    is_active: 1
+  Countries_13:
+    iso_a2: DK
+    iso_a3: DNK
+    continent: E
+    number: "208"
+    culture: pl_PL
+    name: Dania
+    is_active: 1
+  Countries_14:
+    iso_a2: EE
+    iso_a3: EST
+    continent: E
+    number: "233"
+    culture: pl_PL
+    name: Estonia
+    is_active: 1
+  Countries_15:
+    iso_a2: FI
+    iso_a3: FIN
+    continent: E
+    number: "246"
+    culture: pl_PL
+    name: Finlandia
+    is_active: 1
+  Countries_16:
+    iso_a2: FR
+    iso_a3: FRA
+    continent: E
+    number: "250"
+    culture: pl_PL
+    name: Francja
+    is_active: 1
+  Countries_17:
+    iso_a2: GE
+    iso_a3: GEO
+    continent: E
+    number: "268"
+    culture: pl_PL
+    name: Gruzja
+    is_active: 1
+  Countries_18:
+    iso_a2: DE
+    iso_a3: DEU
+    continent: E
+    number: "276"
+    culture: pl_PL
+    name: Niemcy
+    is_active: 1
+  Countries_19:
+    iso_a2: GR
+    iso_a3: GRC
+    continent: E
+    number: "300"
+    culture: pl_PL
+    name: Grecja
+    is_active: 1
+  Countries_20:
+    iso_a2: HU
+    iso_a3: HUN
+    continent: E
+    number: "348"
+    culture: pl_PL
+    name: Węgry
+    is_active: 1
+  Countries_21:
+    iso_a2: IS
+    iso_a3: ISL
+    continent: E
+    number: "352"
+    culture: pl_PL
+    name: Islandia
+    is_active: 1
+  Countries_22:
+    iso_a2: IE
+    iso_a3: IRL
+    continent: E
+    number: "372"
+    culture: pl_PL
+    name: Irlandia
+    is_active: 1
+  Countries_23:
+    iso_a2: IT
+    iso_a3: ITA
+    continent: E
+    number: "380"
+    culture: pl_PL
+    name: Włochy
+    is_active: 1
+  Countries_24:
+    iso_a2: KZ
+    iso_a3: KAZ
+    continent: E
+    number: "398"
+    culture: pl_PL
+    name: Kazachstan
+    is_active: 1
+  Countries_25:
+    iso_a2: LV
+    iso_a3: LVA
+    continent: E
+    number: "428"
+    culture: pl_PL
+    name: Łotwa
+    is_active: 1
+  Countries_26:
+    iso_a2: LI
+    iso_a3: LIE
+    continent: E
+    number: "438"
+    culture: pl_PL
+    name: Liechtenstein
+    is_active: 1
+  Countries_27:
+    iso_a2: LT
+    iso_a3: LTU
+    continent: E
+    number: "440"
+    culture: pl_PL
+    name: Litwa
+    is_active: 1
+  Countries_28:
+    iso_a2: LU
+    iso_a3: LUX
+    continent: E
+    number: "442"
+    culture: pl_PL
+    name: Luksemburg
+    is_active: 1
+  Countries_29:
+    iso_a2: MK
+    iso_a3: MKD
+    continent: E
+    number: "807"
+    culture: pl_PL
+    name: Macedonia
+    is_active: 1
+  Countries_30:
+    iso_a2: MT
+    iso_a3: MLT
+    continent: E
+    number: "470"
+    culture: pl_PL
+    name: Malta
+    is_active: 1
+  Countries_31:
+    iso_a2: MD
+    iso_a3: MDA
+    continent: E
+    number: "498"
+    culture: pl_PL
+    name: Mołdawia
+    is_active: 1
+  Countries_32:
+    iso_a2: MC
+    iso_a3: MCO
+    continent: E
+    number: "492"
+    culture: pl_PL
+    name: Monako
+    is_active: 1
+  Countries_33:
+    iso_a2: ME
+    iso_a3: MNE
+    continent: E
+    number: "499"
+    culture: pl_PL
+    name: Czarnogóra
+    is_active: 1
+  Countries_34:
+    iso_a2: NL
+    iso_a3: NLD
+    continent: E
+    number: "528"
+    culture: pl_PL
+    name: Holandia
+    is_active: 1
+  Countries_35:
+    iso_a2: 'NO'
+    iso_a3: NOR
+    continent: E
+    number: "578"
+    culture: pl_PL
+    name: Norwegia
+    is_active: 1
+  Countries_36:
+    iso_a2: PL
+    iso_a3: POL
+    continent: E
+    number: "616"
+    culture: pl_PL
+    name: Polska
+    is_active: 1
+    is_default: 1
+  Countries_37:
+    iso_a2: PT
+    iso_a3: PRT
+    continent: E
+    number: "620"
+    culture: pl_PL
+    name: Portugalia
+    is_active: 1
+  Countries_38:
+    iso_a2: RO
+    iso_a3: ROU
+    continent: E
+    number: "642"
+    culture: pl_PL
+    name: Rumunia
+    is_active: 1
+  Countries_39:
+    iso_a2: RU
+    iso_a3: RUS
+    continent: E
+    number: "643"
+    culture: pl_PL
+    name: Rosja
+    is_active: 1
+  Countries_40:
+    iso_a2: SM
+    iso_a3: SMR
+    continent: E
+    number: "674"
+    culture: pl_PL
+    name: San Marino
+    is_active: 1
+  Countries_41:
+    iso_a2: RS
+    iso_a3: SRB
+    continent: E
+    number: "688"
+    culture: pl_PL
+    name: Serbia
+    is_active: 1
+  Countries_42:
+    iso_a2: SK
+    iso_a3: SVK
+    continent: E
+    number: "222"
+    culture: pl_PL
+    name: Słowacja
+    is_active: 1
+  Countries_43:
+    iso_a2: SI
+    iso_a3: SVN
+    continent: E
+    number: "705"
+    culture: pl_PL
+    name: Słowenia
+    is_active: 1
+  Countries_44:
+    iso_a2: ES
+    iso_a3: ESP
+    continent: E
+    number: "724"
+    culture: pl_PL
+    name: Hiszpania
+    is_active: 1
+  Countries_45:
+    iso_a2: SE
+    iso_a3: SWE
+    continent: E
+    number: "752"
+    culture: pl_PL
+    name: Szwecja
+    is_active: 1
+  Countries_46:
+    iso_a2: CH
+    iso_a3: CHE
+    continent: E
+    number: "756"
+    culture: pl_PL
+    name: Szwajcaria
+    is_active: 1
+  Countries_47:
+    iso_a2: TR
+    iso_a3: TUR
+    continent: E
+    number: "792"
+    culture: pl_PL
+    name: Turcja
+    is_active: 1
+  Countries_48:
+    iso_a2: UA
+    iso_a3: UKR
+    continent: E
+    number: "804"
+    culture: pl_PL
+    name: Ukraina
+    is_active: 1
+  Countries_49:
+    iso_a2: GB
+    iso_a3: GBR
+    continent: E
+    number: "826"
+    culture: pl_PL
+    name: Wielka Brytania
+    is_active: 1
+  Countries_50:
+    iso_a2: VA
+    iso_a3: VAT
+    continent: E
+    number: "336"
+    culture: pl_PL
+    name: Watykan
+    is_active: 1
+  Countries_51:
+    iso_a2: AX
+    iso_a3: ALA
+    continent: E
+    number: "248"
+    culture: pl_PL
+    name: Wyspy Alandzkie
+    is_active: 1
+  Countries_52:
+    iso_a2: FO
+    iso_a3: FRO
+    continent: E
+    number: "234"
+    culture: pl_PL
+    name: Wyspy Owcze
+    is_active: 1
+  Countries_53:
+    iso_a2: GI
+    iso_a3: GIB
+    continent: E
+    number: "292"
+    culture: pl_PL
+    name: Gibraltar
+    is_active: 1
+  Countries_54:
+    iso_a2: GL
+    iso_a3: GRL
+    continent: E
+    number: "304"
+    culture: pl_PL
+    name: Grenlandia
+    is_active: 1
+  Countries_55:
+    iso_a2: AG
+    iso_a3: ATG
+    continent: NA
+    number: "028"
+    culture: pl_PL
+    name: Antigua i Barbuda
+    is_active: 1
+  Countries_56:
+    iso_a2: BS
+    iso_a3: BHS
+    continent: NA
+    number: "044"
+    culture: pl_PL
+    name: Bahamy
+    is_active: 1
+  Countries_57:
+    iso_a2: BB
+    iso_a3: BRB
+    continent: NA
+    number: "052"
+    culture: pl_PL
+    name: Barbados
+    is_active: 1
+  Countries_58:
+    iso_a2: BZ
+    iso_a3: BLZ
+    continent: NA
+    number: "084"
+    culture: pl_PL
+    name: Belize
+    is_active: 1
+  Countries_59:
+    iso_a2: DM
+    iso_a3: DMA
+    continent: NA
+    number: 212
+    culture: pl_PL
+    name: Dominika
+    is_active: 1
+  Countries_60:
+    iso_a2: DO
+    iso_a3: DOM
+    continent: NA
+    number: 214
+    culture: pl_PL
+    name: Dominikana
+    is_active: 1
+  Countries_61:
+    iso_a2: GD
+    iso_a3: GRD
+    continent: NA
+    number: 308
+    culture: pl_PL
+    name: Grenada
+    is_active: 1
+  Countries_62:
+    iso_a2: GT
+    iso_a3: GTM
+    continent: NA
+    number: 320
+    culture: pl_PL
+    name: Gwatemala
+    is_active: 1
+  Countries_63:
+    iso_a2: HT
+    iso_a3: HTI
+    continent: NA
+    number: 332
+    culture: pl_PL
+    name: Haiti
+    is_active: 1
+  Countries_64:
+    iso_a2: HN
+    iso_a3: HND
+    continent: NA
+    number: 340
+    culture: pl_PL
+    name: Honduras
+    is_active: 1
+  Countries_65:
+    iso_a2: JM
+    iso_a3: JAM
+    continent: NA
+    number: 388
+    culture: pl_PL
+    name: Jamajka
+    is_active: 1
+  Countries_66:
+    iso_a2: CA
+    iso_a3: CAN
+    continent: NA
+    number: 124
+    culture: pl_PL
+    name: Kanada
+    is_active: 1
+  Countries_67:
+    iso_a2: CR
+    iso_a3: CRI
+    continent: NA
+    number: 188
+    culture: pl_PL
+    name: Kostaryka
+    is_active: 1
+  Countries_68:
+    iso_a2: CU
+    iso_a3: CUB
+    continent: NA
+    number: 192
+    culture: pl_PL
+    name: Kuba
+    is_active: 1
+  Countries_69:
+    iso_a2: MX
+    iso_a3: MEX
+    continent: NA
+    number: 484
+    culture: pl_PL
+    name: Meksyk
+    is_active: 1
+  Countries_70:
+    iso_a2: NI
+    iso_a3: NIC
+    continent: NA
+    number: 558
+    culture: pl_PL
+    name: Nikaragua
+    is_active: 1
+  Countries_71:
+    iso_a2: PA
+    iso_a3: PAN
+    continent: NA
+    number: 591
+    culture: pl_PL
+    name: Panama
+    is_active: 1
+  Countries_72:
+    iso_a2: PR
+    iso_a3: PRI
+    continent: NA
+    number: 630
+    culture: pl_PL
+    name: Portoryko
+    is_active: 1
+  Countries_73:
+    iso_a2: KN
+    iso_a3: KNA
+    continent: NA
+    number: 659
+    culture: pl_PL
+    name: Saint Kitts i Nevis
+    is_active: 1
+  Countries_74:
+    iso_a2: LC
+    iso_a3: LCA
+    continent: NA
+    number: 662
+    culture: pl_PL
+    name: Saint Lucia
+    is_active: 1
+  Countries_75:
+    iso_a2: VC
+    iso_a3: VCT
+    continent: NA
+    number: 670
+    culture: pl_PL
+    name: Saint Vincent i Grenadyny
+    is_active: 1
+  Countries_76:
+    iso_a2: SV
+    iso_a3: SLV
+    continent: NA
+    number: 222
+    culture: pl_PL
+    name: Salwador
+    is_active: 1
+  Countries_77:
+    iso_a2: US
+    iso_a3: USA
+    continent: NA
+    number: 840
+    culture: pl_PL
+    name: Stany Zjednoczone
+    is_active: 1
+  Countries_78:
+    iso_a2: TT
+    iso_a3: TTO
+    continent: NA
+    number: 780
+    culture: pl_PL
+    name: Trynidad i Tobago
+    is_active: 1
+  Countries_79:
+    iso_a2: AI
+    iso_a3: AIA
+    continent: NA
+    number: 660
+    culture: pl_PL
+    name: Anquilla
+    is_active: 1
+  Countries_80:
+    iso_a2: AN
+    iso_a3: ANT
+    continent: NA
+    number: 530
+    culture: pl_PL
+    name: Antyle Holenderskie
+    is_active: 1
+  Countries_81:
+    iso_a2: AW
+    iso_a3: ABW
+    continent: NA
+    number: 533
+    culture: pl_PL
+    name: Aruba
+    is_active: 1
+  Countries_82:
+    iso_a2: BM
+    iso_a3: BMU
+    continent: NA
+    number: 060
+    culture: pl_PL
+    name: Bermudy
+    is_active: 1
+  Countries_83:
+    iso_a2: VG
+    iso_a3: VGB
+    continent: NA
+    number: "092"
+    culture: pl_PL
+    name: Brytyjskie Wyspy Dziewicze
+    is_active: 1
+  Countries_84:
+    iso_a2: GP
+    iso_a3: GLP
+    continent: NA
+    number: 312
+    culture: pl_PL
+    name: Gwadelupa
+    is_active: 1
+  Countries_85:
+    iso_a2: KY
+    iso_a3: CYM
+    continent: NA
+    number: 136
+    culture: pl_PL
+    name: Kajmany
+    is_active: 1
+  Countries_86:
+    iso_a2: MQ
+    iso_a3: MTQ
+    continent: NA
+    number: 474
+    culture: pl_PL
+    name: Martynika
+    is_active: 1
+  Countries_87:
+    iso_a2: MS
+    iso_a3: MSR
+    continent: NA
+    number: 500
+    culture: pl_PL
+    name: Montserrat
+    is_active: 1
+  Countries_88:
+    iso_a2: PM
+    iso_a3: SPM
+    continent: NA
+    number: 666
+    culture: pl_PL
+    name: Saint-Pierre i Miquelon
+    is_active: 1
+  Countries_89:
+    iso_a2: TC
+    iso_a3: TCA
+    continent: NA
+    number: 796
+    culture: pl_PL
+    name: Turks i Caicos
+    is_active: 1
+  Countries_90:
+    iso_a2: VI
+    iso_a3: VIR
+    continent: NA
+    number: 850
+    culture: pl_PL
+    name: Wyspy Dziewicze Stanów Zjednoczonych
+    is_active: 1
+  Countries_91:
+    iso_a2: AR
+    iso_a3: ARG
+    continent: SA
+    number: "032"
+    culture: pl_PL
+    name: Argentyna
+    is_active: 1
+  Countries_92:
+    iso_a2: BO
+    iso_a3: BOL
+    continent: SA
+    number: "068"
+    culture: pl_PL
+    name: Boliwia
+    is_active: 1
+  Countries_93:
+    iso_a2: BR
+    iso_a3: BRA
+    continent: SA
+    number: "076"
+    culture: pl_PL
+    name: Brazylia
+    is_active: 1
+  Countries_94:
+    iso_a2: CL
+    iso_a3: CHL
+    continent: SA
+    number: 152
+    culture: pl_PL
+    name: Chile
+    is_active: 1
+  Countries_95:
+    iso_a2: CO
+    iso_a3: COL
+    continent: SA
+    number: 170
+    culture: pl_PL
+    name: Kolumbia
+    is_active: 1
+  Countries_96:
+    iso_a2: EC
+    iso_a3: ECU
+    continent: SA
+    number: 218
+    culture: pl_PL
+    name: Ekwador
+    is_active: 1
+  Countries_97:
+    iso_a2: FK
+    iso_a3: FLK
+    continent: SA
+    number: 238
+    culture: pl_PL
+    name: Falklandy
+    is_active: 1
+  Countries_98:
+    iso_a2: GF
+    iso_a3: GUF
+    continent: SA
+    number: 254
+    culture: pl_PL
+    name: Gujana Francuska
+    is_active: 1
+  Countries_99:
+    iso_a2: GY
+    iso_a3: GUY
+    continent: SA
+    number: 328
+    culture: pl_PL
+    name: Gujana
+    is_active: 1
+  Countries_100:
+    iso_a2: PY
+    iso_a3: PRY
+    continent: SA
+    number: 600
+    culture: pl_PL
+    name: Paragwaj
+    is_active: 1
+  Countries_101:
+    iso_a2: PE
+    iso_a3: PER
+    continent: SA
+    number: 604
+    culture: pl_PL
+    name: Peru
+    is_active: 1
+  Countries_102:
+    iso_a2: GS
+    iso_a3: SGS
+    continent: SA
+    number: 239
+    culture: pl_PL
+    name: Georgia Południowa i Sandwich Południowy
+    is_active: 1
+  Countries_103:
+    iso_a2: SR
+    iso_a3: SUR
+    continent: SA
+    number: 740
+    culture: pl_PL
+    name: Surinam
+    is_active: 1
+  Countries_104:
+    iso_a2: UY
+    iso_a3: URY
+    continent: SA
+    number: 858
+    culture: pl_PL
+    name: Urugway
+    is_active: 1
+  Countries_105:
+    iso_a2: VE
+    iso_a3: VEN
+    continent: SA
+    number: 740
+    culture: pl_PL
+    name: Wenezuela
+    is_active: 1
+  Countries_106:
+    iso_a2: AU
+    iso_a3: AUS
+    continent: AO
+    number: "036"
+    culture: pl_PL
+    name: Australia
+    is_active: 1
+  Countries_107:
+    iso_a2: NZ
+    iso_a3: NZL
+    continent: AO
+    number: 554
+    culture: pl_PL
+    name: Nowa Zelandia
+    is_active: 1
+  Countries_108:
+    iso_a2: CX
+    iso_a3: CXR
+    continent: AO
+    number: 162
+    culture: pl_PL
+    name: Wyspa Bożego Narodzenia
+    is_active: 1
+  Countries_109:
+    iso_a2: CC
+    iso_a3: CCK
+    continent: AO
+    number: 166
+    culture: pl_PL
+    name: Wyspy Kokosowe
+    is_active: 1
+  Countries_110:
+    iso_a2: NF
+    iso_a3: NFK
+    continent: AO
+    number: 574
+    culture: pl_PL
+    name: Norfolk
+    is_active: 1
+  Countries_111:
+    iso_a2: FJ
+    iso_a3: FJI
+    continent: AO
+    number: 242
+    culture: pl_PL
+    name: Fidżi
+    is_active: 1
+  Countries_112:
+    iso_a2: NC
+    iso_a3: NCL
+    continent: AO
+    number: 540
+    culture: pl_PL
+    name: Nowa Kaledonia
+    is_active: 1
+  Countries_113:
+    iso_a2: PG
+    iso_a3: PNG
+    continent: AO
+    number: 598
+    culture: pl_PL
+    name: Papua Nowa Gwinea
+    is_active: 1
+  Countries_114:
+    iso_a2: SB
+    iso_a3: SLB
+    continent: AO
+    number: "090"
+    culture: pl_PL
+    name: Wyspy Salomona
+    is_active: 1
+  Countries_115:
+    iso_a2: VU
+    iso_a3: VUT
+    continent: AO
+    number: 548
+    culture: pl_PL
+    name: Vanuatu
+    is_active: 1
+  Countries_116:
+    iso_a2: FM
+    iso_a3: FSM
+    continent: AO
+    number: 583
+    culture: pl_PL
+    name: Mikronezja
+    is_active: 1
+  Countries_117:
+    iso_a2: GU
+    iso_a3: GUM
+    continent: AO
+    number: 316
+    culture: pl_PL
+    name: Guam
+    is_active: 1
+  Countries_118:
+    iso_a2: KI
+    iso_a3: KIR
+    continent: AO
+    number: 296
+    culture: pl_PL
+    name: Kiribati
+    is_active: 1
+  Countries_119:
+    iso_a2: MH
+    iso_a3: MHL
+    continent: AO
+    number: 584
+    culture: pl_PL
+    name: Wyspy Marshalla
+    is_active: 1
+  Countries_120:
+    iso_a2: NR
+    iso_a3: NRU
+    continent: AO
+    number: 520
+    culture: pl_PL
+    name: Nauru
+    is_active: 1
+  Countries_121:
+    iso_a2: MP
+    iso_a3: MNP
+    continent: AO
+    number: 580
+    culture: pl_PL
+    name: Mariany Północne
+    is_active: 1
+  Countries_122:
+    iso_a2: PW
+    iso_a3: PLW
+    continent: AO
+    number: 585
+    culture: pl_PL
+    name: Palau
+    is_active: 1
+  Countries_123:
+    iso_a2: AS
+    iso_a3: ASM
+    continent: AO
+    number: "016"
+    culture: pl_PL
+    name: Samoa Amerykańskie
+    is_active: 1
+  Countries_124:
+    iso_a2: CK
+    iso_a3: COK
+    continent: AO
+    number: 184
+    culture: pl_PL
+    name: Wyspy Cooka
+    is_active: 1
+  Countries_125:
+    iso_a2: PF
+    iso_a3: PYF
+    continent: AO
+    number: 258
+    culture: pl_PL
+    name: Polnezja Francuska
+    is_active: 1
+  Countries_126:
+    iso_a2: NU
+    iso_a3: NIU
+    continent: AO
+    number: 570
+    culture: pl_PL
+    name: Niue
+    is_active: 1
+  Countries_127:
+    iso_a2: PN
+    iso_a3: PCN
+    continent: AO
+    number: 612
+    culture: pl_PL
+    name: Pitcairn
+    is_active: 1
+  Countries_128:
+    iso_a2: WS
+    iso_a3: WSM
+    continent: AO
+    number: 882
+    culture: pl_PL
+    name: Samoa
+    is_active: 1
+  Countries_129:
+    iso_a2: TK
+    iso_a3: TKL
+    continent: AO
+    number: 772
+    culture: pl_PL
+    name: Tokelau
+    is_active: 1
+  Countries_130:
+    iso_a2: TO
+    iso_a3: TON
+    continent: AO
+    number: 776
+    culture: pl_PL
+    name: Tonga
+    is_active: 1
+  Countries_131:
+    iso_a2: TV
+    iso_a3: TUV
+    continent: AO
+    number: 798
+    culture: pl_PL
+    name: Tuvalu
+    is_active: 1
+  Countries_132:
+    iso_a2: WF
+    iso_a3: WLF
+    continent: AO
+    number: 876
+    culture: pl_PL
+    name: Wallis i Futuna
+    is_active: 1
+  Countries_133:
+    iso_a2: AQ
+    iso_a3: ATA
+    continent: AO
+    number: "010"
+    culture: pl_PL
+    name: Antarktyda
+    is_active: 1
+  Countries_134:
+    iso_a2: AF
+    iso_a3: AFG
+    continent: AS
+    number: "004"
+    culture: pl_PL
+    name: Afganistan
+    is_active: 1
+  Countries_135:
+    iso_a2: BH
+    iso_a3: BHR
+    continent: AS
+    number: "048"
+    culture: pl_PL
+    name: Bahrajn
+    is_active: 1
+  Countries_136:
+    iso_a2: BD
+    iso_a3: BGD
+    continent: AS
+    number: "050"
+    culture: pl_PL
+    name: Bangladesz
+    is_active: 1
+  Countries_137:
+    iso_a2: BT
+    iso_a3: BTN
+    continent: AS
+    number: "064"
+    culture: pl_PL
+    name: Bhutan
+    is_active: 1
+  Countries_138:
+    iso_a2: BN
+    iso_a3: BRN
+    continent: AS
+    number: "096"
+    culture: pl_PL
+    name: Brunei Darussalam
+    is_active: 1
+  Countries_139:
+    iso_a2: KH
+    iso_a3: KHM
+    continent: AS
+    number: "116"
+    culture: pl_PL
+    name: Kambodża
+    is_active: 1
+  Countries_140:
+    iso_a2: CN
+    iso_a3: CHN
+    continent: AS
+    number: "156"
+    culture: pl_PL
+    name: Chiny
+    is_active: 1
+  Countries_141:
+    iso_a2: HK
+    iso_a3: HKG
+    continent: AS
+    number: "344"
+    culture: pl_PL
+    name: Hongkong
+    is_active: 1
+  Countries_142:
+    iso_a2: IN
+    iso_a3: IND
+    continent: AS
+    number: "356"
+    culture: pl_PL
+    name: Indie
+    is_active: 1
+  Countries_143:
+    iso_a2: ID
+    iso_a3: IDN
+    continent: AS
+    number: "360"
+    culture: pl_PL
+    name: Indonezja
+    is_active: 1
+  Countries_144:
+    iso_a2: IR
+    iso_a3: IRN
+    continent: AS
+    number: "364"
+    culture: pl_PL
+    name: Iran
+    is_active: 1
+  Countries_145:
+    iso_a2: IQ
+    iso_a3: IRQ
+    continent: AS
+    number: "368"
+    culture: pl_PL
+    name: Irak
+    is_active: 1
+  Countries_146:
+    iso_a2: IL
+    iso_a3: ISR
+    continent: AS
+    number: "376"
+    culture: pl_PL
+    name: Izrael
+    is_active: 1
+  Countries_147:
+    iso_a2: JP
+    iso_a3: JPN
+    continent: AS
+    number: "392"
+    culture: pl_PL
+    name: Japonia
+    is_active: 1
+  Countries_148:
+    iso_a2: JO
+    iso_a3: JOR
+    continent: AS
+    number: "400"
+    culture: pl_PL
+    name: Jordania
+    is_active: 1
+  Countries_149:
+    iso_a2: KP
+    iso_a3: PRK
+    continent: AS
+    number: "408"
+    culture: pl_PL
+    name: Korea Północna
+    is_active: 1
+  Countries_150:
+    iso_a2: KR
+    iso_a3: KOR
+    continent: AS
+    number: "410"
+    culture: pl_PL
+    name: Korea Południowa
+    is_active: 1
+  Countries_151:
+    iso_a2: KW
+    iso_a3: KWT
+    continent: AS
+    number: "414"
+    culture: pl_PL
+    name: Kuwejt
+    is_active: 1
+  Countries_152:
+    iso_a2: KG
+    iso_a3: KGZ
+    continent: AS
+    number: "417"
+    culture: pl_PL
+    name: Kirgistan
+    is_active: 1
+  Countries_153:
+    iso_a2: LA
+    iso_a3: LAO
+    continent: AS
+    number: "418"
+    culture: pl_PL
+    name: Laos
+    is_active: 1
+  Countries_154:
+    iso_a2: LB
+    iso_a3: LBN
+    continent: AS
+    number: "422"
+    culture: pl_PL
+    name: Liban
+    is_active: 1
+  Countries_155:
+    iso_a2: MO
+    iso_a3: MAC
+    continent: AS
+    number: "446"
+    culture: pl_PL
+    name: Macau
+    is_active: 1
+  Countries_156:
+    iso_a2: MY
+    iso_a3: MYS
+    continent: AS
+    number: "458"
+    culture: pl_PL
+    name: Malezja
+    is_active: 1
+  Countries_157:
+    iso_a2: MV
+    iso_a3: MDV
+    continent: AS
+    number: "462"
+    culture: pl_PL
+    name: Malediwy
+    is_active: 1
+  Countries_158:
+    iso_a2: MN
+    iso_a3: MNG
+    continent: AS
+    number: "496"
+    culture: pl_PL
+    name: Mongolia
+    is_active: 1
+  Countries_159:
+    iso_a2: MM
+    iso_a3: MMR
+    continent: AS
+    number: "104"
+    culture: pl_PL
+    name: Birma
+    is_active: 1
+  Countries_160:
+    iso_a2: NP
+    iso_a3: NPL
+    continent: AS
+    number: "524"
+    culture: pl_PL
+    name: Nepal
+    is_active: 1
+  Countries_161:
+    iso_a2: OM
+    iso_a3: OMN
+    continent: AS
+    number: "512"
+    culture: pl_PL
+    name: Oman
+    is_active: 1
+  Countries_162:
+    iso_a2: PK
+    iso_a3: PAK
+    continent: AS
+    number: "586"
+    culture: pl_PL
+    name: Pakistan
+    is_active: 1
+  Countries_163:
+    iso_a2: PS
+    iso_a3: PSE
+    continent: AS
+    number: "275"
+    culture: pl_PL
+    name: Autonomia Palestyńska
+    is_active: 1
+  Countries_164:
+    iso_a2: PH
+    iso_a3: PHL
+    continent: AS
+    number: "608"
+    culture: pl_PL
+    name: Filipiny
+    is_active: 1
+  Countries_165:
+    iso_a2: QA
+    iso_a3: QAT
+    continent: AS
+    number: "634"
+    culture: pl_PL
+    name: Katar
+    is_active: 1
+  Countries_166:
+    iso_a2: SA
+    iso_a3: SAU
+    continent: AS
+    number: "682"
+    culture: pl_PL
+    name: Arabia Saudyjska
+    is_active: 1
+  Countries_167:
+    iso_a2: SG
+    iso_a3: SGP
+    continent: AS
+    number: "702"
+    culture: pl_PL
+    name: Singapur
+    is_active: 1
+  Countries_168:
+    iso_a2: LK
+    iso_a3: LKA
+    continent: AS
+    number: "144"
+    culture: pl_PL
+    name: Sri Lanka
+    is_active: 1
+  Countries_169:
+    iso_a2: SY
+    iso_a3: SYR
+    continent: AS
+    number: "760"
+    culture: pl_PL
+    name: Syria
+    is_active: 1
+  Countries_170:
+    iso_a2: TW
+    iso_a3: TWN
+    continent: AS
+    number: "158"
+    culture: pl_PL
+    name: Tajwan
+    is_active: 1
+  Countries_171:
+    iso_a2: TJ
+    iso_a3: TJK
+    continent: AS
+    number: "762"
+    culture: pl_PL
+    name: Tadżykistan
+    is_active: 1
+  Countries_172:
+    iso_a2: TH
+    iso_a3: THA
+    continent: AS
+    number: "764"
+    culture: pl_PL
+    name: Tajlandia
+    is_active: 1
+  Countries_173:
+    iso_a2: TL
+    iso_a3: TLS
+    continent: AS
+    number: "626"
+    culture: pl_PL
+    name: Timor Wschodni
+    is_active: 1
+  Countries_174:
+    iso_a2: TM
+    iso_a3: TKM
+    continent: AS
+    number: "795"
+    culture: pl_PL
+    name: Turkmenistan
+    is_active: 1
+  Countries_175:
+    iso_a2: AE
+    iso_a3: ARE
+    continent: AS
+    number: "784"
+    culture: pl_PL
+    name: Zjednoczone Emiraty Arabskie
+    is_active: 1
+  Countries_176:
+    iso_a2: UZ
+    iso_a3: UZB
+    continent: AS
+    number: "860"
+    culture: pl_PL
+    name: Uzbekistan
+    is_active: 1
+  Countries_177:
+    iso_a2: VN
+    iso_a3: VNM
+    continent: AS
+    number: "704"
+    culture: pl_PL
+    name: Wietnam
+    is_active: 1
+  Countries_178:
+    iso_a2: YE
+    iso_a3: YEM
+    continent: AS
+    number: "887"
+    culture: pl_PL
+    name: Jemen
+    is_active: 1
+  Countries_179:
+    iso_a2: DZ
+    iso_a3: DZA
+    continent: AF
+    number: "012"
+    culture: pl_PL
+    name: Algieria
+    is_active: 1
+  Countries_180:
+    iso_a2: AO
+    iso_a3: AGO
+    continent: AF
+    number: "024"
+    culture: pl_PL
+    name: Angola
+    is_active: 1
+  Countries_181:
+    iso_a2: BJ
+    iso_a3: BEN
+    continent: AF
+    number: "204"
+    culture: pl_PL
+    name: Benin
+    is_active: 1
+  Countries_182:
+    iso_a2: BW
+    iso_a3: BWA
+    continent: AF
+    number: "072"
+    culture: pl_PL
+    name: Botswana
+    is_active: 1
+  Countries_183:
+    iso_a2: BF
+    iso_a3: BFA
+    continent: AF
+    number: "854"
+    culture: pl_PL
+    name: Burkina Faso
+    is_active: 1
+  Countries_184:
+    iso_a2: BI
+    iso_a3: BDI
+    continent: AF
+    number: "108"
+    culture: pl_PL
+    name: Burundi
+    is_active: 1
+  Countries_185:
+    iso_a2: CM
+    iso_a3: CMR
+    continent: AF
+    number: "120"
+    culture: pl_PL
+    name: Kamerun
+    is_active: 1
+  Countries_186:
+    iso_a2: CV
+    iso_a3: CPV
+    continent: AF
+    number: "132"
+    culture: pl_PL
+    name: Wyspy Zielonego Przylądka
+    is_active: 1
+  Countries_187:
+    iso_a2: CF
+    iso_a3: CAF
+    continent: AF
+    number: "140"
+    culture: pl_PL
+    name: Republika Środkowoafrykańska
+    is_active: 1
+  Countries_188:
+    iso_a2: TD
+    iso_a3: TCD
+    continent: AF
+    number: "148"
+    culture: pl_PL
+    name: Czad
+    is_active: 1
+  Countries_189:
+    iso_a2: KM
+    iso_a3: COM
+    continent: AF
+    number: "174"
+    culture: pl_PL
+    name: Komory
+    is_active: 1
+  Countries_190:
+    iso_a2: CD
+    iso_a3: COD
+    continent: AF
+    number: "180"
+    culture: pl_PL
+    name: Demokratyczna Republika Konga
+    is_active: 1
+  Countries_191:
+    iso_a2: CG
+    iso_a3: COG
+    continent: AF
+    number: "178"
+    culture: pl_PL
+    name: Republika Konga
+    is_active: 1
+  Countries_192:
+    iso_a2: CI
+    iso_a3: CIV
+    continent: AF
+    number: "384"
+    culture: pl_PL
+    name: Wybrzeże Kości Słoniowej
+    is_active: 1
+  Countries_193:
+    iso_a2: DJ
+    iso_a3: DJI
+    continent: AF
+    number: "262"
+    culture: pl_PL
+    name: Dżibuti
+    is_active: 1
+  Countries_194:
+    iso_a2: EG
+    iso_a3: EGY
+    continent: AF
+    number: "818"
+    culture: pl_PL
+    name: Egipt
+    is_active: 1
+  Countries_195:
+    iso_a2: GQ
+    iso_a3: GNQ
+    continent: AF
+    number: "226"
+    culture: pl_PL
+    name: Gwinea Równikowa
+    is_active: 1
+  Countries_196:
+    iso_a2: ER
+    iso_a3: ERI
+    continent: AF
+    number: "232"
+    culture: pl_PL
+    name: Erytrea
+    is_active: 1
+  Countries_197:
+    iso_a2: ET
+    iso_a3: ETH
+    continent: AF
+    number: "231"
+    culture: pl_PL
+    name: Etiopia
+    is_active: 1
+  Countries_198:
+    iso_a2: GA
+    iso_a3: GAB
+    continent: AF
+    number: "266"
+    culture: pl_PL
+    name: Gabon
+    is_active: 1
+  Countries_199:
+    iso_a2: GM
+    iso_a3: GMB
+    continent: AF
+    number: "270"
+    culture: pl_PL
+    name: Gambia
+    is_active: 1
+  Countries_200:
+    iso_a2: GH
+    iso_a3: GHA
+    continent: AF
+    number: "288"
+    culture: pl_PL
+    name: Ghana
+    is_active: 1
+  Countries_201:
+    iso_a2: GN
+    iso_a3: GIN
+    continent: AF
+    number: "324"
+    culture: pl_PL
+    name: Gwinea
+    is_active: 1
+  Countries_202:
+    iso_a2: GW
+    iso_a3: GNB
+    continent: AF
+    number: "624"
+    culture: pl_PL
+    name: Gwinea Bissau
+    is_active: 1
+  Countries_203:
+    iso_a2: KE
+    iso_a3: KEN
+    continent: AF
+    number: "404"
+    culture: pl_PL
+    name: Kenia
+    is_active: 1
+  Countries_204:
+    iso_a2: LS
+    iso_a3: LSO
+    continent: AF
+    number: "426"
+    culture: pl_PL
+    name: Lesotho
+    is_active: 1
+  Countries_205:
+    iso_a2: LR
+    iso_a3: LBR
+    continent: AF
+    number: "430"
+    culture: pl_PL
+    name: Liberia
+    is_active: 1
+  Countries_206:
+    iso_a2: LY
+    iso_a3: LBY
+    continent: AF
+    number: "434"
+    culture: pl_PL
+    name: Libia
+    is_active: 1
+  Countries_207:
+    iso_a2: MG
+    iso_a3: MDG
+    continent: AF
+    number: "450"
+    culture: pl_PL
+    name: Madagaskar
+    is_active: 1
+  Countries_208:
+    iso_a2: MW
+    iso_a3: MWI
+    continent: AF
+    number: "454"
+    culture: pl_PL
+    name: Malawi
+    is_active: 1
+  Countries_209:
+    iso_a2: ML
+    iso_a3: MLI
+    continent: AF
+    number: "466"
+    culture: pl_PL
+    name: Mali
+    is_active: 1
+  Countries_210:
+    iso_a2: MR
+    iso_a3: MRT
+    continent: AF
+    number: "478"
+    culture: pl_PL
+    name: Mauretania
+    is_active: 1
+  Countries_211:
+    iso_a2: MU
+    iso_a3: MUS
+    continent: AF
+    number: "480"
+    culture: pl_PL
+    name: Mauritius
+    is_active: 1
+  Countries_212:
+    iso_a2: MA
+    iso_a3: MAR
+    continent: AF
+    number: "504"
+    culture: pl_PL
+    name: Maroko
+    is_active: 1
+  Countries_213:
+    iso_a2: MZ
+    iso_a3: MOZ
+    continent: AF
+    number: "508"
+    culture: pl_PL
+    name: Mozambik
+    is_active: 1
+  Countries_214:
+    iso_a2: NA
+    iso_a3: NAM
+    continent: AF
+    number: "516"
+    culture: pl_PL
+    name: Namibia
+    is_active: 1
+  Countries_215:
+    iso_a2: NE
+    iso_a3: NER
+    continent: AF
+    number: "562"
+    culture: pl_PL
+    name: Niger
+    is_active: 1
+  Countries_216:
+    iso_a2: NG
+    iso_a3: NGA
+    continent: AF
+    number: "566"
+    culture: pl_PL
+    name: Nigeria
+    is_active: 1
+  Countries_217:
+    iso_a2: RW
+    iso_a3: RWA
+    continent: AF
+    number: "646"
+    culture: pl_PL
+    name: Rwanda
+    is_active: 1
+  Countries_218:
+    iso_a2: ST
+    iso_a3: STP
+    continent: AF
+    number: "678"
+    culture: pl_PL
+    name: Wyspy Świętego Tomasza i Książęca
+    is_active: 1
+  Countries_219:
+    iso_a2: SN
+    iso_a3: SEN
+    continent: AF
+    number: "686"
+    culture: pl_PL
+    name: Senegal
+    is_active: 1
+  Countries_220:
+    iso_a2: SC
+    iso_a3: SYC
+    continent: AF
+    number: "690"
+    culture: pl_PL
+    name: Seszele
+    is_active: 1
+  Countries_221:
+    iso_a2: SL
+    iso_a3: SLE
+    continent: AF
+    number: "694"
+    culture: pl_PL
+    name: Sierra Leone
+    is_active: 1
+  Countries_222:
+    iso_a2: ZA
+    iso_a3: ZAF
+    continent: AF
+    number: "710"
+    culture: pl_PL
+    name: Republika Południowej Afryki
+    is_active: 1
+  Countries_223:
+    iso_a2: SD
+    iso_a3: SDN
+    continent: AF
+    number: "736"
+    culture: pl_PL
+    name: Sudan
+    is_active: 1
+  Countries_224:
+    iso_a2: SZ
+    iso_a3: SWZ
+    continent: AF
+    number: "748"
+    culture: pl_PL
+    name: Suazi
+    is_active: 1
+  Countries_225:
+    iso_a2: TZ
+    iso_a3: TZA
+    continent: AF
+    number: "834"
+    culture: pl_PL
+    name: Tanzania
+    is_active: 1
+  Countries_226:
+    iso_a2: TG
+    iso_a3: TGO
+    continent: AF
+    number: "768"
+    culture: pl_PL
+    name: Togo
+    is_active: 1
+  Countries_227:
+    iso_a2: TN
+    iso_a3: TUN
+    continent: AF
+    number: "788"
+    culture: pl_PL
+    name: Tunezja
+    is_active: 1
+  Countries_228:
+    iso_a2: UG
+    iso_a3: UGA
+    continent: AF
+    number: "800"
+    culture: pl_PL
+    name: Uganda
+    is_active: 1
+  Countries_229:
+    iso_a2: ZM
+    iso_a3: ZMB
+    continent: AF
+    number: "894"
+    culture: pl_PL
+    name: Zambia
+    is_active: 1
+  Countries_230:
+    iso_a2: ZW
+    iso_a3: ZWE
+    continent: AF
+    number: "716"
+    culture: pl_PL
+    name: Zimbabwe
+    is_active: 1
+CountriesI18n:
+  CountriesI18n_2:
+    id: Countries_1
+    culture: en_US
+    name: Albania
+  CountriesI18n_4:
+    id: Countries_2
+    culture: en_US
+    name: Andorra
+  CountriesI18n_6:
+    id: Countries_3
+    culture: en_US
+    name: Armenia
+  CountriesI18n_8:
+    id: Countries_4
+    culture: en_US
+    name: Austria
+  CountriesI18n_10:
+    id: Countries_5
+    culture: en_US
+    name: Azerbaijan
+  CountriesI18n_12:
+    id: Countries_6
+    culture: en_US
+    name: Belarus
+  CountriesI18n_14:
+    id: Countries_7
+    culture: en_US
+    name: Belgium
+  CountriesI18n_16:
+    id: Countries_8
+    culture: en_US
+    name: Bosnia and Herzegovina
+  CountriesI18n_18:
+    id: Countries_9
+    culture: en_US
+    name: Bulgaria
+  CountriesI18n_20:
+    id: Countries_10
+    culture: en_US
+    name: Croatia
+  CountriesI18n_22:
+    id: Countries_11
+    culture: en_US
+    name: Cyprus
+  CountriesI18n_24:
+    id: Countries_12
+    culture: en_US
+    name: Czech Republic
+  CountriesI18n_26:
+    id: Countries_13
+    culture: en_US
+    name: Denmark
+  CountriesI18n_28:
+    id: Countries_14
+    culture: en_US
+    name: Estonia
+  CountriesI18n_30:
+    id: Countries_15
+    culture: en_US
+    name: Finland
+  CountriesI18n_32:
+    id: Countries_16
+    culture: en_US
+    name: France
+  CountriesI18n_34:
+    id: Countries_17
+    culture: en_US
+    name: Georgia
+  CountriesI18n_36:
+    id: Countries_18
+    culture: en_US
+    name: Germany
+  CountriesI18n_38:
+    id: Countries_19
+    culture: en_US
+    name: Greece
+  CountriesI18n_40:
+    id: Countries_20
+    culture: en_US
+    name: Hungary
+  CountriesI18n_42:
+    id: Countries_21
+    culture: en_US
+    name: Iceland
+  CountriesI18n_44:
+    id: Countries_22
+    culture: en_US
+    name: Ireland
+  CountriesI18n_46:
+    id: Countries_23
+    culture: en_US
+    name: Italy
+  CountriesI18n_48:
+    id: Countries_24
+    culture: en_US
+    name: Kazakhstan
+  CountriesI18n_50:
+    id: Countries_25
+    culture: en_US
+    name: Latvia
+  CountriesI18n_52:
+    id: Countries_26
+    culture: en_US
+    name: Liechtenstein
+  CountriesI18n_54:
+    id: Countries_27
+    culture: en_US
+    name: Lithuania
+  CountriesI18n_56:
+    id: Countries_28
+    culture: en_US
+    name: Luxembourg
+  CountriesI18n_58:
+    id: Countries_29
+    culture: en_US
+    name: Macedonia
+  CountriesI18n_60:
+    id: Countries_30
+    culture: en_US
+    name: Malta
+  CountriesI18n_62:
+    id: Countries_31
+    culture: en_US
+    name: Moldova
+  CountriesI18n_64:
+    id: Countries_32
+    culture: en_US
+    name: Monaco
+  CountriesI18n_66:
+    id: Countries_33
+    culture: en_US
+    name: Montenegro
+  CountriesI18n_68:
+    id: Countries_34
+    culture: en_US
+    name: Netherlands
+  CountriesI18n_70:
+    id: Countries_35
+    culture: en_US
+    name: Norway
+  CountriesI18n_72:
+    id: Countries_36
+    culture: en_US
+    name: Poland
+  CountriesI18n_74:
+    id: Countries_37
+    culture: en_US
+    name: Portugal
+  CountriesI18n_76:
+    id: Countries_38
+    culture: en_US
+    name: Romania
+  CountriesI18n_78:
+    id: Countries_39
+    culture: en_US
+    name: Russia
+  CountriesI18n_80:
+    id: Countries_40
+    culture: en_US
+    name: San Marino
+  CountriesI18n_82:
+    id: Countries_41
+    culture: en_US
+    name: Serbia
+  CountriesI18n_84:
+    id: Countries_42
+    culture: en_US
+    name: Slovakia
+  CountriesI18n_86:
+    id: Countries_43
+    culture: en_US
+    name: Slovenia
+  CountriesI18n_88:
+    id: Countries_44
+    culture: en_US
+    name: Spain
+  CountriesI18n_90:
+    id: Countries_45
+    culture: en_US
+    name: Sweden
+  CountriesI18n_92:
+    id: Countries_46
+    culture: en_US
+    name: Switzerland
+  CountriesI18n_94:
+    id: Countries_47
+    culture: en_US
+    name: Turkey
+  CountriesI18n_96:
+    id: Countries_48
+    culture: en_US
+    name: Ukraine
+  CountriesI18n_98:
+    id: Countries_49
+    culture: en_US
+    name: United Kingdom
+  CountriesI18n_100:
+    id: Countries_50
+    culture: en_US
+    name: Vatican
+  CountriesI18n_102:
+    id: Countries_51
+    culture: en_US
+    name: Aland Islands
+  CountriesI18n_104:
+    id: Countries_52
+    culture: en_US
+    name: Faroe Islands
+  CountriesI18n_106:
+    id: Countries_53
+    culture: en_US
+    name: Gibraltar
+  CountriesI18n_108:
+    id: Countries_54
+    culture: en_US
+    name: Greenland
+  CountriesI18n_110:
+    id: Countries_55
+    culture: en_US
+    name: Antigua and Barbuda
+  CountriesI18n_112:
+    id: Countries_56
+    culture: en_US
+    name: Bahamas
+  CountriesI18n_114:
+    id: Countries_57
+    culture: en_US
+    name: Barbados
+  CountriesI18n_116:
+    id: Countries_58
+    culture: en_US
+    name: Belize
+  CountriesI18n_118:
+    id: Countries_59
+    culture: en_US
+    name: Dominica
+  CountriesI18n_120:
+    id: Countries_60
+    culture: en_US
+    name: Dominican Republic
+  CountriesI18n_122:
+    id: Countries_61
+    culture: en_US
+    name: Grenada
+  CountriesI18n_124:
+    id: Countries_62
+    culture: en_US
+    name: Guatemala
+  CountriesI18n_126:
+    id: Countries_63
+    culture: en_US
+    name: Haiti
+  CountriesI18n_128:
+    id: Countries_64
+    culture: en_US
+    name: Honduras
+  CountriesI18n_130:
+    id: Countries_65
+    culture: en_US
+    name: Jamaica
+  CountriesI18n_132:
+    id: Countries_66
+    culture: en_US
+    name: Canada
+  CountriesI18n_134:
+    id: Countries_67
+    culture: en_US
+    name: Costa Rica
+  CountriesI18n_136:
+    id: Countries_68
+    culture: en_US
+    name: Cuba
+  CountriesI18n_138:
+    id: Countries_69
+    culture: en_US
+    name: Mexico
+  CountriesI18n_140:
+    id: Countries_70
+    culture: en_US
+    name: Nicaragua
+  CountriesI18n_142:
+    id: Countries_71
+    culture: en_US
+    name: Panama
+  CountriesI18n_144:
+    id: Countries_72
+    culture: en_US
+    name: Peuto Rico
+  CountriesI18n_146:
+    id: Countries_73
+    culture: en_US
+    name: Saint Kitts and Nevis
+  CountriesI18n_148:
+    id: Countries_74
+    culture: en_US
+    name: Saint Lucia
+  CountriesI18n_150:
+    id: Countries_75
+    culture: en_US
+    name: Saint Vincent and The Grenadines
+  CountriesI18n_152:
+    id: Countries_76
+    culture: en_US
+    name: El Salvador
+  CountriesI18n_154:
+    id: Countries_77
+    culture: en_US
+    name: United States
+  CountriesI18n_156:
+    id: Countries_78
+    culture: en_US
+    name: Trinidad and Tobago
+  CountriesI18n_158:
+    id: Countries_79
+    culture: en_US
+    name: Anguilla
+  CountriesI18n_160:
+    id: Countries_80
+    culture: en_US
+    name: Netherlands Antilles
+  CountriesI18n_162:
+    id: Countries_81
+    culture: en_US
+    name: Aruba
+  CountriesI18n_164:
+    id: Countries_82
+    culture: en_US
+    name: Bermuda
+  CountriesI18n_166:
+    id: Countries_83
+    culture: en_US
+    name: Virgin Islands (British)
+  CountriesI18n_168:
+    id: Countries_84
+    culture: en_US
+    name: Guadeloupe
+  CountriesI18n_170:
+    id: Countries_85
+    culture: en_US
+    name: Cayman Islands
+  CountriesI18n_172:
+    id: Countries_86
+    culture: en_US
+    name: Martinique
+  CountriesI18n_174:
+    id: Countries_87
+    culture: en_US
+    name: Montserrat
+  CountriesI18n_176:
+    id: Countries_88
+    culture: en_US
+    name: Saint-Pierre i Miquelon
+  CountriesI18n_178:
+    id: Countries_89
+    culture: en_US
+    name: Turks and Caicos Islands
+  CountriesI18n_180:
+    id: Countries_90
+    culture: en_US
+    name: Virgin Islands (U.S)
+  CountriesI18n_182:
+    id: Countries_91
+    culture: en_US
+    name: Argentina
+  CountriesI18n_184:
+    id: Countries_92
+    culture: en_US
+    name: Bolivia
+  CountriesI18n_186:
+    id: Countries_93
+    culture: en_US
+    name: Brazil
+  CountriesI18n_188:
+    id: Countries_94
+    culture: en_US
+    name: Chile
+  CountriesI18n_190:
+    id: Countries_95
+    culture: en_US
+    name: Colombia
+  CountriesI18n_192:
+    id: Countries_96
+    culture: en_US
+    name: Ecuador
+  CountriesI18n_194:
+    id: Countries_97
+    culture: en_US
+    name: Falkland Islands
+  CountriesI18n_196:
+    id: Countries_98
+    culture: en_US
+    name: French Guiana
+  CountriesI18n_198:
+    id: Countries_99
+    culture: en_US
+    name: Guyana
+  CountriesI18n_200:
+    id: Countries_100
+    culture: en_US
+    name: Paraguay
+  CountriesI18n_202:
+    id: Countries_101
+    culture: en_US
+    name: Peru
+  CountriesI18n_204:
+    id: Countries_102
+    culture: en_US
+    name: South Georgia and South Sandwich Islands
+  CountriesI18n_206:
+    id: Countries_103
+    culture: en_US
+    name: Suriname
+  CountriesI18n_208:
+    id: Countries_104
+    culture: en_US
+    name: Uruguay
+  CountriesI18n_210:
+    id: Countries_105
+    culture: en_US
+    name: Venezuela
+  CountriesI18n_212:
+    id: Countries_106
+    culture: en_US
+    name: Australia
+  CountriesI18n_214:
+    id: Countries_107
+    culture: en_US
+    name: New Zealand
+  CountriesI18n_216:
+    id: Countries_108
+    culture: en_US
+    name: Christmas Island
+  CountriesI18n_218:
+    id: Countries_109
+    culture: en_US
+    name: Cocos (Keeling) Islands
+  CountriesI18n_220:
+    id: Countries_110
+    culture: en_US
+    name: Norfolk Island
+  CountriesI18n_222:
+    id: Countries_111
+    culture: en_US
+    name: Fiji
+  CountriesI18n_224:
+    id: Countries_112
+    culture: en_US
+    name: New Caledonia
+  CountriesI18n_226:
+    id: Countries_113
+    culture: en_US
+    name: Papua New Guinea
+  CountriesI18n_228:
+    id: Countries_114
+    culture: en_US
+    name: Solomon Islands
+  CountriesI18n_230:
+    id: Countries_115
+    culture: en_US
+    name: Vanuatu
+  CountriesI18n_232:
+    id: Countries_116
+    culture: en_US
+    name: Federated States of Micronesia
+  CountriesI18n_234:
+    id: Countries_117
+    culture: en_US
+    name: Guam
+  CountriesI18n_236:
+    id: Countries_118
+    culture: en_US
+    name: Kiribati
+  CountriesI18n_238:
+    id: Countries_119
+    culture: en_US
+    name: Marshall Islands
+  CountriesI18n_240:
+    id: Countries_120
+    culture: en_US
+    name: Nauru
+  CountriesI18n_242:
+    id: Countries_121
+    culture: en_US
+    name: Northern Mariana Islands
+  CountriesI18n_244:
+    id: Countries_122
+    culture: en_US
+    name: Palau
+  CountriesI18n_246:
+    id: Countries_123
+    culture: en_US
+    name: American Samoa
+  CountriesI18n_248:
+    id: Countries_124
+    culture: en_US
+    name: Cook Islands
+  CountriesI18n_250:
+    id: Countries_125
+    culture: en_US
+    name: French Polynesia
+  CountriesI18n_252:
+    id: Countries_126
+    culture: en_US
+    name: Niue
+  CountriesI18n_254:
+    id: Countries_127
+    culture: en_US
+    name: Pitcairn Islands
+  CountriesI18n_256:
+    id: Countries_128
+    culture: en_US
+    name: Samoa
+  CountriesI18n_258:
+    id: Countries_129
+    culture: en_US
+    name: Tokelau
+  CountriesI18n_260:
+    id: Countries_130
+    culture: en_US
+    name: Tonga
+  CountriesI18n_262:
+    id: Countries_131
+    culture: en_US
+    name: Tuvalu
+  CountriesI18n_264:
+    id: Countries_132
+    culture: en_US
+    name: Wallis and Futuna
+  CountriesI18n_266:
+    id: Countries_133
+    culture: en_US
+    name: Antarctica
+  CountriesI18n_268:
+    id: Countries_134
+    culture: en_US
+    name: Afghanistan
+  CountriesI18n_270:
+    id: Countries_135
+    culture: en_US
+    name: Bahrain
+  CountriesI18n_272:
+    id: Countries_136
+    culture: en_US
+    name: Bangladesh
+  CountriesI18n_274:
+    id: Countries_137
+    culture: en_US
+    name: Bhutan
+  CountriesI18n_276:
+    id: Countries_138
+    culture: en_US
+    name: Brunei
+  CountriesI18n_278:
+    id: Countries_139
+    culture: en_US
+    name: Cambodia
+  CountriesI18n_280:
+    id: Countries_140
+    culture: en_US
+    name: China
+  CountriesI18n_282:
+    id: Countries_141
+    culture: en_US
+    name: Hong Kong
+  CountriesI18n_284:
+    id: Countries_142
+    culture: en_US
+    name: India
+  CountriesI18n_286:
+    id: Countries_143
+    culture: en_US
+    name: Indonesia
+  CountriesI18n_288:
+    id: Countries_144
+    culture: en_US
+    name: Iran
+  CountriesI18n_290:
+    id: Countries_145
+    culture: en_US
+    name: Iraq
+  CountriesI18n_292:
+    id: Countries_146
+    culture: en_US
+    name: Israel
+  CountriesI18n_294:
+    id: Countries_147
+    culture: en_US
+    name: Japan
+  CountriesI18n_296:
+    id: Countries_148
+    culture: en_US
+    name: Jordan
+  CountriesI18n_298:
+    id: Countries_149
+    culture: en_US
+    name: North Korea
+  CountriesI18n_300:
+    id: Countries_150
+    culture: en_US
+    name: South Korea
+  CountriesI18n_302:
+    id: Countries_151
+    culture: en_US
+    name: Kuwait
+  CountriesI18n_304:
+    id: Countries_152
+    culture: en_US
+    name: Kyrgyzstan
+  CountriesI18n_306:
+    id: Countries_153
+    culture: en_US
+    name: Laos
+  CountriesI18n_308:
+    id: Countries_154
+    culture: en_US
+    name: Lebanon
+  CountriesI18n_310:
+    id: Countries_155
+    culture: en_US
+    name: Macau
+  CountriesI18n_312:
+    id: Countries_156
+    culture: en_US
+    name: Malaysia
+  CountriesI18n_314:
+    id: Countries_157
+    culture: en_US
+    name: Maldives
+  CountriesI18n_316:
+    id: Countries_158
+    culture: en_US
+    name: Mongolia
+  CountriesI18n_318:
+    id: Countries_159
+    culture: en_US
+    name: Myanmar
+  CountriesI18n_320:
+    id: Countries_160
+    culture: en_US
+    name: Nepal
+  CountriesI18n_322:
+    id: Countries_161
+    culture: en_US
+    name: Oman
+  CountriesI18n_324:
+    id: Countries_162
+    culture: en_US
+    name: Pakistan
+  CountriesI18n_326:
+    id: Countries_163
+    culture: en_US
+    name: Palestinian Authority
+  CountriesI18n_328:
+    id: Countries_164
+    culture: en_US
+    name: Philippines
+  CountriesI18n_330:
+    id: Countries_165
+    culture: en_US
+    name: Qatar
+  CountriesI18n_332:
+    id: Countries_166
+    culture: en_US
+    name: Saudi Arabia
+  CountriesI18n_334:
+    id: Countries_167
+    culture: en_US
+    name: Singapore
+  CountriesI18n_336:
+    id: Countries_168
+    culture: en_US
+    name: Sri Lanka
+  CountriesI18n_338:
+    id: Countries_169
+    culture: en_US
+    name: Syria
+  CountriesI18n_340:
+    id: Countries_170
+    culture: en_US
+    name: Taiwan
+  CountriesI18n_342:
+    id: Countries_171
+    culture: en_US
+    name: Tajikistan
+  CountriesI18n_344:
+    id: Countries_172
+    culture: en_US
+    name: Thailand
+  CountriesI18n_346:
+    id: Countries_173
+    culture: en_US
+    name: East Timor
+  CountriesI18n_348:
+    id: Countries_174
+    culture: en_US
+    name: Turkmenistan
+  CountriesI18n_350:
+    id: Countries_175
+    culture: en_US
+    name: United Arab Emirates
+  CountriesI18n_352:
+    id: Countries_176
+    culture: en_US
+    name: Uzbekistan
+  CountriesI18n_354:
+    id: Countries_177
+    culture: en_US
+    name: Vietnam
+  CountriesI18n_356:
+    id: Countries_178
+    culture: en_US
+    name: Yemen
+  CountriesI18n_358:
+    id: Countries_179
+    culture: en_US
+    name: Algeria
+  CountriesI18n_360:
+    id: Countries_180
+    culture: en_US
+    name: Angola
+  CountriesI18n_362:
+    id: Countries_181
+    culture: en_US
+    name: Benin
+  CountriesI18n_364:
+    id: Countries_182
+    culture: en_US
+    name: Botswana
+  CountriesI18n_366:
+    id: Countries_183
+    culture: en_US
+    name: Burkina Faso
+  CountriesI18n_368:
+    id: Countries_184
+    culture: en_US
+    name: Burundi
+  CountriesI18n_370:
+    id: Countries_185
+    culture: en_US
+    name: Cameroon
+  CountriesI18n_372:
+    id: Countries_186
+    culture: en_US
+    name: Cape Verde
+  CountriesI18n_374:
+    id: Countries_187
+    culture: en_US
+    name: Central African Republic
+  CountriesI18n_376:
+    id: Countries_188
+    culture: en_US
+    name: Chad
+  CountriesI18n_378:
+    id: Countries_189
+    culture: en_US
+    name: Comoros
+  CountriesI18n_380:
+    id: Countries_190
+    culture: en_US
+    name: Democratic Republic of the Congo
+  CountriesI18n_382:
+    id: Countries_191
+    culture: en_US
+    name: Republic of the Congo
+  CountriesI18n_384:
+    id: Countries_192
+    culture: en_US
+    name: Cote d'Ivoire
+  CountriesI18n_386:
+    id: Countries_193
+    culture: en_US
+    name: Djibouti
+  CountriesI18n_388:
+    id: Countries_194
+    culture: en_US
+    name: Egypt
+  CountriesI18n_390:
+    id: Countries_195
+    culture: en_US
+    name: Equatorial Guinea
+  CountriesI18n_392:
+    id: Countries_196
+    culture: en_US
+    name: Eritrea
+  CountriesI18n_394:
+    id: Countries_197
+    culture: en_US
+    name: Ethiopia
+  CountriesI18n_396:
+    id: Countries_198
+    culture: en_US
+    name: Gabon
+  CountriesI18n_398:
+    id: Countries_199
+    culture: en_US
+    name: Gambia
+  CountriesI18n_400:
+    id: Countries_200
+    culture: en_US
+    name: Ghana
+  CountriesI18n_402:
+    id: Countries_201
+    culture: en_US
+    name: Guinea
+  CountriesI18n_404:
+    id: Countries_202
+    culture: en_US
+    name: Guinea-Bissau
+  CountriesI18n_406:
+    id: Countries_203
+    culture: en_US
+    name: Kenya
+  CountriesI18n_408:
+    id: Countries_204
+    culture: en_US
+    name: Lesotho
+  CountriesI18n_410:
+    id: Countries_205
+    culture: en_US
+    name: Liberia
+  CountriesI18n_412:
+    id: Countries_206
+    culture: en_US
+    name: Libya
+  CountriesI18n_414:
+    id: Countries_207
+    culture: en_US
+    name: Madagascar
+  CountriesI18n_416:
+    id: Countries_208
+    culture: en_US
+    name: Malawi
+  CountriesI18n_418:
+    id: Countries_209
+    culture: en_US
+    name: Mali
+  CountriesI18n_420:
+    id: Countries_210
+    culture: en_US
+    name: Mauritania
+  CountriesI18n_422:
+    id: Countries_211
+    culture: en_US
+    name: Mauritius
+  CountriesI18n_424:
+    id: Countries_212
+    culture: en_US
+    name: Morocco
+  CountriesI18n_426:
+    id: Countries_213
+    culture: en_US
+    name: Mozambique
+  CountriesI18n_428:
+    id: Countries_214
+    culture: en_US
+    name: Namibia
+  CountriesI18n_430:
+    id: Countries_215
+    culture: en_US
+    name: Niger
+  CountriesI18n_432:
+    id: Countries_216
+    culture: en_US
+    name: Nigeria
+  CountriesI18n_434:
+    id: Countries_217
+    culture: en_US
+    name: Rwanda
+  CountriesI18n_436:
+    id: Countries_218
+    culture: en_US
+    name: Sao Tome and Principe
+  CountriesI18n_438:
+    id: Countries_219
+    culture: en_US
+    name: Senegal
+  CountriesI18n_440:
+    id: Countries_220
+    culture: en_US
+    name: Seychelles
+  CountriesI18n_442:
+    id: Countries_221
+    culture: en_US
+    name: Sierra Leone
+  CountriesI18n_444:
+    id: Countries_222
+    culture: en_US
+    name: South Africa
+  CountriesI18n_446:
+    id: Countries_223
+    culture: en_US
+    name: Sudan
+  CountriesI18n_448:
+    id: Countries_224
+    culture: en_US
+    name: Swaziland
+  CountriesI18n_450:
+    id: Countries_225
+    culture: en_US
+    name: Tanzania
+  CountriesI18n_452:
+    id: Countries_226
+    culture: en_US
+    name: Togo
+  CountriesI18n_454:
+    id: Countries_227
+    culture: en_US
+    name: Tunisia
+  CountriesI18n_456:
+    id: Countries_228
+    culture: en_US
+    name: Uganda
+  CountriesI18n_458:
+    id: Countries_229
+    culture: en_US
+    name: Zambia
+  CountriesI18n_460:
+    id: Countries_230
+    culture: en_US
+    name: Zimbabwe

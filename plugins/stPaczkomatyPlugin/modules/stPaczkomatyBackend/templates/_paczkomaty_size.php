@@ -1,0 +1,1 @@
+<?php echo select_tag('delivery_dimension[paczkomaty_size]', options_for_select(array('NONE' => '-', 'A' => 'A (8 x 38 x 64 cm)', 'B' => 'B (19 x 38 x 64 cm)', 'C' => 'C (41 x 38 x 64 cm)'), !$sf_request->hasParameter('delivery_dimension[paczkomaty_size]') ? $delivery_dimension->getPaczkomatySize() : $sf_request->getParameter('delivery_dimension[paczkomaty_size]')));

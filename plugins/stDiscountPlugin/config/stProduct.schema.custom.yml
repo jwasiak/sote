@@ -1,0 +1,6 @@
+propel:
+    st_product:
+        _attributes:    {phpName: Product}
+        max_discount: 
+            type:       DOUBLE
+            default:    100.0

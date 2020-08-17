@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wyszukiwarka</source>
+                <target>Search Engine</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja wyszukiwanych pól została zmieniona, proszę wykonać</source>
+                <target>Search engine configuration was changed, execute</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Aktualizacja wyników wyszukiwania</source>
+                <target>Update the search results</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Szybkie wyszukiwanie:</source>
+                <target>Quick search:</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Dokładne wyszukiwanie:</source>
+                <target>Advanced search:</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Proszę podać szukane słowo</source>
+                <target>Enter a searched word</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Proszę podać poprawny adres linku, adres musi zaczynać się od http://</source>
+                <target>Enter a valid link, the address must begin with http://</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Proszę podać liczbę wyników na stronie</source>
+                <target>Enter the number of results on a page</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Proszę podać wartość liczbową</source>
+                <target>Enter a numeric value</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Minimalna wartość 5</source>
+                <target>The minimum value is 5</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Optymalizacja</source>
+                <target>Optimization</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zarządzanie modułem wyszukiwarki</source>
+                <target>Search engine management</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Generowanie wyników wyszukiwania, pozwoli na lepsze wyszukiwanie produktów w sklepie</source>
+                <target>Generate the search results, it will improve searching your products in the shop</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Przejdź do</source>
+                <target>Go to</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Pełna lista</source>
+                <target>Full list</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Skrócona lista</source>
+                <target>Short list</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Lista alternatywna</source>
+                <target>Other list</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Wyszukiwane frazy</source>
+                <target>Searched phrases</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Nowe wyszukiwanie</source>
+                <target>New search</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>optymalizację</source>
+                <target>the optimization</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Słowo/fraza</source>
+                <target>Word/phrase</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Liczba rezultatów</source>
+                <target>Number of results</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Liczba zapytań</source>
+                <target>Number of queries</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Zamień na</source>
+                <target>Change for</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Link</source>
+                <target>Link</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Lista wyszukiwania</source>
+                <target>Search list</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Optymalizacja</source>
+                <target>Optimization</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Edycja frazy wyszukiwania</source>
+                <target>Edit the searched phrase</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Słowa kluczowe produktu</source>
+                <target>Product keywords</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Nazwa producenta produktu</source>
+                <target>Producer name</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Słowo</source>
+                <target>Word</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Ustawienia ogólne</source>
+                <target>General settings</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Szybkie szukanie</source>
+                <target>Quick search</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Zaawansowane szukanie</source>
+                <target>Advanced search</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Wyświetlanie wyników:</source>
+                <target>Display results:</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Liczba wyników na stronie:</source>
+                <target>Number of results on a page:</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Domyślnie dopasuj wszystkie wyrazy:</source>
+                <target>Match all words:</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Szybkie wyszukiwanie</source>
+                <target>Quick search</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Dokładne wyszukiwanie</source>
+                <target>Advanced search</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Dopasuj całe wyrazy:</source>
+                <target>Match whole words:</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Nazwa produktu</source>
+                <target>Product name</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Kod produktu</source>
+                <target>Product code</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Opis skrócony produktu</source>
+                <target>Product short description</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Opis pełny produktu</source>
+                <target>Product full description</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Sortuj po:</source>
+                <target>Sort by:</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Kierunek sortowania:</source>
+                <target>Sort direction:</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Trafność</source>
+                <target>Accuracy</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Rosnąco</source>
+                <target>Ascending</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Malejąco</source>
+                <target>Descending</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Proszę wybrać co najmniej jedno pole.</source>
+                <target>Select at least one field.</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Włącz autouzupelnianie:</source>
+                <target>Enable Autocomplete:</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Włącza dynamiczne wyszukiwanie produktów podczas wpisywania</source>
+                <target>Enables dynamic product search as you type</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Wyświetlaj producentów w wyszukiwaniu zaawansowanym:</source>
+                <target>Displays manufacturers in advanced search:</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Wyświetlaj kategorie w wyszukiwaniu zaawansowanym:</source>
+                <target>Display categories in advanced search:</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Ogranicz głębokość kategorii do:</source>
+                <target>Limit category depth to:</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Optymalizacja</source>
+                <target>Optimization</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Włącz nowy moduł wyszukiwania:</source>
+                <target>Enable new search engine:</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Operacja nieodwracalna</source>
+                <target>Irreverisble operation</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Konfiguracja wyszukiwarki</source>
+                <target>Search engine configuration</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Szukaj produkty po</source>
+                <target>Search for products in</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Kodzie:</source>
+                <target>Code:</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Kodzie producenta:</source>
+                <target>Manufacturer code:</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Opisie pełnym:</source>
+                <target>Description:</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Opisie skróconym:</source>
+                <target>Short description:</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Opisie dodatkowym:</source>
+                <target>Additional description:</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Producencie:</source>
+                <target>Producer:</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Kategoriach:</source>
+                <target>Categories:</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Uwzględniaj znaki przy wyszukiwaniu:</source>
+                <target>Include characters when searching:</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Opcjach:</source>
+                <target>Options:</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Opisie do wyszukiwania:</source>
+                <target>Search description:</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Tytuł</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Szukaj</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Podaj frazy po jakich będą wyszukiwane produkty</source>
+                <target>Enter the phrases after which the products will be searched</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Linki</source>
+                <target>Links</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Edycja %%title%%</source>
+                <target>Edit %%title%%</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Podany tytuł już istnieje</source>
+                <target>The title already exists</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

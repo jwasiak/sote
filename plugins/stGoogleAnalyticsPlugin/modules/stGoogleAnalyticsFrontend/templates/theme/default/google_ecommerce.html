@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+    var pageTracker = _gat._getTracker("{__ text="UA"}-{$analytics_part2}-{$analytics_part3}");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+        
+    pageTracker._addTrans(
+    "{$order_id}",                                   // ID zamówienia
+    "{$host}",                                       // Powiązanie, nazwa sklepu
+    "{$order_amount}",                               // Cena z VAT
+    "{__ text="0"}",                                 // Tax
+    "{$delivery_cost}",                              // Koszt dostawy
+    "{$user_town}",                                  // Miasto
+    "{__ text="unknown"}",                           // Województwo
+    "{$country_name}"                                // Kraj
+);
+        
+    {foreach item=order_products from=$results}
+    pageTracker._addItem(
+    "{$order_products.order_id}",                // ID zamówienia
+    "{$order_products.product_code}",                // Kod produktu
+    "{$order_products.product_name}",            // Nazwa produktu
+    "{$order_products.product_category}",        // Kategoria
+    "{$order_products.product_price}",           // Cena z VAT
+    "{$order_products.product_quantity}"         // Ilość sztuk
+);          
+    {/foreach}
+    pageTracker._trackTrans();
+</script>

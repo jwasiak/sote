@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+            <trans-unit id="1">
+                <source>Twoje punkty</source>
+                <target>Your points</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Moje konto</source>
+                <target>My account</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Punkty</source>
+                <target>Points</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Aktualnie posiadasz</source>
+                <target>Currently you have</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Lista operacji</source>
+                <target>Currently you have</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Operacja</source>
+                <target>Operation</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Zmienił</source>
+                <target>Change</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Lista operacji</source>
+                <target>List of operations</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Data</source>
+                <target>Date</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Stan konta</source>
+                <target>Balance</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>administrator</source>
+                <target>admin</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zam</source>
+                <target>Ord</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Aktualizowane przez zamówienie</source>
+                <target>Updated by order</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Próg aktywacji punktów</source>
+                <target>Activation threshold points</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>osiągnięty</source>
+                <target>achieved</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Próg aktywacji punktów nie został osiągnięty</source>
+                <target>Activation threshold point is not reached</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>do aktywacji brak</source>
+                <target>to activate unknown</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Po zgromadzeniu łącznie</source>
+                <target>After the meeting, including</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>będzie można dokonywać zakupów za punkty.</source>
+                <target>will be able to make purchases with points.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Aktywacja jest jednorazowa.</source>
+                <target>Activation is a one-off.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+                <target>After crossing the threshold of activation, using a point system will be reduced.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Aktualizacja stanu konta</source>
+                <target>Status update account</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Zam</source>
+                <target>Ord</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

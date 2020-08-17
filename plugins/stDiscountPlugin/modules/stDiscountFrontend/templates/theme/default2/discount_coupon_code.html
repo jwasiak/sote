@@ -1,0 +1,59 @@
+<div id="st_discount-coupon-code" class="roundies box_form" style="margin-bottom:0px;">
+   <h3>{__ text="Kod rabatowy"}</h3>
+   {if $coupon_code}
+   <div id="st_discount-coupon-info">
+      {$coupon_code.code}: <b>{$coupon_code.discount}%</b> <a href="{$coupon_code.remove_url}"><img src="{image_path image='delete.gif'}" alt="" /></a>
+   </div>
+   {else}
+   <form action="{$form.action}" method="post"> 
+      
+      <div id="st_discount-coupon-form">
+	  {if $form.error}
+      <div id="st_discount-coupon-error">
+         {__ text=$form.error}
+      </div>
+      {/if}
+	  <fieldset>
+		<div class="st_row left">
+	        <div class="st_field">
+	            <label for="discount_coupon_code">{__ text="Wprowadź kod"}</label>
+	            <input id="discount_coupon_code" name="discount[coupon_code]" type="text" value="{$form.code}" />
+	            <input type="hidden" name="discount[return_url]" value="{$form.return_url}" />
+	        </div>
+	    </div>
+	    
+	    <div class="st_row left">
+	        <div class="st_field">
+	     
+		     	<div class="buttons">
+	                <button class="regular roundies" type="submit">
+	                   {__ text="Aktywuj"}
+	                </button>
+	            </div>
+	        
+	        </div>
+	    </div>
+
+        
+		<div class="clear"></div>         
+            
+
+	  </fieldset>
+      </div>
+   </form>
+   {/if}
+</div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{		
+		$("label").inFieldLabels();
+			 
+	 });
+});
+
+</script>
+{/literal}

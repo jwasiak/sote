@@ -1,0 +1,17 @@
+package:
+  name: stPartnerPlugin
+  stability: stable
+  version: 2.0.0
+  summary: Partnerzy
+  description: Partnerzy
+  notes: 'Wydanie wersji SOTESHOP 6'
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stFrontend: 1.0.9.15
+    stBackend: 1.0.4.28
+    stUser: 1.0.7.39
+    stMailPlugin: 1.0.2.5

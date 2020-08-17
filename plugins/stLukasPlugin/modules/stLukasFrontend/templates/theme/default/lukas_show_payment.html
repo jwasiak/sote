@@ -1,0 +1,34 @@
+{if $check_configuration}
+    <div id="st_box_payment">
+        <p><img id="st_home" src="/images/frontend/theme/default/stLukasPlugin/logo.png" alt=""/></p>
+        <p>
+            <div style="width: 750px; text-align: left; margin: 0px auto 15px;">
+                {__ text="Wybrana została przez Ciebie forma płatności LUKAS Raty."}<br />
+                {__ text="Aby złożyć wniosek o kredyt zapoznaj się z"} {$procedure}:<br />
+                <br />
+                {$statement}{__ text="Oświadczam, że zapoznałem/am się z informacją o warunkach i sposobie udzielania kredytu ratalnego Credit Agricole Bank Polska"}<br />
+                <br />
+                {__ text="Do wypełnienia wniosku potrzebne będą dane z Twojego dowodu osobistego, a także informacje dotyczące miejsca i formy zatrudnienia oraz wysokości uzyskiwanego dochodu."}<br /> 
+                {__ text="Jeżeli do decyzji kredytowej potrzebne będą dodatkowe informacje, poinformuje Cię o tym przedstawiciel Banku."}<br />
+                <br />
+                {__ text="Po wybraniu przycisku"} <b>{__ text='"Wypełnij wniosek"'}</b> {__ text="zostaniesz przeniesiony/na na bezpieczne strony Credit Agricole Bank Polska S.A., wszystkie informacje przesyłane do Banku są chronione protokołem SSL."}<br />
+                {__ text="Przejście na stronę Wniosku jest równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych przez Credit Agricole Bank Polska S.A."}<br />
+                {__ text="Zgodnie z art. 24 Ustawy o ochronie danych osobowych z dnia 29 sierpnia 1997 r. Twoje dane będą przetwarzane przez Credit Agricole Bank Polska S.A. w celu realizacji umowy kredytu oraz należytego jej wykonania."}
+                {__ text="Podanie danych ma charakter dobrowolny i przysługuje Ci prawo wglądu do tych danych oraz ich poprawiania."}
+                {__ text="Administratorem danych osobowych jest Credit Agricole Bank Polska S.A. z siedzibą we Wrocławiu, Pl. Orląt Lwowskich 1."}<br />
+                <br />
+            </div>
+        </p>
+        {$form_start}
+            {$type}
+            {$id}
+            {$submit_button}
+        </form>
+        <br />
+    </div>
+{else}
+    <div id="st_box_payment">
+        <p><img id="st_home" src="/images/frontend/theme/default/stLukasPlugin/logo.png" alt=""/></p>
+        <p>{__ text="Płatność została błędnie skonfigurowana."}</p>
+    </div>
+{/if}

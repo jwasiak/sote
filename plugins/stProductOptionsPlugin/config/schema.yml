@@ -1,0 +1,243 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stProductOptionsPlugin.lib.model
+  st_product_options_template: 
+    _attributes: 
+      phpName: ProductOptionsTemplate
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 255
+  st_product_options_field: 
+    _attributes: 
+      phpName: ProductOptionsField
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_options_template_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_product_options_template
+      foreignReference: id
+      onDelete: cascade
+    product_options_filter_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_product_options_filter
+      foreignReference: id
+      onDelete: restrict
+    required: 
+      type: BOOLEAN
+    typ: 
+      type: VARCHAR
+      size: 255
+    opt_name: 
+      type: VARCHAR
+      size: 128
+    opt_default_value: 
+      type: VARCHAR
+      size: 128
+    opt_value_id: 
+      type: INTEGER
+    field_order: 
+      type: INTEGER
+  st_product_options_default_value: 
+    _attributes: 
+      phpName: ProductOptionsDefaultValue
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_options_template_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product_options_template
+      foreignReference: id
+      onDelete: cascade
+    product_options_default_value_id: 
+      type: INTEGER
+      foreignTable: st_product_options_default_value
+      foreignReference: id
+      onDelete: restrict
+    product_options_field_id: 
+      type: INTEGER
+      foreignTable: st_product_options_field
+      foreignReference: id
+      onDelete: restrict
+    price: 
+      type: VARCHAR
+      size: 16
+    weight:
+      type: VARCHAR
+      size: 10
+    lft: 
+      type: INTEGER
+    rgt: 
+      type: INTEGER
+    opt_value: 
+      type: VARCHAR
+      size: 128
+    price_type: 
+      type: VARCHAR
+      size: 6
+    depth: 
+      type: INTEGER
+    opt_version: 
+      type: INTEGER
+      default: 0
+    color: 
+      type: VARCHAR
+      size: 128
+    use_image_as_color:
+      type: BOOLEAN
+      default: 0
+    old_price: 
+      type: DECIMAL
+      size: 10
+      scale: 2 
+    pum: 
+      type: DECIMAL
+      size: 10
+      scale: 2     
+  st_product_options_value: 
+    _attributes: 
+      phpName: ProductOptionsValue
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    sf_asset_id: 
+      type: INTEGER
+      required: false
+      foreignTable: sf_asset
+      foreignReference: id
+      onDelete: setnull
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    product_options_template_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_product_options_template
+      foreignReference: id
+      onDelete: restrict
+    product_options_value_id: 
+      type: INTEGER
+      foreignTable: st_product_options_value
+      foreignReference: id
+      onDelete: restrict
+    product_options_field_id: 
+      type: INTEGER
+      foreignTable: st_product_options_field
+      foreignReference: id
+      onDelete: restrict
+    price: 
+      type: VARCHAR
+      size: 16
+    weight:
+      type: VARCHAR
+      size: 10      
+    lft: 
+      type: INTEGER
+    rgt: 
+      type: INTEGER
+    stock: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+    opt_value: 
+      type: VARCHAR
+      size: 128
+    price_type: 
+      type: VARCHAR
+      size: 6
+    depth: 
+      type: INTEGER
+    opt_version: 
+      type: INTEGER
+      default: 0
+    color: 
+      type: VARCHAR
+      size: 128
+    use_image_as_color:
+      type: BOOLEAN
+      default: 0
+    opt_filter_id: 
+      type: INTEGER
+    use_product: 
+      type: VARCHAR
+      size: 128
+    old_price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    man_code:
+      type: VARCHAR
+      size: 128
+    pum: 
+      type: DECIMAL
+      size: 10
+      scale: 2      
+    _indexes: 
+      product_options_value_color: 
+        - color
+      product_options_value_opt_value: 
+        - opt_value
+      product_options_value_filter_id: 
+        - opt_filter_id
+  st_product_options_filter: 
+    _attributes: 
+      phpName: ProductOptionsFilter
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 128
+    filter_type: 
+      type: INTEGER
+    rank: 
+      type: INTEGER
+    price_from: 
+      type: DOUBLE
+    price_to: 
+      type: DOUBLE
+    is_visible:
+      type: BOOLEAN
+      default: true
+

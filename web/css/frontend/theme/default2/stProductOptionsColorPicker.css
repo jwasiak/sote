@@ -1,0 +1,133 @@
+.picker-select-hidden {
+    visibility: hidden !important;
+    position: absolute;
+}
+
+.color-picker li button i,
+.color-picker button {
+    border: 1px solid #666666;
+    cursor: pointer;
+    display: block;
+    height: 23px;
+    padding: 0;
+    text-align: right;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-picker button::-moz-focus-inner {
+    padding: 0;
+    border: none;
+}
+
+.color-picker button span {
+    background: url("/images/frontend/theme/default2/stProductOptionsPlugin/color_picker_icon.png") no-repeat center center #EEEEEE;
+    border-left: 1px solid #666666;
+    display: inline-block;
+    height: 21px;
+    width: 23px;
+}
+
+.color-picker button.picker-disabled {
+    opacity: 0.4;
+}
+
+.color-picker ul {
+    display: none;
+    position: absolute;
+    width: 300px;
+    z-index: 10000;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0px 0px 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.color-picker ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.color-picker li {
+    clear: none !important;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    overflow: visible !important;    
+}
+
+.color-picker li button i, 
+.color-picker li button {
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+    display: block;
+    height: 25px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-picker li button:hover i,
+.color-picker li button.current i,
+.color-picker li:not(.color-name) button:hover,
+.color-picker li:not(.color-name) button.current {
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+    box-shadow: none;
+}
+
+.color-picker li.color-name button:hover,
+.color-picker li.color-name button.current {
+    font-weight: bold;
+}
+
+.color-picker li button.current {
+    box-shadow: none;
+}
+
+.color-picker li button i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.color-picker .color-preview {
+    display: none;
+    position: absolute;
+    text-align: right;
+    width: 180px;
+    z-index: 100000;
+}
+
+.color-picker .color-preview .color-bg,
+.color-picker .color-preview img {
+    background: #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+    border: 5px solid #fff;
+    width: 100%;    
+}
+
+.color-picker .color-preview .color-bg {
+    height: 180px;
+    display: inline-block;
+}
+
+
+
+.color-picker li.color-name {
+    float: none;
+    margin-right: 0;
+    overflow: visible !important;
+}
+
+.color-picker li.color-name button {
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    text-align: left;
+    height: auto;
+    background: none;
+}

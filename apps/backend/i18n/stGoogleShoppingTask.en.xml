@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2014-03-18T16:15:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Generowanie pliku dla Google Shopping</source>
+                <target>Generating a file for Google Shopping</target>
+            </trans-unit>            
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,13 @@
+package:
+  name: stPayNowPlugin
+  stability: stable
+  version: 7.0.0.11
+  summary: 'Integracja z serwisem platnosci Paynow'
+  description: 'Integracja z serwisem platnosci Paynow'
+  notes: |
+     - Poprawka braku mozliwosci oplacenia zamowienia
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

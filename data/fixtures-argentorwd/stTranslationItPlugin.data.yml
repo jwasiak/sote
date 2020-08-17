@@ -1,0 +1,176 @@
+ProductI18n:  
+  ProductI18n_it_1:
+    id: Product_1
+    culture: it
+    name: Coppa
+    url: coppa
+  ProductI18n_it_2:
+    id: Product_2
+    culture: it
+    name: Cronometro
+    url: cronometro
+  ProductI18n_it_3:
+    id: Product_3
+    culture: it
+    name: Cuffia
+    url: cuffia
+  ProductI18n_it_4:
+    id: Product_4
+    culture: it
+    name: Hanging altoparlanti
+    url: hanging-altoparlanti
+  ProductI18n_it_5:
+    id: Product_5
+    culture: it
+    name: Cuffia 200
+    url: cuffia-200
+  ProductI18n_it_6:
+    id: Product_6
+    culture: it
+    name: Portatile
+    url: portatile
+  ProductI18n_it_7:
+    id: Product_7
+    culture: it
+    name: Anello in oro con diamante
+    url: anello-in-oro-con-diamante
+  ProductI18n_it_8:
+    id: Product_8
+    culture: it
+    name: Anello in argento
+    url: anello-in-argento
+  ProductI18n_it_9:
+    id: Product_9
+    culture: it
+    name: Altoparlante
+    url: altoparlante
+  ProductI18n_it_10:
+    id: Product_10
+    culture: it
+    name: Computer
+    url: computer
+  ProductI18n_it_11:
+    id: Product_11
+    culture: it
+    name: Fotocamera GoodPix 130ES
+    url: fotocamera-goodpix-130es
+  ProductI18n_it_12:
+    id: Product_12
+    culture: it
+    name: Scheda di memoria 8GB
+    url: scheda-di-memoria-8gb
+    
+CategoryI18n:
+  CategoryI18n_it_1:
+    id: Category_1
+    culture: it
+    name: Categorie
+    url: categorie
+  CategoryI18n_it_2:
+    id: Category_2
+    culture: it
+    name:  Suono
+    url: suono
+  CategoryI18n_it_3:
+    id: Category_3
+    culture: it
+    name: Speakers
+    url: suono-speakers
+  CategoryI18n_it_4:
+    id: Category_4
+    culture: it
+    name: Altoparlanti
+    url: suono-altoparlanti
+  CategoryI18n_it_5:
+    id: Category_5
+    culture: it
+    name: Computer
+    url: computer
+  CategoryI18n_it_6:
+    id: Category_6
+    culture: it
+    name:  Fotografia
+    url: fotografia
+  CategoryI18n_it_8:
+    id: Category_8
+    culture: it
+    name: Gioielli
+    url: gioielli
+  CategoryI18n_it_9:
+    id: Category_9
+    culture: it
+    name: Regali
+    url: regali
+    
+BoxI18n:
+  BoxI18n_it_1:
+    id: Box_1
+    culture: it
+    name: Consegna
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Consegna"/>
+  BoxI18n_it_2:
+    id: Box_2
+    culture: it
+    name: Pagamenti
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Pagamenti" />
+
+ProductGroupI18n:
+  ProductGroupI18n_it_1:
+    id: ProductGroup_1
+    culture: it
+    name: Promozioni
+    url: promozioni
+  ProductGroupI18n_it_2:
+    id: ProductGroup_2
+    culture: it
+    name: Vendita
+    url: vendita
+  ProductGroupI18n_it_3:
+    id: ProductGroup_3
+    culture: it
+    name: Consigliato
+    url: consigliato
+  ProductGroupI18n_it_4:
+    id: ProductGroup_4
+    culture: it
+    name: Home
+    url: home
+  ProductGroupI18n_it_6:
+    id: ProductGroup_6
+    culture: it
+    name: Nuovi prodotti
+    url: nuovi-prodotti
+
+WebpageI18n:
+  WebpageI18n_it_1:
+    id: Webpage_1
+    culture: it
+    name: Condizioni
+    content: Esempio di testo.
+    url: condizioni
+  WebpageI18n_it_2:
+    id: Webpage_2
+    culture: it
+    name: Chi siamo
+    content: Esempio di testo.
+    url: chi-siamo
+  WebpageI18n_it_3:
+    id: Webpage_3
+    culture: it
+    name: Contatti
+    content: Esempio di testo.
+    url: contatti
+  WebpageI18n_it_4:
+    id: Webpage_4
+    culture: it
+    name: Norme sulla privacy
+    content: Esempio di testo.
+    url: norme-sulla-privacy
+
+TextI18n:
+  TextI18n_it_1:
+    id: Text_1
+    culture: it
+    name: Home
+    content: Benvenuti
+

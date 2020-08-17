@@ -1,0 +1,1 @@
+<?php echo $payment->getSfGuardUserId() !== null && $payment->getSfGuardUser() ? $payment->getSfGuardUser() : '-' ?>

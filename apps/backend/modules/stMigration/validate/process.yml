@@ -1,0 +1,23 @@
+fields:
+    migration{database}:
+        required:
+            msg:            Wartość nie może być pusta
+    migration{host}:
+        required:
+            msg:            Wartość nie może być pusta
+    migration{username}:
+        required:
+            msg:            Wartość nie może być pusta
+    migration{port}:
+        required:
+            msg:            Wartość nie może być pusta
+        sfNumberValidator:
+            nan_error:      Podana wartość nie jest liczbą
+            type_error:     Podana wartość nie jest liczbą całkowitą
+            type:           integer
+    migration{www}:
+        required:
+            msg:            Wartość nie może być pusta
+        stUrlValidator:
+            url_error:      "Podany adres posiada nieprawidłowy format (przykład: http://example.com)"
+                    

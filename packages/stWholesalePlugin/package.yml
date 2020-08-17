@@ -1,0 +1,20 @@
+package:
+  name: stWholesalePlugin
+  stability: stable
+  version: 7.0.0.3
+  summary: stWholesalePlugin
+  description: 'Ceny hurtowe'
+  notes: |
+     - Poprawka usuwania grup hurtowych po aktualizacji
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+    'Paweł Byszewski':
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency:
+    stProduct: 1.0.12.9
+    stUser: 1.0.5.5

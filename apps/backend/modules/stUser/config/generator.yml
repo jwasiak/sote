@@ -1,0 +1,245 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                         sfGuardUser
+        points_model_class:                  sfGuardUser
+        points_info_model_class:             sfGuardUser
+        user_points_model_class:             UserPoints
+        user_data_billing_model_class:       UserData
+        user_data_delivery_model_class:      UserData
+        theme:                               simple
+
+        head:
+            package:                stUser
+
+        applications:   [stOrder, stPayment, stInvoicePlugin, stPointsPlugin]
+
+        custom_actions:
+            list:                   [user_data_billing, user_data_delivery, user_points]
+            edit:                   [user_data_billing, user_data_delivery, points, points_info]
+        list:
+            title:                      Lista
+            description:                Klienci sklepu
+            display:                    [~username, ~full_name, ~company, _wholesale_list, created_at, is_admin_confirm]
+            fields:
+                username:               {name: Login (E-mail), width: 20%}
+                full_name:              {name: Imię i nazwisko, width: 20%}
+                company:                {name: Firma, width: 20%}
+                wholesale_list:         {name: Hurtownik - grupa, sort_field: sf_guard_user.wholesale, align: center, filterable: false}
+                created_at:             {name: Dodany, filterable: false}
+                is_admin_confirm:       {name: Zweryfikowany, filterable: false}
+            filters:
+                full_name:              {partial: filter_full_name}
+                company:                {partial: filter_company}
+                wholesale_list:         {filter_field: sf_guard_user.wholesale, partial: filter_wholesale}
+                is_admin_confirm:       {partial: filter_is_admin_confirm}
+            additional_filters:         [wholesale_list, created_at, is_admin_confirm]
+            sort:                       [created_at, desc]
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:        -
+                _delete:      -
+
+
+        config:
+            title:                      Konfiguracja klientów
+            description:                Klienci sklepu
+            hide_install_version:
+                "Google":           6.7.9
+            display:
+                "NONE":                 [show_users_online, show_address_more, show_region, show_pesel, change_default_user, validate_phone]
+                "Google":               [google_auth_on, google_client_id, google_secret_id, google_developer_key]
+            fields:
+                show_users_online:      {name: Pokaż użytkowników on-line, type: checkbox, old_config: true }
+                show_region:            {name: Pokaż województwo, type: checkbox}
+                show_pesel:             {name: Pokaż PESEL, type: checkbox}
+                show_address_more:      {name: Pokaż dodatkową linię adresu, type: checkbox}
+                change_default_user:    {name: Domyślnie klient to firma, type: checkbox}
+                validate_phone:         {name: Wymagaj numeru telefonu, help: "Podczas składania zamówienia i rejestracji nowego użytkownika", type: checkbox}
+                google_auth_on:         {name: Włącz możliwość logowania przez google, type: checkbox}
+                google_client_id:       {name: Google client ID}
+                google_secret_id:       {name: Google secret}
+                google_developer_key:   {name: Google developer key}
+
+            actions:
+                _save:                  {name: Zapisz}
+
+        user_data_billing_list:
+            title:                      Dane klienta %%~client_username%%
+            menu:                       {use: edit.menu}
+            forward_parameters:         [user_id]
+            build_options:
+                related_id:             forward_parameters.user_id
+
+            display:                    [=full_name, company, is_default]
+            fields:
+                full_name:              {name: Imię i nazwisko, params: truncate_text=100}
+                company:                {name: Firma, params: truncate_text=100}
+                is_default:             {name: Domyślny}
+
+            actions:
+                _create:                {name: Dodaj nowe dane billingowe, i18n: stUser}
+
+            object_actions:
+                _edit:        -
+                _delete:      -
+
+        user_data_billing_edit:
+            title:                      Dane billingowe klienta %%~client_username%%
+            menu:                       {use: edit.menu}
+            forward_parameters:         [user_id]
+            build_options:
+                related_id:             forward_parameters.user_id
+
+            display:                    [~is_default, company, full_name, address, address_more, region, code, town, countries_id, phone, vat_number, pesel]
+            fields:
+                is_default:             {name: Domyślny}
+                company:                {name: Firma}
+                full_name:              {name: Imię i nazwisko}
+                address:                {name: Adres}
+                address_more:           {name: Adres cd}
+                region:                 {name: Województwo}
+                code:                   {name: Kod}
+                town:                   {name: Miasto}
+                countries_id:           {name: Kraj, params: "peer_method=doSelectActive"}
+                phone:                  {name: Telefon}
+                vat_number:             {name: NIP}
+                pesel:                  {name: PESEL}
+
+            actions:
+                _list:                  {name: Pokaż listę}
+                _save:                  {name: Zapisz}
+
+        user_data_delivery_list:
+            title:                      Dane klienta %%~client_username%%
+            menu:                       {use: edit.menu}
+            forward_parameters:         [user_id]
+            build_options:
+                related_id:             forward_parameters.user_id
+
+            display:                    [=full_name, company, is_default]
+            fields:
+                full_name:              {name: Imię i nazwisko, params: truncate_text=100}
+                company:                {name: Firma, params: truncate_text=100}
+                is_default:             {name: Domyślny}
+            actions:
+                _create:                {name: Dodaj nowe dane dostawy, i18n: stUser}
+
+            object_actions:
+                _edit:        -
+                _delete:      -
+
+
+        user_data_delivery_edit:
+            title:                      Dane dostawy klienta %%~client_username%%
+            menu:                       {use: edit.menu}
+            forward_parameters:         [user_id]
+            build_options:
+                related_id:             forward_parameters.user_id
+
+            display:                    [~is_default, company, full_name, address, address_more, region, code, town, countries_id, phone]
+            fields:
+                is_default:             {name: Domyślny}
+                company:                {name: Firma}
+                full_name:              {name: Imię i nazwisko}
+                address:                {name: Adres }
+                address_more:           {name: Adres cd}
+                region:                 {name: Województwo}
+                code:                   {name: Kod}
+                town:                   {name: Miasto}
+                countries_id:           {name: Kraj, params: "peer_method=doSelectActive"}
+                phone:                  {name: Telefon}
+
+            actions:
+                _list:          {name: Pokaż listę}
+                _save:          {name: Zapisz}
+
+        edit:
+            title:  Dane klienta %%username%%
+
+
+            display:                [last_login, username, ~password, ~password_bis, is_confirm, is_admin_confirm, ~user_order, ~user_info]
+
+            fields:
+                last_login:             {name: Ostatnio logowany, type: plain}
+                username:               {name: Użytkownik}
+                password:               {name: Hasło}
+                password_bis:           {name: Powtórz hasło}
+                is_confirm:             {name: Potwierdzony}
+                is_admin_confirm:       {name: Zweryfikowany}
+                user_order:             {name: Zamówienia}
+                user_info:              {name: Informacje o kliencie}
+
+            menu:
+                display:    [billing, delivery, billing_list, delivery_list, points_info]
+                fields:
+                    _edit:              {name: Dane konta, action: stUser/index?user_id=%%id%%}
+                    billing:            {name: Dane billingowe, action: stUser/userDataBillingEdit?user_id=%%id%%}
+                    delivery:           {name: Dane dostawy, action: stUser/userDataDeliveryEdit?user_id=%%id%%}
+                    billing_list:       {name: Lista danych billingowych, action: stUser/userDataBillingList?user_id=%%id%%}
+                    delivery_list:      {name: Lista danych dostawy, action: stUser/userDataDeliveryList?user_id=%%id%%}
+                    points_info:        {name: Punkty, action: stUser/pointsInfoEdit?id=%%id%%}
+            actions:
+                _list:          {name: Pokaż listę}
+                _save:          {name: Zapisz}
+                _delete:        {name: Usuń}
+                _save_and_add:  {name: Zapisz i dodaj}
+                
+        points_edit:
+            menu:                       {use: edit.menu}
+            title:                      Punkty klienta %%username%%
+            forward_parameters:         [id]
+            build_options:
+                related_id:             forward_parameters.id        
+            display:
+              "NONE":                   [~header_user_info]                    
+              "Zmień stan konta":       [points, ~operation_description]
+
+            fields:
+                header_user_info:       {name: Klient}
+                points:                 {name: Aktualny stan konta, help: "Podaj wartość np:<br/> 10 - ustawi aktualny stan konta 10", support: true}
+                operation_description:  {name: Opis operacji, support: true}
+            actions:
+                _save:                  {name: Zapisz}
+        
+        points_info_edit:
+            menu:                       {use: edit.menu}
+            title:                      Punkty klienta %%username%%
+            forward_parameters:         [id]
+            build_options:
+                related_id:             forward_parameters.id              
+            display:
+              "NONE":                   [~header_user_info, ~header_user_points_avaible, ~header_user_points_release, ~header_user_points]
+              "Punkty":                 [~user_points]
+              "Zmień stan konta":       [~user_points_input_operation, ~user_points_description_operation]
+              
+
+            fields:
+                header_user_info:                    {name: Klient}
+                header_user_points_avaible:          {name: Możliwość korzystania z punktów}
+                header_user_points_release:          {name: Próg aktywacji punktów}
+                header_user_points:                  {name: Stan konta}
+                user_points:                         {name: Historia punktów}
+                user_points_input_operation:         {name: Punkty , help: "Podaj wartość np:<br/> +10 - doda do stanu konta 10<br/>-10 - odejmie od stanu konta 10", support: true}
+                user_points_description_operation:   {name: Opis operacji, support: true}
+            actions:
+                _save:                  {name: Dodaj}              
+                
+        user_points_list:
+            use_helper:                 [stPoints]
+            forward_parameters:         [user_id]
+            build_options:
+                related_id:             forward_parameters.user_id
+            menu:                       {use: edit.menu}
+            title:                      Lista operacji
+            display:                    [created_at, change_points_varchar, points, change, description]
+            fields:
+                created_at:             {name: Data}
+                change_points_varchar:  {name: Operacja}
+                points:                 {name: Stan konta}
+                change:                 {name: Zmienił, callback: st_points_change}
+                description:            {name: Opis}
+            actions:                    []
+            object_actions:             []    
+            select_actions:             []    

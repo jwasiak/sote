@@ -1,0 +1,15 @@
+package:
+  name: stNokautPlugin
+  stability: stable
+  version: 2.0.0.1
+  summary: Nokaut
+  description: 'Zarzadzanie porownywarka cen Nokaut'
+  notes: |
+    - Poprawka listy produtkow do eksportu.
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPriceCompare: 1.0.3.15

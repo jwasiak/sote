@@ -1,0 +1,15 @@
+package:
+  name: stLukasPlugin
+  stability: stable
+  version: 7.2.3.3
+  summary: 'Credit Agricole Raty'
+  description: 'Konfiguracja platnosci ratalnej Credit Agricole Raty'
+  notes: |
+    - Poprawka dla rabatow
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stPayment: 1.0.5.12

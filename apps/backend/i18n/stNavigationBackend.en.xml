@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Nawigacja</source>
+                <target>Navigation</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Proszę poprawnie uzupełnić pole. Proszę podawać tylko wartości liczbowe.</source>
+                <target>Fill in the field correctly. Enter the numerical values only.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja modułu nawigacji w sklepie</source>
+                <target>Configure navigation</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Ustawienia paska nawigacji</source>
+                <target>Navigation bar settings</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Włącz pasek nawigacji</source>
+                <target>Enable the navigation bar</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Tryb wyświetlania</source>
+                <target>Display mode</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>graficzny</source>
+                <target>graphical</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>tekstowy</source>
+                <target>textual</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Ustawienia lokalizacji</source>
+                <target>Location settings</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wyświetlaj lokalizację w pasku nawigacji</source>
+                <target>Show a location in the navigation bar</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Obcinaj nazwy produktów i kategorii</source>
+                <target>Cut the names of products and categories</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Obcinaj nazwę ostatniego elementu</source>
+                <target>Cut a name of the last element</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Uwaga:</source>
+                <target>Notice:</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Opcja działa dopiero po włączeniu opcji "Obcinaj nazwy produktów i kategorii".</source>
+                <target>This option works only when you enable the option "Cut the names of products and categories".</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ilość znaków po obcięciu</source>
+                <target>Number of the characters after cutting</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Nazwa pierwszego elementu</source>
+                <target>Name of the first element</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Ustawienia historii</source>
+                <target>History settings</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Włącz moduł historii</source>
+                <target>Enable the history module</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Ilość ostatnio oglądanych produktów</source>
+                <target>Number of the recently viewed products</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Wyświetlaj historię w pasku nawigacji</source>
+                <target>Show the history in the navigation bar</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Wyświetlaj link do historii w pasku nawigacji</source>
+                <target>Show the link to the history in the navigation bar</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wyświetlaj boks "Ostatnio oglądane"</source>
+                <target>Display the box "Recently viewed"</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Ilość wyświetlanych produktów w boksie</source>
+                <target>Number of the products displayed in the box</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,1 @@
+<?php echo input_hidden_tag('user_data_billing[poczta_polska]'); ?>

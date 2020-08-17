@@ -1,0 +1,47 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stWholesalePlugin.lib.model
+  st_product_has_wholesale: 
+    _attributes: 
+      phpName: ProductHasWholesale
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    price_a: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_b: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_c: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_price_brutto_a: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_price_brutto_b: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_price_brutto_c: 
+      type: DECIMAL
+      size: 10
+      scale: 2

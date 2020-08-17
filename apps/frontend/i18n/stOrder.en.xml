@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Ostatnie zamówienia</source>
+            <target>Recent orders</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Aktualnie nie posiadasz żadnych zamówień</source>
+            <target>You currently do not have any orders</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Data złożenia zamówienia</source>
+            <target>Order date</target>
+         </trans-unit>
+         <trans-unit id="4">
+            <source>Zamówienie numer</source>
+            <target>Order number</target>
+         </trans-unit>
+         <trans-unit id="5">
+            <source>Dane bilingowe</source>
+            <target>Billing data</target>
+         </trans-unit>
+         <trans-unit id="6">
+            <source>Dane dostawy</source>
+            <target>Delivery data</target>
+         </trans-unit>
+         <trans-unit id="7">
+            <source>Lista zamówienia</source>
+            <target>Order list</target>
+         </trans-unit>
+         <trans-unit id="8">
+            <source>Kod</source>
+            <target>Code</target>
+         </trans-unit>
+         <trans-unit id="9">
+            <source>Nazwa</source>
+            <target>Name</target>
+         </trans-unit>
+         <trans-unit id="10">
+            <source>Netto</source>
+            <target>Net price</target>
+         </trans-unit>
+         <trans-unit id="11">
+            <source>VAT</source>
+            <target>VAT</target>
+         </trans-unit>
+         <trans-unit id="12">
+            <source>Brutto</source>
+            <target>Gross price</target>
+         </trans-unit>
+         <trans-unit id="13">
+            <source>Ilość</source>
+            <target>Quantity</target>
+         </trans-unit>
+         <trans-unit id="14">
+            <source>Kwota</source>
+            <target>Amount</target>
+         </trans-unit>
+         <trans-unit id="15">
+            <source>Razem</source>
+            <target>Total</target>
+         </trans-unit>
+         <trans-unit id="16">
+            <source>Łączna kwota do zapłaty</source>
+            <target>Total amount to pay</target>
+         </trans-unit>
+         <trans-unit id="17">
+            <source>Płatność</source>
+            <target>Payment</target>
+         </trans-unit>
+         <trans-unit id="18">
+            <source>Dostawy</source>
+            <target>Deliveries</target>
+         </trans-unit>
+         <trans-unit id="19">
+            <source>Koszt</source>
+            <target>Cost</target>
+         </trans-unit>
+         <trans-unit id="20">
+            <source>Potwierdź zamówienie</source>
+            <target>Confirm order</target>
+         </trans-unit>
+         <trans-unit id="21">
+            <source>Moje konto</source>
+            <target>My account</target>
+         </trans-unit>
+         <trans-unit id="22">
+            <source>Dane klienta</source>
+            <target>Customer data</target>
+         </trans-unit>
+         <trans-unit id="23">
+            <source>NIP</source>
+            <target>VAT ID</target>
+         </trans-unit>
+         <trans-unit id="24">
+            <source>Zawartość</source>
+            <target>Contents</target>
+         </trans-unit>
+         <trans-unit id="25">
+            <source>Ilość</source>
+            <target>Quantity</target>
+         </trans-unit>
+         <trans-unit id="26">
+            <source>Suma</source>
+            <target>Total</target>
+         </trans-unit>
+         <trans-unit id="27">
+            <source>Dane dodatkowe</source>
+            <target>Additional data</target>
+         </trans-unit>
+         <trans-unit id="28">
+            <source>Dostawa</source>
+            <target>Delivery</target>
+         </trans-unit>
+         <trans-unit id="29">
+            <source>Łączny koszt (zamówienie + dostawa)</source>
+            <target>Total cost (order and delivery)</target>
+         </trans-unit>
+         <trans-unit id="30">
+            <source>Numer</source>
+            <target>Number</target>
+         </trans-unit>
+         <trans-unit id="31">
+            <source>Status</source>
+            <target>Status</target>
+         </trans-unit>
+         <trans-unit id="32">
+            <source>Potwierdzone</source>
+            <target>Confirmed</target>
+         </trans-unit>
+         <trans-unit id="33">
+            <source>Recenzja</source>
+            <target>Feedback</target>
+         </trans-unit>
+         <trans-unit id="34">
+            <source>tak</source>
+            <target>yes</target>
+         </trans-unit>
+         <trans-unit id="35">
+            <source>nie</source>
+            <target>no</target>
+         </trans-unit>
+         <trans-unit id="36">
+            <source>Sprawdź informacje zamówienia</source>
+            <target>Verify order information</target>
+         </trans-unit>
+         <trans-unit id="37">
+            <source>Popraw</source>
+            <target>Modify</target>
+         </trans-unit>
+         <trans-unit id="38">
+            <source>Potwierdź</source>
+            <target>Confirm</target>
+         </trans-unit>
+         <trans-unit id="39">
+            <source>Zamówienie</source>
+            <target>Order</target>
+         </trans-unit>
+         <trans-unit id="40">
+            <source>Twoje zamówienie zostało złożone</source>
+            <target>Your order has been placed</target>
+         </trans-unit>
+         <trans-unit id="41">
+            <source>Lista zamówień</source>
+            <target>Order list</target>
+         </trans-unit>
+         <trans-unit id="42">
+            <source>Przejdź do potwierdzenia</source>
+            <target>Proceed with confirmation</target>
+         </trans-unit>
+         <trans-unit id="43">
+            <source>Uwagi do zamówienia</source>
+            <target>Notes and remarks</target>
+         </trans-unit>
+         <trans-unit id="44">
+            <source>Data złożenia</source>
+            <target>Order date</target>
+         </trans-unit>
+         <trans-unit id="45">
+            <source>Opłacone</source>
+            <target>Paid</target>
+         </trans-unit>
+         <trans-unit id="46">
+            <source>Zamówienie numer %number%</source>
+            <target>Order number %number%</target>
+         </trans-unit>
+         <trans-unit id="47">
+            <source>Zobacz wszystkie</source>
+            <target>See all</target>
+         </trans-unit>
+         <trans-unit id="48">
+            <source>Twoje zamówienie zostało potwierdzone.</source>
+            <target>Your order is confirmed.</target>
+         </trans-unit>
+         <trans-unit id="49">
+            <source>Twoje zamówienie zostało już wcześniej potwierdzone.</source>
+            <target>Your order has already been confirmed.</target>
+         </trans-unit>
+         <trans-unit id="50">
+            <source>Łączna kwota do zapłaty</source>
+            <target>Total amount to pay</target>
+         </trans-unit>
+         <trans-unit id="51">
+            <source>Numer Twojego zamówienia</source>
+            <target>Your order number</target>
+         </trans-unit>
+         <trans-unit id="52">
+            <source>Dziękujemy za złożenie zamówienia</source>
+            <target>Thank you for placing your order</target>
+         </trans-unit>
+         <trans-unit id="53">
+            <source>Popraw zamówienie</source>
+            <target>Adjust order</target>
+         </trans-unit>
+         <trans-unit id="54">
+            <source>Zamówienia</source>
+            <target>Orders</target>
+         </trans-unit>
+         <trans-unit id="55">
+            <source>Zweryfikuj poprawność informacji zawartych w zamówieniu.</source>
+            <target>Verify the accuracy of information contained in the order.</target>
+         </trans-unit>
+         <trans-unit id="56">
+            <source>Zweryfikuj poprawność informacji zawartych w zamówieniu.</source>
+            <target>Verify the accuracy of information contained in the order.</target>
+         </trans-unit>
+         <trans-unit id="57">
+            <source>Użytkownik</source>
+            <target>User</target>
+         </trans-unit>
+         <trans-unit id="58">
+            <source>zamówienie numer</source>
+            <target>order number</target>
+         </trans-unit>
+         <trans-unit id="59">
+            <source>Potwierdzone zamówienia</source>
+            <target>Confirmed orders</target>
+         </trans-unit>
+         <trans-unit id="60">
+            <source>Niepotwierdzone zamówienia</source>
+            <target>Unconfirmed orders</target>
+         </trans-unit>
+         <trans-unit id="61">
+            <source>potwierdź</source>
+            <target>confirm</target>
+         </trans-unit>
+         <trans-unit id="62">
+            <source>anuluj</source>
+            <target>cancel</target>
+         </trans-unit>
+         <trans-unit id="63">
+            <source>Faktury</source>
+            <target>Invoices</target>
+         </trans-unit>
+         <trans-unit id="64">
+            <source>Pokaż listę zamówień </source>
+            <target>Show order list</target>
+         </trans-unit>
+         <trans-unit id="65">
+            <source>Konto użytkownika</source>
+            <target>User account</target>
+         </trans-unit>
+         <trans-unit id="66">
+            <source>Pokaż listę zamówień </source>
+            <target>Show order list</target>
+         </trans-unit>
+         <trans-unit id="67">
+            <source>W czasie składania zamówienia zostanie utworzone konto użytkownika, dane dostępowe do konta zostaną wysłane na adres:</source>
+            <target>During placing an order a user account will be created, access data to the account will be sent to the address:</target>
+         </trans-unit>
+         <trans-unit id="68">
+            <source>Aby móc zalogować się do sklepu, niezbędne będzie potwierdzenie danych zawartych w mailu z zamówieniem.</source>
+            <target>In order to log into the store, confirming data included in the mail with the order will be essential.</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>Zamówienie zostało anulowane.</source>
+            <target>Order has been canceled.</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>Zamówienie zostało anulowane.</source>
+            <target>Order has been canceled.</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>Zamówienie zostało anulowane.</source>
+            <target>Order has been canceled.</target>
+         </trans-unit>
+         <trans-unit id="69">
+            <source>Zamówienie zostało anulowane.</source>
+            <target>Order has been canceled.</target>
+         </trans-unit>
+         <trans-unit id="70">
+            <source>Hasło</source>
+            <target>Password</target>
+         </trans-unit>
+         <trans-unit id="71">
+            <source>Dane dostępowe do konta</source>
+            <target>Access data to the account</target>
+         </trans-unit>
+         <trans-unit id="72">
+            <source>Potwierdź zamówienie i rejestrację konta</source>
+            <target>Confirm order and registration</target>
+         </trans-unit>
+         <trans-unit id="73">
+            <source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz. Skorzystaj z linku powyżej aby potwierdzić zamówienie i aktywować konto.</source>
+            <target>Your order will not be accomplished until you confirm it. Use the link above to confirm the order and activate the account.</target>
+         </trans-unit>
+         <trans-unit id="74">
+            <source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz.</source>
+            <target>Your order will not be accomplished until you confirm it.</target>
+         </trans-unit>
+         <trans-unit id="75">
+            <source>Zapisz mnie na newsletter</source>
+            <target>Enrol me in the newsletter</target>
+         </trans-unit>
+         <trans-unit id="76">
+            <source>Chcę otrzymać fakturę VAT</source>
+            <target>I want to receive the VAT invoice</target>
+         </trans-unit>
+         <trans-unit id="77">
+            <source>Minimalna wartość zamówienia wynosi %min_amount%</source>
+            <target>The minimum order amount is %min_amount%</target>
+         </trans-unit>
+         <trans-unit id="78">
+            <source>Złożono nowe zamówienie numer</source>
+            <target>Submitted a new order number</target>
+         </trans-unit>
+         <trans-unit id="79">
+            <source>Przejdź do konta.</source>
+            <target>Go to account.</target>
+         </trans-unit>
+         <trans-unit id="80">
+            <source>Przejdź do zamówienia.</source>
+            <target>Go to the order.</target>
+         </trans-unit>
+         <trans-unit id="81">
+            <source>Łączny koszt</source>
+            <target>Total cost</target>
+         </trans-unit>
+         <trans-unit id="82">
+            <source>Zapłacono</source>
+            <target>Paid</target>
+         </trans-unit>
+         <trans-unit id="83">
+            <source>Razem do zapłaty</source>
+            <target>Total to pay</target>
+         </trans-unit>
+         <trans-unit id="84">
+            <source>Termin dostawy</source>
+            <target>Delivery time</target>
+         </trans-unit>
+         <trans-unit id="85">
+            <source>Brak wymaganej ilości towaru w magazynie</source>
+            <target>The product cannot be ordered in requested quantity</target>
+         </trans-unit>
+         <trans-unit id="86">
+            <source>J.m.</source>
+            <target>UOM</target>
+         </trans-unit>
+         <trans-unit id="87">
+            <source>Pokaż wszystkie</source>
+            <target>Show all</target>
+         </trans-unit>
+         <trans-unit id="88">
+            <source>Numer przesyłki</source>
+            <target>Shipping number</target>
+         </trans-unit>
+         <trans-unit id="89">
+                <source>Dane płatnika</source>
+                <target>Payer Data</target>
+        </trans-unit>
+        <trans-unit id="90">
+            <source>Dane wysyłkowe</source>
+            <target>Shipping data</target>
+        </trans-unit>
+        <trans-unit id="91">
+            <source>Dane do faktury</source>
+            <target>Invoice data</target>
+        </trans-unit>
+        <trans-unit id="92">
+            <source>Informacje</source>
+            <target>Information</target>
+        </trans-unit>
+        <trans-unit id="93">
+            <source>zdjęcie</source>
+            <target>photo</target>
+         </trans-unit>
+         <trans-unit id="94">
+            <source>nazwa</source>
+            <target>name</target>
+         </trans-unit>
+         <trans-unit id="95">
+            <source>cena netto</source>
+            <target>net price</target>
+         </trans-unit>
+         <trans-unit id="96">
+            <source>vat</source>
+            <target>vat</target>
+         </trans-unit>
+         <trans-unit id="97">
+            <source>brutto</source>
+            <target>gross</target>
+         </trans-unit>
+         <trans-unit id="98">
+            <source>ilość</source>
+            <target>quantity</target>
+         </trans-unit>
+         <trans-unit id="99">
+            <source>suma</source>
+            <target>total</target>
+         </trans-unit>
+   		 <trans-unit id="100">
+            <source>Koszty</source>
+            <target>Costs</target>
+         </trans-unit>
+         <trans-unit id="101">
+            <source>Koszt dostawy</source>
+            <target>Cost of delivery</target>
+         </trans-unit>
+         <trans-unit id="102">
+            <source>Wartość koszyka</source>
+            <target>Value of shopping cart</target>
+         </trans-unit>
+         <trans-unit id="103">
+            <source>Potwierdzenie zamówienia</source>
+            <target>Confirmation of order</target>
+         </trans-unit>
+         <trans-unit id="104">
+            <source>Zweryfikuj informacje zawarte w zamówieniu.</source>
+            <target>Verify the information contained in the order.</target>
+         </trans-unit>
+         <trans-unit id="105">
+            <source>Wróć do koszyka</source>
+            <target>Back to cart</target>
+         </trans-unit>
+         <trans-unit id="106">
+            <source>Zamów</source>
+            <target>Order</target>
+         </trans-unit>
+         <trans-unit id="107">
+                <source>Zmień</source>
+                <target>Change</target>
+         </trans-unit>
+         <trans-unit id="108">
+                <source>Podsumowanie zamówienia</source>
+                <target>Order summary</target>
+         </trans-unit>
+         <trans-unit id="109">
+                <source>Zapisz informację.</source>
+                <target>Save the information.</target>
+         </trans-unit>
+         <trans-unit id="110">
+                <source>Drukuj</source>
+                <target>Print</target>
+         </trans-unit>
+         <trans-unit id="111">
+                <source>Pobierz</source>
+                <target>Download</target>
+         </trans-unit>
+         <trans-unit id="112">
+                <source>Zapłać</source>
+                <target>Pay</target>
+         </trans-unit>
+         <trans-unit id="113">
+                <source>Zamówienie nr</source>
+                <target>Order nr</target>
+         </trans-unit>         
+         <trans-unit id="114">
+                <source>Do zapłaty</source>
+                <target>To pay</target>
+         </trans-unit>
+         <trans-unit id="160">
+            <source>j.m.</source>
+            <target>UOM</target>
+         </trans-unit>
+         <trans-unit id="161">
+            <source>Informacje i uwagi do zamówienia</source>
+            <target>Notes and information to order</target>
+         </trans-unit>
+         <trans-unit id="162">
+            <source>Pobrano z konta</source>
+            <target>Download account</target>
+         </trans-unit>
+         <trans-unit id="163">
+            <source>Za zamówienie otrzymasz</source>
+            <target>The order will receive</target>
+         </trans-unit>
+         <trans-unit id="164">
+            <source>Aktualizowane przez zamówienie</source>
+            <target>Updated by order</target>
+         </trans-unit>
+         <trans-unit id="165">
+            <source>Rabat</source>
+            <target>Discount</target>
+         </trans-unit>      
+         <trans-unit id="166">
+            <source>Płatność punktami</source>
+            <target>Payment only points</target>
+         </trans-unit>
+         <trans-unit id="167">
+            <source>Zamówienie z obowiązkiem zapłaty.</source>
+            <target>Order with payment obligation.</target>
+         </trans-unit>
+         <trans-unit id="168">
+            <source>oraz</source>
+            <target>and</target>
+         </trans-unit>
+         <trans-unit id="169">
+            <source>regulaminem</source>
+            <target>Terms and Conditions</target>
+         </trans-unit>
+         <trans-unit id="170">
+            <source>Zapoznałem się z moim</source>
+            <target>I have received this Notice of my</target>
+         </trans-unit>
+         <trans-unit id="171">
+            <source>prawem do odstąpienia od umowy</source>
+            <target>right to cancel</target>
+         </trans-unit>
+         <trans-unit id="172">
+            <source>Proszę o bezzwłoczny dostęp do informacji cyfrowej. Jestem świadomy, że moje prawo od odstąpienia od umowy wygasza wraz z uzyskaniem dostępu.</source>
+            <target>I consent to the starting of the supply of the digital content during the legal cooling off period and I acknowledge that my right to cancel the contract will be lost with this consent to start the supply of the digital content.</target>
+         </trans-unit>
+         <trans-unit id="173">
+            <source>dodatkowa opłata</source>
+            <target>additional fee</target>
+         </trans-unit>
+         <trans-unit id="174">
+            <source>Wróć do sklepu</source>
+            <target>Continue shopping</target>
+         </trans-unit>
+         <trans-unit id="175">
+            <source>Zamówienie PDF</source>
+            <target>Order PDF</target>
+         </trans-unit>
+         <trans-unit id="176">
+            <source>Trwa składanie zamówienia. Proszę czekać.</source>
+            <target>Your order is being processed. Please wait.</target>
+         </trans-unit>
+         <trans-unit id="177">
+            <source>Przejdź do logowania</source>
+            <target>Go to login</target>
+         </trans-unit>
+         <trans-unit id="178">
+            <source>Zaloguj się aby zobaczyć szczegóły zamówienia.</source>
+            <target>Log in to view order details.</target>
+         </trans-unit>
+         <trans-unit id="179">
+            <source>Wypełnij wniosek</source>
+            <target>Complete the application</target>
+         </trans-unit>
+         <trans-unit id="180">
+            <source>kod</source>
+            <target>code</target>
+         </trans-unit>
+         <trans-unit id="181">
+            <source>Bon zakupowy: %code%</source>
+            <target>Gift card: %code%</target>
+         </trans-unit>
+         <trans-unit id="182">
+            <source>Opłać zamówienie</source>
+            <target>Pay your order</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

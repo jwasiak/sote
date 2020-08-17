@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2015-01-15T01:23:10Z">
+		<body>
+			<trans-unit id="1">
+				<source>Twoje punkty</source>
+				<target>Ihre Punkte</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Moje konto</source>
+				<target>Mein Konto</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Punkty</source>
+				<target>Punkte</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Aktualnie posiadasz</source>
+				<target>Zurzeit verfügen Sie über</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Lista operacji</source>
+				<target>Operationsliste</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Operacja</source>
+				<target>Operation</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Zmienił</source>
+				<target>Geändert von</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Opis</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Data</source>
+				<target>Datum</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Stan konta</source>
+				<target>Kontostand</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>administrator</source>
+				<target>Administrator</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Zam</source>
+				<target>Bes</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Aktualisiert durch die Bestellung</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Próg aktywacji punktów</source>
+				<target>Punktschwelle zur Aktivierung</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>osiągnięty</source>
+				<target>erreicht</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Próg aktywacji punktów nie został osiągnięty</source>
+				<target>Die Punktschwelle zur Aktivierung wurde nicht erreicht</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>do aktywacji brak</source>
+				<target>zur Aktivierung noch</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Po zgromadzeniu łącznie</source>
+				<target>Nachdem Sie insgesamt</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>będzie można dokonywać zakupów za punkty.</source>
+				<target>angesammelt haben, können Sie Punkte einlösen.</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Aktywacja jest jednorazowa.</source>
+				<target>Die Aktivierung erfolgt einmalig.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Po przekroczeniu progu aktywacji, korzystanie z systemu punktowego nie będzie ograniczane.</source>
+				<target>Nachdem Sie die Aktivierungsschwelle überschritten haben, wird die Nutzung des Punktesystems nicht eingeschränkt.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Aktualizacja stanu konta</source>
+				<target>Aktualisierung des Kontostands</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

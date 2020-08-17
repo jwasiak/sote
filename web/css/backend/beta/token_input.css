@@ -1,0 +1,79 @@
+.token-input-list-backend {
+   border: 1px solid #ccc;
+   padding-top: 3px;
+   padding-left: 3px;
+   overflow: auto;
+   box-sizing: border-box;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;   
+}
+
+
+.token-input-token-backend p {
+   display: inline;
+}
+
+.token-input-token-backend {
+   border: 1px solid #ccc;
+   padding: 2px 3px;
+   background: #eee;
+}
+
+.token-input-delete-token-backend {
+   background-color: #ccc;
+   color: #666;
+   cursor: pointer;
+   line-height: 0;
+   margin-left: 5px;
+   padding: 0 4px;
+}
+
+.token-input-delete-token-backend:hover,
+.token-input-selected-token-backend .token-input-delete-token-backend {
+   background-color: #D92929;
+   color: #fff;
+
+}
+
+.token-input-token-backend,
+.token-input-input-token-backend {
+   margin-right: 3px;
+   margin-bottom: 3px;
+   float: left;
+}
+
+.token-input-input-token-backend > input {
+   min-width: 100px;
+   max-width: 400px;
+   border-color: transparent;
+}
+
+.token-input-input-token-backend > input:focus {
+   border-color: inherit;
+}
+
+div.token-input-dropdown-backend {
+   padding: 3px;
+   border: 1px solid #ccc;
+   background-color: #fff;
+   min-width: 150px;
+   box-shadow: 5px 5px 3px #888888;
+   margin-bottom: 10px;
+   max-height: 300px;
+   overflow-y: auto;
+}
+
+div.token-input-dropdown-backend ul li {
+   padding: 5px 10px;
+   cursor: pointer;
+}
+
+div.token-input-dropdown-backend > p {
+   padding: 3px 5px;
+}
+
+
+div.token-input-dropdown-backend ul li.token-input-selected-dropdown-item-backend {
+   background-color: #eee;
+}

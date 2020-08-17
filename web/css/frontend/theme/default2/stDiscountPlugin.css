@@ -1,0 +1,157 @@
+#st_basket-confirm_code
+{
+   padding: 0px;
+   margin-right:18px;
+   margin-top:-2px;
+}
+
+#st_discount-coupon-form
+{
+   padding:15px 7px 10px 10px;
+}
+
+#st_discount-coupon-info
+{
+   padding:5px 5px 10px 10px;
+   text-align: right;
+}
+
+#st_discount-coupon-error
+{
+   color:red;
+   margin-left:10px;
+}
+
+#st_discount-coupon-code h5 
+{
+   border-color: #E3E3E3;
+   border-style: solid;
+   border-width: 0 0 1px;
+   padding-left: 5px;
+}
+
+#discount-table
+{
+    width: 407px;
+    margin: 10px auto;
+}
+
+#st_discount-coupon-code .buttons 
+{
+    margin-left: 3px;
+    margin-top: -1px;
+}
+
+#discount_coupon_code
+{
+    width: 156px;
+}
+
+
+#st_discount-coupon-form label
+{
+    width: 146px;
+    
+}
+
+#st_discount-coupon-info a
+{
+   vertical-align: middle;
+}
+
+#discount-table-info th {
+    border-bottom: medium none;
+    color: #666666;
+    font-weight: normal;
+}
+#discount-table-info td {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 3px;
+}
+#discount-table-info {
+    border: 1px solid #EEEEEE;
+    width: 100%;
+}
+#discount-table-info th, #discount-table-info td {
+    border-bottom: 1px solid #DDDDDD;
+    border-left: medium none;
+    border-right: medium none;
+}
+
+#discount-table-info th {
+    background-color: #F4F5F4;
+}
+
+#product_set_discounts {
+    margin: 0px 16px;
+}
+
+#product_set_discounts .item {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+}
+
+#product_set_discounts .item {
+    margin-left: 6px;
+    padding: 10px;
+    width: 112px;
+}
+
+#product_set_discounts .item {
+    float: left;
+    text-align: center;
+    margin-left: -1px; 
+    margin-bottom: -1px    
+}
+
+#product_set_discounts .image {
+    display: table-cell;
+    height: 94px;
+    text-align: center;
+    vertical-align: middle;
+    width: 134px;
+}
+
+#product_set_discounts h3.head {
+    font-weight: normal;
+    font-size: 1.6em;
+    padding: 6px 5px 8px 10px;
+}
+
+#product_set_discounts .content {
+    padding: 17px 10px 5px 10px;
+    background: #fff;
+}
+
+#product_set_discounts .item_discount_set.plus {
+    float: left; 
+    margin-left: -6px; 
+    margin-right: -6px; 
+    position: relative; 
+    z-index: 1; 
+    margin-bottom: 0px;
+    padding-bottom: 6px; 
+    background: url(/images/frontend/theme/default2/product_set_plus.png) no-repeat center center; 
+    width: 12px;
+}
+
+#product_set_discounts .discount_summary {
+    padding-top: 40px; 
+    float: left; 
+    font-size: 1.3em; 
+    text-align: right; 
+    margin-left: 18px;
+}
+
+#product_set_discounts .old_price {
+    padding: 0; 
+    color: #919191;
+}
+
+#product_set_discounts .discount_row {
+    margin-bottom: 11px;
+}
+
+#product_set_discounts .discount_summary .buttons {
+    margin-top: 10px;
+}

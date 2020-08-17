@@ -1,0 +1,12 @@
+package:
+  name: stFixturesAir
+  stability: stable
+  version: 7.0.0
+  summary: Dane dla tematu AirSport
+  description: Dane dla tematu AirSports
+  notes: Dostosowanie do tematu AirSports
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

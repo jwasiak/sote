@@ -1,0 +1,13 @@
+package:
+  name: stTheme0Lazuli
+  stability: stable
+  version: 7.0.0.1
+  summary: 'Edycja grafiki'
+  description: 'Temat graficzny Lazuli'
+  notes: |
+    - Temat graficzny Lazuli
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

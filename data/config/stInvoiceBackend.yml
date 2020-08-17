@@ -1,0 +1,106 @@
+data:
+  check_vat_eu_delivery_country: false
+  town: ""
+  date_selle: ""
+  date_create_copy: ""
+  company_description: ""
+  seller_company: ""
+  seller_vat_number: ""
+  seller_full_name: ""
+  seller_name: ""
+  seller_surname: ""
+  seller_address: ""
+  seller_address_more: ""
+  seller_region: ""
+  seller_street: ""
+  seller_house: ""
+  seller_flat: ""
+  seller_code: ""
+  seller_town: ""
+  seller_country: ""
+  seller_signature: ""
+  customer_company: ""
+  customer_vat_number: ""
+  customer_full_name: ""
+  customer_name: ""
+  customer_surname: ""
+  customer_address: ""
+  customer_address_more: ""
+  customer_region: ""
+  customer_street: ""
+  customer_house: ""
+  customer_flat: ""
+  customer_code: ""
+  customer_town: ""
+  customer_country: ""
+  customer_signature: ""
+  invoice_on: "0"
+  proforma_on: "0"
+  number_proforma: "1"
+  number_confirm: "1"
+  delivery_vat: ""
+  delivery_vat_id: ""
+  number_proforma_format_prefix: "FP"
+  number_proforma_format: "1"
+  number_proforma_format_sufix: ""
+  number_proforma_format_separator: "-"
+  number_format_prefix: "FV"
+  number_format: "1"
+  number_format_sufix: ""
+  number_format_separator: "/"
+  status_proforma_on: "0"
+  status_proforma_confirm: "0"
+  status_proforma: "5"
+  shop_currency: ""
+  max_day: "none"
+  vat_eu: false
+  show_product_code: false
+  _i18n:
+    en_US:
+      date_label: "Date of service / delivery of goods"
+      invoice_description: ""
+      invoice_label: "Invoice"
+    pl_PL:        
+      date_label: "Data wykonania usługi / dostarczenia towaru"
+      invoice_description: ""
+      invoice_label: "Faktura"
+    de:
+      invoice_description: ''
+      date_label: 'Datum der Leistung / Lieferung von Waren'
+      invoice_label: "Rechnung"
+    cs:
+      invoice_description: ''
+      date_label: 'Datum služby / dodání zboží'
+      invoice_label: 'Faktura'
+    es:
+      invoice_description: ''
+      date_label: 'Fecha del servicio / entrega de mercancías'
+      invoice_label: 'Factura'
+    fr:
+      invoice_description: ''
+      date_label: 'Date du service / livraison des marchandises'
+      invoice_label: 'Facture'
+    it:
+      invoice_description: ''
+      date_label: 'Data del servizio / fornitura di beni'
+      invoice_label: 'Fattura'
+    'no':
+      invoice_description: ''
+      date_label: 'Dato av tjeneste / levering av varer'
+      invoice_label: 'Faktura'
+    pt:
+      invoice_description: ''
+      date_label: 'Data de serviço / entrega de mercadorias'
+      invoice_label: 'Fatura'
+    ru:
+      invoice_description: ''
+      date_label: 'Дата обслуживания / доставки товаров'
+      invoice_label: 'счет-фактура'
+    sk:
+      invoice_description: ''
+      date_label: 'Dátum služby / dodania tovaru'
+      invoice_label: 'Faktúra'
+    zh:
+      invoice_description: ''
+      date_label: '商品服務/交貨日期'
+      invoice_label: '發票'

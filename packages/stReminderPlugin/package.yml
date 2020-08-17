@@ -1,0 +1,14 @@
+package:
+  name: stReminderPlugin
+  stability: stable
+  version: 2.0.0
+  summary: 'Wiadomosci w panelu administracyjnym'
+  description: 'Przypominanie o wykonaniu operacji na sklepie.'
+  notes: 'Wydanie wersji SOTESHOP 6'
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stBackend: 1.0.3

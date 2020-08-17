@@ -1,0 +1,53 @@
+{set layout="one_column_layout"}
+<div id="st_application-user-user" class="st_application box roundies">
+    <div id="st_navigation_bar-user" class="st_navigation_bar_user">
+		<ul>
+	    	<li class="st_first"><a href="/user_data/userPanel">{__ text="Moje konto"}</a></li>
+	    	<li class="st_selected"><a href="/discount/discountInfo">{__ text="Rabaty"}</a></li>
+		</ul>
+	</div>
+    
+    
+	<div class="st_content">
+        
+        <div id="discount-table" class="box_form roundies">
+			<h3>{__ text="Lista przypisanych rabatów"}</h3>
+			
+			<div style="padding: 25px;">
+				{if $discounts}
+				<table id="discount-table-info" class="st_tabular-list" cellspacing="0">
+			    	<colgroup>
+			        	<col>
+			        	<col width="120">
+						<col width="120">
+			    	</colgroup>
+			    	<thead>
+			        	<tr>
+			            	<th style="white-space: nowrap;"><span>{__ text="Nazwa"}</span></th>
+			            	<th><span>{__ text="Wartość"}</span></th>
+							<th><span>{__ text="Produkty"}</span></th>
+			        	</tr>
+			    	</thead>
+			    	<tbody>
+						{foreach from=$discounts item=discount}    		
+			            <tr>
+			                <td>{$discount.name}</td>
+			                {if $discount.type == '%' || $discount.id == 0}
+			                <td>{$discount.value}%</td>
+			                {else}
+			                <td>{$discount.value|st_currency_format:null:true}</td>
+			                {/if}
+							<td>{$discount.link_to}</td>
+			            </tr>
+						{/foreach}
+			        </tbody>
+				</table>
+				{else}
+				{__ text="Brak rabatów"}
+				{/if}
+			</div>
+        </div>
+	</div>
+
+    <div class="st_clear_all"></div>
+</div>

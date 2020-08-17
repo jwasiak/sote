@@ -1,0 +1,16 @@
+fields:
+    newsletter{email}:
+        required:
+            msg:            
+            
+        sfStringValidator:
+            max:            40
+            max_error:      Przekroczono dozwoloną liczbę znaków.    
+            
+        sfEmailValidator:
+            email_error:    Nieprawidłowy format adresu e-mail.
+            
+        sfPropelUniqueValidator:
+            class:          NewsletterUser
+            column:         email
+            unique_error:   Taki adres już istnieje w bazie danych.

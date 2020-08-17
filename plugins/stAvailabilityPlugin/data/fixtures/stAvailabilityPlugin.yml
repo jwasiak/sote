@@ -1,0 +1,35 @@
+sfAsset:
+  sfAsset_100: 
+    folder_id: sfAssetFolder_100
+    filename: empty.png
+    type: image
+  sfAsset_101: 
+    folder_id: sfAssetFolder_100
+    filename: full.png
+    type: image
+Availability:
+  Availability_1: 
+    culture: pl_PL
+    availability_name: Brak
+    stock_from: 0
+    is_system_default: 1
+    color: FF0000
+    image: media/availability/empty.png
+    sf_asset_id: sfAsset_100
+  Availability_2: 
+    culture: pl_PL 
+    availability_name: Jest
+    stock_from: 1
+    is_system_default: 1
+    color: 808080
+    image: media/availability/full.png
+    sf_asset_id: sfAsset_101
+AvailabilityI18n:
+  AvailabilityI18n_2:
+    id: Availability_1
+    culture: en_US
+    availability_name: None
+  AvailabilityI18n_4:
+    id: Availability_2
+    culture: en_US 
+    availability_name: Exists

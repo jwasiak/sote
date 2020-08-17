@@ -1,0 +1,30 @@
+generator:
+    class:                  stAdminGenerator
+    param:
+        model_class:        sfGuardPermission
+        theme:              simple
+        
+        head:
+            package:        stAuthUsers
+        
+        list:
+            title:          Lista uprawnień
+            display:        [id, =name, description]
+            object_actions:
+                _edit:           -
+                _delete:         -
+            fields:
+               name:           {name: Nazwa uprawnienia}
+               description:    {name: Opis}                    
+            actions:
+                _create:    {name: Dodaj nowe uprawnienia}
+        edit:
+            title:          Edycja uprawnienia "%%name%%"
+            description:    Zarządzanie i konfiguracja kont administratorów panelu 
+            display:        [name, description]
+            fields:
+               name:           {name: Nazwa uprawnienia}
+               description:    {name: Opis , help: Opis wyświetlana jest dla użytkownika panelu}    
+
+            actions:
+                _save:      {name: Zapisz}

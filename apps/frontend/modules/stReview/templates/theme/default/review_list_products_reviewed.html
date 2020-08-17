@@ -1,0 +1,40 @@
+<div id="st_application-st_review-list_products_reviewed">
+    {if isset($reviewed_products)}
+        <div id="st_review-list_products_reviewed">
+            <div class="st_review-review_name" align="center">
+                {__ text="Produkty ocenione i zrecenzowane z tego zamówienia"}
+        </div>
+    {/if}
+    {foreach key=row item=order_product_reviewed from=$results}
+        <div class="st_review-product">
+            {$order_product_reviewed.input_hidden_product_id}
+            <div class="st_review-product_container">
+                <div class="st_review-product_show">
+                    <div class="st_review-product_name">
+                        {$order_product_reviewed.product_name_link}
+                    </div>    
+                    <div class="st_review-product_photo">
+                        {$order_product_reviewed.product_image_link}
+                    </div>
+                </div>
+                <div class="st_review-product_mark">
+                    <span class="st_review-mark">
+                        {__ text="Ocena"}:
+                    </span>
+                    {$order_product_reviewed.product_score}
+                </div>
+            </div>
+            <div class="st_review-product_description_written">
+                {$order_product_reviewed.product_description}
+            </div>
+            <br class="st_clear_all"/>
+            <div class="st_review-product_agreement">
+                <span>
+                    {$order_product_reviewed.agreement_checkbox} {__ text="Wyrażam zgodę na opublikowanie mojej recenzji dla produktu"} {$order_product_reviewed.product_name_link}
+                </span>
+            </div>
+        </div>
+    {/foreach}
+    </div>
+    <br class="st_clear_all"/>
+</div>

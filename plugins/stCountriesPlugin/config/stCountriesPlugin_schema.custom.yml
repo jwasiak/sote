@@ -1,0 +1,26 @@
+propel: 
+    st_countries: 
+        _attributes: 
+            phpName: Countries
+            isI18N: true
+            i18nTable: st_countries_i18n
+        opt_name: {change_column: name}
+
+    st_countries_i18n: 
+        _attributes: 
+            phpName: CountriesI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_countries
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255

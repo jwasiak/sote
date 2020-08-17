@@ -1,0 +1,10 @@
+<table cellpadding="0" cellspacing="0" border="0" id="attachments">
+{foreach item=attachment from=$results name=attachments}
+    <tr {if $smarty.foreach.attachments.last}class="last"{/if}>
+        <td valign="middle">{$attachment.icon}</td>        
+        <td valign="middle">{$attachment.name} ({$attachment.size})</td>
+        <td valign="middle">{$attachment.description}</td>                
+        <td valign="middle">{$attachment.link}</td>
+    </tr>
+{/foreach}
+</table>

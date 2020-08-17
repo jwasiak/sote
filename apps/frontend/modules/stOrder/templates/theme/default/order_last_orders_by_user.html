@@ -1,0 +1,62 @@
+<div class="st_content"> 
+    
+    {if $unconfirmed_orders == 1}
+
+        <h5 class="st_title">
+            {__ text="Niepotwierdzone zamówienia"}
+        </h5>
+        
+        {foreach item=order from=$results}
+            {if $order.is_confirmed_orders == 0}
+            
+                <div class="st_order-last_order">
+                    <div>
+                        {$order.link}
+                        {$order.is_confirmed}
+                    </div>
+                    <ul>
+                        {foreach item=order_product from=$order.products}
+                            <li> - {$order_product.quantity} x {$order_product.name}</li>
+                        {/foreach}
+                    </ul>
+                </div>
+            {/if}   
+        {/foreach}
+    
+    {/if}
+    
+    {if $confirmed_orders == 1}
+    
+        <h5 class="st_title">
+            {__ text="Potwierdzone zamówienia"}
+        </h5>
+        
+        {foreach item=order from=$results}
+            {if $order.is_confirmed_orders == 1}
+            <div class="st_order-last_order">
+                <div>
+                    {$order.link}
+                </div>
+                <ul>
+                    {foreach item=order_product from=$order.products}
+                        <li> - {$order_product.quantity} x {$order_product.name}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            {/if}
+        {/foreach}
+    
+    {/if}
+        
+    {if isset($no_orders)}
+        <p>
+            {__ text="Aktualnie nie posiadasz żadnych zamówień"}
+        </p>
+    {else}
+    <div class="st_button" id="st_button_show_order">
+        <div class="st_button-left">
+            {$check_all}
+        </div>
+    </div>
+    {/if}
+</div>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Identyfikator</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Hasło autoryzacji</source>
+                <target>Authorization password</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Rodzaj płatności</source>
+                <target>Payment method</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>wszystkie dostępne</source>
+                <target>all available</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>karty płatnicze</source>
+                <target>payment cards</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>przelewy internetowe</source>
+                <target>internet transfer</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Tryb testowy</source>
+                <target>Enable the test mode</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Płatność przez serwis ecard.pl</source>
+                <target>eCard payment</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Adres powiadomienia POST</source>
+                <target>POST notification link</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

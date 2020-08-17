@@ -1,0 +1,5 @@
+propel:
+    st_product:
+        _attributes:    {phpName: Product}
+        weight: 
+          type: FLOAT

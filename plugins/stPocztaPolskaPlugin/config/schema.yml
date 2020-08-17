@@ -1,0 +1,97 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stPocztaPolskaPlugin.lib.model
+  st_poczta_polska_punkt_odbioru:
+    _attributes:
+      phpName: PocztaPolskaPunktOdbioru
+    order_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    pni:
+      type: VARCHAR
+      size: 16
+    type:
+      type: VARCHAR
+      size: 16      
+    name:
+      type: VARCHAR
+      size: 64
+    description:
+      type: VARCHAR
+      size: 512
+    phone:
+      type: VARCHAR
+      size: 128
+    street:
+      type: VARCHAR
+      size: 100
+    city: 
+      type: VARCHAR
+      size: 64
+    zip_code:
+      type: VARCHAR
+      size: 16
+    province:
+      type: VARCHAR
+      size: 45
+    ekspres24:
+      type: BOOLEAN
+    kurier48:
+      type: BOOLEAN
+    paczka_ekstra24:
+      type: BOOLEAN
+  st_poczta_polska_paczka:
+    _attributes:
+      phpName: PocztaPolskaPaczka
+    id:
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    guid:
+      type: CHAR
+      size: 32
+      required: true
+    numer_nadania:
+      type: VARCHAR
+      size: 20
+      required: false
+    envelope_id:
+      type: integer
+      required: false
+    bufor_id:
+      type: INTEGER
+      required: false
+    parameters:
+      type: VARCHAR
+      size: 8192
+      phpType: array
+  st_poczta_polska_bufor:
+    _attributes:
+      phpName: PocztaPolskaBufor
+    id:
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    bufor_id:
+      type: INTEGER
+      required: false
+    urzad_nadania:
+      type: INTEGER
+      required: true
+    data_nadania:  
+      type: DATE
+      required: true

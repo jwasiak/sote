@@ -1,0 +1,34 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            AttributeTemplate
+        theme:                  simple
+    
+        head:
+            package:            stAttributeTemplatePlugin
+            applications:       [stProduct]              
+           
+        fields:
+            name:               {name: Nazwa}
+     
+        list:
+            title:              Lista szablonów dla produktu  
+            description:        Zarządzanie grupami produktów, konfiguracja ustawień.
+            display:            [id, =name, =attribute_edit]
+            fields:
+                attribute_edit: {name: -, custom_value: zarządzaj atrybutami, params: link_to="attribute_field/edit?id=%%id%%"}
+            actions:
+                _create:           {name: Dodaj}                
+            object_actions:    
+                _edit:          -
+                _delete:        -
+            
+        edit:
+            title:              Szablony dla produktu - Edycja szablonu %%name%%
+            display:            [name]
+            description:        Zarządzanie grupami produktów, konfiguracja ustawień.
+            
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+                _delete:        {name: Usuń}

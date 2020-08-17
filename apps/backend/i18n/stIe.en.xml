@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Korzystasz z przeglądarki</source>
+                <target>You're using</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Panel administracyjny sklepu wykorzystuje technologię, której przeglądarka Internet Explorer nie jest w stanie wykorzystać. Prosimy skorzystać z innej przeglądarki. Poniżej przedstawiono listę przeglądarek, dzięki którym będzisz mógł zalogować się do panelu administracyjnego i w pełni wykorzystać jego funkcjonalność. Pobranie, instalacja oraz użytkowanie tych przeglądarek jest </source>
+                <target>Internet Explorer isn't able to make the most of the technology used in the administrative panel. Use a different browser. You have list of browsers below, which will allow you to log in to the administrative panel and fully use its functionality. Downloading, installing and using these browsers is </target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Instrukcja instalacji przeglądarki FireFox</source>
+                <target>FireFox installation instruction</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>pobierz</source>
+                <target>download</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Instrukcja instalacji przeglądarki Chrome</source>
+                <target>Chrome installation instruction</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Instrukcja instalacji przeglądarki Opera</source>
+                <target>Opera installation instruction</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>całkowicie darmowe</source>
+                <target>completely free</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

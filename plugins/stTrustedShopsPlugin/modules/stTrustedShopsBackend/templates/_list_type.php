@@ -1,0 +1,1 @@
+<?php if ($trusted_shops->isRating()) echo __('Opinia klientów'); else echo $trusted_shops->getType();

@@ -1,0 +1,20 @@
+fields:    
+    config{subcategory_main_menu_num}:
+        required:
+            msg:    Podaj liczbę wyświetlanych podkategorii 
+        sfNumberValidator:
+            min:    0
+            min_error: Minimalna wartość to 0.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą
+    config{cut_subcategories_name_num}:
+        old_config: true
+        required:
+            msg:    Podaj liczbę znaków po, których ma być skracana nazwa kategorii
+        sfNumberValidator:
+            min:    1
+            min_error: Minimalna liczba znaków to 1.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą

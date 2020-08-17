@@ -1,0 +1,31 @@
+#error_404
+{
+    text-align: center;
+    padding: 26px;
+}
+
+#error_404 .buttons a
+{
+    display: inline-block;
+    padding-top: 8px;
+    margin-top: 18px;
+    float: none;
+}
+
+#error_404 .title_error 
+{
+    padding: 5px 10px;
+    margin: 5px 0 0;
+    color: #4a4a4a;
+}
+
+#error_404 .title_error h2
+{
+    font-size: 19px;
+    font-family: Helvetica;
+}
+
+#error_404 img
+{
+    padding: 0 0 16px;
+}

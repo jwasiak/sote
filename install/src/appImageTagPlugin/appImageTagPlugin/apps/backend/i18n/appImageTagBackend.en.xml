@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zarządzaj kolekcją produktów</source>
+                <target>Manage product collection</target>
+            </trans-unit>            
+            <trans-unit id="2">
+                <source>Wpisz kod lub nazwę produktu</source>
+                <target>Enter code or product name</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Dodaj produkt</source>
+                <target>Add product</target>
+            </trans-unit> 
+            <trans-unit id="4">
+                <source>Włącz kolekcje produktów:</source>
+                <target>Enable product collection:</target>
+            </trans-unit> 
+            <trans-unit id="5">
+                <source>Załącz/Zmień zdjęcia</source>
+                <target>Attach/Change images</target>
+            </trans-unit> 
+            <trans-unit id="6">
+                <source>Kolekcja produktów</source>
+                <target>Product collection</target>
+            </trans-unit> 
+            <trans-unit id="7">
+                <source>Włącz kolekcje produktów</source>
+                <target>Enable product collection</target>
+            </trans-unit>                        
+            <trans-unit id="8">
+                <source>Pole jest ignorowane jeżeli w <b>Konfiguracja -> Konfiguracja modułów -> Kategorie</b> opcja <b>Włącz kolekcje produktów</b> jest odznaczona</source>
+                <target>The field is ignored if option <b>Enable product collection</b> located in <b>Configuration -> Configure modules -> Categories</b> is unchecked</target>
+            </trans-unit>  
+            <trans-unit id="9">
+                <source>Jasny</source>
+                <target>Bright</target>
+            </trans-unit>                       
+            <trans-unit id="10">
+                <source>Ciemny</source>
+                <target>Dark</target>
+            </trans-unit>                       
+            <trans-unit id="11">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>                       
+            <trans-unit id="12">
+                <source>Kolor tekstu</source>
+                <target>Text color</target>
+            </trans-unit>                       
+            <trans-unit id="13">
+                <source>Rozciągaj zdjęcie na dostępną szerokość</source>
+                <target>Stretch the image on the available width</target>
+            </trans-unit>                       
+            <trans-unit id="14">
+                <source>Wypełniaj zdjęciem dostępną szerokość</source>
+                <target>Fill the available area with the photo</target>
+            </trans-unit>                       
+            <trans-unit id="15">
+                <source>Tryb wyświetlania:</source>
+                <target>Display mode:</target>
+            </trans-unit>                                            
+            <trans-unit id="16">
+                <source>Włącz:</source>
+                <target>Enable:</target>
+            </trans-unit>  
+            <trans-unit id="17">
+                <source>Kolekcje produktów</source>
+                <target>Product collections</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Jeśli tło zdjęcia jest ciemne, tekst powinien być jasny. Jeśli tło zdjęcia jest jasne, tekst powinien być ciemny.</source>
+                <target>If image's background is dark, a text should be bright. If image's background is bright, a text should be dark.</target>
+            </trans-unit>  
+            <trans-unit id="19">
+                <source>Jeżeli link jest podany użytkownik zostaje przekierowany po kliknięciu na zdjęcie</source>
+                <target>If the link is given the user is redirected after clicking on the picture</target>
+            </trans-unit>  
+        </body>
+    </file>
+</xliff>

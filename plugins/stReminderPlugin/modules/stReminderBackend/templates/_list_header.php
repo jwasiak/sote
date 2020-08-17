@@ -1,0 +1,1 @@
+<?php $pager->init(); 

@@ -1,0 +1,18 @@
+propel:
+    st_basket_product:
+        _attributes:    {phpName: BasketProduct}
+        price_modifiers:
+          type: LONGVARCHAR
+          phpType: array
+        discount:
+          type: VARCHAR
+          size: 1024
+          phpType: array
+        currency:
+          type: VARCHAR
+          size: 1024
+          phpType: array
+        wholesale:
+          type: VARCHAR
+          size: 1024
+          phpType: array

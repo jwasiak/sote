@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wersje jezykowe</source>
+                <target>Languages</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Domena już istnieje, proszę podać inną domene.</source>
+                <target>This domain already exists, enter a different domain.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Domena jest niepoprawna. Domenę należy wprowadzić bez http:// np. www.sklep.pl</source>
+                <target>Domain is incorrect. Enter the domain without http:// eg. www.shop.com</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fill in the field.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Wersja językowa musi być aktywana, aby mogła być domyślna.</source>
+                <target>Language must be active to become default.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Pobierz oryginalny plik:</source>
+                <target>Download the original file:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Kliknij, aby pobrać plik.</source>
+                <target>Click to download the file.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Plik nie istnieje</source>
+                <target>File doesn't exist</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>brak obrazka</source>
+                <target>no image</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Zarządzanie wersjami i definicjami językowymi.</source>
+                <target>Manage languages and the linguistic definitions.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Wersja językowa</source>
+                <target>Language name</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Język</source>
+                <target>Language</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Uwaga: Po dodaniu wersji językowej nie ma możliwości zmiany języka.</source>
+                <target>Notice: You won't be able to change the language version after saving.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Skrót</source>
+                <target>Abbreviation</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Domyślna</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Obrazek wersji językowej - aktywny</source>
+                <target>Language image - active</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Załącz obrazek wersji językowej (preferowany format PNG)</source>
+                <target>Attach an image to the language version (PNG format recommended)</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Obrazek wersji językowej - nieaktywny</source>
+                <target>Language image - inactive</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Pobierz plik do edycji</source>
+                <target>Download the file to edit</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Pobierz własny plik</source>
+                <target>Download your file</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Przywróć oryginalne definicje (usuwa własny plik)</source>
+                <target>Restore the original definitions (your file will be deleted)</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Własny plik</source>
+                <target>Your file</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Dodaj nową wersję językową</source>
+                <target>Add a new language version</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Podstawowa edycja wersji językowej '%%name%%'</source>
+                <target>Edit the language '%%name%%'</target>
+            </trans-unit>
+            <trans-unit id="277">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Edycja zaawansowana</source>
+                <target>Advanced edit</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Lista domen</source>
+                <target>List of your domains</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Informacje podstawowe</source>
+                <target>Basic information</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Obrazki</source>
+                <target>Images</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Pozostałe informacje</source>
+                <target>Other information</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Podgląd</source>
+                <target>Preview</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Zaawansowana edycja wersji językowej '%%name%%'</source>
+                <target>Edit the language '%%name%%'</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Zarządzanie domenami dla wersji językowych.</source>
+                <target>Manage the domains.</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Dodaj nową domenę</source>
+                <target>Add a new domain</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Nie podano parametru language</source>
+                <target>Language parameter omitted</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Waluta</source>
+                <target>Currency</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>usuń obrazek</source>
+                <target>remove the image</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Link do sklepu w wersji językowej</source>
+                <target>Link to the shop</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Pliki z definicjami</source>
+                <target>Files with the linguistic definitions</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Domena</source>
+                <target>Domain</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Lista wersji językowych</source>
+                <target>List of languages</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Wersja językowa panelu:</source>
+                <target>Language version of the administrative panel:</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Angielska</source>
+                <target>English</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Polska</source>
+                <target>Polish</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Edycja definicji językowych</source>
+                <target>Edit linguistic definitions</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Import / Eksport definicji językowych</source>
+                <target>Import / Export linguistic definitions</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Lista definicji językowych</source>
+                <target>List of linguistic definitions</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Katalog tłumaczeń</source>
+                <target>Translation catalogue</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Fraza</source>
+                <target>Phrase</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Tłumaczenie w sklepie</source>
+                <target>Translation in shop</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Wybierz katalog tłumaczeń lub wyszukaj tekst</source>
+                <target>Choose translation catalogue or search text</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Tłumaczenie oryginalne</source>
+                <target>Original translation</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Zobacz zmiany</source>
+                <target>See changes</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Zastosuj zmiany</source>
+                <target>Apply changes</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Zmieniono na</source>
+                <target>Changed to</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Brak rekordów - zmień kryteria wyszukiwania</source>
+                <target>No results - change your search criteria</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Dalej</source>
+                <target>Next</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Zapisywanie definicji językowych</source>
+                <target>Saving linguistic definitions</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Tłumaczenie</source>
+                <target>Translation</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Zmieniono</source>
+                <target>Changed at</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Lista definicji językowych do zmiany</source>
+                <target>List of linguistic definitions to change</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Zastosuj zmiany w definicjach językowych</source>
+                <target>Apply changes to linguistic definitions</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Plik do edycji</source>
+                <target>File to edit</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Eksport</source>
+                <target>Export</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Import</source>
+                <target>Import</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Usuwanie</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Plik oryginalny</source>
+                <target>Original file</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Plik ze zmianami</source>
+                <target>File with changes</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Pobierz</source>
+                <target>Download</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Plik z danymi</source>
+                <target>File with data</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Usuń dodane definicje</source>
+                <target>Delete added definitions</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Plik zawiera frazy bez tłumaczeń.</source>
+                <target>The file contains phrases without translations.</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Plik zawiera frazy wraz z oryginalnymi tłumaczeniami.</source>
+                <target>The file contains phrases with original translations.</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Plik zawiera frazy wraz z tłumaczeniami (zmienionymi przez administratora lub oryginalnymi).</source>
+                <target>The file contains phrases with translations (modified by the administrator or original).</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

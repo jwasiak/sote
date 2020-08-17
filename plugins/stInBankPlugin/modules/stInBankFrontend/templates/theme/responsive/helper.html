@@ -1,0 +1,70 @@
+<div id="inbank-modal-message" class="modal fade modal-vertical-centered" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body text-center"></div>
+        <div class="modal-footer">
+            <div class="text-center">
+                <button type="button" class="btn btn-default" data-dismiss="modal">{__ text="Zamknij"}</button>
+            </div>
+        </div>
+    </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+{literal}
+<script>
+jQuery(function($) {
+    var form = $('#user_delivery_form');
+
+    var messages = {
+        {/literal}
+        minBasketAmount: '{__ text="Minimalna kwota zamówienia to _amount_" _amount_=100|st_currency_format}',
+        maxBasketAmount: '{__ text="Maksymalna kwota zamówienia to _amount_" _amount_=12000|st_currency_format}'
+        {literal}
+    };
+
+    $.inBank = {
+        showMessage: function(title, message, iframe = false) {
+            var modal = $('#inbank-modal-message');
+
+            modal.find('.modal-title').html(title);
+            var body = modal.find('.modal-body').html(message);
+
+            if (iframe) {
+                body.css({ 'padding': '0px' });
+                modal.find('.modal-dialog').css({ 'width': '302px' });
+            }
+
+
+            modal.modal('show');
+        },
+        validateAmount: function(amount, title) {
+            if (amount < 100) {
+                this.showMessage(title, messages.minBasketAmount);
+                return false;
+            }
+
+            if (amount > 12000) {
+                this.showMessage(title, messages.maxBasketAmount);
+                return false;
+            }
+
+            return true;        
+        },
+    }
+
+    form.submit(function() {
+        var current = $('.payment-radio:checked');
+        if (current.data('payment-type') == 'stInBank') {
+            var title = current.data('payment-name');
+            var amount = current.find('.inbank-calculate').data('amount');
+            return $.inBank.validateAmount(amount, title);
+        }
+    });   
+});
+</script>
+{/literal}

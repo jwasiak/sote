@@ -1,0 +1,16 @@
+Language: 
+  Language_Ru: 
+    culture: pl_PL
+    name: Rosyjska
+    shortcut: ru
+    active_image: ru_active.png
+    inactive_image: ru_inactive.png
+    active: 0
+    language: ru
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_Ru: 
+    id: Language_Ru
+    culture: en_US
+    name: Russian

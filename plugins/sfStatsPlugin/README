@@ -1,0 +1,238 @@
+= sfStats plugin =
+
+The `sfStatsPlugin` provides an easy way to display charts based on data you already own. Whether you want to follow the global progress of your application usage, or to analyze precisely how many specific actions were done by users under particular conditions, this plugin is for you.
+
+Based on a simple YAML configuration file, the plugin will take advantage of the methods from your Propel Object Model to display a nice line chart from Google Chart API or a jQuery flot.
+
+== Screenshot ==
+
+[[Image(sfStats.png)]]
+
+== Prerequisites ==
+
+This plugin requires Propel and a database engine supporting rounding functions - this excludes SQLite. It works with symfony 1.0 and 1.1, and does not require any other plugin. It is fully i18ned, and comes with English and French translations.
+
+The plugin bundles its own version of the [http://jquery.com jQuery JavasSript framework], together with a JavaScript chart utility named [http://code.google.com/p/flot/ Flot]. If you prefer to use no JavaScript at all, the plugin provides an alternative plotting method via Google Charts API.
+
+== Installation ==
+ 
+ 1 - Install the plugin.
+ 
+ The easiest way to install `sfStatsPlugin` is to use the symfony command line:
+{{{
+> php symfony plugin-install http://plugins.symfony-project.com/sfStatsPlugin
+}}}
+
+ Alternatively, if you don't have PEAR installed, you can download the latest package attached to this plugin's wiki page and extract it under your project's `plugins/` directory. You will also have to copy the contents of the `myproject/plugins/sfStatsPlugin/web/` directory into a `myproject/web/sfStatsPlugin/` directory.
+
+ 2 - Configure your project to use the plugin features
+
+ Enable the `sfStats` module in your backend application, via the `settings.yml` file.
+{{{
+// in myproject/apps/backend/config/settings.yml
+all:
+  .settings:
+    enabled_modules:        [default, sfStats]
+}}}
+
+ 3 - Clear the cache to enable the autoloading to find the new classes:
+{{{
+> php symfony cc
+}}}
+ 
+ 4 - You can now start using the plugin by browsing to the backend module's default page:
+{{{ 
+http://myproject/backend_dev.php/sfStats
+}}}
+
+== Basic Configuration and Usage ==
+
+When first installed, the plugin module will not display any statistics. You must configure your application to display statistics based on your data.
+
+Configure the plugin in your application's `app.yml`, under the `sfStats` key:
+{{{
+# in apps/backend/config/app.yml
+all:
+  sfStats:
+    # configuration goes here
+}}}
+
+The plugin expects a list of items to display, organized in categories.
+
+Imagine that you run a blog, and that you want statistics about the number of posts and the number of comments posted. Provided your post and comment classes are named `BlogPost` and `BlogComment`, and provided they each have a `created_at` column, this is the configuration you need:
+
+{{{
+# in apps/backend/config/app.yml
+all:
+  sfStats:
+    categories:
+      blog:
+        name:       Blogs statistics
+        items:
+          posts:    { name: Blog Posts, class: BlogPostPeer, column: created_at }
+          comments: { name: Blog Post, class: BlogCommentPeer, column: created_at }
+}}}
+
+You see here that there are two structure level in the plugin configuration. First, under the `categories` key, the main statistics categories are listed. Then, for each category, the individual statistics pages are listed under the `items` key.
+
+Each item must have a `name`, a `class` (referring to one of your Propel model Peer classes) and a `column` (it must be of the Propel `timestamp` type). With these settings, the plugin will be able to compute the number of posts and comments per day in the date interval you want and display it.
+
+Here is an example with two categories, to allow the plugin to display statistics on both the blog and forum usage:
+
+{{{
+all:
+  sfStats:
+    categories:
+      blog:
+        name:             Blogs statistics
+        items:
+          blog_posts:     { name: Posts, class: BlogPostPeer, column: created_at }
+          blog_comments:  { name: Comments, class: BlogCommentPeer, column: created_at }
+      forum:
+        name:             Forum statistics
+        items:
+          forum_topics:   { name: Topics, class: ForumTopicPeer, column: created_at }
+          forum_messages: { name: Messages, class: ForumMessagePeer, column: created_at }
+}}}
+
+Try to update the `sfStats` module page in your browser. You will see that it displays a dropdown list to choose which statistics page to display, looking like:
+{{{
+Choose an item from the list
+-- Blogs statistics --
+Posts
+Comments
+-- Forum statistics --
+Topics
+Messages
+}}}
+
+Choose one of the items, for instance "Comments", click the 'update' button, and voilà, you have a chart with the number of blog comments per day during the last 30 days.
+
+In addition to the main item dropdown, the module offers two more controls: 
+ - A date interval selector, similar to the one found in symfony's admin generator modules
+ - A precision selector, to choose whether you want one dot per hour, per day of per week.
+
+Try playing with these parameters to explore your data.
+
+== Displaying only a subset of data ==
+
+By default, the plugin will count all records of the table related to the Peer class declared in the item. If you want to display only a subset of records, you can add `criteriaGetter` parameter to the item definition. The value must be a PHP callable returning a Propel Criteria object. This Criteria will be used for the item chart calculation, so it is the best way to filter the results.
+
+For example, imagine that you don't want to count the forum messages from a particular topic, that you use only for internal purposes. Create a method somewhere that returns a Criteria as follows:
+
+{{{
+class ForumMessagePeer extends BaseForumMessagePeer
+{
+  ...
+  public function getCriteriaForChart()
+  {
+    $c = new criteria();
+    $c->addJoin(self::TOPIC_ID, ForumTopicPeer::ID);
+    $c->add(ForumTopicPeer::NAME, 'internal topic', Criteria::NOT_EQUAL);
+    
+    return $c;
+  }
+}
+}}}
+
+To use this Criteria, modify the last line of your `sfStats` configuration as follows:
+{{{
+all:
+  sfStats:
+    categories:
+      ...
+      forum:
+        name:             Forum statistics
+        items:
+          forum_topics:   { name: Topics, class: ForumTopicPeer, column: created_at }
+          forum_messages: { name: Messages, class: ForumMessagePeer, column: created_at, criteriaGetter: [ForumMessagePeer, getCriteriaForChart] }
+}}}
+
+== Providing filtering controls ==
+
+Each category can have its own filters. Filters are additional dropdowns that allow a finer selection of the data to be displayed. For instance, you can add an 'Author' filter on the Blog statistics, so that both the Posts and the Comments statistics can be filtered according to the author of the blog post.
+
+Once again, activate this feature in the `app.yml` configuration. Each category accepts a `filters` key, as follows:
+{{{
+all:
+  sfStats:
+    categories:
+      blog:
+        name:            Blogs statistics
+        items:
+          blog_posts:    { name: Posts, class: BlogPostPeer, column: created_at }
+          blog_comments: { name: Comments, class: BlogCommentPeer, column: created_at }
+        filters:
+          author_filter: { name: Author, listGetter: [BlogToolkit, getAllAuthors], criteriaModifier: [BlogToolkit, filterByAuthor] }
+}}}
+
+Both the `listGetter` and the `criteriaModifier` parameters must be PHP callables. The first one is supposed to return an associative array, used to display the filter dropdown by way of `options_for_select()`. For example:
+{{{
+class BlogToolkit
+{
+  public function getAllAuthors()
+  {
+    $authors = AuthorPeer::doSelect(new Criteria());
+    $authorsArray = array();
+    foreach($authors as $author)
+    {
+      $authorsArray[$author->getId()] = $author->getName();
+    }
+    
+    return $authorsArray;
+  }
+}
+}}}
+
+Once the user chooses an item from the filter dropdown and updates the page, the value is sent to the `criteriaModifier` callable, together with the current Criteria object. The `criteriaModifier` callable is in charge of adding conditions to the criteria to apply the filter. For instance:
+{{{
+class BlogToolkit
+{
+  ...
+  public function filterByAuthor($value, Criteria $c)
+  {
+    $c->add(BlogPostPeer::AUTHOR_ID, $value);
+  }
+}
+}}}
+
+Note that the filters are common to all the items in a category. If, as in the example above, the items do not share the same Peer class, then your `criteriaModifier` callable may not know which Peer class to add conditions or joins to. Fortunately, if you specify a string as the value of the `criteriaModifier` parameter (instead of an array), then the plugin will look for a matching method name in the item class. For instance, with this configuration:
+{{{
+all:
+  sfStats:
+    categories:
+      blog:
+        name:            Blogs statistics
+        items:
+          blog_posts:    { name: Posts, class: BlogPostPeer, column: created_at }
+          blog_comments: { name: Comments, class: BlogCommentPeer, column: created_at }
+        filters:
+          author_filter: { name: Author, listGetter: [BlogToolkit, getAllAuthors], criteriaModifier: filterByAuthor }
+}}}
+
+The `criteriaModifier` is just a string here. The plugin will use the item's `class` parameter to find a callable, and therefore will call for `BlogPostPeer::filterByAuthor()` if the selected item is "Posts", and for `BlogCommentPeer::filterByAuthor()` if the selected item is "Comments".
+
+== Advanced configuration ==
+
+There are a few more settings that you can configure in the `app.yml`. Here is a list of these settings:
+{{{
+all:
+  sfStats:
+    default_days:   30           # default number of days for the chart
+    use_flot:       true         # use Javascript to draw the line chart. Set to false top use Google Charts API
+    include_jquery: false        # include the jQuery library. Set to false if jQuery is already included
+    default_item:   blog_posts   # default chart to be displayed when the `sfStats` module is called without parameter
+}}}
+
+== TODO ==
+
+ * Make filters more powerful (accept text, boolean filters)
+ * Make default style less ugly
+ * Add more screen captures to the README
+ * Add pie chart capabilities
+
+== Changelog ==
+
+=== 2008-06-19 | 0.8.0 Beta ===
+
+ * francois: Initial version

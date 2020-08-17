@@ -1,0 +1,5 @@
+edit:
+  display:
+    "Paczkomaty":  [_paczkomaty]
+  fields:
+    paczkomaty: {name: Paczkomaty, i18n: stPaczkomatyBackend, hide_label: true}

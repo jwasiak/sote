@@ -1,0 +1,21 @@
+changelog:
+    stBasket-2.1.2.91:
+        version: {min: 1.0.0, max: 2.1.1.22}
+        priority: 1
+        url: http://www.sote.pl/soteshop/update
+        method:
+            name: smartyTemplatesChanged
+            params:
+                files:
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/_basket_index.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_add_disabled.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_add_enabled.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_add_quantity_enabled.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_add_simple_disabled.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_ajax_added_product_preview.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_info_enabled.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_preview.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_products_list.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_show.html
+                    - apps/frontend/modules/stBasket/templates/theme/[MY_THEME]/basket_summary.html
+                    - web/css/frontend/theme/[MY_THEME]/stBasket.css

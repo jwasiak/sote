@@ -1,0 +1,29 @@
+{literal}
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {   
+    
+        var cookies = '<div id="cookies_message" style="width: 100%; position:fixed; bottom:0; left: 0; z-index:1000; background: #{/literal}{$cookiesInfoBackground}{literal}; display: none"><div style="width: {/literal}{$cookiesInfoWidth}{literal}px; margin: 0 auto; z-index: 10000; position: relative; max-width: 100%;"><div id="message_close" style="z-index:10001;background-image: url(/images/frontend/theme/default2/buttons/close_cookies.png);cursor: pointer; height: 14px; position: absolute; margin: 0px auto; right: 10px; top: 12px; width:13px;"></div><div id="cookies_content" style="text-align:center; font-size: 12px; color:#{/literal}{$cookiesInfoColor}{literal}; padding: 10px 30px 10px 0px;">{/literal}{$cookiesDescription}{literal}</div></div></div>'; 
+        $( "{/literal}{$last_div}{literal}" ).append(cookies);
+        var cookies_message = $('#cookies_message');
+        var height_cookies_message = $('#cookies_message').height();
+        if (!$.cookies.get('cookies_message_hidden')) {
+            cookies_message.show();
+            $("html").css("padding-bottom", height_cookies_message);
+        }
+
+        $('#message_close').click(function(){
+            cookies_message.hide();
+            var expires_at = new Date();
+            var years = 20;
+            expires_at.setTime(expires_at.getTime() + 1000 * years * 365 * 24 * 60 * 60);
+            $.cookies.set('cookies_message_hidden', true, {path: '/', expiresAt: expires_at});
+            $("html").css("padding-bottom", "0");
+        });
+    });
+});
+</script>
+{/literal}

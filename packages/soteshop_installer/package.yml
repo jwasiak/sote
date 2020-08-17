@@ -1,0 +1,14 @@
+---
+package: 
+  name: soteshop_installer
+  stability: stable
+  version: 7.4.0
+  summary: Instalator SOTESHOP
+  description: Instalator SOTESHOP
+  notes: |
+     - Aktualizacja wygladu instalacji
+  maintainers: 
+    Marek Jakubowicz: 
+      role: lead
+      user: marek
+      email: marek.jakubowicz@sote.pl

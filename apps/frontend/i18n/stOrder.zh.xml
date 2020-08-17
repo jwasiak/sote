@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ostatnie zamówienia</source>
+				<target>最近订单</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Aktualnie nie posiadasz żadnych zamówień</source>
+				<target>您现在没有任何订单</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Data złożenia zamówienia</source>
+				<target>订单日期</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zamówienie numer</source>
+				<target>号订单</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Dane bilingowe</source>
+				<target>支付人信息</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dane dostawy</source>
+				<target>送货信息</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista zamówienia</source>
+				<target>订单列表</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>邮政编码</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>名称</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>净价</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>VAT</source>
+				<target>增值税</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>总价</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>数量</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Kwota</source>
+				<target>金额：</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem</source>
+				<target>一共</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Łączna kwota do zapłaty</source>
+				<target>订单总计</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność</source>
+				<target>付款方式</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dostawy</source>
+				<target>送货方式</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszt</source>
+				<target>订单价格</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Potwierdź zamówienie</source>
+				<target>确认订单</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Moje konto</source>
+				<target>我的帐户</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dane klienta</source>
+				<target>客户信息</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>NIP</source>
+				<target>纳税识别号</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Zawartość</source>
+				<target>内容</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Suma</source>
+				<target>总</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Dane dodatkowe</source>
+				<target>备注</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Dostawa</source>
+				<target>送货</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Łączny koszt (zamówienie + dostawa)</source>
+				<target>总费用（订单+运费）</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Numer</source>
+				<target>号码</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Status</source>
+				<target>状态</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Potwierdzone</source>
+				<target>已确认</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Recenzja</source>
+				<target>评论</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tak</source>
+				<target>是</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>nie</source>
+				<target>不</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Sprawdź informacje zamówienia</source>
+				<target>请验证订单信息</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Popraw</source>
+				<target>修改</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Potwierdź</source>
+				<target>确认</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Zamówienie</source>
+				<target>订单</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Twoje zamówienie zostało złożone</source>
+				<target>您的订单已成功提交</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Lista zamówień</source>
+				<target>订单列表</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Przejdź do potwierdzenia</source>
+				<target>去“确认”</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Uwagi do zamówienia</source>
+				<target>订单备注</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Data złożenia</source>
+				<target>提交日期</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Opłacone</source>
+				<target>已支付</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Zamówienie numer %number%</source>
+				<target>%number%号订单</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Zobacz wszystkie</source>
+				<target>查看所有</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoje zamówienie zostało potwierdzone.</source>
+				<target>您的订单已被确认。</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Twoje zamówienie zostało już wcześniej potwierdzone.</source>
+				<target>您的订单早已被确认。</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Numer Twojego zamówienia</source>
+				<target>您的订单号是</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Dziękujemy za złożenie zamówienia</source>
+				<target>谢谢您下订单。</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Popraw zamówienie</source>
+				<target>修改订单</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zamówienia</source>
+				<target>订单</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Zweryfikuj poprawność informacji zawartych w zamówieniu.</source>
+				<target>请验证订单信息</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Użytkownik</source>
+				<target>用户</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>zamówienie numer</source>
+				<target>号订单</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Potwierdzone zamówienia</source>
+				<target>已被确认的订单</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Niepotwierdzone zamówienia</source>
+				<target>待确认的订单</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>potwierdź</source>
+				<target>确认</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>anuluj</source>
+				<target>取消</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>Faktury</source>
+				<target>发票</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Pokaż listę zamówień </source>
+				<target>查看订单列表</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Konto użytkownika</source>
+				<target>用户帐号</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>W czasie składania zamówienia zostanie utworzone konto użytkownika, dane dostępowe do konta zostaną wysłane na adres:</source>
+				<target>在下订单时您已建立新的用户帐号，我们将发送登录信息到：:</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Aby móc zalogować się do sklepu, niezbędne będzie potwierdzenie danych zawartych w mailu z zamówieniem.</source>
+				<target>登录之前您必须确认订单邮件里的信息。</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Zamówienie zostało anulowane.</source>
+				<target>订单被取消</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Hasło</source>
+				<target>密码</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Dane dostępowe do konta</source>
+				<target>登录帐号信息</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Potwierdź zamówienie i rejestrację konta</source>
+				<target>确认订单和帐号注册</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz. Skorzystaj z linku powyżej aby potwierdzić zamówienie i aktywować konto.</source>
+				<target>您没有确认的订单不能被处理。</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz.</source>
+				<target>您没有确认的订单不能被处理。用上面的链接以确认订单和激活帐号。</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>Zapisz mnie na newsletter</source>
+				<target>订阅通讯</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>Chcę otrzymać fakturę VAT</source>
+				<target>我想收到增值税发票</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Minimalna wartość zamówienia wynosi %min_amount%</source>
+				<target>订单最低的价值%min_amount%</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>złożono nowe zamówienie numer</source>
+				<target>新订单</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Przejdź do konta.</source>
+				<target>去您的帐户</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Przejdź do zamówienia.</source>
+				<target>去订单。</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Łączny koszt</source>
+				<target>总费用</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Zapłacono</source>
+				<target>已付</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Razem do zapłaty</source>
+				<target>订单总计</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Termin dostawy</source>
+				<target>送货日期</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>仓库里所需的商品数量不足</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>J.m.</source>
+				<target>计量单位</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Pokaż wszystkie</source>
+				<target>查看所有</target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Numer przesyłki</source>
+				<target>包裹号码</target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Dane płatnika</source>
+				<target>支付人信息</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Dane wysyłkowe</source>
+				<target>送货信息</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Dane do faktury</source>
+				<target>发票信息</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Informacje</source>
+				<target>信息</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>zdjęcie</source>
+				<target>照片</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>nazwa</source>
+				<target>名称</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>cena netto</source>
+				<target>净价格</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>vat</source>
+				<target>增值税</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>brutto</source>
+				<target>单价</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>ilość</source>
+				<target>数量</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>suma</source>
+				<target>总计</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Koszty</source>
+				<target>订单价格</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Koszt dostawy</source>
+				<target>运费</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Wartość koszyka</source>
+				<target>购物车的总价值</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Potwierdzenie zamówienia</source>
+				<target>订单确认</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Zweryfikuj informacje zawarte w zamówieniu.</source>
+				<target>请检证订单信息</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Wróć do koszyka</source>
+				<target>返回到购物车</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>Zamów</source>
+				<target>订购</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>Zmień</source>
+				<target>修改</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Podsumowanie zamówienia</source>
+				<target>订单总结</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Zapisz informację.</source>
+				<target>保存信息</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Drukuj</source>
+				<target>打印</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Pobierz</source>
+				<target>下载</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Zapłać</source>
+				<target>付款</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Zamówienie nr</source>
+				<target>订单号</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Do zapłaty</source>
+				<target>支付</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>j.m.</source>
+				<target>计量单位</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Informacje i uwagi do zamówienia</source>
+				<target>信息和订购备注</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Pobrano z konta</source>
+				<target>从帐户取得</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Za zamówienie otrzymasz</source>
+				<target>对于您的订购将收到</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>通过订购更新</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Rabat</source>
+				<target>折扣</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Płatność punktami</source>
+				<target>付积分</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Zamówienie z obowiązkiem zapłaty.</source>
+				<target>订购有支付的义务</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>oraz</source>
+				<target>和</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulaminem</source>
+				<target>使用条件</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>Zapoznałem się z moim</source>
+				<target>我已知道我的</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>prawem do odstąpienia od umowy</source>
+				<target>权利取消协议</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Proszę o bezzwłoczny dostęp do informacji cyfrowej. Jestem świadomy, że moje prawo od odstąpienia od umowy wygasza wraz z uzyskaniem dostępu.</source>
+				<target>请立即给我数字信息的方式。我知道我有取消协议的权利，直到当我得到信息。</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>dodatkowa opłata</source>
+				<target>额外费用</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Wróć do sklepu</source>
+				<target>回到商店</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Zamówienie PDF</source>
+				<target>订购PDF</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

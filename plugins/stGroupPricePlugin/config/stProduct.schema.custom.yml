@@ -1,0 +1,13 @@
+propel: 
+    st_product: 
+        _attributes: 
+            phpName: Product
+            isI18N: true
+            i18nTable: st_product_i18n
+        group_price_id: 
+            type: INTEGER
+            foreignTable: st_group_price
+            foreignReference: id
+            onDelete: setnull
+        _indexes:
+            group_price_idx:    [group_price_id]

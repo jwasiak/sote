@@ -1,0 +1,137 @@
+/* frame boxa produkty - po prawej stronie */
+#st_application-newsletter-index .st_content
+{
+    width: 750px;
+    padding: 10px 0;
+    margin: 10px 110px 10px 110px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    background-image: url('/images/frontend/theme/default/bg_line_login.gif'); 
+    background-repeat: repeat-x;
+}
+
+#st_application-newsletter-index-header h1.st_title, #st_application-newsletter-index-group h5.st_title
+{
+    float: left;
+    width: 200px;
+}
+
+#st_application-newsletter-index fieldset
+{
+    width: 350px;
+    border: none;
+    margin: 0px auto;
+}
+
+#st_application-newsletter-index p
+{
+    margin-left: 200px;
+    padding: 10px;
+    margin: 0;
+}
+
+#st_application-newsletter-index-group p
+{
+    margin-left: 200px;
+    padding: 0px;
+    margin: 0;
+}
+
+#newsletter_content
+{
+    font-size:1em; 
+    padding-left:7px; 
+    line-height: 14px; 
+    margin-top:-5px; 
+    margin-bottom:5px; 
+    text-align: justify; 
+    padding-right:7px;
+}
+
+
+
+/* default2 */
+
+#newsletter .content .sign
+{
+    overflow: hidden;
+    padding: 5px 0px;
+}
+
+#newsletter
+{
+    float: right;
+}
+
+#newsletter .content .sign .email input
+{
+    border: none;
+    width: 100%;
+    padding: 3px 0px;
+}
+
+#newsletter .content .sign .email .submit
+{
+    float: right;
+    padding-top: 5px;
+}
+
+#newsletter .content .sign .email .submit input
+{
+    text-decoration: none;
+    padding: 3px;
+    cursor: pointer;    
+}
+
+#newsletter .buttons
+{
+    margin-top: 3px;
+}
+
+#newsletter .buttons 
+{
+    margin-top: 3px;
+}
+
+#st_application-newsletter-confirm .st_content
+{
+   width: 700px;
+   margin: 0px auto;
+
+}
+
+#newsletter_user_form
+{
+	width: 407px;
+	margin: 0px auto;
+}
+
+#newsletter_user_form .group_content p
+{
+	margin:4px;	
+}
+
+#newsletter_user_form #email_field, #newsletter_user_form #privacy_field, #newsletter_user_form #captcha_form
+{
+	margin-bottom: 5px;
+    margin-left: 45px;
+}
+
+#newsletter_user_form #captcha_img
+{
+	width: 270px;
+}
+
+#newsletter_user_form #captcha_field
+{
+	margin-bottom: 15px;
+    margin-left: 45px;
+    margin-top: -13px;
+}
+
+
+
+#newsletter_user_form .st_row {
+    
+    padding: 0px;
+}

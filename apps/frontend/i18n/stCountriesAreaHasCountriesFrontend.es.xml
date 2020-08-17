@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wybierz kraj dostawy</source>
+				<target>Elegir país de entrega</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zapisz</source>
+				<target>Guardar </target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Dostępny kraj dostawy to</source>
+				<target>País de entrega disponible es</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,5 @@
+exporters:
+    stExporterXml2003: Export do pliku Microsoft Office 2003
+
+importers:
+    stImporterXml2003: Import pliku Microsoft Office 2003

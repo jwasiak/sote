@@ -1,0 +1,12 @@
+fields:
+  product_options_template{name}:
+    required:
+      msg:            Podaj nazwe szablonu.
+    sfPropelUniqueValidator:
+        class:        ProductOptionsTemplate
+        column:       opt_name
+        unique_error: Szablon o podanej nazwie już istnieje.
+    sfRegexValidator:
+        pattern: /^\s*\t*$/
+        match: false
+        match_error: Podaj nazwe szablonu.

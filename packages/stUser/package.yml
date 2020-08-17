@@ -1,0 +1,22 @@
+package:
+  name: stUser
+  stability: stable
+  version: 7.3.1.13
+  summary: Klienci
+  description: 'Zarzadzanie klientami sklepu'
+  notes: |
+     - Aktualiacja konfiguracji w panelu
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stFrontend: 1.0.9.10
+    stBackend: 1.0.4.11
+    stAuthUsers: 1.0.5.16
+    stCountriesPlugin: 1.0.2.10
+    stWebpagePlugin: 1.0.2.17
+    stCaptchaGDPlugin: 1.0.0.1
+    stSecurityPlugin: 1.0.2.5
+    stMailPlugin: 1.0.2.4

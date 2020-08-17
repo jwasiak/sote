@@ -1,0 +1,14 @@
+{__ text="Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu."} {$email}
+
+{__ text="Adres został dodany do listy subskrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej."}
+{$confirm_link}
+
+{if $group}
+{__ text="Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów"}:
+{foreach key=row item=news_group from=$results}
+{$news_group.name}
+{$news_group.description}
+{/foreach}{/if}
+
+{__ text="Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link."}
+{$unregister_link}

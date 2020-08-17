@@ -1,0 +1,18 @@
+package:
+  name: stProducer
+  stability: stable
+  version: 7.1.0.1
+  summary: Producenci
+  description: Producenci
+  notes: |
+     - Aktualizacja modulu
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stFrontend: 1.0.9.15
+    stBackend: 1.0.4.28
+    stProduct: 1.0.17.5
+    stCategory: 1.0.5.26

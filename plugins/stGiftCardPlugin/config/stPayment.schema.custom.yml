@@ -1,0 +1,10 @@
+propel:
+  st_payment:
+    _attributes:
+      phpName:    Payment
+    gift_card_id:
+      type:     INTEGER
+      required: false
+      foreignTable: st_gift_card
+      foreignReference: id
+      onDelete: setnull 

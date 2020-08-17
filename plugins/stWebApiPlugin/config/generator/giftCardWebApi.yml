@@ -1,0 +1,60 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+
+webapi:
+    fields:
+        id:                     {type: integer}
+        code:                   {type: string}
+        min_order_amount:       {type: integer}
+        valid_to:               {type: date}
+        amount:                 {type: double}
+        currency_id:            {type: integer}
+        status:                 {type: string}
+
+    methods:
+        AddGiftCard:
+            culture:        false
+            peer:           GiftCard
+            type:           add
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [code, =amount, =currency_id, min_order_amount, valid_to]
+                out:        [id]
+        CountGiftCard:
+            culture:        false
+            peer:           GiftCard
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                out:        [_count]
+        DeleteGiftCard:
+            culture:        false
+            peer:           GiftCard
+            type:           delete
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [_delete]
+        GetGiftCard:
+            culture:        false
+            peer:           GiftCard
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [id, code, amount, currency_id, min_order_amount, valid_to, status]
+        GetGiftCardList:
+            culture:        false
+            peer:           GiftCard
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        [id, code, amount, currency_id, min_order_amount, valid_to, status]
+        UpdateGiftCard:
+            culture:        false
+            peer:           GiftCard
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, code, amount, currency_id, min_order_amount, valid_to]
+                out:        [_update]

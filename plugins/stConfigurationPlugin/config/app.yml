@@ -1,0 +1,48 @@
+all:
+  stConfigurationPlugin:
+    desktop:
+      "Administracja sklepem":
+        - stShopInfoPlugin
+        - stAuthUsers
+        - stSecurityPlugin
+        - stOptimizationPlugin
+        - stFastCacheSymfony
+        - stMigration
+        - stLockPlugin
+        - stWebApiPlugin
+      "Konfiguracja modułów":
+        - stCurrencyPlugin
+        - stLanguagePlugin
+        - { label: Płatności, route: stPaymentType, icon: stPayment }
+        - stTaxPlugin
+        - stAvailabilityPlugin
+        - stSearchPlugin
+        - { label: Zamówienia, route: stOrder/config, icon: stOrder }
+        - { label: Zapytania, route: stQuestionBackend/config, icon: stQuestionPlugin }
+        - { label: Faktury, route: stInvoiceBackend/configCustom, icon: stInvoicePlugin }
+        - { label: Ifirma, route: stInvoiceBackend/ifirmaConfig, icon: stIfirmaPlugin }
+        - { label: Rabaty, route: stDiscountBackend/config, icon: stDiscountPlugin }
+        - { label: Bony zakupowe, route: stGiftCardBackend/config, icon: stGiftCardPlugin }
+        - { label: Allegro, route: stAllegroBackend/config, icon: stAllegroPlugin }
+        - { label: Kategorie, route: stCategory/config, icon: stCategory }
+        - { label: Producenci, route: stProducer/config, icon: stProducer }
+        - { label: Klienci, route: stUser/config, icon: stUser }
+        - { label: Banery, route: stSlideBannerBackend/configCustom, icon: stSlideBannerPlugin }
+        - { label: Grupy produktow, route: stProductGroup/config, icon: stProductGroup }
+        - { label: Blog, route: stBlogBackend/config, icon: stBlogPlugin }
+        - { label: Koszyk, route: stBasket/config, icon: stBasket }
+        - stTrustedShopsPlugin
+        - { label: Recenzje, route: stReview/config, icon: stReview }
+        - { label: Kraje, route: stCountriesBackend/list, icon: stCountriesPlugin }
+      "Płatności":
+        - stCashBillPlugin
+        - stLukasPlugin
+        - stDotpayPlugin
+        - stEcardPlugin
+        - stEservicePlugin
+        - stMoneybookersPlugin
+        - stPayByNetPlugin
+        - stPaypalPlugin
+        - stPlatnosciPlPlugin
+        - stPolcardPlugin
+        - stPrzelewy24Plugin

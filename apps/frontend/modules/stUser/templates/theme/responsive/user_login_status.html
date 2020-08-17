@@ -1,0 +1,31 @@
+{if $is_authenticated && $account_type=="full"}
+    <li class="user-options"><a href="{url_for internal='stUserData/userPanel' secure=true}">{__ text="Moje konto"}</a></li>
+    <li class="user-options user-options-logout"><a href="{url_for internal='stUser/logoutUser' secure=true}">{__ text="Wyloguj"}</a></li>    
+{elseif $is_authenticated && $account_type=="annonymous"}
+    <li class="user-options"><a href="{url_for internal='stUser/createPassword' secure=true}">{__ text="Moje konto"}</a></li>
+    <li class="user-options user-options-logout"><a href="{url_for internal='stUser/logoutUser' secure=true}">{__ text="Usuń"}</a></li>
+{elseif $is_authenticated && $account_type=="external"}
+    <!-- <li>{$external}<a href="{url_for internal='stUserData/userPanel' secure=true}">{$username}</a>{if $points_system_is_active==1 && $points_show==1}{$points}{/if}</li> -->
+    <li class="user-options"><a href="{url_for internal='stUserData/userPanel' secure=true}">{__ text="Moje konto"}</a></li>
+    <li class="user-options user-options-logout"><a href="{url_for internal='stUser/logoutUser' secure=true}">{__ text="Wyloguj"}</a></li>
+{else}
+    <li class="user-options"><a href="{url_for internal='stUser/loginUser' secure=true}" rel="nofollow">{__ text="Zaloguj"}</a></li>
+    <li class="user-options user-options-logout"><a href="{url_for internal='stUser/createAccount' secure=true}" rel="nofollow">{__ text="Załóż konto"}</a></li>    
+{/if}
+
+<li class="dropdown visible-xs">{st_get_component module="stLanguageFrontend" component="choose"}</li> 
+<li class="dropdown visible-xs">{st_get_component module="stCurrencyFrontend" component="pickCurrency"}</li>
+
+{if $is_authenticated}
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {   
+        $(".login-status").css( "display", "block" );
+    });  
+});
+</script>
+{/literal}
+{/if}

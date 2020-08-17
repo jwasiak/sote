@@ -1,0 +1,29 @@
+{if $show_roots}
+   {foreach item=root from=$roots name=roots}
+   <div class="st_category-tree x-panel x-panel-noborder x-tree"><div class="x-panel-bwrap"><div class="x-panel-body x-panel-body-noheader x-panel-body-noborder">
+   <ul id="st_category-tree-{$root.id}" class="x-tree-root-ct x-tree-arrows">
+      <li class="st_category-tree-element st_category-tree-element{if isset($expanded[$root.id]) || $expand_always}-minus{else}-plus{/if}">
+         <div class="x-tree-node-el {if isset($expanded[$root.id]) || $expand_always}x-tree-node-expanded{else}x-tree-node-collapsed{/if}{if $root.id == $selected} x-selected{/if}">
+            <img id="x-hit-{$root.id}" class="x-tree-hitarea x-tree-ec-icon x-tree-elbow{if isset($expanded[$root.id]) || $expand_always}-minus{else}-plus{/if}" src="/sfExtjs2Plugin/extjs/resources/images/default/s.gif" alt="" />
+            <a class="{if $root.id == $selected}x-tree-node-anchor x-tree-node-anchor-selected{else}x-tree-node-anchor{/if}" href="{$root.url}">
+               <span>{$root.name} {if $show_product_count}({$root.product_count}){/if}</span>
+            </a>
+         </div>
+         {if isset($expanded[$root.id]) || $expand_always}
+         {render_ajax_categories for=$root}
+         {/if}
+      </li>
+   </ul>
+   </div></div></div>
+   {jquery_tree_init for=$root}
+   {/foreach}
+{else}
+   {foreach item=root from=$roots name=roots}
+   <div class="st_category-tree x-panel x-panel-noborder x-tree"><div class="x-panel-bwrap"><div class="x-panel-body x-panel-body-noheader x-panel-body-noborder">
+         {if isset($expanded[$root.id]) || $expand_always}
+         {render_ajax_categories for=$root}
+         {/if}
+   </div></div></div>
+   {jquery_tree_init for=$root}
+   {/foreach}
+{/if}

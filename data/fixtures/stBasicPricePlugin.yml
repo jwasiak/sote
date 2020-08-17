@@ -1,0 +1,36 @@
+BasicPriceUnitMeasure: 
+  BasicPriceUnitMeasure_1: 
+    is_default: 1
+    is_system: 1
+    unit_name: "kilogram"
+    unit_symbol: "kg"
+    unit_group: "kg"
+    multiplier:  "1.0000"
+  BasicPriceUnitMeasure_2: 
+    is_default: 0
+    is_system: 1
+    unit_name: "decagram"
+    unit_symbol: "dag"
+    unit_group: "kg"
+    multiplier:  "100.0000"
+  BasicPriceUnitMeasure_3: 
+    is_default: 0
+    is_system: 1
+    unit_name: "gram"
+    unit_symbol: "g"
+    unit_group: "kg"
+    multiplier:  "1000.0000"
+  BasicPriceUnitMeasure_4: 
+    is_default: 1
+    is_system: 1
+    unit_name: "litr"
+    unit_symbol: "l"
+    unit_group: "l"
+    multiplier:  "1.0000"
+  BasicPriceUnitMeasure_5: 
+    is_default: 0
+    is_system: 1
+    unit_name: "mililitr"
+    unit_symbol: "ml"
+    unit_group: "l"
+    multiplier:  "1000.0000"  

@@ -1,0 +1,23 @@
+package:
+  name: stPaypalPlugin
+  stability: stable
+  version: 7.2.0.14
+  summary: Paypal
+  description: 'Integracja z serwisem Paypal'
+  notes: |
+    - Poprawka automatycznego oplacania zamowien
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.8
+    stBackend: 1.0.4
+    stUser: 1.0.5.12
+    stProduct: 1.0.11
+    stDelivery: 1.0.3
+    stBasket: 1.0.5.3
+    stPayment: 1.0.4.1
+    stMailPlugin: 1.0.1.14
+    stSecurityPlugin: 1.0.2.5

@@ -1,0 +1,19 @@
+package:
+  name: stBackend
+  stability: stable
+  version: 7.1.8.16
+  summary: 'Panel sklepu'
+  description: 'Panel sklepu'
+  notes: |
+    - Dostosowanie pakietu do stEservice2Plugin
+  maintainers:
+    'Pawel Byszewski':
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency:
+    stBase: 1.0.8.33
+    stAuthUsers: 1.0.5.16
+    stErrorPlugin: 1.0.2.1
+    stBackendFastMenuPlugin: 1.0.3
+    stSymfonyUpdate: 1.0.19.3

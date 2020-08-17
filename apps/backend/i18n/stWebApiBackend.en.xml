@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zarządzanie WebApi</source>
+                <target>Manage WebApi</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Numer sesji</source>
+                <target>Session number</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Konfiguracja WebApi</source>
+                <target>WebApi configuration</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zawiera całkowitą liczbę rekordów w bazie magazyn.</source>
+                <target>Contains the total number of records in the stockroom.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Logowania WebApi</source>
+                <target>WebApi logging list</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Usuń nieaktualne sesje z listy logowań</source>
+                <target>Remove the obsolete sessions from the logging list</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Włącz WebApi:</source>
+                <target>Enable WebApi:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Czas trwania sesji [s]:</source>
+                <target>Session time [s]:</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Automatycznie usuwaj nieaktualne sesje z listy logowań:</source>
+                <target>Automatically remove the obsolete sessions from the logging list:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Zwraca całkowitą liczbę rekordów w tabeli magazyn.</source>
+                <target>Returns the total number of records from the table stockroom.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Nieaktualne sesje zostały usunięte z listy logowań.</source>
+                <target>Outdated sessions were removed from the logging list.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Złe hasło lub nazwa użtykownika</source>
+                <target>Wrong password or username</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Należy podać wymagany parametr echo.</source>
+                <target>Enter the required parameter echo.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Proszę podać czas trwania sesji API</source>
+                <target>Enter the API session time</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Czas trwania sesji musi być liczbą całkowitą</source>
+                <target>Session time must be an integer</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Minimalny czas trwania sesji wynosi 60 sekund</source>
+                <target>Minimum session time is 60 seconds</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Określa liczbę wyników w zapytaniu.</source>
+                <target>Defines the number of results in the query.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Określa przesunięce wyników o określony ofset.</source>
+                <target>Defines the transfer of the results by a certain offset.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Brak pliku konfiguracyjnego</source>
+                <target>No configuration file</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Operacja zostala wykonana</source>
+                <target>Operation was executed</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Użytkownik nie ma praw odczytu.</source>
+                <target>User doesn't have permission to read.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Użytkownik nie ma praw zapisu.</source>
+                <target>User doesn't have permission to write</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Zwraca listę wszystkich stanów magazynowych. Listę można skrócić wykorzystująć parametry _offset i _limit.</source>
+                <target>Returns a list of all stocks. List can be shortened by using the parameters _offset and _limit.</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Funkcja umożliwia dodanie nowego stanu magazynowego dla produktu. Przed dodaniem stanu magazynowego należy upwenić się czy produkt o podanym id istnieje, w przeciwnym wypadku zostatnie zwrócony błąd WEBAPI_VALIDATE_ERROR.</source>
+                <target>Function allows to add a new stock for the product. Before adding a stock make sure that the product with the given ID exists, otherwise it will return an error WEBAPI_VALIDATE_ERROR.</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Id produktu w sklepie, dla którego ma zostac dodany stan magazynowy. Produkt o podanym id musi istnieć</source>
+                <target>ID of the product in the shop for which you want to add a stock. The product with the given ID must exist</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Liczba produktów w magazynie podana jako liczba całkowita.</source>
+                <target>Number of products in the stockroom must be given as an integer.</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Id wpisu dodanego do magazynu</source>
+                <target>ID of the entry added to the stockroom</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Funckja umożliwia pobranie stanów magazynowych dla produktów w sklepie.</source>
+                <target>Function allows to retrieve the stocks for the products in the shop.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Id rekordu w bazie danych, jest to wartość !DepositoryId w danych produktu.</source>
+                <target>ID of the record in the database, this is !DepositoryId value in the product data.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Id pobranego rekordu.</source>
+                <target>ID of the retrieved record.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Id produktu dla którego określony jest stan magazynowy.</source>
+                <target>Product ID for which a stock is defined.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Liczba produktów w magazynie podana jako liczba całkowita.</source>
+                <target>Number of products in the stockroom must be given as an integer.</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Nazwa produktu dla danego stanu magazynowego.</source>
+                <target>Product name for the given stock.</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Aktualizuje wartość stanu magazynowego dla danego produktu w sklepie.</source>
+                <target>Update a stock for the given product in the shop.</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>W przypadku powodzenia wartość ta przyjmuje true</source>
+                <target>In case of success the value is set as true</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>API</source>
+                <target>API</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Nie podano wymaganego pola: "%s".</source>
+                <target>Please enter the required field: "%s".</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Proszę się zalogować</source>
+                <target>You have to login first</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Błąd podczas dodawania danych. Informacja: %s</source>
+                <target>Error occured while adding the data. Info: %s</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Niedozwolony kod produktu.</source>
+                <target>Illegal product code.</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Błędny numer ID.</source>
+                <target>Invalid ID number.</target>
+            </trans-unit>			
+            <trans-unit id="43">
+                <source>Błąd podczas aktualizacji danych. Informacja: %s.</source>
+                <target>Error occured while updating the data. Info: %s</target>
+            </trans-unit>			
+            <trans-unit id="44">
+                <source>Błąd podczas usuwania danych. Informacja: %s</source>
+                <target>Error occured while deleting the data. Info: %s</target>
+            </trans-unit>			
+            <trans-unit id="45">
+                <source>Błąd podczas liczenia danych. Informacja: %s</source>
+                <target>Error occured while counting the data. Info:%s</target>
+            </trans-unit>			
+            <trans-unit id="46">
+                <source>Błąd podczas sprawdzania danych, niewłasciwa wartość pola "%s".</source>
+                <target>Error occured while checking the data, incorrect value for the field %s.</target>
+            </trans-unit>			
+            <trans-unit id="47">
+                <source>Błąd w pliku konfiguracyjnym modułu.</source>
+                <target>Error in the configuration file of the module.</target>
+            </trans-unit>			
+            <trans-unit id="48">
+                <source>niepoprawny parametr parent_id</source>
+                <target>invalid parameter parent_id</target>
+            </trans-unit>			
+            <trans-unit id="49">
+                <source>kategoria o id</source>
+                <target>Category with id</target>
+            </trans-unit>			
+            <trans-unit id="50">
+                <source>nie istnieje</source>
+                <target>does not exist</target>
+            </trans-unit>			
+            <trans-unit id="51">
+                <source>producent o id</source>
+                <target>producer with id</target>
+            </trans-unit>			
+            <trans-unit id="52">
+                <source>VAT o id</source>
+                <target>tax with id</target>
+            </trans-unit>			
+            <trans-unit id="53">
+                <source>produkt o kodzie</source>
+                <target>product with code</target>
+            </trans-unit>			
+            <trans-unit id="54">
+                <source>już istnieje</source>
+                <target>already exists</target>
+            </trans-unit>			
+            <trans-unit id="55">
+                <source>błąd podczas zapisu</source>
+                <target>error occured while writing</target>
+            </trans-unit>		
+            <trans-unit id="56">
+                <source>nie można usunąć domyślnej stawki VAT</source>
+                <target>You can not delete the default tax rate</target>
+            </trans-unit>				
+            <trans-unit id="57">
+                <source>w sklepie musi istnieć co najmniej jedna stawka VAT</source>
+                <target>your shop must have at least one tax rate</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>w sklepie nie istnieje stawka VAT</source>
+                <target>there is no tax rates</target>
+            </trans-unit>				
+            <trans-unit id="59">
+                <source>Kategoria o id %d nie istenieje</source>
+                <target>Category with id %d does not exist</target>
+            </trans-unit>
+			<trans-unit id="60">
+                <source>Użytkownik</source>
+                <target>User</target>
+            </trans-unit>
+			<trans-unit id="61">
+                <source>Błąd podczas sprawdzania danych, podana wartość dla pola "%s" już istnieje.</source>
+                <target>Error occured while checking the data, the value for field "%s" already exists.</target>
+            </trans-unit>
+			<trans-unit id="62">
+                <source>Utworzona</source>
+                <target>Created at</target>
+            </trans-unit>
+			<trans-unit id="63">
+                <source>Zaktualizowana</source>
+                <target>Updated at</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

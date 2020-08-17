@@ -1,0 +1,86 @@
+#trusted_shops {
+    margin-top: 20px;
+}
+
+#trusted_shops .st_title {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#trusted_shops_logo {
+    float: left;
+    padding: 0px 20px 0px 10px;
+}
+
+#trusted_shops_content {
+    float: left;
+    width: 700px;
+}
+
+#trusted_shops_checkbox {
+    padding-bottom: 10px;
+}
+
+#trusted_shops_checkbox input {
+    position: relative;
+    top: 3px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#trusted_shops_classic_summary {
+    margin-top: 10px;
+    padding: 10px 230px;
+    overflow: hidden;
+}
+
+#trusted_shop_classic_summary_logo {
+    float: left;
+    width: 70px;
+    padding-right: 20px;
+}
+
+#trusted_shop_classic_summary_logo a {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+#trusted_shop_classic_summary_content {
+    float: left;
+    width: 430px;
+}
+
+.trusted_shops_sealbox_top_small {
+    background:
+        url(/images/frontend/theme/default/stTrustedShopsPlugin/frame_top_small.png)
+        top left no-repeat;
+    height: 7px;
+    width: 180px;
+}
+
+.trusted_shops_sealbox_middle {
+    background-color: #FFFFFF;
+    border-left: 1px solid #C9C9C9;
+    border-right: 1px solid #C9C9C9;
+    padding-bottom: 5px;
+    width: 178px;
+}
+
+.trusted_shops_sealbox_bottom {
+    background:
+        url(/images/frontend/theme/default/stTrustedShopsPlugin/frame_bottom.png)
+        top left no-repeat;
+    height: 7px;
+    width: 180px;
+}
+
+#trusted_shops_sealbox .trusted_shops_sealbox_middle {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.trusted_shops_sealbox_txt {
+    padding: 10px 5px;
+}

@@ -1,0 +1,18 @@
+{use_stylesheet src="stSantanderRatyPlugin.css"}
+
+<a href="{$url}" id="eraty-santander-calculate-trigger" rel="#eraty-santander-calculate-overlay"><img src="https://www.eraty.pl/images/bannery/oblicz_white.png" alt="{__ text='Oblicz eRaty'}" /></a>
+<div id="eraty-santander-calculate-overlay"><div class="overlay_content"></div></div>
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+
+        $('#eraty-santander-calculate-trigger').overlay({
+            onBeforeLoad: function() {
+                this.getOverlay().find('.overlay_content').html('<iframe src="'+this.getTrigger().attr('href')+'" width="640" height="500"></iframe>');
+            }
+        });
+
+    });
+</script>
+{/literal}

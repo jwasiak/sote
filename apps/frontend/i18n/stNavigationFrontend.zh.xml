@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-24T11:58:53Z">
+		<body>
+			<trans-unit id="1">
+				<source>Start</source>
+				<target>开始</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Historia</source>
+				<target>历史纪录</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Historia oglądanych produktów</source>
+				<target>商品浏览历史纪录</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Ostatnio oglądane</source>
+				<target>最近浏览过</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Koszyk</source>
+				<target>购物车</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Potwierdzenie zamówienia</source>
+				<target>订单确认</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Podsumowanie zamówienia / Płatności</source>
+				<target>订单结算/支付</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Szukaj</source>
+				<target>搜索</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Podsumowanie zamówienia</source>
+				<target>订单总结</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Płatność</source>
+				<target>支付</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

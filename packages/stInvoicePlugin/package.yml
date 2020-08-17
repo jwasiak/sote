@@ -1,0 +1,17 @@
+package:
+  name: stInvoicePlugin
+  stability: stable
+  version: 7.0.5.6
+  summary: Faktury
+  description: 'Faktury w sklepie'
+  notes: |
+    - Poprawka weryfikacji numeru VAT UE
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    stFrontend: 1.0.8
+    stBackend: 1.0.4
+    stTCPDFPlugin: 1.0.0

@@ -1,0 +1,25 @@
+all:
+    stThumbnailPlugin:
+        watermark_positions:
+          top:            {name: góra}
+          bottom:         {name: dół}
+          left:           {name: lewa}
+          right:          {name: prawa}
+          middle:         {name: środek}
+          diagonal_up:    {name: na ukos góra}
+          diagonal_down:  {name: na ukos dół}
+        watermark_fonts:
+          arial.ttf:              Arial
+          Sansation_Bold.ttf:     Sansation (pogrubione)
+          Sansation_Light.ttf:    Sansation (cienkie)
+          Sansation_Regular.ttf:  Sansation
+          Softfade.ttf:           Soft Sugar 1
+          Softplain.ttf:          Soft Sugar 2
+          old_stamper.ttf:        Old Stamper
+          zero_and_zero_is.ttf:   Zero & Zero Is
+          CloisterBlack.ttf:      Cloister Black
+          PLUMP.ttf:              Pleasantly Plump
+          techniqo.ttf:           Technique (bez wypełnienia)
+          techniqu.ttf:           Technique
+          DymaxionScript.ttf:     Dymaxion Script
+          HAMBH___.ttf:           HamburgerHeaven

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Potwierdzenie rejestracji w programie partnerskim.</source>
+                <target>Confirmation de l'inscription dans le programme d'affiliation.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Data założenia konta:</source>
+                <target>Date d'ouverture de compte:</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Klient:</source>
+                <target>Client:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>został poprawnie zweryfikowany.</source>
+                <target>a été correctement confirmé.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Dane partnera:</source>
+                <target>Coordonnées du partenaire:</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Zweryfikowano konto partnerskie.</source>
+                <target>Compte partenaire confirmé.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

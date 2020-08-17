@@ -1,0 +1,22 @@
+<div id="pager">
+    <div class="next_prev">
+        {if $current_page!=1}
+            {$first_page}
+            {$previous_page}
+        {/if}
+    </div>
+    <div class="pages">
+        {foreach key=row item=page from=$links}
+            {$page.page}
+        {/foreach}
+        {__ text="z"} {$last_page2}
+    </div>
+    <div class="next_prev">
+        {if $current_page!=$last_page2}
+            {$next_page}
+            {$last_page}
+        {/if}
+    </div>
+<br class="clear"/>
+</div>
+<br class="clear"/>

@@ -1,0 +1,33 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+
+webapi:
+    fields:
+        id:             {type: integer}
+        is_active:      {type: boolean}
+        name:           {type: string}
+
+    methods:
+        CountPaymentType:
+            culture:        false
+            peer:           PaymentType
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [is_active]
+                out:        [_count]
+        GetPaymentType:
+            culture:        true
+            peer:           PaymentType
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        [id, name, is_active]
+        GetPaymentTypeList:
+            culture:        true
+            peer:           PaymentType
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, is_active]
+                out:        [id, name, is_active]

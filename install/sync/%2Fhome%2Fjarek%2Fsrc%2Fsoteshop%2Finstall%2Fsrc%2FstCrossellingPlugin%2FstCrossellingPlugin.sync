@@ -1,0 +1,16 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme/default
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme/default/crosselling_show_products_in_basket.html
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme/default/crosselling_show_in_product_tab.html
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme/default2
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme/default2/crosselling_show_products_in_basket.html
+/home/jarek/src/soteshop/plugins/stCrossellingPlugin/modules/stCrossellingFrontend/templates/theme/default2/crosselling_show_in_product_tab.html
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/frontend
+/home/jarek/src/soteshop/apps/frontend/i18n
+/home/jarek/src/soteshop/apps/frontend/i18n/stCrossellingFrontend.en.xml

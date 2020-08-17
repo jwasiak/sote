@@ -1,0 +1,22 @@
+{set layout="one_column"}
+<div id="webpage-show" class="bg-white">
+    <div class="title">
+        <h1>{$content_name}</h1>
+        {st_get_component module="stAddThisFrontend" component="shareButtons" params="view='webpage'"}
+    </div>
+    
+    <div class="content tinymce_html">
+        {$content}        
+    </div>
+</div>
+
+{literal}
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+    var href = "{/literal}{$url}{literal}";
+    $('.horizontal-categories').trigger('highlight', href);
+});
+//]]>
+</script>
+{/literal}

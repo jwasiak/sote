@@ -1,0 +1,143 @@
+sfAsset:
+  sfAsset_11:
+    folder_id: sfAssetFolder_58
+    filename: audio.jpg
+    type: image
+  sfAsset_12:
+    folder_id: sfAssetFolder_58
+    filename: speakers.jpg
+    type: image
+  sfAsset_13:
+    folder_id: sfAssetFolder_58
+    filename: headphones.jpg
+    type: image
+  sfAsset_14:
+    folder_id: sfAssetFolder_58
+    filename: computer.jpg
+    type: image
+  sfAsset_15:
+    folder_id: sfAssetFolder_58
+    filename: photography.jpg
+    type: image
+  sfAsset_16:
+    folder_id: sfAssetFolder_58
+    filename: jewellery.jpg
+    type: image
+
+  
+Category:
+  Category_1:
+    lft: 1
+    rgt: 18
+    depth: 0
+    scope: 1
+    culture: pl_PL
+    name: Kategorie
+  Category_2:
+    lft: 6
+    rgt: 11
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Audio
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_11
+  Category_3:
+    lft: 7
+    rgt: 8
+    depth: 2
+    scope: 1
+    parent_id: Category_2
+    sf_asset_id: sfAsset_12
+    culture: pl_PL
+    name: Głośniki
+  Category_4:
+    lft: 9
+    rgt: 10
+    depth: 2
+    scope: 1
+    parent_id: Category_2
+    sf_asset_id: sfAsset_13
+    culture: pl_PL
+    name: Słuchawki
+  Category_5:
+    lft: 4
+    rgt: 5
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Komputery
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_14
+  Category_6:
+    lft: 2
+    rgt: 3
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Fotografia
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_15
+  Category_8:
+    lft: 12
+    rgt: 13
+    depth: 1
+    scope: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Biżuteria
+    main_page: 1
+    sf_asset_id: sfAsset_16
+  Category_9:
+    lft: 16
+    rgt: 17
+    depth: 1
+    scope: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Prezenty
+
+CategoryI18n:
+  CategoryI18n_2:
+    id: Category_1
+    culture: en_US
+    name: Categories
+    url: categories
+  CategoryI18n_4:
+    id: Category_2
+    culture: en_US
+    name:  Audio
+    url: audio
+  CategoryI18n_6:
+    id: Category_3
+    culture: en_US
+    name: Speakers
+    url: audio-speakers
+  CategoryI18n_8:
+    id: Category_4
+    culture: en_US
+    name: Headphones
+    url: audio-headphones
+  CategoryI18n_10:
+    id: Category_5
+    culture: en_US
+    name: Computers
+    url: computer
+  CategoryI18n_12:
+    id: Category_6
+    culture: en_US
+    name:  Photography
+    url: photography
+  CategoryI18n_14:
+    id: Category_8
+    culture: en_US
+    name: Jewellery
+    url: jewellery
+  CategoryI18n_16:
+    id: Category_9
+    culture: en_US
+    name: Gifts
+    url: gifts

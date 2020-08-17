@@ -1,0 +1,58 @@
+ProductGroup:
+  ProductGroup_1:
+    product_group: PROMOTION
+    culture: pl_PL
+    name: Promocje
+    product_limit: 6
+    url: promocje
+  ProductGroup_2:
+    product_group: SALES
+    culture: pl_PL
+    name: Wyprzedaż
+    product_limit: 6
+    url: wyprzedaz
+  ProductGroup_3:
+    product_group: RECOMMEND
+    culture: pl_PL
+    name: Polecamy
+    product_limit: 6
+    url: polecamy
+  ProductGroup_4:
+    product_group: MAIN_PAGE
+    culture: pl_PL
+    name: Strona główna
+    product_limit: 12
+    url: strona-glowna
+  ProductGroup_6:
+    product_group: NEW
+    culture: pl_PL
+    name: Nowości
+    product_limit: 5
+    url: nowosci
+
+ProductGroupI18n:
+  ProductGroupI18n_2:
+    id: ProductGroup_1
+    culture: en_US
+    name: Promotions
+    url: promotions
+  ProductGroupI18n_4:
+    id: ProductGroup_2
+    culture: en_US
+    name: Sale
+    url: sale
+  ProductGroupI18n_6:
+    id: ProductGroup_3
+    culture: en_US
+    name: Recommended
+    url: recommended
+  ProductGroupI18n_8:
+    id: ProductGroup_4
+    culture: en_US
+    name: Homepage products
+    url: homepage-products
+  ProductGroupI18_n_12:
+    id: ProductGroup_6
+    culture: en_US
+    name: New products
+    url: new-products

@@ -1,0 +1,12 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/sfNiftyPlugin
+/home/jarek/src/soteshop/plugins/sfNiftyPlugin/lib
+/home/jarek/src/soteshop/plugins/sfNiftyPlugin/lib/sfNifty.class.php
+/home/jarek/src/soteshop/plugins/sfNiftyPlugin/lib/helper
+/home/jarek/src/soteshop/plugins/sfNiftyPlugin/lib/helper/niftyHelper.php
+/home/jarek/src/soteshop/data
+/home/jarek/src/soteshop/data/update
+/home/jarek/src/soteshop/data/update/stNiftyPlugin.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stNiftyPlugin
+/home/jarek/src/soteshop/packages/stNiftyPlugin/package.yml

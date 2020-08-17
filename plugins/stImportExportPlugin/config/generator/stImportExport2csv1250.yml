@@ -1,0 +1,5 @@
+exporters:
+    stExporterCsv1250: Export do pliku csv (Windows-1250)
+
+importers:
+    stImporterCsv1250: Import pliku csv (Windows-1250)

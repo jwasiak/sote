@@ -1,0 +1,16 @@
+---
+package:
+  name: stRepairKit
+  stability: stable
+  version: 1.0.1.5
+  summary: Zestaw naprawczy
+  description: Zestaw narzędzi do naprawy modelu
+  notes: Dodanie applikacji
+  maintainers:
+    Marcin Butlak:
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.8
+    stBackend: 1.0.4

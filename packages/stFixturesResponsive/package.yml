@@ -1,0 +1,12 @@
+package:
+  name: stFixturesResponsive
+  stability: stable
+  version: 7.0.0.126
+  summary: Dane dla tematu responsive
+  description: Dane dla tematu responsive
+  notes: Zmiana tresci boksu informacyjnego
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysztof
+      email: krzysztof.beblo@sote.pl

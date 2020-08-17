@@ -1,0 +1,6 @@
+Theme:
+  Theme_modernorwd:
+    base_theme_id:  Theme_argentorwd
+    name:           modernorwd
+    version:        7
+    is_system_default: 1

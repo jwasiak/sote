@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="lib.model" noXsd="true">
+
+  <table name="st_product_group" phpName="ProductGroup" isI18N="true" i18nTable="st_product_group_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="product_group" type="VARCHAR" size="255" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="product_limit" type="INTEGER" />
+    <column name="opt_url" type="VARCHAR" size="255" />
+    <column name="opt_label" type="VARCHAR" size="255" />
+    <column name="opt_image" type="VARCHAR" size="255" />
+    <column name="from_basket_value" type="INTEGER" />
+  </table>
+
+  <table name="st_product_group_has_product" phpName="ProductGroupHasProduct">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="product_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+    <column name="product_group_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_product_group" onDelete="cascade">
+      <reference local="product_group_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_product_group_i18n" phpName="ProductGroupI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_product_group" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="url" type="VARCHAR" size="255" />
+    <column name="label" type="VARCHAR" size="255" />
+    <column name="image" type="VARCHAR" size="255" />
+    <index name="product_group_Index1">
+      <index-column name="url" />
+      <index-column name="culture" />
+    </index>
+  </table>
+
+</database>

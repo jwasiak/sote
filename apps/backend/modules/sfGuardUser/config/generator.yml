@@ -1,0 +1,50 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            sfGuardUser
+        theme:                  simple
+        head:
+            package:            stAuthUsers
+        applications:           [stUser]
+        fields:
+            username:           {name: Login}
+            is_active:          {name: Aktywny}
+            last_login:         {name: Ostatnio logowany}
+            is_super_admin:     {name: Super admin}
+        list:
+            menu:
+               display:         [list, group]
+               fields:
+                  list:         { name: Administratorzy, action: sfGuardUser/list }
+                  group:        { name: Grupy uprawnień, action: sfGuardGroup/list }
+            title:              Lista
+            description:        Zarządzanie i konfiguracja kont administratorów
+            display:            [=username, last_login, is_super_admin]
+            filters:            [username]
+            object_actions:
+                _edit:          - 
+                _delete:        -
+            fields:
+            actions:
+                _create:        {name: Dodaj}
+        edit:
+            menu:               { use: list.menu }
+            use_helper:         [sfGuardUser]
+            title:              Edycja administratora %%username%%
+            description:        Zarządzanie i konfiguracja kont administratorów panelu  
+            fields:
+                groups:          {name: Grupy uprawnień, type: guard_group_list, params: control_name=group, help: "Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b>"}
+                permissions:     {name: Uprawnienia, type: guard_permission_list, params: control_name=permission, help: "Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b>"}
+                app_permissions: {name: Uprawnienia modułów, type: guard_app_permission_list, params: control_name=module_permission, help: "Aby zaznaczyć lub odznaczyć wybraną opcję wciśnij klawisz <b>Ctrl</b>"}
+                last_login:      {name: Ostatnio logowany, type: plain}
+                password_bis:    {name: "Ponów hasło"}
+                password:        {name: Hasło}                
+                is_super_admin:  {name: Super admin}
+                is_active:       {name: Aktywny}
+
+            display:
+                "Informacje":   [last_login]
+                "NONE":         [_is_active, _is_super_admin, username, _password, _password_bis, groups, permissions, app_permissions]
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}

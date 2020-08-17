@@ -1,0 +1,14 @@
+migration:
+    _attributes:
+      extend:                           soteshop30.yml
+      
+    products:
+        model_fillin:
+            Product:
+                weight:                 {params: weight}
+                m_name:                 
+                  params:               {names: [name_L0, name_L1, name_L2, name_L3, name_L4]} 
+                m_description:          
+                  params:               {descriptions: [xml_description_L0, xml_description_L1, xml_description_L2, xml_description_L3, xml_description_L4]}
+                m_short_description:    
+                  params:               {descriptions: [xml_short_description_L0, xml_short_description_L1, xml_short_description_L2, xml_short_description_L3, xml_short_description_L4]}

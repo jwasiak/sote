@@ -1,0 +1,223 @@
+<div id="st_user-edit_data" class="box_form roundies">
+		{if isset($billing_data)}
+            <h3>{__ text="Dane płatnika"}</h3>
+        {else}
+            <h3>{__ text="Dane wysyłkowe"}</h3>
+        {/if}
+	
+    {$form_start}
+    <div class="box_form_content">
+    <fieldset>
+		    <div class="st_row">
+		        <div style="float:left;">{$radio_customer_type1} <i class="gray_text">{$label_customer_type1}</i></div>		        		
+		        <div style="float:left;">{$radio_customer_type2} <i class="gray_text">{$label_customer_type2}</i></div>
+		        <div class="clear"></div>
+			</div>
+	    	
+	    	<div id="company_fields">
+	    	    <div class="error_tooltip">
+                    {if $error_company!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_company}"  alt="{$error_company}">
+                    {/if}
+                </div>
+		        <div class="st_row">    
+		            <div class="st_field">
+		            	{$label_company}
+		                {$input_company}
+		            </div>
+		        </div>
+		        
+		        <div class="st_row">
+		            <div class="error_tooltip">
+                    {if $error_nip!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_nip}"  alt="{$error_nip}">
+                    {/if}
+                    </div>
+		            
+		            <div class="st_field">
+		            	{$label_nip}
+		                {$input_nip}
+		            </div>
+		        </div>
+	        </div>
+	            
+	        <div class="st_row">    
+	            <div class="error_tooltip">
+                    {if $error_full_name!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_full_name}"  alt="{$error_full_name}">
+                    {/if}
+                </div>
+	            <div class="st_field">
+	            	{$label_full_name}
+	                {$input_full_name}        
+	            </div>
+	        </div>
+	    
+	        <div class="st_row">    
+	            <div class="error_tooltip">
+                    {if $error_address!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_address}"  alt="{$error_address}">
+                    {/if}
+                </div>
+	            <div class="st_field">
+	            	{$label_address}
+	                {$input_address}
+	            </div>
+	        </div>
+	    
+	        {if $show_address_more==1}
+	        <div class="st_row">    
+	            <div class="st_field">
+	            	{$label_address_more}
+	                {$input_address_more}
+	            </div>
+	        </div>
+	        {/if}
+	    
+	        {if $show_region==1}
+	        <div class="st_row">
+	            <div class="st_field">
+	            	{$label_region}
+	                {$input_region}
+	            </div>
+	        </div>
+	        {/if}
+	    
+	        <div class="st_row row_code_town">
+	            
+	            <div class="error_tooltip">
+                    {if $error_code_town!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_code_town}"  alt="{$error_code_town}">
+                    {/if}
+                </div>
+	            
+			    <div class="st_field left">
+			    	{$label_code}
+			        {$input_code}
+			    </div>
+			    
+			    <div class="st_field left" style="margin-left:4px;">                                   
+			        {$label_town}
+			        {$input_town}
+			    </div>
+			    
+			<div class="clear"></div>    
+			</div>
+	    
+	        <div class="st_row">
+	            <div class="st_field">
+	                {$select_country}
+	            </div> 
+	        </div>
+	        
+	        {if $show_pesel==1}
+	        <div class="st_row">
+	            <div class="st_field">
+	            	{$label_pesel}
+	                {$input_pesel}
+	            </div>
+	        </div>
+	        {/if}
+	        
+	        <div class="st_row">
+	            <div class="error_tooltip">
+                    {if $error_phone!=""}
+                        <img src="{image_path image='exclamation.png'}" title="{$error_phone}"  alt="{$error_phone}">
+                    {/if}
+                </div>
+	            <div class="st_field">
+	            	{$label_phone}
+	                {$input_phone}
+	            </div>
+	        </div>
+	        
+	        {if $is_default!=1}
+    	    
+                <div class="st_row vertical-align-middle gray_text">
+                    {$checkbox_set_as_default}
+                    <span >{__ text="Ustaw jako domyślne"}</span>
+                </div>
+                <div class="clear"></div>
+            {else}
+                <div class="st_row vertical-align-middle gray_text">
+                   <input type="checkbox" value="1" id="st_form-user-default" name="user_data[isDefault]" disabled="disabled" checked="true">
+                   <input type="hidden" value="1" id="st_form-user-default" name="user_data[isDefault]">
+                   
+                    <span >{__ text="Ustaw jako domyślne"}</span>
+                </div>
+                <div class="clear"></div>
+            {/if}
+	        
+	        <div class="st_row">
+                <div class="st_field gray_text vertical-align-middle">
+                    <span>&nbsp;&nbsp;*&nbsp;{__ text="Pola wymagane"}</span>
+                </div>
+            </div>
+	        
+	        <div class="st_row">
+                    
+                <div id="st_button-user-account" class="buttons right">
+                    <button type="submit" class="regular roundies" >
+                        {__ text="Zapisz"}
+                    </button>
+                </div>
+                    
+            </div>
+	            
+        {$hidden_show_edit_profile_form}
+        {$hidden_uderdata_type}
+        {$hidden_user_data_id}
+        {$hidden_user_data_is_billing}
+        {$hidden_userdata_id}
+        
+        </div>
+    </fieldset>
+    </form>
+    
+</div>
+
+        
+<div class="clear"></div>
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{	
+	    $(".error_tooltip img[title]").tooltip({ 
+            effect: 'slide',
+            opacity: 1,
+            position: 'bottom right',
+            offset: [15,4],
+            tipClass: 'alert_tooltip'
+        });
+	    	
+		$("label").inFieldLabels();
+		
+				
+		if($('#user_data_customer_type_2').attr('checked'))
+		{
+			$("#company_fields").show();
+			$("#full_name_label").text({/literal}"{$label_full_name_text}"{literal});
+		}else{
+			$("#company_fields").hide();
+		}
+ 	 
+ 	 	$('#user_data_customer_type_1').click(function(){
+			$("#company_fields").hide();
+			$("#full_name_label").text({/literal}"* {$label_full_name_text}"{literal});
+		
+		});
+ 	 
+		$('#user_data_customer_type_2').click(function(){
+			$("#company_fields").show();
+			$("#full_name_label").text({/literal}"{$label_full_name_text}"{literal}); 
+		
+		});
+		
+	  	
+	});
+});
+</script>
+{/literal}

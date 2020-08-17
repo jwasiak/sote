@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2014-03-18T16:15:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Lista produktów</source>
+                <target>List of products</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Generowanie pliku</source>
+                <target>Generate the file</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Kod</source>
+                <target>Code</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Generuj plik</source>
+                <target>Generate the file</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Plik został wygenerowany i znajduje się pod adresem:</source>
+                <target>File has been generated and can be found at:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Infomacje o sklepie</source>
+                <target>Shop information</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Nazwa:</source>
+                <target>Name:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Opis:</source>
+                <target>Description:</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Informacje o dostępności produktów</source>
+                <target>Information about the products availability</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dostępność w sklepie</source>
+                <target>Availability in the shop</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Dostępność w Google Shopping</source>
+                <target>Availability in Google Shopping</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>W magazynie</source>
+                <target>In stock</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Dostępny na zamówienie</source>
+                <target>Available for order</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Niedostępny</source>
+                <target>Out of stock</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Zamówienie przedpremierowe</source>
+                <target>Preorder</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Dodaj definicje wersji językowej w adresach url produktów:</source>
+                <target>Add language definition in the url addresses of products:</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Opis produktu:</source>
+                <target>Product description:</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Pełny</source>
+                <target>Full</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Skrócony</source>
+                <target>Short</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Dodatkowy</source>
+                <target>Additional</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Nie eksportuj produktów ze stanem magazynowym równym 0:</source>
+                <target>Do not export products if their stock is 0:</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Do poprawnego działania Google Shoping niezbędne jest posiadanie certyfikatu SSL.</source>
+                <target>For proper operation of Google Shopping it is necessary to have an SSL certificate.</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Jego brak może skutkować zawieszeniem konta Google Merchant.</source>
+                <target>His absence may result in the suspension of your Google Merchant.</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Więcej informacji na ten temat można znaleźć na stronach pomocy</source>
+                <target>More information can be found on the help pages</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Wypisz wszystkie</source>
+                <target>Remove all</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Przypisz wszystkie</source>
+                <target>Add all</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Generowanie ID na podstawie:</source>
+                <target>Generating on the basis of ID</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>ID produktu w sklepie</source>
+                <target>ID product merchant</target>
+            </trans-unit>            
+            <trans-unit id="34">
+                <source>Kodu produktu w sklepie</source>
+                <target>Code merchant</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Przypisz</source>
+                <target>Assign</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Tak</source>
+                <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Nie</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Ustaw przypisane: Tak</source>
+                <target>Set as assigned: Yes</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Ustaw przypisane: Nie</source>
+                <target>Set as assigned: No</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Kod MPN</source>
+                <target>MPN code</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Dostawa</source>
+                <target>Shipping</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Minimalny koszt dostawy:</source>
+                <target>Minimum shipping cost:</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Minimalny koszt dostawy</source>
+                <target>Minimum shipping cost</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Nazwa produktu</source>
+                <target>Product name</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Indywidualne ustawienie produktu</source>
+                <target>Individual product setting</target>
+            </trans-unit>           
+            <trans-unit id="45">
+                <source>Cena promocyjna</source>
+                <target>Sale price</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

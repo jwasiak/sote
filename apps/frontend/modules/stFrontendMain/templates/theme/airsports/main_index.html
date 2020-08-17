@@ -1,0 +1,9 @@
+{set layout="one_column"}
+<div id="homepage">
+    {slot name="main-index-after-slider" hidden="true"}{/slot}
+    {st_get_component module="stProduct" component="treeMain"}
+	{st_get_component module="stBlogFrontend" component="index"}
+    {st_get_component module="stFrontendMain" component="mainText"}
+    {st_get_component module="stProduct" component="productGroup" product_group="MAIN_PAGE"}
+    {slot name="main-index-bottom" hidden="true"}{/slot}
+</div>

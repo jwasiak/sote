@@ -1,0 +1,17 @@
+{set layout="homepage"}
+<div id="homepage">
+    <div id="homepage-baner"> 
+        <div class="container">{st_get_component module="stSlideBannerFrontend" component="show"}</div>
+    </div>
+    {strip}
+    <div class="container bg-white">
+    	{slot name="main-index-after-slider" hidden="true"}{/slot}
+        {st_get_component module="stProduct" component="treeMain"}
+    	{st_get_component module="stProduct" component="productGroup" product_group="MAIN_PAGE"}
+        {include_file id="_seo"}
+	    {st_get_component module="stFrontendMain" component="mainText"}
+	    {st_get_component module="stBlogFrontend" component="index"}
+        {slot name="main-index-bottom" hidden="true"}{/slot}
+	</div>
+    {/strip}
+</div>

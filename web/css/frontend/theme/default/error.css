@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+#box_error500 {
+    background: url(/images/frontend/theme/default/error/background_error.png) top left repeat-x;
+    border: 1px solid #d9d9d9;
+    width: 360px;
+    overflow: hidden;
+    margin: 250px auto;
+    padding: 15px 0px;
+}
+
+#box_error500_left,#box_error500_right {
+    float: left;
+}
+
+#box_error500_left {
+    padding-left: 50px;
+}
+
+#box_error500_right {
+    padding: 8px 0px 0px 20px;
+}
+
+.txt_red {
+    font-weight: bold;
+    color: #c91111;
+}
+
+.txt {
+    font-size: 11px;
+    padding-top: 3px;
+}

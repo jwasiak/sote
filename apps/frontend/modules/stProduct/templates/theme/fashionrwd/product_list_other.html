@@ -1,0 +1,97 @@
+<div id="thumb-list" class="row">
+    {foreach key=row item=product from=$results}
+       <div class="product col-xs-4 col-sm-3 col-md-2 col-lg-2 item">
+            <div class="thumbnail text-center">               
+                <span class="name">{$product.name}</span>
+                    {if $show_availability}
+                        <div class="product-availability">
+                            {$product.availability}
+                            {if $show_stock}
+                                ({$product.stock} {$product.uom})
+                            {/if}
+                        </div>
+                    {elseif $show_stock}
+                        <div class="product-availability">
+                            {__ text="Dostępność" langCatalogue="stAvailabilityFrontend"}: {$product.stock} {$product.uom}
+                        </div>
+                    {/if}
+                <div class="image">
+                    {$product.photo}
+                </div>
+                <div class="thumbnail-price">
+                    {if $show_discount==1 && $product.discount!=0 && $product.check_price!=1  && $product.points_only!=1}
+                        <div class="discount">{__ text="Rabat"}: <span class="nowrap">{$product.discount} %</span></div>
+                    {elseif ($show_old_price==1 && $product.check_price!=1) && $product.points_only!=1}  
+                        {if $product.check_old_price==1}
+                            <span class="old_price nowrap">
+                                {if ($price_view=='net_gross' || $price_view=='only_net')}
+                                    {$product.old_price_net}
+                                {else}
+                                     {$product.old_price}
+                                {/if}
+                            </span>
+                        {/if}
+                    {/if}
+                    {if $show_price==1 && $product.check_price!=1  && $product.points_only!=1}
+                        {if $price_view=='net_gross'}
+                            <div>
+                                <span class="minor-price nowrap">({$product.price})</span>
+                                <span class="price nowrap">{$product.price_net}</span>
+                            </div>
+                        {elseif $price_view=='only_gross'}
+                            
+                            <span class="price nowrap">{$product.price}</span>
+
+                        {elseif $price_view=='only_net'}
+                            
+                            <span class="price nowrap">{$product.price_net}</span>
+
+                        {elseif $price_view=='gross_net'}
+                            <div>    
+                                <span class="minor-price nowrap">({$product.price_net})</span>
+                                <span class="price nowrap">{$product.price}</span>
+                            </div>
+                        {/if}
+                    {/if}
+                </div>
+            </div>
+       </div>
+    {/foreach} 
+</div>
+
+{literal}
+<script type="text/javascript">
+
+jQuery(function ($) {    
+    $(document).ready(function() {  
+        var images = $('#thumb-list .image img');
+        var cnt = images.length;
+
+        function loaded() {
+            cnt--;
+            if (cnt == 0) {
+                $('#thumb-list').masonry({
+                    itemSelector: '.item'
+                });
+            }
+        }
+
+        for (var i = 0; i < images.length; i++) {
+            var image = images[i];
+
+            if (image.complete || image.readyState === 4) {
+                loaded();
+            }
+            else {
+                var $image = $(image);
+                if (!$image.attr('src')) {
+                    loaded();
+                } else {
+                    $image.one("load", loaded);
+                }
+            }
+        }
+    });   
+});
+</script>
+{/literal}

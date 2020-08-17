@@ -1,0 +1,18 @@
+{if $isActive}
+    {if $show == true}
+        <li>
+            {$form}
+                {$type}
+                {$id}
+                {$price}
+                {$submit}
+            </form>
+        </li>
+    {else}
+        <li>
+            {if $isDisabled == false}
+                {__ text="Zakupy w systemie ratalnym LUKAS Raty dostępne są od 500zł do 10000zł wartości całego zamówienia."}
+            {/if}
+        </li>
+    {/if}
+{/if}

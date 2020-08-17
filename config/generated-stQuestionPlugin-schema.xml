@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stQuestionPlugin.lib.model" noXsd="true">
+
+  <table name="st_questions" phpName="Questions">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="item_id" type="INTEGER" />
+    <foreign-key foreignTable="st_product" onDelete="setnull">
+      <reference local="item_id" foreign="id" />
+    </foreign-key>
+    <column name="question_status_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_question_status" onDelete="restrict">
+      <reference local="question_status_id" foreign="id" />
+    </foreign-key>
+    <column name="email" type="VARCHAR" size="255" />
+    <column name="type" type="VARCHAR" size="20" />
+    <column name="item_name" type="VARCHAR" size="255" />
+    <column name="text" type="LONGVARCHAR" />
+    <column name="answer_text" type="LONGVARCHAR" />
+  </table>
+
+  <table name="st_question_status" phpName="QuestionStatus" isI18N="true" i18nTable="st_question_status_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="status_type" type="VARCHAR" size="255" />
+    <column name="is_default" type="BOOLEAN" />
+    <column name="is_system_default" type="BOOLEAN" />
+  </table>
+
+  <table name="st_question_status_i18n" phpName="QuestionStatusI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_question_status" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+  </table>
+
+</database>

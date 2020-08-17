@@ -1,0 +1,14 @@
+/home/jarek/src/soteshop/config
+/home/jarek/src/soteshop/config/schema-diff.yml
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib/SfOptimizedExtensionObjectBuilder.php
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib/SfOptimizedPeerBuilder.php
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib/SfOptimizedObjectBuilder.php
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib/SfOptimizedMultiExtendObjectBuilder.php
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib/SfOptimizedMapBuilderBuilder.php
+/home/jarek/src/soteshop/plugins/nahoPropelOptimizerPlugin/lib/SfOptimizedExtensionPeerBuilder.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stPropelOptimizerPlugin
+/home/jarek/src/soteshop/packages/stPropelOptimizerPlugin/package.yml

@@ -1,0 +1,4 @@
+{foreach key=row item=webpage from=$results}
+    {$webpage.link}
+    {if $webpage.count != $webpage.index}-{/if}
+{/foreach}

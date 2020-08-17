@@ -1,0 +1,404 @@
+<div id="order_form_billing">
+	
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">{__ text="Dane płatnika"} / {__ text="Zamówienie bez logowania"}</h3></div>
+        
+
+            <div id="panel-billing" class="panel-body">
+                
+                <div class="row">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="radio">
+                          <label>
+                            {$radio_billing_customer_type1}
+                            {$label_billing_customer_type1}
+                          </label>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="radio">                    
+                          <label>
+                            {$radio_billing_customer_type2}
+                            {$label_billing_customer_type2}
+                          </label>
+                        </div>
+                    </div>
+                </div>    
+                
+                <div id="company_billing_fields">
+                    <div class="form-group  {if $error_billing_company!=''}has-error{/if}">
+                        {if $error_billing_company!=""}<label class="control-label" for="company_billing">{$error_billing_company}</label>{/if}
+                        {$input_billing_company}
+                    </div>
+                    
+                    <div class="form-group  {if $error_billing_vat!=''}has-error{/if}">
+                        {if $error_billing_vat!=""}<label class="control-label" for="company_billing">{$error_billing_vat}</label>{/if}
+                        {$input_billing_nip}
+                    </div>
+                </div>
+                
+                <div class="form-group  {if $error_billing_full_name!=''}has-error{/if}">
+                    {if $error_billing_full_name!=""}<label class="control-label" for="full_name_billing">{$error_billing_full_name}</label>{/if}
+                    {$input_billing_full_name}
+                </div>
+                
+                <div class="form-group  {if $error_billing_address!=''}has-error{/if}">
+                    {if $error_billing_address!=""}<label class="control-label" for="address_billing">{$error_billing_address}</label>{/if}
+                    {$input_billing_address}
+                </div>
+                
+                {if $show_address_more==1}
+                <div class="form-group">
+                    {$input_billing_address_more}
+                </div>
+                {/if}
+                
+                {if $show_region==1}
+                <div class="form-group">
+                    {$input_billing_region}
+                </div>
+                {/if}
+                
+                <div class="row">
+                    
+                    <div class="col-sm-6 col-lg-4">
+                    <div class="form-group  {if $error_billing_code!=''}has-error{/if}">
+                        {if $error_billing_code!=""}<label class="control-label" for="code_billing">{$error_billing_code}</label>{/if}
+                        {$input_billing_code}
+                    </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-8">
+                    <div class="form-group  {if $error_billing_town!=''}has-error{/if}">
+                        {if $error_billing_town!=""}<label class="control-label" for="town_billing">{$error_billing_town}</label>{/if}
+                        {$input_billing_town}
+                    </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-group {if $error_billing_country!=''}has-error{/if}">     
+                    {if $error_billing_country!=""}<label class="control-label" for="country_billing">{$error_billing_country}</label>{/if}          
+                    {$select_billing_country}
+                </div>
+                
+                {if $show_pesel==1}
+                <div class="form-group">
+                    {$input_billing_pesel}
+                </div>
+                {/if}
+                
+                <div class="form-group  {if $error_billing_phone!=''}has-error{/if}">
+                    {if $error_billing_phone!=""}<label class="control-label" for="phone_billing">{$error_billing_phone}</label>{/if}
+                    {$input_billing_phone}
+                </div>
+                
+                <div class="form-group  {if $error_billing_email!=''}has-error{/if}">
+                    {if $error_billing_email!=""}<label class="control-label" for="email_billing">{$error_billing_email}</label>{/if}
+                    {$input_billing_email}
+                </div>             
+                
+                 <div class="checkbox">
+                    <label>
+                      {$checkbox_create_account} {__ text="Załóż konto"}
+                    </label>
+                 </div>
+                
+                <div id="account_fields">           
+                    <div class="form-group  {if $error_billing_password1!=''}has-error{/if}">
+                        {if $error_billing_password1!=""}<label class="control-label" for="password1_billing">{$error_billing_password1}</label>{/if}
+                        {$input_billing_password1}
+                    </div>             
+                    
+                    <div class="form-group  {if $error_billing_password2!=''}has-error{/if}">
+                        {if $error_billing_password2!=""}<label class="control-label" for="password2_billing">{$error_billing_password2}</label>{/if}
+                        {$input_billing_password2}
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label class="{if $error_billing_privacy==1}checkbox_error{/if}">
+                          {$checkbox_privacy} {$link_to_privacy}
+                        </label>
+                    </div>
+                </div>
+                
+                {if $show_invoice_request==1 && $auto_invoice_request!=1}
+                <div class="checkbox">
+                    <label>
+                      {$checkbox_invoice} {__ text="Chcę otrzymać fakturę vat"}
+                    </label>
+                </div>
+                {/if}
+                
+                <div class="checkbox">
+                    <label>
+                      {$checkbox_different_delivery} {__ text="Inne dane wysyłkowe"}
+                    </label>
+                </div>
+                
+                
+            </div>
+            
+        <div id="order_form_delivery" class="open panel panel-default">
+            
+        <div class="panel-heading"><h3 class="panel-title">{__ text="Dane wysyłkowe"}</h3></div>
+        
+        <div id="panel-delivery" class="panel-body">
+            
+            <div class="row">
+                <div class="col-sm-6 col-lg-6">
+                    <div class="radio">
+                      <label>
+                        {$radio_delivery_customer_type1}
+                        {$label_delivery_customer_type1}
+                      </label>
+                    </div>
+                </div>
+            
+                <div class="col-sm-6 col-lg-6">
+                    <div class="radio">
+                      <label>
+                        {$radio_delivery_customer_type2}
+                        {$label_delivery_customer_type2}
+                      </label>
+                    </div>
+                </div>
+            </div>
+                            
+            <div id="company_delivery_fields">
+            
+                <div class="form-group  {if $error_delivery_company!=''}has-error{/if}">
+                    {if $error_delivery_company!=""}<label class="control-label" for="company_delivery">{$error_delivery_company}</label>{/if}
+                    {$input_delivery_company}
+                </div>    
+                
+            </div>
+
+                <div class="form-group  {if $error_delivery_full_name!=''}has-error{/if}">
+                    {if $error_delivery_full_name!=""}<label class="control-label" for="full_name_delivery">{$error_delivery_full_name}</label>{/if}
+                    {$input_delivery_full_name}
+                </div>
+                
+                <div class="form-group  {if $error_delivery_address!=''}has-error{/if}">
+                    {if $error_delivery_address!=""}<label class="control-label" for="address_delivery">{$error_delivery_address}</label>{/if}
+                    {$input_delivery_address}
+                </div>
+                
+                {if $show_address_more==1}
+                <div class="form-group">
+                    {$input_delivery_address_more}
+                </div>
+                {/if}
+                
+                {if $show_region==1}
+                <div class="form-group">
+                    {$input_delivery_region}
+                </div>
+                {/if}
+                
+                <div class="row">
+                    
+                    <div class="col-sm-6 col-lg-4">
+       
+                        <div class="form-group  {if $error_delivery_code!=''}has-error{/if}">
+                            {if $error_delivery_code!=""}<label class="control-label" for="code_delivery">{$error_delivery_code}</label>{/if}
+                            {$input_delivery_code}
+                        </div>
+                        
+                    </div>   
+                    <div class="col-sm-6 col-lg-8">
+                        
+                        <div class="form-group  {if $error_delivery_town!=''}has-error{/if}">
+                            {if $error_delivery_town!=""}<label class="control-label" for="town_delivery">{$error_delivery_town}</label>{/if}
+                            {$input_delivery_town}
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group {if $error_delivery_country!=''}has-error{/if}">   
+                    {if $error_delivery_country!=""}<label class="control-label" for="country_delivery">{$error_delivery_country}</label>{/if}              
+                    {$select_delivery_country}
+                </div>
+                
+                {if $show_pesel==1}
+                <div class="form-group">
+                    {$input_delivery_pesel}
+                </div>
+                {/if}
+                
+                <div class="form-group  {if $error_delivery_phone!=''}has-error{/if}">
+                    {if $error_delivery_phone!=""}<label class="control-label" for="phone_delivery">{$error_delivery_phone}</label>{/if}
+                    {$input_delivery_phone}
+                </div>
+
+                
+        </div>
+        </div> 
+          
+        <div id="panel-order-form" class="panel-body">
+    
+            {$description}
+            
+            {$under_basket_socket}
+        
+            <div id="user_data_billing_terms_content" class="checkbox">
+                <label class="{if $error_billing_terms==1}checkbox_error{/if}">
+                  {$checkbox_terms} {$terms_shop_text}
+                </label>
+            </div>
+        
+    
+            {if isset($captcha_on)}     
+            <div id="captcha_form">
+                
+                {if $error_captcha!=""}<div class="has-error"><label class="control-label" for="captcha_img">{$error_captcha}</label></div>{/if}
+                <div class="clearfix"></div>
+                
+                <div class="captcha-img {if $error_captcha!=''}has-error{/if}">
+                    {$get_captcha}
+                </div>
+                
+                <div class="form-group captcha-input {if $error_captcha!=''}has-error{/if}">                    
+                    {$input_captcha}
+                </div>
+                
+                <div class="clearfix"></div>
+            </div>
+            {/if}       
+
+        </div>
+    
+    </div>
+   </div>
+
+{$hidden_is_authenticated}
+
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+	$(document).ready(function()
+	{
+
+		$("#password1_billing").pstrength();
+		
+		if($('#create_account').attr('checked'))
+		{
+			$("#account_fields").show();
+		}else{
+			$("#account_fields").hide();	
+		}
+ 	 
+		$('#create_account').click(function(){
+		$("#account_fields").toggle();
+		});
+		
+		if($('#different_delivery').attr('checked'))
+		{
+			$("#order_form_delivery").show();
+		}else{
+			$("#order_form_delivery").hide();	
+		}
+ 	 
+		$('#different_delivery').click(function(){
+		$("#order_form_delivery").toggle();
+		});
+		
+        var star_placeholder_billing = $("#full_name_billing").attr("placeholder");        
+        var no_star_placeholder_billing = star_placeholder_billing.substring(2);
+		
+		if($('#user_data_billing_customer_type_2').attr('checked'))
+		{
+			$("#company_billing_fields").show();
+			$("#full_name_billing").attr("placeholder", no_star_placeholder_billing);
+		}else{
+			$("#company_billing_fields").hide();	
+			$("#full_name_billing").attr("placeholder", star_placeholder_billing);
+		}
+ 	 
+ 	 	$('#user_data_billing_customer_type_1').click(function(){
+		$("#company_billing_fields").hide();
+		$("#full_name_billing").attr("placeholder", star_placeholder_billing);
+		});
+ 	 
+		$('#user_data_billing_customer_type_2').click(function(){
+		$("#company_billing_fields").show();
+		$("#full_name_billing").attr("placeholder", no_star_placeholder_billing);
+		});
+		
+        var star_placeholder_delivery = $("#full_name_delivery").attr("placeholder");        
+        var no_star_placeholder_delivery = star_placeholder_delivery.substring(2);
+		
+		if($('#user_data_delivery_customer_type_2').attr('checked'))
+		{
+			$("#company_delivery_fields").show();
+			$("#full_name_delivery").attr("placeholder", no_star_placeholder_delivery);
+		}else{
+			$("#company_delivery_fields").hide();	
+			$("#full_name_delivery").attr("placeholder", star_placeholder_delivery);
+		}
+ 	 
+ 	 	$('#user_data_delivery_customer_type_1').click(function(){
+		$("#company_delivery_fields").hide();
+		$("#full_name_delivery").attr("placeholder", star_placeholder_delivery);
+		});
+ 	 
+		$('#user_data_delivery_customer_type_2').click(function(){
+		$("#company_delivery_fields").show();
+		$("#full_name_delivery").attr("placeholder", no_star_placeholder_delivery);
+		});
+		
+		$('#user_data_billing_terms').click(function(){		 
+			$("#captcha_form").toggle();
+		});	
+	
+		if($('#user_data_billing_terms').attr('checked'))
+		{		    
+			$("#captcha_form").show()
+		}else{
+			$("#captcha_form").hide();
+		}
+		
+		 
+	 });
+
+    $('#user_data_billing_country').change(function() {
+      var option = $('#user_data_delivery_country > option:selected').get(0);
+
+      stUser.updateAnonymousForms(option.value, false);
+    });
+       
+    $('#user_data_delivery_country').change(function() {
+
+        $('#delivery-country')
+            .data('ignore-billing-update', true)
+            .val($(this).val())
+            .change();
+
+        var isSmoothScrollSupported = 'scrollBehavior' in document.documentElement.style;
+
+        var offset = $('#shopping-cart-delivery').offset();
+
+        var options = {
+            "behavior": "smooth",
+            "top": offset.top - 60
+        };
+
+        if (isSmoothScrollSupported) {
+            // Native smooth scrolling
+            window.scrollTo(options);
+        } else if (window.jQuery && jQuery.scrollTo) {
+            // jQuery scrollTo (you can change to you plugin/realization)
+            $('body').animate({ scrollTop: options.top }, 1000);
+        }
+    });
+    
+    $("#order_description_text").change(function () {
+        $("#order_description").val($("#order_description_text").val());
+    });
+});
+
+</script>
+{/literal}

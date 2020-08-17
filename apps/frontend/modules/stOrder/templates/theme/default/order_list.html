@@ -1,0 +1,20 @@
+<div id="st_application-st_basket-index" class="st_application">
+    <h1 class="st_title" style="height: 50px">
+        <div id="st_user-tag">
+            {$user_panel_icon}
+        </div>
+        {$my_account}
+        <span>/</span>
+        {__ text="Lista zamówień"}
+    </h1>
+    {$user_panel_menu}   
+    <div class="st_content" style="padding: 10px 100px"> 
+        {if isset($pager)}
+            {$pager_results}
+        {else}
+            <p style="text-align: center">
+                {__ text="Aktualnie nie posiadasz żadnych zamówień"}
+            </p>
+        {/if}
+    </div>
+</div>

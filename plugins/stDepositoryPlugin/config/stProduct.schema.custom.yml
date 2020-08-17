@@ -1,0 +1,8 @@
+propel:
+    st_product:
+        _attributes:    {phpName: Product}
+        stock: 
+          type:     DECIMAL
+          size:     8
+          scale:    2
+          default:  1

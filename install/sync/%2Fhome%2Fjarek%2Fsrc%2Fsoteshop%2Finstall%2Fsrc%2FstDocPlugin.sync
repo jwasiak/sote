@@ -1,0 +1,14 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stDocPlugin
+/home/jarek/src/soteshop/plugins/stDocPlugin/config
+/home/jarek/src/soteshop/plugins/stDocPlugin/config/config.php
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules/stDocBackend
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules/stDocBackend/actions
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules/stDocBackend/actions/actions.class.php
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules/stDocBackend/actions/components.class.php
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules/stDocBackend/templates
+/home/jarek/src/soteshop/plugins/stDocPlugin/modules/stDocBackend/templates/_showDocLink.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stDocPlugin
+/home/jarek/src/soteshop/packages/stDocPlugin/package.yml

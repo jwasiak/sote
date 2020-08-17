@@ -1,0 +1,10 @@
+<div class="form-group product-options-group">
+    <label class="col-sm-6 control-label" for="{$field_id}">{$field_label}</label>
+    <div class="col-sm-6">
+        <select class="st_product_options_select form-control" id="{$field_id}" name="{$field_name}">
+            {foreach key=id item=option from=$options}
+                <option {if $id==$selected}selected="selected"{/if} value="{$id}">{$option.label} {if $option.modify}({$option.modify}){/if}</option>
+            {/foreach}
+        </select>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+{set layout="one_column"}
+
+<div id="newsletter-unsubscribe" >
+
+    <div class="title">
+        <h1>{__ text="Newsletter"}</h1>
+    </div>
+
+        <div class="panel panel-default center-block">
+            <div class="panel-heading">
+                {__ text="Prośba o wypisanie z listy"}
+            </div>
+            <div class="panel-body">
+                
+            <form action="{$form.action}" method="post" >
+                   
+                <div class="form-group  {if $form.errors.email!=''}has-error{/if}">
+                    {if $form.errors.email!=''}
+                    <label for="newsletter_email" class="control-label">{$form.errors.email}</label>
+                    {/if}
+                    <input type="text" name="newsletter[email]" value="{$form.email}" id="newsletter_email" class="form-control"   maxlength="255" placeholder="{__ text='Adres e-mail'}" />
+                </div>
+
+                <div id="captcha_form">
+                    <div class="form-group {if $form.errors.captcha!=''}has-error{/if}">
+                     
+                        <div style="margin-bottom: 2px;">
+                            {$form.captcha}
+                        </div>
+                        
+                        {if $form.errors.captcha!=''}
+                            <label for="captcha_img" class="control-label">{$form.errors.captcha}</label>
+                        {/if}
+                        
+                        <input type="text" name="newsletter[captcha]" id="captcha_img" class="form-control" maxlength="255" placeholder="{__ text='Cyfry z obrazka'}" />
+                        
+                    </div>
+                </div>
+              
+                <button type="submit" class="btn btn-primary" >
+                    {__ text="Wyślij"}
+                </button>
+    
+            </form>
+            </div>
+        </div>
+</div>

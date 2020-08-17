@@ -1,0 +1,1 @@
+<?php echo checkbox_tag('lukas_product[disable]', 1, $lukas_product->getDisable());

@@ -1,0 +1,51 @@
+<div id="thumb-list" class="row">
+    {foreach key=row item=product from=$results}
+       <div class="product col-xs-4 col-sm-3 col-md-2 col-lg-2">
+            <div class="thumbnail">
+                <div data-equalizer-watch="image">
+                    <span class="name">{$product.name}</span>
+                    <div class="image">
+                        {$product.photo}
+                    </div>
+                </div>
+                <div class="thumbnail-price" data-equalizer-watch="price">
+                    {if $show_discount==1 && $product.discount!=0 && $product.check_price!=1}
+                        <div class="discount">{__ text="Rabat"}:<span>{$product.discount} %</span></div>
+                    {elseif ($show_old_price==1 && $product.check_price!=1)}  
+                        {if $product.check_old_price==1}
+                            <span class="old_price nowrap">
+                                {if ($price_view=='net_gross' || $price_view=='only_net')}
+                                    {$product.old_price_net}
+                                {else}
+                                     {$product.old_price}
+                                {/if}
+                            </span>
+                        {/if}
+                    {/if}
+                    {if $show_price==1 && $product.check_price!=1}
+                        {if $price_view=='net_gross'}
+                            <div>
+                                <span class="minor-price nowrap">({$product.price})</span>
+                                <span class="price nowrap">{$product.price_net}</span>
+                            </div>
+                        {elseif $price_view=='only_gross'}
+                            
+                            <span class="price nowrap">{$product.price}</span>
+
+                        {elseif $price_view=='only_net'}
+                            
+                            <span class="price nowrap">{$product.price_net}</span>
+
+                        {elseif $price_view=='gross_net'}
+                            <div>    
+                                <span class="minor-price nowrap">({$product.price_net})</span>
+                                <span class="price nowrap">{$product.price}</span>
+                            </div>
+                        {/if}
+                    {/if}
+                </div>
+            </div>
+       </div>
+    {/foreach} 
+    <div class="clearfix"></div>
+</div>

@@ -1,0 +1,153 @@
+list:
+  menu:
+    display:                        [options_templates, options_filters]
+    fields: 
+      options_templates:            {name: Szablony opcji, action: stProduct/optionsTemplatesList}
+      options_filters:              {name: Filtry opcji, action: stProduct/optionsFiltersList}
+edit:
+  menu:
+    display:                        [options]
+    fields:
+      options:                      {name: Opcje produktu, action: stProduct/optionsEdit?id=%%id%%}
+
+config:
+  display:
+      "Opcje produktu":             [hide_options_with_empty_stock, product_options_filters_enabled, filter_narrow, show_colors_on_list, show_color_names, _nb_colors_on_list]
+  fields:
+    hide_options_with_empty_stock:    {name: Ukrywaj opcje których stan magazynowy jest równy 0, type: checkbox}
+    filter_narrow:                    {name: Wyłącz zawężanie filtrów, help: Opcja ta przyspieszy działanie sklepu, type: checkbox}
+    product_options_filters_enabled:  {name: Włącz filtry, help: Pokazuje filtry opcji na liście produktów, type: checkbox, i18n: stProductOptionsBackend}
+    show_colors_on_list:              {name: Wyświetlaj kolory na listach, type: checkbox, i18n: stProductOptionsBackend, help: Wyświetla dostępne kolory produktu na liście pełnej}
+    show_color_names:                 {name: Wyświetlaj nazwy kolorów na karcie produktu, type: checkbox, i18n: stProductOptionsBackend}
+    nb_colors_on_list:                {name: Ogranicz liczbę kolorów do, i18n: stProductOptionsBackend, help: "Ograniczenie dotyczy listy pełnej, 0 - bez ograniczeń"}
+custom_actions:
+  list:     [options_filters, options_templates, options_stock]
+  edit:     [options_filters, options_templates, options]
+  
+options_templates_model_class: ProductOptionsTemplate
+options_filters_model_class: ProductOptionsFilter
+options_model_class: Product
+options_stock_model_class: ProductOptionsValue
+  
+options_templates_list:
+  peer_method:          doSelect
+  menu:
+    use:  list.menu
+  display:              [id, =name]
+  empty_message:        Nie ma zdefiniowanych szablonów.
+  description:          Zarządzanie szablonami opcji.
+  title:                Szablony opcji
+  fields:
+    id:                 {name: Id}
+    name:               {name: Nazwa, params: size=50}
+  actions:
+    _list:              {name: Wróć do opcji produktu, action: optionsEdit}  
+    _create:            {name: Dodaj}
+  object_actions:
+    _edit:          -
+    _delete:        - 
+
+options_filters_list:
+  peer_method:          doSelect
+  menu:
+    use:                list.menu
+  display:              [id, =name, _list_filter_type]
+  empty_message:        Nie ma zdefiniowanych filtrów.
+  description:          Zarządzanie filtrami opcji.
+  title:                Filtry opcji
+  fields:
+    id:                 {name: Id}
+    name:               {name: Nazwa, params: size=50}
+    list_filter_type:   {name: Typ filtra}
+  actions:
+    _create:            {name: Dodaj}
+  object_actions:
+    _edit:          -
+    _delete:        - 
+
+options_filters_edit:
+  description:          Zdefiniuj filtr opcji.
+  title:                Edycja filtru %%name%%
+  menu:             
+    use:                list.menu 
+  display:              [name, _filter_type, is_visible]
+  fields:
+    name:               { name: Nazwa filtra, params: disabled=false size=40 }
+    filter_type:        { name: Typ filtra }
+    is_visible:         { name: Pokaż w filtrach, i18n: stProductOptionsBackend }
+  actions:
+    _list:              {name: Lista}
+    _save:              {name: Zapisz}
+
+
+options_templates_edit:
+  description:          Zdefiniuj szablon opcji i przypisz go do wybranych produktów.
+  title:                Edycja szablonu %%name%%
+  menu:             
+    use:                list.menu 
+  display:              
+    "Szablon":          [name]
+    "Opcje szablonu":   []
+  fields:
+    name:               {name: Nazwa szablonu}
+  actions:
+    _list:              {name: Lista}
+    _save:              {name: Zapisz}
+
+
+
+    
+options_edit:
+  menu:                 
+    use: edit.menu
+  forward_parameters:           [id]
+  build_options:
+      related_id:               forward_parameters.id
+  display:
+    "Użyj szablonu":            [~use_options_template]
+    "Opcje produktu":           []
+  fields:
+    use_options_template:       {name: Użyj szablonu opcji}
+  description:                  Ustal opcje produktu i relacje między nimi.
+  title:                        Edycja opcji produktu %%name%%
+  actions:                      {}
+  
+options_stock_list:
+  peer_count_method:            doCountLeafsJoinProduct
+  peer_method:                  doSelectLeafsJoinProduct
+  description:                  Ustal stan magazynowy dla każdej opcji produktu z osobna.
+  title:                        Edycja stanu magazynowego produktu
+  use_javascript:               [/stProductOptionsPlugin/js/stProductOptionsStockBackend.js]
+  menu:
+    use: edit.menu
+  forward_parameters:           [id]
+  build_options:
+    related_id:                 forward_parameters.id
+  display:                      [_value, _stock]
+  editable:
+    stock:                      -
+  fields:
+    value:                      {name: Opcje, module: stProductOptionsStockBackend}
+    stock:                      {name: Stan magazynowy, module: stProductOptionsStockBackend}
+  actions:                      []
+  object_actions:
+    _asc:                       -
+    _desc:                      -
+    _delete:                    -
+  select_actions:               -
+  max_per_page:                 20
+  filters:
+    value:                      {filter_field: product_options_value_i18n.value}
+    
+depository_list:
+  display:                      [_depository_stock_options]
+  fields:
+    depository_stock_options:   {name: Stan magazynowy opcji, params: link_to="stProduct/optionsStockList?id=%%id%%"}
+
+export:
+    fields:             
+        product_options:        { name: Opcje_produktu, class: stProductOptionsImportExport, md5hash: true }
+
+import:
+    fields:             
+        product_options:        { class: stProductOptionsImportExport, md5hash: true }

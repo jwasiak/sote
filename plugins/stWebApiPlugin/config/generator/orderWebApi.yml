@@ -1,0 +1,419 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+webapi:
+    fields:
+        id:                                         {type: integer}
+        number:                                     {type: string}
+        sf_guard_user_id:                           {type: integer}
+        user_name:                                  {type: string}
+        user_id:                                    {type: integer}
+        client_email:                               {type: string, custom: true}
+        order_status_id:                            {type: integer}
+        is_confirmed:                               {type: integer}
+        has_allegro_smart_delivery:                 {type: integer, custom: true}
+        description:                                {type: string}
+        merchant_notes:                             {type: string}
+        order_user_data_delivery_country:           {type: string, custom: true}
+        order_user_data_delivery_name:              {type: string, custom: true}
+        order_user_data_delivery_surname:           {type: string, custom: true}
+        order_user_data_delivery_street:            {type: string, custom: true}
+        order_user_data_delivery_house:             {type: string, custom: true}
+        order_user_data_delivery_flat:              {type: string, custom: true}
+        order_user_data_delivery_code:              {type: string, custom: true}
+        order_user_data_delivery_town:              {type: string, custom: true}
+        order_user_data_delivery_phone:             {type: string, custom: true}
+        order_user_data_delivery_company:           {type: string, custom: true}
+        order_user_data_delivery_vat_number:        {type: string, custom: true}
+        order_user_data_billing_country:            {type: string, custom: true}
+        order_user_data_billing_name:               {type: string, custom: true}
+        order_user_data_billing_surname:            {type: string, custom: true}
+        order_user_data_billing_street:             {type: string, custom: true}
+        order_user_data_billing_house:              {type: string, custom: true}
+        order_user_data_billing_flat:               {type: string, custom: true}
+        order_user_data_billing_code:               {type: string, custom: true}
+        order_user_data_billing_town:               {type: string, custom: true}
+        order_user_data_billing_phone:              {type: string, custom: true}
+        order_user_data_billing_company:            {type: string, custom: true}
+        order_user_data_billing_vat_number:         {type: string, custom: true}
+        order_user_data_billing_address:            {type: string, custom: true}
+        order_user_data_billing_address_more:       {type: string, custom: true}
+        order_user_data_delivery_address:           {type: string, custom: true}
+        order_user_data_delivery_address_more:      {type: string, custom: true}
+        order_user_data_delivery_full_name:         {type: string, custom: true}
+        order_user_data_billing_full_name:          {type: string, custom: true}
+        order_delivery_name:                        {type: string, custom: true}
+        order_delivery_cost:                        {type: double, custom: true}
+        order_delivery_tax:                         {type: double, custom: true}
+        order_delivery_number:                      {type: string, custom: true}
+        order_delivery_inpost:                      {type: string, custom: true}
+        order_delivery_pickup_point:                {type: string, custom: true}
+        order_delivery_type:                        {type: string, custom: true}
+        order_currency_name:                        {type: string, custom: true}
+        order_currency_exchange:                    {type: double, custom: true}
+        order_currency_shortcut:                    {type: string, custom: true}
+        total_amount:                               {type: double, custom: true}
+        order_discount_value:                       {type: double, custom: true}
+        order_discount_type:                        {type: string, custom: true}
+        discount_amount:                            {type: double, custom: true}
+        discount_type:                              {type: string, custom: true}
+        order_allegro_auction_id:                   {type: string, custom: true}
+        order_allegro_delivery_method_id:           {type: string, custom: true}
+        order_allegro_checkout_form_id:             {type: string, custom: true}
+        client_request_invoice:                     {type: integer}
+
+    types:
+        OrderProductSetType:
+            fields:
+                id:             { type: integer, required: true }
+                code:           { type: string, required: true }
+                name:           { type: string, required: true }
+                price:          { type: double, required: true }
+                price_brutto:   { type: double, required: true }
+        OrderProductSetTypeArray:
+            arrayType:          OrderProductSetType
+
+    methods:    
+        GetOrderList:
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        
+                    - created_at
+                    - updated_at
+                    - id
+                    - number
+                    - is_confirmed
+                    - has_allegro_smart_delivery
+                    - client_request_invoice
+                    - client_email
+                    - sf_guard_user_id
+                    - order_status_id
+                    - order_allegro_auction_id
+                    - order_allegro_delivery_method_id
+                    - order_allegro_checkout_form_id
+                    - description
+                    - order_discount_value
+                    - order_discount_type
+                    - total_amount
+                    - order_user_data_delivery_country
+                    - order_user_data_delivery_name
+                    - order_user_data_delivery_surname
+                    - order_user_data_delivery_street
+                    - order_user_data_delivery_house
+                    - order_user_data_delivery_flat
+                    - order_user_data_delivery_code
+                    - order_user_data_delivery_town
+                    - order_user_data_delivery_phone
+                    - order_user_data_delivery_company
+                    - order_user_data_delivery_vat_number
+                    - order_user_data_billing_country
+                    - order_user_data_billing_name
+                    - order_user_data_billing_surname
+                    - order_user_data_billing_street
+                    - order_user_data_billing_house
+                    - order_user_data_billing_flat
+                    - order_user_data_billing_code
+                    - order_user_data_billing_town
+                    - order_user_data_billing_phone
+                    - order_user_data_billing_company
+                    - order_user_data_billing_vat_number
+                    - order_delivery_name
+                    - order_delivery_type
+                    - order_delivery_cost
+                    - order_delivery_tax
+                    - order_delivery_number
+                    - order_delivery_inpost
+                    - order_delivery_pickup_point
+                    - order_currency_name
+                    - order_currency_exchange
+                    - order_currency_shortcut
+                    - order_user_data_billing_address
+                    - order_user_data_billing_address_more
+                    - order_user_data_delivery_address
+                    - order_user_data_delivery_address_more
+                    - order_user_data_delivery_full_name
+                    - order_user_data_billing_full_name
+                    - merchant_notes
+
+        GetOrderListByUser:
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [user_id, user_name, _offset, _limit, _modified_from, _modified_to]
+                out:        
+                    - created_at
+                    - updated_at
+                    - id
+                    - number
+                    - is_confirmed
+                    - has_allegro_smart_delivery
+                    - client_request_invoice
+                    - client_email
+                    - sf_guard_user_id
+                    - order_status_id
+                    - order_allegro_auction_id
+                    - order_allegro_delivery_method_id
+                    - order_allegro_checkout_form_id
+                    - description
+                    - order_discount_value
+                    - order_discount_type
+                    - total_amount
+                    - order_user_data_delivery_country
+                    - order_user_data_delivery_name
+                    - order_user_data_delivery_surname
+                    - order_user_data_delivery_street
+                    - order_user_data_delivery_house
+                    - order_user_data_delivery_flat
+                    - order_user_data_delivery_code
+                    - order_user_data_delivery_town
+                    - order_user_data_delivery_phone
+                    - order_user_data_delivery_company
+                    - order_user_data_delivery_vat_number
+                    - order_user_data_billing_country
+                    - order_user_data_billing_name
+                    - order_user_data_billing_surname
+                    - order_user_data_billing_street
+                    - order_user_data_billing_house
+                    - order_user_data_billing_flat
+                    - order_user_data_billing_code
+                    - order_user_data_billing_town
+                    - order_user_data_billing_phone
+                    - order_user_data_billing_company
+                    - order_user_data_billing_vat_number
+                    - order_delivery_name
+                    - order_delivery_type
+                    - order_delivery_cost
+                    - order_delivery_tax
+                    - order_delivery_number
+                    - order_delivery_inpost
+                    - order_delivery_pickup_point
+                    - order_currency_name
+                    - order_currency_exchange
+                    - order_currency_shortcut
+                    - order_user_data_billing_address
+                    - order_user_data_billing_address_more
+                    - order_user_data_delivery_address
+                    - order_user_data_delivery_address_more
+                    - order_user_data_delivery_full_name
+                    - order_user_data_billing_full_name
+                    - merchant_notes
+
+        GetOrder:
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id]
+                out:        
+                    - created_at
+                    - updated_at
+                    - id
+                    - number
+                    - is_confirmed
+                    - has_allegro_smart_delivery
+                    - client_request_invoice
+                    - client_email
+                    - sf_guard_user_id
+                    - order_status_id
+                    - order_allegro_auction_id
+                    - order_allegro_delivery_method_id
+                    - order_allegro_checkout_form_id
+                    - description
+                    - order_discount_value
+                    - order_discount_type
+                    - total_amount
+                    - order_user_data_delivery_country
+                    - order_user_data_delivery_name
+                    - order_user_data_delivery_surname
+                    - order_user_data_delivery_street
+                    - order_user_data_delivery_house
+                    - order_user_data_delivery_flat
+                    - order_user_data_delivery_code
+                    - order_user_data_delivery_town
+                    - order_user_data_delivery_phone
+                    - order_user_data_delivery_company
+                    - order_user_data_delivery_vat_number
+                    - order_user_data_billing_country
+                    - order_user_data_billing_name
+                    - order_user_data_billing_surname
+                    - order_user_data_billing_street
+                    - order_user_data_billing_house
+                    - order_user_data_billing_flat
+                    - order_user_data_billing_code
+                    - order_user_data_billing_town
+                    - order_user_data_billing_phone
+                    - order_user_data_billing_company
+                    - order_user_data_billing_vat_number
+                    - order_delivery_name
+                    - order_delivery_type
+                    - order_delivery_cost
+                    - order_delivery_tax
+                    - order_delivery_number
+                    - order_delivery_inpost
+                    - order_delivery_pickup_point
+                    - order_currency_name
+                    - order_currency_exchange
+                    - order_currency_shortcut
+                    - order_user_data_billing_address
+                    - order_user_data_billing_address_more
+                    - order_user_data_delivery_address
+                    - order_user_data_delivery_address_more
+                    - order_user_data_delivery_full_name
+                    - order_user_data_billing_full_name
+                    - merchant_notes
+
+        GetOrderByNumber:
+            type:           get
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=number]
+                out:        
+                    - created_at
+                    - updated_at
+                    - id
+                    - number
+                    - is_confirmed
+                    - has_allegro_smart_delivery
+                    - client_request_invoice
+                    - client_email
+                    - sf_guard_user_id
+                    - order_status_id
+                    - order_allegro_auction_id
+                    - order_allegro_delivery_method_id
+                    - order_allegro_checkout_form_id
+                    - description
+                    - order_discount_value
+                    - order_discount_type
+                    - total_amount
+                    - order_user_data_delivery_country
+                    - order_user_data_delivery_name
+                    - order_user_data_delivery_surname
+                    - order_user_data_delivery_street
+                    - order_user_data_delivery_house
+                    - order_user_data_delivery_flat
+                    - order_user_data_delivery_code
+                    - order_user_data_delivery_town
+                    - order_user_data_delivery_phone
+                    - order_user_data_delivery_company
+                    - order_user_data_delivery_vat_number
+                    - order_user_data_billing_country
+                    - order_user_data_billing_name
+                    - order_user_data_billing_surname
+                    - order_user_data_billing_street
+                    - order_user_data_billing_house
+                    - order_user_data_billing_flat
+                    - order_user_data_billing_code
+                    - order_user_data_billing_town
+                    - order_user_data_billing_phone
+                    - order_user_data_billing_company
+                    - order_user_data_billing_vat_number
+                    - order_delivery_name
+                    - order_delivery_type
+                    - order_delivery_cost
+                    - order_delivery_tax
+                    - order_delivery_number
+                    - order_delivery_inpost
+                    - order_delivery_pickup_point
+                    - order_currency_name
+                    - order_currency_exchange
+                    - order_currency_shortcut
+                    - order_user_data_billing_address
+                    - order_user_data_billing_address_more
+                    - order_user_data_delivery_address
+                    - order_user_data_delivery_address_more
+                    - order_user_data_delivery_full_name
+                    - order_user_data_billing_full_name
+                    - merchant_notes
+
+        GetOrderCount:
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [_modified_from, _modified_to]
+                out:        [_count]
+        GetOrderPayment:
+            peer:           OrderHasPayment
+            custom_fields:
+                order_id:               {type: integer}
+                amount:                 {type: double}
+                status:                 {type: integer}
+                cancel:                 {type: integer}
+                payed_at:               {type: dateTime}
+                payment_opt_name:       {type: string, custom: true}
+                transaction_id:         {type: string}
+                allegro_payment_type:   {type: string}
+            type:           get
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [=order_id]
+                out:        [created_at, updated_at, id, amount, status, cancel, payed_at, payment_opt_name, transaction_id, allegro_payment_type]
+        GetOrderProductCount:
+            peer:           OrderProduct
+            custom_fields:
+                order_id:   {type: integer}
+            type:           count
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=order_id, _modified_from, _modified_to]
+                out:        [_count]
+        GetOrderProductList:
+            peer:           OrderProduct
+            custom_fields:
+                order_id:   {type: integer}
+                code:       {type: string}
+                name:       {type: string}
+                vat:        {type: double}
+                price:      {type: double}
+                price_brutto: {type: double}
+                quantity:   {type: double}
+                product_id: {type: integer}
+                discount_in_percent: {type: double}
+                options:    {type: string, custom: true}
+                points_value:   {type: integer}
+                points_earn:    {type: integer}
+                product_for_points: {type: integer}
+                allegro_offer_id: {type: string, custom: true}
+                set:        {type: OrderProductSetTypeArray}
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, =order_id, _modified_from, _modified_to]
+                out:        [created_at, updated_at, id, product_id, code, name, price, price_brutto, vat, quantity, discount_in_percent, discount_amount, discount_type, options, points_value, points_earn, product_for_points, allegro_offer_id, set]
+        GetOrderStatusList:
+            peer:           OrderStatus
+            custom_fields:
+               opt_name:    {type: string}
+               type:        {type: string}
+            type:           list
+            inOutTypes:     {in: object, out: array}
+            fields:
+                in:         [_offset, _limit, _modified_from, _modified_to]
+                out:        [created_at, updated_at, id, opt_name, type]
+        SetOrderPaymentStatus:
+            peer:           OrderHasPayment
+            custom_fields:
+                order_id:   {type: integer}
+                status:     {type: integer}
+                cancel:     {type: integer}
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=order_id, status, cancel]
+                out:        [_update]
+        UpdateOrder:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, merchant_notes, order_delivery_number]
+                out:        [_update]
+        UpdateOrderStatus:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, =order_status_id]
+                out:        [_update]
+        UpdateOrderDeliveryNumber:
+            type:           update
+            inOutTypes:     {in: object, out: object}
+            fields:
+                in:         [=id, =order_delivery_number]
+                out:        [_update]

@@ -1,0 +1,7 @@
+all:
+    .layout:
+        name:     layout1
+        container_left:
+            display:  [stProduct.specialForCategory]
+        container_right:
+            display:  []

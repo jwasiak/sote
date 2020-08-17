@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Bon zakupowy</source>
+                <target>Gift card</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Wprowadź kod</source>
+                <target>Enter Code</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Aktywuj</source>
+                <target>Activate</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source><![CDATA[Bon o kodzie <b>%%code%%</b> nie istnieje]]></source>
+                <target><![CDATA[The given gift card's code <b>%%code%%</b> does not exist]]></target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source><![CDATA[Bon o kodzie <b>%%code%%</b> jest już aktywny]]></source>
+                <target><![CDATA[The given gift card's code <b>%%code%%</b> is already active]]></target>
+            </trans-unit>
+             <trans-unit id="6">
+                <source>Bon o podanym kodzie jest nieważny</source>
+                <target>The given gift card code has expired</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source><![CDATA[Bonem o kodzie <b>%%code%%</b> można płacić wyłącznie w walucie %currency%]]></source>
+                <target><![CDATA[You can pay with the given gift card's code <b>%%code%%</b> only in the currency %currency%]]></target>
+            </trans-unit>
+             <trans-unit id="8">
+                <source>Usuń bon</source>
+                <target>Delete the gift card</target>
+            </trans-unit>
+             <trans-unit id="9">
+                <source>Musisz złożyć zamówienie za minimum %%amount%%</source>
+                <target>You need to place an order for a minimum of %%amount%%</target>
+            </trans-unit>
+             <trans-unit id="10">
+                <source>Wprowadź kod bonu</source>
+                <target>Enter gift card code</target>
+            </trans-unit>
+             <trans-unit id="11">
+                <source>Bon nie może być zrealizowany z produktami znajdującymi się w koszyku</source>
+                <target>The gift card can not be used with products in the shopping cart</target>
+            </trans-unit>
+             <trans-unit id="12">
+                <source>Usuń produkt z koszyka, aby zrealizować zamówienie z aktualnym bonem zakupowym</source>
+                <target>Remove the product from the shopping cart to complete the order with the current gift card code</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>
+
+
+
+

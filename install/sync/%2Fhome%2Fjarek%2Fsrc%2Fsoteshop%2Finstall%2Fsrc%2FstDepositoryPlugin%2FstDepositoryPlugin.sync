@@ -1,0 +1,17 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend/templates
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend/templates/theme
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend/templates/theme/default
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend/templates/theme/default/depository.html
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend/templates/theme/default2
+/home/jarek/src/soteshop/plugins/stDepositoryPlugin/modules/stDepositoryFrontend/templates/theme/default2/depository.html
+/home/jarek/src/soteshop/apps
+/home/jarek/src/soteshop/apps/backend
+/home/jarek/src/soteshop/apps/backend/i18n
+/home/jarek/src/soteshop/apps/backend/i18n/stDepositoryBackend.en.xml
+/home/jarek/src/soteshop/apps/frontend
+/home/jarek/src/soteshop/apps/frontend/i18n
+/home/jarek/src/soteshop/apps/frontend/i18n/stDepositoryFrontend.en.xml

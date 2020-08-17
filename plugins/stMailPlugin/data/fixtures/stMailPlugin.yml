@@ -1,0 +1,227 @@
+---
+MailSmtpProfile: 
+  MailSmtpProfile_1: 
+    name: onet.pl
+    host: smtp.poczta.onet.pl
+    port: 25
+    enc_type: 8
+  MailSmtpProfile_2: 
+    name: wp.pl
+    host: smtp.wp.pl
+    port: 587
+    enc_type: 8
+  MailSmtpProfile_3: 
+    name: interia.pl
+    host: poczta.interia.pl
+    port: 587
+    enc_type: 8
+  MailSmtpProfile_4: 
+    name: tlen.pl
+    host: poczta.o2.pl
+    port: 25
+    enc_type: 8
+  MailSmtpProfile_5: 
+    name: sote.pl
+    host: mail.sote.pl
+    port: 587
+    enc_type: 8
+MailDescription: 
+  MailDescription_1:
+    culture: pl_PL
+    system_name: header
+    name: Uniwerslany nagłówek
+    description: 
+    is_active: 0
+  MailDescription_2:
+    culture: pl_PL
+    system_name: footer
+    name: Uniwersalna stopka
+    description: 
+    is_active: 0
+  MailDescription_3: 
+    culture: pl_PL
+    system_name: top_user_new
+    name: >
+      Klient - założenie nowego konta -
+      góra
+    description: >
+      Twoje konto w sklepie zostało
+      założone. Poniżej zamieszczono dane
+      dostępu do konta, wykorzystaj je aby
+      zalogować się do konta klienckiego.
+    is_active: 1
+  MailDescription_4:
+    culture: pl_PL
+    system_name: bottom_user_new
+    name: >
+      Klient - założenie nowego konta -
+      dół
+    description: >
+      <span style='color: #ff0000;'>Twoje konto w sklepie nie będzie aktywne do czasu aż nie potwierdzisz rejestracji.</span><br /><br/>Zapraszamy do zapoznania się z pełną ofertą naszego sklepu.
+    is_active: 1
+  MailDescription_5:
+    culture: pl_PL
+    system_name: top_user_remaind
+    name: Klient - przypomnienie hasła - góra
+    description: 
+    is_active: 0
+  MailDescription_6:
+    culture: pl_PL
+    system_name: bottom_user_remaind
+    name: Klient - przypomnienie hasła - dół
+    description: >
+      Jeżeli chcesz ustawić swoje hasło
+      zaloguj się do panelu klienta
+      sklepu.<br />
+    is_active: 1
+  MailDescription_7:
+    culture: pl_PL
+    system_name: top_order_confirm
+    name: Zamówienie - dane zamówienia - góra
+    description: >
+      Dziękujemy za złożenie
+      zam&oacute;wienia.<br />
+    is_active: 1
+  MailDescription_8:
+    culture: pl_PL
+    system_name: bottom_order_confirm
+    name: Zamówienie - dane zamówienia - dół
+    description: >
+      Bardzo dziękujemy za dokonanie
+      zakup&oacute;w w naszym sklepie.
+      Państwa zam&oacute;wienie zostanie
+      możliwie szybko zrealizowane.<br />
+    is_active: 1
+  MailDescription_9:
+    culture: pl_PL
+    system_name: top_order_status
+    name: Zamówienie - zmiana statusu - góra
+    description: >
+      Zamówienie złożone w sklepie
+      zmieniło swój status. Aktualny status
+      Twojego zamówienia: {ORDER_STATUS}
+    is_active: 1
+  MailDescription_10:
+    culture: pl_PL
+    system_name: bottom_order_status
+    name: Zamówienie - zmiana statusu - dół
+    description: 
+    is_active: 0
+  MailDescription_11:
+    culture: pl_PL
+    system_name: top_partner_confirm
+    name: Partner - weryfikacja danych - góra
+    description: 
+    is_active: 0
+  MailDescription_12:
+    culture: pl_PL
+    system_name: bottom_partner_confirm
+    name: Partner - weryfikacja danych - dół
+    description: 
+    is_active: 0
+  MailDescription_13:
+    culture: pl_PL
+    system_name: top_question_answer
+    name: Zapytanie - odpowiedź - góra
+    description: >
+      Drogi {USER},<br /><br /> Dziękujemy za odwiedzenie sklepu {SHOP}.<br /><br />W odpowiedzi na zapytanie o produkt:<br /><br />
+    is_active: 0
+  MailDescription_14:
+    culture: pl_PL
+    system_name: bottom_question_answer
+    name: Zapytanie - odpowiedź - dół
+    description: >
+      <div style='margin-top: 20px; font-size: 12px'>Mamy nadzieję, że informacja na temat produktu {PRODUCT} okazała się przydatna.<br /><br />Zapraszamy do odwiedzania sklepu {SHOP}</div>
+    is_active: 0
+  MailDescription_15:
+    culture: pl_PL
+    system_name: admin_confirm_user
+    name: Klient - weryfikacja danych
+    description: >
+      Witam,<br />twoje dane zostały zweryfikowane, od tej chwili twoje konto zyskało pełne uprawnienia do korzystania z naszego sklepu.<br /><br />Zapraszamy do zakupów.
+    is_active: 1
+MailDescriptionI18n:
+  MailDescriptionI18n_1:
+    id: MailDescription_1
+    culture: en_US
+    description:
+    name: Universal header
+  MailDescriptionI18n_2:
+    id: MailDescription_2
+    culture: en_US
+    description:
+    name: Universal footer
+  MailDescriptionI18n_3:
+    id: MailDescription_3
+    culture: en_US
+    description: >
+      Your account in the store was created. There are acount access data placed below, use them to log into the client account.
+    name: Customer - new account - header
+  MailDescriptionI18n_4:
+    id: MailDescription_4
+    culture: en_US
+    description: >
+      <span style='color: #ff0000;'>Your account in the store won't be active until you confirm the registration.</span><br /><br/>We invite you to get to know the full offer of our store.
+    name: Customer - new account - footer
+  MailDescriptionI18n_5:
+    id: MailDescription_5
+    culture: en_US
+    description:
+    name: Customer - password remind - header
+  MailDescriptionI18n_6:
+    id: MailDescription_6
+    culture: en_US
+    description: >
+      If you want to set your password up log into customer's panel.<br />
+    name: Customer - password remind - footer
+  MailDescriptionI18n_7:
+    id: MailDescription_7
+    culture: en_US
+    description: >
+      Thank you for placing your order.<br />
+    name: Order - order data - header
+  MailDescriptionI18n_8:
+    id: MailDescription_8
+    culture: en_US
+    description: >
+      Thank you a lot for doing the shopping in our store. Your order will be fulfilled as soon as possible.<br />
+    name: Order - order data - footer
+  MailDescriptionI18n_9:
+    id: MailDescription_9
+    culture: en_US
+    description: >
+      The order placed in the shop changed its status. Current status of your order: {ORDER_STATUS}
+    name: Order - status change - header
+  MailDescriptionI18n_10:
+    id: MailDescription_10
+    culture: en_US
+    description:
+    name: Order - status change - footer
+  MailDescriptionI18n_11:
+    id: MailDescription_11
+    culture: en_US
+    description:
+    name: Partner - verify data - header
+  MailDescriptionI18n_12:
+    id: MailDescription_12
+    culture: en_US
+    description:
+    name: Partner - verify data - footer
+  MailDescriptionI18n_13:
+    id: MailDescription_13
+    culture: en_US
+    description: >
+      Dear {USER},<br /><br />Thank you for visiting the shop {SHOP}.<br /><br />In the response to the inquiry about the product:<br /><br />
+    name: Inquiry - the answer - header
+  MailDescriptionI18n_14:
+    id: MailDescription_14
+    culture: en_US
+    description: >
+      <div style='margin-top: 20px; font-size: 12px'>We hope, that information about the product {PRODUCT} turned out to be useful. <br /><br />We invite to visit the shop {SHOP}</div>
+    name: Inquiry - the answer - footer
+  MailDescriptionI18n_15:
+    id: MailDescription_15
+    culture: en_US
+    description: >
+      Hello, <br /> your data has been verified from the moment your account has gained full rights to the use of our store. <br /> <br /> We invite you to purchase.
+    name: Client - verification of data

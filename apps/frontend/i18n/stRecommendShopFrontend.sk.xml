@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2011-11-10T03:22:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Polecenie sklepu</source>
+				<target>Odporúčanie obchodu</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>treść wiadomości</source>
+				<target>obsah správy</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>twój adres e-mail</source>
+				<target>Vaša e-mailová adresa</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>informacje dodatkowe</source>
+				<target>dodatočné informácie</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>emailová adresa Vášho známeho</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>cyfry z obrazka</source>
+				<target>číslice z obrázka</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>Tomuto známemu ste odporúčanie už raz poslali</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Możesz polecić sklep innemu znajomemu</source>
+				<target>Obchod môžete odporučiť inému známemu</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Poleć sklep</source>
+				<target>Odporučiť obchod</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Wiadomość o treści</source>
+				<target>Správa v znení</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>została wysłana do</source>
+				<target>bola odoslaná do</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Odoslať</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Daj szansę swoim znajomym na poznanie naszego sklepu</source>
+				<target>Dajte šancu svojim známym aby spoznali náš obchod</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Potwierdzenie wysłania polecenia sklepu</source>
+				<target>Potvrdenie o odoslaní odporúčania obchodu</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dziękujemy</source>
+				<target>Ďakujeme</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Powrót</source>
+				<target>Späť</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Polecenie sklepu było już wysłane do tego użytkownika</source>
+				<target>Tomuto užívateľovi bolo už odporúčanie obchodu odoslané</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Brak adresu e-mail</source>
+				<target>Nebola zadaná e-mailová adresa</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Nesprávny formát emailovej adresy</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Zadajte správne číslice</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Data polecenia sklepu</source>
+				<target>Dátum odporúčania obchodu</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Sklep polecił</source>
+				<target>Obchod odporučil</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Polecenie sklepu.</source>
+				<target>Odporúčanie obchodu</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Cyfry z obrazka</source>
+				<target>Čísla z obrázku</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Polecone od</source>
+				<target>Doporučoval</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Adresat (e-mail)</source>
+				<target>Odberateľ (email)</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Treść</source>
+				<target>Obsah</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Nadawca (e-mail)</source>
+				<target>Odosielateľ (email)</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Wprowadzono zły numer.</source>
+				<target>Bolo uvedené špatné číslo.</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Tato správa bola odoslaná z internetového obchodu</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

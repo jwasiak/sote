@@ -1,0 +1,16 @@
+---
+package: 
+  name: stBazzarPlugin
+  stability: stable
+  version: 1.2.0.0
+  summary: Bazzar
+  description: Zarzadzanie porownywarka cen Bazzar
+  notes: |
+    - Wylaczenie integracji z serwisem.
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stPriceCompare: 1.0.3

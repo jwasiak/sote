@@ -1,0 +1,9 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      sfGuardGroup
+    theme:            default
+
+    list:
+      title: Group list
+      display:        []

@@ -1,0 +1,19 @@
+---
+package: 
+  name: stSuperCacheFilter
+  stability: stable
+  version: 7.2.0.8
+  summary: Super Cache Filter
+  description: Super Cache Filter
+  notes: |
+    - Dostosowanie pakietu do zmian w stBasket
+  maintainers: 
+    Marek Jakubowicz: 
+      role: lead
+      user: marek
+      email: marek.jakubowicz@sote.pl
+    Piotr Halas:
+      role: lead
+      user: piotr
+      email: piotr.halas@sote.pl
+

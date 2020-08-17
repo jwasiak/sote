@@ -1,0 +1,57 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Trust
+        theme:                      simple
+    
+        head:
+            package:                stTrustPlugin                    
+                
+        list:                        
+            title:                  Lista                        
+            display:                [product_id]
+            actions:
+                _create:
+            object_actions:
+                _edit:      -
+                _delete:    -
+            fields:                
+                product_id:              {name: Produkt, params: size=35}
+                field_on:                {name: Tekst, params: size=35} 
+                field_f_on:              {name: Dostawa, params: size=35}
+                field_s_on:              {name: Gwarancja, params: size=35}
+                field_t_on:              {name: Zwrot, params: size=35}
+        edit:
+            title:                  Edycja zaufania
+            description:            Edycja zaufania.
+            display:
+              "NONE": [product_id]
+              "Tekst pod przyciskiem koszyka": [ field_on, field_description ]
+              "Dostawa":     [ field_f_on, field_sub_label_f, field_sub_label_f, field_description_f ]
+              "Gwarancja":   [ field_s_on, field_sub_label_s, field_sub_label_s, field_description_s ]
+              "Zwrot":       [ field_t_on, field_sub_label_t, field_sub_label_t, field_description_t ]
+              
+            fields:
+                product_id:          {name: Produkt}      
+                field_on:            {name: Włącz}
+                field_description:   {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''}
+                field_f_on:          {name: Włącz }
+                field_label_f:       {name: Tytuł, type: input_tag, params: size=20 } 
+                field_sub_label_f:   {name: Podtytuł, type: input_tag, params: size=20 }
+                field_description_f: {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''} 
+                icon_f:              {name: Ikona, type: input_tag, params: size=20}
+                field_s_on:          {name: Włącz}
+                field_label_s:       {name: Tytuł, type: input_tag, params: size=20} 
+                field_sub_label_s:   {name: Podtytuł, type: input_tag, params: size=20}
+                field_description_s: {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''} 
+                icon_s:              {name: Ikona, type: input_tag, params: size=20}
+                field_t_on:          {name: Włącz}
+                field_label_t:       {name: Tytuł, type: input_tag, params: size=20} 
+                field_sub_label_t:   {name: Podtytuł, type: input_tag, params: size=20}
+                field_description_t: {name: Opis, type: textarea_tag, params: size=75x10 rich=true tinymce_options='height:300,width:400,theme:'simple''} 
+                icon_t:              {name: Ikona, type: input_tag, params: size=20}
+                
+                
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}                

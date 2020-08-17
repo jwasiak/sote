@@ -1,0 +1,21 @@
+#social_links .label
+{
+	float: left; 
+	padding-right: 10px; 
+	text-align: right; 
+	width: 220px;
+}
+
+#social_links  .label_text
+{
+	float: right; 
+	padding-top: 5px;
+	text-align: left;
+	width: 52px;
+}
+
+#social_links .label_image
+{
+	float: right; 
+	padding-right: 5px;
+}

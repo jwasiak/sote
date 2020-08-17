@@ -1,0 +1,12 @@
+fields:
+    config{number}:
+        required:
+            msg:    Podaj liczbę wyświetlanych wpisów na stronie głównej
+        sfNumberValidator:
+            min:    1
+            max:    8
+            min_error: Minimalna wartość to 1.
+            max_error: Maksymalna wartość to 8.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą

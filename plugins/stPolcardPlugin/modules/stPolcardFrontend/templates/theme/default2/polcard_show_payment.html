@@ -1,0 +1,18 @@
+{if $check_configuration}
+    <div id="st_box_payment">
+        <img id="st_home" src="/images/frontend/theme/default2/stPolcardPlugin/logo.png" alt=""/>
+        <form action="{$url}" method="post">
+            {foreach key=name item=value from=$params}
+                <input type="hidden" name="{$name}" value="{$value}" />
+            {/foreach}
+            <div class="buttons right">
+                <button type="submit" class="important roundies">
+                    <span class="arrow_right">{__ text="Zapłać"}</span>
+                </button>
+            </div>
+            <br class="clear" />
+        </form>
+    </div>
+{else}
+    {__ text="Płatność została błędnie skonfigurowana."}
+{/if}

@@ -1,0 +1,59 @@
+<div id="question">
+    {$form_start}
+    {$input_hidden_product_id}
+    {$input_hidden_type}
+        
+    {if isset($type_depository)}<h2>{__ text="Zapytanie o dostępność"}</h2>{/if}
+    {if isset($type_price)}<h2>{__ text="Zapytanie o cenę"}</h2>{/if}
+        
+
+        <div class="box roundies">
+            {$small_product_info}
+            <div class="st_button" style="margin-left:380px; margin-bottom: 10px;">
+                <div class="st_button-left">
+                    {$back_to_product}
+                </div>
+            </div>
+        </div>
+        {if isset($type_depository)}
+            <div id="st_question_frontend-ask-text">
+                {__ text="Treść zapytania"}:
+            </div>
+            <div id="st_question_frontend-ask-text_tag">
+                {$depository_question_text}
+            </div>
+        {/if}
+        {if isset($type_price)}
+            <div id="st_question_frontend-ask-text">
+                {__ text="Treść zapytania"}:
+            </div>
+            <div id="st_question_frontend-ask-text_tag">
+                {$depository_price_text}
+            </div>
+        {/if}
+        {if isset($login_false)}
+            {if isset($user)}
+                {$email}
+            {else}
+                <br>
+                {$error_email}
+                <div id="st_question_frontend-ask-email">
+                    {__ text="E-mail"}:
+                </div>
+                <div id="st_question_frontend-ask-email_tag">
+                    {$email}
+                </div>
+            {/if}
+        {else}
+            {$email}
+        {/if}
+        <br>
+        <div id="st_button-question_success" class="st_button-container">
+            <div class="st_button st_align-right">
+                <div class="st_button-left">
+                    {$question_submit}
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

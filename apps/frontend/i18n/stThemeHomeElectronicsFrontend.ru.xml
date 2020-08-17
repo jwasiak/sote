@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2010-11-04T02:51:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>więcej</source>
+				<target>подробнее</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zobacz więcej</source>
+				<target>Узнать больше</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Waluta</source>
+				<target>Валюта</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Wartość</source>
+				<target>Стоимость</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Wpisz szukane słowo</source>
+				<target>Впишите искомое слово</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Ilość</source>
+				<target>Количество</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

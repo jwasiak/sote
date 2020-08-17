@@ -1,0 +1,6 @@
+Theme:
+  Theme_cutlery:
+    base_theme_id:  Theme_argentorwd
+    name:           cutlery
+    version:        7
+    is_system_default: 1

@@ -1,0 +1,5 @@
+<?php use_helper('Validation'); ?>
+<?php st_theme_use_stylesheet('stUser.css') ?>
+
+           
+<?php echo $partner_text ? $partner_text->getContent() : __('Zapraszamy do skorzystania z naszego programu partnerskiego.<br /><br /> Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci.<br /><br />Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep.<br /><br />Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.'); ?>

@@ -1,0 +1,24 @@
+{literal}
+<script type="text/javascript">
+function navigateTo(sel, target, newWindow) {
+    var url = sel.options[sel.selectedIndex].value;
+    if (newWindow) {
+        window.open(url, target);
+    } else {
+        window[target].location.href = url;
+    }
+}
+</script>
+{/literal}
+
+<div class="list_producers">
+    <select onchange="navigateTo(this, 'window', false);">
+        {foreach key=id item=producer from=$producers2 name=producers}
+        {if $id == $selected}
+            <option selected="selected" value="{$producer.option_value}">{$producer.label}</option>
+        {else}
+            <option value="{$producer.option_value}">{$producer.label}</option>
+        {/if}
+        {/foreach}
+    </select>
+</div>

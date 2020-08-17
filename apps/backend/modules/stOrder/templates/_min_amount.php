@@ -1,0 +1,1 @@
+<?php echo input_tag('config[min_amount]', $config->get('min_amount', 0), array('size' => 6)); ?> <?php echo stConfig::getInstance($sf_context, 'stCurrencyPlugin')->get('default_currency') ?>

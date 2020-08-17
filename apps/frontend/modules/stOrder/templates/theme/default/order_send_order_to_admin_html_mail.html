@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body style="background-color:#fff; font-family:Helvetica,Verdana,Arial,sans-serif; line-height:18px; font-size:1em;"><div style="margin: 0px auto; background-color:#fff;"><br><div style="width:700px; margin:0px auto;"><div style="background:url(http://{$host}/images/frontend/theme/default/mail/frame_mail_top.png?version=1); height:30px"></div>
+
+        <div style="background-color:#fff; padding:0px 25px 0px 25px; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+            <div style="font-family:Verdana,Arial,Helvetica,sans-serif; line-height:18px; font-size:10px;">
+                {$user_head}
+            </div>
+        </div>
+
+        <div style="min-height:400px; padding:0px 25px 0px 25px; text-align:justify; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+
+
+        <div style="float:left;font-size:18px;color:#576278;">
+            {__ text="Zamówienie numer"}: {$number}
+        </div>
+
+        <div style="float:right; font-size:12px; color:#576278;">
+            {__ text="Data złożenia zamówienia"}: <span style="color:#404040;">{$created_at}<span>
+        </div>
+        <br style="clear:both;"/>
+        
+        <div style="margin:10px 0px 7px 0px">
+            
+            <span style="font-size:12px; color:#576278;">{__ text="Użytkownik"}: </span><br>
+            <span style="font-size:12px;color:#404040; font-weight:bold;">{$username}</span><br>
+            
+            <div style="height:20px;font-size:12px;color:#576278;">
+                {$user_link}
+            </div>   
+            
+            <br>
+                        
+            <div style="float:left; width:300px;">
+                <span style="font-size:12px; color:#576278;">{__ text="Dane bilingowe"}:</span>
+                <br>
+                
+              {if $billing_company != ""}
+                <span style="font-size:12px;color:#404040;">{$billing_company}</span><br>
+                {/if}
+
+                {if $vat_nr != ""}
+                <span style="font-size:12px;color:#404040;">{__ text="NIP"}: {$vat_nr}</span><br>
+                {/if}
+
+                {if $billing_full_name != ""}
+                <span style="font-size:14px;color:#404040; font-weight:bold">{$billing_full_name}</span><br>
+                {/if}
+
+                <span style="font-size:12px;color:#404040">{$billing_address}</span><br>
+
+                {if $billing_address_more != ""}
+                <span style="font-size:12px;color:#404040">{$billing_address_more}</span><br>
+                {/if}
+
+                {if $billing_region != ""}
+                <span style="font-size:12px;color:#404040">{$billing_region}</span><br>
+                {/if}
+
+                <span style="font-size:12px;color:#404040">{$billing_code_town}</span><br>
+
+                {if $billing_country != ""}
+                    <span style="font-size:12px;color:#404040">{$billing_country}</span><br>
+                {/if}
+
+                {if $billing_pesel != ""}
+                <span style="font-size:12px;color:#404040">{__ text="PESEL"}: {$billing_pesel}</span><br>
+                {/if}
+
+                <span style="font-size:12px;color:#404040">{$billing_full_phone}</span>
+                
+                
+            </div>
+            
+            <div style="float:left; padding-left:30px; width:300px;">
+                <span style="font-size:12px; color:#576278;">{__ text="Dane dostawy"}:</span>
+                <br>
+                
+                {if $delivery_company != ""}
+                <span style="font-size:12px;color:#404040;">{$delivery_company}</span><br>
+                {/if}
+
+                {if $delivery_full_name != ""}
+                <span style="font-size:14px;color:#404040; font-weight:bold">{$delivery_full_name}</span><br>
+                {/if}
+
+                <span style="font-size:12px;color:#404040">{$delivery_address}</span><br>
+
+                {if $delivery_address_more != ""}
+                <span style="font-size:12px;color:#404040">{$delivery_address_more}</span><br>
+                {/if}
+
+                {if $delivery_region != ""}
+                <span style="font-size:12px;color:#404040">{$delivery_region}</span><br>
+                {/if}
+
+                <span style="font-size:12px;color:#404040">{$delivery_code_town}</span><br>
+
+                {if $delivery_country != ""}
+                    <span style="font-size:12px;color:#404040">{$delivery_country}</span><br>
+                {/if}
+
+                <span style="font-size:12px;color:#404040">{$delivery_full_phone}</span>
+            </div>
+            <br style="clear:both">
+        </div>     
+   
+    
+        
+        </br>
+        <div>
+            <table cellpadding="0" cellspacing="0" border="0" width="650">
+                <thead>
+                    <tr style="background:url(http://{$host}/images/frontend/theme/default/mail/tabular-list-th.gif) top left repeat-x;">
+                        <td style="height:20px;font-size:12px;color:#576278;" align="center">
+                            {__ text="Kod"}
+                        </td>
+                        <td style="width:200px; height:20px;font-size:12px;color:#576278;" align="center">
+                            {__ text="Nazwa"}
+                        </td>
+                        <td style="height:20px;font-size:12px;color:#576278;" align="center">
+                            {__ text="Netto"}
+                        </td>
+                        <td style="height:20px;font-size:12px;color:#576278;" align="center">
+                            {__ text="VAT"}
+                        </td>
+                        <td style="height:20px;font-size:12px;color:#576278;" align="center">
+                            {__ text="Brutto"}
+                        </td>
+                        <td style="height:20px;font-size:12px;color:#576278;" align="center">
+                            {__ text="Sztuk"}
+                        </td>
+                        <td style="height:20px; min-width:60px ;font-size:12px;color:#576278;" align="center">
+                            {__ text="Kwota"}
+                         </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach key=row item=product from=$results}
+                        <tr>
+                            <td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                        	   {$product.code}
+                    	    </td>   
+                        	<td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                        	   {$product.name}
+                    	    </td>   
+                        	<td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                        	   {$product.netto}
+                        	</td>
+                        	<td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                             	{$product.vat} %
+                        	</td>
+                        	<td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                             	{$product.brutto}
+                        	</td>
+                        	<td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                              	{$product.quantity}
+                        	</td>
+                        	<td style="font-size:12px;color:#404040;padding:12px 0px;border-bottom:1px solid #efefef;" align="center">
+                        	   {$product.total_amount}
+                        	</td>
+                        </tr> 
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+                        
+        <div style="float:right;font-size:12px;color:#576278;text-align:right;margin-right:30px;">
+        {if $paid}
+            {__ text="Razem"}<br><span style="color:#404040;">{$total_amount}</span><br>
+            {__ text="Zapłacono"}<br><span style="color:#404040;">{$paid}</span><br>
+        {/if}          
+            {__ text="Łączna kwota do zapłaty"}<br> <span style="color:#000; font-size:14px"><b>{$final_total_amount}</b></span>
+        </div>
+            
+        <div style="float:left; font-size:12px;color:#576278;">
+        </br>
+            {__ text="Płatność"}: <span style="color:#404040;">{$payment_name}</span><br>
+            </br>
+            {__ text="Dostawy"}:  <span style="color:#404040;">{$delivery_name}</span><br>
+            {if $delivery_date != ""}
+                {__ text="Termin dostawy"}:  <span style="color:#404040;">{$delivery_date}</span><br>
+            {/if}
+            {__ text="Koszt"}: <span style="color:#404040;">{$delivery_cost}</span>
+        </div>
+        <br style="clear:both">
+        
+        {if $comment != ""}
+        
+        <div style="float:left; font-size:12px;color:#576278;">
+        {__ text="Uwagi do zamówienia"}:
+        <span style="color:#404040;">{$comment}</span><br>
+        </div>
+        <br style="clear:both"> 
+    
+        {/if}
+        
+        <div style="height:20px;font-size:12px;color:#576278;">
+            {$order_link}
+        </div>   
+    
+</div>
+
+    <div style="background-color:#ECECEE; padding:0px 25px 0px 25px; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+        <div style="font-family:Verdana,Arial,Helvetica,sans-serif; line-height:18px; font-size:10px;">
+            {$user_foot}
+        </div>
+    </div>
+    
+<div style="background:url(http://{$host}/images/frontend/theme/default/mail/frame_mail_bottom.png?version=1); height:30px"></div></div></div></body></html>

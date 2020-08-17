@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Linki spolecznosciowe</source>
+                <target>Social Links</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Włącz linki społecznościowe</source>
+                <target>Enable social links</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Linki społecznościowe</source>
+                <target>Social Links</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

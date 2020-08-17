@@ -1,0 +1,124 @@
+{use_javascript src="/plugins/slider-pro/js/jquery.sliderPro.min.js"}
+{use_stylesheet src="/plugins/slider-pro/css/slider-pro.min.css"}
+    
+<ol class="breadcrumb hidden-xs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="{url_for internal=$homepage_url absolute=true}"><span itemprop="name">{__ text="Start" langCatalogue="stNavigationFrontend"}</span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+       <a itemprop="item" href="{$blog_index_url}"><span itemprop="name">{__ text="Blog" langCatalogue="stBlogFrontend"}</span></a>
+       <meta itemprop="position" content="2" />
+    </li>
+
+    {if $blog_category}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+           <a itemprop="item" href="{$blog_category_url}"><span itemprop="name">{$blog_category}</span></a>   
+        <meta itemprop="position" content="3" />
+        </li>
+    {/if} 
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemprop="item"><span itemprop="name">{$name}</span></a>
+        {if $blog_category}
+        <meta itemprop="position" content="4" />
+        {else}
+        <meta itemprop="position" content="3" />
+        {/if} 
+        </li>
+    </ol>
+    
+    <div id="blog-show">
+    
+    <div class="row">
+        <div {if $post_show_sidebar == 1 } class="col-sm-9" {/if}>
+            
+            {if $show_gallery == 1 && isset($gallery) }                            
+            
+                {if $gallery|@count == 1}
+                    {foreach key=row item=image from=$gallery}
+                        <img class="img-responsive" src="{$image}" />
+                    {/foreach}    
+                {else}                                    
+                    <div class="slider-pro" id="my-slider">
+                        <div class="sp-slides">
+                            {foreach key=row item=image from=$gallery}
+                                <div class="sp-slide">                            
+                                    <img class="sp-image" src="{$image}" />
+                                    {if $show_gallery_thumb == 1 }
+                                        <img class="sp-thumbnail" src="{$image}"/>
+                                    {/if}    
+                                </div>
+                            {/foreach}    
+                        </div>
+                    </div>
+                {/if}
+                
+            {/if} 
+            
+            <div class="title">
+                <h1>{$name}</h1>
+                {if $date != 0 && $show_date == 1}
+        			<div class="data text-muted">{$date}</div>
+        		{else}
+        		  <div class="data text-muted">&nbsp</div>	
+        		{/if}
+            </div>
+            <div class="tinymce_html clearfix">
+                {$long_description}
+            </div>
+            {slot name="blog-footer" hidden="true"}{/slot}
+        </div>
+        {if $post_show_sidebar == 1 }
+        <div class="sidebar {if $post_show_sidebar == 1 }col-sm-3{/if}">
+            <div class="title">
+                <h2><a href="/blog">{__ text="Blog" langCatalogue="stBlogFrontend"}</a></h2>
+            </div>    
+            <ul>
+                {foreach key=row item=blog from=$results}                
+                 <li>{$blog.link}</li>
+                {/foreach}
+            </ul>
+            {if $categorys}
+                <div class="title">
+                    <h2>{__ text="Kategorie" langCatalogue="stBlogFrontend"}</h2>
+                </div>    
+                <ul>
+                    {foreach key=row item=category from=$categorys}                
+                     <li>{$category.link}</li>
+                    {/foreach}
+                </ul>
+            {/if}
+            
+        </div>
+        {/if}
+    </div>
+    
+</div>
+
+{use_javascript src="masonry.pkgd.min.js"}
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {     
+        var $container = $('.masonry-container');
+        
+        $container.masonry({
+            columnWidth: '.item',
+            itemSelector: '.item'
+        });
+                
+        $( '#my-slider' ).sliderPro({
+            width: 960,
+            height: 500,
+            arrows: false,
+            buttons: false,
+        });    
+        
+    });
+});
+</script>
+{/literal}

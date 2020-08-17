@@ -1,0 +1,12 @@
+<div class="row">
+	{foreach key=row item=webpages_group from=$results}
+	    <div class="foot-group list-group col-xs-12 col-sm-3">
+	       {st_get_component module="stWebpageFrontend" component="groupWebpage" params="id=`$webpages_group.id`"}
+	    </div>
+	{/foreach}
+	{if $contact_link}
+		<div class="foot-group list-group col-xs-12 col-sm-3 visible-xs">
+	        <h5 class="list-group-item-heading">{$contact_link}</h5>
+	    </div>
+	{/if}
+</div>

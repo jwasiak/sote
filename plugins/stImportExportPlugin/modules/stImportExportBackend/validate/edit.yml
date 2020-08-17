@@ -1,0 +1,11 @@
+fillin:
+    enabled:      true
+
+fields:
+    export_profile{name}:
+        required:
+            msg:        Proszę podać nazwę profilu
+        sfPropelUniqueValidator:
+            class:        ExportProfile
+            column:       name
+            unique_error: Profil o podanej nazwie już istnieje, proszę podać inną nazwę

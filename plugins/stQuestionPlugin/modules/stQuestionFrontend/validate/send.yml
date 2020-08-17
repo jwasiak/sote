@@ -1,0 +1,6 @@
+fields:
+    question{email}:
+        required:
+            msg:       Brak adresu e-mail
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail

@@ -1,0 +1,34 @@
+<select name="user_{$type}_profile" id="user_{$type}_profile" class="form-control">
+   
+{foreach item=profile from=$profiles}
+{if $profile.id == $selected}
+   <option value="{$profile.id}" selected="selected">{$profile.label}</option>
+{else}
+   <option value="{$profile.id}">{$profile.label}</option>
+{/if}
+{/foreach}
+</select>
+
+{literal}
+<script type="text/javascript">
+jQuery(function($) {
+   var type = {/literal}'{$type}'{literal};
+   
+   
+   
+	   $('#user_'+type+'_profile').change(function() {
+	      
+	         var option = this.options[this.selectedIndex];
+	
+	         var params = {
+	            id: option.value,
+	            'type': type
+	         };
+	
+	         $.get('/user_data/ajaxProfileChange', params, function() {}, 'script');
+	
+	   });
+   
+});
+</script>
+{/literal}

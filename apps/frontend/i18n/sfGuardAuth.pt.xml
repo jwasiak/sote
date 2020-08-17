@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2010-11-04T02:51:19Z">
+		<body>
+			<trans-unit id="1">
+				<source>Nie masz wystarczających uprawnień aby oglądać tą stronę</source>
+				<target>Não tem autorização para ver essa página</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Edytor grafiki</source>
+				<target>Editor de imagem</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zaloguj się podając dane dostępowe do panelu administracyjnego.</source>
+				<target>Inicie a sessão indicando dados de acesso ao painel de controlo</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Użytkownik</source>
+				<target>Utilizador</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Senha (password)</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Iniciar sessão</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Proszę podać nazwę użytkownika</source>
+				<target>Indique o nome do utilizador</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Proszę podać hasło</source>
+				<target>Indique a senha</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę podać poprawną nazwę użytkownika i hasło</source>
+				<target>Indique a senha e o nome do utilizador correctos</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,22 @@
+{if !$check_xml}
+    <li id="st_availability_info">
+{/if}
+
+    <span>{__ text="Dostępność"}:</span> {$availability_image}
+
+    {if $availability_link=="0"}
+        <a href="#" id="active_availability_alert_overlay">
+    {/if}
+    
+    {$availability}
+
+    {if $availability_link=="0"}
+        </a>
+    <div id="availability_alert_overlay">
+        <div class="availability_alert_overlay_content"></div>
+    </div>
+    {/if}
+
+{if !$check_xml}
+</li>
+{/if}

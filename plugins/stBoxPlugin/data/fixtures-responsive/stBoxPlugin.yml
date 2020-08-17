@@ -1,0 +1,14 @@
+Box:
+    Box_1: 
+        active: 1
+        culture: pl_PL
+        name: Dostawa
+        content: '<div style="text-align: center;"><p style="padding: 15px 0 3px;"><img src="/uploads/images/res_delivery.png" alt="Dostawa" width="77" height="78" /></p><h4 style="margin-bottom: 16px;">Szybka dostawa</h4></div>'
+        show_title: 0
+        box_group_id: BoxGroup_1
+BoxI18n:
+    BoxI18n_1:
+        id: Box_1
+        culture: en_US
+        name: Delivery
+        content: '<div style="text-align: center;"><p style="padding: 15px 0 3px;"><img src="/uploads/images/res_delivery.png" alt="Delivery" width="77" height="78" /></p><h4 style="margin-bottom: 16px;">Fast delivery</h4></div>'

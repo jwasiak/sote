@@ -1,0 +1,33 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stTextPlugin.lib.model
+  st_text: 
+    _attributes: 
+      phpName: Text
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    system_name: 
+      type: VARCHAR
+      size: 255
+    is_system_default: 
+      type: BOOLEAN
+      default: true
+    active: 
+      type: BOOLEAN
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_content: 
+      type: LONGVARCHAR
+    _indexes: 
+      text_system_name: 
+        - system_name

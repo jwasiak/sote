@@ -1,0 +1,484 @@
+#dashboard {
+   padding-top: 10px;
+   background-color: #F8F8F8;
+   overflow: auto;
+}
+
+#dashboard > .tabs {
+   border-bottom: 1px solid #CCCCCC;
+
+   padding-left: 10px;
+}
+
+#dashboard > .tabs li {
+   float: left;
+   margin-right: 2px;
+}
+
+#dashboard > .tabs a {
+   display: block;
+   background-color: #F1F1F1;
+   color: #444;
+   padding: 2px 12px;
+   border: 1px solid #ccc;
+   border-bottom: none;
+   text-decoration: none;
+}
+
+#dashboard > .tabs a:hover {
+   color: #000;
+   background-color: #F8F8F8;
+
+}
+
+#dashboard > .tabs a.current {
+   color: #000;
+   background-color: #fff;
+   margin-bottom: -1px;
+   padding-bottom: 3px;
+}
+
+#dashboard > .tabs a[href="#new"] {
+   font-weight: bold;
+}
+
+#dashboard > .panes {
+   background-color: #FFFFFF;
+}
+
+#dashboard > .panes > div {
+   min-height: 222px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#dashboard > .menu {
+   text-align: right;
+   float: right;
+   padding-right: 10px;
+}
+
+#dashboard > .menu > li {
+   float: left;
+   margin-left: 5px;
+}
+
+#dashboard > .menu .dropdown_menu {
+   margin-left: -70px;
+   width: 150px;
+}
+
+#dashboard > .menu > li > a {
+   background-position: right center;
+   background-repeat: no-repeat;
+   color: #6F7170;
+   text-decoration: none;
+   padding-right: 20px;
+}
+
+#dashboard > .menu > li > a:hover {
+   background-color: #fff;
+}
+
+#dashboard > .menu > li >a[rel="#gadgets_directory"] {
+   background-image: url("/images/backend/beta/icons/22x22/add.png");
+}
+
+#dashboard > .menu > .config > a {
+   background-image: url("/images/backend/beta/icons/22x22/config.png");
+}
+
+#dashboard .dropdown_menu {
+   display: none;
+   text-align: right;
+   position: absolute;
+   border: 1px solid #ccc;
+   background-color: #fff;
+   width: 100px;
+   margin-left: -88px;
+   box-shadow: 5px 5px 3px #888;
+   z-index: 1000;
+}
+
+#dashboard .dropdown_menu {
+   padding: 5px;
+}
+
+#dashboard .column {
+   min-height: 222px;
+}
+
+#dashboard .gadget:hover {
+   /*-moz-box-shadow: 5px 5px 3px #888;
+   -webkit-box-shadow: 5px 5px 3px #888;
+   box-shadow: 2px 2px 3px 0px #CCCCCC;*/
+}
+
+#dashboard .gadget {
+   padding-bottom: 10px;
+   background: #fff;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+#dashboard .gadget .moveable {
+   cursor: move;
+}
+
+#dashboard .gadget h2 {
+   margin: 0;
+   font-size: 12px;
+   font-weight: bold;
+   padding: 3px 0px 3px 15px ;
+   color: #000;
+   border-bottom: 2px solid #e3e3e3;
+
+}
+
+#dashboard .gadget h2 span,
+#dashboard .gadget h2 a {
+   float: right;
+   margin-left: 5px;
+   display: none;
+
+}
+
+#dashboard .gadget:hover h2 span,
+#dashboard .gadget:hover h2 a {
+   display: block;
+}
+
+#dashboard .gadget .menu {
+   display: none;
+   float: right;
+   margin-right: 5px;
+   margin-top: -21px;
+}
+
+#dashboard .gadget:hover .menu {
+   display: block;
+}
+
+#dashboard .gadget .menu > li {
+   float: left;
+
+   margin-left: 5px;
+}
+
+#dashboard .gadget .config {
+   padding-right: 2px;
+
+   padding-left: 2px;
+
+   padding-bottom: 2px;
+}
+
+#gadgets_configuration {
+   width: 500px;
+}
+
+#gadgets_configuration > .content {
+   padding: 10px;
+}
+
+#gadgets_configuration .colors li {
+   float: left;
+   margin-right: 5px;
+   border: 1px solid #bababa;
+}
+
+#gadgets_configuration .colors li.current,
+#gadgets_configurationn .colors li:hover {
+   border-color: #424242;
+}
+
+#gadgets_configuration .colors a {
+   display: block;
+   width: 15px;
+   height: 15px;
+   border: 1px solid #fff;
+}
+
+#dashboard .gadget > .content {
+   min-height: 100px;
+   padding-top: 5px;
+}
+
+#dashboard .gadget > .content iframe {
+   overflow: auto;
+}
+
+#dashboard .gadget > .minimized {
+   display: none;
+}
+
+#dashboard .column .add-gadget-placeholder,
+#dashboard .column .placeholder {
+   background-color: #fff;
+   border: 1px dashed #ccc;
+   padding-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+#dashboard .column .add-gadget-placeholder {
+    font-size: 16px;
+    height: 233px;
+    padding: 3px;
+    text-align: left;
+}
+
+#dashboard .admin_actions,
+#dashboard_configuration admin_actions {
+   float: left;
+}
+
+#dashboard_configuration {
+   width: 530px;
+}
+
+#dashboard_configuration .content {
+   background-color: #fff;
+   padding: 10px;
+}
+
+#dashboard_configuration .layouts a {
+   border: 1px solid #ccc;
+   display: block;
+   padding: 2px;   
+}
+
+#dashboard_configuration .layouts li.current a,
+#dashboard_configuration .layouts a:hover {
+   border-color: #444;
+}
+
+#dashboard_configuration .layouts li {
+   float: left;
+   margin-right: 5px;
+   margin-bottom: 5px;
+}
+
+/*
+#dashboard_navbar {
+   border-top: 1px solid #ccc;
+   background-color: #eee;
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   opacity: 0.8;
+}
+
+#dashboard_navbar > .menu {
+   line-height: 0px;
+   float: right;
+   padding:10px;
+}
+
+#dashboard_navbar > .menu li {
+   display: inline;
+   padding-left: 5px;
+}
+
+#dashboard_navbar > .menu li.clr {
+   padding: 0;
+}
+
+#dashboard_navbar > .menu a {
+   opacity: 0.6;
+}
+
+#dashboard_navbar .menu a:hover {
+   opacity: 1;
+}
+*/
+
+#gadgets_directory {
+   max-width: 950px;
+   min-height: 500px;
+   min-width: 900px;
+}
+
+#gadgets_directory.preloader_160x24 {
+   background-color: #fff;
+   display: none;
+}
+
+#gadgets_directory > .content {
+   background-color: #fff;
+   clear: left;
+}
+
+#gadgets_directory .tabs {
+   float: left;
+   width: 200px;
+   min-height: 500px;
+   background-color: #f0f0f0;
+   padding-left: 10px;
+   padding-top: 5px;
+}
+
+#gadgets_directory .tabs li {
+   padding-top: 5px;
+}
+
+#gadgets_directory .tabs a {
+   display: block;
+   color: #000;
+   text-decoration: none;
+   font-size: 14px;
+   padding: 5px 10px;
+}
+
+#gadgets_directory .tabs a:hover,
+#gadgets_directory .tabs a.current {
+   background-color: #fff;
+}
+
+#gadgets_directory .panes {
+   margin-left: 210px;
+}
+
+#gadgets_directory .panes > div {
+   height: 485px;
+   overflow: auto;
+   padding: 10px;
+}
+
+#gadgets_directory .panes .gadget {
+
+   width: 325px;
+   padding: 10px;
+   display: table-cell;
+
+}
+
+#gadgets_directory .panes .gadget:hover {
+   background-color: #eee;
+}
+
+#gadgets_directory .panes .gadget h3 {
+   font-size: 12px;
+   margin: 0px;
+}
+
+#gadgets_directory .panes .gadget .add {
+   visibility: hidden;
+   float: right;
+}
+
+#gadgets_directory .panes .gadget:hover .add {
+   visibility: visible;
+}
+
+#gadgets_directory .panes .gadget .add a {
+   opacity: 0.6;
+   display: block;
+   height: 32px;
+   width: 32px;
+   background-image: url('/images/backend/beta/gadgets/add.png')
+}
+
+#gadgets_directory .panes .gadget .add a:hover {
+   opacity: 1;
+}
+
+#gadgets_directory .panes .gadget .add a.preloader_26x26 {
+   opacity: 0.6;
+}
+
+#gadgets_directory .panes .gadget .content {
+   margin-left: 70px;
+}
+
+#gadgets_directory .panes .gadget .author,
+#gadgets_directory .panes .gadget .description {
+   font-size: 10px;
+   line-height: 14px;
+}
+
+#gadgets_directory .panes .gadget .description {
+   padding-top: 5px;
+}
+
+#gadgets_directory .panes .gadget .thumb {
+   float: left;
+}
+
+#gadgets_directory .panes .gadget .thumb img {
+   max-height: 60px;
+   max-width: 60px;
+}
+
+#dashboard .two_column_layout1 .column,
+#dashboard .three_column_layout1 .column {
+   width: 50%;
+   float: left;
+}
+
+#dashboard .two_column_layout1 #column-1-2,
+#dashboard .three_column_layout1 #column-1-2 {
+   width: 50%; 
+   float: left; 
+   padding-bottom: 10px;
+}
+
+#dashboard .two_column_layout1 #column-1-3,
+#dashboard .three_column_layout1 #column-1-3 {
+   width: 50%;
+   float: right;
+   padding-bottom: 10px;
+}
+
+#dashboard .two_column_layout1 #column-5-2,
+#dashboard .three_column_layout1 #column-5-2 {
+   width: 50%; 
+   float: left; 
+   padding-bottom: 10px;
+}
+
+#dashboard .two_column_layout1 #column-5-3,
+#dashboard .three_column_layout1 #column-5-3 {
+   width: 50%; 
+   float: right;
+   padding-bottom: 10px;
+}
+
+#dashboard .three_column_layout1 .column:first-child {
+   width: 100%;
+   float: none;
+   padding-bottom: 10px;
+}
+
+#dashboard .three_column_layout2 .column {
+   float: left;
+   width: 33%;
+   background-color: #FFFFFF;
+}
+
+#dashboard .three_column_layout2 .column2 {
+   width: 34%;
+   background-color: #FFFFFF;
+}
+
+#dashboard .two_column_layout2 .column {
+   width: 67%;
+   float: left;   
+   padding-bottom: 10px;
+}
+
+#dashboard .two_column_layout2 .column:first-child {
+   width: 33%;
+   padding-bottom: 10px;
+}
+
+#dashboard .two_column_layout3 .column {
+   width: 33%;
+   float: left;
+   padding-bottom: 10px;   
+}
+
+#dashboard .two_column_layout3 .column:first-child {
+   width: 67%;
+   padding-bottom: 10px;
+}

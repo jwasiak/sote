@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wartość koszyka</source>
+                <target>Shopping cart value</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Koszt dostawy</source>
+                <target>Delivery cost</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Razem do zapłaty</source>
+                <target>Total amount</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Dostawa</source>
+                <target>Delivery</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Koszty</source>
+                <target>Cost</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Płatności</source>
+                <target>Payment</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Kraj dostawy</source>
+                <target>Delivery country</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Produkty w koszyku nie spełniają kryteriów dostawy. Zmniejsz ilość sztuk produktów w koszyku lub skontaktuj się ze sprzedawcą w celu ustalenia alternatywnego sposobu dostawy</source>
+                <target>Products in the cart don't meet the delivery criteria. Reduce the products quantity in your cart or contact the seller to establish an alternative delivery method.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Bony zakupowe</source>
+                <target>Gift cards</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Zapłacono</source>
+                <target>Paid</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Data i czas</source>
+                <target>Date and time</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Czas dostawy</source>
+                <target>Delivery time</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Dzień dostawy</source>
+                <target>Delivery date</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Musisz wpierw wybrać dostawę, aby wybrać płatność</source>
+                <target>You must first choose the delivery method to select the payment</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Brak zdefiniowanych dostaw lub stref w sklepie</source>
+                <target>No shipping methods or areas defined in the shop</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Koszt</source>
+                <target>Cost</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Płatność punktami</source>
+                <target>Payment only points</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Kod rabatowy</source>
+                <target>Coupon code</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Bon zakupowy</source>
+                <target>Gift card</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Produkty posiadają różne metody dostawy i nie można ich zamówić w ramach jednego zamówienia</source>
+                <target>The products have different delivery methods and can not be ordered in a single order</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

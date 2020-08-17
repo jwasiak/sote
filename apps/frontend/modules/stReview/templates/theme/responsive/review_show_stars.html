@@ -1,0 +1,22 @@
+<li style="margin-bottom: -5px;">
+    <span id="add-review" class="review-text text-muted">{__ text="Dodaj recenzję"}:</span>
+    <form action="">
+        <input {if $lockd_star==1} disabled {/if} name="star1" type="radio" class="auto-submit-star" value="1" {if $star_raiting==1} checked="checked" {/if} />
+        <input {if $lockd_star==1} disabled {/if} name="star1" type="radio" class="auto-submit-star" value="2" {if $star_raiting==2} checked="checked" {/if} />
+        <input {if $lockd_star==1} disabled {/if} name="star1" type="radio" class="auto-submit-star" value="3" {if $star_raiting==3} checked="checked" {/if} />
+        <input {if $lockd_star==1} disabled {/if} name="star1" type="radio" class="auto-submit-star" value="4" {if $star_raiting==4} checked="checked" {/if} />
+        <input {if $lockd_star==1} disabled {/if} name="star1" type="radio" class="auto-submit-star" value="5" {if $star_raiting==5} checked="checked" {/if} />
+    </form>
+</li>
+<!-- Modal -->
+<div class="modal fade" id="star_raiting_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" {if $count_review>0}itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating"{/if}>
+  {if $count_review>0}
+ <meta itemprop="ratingValue" content="{$star_raiting}" />
+ <meta itemprop="reviewCount" content="{$count_review}" />
+ {/if}
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div id="star_raiting"></div>
+    </div>
+  </div>
+</div>

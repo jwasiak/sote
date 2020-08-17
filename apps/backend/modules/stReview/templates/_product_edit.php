@@ -1,0 +1,2 @@
+<?php echo input_hidden_tag('review[product_id]', $review->getProductId()) ?>
+<?php $value = st_get_partial('product', array('type' => 'edit', 'review' => $review)); echo $value ? $value : '&nbsp;'  ?>

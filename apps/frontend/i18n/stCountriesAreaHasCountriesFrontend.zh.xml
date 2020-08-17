@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Wybierz kraj dostawy</source>
+				<target>请选择运送国家</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zapisz</source>
+				<target>保存</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Dostępny kraj dostawy to</source>
+				<target>可运送到</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

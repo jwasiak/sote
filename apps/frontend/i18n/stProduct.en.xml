@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext"
+			date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Cena</source>
+				<target>Price</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sortuj po</source>
+				<target>Sort by</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwie</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Cenie</source>
+				<target>Price</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa produktu</source>
+				<target>Product name</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Opis</source>
+				<target>Description</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Producent</source>
+				<target>Manufacturer</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Kategoria</source>
+				<target>Category</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Typ prezentacji listy</source>
+				<target>List presentation type</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Pełna lista</source>
+				<target>Complete list</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Skrócona lista</source>
+				<target>Short list</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Lista alternatywna</source>
+				<target>Alternative list</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Opis</source>
+				<target>Description</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Polecamy produkty</source>
+				<target>Recommended</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Widzisz %number% z %count% produktów</source>
+				<target>You are looking at %number% of %count% products</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Nowości</source>
+				<target>New products</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Nazwa produktu</source>
+				<target>Product Name</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Strona główna</source>
+				<target>Homepage</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Strona produktu o podanym id nie istnieje</source>
+				<target>The product page for the supplied ID does not exist.</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Strona kategorii o podanym id nie istnieje</source>
+				<target>The category page for the supplied ID does not exist.</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Strona grupy produktów o podanym id nie istnieje</source>
+				<target>The product group page for the supplied ID does not exist.</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Cena netto</source>
+				<target>Net Price</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Cena brutto</source>
+				<target>Gross price</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Stara cena</source>
+				<target>Old price</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Rabat</source>
+				<target>Discount</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Grupa rabatowa</source>
+				<target>Discount group</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Cena katalogowa brutto</source>
+				<target>Catalog gross price</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Cena katalogowa netto</source>
+				<target>Catalog net price</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Rabat brutto</source>
+				<target>Gross discount</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Rabat netto</source>
+				<target>Net discount</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Stara cena brutto</source>
+				<target>Old price</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Stara cena netto</source>
+				<target>Old price</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Waga</source>
+				<target>Weight</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Kod</source>
+				<target>Code</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Klient hurtowy</source>
+				<target>Wholesale Customer</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Rabat ogólny użytkownika</source>
+				<target>User's total discount</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Filtruj po producentach</source>
+				<target>Filter by producers</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Wszyscy</source>
+				<target>All</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Załączniki</source>
+				<target>Attachments</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Pobierz</source>
+				<target>Download</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Takiej kategorii nie ma w sklepie</source>
+				<target>This category does not exist in the store</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Takiej grupy produktów nie ma w sklepie</source>
+				<target>This product group does not exist in the store</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Takiego producenta nie ma w sklepie</source>
+				<target>This manufacturer does not exist in the store</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Takiego produktu nie ma w sklepie</source>
+				<target>This product does not exist in the store</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Więcej</source>
+				<target>More</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Nazwa</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Brutto</source>
+				<target>Gross</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Netto</source>
+				<target>Net</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Cena katalogowa</source>
+				<target>Catalog price</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Najnowszym</source>
+				<target>Newest</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Przejdź do strony głównej</source>
+				<target>Go to the homepage</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Obrazek</source>
+				<target>Image</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>z</source>
+				<target>of</target>
+			</trans-unit>
+			<trans-unit id="55">
+                <source>brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Kod producenta</source>
+                <target>Manufacturer's code</target>
+            </trans-unit>
+            <trans-unit id="230">
+                <source>Brak produktów dla wybranych kryteriów</source>
+                <target>There are no products for the selected criteria</target>
+            </trans-unit>
+            <trans-unit id="231">
+                <source>szczegóły</source>
+                <target>details</target>
+            </trans-unit>
+            <trans-unit id="232">
+                <source>sprawdź</source>
+                <target>check</target>
+            </trans-unit>
+            <trans-unit id="233">
+                <source>Otrzymasz</source>
+                <target>Earn</target>
+            </trans-unit>
+            <trans-unit id="234">
+                <source>Koszt</source>
+                <target>Cost</target>
+            </trans-unit>
+            <trans-unit id="235">
+                <source>tylko za punkty</source>
+                <target>only for points</target>
+            </trans-unit>
+            <trans-unit id="236">
+                <source>dodaj do koszyka</source>
+                <target>add to shopping cart</target>
+            </trans-unit>
+            <trans-unit id="237">
+                <source>Brak wystarczającej ilości punktów.</source>
+                <target>Not enough points.</target>
+            </trans-unit>
+            <trans-unit id="238">
+                <source>Zaloguj się aby kupić produkt.</source>
+                <target>Please sign in to buy the product.</target>
+            </trans-unit>
+            <trans-unit id="239">
+                <source>Nie osiągnięto progu punktów.</source>
+                <target>Not reached the threshold points.</target>
+            </trans-unit>
+            <trans-unit id="240">
+                <source>Do osiągnięcia progu brakuje</source>
+                <target>To achieve the threshold of missing</target>
+            </trans-unit>
+            <trans-unit id="241">
+                <source>za</source>
+                <target>for</target>
+            </trans-unit>
+            <trans-unit id="242">
+                <source>Cena zasadnicza</source>
+                <target>Basic price</target>
+            </trans-unit>
+            <trans-unit id="243">
+                <source>Zobacz</source>
+                <target>Read</target>
+            </trans-unit>
+            <trans-unit id="244">
+                <source>Akcesoria</source>
+                <target>Accessories</target>
+            </trans-unit>
+            <trans-unit id="245">
+                <source>Do koszyka</source>
+                <target>Add to basket</target>
+            </trans-unit>
+            <trans-unit id="246">
+                <source>malejąco</source>
+                <target>descending</target>
+            </trans-unit>
+            <trans-unit id="247">
+                <source>rosnąco</source>
+                <target>ascending</target>
+            </trans-unit>
+            <trans-unit id="248">
+                <source>wyczyść</source>
+                <target>reset</target>
+            </trans-unit>  
+            <trans-unit id="249">
+                <source>Pokaż produkty</source>
+                <target>Show products</target>
+            </trans-unit>                       
+            <trans-unit id="250">
+                <source>Filtr produktów</source>
+                <target>Products filter</target>
+            </trans-unit>
+            <trans-unit id="251">
+                <source>Recenzje</source>
+                <target>Reviews</target>
+            </trans-unit>             
+            <trans-unit id="252">
+                <source>Najdroższe</source>
+                <target>Most expensive</target>
+            </trans-unit>
+            <trans-unit id="253">
+                <source>Najtańsze</source>
+                <target>Cheapest</target>
+            </trans-unit>               
+            <trans-unit id="254">
+                <source>Najnowsze</source>
+                <target>Latest</target>
+            </trans-unit>               
+            <trans-unit id="255">
+                <source>Sortowanie</source>
+                <target>Sort order</target>
+            </trans-unit>     
+            <trans-unit id="256">
+                <source>zobacz</source>
+                <target>see</target>
+            </trans-unit>
+            <trans-unit id="257">
+                <source>Trafności</source>
+                <target>Accuracy</target>
+            </trans-unit>
+            <trans-unit id="258">
+                <source>Sprawdź</source>
+                <target>View details</target>
+            </trans-unit>
+            <trans-unit id="259">
+                <source>Filtrowanie</source>
+                <target>Filter</target>
+            </trans-unit>
+            <trans-unit id="260">
+                <source>strona</source>
+                <target>page</target>
+            </trans-unit>
+            <trans-unit id="261">
+                <source>Brak produktów dla podanego wyszukiwania. Spróbuj wpisać inne wyrażenie lub poszukać produktu, korzystając z kategorii sklepu.</source>
+                <target>No products found. Try searching with different expression or search for a product using the store category.</target>
+            </trans-unit>
+            <trans-unit id="262">
+                <source>zobacz wszystkie</source>
+                <target>see all</target>
+            </trans-unit>
+            <trans-unit id="263">
+                <source>Pokaż produkty dostępne</source>
+                <target>Show available products</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,2 @@
+<?php $webpages=$webpage_group->getWebpageGroupHasWebpages();?>
+<?php echo link_to(__('Zarządzaj stronami www w grupie'), 'webpage_group_has_webpage/list?filters[webpage_group]='.$webpage_group."&filter=filter") ?>

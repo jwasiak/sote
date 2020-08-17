@@ -1,0 +1,12 @@
+package:
+  name: stFixturesBianco
+  stability: stable
+  version: 7.0.6
+  summary: Dane dla tematu Bianco
+  description: Dane dla tematu Bianco
+  notes: Poprawka instalacji
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

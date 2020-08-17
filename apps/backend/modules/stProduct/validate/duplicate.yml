@@ -1,0 +1,9 @@
+fields:
+  product{code}:
+    required:
+      msg:    Podaj kod produktu
+    stProductCodeValidator:
+      check_primary_key: false
+  product{name}:
+    required:
+      msg:    Podaj nazwę produktu

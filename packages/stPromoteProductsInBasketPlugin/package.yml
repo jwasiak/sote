@@ -1,0 +1,15 @@
+package:
+  name: stPromoteProductsInBasketPlugin
+  stability: stable
+  version: 2.1.1.0
+  summary: 'Promocje w koszyku'
+  description: 'Wyswietlanie promowanych produktow w koszyku'
+  notes: |
+    - Dodanie konfiugracji wyswietlania modulu crosseling.
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stBasket: 1.0.0

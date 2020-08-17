@@ -1,0 +1,17 @@
+package:
+  name: stTinyMCEPlugin
+  stability: stable
+  version: 7.2.0.31
+  summary: 'Edytor WYSIWYG'
+  description: 'Edytor WYSIWYG'
+  notes: |
+    - Poprawka sortowania plikow
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+    'Bartosz Alejski':
+      role: contributor
+      user: bartek
+      email: bartosz.alejski@sote.pl

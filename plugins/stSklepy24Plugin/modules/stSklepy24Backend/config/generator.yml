@@ -1,0 +1,58 @@
+generator:
+    class:                              stAdminGenerator
+    param:
+        model_class:                    Sklepy24
+        theme:                          simple
+    
+        head:
+            package:                    stSklepy24Plugin
+    
+        list:
+            title:                      Lista produktów
+            description:                Zarządzanie porównywarką cen Sklepy24
+            max_per_page:               20
+            display:                    [id, _product, active]
+            peer_method:                doSelectJoinAll
+            peer_count_method:          doCountJoinAll
+            actions:
+                _
+            object_actions:
+                _edit:                  -
+                _delete:                -
+            filters:
+                product:                {filter_field: product.opt_name}
+            fields:
+                id:                     {name: ID}
+                product_id:             {name: ID produktu, sort_field: product.id}
+                product:                {name: Nazwa produktu, sort_field: product.opt_name, params: size=50}
+                active:                 {name: Aktywny}
+            menu:
+                fields:
+                    list:               {name: Lista produktów, action: @stSklepy24PluginDefault}
+                    generate:           {name: Generowanie pliku xml, action: stSklepy24Backend/generateCustom}
+                display:                [list, generate]
+
+        edit:
+            title:                      Edycja produktu
+            description:                Zarządzanie porównywarką cen Sklepy24
+            display:
+                "Dane głowne":          [id, product, active]
+            fields:
+                product:                {name: Nazwa produktu}
+                active:                 {name: Aktywny}
+            actions:
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+                _delete:                {name: Usuń}
+            menu:                       {use: list.menu}
+       
+            
+        generate_model_class:           Sklepy24
+                
+        custom_actions:
+            custom:                     [generate]
+            
+        generate_custom:
+            menu:                       {use: list.menu}
+            title:                      Generowanie pliku xml
+            description:                Zarządzanie porównywarką cen Sklepy24

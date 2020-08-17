@@ -1,0 +1,16 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/config
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/config/config.php
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/modules
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/modules/stHtaccessBackend
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/modules/stHtaccessBackend/actions
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/modules/stHtaccessBackend/actions/actions.class.php
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/modules/stHtaccessBackend/templates
+/home/jarek/src/soteshop/plugins/stHtaccessPlugin/modules/stHtaccessBackend/templates/indexSuccess.php
+/home/jarek/src/soteshop/data
+/home/jarek/src/soteshop/data/config
+/home/jarek/src/soteshop/data/config/stHtaccessBackend.yml
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stHtaccessPlugin
+/home/jarek/src/soteshop/packages/stHtaccessPlugin/package.yml

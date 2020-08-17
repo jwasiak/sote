@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Ceny w walutach</source>
+                <target>Prices in currencies</target>
+            </trans-unit>
+              <trans-unit id="2">
+                <source>Lista grup cenowych</source>
+                <target>List price groups</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Grupa</source>
+                <target>Group</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Cena</source>
+                <target>Price</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Produktów</source>
+                <target>Products</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nazwa grupy</source>
+                <target>Group name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Zapisz i synchronizuj</source>
+                <target>Save and sync</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Produkty</source>
+                <target>Products</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Brak przypisanych produktów.</source>
+                <target>There are no associated products.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Zmiana cen dla grupy "</source>
+                <target>Price change for the group "</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Operacja zmiany cen zakończona pomyślnie.</source>
+                <target>Prices change operation completed successfully.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Pokaż produkty</source>
+                <target>Show products</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Grupy cenowe</source>
+                <target>Group price</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Edycja grupy</source>
+                <target>Edit group</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Pokaz produkty tej grupy</source>
+                <target>Show products in this group</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Stara cena</source>
+                <target>Old price</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Ceny hurtowe</source>
+                <target>Wholesale</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Netto</source>
+                <target>Net</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Brutto</source>
+                <target>Gross</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Grupa cenowa</source>
+                <target>Group price</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Grupa A</source>
+                <target>Group A</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Grupa B</source>
+                <target>Group B</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Grupa C</source>
+                <target>Group C</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Zmień cenę</source>
+                <target>Change price</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Zmień</source>
+                <target>Change</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Nowa cena</source>
+                <target>New price</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Aktualizuj</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Cenę netto</source>
+                <target>Price netto</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Cenę brutto</source>
+                <target>Price brutto</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Starą cenę netto</source>
+                <target>Old price netto</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Starą cenę brutto</source>
+                <target>Old price brutto</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Cenę hurtową A netto</source>
+                <target>Wholesale A net</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Cenę hurtową A brutto</source>
+                <target>Wholesale A gross</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Cenę hurtową B netto</source>
+                <target>Wholesale B net</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Cenę hurtową B brutto</source>
+                <target>Wholesale B gross</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Cenę hurtową C netto</source>
+                <target>Wholesale C net</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Cenę hurtową C brutto</source>
+                <target>Wholesale C gross</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Jesteś pewień, że chcesz zmienić cenę dla tej grupy, tego procesu nie da się odwrócić ?</source>
+                <target>Are you sure you want to change the price for the group, this process can not be reversed?</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Zapisz i synchronizuj</source>
+                <target>Save and sync</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Pokaż listę</source>
+                <target>Show a list</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Edycja grupy cenowej</source>
+                <target>Edit group pricing</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Ceny grupy w walutach</source>
+                <target>Group prices in currencies</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Lista walut</source>
+                <target>Currency list</target>
+            </trans-unit>
+             <trans-unit id="47">
+                <source>Grupa %name%</source>
+                <target>Group %name%</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Netto</source>
+                <target>Net</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Brutto</source>
+                <target>Gross</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,18 @@
+package:
+  name: stNavigationPlugin
+  stability: stable
+  version: 7.1.0.8
+  summary: Nawigacja
+  description: 'Modul nawigacji klienta.'
+  notes: |
+    - Poprawka dla stron www
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stFrontend: 1.0.9.15
+    stBackend: 1.0.4.28
+    stConfigurationPlugin: 1.0.3.9
+    stProduct: 1.0.17.5

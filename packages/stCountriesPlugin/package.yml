@@ -1,0 +1,17 @@
+---
+package: 
+  name: stCountriesPlugin
+  stability: stable
+  version: 7.0.0.0
+  summary: Kraje
+  description: Zarzadzanie strefami dostaw produktow
+  notes: |
+    - Dostosowanie do ShipX API
+  maintainers: 
+    Marcin Butlak:
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency: 
+    stFrontend: 1.0.9.10
+    stBackend: 1.0.4.11

@@ -1,0 +1,59 @@
+propel: 
+    st_newsletter_group: 
+        _attributes: 
+            phpName: NewsletterGroup
+            isI18N: true
+            i18nTable: st_newsletter_group_i18n
+        opt_name: {change_column: name}
+        opt_description: {change_column: description}
+
+    st_newsletter_group_i18n: 
+        _attributes: 
+            phpName: NewsletterGroupI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_newsletter_group
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        description: 
+            type: VARCHAR
+            size: 255
+            
+    st_newsletter_message: 
+        _attributes: 
+            phpName: NewsletterMessage
+            isI18N: true
+            i18nTable: st_newsletter_message_i18n
+        opt_subject: {change_column: subject}
+        opt_content: {change_column: content}
+        
+    st_newsletter_message_i18n: 
+        _attributes: 
+            phpName: NewsletterMessageI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_newsletter_message
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        subject: 
+            type: VARCHAR
+            size: 255
+        content: 
+            type: LONGTEXT

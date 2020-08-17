@@ -1,0 +1,23 @@
+wholesale_model_class: sfGuardUser
+
+custom_actions:
+    edit: [wholesale]
+
+wholesale_edit:
+    forward_parameters: [id]
+    menu:               {use: edit.menu}
+    build_options: 
+        related_id:     forward_parameters.id
+    description:        Klienci 
+    title:              Oznacz klienta jako hurtownika
+    display:            [_wholesale]
+    fields:
+        wholesale:      {name: Klient hurtowy}
+    actions:
+        _save:          {name: Zapisz}    
+
+edit:
+    menu:
+        display:            [wholesale]
+        fields:
+            wholesale:    {name: Klient hurtowy, action: stUser/wholesaleEdit?id=%%id%%}

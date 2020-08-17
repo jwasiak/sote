@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="cs" datatype="plaintext" date="2011-11-10T03:22:20Z">
+		<body>
+			<trans-unit id="1">
+				<source>zobacz więcej</source>
+				<target>ukaž více</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Łącznie</source>
+				<target>Spájení</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kategorie</source>
+				<target>Kategorie</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

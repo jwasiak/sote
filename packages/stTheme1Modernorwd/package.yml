@@ -1,0 +1,13 @@
+package:
+  name: stTheme1Modernorwd
+  stability: stable
+  version: 7.0.1.7
+  summary: 'Modernorwd Theme'
+  description: 'Modernorwd Theme'
+  notes: |
+    - Zmiany konfiguracji grafiki
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

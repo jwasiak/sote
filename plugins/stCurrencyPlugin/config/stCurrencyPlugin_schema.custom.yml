@@ -1,0 +1,27 @@
+---
+propel:
+    st_currency: 
+        _attributes: 
+            phpName: Currency
+            isI18N: true
+            i18nTable: st_currency_i18n
+        opt_name: {change_column: name}            
+      
+    st_currency_i18n: 
+        _attributes: 
+            phpName: CurrencyI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_currency
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 64

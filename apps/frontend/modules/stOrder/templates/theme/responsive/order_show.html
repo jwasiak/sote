@@ -1,0 +1,293 @@
+{set layout="one_column"}
+
+{if $user}
+{st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="21" order_number=$order_number}
+{/if}
+
+<div id="order-show">
+	<div class="title">
+    	<h1>{$order_number}</h1>
+	</div>
+   
+   	 {if isset($notice_flash)} 
+   	    <div class="alert alert-success" role="alert">{$notice}</div>
+	 {/if}
+		 
+	   	
+      
+        <table class="table" cellspacing="0">
+      	<!-- <colgroup>
+	        <col width="120">
+			<col width="300">
+			<col width="50">
+			{if $user} 
+			<col width="50">
+			{/if}
+			<col width="100">
+		</colgroup> -->
+		
+		<thead>
+			<tr>
+			   <th>{__ text="Data złożenia"}</th>
+			   <th class="th-td-center">{__ text="Status"}</th>
+			   <th class="th-td-center">{__ text="Opłacone"}</th>
+			   {if isset($user)}
+			   <th class="th-td-center">{__ text="Faktury"}</th>
+			   {/if}
+			   <th class="th-td-center">{__ text="Potwierdzone"}</th>
+			   
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+			   <td data-th='{__ text="Data złożenia"}'>{$created_at}</td>
+			   <td data-th='{__ text="Status"}' class="th-td-center status">{$status}</td>
+			   <td data-th='{__ text="Opłacone"}' class="th-td-center">{$is_paid}</td>
+			   {if isset($user)}
+			   <td data-th='{__ text="Faktury"}' class="th-td-center">{$invoice}</td>
+			   {/if}
+			   <td data-th='{__ text="Potwierdzone"}' class="th-td-center">{$is_confirmed}</td>  
+			</tr>
+		</tbody>
+      </table>
+	    	
+   {if $user}
+
+    <div class="row row-first" data-equalizer>
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    {__ text="Dane płatnika"}
+                        
+                </div>
+                <div class="panel-body" data-equalizer-watch>
+                    
+                    
+                    {if $user_data_billing_invoice==1}  
+                        <span class="invoice_text">{__ text="Dane do faktury"}</span>
+                        <br/>
+                    {/if}
+                    
+                    {if $user_data_billing_company!=""}                        
+                        {$user_data_billing_company}
+                        <br/>
+                        {$user_data_billing_vat_number}
+                        <br/>
+                    {/if}
+                                
+                    <div class="full_name_space">
+                        <b>{$user_data_billing_full_name}</b>
+                    </div>
+                    
+                    {$user_data_billing_address}
+                    <br/>
+                    
+                    {if $user_data_billing_address_more!=""}
+                        {$user_data_billing_address_more}
+                        <br/>
+                    {/if}
+                    
+                    {if $user_data_billing_region!=""}
+                        {$user_data_billing_region}
+                        <br/>
+                    {/if}
+                      
+                    {$user_data_billing_code}
+                    
+                    {$user_data_billing_town}
+                    <br/>
+                    
+                    {$user_data_billing_country}
+                    <br/>
+                    
+                    {$user_data_billing_phone}
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    {__ text="Dane wysyłkowe"}
+                    
+                </div>
+                <div class="panel-body" data-equalizer-watch>
+                    
+                    {if $user_data_delivery_company!=""}
+                        {$user_data_delivery_company}
+                        <br/>
+                    {/if}
+                                
+                    <div class="full_name_space">            
+                        <b>{$user_data_delivery_full_name}</b>
+                    </div>
+                    
+                    {$user_data_delivery_address}
+                    <br/>
+                    
+                    {if $user_data_delivery_address_more!=""}
+                        {$user_data_delivery_address_more}
+                        <br/>
+                    {/if}
+                    
+                    {if $user_data_delivery_region!=""}
+                        {$user_data_delivery_region}
+                        <br/>
+                    {/if}
+                      
+                    {$user_data_delivery_code}
+                    
+                    {$user_data_delivery_town}
+                    <br/>
+                    
+                    {$user_data_delivery_country}
+                    <br/>
+                    
+                    {$user_data_delivery_phone}
+                    <br/>             
+                </div>
+            </div>
+        </div>
+    </div>
+               
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">{__ text="Informacje"}</div>
+                <div class="panel-body">                              
+                    {__ text="Płatność"}: <span class="{if $payment_description} payment_tooltip {/if}" title="{$payment_description|escape}"><b>{$payment_name}</b> {if $payment_description}<img src="/images/frontend/theme/default2/information.png" alt="" />{/if}</span><br/>
+                    {__ text="Dostawa"}: <span class="{if $delivery_description} delivery_tooltip {/if}" title="{$delivery_description|escape}"><b>{$delivery_name}</b> {if $delivery_description}<img src="/images/frontend/theme/default2/information.png" alt="" />{/if}</span><br/>
+                    {if ($delivery_date)}{__ text="Termin dostawy"}: <span><b>{$delivery_date}</b></span><br/>{/if}
+                    {if isset($delivery_number) && $delivery_number != ''}
+                        {__ text="Numer przesyłki"}: <span><b>{$delivery_number}</b><span><br />
+                    {/if}
+
+                    {slot name="order-show-additional-data" hidden="true"}{/slot}
+
+                    {if $paid}                   
+                        {__ text="Łączny koszt"}: <b>{$order_total_amount}</b><br/>
+                        {__ text="Zapłacono"}: <b>{$paid}</b><br/>
+                    {/if}
+                </div>
+            </div>
+        </div>
+        
+        {if $description!=""}
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">{__ text="Uwagi do zamówienia"}</div>
+                    <div class="panel-body">                              
+                        {$description}
+                    </div>
+                </div>
+            </div>
+        {/if}
+    </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+         <table class="table">
+            <thead>
+               <tr>
+	             {if $show_photo_in_basket}<th>{__ text="zdjęcie"}</th>{/if}
+				 {if $show_code_in_basket}<th>{__ text="kod"}</th>{/if}
+	             <th>{__ text="nazwa"}</th>
+	             {if $show_netto_in_basket}<th class="th-td-right">{__ text="netto"}</th>{/if}
+	             {if $show_tax_in_basket}<th class="th-td-center">{__ text="vat"}</th>{/if}
+	             <th class="th-td-right">{__ text="brutto"}</th>
+	             <th class="th-td-center">{__ text="ilość"}</th>
+	             {if $show_uom_in_basket}<th class="th-td-center">{__ text="j.m."}</th>{/if}
+	             <th class="th-td-right">{__ text="suma"}</th>
+               </tr>
+            </thead>
+            <tbody>
+               {foreach key=row item=order_product from=$results}
+               <tr>
+               	  {if $show_photo_in_basket}<td data-th='{__ text="zdjęcie"}'>{$order_product.photo}</td>{/if}
+                  {if $show_code_in_basket}<td data-th='{__ text="kod"}'>{$order_product.code}</td>{/if}
+                  <td data-th='{__ text="nazwa"}' class="product-name">{if isset($order_product.product_name)}{$order_product.product_name}{else}{if isset($order_product.validate)}{$order_product.name_show}{else}{$order_product.name}{/if}{/if}</td>
+                  {if $show_netto_in_basket}<td data-th='{__ text="netto"}' class="th-td-right" nowrap>{$order_product.price}</td>{/if}
+                  {if $show_tax_in_basket}<td data-th='{__ text="vat"}' class="th-td-center" nowrap>{$order_product.vat} %</td>{/if}
+                  <td nowrap data-th='{__ text="brutto"}' class="th-td-right">{$order_product.price_true}</td>
+                                    
+                  <td data-th='{__ text="ilość"}' class="th-td-center">{$order_product.quantity}</td>
+                  {if $show_uom_in_basket}<td data-th='{__ text="j.m."}' class="th-td-center">{$order_product.uom}</td>{/if}
+                  <td class="th-td-right" data-th='{__ text="suma"}' nowrap>{$order_product.total_amount}</td>
+               </tr>     
+               
+               {/foreach}
+            </tbody>   
+            </table>
+                
+                
+            <table cellspacing="0" class="" width="100%">
+                <tr>
+                    <td>
+                        <div>    
+                            <span class="pull-right">{__ text="Wartość koszyka"}: {$total_product_price}</span><br/>
+                            <span class="pull-right">{__ text="Koszt dostawy"}: {$order_cost}</span><br/>
+                            {if $discount}
+                            <span class="pull-right">{__ text="Rabat"}: -{$discount}</span><br />
+                            {/if}                       
+                            <span class="pull-right"><b>{__ text="Razem do zapłaty"}: {$final_total_amount}</b></span><br/>        
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+         </table>
+    </div>
+    </div>
+    
+    {if $show_payment!=1}
+        <div class="text-right">
+            <a href="{$payment_url}" class="btn btn-primary" rel="noindex, nofollow">
+                <span class="glyphicon glyphicon-usd"></span>
+                {__ text="Zapłać"}
+            </a>
+        </div>
+    {/if}
+    
+    {else}
+    
+    <div id="no-account" class="panel panel-default center-block text-center" style="max-width:50%; padding-top:10px; margin-top:50px">              
+        <div class="panel-body">
+            {__ text="Zaloguj się aby zobaczyć szczegóły zamówienia."}
+        </div>
+        
+        <div class="text-center">
+            <a href="/user/loginUser" class="btn btn-default" rel="noindex, nofollow">            
+                {__ text="Przejdź do logowania"}
+            </a>
+        </div>
+        <br/>
+    </div>    
+        
+    {/if}
+
+    
+</div>
+	
+   </div> 
+</div>
+
+{literal}
+    <script>
+        jQuery(function($) {
+            $('#order-show [data-toggle=tooltip]').tooltip().on('show.bs.tooltip', function(e) {
+                var target = $(e.target);
+                if (target.hasClass('product-option-label')) {
+                    var maxWidth = target.css('max-width');
+                    target.css({ 'max-width': 'none' });
+                    var width = target.width();
+                    target.css({ 'max-width': maxWidth });
+
+                    return width > target.width();
+                }
+
+                return true;
+            });
+        });
+    </script>    
+{/literal}

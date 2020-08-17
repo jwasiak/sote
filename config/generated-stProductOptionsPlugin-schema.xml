@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stProductOptionsPlugin.lib.model" noXsd="true">
+
+  <table name="st_product_options_template" phpName="ProductOptionsTemplate" isI18N="true" i18nTable="st_product_options_template_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+  </table>
+
+  <table name="st_product_options_field" phpName="ProductOptionsField" isI18N="true" i18nTable="st_product_options_field_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="product_options_template_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_product_options_template" onDelete="cascade">
+      <reference local="product_options_template_id" foreign="id" />
+    </foreign-key>
+    <column name="product_options_filter_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_product_options_filter" onDelete="restrict">
+      <reference local="product_options_filter_id" foreign="id" />
+    </foreign-key>
+    <column name="required" type="BOOLEAN" />
+    <column name="typ" type="VARCHAR" size="255" />
+    <column name="opt_name" type="VARCHAR" size="128" change_column="name" />
+    <column name="opt_default_value" type="VARCHAR" size="128" change_column="default_value" />
+    <column name="opt_value_id" type="INTEGER" />
+    <column name="field_order" type="INTEGER" />
+  </table>
+
+  <table name="st_product_options_default_value" phpName="ProductOptionsDefaultValue" isI18N="true" i18nTable="st_product_options_default_value_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="product_options_template_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_product_options_template" onDelete="cascade">
+      <reference local="product_options_template_id" foreign="id" />
+    </foreign-key>
+    <column name="product_options_default_value_id" type="INTEGER" />
+    <foreign-key foreignTable="st_product_options_default_value" onDelete="restrict">
+      <reference local="product_options_default_value_id" foreign="id" />
+    </foreign-key>
+    <column name="product_options_field_id" type="INTEGER" />
+    <foreign-key foreignTable="st_product_options_field" onDelete="restrict">
+      <reference local="product_options_field_id" foreign="id" />
+    </foreign-key>
+    <column name="price" type="VARCHAR" size="16" />
+    <column name="weight" type="VARCHAR" size="10" />
+    <column name="lft" type="INTEGER" />
+    <column name="rgt" type="INTEGER" />
+    <column name="opt_value" type="VARCHAR" size="128" change_column="value" />
+    <column name="price_type" type="VARCHAR" size="6" />
+    <column name="depth" type="INTEGER" />
+    <column name="opt_version" type="INTEGER" default="0" />
+    <column name="color" type="VARCHAR" size="128" />
+    <column name="use_image_as_color" type="BOOLEAN" default="0" />
+    <column name="old_price" type="DECIMAL" size="10" scale="2" />
+    <column name="pum" type="DECIMAL" size="10" scale="2" />
+  </table>
+
+  <table name="st_product_options_value" phpName="ProductOptionsValue" isI18N="true" i18nTable="st_product_options_value_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="sf_asset_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="sf_asset" onDelete="setnull">
+      <reference local="sf_asset_id" foreign="id" />
+    </foreign-key>
+    <column name="product_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_product" onDelete="cascade">
+      <reference local="product_id" foreign="id" />
+    </foreign-key>
+    <column name="product_options_template_id" type="INTEGER" required="false" />
+    <foreign-key foreignTable="st_product_options_template" onDelete="restrict">
+      <reference local="product_options_template_id" foreign="id" />
+    </foreign-key>
+    <column name="product_options_value_id" type="INTEGER" />
+    <foreign-key foreignTable="st_product_options_value" onDelete="restrict">
+      <reference local="product_options_value_id" foreign="id" />
+    </foreign-key>
+    <column name="product_options_field_id" type="INTEGER" />
+    <foreign-key foreignTable="st_product_options_field" onDelete="restrict">
+      <reference local="product_options_field_id" foreign="id" />
+    </foreign-key>
+    <column name="price" type="VARCHAR" size="16" />
+    <column name="weight" type="VARCHAR" size="10" />
+    <column name="lft" type="INTEGER" />
+    <column name="rgt" type="INTEGER" />
+    <column name="stock" type="DECIMAL" size="8" scale="2" />
+    <column name="opt_value" type="VARCHAR" size="128" change_column="value" />
+    <column name="price_type" type="VARCHAR" size="6" />
+    <column name="depth" type="INTEGER" />
+    <column name="opt_version" type="INTEGER" default="0" />
+    <column name="color" type="VARCHAR" size="128" />
+    <column name="use_image_as_color" type="BOOLEAN" default="0" />
+    <column name="opt_filter_id" type="INTEGER" />
+    <column name="use_product" type="VARCHAR" size="128" />
+    <column name="old_price" type="DECIMAL" size="10" scale="2" />
+    <column name="man_code" type="VARCHAR" size="128" />
+    <column name="pum" type="DECIMAL" size="10" scale="2" />
+    <column name="is_updated" type="BOOLEAN" default="" />
+    <index name="product_options_value_color">
+      <index-column name="color" />
+    </index>
+    <index name="product_options_value_opt_value">
+      <index-column name="opt_value" />
+    </index>
+    <index name="product_options_value_filter_id">
+      <index-column name="opt_filter_id" />
+    </index>
+  </table>
+
+  <table name="st_product_options_filter" phpName="ProductOptionsFilter" isI18N="true" i18nTable="st_product_options_filter_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_name" type="VARCHAR" size="128" change_column="name" />
+    <column name="filter_type" type="INTEGER" />
+    <column name="rank" type="INTEGER" />
+    <column name="price_from" type="DOUBLE" />
+    <column name="price_to" type="DOUBLE" />
+    <column name="is_visible" type="BOOLEAN" default="1" />
+  </table>
+
+  <table name="st_product_options_template_i18n" phpName="ProductOptionsTemplateI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_product_options_template" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+  </table>
+
+  <table name="st_product_options_field_i18n" phpName="ProductOptionsFieldI18n">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product_options_field" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="128" />
+    <column name="default_value" type="VARCHAR" size="128" />
+  </table>
+
+  <table name="st_product_options_default_value_i18n" phpName="ProductOptionsDefaultValueI18n">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product_options_default_value" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="value" type="VARCHAR" size="128" />
+  </table>
+
+  <table name="st_product_options_value_i18n" phpName="ProductOptionsValueI18n">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product_options_value" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="value" type="VARCHAR" size="128" />
+  </table>
+
+  <table name="st_product_options_filter_i18n" phpName="ProductOptionsFilterI18n">
+    <column name="id" type="INTEGER" primaryKey="true" required="true" />
+    <foreign-key foreignTable="st_product_options_filter" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="128" />
+  </table>
+
+</database>

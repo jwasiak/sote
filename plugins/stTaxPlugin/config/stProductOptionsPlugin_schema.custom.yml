@@ -1,0 +1,6 @@
+propel:
+  st_product_options_value:
+    _attributes: {phpName: ProductOptionsValue}
+    is_updated:
+      type: BOOLEAN
+      default: false

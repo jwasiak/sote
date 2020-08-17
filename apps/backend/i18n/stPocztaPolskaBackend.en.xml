@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dokumenty</source>
+                <target>Documents</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Kosmetyki</source>
+                <target>Cosmetics</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Elektronika</source>
+                <target>Electronics</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zabawki</source>
+                <target>Toys</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Części samochodowe</source>
+                <target>Car Parts</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Chemia</source>
+                <target>Chemistry</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Meble</source>
+                <target>Furniture</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>określona wartość</source>
+                <target>custom</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Wyślij</source>
+                <target>Send</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Etykieta</source>
+                <target>Address label</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Książka adresowa</source>
+                <target>Address book</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Śledź przesyłkę</source>
+                <target>Track package</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Wybierz</source>
+                <target>Choose</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Zmień punkt odbioru</source>
+                <target>Change pickup location</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Szczegółowe określenie zawartości</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Ilość</source>
+                <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Masa netto</source>
+                <target>Net weight</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Wartość</source>
+                <target>Value</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Numer taryfowy zharmonizowanego systemu</source>
+                <target>Rate number of the harmonized system</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Kraj pochodzenia towarów</source>
+                <target>Country of origin of goods</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Planowana data nadania</source>
+                <target>Planned date of delivery</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Urząd nadania</source>
+                <target>Post office</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Jeżeli nie posiadasz loginu i hasła, wypełnij formularz, a my skontaktujemy się z Tobą.</source>
+                <target>If you do not have a login and password, please fill out the form and we will contact you.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Wypełnij formularz</source>
+                <target>Fill out the form</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wyślij przesyłkę</source>
+                <target>Send package</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Spakuj</source>
+                <target>Prepare package</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Usuń zbiór</source>
+                <target>Delete the collection</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Pobierz wszystkie etykiety</source>
+                <target>Download address labels</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Pobierz wszystkie blankiety pobrań</source>
+                <target>Download collect blank forms</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Przygotowanie paczki dla zamówienia %%number%%</source>
+                <target>Preparing the package for order %%number%%</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Rodzaj</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Gabaryt</source>
+                <target>Size</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Masa</source>
+                <target>Weight</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Kwota pobrania</source>
+                <target>Collected amount</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Rachunek pobrania</source>
+                <target>Collect account number</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Punkt odbioru</source>
+                <target>Pickup location</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Opakowanie</source>
+                <target>Package</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Nazwisko/Imię/Nazwa</source>
+                <target>Surname/Name</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Nazwisko/Imię/Nazwa cd</source>
+                <target>Surname/Name cont.</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Adres</source>
+                <target>Address</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Kod pocztowy</source>
+                <target>Postal code</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Miejscowość</source>
+                <target>Town</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Telefon komórkowy</source>
+                <target>Mobile phone</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Adres e-mail</source>
+                <target>e-mail</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Telefon</source>
+                <target>Phone</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Ubezpieczenie</source>
+                <target>Insurance</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Ostrożnie</source>
+                <target>Fragile - handle with care</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Przesyłka niestandardowa</source>
+                <target>Nonstandard shipment</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Potwierdzenie odbioru</source>
+                <target>Receipt confirmation</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Elektroniczne potwierdzenie odbioru</source>
+                <target>Electronic receipt confirmation</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Zawartość</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Nr referencyjny celny</source>
+                <target>Customs referential no.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Dodatkowy opis przesyłki</source>
+                <target>Additional shipping description</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Zwrot po liczbie dni</source>
+                <target>Return after</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Sposób zwrotu</source>
+                <target>Return type</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Deklaracja celna</source>
+                <target>Customs declaration</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Instrukcja deklaracji celnej</source>
+                <target>Customs declaration - instruction</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Opłaty pocztowe</source>
+                <target>Postage charges</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Uwagi</source>
+                <target>Remarks</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Licencja</source>
+                <target>License</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Świadectwo</source>
+                <target>Certificate</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Faktura</source>
+                <target>Invoice</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Wróć do zamówienia</source>
+                <target>Return to order</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Do wysłania</source>
+                <target>To send</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Wysłane</source>
+                <target>Sent</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Numer nadania</source>
+                <target>Tracking number</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Zamówienie</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Opis przesyłki</source>
+                <target>Shipping description</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Usługi dodatkowe</source>
+                <target>Additional services</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Adresat</source>
+                <target>Recipient</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Data nadania na wydrukach musi być zgodna z faktyczną data nadania. Sprawdź wydruki.</source>
+                <target>Planned date of delivery must match the date on your address labels. Check your address labels.</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Wybrany kraj musi należeć do Unii Europejskiej</source>
+                <target>The selected country must belong to the European Union</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Wybrany kraj nie może należeć do Unii Europejskiej</source>
+                <target>The selected country can not belong to the European Union</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Zamówienie numer %number%</source>
+                <target>Order number %number%</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Włącz:</source>
+                <target>Enabled</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Tryb testowy:</source>
+                <target>Test mode:</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Login:</source>
+                <target>Login:</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Hasło:</source>
+                <target>Password:</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Domyślny urząd nadania:</source>
+                <target>Default post office:</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Informacje o nadawcy na paczce</source>
+                <target>Sender information on the package</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Imię:</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Nazwisko:</source>
+                <target>Surname</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Adres e-mail:</source>
+                <target>e-mail:</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Telefon:</source>
+                <target>Phone:</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Ulica:</source>
+                <target>Street:</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Numer budynku:</source>
+                <target>Number:</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Numer lokalu:</source>
+                <target>Flat:</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Kod:</source>
+                <target>Postal code</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Miasto:</source>
+                <target>City:</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Województwo:</source>
+                <target>Region:</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Konfiguracja płatności</source>
+                <target>Payment configuration:</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Płatność za pobraniem:</source>
+                <target>Cash on delivery:</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>Rachunek dla pobrania</source>
+                <target>Cash on delivery account</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Podstawowy numer rachunku:</source>
+                <target>Account number</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Pomocniczy numer rachunku 1:</source>
+                <target>Additional account number 1:</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Pomocniczy numer rachunku 2:</source>
+                <target>Additional account number 2:</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Błąd autoryzacji. Sprawdź wprowadzone login i hasło</source>
+                <target>Authorization error. Check your login and password</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Uzupełnij</source>
+                <target>This field is mandatory</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Data nadania</source>
+                <target>Shipping date</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Ilość przesyłek</source>
+                <target>Package quantity</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>To pole na wydruku zostanie skrócone do pierwszych 40 znaków</source>
+                <target>This field will be shortened to the first 40 characters</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Usługa</source>
+                <target>Service</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

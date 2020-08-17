@@ -1,0 +1,33 @@
+<h3><b>3</b> {__ text="Koszty"}</h3>
+<div id="st_delivery-basket_summary">
+    <div class="st_delivery-basket_summaty-amount">{$basket_cost|st_currency_format:false}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Wartość koszyka"}:</div>
+    <br class="st_clear_all"/> 
+
+    <div class="st_delivery-basket_summaty-amount">{$delivery_cost|st_currency_format:false}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Koszt dostawy"}:</div>
+    <br class="st_clear_all"/>
+{if $basket_discount > 0}
+    <div class="st_delivery-basket_summaty-amount">-{$basket_discount|st_currency_format}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Rabat" langCatalogue="stOrder"} ({$basket_discount_name}):</div>
+    <br class="st_clear_all"/>   
+{/if} 
+{if $paid > 0}    
+    <div class="st_delivery-basket_summaty-amount">-{$paid|st_currency_format}</div>
+    <div class="st_delivery-basket_summaty-text">{__ text="Zapłacono"}:</div>
+    <br class="st_clear_all"/>     
+{/if}
+        
+{if $points_value != 0}       
+    <div id="st_basket-total_amount">{$points_value} {$points_shortcut}</div>
+    <div id="st_basket-total_amount_text">{__ text="Koszt"} {$points_shortcut}:</div>
+    <br class="st_clear_all"/>
+{/if}
+
+    <div id="st_basket-total_amount">{$total_amount|st_currency_format}</div>
+    <div id="st_basket-total_amount_text">{__ text="Razem do zapłaty"}:</div>
+    <br class="st_clear_all"/> 
+{if $basket_discount_message}
+    <div id="basket_discount_message">{$basket_discount_message}</div>
+{/if}
+</div>

@@ -1,0 +1,17 @@
+---
+package: 
+  name: stStatsPlugin
+  stability: stable
+  version: 1.0.2.5
+  summary: Raporty
+  description: Generowanie raportow sklepu
+  notes: Poprawki systemu tlumaczen.
+  maintainers: 
+    Pawel Byszewski: 
+      role: lead
+      user: pawel
+      email: pawel.byszewski@sote.pl
+  dependency: 
+    stProduct: 1.0.7
+    stUser: 1.0.4
+    stOrder: 1.0.6

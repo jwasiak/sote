@@ -1,0 +1,26 @@
+<div id="st_box_payment" style="text-align: center">
+    <p><img src="/plugins/stPrzelewy24Plugin/images/logo.png" alt="Przelewy24.pl" /></p>
+    <p style="text-align: center">
+        {__ text="Wystąpił problem z połączeniem się z serwisem Przelewy24."}
+        {if $contact_url}
+            <form action="{$contact_url}" class="buttons" method="get">
+                <p>
+                    <button type="submit" class="important roundies">
+                        <span class="arrow_right">{__ text="Skontaktuj się z nami"}</span>
+                    </button>
+                </p>
+            </form>
+        {/if}
+    </p>
+</div>
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $('#st_box_payment form').submit(function() {
+            var form = $(this);
+            window.location = form.attr('action');
+            return false;
+        });
+    });
+</script>
+{/literal}

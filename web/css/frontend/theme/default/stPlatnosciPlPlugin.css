@@ -1,0 +1,21 @@
+#st_frame_platnoscipl table {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#st_txt_platnoscipl {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#st_txt_platnoscipl span {
+    font-weight: bold;
+    padding: 0px 3px;
+}
+
+.st_logo_platnosci {
+    text-align: center;
+    padding-bottom: 15px;
+}

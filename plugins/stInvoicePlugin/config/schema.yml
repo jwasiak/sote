@@ -1,0 +1,336 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stInvoicePlugin.lib.model
+  st_invoice: 
+    _attributes: 
+      phpName: Invoice
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    invoice_user_seller_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_invoice_user_seller
+      foreignReference: id
+      onDelete: restrict
+    invoice_user_customer_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_invoice_user_customer
+      foreignReference: id
+      onDelete: restrict
+    order_id: 
+      type: INTEGER
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: setnull
+    invoice_currency_id: 
+      type: INTEGER
+      foreignTable: st_invoice_currency
+      foreignReference: id
+      onDelete: restrict
+    invoice_proforma_id: 
+      type: INTEGER
+    company_description: 
+      type: LONGVARCHAR
+    invoice_description: 
+      type: LONGVARCHAR 
+    order_discount:
+      type: DECIMAL
+      size: 10
+      scale: 2    
+    date_selle: 
+      type: DATE
+    date_create_copy: 
+      type: DATE
+    number: 
+      type: VARCHAR
+      size: 45
+    signature_seller: 
+      type: VARCHAR
+      size: 45
+    signature_customer: 
+      type: VARCHAR
+      size: 45
+    opt_total_ammount_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    town: 
+      type: VARCHAR
+      size: 255
+    curency: 
+      type: VARCHAR
+      size: 20
+    max_day: 
+      type: VARCHAR
+      size: 20
+      default: none
+    payment_type: 
+      type: VARCHAR
+      size: 20
+      default: none
+    is_proforma: 
+      type: BOOLEAN
+      default: 1
+    is_request: 
+      type: BOOLEAN
+      default: 0
+    is_confirm: 
+      type: BOOLEAN
+      default: 0
+    _indexes: 
+      order_number: 
+        - date_create_copy
+  st_invoice_status: 
+    _attributes: 
+      phpName: InvoiceStatus
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    invoice_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_invoice
+      foreignReference: id
+      onDelete: cascade
+    payment_id: 
+      type: INTEGER
+      default: 0
+    opt_payment_type_name: 
+      type: VARCHAR
+      size: 255
+    opt_payment_status: 
+      type: BOOLEAN
+      default: 0
+    opt_payment_type_id: 
+      type: INTEGER
+    hand_mod: 
+      type: BOOLEAN
+      default: 0
+    paid_amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+  st_invoice_product: 
+    _attributes: 
+      phpName: InvoiceProduct
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    invoice_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_invoice
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: setnull
+    name: 
+      type: VARCHAR
+      size: 1024
+    code: 
+      type: VARCHAR
+      size: 255  
+    pkwiu: 
+      type: VARCHAR
+      size: 255
+    quantity: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+    measure_unit: 
+      type: VARCHAR
+      size: 20
+    discount: 
+      type: FLOAT
+    price_netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    vat: 
+      type: FLOAT
+    vat_id: 
+      type: INTEGER
+    total_price_netto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    vat_ammount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_total_price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+  st_invoice_user_customer: 
+    _attributes: 
+      phpName: InvoiceUserCustomer
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    country: 
+      type: VARCHAR
+      size: 255
+    full_name: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 1024
+    surname: 
+      type: VARCHAR
+      size: 255
+    address: 
+      type: VARCHAR
+      size: 255
+    address_more: 
+      type: VARCHAR
+      size: 255
+    region: 
+      type: VARCHAR
+      size: 255
+    street: 
+      type: VARCHAR
+      size: 255
+    house: 
+      type: VARCHAR
+      size: 255
+    flat: 
+      type: VARCHAR
+      size: 255
+    code: 
+      type: VARCHAR
+      size: 255
+    town: 
+      type: VARCHAR
+      size: 255
+    company: 
+      type: VARCHAR
+      size: 255
+    vat_number: 
+      type: VARCHAR
+      size: 255
+    pesel: 
+      type: VARCHAR
+      size: 255
+    crypt: 
+      type: BOOLEAN
+      default: 0  
+  st_invoice_user_seller: 
+    _attributes: 
+      phpName: InvoiceUserSeller
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    country: 
+      type: VARCHAR
+      size: 255
+    full_name: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 1024
+    surname: 
+      type: VARCHAR
+      size: 255
+    address: 
+      type: VARCHAR
+      size: 255
+    address_more: 
+      type: VARCHAR
+      size: 255
+    region: 
+      type: VARCHAR
+      size: 255
+    street: 
+      type: VARCHAR
+      size: 255
+    house: 
+      type: VARCHAR
+      size: 255
+    flat: 
+      type: VARCHAR
+      size: 255
+    code: 
+      type: VARCHAR
+      size: 255
+    town: 
+      type: VARCHAR
+      size: 255
+    company: 
+      type: VARCHAR
+      size: 255
+    vat_number: 
+      type: VARCHAR
+      size: 255
+    crypt: 
+      type: BOOLEAN
+      default: 0
+  st_invoice_currency: 
+    _attributes: 
+      phpName: InvoiceCurrency
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+    exchange: 
+      type: FLOAT
+    shortcut: 
+      type: VARCHAR
+      size: 20
+    front_symbol: 
+      type: VARCHAR
+      size: 20
+    back_symbol: 
+      type: VARCHAR
+      size: 20

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Schowek elementów</source>
+                <target>Items closet</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Schowek</source>
+                <target>Closet</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Panel administracyjny</source>
+                <target>Go to the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Przywróć domyślny wygląd tematu</source>
+                <target>Restore the default theme</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Użycie tej opcji spowoduje przywrócenie pierwotnego wyglądu strony. Czy jesteś pewien, że chcesz przywrócić oryginalny wygląd?</source>
+                <target>If you use this option it will restore the original theme. Are you sure you want to restore the original theme?</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Przywróć pierwotny obraz tego elementu.</source>
+                <target>Restore the original image of the item.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Edytuj właściwości obrazu.</source>
+                <target>Edit the image properties.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Pobierz ten obraz na mój komputer.</source>
+                <target>Download this picture on my computer.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Wybierz plik graficzny na lokalnym komputerze, który ma zostać wstawiony w ten element strony.</source>
+                <target>Choose an image file from your computer which will be inserted into the page element.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Załaduj</source>
+                <target>Upload</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Dopasuj wielkość obrazu do elementu strony.</source>
+                <target>Align the image to a page element.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Dopasuj wielkość elementu strony do obrazu.</source>
+                <target>Match the size of a page element to the image.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Selektor</source>
+                <target>Selector</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>definicja stylu</source>
+                <target>style definition</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Zapisz zmiany</source>
+                <target>Save changes</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Szerokość:</source>
+                <target>Width:</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Wysokość:</source>
+                <target>Height:</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Nazwa pliku nie może zawierać polskich znaków dialektyczny oraz spacji.</source>
+                <target>File name can't contain polish characters and spaces.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Edytujesz temat</source>
+                <target>Editing the theme</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Kliknij dwukrotnie aby podmienić obraz.</source>
+                <target>Double click to replace the image.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Konfiguracja grafiki</source>
+                <target>Graphics configuration</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Zastosuj konfigurację</source>
+                <target>Apply configuration</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Ustaw jako domyślny</source>
+                <target>Set as the default</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Ukryj</source>
+                <target>Hide</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Oglądasz temat</source>
+                <target>Viewing theme</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Twoje zmiany zostały zastosowane do aktualnego tematu</source>
+                <target>Your changes were applied to the current theme</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Użytkownik</source>
+                <target>Username</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>   
+            <trans-unit id="29">
+                <source>Zaloguj się</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Logowanie do zarządzania tematami</source>
+                <target>Login to theme managment</target>
+            </trans-unit> 
+            <trans-unit id="31">
+                <source>Proszę podać poprawny login i hasło</source>
+                <target>Please enter a valid username and password</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Nie posiadasz wystarczających uprawnień</source>
+                <target>You do not have sufficient privileges</target>
+            </trans-unit>
+            <trans-unit id="33">
+            	<source>Jesteś pewien, że chcesz przywrócić domyślny układ dla wybranego tematu?</source>
+            	<target>Are you sure you want to restore the default layout for the current theme?</target>
+            </trans-unit>
+            <trans-unit id="34">
+            	<source>Podgląd</source>
+            	<target>View</target>
+            </trans-unit>
+            <trans-unit id="35">
+            	<source>Pokaż</source>
+            	<target>Show</target>
+            </trans-unit>
+            <trans-unit id="36">
+            	<source>Domyślny układ został przywrócony</source>
+            	<target>The default layout has been restored</target>
+            </trans-unit>
+            <trans-unit id="37">
+            	<source>Temat został ustawiony jako domyślny</source>
+            	<target>The theme has been set as the default</target>
+            </trans-unit>
+            <trans-unit id="38">
+            	<source>Jesteś pewien, że chcesz ustawić wybrany temat jako domyślny?</source>
+            	<target>Are you sure you want to set the theme as the default?</target>
+            </trans-unit>
+            <trans-unit id="39">
+            	<source>Przywróć domyślny układ</source>
+            	<target>Restore the default layout</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Powrót</source>
+                <target>Go back</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>wyloguj</source>
+                <target>logout</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Autoukrywanie paska</source>
+                <target>Bar autohide</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Edycja</source>
+                <target>Edit</target>
+            </trans-unit>
+        </body> 
+    </file>
+</xliff>

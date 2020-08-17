@@ -1,0 +1,55 @@
+data:
+    enable_new: 1
+    list_type: listLongProduct
+    items_per_page: '20'
+    order_field: null
+    order: null
+    min_len: '4'
+    category_depth: 0
+    producer_show: 1
+    category_show: 1
+    autocomplete_enabled: 1
+    simple_search_fields:
+        product_code: '1'
+        product_short_desc: 0
+        product_long_desc: 0
+        product_producer: 0
+        product_name: '1'
+    simple_min_len: '4'
+    simple_and_search: '1'
+    advanced_search_fields:
+        product_code: '1'
+        product_short_desc: 0
+        product_long_desc: 0
+        product_keywords: 0
+        product_producer: 0
+        product_name: '1'
+    advanced_min_len: '4'
+    advanced_and_search: '1'
+    simple_full_search: null
+    advanced_full_search: null
+    simple_full_search_fields:
+        product_code: '1'
+        product_short_desc: '1'
+        product_long_desc: 0
+        product_producer: 0
+        product_name: '1'
+    advanced_full_search_fields:
+        product_code: '1'
+        product_short_desc: '1'
+        product_long_desc: 0
+        product_keywords: 0
+        product_producer: 0
+        product_name: '1'
+    search_off: 0
+    name: '1'
+    code: '1'
+    producer_code: '1'
+    description: '1'
+    short_description: '1'
+    producer: '1'
+    category: '1'
+    additional_description: '1'
+    options: '1'
+    search_keywords: '1'
+    reserved_chars: -:/\

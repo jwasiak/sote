@@ -1,0 +1,12 @@
+<ul class="st_category_tree-horizontal">
+{foreach item=root from=$roots}
+   <li>{$root.name}
+      <ul>
+      {foreach item=category from=$root.categories}
+         <li><a href="{$category.url}">{$category.name}</a></li>
+      {/foreach}
+      </ul>
+   </li>
+{/foreach}
+   <li class="clr"></li>
+</ul>

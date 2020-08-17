@@ -1,0 +1,23 @@
+<div id="pager">
+    <div class="next_prev">
+        {if $current_page!=1}
+            <a href="{$first_page}"><img src="{image_path image='arrow_pager_main_left.png'}" alt="{__ text="Pierwsza strona"}" /></a>
+            <a href="{$previous_page_url}"><img src="{image_path image='arrow_pager_left.png'}" alt="{__ text="Poprzednia strona"}" style="margin-right: 2px;" /></a>
+        {/if}
+    </div>
+    <div class="pages">
+        {foreach key=row item=page from=$links}
+            {$page.page}
+        {/foreach}                                                
+        {__ text="z"} {$last_page}
+    </div>
+    
+    <div class="next_prev">
+        {if $current_page!=$last_page}
+            <a href="{$next_page_url}"><img src="{image_path image='arrow_pager_right.png'}" alt="{__ text="Następna strona"}" /></a>
+            <a href="{$last_page_url}"><img src="{image_path image='arrow_pager_main_right.png'}" alt="{__ text="Ostatnia strona"}" style="margin-left: 2px;" /></a>
+        {/if} 
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>

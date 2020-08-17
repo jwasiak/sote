@@ -1,0 +1,14 @@
+---
+package: 
+  name: stThumbnailPlugin
+  stability: stable
+  version: 7.0.1.16
+  summary: Skalowanie zdjec
+  description: Skalowanie zdjec
+  notes: |
+    - Poprawka orientacji zdjec
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

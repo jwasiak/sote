@@ -1,0 +1,38 @@
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
+
+{literal} 
+<script type="text/javascript">
+
+function heightMainProd(id) {
+    var home_list = $(id + '.product').length;     
+
+    if ($(window).width() > 768) {
+        for (i = 1; i<=home_list; i++) {
+            var heightMainP = $(id + '.nr_' + i + ' .image').height();
+            var widthMainP = $(id + '.nr_' + i + ' .image').width();
+
+            $(id + '.nr_' + i + ' .caption_inner').css('height' , heightMainP).css('width' , widthMainP);
+        }   
+    }; 
+}  
+
+function heightMain() {
+    var main_categories = $('#main_categories .product').length;
+
+    if ($(window).width() > 768) {
+        for (i = 1; i<=main_categories; i++) {
+            var widthMain = $('#main_categories .nr_' + i + ' .image').width();
+
+            $('#main_categories .nr_' + i + ' .name a').css('width' , widthMain);
+        }     
+    };
+           
+}  
+
+
+
+
+</script>
+{/literal}

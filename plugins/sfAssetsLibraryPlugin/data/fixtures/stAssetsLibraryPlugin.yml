@@ -1,0 +1,29 @@
+sfAssetFolder:
+  sfAssetFolder_ROOT:
+    name: media
+    tree_left: 1
+    tree_right: 2
+    tree_depth: 0
+    static_scope: 1
+  sfAssetFolder_2:
+    fillin_from_path: media/products
+  sfAssetFolder_3:
+    fillin_from_path: media/shares
+  sfAssetFolder_58:
+    fillin_from_path: media/categories
+    is_enabled: 1
+  sfAssetFolder_59:
+    fillin_from_path: media/producers
+    is_enabled: 1
+  sfAssetFolder_100: 
+    fillin_from_path: media/availability
+    is_enabled: 1
+sfAsset:
+  sfAsset_38:
+    folder_id: sfAssetFolder_3
+    filename: no_image.png
+    author: admin@example.com
+    type: image
+    filesize: 3
+
+

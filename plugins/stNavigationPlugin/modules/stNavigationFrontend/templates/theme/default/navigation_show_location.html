@@ -1,0 +1,17 @@
+{if $configOn == 1}
+    {if $configViewType == 0}
+        {if $hasNavigationPath == true || $hasLastViewedProduct == true}
+            <div id="stNavigatorPlugin_navigation_box" class="stNavigatorPlugin_navigation_box_middle">
+                <div class="stNavigatorPlugin_navigation_box_left">
+                    <div class="stNavigatorPlugin_navigation_box_right">
+                        {$navigationBreadcrumbs}
+                        {$navigationHistory}
+                    </div>
+                </div>
+            </div>
+        {/if}
+    {elseif $configViewType == 1}
+        {$navigationBreadcrumbs}
+        {$navigationHistory}
+    {/if}
+{/if}

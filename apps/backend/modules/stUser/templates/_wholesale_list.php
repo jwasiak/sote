@@ -1,0 +1,1 @@
+<?php echo $sf_guard_user->getWholesale() ? image_tag('/images/backend/beta/icons/16x16/tick.png').' ['.$sf_guard_user->getWholesale().']' :  '&nbsp;' ?>

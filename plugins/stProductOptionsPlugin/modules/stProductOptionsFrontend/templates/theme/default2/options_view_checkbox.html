@@ -1,0 +1,8 @@
+<li class="st_admin-horizontal-look-element">
+	{$field_label}
+	<div>
+	{foreach key=id item=option from=$options}
+	<input type="radio" onclick="send_form(this);" {if $id==$selected}checked="checked"{/if} id={$field_id} name={$field_name} value="{$id}"/>{$option.label}
+	{/foreach}
+	</div>
+</li>

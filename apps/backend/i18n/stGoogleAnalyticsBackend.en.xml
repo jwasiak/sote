@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wprowadzono nieprawidłowe znaki. Wprowadź tylko cyfry.</source>
+                <target>Invalid characters were entered. Enter digits only.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Statystyki</source>
+                <target>Statistics</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Numer w kodzie otrzymanym od Google</source>
+                <target>Number from the code received from Google</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Włącz Google Analytics w sklepie</source>
+                <target>Enable Google Analytics in the shop</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Włącz e-commerce w sklepie</source>
+                <target>Enable e-commerce in the shop</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

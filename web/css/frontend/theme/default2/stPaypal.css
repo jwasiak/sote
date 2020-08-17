@@ -1,0 +1,33 @@
+p#st_paypal-message-success,
+p#st_paypal-message-pending,
+p#st_paypal-message-failed,
+p#st_paypal-checkout-button,
+#stPayment_return .content,
+#stPayment_return .title
+{
+    text-align: center;
+}
+
+#paypal_express_checkout {
+    margin-top: 12px;
+}
+
+#paypal_express_checkout_error {
+    background-color: #FFF4F2;
+    border: 1px solid #F3C0C0;
+    margin-top: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+#stPayment_return .title
+{
+	padding-bottom: 0;
+}
+
+#stPayment_return .buttons .important
+{
+	padding: 7px 10px;
+	display: inline-block;
+	margin: 10px 0 20px;
+}

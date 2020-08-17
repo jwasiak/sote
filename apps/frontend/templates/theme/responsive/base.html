@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{$lang}">
+   <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
+        {use_javascript src="jquery-1.8.3.min.js" position="first"}
+        {use_javascript src="/bootstrap/js/bootstrap.min.js" position="first"}
+        {use_javascript src="bootstrap-hover-dropdown.min.js" position="first"}
+
+        {use_javascript src="jquery.stickybox.js" position="first"}
+        {use_javascript src="jquery.equilizer.js" position="first"}
+        {use_javascript src="lightGallery.min.js" position="first"} 
+        {use_javascript src="easing.js"}
+        {use_javascript src="bootstrap-slider.min.js"}
+        {use_javascript src="bloodhund.min.js"}
+        {use_javascript src="bootstrap-typeahead.js"}
+        {use_javascript src="tmpl.min.js"}
+        {use_javascript src="/swiper-slider/js/swiper.jquery.min.js"}
+
+        {use_stylesheet src="style.css" position="first"}
+        {use_stylesheet src="theme.css" position="first"}
+        {use_stylesheet src="theme_editor.css" position="first"}
+        {use_stylesheet src="lightGallery.css" position="first"}
+        {use_stylesheet src="bootstrap-slider.css" position="first"}
+        {use_stylesheet src="/swiper-slider/css/swiper.min.css"}
+
+        {include_meta}
+        <link href="/bootstrap/css/bootstrap.min.css?v320" rel="stylesheet" type="text/css" />
+        {include_stylesheets minify="true"}
+        {include_javascripts minify="true"}
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        {include_file id="_fonts"}
+        {if $is_mobile}
+            <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+            {literal}
+            <style type="text/css">
+                .caption .name, .card h1, #product-navbar h1, .title h1, .card .product-label h2, .caption .product-label, header .horizontal-categories > li > a, .category h2, .dropdown-menu > li > a
+                {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: 400;
+                }
+                h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+                    font-family: 'Roboto Condensed', sans-serif;
+                }
+            </style> 
+            {/literal}
+        {/if}
+
+        {literal}
+        <!--[if IE 9]>
+        <style type="text/css">
+            select.form-control
+            {
+                padding-right: 0;
+                background-image: none;
+            }
+        </style> 
+        <![endif]-->
+
+        <script type="text/javascript">    
+        //<![CDATA[
+        jQuery(function($) {
+            $(document).ready(function(){
+                $('body [data-equalizer]').equalizer({ use_tallest: true });
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#toTop').fadeIn();
+                    } else {
+                        $('#toTop').fadeOut();
+                    }
+                });
+                $('#toTop').click(function () {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 300);
+                    return false;
+                });
+
+                var scroll = false;
+                var $window = $(window);
+                $window.scroll(function() {
+                    scroll = true;
+                });
+                setInterval(function() {
+                    if (scroll) {
+                        if($window.scrollTop() + $window.height() >= $(document).height()-250) {
+                            $('#phone-call').show()
+                        }else{
+                            $('#phone-call').hide()
+                        }
+                        scroll = false;
+                    }
+                }, 255);
+
+                $('#nav-button-search.collapsed').click(function() {
+                    setTimeout(function(){ 
+                        $('#nav-search .form-control').focus();
+                    }, 300);
+                });
+            });
+        });
+        //]]>
+        </script> 
+        {/literal}
+        {st_get_component module="stGoogleAnalyticsFrontend" component="standard"}  
+        {slot name="before-head-ends" hidden="true"}{/slot}
+   </head>
+   <body>
+        {slot name="base-header" hidden="true"}{/slot} 
+        {render_layout default="one_column"}
+        {slot name="base-footer" hidden="true"}{/slot}
+        {if $shopinfo->get('phone') && $shopinfo->get('show_phone')}
+            <a id="phone-call" href="tel:{$shopinfo->get('phone')}"><span class="glyphicon glyphicon-earphone"></span></a> 
+        {/if}
+        <a href="#" id="toTop"><span class="glyphicon glyphicon-arrow-up"></span></a>
+   </body>
+</html>

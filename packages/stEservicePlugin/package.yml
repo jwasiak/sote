@@ -1,0 +1,16 @@
+package:
+  name: stEservicePlugin
+  stability: stable
+  version: 7.1.0.13
+  summary: eService
+  description: 'Konfiguracja platnosci eService'
+  notes: |
+    - Dostosowanie do API wersji 2.4.3
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 2.0.0.3
+    stConfigurationPlugin: 2.0.0

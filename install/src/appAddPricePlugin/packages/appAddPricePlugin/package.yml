@@ -1,0 +1,16 @@
+---
+package: 
+  name: appAddPricePlugin
+  stability: stable
+  version: 7.0.0.1
+  summary: Dodatkowe ceny
+  description: Dodatkowe ceny
+  notes: |
+     - Poprakwa czyszczenia pamieci podrecznej sklepu
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    soteshop_base: 6.0.0

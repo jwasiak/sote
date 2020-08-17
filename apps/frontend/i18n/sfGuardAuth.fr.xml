@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2010-11-04T02:50:41Z">
+		<body>
+			<trans-unit id="1">
+				<source>Nie masz wystarczających uprawnień aby oglądać tą stronę</source>
+				<target>Vos permissions ne sont pas suffisantes pour afficher cette page</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Edytor grafiki</source>
+				<target>Éditeur de graphique</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zaloguj się podając dane dostępowe do panelu administracyjnego.</source>
+				<target>Connectez-vous en saisissant les données d’accès au panneau d’administrateur.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Użytkownik</source>
+				<target>Utilisateur</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Hasło</source>
+				<target>Mot de passe</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Zaloguj</source>
+				<target>Se connecter</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Proszę podać nazwę użytkownika</source>
+				<target>Veuillez saisir le nom de l’utilisateur</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Proszę podać hasło</source>
+				<target>Veuillez saisir le mot de passe</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Proszę podać poprawną nazwę użytkownika i hasło</source>
+				<target>Veuillez saisir le nom de l’utilisateur correct et le mot de passe</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

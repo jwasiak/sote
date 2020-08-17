@@ -1,0 +1,42 @@
+#main_baner .images
+{
+    position:relative;
+    height:170px;
+    width:100%;
+    float:left;
+}
+
+#main_baner .images div
+{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    height:166px;
+}
+
+#main_baner .slidetabs
+{
+    clear:both;
+}
+
+#main_baner .slidetabs a
+{
+    width:8px;
+    height:8px;
+    margin-right:3px;
+    float:left;
+    background:url(/images/frontend/theme/default2/navigator.png) 0 0 no-repeat;
+    display:block;
+    font-size:1px;
+}
+
+#main_baner .slidetabs a:hover
+{
+    background-position:0 -8px;
+}
+
+#main_baner .slidetabs a.current
+{
+    background-position:0 -16px;
+}

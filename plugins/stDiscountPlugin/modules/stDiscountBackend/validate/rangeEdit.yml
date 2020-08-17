@@ -1,0 +1,12 @@
+fields:
+    discount_range{total_value}:
+        required:
+            msg:        Proszę podać warość progu rabatowego
+        sfNumberValidator:
+            nan_error:  Proszę podać wartość liczbową
+            min:        0
+            min_error:  Minimalna wartość progu rabatowego to 0
+        sfPropelUniqueValidator:
+            class:      DiscountRange
+            column:     total_value
+            unique_error: Podana wartość progowa już występuję, proszę podać inną wartość.

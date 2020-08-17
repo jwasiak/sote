@@ -1,0 +1,1068 @@
+CountriesI18n:
+  CountriesI18n_zh_1:
+    id: Countries_1
+    culture: zh
+    name: 阿尔巴尼亚
+  CountriesI18n_zh_2:
+    id: Countries_2
+    culture: zh
+    name: 安道​​尔
+  CountriesI18n_zh_3:
+    id: Countries_3
+    culture: zh
+    name: 亚美尼亚
+  CountriesI18n_zh_4:
+    id: Countries_4
+    culture: zh
+    name: 奥地利
+  CountriesI18n_zh_5:
+    id: Countries_5
+    culture: zh
+    name: 阿塞拜疆
+  CountriesI18n_zh_6:
+    id: Countries_6
+    culture: zh
+    name: 白俄罗斯
+  CountriesI18n_zh_7:
+    id: Countries_7
+    culture: zh
+    name: 比利时
+  CountriesI18n_zh_8:
+    id: Countries_8
+    culture: zh
+    name: 波斯尼亚和黑塞哥维那
+  CountriesI18n_zh_9:
+    id: Countries_9
+    culture: zh
+    name: 保加利亚
+  CountriesI18n_zh_10:
+    id: Countries_10
+    culture: zh
+    name: 克罗地亚
+  CountriesI18n_zh_11:
+    id: Countries_11
+    culture: zh
+    name: 塞浦路斯
+  CountriesI18n_zh_12:
+    id: Countries_12
+    culture: zh
+    name: 捷克共和国
+  CountriesI18n_zh_13:
+    id: Countries_13
+    culture: zh
+    name: 丹麦
+  CountriesI18n_zh_14:
+    id: Countries_14
+    culture: zh
+    name: 爱沙尼亚
+  CountriesI18n_zh_15:
+    id: Countries_15
+    culture: zh
+    name: 芬兰
+  CountriesI18n_zh_16:
+    id: Countries_16
+    culture: zh
+    name: 法国
+  CountriesI18n_zh_17:
+    id: Countries_17
+    culture: zh
+    name: 格鲁吉亚
+  CountriesI18n_zh_18:
+    id: Countries_18
+    culture: zh
+    name: 德国
+  CountriesI18n_zh_19:
+    id: Countries_19
+    culture: zh
+    name: 希腊
+  CountriesI18n_zh_20:
+    id: Countries_20
+    culture: zh
+    name: 匈牙利
+  CountriesI18n_zh_21:
+    id: Countries_21
+    culture: zh
+    name: 冰岛
+  CountriesI18n_zh_22:
+    id: Countries_22
+    culture: zh
+    name: 爱尔兰
+  CountriesI18n_zh_23:
+    id: Countries_23
+    culture: zh
+    name: 意大利
+  CountriesI18n_zh_24:
+    id: Countries_24
+    culture: zh
+    name: 哈萨克斯坦
+  CountriesI18n_zh_25:
+    id: Countries_25
+    culture: zh
+    name: 拉脱维亚
+  CountriesI18n_zh_26:
+    id: Countries_26
+    culture: zh
+    name: 列支敦士登
+  CountriesI18n_zh_27:
+    id: Countries_27
+    culture: zh
+    name: 立陶宛
+  CountriesI18n_zh_28:
+    id: Countries_28
+    culture: zh
+    name: 卢森堡
+  CountriesI18n_zh_29:
+    id: Countries_29
+    culture: zh
+    name: 马其顿
+  CountriesI18n_zh_30:
+    id: Countries_30
+    culture: zh
+    name: 马耳他
+  CountriesI18n_zh_31:
+    id: Countries_31
+    culture: zh
+    name: 摩尔多瓦
+  CountriesI18n_zh_32:
+    id: Countries_32
+    culture: zh
+    name: 摩纳哥
+  CountriesI18n_zh_33:
+    id: Countries_33
+    culture: zh
+    name: 黑山
+  CountriesI18n_zh_34:
+    id: Countries_34
+    culture: zh
+    name: 荷兰
+  CountriesI18n_zh_35:
+    id: Countries_35
+    culture: zh
+    name: 挪威
+  CountriesI18n_zh_36:
+    id: Countries_36
+    culture: zh
+    name: 波兰
+  CountriesI18n_zh_37:
+    id: Countries_37
+    culture: zh
+    name: 葡萄牙
+  CountriesI18n_zh_38:
+    id: Countries_38
+    culture: zh
+    name: 罗马尼亚
+  CountriesI18n_zh_39:
+    id: Countries_39
+    culture: zh
+    name: 俄国
+  CountriesI18n_zh_40:
+    id: Countries_40
+    culture: zh
+    name: 圣马力诺
+  CountriesI18n_zh_41:
+    id: Countries_41
+    culture: zh
+    name: 塞尔维亚
+  CountriesI18n_zh_42:
+    id: Countries_42
+    culture: zh
+    name: 斯洛伐克
+  CountriesI18n_zh_43:
+    id: Countries_43
+    culture: zh
+    name: 斯洛文尼亚
+  CountriesI18n_zh_44:
+    id: Countries_44
+    culture: zh
+    name: 西班牙
+  CountriesI18n_zh_45:
+    id: Countries_45
+    culture: zh
+    name: 瑞典
+  CountriesI18n_zh_46:
+    id: Countries_46
+    culture: zh
+    name: 瑞士
+  CountriesI18n_zh_47:
+    id: Countries_47
+    culture: zh
+    name: 土耳其
+  CountriesI18n_zh_48:
+    id: Countries_48
+    culture: zh
+    name: 乌克兰
+  CountriesI18n_zh_49:
+    id: Countries_49
+    culture: zh
+    name: 联合王国
+  CountriesI18n_zh_50:
+    id: Countries_50
+    culture: zh
+    name: 教廷
+  CountriesI18n_zh_51:
+    id: Countries_51
+    culture: zh
+    name: 奥兰群岛
+  CountriesI18n_zh_52:
+    id: Countries_52
+    culture: zh
+    name: 法罗群岛
+  CountriesI18n_zh_53:
+    id: Countries_53
+    culture: zh
+    name: 直布罗陀
+  CountriesI18n_zh_54:
+    id: Countries_54
+    culture: zh
+    name: 格陵兰
+  CountriesI18n_zh_55:
+    id: Countries_55
+    culture: zh
+    name: 安提瓜和巴布达
+  CountriesI18n_zh_56:
+    id: Countries_56
+    culture: zh
+    name: 巴哈马
+  CountriesI18n_zh_57:
+    id: Countries_57
+    culture: zh
+    name: 巴巴多斯
+  CountriesI18n_zh_58:
+    id: Countries_58
+    culture: zh
+    name: 伯利兹
+  CountriesI18n_zh_59:
+    id: Countries_59
+    culture: zh
+    name: 多米尼加
+  CountriesI18n_zh_60:
+    id: Countries_60
+    culture: zh
+    name: 多米尼加共和国
+  CountriesI18n_zh_61:
+    id: Countries_61
+    culture: zh
+    name: 格林纳达
+  CountriesI18n_zh_62:
+    id: Countries_62
+    culture: zh
+    name: 危地马拉
+  CountriesI18n_zh_63:
+    id: Countries_63
+    culture: zh
+    name: 海地
+  CountriesI18n_zh_64:
+    id: Countries_64
+    culture: zh
+    name: 洪都拉斯
+  CountriesI18n_zh_65:
+    id: Countries_65
+    culture: zh
+    name: 牙买加
+  CountriesI18n_zh_66:
+    id: Countries_66
+    culture: zh
+    name: 加拿大
+  CountriesI18n_zh_67:
+    id: Countries_67
+    culture: zh
+    name: 哥斯达黎加
+  CountriesI18n_zh_68:
+    id: Countries_68
+    culture: zh
+    name: 古巴
+  CountriesI18n_zh_69:
+    id: Countries_69
+    culture: zh
+    name: 墨西哥
+  CountriesI18n_zh_70:
+    id: Countries_70
+    culture: zh
+    name: 尼加拉瓜
+  CountriesI18n_zh_71:
+    id: Countries_71
+    culture: zh
+    name: 巴拿马
+  CountriesI18n_zh_72:
+    id: Countries_72
+    culture: zh
+    name: 波多黎各
+  CountriesI18n_zh_73:
+    id: Countries_73
+    culture: zh
+    name: 圣基茨和尼维斯
+  CountriesI18n_zh_74:
+    id: Countries_74
+    culture: zh
+    name: 圣卢西亚
+  CountriesI18n_zh_75:
+    id: Countries_75
+    culture: zh
+    name: 圣文森特和格林纳丁斯
+  CountriesI18n_zh_76:
+    id: Countries_76
+    culture: zh
+    name: 萨尔瓦多
+  CountriesI18n_zh_77:
+    id: Countries_77
+    culture: zh
+    name: 美国
+  CountriesI18n_zh_78:
+    id: Countries_78
+    culture: zh
+    name: 特里尼达和多巴哥
+  CountriesI18n_zh_79:
+    id: Countries_79
+    culture: zh
+    name: 安圭拉
+  CountriesI18n_zh_80:
+    id: Countries_80
+    culture: zh
+    name: 荷属安的列斯群岛
+  CountriesI18n_zh_81:
+    id: Countries_81
+    culture: zh
+    name: 阿鲁巴
+  CountriesI18n_zh_82:
+    id: Countries_82
+    culture: zh
+    name: 百慕大
+  CountriesI18n_zh_83:
+    id: Countries_83
+    culture: zh
+    name: 英属维尔京群岛
+  CountriesI18n_zh_84:
+    id: Countries_84
+    culture: zh
+    name: 瓜德罗普岛
+  CountriesI18n_zh_85:
+    id: Countries_85
+    culture: zh
+    name: 开曼群岛
+  CountriesI18n_zh_86:
+    id: Countries_86
+    culture: zh
+    name: 马提尼克岛
+  CountriesI18n_zh_87:
+    id: Countries_87
+    culture: zh
+    name: 蒙特塞拉特
+  CountriesI18n_zh_88:
+    id: Countries_88
+    culture: zh
+    name: 圣 - 皮埃尔·我密克隆岛
+  CountriesI18n_zh_89:
+    id: Countries_89
+    culture: zh
+    name: 特克斯和凯科斯群岛
+  CountriesI18n_zh_90:
+    id: Countries_90
+    culture: zh
+    name: 英属维尔京群岛（中美)
+  CountriesI18n_zh_91:
+    id: Countries_91
+    culture: zh
+    name: 阿根廷
+  CountriesI18n_zh_92:
+    id: Countries_92
+    culture: zh
+    name: 玻利维亚
+  CountriesI18n_zh_93:
+    id: Countries_93
+    culture: zh
+    name: 巴西
+  CountriesI18n_zh_94:
+    id: Countries_94
+    culture: zh
+    name: 智利
+  CountriesI18n_zh_95:
+    id: Countries_95
+    culture: zh
+    name: 哥伦比亚
+  CountriesI18n_zh_96:
+    id: Countries_96
+    culture: zh
+    name: 厄瓜多尔
+  CountriesI18n_zh_97:
+    id: Countries_97
+    culture: zh
+    name: 福克兰群岛
+  CountriesI18n_zh_98:
+    id: Countries_98
+    culture: zh
+    name: 法属圭亚那
+  CountriesI18n_zh_99:
+    id: Countries_99
+    culture: zh
+    name: 圭亚那
+  CountriesI18n_zh_100:
+    id: Countries_100
+    culture: zh
+    name: 巴拉圭
+  CountriesI18n_zh_101:
+    id: Countries_101
+    culture: zh
+    name: 秘鲁
+  CountriesI18n_zh_102:
+    id: Countries_102
+    culture: zh
+    name: 南乔治亚岛和南桑威奇群岛
+  CountriesI18n_zh_103:
+    id: Countries_103
+    culture: zh
+    name: 苏里南
+  CountriesI18n_zh_104:
+    id: Countries_104
+    culture: zh
+    name: 乌拉圭
+  CountriesI18n_zh_105:
+    id: Countries_105
+    culture: zh
+    name: 委内瑞拉
+  CountriesI18n_zh_106:
+    id: Countries_106
+    culture: zh
+    name: 澳大利亚
+  CountriesI18n_zh_107:
+    id: Countries_107
+    culture: zh
+    name: 新西兰
+  CountriesI18n_zh_108:
+    id: Countries_108
+    culture: zh
+    name: 圣诞岛
+  CountriesI18n_zh_109:
+    id: Countries_109
+    culture: zh
+    name: 科科斯（基灵群岛)
+  CountriesI18n_zh_110:
+    id: Countries_110
+    culture: zh
+    name: 诺福克岛
+  CountriesI18n_zh_111:
+    id: Countries_111
+    culture: zh
+    name: 斐
+  CountriesI18n_zh_112:
+    id: Countries_112
+    culture: zh
+    name: 新喀里多尼亚
+  CountriesI18n_zh_113:
+    id: Countries_113
+    culture: zh
+    name: 巴布亚新几内亚
+  CountriesI18n_zh_114:
+    id: Countries_114
+    culture: zh
+    name: 索罗门群岛
+  CountriesI18n_zh_115:
+    id: Countries_115
+    culture: zh
+    name: 瓦努阿图
+  CountriesI18n_zh_116:
+    id: Countries_116
+    culture: zh
+    name: 密克罗尼西亚联邦
+  CountriesI18n_zh_117:
+    id: Countries_117
+    culture: zh
+    name: 关岛
+  CountriesI18n_zh_118:
+    id: Countries_118
+    culture: zh
+    name: 基里巴斯
+  CountriesI18n_zh_119:
+    id: Countries_119
+    culture: zh
+    name: 马绍尔群岛
+  CountriesI18n_zh_120:
+    id: Countries_120
+    culture: zh
+    name: 瑙鲁
+  CountriesI18n_zh_121:
+    id: Countries_121
+    culture: zh
+    name: 北马里亚纳群岛
+  CountriesI18n_zh_122:
+    id: Countries_122
+    culture: zh
+    name: 帕劳
+  CountriesI18n_zh_123:
+    id: Countries_123
+    culture: zh
+    name: 美属萨摩亚
+  CountriesI18n_zh_124:
+    id: Countries_124
+    culture: zh
+    name: 库克群岛
+  CountriesI18n_zh_125:
+    id: Countries_125
+    culture: zh
+    name: 法属波利尼西亚
+  CountriesI18n_zh_126:
+    id: Countries_126
+    culture: zh
+    name: 纽埃
+  CountriesI18n_zh_127:
+    id: Countries_127
+    culture: zh
+    name: 皮特凯恩群岛
+  CountriesI18n_zh_128:
+    id: Countries_128
+    culture: zh
+    name: 萨摩亚
+  CountriesI18n_zh_129:
+    id: Countries_129
+    culture: zh
+    name: 托克劳
+  CountriesI18n_zh_130:
+    id: Countries_130
+    culture: zh
+    name: 汤加
+  CountriesI18n_zh_131:
+    id: Countries_131
+    culture: zh
+    name: 图瓦卢
+  CountriesI18n_zh_132:
+    id: Countries_132
+    culture: zh
+    name: 瓦利斯群岛和富图纳群岛
+  CountriesI18n_zh_133:
+    id: Countries_133
+    culture: zh
+    name: 南极洲
+  CountriesI18n_zh_134:
+    id: Countries_134
+    culture: zh
+    name: 阿富汗
+  CountriesI18n_zh_135:
+    id: Countries_135
+    culture: zh
+    name: 巴林
+  CountriesI18n_zh_136:
+    id: Countries_136
+    culture: zh
+    name: 孟加拉国
+  CountriesI18n_zh_137:
+    id: Countries_137
+    culture: zh
+    name: 不丹
+  CountriesI18n_zh_138:
+    id: Countries_138
+    culture: zh
+    name: 文莱
+  CountriesI18n_zh_139:
+    id: Countries_139
+    culture: zh
+    name: 柬埔寨
+  CountriesI18n_zh_140:
+    id: Countries_140
+    culture: zh
+    name: 中国
+  CountriesI18n_zh_141:
+    id: Countries_141
+    culture: zh
+    name: 香港
+  CountriesI18n_zh_142:
+    id: Countries_142
+    culture: zh
+    name: 印度
+  CountriesI18n_zh_143:
+    id: Countries_143
+    culture: zh
+    name: 印尼
+  CountriesI18n_zh_144:
+    id: Countries_144
+    culture: zh
+    name: 伊朗
+  CountriesI18n_zh_145:
+    id: Countries_145
+    culture: zh
+    name: 伊拉克
+  CountriesI18n_zh_146:
+    id: Countries_146
+    culture: zh
+    name: 以色列
+  CountriesI18n_zh_147:
+    id: Countries_147
+    culture: zh
+    name: 日本
+  CountriesI18n_zh_148:
+    id: Countries_148
+    culture: zh
+    name: 约旦
+  CountriesI18n_zh_149:
+    id: Countries_149
+    culture: zh
+    name: 北朝鲜
+  CountriesI18n_zh_150:
+    id: Countries_150
+    culture: zh
+    name: 韩国
+  CountriesI18n_zh_151:
+    id: Countries_151
+    culture: zh
+    name: 科威特
+  CountriesI18n_zh_152:
+    id: Countries_152
+    culture: zh
+    name: 吉尔吉斯斯坦
+  CountriesI18n_zh_153:
+    id: Countries_153
+    culture: zh
+    name: 老挝
+  CountriesI18n_zh_154:
+    id: Countries_154
+    culture: zh
+    name: 黎巴嫩
+  CountriesI18n_zh_155:
+    id: Countries_155
+    culture: zh
+    name: 澳门
+  CountriesI18n_zh_156:
+    id: Countries_156
+    culture: zh
+    name: 马来西亚
+  CountriesI18n_zh_157:
+    id: Countries_157
+    culture: zh
+    name: 马尔代夫
+  CountriesI18n_zh_158:
+    id: Countries_158
+    culture: zh
+    name: 蒙古
+  CountriesI18n_zh_159:
+    id: Countries_159
+    culture: zh
+    name: 缅甸
+  CountriesI18n_zh_160:
+    id: Countries_160
+    culture: zh
+    name: 尼泊尔
+  CountriesI18n_zh_161:
+    id: Countries_161
+    culture: zh
+    name: 阿曼
+  CountriesI18n_zh_162:
+    id: Countries_162
+    culture: zh
+    name: 巴基斯坦
+  CountriesI18n_zh_163:
+    id: Countries_163
+    culture: zh
+    name: 巴勒斯坦民族权力机构
+  CountriesI18n_zh_164:
+    id: Countries_164
+    culture: zh
+    name: 菲律宾
+  CountriesI18n_zh_165:
+    id: Countries_165
+    culture: zh
+    name: 卡塔尔
+  CountriesI18n_zh_166:
+    id: Countries_166
+    culture: zh
+    name: 沙特阿拉伯
+  CountriesI18n_zh_167:
+    id: Countries_167
+    culture: zh
+    name: 新加坡
+  CountriesI18n_zh_168:
+    id: Countries_168
+    culture: zh
+    name: 斯里兰卡
+  CountriesI18n_zh_169:
+    id: Countries_169
+    culture: zh
+    name: 叙利亚
+  CountriesI18n_zh_170:
+    id: Countries_170
+    culture: zh
+    name: 台湾
+  CountriesI18n_zh_171:
+    id: Countries_171
+    culture: zh
+    name: 塔吉克斯坦
+  CountriesI18n_zh_172:
+    id: Countries_172
+    culture: zh
+    name: 泰国
+  CountriesI18n_zh_173:
+    id: Countries_173
+    culture: zh
+    name: 东帝汶
+  CountriesI18n_zh_174:
+    id: Countries_174
+    culture: zh
+    name: 土库曼斯坦
+  CountriesI18n_zh_175:
+    id: Countries_175
+    culture: zh
+    name: 阿拉伯联合大公国
+  CountriesI18n_zh_176:
+    id: Countries_176
+    culture: zh
+    name: 乌兹别克斯坦
+  CountriesI18n_zh_177:
+    id: Countries_177
+    culture: zh
+    name: 越南
+  CountriesI18n_zh_178:
+    id: Countries_178
+    culture: zh
+    name: 也门
+  CountriesI18n_zh_179:
+    id: Countries_179
+    culture: zh
+    name: 阿尔及利亚
+  CountriesI18n_zh_180:
+    id: Countries_180
+    culture: zh
+    name: 安哥拉
+  CountriesI18n_zh_181:
+    id: Countries_181
+    culture: zh
+    name: 贝宁
+  CountriesI18n_zh_182:
+    id: Countries_182
+    culture: zh
+    name: 博茨瓦纳
+  CountriesI18n_zh_183:
+    id: Countries_183
+    culture: zh
+    name: 布基纳法索
+  CountriesI18n_zh_184:
+    id: Countries_184
+    culture: zh
+    name: 布隆迪
+  CountriesI18n_zh_185:
+    id: Countries_185
+    culture: zh
+    name: 喀麦隆
+  CountriesI18n_zh_186:
+    id: Countries_186
+    culture: zh
+    name: 佛得角
+  CountriesI18n_zh_187:
+    id: Countries_187
+    culture: zh
+    name: 中非共和国
+  CountriesI18n_zh_188:
+    id: Countries_188
+    culture: zh
+    name: 乍得
+  CountriesI18n_zh_189:
+    id: Countries_189
+    culture: zh
+    name: 科摩罗
+  CountriesI18n_zh_190:
+    id: Countries_190
+    culture: zh
+    name: 刚果民主共和国
+  CountriesI18n_zh_191:
+    id: Countries_191
+    culture: zh
+    name: 刚果民主共和国
+  CountriesI18n_zh_192:
+    id: Countries_192
+    culture: zh
+    name: 科特迪瓦科特迪瓦
+  CountriesI18n_zh_193:
+    id: Countries_193
+    culture: zh
+    name: 吉布提
+  CountriesI18n_zh_194:
+    id: Countries_194
+    culture: zh
+    name: 埃及
+  CountriesI18n_zh_195:
+    id: Countries_195
+    culture: zh
+    name: 赤道几内亚
+  CountriesI18n_zh_196:
+    id: Countries_196
+    culture: zh
+    name: 厄立特里亚
+  CountriesI18n_zh_197:
+    id: Countries_197
+    culture: zh
+    name: 埃塞俄比亚
+  CountriesI18n_zh_198:
+    id: Countries_198
+    culture: zh
+    name: 加蓬
+  CountriesI18n_zh_199:
+    id: Countries_199
+    culture: zh
+    name: 冈比亚
+  CountriesI18n_zh_200:
+    id: Countries_200
+    culture: zh
+    name: 加纳
+  CountriesI18n_zh_201:
+    id: Countries_201
+    culture: zh
+    name: 几内亚
+  CountriesI18n_zh_202:
+    id: Countries_202
+    culture: zh
+    name: 几内亚比绍
+  CountriesI18n_zh_203:
+    id: Countries_203
+    culture: zh
+    name: 肯尼亚
+  CountriesI18n_zh_204:
+    id: Countries_204
+    culture: zh
+    name: 莱索托
+  CountriesI18n_zh_205:
+    id: Countries_205
+    culture: zh
+    name: 利比里亚
+  CountriesI18n_zh_206:
+    id: Countries_206
+    culture: zh
+    name: 利比亚
+  CountriesI18n_zh_207:
+    id: Countries_207
+    culture: zh
+    name: 马达加斯加
+  CountriesI18n_zh_208:
+    id: Countries_208
+    culture: zh
+    name: 马拉维
+  CountriesI18n_zh_209:
+    id: Countries_209
+    culture: zh
+    name: 马里
+  CountriesI18n_zh_210:
+    id: Countries_210
+    culture: zh
+    name: 毛里塔尼亚
+  CountriesI18n_zh_211:
+    id: Countries_211
+    culture: zh
+    name: 毛里求斯
+  CountriesI18n_zh_212:
+    id: Countries_212
+    culture: zh
+    name: 摩洛哥
+  CountriesI18n_zh_213:
+    id: Countries_213
+    culture: zh
+    name: 莫桑比克
+  CountriesI18n_zh_214:
+    id: Countries_214
+    culture: zh
+    name: 纳米比亚
+  CountriesI18n_zh_215:
+    id: Countries_215
+    culture: zh
+    name: 尼日尔
+  CountriesI18n_zh_216:
+    id: Countries_216
+    culture: zh
+    name: 尼日利亚
+  CountriesI18n_zh_217:
+    id: Countries_217
+    culture: zh
+    name: 卢旺达
+  CountriesI18n_zh_218:
+    id: Countries_218
+    culture: zh
+    name: 圣多美和普林西比
+  CountriesI18n_zh_219:
+    id: Countries_219
+    culture: zh
+    name: 塞内加尔
+  CountriesI18n_zh_220:
+    id: Countries_220
+    culture: zh
+    name: 塞舌尔
+  CountriesI18n_zh_221:
+    id: Countries_221
+    culture: zh
+    name: 塞拉利昂
+  CountriesI18n_zh_2222:
+    id: Countries_222
+    culture: zh
+    name: 南非
+  CountriesI18n_zh_223:
+    id: Countries_223
+    culture: zh
+    name: 苏丹
+  CountriesI18n_zh_224:
+    id: Countries_224
+    culture: zh
+    name: 斯威士兰
+  CountriesI18n_zh_225:
+    id: Countries_225
+    culture: zh
+    name: 坦桑尼亚
+  CountriesI18n_zh_226:
+    id: Countries_226
+    culture: zh
+    name: 多哥
+  CountriesI18n_zh_227:
+    id: Countries_227
+    culture: zh
+    name: 突尼斯
+  CountriesI18n_zh_228:
+    id: Countries_228
+    culture: zh
+    name: 乌干达
+  CountriesI18n_zh_229:
+    id: Countries_229
+    culture: zh
+    name: 赞比亚
+  CountriesI18n_zh_230:
+    id: Countries_230
+    culture: zh
+    name: 津巴布韦
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_zh_1: 
+    id: PaymentType_1
+    culture: zh
+    name: 现金
+  PaymentTypeI18n_zh_2: 
+    id: PaymentType_2
+    culture: zh
+    name: 银行转账付款
+    summary_description:  >
+      请发送到下面的帐号<br />
+      {BANK}。<br />
+      在相应的字段请输入：订单号{NUMBER}付款。<br />
+      如有疑问，请致电{PHONE}<br />
+      或发邮件至{EMAIL}。
+  PaymentTypeI18n_zh_3: 
+    id: PaymentType_7
+    culture: zh
+    name: Moneybookers
+    description: 银行转账或信用卡付款
+
+AvailabilityI18n:
+  AvailabilityI18n_zh_1:
+    id: Availability_1
+    culture: zh
+    availability_name: 无
+  AvailabilityI18n_zh_2:
+    id: Availability_2
+    culture: zh 
+    availability_name: 有货
+
+DeliveryI18n:
+  DeliveryI18n_zh_1:
+    id: Delivery_1
+    culture: zh
+    name: 自己收集
+  DeliveryI18n_zh_2:
+    id: Delivery_2
+    culture: zh
+    name: 邮寄
+
+MailDescriptionI18n:
+  MailDescriptionI18n_zh_1:
+    id: MailDescription_1
+    culture: zh
+    description:
+    name: 通用页头
+  MailDescriptionI18n_zh_2:
+    id: MailDescription_2
+    culture: zh
+    description:
+    name: 通用页脚
+  MailDescriptionI18n_zh_3:
+    id: MailDescription_3
+    culture: zh
+    description: >
+      您的帐户已建立。请用下面的信息以登录顾客帐户。
+    name: 顾客 - 新帐户 - 页头
+  MailDescriptionI18n_zh_4:
+    id: MailDescription_4
+    culture: zh
+    description: >
+      <span style='color: #ff0000;'>请确认注册以便激活帐户。</span><br /><br/>我们欢迎您来了解商店所提供的产品和服务信息。
+    name: 顾客 - 新帐户 - 页脚
+  MailDescriptionI18n_zh_5:
+    id: MailDescription_5
+    culture: zh
+    description:
+    name: 顾客-密码提醒- 页头
+  MailDescriptionI18n_zh_6:
+    id: MailDescription_6
+    culture: zh
+    description: >
+      如果您想修改密码请登录顾客面板。<br />
+    name: 顾客-密码提醒 - 页脚
+  MailDescriptionI18n_zh_7:
+    id: MailDescription_7
+    culture: zh
+    description: >
+      谢谢您的订单。<br />
+    name: 订单- 订单信息- 页头
+  MailDescriptionI18n_zh_8:
+    id: MailDescription_8
+    culture: zh
+    description: >
+      谢谢您在该网店购物。您的订单将尽快处理。<br />
+    name: 订单- 订单信息- 页脚
+  MailDescriptionI18n_zh_9:
+    id: MailDescription_9
+    culture: zh
+    description: >
+      您订单的状态有变化。当前的订单状态是： {ORDER_STATUS}
+    name: 订单- 状态变化- 页头
+  MailDescriptionI18n_zh_10:
+    id: MailDescription_10
+    culture: zh
+    description:
+    name: 订单- 状态变化-页脚
+  MailDescriptionI18n_zh_11:
+    id: MailDescription_11
+    culture: zh
+    description:
+    name: 合作伙伴 - 验证数据 - 页头
+  MailDescriptionI18n_zh_12:
+    id: MailDescription_12
+    culture: zh
+    description:
+    name: 合作伙伴 - 验证数据 - 页脚
+  MailDescriptionI18n_zh_13:
+    id: MailDescription_13
+    culture: zh
+    description: >
+      尊敬的 {USER},<br /><br />谢谢您来我们的网店 {SHOP}。<br /><br />相关产品查询：<br /><br />
+    name: 询问- 答案- 页头
+  MailDescriptionI18n_zh_14:
+    id: MailDescription_14
+    culture: zh
+    description: >
+      <div style='margin-top: 20px; font-size: 12px'>希望我们提供的产品信息对您有用。<br /><br />欢迎您访问我们网店 {SHOP}</div>
+    name: 询问- 答案- 页脚
+
+NewsletterGroupI18n:
+  NewsletterGroupI18n_zh_1:
+    id: NewsletterGroup_1
+    culture: zh
+    name: 新闻
+    description: >
+      <p>填写您的邮箱并订阅新闻信息，您就可以及时了解到本店所有产品的最新信息。</p>
+  NewsletterGroupI18n_zh_2:
+    id: NewsletterGroup_2
+    culture: zh
+    name:  促销活动
+    description: >
+      <p>填写您的邮箱并订阅促销活动信息，您就可以了解到本店对一些产品的促销活动。</p>
+  NewsletterGroupI18n_zh_3:
+    id: NewsletterGroup_3
+    culture: zh
+    name: 俱乐部
+    description: >
+      <p>填写您的邮箱并订阅俱乐部信息，您就可以成为俱乐部的会员并参加商店活动与特别促销活动。</p>
+  NewsletterGroupI18n_zh_4:
+    id: NewsletterGroup_4
+    culture: zh
+    name: 通讯
+    description: >
+      <p>已注册的顾客</p>

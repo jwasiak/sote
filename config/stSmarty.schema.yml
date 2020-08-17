@@ -1,0 +1,66 @@
+propel:
+    st_smarty_slot:
+        _attributes:    { phpName: SmartySlot }
+        id: 
+            type: INTEGER
+            primaryKey: true
+            required: true
+            autoIncrement: true 
+        name:
+            type: VARCHAR
+            size: 48
+            required: true     
+        theme_id:
+            type: INTEGER
+            foreignTable: st_theme
+            foreignReference: id
+            onDelete: cascade  
+        _uniques:
+            name_idx:   [name, theme_id]
+
+    st_smarty_slot_content:
+        _attributes:    { phpName: SmartySlotContent }
+        id: 
+            type: INTEGER
+            primaryKey: true
+            required: true     
+        slot_id:
+            type: INTEGER
+            primaryKey: true
+            foreignTable: st_smarty_slot
+            foreignReference: id
+            onDelete: cascade
+        is_active:
+            type: BOOLEAN
+            required: true
+            default: true
+        hash:
+            type: VARCHAR
+            size: 128
+            required: true            
+        content:
+            type: LONGVARCHAR
+            phpType: array
+            required: true
+        _indexes:
+            hash_idx:   [hash]
+
+    st_smarty_content_block:
+        _attributes:  { phpName: SmartyContentBlock }
+        name:
+            primaryKey: true
+            type: VARCHAR
+            size: 48
+            required: true
+        opt_culture:
+            primaryKey: true
+            type: VARCHAR
+            size: 5
+            required: true            
+        type:
+            type: VARCHAR
+            size: 6
+            required: true
+        content:
+            type: LONGVARCHAR
+            phpType: array

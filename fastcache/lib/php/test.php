@@ -1,0 +1,1 @@
+<?php echo "Fast cache test code: ".rand(1,100);?>

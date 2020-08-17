@@ -1,0 +1,7 @@
+fields:
+    attribute_template{name}:
+        required:
+            msg: Atrybut musi posiadać nazwę.
+        sfStringValidator:
+            max: 50
+            max_error: Proszę skrócić nazwę atrybutu.

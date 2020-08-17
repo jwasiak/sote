@@ -1,0 +1,18 @@
+#sf_admin_container .st_record_list .st_row-highlight td
+{
+    background-color: transparent;
+}
+
+#sf_admin_container .st_record_list .st_row-highlight
+{
+    background-color: #F0F4F7;
+}
+
+.time input
+{
+    width:30px;
+}
+
+.row_edit_paczkomaty {
+    display: none;
+}

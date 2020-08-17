@@ -1,0 +1,59 @@
+<div class="reviews">    
+    
+    {if $results|@count >= 1}
+
+        {foreach key=row item=review from=$results}
+            {if isset($review.show_review)}
+
+                    {if $review.description!="" && $review.language!=$culture && $review.author==""}
+                    
+                    {elseif  $review.description!=""}
+                    
+                        <div class="row-reviews">
+                           
+                        <div>
+                            {if $review.user_picture}
+                                <img class="img-user" src="/uploads{$review.user_picture}" alt="" />
+                            {else}
+                                <div class="img-user-avatar">{$review.user_shortname}</div>                                                 
+                            {/if}
+                        </div>                    
+                        
+                        <div class="content">
+                            <h5>{if $review.author}{$review.author}{/if}</h5>
+                            <small class="text-muted">
+                                {if $review.user_review_verified}
+                                {__ text="Zweryfikowany"}
+                                {/if}
+                                {if $review.user_facebook!=""}<a href="{$review.user_facebook}" class="img-social"><img src="{image_path image='review-fb.png'}" alt="" /></a>{/if}
+                                {if $review.user_instagram!=""}<a href="{$review.user_instagram}" class="img-social"><img src="{image_path image='review-instagram.png'}" alt="" /></a>{/if}
+                                {if $review.user_youtube!=""}<a href="{$review.user_youtube}" class="img-social"><img src="{image_path image='review-youtube.png'}" alt="" /></a>{/if}
+                                {if $review.user_twitter!=""}<a href="{$review.user_twitter}" class="img-social"><img src="{image_path image='review-twitter.png'}" alt="" /></a>{/if}
+                            </small>
+                            <div class="stars">
+                                {assign var='i' value=0}
+                                {section name=foo loop=5}{assign var='i' value=$i+1}
+                                    <svg baseProfile='tiny' {if $i <= $review.score}class="star-rating-hover" {/if}height='14px' version='1.2' viewBox='4 4 16 16' width='14px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><g><path d='m 9.362,9.158 c 0,0 -3.16,0.35 -5.268,0.584 -0.19,0.023 -0.358,0.15 -0.421,0.343 -0.063,0.193 0,0.394 0.14,0.521 1.566,1.429 3.919,3.569 3.919,3.569 -0.002,0 -0.646,3.113 -1.074,5.19 -0.036,0.188 0.032,0.387 0.196,0.506 0.163,0.119 0.373,0.121 0.538,0.028 1.844,-1.048 4.606,-2.624 4.606,-2.624 0,0 2.763,1.576 4.604,2.625 0.168,0.092 0.378,0.09 0.541,-0.029 0.164,-0.119 0.232,-0.318 0.195,-0.505 -0.428,-2.078 -1.071,-5.191 -1.071,-5.191 0,0 2.353,-2.14 3.919,-3.566 0.14,-0.131 0.202,-0.332 0.14,-0.524 -0.062,-0.192 -0.23,-0.319 -0.42,-0.341 -2.108,-0.236 -5.269,-0.586 -5.269,-0.586 0,0 -1.31,-2.898 -2.183,-4.83 C 12.372,4.155 12.2,4.034 11.998,4.034 c -0.202,0 -0.375,0.122 -0.453,0.294 -0.874,1.932 -2.183,4.83 -2.183,4.83 z'/></g></g></svg>
+                                {/section}
+                            </div>
+                            {if $review.language==$culture}
+                            <div class="tinymce_html">
+                                <p><em>{$review.description}</em></p>                            
+                            </div>
+                            {/if}
+                        </div>
+                    </div>
+                                
+                {/if}                    
+
+            {/if}
+        
+        {/foreach}
+    
+    {if empty($results)}
+        <div id="st_review-show-no_reviews">
+            {__ text="Produkt nie posiada recenzji"}.
+        </div>
+    {/if}
+    {/if}    
+</div>

@@ -1,0 +1,837 @@
+Currency:
+  Currency_1:
+    shortcut: PLN
+    exchange: 1
+    active: 0
+    main: 0
+    back_symbol: zł
+    system: 1
+    culture: pl_PL
+    name: Polski złoty
+    
+  Currency_2:
+    shortcut: USD
+    exchange: 3.34
+    active: 0
+    main: 0
+    front_symbol: $
+    system: 1
+    culture: pl_PL
+    name: Dolar amerykański
+    
+  Currency_3:
+    shortcut: EUR
+    exchange: 4.1
+    active: 0
+    main: 0
+    front_symbol: €
+    system: 1
+    culture: pl_PL
+    name: Euro
+
+  Currency_4:
+    shortcut: CZK
+    exchange: 0.16
+    active: 0
+    main: 0
+    back_symbol: Kč
+    system: 1
+    culture: pl_PL
+    name: Korona czeska
+
+  Currency_5:
+    shortcut: RUB
+    exchange: 0.10
+    active: 0
+    main: 0
+    back_symbol: руб
+    system: 1
+    culture: pl_PL
+    name: Ruble rosyjskie
+
+  Currency_6:
+    shortcut: GBP
+    exchange: 5.19
+    active: 0
+    main: 0
+    front_symbol: £
+    system: 1
+    culture: pl_PL
+    name: Funt brytyjski
+       
+  Currency_7:
+    shortcut: CNY
+    exchange: 0.52
+    active: 0
+    main: 0
+    front_symbol: ¥
+    system: 1
+    culture: pl_PL
+    name: Chiński yuan 
+
+  Currency_8:
+    shortcut: NOK
+    exchange: 0.55
+    active: 0
+    main: 0
+    front_symbol: kr
+    system: 1
+    culture: pl_PL
+    name: Korona norweska
+    
+  Currency_9:
+    shortcut: SEK
+    exchange: 0.47
+    active: 0
+    main: 0
+    back_symbol: kr
+    system: 1
+    culture: pl_PL
+    name: Korona szwedzka
+
+CurrencyStandard:
+  CurrencyStandard_1:
+    shortcut: AED
+    code: 784
+
+  CurrencyStandard_2:
+    shortcut: AFN
+    code: 971
+
+  CurrencyStandard_3:
+    shortcut: ALL
+    code: 008
+
+  CurrencyStandard_4:
+    shortcut: AMD
+    code: 051
+
+  CurrencyStandard_5:
+    shortcut: ANG
+    code: 532
+
+  CurrencyStandard_6:
+    shortcut: ARS
+    code: 032
+
+  CurrencyStandard_7:
+    shortcut: AUD
+    code: 036
+
+  CurrencyStandard_8:
+    shortcut: AWG
+    code: 533
+
+  CurrencyStandard_9:
+    shortcut: AZN
+    code: 944
+
+  CurrencyStandard_10:
+    shortcut: BAM
+    code: 977
+
+  CurrencyStandard_11:
+    shortcut: BBD
+    code: 052
+
+  CurrencyStandard_12:
+    shortcut: BDT
+    code: 050
+
+  CurrencyStandard_13:
+    shortcut: BGN
+    code: 975
+
+  CurrencyStandard_14:
+    shortcut: BHD
+    code: 048
+
+  CurrencyStandard_15:
+    shortcut: BIF
+    code: 108
+
+  CurrencyStandard_16:
+    shortcut: BND
+    code: 096
+
+  CurrencyStandard_17:
+    shortcut: BOB
+    code: 068
+
+  CurrencyStandard_18 :
+    shortcut: BOV
+    code: 984
+
+  CurrencyStandard_19:
+    shortcut: BRL
+    code: 986
+
+  CurrencyStandard_20:
+    shortcut: BSD
+    code: 044
+
+  CurrencyStandard_21:
+    shortcut: BTN
+    code: 064
+
+  CurrencyStandard_22:
+    shortcut: BWP
+    code: 072
+
+  CurrencyStandard_23:
+    shortcut: BYR
+    code: 974
+
+  CurrencyStandard_24:
+    shortcut: BZD
+    code: 084
+
+  CurrencyStandard_25:
+    shortcut: CAD
+    code: 124
+
+  CurrencyStandard_26:
+    shortcut: CDF
+    code: 976
+
+  CurrencyStandard_27:
+    shortcut: CHE
+    code: 947
+
+  CurrencyStandard_28:
+    shortcut: CHF
+    code: 756
+
+  CurrencyStandard_29:
+    shortcut: CHW
+    code: 948
+
+  CurrencyStandard_30:
+    shortcut: CLF
+    code: 990
+
+  CurrencyStandard_31:
+    shortcut: CLP
+    code: 152
+
+  CurrencyStandard_32:
+    shortcut: CNY
+    code: 156
+
+  CurrencyStandard_33:
+    shortcut: COP
+    code: 170
+
+  CurrencyStandard_34:
+    shortcut: COU
+    code: 970
+
+  CurrencyStandard_35:
+    shortcut: CRC
+    code: 188
+
+  CurrencyStandard_36:
+    shortcut: CUP
+    code: 192
+
+  CurrencyStandard_37:
+    shortcut: CVE
+    code: 132
+
+  CurrencyStandard_38:
+    shortcut: CZK
+    code: 203
+
+  CurrencyStandard_39:
+    shortcut: DJF
+    code: 262
+
+  CurrencyStandard_40:
+    shortcut: DKK
+    code: 208
+
+  CurrencyStandard_41:
+    shortcut: DOP
+    code: 214
+
+  CurrencyStandard_42:
+    shortcut: DZD
+    code: 012
+
+  CurrencyStandard_43:
+    shortcut: EEK
+    code: 233
+
+  CurrencyStandard_44:
+    shortcut: EGP
+    code: 818
+
+  CurrencyStandard_45:
+    shortcut: ERN
+    code: 232
+
+  CurrencyStandard_46:
+    shortcut: ETB
+    code: 230
+
+  CurrencyStandard_47:
+    shortcut: EUR
+    code: 978
+
+  CurrencyStandard_48:
+    shortcut: FJD
+    code: 242
+
+  CurrencyStandard_49:
+    shortcut: FKP
+    code: 238
+
+  CurrencyStandard_50:
+    shortcut: GBP
+    code: 826
+
+  CurrencyStandard_51:
+    shortcut: GEL
+    code: 981
+
+  CurrencyStandard_52:
+    shortcut: GHS
+    code: 936
+
+  CurrencyStandard_53:
+    shortcut: GIP
+    code: 292
+
+  CurrencyStandard_54:
+    shortcut: GMD
+    code: 270
+
+  CurrencyStandard_55:
+    shortcut: GNF
+    code: 324
+
+  CurrencyStandard_56:
+    shortcut: GTQ
+    code: 320
+
+  CurrencyStandard_57:
+    shortcut: GYD
+    code: 328
+
+  CurrencyStandard_58:
+    shortcut: HKD
+    code: 344
+
+  CurrencyStandard_59:
+    shortcut: HNL
+    code: 340
+
+  CurrencyStandard_60:
+    shortcut: HRK
+    code: 191
+
+  CurrencyStandard_61:
+    shortcut: HTG
+    code: 332
+
+  CurrencyStandard_62:
+    shortcut: HUF
+    code: 348
+
+  CurrencyStandard_63:
+    shortcut: IDR
+    code: 360
+
+  CurrencyStandard_64:
+    shortcut: ILS
+    code: 376
+
+  CurrencyStandard_65:
+    shortcut: INR
+    code: 356
+
+  CurrencyStandard_66:
+    shortcut: IQD
+    code: 368
+
+  CurrencyStandard_67:
+    shortcut: IRR
+    code: 364
+
+  CurrencyStandard_68:
+    shortcut: ISK
+    code: 352
+
+  CurrencyStandard_69:
+    shortcut: JMD
+    code: 388
+
+  CurrencyStandard_70:
+    shortcut: JOD
+    code: 400
+
+  CurrencyStandard_71:
+    shortcut: JPY
+    code: 392
+
+  CurrencyStandard_72:
+    shortcut: KES
+    code: 404
+
+  CurrencyStandard_73:
+    shortcut: KGS
+    code: 417
+
+  CurrencyStandard_74:
+    shortcut: KHR
+    code: 116
+
+  CurrencyStandard_75:
+    shortcut: KMF
+    code: 174
+
+  CurrencyStandard_76:
+    shortcut: KPW
+    code: 408
+
+  CurrencyStandard_77:
+    shortcut: KRW
+    code: 410
+
+  CurrencyStandard_78:
+    shortcut: KWD
+    code: 414
+
+  CurrencyStandard_79:
+    shortcut: KYD
+    code: 136
+
+  CurrencyStandard_80:
+    shortcut: KZT
+    code: 398
+
+  CurrencyStandard_81:
+    shortcut: LAK
+    code: 418
+
+  CurrencyStandard_82:
+    shortcut: LBP
+    code: 422
+
+  CurrencyStandard_83:
+    shortcut: LKR
+    code: 144
+
+  CurrencyStandard_84:
+    shortcut: LRD
+    code: 430
+
+  CurrencyStandard_85:
+    shortcut: LSL
+    code: 426
+
+  CurrencyStandard_86:
+    shortcut: LTL
+    code: 440
+
+  CurrencyStandard_87:
+    shortcut: LVL
+    code: 428
+
+  CurrencyStandard_88:
+    shortcut: LYD
+    code: 434
+
+  CurrencyStandard_89:
+    shortcut: MAD
+    code: 504
+
+  CurrencyStandard_90:
+    shortcut: MDL
+    code: 498
+
+  CurrencyStandard_91:
+    shortcut: MGA
+    code: 969
+
+  CurrencyStandard_92:
+    shortcut: MKD
+    code: 807
+
+  CurrencyStandard_93:
+    shortcut: MMK
+    code: 104
+
+  CurrencyStandard_94:
+    shortcut: MNT
+    code: 496
+
+  CurrencyStandard_95:
+    shortcut: MOP
+    code: 446
+
+  CurrencyStandard_96:
+    shortcut: MRO
+    code: 478
+
+  CurrencyStandard_97:
+    shortcut: MUR
+    code: 480
+
+  CurrencyStandard_98:
+    shortcut: MVR
+    code: 462
+
+  CurrencyStandard_99:
+    shortcut: MWK
+    code: 454
+
+  CurrencyStandard_100:
+    shortcut: MXN
+    code: 484
+
+  CurrencyStandard_101:
+    shortcut: MXV
+    code: 979
+
+  CurrencyStandard_102:
+    shortcut: MYR
+    code: 458
+
+  CurrencyStandard_103:
+    shortcut: MZN
+    code: 943
+
+  CurrencyStandard_104:
+    shortcut: NAD
+    code: 516
+
+  CurrencyStandard_105:
+    shortcut: NGN
+    code: 566
+
+  CurrencyStandard_106:
+    shortcut: NIO
+    code: 558
+
+  CurrencyStandard_107:
+    shortcut: NOK
+    code: 578
+
+  CurrencyStandard_108:
+    shortcut: NPR
+    code: 524
+
+  CurrencyStandard_109:
+    shortcut: NZD
+    code: 554
+
+  CurrencyStandard_110:
+    shortcut: OMR
+    code: 512
+
+  CurrencyStandard_111:
+    shortcut: PAB
+    code: 590
+
+  CurrencyStandard_112:
+    shortcut: PEN
+    code: 604
+
+  CurrencyStandard_113:
+    shortcut: PGK
+    code: 598
+
+  CurrencyStandard_114:
+    shortcut: PHP
+    code: 608
+
+  CurrencyStandard_115:
+    shortcut: PKR
+    code: 586
+
+  CurrencyStandard_116:
+    shortcut: PLN
+    code: 985
+
+  CurrencyStandard_117:
+    shortcut: PYG
+    code: 600
+
+  CurrencyStandard_118:
+    shortcut: QAR
+    code: 634
+
+  CurrencyStandard_119:
+    shortcut: RON
+    code: 946
+
+  CurrencyStandard_120:
+    shortcut: RSD
+    code: 941
+
+  CurrencyStandard_121:
+    shortcut: RUB
+    code: 643
+
+  CurrencyStandard_122:
+    shortcut: RWF
+    code: 646
+
+  CurrencyStandard_123:
+    shortcut: SAR
+    code: 682
+
+  CurrencyStandard_124:
+    shortcut: SBD
+    code: 090
+
+  CurrencyStandard_125:
+    shortcut: SCR
+    code: 690
+
+  CurrencyStandard_126:
+    shortcut: SDG
+    code: 938
+
+  CurrencyStandard_127:
+    shortcut: SEK
+    code: 752
+
+  CurrencyStandard_128:
+    shortcut: SGD
+    code: 702
+
+  CurrencyStandard_129:
+    shortcut: SHP
+    code: 654
+
+  CurrencyStandard_130:
+    shortcut: SKK
+    code: 703
+
+  CurrencyStandard_131:
+    shortcut: SLL
+    code: 694
+
+  CurrencyStandard_132:
+    shortcut: SOS
+    code: 706
+
+  CurrencyStandard_133:
+    shortcut: SRD
+    code: 968
+
+  CurrencyStandard_134:
+    shortcut: STD
+    code: 678
+
+  CurrencyStandard_135:
+    shortcut: SYP
+    code: 760
+
+  CurrencyStandard_136:
+    shortcut: SZL
+    code: 748
+
+  CurrencyStandard_137:
+    shortcut: THB
+    code: 764
+
+  CurrencyStandard_138:
+    shortcut: TJS
+    code: 972
+
+  CurrencyStandard_139:
+    shortcut: TMM
+    code: 795
+
+  CurrencyStandard_140:
+    shortcut: TND
+    code: 788
+
+  CurrencyStandard_141:
+    shortcut: TOP
+    code: 776
+
+  CurrencyStandard_142:
+    shortcut: TRY
+    code: 949
+
+  CurrencyStandard_143:
+    shortcut: TTD
+    code: 780
+
+  CurrencyStandard_144:
+    shortcut: TWD
+    code: 901
+
+  CurrencyStandard_145:
+    shortcut: TZS
+    code: 834
+
+  CurrencyStandard_146:
+    shortcut: UAH
+    code: 980
+
+  CurrencyStandard_147:
+    shortcut: UGX
+    code: 800
+
+  CurrencyStandard_148:
+    shortcut: USD
+    code: 840
+
+  CurrencyStandard_149:
+    shortcut: USN
+    code: 997
+
+  CurrencyStandard_150:
+    shortcut: USS
+    code: 998
+
+  CurrencyStandard_151:
+    shortcut: UYU
+    code: 858
+
+  CurrencyStandard_152:
+    shortcut: UZS
+    code: 860
+
+  CurrencyStandard_153:
+    shortcut: VEF
+    code: 937
+
+  CurrencyStandard_154:
+    shortcut: VND
+    code: 704
+
+  CurrencyStandard_155:
+    shortcut: VUV
+    code: 548
+
+  CurrencyStandard_156:
+    shortcut: WST
+    code: 882
+
+  CurrencyStandard_157:
+    shortcut: XAF
+    code: 950
+
+  CurrencyStandard_158:
+    shortcut: XAG
+    code: 961
+
+  CurrencyStandard_159:
+    shortcut: XAU
+    code: 959
+
+  CurrencyStandard_160:
+    shortcut: XBA
+    code: 955
+
+  CurrencyStandard_161:
+    shortcut: XBB
+    code: 956
+
+  CurrencyStandard_162:
+    shortcut: XBC
+    code: 957
+
+  CurrencyStandard_163:
+    shortcut: XBD
+    code: 958
+
+  CurrencyStandard_164:
+    shortcut: XCD
+    code: 951
+
+  CurrencyStandard_165:
+    shortcut: XDR
+    code: 960
+
+  CurrencyStandard_166:
+    shortcut: XOF
+    code: 952
+
+  CurrencyStandard_167:
+    shortcut: XPD
+    code: 964
+
+  CurrencyStandard_168:
+    shortcut: XPF
+    code: 953
+
+  CurrencyStandard_169:
+    shortcut: XPT
+    code: 962
+
+  CurrencyStandard_170:
+    shortcut: XTS
+    code: 963
+
+  CurrencyStandard_171:
+    shortcut: XXX
+    code: 999
+
+  CurrencyStandard_172:
+    shortcut: YER
+    code: 886
+
+  CurrencyStandard_173:
+    shortcut: ZAR
+    code: 710
+
+  CurrencyStandard_174:
+    shortcut: ZMK
+    code: 894
+
+  CurrencyStandard_175:
+    shortcut: ZWD
+    code: 716
+
+  CurrencyStandard_176:
+    shortcut: BMD
+    code: 060
+    
+  CurrencyStandard_177:
+   shortcut: AOA
+   code: 973
+
+CurrencyI18n:
+  CurrencyI18n_2: 
+    id: Currency_1
+    culture: en_US
+    name: Polish zloty
+  CurrencyI18n_4: 
+    id: Currency_2
+    culture: en_US
+    name: US dollar
+  CurrencyI18n_6: 
+    id: Currency_3
+    culture: en_US
+    name: Euro
+  CurrencyI18n_8:
+    id: Currency_4
+    culture: en_US
+    name: Czech koruna
+  CurrencyI18n_10:
+    id: Currency_5
+    culture: en_US
+    name: Russian ruble
+  CurrencyI18n_12:
+    id: Currency_6
+    culture: en_US
+    name: Pound sterling
+  CurrencyI18n_14:
+    id: Currency_7
+    culture: en_US
+    name: Chinese yuan
+  CurrencyI18n_16:
+    id: Currency_8
+    culture: en_US
+    name: Norwegian krone   
+  CurrencyI18n_18:
+    id: Currency_9
+    culture: en_US
+    name: Swedish krona   

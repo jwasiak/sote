@@ -1,0 +1,17 @@
+package:
+  name: stAccessoriesPlugin
+  stability: stable
+  version: 7.1.1.2
+  summary: Akcesoria
+  description: 'Akcesoria dla produktu'
+  notes: |
+    -  Jednostki miary przy cenie
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stFrontend: 1.1.0.11
+    stBackend: 1.1.0.13
+    stProduct: 1.0.19.1

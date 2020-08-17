@@ -1,0 +1,1 @@
+<?php echo object_select_tag($product_has_attachment->getLanguage(), 'getId', array('related_class' => 'Language', 'text_method' => 'getName', 'control_name' => 'product_has_attachment[attachment_edit_language]', 'disabled' => !$product_has_attachment->isNew())) ?>

@@ -1,0 +1,14 @@
+---
+package: 
+  name: stTabNavigatorPlugin
+  stability: stable
+  version: 7.2.0.0
+  summary: Zakladki
+  description: Zakladki w karcie produktu
+  notes: |
+    - Aktualizacja modulu.
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

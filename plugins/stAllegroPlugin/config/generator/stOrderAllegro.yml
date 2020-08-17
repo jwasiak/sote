@@ -1,0 +1,46 @@
+list:
+    menu:
+        display:                [allegro]
+        fields:                 
+            allegro:            {name: "Zamówienia Allegro", action: stOrder/allegroList}
+
+custom_actions:                         
+    list:                       [allegro]
+
+allegro_model_class:            Order
+
+allegro_list:
+    use_helper:                 [stOrder]
+    fields:
+        number:                 {name: "Numer", params: size=10}
+        created_at:             {name: "Złożone", filterable: false}
+        opt_order_status:       {name: "Status", params: truncate_text=15}
+        is_payed:               {name: "Opłac.", filterable: false, sort_field: order.opt_is_payed}
+        opt_allegro_nick:       {name: "Użytkownik Allegro", filterable: false, i18n: stAllegroBackend}
+        client:                 {name: "Klient", filterable: false, callback: st_order_client_name}
+        total_amount:           {name: "Kwota", filterable: false, sort_field: order.opt_total_amount}
+        order_auctions:         {name: "Oferta Allegro", module: stAllegroBackend, i18n: stAllegroBackend}
+    display:                    [=number, created_at, opt_order_status, _is_payed, opt_allegro_nick, client, _total_amount, _order_auctions]
+    menu:                       {use: list.menu}
+    title:                      "Lista zamówień z serwisu aukcyjnego"
+    sort:                       [created_at, desc]
+    mark_as:                    true
+    object_actions:
+        _edit:                  -
+        _delete:                -
+    actions:                    []
+    filters:
+        total_amount:           {filter_field: order.opt_total_amount}
+        opt_order_status:       {filter_field: order_status_id, order.partial: filter_order_status}
+        is_payed:               {filter_field: order.opt_is_payed}
+        order_auctions:         {partial: filter_order_auctions, module: stAllegroBackend}
+        opt_allegro_checkout_form_id: {name: Numer zamówienia Allegro, i18n: stAllegroBackend, params: size=40}
+    additional_filters:         [created_at, order_product, total_amount, client, is_payed, opt_allegro_nick, opt_allegro_checkout_form_id]
+    select_actions:
+        display:
+            "NONE":             []
+            "Status":           { callback: OrderStatusPeer::doSelectCachedArray, action: bulkStatusUpdate }
+            "Opłacone":         { actions: { 1: Tak, 0: Nie }, action: bulkPaymentStatusUpdate }
+        actions:
+            _delete:            -
+    peer_method:                doSelectJoinOrderCurrency

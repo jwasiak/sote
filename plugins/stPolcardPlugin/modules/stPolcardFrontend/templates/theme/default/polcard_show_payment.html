@@ -1,0 +1,30 @@
+{if $check_configuration}
+    <div id="st_box_payment">
+        <p>{__ text="Kliknij przycisk"} <b>{__ text='"Zapłać"'}</b> {__ text="aby przejść do serwisu Polcard."}</p>
+        <p><img id="st_home" src="/images/frontend/theme/default/stPolcardPlugin/logo.jpg" alt=""/></p>
+        {$form_start}
+            {$hidden_order_id}
+            {$hidden_pos_id}
+            {$hidden_amount}
+            {$hidden_language}
+            {$hidden_email}
+            {$hidden_test}
+            {$hidden_client_ip}
+            {$hidden_street}
+            {$hidden_street_n1}
+            {$hidden_street_n2}
+            {$hidden_city}
+            {$hidden_postcode}
+            {$hidden_country}
+            <div id="st_form-payment-submit" class="st_button-container">
+                <div class="st_button st_align-right">
+                    <div class="st_button-left">
+                        {$pay_submit}
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+{else}
+    {__ text="Płatność została błędnie skonfigurowana."}
+{/if}

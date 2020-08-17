@@ -1,0 +1,44 @@
+<div id="st_application-newsletter-index" class="st_application" >
+
+    <div id="st_application-newsletter-index-header">
+        <h1 class="st_title">{__ text="Newsletter"}</h1>
+        <p>{__ text="Zapisz się na newsletter aby dostawać informacje ze sklepu."}</p>
+        <br class="st_clear_all" />
+    </div>
+    
+    <div class="st_content" style="width: 700px;">
+        
+        <div style="width:500px; margin: 10px auto;">
+            <p style="text-align:center;">{__ text="Dziękujemy za skorzystanie z naszego systemu powiadomień. Na adres"}:</p>
+            <p style="text-align:center; font-size:14px;"><b>{$email}</b></p>
+            <p style="text-align:center;">{__ text="został wysłany mail z prośbą o potwierdzenie rejestracji."}</p>
+        </div>
+        
+        {if $choseGroup}
+        <div style="width:500px; margin:0px auto;">
+            <p style="text-align:center;">{__ text="Po potwierdzeniu rejestracji, na powyższy adres, będą wysyłane informacje z grup"}:</p>
+            <div style="border-top: 1px solid #ddd;"></div>
+            {foreach key=row item=news_group from=$results} 
+                <div style="margin: 10px; text-align: justify;">
+                    <b>{$news_group.name}</b>{$news_group.description}
+                 </div>
+                <div style="border-top: 1px solid #ddd;"></div>
+            {/foreach}
+        </div>
+        {/if}
+        
+        <div style="width:500px; margin: 10px auto;">
+        
+            <div class="st_button st_align-right">
+                <div class="st_button-left">
+                    {$button_back}
+                </div>
+            </div>
+            <br class="st_clear_all" />    
+        </div>                            
+                            
+    </div>
+    
+    
+    
+</div>

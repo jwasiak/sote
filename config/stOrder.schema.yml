@@ -1,0 +1,528 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_order: 
+    _attributes: 
+      phpName: Order
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_delivery_id: 
+      type: INTEGER
+      foreignTable: st_order_delivery
+      foreignReference: id
+      onDelete: setnull
+    sf_guard_user_id: 
+      type: INTEGER
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: setnull
+    order_user_data_delivery_id: 
+      type: INTEGER
+      foreignTable: st_order_user_data_delivery
+      foreignReference: id
+      onDelete: setnull
+    order_user_data_billing_id: 
+      type: INTEGER
+      foreignTable: st_order_user_data_billing
+      foreignReference: id
+      onDelete: setnull
+    order_currency_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_order_currency
+      foreignReference: id
+      onDelete: restrict
+    order_status_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_order_status
+      foreignReference: id
+      onDelete: restrict
+    discount_coupon_code_id: 
+      type: INTEGER
+      foreignTable: st_discount_coupon_code
+      foreignReference: id
+      onDelete: setnull
+    discount_id: 
+      type: INTEGER
+      foreignTable: st_discount
+      foreignReference: id
+      onDelete: setnull
+    order_discount:
+      type: VARCHAR
+      phpType: array  
+      size: 255
+    hash_code: 
+      type: CHAR
+      size: 32
+    payment_security_hash:
+      type: CHAR
+      size: 40
+    session_hash: 
+      type: CHAR
+      size: 32  
+    is_confirmed: 
+      type: BOOLEAN
+      default: false
+    is_marked_as_read:
+      type: BOOLEAN
+      default: true
+    number: 
+      type: VARCHAR
+      size: 64
+    description: 
+      type: LONGVARCHAR
+    order_type: 
+      type: VARCHAR
+      size: 20
+    merchant_notes: 
+      type: LONGVARCHAR
+    client_culture: 
+      type: VARCHAR
+      size: 7
+    host: 
+      type: VARCHAR
+      size: 255
+    opt_total_amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      required: true
+      default: 0
+    opt_is_payed: 
+      type: BOOLEAN
+    opt_client_name: 
+      type: VARCHAR
+      size: 255
+    opt_client_email: 
+      type: VARCHAR
+      size: 128
+    opt_client_company: 
+      type: VARCHAR
+      size: 128   
+    remote_address:
+      type: VARCHAR
+      size: 45   
+    _indexes: 
+      order_number: 
+        - number
+      discount_coupon_code_FI: 
+        - discount_coupon_code_id
+      discount_FI:
+        - discount_id
+  st_order_status: 
+    _attributes: 
+      phpName: OrderStatus
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    coupon_code_id: 
+      type: INTEGER
+      foreignTable: st_order_status_coupon_code
+      foreignReference: id
+      onDelete: cascade
+    opt_name: 
+      type: VARCHAR
+      size: 128
+    opt_description: 
+      type: LONGVARCHAR
+    type: 
+      type: VARCHAR
+      size: 16
+    is_default: 
+      type: BOOLEAN
+      default: false
+    is_system_default: 
+      type: BOOLEAN
+      default: false
+    has_mail_notification: 
+      type: BOOLEAN
+      default: true
+    has_coupon_code: 
+      type: BOOLEAN
+      required: true
+      default: false
+    has_invoice_proforma: 
+      type: BOOLEAN
+      default: false
+    has_invoice: 
+      type: BOOLEAN
+      default: false
+    depository_action: 
+      type: CHAR
+      size: 1
+  st_order_currency: 
+    _attributes: 
+      phpName: OrderCurrency
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name: 
+      type: VARCHAR
+      size: 255
+    exchange: 
+      type: DECIMAL
+      size: 6
+      scale: 4
+    shortcut: 
+      type: VARCHAR
+      size: 20
+    front_symbol: 
+      type: VARCHAR
+      size: 20
+    back_symbol: 
+      type: VARCHAR
+      size: 20
+  st_order_product: 
+    _attributes: 
+      phpName: OrderProduct
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: setnull
+    tax_id: 
+      type: INTEGER
+      foreignTable: st_tax
+      foreignReference: id
+      onDelete: setnull
+    quantity: 
+      type: DECIMAL
+      size: 8
+      scale: 2
+      required: true
+    code: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 1024
+    image: 
+      type: VARCHAR
+      size: 255
+    price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    custom_price: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    custom_price_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    vat: 
+      type: DECIMAL
+      size: 5
+      scale: 2
+    points_value: 
+      type: INTEGER
+      default: 0
+    points_earn: 
+      type: INTEGER
+      default: 0     
+    product_for_points: 
+      type: BOOLEAN
+      default: 0
+      required: true  
+    version:
+      type: INTEGER
+    is_set:
+      type: BOOLEAN
+      default: false
+      required: true
+    is_gift:
+      type: BOOLEAN
+      default: false
+      required: true
+    send_review: 
+      type: timestamp
+  st_order_product_has_set:
+    _attributes: 
+      phpName: OrderProductHasSet
+    order_product_id: 
+      type: INTEGER
+      primaryKey: true
+      foreignTable: st_order_product
+      foreignReference: id
+      onDelete: cascade 
+    product_id: 
+      type: INTEGER
+      primaryKey: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: restrict
+    code:
+      type: VARCHAR
+      size: 255
+    name:
+      type: VARCHAR
+      size: 255
+    price_netto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    price_brutto:
+      type: DECIMAL
+      size: 10
+      scale: 2
+  st_order_user_data_billing: 
+    _attributes: 
+      phpName: OrderUserDataBilling
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    countries_id: 
+      type: INTEGER
+      foreignTable: st_countries
+      foreignReference: id
+      onDelete: setnull
+    has_valid_vat_eu:
+      type: BOOLEAN
+      default: false
+      required: true 
+    country: 
+      type: VARCHAR
+      size: 255
+    full_name: 
+      type: VARCHAR
+      size: 255
+    address: 
+      type: VARCHAR
+      size: 255
+    address_more: 
+      type: VARCHAR
+      size: 255
+    region: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 255
+    surname: 
+      type: VARCHAR
+      size: 255
+    street: 
+      type: VARCHAR
+      size: 255
+    house: 
+      type: VARCHAR
+      size: 255
+    flat: 
+      type: VARCHAR
+      size: 255
+    code: 
+      type: VARCHAR
+      size: 255
+    town: 
+      type: VARCHAR
+      size: 255
+    phone: 
+      type: VARCHAR
+      size: 255
+    company: 
+      type: VARCHAR
+      size: 255
+    vat_number: 
+      type: VARCHAR
+      size: 255
+    pesel: 
+      type: VARCHAR
+      size: 255
+    crypt: 
+      type: BOOLEAN
+      default: 0
+  st_order_user_data_delivery: 
+    _attributes: 
+      phpName: OrderUserDataDelivery
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    countries_id: 
+      type: INTEGER
+      foreignTable: st_countries
+      foreignReference: id
+      onDelete: setnull
+    country: 
+      type: VARCHAR
+      size: 255
+    full_name: 
+      type: VARCHAR
+      size: 255
+    address: 
+      type: VARCHAR
+      size: 255
+    address_more: 
+      type: VARCHAR
+      size: 255
+    region: 
+      type: VARCHAR
+      size: 255
+    name: 
+      type: VARCHAR
+      size: 255
+    surname: 
+      type: VARCHAR
+      size: 255
+    street: 
+      type: VARCHAR
+      size: 255
+    house: 
+      type: VARCHAR
+      size: 255
+    flat: 
+      type: VARCHAR
+      size: 255
+    code: 
+      type: VARCHAR
+      size: 255
+    town: 
+      type: VARCHAR
+      size: 255
+    phone: 
+      type: VARCHAR
+      size: 255
+    company: 
+      type: VARCHAR
+      size: 255
+    vat_number: 
+      type: VARCHAR
+      size: 255
+    pesel: 
+      type: VARCHAR
+      size: 255
+    crypt: 
+      type: BOOLEAN
+      default: 0
+  st_order_delivery: 
+    _attributes: 
+      phpName: OrderDelivery
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    tax_id: 
+      type: INTEGER
+      foreignTable: st_tax
+      foreignReference: id
+      onDelete: setnull
+    delivery_id: 
+      type: INTEGER
+      foreignTable: st_delivery
+      foreignReference: id
+      onDelete: setnull
+    name: 
+      type: VARCHAR
+      size: 255
+    cost: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    payment_cost: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    opt_tax: 
+      type: DECIMAL
+      size: 5
+      scale: 2
+    number: 
+      type: VARCHAR
+      size: 128
+    cost_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    payment_cost_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    custom_cost_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    delivery_date: 
+      type: TIMESTAMP
+    pickup_point:
+      type: VARCHAR
+      size: 64
+  st_order_status_coupon_code: 
+    _attributes: 
+      phpName: OrderStatusCouponCode
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    discount: 
+      type: DECIMAL
+      size: 3
+      scale: 1
+      required: true
+      default: 0
+    valid_for: 
+      type: INTEGER
+      required: true
+      default: 0

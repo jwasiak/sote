@@ -1,0 +1,167 @@
+generator:
+    class:                                      stAdminGenerator
+    param:
+        model_class:                            Webpage
+        theme:                                  simple
+        head:
+            package:                            stWebpagePlugin
+        applications:                           [stTextPlugin, stBoxPlugin]
+        webpage_group_model_class:              WebpageGroup
+        webpage_group_main_model_class:         WebpageGroup
+        custom_actions:
+            list:                               [webpage_group, webpage_group_main, links]
+            edit:                               [webpage_group_main, links]
+        list:
+            filters:
+                name:                           {filter_field: webpage_i18n.name}
+                content_trimed:                 {filter_field: webpage_i18n.content}
+            peer_method:                        doSelectWithI18n
+            peer_count_method:                  doCountWithI18n
+            title:                              Lista
+            description:                        Zarządzaj stronami www sklepu
+            menu:
+                display:                        [list, links_list, webpage_group_main_list]
+                fields:
+                    list:                       {name: Lista, action: stWebpageBackend/index}
+                    links_list:                 {name: Linki, action: stWebpageBackend/linksList}
+                    webpage_group_main_list:    {name: Grupy linków, action: stWebpageBackend/webpageGroupMainList}
+            display:                            [=name, content_trimed]
+            fields:
+                name:                           {name: Tytuł strony, params: size=30, sort_field: webpage_i18n.name}
+                content:                        {name: Treść strony, params: truncate_text=200 link_to="text/edit?id=%%id%%"}
+                content_trimed:                 {name: Treść strony, params: size=30;}
+            actions:
+                _create:                        {name: Dodaj}
+            object_actions:
+                _edit:                          -
+                _delete:                        -  
+            empty_message:                      Brak stron www
+        edit:            
+            menu:
+                display:                        [webpage_group]
+                fields:
+                    webpage_group:              {name: Dołącz do grupy linków, action: stWebpageBackend/webpageGroupList?webpage_id=%%id%%}
+                    _edit:                      {name: Edycja podstawowa}
+            title:                              Edycja strony %%name%%
+            display:                                                
+              "NONE":                           [name, active, content, _state, _attachment, _input_link]
+              "Regulamin":                      [~terms_version, _terms_field1, _terms_field2, _terms_field3, _terms_field4, _terms_field5, _terms_field6, _terms_field7, _terms_field8, _terms_field9, _terms_field10, _terms_field11, _terms_field12, _terms_field13]
+              "Polityka prywatności":           [~privacy_version, _privacy_field1, _privacy_field2, _privacy_field3, _privacy_field4, _privacy_field5]
+              "Odstąpienie od umowy":           [~right2cancel_version] 
+            description:                        Zarządzaj stronami www sklepu            
+            fields:
+                name:                           {name: Tytuł strony, params: size=30; disabled=false}
+                active:                         {name: Aktywna}
+                state:                          {name: Typ strony}
+                content:                        {name: Treść strony, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:400,width:600'}
+                attachment:                     {name: Załącznik e-mail}
+                input_link:                     {name: Link do strony, hide_on_create: true}
+                terms_field1:                   {name: Adres strony sklepu, hide_on_create: true}
+                terms_field2:                   {name: Sprzedawca, hide_on_create: true, help: "Jan Kowalski prowadzący działalność na podstawie jed- noosobowej działalności gospodarczej, pod firmą Examplex Jan Kowalski adres siedziby: 00-555 Poznań, ul. Polna 1, wpisany pod numerem NIP: 555-00-55-00, Regon: 00005555000."}
+                terms_field3:                   {name: Nazwa firmy, hide_on_create: true}
+                terms_field4:                   {name: Adres firmy, hide_on_create: true, help: "Pełny adres np. Poznańska 2, 61-253 Poznań"}
+                terms_field5:                   {name: Numer telefonu, hide_on_create: true}
+                terms_field6:                   {name: E-mail sklepu, hide_on_create: true}
+                terms_field7:                   {name: Nazwa banku, hide_on_create: true}
+                terms_field8:                   {name: Numer rachunku bankowego, hide_on_create: true}
+                terms_field9:                   {name: Nazwa dostawy 1, hide_on_create: true, help: "Przesyłka pocztowa"}
+                terms_field10:                  {name: Informacje o cenach dostawy 1, hide_on_create: true, help: "15zł przedpłata, 20zł pobranie."}
+                terms_field11:                  {name: Nazwa dostawy 2, hide_on_create: true, help: "Przesyłka kurierska"}
+                terms_field12:                  {name: Informacje o cenach dostawy 2, hide_on_create: true, help: "25zł przedpłata, 30zł pobranie."}
+                terms_field13:                  {name: Dostawa darmowa od, hide_on_create: true, help: "300zł"} 
+                terms_version:                  {name: "", hide_on_create: true}
+                privacy_version:                {name: "", hide_on_create: true}
+                privacy_field1:                 {name: Adres strony sklepu, hide_on_create: true}
+                privacy_field2:                 {name: E-mail sklepu, hide_on_create: true}
+                privacy_field3:                 {name: Nazwa firmy, hide_on_create: true}
+                privacy_field4:                 {name: Adres firmy, hide_on_create: true, help: "Pełny adres np. Poznańska 2, 61-253 Poznań"}
+                privacy_field5:                   {name: Numer telefonu, hide_on_create: true}
+                right2cancel_version:           {name: "", hide_on_create: true}
+
+
+            actions:
+                _delete:                        {name: Usuń}
+                _list:                          {name: Lista}
+                _save:                          {name: Zapisz}
+                _save_and_add:                  {name: Zapisz i dodaj}
+
+        links_list:
+            filters:
+                name:                           {filter_field: webpage_i18n.name}
+                other_link:                     {filter_field: webpage_i18n.other_link}
+            peer_method:                        doSelectWithI18n
+            peer_count_method:                  doCountWithI18n
+            title:                              Lista linków
+            description:                        Zarządzaj linkami w sklepie
+            menu:                               {use: list.menu}
+            display:                            [=name, other_link]
+            fields:
+                name:                           {name: Tytuł linku}
+                other_link:                     {name: Adres url}
+                active:                         {name: Aktywna}
+            actions:
+                _create:                        {name: Dodaj}
+            object_actions:
+                _edit:                          -
+                _delete:                        -  
+            empty_message:                      Brak rekordów
+
+        links_edit:
+            menu:
+                display:                        [webpage_group]
+                fields:
+                    webpage_group:              {name: Dołącz do grupy linków, action: stWebpageBackend/webpageGroupList?webpage_id=%%id%%}
+                    _links_edit:                {name: Edycja podstawowa}
+            title:                              Edycja linku
+            description:                        Zarządzaj linkami w sklepie
+            display:                            [active, name, other_link, _target]
+            fields:
+                name:                           {name: Tytuł linku, params: size=30; disabled=false}
+                other_link:                     {name: Adres url, params: size=50; disabled=false}
+                active:                         {name: Aktywna}
+                target:                         {name: Link odsyła do nowej strony, params: disabled=false}
+            actions:
+                _delete:                        {name: Usuń}
+                _list:                          {name: Lista}
+                _save:                          {name: Zapisz}
+                _save_and_add:                  {name: Zapisz i dodaj}
+
+        webpage_group_list:
+            title:                              Dołącz stronę do grupy linków
+            description:                        Zarządzaj stronami www sklepu
+            forward_parameters:                 [webpage_id]
+            build_options:
+                through_class:                  WebpageGroupHasWebpage
+                related_id:                     forward_parameters.webpage_id
+            display:                            [name]
+            fields:
+                name:                           {name: Tytuł grupy linków, params: size=30}
+            menu:                               {use: edit.menu}
+            actions:                            []
+        webpage_group_main_list:
+            title:                              Grupy linków
+            description:                        Zarządzaj grupami linków
+            display:                            [=name]
+            fields:
+                name:                           {name: Tytuł grupy linków, params: size=30, sort_field: webpage_group.opt_name}
+            actions:
+                _create:                        {name: Dodaj}
+            object_actions:
+                _edit:                          -
+                _delete:                        -    
+            empty_message:                      Brak grup linków stron www
+        webpage_group_main_edit:
+            title:                              Edycja grupy linków stron www %%name%%
+            description:                        Zarządzaj grupami linków stron www
+            display:                            [name, show_footer, show_header, _webpages_link]
+            fields:
+                name:                           {name: Tytuł grupy linków, type: input_tag, params: size=50}
+                webpages_link:                  {name: Zobacz strony w grupie, hide_on_create: true}
+                show_footer:                    {name: Pokaż grupę w stopce}
+                show_header:                    {name: Pokaż grupę w nagłówku}
+            menu:                               {use: list.menu}
+            actions:
+                _delete:                        {name: Usuń}
+                _list:                          {name: Lista}
+                _save:                          {name: Zapisz}
+                _save_and_add:                  {name: Zapisz i dodaj}

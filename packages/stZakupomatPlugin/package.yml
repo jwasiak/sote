@@ -1,0 +1,16 @@
+---
+package: 
+  name: stZakupomatPlugin
+  stability: stable
+  version: 2.0.1
+  summary: Zakupomat
+  description: Zarzadzanie porownywarka cen Zakupomat
+  notes: |
+    - Aktualizacja
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency: 
+    stPriceCompare: 1.0.3

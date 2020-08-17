@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2013-02-18T12:00:00Z">
+        <body>
+            <trans-unit id="1">
+                <source>Modul zgodnosci</source>
+                <target>Compatibility module</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Moduł zgodności</source>
+                <target>Compatibility module</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Tryby zgodności</source>
+                <target>Compatibility mode</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Tryb zgodności z prawem niemieckim</source>
+                <target>Compatibility mode with germany law</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Tryb zgodności z prawem francuskim</source>
+                <target>Compatibility mode with french law</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Informacje prawne</source>
+                <target>Legal</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Informacja o pliku cookies</source>
+                <target>File information cookies</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Kolor tekstu</source>
+                <target>Text color</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Kolor tła</source>
+                <target>Background color</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Szerokość paska</source>
+                <target>Strap width</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Tekst w pasku</source>
+                <target>Text in strap</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Informacje prawne - zbieranie opinii</source>
+                <target>Legal - opinion</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Pokazuj informacje w koszyku</source>
+                <target>Show information in basket</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Tekst w koszyku</source>
+                <target>Text in basket</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Pokaż informacje o cenie brutto produktów oraz kosztach wysyłki</source>
+                <target>Show information about price gross and shipping costs</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Informacje prawne - tresci cyfrowe</source>
+                <target>Legal - digital content</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Pokazuj informację w podsumowaniu zamówienia</source>
+                <target>Show information in the order summary</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Ustaw kraje</source>
+                <target>Set the countries</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Informacje prawne - podsumowanie zamówienia</source>
+                <target>Legal - summary order</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Treści cyfrowe</source>
+                <target>Digital content</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Tekst treści cyfrowych</source>
+                <target>Text digital content</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Odstąpienie od zamówienia</source>
+                <target>Termination of the contract</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Tekst odstąpienia od zamówienia</source>
+                <target>Text to withdraw from the contract</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Informacje prawne - mail z zamówieniem</source>
+                <target>Legal - mail order</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Załącz regulamin</source>
+                <target>Include rules</target>
+            </trans-unit>            
+            <trans-unit id="28">
+                <source>Załącz odstąpienie od zamówienia</source>
+                <target>Include termination of the contract</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Pokazuj tylko dla zamówień z kodami, plikami online</source>
+                <target>Show digital content only for order with keys or online files</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Produkty usługowe</source>
+                <target>Products and service</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Pokazuj dla produktów oznaczonych jako usługa</source>
+                <target>Show only for products marked as a service</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Tekst produktów usługowych</source>
+                <target>The text service products</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Pokazuje dodatkową opłatę pobieraną przez kuriera</source>
+                <target>Shows additional charge by courier</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Produkt jest usługą</source>
+                <target>Product is a service</target>
+            </trans-unit>             
+            <trans-unit id="35">
+                <source>W formacie PDF</source>
+                <target>In PDF format</target>
+            </trans-unit>             
+            <trans-unit id="36">
+                <source>W formacie tekstowym</source>
+                <target>In text format</target>
+            </trans-unit>           
+             <trans-unit id="37">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Ceny brutto</source>
+                <target>Price brutto</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Zbieranie opinii</source>
+                <target>Gather opinions</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Opłata dla kuriera</source>
+                <target>The fee for the courier</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Prawo odstąpienia od umowy</source>
+                <target>Right of withdrawal</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>E-mail z potwierdzeniem zamówienia</source>
+                <target>E-mail confirmation of the order</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Ustawienia</source>
+                <target>Settings</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Zastosuj zmiany dla kraju Polska</source>
+                <target>Apply changes to the country of Poland</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Zastosuj zmiany dla całej Unii Europejskiej</source>
+                <target>Apply changes to the entire European Union</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Ustawienia indywidualne</source>
+                <target>Individual settings</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Pokazuj w stopce sklepu - informację o cookies.</source>
+                <target>Show lists and data sheet - information about the gross price and shipping costs.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Pokazuj na listach i karcie produktu - informacje o cenie brutto oraz kosztach wysyłki.</source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Pokazuj na stronie koszyka - infromacje o przetwarzaniu danych osobowych.</source>
+                <target>Show the shopping cart - information on the processing of personal data.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Pokazuj na stronie podsumowania zamówienia - informację o treściach cyfrowych.</source>
+                <target>Show on the order summary page - information about products and service.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Pokazuj na stronie podsumowania zamówienia - informację o produktach usługowych.</source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Pokazuj na stronie podsumowania zamówienia - dodatkową opłatę pobieraną przez kuriera.</source>
+                <target>Show summary page order - additional charge by courier.</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Pokazuj na stronie podsumowania zamówienia - prawo odstapienia od umowy.</source>
+                <target>Show on the order summary page - the right of cancellation.</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Tekst w stopce</source>
+                <target>The text in the footer</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Azja</source>
+                <target>Asia</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Europa</source>
+                <target>Europe</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Unia Europejska</source>
+                <target>European Union</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Afryka</source>
+                <target>Africa</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Ameryka Północna</source>
+                <target>North America</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Ameryka Południowa</source>
+                <target>South America</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Arktyka</source>
+                <target>Arctic</target>
+            </trans-unit> 
+            <trans-unit id="62">
+                <source>Powiadomienie o zmianach w regulaminach</source>
+                <target>Notification of changes in regulations</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Tekst wiadomości</source>
+                <target>Message text</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Zapisz i zresetuj</source>
+                <target>Save and reset</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Jesteś pewien?</source>
+                <target>Are you sure?</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Aktywny na 30 dni</source>
+                <target>Active for 30 days</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Komunikat zniknie za</source>
+                <target>The message will disappear after</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Upłynął termin ważności komunikatu</source>
+                <target>The message expired</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>dni</source>
+                <target>days</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Przetwarzanie danych osobowych</source>
+                <target>Processing of personal data</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Tekst akceptacji</source>
+                <target>Acceptance text</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Pokazuj się w każdy miejscu gdzie zbierane są dane wrażliwe</source>
+                <target>Show yourself wherever sensitive data is being collected</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Przetwarzanie danych osobowych - Newsletter</source>
+                <target>Personal data processing - Newsletter</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Regulamin sklepu</source>
+                <target>Shop rules</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Pokazuj się w module newslsettera</source>
+                <target>Show yourself in the newslsetter module</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Pokazuj się na stronie koszyka</source>
+                <target>Shows on the basket page</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

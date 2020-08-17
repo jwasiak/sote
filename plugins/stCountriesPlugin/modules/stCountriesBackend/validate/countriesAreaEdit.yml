@@ -1,0 +1,23 @@
+methods:
+  post:
+    - "countries_area{name}"
+    - "countries_area{edit_countries}"
+
+
+
+names:
+  countries_area{name}:
+    required:     yes
+    required_msg: Musisz podać nazwę dla strefy
+    validators:   nameUniqueValidator
+  countries_area{edit_countries}:
+    required:     yes
+    required_msg: Musisz wybrać przynajmniej jeden kraj dla strefy
+    
+nameUniqueValidator:
+  class:          sfPropelUniqueValidator
+  param:
+    class:        CountriesArea
+    column:       name
+    unique_error: Strefa o podanej nazwie juz istnieje
+

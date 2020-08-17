@@ -1,0 +1,1 @@
+<?php echo input_tag('discount_coupon_code[discount]', $discount_coupon_code->getDiscount(), array('size' => 3)) ?> %

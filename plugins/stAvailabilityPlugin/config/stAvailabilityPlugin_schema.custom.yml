@@ -1,0 +1,26 @@
+propel: 
+    st_availability: 
+        _attributes: 
+            phpName: Availability
+            isI18N: true
+            i18nTable: st_availability_i18n
+        opt_availability_name: {change_column: availability_name}
+
+    st_availability_i18n: 
+        _attributes: 
+            phpName: AvailabilityI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_availability
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        availability_name:
+            type: VARCHAR
+            size: 255

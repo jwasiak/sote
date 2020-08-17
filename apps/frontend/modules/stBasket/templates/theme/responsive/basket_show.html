@@ -1,0 +1,74 @@
+<div class="shopping-cart clearfix">
+    {if $items}        
+        <div class="clearfix">
+            {assign var='i' value=0}
+            {foreach item=item from=$items}
+            {assign var='i' value=$i+1}
+                {if $i < 5}
+                    <div class="item clearfix">
+                        <div class="col-xs-2 item-image-col">
+                            <a href="{$item.url}" class="image">
+                                <img class="img-rounded" src="{$item.image}" alt="{$item.name}" />
+                            </a>
+                        </div>
+                        <div class="col-xs-10 item-content-col">
+                            <div class="name">
+                                <a href="{$item.url}">{$item.name}</a>
+                            </div>
+                            {if $item.price_modifiers}
+                                <div class="options">
+                                {foreach item=modifier from=$item.price_modifiers}
+                                    {if $modifier.custom.field}
+                                        <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip" data-placement="bottom">{$modifier.custom.field}: {$modifier.label}</span>
+                                    {else}
+                                        <span class="label label-default product-option-label" title="{$modifier.custom.field|escape:'html'}: {$modifier.label|escape:'html'}" data-toggle="tooltip" data-placement="bottom">{$modifier.label}</span>
+                                    {/if}
+                                {/foreach}
+                                </div>
+                            {/if}
+                            <div class="price">{$item.quantity} x {$item.price}</div>
+                            <a class="close-icon" href="{$item.delete_url}"></a>
+                        </div>
+                    </div> 
+                {elseif $i == 5}
+                    <a href="{$url}" class="btn btn-default">{__ text="Zobacz wszystkie" langCatalogue="stOrder"}</a>
+                {/if}
+            {/foreach}                    
+        </div>        
+        <div class="clearfix basket-show-summary">            
+            <div class="basket-show-total">
+                {__ text="Razem do zapłaty"}: <b>{$basket_summary}</b>
+            </div>
+            <a class="btn btn-primary" href="{$url}">{__ text="Zamów"}</a>                        
+        </div>
+    {else}
+        <div class="text-right">{__ text="Twój koszyk jest pusty"}</div>
+    {/if}
+</div>
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+    var quantity = {/literal}{$total_quantity}{literal};
+    $("#nav-button-shopping-cart .quantity").html(quantity ? quantity : ""); 
+    $('#nav-shopping-cart [data-toggle=tooltip]').tooltip().on('show.bs.tooltip', function(e) {
+        var target = $(e.target);
+        if (target.hasClass('product-option-label')) {
+            var maxWidth = target.css('max-width');
+            target.css({ 'max-width': 'none' });
+            var width = target.width();
+            target.css({ 'max-width': maxWidth });
+
+            return width > target.width();
+        }
+
+        return true;
+    });
+    if (quantity > 0) {
+        $("#nav-button-shopping-cart.empty").removeClass('empty');
+    };
+});
+//]]>   
+</script>
+{/literal}

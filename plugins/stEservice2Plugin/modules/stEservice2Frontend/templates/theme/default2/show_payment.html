@@ -1,0 +1,21 @@
+<div id="st_box_payment">
+    <img id="st_home" src="/images/frontend/theme/default2/stEservicePlugin/logo.png" alt="" style="margin: 20px 0px" />
+    <div>
+        {$description}
+    </div>
+    {if $check_configuration}
+        <form action="{$url}" method="get">
+            {foreach key=name item=value from=$params}
+                <input type="hidden" name="{$name}" value="{$value}" />
+            {/foreach}
+            <div class="buttons">
+                <button type="submit" class="important roundies">
+                    <span class="arrow_right">{__ text="Zapłać"}</span>
+                </button>
+            </div>
+            <br class="clear" />
+        </form>
+    {else}
+        <br />{__ text="Płatność została błędnie skonfigurowana."}
+    {/if}
+</div>

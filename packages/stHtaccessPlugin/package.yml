@@ -1,0 +1,13 @@
+package:
+  name: stHtaccessPlugin
+  stability: stable
+  version: 7.0.0.1
+  summary: 'Edycja pliku .htaccess'
+  description: 'Edycja pliku .htaccess'
+  notes: |
+    - Aktualizacja wygladu panelu
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl

@@ -1,0 +1,359 @@
+{set layout="one_column_layout"}
+
+<div id="order_show" class="box roundies">
+	{if $user} 
+   <div id="st_navigation_bar-user" class="st_navigation_bar_user">
+		<ul>
+	    	<li class="st_first"><a href="/user_data/userPanel">{__ text="Moje konto"}</a></li>
+	    	<li class=""><a href="/order/list">{__ text="Lista zamówień"}</a></li>
+	    	<li class="st_selected"><a href="#">{__ text="Zamówienie"}</a></li>
+		</ul>
+	</div>    
+   {/if}
+   <div class="first_content">
+   	   	 <br>
+   	   	 {if isset($notice_flash)} 
+   	   	 
+   	   	 <div id="summary_label" class="roundies">
+			<div class="content">	
+			<span style="font-size: 16px;font-weight: bold; color: #666666;">{$notice}</span><br/>
+			</div>
+		</div>
+   	   	 
+  		 {/if}
+		 <div class="roundies box_form">
+	              <h3>{$order_number}</h3>
+	              
+	              <div class="content">
+	   	
+		      <table id="order_info_table" class="st_tabular-list roundies order_table" cellspacing="0">
+		      	<colgroup>
+			        <col width="120">
+					<col width="300">
+					<col width="50">
+					{if $user} 
+					<col width="50">
+					{/if}
+					<col width="100">
+    			</colgroup>
+    			
+				<thead>
+					<tr>
+					   <th><span>{__ text="Data złożenia"}</span></th>
+					   <th><span>{__ text="Status"}</span></th>
+					   <th style="text-align: center;"><span>{__ text="Opłacone"}</span></th>
+					   {if isset($user)}
+					   <th style="text-align: center;"><span>{__ text="Faktury"}</span></th>
+					   {/if}
+					   <th style="text-align: center;"><span>{__ text="Potwierdzone"}</span></th>
+					   
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+					   <td class="roundies_lb">{$created_at}</td>
+					   <td>{$status}</td>
+					   <td  style="text-align: center;">{$is_paid}</td>
+					   {if isset($user)}
+					   <td style="text-align: center;">{$invoice}</td>
+					   {/if}
+					   <td style="text-align: center;" class="roundies_rb">{$is_confirmed}</td>
+					   
+					</tr>
+				</tbody>
+		      </table>
+	    	</div>  
+		</div>
+   
+         {if !$user}
+    
+            <div class="buttons right">
+                <a href="/user/loginUser" class="important roundies">
+                    <span class="arrow_right">{__ text="Zaloguj się aby zobaczyć szczegóły zamówienia."}</span>
+                </a>
+            </div>
+            
+            <br/><br/>
+   
+       {/if}
+   
+   
+	</div>
+   
+   {if $user}
+   <div class="order_padding">  
+   
+		<div class="st_order-order_sumary-box">
+			 <div class="left data_frame roundies box_form">
+               <h3>
+                  {__ text="Dane płatnika"}
+               </h3>
+               
+			   <div class="data_content user_date" style="padding:15px;">
+			    	
+					{if $user_data_billing_company!=""}
+					
+					<span class="invoice_text">{__ text="Dane do faktury"}</span>
+						<br/>
+						{$user_data_billing_company}
+						<br/>
+						{$user_data_billing_vat_number}
+						<br/>
+					{/if}
+					            
+					<div id="text-delivery-full_name">            
+					<b>{$user_data_billing_full_name}</b>
+					</div>
+					
+					{$user_data_billing_address}
+					<br/>
+					
+					{if $user_data_billing_address_more!=""}
+						{$user_data_billing_address_more}
+						<br/>
+					{/if}
+					
+					{if $user_data_billing_region!=""}
+						{$user_data_billing_region}
+						<br/>
+					{/if}
+					  
+					{$user_data_billing_code}
+					
+					{$user_data_billing_town}
+					<br/>
+					
+					{$user_data_billing_country}
+					<br/>
+					
+					{$user_data_billing_phone}
+					<br/>                  
+               
+			    </div>
+			   
+            </div>
+			
+            <div class="right data_frame roundies box_form">
+               <h3>
+                  {__ text="Dane wysyłkowe"}
+               </h3>
+             	
+               	<div class="data_content user_date" style="padding:15px;">
+			    	
+					{if $user_data_delivery_company!=""}
+						{$user_data_delivery_company}
+						<br/>
+					{/if}
+					            
+					<div id="text-delivery-full_name">            
+					<b>{$user_data_delivery_full_name}</b>
+					</div>
+					
+					{$user_data_delivery_address}
+					<br/>
+					
+					{if $user_data_delivery_address_more!=""}
+						{$user_data_delivery_address_more}
+						<br/>
+					{/if}
+					
+					{if $user_data_delivery_region!=""}
+						{$user_data_delivery_region}
+						<br/>
+					{/if}
+					  
+					{$user_data_delivery_code}
+					
+					{$user_data_delivery_town}
+					<br/>
+					
+					{$user_data_delivery_country}
+					<br/>
+					
+					{$user_data_delivery_phone}
+					<br/>                  
+               
+			    </div>
+            </div>
+
+            <br class="clear" />
+         
+      </div>       
+      
+            <div class="st_order-order_sumary-box" style="padding-bottom:0px;">
+                      
+        <div class="left frame roundies info box_form">
+               <h3>{__ text="Informacje"}</h3>
+               
+               <div class="data_content">
+                              
+                {__ text="Płatność"}: <span class="{if $payment_description} payment_tooltip {/if}" title="{$payment_description|escape}"><b>{$payment_name}</b> {if $payment_description}<img src="/images/frontend/theme/default2/information.png" alt="" />{/if}</span><br/>
+                {__ text="Dostawa"}: <span class="{if $delivery_description} delivery_tooltip {/if}" title="{$delivery_description|escape}"><b>{$delivery_name}</b> {if $delivery_description}<img src="/images/frontend/theme/default2/information.png" alt="" />{/if}</span><br/>
+                {if ($delivery_date)}{__ text="Termin dostawy"}: <span><b>{$delivery_date}</b></span><br/>{/if}
+                {if isset($delivery_number) && $delivery_number != ''}
+                    {__ text="Numer przesyłki"}: <span><b>{$delivery_number}</b><span><br />
+                {/if}
+
+                {slot name="order_show_additional_data" hidden="true"}{/slot}
+
+                {if $paid}                   
+                    {__ text="Łączny koszt"}: <b>{$order_total_amount}</b><br/>
+                    {__ text="Zapłacono"}: <b>{$paid}</b><br/>
+                {/if}
+                
+              </div>
+        </div>
+        {if $description!= "" }
+            <div class="right info box_form roundies">  
+                    
+                    <div class="frame">
+                    <h3>
+                        {__ text="Uwagi do zamówienia"}
+                    </h3>
+                         <div class="data_content">
+                            {$description}
+                         </div>
+                    </div>
+            </div>
+         {/if}   
+         <br class="clear"/>
+      </div>
+      
+      <div class="st_order-order_sumary-box">
+         
+         <table cellspacing="0" class="st_tabular-list roundies" id="st_record_list-order" width="100%">
+	        <colgroup>
+	                       {if $show_photo_in_basket}<col width="60" />{/if}
+                {if $show_code_in_basket}<col width="60" />{/if}
+                <col />
+                {if $show_netto_in_basket}<col width="80" />{/if}
+                {if $show_tax_in_basket}<col width="50" />{/if}   
+                <col width="80" />
+                <col width="80" />
+                {if $points_system_is_active }   
+                <col width="50" />
+                {/if}
+                {if $show_uom_in_basket}<col width="50" />{/if}
+                <col width="80" />
+	        </colgroup>
+         	         	
+            <thead>
+               <tr>
+	             {if $show_photo_in_basket}<th class="st_basket-product-photo roundies_lt"><span>{__ text="zdjęcie"}</span></th>{/if}
+				 {if $show_code_in_basket}<th class="st_basket-product-code"><span>{__ text="kod"}</span></th>{/if}
+	             <th class="st_basket-product-name"><span>{__ text="nazwa"}</span></th>
+	             {if $show_netto_in_basket}<th class="st_basket-product-netto"><span>{__ text="netto"}</span></th>{/if}
+	             {if $show_tax_in_basket}<th class="st_basket-product-tax"><span>{__ text="vat"}</span></th>{/if}
+	             <th class="st_basket-product-brutto"><span>{__ text="brutto"}</span></th>
+	              {if $points_system_is_active }   
+                     <th class="st_basket-product-brutto" nowrap>{$points_shortcut}</th>
+                 {/if}
+	             <th class="st_basket-product-num"><span>{__ text="ilość"}</span></th>
+	             {if $show_uom_in_basket}<th class="st_basket-product-uom"><span>{__ text="j.m."}</span></th>{/if}
+	             <th class="st_basket-product-sum"><span>{__ text="suma}</span></th>
+               </tr>
+            </thead>                
+            
+            <tbody>
+               {foreach key=row item=order_product from=$results}
+               <tr>
+               	  {if $show_photo_in_basket}<td class="st_basket-product-photo">{$order_product.photo}</td>{/if}
+                  {if $show_code_in_basket}<td class="st_basket-product-code">{$order_product.code}</td>{/if}
+                  <td class="st_basket-product-name">
+                      {if isset($order_product.product_name)}
+                     {$order_product.product_name}
+                     {else}
+                     {if isset($order_product.validate)}
+                     {$order_product.name_show}
+                     {else}
+                     {$order_product.name}
+                     {/if}
+                     {/if}
+                  </td>
+                  {if $show_netto_in_basket}<td class="st_basket-product-netto" nowrap>{if $order_product.is_item_by_points} - {else}{$order_product.price}{/if}</td>{/if}
+                  {if $show_tax_in_basket}<td class="st_basket-product-tax">{if $order_product.is_item_by_points} - {else} {$order_product.vat} % {/if}</td>{/if}
+                  <td class="st_basket-product-brutto" nowrap>{if $order_product.is_item_by_points} - {else} {$order_product.price_true} {/if}</td>
+                  
+                  {if $points_system_is_active}   
+                  <td class="st_basket-product-brutto" nowrap>{if $order_product.is_item_by_points} {$order_product.points_value} {else} - {/if}</td>
+                  {/if}
+                  
+                  <td class="st_basket-product-num" {if $product.errors.quantity}style="border: 1px solid red"{/if}>{$order_product.quantity}</td>
+                  {if $show_uom_in_basket}<td class="st_basket-product-uom">{$order_product.uom}</td>{/if}
+                  <td class="st_basket-product-sum" nowrap>{if $order_product.is_item_by_points} {$order_product.points_sum_value} {$points_shortcut} {else} {$order_product.total_amount} {/if}</td>
+               </tr>     
+               {/foreach}
+                
+                <tr>
+                    <td colspan="10">
+                        <div style="margin:5px;">    
+                            <span style="float:right;">{__ text="Wartość koszyka"}: {$total_product_price}</span><br/>
+                            {if $points_value != 0}
+                            <span style="float:right;">{__ text="Koszt"} {$points_shortcut}: {$points_value}</span><br/>
+                            {/if}
+                            <span style="float:right;">{__ text="Koszt dostawy"}: {$order_cost}</span><br/>
+                            {if $discount}
+                            <span style="float: right">{__ text="Rabat"}: -{$discount}</span><br />
+                            {/if}                       
+                            <span style="font-size: 16px;font-weight: bold; float:right;">{__ text="Razem do zapłaty"}: {$final_total_amount}</span><br/>        
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+         </table>
+         
+         
+         
+        {if $show_payment!=1}
+            <div class="buttons right">
+                <a href="{$payment_url}" class="important roundies">
+                    <span class="arrow_right">{__ text="Zapłać"}</span>
+                </a>
+            </div>
+        {/if}  
+        
+        
+        
+               
+      </div>
+   </div> 
+   
+   {/if}
+   
+</div>
+
+{literal}
+<script type="text/javascript" language="javascript">
+    jQuery(function ($) {
+         $(document).ready(function () {
+         	
+ 	       function equalHeight(group)
+	       {
+	       tallest = 0;
+	       group.each(function() {
+	          $(this).css("height","auto");
+	          thisHeight = $(this).height();
+	          if(thisHeight > tallest) {
+	             tallest = thisHeight;
+	          }
+	        });
+	        group.height(tallest);
+	        }
+	        
+	        $(window).load(function() {
+	           equalHeight($(".frame"));
+	        });
+	        
+	        $(window).load(function() {
+	           equalHeight($(".user_date"));
+	        });
+	       
+            
+                 
+        });
+    });
+
+</script>
+{/literal}

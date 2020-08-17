@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Producentów</source>
+                <target>Manufacturers</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Aktualizacja producentów</source>
+                <target>Updating the manufacturers</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Generuj mapę strony dla</source>
+                <target>Generate the sitemap for</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Generuje mape witryny dla produktów</source>
+                <target>Generating the sitemap for the products</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Aktualizacja produktów</source>
+                <target>Updating the products</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Aktualizacja kategorii</source>
+                <target>Updating the categories</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Aktualizacja grup produktów</source>
+                <target>Updating the product groups</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Aktualizacja stron www</source>
+                <target>Updating the webpages</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zarządzanie pozycjonowaniem</source>
+                <target>Manage positioning</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Generowanie mapy serwisu dla Google</source>
+                <target>Generating the sitemap for Google</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Przywracanie domyślnych linków SEO</source>
+                <target>Restore the default SEO links</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Uwaga:</source>
+                <target>Notice:</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Wykonanie funkcji przywracania domyślnych linków SEO, spowoduje utratę wcześniej wprowadzonych zmian w polach Przyjazny link dla produktów, grup produktów, kategorii oraz stron www i ustawienie wartości domyślnych.</source>
+                <target>If you restore the default SEO links, you will lose your individual changes in the friendly links made for the products, product groups, categories and websites and also settings of the default values.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Mapa witryny</source>
+                <target>Sitemap</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Przywróć przyjazne linki dla</source>
+                <target>Restore the friendly links for</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Produktów</source>
+                <target>Products</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Grupy produktów</source>
+                <target>Product groups</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Strony www</source>
+                <target>Webpages</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Generuj linki SEO</source>
+                <target>Generate SEO links</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Ustaw domyślne wartości</source>
+                <target>Set the default values</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Ustaw poniższe wartości</source>
+                <target>Set the following values</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Generuj automatycznie</source>
+                <target>Generate automatically</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Ustawienia domyślne nie posiadają opcji wyświetlania.</source>
+                <target>Default settings don't have the display option.</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Generowanie mapy serwisu</source>
+                <target>Generating the sitemap</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Klucz weryfikacji</source>
+                <target>Verification key</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Dla domeny:</source>
+                <target>For domain:</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Klucz można uzyskać na stronie</source>
+                <target>Verification key can be found at</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Narzędzia dla webmasterów</source>
+                <target>Webmaster tools</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Pliki map strony</source>
+                <target>Sitemap files</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Mapa strony nie została wygenerowana</source>
+                <target>Sitemap file wasn't generated</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Generuj mapę serwisu</source>
+                <target>Generate the sitemap file</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Edycja pliku robots.txt</source>
+                <target>Edit robots.txt file</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Plik robots.txt informuje roboty wyszukiwarek indeksujących stronę, wykorzystują w tym celu specjalny protokół (Robots Exclusion Protocol), które elementy strony mają zostać zablokowane.</source>
+                <target>The robots.txt file informs search engines crawlers (which use special protocol Robots Exclusion Protocol) which parts of the page should be blocked.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Przywróć oryginalny plik</source>
+                <target>Restore the original file</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Producentów</source>
+                <target>Manufacturers</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Nazwa strony</source>
+                <target>Site name</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Tytuł strony</source>
+                <target>Website title</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Opis strony</source>
+                <target>Website description</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Adres strony</source>
+                <target>Site address</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Włącz przekierowanie</source>
+                <target>Enable redirect</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Lista stron z parametrami wspomagającymi pozycjonowanie</source>
+                <target>List of the sites with the parameters, which support positioning</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Lista stron</source>
+                <target>List of websites</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Domyślne meta tagi</source>
+                <target>Default meta tags</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Przekierowanie strony</source>
+                <target>Page redirect</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Aktualizacja producentów</source>
+                <target>Updating the manufacturers</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Edycja parametrów wspomogających pozycjnowanie dla strony %%name%%</source>
+                <target>Edit the parameters, which help positioning of your site</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Konfiguracja modułu pozycjonowania.</source>
+                <target>Positioning configuration.</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Proszę uzupełnić pole.</source>
+                <target>Fiil in the field.</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Proszę wybrać jedną z opcji</source>
+                <target>Select an option</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Musisz wybrac język dla mapy strony</source>
+                <target>Select a language for a sitemap</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Nieprawidłowa nazwa domeny</source>
+                <target>Invalid domain name</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Prosze podać poprawny klucz dla domeny</source>
+                <target>Enter a valid key for a domain</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Wartości domyślne</source>
+                <target>Default values</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Przyjazne linki nie zostały wygenerowane. Kliknij</source>
+                <target>Friendly links weren't generated. Click</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>tutaj</source>
+                <target>here</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>aby je wygenerować</source>
+                <target>to generate them</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Generuje mape witryny dla kategorii</source>
+                <target>Generating sitemap for the categories</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Generuje mape witryny dla grup produktów</source>
+                <target>Generating sitemap for the product groups</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Generuje mape witryny dla stron www</source>
+                <target>Generating sitemap for the webpages</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Mapy witryn dla Google</source>
+                <target>Google sitemaps</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Ustaw samodzielnie</source>
+                <target>Set manually</target>               
+            </trans-unit>
+             <trans-unit id="69">
+                <source>Strona główna</source>
+                <target>Homepage</target>               
+            </trans-unit>           
+            <trans-unit id="70">
+                <source>Aktualizacja bloga</source>
+                <target>Updating the blog</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Blog</source>
+                <target>Blog</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Generuje mape witryny dla bloga</source>
+                <target>Generating sitemap for the blog</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Meta Tagi</source>
+                <target>Meta Tags</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Meta Tagi</source>
+                <target>Meta Tags</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Tytuły stron</source>
+                <target>Titles</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>produktu</source>
+                <target>Product titles</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>kategorii</source>
+                <target>Category titles</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>producenta</source>
+                <target>Category title</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>producenta</source>
+                <target>Manufactuer title</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>informacyjnych</source>
+                <target>Website title</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>blogu</source>
+                <target>Blog title</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>grupy produktów</source>
+                <target>Product group title</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Weryfikacja wyszukiwarek</source>
+                <target>Search engines verify</target>
+            </trans-unit>         
+            <trans-unit id="84">
+                <source>Przekierowania linków 404</source>
+                <target>Redirect 404 links</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Tytuł</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Tytuł</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit> 
+            <trans-unit id="88">
+                <source>Plik weryfikacyjny</source>
+                <target>Verify file</target>
+            </trans-unit> 
+            <trans-unit id="89">
+                <source>Pliki weryfikacyjne</source>
+                <target>Verify files</target>
+            </trans-unit> 
+            <trans-unit id="90">
+                <source>Meta Tag Google - metoda alternatywna</source>
+                <target>Google Meta Tag - alternative method</target>
+            </trans-unit> 
+            <trans-unit id="91">
+                <source>Dodaj plik</source>
+                <target>Add file</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Załącz poprawny plik od Google, Bing lub Yandex </source>
+                <target>Attach correct file from Google, Bing or Yandex</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>{NAME} to nazwa produktu</source>
+                <target>{NAME} - name of product</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>{NAME} to nazwa kategorii</source>
+                <target>{NAME} - name of category</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>{NAME} to nazwa producenta</source>
+                <target>{NAME} - name of manufactuer</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>{NAME} to nazwa strony informacyjnej</source>
+                <target>{NAME} - name of website</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>{NAME} to nazwa strony informacyjnej</source>
+                <target>{NAME} - name of website</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>{NAME} to nazwa wpisu bloga</source>
+                <target>{NAME} - name of blog post</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>{NAME} to nazwa grupy produktu</source>
+                <target>{NAME} - name of product group</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>{NAME} to nazwa grupy produktu</source>
+                <target>{NAME} - name of product group</target>
+            </trans-unit>
+           <trans-unit id="101">
+                <source>Plik do pobrania</source>
+                <target>File for download</target>
+            </trans-unit>  
+           <trans-unit id="102">
+                <source>Zweryfikuj własność witryny plikiem</source>
+                <target>Use file for verify your site</target>
+            </trans-unit>
+           <trans-unit id="103">
+                <source>Meta tag znajdziesz w</source>
+                <target>Meta tag can be found in</target>
+            </trans-unit>
+           <trans-unit id="104">
+                <source>Wpisz kod z meta tag</source>
+                <target>Enter content from meta tag</target>
+            </trans-unit>
+           <trans-unit id="105">
+                <source>Meta Tag Google - metoda alternatywna</source>
+                <target>Meta Tag Google - alternative method</target>
+            </trans-unit>
+           <trans-unit id="106">
+                <source>Przekieruj linki, które prowadzą do stron 404 sklepu na linki z ofertą. Przykład: /stary_link http://domenasklepu.pl/nowy_link</source>
+                <target>Redirect links that lead to 404 pages store on the links with the offer. Example: /old_link http://shopdomain.com/new_link</target>
+            </trans-unit> 
+            <trans-unit id="107">
+                <source>Tytuł należy zmieścić w około 65-75 znakach wraz ze spacjami.</source>
+                <target>The title should fit in about 65-75 characters including spaces.</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Słowa kluczowe powinny być oddzielone przecinkiem. Przykład: słowo, słowo, słowo</source>
+                <target>Keywords should be separated by a comma. Example: keyword, keyword, keyword</target>
+            </trans-unit> 
+            <trans-unit id="109">
+                <source>Opis strony powinien mieć mniej niż 160 znaków ze spacjami.</source>
+                <target>The page description should be less than 160 characters with spaces.</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Wersja językowa</source>
+                <target>Language</target>
+            </trans-unit> 
+            <trans-unit id="111">
+                <source>Plik</source>
+                <target>File</target>
+            </trans-unit> 
+            <trans-unit id="112">
+                <source>Data wygenerowania</source>
+                <target>Date generated</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Przyjazny link</source>
+                <target>Friendly url</target>
+            </trans-unit> 
+            <trans-unit id="114">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Blokuj indeksowanie całego sklepu. Wyindeksuj sklep.:</source>
+                <target>Block indexing of the entire store. Remove shop from indexing.:</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Blokuj indeksowanie wybranych stron:</source>
+                <target>Block indexing of selected pages:</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Każdy adres strony podawaj w osobnej linii</source>
+                <target>Enter each page address on a separate line</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

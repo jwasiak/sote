@@ -1,0 +1,1 @@
+<?php echo select_tag('delivery[paczkomaty_type]', options_for_select(array('NONE' => __('Wyłączone'), 'ALL' => __('Wszystkie'), 'COD' => __('Z płatnością przy odbiorze')), $delivery->getPaczkomatyType()));

@@ -1,0 +1,19 @@
+Text:
+    Text_1:
+        system_name: stFrontendMain-middle
+        active: 1
+        culture: pl_PL
+        name: Strona główna
+        content: >
+            <p><img style="margin-top: 7px; float: right; height: auto; max-width: 50%; margin-left: 15px;" src="/uploads/images/img-main-page.jpg" alt="" width="559" height="322" /></p>
+            <h1>HISTORIA SZTUĆCÓW</h1>
+            <p>Sztućce swoją historią sięgają czasów pierwotnych człowieka. Najstarsze znaleziska wskazują, iż pierwsze w użyciu znalazły się łyżki, które służyły nabieraniu najczęściej gorącego pokarmu. Noże przyszły z czasem, przekształcając się następnie w widelce. Kronikarze niemieccy wspominają o tym, że cesarzowa Teofano używała podwójnego szpikulca do nabijania nań jedzenia. Pierwotnie sztućce wykonywane były z drewna – szczególnie w ubogich rodzinach. Tylko nieliczni mogli pozwalać sobie na metalową zastawę i akcesoria, które w wieku XVI wykonywane były przez płatnerzy.</p>
+TextI18n:
+    TextI18n_2:
+        id: Text_1
+        culture: en_US
+        name: Homepage
+        content: >
+            <p><img style="margin-top: 7px; float: right; height: auto; max-width: 50%; margin-left: 15px;" src="/uploads/images/img-main-page.jpg" alt="" width="559" height="322" /></p>
+            <h1>THE HISTORY OF CUTLERY</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>

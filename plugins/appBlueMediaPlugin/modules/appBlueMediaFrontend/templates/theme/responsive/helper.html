@@ -1,0 +1,103 @@
+{if $payment}
+    <div id="app-bluemedia-gateway-modal" class="modal fade" tabindex="-1" role="dialog" data-url="{urlfor internal='@appBlueMediaFrontend?action=gatewayList'}">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{$payment->getName()}</h4>
+            </div>
+            <div class="modal-body"></div>
+        </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="app-bluemedia-gateway-modal-message" class="modal fade modal-vertical-centered" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{$payment->getName()}</h4>
+            </div>
+            <div class="modal-body text-center"></div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">{__ text="Zamknij"}</button>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+{/if}
+
+{literal}
+    <script>
+        jQuery(function($) {
+            var modal = $('#app-bluemedia-gateway-modal');
+            var paymentId = {/literal}{$payment->getId()}{literal};
+            var trigger = null;
+            var messages = {
+                {/literal}
+                'chooseGateway': '{__ text="Wybierz kanał płatności"}'
+                {literal}
+            };
+
+            function resetGateway()
+            {
+                var current = $('.payment-radio:checked');
+
+                if (current.val() != paymentId) {
+                    $('.app-bluemedia-gateway').html('');
+                    $('#bluemedia_gateway').val('');
+                }
+            }
+
+            function showMessage(message) {
+                var modal = $('#app-bluemedia-gateway-modal-message');
+                
+                modal.find('.modal-body').html(message);
+
+                modal.modal('show');
+            }
+
+            modal.on('show.bs.modal', function(event) {
+                var modal = $(this);
+
+                trigger = $(event.relatedTarget);
+
+                $.get(modal.data('url'), function(response) {
+                    modal.find('.modal-body').html(response);
+                });
+            }).on("click", 'a[data-gateway-id]', function() {
+                var gateway = $(this);
+                trigger.parent().find('.app-bluemedia-gateway').html('<img src="' + gateway.data('gateway-icon') + '" style="max-width: 50px; vertical-align: middle;"> ' + gateway.data('gateway-name'));
+                $('#bluemedia_gateway').val(gateway.data('gateway-id'));
+                var radio = trigger.closest('label').find('.payment-radio');
+                if (!radio.prop('checked')) {
+                    radio.prop('checked', true).change();
+                }
+                $(window).resize();
+                modal.modal('hide');
+                return false;
+            });
+
+            var form = $('#user_delivery_form');
+
+            $('.payment-radio').click(function() {
+                var current = $(this);
+                if (current.val() != paymentId) {
+                    resetGateway();
+                }
+            });
+
+            form.submit(function() {
+                var current = $('.payment-radio:checked');
+                if (!$('#bluemedia_gateway').val() && current.val() == paymentId) {
+                    showMessage(messages.chooseGateway);
+                    return false;
+                }
+            });
+
+            resetGateway();
+        });
+    </script>
+{/literal}

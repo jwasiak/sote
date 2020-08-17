@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Generowanie pliku xml</source>
+                <target>Generate the xml file</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Zarządzanie porównywarką cen Oferciak</source>
+                <target>Manage the Oferciak price comparer</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Plik został wygenerowany i znajduje się pod adresem:</source>
+                <target>File has been generated and can be found at:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Generuj plik xml</source>
+                <target>Generate the xml file</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Lista produktów</source>
+                <target>List of products</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Edycja produktu</source>
+                <target>Edit the product</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Dane głowne</source>
+                <target>Main data</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Nazwa produktu</source>
+                <target>Product name</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

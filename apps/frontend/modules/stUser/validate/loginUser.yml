@@ -1,0 +1,14 @@
+fields:
+    user{email}:
+        required:
+            msg:   Brak adresu email.
+                   
+        stLoginUserValidator:
+    
+    user{password}:
+        required:
+            msg:       Brak hasła.
+        
+        sfStringValidator:
+            max:       20
+            max_error:    Przekroczono dozwoloną długość hasła, maksimum 20 znaków.

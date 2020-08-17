@@ -1,0 +1,1 @@
+<div style="width: 115px;"><?php echo $review->getCreatedAt() ?></div>

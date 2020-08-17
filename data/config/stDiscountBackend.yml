@@ -1,0 +1,6 @@
+data:
+    disable_for_wholesale: false
+    disable_for_promotion_products: false
+    coupon_code: false
+    coupon_code_calculate_method: overwrite
+    code_format: '@-##99-99##'

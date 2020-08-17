@@ -1,0 +1,57 @@
+<form class="product-options-filter-container" action="{url_for internal=$filter_url}" method="post">
+   {foreach from=$filters item=filter key=id}
+      <div class="filter-title">{$filter.name}</div>
+      {if $filter.type == 2}
+         <div class="form-group colors-filter clearfix">
+            {foreach from=$filter.options key=oid item=option} 
+               <span class="colors-filter-item">
+                  <button class="btn btn-default{if isset($selected[$id][$oid])} active{/if}" style="{if $option.has_color}background-color: #{$option.color}{else}background-image: url({$option.color}){/if}" data-color="hex-#{$option.color}" type="button" title="{$option.value}"></button> 
+                  <input class="sr-only" type="checkbox" name="options_filters[{$id}][{$oid}]" value="{$option.color_value}" {if isset($selected[$id][$oid])}checked{/if} />
+               </span>
+            {/foreach}   
+         </div> 
+      {else}
+         {foreach from=$filter.options key=oid item=option} 
+            <div class="form-group text-filter">
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" name="options_filters[{$id}][{$oid}]" value="{$option.value|escape}" {if isset($selected[$id][$oid])}checked{/if} />
+                     {$option.name}
+                  </label>
+               </div>
+            </div>
+         {/foreach} 
+      {/if}
+      {if $selected[$id]}
+         <div class="clearfix">
+            <a href="{url_for internal=$filter.reset_url}" class="pull-right reset">{__ text="wyczyść"} <span class="clear-value"></span></a>
+         </div>
+      {/if}
+   {/foreach}
+</form>
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+   $(document).ready(function() {
+      $('.product-options-filter-container').each(function() {
+         var $this = $(this);
+
+         if (!$this.data('initialized')) {
+            $this.data('initialized', true);
+            $this.on('click', '.colors-filter button', function() {
+               var btn = $(this);
+               btn.toggleClass('active').next().click();
+            })
+            .on('change', 'input', function() {
+               $(this).closest('form').submit();
+            });
+
+         }
+      });
+   });
+});
+//]]>   
+</script>
+{/literal}

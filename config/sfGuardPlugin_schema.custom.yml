@@ -1,0 +1,12 @@
+propel:
+    sf_guard_user:
+        _attributes: { phpName: sfGuardUser }
+        points: 
+          type: INTEGER
+          default: 0
+        points_available: 
+          type: BOOLEAN
+          default: 1
+        points_release: 
+          type: BOOLEAN
+          default: 0

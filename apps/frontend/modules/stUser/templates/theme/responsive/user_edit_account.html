@@ -1,0 +1,223 @@
+{set layout="one_column"}
+<div class="user-control">
+    {st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="5"}
+
+    <div id="edit-account">
+
+        <div class="row row-first" data-equalizer>
+            <div class="col-sm-6 col-md-6">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">                
+                            <span class="panel-trigger">{__ text="Dane płatnika"}</span>                
+                    </div>
+                    <div class="panel-body" data-equalizer-watch>
+                        
+                        {if $billing_edit_url && $billing_address!=""}
+                        
+                        <a class="edit-btn pull-right" href="{$billing_edit_url}">
+                            {__ text="zmień"}
+                        </a>
+                        {if $billing_company!=""}
+                        {__ text="Dane do faktury"}
+                        <br/>
+                        {$billing_company}
+                        <br/>
+                        {$billing_vat_number}
+                        <br/>
+                        {/if}
+
+                        <b>{$billing_full_name}</b>
+                        <br/>
+
+                        {$billing_address}
+                        <br/>
+
+                        {if $billing_address_more!=""}
+                        {$billing_address_more}
+                        <br/>
+                        {/if}
+
+                        {if $billing_region!=""}
+                        {$billing_region}
+                        <br/>
+                        {/if}
+
+                        {$billing_code}
+                        {$billing_town}
+                        <br/>
+
+                        {$billing_country}
+                        <br/>
+                        {$billing_phone}
+                        <br/>
+                        
+                        {else}
+                
+                        <a class="btn btn-default pull-right" href="/user_data/createFirstUserDataBilling">{__ text="Dodaj dane billingowe"}</a>
+                        
+                        {/if}
+
+                    </div>
+                </div>        
+
+            </div>
+            <div class="col-sm-6 col-md-6">
+
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="panel-trigger" >{__ text="Dane wysyłkowe"}</span>
+                    </div>
+                    <div class="panel-body" data-equalizer-watch>
+                        
+                        {if $delivery_edit_url && $delivery_address!=""}
+                        
+                        <a class="edit-btn pull-right" href="{$delivery_edit_url}">
+                            {__ text="zmień"}
+                        </a>
+
+                        {if $delivery_company!=""}
+                        {$delivery_company}
+                        <br/>
+                        {/if}
+
+                        <b>{$delivery_full_name}</b>
+                        <br/>
+
+                        {$delivery_address}
+                        <br/>
+
+                        {if $delivery_address_more!=""}
+                        {$delivery_address_more}
+                        <br/>
+                        {/if}
+
+                        {if $delivery_region!=""}
+                        {$delivery_region}
+                        <br/>
+                        {/if}
+
+                        {$delivery_code}
+                        {$delivery_town}
+                        <br/>
+
+                        {$delivery_country}
+                        <br/>
+                        {$delivery_phone}
+                        <br/>
+                        
+                        {else}
+                
+                        <a class="btn btn-default pull-right" href="/user_data/createFirstUserDataDelivery">{__ text="Dodaj dane dostawy"}</a>
+                        
+                        {/if}
+
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+        <div class="row" data-equalizer>
+            <div class="col-sm-6 col-md-6">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="panel-trigger" >{__ text="Zmień e-mail (login)"}</span>
+                    </div>
+                    <div class="panel-body" data-equalizer-watch>
+                           {if $show_message}
+                                <div class="alert alert-success" role="alert">{__ text="Dane zostały zaktualizowane."}</div>
+                           {/if}     
+                        {$form_start}
+                            
+                            <div class="form-group  {if $error_email!=''}has-error{/if}">
+                                {if $error_email!=""}<label class="control-label" for="st_form-user_basket-email">{$error_email}</label>{/if}
+                                {$input_email}
+                            </div>
+
+                            <button type="submit" class="btn btn-default pull-right">
+                                {__ text="Aktualizuj"}
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-6">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="panel-trigger" >{__ text="Zmień hasło"}</span>
+                    </div>
+                    <div class="panel-body" data-equalizer-watch>
+
+                        {$form_start_2}
+
+                        <div class="form-group  {if $error_user_oldpassword!=''}has-error{/if}">
+                            {if $error_user_oldpassword!=""}<label class="control-label" for="user_oldpasswordl">{$error_user_oldpassword}</label>{/if}
+                            {$input_user_oldpassword}
+                        </div>
+
+                        <div class="form-group  {if $error_user_password1!=''}has-error{/if}">
+                            {if $error_user_password1!=""}<label class="control-label" for="password1">{$error_user_password1}</label>{/if}
+                            {$input_user_password1}
+                        </div>
+
+                        <div class="form-group  {if $error_user_password2!=''}has-error{/if}">
+                            {if $error_user_password2!=""}<label class="control-label" for="password2">{$error_user_password2}</label>{/if}
+                            {$input_user_password2}
+                        </div>
+
+                        <button type="submit" class="btn btn-default pull-right">
+                            {__ text="Aktualizuj"}
+                        </button>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">    
+            <div class="col-sm-6 col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="panel-trigger" >{__ text="Usuń konto"}</span>
+                    </div>
+                    <div class="panel-body">                                        
+                        
+                            {__ text="Po usunięciu konta wszystkie dane zostaną bezpowrotnie skasowane."}
+                            <div class="clearfix"></div>
+                            
+                            <a href="/user/requestDeleteAccount" class="btn btn-default pull-right" >
+                                {__ text="Usuń konto"}
+                            </a>
+                            
+                        </form>
+
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+</div>
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function() {
+            jQuery('#password1').pstrength();
+            $('#oldpassword, #password1, #password2').attr('autocomplete', 'off');
+            
+            $( ".alert" ).addClass( "opacity_alert" );
+            
+            setTimeout(function() {
+                $( ".alert" ).addClass( "hidden_alert" );
+            }, 3000);
+        });
+    }); 
+</script>
+{/literal}

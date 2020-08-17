@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" package="plugins.sfAssetsLibraryPlugin.lib.model" defaultIdMethod="native" noXsd="true">
+
+  <table name="sf_asset_folder" phpName="sfAssetFolder">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="tree_left" type="integer" required="true" />
+    <column name="tree_right" type="integer" required="true" />
+    <column name="tree_parent" type="integer" />
+    <foreign-key foreignTable="sf_asset_folder" onDelete="restrict">
+      <reference local="tree_parent" foreign="id" />
+    </foreign-key>
+    <column name="tree_depth" type="integer" />
+    <column name="static_scope" type="integer" />
+    <column name="name" type="varchar" size="255" />
+    <column name="relative_path" type="varchar" size="255" />
+    <column name="is_enabled" type="boolean" default="1" />
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <unique name="uk_relative_path">
+      <unique-column name="relative_path" />
+    </unique>
+  </table>
+
+  <table name="sf_asset" phpName="sfAsset" isI18N="true" i18nTable="sf_asset_i18n">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="folder_id" type="integer" required="true" />
+    <foreign-key foreignTable="sf_asset_folder" onDelete="CASCADE" onUpdate="CASCADE">
+      <reference local="folder_id" foreign="id" />
+    </foreign-key>
+    <column name="filename" type="varchar" size="255" />
+    <column name="opt_description" change_column="description" type="LONGVARCHAR" />
+    <column name="author" type="varchar" size="255" />
+    <column name="copyright" type="varchar" size="100" />
+    <column name="type" type="varchar" size="10" />
+    <column name="filesize" type="DECIMAL" size="10" scale="2" />
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <unique name="uk_folder_filename">
+      <unique-column name="folder_id" />
+      <unique-column name="filename" />
+    </unique>
+  </table>
+
+  <table name="sf_asset_i18n" phpName="sfAssetI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="sf_asset" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="description" type="LONGVARCHAR" />
+  </table>
+
+</database>

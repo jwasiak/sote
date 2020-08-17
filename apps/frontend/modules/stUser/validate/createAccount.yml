@@ -1,0 +1,35 @@
+fields:
+    user{email}:
+        required:
+            msg:      Brak adresu email.
+            
+        sfStringValidator:
+            max:          60
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+            
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail.
+    
+    user{password1}:
+        required:
+            msg:       Brak hasła.
+        
+        sfStringValidator:
+            min:       6
+            min_error: Podane hasło jest za krótkie min. 6 znaków.
+            max:       20
+            max_error:    Przekroczono dozwoloną długość hasła, maksimum 20 znaków.
+        
+    user{password2}:
+        required:
+            msg:       Brak hasła.
+        
+        sfStringValidator:
+            min:       6
+            min_error: Podane hasło jest za krótkie min. 6 znaków.
+            max:       20
+            max_error:    Przekroczono dozwoloną długość hasła, maksimum 20 znaków.
+        
+        sfCompareValidator:
+            check:    user[password1]
+            compare_error: Hasła nie są takie same.

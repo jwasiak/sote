@@ -1,0 +1,30 @@
+#social > div
+{
+    float: left;
+    margin-left: 5px;
+}
+
+#social > div > a
+{
+    position: relative;
+    width:32px;
+    height: 32px;
+    display: block;
+}
+
+#social img.a 
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+    
+#social img.b 
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}

@@ -1,0 +1,15 @@
+<div id="st_component-st_basket-add_enable">
+    <form action="{$form_action}" method="post" id="st_basket-add-to-basket-form">
+        {$attributes}
+        <div id="st_basket-add-button" class="buttons">
+            <div id="st_basket-add-button-content" class="roundies">
+                {$submit_button}
+                {if $quantity_field}
+                    <div id="st_basket-add-quantity_container">{$quantity_field}
+                    </div>
+                {/if}
+                <img src="{image_path image='/buttons/basket.png'}" alt=""/>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,384 @@
+<div id="st_application-order_summary" class="st_application" >
+   <div id="st_application-order_summary-header">
+      <h1 class="st_title">
+         {__ text="Potwierdź zamówienie"}
+      </h1>
+      <p>
+         {__ text="Zweryfikuj poprawność informacji zawartych w zamówieniu."}
+      </p>
+      <br class="st_clear_all" />
+   </div>
+   <div class="st_content">
+
+      {$form_start}
+      {foreach key=row item=name from=$biling_values}
+      {$name.billing_name}
+      {/foreach}
+      {foreach key=row item=name from=$delivery_values}
+      {$name.delivery_name}
+      {/foreach}
+      {$different_delivery}
+      {$create_account}
+      {$password1}
+      {$password2}
+      {$user_data_billing_id}
+      {$user_data_delivery_id}
+      {$description}
+      {$delivery_date}
+      {$delivery_time}
+      <div class="st_align-left" id="st_order-back_button">
+         <div class="st_button-left">
+            {$order_correction_submit}
+         </div>
+      </div>         
+      <div class="st_button st_align-right" id="st_order-confirm_button">
+         <div class="st_button-left">
+            {$order_submit}
+         </div>
+      </div> 
+      <br class="st_clear_all" />  
+      </form>
+
+      {if $create_account_value==1}
+
+      <div class="st_order-order_sumary-box">
+         <h2 class="st_order_summary_h2">
+            {__ text="Konto użytkownika"}
+         </h2> <br>
+         <p style="text-align:center;">{__ text="W czasie składania zamówienia zostanie utworzone konto użytkownika, dane dostępowe do konta zostaną wysłane na adres:"}</p>
+         <p style="text-align:center; font-size:14px;"><b>{$user_data_billing_email}</b></p>
+         <p style="text-align:center;">{__ text="Aby móc zalogować się do sklepu, niezbędne będzie potwierdzenie danych zawartych w mailu z zamówieniem."}</p>
+
+      </div>
+      {/if}
+
+
+      <div class="st_order-order_sumary-box">
+
+         <h2 class="st_order_summary_h2">
+            {__ text="Dane klienta"}
+         </h2>
+         <br class="st_clear_all"/>
+         <div id="st_order-order_summary-user_data-background">    
+            <div class="st_order-order_sumary-user_data st_align-left">
+               <h3>
+                  {__ text="Dane bilingowe"}
+               </h3>
+               <address>
+                  {if isset($user_data_billing_company)}
+                  <p>
+                     {$user_data_billing_company}
+                  </p>
+                  {/if}
+                  <p>
+                     <span class="st_order-order-summary-address-name">
+                        {$user_data_billing_full_name}
+                     </span>
+                  </p>
+                  <p>
+                     <span class="st_order-order-summary-address-street">
+                        {$user_data_billing_address}
+                     </span>
+                     <br>
+
+                     {if $user_data_billing_address_more!=""}
+                     <span class="st_order-order-summary-address-street">
+                        {$user_data_billing_address_more}
+                     </span>
+                     <br>
+                     {/if}
+
+                     {if $user_data_billing_region!=""}
+                     <span class="st_order-order-summary-address-street">
+                        {$user_data_billing_region}
+                     </span>
+                     <br>
+                     {/if}
+
+                     <span class="st_order-order-summary-address-code">
+                        {$user_data_billing_code}
+                     </span>
+                     <span class="st_order-order-summary-address-town">
+                        {$user_data_billing_town}
+                     </span>
+                     <span class="st_order-order-summary-address-country">
+                        {$user_data_billing_country}
+                     </span>
+                     {if $user_data_billing_pesel!=""}
+                     <span class="st_order-order-summary-address-street">
+                       <br> {__ text="PESEL"}&nbsp;{$user_data_billing_pesel}
+                     </span>
+                     {/if}
+                  </p>
+                  <p>
+                     {$user_data_billing_phone}
+                  </p>
+                  {if isset($user_data_billing_vat_number)}
+                  <p>
+                     {__ text="NIP"}&nbsp;{$user_data_billing_vat_number}
+                  </p>
+                  {/if}
+               </address>
+            </div>
+            <div class="st_order-order_sumary-user_data st_align-right">
+               <h3>
+                  {__ text="Dane dostawy"}
+               </h3>
+               <address>
+                  {if isset($user_data_delivery_company)}
+                  <p>
+                     {$user_data_delivery_company}
+                  </p>
+                  {/if}
+                  <p>
+                     <span class="st_order-order-summary-address-name">
+                        {$user_data_delivery_full_name}
+                     </span>
+                  </p>
+                  <p>
+                     <span class="st_order-order-summary-address-street">
+                        {$user_data_delivery_address}
+                     </span>
+                     <br>
+
+                     {if $user_data_delivery_address_more!=""}
+                     <span class="st_order-order-summary-address-street">
+                        {$user_data_delivery_address_more}
+                     </span>
+                     <br>
+                     {/if}
+
+                     {if $user_data_delivery_region!=""}
+                     <span class="st_order-order-summary-address-street">
+                        {$user_data_delivery_region}
+                     </span>
+                     <br>
+                     {/if}
+
+                     <span class="st_order-order-summary-address-code">
+                        {$user_data_delivery_code}
+                     </span>
+                     <span class="st_order-order-summary-address-town">
+                        {$user_data_delivery_town}
+                     </span>
+                     <span class="st_order-order-summary-address-country">
+                        {$user_data_delivery_country}
+                     </span>
+                  </p>
+                  <p>
+                     {$user_data_delivery_phone}
+                  </p>
+               </address>
+            </div>
+            <br class="st_clear_all" />             
+         </div>
+      </div>       
+      <div class="st_order-order_sumary-box">
+         <h2>
+            {__ text="Zawartość"}
+         </h2>
+         <br class="st_clear_all"/>
+         <table cellspacing="0" class="st_tabular-list" id="st_record_list-order">
+            <thead>
+               <tr>
+                  <th class="st_order-order_summary_table_id">
+                     {__ text="Kod"}
+                  </th>
+                  <th>
+                     {__ text="Nazwa"}
+                  </th>
+                  <th>
+                     {__ text="Netto"}
+                  </th>
+                  <th>
+                     {__ text="VAT"}
+                  </th>
+                  <th>
+                     {__ text="Brutto"}
+                  </th>
+                  <th>
+                     {__ text="Ilość"}
+                  </th>
+                  <th>
+                     {__ text="J.m."}
+                  </th>                  
+                  <th>
+                     {__ text="Suma"}
+                  </th>
+               </tr>
+            </thead>
+            <tbody>
+               {foreach key=row item=product from=$results}
+               <tr>
+                  <td class="st_order-order_summary_table_id">
+                     {$product.code}
+                  </td>
+                  <td>
+                     {if isset($product_name)}
+                     {$product.product_name}
+                     {else}
+                     {if isset($product.validate)}
+                     {$product.name_show}
+                     {else}
+                     {$product.name}
+                     {/if}
+                     {/if}
+                  </td>
+                  <td>
+                     {$product.price}
+                  </td>
+                  <td>
+                     {$product.vat} %
+                  </td>
+                  <td>
+                     {$product.price_brutto}
+                  </td>
+                  <td>
+                     {$product.quantity}
+                  </td>
+                  <td>
+                     {$product.uom}
+                  </td>
+                  <td>
+                     {$product.total_amount}
+                  </td>
+               </tr>     
+               {/foreach}     
+            </tbody>
+         </table>
+         <br class="st_clear_all"/>
+      </div>
+      <div class="st_order-order_sumary-box">
+         <h2>
+            {__ text="Dane dodatkowe"}
+         </h2>
+         <br class="st_clear_all"/>
+         <ul>
+            <li class="st_order-order_sumary-sumary_box_left" id="st_order-order_summary-delivery">
+               <ul>
+                  <li>
+                     <span class="st_order_summary_data" id="st_order_summary_cost">
+                        {__ text="Płatność"}:
+                     </span>
+                     {$payment_name}
+                     <br/>
+                     {$payment_info}
+                     <br/>
+                  </li>
+                  <li>
+                     <span class="st_order_summary_data" id="st_order_summary_delivery">
+                        {__ text="Dostawa"}:
+                     </span>
+                     {$delivery_name}
+                  </li>
+                  {if $delivery_date_value != " "}
+                  <li>
+                     <span class="st_order_summary_data" id="st_order_summary_delivery">
+                        {__ text="Termin dostawy"}:
+                     </span>
+                     {$delivery_date_value}
+                  </li>
+                  {/if}
+                  <li>
+                     <span class="st_order_summary_data" id="st_order_summary_cost">
+                        {__ text="Koszt"}:
+                     </span>
+                     {$order_cost}
+                  </li>
+               </ul>
+               <br class="st_clear_all"/>
+            </li>
+            <li class="st_order-order_sumary-sumary_box_left" id="st_order-order_summary-total_amount">
+               <ul>
+                  {if $paid}                   
+                  <li>
+                     <span class="st_order_summary_data" style="width: 195px">
+                        {__ text="Łączny koszt"}:
+                     </span>
+                     {$order_total_amount}
+                  </li>
+                  <li>
+                     <span class="st_order_summary_data" style="width: 195px">
+                        {__ text="Zapłacono"}:
+                     </span>
+                     {$paid}
+                  </li>  
+                  {/if}                    
+                  <li>
+                     <span class="st_order_summary_data" id="st_order_summary_sum">
+                        {__ text="Razem do zapłaty"}:
+                     </span>
+                     <strong class="st_order-strong">
+                        {$final_total_amount}
+                     </strong>
+                  </li>                    
+
+                  {if $user_data_billing_invoice==1}
+                  <li>
+                     <span class="st_order_summary_data" >
+                        {__ text="Chcę otrzymać fakturę VAT"}
+                     </span>
+                  </li>
+                  {/if}
+
+                  {if $user_data_billing_newsletter==1}
+                  <li>
+                     <span class="st_order_summary_data" >
+                        {__ text="Zapisz mnie na newsletter"}
+                     </span>
+                  </li>
+                  {/if}
+
+               </ul>
+               <br class="st_clear_all"/>
+            </li>
+         </ul>
+         <br class="st_clear_all"/>
+      </div>  
+
+      <br class="st_clear_all"/> 
+
+
+      {if $description_value!=""}
+      <div class="st_order-order_sumary-box">
+         <h2>
+            {__ text="Uwagi do zamówienia"}
+         </h2>
+         <br class="st_clear_all"/>    
+         <div>
+            {$comment}
+         </div>
+      </div>
+      {/if}
+
+      <br class="st_clear_all"/>    
+      {$form_start}
+      {foreach key=row item=name from=$biling_values}
+      {$name.billing_name}
+      {/foreach}
+      {foreach key=row item=name from=$delivery_values}
+      {$name.delivery_name}
+      {/foreach}
+      {$different_delivery}
+      {$create_account}
+      {$password1}
+      {$password2}
+      {$user_data_billing_id}
+      {$user_data_delivery_id}
+      {$description}
+      {$delivery_date}
+      {$delivery_time}
+      <div class="st_align-left" id="st_order-back_button">
+         <div class="st_button-left">
+            {$order_correction_submit}
+         </div>
+      </div>         
+      <div class="st_button st_align-right" id="st_order-confirm_button">
+         <div class="st_button-left">
+            {$order_submit}
+         </div>
+      </div> 
+      <br class="st_clear_all" />  
+      </form>
+   </div>
+</div>

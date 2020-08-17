@@ -1,0 +1,16 @@
+<div class="st_application">
+	<h1 class="st_title">{$name}</h1>     
+    	{if ($description)}
+    	<div style="margin: 0px 10px;" >
+        	<div style="width: 130px; float: left;">{$photo}</div>
+    	    <div style="padding: 10px; width: 420px; float: left; text-align: justify;">{$description} </div>
+    	    <br class="st_clear_all" />
+    	</div>
+    	{/if}
+	{if $show_subcategories==1}
+    {$categories}
+    {/if}
+</div>
+	{if ($categories && $show_subcategories==1)}
+	   <div class="st_space_category"></div>
+	{/if}

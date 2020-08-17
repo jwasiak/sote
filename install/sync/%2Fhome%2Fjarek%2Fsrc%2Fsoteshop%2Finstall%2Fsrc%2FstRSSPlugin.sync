@@ -1,0 +1,15 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/stRSSPlugin
+/home/jarek/src/soteshop/plugins/stRSSPlugin/config
+/home/jarek/src/soteshop/plugins/stRSSPlugin/config/config.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfFeedEnclosure.class.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfAtom1Feed.class.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfFeedItem.class.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfRssUserland091Feed.class.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfRssFeed.class.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfFeed.class.php
+/home/jarek/src/soteshop/plugins/stRSSPlugin/lib/sfRss201rev2Feed.class.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stRSSPlugin
+/home/jarek/src/soteshop/packages/stRSSPlugin/package.yml

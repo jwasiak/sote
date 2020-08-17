@@ -1,0 +1,12 @@
+package:
+  name: stFixturesElegante
+  stability: stable
+  version: 7.0.6
+  summary: Dane dla tematu Elegante
+  description: Dane dla tematu Elegante
+  notes: Nowy modul
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

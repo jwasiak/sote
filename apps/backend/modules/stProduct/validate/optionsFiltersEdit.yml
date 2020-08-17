@@ -1,0 +1,12 @@
+fields:
+  product_options_filter{name}:
+    required:
+      msg:            Podaj nazwe filtra.
+    sfPropelUniqueValidator:
+        class:        ProductOptionsFilter
+        column:       opt_name
+        unique_error: Filtr o podanej nazwie już istnieje.
+    sfRegexValidator:
+        pattern: /^\s*\t*$/
+        match: false
+        match_error: Podaj nazwe filtra.

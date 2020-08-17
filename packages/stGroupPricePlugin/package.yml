@@ -1,0 +1,16 @@
+---
+package: 
+  name: stGroupPricePlugin
+  stability: stable
+  version: 7.0.2.2
+  summary: Grupy cenowe
+  description: Grupy cenowe
+  notes: |
+     - Aktualizacja tlumaczen i zdjecia produktow
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    soteshop_base: 6.0.0

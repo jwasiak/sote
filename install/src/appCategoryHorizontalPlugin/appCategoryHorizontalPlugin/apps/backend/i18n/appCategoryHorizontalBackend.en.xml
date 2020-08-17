@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Poziome kategorie</source>
+                <target>Horizontal categories</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Konfiguracja poziomego drzewa</source>
+                <target>Configuration of horizontal tree</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Konfiguracja wyświetlania poziomych kategorii</source>
+                <target>Horizontal display configuration category</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Włącz poziome kategorie</source>
+                <target>Turn on the horizontal categories</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Pokaż obrazek kategorii</source>
+                <target>Show picture category</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Pokaż opis kategorii</source>
+                <target>Show category description</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Drzewo kategorii</source>
+                <target>Category tree</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Brak drzew kategorii</source>
+                <target>No category tree</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

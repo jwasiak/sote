@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_availability:         {name: Dostepnosc, class: AvailabilityPeer, type: string}
+
+import:
+    fields:
+        product_availability:         {class: AvailabilityPeer, type: string}        

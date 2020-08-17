@@ -1,0 +1,17 @@
+default:
+    http_metas:
+        content-type: text/html
+
+    metas:
+        title:        SOTESHOP - panel administracyjny
+        robots:       index, follow
+        description:  soteshop project
+        keywords:     soteshop, project
+        language:     pl
+
+    stylesheets:    []
+
+    javascripts:    []
+
+    has_layout:     on
+    layout:         layout

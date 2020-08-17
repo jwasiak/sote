@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="no" datatype="plaintext" date="2015-01-15T02:13:45Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Betaling</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Takk for betalingen.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Płatność jest w trakcie realizacji.</source>
+				<target>Betaling pågår.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Betalingen ble ikke utført.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Betal</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Betalingen ble feilkonfigurert.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

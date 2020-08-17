@@ -1,0 +1,12 @@
+package:
+  name: stFixturesFashion
+  stability: stable
+  version: 7.0.0.2
+  summary: 'Dane FashionRWD'
+  description: 'Dane FashionRWD'
+  notes: Poprawa danych wysuzkiwania i zdjec
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

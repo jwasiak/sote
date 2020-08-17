@@ -1,0 +1,49 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                Payment
+        theme:                      simple
+        applications:               [stOrder, stInvoicePlugin, stUser, stDelivery]
+        head:
+            package:                stPayment
+
+        fields:
+            created_at:             {name: Data dodania płatności}
+            amount:                 {name: Kwota}
+            payment_type:           {name: Typ płatności}
+            payment_type_id:        {name: Typ płatności}
+            payment_status:         {name: Status}
+            status:                 {name: Zapłacono}
+            sf_guard_user:          {name: Klient}
+            sf_guard_user_id:       {name: Klient}
+            order_code:             {name: Numer zamówienia}
+            cancel:                 {name: Anulowano}
+            payed_at:               {name: Data dokonania płatności}
+
+        list:
+            peer_method:            doSelect
+            peer_count_method:      doCount
+            title:                  Płatności klienta  
+            description:            Zarządzanie płatnościami klientów, wprowadzanie wpłat, konfiguracja płatności.
+            display:                [_order_code, _amount, _payment_type, _sf_guard_user, _payment_status, payed_at]
+            fields:
+                order_code:         {name: Numer zamówienia, sort_field: order.id}
+                amount:             {name: Kwota}
+                payed_at:           {name: Data dokonania płatności}
+            object_actions:
+                _edit:              -
+                _delete:            -
+            actions:
+                _
+            filters:
+                order_code:         {partial: filter_order_code}
+            sort:                   [payed_at, desc]
+        edit:
+            title:                  Edycja płatności
+            description:            Zarządzanie płatnościami klientów, wprowadzanie wpłat, konfiguracja płatności.
+            display:
+                "Podstawowe dane":  [amount, payment_type_id, _status, cancel, _order_code, payed_at]
+            actions:
+                _delete:            {name: Usuń}
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}

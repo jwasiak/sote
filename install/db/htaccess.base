@@ -1,0 +1,57 @@
+###HTACCESS_TOP
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  ###HTACCESS_MIDDLE
+
+  RewriteRule ^category/([^/]+)/1$ /category/$1 [R=301,L]
+  RewriteRule ^category/([^/]+)/([^/]+)/1$ /category/$1/$2 [R=301,L]
+
+  # uncomment the following line, if you are having trouble
+  # getting no_script_name to work
+  RewriteBase /
+  RewriteRule ^product/attachment/([^/]+)/([^/]+)/(.+)$ index.php?module=stProduct&action=downloadAttachment&folder=$1&culture=$2&filename=$3 [L]
+  RewriteRule ^product/image/([0-9]+)/(.+)$ index.php?module=stProduct&action=showImage&folder=$1&image=$2 [L]
+
+  # we skip all files with .something
+  # comment the following 3 lines to allow periods in routes
+  RewriteCond %{REQUEST_URI} \..+$
+  RewriteCond %{REQUEST_URI} !\.html$
+  RewriteCond %{QUERY_STRING} ^pc_module_type=+$
+  RewriteRule .* - [L]
+
+  # 404 for non existed images
+  RewriteCond %{REQUEST_URI} \.(gif|jpeg|jpg|png|GIF|JPEG|JPG|PNG|ico)$
+  RewriteCond %{REQUEST_URI} !^(/media/products)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule .* scripts/404_image.php [L]
+  
+  # we check if the .html version is here (caching)
+  RewriteRule ^$ index.html [QSA]
+  RewriteRule ^([^.]+)$ $1.html [QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+
+  # no, so we redirect to our front web controller
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# big crash from our front web controller
+ErrorDocument 500 "<h2>Application error</h2>symfony application failed to start properly"
+
+<IfModule mod_headers.c>
+  <Files ~ "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|less|doc|mp3|wmv|woff|woff2|eot|svg|ttf)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Cache-Control "max-age=1209600, public, stale-while-revalidate=86400, stale-if-error=86400"
+    Header unset ETag
+    Header unset Last-Modified
+  </Files>
+  <Files ~ "\.(xml)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Cache-Control "max-age=no-cache, public"
+    Header unset ETag
+    Header unset Last-Modified
+  </Files>
+</IfModule>
+
+###HTACCESS_BOTTOM

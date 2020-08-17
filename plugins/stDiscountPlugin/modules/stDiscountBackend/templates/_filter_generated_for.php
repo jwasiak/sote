@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[generated_for]', isset($filters['generated_for']) ? $filters['generated_for'] : null) ?>

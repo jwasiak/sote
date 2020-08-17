@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_nokaut:         {name: Nokaut, class: stNokaut, method: getProduct}
+
+import:
+    fields:
+        product_nokaut:         {class: stNokaut, method: setProduct}

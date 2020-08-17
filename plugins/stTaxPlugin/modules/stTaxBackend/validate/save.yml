@@ -1,0 +1,13 @@
+fields:
+    tax{vat}:
+        required:
+            msg:    Podaj VAT
+        sfNumberValidator:
+            nan_error:    VAT musi być liczbą, a części dziesiętne należy wprowadzić z kropką (.)
+            min:    0
+            min_error: VAT nie może być mniejszy niż 0 %
+            max:    99.99
+            max_error:  VAT musi być mniejszy niż 100 %
+    tax{vat_name}:
+        required:   
+            msg:    Podaj nazwę stawki VAT

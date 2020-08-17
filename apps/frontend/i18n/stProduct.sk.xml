@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2012-07-02T03:01:19Z">
+		<body>
+			<trans-unit id="1">
+				<source>Cena</source>
+				<target>Cena</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sortuj po</source>
+				<target>Triediť podľa</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwie</source>
+				<target>Názvu</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Cenie</source>
+				<target>Ceny</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa produktu</source>
+				<target>Názov výrobku</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Opis</source>
+				<target>Opis</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Producent</source>
+				<target>Výrobca</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kategoria</source>
+				<target>Kategória</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Typ prezentacji listy</source>
+				<target>Spôsob prezentácie zoznamu</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Pełna lista</source>
+				<target>Celý zoznam</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Skrócona lista</source>
+				<target>Skrátený zoznam</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Lista alternatywna</source>
+				<target>Alternatívny zoznam</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Polecamy produkty</source>
+				<target>Odporúčame produkty</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Widzisz %number% z %count% produktów</source>
+				<target>Vidíte %number% z %count% produktov</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nowości</source>
+				<target>Novinky</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Strona główna</source>
+				<target>Hlavná stránka</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Strona produktu o podanym id nie istnieje</source>
+				<target>Strana s produktom s uvedeným ID neexistuje</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Strona kategorii o podanym id nie istnieje</source>
+				<target>Strana s kategóriou s uvedeným ID neexistuje</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Strona grupy produktów o podanym id nie istnieje</source>
+				<target>Strana so skupinou produktov s uvedeným ID neexistuje</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cena netto</source>
+				<target>Cena bez DPH</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Cena brutto</source>
+				<target>Cena s DPH</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Stara cena</source>
+				<target>Stará cena</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Rabat</source>
+				<target>Zľava</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Grupa rabatowa</source>
+				<target>Zľavová skupina</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Cena katalogowa brutto</source>
+				<target>Katalógová cena s DPH</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena katalogowa netto</source>
+				<target>Katalógová cena bez DPH</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rabat brutto</source>
+				<target>Zľava s DPH</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rabat netto</source>
+				<target>Zľava bez DPH</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Stara cena brutto</source>
+				<target>Stará cena s DPH</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Stara cena netto</source>
+				<target>Stará cena bez DPH</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Waga</source>
+				<target>Hmotnosť</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kod</source>
+				<target>Kód</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Klient hurtowy</source>
+				<target>Veľkoodberateľ</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Rabat ogólny użytkownika</source>
+				<target>Základná zľava užívateľa</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Filtruj po producentach</source>
+				<target>Filtrovať podľa výrobcov</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wszyscy</source>
+				<target>Všetci</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Załączniki</source>
+				<target>Prílohy</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Pobierz</source>
+				<target>Načítaj</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Takiej kategorii nie ma w sklepie</source>
+				<target>Takáto kategória sa v obchode nenachádza</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Takiej grupy produktów nie ma w sklepie</source>
+				<target>Takáto skupina produktov sa v obchode nenachádza</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Takiego producenta nie ma w sklepie</source>
+				<target>Takýto výrobca sa v obchode nenachádza</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Takiego produktu nie ma w sklepie</source>
+				<target>Takýto produkt sa v obchode nenachádza</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Więcej</source>
+				<target>Viac</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Nazwa</source>
+				<target>Názov</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brutto</source>
+				<target>S DPH</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Netto</source>
+				<target>Bez DPH</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Cena katalogowa</source>
+				<target>Katalógová cena</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Najnowszym</source>
+				<target>Najnovším</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Przejdź do strony głównej</source>
+				<target>Prejdi na hlavnú stranu</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Obrazek</source>
+				<target>Obrázok</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>z</source>
+				<target>z</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>brutto</source>
+				<target>Včetne DPH</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>netto</source>
+				<target>Bez DPH</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Kod producenta</source>
+				<target>Kód výrobcu</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Brak produktów dla wybranych kryteriów</source>
+				<target>Pre vybraných klientov sa nenašli žiadne produkty</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>szczegóły</source>
+				<target>podrobnosti</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>sprawdź</source>
+				<target>skontrolovať</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Otrzymasz</source>
+				<target>Obdržíš</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Koszt</source>
+				<target>Náklady</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>tylko za punkty</source>
+				<target>len za body</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>dodaj do koszyka</source>
+				<target>pridať do košíka</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>Nemáš dostatočné množstvo bodov.</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>Ak chceš produkt kúpiť, musíš sa prihlásiť.</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Nebol dosiahnutý bodový prah.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Na dosiahnutie prahu chýba</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>za</source>
+				<target>za</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Cena zasadnicza</source>
+				<target>Základná cena</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Zobacz</source>
+				<target>Pozrieť</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Akcesoria</source>
+				<target>Príslušenstvo</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Do koszyka</source>
+				<target>Do košíka</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>malejąco</source>
+				<target>zostupne</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>rosnąco</source>
+				<target>vzostupne</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

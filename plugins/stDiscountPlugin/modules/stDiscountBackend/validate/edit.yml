@@ -1,0 +1,4 @@
+fields:
+    discount{name}:
+        required:
+            msg:        Proszę podać nazwę rabatu

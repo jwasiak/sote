@@ -1,0 +1,81 @@
+{if $category_horizontal.menu_on == 1}
+
+{php} $categories = $this->get_template_vars('categories'); {/php}
+
+<div class="horizontal-category-menu">
+{php} if ($categories[0]['depth'] > 1): {/php}
+
+   {php} if ($categories[0]['depth'] == 2): {/php}
+      <div class="part first_part">
+   {php} endif; {/php}
+
+
+   {php} foreach ($categories as $category): $i = $category['category_count'] {/php}
+
+      {php} if ($categories[0]['depth'] < 4): {/php}
+
+            {php} if ($categories[0]['depth'] == 2): {/php}
+               <span class="category-level-1"><a href="{php} echo $category['url'] {/php}">{php} echo $category['name'] {/php}</a></span>
+            {php} endif; {/php}
+
+            {php} if ($categories[0]['depth'] == 3): {/php}
+               <span class="category-level-2"><a href="{php} echo $category['url'] {/php}">{php} echo $category['name'] {/php}</a></span>
+            {php} endif; {/php}
+
+            {php} if ($category['has_children']): {/php}
+               {php} echo st_get_component('appCategoryHorizontalFrontend', "tree", array('parent_id' => $category['id'])); {/php}
+            {php} endif; {/php}
+
+      {php} endif; {/php}
+
+      {php} if ($category['depth'] == 2 && $i >= 5): $i == 0 {/php}
+         {php} $i=0; {/php}
+         </div><div class="part">
+      {php} endif; {/php}
+
+   {php} endforeach; {/php}
+
+   {php} if ($categories[0]['depth'] == 2): {/php}
+   </div>
+{php} endif; {/php}
+
+{php} else: {/php}
+   {php} foreach ($categories as $category): {/php}
+      <div class="subMenu">
+         <a href="{php} echo $category['url'] {/php}">{php} echo $category['name'] {/php}</a>
+        {php} if ($category['has_children']): {/php}
+             <div class="items">
+                <div class="menu-description">
+                   {if $category_horizontal.image_on == 1}
+                       <div class="image_menu">
+                          {php} echo st_asset_image_tag($category['image'], 'thumb', 'category') {/php}
+                       </div>
+                   {/if}
+                   {if $category_horizontal.description_on == 1}
+                       {php} if($category['description']!=""): {/php}
+                           <span class="category-big">
+                           <a href="{php} echo $category['url'] {/php}">{php} echo $category['name'] {/php}</a>
+                           </span>
+                           <div style="padding-left:10px;">
+                                {php} echo $category['description']; {/php}
+                           </div>
+                           <div class="clear"></div>
+                           <div class="menu-space"></div>
+                       {php} endif; {/php}
+                   {/if}
+                </div>
+                {php} echo st_get_component('appCategoryHorizontalFrontend', "tree", array('parent_id' => $category['id'])); {/php}
+             </div>
+        {php} endif; {/php}
+      </div>
+   {php} endforeach; {/php}
+{php} endif; {/php}
+
+<div class="clear"></div>
+</div>
+
+{else}
+
+{st_get_component module="stWebpageFrontend" component="groupWebpage" params="group_page=HEADER"}
+
+{/if}

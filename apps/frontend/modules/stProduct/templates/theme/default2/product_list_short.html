@@ -1,0 +1,203 @@
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{         
+         $(".product_tooltip").tooltip({ 
+               effect: 'slide',
+               opacity: 1,
+               delay: 0,
+               position: 'bottom center',
+               offset: [20,0],
+               tipClass: "my_tooltip tooltip roundies"
+
+         });
+});
+</script>
+{/literal}
+
+<div id="product_short">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+    {assign var='i' value=0}
+    {foreach key=row item=product from=$results} 
+    {assign var='i' value=$i+1}     
+        <tr class="{if $i==2}bg_grey_short{/if}">
+            {if ($show_image)==1}<td class="photo_short" valign="middle"><div class="box_photo_sort"><span></span>{$product.photo}</div></td>{/if}
+
+            {if ($show_code)==1}<td class="code">{$product.code}</td>{/if}
+
+            {if ($show_name)==1}<td class="name">{$product.name}</td>{/if}
+            {if $show_weight}<td class="weight">{$product.weight}</td>{/if}
+            {if ($show_price)==1}
+
+                {if ($product.check_price)!=1}
+
+
+                       
+                        <td class="discount">
+                         {if $show_discount==1 && $product.discount!=0  && $product.points_only!=1}
+                                {assign var='show_th_discount' value=1}
+                                <span>{$product.discount} %</span> 
+                          {/if}     
+                        </td>
+                       
+
+                        {if $product.basic_price}
+                        <td class="price minor_price">                        
+                                {$product.basic_price.quantity} ( {$product.basic_price.brutto} {__ text="za"} {$product.basic_price.for_quantity} )
+                        </td>
+                        {elseif $show_basic_price_short == 1}
+                        <td></td>
+                        {/if}
+                    
+                        {if $price_view=='net_gross' && $product.points_only!=1}
+                            <td class="price minor_price">
+                                {$product.price}
+                            </td>
+                            <td class="price major_price">
+                                {$product.price_net}
+                                {if ($show_old_price==1) && ($product.check_old_price==1)}
+                                    <br /><span class="old_price">{$product.old_price_net}</span>
+                                {/if}
+                            </td>
+                        {elseif $price_view=='only_gross' && $product.points_only!=1}
+                            <td class="price">
+                                {$product.price}
+                                {if ($show_old_price==1) && ($product.check_old_price==1)}
+                                    <br /><span class="old_price">{$product.old_price}</span>
+                                {/if}
+                            </td>
+                        {elseif $price_view=='only_net' && $product.points_only!=1}
+                            <td class="price">
+                                {$product.price_net}
+                                {if ($show_old_price==1) && ($product.check_old_price==1)}
+                                    <br /><span class="old_price">{$product.old_price_net}</span>
+                                {/if}
+                            </td>
+                        {elseif $price_view=='gross_net' && $product.points_only!=1}
+                            <td class="price minor_price">
+                                {$product.price_net}
+                            </td>
+                            <td class="price major_price">
+                                {$product.price}
+                                {if ($show_old_price==1) && ($product.check_old_price==1)}
+                                    <br /><span class="old_price">{$product.old_price}</span>
+                                {/if}
+                            </td>
+                            
+                        {elseif $product.points_only==1}
+                            <td class="price minor_price">
+                                -
+                            </td>    
+                        {/if}
+                        
+                            
+                                        
+                        {if $points_system_is_active==1 && $show_points==1}
+                                <td style="text-align: right; width: 120px; font-size:1.1em; font-weight:bold;">
+                                {if $display_type=='only_value' || $product.points_only==1}
+                                    {if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}
+                                {elseif $display_type=='only_earn' && $product.points_only!=1}
+                                    {if $product.points_earn > 0}<span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}
+                                {elseif $display_type=='value_earn_alternative' && $product.points_only!=1}
+                                    {if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}{if $product.points_value > 0 && $product.points_earn > 0} / {/if}{if $product.points_earn > 0}<span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}    
+                                {elseif $display_type=='earn_value_alternative' && $product.points_only!=1}
+                                    {if $product.points_earn > 0}<span style="color:green;">{$product.points_earn} {$points_shortcut}</span>{/if}{if $product.points_value > 0 && $product.points_earn > 0} / {/if}{if $product.points_value > 0}<span style="color:#ED1B24;">{$product.points_value} {$points_shortcut}</span>{/if}    
+                                {/if}
+                                </td>
+                         {/if}
+                    
+                    <td class="basket">
+                      {if $points_system_is_active==1 && $product.points_only==1}
+                      
+                      {if $is_authenticated!=1}
+                      <span class="st_icon-basket-enabled product_tooltip" title='{__ text="Zaloguj się aby kupić produkt."}'>
+                            <a href="/user/loginUser" class="add_to_basket"><img src="/images/frontend/theme/default2/buttons/basket.png" alt="Dodaj do koszyka"></a>
+                      </span>   
+                      {elseif $is_release!="release_off" && $is_release!="release_on"}
+                      <span class="st_icon-basket-enabled product_tooltip" title='{__ text="Nie osiągnięto progu punktów."}<br/>{__ text="Do osiągnięcia progu brakuje"}: <b>{$is_release} {$points_shortcut}</b>'>
+                            <a href="/points/list" class="add_to_basket"><img style="opacity:0.5" src="/images/frontend/theme/default2/buttons/basket.png" alt="Dodaj do koszyka"></a>
+                      </span>
+                      {elseif $product.points_value <= $points_login_status }
+                          <div class="basket">   
+                              {$product.basket}
+                          </div>    
+                      {else $product.points_value > $points_login_status}
+                          <span class="st_icon-basket-enabled product_tooltip" title='{__ text="Brak wystarczającej ilości punktów."}'>
+                            <a class="add_to_basket"><img style="opacity:0.5" src="/images/frontend/theme/default2/buttons/basket.png" alt="Dodaj do koszyka"></a>
+                          </span>
+                      {/if}
+        
+                      {elseif $show_basket==1}
+                            {$product.basket}
+                      {/if}
+
+                        </td>
+                {/if}            
+            {/if}
+
+            {if ($show_price)!=1 || ($product.check_price)==1}
+                <td colspan="4"></td>
+            {/if}
+
+        </tr>    
+        {if $i == 2}
+            {assign var='i' value=0}
+        {/if}           
+    {/foreach}
+
+    <thead>
+        <tr>
+            <th></th>
+
+            {if ($show_code)==1}
+                <th class="code">{__ text="Kod"}</th>
+            {/if}
+
+            <th class="name">{__ text="Nazwa"}</th>
+
+            {if ($show_weight)}
+            <th class="weight">{__ text="Waga"}</th>
+            {/if}
+
+            
+            <th style="border-right: none;">{if ($show_th_discount)==1}{__ text="Rabat"}{/if}</th>
+            
+            
+            {if $show_basic_price_short==1}
+            <th style="text-align: right; border-right: none;">{__ text="Cena zasadnicza"}</th>
+             {/if}
+            
+            {if $price_view=='net_gross'}
+                <th style="text-align: right">{__ text="Brutto"}</th>
+                <th style="text-align: right">{__ text="Netto"}</th>
+            {elseif $price_view=='gross_net'}
+                <th style="text-align: right">{__ text="Netto"}</th>
+                <th style="text-align: right">{__ text="Brutto"}</th>
+            {elseif $price_view=='only_net'}
+                <th style="text-align: right">{__ text="Netto"}</th>
+            {elseif $price_view=='only_gross'}
+                <th style="text-align: right">{__ text="Brutto"}</th>
+            {/if}
+            
+            {if $points_system_is_active==1 && $show_points==1}
+                <th style="text-align: right">
+                
+                {if $display_type=='only_value'}
+                    {__ text="Koszt"}
+                {elseif $display_type=='only_earn'}
+                    {__ text="Otrzymasz"}
+                {elseif $display_type=='value_earn_alternative'}
+                    {__ text="Koszt"} / {__ text="Otrzymasz"}    
+                {elseif $display_type=='earn_value_alternative'}
+                    {__ text="Otrzymasz"} / {__ text="Koszt"}    
+                {/if}
+                </th>
+            {/if}    
+
+            <th></th>
+        </tr>
+    </thead>
+
+    </table>
+</div>

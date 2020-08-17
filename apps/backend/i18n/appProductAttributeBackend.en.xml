@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>drzewo kategorii</source>
+                <target>category tree</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Drzewo kategorii</source>
+                <target>Category tree</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Zastosuj</source>
+                <target>Apply</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Aktywny</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Pozycja</source>
+                <target>Position</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Pokaż w filtrach</source>
+                <target>Show in filters</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Pokaż w produkcie</source>
+                <target>Show on product page</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit> 
+            <trans-unit id="10">
+                <source>Edycja podstawowa</source>
+                <target>General</target>
+            </trans-unit>   
+            <trans-unit id="11">
+                <source>Warianty</source>
+                <target>Variants</target>
+            </trans-unit>  
+            <trans-unit id="12">
+                <source>Lista atrybutów</source>
+                <target>Attribute list</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Wariant</source>
+                <target>Variant</target>
+            </trans-unit>   
+            <trans-unit id="14">
+                <source>Lista wariantów</source>
+                <target>Variants list</target>
+            </trans-unit> 
+            <trans-unit id="15">
+                <source>Rodzaj</source>
+                <target>Type</target>
+            </trans-unit> 
+            <trans-unit id="16">
+                <source>Kolor</source>
+                <target>Color</target>
+            </trans-unit>  
+            <trans-unit id="17">
+                <source>Obrazek</source>
+                <target>Picture</target>
+            </trans-unit> 
+            <trans-unit id="18">
+                <source>Tak/Nie</source>
+                <target>Yes/No</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Tekst</source>
+                <target>Text</target>
+            </trans-unit>          
+            <trans-unit id="21">
+                <source>Atrybuty produktów</source>
+                <target>Product attributes</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Edycja wariantu</source>
+                <target>Variant edit</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wartość</source>
+                <target>Value</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Atrybuty produktow</source>
+                <target>Product attributes</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Atrybuty</source>
+                <target>Attributes</target>
+            </trans-unit> 
+            <trans-unit id="26">
+                <source>Produkt nie zawiera atrybutów dla przypisanych kategorii</source>
+                <target>The product does not contain attributes for the assigned categories</target>
+            </trans-unit>             
+            <trans-unit id="27">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Filtruj:</source>
+                <target>Filter:</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Używając "i"</source>
+                <target>Using "and"</target>
+            </trans-unit>  
+            <trans-unit id="30">
+                <source>Używając "lub"</source>
+                <target>Using "or"</target>
+            </trans-unit> 
+            <trans-unit id="31">
+                <source>Nie ograniczaj filtrów:</source>
+                <target>Don't narrow the filters:</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Jeśli zaznaczone, filtry nie sa ograniczane ze względu na aktualne wyniki filtrowania</source>
+                <target>If selected, the filters are not constrained due to the actual results of filtering</target>
+            </trans-unit>
+            <trans-unit id="33">
+            	<source>Musisz podać wartość</source>
+            	<target>Enter a value</target>
+            </trans-unit>
+			<trans-unit id="34">
+            	<source>Podana wartość już istnieje</source>
+            	<target>The value already exists</target>
+            </trans-unit>  
+            <trans-unit id="35">
+            	<source>Włącz filtry</source>
+            	<target>Enable filters</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Tytuł</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Tytuł wyświetlany jest nad listą atrybutów na stronie karty produktu</source>
+                <target>Title appears above the list of attributes on the product card</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Włącz filtry:</source>
+                <target>Enable filters:</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Dodaj nowy wariant</source>
+                <target>Create new variant</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Eksport</source>
+                <target>Export</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Wpisz nazwę szukanej kategorii</source>
+                <target>Enter the searched category name</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Wpisz nazwę szukanego wariantu</source>
+                <target>Enter the searched variant name</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

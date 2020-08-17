@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stBackendFastMenuPlugin.lib.model" noXsd="true">
+
+  <table name="st_fast_menu" phpName="FastMenu">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="module" type="VARCHAR" size="255" />
+    <column name="position" type="INTEGER" />
+  </table>
+
+</database>

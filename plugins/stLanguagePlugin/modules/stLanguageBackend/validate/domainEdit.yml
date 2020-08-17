@@ -1,0 +1,10 @@
+fields:
+    language_has_domain{domain}:
+        required:
+            msg:  Proszę uzupełnić pole.        
+        sfPropelUniqueValidator:
+            class:          LanguageHasDomain
+            column:         domain
+            unique_error:   Domena już istnieje, proszę podać inną domene.
+        stLanguageDomainValidator:
+            domain_error:  Domena jest niepoprawna. Domenę należy wprowadzić bez http:// np. www.sklep.pl

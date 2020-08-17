@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Logowanie do panelu aktualizacji</source>
+                <target>Login to the update panel</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Użytkownik:</source>
+                <target>User:</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Hasło:</source>
+                <target>Password:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zaloguj</source>
+                <target>Login</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zły login lub hasło.</source>
+                <target>Invalid username or password.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Nie podałeś hasła.</source>
+                <target>Enter the password.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Nie podałeś adresu email.</source>
+                <target>Enter an e-mail address.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid e-mail address format.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Przekroczono dozwoloną liczbę znaków.</source>
+                <target>The maximum number of characters has been exceeded.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Podane hasło jest za krótkie min. 6 znaków.</source>
+                <target>The password is too short. It must be at least 6 characters long.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+                <target>The password is too long. It must not exceed 20 characters.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Zaloguj się</source>
+                <target>Login</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

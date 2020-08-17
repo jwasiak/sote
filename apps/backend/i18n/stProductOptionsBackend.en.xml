@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Modyfikatory cen podawane w wartości</source>
+                <target>Format of the price modifiers</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>brutto</source>
+                <target>gross</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>netto</source>
+                <target>net</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Zdjęcie</source>
+                <target>Image</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Modyfikator ceny</source>
+                <target>Price modifier</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Twoja przeglądarka nie obsługuje Javascript.</source>
+                <target>Your browser doesn't support Javascript.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Szablon</source>
+                <target>Template</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>jest aktualnie wykorzystywany</source>
+                <target>is currently being used</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Szablony opcji</source>
+                <target>Option templates</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Bez szablonu</source>
+                <target>Without a template</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Brutto</source>
+                <target>Gross</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Netto</source>
+                <target>Net</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Wartość</source>
+                <target>Value</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>wartość</source>
+                <target>value</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Wprowadź wartość opcji (np. zielony, XL)</source>
+                <target>Enter an option's value (e.g. Green, XL)</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>+/- kwota (np. -10.25) - zwiększa lub zmniejsza cenę netto o podaną kwotę</source>
+                <target>+/- amount (e.g. -10.25) - increases or decreases a net price by the given amount</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>+/- ilosc % (np. +50%) - zwiększa lub zmniejsza cenę netto o podaną ilość procent</source>
+                <target>+/- % (e.g. +50%) - increases or decreases a net price by the given percentage</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>kwota (np. 30.99) - ustala podaną kwotę niezależnie od ceny produktu</source>
+                <target>amount (e.g. 30.99) - sets the given price regardless of the product price</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Stan magazynowy</source>
+                <target>Stock</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Stan magazynowy dla opcji produktu</source>
+                <target>Option stock</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Nazwa opcji</source>
+                <target>Option name</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Wprowadź nazwę opcji (np. Kolor, Rozmiar)</source>
+                <target>Enter an option name (e.g. Color, Size)</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Domyślna wartość</source>
+                <target>Default value</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Wartość ta może być ustawiona tylko dla domyślnego języka</source>
+                <target>This value can be set only for the default language</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Wybierz szablon którego chcesz użyć</source>
+                <target>Select the template you want to use</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Wybierz szablon</source>
+                <target>Select a  template</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Usuń</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Rozwiń</source>
+                <target>Expand</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Zwiń</source>
+                <target>Collapse</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Szablony</source>
+                <target>Templates</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Wstaw szablony</source>
+                <target>Insert the templates</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Anuluj</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Dodaj nowe pole i opcje dla niego.</source>
+                <target>Add a new field and the options for it.</target>
+            </trans-unit>			
+            <trans-unit id="34">
+                <source>Wybierz pole lub opcje, którą chcesz usunąć</source>
+                <target>Select a field or an option you want to delete</target>
+            </trans-unit>			
+            <trans-unit id="35">
+                <source>Rozwiń lub zwiń wszystkie gałęzie drzewa</source>
+                <target>Expand or collapse all the branches of a tree</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Szablon</source>
+                <target>Template</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Opcje szablonu</source>
+                <target>Template options</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Wróć do opcji produktu</source>
+                <target>Back to the product options</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Nowy szablon</source>
+                <target>Add a new template</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Opcje produktu</source>
+                <target>Product options</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Zapisz</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Zapisuję...</source>
+                <target>Saving...</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Zarządzanie filtrami opcji.</source>
+                <target>Manage the option filters.</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Filtry opcji</source>
+                <target>Option filters</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Nie zdefiniowałeś filtru.</source>
+                <target>You haven't defined any filter yet.</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Wróć do opcji produktu</source>
+                <target>Go back to product's options</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Nowy filtr</source>
+                <target>Add a new filter</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Edycja filtru</source>
+                <target>Edit a filter</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Zdefiniuj filtr opcji.</source>
+                <target>Define a filter</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Nazwa filtra</source>
+                <target>Filter name</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Typ filtra</source>
+                <target>Filter type</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Zwykły filtr</source>
+                <target>Normal filter</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Filtr koloru</source>
+                <target>Color filter</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Filtr ceny</source>
+                <target>Price filter</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Cena od</source>
+                <target>Price from</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Tylko przypadku filtra ceny</source>
+                <target>Only if the price filter is selected</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Cena do</source>
+                <target>Price to</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Nie zdefiniowałeś żadnego szablonu.</source>
+                <target>You haven't defined any template yet.</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Rodzaj filtra</source>
+                <target>Filter type</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Użyj produktu [kod produktu]</source>
+                <target>Use product [product code]</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Kolor</source>
+                <target>Color</target>
+            </trans-unit>	
+            <trans-unit id="65">
+                <source>Opcja nie może wskazywać na produkt który posiada opcje.</source>
+                <target>You can't add a product with options.</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Stara cena</source>
+                <target>Old price</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Grupuj kolory:</source>
+                <target>Group colors:</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Grupuje kolory po wartości koloru</source>
+                <target>Groups the colors on the color value</target>
+            </trans-unit>     
+            <trans-unit id="69">
+                <source>Wyświetlaj kolory na listach:</source>
+                <target>Display colors on full list:</target>
+            </trans-unit>  
+            <trans-unit id="70">
+                <source>Wyświetla dostępne kolory produktu na liście pełnej</source>
+                <target>Display available colors on full list</target>
+            </trans-unit>  
+            <trans-unit id="71">
+                <source>Ogranicz liczbę kolorów do:</source>
+                <target>Limit the number of colors to:</target>
+            </trans-unit>  
+            <trans-unit id="72">
+                <source>Ograniczenie dotyczy listy pełnej, 0 - bez ograniczeń</source>
+                <target>Restriction applies to a full list, 0 - no limits</target>
+            </trans-unit>  
+            <trans-unit id="73">
+                <source>Proszę podać liczbę całkowitą nieujemną</source>
+                <target>Please provide a non-negative integer</target>
+            </trans-unit>  
+            <trans-unit id="74">
+                <source>Wprowadź starą cene (np. 123.45)</source>
+                <target>Enter old price (e.g. 123.45)</target>
+            </trans-unit>  
+            <trans-unit id="75">
+                <source>Kolor w filtrze kolorów</source>
+                <target>Color in the color filters</target>
+            </trans-unit> 
+            <trans-unit id="76">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>  
+            <trans-unit id="77">
+                <source>+/- waga (np. -10.25) - zwiększa lub zmniejsza wagę o podaną wartość</source>
+                <target>+/- weight (e.g. -10.25) - increases or decreases a weight by the given value</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>+/- waga % (np. +50%) - zwiększa lub zmniejsza wagę o podaną ilość procent</source>
+                <target>+/- weight % (e.g. +50%) - increases or decreases a weight by the given percentage</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>waga (np. 30.99) - ustala podaną wagę niezależnie od wagi produktu</source>
+                <target>weight (e.g. 30.99) - sets the given weight regardless of the product weight</target>
+            </trans-unit>                                              
+            <trans-unit id="80">
+                <source>Modyfikator wagi</source>
+                <target>Weight modifier</target>
+            </trans-unit>                                                                                                      
+            <trans-unit id="81">
+                <source>Wybierz kolor</source>
+                <target>Choose color</target>
+            </trans-unit>                                                                                                      
+            <trans-unit id="82">
+                <source>Wybierz zdjęcie</source>
+                <target>Choose image</target>
+            </trans-unit>                                                                                                      
+            <trans-unit id="83">
+                <source>Wyświetlaj nazwy kolorów na karcie produktu:</source>
+                <target>Display names of color on the product card:</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Ilość jednostki miary</source>
+                <target>Number of entities under measure</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Kod produktu</source>
+                <target>Product code</target>
+            </trans-unit>                                                                             
+            <trans-unit id="86">
+                <source>Opcje nie zostały zaimportowane popraw powyższe błędy</source>
+                <target>Options were not imported correct the above errors</target>
+            </trans-unit>                                                                             
+            <trans-unit id="87">
+                <source><b>%%option%%:</b> Używasz starego formatu opcji produktu. <a href="http://www.sote.pl/trac/wiki/new_doc/products/import_export#Opisplikuimportueksportu" target="_blank">Zapoznaj się z nowym formatem</a></source>
+                <target><b>%%option%%:</b> You are using the old format of product options. <a href="http://www.soteshop.com/trac/wiki/new_doc/en/products/import_export#Importtheproducts" target="_blank">Check out the new format</a></target>
+            </trans-unit>                                                                             
+            <trans-unit id="88">
+                <source><b>%%option%%:</b> Nieprawidłowy format parametrów dla opcji (poprawny: { "parametr": "wartość", "parametr": "wartość" })</source>
+                <target><b>%%option%%:</b> Invalid parameter format for option (correct: { "parameter": "value", "parameter": "value" })</target>
+            </trans-unit>                                                                             
+            <trans-unit id="89">
+                <source><b>%%option%%:</b> Zdjęcie "%%filename%%" nie zostało znalezione w katalogu "%%dir%%"</source>
+                <target><b>%%option%%:</b> The image "%%filename%%" does not exist in "%%dir%%"</target>
+            </trans-unit>                                                                             
+            <trans-unit id="90">
+                <source><b>%%option%%:</b> Nieprawidłowy format parametru "%%parameter%%" (poprawny: %%correct%%)</source>
+                <target><b>%%option%%:</b> Invalid parameter format "%%parameter%%" (correct: %%correct%%)</target>
+            </trans-unit>                                                                                                                                                      
+            <trans-unit id="91">
+                <source><b>%%option%%:</b> Zdjęcie (parametr "%%parameter%%") produktu o podanym id "%%id%%" nie istnieje</source>
+                <target><b>%%option%%:</b> The image ("%%parameter%%" parameter) with the given id "%%id%%" does not exist</target>
+            </trans-unit>                                                                                                                                                      
+            <trans-unit id="92">
+                <source><b>%%option%%:</b> Wartość opcji została zdefiniowana już wcześniej (wiersz: %%row%%)</source>
+                <target><b>%%option%%:</b> Option value was defined earlier (row: %%row%%)</target>
+            </trans-unit>                                                                                                                                                      
+            <trans-unit id="93">
+                <source><b>%%option%%:</b> Nazwa opcji została zdefiniowana już wcześniej (wiersz: %%row%%)</source>
+                <target><b>%%option%%:</b> Option name was defined earlier (row: %%row%%)</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Włączony</source>
+                <target>Enabled</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source><b>%%option%%:</b> Filtr opcji o nazwie "%%name%%" nie istnieje</source>
+                <target><b>%%option%%:</b> An option filter with the name "%%name%%" does not exist</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source><b>%%option%%:</b> Filtr opcji o id "%%id%%" nie istnieje</source>
+                <target><b>%%option%%:</b> An option filter with id "%%id%%" does not exist</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Włącz filtry:</source>
+                <target>Enable filters:</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Pokazuje filtry opcji na liście produktów</source>
+                <target>Shows option filters in the product list</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Pokaż w filtrach</source>
+                <target>Show in filters</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,55 @@
+<div id="st_main_search_box_center">
+    <div id="st_main_search_box">
+{$form_start}
+    </div>
+    <div id="st_main_search_advance_box">
+        <fieldset>
+    <div class="st_row">
+        {$search_name_label}
+        <div class="st_field">
+            {$search_name}<br />
+            {$search_detail}{$search_detail_label} {$search_and_search}{$search_and_search_label} <br />
+        </div>
+    </div>
+	<div id="st_search-simple">
+		<div>{$switch_advance_search}</div>
+	</div>
+	<div id="st_search-advanced" class="st_search-hidden_div">
+    <div>{$simple_search}</div>
+	    <div class="st_row">
+	        {$switch_search_price_from_label}
+	        <div class="st_field">
+	            {$search_price_from} {$search_price_to_label} {$search_price_to}<br />
+	        </div>
+	    </div>
+		{if $producer_show}
+	    <div class="st_row">
+	        {$search_producer_label}
+	        <div class="st_field">
+	            {$search_producer}<br />
+	        </div>
+	    </div>
+		{/if}
+		{if $category_show}
+	    <div class="st_row">
+	        {$search_category_label}
+	        <div class="st_field">
+	            {$search_category}<br />
+	            {__ text="Przytrzymaj Ctrl aby zaznaczyć wiele kategorii."}
+	        </div>
+	    </div>
+		{/if}
+	    {$advance_search_socket}
+	    {$show_advance}
+	</div>
+        </fieldset>
+    </div>
+    <div class="st_button st_align-right">
+        <div class="st_button-left">
+            {$submit_search}
+        </div>
+    </div>
+</form>
+    <br style="clear: both;" />
+</div>
+<br class="clear"/>

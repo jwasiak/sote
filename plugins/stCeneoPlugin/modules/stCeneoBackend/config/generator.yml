@@ -1,0 +1,94 @@
+generator:
+    class:                      stAdminGenerator
+    param:
+        model_class:            Ceneo
+        theme:                  simple
+    
+        head:
+            package:            stCeneoPlugin
+
+        list:
+            title:              Lista produktów
+            description:        Zarządzanie porównywarką cen Ceneo
+            max_per_page:       20
+            display:            [_code, _product, active]
+            peer_method:        doSelectJoinProductForList
+            peer_count_method:  doCountJoinProductForList
+            actions:
+                _
+            object_actions:     -
+            select_actions:
+                display:
+                    "Ustaw aktywne:":   [product_enabled, product_disabled]
+                actions:
+                    product_enabled:    {name: Tak, confirm: "Ustaw aktywne: Tak", action: productEnable, i18n: stAdminGeneratorPlugin}
+                    product_disabled:   {name: Nie, confirm: "Ustaw aktywne: Nie", action: productDisable, i18n: stAdminGeneratorPlugin}
+            filters:
+                code:           {filter_field: product.code}
+                product:        {filter_field: product.opt_name}
+            fields:
+                code:           {name: Kod produktu, sort_field: product.code, params: size=50}
+                product:        {name: Nazwa produktu, sort_field: product.opt_name, params: size=50}
+                active:         {name: Aktywny}
+            menu:
+                display:        [list, generate, config]
+                fields:
+                    list:       {name: Lista produktów, action: @stCeneoPluginDefault}
+                    generate:   {name: Generowanie pliku xml, action: stCeneoBackend/generateCustom}
+                    config:     {name: Konfiguracja, action: stCeneoBackend/config}
+
+        edit:
+            title:              Edycja produktu
+            description:        Zarządzanie porównywarką cen Ceneo
+            menu:               {use: list.menu}
+            display:
+                "Dane głowne":  [product, active]
+            fields:
+                product:        {name: Nazwa produktu}
+                active:         {name: Aktywny}
+            actions:
+                _list:          {name: Lista}
+                _save:          {name: Zapisz}
+                _delete:        {name: Usuń}
+
+        generate_model_class:   Ceneo
+
+        custom_actions:
+            custom:             [generate]
+
+        generate_custom:
+            menu:               {use: list.menu}
+            title:              Generowanie pliku xml
+            description:        Zarządzanie porównywarką cen Ceneo
+
+        config:
+            title:                      Konfiguracja
+            description:                Zarządzanie porównywarką cen Ceneo
+            display:
+                "Zaufane Opinie, System Transakcyjny":  [trusted_opinion_on, transaction_system_on, trusted_opinion_id]
+                "Ustawienia generowania pliku xml":     [use_product_code, use_man_code, use_ean_code, use_isbn_code, use_stock, use_attribute, description_type]
+                "Informacje o dostępności produktów":   [_availability]
+            fields:
+                trusted_opinion_on:     {name: Włącz Zaufane Opinie, checked: false, type: checkbox}
+                transaction_system_on:  {name: Włącz System Transakcyjny, checked: false, type: checkbox}
+                trusted_opinion_id:     {name: Numer ID sklepu, params: size=34}
+                use_product_code:       {name: Dodaj kod producenta na podstawie kodu produktu, checked: false, type: checkbox}
+                use_man_code:           {name: Dodaj kod producenta, checked: false, type: checkbox}
+                use_ean_code:           {name: Dodaj kod EAN, checked: false, type: checkbox}
+                use_isbn_code:          {name: Dodaj kod ISBN, checked: false, type: checkbox}
+                use_stock:              {name: Dodaj stan magazynowy, checked: false, type: checkbox}
+                use_attribute:          {name: Dodaj atrybuty produktu, checked: false, type: checkbox}                
+                description_type:
+                    name:               Opis produktu
+                    type:               select
+                    display:            [full, short, none]
+                    options:
+                        full:               {name: Pełny, value: full}
+                        short:              {name: Skrócony, value: short}
+                        none:               {name: Brak, value: none}
+                        selected:           full
+                availability:           {hide_label: true}
+            actions:
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+            menu:                       {use: list.menu}

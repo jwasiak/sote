@@ -1,0 +1,21 @@
+package:
+  name: stProductOptionsPlugin
+  stability: stable
+  version: 7.2.1.22
+  summary: 'Opcje produktow'
+  description: 'Zarzadzanie atrybutami, ich wlasciwosciami, szablonami opcji.'
+  notes: |
+    - Poprawka przelaczania opcji dla starszych tematow
+  maintainers:
+    'Piotr Halas':
+      role: lead
+      user: piotr
+      email: piotr.halas@sote.pl
+  dependency:
+    stFrontend: 1.0.8.10
+    stBackend: 1.0.4.9
+    stProduct: 1.0.14
+    stBasket: 1.0.6.6
+    stOrder: 1.0.9.11
+    stWholesalePlugin: 1.0.1.7
+    stDiscountPlugin: 1.0.2.6

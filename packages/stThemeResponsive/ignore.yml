@@ -1,0 +1,3 @@
+ignore_replace:
+    - /google_ecommerce\.html$/
+    - /google_standard\.html$/

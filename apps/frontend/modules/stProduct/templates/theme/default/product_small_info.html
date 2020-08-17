@@ -1,0 +1,49 @@
+<div id="st_product-small_product_info">
+        {if $show_photo==1}
+            <div id="st_product-small_product_info-photo">
+                {$photo}<br />
+            </div>
+        {/if}
+        <div id="st_product-small_product_info-left_box">
+            {if $show_code==1}
+                <div id="st_product-small_product_info-code">
+                    {__ text="Kod"}:
+                </div>
+                <div id="st_product-small_product_info-code_tag">
+                    {$code}
+                </div>
+            {else}
+                <div id="st_product-small_product_info-code">
+                </div>
+                <div id="st_product-small_product_info-code_tag">
+                </div>
+            {/if}
+            {if $show_name==1}
+                <div id="st_product-small_product_info-name">
+                    {__ text="Nazwa produktu"}:
+                </div>
+                <div id="st_product-small_product_info-name_tag">
+                    {$name}
+                </div>
+            {else}
+                <div id="st_product-small_product_info-name">
+                </div>
+                <div id="st_product-small_product_info-name_tag">
+                </div>
+            {/if}
+            {if $show_short_description==1}
+                <div id="st_product-small_product_info-description">
+                    {__ text="Opis"}:
+                </div>
+                <div id="st_product-small_product_info-description_tag">
+                    {$short_desc}
+                </div>
+            {else}
+                <div id="st_product-small_product_info-description">
+                </div>
+                <div id="st_product-small_product_info-description_tag">
+                </div>
+            {/if}
+        </div>
+</div>
+<br class="clear_all"/>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2010-11-04T02:51:44Z">
+		<body>
+			<trans-unit id="1">
+				<source>Temat</source>
+				<target>Téma</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Zawartość</source>
+				<target>Obsah</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Adres nadawcy</source>
+				<target>Adresa odosielateľa</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Adres odbiorcy</source>
+				<target>Adresa odberateľa</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Załącz plik</source>
+				<target>Priložiť súbor</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Serwer poczty wychodzącej (SMTP)</source>
+				<target>Server odchádzajúcej pošty (SMTP)</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Adres hosta</source>
+				<target>Adresa hosta</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Port</source>
+				<target>Port</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Szyfrowanie</source>
+				<target>Šifrovanie</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Brak</source>
+				<target>Nekompletné</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>TLS</source>
+				<target>TLS</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>SSL</source>
+				<target>SSL</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Użytkownik</source>
+				<target>Užívateľ</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Hasło</source>
+				<target>Heslo</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Wyślij</source>
+				<target>Odoslať</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wystąpił problem podczas łączenia się z serwerem SMTP: zweryfikuj  oraz wybrany rodzaj </source>
+				<target>Pri spájaní so serverom SMTP došlo k chybe: skontrolujte  a zvolený druh </target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Błędna autoryzacja SMTP - wprowadź nazwę użytkownika i hasło ponownie</source>
+				<target>Chybná autorizácia SMTP - zadajte ešte raz užívateľské meno a heslo</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Wystąpił problem z wysłaniem wiadomości...</source>
+				<target>Pri odosielaní správy došlo k chybe...</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Twoja wiadomość została wysłana poprawnie</source>
+				<target>Vaša správa bola úspešne odoslaná</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Powrót</source>
+				<target>Späť</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

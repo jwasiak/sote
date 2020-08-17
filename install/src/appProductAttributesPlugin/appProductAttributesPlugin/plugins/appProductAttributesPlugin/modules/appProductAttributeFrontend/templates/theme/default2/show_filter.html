@@ -1,0 +1,105 @@
+{use_stylesheet src="appProductAttributesPlugin.css"}
+
+<div id="pa_product_filter" class="box roundies">   
+   <form action="{$filter_url}" method="post">
+   <ul>
+{foreach from=$attributes key=id item=attribute}
+{if !isset($variants[$id]) || empty($variants[$id])}
+	{php}continue{/php}
+{/if}
+      <li class="pa_filter pa_filter_{$attribute.type}">
+         <div class="pa_title">{$attribute.name}</div>
+         
+         <div class="pa_variants">
+            <ul>
+{if $attribute.type == 'B'}
+{foreach from=`$variants[$id]` key=vid item=variant}  
+               <li>
+                  <input type="checkbox" id="app_product_filter_{$id}_{$vid}" name="app_product_filter[{$id}][{$vid}]" value="{$vid}"{if isset($selected[$vid])} checked="checked"{/if} />
+                  <label for="app_product_filter_{$id}_{$vid}">{__ text="Tak"}</label>
+               </li>
+{/foreach}
+{elseif $attribute.type == 'C'}
+{foreach from=`$variants[$id]` key=vid item=variant}    
+               <li title="{$variant.name}" class="pa_color{if isset($selected[$vid])} pa_selected{/if}">
+                  <button style="{if $variant.type == 'C'}background-color: #{$variant.value}{else}background-image: url(/{$variant.value}){/if}" value="{$id}:{$vid}" type="button"></button> 
+                  {if isset($selected[$vid])}
+                  <input type="hidden" name="app_product_filter[{$id}][{$vid}]" value="{$vid}" />
+                  {/if}         
+               </li> 
+{/foreach}         
+{else}
+{foreach from=`$variants[$id]` key=vid item=variant} 
+               <li>
+                  <input type="checkbox" id="app_product_filter_{$id}_{$vid}" name="app_product_filter[{$id}][{$vid}]" value="{$vid}"{if isset($selected[$vid])} checked="checked"{/if} />
+                  <label for="app_product_filter_{$id}_{$vid}">{$variant.value}</label>
+               </li>
+{/foreach} 
+{/if}
+            </ul>
+{if $attribute.type == 'C'}
+     		<div class="clear"></div>       
+{/if}
+         </div>
+      </li>
+{/foreach}
+   </ul>
+{if !empty($selected)}
+   <div class="pa_clear"><a href="{$reset_url}?filter=attr">{__ text="wyczyść"}</a></div>
+{/if}   
+   </form>
+   <div class="tooltip roundies"></div>
+</div>
+
+{literal}
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function($) {
+   var form = $('#pa_product_filter > form');
+
+   form.find('.pa_color').tooltip({
+   	tip: '#pa_product_filter .tooltip',
+   	position: 'center right',
+   	offset: [0, 8],
+   	delay: 0
+   });
+   
+   function preload() {
+{/literal}
+      var image = '{image_path image="loading.gif"}';
+{literal}
+      var height = form.height();
+
+      var width = form.width() - 1;
+
+      form.before('<div id="pa_product_filter_preloader" style="height: '+height+'px; width: '+width+'px; background-image: url('+image+')"></div>');      
+   }
+
+   form.find('.pa_variants button').click(function() {
+      var button = $(this);
+
+      var parent = button.parent();
+
+      parent.toggleClass('pa_selected');
+
+      if (parent.hasClass('pa_selected')) {
+         var value = button.attr('value').split(':');
+         button.after('<input type="hidden" value="'+value[1]+'" name="app_product_filter['+value[0]+']['+value[1]+']" />');
+      } else {
+         button.next('input').remove();
+      }
+
+      form.submit();
+   });
+
+   form.find('.pa_variants input').click(function() {
+      form.submit();
+   });
+
+   form.submit(preload);
+
+   form.find('.pa_clear a').click(preload);   
+});
+//]]>   
+</script>
+{/literal}

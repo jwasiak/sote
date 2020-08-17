@@ -1,0 +1,22 @@
+<div id="option_filter" class="st_frame_option_filter block">
+    {$form_start}
+   <div class="st_frame_option_filter_top">
+        <div class="st_frame_option_filter_top_header">{__ text="Filtry"}:</div>       
+    </div>
+    <div class="st_frame_option_filter_middle"> 
+        <div class="st_content">
+        {foreach from=$filters item=filter}
+        <div class="product_options_filter_name">   
+        {$filter.name}:         
+            <div class="product_options_filter_options">
+                {foreach from=$filter.options item=option}
+                    {$option}
+                {/foreach}
+            </div>
+        </div>
+        {/foreach}
+        </div>
+   </div>
+<div class="st_frame_option_filter_bottom"></div>
+ </form>
+</div>

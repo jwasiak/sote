@@ -1,0 +1,8 @@
+<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+    {$selected->getShortcut()} <b class="caret"></b>
+</a>
+<ul class="dropdown-menu">
+{foreach item=currency from=$currencies}
+    <li{if $selected == $currency} class="active"{/if}><a href="{url_for_currency currency=$currency}" rel="nofollow">{$currency->getShortcut()}</a></li>
+{/foreach}
+</ul>

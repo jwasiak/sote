@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Import zamówień Allegro</source>
+                <target>Allegro order import</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Nowe zamówienie %order% (oferty: %offers%) złożone %created_at% na kwotę %amount%</source>
+                <target>New order %order% (offers: %offers%) placed on %created_at% for the amount of %amount%</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

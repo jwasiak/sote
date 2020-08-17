@@ -1,0 +1,22 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stPayByNetPlugin.lib.model
+  st_paybynet_has_order: 
+    _attributes: 
+      phpName: PaybynetHasOrder
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    order_id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    payment_type: 
+      type: VARCHAR
+      size: 255

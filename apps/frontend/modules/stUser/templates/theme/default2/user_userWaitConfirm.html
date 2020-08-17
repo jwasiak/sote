@@ -1,0 +1,50 @@
+{set layout="one_column_layout"}
+<div id="st_application-user-account" class="box roundies">
+	<div class="title">
+		<h2>{__ text="Rejestracja"}</h2>
+		<p>
+			{__ text="Prośba o potwierdzenie konta."}
+		</p>
+	</div>
+	<div class="st_content">
+
+		<div id="user_wait_confirm" class="box_form roundies">
+
+			<div style="padding:25px;">
+				<p>
+					{__ text="Dziękujemy za dokonanie rejestracji. Proszę sprawdzić pocztę, na adres:"}
+				</p>
+				<p>
+					<b>{$username}</b>
+				</p>
+				<p>
+					{__ text="została wysłana prośba o potwierdzenie konta."}
+				</p>
+
+				<div id="st_application-user-account-buttons">
+
+					{if $show_basket != 0}
+
+					<div class="buttons left">
+						<a href="/" class="regular roundies"> <span class="arrow_left icon_left">{__ text="Wróć do zakupów"}</span> </a>
+					</div>
+
+					<div class="buttons right">
+						<a href="{$go_to_basket_url}" class="regular roundies"> <span class="arrow_right">{__ text="Przejdź do koszyka"}</span> </a>
+					</div>
+					{else}
+					<div class="buttons left" style="margin-left: 84px;">
+						<a href="/" class="regular roundies"> <span class="arrow_left icon_left">{__ text="Wróć do zakupów"}</span> </a>
+					</div>
+
+					{/if}
+				</div>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+</div>

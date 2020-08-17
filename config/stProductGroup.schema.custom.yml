@@ -1,0 +1,39 @@
+propel: 
+  st_product_group: 
+      _attributes: 
+          phpName: ProductGroup
+          isI18N: true
+          i18nTable: st_product_group_i18n
+      opt_name: {change_column: name}
+
+  st_product_group_i18n: 
+      _attributes: 
+          phpName: ProductGroupI18n
+      id: 
+          type: integer
+          required: true
+          primaryKey: true
+          foreignTable: st_product_group
+          foreignReference: id
+          onDelete: cascade
+      culture:
+          isCulture: true
+          primaryKey: true
+          type: VARCHAR
+          size: 7
+      name: 
+          type: VARCHAR
+          size: 255
+      url:
+          type: VARCHAR
+          size: 255
+      label:
+          type: VARCHAR
+          size: 255  
+      image:
+          type: VARCHAR
+          size: 255
+      _indexes:
+          product_group_Index1:
+              - url
+              - culture

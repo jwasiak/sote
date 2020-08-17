@@ -1,0 +1,15 @@
+---
+package: 
+  name: stPropelSeoUrlBehaviorPlugin
+  stability: stable
+  version: 1.2.0.11
+  summary: Zachowanie propela dodajace obsluge przyjaznych linkow
+  description: Zachowanie propela dodajace obsluge przyjaznych linkow
+  notes: |
+    - Poprawka generowania linkow SEO
+    - Dodanie mozliwosci wyboru wersji jezykowej dla generoania linkow SEO
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

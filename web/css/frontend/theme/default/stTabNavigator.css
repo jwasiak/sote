@@ -1,0 +1,93 @@
+.st_tab_navigator
+{
+    margin:0px 10px;
+}
+
+.st_tab_navigator li
+{
+    float: left;           
+    margin-right: 5px;    
+    background:url(/images/frontend/theme/default/bookmark_middle.png) top left repeat-x;   
+}   
+
+.st_tab_navigator li a 
+{
+    display: block;
+    text-align: center;    
+    text-decoration: none;
+    font-weight: normal;
+    color: #646464;
+    background-color: #eee;
+    display:block;
+    height:31px;
+    background:url(/images/frontend/theme/default/bookmark_left.png) top left no-repeat;
+}
+
+.st_tab_navigator li a span
+{
+    height:23px;      
+    display:block;   
+    padding: 8px 30px 0 30px;
+    background:url(/images/frontend/theme/default/bookmark_right.png) top right no-repeat;   
+}
+
+.st_tab_navigator li.st_selected
+{    
+    background:url(/images/frontend/theme/default/select_bookmark_middle.png) top left repeat-x;   
+    height:31px;           
+    margin-top:1px;
+    margin-bottom:-1px
+}
+
+.st_tab_navigator li.st_selected a
+{
+    background:url(/images/frontend/theme/default/select_bookmark_left.png) top left no-repeat; 
+    color:#646464;
+    font-weight:bold;
+    font-family: Arial,Helvetica, Verdana, sans-serif;   
+}
+
+.st_tab_navigator li.st_selected a span
+{    
+    font-family: Arial,Helvetica, Verdana, sans-serif;
+    background:url(/images/frontend/theme/default/select_bookmark_right.png) top right no-repeat;
+}
+
+.st_tab_navigator li.st_dummy
+{
+    float: none;
+    clear: both;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0%;
+    border: none;
+}
+
+.st_content_tab 
+{
+    border-top:1px solid #cfcfcf;
+    border-left:1px solid #ddded0;
+    border-right:1px solid #ddded0;
+    border-bottom:1px solid #ddded0;    
+    background:url(/images/frontend/theme/default/background_content_tab.png) top left repeat-x;
+    background-color:#fff;
+    padding: 10px;
+    margin:0px 10px;
+}
+
+.st_tab_navigator-separator
+{
+    margin-bottom: 10px;
+}
+
+.st_indicator {
+    text-align: center;
+    padding: 10px 0;
+  
+}
+
+#st_tab_navigator-product_list-content, #st_tab_navigator-product_description-content
+{
+    border:1px solid #c9c9c9;
+}

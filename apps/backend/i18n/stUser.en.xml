@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Klienci</source>
+                <target>Customers</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Hurtownik poziom cen A</source>
+                <target>Wholesaler - price level A</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Hurtownik poziom cen B</source>
+                <target>Wholesaler - price level B</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Hurtownik poziom cen C</source>
+                <target>Wholesaler - price level C</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Klient hurtowy</source>
+                <target>Wholesale customer</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>bardzo słabe</source>
+                <target>very weak</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>słabe</source>
+                <target>weak</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>normalne</source>
+                <target>normal</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>mocne</source>
+                <target>strong</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>bardzo mocne</source>
+                <target>vary strong</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Brak ulicy.</source>
+                <target>No street address supplied.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Przekroczono dozwoloną liczbę znaków.</source>
+                <target>Maximum number of characters exceeded.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Brak domu.</source>
+                <target>No street number supplied.</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Brak miasta.</source>
+                <target>No city/town supplied.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Brak kodu.</source>
+                <target>No postal code supplied.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Brak telefonu.</source>
+                <target>No phone number supplied.</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Nie podałeś adresu e-mail</source>
+                <target>No e-mail supplied</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid e-mail address format.</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Taki adres już istnieje w bazie danych.</source>
+                <target>This address is already stored in the database.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Nie podałeś hasła.</source>
+                <target>No password supplied.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Podane hasło jest za krótkie, mininum 3 znaki.</source>
+                <target>The password is too short. It must be at least 3 characters long.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+                <target>The password is too long. It must not exceed 20 characters.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Lista klientów sklepu</source>
+                <target>List of shop's clients</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Klienci sklepu</source>
+                <target>Shop's clients</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Oznacz klienta jako hurtownika</source>
+                <target>Mark this customer as a wholesaler</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Brak danych</source>
+                <target>No data</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>NIP</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Dane billingowe</source>
+                <target>Billing data</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Dane dostawy</source>
+                <target>Delivery data</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Dane zostały potwierdzone.</source>
+                <target>Data was confirmed.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Zatwierdz dane.</source>
+                <target>Confirm the data.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Pokaż użytkowników on-line:</source>
+                <target>Show the online users:</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Login (e-mail)</source>
+                <target>Login (e-mail)</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Imię</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Nazwisko</source>
+                <target>Surname</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Utworzony</source>
+                <target>Created</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Lista klientów</source>
+                <target>List of customers</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Konfiguracja klientów</source>
+                <target>Customers configuration</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Dane klienta %%~client_username%%</source>
+                <target>Customer %%~client_username%% data</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Firma</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Domyślny</source>
+                <target>Default</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Lista danych billingowych</source>
+                <target>List of billing data</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Lista danych dostawy</source>
+                <target>List of delivery data</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Dodaj nowe dane billingowe</source>
+                <target>Add a new billing data</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Dane billingowe klienta %%~client_username%%</source>
+                <target>Customer %%~client_username%% billing data</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Ulica</source>
+                <target>Street address</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Nr domu</source>
+                <target>Number</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Nr mieszkania</source>
+                <target>Flat number</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Kod</source>
+                <target>Postal code</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Miasto</source>
+                <target>City/Town</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Kraj</source>
+                <target>Country</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Telefon</source>
+                <target>Phone number</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Dane konta</source>
+                <target>Account data</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Informacje o kliencie</source>
+                <target>Customer information</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Dodaj nowe dane dostawy</source>
+                <target>Add a new delivery data</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Dane dostawy klienta %%~client_username%%</source>
+                <target>Customer %%~client_username%% delivery data</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Dane klienta %%username%%</source>
+                <target>Customer %%username%% data</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Ostatnio logowany</source>
+                <target>Last logged</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Powtórz hasło</source>
+                <target>Repeat password</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Potwierdzony</source>
+                <target>Confirmed</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Pokaż zamówienia.</source>
+                <target>Show the orders.</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Zamówienia</source>
+                <target>Orders</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Grupy rabatowe</source>
+                <target>Discount</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Rabat ogólny</source>
+                <target>General discount</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Użytkownik</source>
+                <target>User</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Rabat ogólny dla klienta [%]</source>
+                <target>General discount for this user [%]</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Zarządzanie rabatmi w sklepie.</source>
+                <target>Manage the discounts</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Edycja Rabatu</source>
+                <target>Edit a discount</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Partnerzy</source>
+                <target>Partners</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Grupy rabatowe produktu</source>
+                <target>Discount groups</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Zarządzanie rabatami w sklepie</source>
+                <target>Manage the discounts</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Proszę podać warość rabatu</source>
+                <target>Enter a discount value</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Proszę podać wartość liczbową</source>
+                <target>Enter a numeric value</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Minimalna wartość rabatu to 0%</source>
+                <target>Minimum discount value is 0%</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Maksymalna wartość rabatu to 100%</source>
+                <target>Maximum discount value is 100%</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Dane bilingowe</source>
+                <target>Billing data</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Imię i nazwisko</source>
+                <target>Name and surname</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Adres</source>
+                <target>Address</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Adres cd</source>
+                <target>Address more</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Województwo</source>
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>Brak adresu.</source>
+                <target>No address supplied.</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Rabat</source>
+                <target>Discount</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Priorytet</source>
+                <target>Priority</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+			<trans-unit id="86">
+                <source>Nowi Klienci</source>
+                <target>New Customers</target>
+            </trans-unit>
+			<trans-unit id="87">
+                <source>Brak klientów</source>
+                <target>No customers</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Pokaż województwo:</source>
+                <target>Show region:</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Zweryfikowany</source>
+                <target>Verified</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>Wysyłaj mail z informacją o weryfikacji:</source>
+                <target>Send mail with information about the verification:</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Proszę podać hasło.</source>
+                <target>Please enter the password.</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>Pokaż PESEL:</source>
+                <target>Show PESEL:</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Twoje konto w sklepie zostało zweryfikowane.</source>
+                <target>Your account has been verified.</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Dodany</source>
+                <target>Added</target>
+            </trans-unit>
+            <trans-unit id="95">
+                <source>Pokaż dodatkową linię adresu:</source>
+                <target>Show additional adress line:</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Domyślnie klient to firma:</source>
+                <target>By default, the client is a company:</target>
+            </trans-unit>
+            <trans-unit id="97">
+                <source>Hurtownik - grupa</source>
+                <target>Wholesaler - group</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Punkty</source>
+                <target>Points</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Punkty klienta</source>
+                <target>Customer points</target>
+            </trans-unit>
+            <trans-unit id="100">
+                <source>Klient</source>
+                <target>Customer</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>Stan konta</source>
+                <target>Account balance</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>Historia punktów</source>
+                <target>History points</target>
+            </trans-unit>
+            <trans-unit id="103">
+                <source>Zmień stan konta</source>
+                <target>Change account amount</target>
+            </trans-unit>
+            <trans-unit id="104">
+                <source>Opis operacji</source>
+                <target>Description of the operation</target>
+            </trans-unit>
+            <trans-unit id="105">
+                <source>zmień</source>
+                <target>change</target>
+            </trans-unit>
+            <trans-unit id="106">
+                <source>pokaż starsze</source>
+                <target>show older</target>
+            </trans-unit>
+            <trans-unit id="107">
+                <source>Aktaulizowane przez zamówienie</source>
+                <target>Updated by order</target>
+            </trans-unit>
+            <trans-unit id="108">
+                <source>Operacja</source>
+                <target>Operation</target>
+            </trans-unit>
+            <trans-unit id="109">
+                <source>Zmienił</source>
+                <target>Change</target>
+            </trans-unit>
+            <trans-unit id="110">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="111">
+                <source>Punkty klienta %%username%%</source>
+                <target>Customer points %%username%%</target>
+            </trans-unit>
+            <trans-unit id="112">
+                <source>Lista operacji</source>
+                <target>List of operations</target>
+            </trans-unit>
+            <trans-unit id="113">
+                <source>Podaj wartość np:<br/> 10 - ustawi aktualny stan konta 10</source>
+                <target>Enter a value, eg:<br/> 10 - set the current balance 10</target>
+            </trans-unit>
+            <trans-unit id="114">
+                <source>Podaj wartość np:<br/> +10 - doda do stanu konta 10<br/>-10 - odejmie od stanu konta 10</source>
+                <target>Enter a value, eg: <br/> 10 - added to the account balance 10 <br/> -10 - subtract 10 from your account balance</target>
+            </trans-unit>
+            <trans-unit id="115">
+                <source>Odejmowana wartość nie może być większa od aktualnej liczby punktów</source>
+                <target>Subtracted value can not be greater than the current number of points</target>
+            </trans-unit>
+            <trans-unit id="116">
+                <source>Aktualizacja stanu konta</source>
+                <target>Status update account</target>
+            </trans-unit>
+            <trans-unit id="117">
+                <source>Aktualny stan konta</source>
+                <target>Account balance</target>
+            </trans-unit>
+            <trans-unit id="118">
+                <source>Zam</source>
+                <target>Ord</target>
+            </trans-unit>
+            <trans-unit id="119">
+                <source>Możliwość korzystania z punktów</source>
+                <target>The ability to use points</target>
+            </trans-unit>
+            <trans-unit id="120">
+                <source>Próg aktywacji punktów</source>
+                <target>Activation threshold points</target>
+            </trans-unit>
+            <trans-unit id="121">
+                <source>do aktywacji brak</source>
+                <target>to activate unknown</target>
+            </trans-unit>
+            <trans-unit id="122">
+                <source>do aktywacji brak</source>
+                <target>to activate unknown</target>
+            </trans-unit>
+            <trans-unit id="123">
+                <source>włączona</source>
+                <target>on</target>
+            </trans-unit>
+            <trans-unit id="124">
+                <source>wyłączona</source>
+                <target>off</target>
+            </trans-unit>
+            <trans-unit id="125">
+                <source>włącz</source>
+                <target>on</target>
+            </trans-unit>
+            <trans-unit id="126">
+                <source>wyłącz</source>
+                <target>off</target>
+            </trans-unit>
+            <trans-unit id="127">
+                <source>osiągnięty</source>
+                <target>achieved</target>
+            </trans-unit>
+            <trans-unit id="128">
+                <source>dezaktywuj</source>
+                <target>deactivate</target>
+            </trans-unit>
+            <trans-unit id="129">
+                <source>aktywuj</source>
+                <target>activate</target>
+            </trans-unit>
+            <trans-unit id="130">
+                <source>aktywuj</source>
+                <target>activate</target>
+            </trans-unit>
+            <trans-unit id="131">
+                <source>nieokreślony</source>
+                <target>undetermined</target>
+            </trans-unit>
+            <trans-unit id="132">
+                <source>Proszę podać punkty.</source>
+                <target>Please give the points.</target>
+            </trans-unit>
+            <trans-unit id="133">
+                <source>Brak operacji na koncie</source>
+                <target>No action on your account</target>
+            </trans-unit>
+            <trans-unit id="134">
+                <source>Wymagaj numeru telefonu:</source>
+                <target>Require phone number:</target>
+            </trans-unit>
+            <trans-unit id="135">
+                <source>Podczas składania zamówienia i rejestracji nowego użytkownika</source>
+                <target>When ordering and registering a new user</target>
+            </trans-unit>
+            <trans-unit id="136">
+                <source>Włącz możliwość logowania przez google:</source>
+                <target>Enable the ability to log on google:</target>
+            </trans-unit>
+            <trans-unit id="137">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="138">
+                <source>Za krótkie hasło min. 6 znaków.</source>
+                <target>Password too short min. 6 characters.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

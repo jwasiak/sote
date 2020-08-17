@@ -1,0 +1,157 @@
+<div id="top" class="container">  
+    <div id="header" class="row hidden-xs">
+        <div class="col-sm-2">
+            <a href="{$homepage_url}" class="btn btn-primary btn-home">
+                <svg enable-background="new 0 0 24 24" height="16px" version="1.1" viewBox="0 0 24 24" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M23.821,12.263L12.575,0.636C12.415,0.473,12.208,0.391,12,0.391s-0.415,0.082-0.575,0.245L0.179,12.263  c-0.316,0.328-0.203,0.597,0.251,0.597h3.308l0.002,10.75c2.417,0,6.191,0,6.191,0v-6.615h4.136l-0.014,6.615c0,0,5.063,0,6.226,0  L20.278,12.86h3.291C24.023,12.86,24.137,12.591,23.821,12.263z"/></svg>
+            </a>
+        </div>
+        <div class="col-sm-8 text-center">   
+            <div id="logo">
+                <div>
+                    <a href="{$homepage_url}">
+                        <img src="{image_path image='logo.png'}" alt="Logo" />
+                    </a>
+                </div>
+            </div>
+        </div>   
+        <div class="col-sm-2">
+            {include_file id="_search"}
+        </div>
+    </div>
+</div>
+<div id="header-navbar-position">
+    <div id="header-navbar-outer">
+        <div class="container">  
+            <nav id="header-navbar" class="navbar" role="navigation">    
+                <div id="logo_small" class="visible-xs">
+                    <div>
+                        <a href="{$homepage_url}">
+                            <img src="{image_path image='logo_small.png'}" alt="Logo" />
+                        </a>
+                     </div>
+                </div>           
+                <div id="navbar-buttons" class="btn-group pull-right">  
+                    <button id="nav-button-shopping-cart" class="btn btn-navbar collapsed empty" data-toggle="collapse" data-target="#nav-shopping-cart"  data-parent="#header-navbar">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <small class="quantity"></small>
+                    </button>
+
+                    {if !$sf_user->isAuthenticated()} 
+                    <a href="{url_for internal='stUser/loginUser' secure=true}" id="nav-button-user" class="hidden-xs btn btn-navbar collapsed">
+                        <span id="login-status-info" class="glyphicon glyphicon-user"></span>
+                        <small class="login-status">&nbsp;</small>
+                    </a> 
+                    <button id="nav-button-user" class="visible-xs btn btn-navbar collapsed" data-toggle="collapse" data-target="#nav-user" data-parent="#header-navbar">
+                        <span id="login-status-info" class="glyphicon glyphicon-user"></span>
+                        <small class="login-status">&nbsp;</small>
+                    </button>     
+                    {else}
+                    <button id="nav-button-user" class="btn btn-navbar collapsed" data-toggle="collapse" data-target="#nav-user" data-parent="#header-navbar">
+                        <span id="login-status-info" class="glyphicon glyphicon-user"></span>
+                        <small class="login-status">&nbsp;</small>
+                    </button>            
+                    {/if}                                  
+                    <button id="nav-button-settings" class="btn btn-navbar hidden-xs collapsed" data-toggle="collapse" data-target="#nav-settings" data-parent="#header-navbar">
+                        <span class="glyphicon glyphicon-globe"></span>
+                    </button>                                                                  
+                </div>           
+                <div class="navbar-header">
+                    <button id="nav-button-menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" data-parent="#header-navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                            
+                </div>               
+                <!-- Menu -->
+                <div id="nav-menu" class="navbar-collapse collapse">
+                    {st_get_component module="stCategoryTree" component="horizontal"}
+                </div>            
+                <div class="navbar-dropdown">                
+                    <!-- Koszyk -->
+                    <div id="nav-shopping-cart" class="navbar-collapse collapse">
+                        {st_get_component module="stBasket" component="show"}
+                    </div>        
+                    <div id="nav-user" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Moje konto, Język, Waluta -->                    
+                            {st_get_component module="stUser" component="loginStatus"}                                                        
+                        </ul>
+                    </div>
+                    {strip}
+                    <div id="nav-settings" class="hidden-xs navbar-collapse collapse">
+                        <ul class="nav navbar-nav">    
+                            <li class="dropdown">
+                                {st_get_component module="stLanguageFrontend" component="choose"}
+                            </li>
+                            <li class="dropdown">
+                                {st_get_component module="stCurrencyFrontend" component="pickCurrency"}
+                            </li>                                                           
+                        </ul>
+                        {slot name="nav-setting" hidden="true"}{/slot}
+                    </div>
+                    {/strip}
+                    <div id="nav-search" class="navbar-collapse collapse hidden-xs">
+                        {include_file id="_search"}
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+{literal}
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+   if ($('#nav-settings  > ul > li:empty').length == 2)
+   {
+      $('#nav-button-settings').hide();
+   } 
+
+   var menuHeight = $('#header-navbar-outer').height();
+   var dropdown = $('#header-navbar .dropdown-menu');
+
+   function menuFix() {     
+
+        if ($(window).width() > 768) {
+            
+            var scrolled = $(window).scrollTop();
+            var menuTop = $('#header-navbar-position').offset().top;
+            var windowHeight = $(window).height();
+            var headerHeight = $('#top').height();
+
+            if (scrolled > menuTop) {
+                $('#header-navbar-outer').addClass('navbar-fixed-top');
+                $('#header-navbar-position').css('min-height', menuHeight - 1);
+                dropdown.css('max-height', windowHeight - menuHeight - 15);
+            } else if (scrolled < menuTop) {
+                $('#header-navbar-outer').removeClass('navbar-fixed-top');
+                $('#header-navbar-position').css('min-height', '');
+                dropdown.css('max-height', windowHeight - headerHeight - menuHeight - 15);
+            };
+
+        } else {
+            dropdown.removeAttr("style");
+        };
+    }
+
+    $(document).ready(function(){
+        menuFix();
+        if ($(window).width() < 768) {
+            var windowHeightMobile = $(window).height();
+            var menuHeightMobile = $('#header-navbar').height();
+            $('#header-navbar .navbar-collapse').css('max-height', windowHeightMobile - menuHeightMobile);
+        };  
+    });
+    $(window).scroll(function(){
+        menuFix();
+    });
+    $(window).resize(function(){
+        menuFix();
+    });
+   
+
+});
+//]]>
+</script> 
+{/literal}

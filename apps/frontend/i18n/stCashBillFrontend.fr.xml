@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2015-01-15T01:36:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Paiement</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Merci pour le paiement.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Le paiement n’a pas été effectué.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Błąd podczas tworzenia nowej płatności.</source>
+				<target>Erreur lors de la création du nouveau paiement.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Payer</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Le paiement a été configuré incorrectement</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

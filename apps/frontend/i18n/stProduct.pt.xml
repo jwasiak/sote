@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2012-07-02T03:01:15Z">
+		<body>
+			<trans-unit id="1">
+				<source>Cena</source>
+				<target>Preço</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sortuj po</source>
+				<target>Ordenar por</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwie</source>
+				<target>Nome</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Cenie</source>
+				<target>Preço</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa produktu</source>
+				<target>Nome do produto</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Opis</source>
+				<target>Descrição</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Producent</source>
+				<target>Produtor</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kategoria</source>
+				<target>Categoria</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Typ prezentacji listy</source>
+				<target>Forma da apresentação da lista</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Pełna lista</source>
+				<target>Lista completa</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Skrócona lista</source>
+				<target>Lista abreviada</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Lista alternatywna</source>
+				<target>Lista alternativa</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Polecamy produkty</source>
+				<target>Recomendamos os produtos</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Widzisz %number% z %count% produktów</source>
+				<target>Está a ver %number% dos %count% produtos</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nowości</source>
+				<target>Novidades</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Strona główna</source>
+				<target>Página inicial</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Strona produktu o podanym id nie istnieje</source>
+				<target>Página do produto do ID indicado não existe</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Strona kategorii o podanym id nie istnieje</source>
+				<target>Página da categoria do ID indicado não existe</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Strona grupy produktów o podanym id nie istnieje</source>
+				<target>Página do grupo dos produtos do ID indicado não existe</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cena netto</source>
+				<target>Preço líquido</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Cena brutto</source>
+				<target>Preço bruto</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Stara cena</source>
+				<target>Preço antigo</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Rabat</source>
+				<target>Desconto</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Grupa rabatowa</source>
+				<target>Grupo de descontos</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Cena katalogowa brutto</source>
+				<target>Preço de tabela bruto</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena katalogowa netto</source>
+				<target>Preço de tabela líquido</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rabat brutto</source>
+				<target>Desconto bruto</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rabat netto</source>
+				<target>Desconto líquido</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Stara cena brutto</source>
+				<target>Preço antigo bruto</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Stara cena netto</source>
+				<target>Preço antigo líquido</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Waga</source>
+				<target>Peso</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kod</source>
+				<target>Código</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Klient hurtowy</source>
+				<target>Cliente grossista</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Rabat ogólny użytkownika</source>
+				<target>Desconto geral do utilizador</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Filtruj po producentach</source>
+				<target>Filtrar por produtores</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wszyscy</source>
+				<target>Todos</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Załączniki</source>
+				<target>Anexos</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Pobierz</source>
+				<target>Guardar</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Takiej kategorii nie ma w sklepie</source>
+				<target>A categoria não existe na loja</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Takiej grupy produktów nie ma w sklepie</source>
+				<target>O grupo de produtos não existe na loja</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Takiego producenta nie ma w sklepie</source>
+				<target>O produtor não existe na loja</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Takiego produktu nie ma w sklepie</source>
+				<target>O produto não existe na loja</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Więcej</source>
+				<target>Mais</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Nazwa</source>
+				<target>Nome</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brutto</source>
+				<target>Bruto</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Netto</source>
+				<target>Líquido</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Cena katalogowa</source>
+				<target>Preço catálogo</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Najnowszym</source>
+				<target>Mais recente</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Przejdź do strony głównej</source>
+				<target>Ir para a página inicial</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Obrazek</source>
+				<target>Imagem</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>z</source>
+				<target>com</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>brutto</source>
+				<target>Bruto</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>netto</source>
+				<target>Líquido</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Kod producenta</source>
+				<target>Código do produtor</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Brak produktów dla wybranych kryteriów</source>
+				<target>Não há produtos para os critérios escolhidos</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>szczegóły</source>
+				<target>detalhes</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>sprawdź</source>
+				<target>verifique</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Otrzymasz</source>
+				<target>Receberá</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Koszt</source>
+				<target>Custo</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>tylko za punkty</source>
+				<target>apenas por pontos</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>dodaj do koszyka</source>
+				<target>adicionar ao cesto</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>Sem pontos suficientes</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>Entre para comprar produto.</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Limite de pontos não alcançado</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Para limite faltam</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>za</source>
+				<target>por</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Cena zasadnicza</source>
+				<target>Preço básico</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Zobacz</source>
+				<target>Veja</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Akcesoria</source>
+				<target>Acessórios</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Do koszyka</source>
+				<target>Para cesta</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>malejąco</source>
+				<target>descendente</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>rosnąco</source>
+				<target>ascendente</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

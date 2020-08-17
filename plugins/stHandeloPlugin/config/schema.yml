@@ -1,0 +1,27 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stHandeloPlugin.lib.model
+  st_handelo: 
+    _attributes: 
+      phpName: Handelo
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    active: 
+      type: BOOLEAN
+    description: 
+      type: LONGVARCHAR

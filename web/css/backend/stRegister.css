@@ -1,0 +1,156 @@
+#st_register .st_error
+{
+    color:red;
+}
+
+#st_register
+{  
+    margin: 0px auto;
+    width: 500px;
+}
+
+#st_register .confirm
+{
+
+    width: 250px;
+}
+
+#st_register .st_label
+{
+    float: left;    
+    width: 150px;
+}
+
+#st_register .st_label2
+{
+    text-align: right;
+    float: left;    
+    width: 150px;
+    margin-right: 8px;
+}
+
+#st_register #st_form-register-company
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-email
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-password1
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-password2
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-name
+{
+    width: 94px;
+}
+
+#st_register #st_form-register-surname
+{
+    width: 94px;
+}
+
+#st_register #st_form-register-street
+{
+    width: 122px;
+}
+
+#st_register #st_form-register-house
+{
+    width: 25px;
+}
+
+#st_register #st_form-register-flat
+{
+    width: 20px;
+}
+
+#st_register #st_form-register-code
+{
+    width: 68px;
+}
+
+#st_register #st_form-register-town
+{
+    width: 120px;
+}
+
+#st_register #st_form-register-nip
+{
+    width: 200px;
+}
+
+
+#st_register #st_form-register-phone
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-license
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-dbHost
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-dbName
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-dbUser
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-dbPassword
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-www
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-ftpHost
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-ftpUser
+{
+    width: 200px;
+}
+
+#st_register #st_form-register-ftpPassword
+{
+    width: 200px;
+}
+
+#sf_admin_container #st_application-head-links_left 
+{
+    background-image:none;
+}
+
+#sf_admin_container #st_application-head-links_right
+{
+    background-image:none;
+}
+
+#st_register #submit_button
+{
+    margin-right: 120px;
+}

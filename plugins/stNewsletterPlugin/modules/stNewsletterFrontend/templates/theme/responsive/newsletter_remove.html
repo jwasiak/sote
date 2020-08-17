@@ -1,0 +1,23 @@
+{set layout="one_column"}
+{if $is_authenticated==1}
+{st_get_component module="stUserData" component="responsiveUserPanelMenu" active_tab="4"}
+{/if}
+
+
+<div id="newsletter-remove">
+
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            {__ text="Potwierdzenie rezygnacji."}
+        </div>
+        <div class="panel-body text-center">
+
+            <p>{__ text="Adres został usunięty."}</p>
+            
+            <p><b>{$email}</b></p>
+
+            <a href="/" class="btn btn-primary"> {__ text="Kontynuuj zakupy"} </a>
+
+        </div>
+    </div>
+</div>

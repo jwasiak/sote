@@ -1,0 +1,219 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stDeliveryPlugin.lib.model
+  st_delivery: 
+    _attributes: 
+      phpName: Delivery
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    countries_area_id: 
+      type: INTEGER
+      foreignTable: st_countries_area
+      foreignReference: id
+      onDelete: setnull
+    tax_id: 
+      type: INTEGER
+      foreignTable: st_tax
+      foreignReference: id
+      onDelete: setnull
+    type_id:
+      type: INTEGER
+      foreignTable: st_delivery_type
+      foreignReference: id
+      onDelete: setnull
+    free_delivery: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    active: 
+      type: BOOLEAN
+    allow_in_selected_products: 
+      type: BOOLEAN
+      required: true
+      default: 0
+    default_cost: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    default_cost_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    width:
+      type: INTEGER
+      default: 0
+      required: true
+    height: 
+      type: INTEGER
+      default: 0
+      required: true
+    depth:
+      type: INTEGER
+      default: 0
+      required: true
+    volume: 
+      type: INTEGER
+      default: 0
+      required: true
+    is_system_default: 
+      type: BOOLEAN
+      default: 0
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_description: 
+      type: LONGVARCHAR
+    is_default: 
+      type: BOOLEAN
+      default: 0
+    section_cost_type: 
+      type: VARCHAR
+      size: 32
+    max_order_weight: 
+      type: DECIMAL
+      size: 6
+      scale: 2
+      default: 0
+    max_order_amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    max_order_quantity: 
+      type: INTEGER
+      default: 0
+    min_order_weight: 
+      type: DECIMAL
+      size: 6
+      scale: 2
+      default: 0
+    min_order_amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    min_order_quantity: 
+      type: INTEGER
+      default: 0
+    position:
+      type: INTEGER
+      default: 0 
+    params:
+      type: VARCHAR
+      size: 4096
+      phpType: array   
+    _indexes: 
+      delivery_active: 
+        - max_order_amount
+        - max_order_quantity
+        - max_order_weight
+        - active
+      type_id_idx:
+        - type_id
+
+
+  st_delivery_type:
+    _attributes: 
+      phpName: DeliveryType
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    name:
+      type: VARCHAR
+      size: 128
+      required: true
+    type:
+      type: VARCHAR
+      size: 16
+
+  st_delivery_sections: 
+    _attributes: 
+      phpName: DeliverySections
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    attribute_field_id: 
+      type: INTEGER
+      foreignTable: st_attribute_field
+      foreignReference: id
+      onDelete: cascade
+    delivery_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_delivery
+      foreignReference: id
+      onDelete: cascade
+    value_from: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    amount: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    amount_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+  st_delivery_has_payment_type: 
+    _attributes: 
+      phpName: DeliveryHasPaymentType
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    payment_type_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_payment_type
+      foreignReference: id
+      onDelete: cascade
+    delivery_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_delivery
+      foreignReference: id
+      onDelete: cascade
+    is_active: 
+      type: BOOLEAN
+      default: 0
+    is_default: 
+      type: BOOLEAN
+      default: 0
+    cost: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    cost_brutto: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+    free_from: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+      default: 0
+    cost_type: 
+      type: CHAR
+      default: 'P'
+      required: true
+    courier_cost: 
+      type: DECIMAL
+      size: 10
+      scale: 2
+

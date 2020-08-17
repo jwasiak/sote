@@ -1,0 +1,55 @@
+add_group_price_model_class:            AddGroupPrice
+custom_actions:
+    list:                   [add_group_price]
+    edit:                   [add_group_price]
+
+add_group_price_list:
+    forward_parameters:     [group_price_id]
+    build_options:
+        related_id:         forward_parameters.group_price_id
+    title:  Lista walut
+    display:                [currency, _price_netto, tax, _price_brutto]
+    menu:                   {use: edit.menu}
+    
+    fields:
+        currency:          {name: Waluta}
+        tax:               {name: Vat}
+        price_netto:       {name: Cena netto, module: appAddGroupPriceBackend}
+        price_brutto:      {name: Cena brutto, module: appAddGroupPriceBackend}
+    actions:
+        _create:           {name: Dodaj}
+    object_actions:
+        _edit:              -
+        _delete:            -
+
+add_group_price_edit:
+    use_helper:             [appAddGroupPrice]
+    forward_parameters:     [group_price_id]
+    build_options:
+        related_id:         forward_parameters.group_price_id
+    title:  Edycja grupy
+    display:                [~group_select, ~currency_select, _matrix_on , _matrix_off, tax_id, _price, _old_price, _wholesale_price, _price_type, _price_mod]
+    menu:                   {use: edit.menu}
+
+    fields:
+        group_select:       {name: Grupa, module: appAddGroupPriceBackend}
+        currency_select:    {name: Waluta, module: appAddGroupPriceBackend}
+        matrix_on:          {name: Ustaw szablon cen, hide_on_create: true}
+        tax_id:             {name: Vat, type: add_group_price_tax}
+        price:              {name: Cena, module: appAddGroupPriceBackend}
+        old_price:          {name: Stara cena, module: appAddGroupPriceBackend}
+        wholesale_price:    {name: Ceny hurtowe, module: appAddGroupPriceBackend}
+        matrix_off:         {name: Zmień jedną cenę, hide_on_create: true}
+        price_type:         {name: Zmień, hide_on_create: true}
+        price_mod:          {name: Nowa cena, hide_on_create: true, help: "Podaj wartość np:<br> 10.00 - ustawi jako nowa cene 10.00<br> +10.00 - doda do aktualnej ceny 10.00<br>-10.00 - odejmie od aktualnej ceny 10.00 <br>+10% - doda do aktualnej ceny 10%<br>-10% - odejemie od aktualnej ceny 10%"}
+
+    actions:
+        _list:          {name: Pokaż listę}
+        _save_and_add:  {name: Zapisz i synchronizuj, hide_on_create: true}
+        _save:          {name: Zapisz}
+        _delete:        {name: Usuń}       
+edit:
+    menu:
+        display:           [addprice]
+        fields:
+            addprice:      {name: Ceny grupy w walutach, i18n: appAddPriceBackend, action: stGroupPriceBackend/addGroupPriceList?group_price_id=%%id%%}        

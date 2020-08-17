@@ -1,0 +1,14 @@
+PaymentType: 
+  PaymentType_PayByNet: 
+    created_at: 2012-11-15 12:00:00
+    updated_at: 2012-11-15 12:00:00
+    module_name: stPayByNet
+    active: 0
+    culture: pl_PL
+    name: PayByNet
+
+PaymentTypeI18n:
+  PaymentTypeI18n_PayByNet:
+    id: PaymentType_PayByNet
+    culture: en_US
+    name: PayByNet

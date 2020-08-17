@@ -1,0 +1,13 @@
+package:
+  name: stThemeAirSports
+  stability: stable
+  version: 7.0.1.2
+  summary: 'AirSports Theme'
+  description: 'AirSports Theme'
+  notes: |
+     - Poprawka graficzna
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

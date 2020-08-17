@@ -1,0 +1,50 @@
+QuestionStatus: 
+  QuestionStatus_1:
+    created_at: 2009-05-15 10:13:27
+    updated_at: 2009-05-28 15:58:46
+    culture: pl_PL
+    name: Anulowane
+    status_type: ST_CANCELED
+    is_default: 0
+    is_system_default: 1
+  QuestionStatus_2: 
+    created_at: 2009-05-15 10:13:27
+    updated_at: 2009-05-28 15:58:58
+    culture: pl_PL
+    name: Nowe
+    status_type: ST_NEW
+    is_default: 1
+    is_system_default: 1
+  QuestionStatus_3: 
+    created_at: 2009-05-15 10:13:27
+    updated_at: 2009-05-15 10:13:27
+    culture: pl_PL
+    name: Oczekuje
+    status_type: ST_PENDING
+    is_default: 0
+    is_system_default: 1
+  QuestionStatus_4: 
+    created_at: 2009-05-15 10:13:27
+    updated_at: 2009-05-15 10:13:27
+    culture: pl_PL
+    name: Wysłane
+    status_type: ST_COMPLETE
+    is_default: 0
+    is_system_default: 1
+QuestionStatusI18n:
+  QuestionStatusI18n_1:
+    id: QuestionStatus_1
+    culture: en_US
+    name: Canceled
+  QuestionStatusI18n_2:
+    id: QuestionStatus_2
+    culture: en_US
+    name: New
+  QuestionStatusI18n_3:
+    id: QuestionStatus_3
+    culture: en_US
+    name: Pending
+  QuestionStatusI18n_4:
+    id: QuestionStatus_4
+    culture: en_US
+    name: Complete

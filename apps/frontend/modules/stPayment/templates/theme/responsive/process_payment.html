@@ -1,0 +1,46 @@
+<div class="modal fade modal-vertical-centered" id="order-payment-process-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false" data-action="{$action}" data-autoredirect="{$api->isAutoRedirectEnabled()}">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p class="text-center"><img src="{$api->getLogoPath()}" style="max-width: 150px" alt=""></p>
+                <p class="text-center">{__ text="Za chwilę nastąpi przekierowanie na stronę płatności. Proszę czekać."}</p>
+                <div class="preloader"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="order-payment-process-container" class="hidden"></div>
+
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready(function () {
+
+        	var modal = $('#order-payment-process-modal');
+
+        	modal.on('shown.bs.modal', function() {
+	         	$.get(modal.data('action'), function(response) {
+	        		if (response && response.redirect) {
+	        			window.location = response.redirect;
+	        		} else if (response && response.content) {
+						var container = $('#order-payment-process-container');
+						container.html(response.content);
+						container.find('form').submit();
+					}
+	        	});       		
+        	})
+
+        	if (modal.data('autoredirect'))
+        	{
+        		modal.modal({ show: true });
+        	}
+
+        	$('#order-pay-btn').click(function() {
+        		modal.modal({ show: true });
+        		return false;
+        	});
+        });
+    });
+</script>
+{/literal}

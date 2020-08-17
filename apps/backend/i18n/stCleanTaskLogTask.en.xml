@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Czyszczenie logów harmonogramu zadań</source>
+                <target>Task scheduler logs cleaning</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

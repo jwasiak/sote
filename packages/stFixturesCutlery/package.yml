@@ -1,0 +1,12 @@
+package:
+  name: stFixturesCutlery
+  stability: stable
+  version: 7.0.0.2
+  summary: Dane dla tematu cutlery
+  description: Dane dla tematu cutlery
+  notes: Dostosowanie do tematu cutlery
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

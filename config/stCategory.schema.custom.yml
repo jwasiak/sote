@@ -1,0 +1,40 @@
+---
+propel:
+    st_category: 
+        _attributes: 
+            phpName: Category
+            isI18N: true
+            i18nTable: st_category_i18n
+        opt_name: {change_column: name}
+        opt_url:
+            type: VARCHAR
+            size: 255
+        opt_description: {change_column: description}
+            
+    st_category_i18n: 
+        _attributes: 
+            phpName: CategoryI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_category
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        url:
+            type: VARCHAR
+            size: 255
+        description: 
+            type: LONGVARCHAR
+        _indexes:
+          category_Index1:
+            - url
+            - culture

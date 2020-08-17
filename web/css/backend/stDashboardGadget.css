@@ -1,0 +1,112 @@
+#last_orders, #last_ordered_products, #last_registered_clients {
+   min-width: 479px;
+} 
+
+.record_list {
+   table-layout: fixed;
+}
+
+.record_list td {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+}
+
+.list_filters {
+  background-color: #fff;
+}
+
+.list_filters select {
+   padding-left: 5px;
+   width: 80px;
+}
+
+.list_filters li {
+   float: left;
+   padding-right: 5px;
+}
+
+.list_filters label {
+   float: left;
+   padding: 3px;
+}
+
+.list_filters li.submit {
+   padding-right: 0px;
+   padding-top: 0px;
+   float: right;
+}
+
+#last_ordered_products .products li {
+   float: left;
+   margin-right: 20px;
+   margin-top: 5px;
+   width: 94px;
+   height: 110px;
+}
+
+#last_ordered_products .products .image {
+   display: block;
+   background-size: cover;
+   background: no-repeat center center;
+   width: 84px;
+   height: 50px;
+   margin: 5px; 
+   border-radius: 3px;    
+}
+
+#last_ordered_products .products .quantity {
+   
+}
+
+#last_ordered_products .products .thumb {
+   text-decoration: none;
+   color: #222;
+   display: block;
+   background: #eee;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 94px;
+   margin: 0 auto;
+}
+
+#last_ordered_products .products .name {
+   text-align: center;
+   padding-top: 5px;
+   font-size: 10px;
+}
+
+#sote_blog {
+  min-height: 175px !important;
+  max-height: 370px !important;
+}
+
+#sote_blog .item {
+   overflow: hidden; 
+}
+
+#sote_blog a {
+    color: #000000;
+    outline-style: none;
+    text-decoration: underline;
+}
+
+#sote_blog h3 {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+#sote_blog .date {
+    color: #868686;
+    display: block;
+    font-size: 11px;
+}
+
+input[type="checkbox"] {
+  margin-top: 4px;
+  padding: 1px;
+  vertical-align: middle;
+}

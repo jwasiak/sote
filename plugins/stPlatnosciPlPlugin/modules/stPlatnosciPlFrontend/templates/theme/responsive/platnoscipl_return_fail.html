@@ -1,0 +1,23 @@
+{set layout="one_column"}
+<div id="payment">
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            {__ text="PayU"}
+        </div>
+        <div class="panel-body text-center">
+            <p>
+                <img src="/plugins/stPlatnosciPlPlugin/images/payu.png" alt="" style="width: 150px" />
+            </p>
+            <p>
+                {__ text="Płatność nie została zrealizowana."}<br/>
+            </p>
+            {if $contact_url}
+                <p>
+                    <a href="{$contact_url}" class="btn btn-primary">
+                        {__ text="Skontaktuj się z nami"}
+                    </a>      
+                </p>
+            {/if}
+        </div>
+    </div>
+</div>

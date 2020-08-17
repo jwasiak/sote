@@ -1,0 +1,8 @@
+fields:
+    newsletter{email}:           
+        sfStringValidator:
+            max:          40
+            max_error:    Przekroczono dozwoloną liczbę znaków.    
+            
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail. 

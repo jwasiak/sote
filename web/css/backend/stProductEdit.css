@@ -1,0 +1,86 @@
+#sf_fieldset_opis .row label {
+   width: auto;
+   clear: left;
+   white-space: nowrap;
+}
+
+#sf_fieldset_opis .row .field {
+   margin-left: 0px;
+   margin-right: 0px;
+   text-align: right;
+}
+
+#sf_fieldset_opis .row .field textarea {
+   width: 100% !important;
+}
+
+.category_token input {
+   margin-right: 5px;
+   margin-top: 2px;
+   vertical-align: top;
+} 
+
+.product_token .image {
+   background-color: #fff;
+   border: 1px solid #ccc; 
+   padding: 3px; 
+   display: table-cell;
+   border-radius: 5px;
+}
+
+.product_token .image div {
+   height: 22px; 
+   border-radius: 5px;
+   width: 32px;    
+   background-clip: padding-box;
+   background-origin: content-box;
+   background-position: center center;
+   background-repeat: no-repeat; 
+   background-size: cover;  
+}
+
+.product_token .name {
+   display: table-cell;
+   vertical-align: middle;
+   padding-left: 5px;
+   white-space: nowrap;
+}
+
+.product_token .code {
+   color: #888;
+}
+
+.link2product
+{
+   text-align: right;
+}
+
+#category_overlay_trigger {
+   background: url("/images/backend/stProduct/category.png") no-repeat left center; 
+   padding-left: 20px; 
+   margin-top: 5px; 
+   display: inline-block;
+   text-decoration: none;
+}
+
+#category_overlay_trigger:hover {
+   text-decoration: underline;
+}
+
+#plupload_edit_overlay {
+   min-height: 150px;
+   width: 500px;
+}
+
+#plupload_edit_overlay label {
+   width: 170px;
+}
+
+#plupload_edit_overlay .field {
+   margin-left: 180px;
+}
+
+#plupload_edit_overlay .content {
+   padding-top: 10px;
+}
+

@@ -1,0 +1,37 @@
+<html><body style="background-color:#fff; font-family:Helvetica,Verdana,Arial,sans-serif; line-height:18px; font-size:1em;"><div style="margin: 0px auto; background-color:#fff;"><br /><div style="width:700px; margin:0px auto;"><div style="background:url(http://{$host}/images/frontend/theme/default/mail/frame_mail_top.png?version=1); height:30px"></div><div style="min-height:400px;  padding:0px 25px 0px 25px; text-align:justify; border-left:1px solid #d0d2d8; border-right:1px solid #d0d2d8;">
+          
+        <div style="width:500px; margin: 0px auto;">
+            <span style="font-size:12px;color:#404040;">{__ text="Dziękujemy za wykazanie zainteresowania ofertą naszego sklepu."}</span><br/><br/>
+            <b>{$email}</b>
+            <br/><br/>
+            <span style="font-size:12px;color:#404040;">{__ text="Adres został dodany do listy subskrypcji. Prosimy potwierdzić chęć otrzymywania wiadomości aktywując konto klikając w link znajdujący się poniżej."}</span><br/><br/>
+        </div>
+
+        <div style="width:500px; margin: 0px auto;">
+            <span style="font-size:12px;">{$confirm_link}</span>
+        </div>
+        <br/>
+        {if $group}
+        <div style="width:500px; margin:0px auto; font-size:12px; color:#404040;">
+            {__ text="Po potwierdzeniu rejestracji, będą wysyłane informacje z następujących tematów"}:
+            <br/><br/>
+            <div style="border-top: 1px solid #ddd;"></div>
+               {foreach key=row item=news_group from=$results}
+                                   
+                    <div style="margin: 10px; text-align: justify;">
+                        <b>{$news_group.name}</b>
+                        {$news_group.description}
+                    </div>
+                                
+                <div style="border-top: 1px solid #ddd;"></div>
+                {/foreach}
+            
+        </div> 
+        {/if}            
+        <br/>
+        <div style="width:500px; margin: 0px auto;">
+            <span style="font-size:10px; color:#404040;">{__ text="Jeżeli chcą Państwo zrezygnować z otrzymywania wiadomości proszę kliknąć w poniższy link."}</span><br/>
+            <span style="font-size:10px; color:#fff;">{$unregister_link}</span>
+        </div>
+        
+</div><div style="background:url(http://{$host}/images/frontend/theme/default/mail/frame_mail_bottom.png?version=1); height:30px"></div></div></div></body></html>

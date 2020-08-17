@@ -1,0 +1,7 @@
+_show:
+    enabled: on
+    view:
+        javascripts:    
+            - jquery.nivo.slider.js: { max_theme_version: 6 }
+        stylesheets:
+            - stSlideBannerPlugin.css: { max_theme_version: 6 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2012-07-02T03:01:15Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Pagamento</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Wybierz płatność i kliknij przycisk</source>
+				<target>Escolha o pagamento e prima o botão</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>"Zapłać"</source>
+				<target>"Pagar"</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>aby przejść do serwisu PayU.</source>
+				<target>Para ir ao site PayU.</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Pagar</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Agradecemos a efectuação do pagamento</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Pagamento configurado de forma errada.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Pagamento não foi realizado</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Login Payback</source>
+				<target>Login payback</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

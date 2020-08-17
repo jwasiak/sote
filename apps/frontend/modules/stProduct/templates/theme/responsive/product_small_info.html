@@ -1,0 +1,17 @@
+<div id="small_card">
+    {if $show_photo==1}
+        <div class="image">{$photo}</div>
+    {/if}
+    <div class="right">
+        {if $show_name==1}
+        <div class="name">{$name}</div>
+        {/if}
+        {if $show_code==1}
+        <div class="code">{$code}</div>
+        {/if}
+        {if $show_short_description==1}
+        <div class="description">{$short_desc}</div>
+        {/if}
+    </div>
+</div>
+<div class="clear"></div>

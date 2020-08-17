@@ -1,0 +1,106 @@
+{literal}<script type="text/javascript" src="/js/jquery.cookie.js"></script>{/literal}
+
+
+{if $isAuthenticated }
+<!-- Modal -->
+<div id="change_terms_modal_message" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">         
+    <div class="modal-content">     
+        <button style="opacity:0.8; position: absolute;right: 10px;z-index: 1000000;font-size: 40px;" type="button" id="change_terms_modal_close" class="close" data-dismiss="modal" aria-label="Close"><span  aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+                                 
+         {$changeTermsDescription}
+         
+         <div style="text-align: center; margin-top: 15px;">
+            <a id="change_terms_modal_button" style="text-decoration: none;" class="btn btn-primary">OK</a>
+         </div>
+                        
+      </div>            
+    </div>
+    </div>
+  </div>
+</div>
+
+{/if}
+
+{literal}
+<script type="text/javascript">
+jQuery(function ($)
+{
+    $(document).ready(function()
+    {   
+        
+        {/literal}{if $isAuthenticated }{literal}
+        
+            if (!$.cookies.get('change_terms_message_hidden_{/literal}{$changeTermsCookieHash}{literal}')) {
+                $('#change_terms_modal_message').modal({show: true});
+            }
+            
+        {/literal}{else}{literal}
+            
+            var change_terms = '<div id="change_terms_message" style="background: #{/literal}{$changeTermsBackground}{literal};"><div id="change_terms_frame" style="width: {/literal}{$changeTermsWidth}{literal}px;"><div id="change_terms_close"><span class="glyphicon glyphicon-remove"></span></div><div id="change_terms_content" style="color:#{/literal}{$changeTermsColor}{literal};">{/literal}{$changeTermsDescription}{literal}</div></div></div>'; 
+            $( "footer" ).after(change_terms); 
+                                               
+             
+            var change_terms_message = $('#change_terms_message');
+            var height_change_terms_message = $('#change_terms_message').height();
+            if (!$.cookies.get('change_terms_message_hidden_{/literal}{$changeTermsCookieHash}{literal}')) {
+                change_terms_message.show();
+                
+                setTimeout(
+                  function() 
+                  {
+                    if(!$.cookies.get('cookies_message_hidden')){
+                        
+                        $("#change_terms_content").css("padding-bottom", 0);
+                        $("#cookies_content").css("padding-top", 0);
+                        
+                        var height_cookies_message = $('#cookies_message').height();
+                        $("#change_terms_message").css("bottom", height_cookies_message);
+                        $("#cookies_close").hide();  
+                          
+                    }
+                  }, 100);
+                                                                            
+                $("html").css("padding-bottom", height_change_terms_message);                                    
+            }
+            
+        {/literal}{/if}{literal}
+
+        
+        function saveCookies(){
+            var expires_at = new Date();
+            var years = 20;
+            expires_at.setTime(expires_at.getTime() + 1000 * years * 365 * 24 * 60 * 60);
+            $.cookies.set('change_terms_message_hidden_{/literal}{$changeTermsCookieHash}{literal}', true, {path: '/', expiresAt: expires_at});
+        }            
+
+        $('#change_terms_close').click(function(){
+            change_terms_message.hide();            
+            saveCookies();              
+            
+             if(!$.cookies.get('cookies_message_hidden')){
+                $('#cookies_message').hide();
+                var expires_at = new Date();
+                var years = 20;
+                expires_at.setTime(expires_at.getTime() + 1000 * years * 365 * 24 * 60 * 60);
+                $.cookies.set('cookies_message_hidden', true, {path: '/', expiresAt: expires_at});        
+             }
+                      
+        });
+        
+        $('#change_terms_modal_close').click(function(){
+           $('#change_terms_modal_message').modal('hide');;
+            saveCookies();                        
+        });
+        
+        $('#change_terms_modal_button').click(function(){
+           $('#change_terms_modal_message').modal('hide');;
+            saveCookies();                        
+        });
+        
+    });
+});
+</script>
+{/literal}

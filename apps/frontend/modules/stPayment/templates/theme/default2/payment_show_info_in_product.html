@@ -1,0 +1,8 @@
+{if $santander} 
+    <li id="eraty-santander-calculate">
+        {st_get_component module="stSantanderFrontend" component="calculate" id=$id product=$product amount=$amount}
+    </li>
+{/if}
+{if $lukas}
+    {st_get_component module="stLukasFrontend" component="calculate" id=$id product=$product amount=$amount}
+{/if}

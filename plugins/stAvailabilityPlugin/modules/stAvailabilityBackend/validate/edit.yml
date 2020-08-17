@@ -1,0 +1,17 @@
+fields:
+    availability{availability_name}:
+        required:
+            msg:    Podaj nazwę dostępności
+    availability{stock_from}:
+        required:
+            msg:   Podaj stan magazynowy od
+        sfNumberValidator:
+            type: any
+            type_error: Musisz podać liczbę
+            min:        0
+            min_error:  Wprowadzona wartość nie może być ujemna
+            nan_error:  Musisz podać liczbę
+        sfPropelUniqueValidator:
+            class: Availability
+            column: stock_from
+            unique_error:   Dostępność z takim progiem już istnieje

@@ -1,0 +1,85 @@
+        <div class="modal-header">
+            
+            <div class="row">
+            <div class="col-xs-2">
+                <img class="img-responsive" src="{$image_path}">
+            </div>
+            
+            <div class="col-xs-10">
+                <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                {$review_description}<br>
+                <h4>{$product_name}</h4>        
+            </div>
+            </div>   
+                 
+        </div>
+
+      {$form_start}
+      <div class="modal-body panel-body">
+        
+            
+                <div class="form-group">
+                    <span class="review-text">{__ text="Oceń"}: </span>
+                    <div style="float:left;">
+                        <input name="review[star]" type="radio" class="submit-star" value="1" {if $my_star_raiting==1} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="2" {if $my_star_raiting==2} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="3" {if $my_star_raiting==3} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="4" {if $my_star_raiting==4} checked {/if} />
+                        <input name="review[star]" type="radio" class="submit-star" value="5" {if $my_star_raiting==5} checked {/if} />
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+                <div class="form-group">
+                    <textarea rows="5" class="form-control" id="st_form-review-description" placeholder='{__ text="Napisz opinię"}' name="review[description]">{$description}</textarea>                        
+                </div>
+                
+                  <div class="form-group  {if $error_username!=''}has-error{/if}">
+                    {if $error_username!=""}<label class="control-label" for="email">{$error_username}</label>{/if}
+                    {$input_username}
+                </div>
+
+                {if $is_authenticated==false}
+                    <div class="form-group">
+                    <div class="checkbox">
+                        <label class="{if $error_privacy==1}checkbox_error{/if}">
+                            {$checkbox_privacy} {st_get_partial partial="stUser/privacy" privacy_only="true" new_window="true"}
+                        </label>
+                    </div>
+                    </div>                                
+                    
+                    {if isset($captcha_on)}
+                        <div class="form-group">
+                            <div id="captcha_form">
+                                
+                                {if $error_captcha!=""}<div class="has-error"><label class="control-label" for="captcha_img">{$error_captcha}</label></div>{/if}
+                                <div class="clearfix"></div>
+                                
+                                <div class="captcha-img {if $error_captcha!=''}has-error{/if}">
+                                    {$get_captcha}
+                                </div>
+                    
+                                <div class="form-group captcha-input {if $error_captcha!=''}has-error{/if}">    
+                                    {$input_captcha}
+                                </div>
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    {/if}
+                
+                {/if}
+
+            {$hidden_product_id}    
+            {$hidden_hash_code}
+
+      </div>
+           
+      <div class="modal-footer">        
+            <button type="submit" class="btn btn-primary"> {__ text="Dodaj"}</button>
+      </div>
+      </form>
+
+
+
+

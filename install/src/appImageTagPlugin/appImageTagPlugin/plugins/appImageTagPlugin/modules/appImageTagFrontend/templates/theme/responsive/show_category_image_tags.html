@@ -1,0 +1,197 @@
+{if $gallery}
+    {use_javascript src="/plugins/appImageTagPlugin/js/jquery.taggd.js"}
+    {use_javascript src="/plugins/slider-pro/js/jquery.sliderPro.min.js"}
+    {use_stylesheet src="appImageTagPlugin.css"}
+    {use_stylesheet src="/plugins/slider-pro/css/slider-pro.min.css"}
+
+    {if $show_image}
+        <div id="app-image-tag">
+
+            <div class="slider-pro">
+                <div class="sp-slides">
+                    {foreach key=id item=item from=$gallery name="slides"}
+                        <div class="sp-slide{if $view_mode == 'fill'} fill{/if}">
+                            {if $view_mode == 'fill'}
+                                {if $item.url}
+                                    <a href="{$item.url}" style="display: block" class="sp-layer sp-static sp-fill-layer"{if $smarty.foreach.slides.first} style="background-image: url({$item.image})"{/if} data-show-delay="0"></a>
+                                {else}
+                                    <div class="sp-layer sp-static sp-fill-layer"{if $smarty.foreach.slides.first} style="background-image: url({$item.image})"{/if} data-show-delay="0"></div>
+                                {/if}
+                            {/if}
+                            {if $smarty.foreach.slides.first}
+                                {if $item.url}
+                                    <a href="{$item.url}"><img class="sp-image" src="{$item.image}" data-id="{$id}" /></a>
+                                {else}
+                                    <img class="sp-image" src="{$item.image}" data-id="{$id}" />
+                                {/if}
+                            {else}
+                                {if $item.url}
+                                    <a href="{$item.url}"><img class="sp-image" src="/plugins/slider-pro/css/images/blank.gif" data-id="{$id}" data-src="{$item.image}" /></a>
+                                {else}
+                                    <img class="sp-image" src="/plugins/slider-pro/css/images/blank.gif" data-id="{$id}" data-src="{$item.image}" />
+                                {/if}
+                            {/if}
+                            {if $item.description}
+                                {if $item.url}
+                                    <a href="{$item.url}" class="sp-layer sp-{$item.color} sp-padding responsive description" data-show-delay="400" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">{$item.description}</a>
+                                {else}
+                                    <div class="sp-layer sp-{$item.color} sp-padding responsive description" data-show-delay="400" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down">{$item.description}</div>
+                                {/if}
+                            {/if}
+                        </div>
+                    {/foreach}
+                </div>
+                {if $count > 1}
+                    <div class="sp-thumbnails">
+                        {foreach key=id item=item from=$gallery}
+                            <img class="sp-thumbnail" src="{st_asset_image_path image=$item.image type='thumb' for='app_image_tag'}" style="display: none" />
+                        {/foreach}
+                    </div>
+                {/if}
+            </div>         
+        </div>  
+        {literal}
+            <script type="text/javascript">    
+            //<![CDATA[
+            jQuery(function($) {
+                $(document).ready(function() {
+                    var imageTag = $('#app-image-tag');
+                    var count = {/literal}{$count}{literal};
+                    var view_mode = '{/literal}{$view_mode}{literal}';
+                    var modalClicked = null;
+
+        {/literal}
+                    var gallery = {$json_gallery};
+        {literal}
+
+                    function initTaggd(image) {
+                        if (!image.data('_taggd')) {
+                            image.data('_taggd', true);
+                            var id = image.data('id');
+                            var tags = gallery[id].tags;
+                            if (tags) {
+                                image.on('taggd-init', function() {
+                                    updateTaggd(image);
+                                });
+                                image.taggd(tags);
+
+                                var popup = image.data('popup');
+
+                                popup.on('click', '.basket_add_link', function() {
+                                    popup.hide();
+                                });
+                            } 
+                        } 
+                    }
+
+                    function updateTaggd(image) {
+                        var wrapper = image.data('wrapper');
+
+                        if (wrapper) {
+                            var offset = image.offset().left - image.parent().offset().left + (image.outerWidth(false) - image.width()) / 2;
+                            wrapper.css({ 'margin-left': offset+'px' });
+                        }                        
+                    }
+
+                    function decorateImageCallback() {
+                        var image = $(this);
+                        var slide = image.closest('.sp-slide');
+
+                        var real = new Image();
+                        real.src = image.attr('src');
+
+                        if (real.width >= slide.outerWidth(false) * 0.85) {
+                            slide.removeClass('fill');
+                            image.removeAttr('style');
+                        } else {
+                            slide.addClass('fill');
+                            slide.find('.sp-fill-layer').css({ 'background-image': 'url('+image.attr('src')+')' });
+                        }
+
+                        updateTaggd(image);
+                    }
+
+                    function decorateImage(index) {
+                        var slide = this.getSlideAt(index);
+                        if (slide) {
+                            var image = slide.$imageContainer.find('.sp-image');
+                            if (!slide.$slide.data('sp-fill-update')) {
+                                slide.$slide.data('sp-fill-update', true);
+                                if (image.prop('complete') || image.prop('readyState') === 4) {
+                                    decorateImageCallback.call(image);
+                                } else {
+                                    image.one("load", decorateImageCallback);
+                                }
+                            }
+                        }
+                    }
+
+                    var options = {                        
+                        autoplay: false,
+                        autoHeight: true,
+                        width: "100%",
+                        height: 300,
+                        thumbnailPointer: true,
+                        buttons: false,
+                        thumbnailWidth: 120,
+                        arrows: true,
+                        init: function() {
+                            imageTag.find('.sp-thumbnail').show();
+
+                            var slide = this.getSlideAt(0);
+                            var image = slide.$imageContainer.find('.sp-image');
+                            decorateImage.call(this, 0);
+                            decorateImage.call(this, 1);
+                            decorateImage.call(this, this.getTotalSlides()-1);
+                            initTaggd(image);
+                        },
+                        sliderResize: function (e) {
+                            for (var i = 0; i < this.slides.length; i++) {
+                                this.slides[i].$slide.data('sp-fill-update', null);
+                            }
+
+                            decorateImage.call(this, this.getSelectedSlide());
+                        },
+                        gotoSlide: function(e) {
+                            decorateImage.call(this, e.index);
+
+                            if (this.getTotalSlides() > e.index + 1) {
+                                decorateImage.call(this, e.index + 1);
+                            }
+                            if (e.index - 1 > 0) {
+                                decorateImage.call(this, e.index - 1);
+                            }                                  
+                        },
+                        gotoSlideComplete: function(e) {
+                            var slide = this.getSlideAt(e.index);
+                            var image = slide.$imageContainer.find('.sp-image');
+                            initTaggd(image);
+                        }
+
+                    }  
+
+                    if (count === 1) {
+                        options.thumbnailPointer = false;
+                        options.arrows = false;
+                        options.loop = false;
+                        options.touchSwipe = false;
+                        options.keyboard = false;
+                    } 
+
+                    if (view_mode == 'fill') {
+                        options.slideDistance = 5;
+                    }  
+                        
+                    $( '#app-image-tag .slider-pro').sliderPro(options);
+
+                    imageTag.on('click', '.description', function() {
+                        $(this).toggleClass('responsive');
+                    }); 
+                });
+            }); 
+                
+            //]]>
+            </script> 
+        {/literal}
+    {/if}
+{/if}

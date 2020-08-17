@@ -1,0 +1,12 @@
+package:
+  name: stFixturesModa
+  stability: stable
+  version: 7.0.0.7
+  summary: Dane dla tematu Moda
+  description: Dane dla tematu Moda
+  notes: Przykladowe dane dla tematu Moda
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl

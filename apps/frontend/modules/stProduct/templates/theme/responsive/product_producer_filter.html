@@ -1,0 +1,13 @@
+<div class="list_producers">
+   <form action="#" method="get">
+      <select name="producer[filter]" onchange="window.location=this.options[this.selectedIndex].value">
+      {foreach key=current item=producer from=$producers}
+         {if $current == $selected}
+         <option selected="selected" value="{$producer.url}">{$producer.label}</option>
+         {else}
+         <option value="{$producer.url}">{$producer.label}</option>
+         {/if}
+      {/foreach}
+      </select>
+   </form>
+</div>

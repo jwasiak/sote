@@ -1,0 +1,16 @@
+{set layout="one_column"}
+<div id="payment">
+    <div class="panel panel-default center-block">
+        <div class="panel-body text-center">
+            <p>
+                <img src="/plugins/stPayNowPlugin/images/logo.png" alt="" style="max-width: 150px"  />
+            </p>
+            {if $status == 'REJECTED'}
+                <p>{__ text="Płatność anulowana" catalogue="stPayment"}</p>
+            {else}
+                <p>{__ text="Dziękujemy za dokonanie płatności." catalogue="stPayment"}</p>
+            {/if}
+            <a href="{$homepage_url}" class="btn btn-primary">{__ text="Wróć do zakupów" catalogue="stBasket"}</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                BasicPriceUnitMeasure
+        theme:                      simple
+        head:
+            package:                stBasicPricePlugin
+        list:
+            description:            Jednostki miary ceny zasadniczej.
+            title:                  Jednostki miary ceny zasadniczej
+            display:                [unit_name, unit_symbol, unit_group]
+            fields:
+              is_system:            {name: Systemowa}
+              is_default:           {name: Domyślna}
+              unit_name:            {name: Nazwa}
+              multiplier:           {name: Mnożnik}
+              unit_symbol:          {name: Symbol}
+              unit_group:           {name: Grupa}
+            actions:
+                _create:            {name: Dodaj, i18n: stBasicPriceBackend}
+            object_actions:
+                _edit:              -
+                _delete:            -
+        edit:
+            title:                  Edycja jednostki.
+            display:                [is_default, unit_name, multiplier, unit_symbol, unit_group]
+            fields:
+              is_default:           {name: Domyślna}
+              unit_name:            {name: Nazwa}
+              multiplier:           {name: Mnożnik}
+              unit_symbol:          {name: Symbol}
+              unit_group:           {name: Grupa}
+              
+            actions:
+                _list:                  {name: Jednostki, i18n: stBasicPriceBackend}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj kolejny}
+                _delete:                {name: Usuń}

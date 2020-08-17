@@ -1,0 +1,1 @@
+<?php st_include_component('stPayment', 'paymentsInOrder', array('order' => $order)); ?>

@@ -1,0 +1,27 @@
+<a href="{$url}" data-toggle="modal" data-target="#webpage-modal-{$id}-2" rel="nofollow">{$label}</a>
+
+<div class="modal fade" id="webpage-modal-{$id}-2" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">  
+    </div>
+  </div>
+</div>
+
+<script>
+{literal}
+jQuery(function($) {
+	$('[data-toggle="modal"]').contextmenu(function(e) {
+		$(this).click();
+		e.stopImmediatePropagation();
+		return false;
+	});
+	$('[data-toggle="modal"]').mousedown(function(e) {
+		if (e.which == 2) {
+			$(this).click();
+			e.stopImmediatePropagation();
+			return false;
+		}
+	});
+});
+{/literal}
+</script>

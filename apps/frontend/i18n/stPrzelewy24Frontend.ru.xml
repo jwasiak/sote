@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2010-11-04T02:51:38Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Оплата</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Kliknij przycisk</source>
+				<target>Щелкните кнопку</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>"Zapłać"</source>
+				<target>"Заплатить"</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>aby przejść do serwisu Przelewy24.</source>
+				<target>чтобы войти в сервис Przelewy24. </target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Zapłać</source>
+				<target>Заплатить</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Благодарим за выполнение оплаты.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>Выбраны неверные параметры оплаты.</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>Платеж не выполнен.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,16 @@
+SlideBanner: 
+  SlideBanner_1:
+    language_id: Language_2
+    image: /picture/en_US/b_61.png
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_2:
+    language_id: Language_2
+    image: /picture/en_US/b_62.png
+    is_active: 1
+    opt_culture: en_US
+  SlideBanner_3:
+    language_id: Language_2
+    image: /picture/en_US/b_63.png
+    is_active: 1
+    opt_culture: en_US

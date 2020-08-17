@@ -1,0 +1,1 @@
+<?php echo st_colorpicker_input_tag('config[bg_footer_color]', $config->get('bg_footer_color')) ?>

@@ -1,0 +1,9 @@
+propel:
+    st_basket_product:
+        _attributes:    {phpName: BasketProduct}
+        options: 
+          type: VARCHAR
+          size: 255
+        new_options: 
+          type: LONGVARCHAR
+          phpType: array

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stCountriesPlugin.lib.model" noXsd="true">
+
+  <table name="st_countries" phpName="Countries" isI18N="true" i18nTable="st_countries_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="iso_a2" type="CHAR" size="2" />
+    <column name="iso_a3" type="CHAR" size="3" />
+    <column name="continent" type="LONGVARCHAR" />
+    <column name="number" type="VARCHAR" size="3" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="is_active" type="BOOLEAN" default="0" />
+    <column name="is_default" type="BOOLEAN" default="0" />
+  </table>
+
+  <table name="st_countries_area" phpName="CountriesArea">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="is_active" type="BOOLEAN" default="0" />
+  </table>
+
+  <table name="st_countries_area_has_countries" phpName="CountriesAreaHasCountries">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="countries_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_countries" onDelete="cascade">
+      <reference local="countries_id" foreign="id" />
+    </foreign-key>
+    <column name="countries_area_id" type="INTEGER" required="true" />
+    <foreign-key foreignTable="st_countries_area" onDelete="cascade">
+      <reference local="countries_area_id" foreign="id" />
+    </foreign-key>
+  </table>
+
+  <table name="st_countries_i18n" phpName="CountriesI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_countries" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+  </table>
+
+</database>

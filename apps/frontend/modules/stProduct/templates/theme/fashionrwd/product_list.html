@@ -1,0 +1,64 @@
+<div id="product-navbar" class="clearfix">
+    <div class="pull-right">
+        <button id="btn-product-filter" type="button" class="btn btn-default btn-group hidden-md hidden-lg" data-toggle="modal" data-target="#product-filter-modal">
+           <span class="glyphicon glyphicon-filter"></span>
+        </button>                    
+        {$sort}
+        {if $show_types}{$list_type}{/if}   
+    </div> 
+    <div class="pull-right hidden-sm hidden-xs">
+        {strip}
+        <div id="producer-filter" class="btn-group hidden">
+            {st_get_component module="stProduct" component="producerFilter"}
+        </div>
+        {/strip}
+    </div>
+    <h1>{$title}</h1>
+</div>
+
+{st_get_component module="stNavigationFrontend" component="breadcrumbs"}
+
+{slot name="product-list-after-title" hidden="true"}{/slot}
+
+{if $description}
+    <div id="category_info">
+        <div class="row">
+            <div class="image text-center hiden-xs col-sm-3 col-md-3 col-lg-3">{$image}</div>
+            <div class="description tinymce_html col-xs-12 col-sm-9 col-md-9 col-lg-9">{$description}</div>
+         </div>
+    </div>
+{/if}
+{if $category}
+    <div class="category-list clearfix" data-equalizer>
+        {st_get_component module="stCategoryTree" component="horizontalChildren" category=$category limit=5}     
+    </div>
+{/if}
+<div class="product-list" data-equalizer>
+    {if $show_no_products_notice}
+        <div class="panel panel-default" style="margin-top: 20px;">
+            <div class="panel-body form-horizontal">         
+                {__ text="Brak produktów dla wybranych kryteriów"}
+            </div>
+        </div>
+    {else}
+        {slot name="before_product_list" hidden="true"}{/slot}
+        {$product_list}
+        {$pager}
+        {slot name="after_product_list" hidden="true"}{/slot}
+    {/if}
+</div>
+
+{if $category}
+{literal}
+<script type="text/javascript">  
+//<![CDATA[
+jQuery(function($) {
+    $(document).ready(function() {
+        var href = '{/literal}{$category_url}{literal}';
+        $('.horizontal-categories').trigger('highlight', href);
+    });
+});
+//]]>
+</script>
+{/literal}
+{/if}

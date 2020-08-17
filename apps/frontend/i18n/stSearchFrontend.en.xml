@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Producent</source>
+				<target>Manufacturer</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Proszę podać prawidłowe kryteria wyszukiwania, minimalna ilość znaków %min_len%.</source>
+				<target>Please enter correct search criteria (at least %min_len% characters long).</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>szukaj</source>
+				<target>search</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukanie standardowe</source>
+				<target>Standard search</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Szukanie zaawansowane</source>
+				<target>Advanced search</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Cena od</source>
+				<target>Price from</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>do</source>
+				<target>to</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>brutto</source>
+				<target>Gross price</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>netto</source>
+				<target>Net price</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Niestety żaden produkt nie spełnia kryteriów wyszukiwania które wpisałeś. Spróbuj użyć innego słowa lub wyszukaj produkt według kategorii.</source>
+				<target>Unfortunately, there are no products matching your criteria. Try using a different word or look up the product by category.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyszukiwanie</source>
+				<target>Search</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dowolny</source>
+				<target>Any</target>
+			</trans-unit>
+			<trans-unit id="13">
+                <source>Szukaj</source>
+                <target>Search</target>
+            </trans-unit>
+			<trans-unit id="14">
+                <source>Dokładne szukanie</source>
+                <target>Full search</target>
+            </trans-unit>
+			<trans-unit id="15">
+                <source>Dopasuj wszystkie wyrazy</source>
+                <target>Match all words</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Filtruj po producentach</source>
+                <target>Filter by producers</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Wszyscy producenci</source>
+                <target>All producers</target>
+            </trans-unit>
+			<trans-unit id="18">
+				<source>Sortuj po</source>
+				<target>Sort by</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Trafności</source>
+				<target>Accuracy</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cenie</source>
+				<target>Price</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwie</source>
+				<target>Name</target>
+			</trans-unit>			
+			<trans-unit id="22">
+				<source>Nazwa produktu</source>
+				<target>Product name</target>
+			</trans-unit>			
+			<trans-unit id="23">
+				<source>Kategorie</source>
+				<target>Categories</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Wybierz producenta</source>
+				<target>All manufacturers</target>
+			</trans-unit>		
+			<trans-unit id="25">
+				<source>Przytrzymaj Ctrl aby zaznaczyć wiele kategorii.</source>
+				<target>Hold down Ctrl to select multiple categories.</target>
+			</trans-unit>		
+            <trans-unit id="26">
+                <source>Szukaj w opisach</source>
+                <target>Search in the descriptions</target>
+            </trans-unit>
+			<trans-unit id="27">
+				<source>Najnowszym</source>
+				<target>Newest</target>
+			</trans-unit>			
+			<trans-unit id="28">
+				<source>Więcej</source>
+				<target>More</target>
+			</trans-unit>			
+			<trans-unit id="29">
+				<source>Szukaj</source>
+				<target>Search</target>
+			</trans-unit>			
+			<trans-unit id="30">
+				<source>Więcej wyników</source>
+				<target>More results</target>
+			</trans-unit>			
+             <trans-unit id="31">
+                <source>tylko za punkty</source>
+                <target>only for points</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>dodaj do koszyka</source>
+                <target>add to shopping cart</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Brak wystarczającej ilości punktów.</source>
+                <target>Not enough points.</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Zaloguj się aby kupić produkt.</source>
+                <target>Please sign in to buy the product.</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Nie osiągnięto progu punktów.</source>
+                <target>Not reached the threshold points.</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Do osiągnięcia progu brakuje</source>
+                <target>To achieve the threshold of missing</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Wyszukaj</source>
+                <target>Search</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,12 @@
+package:
+  name: stFixturesArgentorwd
+  stability: stable
+  version: 7.0.0.5
+  summary: 'Dane argentorwd'
+  description: 'Dane argentorwd'
+  notes: Aktualizacja grup produktow
+  maintainers:
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

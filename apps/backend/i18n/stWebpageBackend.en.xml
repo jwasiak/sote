@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Podaj tytuł strony</source>
+                <target>Enter a website title</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zarządzaj stronami www w grupie</source>
+                <target>Manage the websites within this group</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Przejdź do strony</source>
+                <target>Go to the website</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Zarządzaj stronami www sklepu</source>
+                <target>Manage your websites</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Nagłówek</source>
+                <target>Header</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Stopka</source>
+                <target>Footer</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Tytuł strony</source>
+                <target>Website title</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Treść strony</source>
+                <target>Website content</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Utwórz nową stronę</source>
+                <target>Add a new website</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Brak stron www</source>
+                <target>No websites</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Dołącz do grupy linków</source>
+                <target>Add to the links group</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Edycja strony %%name%%</source>
+                <target>Edit the website %%name%%</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Aktywna</source>
+                <target>Active</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Wprowadź nazwę dla przyjaznego linku</source>
+                <target>Enter a name of the friendly link</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Dołącz stronę do grupy linków</source>
+                <target>Add this website to the links group</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Tytuł grupy linków</source>
+                <target>Links group title</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Zarządzaj linkami</source>
+                <target>Manage the links</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Utwórz nową grupę linków</source>
+                <target>Add a new links group</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Brak grup linków stron www</source>
+                <target>No links groups</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Edycja grupy linków stron www %%name%%</source>
+                <target>Edit the links group %%name%%</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Zarządzaj grupami linków stron www</source>
+                <target>Manage the links groups</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Typ</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Zobacz strony w grupie</source>
+                <target>Check the websites in the group</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Brak</source>
+                <target>None</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Linki</source>
+                <target>Links</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Podaj tytuł grupy linków</source>
+                <target>Enter a links group title</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Zarządzaj stronami www sklepu.</source>
+                <target>Manage your websites.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Dodaj meta tagi do strony www.</source>
+                <target>Add the meta tags to the website</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Strony WWW</source>
+                <target>Websites</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Strony www</source>
+                <target>Websites</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Opis strony</source>
+                <target>Site description</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Przyjazny link</source>
+                <target>Friendly link</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Link do strony</source>
+                <target>Website link</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Przypisany</source>
+                <target>Assigned</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Informacje</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Pomoc</source>
+                <target>Help</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Jak kupować?</source>
+                <target>How to buy?</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Pokaż grupę w stopce</source>
+                <target>Show this group in the footer</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Pokaż grupę w nagłówku</source>
+                <target>Show this group in the header</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Polityka prywatności</source>
+                <target>Privacy policy</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Regulamin</source>
+                <target>Terms</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Informacje o wysyłce</source>
+                <target>Shipping information</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Tytuł linku</source>
+                <target>Link title</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Grupy linków</source>
+                <target>Link groups</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Linki</source>
+                <target>Links</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Adres url</source>
+                <target>Url adress</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Link odsyła do nowej strony</source>
+                <target>Link refers to a new page</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Podaj tytuł linku</source>
+                <target>Enter a link title</target>
+            </trans-unit> 
+            <trans-unit id="57">
+                <source>Podaj adres url z http:// lub https://</source>
+                <target>Enter the url with http:// or https://</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>Domenę należy wprowadzić razem z http:// lub https:// np. http://www.sote.pl</source>
+                <target>Enter domain with http:// or https:// eg http://www.soteshop.com</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Edycja linku</source>
+                <target>Edit link</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Lista linków</source>
+                <target>Links list</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Brak linków</source>
+                <target>No links</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Prawo do odstąpienia od umowy</source>
+                <target>Right to cancel</target>
+            </trans-unit> 
+            <trans-unit id="63">
+                <source>Kontakt</source>
+                <target>Contact</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Załącznik e-mail</source>
+                <target>e-mail attachment</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>Pokaż załącznik</source>
+                <target>Show attachment</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Typ strony</source>
+                <target>Page type</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Załączony plik musi być w formacie PDF</source>
+                <target>The attached file must be in PDF format</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Generuj automatycznie</source>
+                <target>Generate automatically</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Załącz plik</source>
+                <target>Attach file</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Brak rekordów</source>
+                <target>No results</target>
+            </trans-unit>
+              <trans-unit id="71">
+                <source>Adres strony sklepu</source>
+                <target>URL store</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Sprzedawca</source>
+                <target>Seller</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Nazwa firmy</source>
+                <target>Company name</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Adres firmy</source>
+                <target>Company address</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Numer telefonu</source>
+                <target>Phone number</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>E-mail sklepu</source>
+                <target>E-mail shop</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Nazwa banku</source>
+                <target>Bank name</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Numer rachunku bankowego</source>
+                <target>A bank account number</target>
+            </trans-unit>
+           <trans-unit id="79">
+                <source>Nazwa dostawy 1</source>
+                <target>Delivery 1</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Informacje o cenach dostawy 1</source>
+                <target>Delivery 1 price</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Nazwa dostawy 2</source>
+                <target>Delivery 2</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>Informacje o cenach dostawy 2</source>
+                <target>Delivery 2 price</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>Dostawa darmowa od</source>
+                <target>Delivery free of</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>Załaduj szablon regulaminu</source>
+                <target>Load templates regulations</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>Szablon regulaminu został opracowany zgodnie z aktualnym prawem. Obejmuje m.in. wymagania jakie weszły w życie po 25 grudnia 2014 r, nie zawiera klauzul niedozwolonych. Szablon regulaminu ma charakter ogólny, firma SOTE nie ponosi odpowiedzialności za jego użytkowanie.</source>
+                <target>Regulations template has been developed in accordance with current law. It includes requirements, which came into force on 25 December 2014, does not contain illegal clauses. Rules template is generic, the company SOTE not responsible for its from the use.</target>
+            </trans-unit>            
+            <trans-unit id="86">
+                <source>Jan Kowalski prowadzący działalność na podstawie jed- noosobowej działalności gospodarczej, pod firmą Examplex Jan Kowalski adres siedziby: 00-555 Poznań, ul. Polna 1, wpisany pod numerem NIP: 555-00-55-00, Regon: 00005555000.</source>
+                <target>John Smith established on the basis of one-person business, under the name John Doe Examplex office address: 00-555 Poznan, ul. Ganga 1, registered under VAT number: 555-00-55-00, Regon: 00005555000.</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>Pełny adres np. Poznańska 2, 61-253 Poznań</source>
+                <target>Full address for example. Poznań 2, 61-253 Poznan</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>Przesyłka pocztowa</source>
+                <target>Postal item</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>15zł przedpłata, 20zł pobranie.</source>
+                <target>15 zł prepayment</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>Przesyłka kurierska</source>
+                <target>Postal item</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>25zł przedpłata, 30zł pobranie.</source>
+                <target>25 zł prepayment,</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>Usuń</source>
+                <target>Remove</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>Załaduj szablon polityki prywatności</source>
+                <target>Load template privacy policy</target>
+            </trans-unit>
+            <trans-unit id="94">
+                <source>Szablon "Polityki prywatności" jest integralną częścią wzoru regulaminu (ładowanego szablonu). SOTE nie ponosi odpowiedzialności za jego użytkowanie.</source>
+                <target>Template privacy policy has been developed in accordance with current law. It includes requirements, which came into force on 25 December 2014, does not contain illegal clauses. Rules template is generic, the company SOTE not responsible for its use.</target>
+            </trans-unit>  
+            <trans-unit id="95">
+                <source>Załaduj szablon odstąpienia od umowy</source>
+                <target>Load template right to cancel</target>
+            </trans-unit>
+            <trans-unit id="96">
+                <source>Szablon "Odstąpienia od umowy" jest integralną częścią wzoru regulaminu. SOTE nie ponosi odpowiedzialności za jego użytkowanie.</source>
+                <target>Template right to cancel has been developed in accordance with current law. It includes requirements, which came into force on 25 December 2014, does not contain illegal clauses. Rules template is generic, the company SOTE not responsible for its use.</target>
+            </trans-unit> 
+            <trans-unit id="97">
+                <source>Odstąpienie od umowy</source>
+                <target>Right to cancel</target>
+            </trans-unit>
+            <trans-unit id="98">
+                <source>Potwierdź pobranie szablonu regulaminu. Szablon zastąpi aktualny tekst po zapisie zmian.</source>
+                <target>Confirm Download a template regulations. The template will replace the current text after saving changes.</target>
+            </trans-unit>
+            <trans-unit id="99">
+                <source>Podaj adres url</source>
+                <target>Enter url address</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

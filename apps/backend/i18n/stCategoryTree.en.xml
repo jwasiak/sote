@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Dodaj</source>
+                <target>Add</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Edytuj</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Usuń</source>
+                <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Usuń drzewo</source>
+                <target>Delete the tree</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Usunąć drzewo?</source>
+                <target>Delete the category tree?</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Zamierzasz usunąć całe drzewo kategorii. Jesteś pewien że chcesz kontynuować?</source>
+                <target>You are about to delete the entire category tree. Are you sure you want to continue?</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Tak</source>
+                <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Nie</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Anuluj</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Dodawanie kategorii, prosze czekać...</source>
+                <target>Adding a category, please wait...</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Operacja w toku...</source>
+                <target>Operation in progress...</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Edytuj</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Wybierz kategorię z drzewa do której chcesz dodać nową podkategorię i ponownie wciśnij ten przycisk</source>
+                <target>Select a category from the category tree, to which you want to add a new subcategory and then press this button</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Wybierz kategorię z drzewa, którą chcesz edytować a następnie wciśnij ten przycisk.</source>
+                <target>Select a category from the category tree that you want to edit and then press this button.</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Wybierz kategorię z drzewa którą chcesz usunać a następnie wciśnij ten przycisk.</source>
+                <target>Select a category from the category tree that you want to delete and then press this button.</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Usunąć kategorię?</source>
+                <target>Delete the category?</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Zamierzasz usunąć kategorię z drzewa. Jesteś pewien że chcesz kontynuować?</source>
+                <target>You are about to delete the category from the category tree. Are you sure you want to continue?</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Usuwanie kategorii, prosze czekać...</source>
+                <target>Deleting a category, please wait...</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Usuwa całe drzewo kategorii</source>
+                <target>Deletes the entire category tree</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Usuń drzewo</source>
+                <target>Delete the tree</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Usuwanie drzewa kategorii, prosze czekać...</source>
+                <target>Deleting the category tree, please wait...</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Kliknij dwukrotnie aby zmienić nazwę drzewa kategorii</source>
+                <target>Double click to change the name of the category tree</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Przenoszenie kategorii, prosze czekać...</source>
+                <target>Moving a category, please wait...</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Kliknij dwukrotnie aby zmienić nazwę kategorii. Kliknij i przytrzymaj aby przeciągnać i zmienić jej położenie</source>
+                <target>Double click to change the category name. Click, hold and drag to change its position</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Dodaj kategorię</source>
+                <target>Add a category</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Nazwa kategorii:</source>
+                <target>Category name:</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Musisz podać nazwę kategori</source>
+                <target>Enter a category name</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Zaznacz aby dodać produkt do kategorii</source>
+                <target>Check here to add a product to a category</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Zaznacz aby ustawić główną kategorię dla produktu</source>
+                <target>Select to set the main category for the product</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Przenoszenie drzewa kategorii...</source>
+                <target>Moving a category tree...</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Kliknij dwukrotnie aby zmienić nazwę kategorii. Kliknij, przytrzymaj i przeciągnij aby zmienić jej położenie</source>
+                <target>Double click to change the category name. Click, hold and drag to change its position</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Przenieś drzewo do góry</source>
+                <target>Move the category tree up</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Przenieś drzewo w dół</source>
+                <target>Move the category tree down</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Musisz podać nazwę kategorii</source>
+                <target>Enter a category name</target>
+            </trans-unit>            
+        </body>
+    </file>
+</xliff>

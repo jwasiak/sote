@@ -1,0 +1,25 @@
+Review: 
+  Review_1: 
+    product_id: Product_1
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+  Review_2: 
+    product_id: Product_2
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL
+  Review_3: 
+    product_id: Product_3
+    active: 1
+    score: 5
+    admin_active: 1
+    agreement: 1
+    username: Soteshop
+    language: pl_PL

@@ -1,0 +1,14 @@
+---
+package: 
+  name: stNiftyPlugin
+  stability: stable
+  version: 7.2.0.0
+  summary: Nifty
+  description: Nifty
+  notes: |
+    - Aktualizacja modulu.
+  maintainers: 
+    Marcin Butlak: 
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

@@ -1,0 +1,112 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                TrustedShops
+        theme:                      simple
+        applications:               []
+
+        head:
+            package:                stTrustedShopsPlugin
+
+        rating_model_class:         TrustedShops
+        
+        protection_payments:        TrustedShops
+
+        custom_actions:
+            edit:                   [rating, protection_payments]
+
+        list:
+            fields:
+                certificate:        {name: Certyfikat}
+                list_type:          {name: Typ, hide_on_create: true}
+                list_url:           {name: URL}
+                list_language:      {name: Język}
+                list_status:        {name: Status}
+            title:                  Zarządzanie certyfikatami Trusted Shops
+            description:            Integracja z serwisem Trusted Shops.
+            display:                [certificate, _list_type, _list_url, _list_language, _list_status]
+            object_actions:
+                _edit:              -
+                _delete:            -
+            actions:
+                _create:            {name: Dodaj nowy certyfikat, i18n: stTrustedShopsBackend}
+            menu:
+                display:            [information, list, config]
+                fields:
+                    information:    {name: Informacje ogólne, action: stTrustedShopsBackend/information}
+                    list:           {name: Lista certyfikatów, action: stTrustedShopsBackend/list}
+                    config:         {name: Konfiguracja, action: stTrustedShopsBackend/config}
+        edit:
+            fields:
+                certificate:        {name: Certyfikat}
+                shop:               {name: Sklep, hide_on_create: true}
+                username:           {name: Nazwa użytkownika, hide_on_create: true, params: size=25}
+                password:           {name: Hasło, hide_on_create: true, params: size=25}
+                payments:           {name: Metody płatności, hide_on_create: true}
+                trustbadge_code:    {name: Kod Trustbadge, params: size=80x10, hide_on_create: true}                                
+            title:                  Edycja certyfikatu
+            description:            Integracja z serwisem Trusted Shops.
+            menu:
+                display:            [rating]
+                fields:
+                    _edit:          {name: Ochrona kupującego}
+                    rating:         {name: Opinia klienta, action: stTrustedShopsBackend/ratingEdit?id=%%id%%}
+            display:                
+                " ":                [_shop, _certificate]
+                "Ochrona kupujących": [_username, _password]
+                "Przypisanie metod płatności": [_payments]
+                "Trustbadge": [_trustbadge_code]
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _delete:            {name: Usuń}
+
+        protection_payments_edit:
+            menu:                   {use: edit.menu}
+            forward_parameters:     [id]
+            build_options:
+                related_id:         forward_parameters.id
+            title:                  Edycja certyfikatu
+            description:            Integracja z serwisem Trusted Shops.
+            fields:
+                payment_methods:    
+                    name: Metody płatności
+                    help: |
+                        Opcja służy do przypisania metod płatności sklepu z metodami płatności z systemu Trusted Shops.
+            display:                
+                "Przypisanie metod płatności": [~payment_methods]
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _delete:            {name: Usuń}
+
+        rating_edit:
+            menu:                   {use: edit.menu}
+            forward_parameters:     [id]
+            build_options:
+                related_id:         forward_parameters.id
+            title:                  Edycja certyfikatu
+            description:            Integracja z serwisem Trusted Shops.
+            fields:
+                certificate_rating: {name: Certyfikat}
+                status:             {name: Status}
+                rating_widget:      {name: Pokaż widget}
+                widget_preview:     {name: Podgląd}
+                rating_in_order_mail: {name: Pokaż link opinii w mailu z potwierdzeniem zamówienia}
+            display:                
+                " ":                [_certificate_rating, _status]
+                "Widget":           [rating_widget, _widget_preview]
+            actions:
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _delete:            {name: Usuń}
+        config:
+            title:                  Konfiguracja
+            description:            Integracja z serwisem Trusted Shops.
+            display:
+                " ":                [test]
+            fields:
+                test:               {name: Włącz tryb testowy, type: checkbox}
+            actions:
+                _save:              {name: Zapisz}
+            menu:                   {use: list.menu}

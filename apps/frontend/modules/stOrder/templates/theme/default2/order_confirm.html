@@ -1,0 +1,436 @@
+{set layout="one_column_layout"}
+<div id="order_confirm" class="box roundies">
+    <div class="title">
+        <h2>{__ text="Potwierdzenie zamówienia"}</h2>
+        <p>{__ text="Zweryfikuj informacje zawarte w zamówieniu."}</p>
+    </div>
+
+    <div class="st_content">
+   	    {$form_start}
+            <fieldset>
+                {if $additional_confirm_text != ""}
+                <div class="st_order_confirm_additional_text">
+                    {$additional_confirm_text}
+                </div>
+                {/if}  
+                {if $create_account_value==1}
+            	  <div id="create_user">
+            		    {__ text="Konto użytkownika"}: <b>{$user_data_billing_email}</b>
+            		    {$newsletter_form}
+            	  </div>
+                {/if}
+                <div class="st_order-order_sumary-box" style="margin-top: 30px;">
+                    <div class="left data_frame roundies box_form">
+                        <h3>
+                            {__ text="Dane płatnika"}
+                        </h3>
+                        <div id="change_delivery" class="right"  onclick="var form = jQuery('#send_form'); form.attr('action', '{$order_correction}'); form.get(0).submit();">{__ text="Zmień"}</div>
+                        <div class="data_content user_date" style="padding:15px;">
+                			    	{if $user_data_billing_invoice==1}	
+                						<span class="invoice_text">{__ text="Dane do faktury"}</span>
+                						<br/>
+                            {/if}
+
+                  					{if $user_data_billing_company!=""}
+                  						  {$user_data_billing_company}
+                  						  <br/>
+                  						  {$user_data_billing_vat_number}
+                  						  <br/>
+                  					{/if}
+
+                  					<div class="full_name_space">
+                  						  <b>{$user_data_billing_full_name}</b>
+                  					</div>
+
+					                  {$user_data_billing_address}
+                            <br/>
+
+                  					{if $user_data_billing_address_more!=""}
+                  						  {$user_data_billing_address_more}
+                  						  <br/>
+                  					{/if}
+
+                  					{if $user_data_billing_region!=""}
+                    						{$user_data_billing_region}
+                  	   					<br/>
+                  					{/if}
+					  
+                  					{$user_data_billing_code}
+                  					
+                  					{$user_data_billing_town}
+                  					<br/>
+                  					
+                  					{$user_data_billing_country}
+                  					<br/>
+                  					
+                  					{$user_data_billing_phone}
+                  					<br/>                  
+                        </div>
+                    </div>
+                    <div class="right data_frame roundies box_form">
+                        <h3>
+                            {__ text="Dane wysyłkowe"}
+                        </h3>
+                        <div id="change_delivery" class="right"  onclick="var form = jQuery('#send_form'); form.attr('action', '{$order_correction}'); form.get(0).submit();">{__ text="Zmień"}</div>	
+               	        <div class="data_content user_date" style="padding:15px;">
+                  					{if $user_data_delivery_company!=""}
+                  						  {$user_data_delivery_company}
+                  						  <br/>
+                  					{/if}
+                  					<div class="full_name_space">            
+                  						  <b>{$user_data_delivery_full_name}</b>
+                  					</div>
+                  					{$user_data_delivery_address}
+                  					<br/>
+                  					{if $user_data_delivery_address_more!=""}
+                    						{$user_data_delivery_address_more}
+                    						<br/>
+                  					{/if}
+					
+                  					{if $user_data_delivery_region!=""}
+                  						  {$user_data_delivery_region}
+                  						  <br/>
+                  					{/if}
+                  					{$user_data_delivery_code}
+                  					{$user_data_delivery_town}
+                  					<br/>
+                  					{$user_data_delivery_country}
+                  					<br/>
+                  					{$user_data_delivery_phone}
+                  					<br/>                  
+			                  </div>
+                    </div>
+                    <div class="clear" /></div>   
+                </div>       
+                <div class="st_order-order_sumary-box" style="padding-bottom:0px;">              
+                    <div class="left frame roundies info box_form">
+                        <h3>
+                            {__ text="Informacje"}
+                        </h3>
+                        <div class="data_content">
+                            {__ text="Płatność"}: <b>{$payment_name}</b>
+                            {if $payment_description}
+                                <div class="info_frame">
+                                    <i>{$payment_description}</i>
+                                </div>
+                            {/if}
+                            <br/>
+                            {__ text="Dostawa"}: <b>{$delivery_name}</b><br/>
+                            {if $delivery_description} 
+                                <div class="info_frame">
+                                    <i>{$delivery_description}</i>
+                                </div>
+                            {/if}
+                            {if $delivery_date_value != " "}
+                                {__ text="Termin dostawy"}: <b>{$delivery_date_value}</b><br/>
+                            {/if}
+                        </div>
+                    </div>
+                    {if $description!=""}
+                    <div class="right info box_form roundies">  
+                        <div class="frame">
+                            <h3>
+                                {__ text="Uwagi do zamówienia"}
+                            </h3>
+                            <div class="data_content">
+                                {$description}
+                            </div>
+                        </div>
+                    </div>
+                    {/if}
+                    <div class="clear" /></div>
+                </div>
+                <div class="st_order-order_sumary-box">
+                    <table cellspacing="0" class="st_tabular-list roundies" id="st_record_list-order" width="100%">
+                        <colgroup>
+	        	                {if $show_photo_in_basket}<col width="60" />{/if}
+	                          {if $show_code_in_basket}<col width="60" />{/if}
+                            <col />
+	                          {if $show_netto_in_basket}<col width="80" />{/if}
+	                          {if $show_tax_in_basket}<col width="50" />{/if}   
+	                          <col width="80" />
+	                          <col width="80" />
+              	            {if $points_system_is_active }   
+              	            <col width="50" />
+              	            {/if}
+	                          {if $show_uom_in_basket}<col width="50" />{/if}
+	                          <col width="80" />
+	                      </colgroup>
+                        <thead>
+                            <tr>
+              	            {if $show_photo_in_basket}<th class="st_basket-product-photo roundies_lt"><span>{__ text="zdjęcie"}</span></th>{/if}
+              				      {if $show_code_in_basket}<th class="st_basket-product-code"><span>{__ text="kod"}</span></th>{/if}
+              	            <th class="st_basket-product-name"><span>{__ text="nazwa"}</span></th>
+                            {if $show_netto_in_basket}<th class="st_basket-product-netto"><span>{__ text="netto"}</span></th>{/if}
+                            {if $show_tax_in_basket}<th class="st_basket-product-tax"><span>{__ text="vat"}</span></th>{/if}
+              	             	             
+                            <th class="st_basket-product-brutto"><span>{__ text="brutto"}</span></th>
+
+                            {if $points_system_is_active }   
+                                   <th class="st_basket-product-brutto" nowrap>{$points_shortcut}</th>
+                            {/if}
+              	             
+                            <th class="st_basket-product-num"><span>{__ text="ilość"}</span></th>
+                            {if $show_uom_in_basket}<th class="st_basket-product-uom"><span>{__ text="j.m."}</span></th>{/if}
+                            <th class="st_basket-product-sum"><span>{__ text="suma}</span></th>
+                            </tr>
+                        </thead>                
+                        <tbody>
+                            {foreach key=row item=product from=$results}
+                            {if ($product.errors)}
+                            <tr>
+                                {foreach item=error from=$product.errors}
+                                <td colspan="10" style="color: red; text-align: center">{$error}</td>
+                                {/foreach}
+                            </tr>
+                            {/if}
+                            <tr>
+                             	  {if $show_photo_in_basket}<td class="st_basket-product-photo">{$product.photo}</td>{/if}
+                                {if $show_code_in_basket}<td class="st_basket-product-code">{$product.code}</td>{/if}
+                                <td class="st_basket-product-name">
+                                   {if isset($product_name)}
+                                   {$product.product_name}
+                                   {else}
+                                   {if isset($product.validate)}
+                                   {$product.name_show}
+                                   {else}
+                                   {$product.name}
+                                   {/if}
+                                   {/if}
+                                </td>
+                  
+                                {if $show_netto_in_basket}<td class="st_basket-product-netto" nowrap>{if $product.is_item_by_points} - {else}{$product.price}{/if}</td>{/if}
+                                {if $show_tax_in_basket}<td class="st_basket-product-tax">{if $product.is_item_by_points} - {else} {$product.vat} % {/if}</td>{/if}
+                                <td class="st_basket-product-brutto" nowrap>{if $product.is_item_by_points} - {else} {$product.price_brutto} {/if}</td>
+                                
+                                {if $points_system_is_active}   
+                                <td class="st_basket-product-brutto" nowrap>{if $product.is_item_by_points} {$product.points_value} {else} - {/if}</td>
+                                {/if}
+                                
+                                <td class="st_basket-product-num" {if $product.errors.quantity}style="border: 1px solid red"{/if}>{$product.quantity}</td>
+                                {if $show_uom_in_basket}<td class="st_basket-product-uom">{$product.uom}</td>{/if}
+                                <td class="st_basket-product-sum" nowrap>{if $product.is_item_by_points} {$product.points_sum_value} {$points_shortcut} {else} {$product.total_amount} {/if}</td>
+                            </tr>
+                            {/foreach}     
+                            <tr>
+                                <td colspan="10">
+                                    <div style="margin:5px;">
+                                         {if !$is_basket_only_for_points }
+                                              <span style="float:right;">{__ text="Wartość koszyka"}: {$total_product_price}</span><br/>
+                                         {/if}
+                                         
+                                         {if $points_value != 0}
+                                              <span style="float:right;">{__ text="Koszt"} {$points_shortcut}: {$points_value} {$points_shortcut}</span><br/>
+                                         {/if}
+                                         
+                                         {if !$is_order_only_for_points }
+                                         <span style="float:right;">{__ text="Koszt dostawy"}: {$order_cost}</span><br/>
+                                         {/if}
+                                         
+                                         {if $delivery_courier_cost} 
+                                         <span style="float:right;">({__ text="dodatkowa opłata"}: {$delivery_courier_cost})</span><br/>
+                                         {/if}
+                                         
+                                         {if $discount}
+                                         <span style="float:right;">{__ text="Rabat"} ({$discount_name}): -{$discount}</span><br/>
+                                         {/if}
+                                         {if $paid} 
+                                         <span style="float:right;">{__ text="Zapłacono"}: -{$paid}</span><br />
+                                         {/if}
+                                         <span style="font-size: 16px;font-weight: bold; float:right; line-height: 160%;">{__ text="Razem do zapłaty"}: {$final_total_amount}</span><br/>
+                                         {$additional_costs_socket}
+                                     </div>
+                                 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="clear" /></div>
+                </div>
+                {foreach key=row item=name from=$user_data_billing_hidden}
+                {$name.billing_name}
+                {/foreach}
+                {foreach key=row item=name from=$user_data_delivery_hidden}
+                {$name.delivery_name}
+                {/foreach}
+                {$delivery_date}
+                {$delivery_time}
+                {$hidden_description}
+                {if $terms_digital == 1 || $terms_right_2_cancel == 1 || $terms_service == 1}
+                <table id="table_confirm_terms" cellpadding="0" cellspacing="0">
+                    {if $terms_digital == 1}
+                    <tr>
+                       <td class="terms-text"><span class="label_terms_digital_confirm">{$terms_digital_text}</span></td>
+                       <td><input name="terms_digital_confirm" id="terms_digital_confirm" type="checkbox" value="1" class="checkobox" ></td>
+                    </tr>
+                    {/if}
+                    {if $terms_service == 1}
+                    <tr>
+                       <td class="terms-text"><span class="label_terms_service_confirm">{$terms_service_text}</span></td>
+                       <td><input name="terms_service_confirm" id="terms_service_confirm" type="checkbox" value="1" class="checkobox" ></td>
+                    </tr>
+                    {/if}
+                    {if $terms_right_2_cancel == 1}
+                    <tr>
+                       <td class="terms-text"><span class="label_terms_confirm">{$terms_right_2_cancel_text}</span></td>
+                       <td><input type="checkbox" name="terms_confirm" id="terms_confirm" value="1" class="checkobox"><div id="terms_overlay"><div class="terms_overlay_content"></div></div><div id="right_2_cancel_overlay"><div class="right_2_cancel_overlay_content"></div></div></td>
+                    </tr>
+                    {/if}
+                </table>
+                {/if}
+                <div class="buttons left" id="st_order-back_button">
+                    <button type="submit" class="regular roundies" id="back_button" onclick="this.form.action = '{$order_correction}'">
+                        <span class="arrow_left icon_left">{__ text="Wróć do koszyka"}</span>
+                    </button>
+                </div>
+                <div class="buttons right" id="st_order-confirm_button">
+                	<button class="regular roundies important" id="confirm_button">
+                		<span style="font-weight: normal;" class="arrow_right">{__ text="Zamówienie z obowiązkiem zapłaty."}</span> <span style="font-size: 16px;" class="arrow_right">{__ text="Zamów"}</span>
+                	</button>
+                </div>
+                <div class="clear" /></div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+{literal}
+<script type="text/javascript" language="javascript">
+    jQuery(function ($) {
+         $(document).ready(function () {
+         
+           $("label").inFieldLabels();	
+         	
+ 	       function equalHeight(group)
+	       {
+	       tallest = 0;
+	       group.each(function() {
+	          $(this).css("height","auto");
+	          thisHeight = $(this).height();
+	          if(thisHeight > tallest) {
+	             tallest = thisHeight;
+	          }
+	        });
+	        group.height(tallest);
+	        }
+
+	        $(window).load(function() {
+	           equalHeight($(".data_frame"));
+	        });
+	        
+	        $(window).load(function() {
+	           equalHeight($(".frame"));
+	        });
+	        
+	        $(window).load(function() {
+	           equalHeight($(".info"));
+	        });
+         	
+         	
+         	$(".delivery_tooltip").tooltip({ 
+               effect: 'slide',
+               opacity: 1,
+               delay: 0,
+               position: 'bottom center',
+               offset: [20,0],
+               tipClass: "my_tooltip tooltip roundies"
+
+            });
+         	
+            $(".payment_tooltip").tooltip({ 
+               effect: 'slide',
+               opacity: 1,
+               delay: 0,
+               position: 'bottom center',
+               offset: [20,0],
+               tipClass: "my_tooltip tooltip roundies"
+
+            });
+             
+             
+            $('#confirm_button').click(function() { 
+            
+                var error_exist = false;
+
+                {/literal}{if $terms_right_2_cancel == 1}{literal}
+
+                if (!$("#terms_confirm").is(":checked")) {
+                    $(".label_terms_confirm").css("color", "red");
+                    error_exist = true;
+                }else{
+                    $(".label_terms_confirm").css("color", "");
+                }
+                {/literal}{/if}{if $terms_digital == 1}{literal}
+                
+                if (!$("#terms_digital_confirm").is(":checked")) {
+        
+                    $(".label_terms_digital_confirm").css("color", "red");
+                    error_exist = true;
+                    
+                }else{
+                    $(".label_terms_digital_confirm").css("color", "");
+                }
+                
+                {/literal}{/if}{if $terms_service == 1}{literal}
+                
+                if (!$("#terms_service_confirm").is(":checked")) {
+        
+                    $(".label_terms_service_confirm").css("color", "red");
+                    error_exist = true;
+                    
+                }else{
+                    $(".label_terms_service_confirm").css("color", "");
+                }
+                
+                {/literal}{/if}{literal}
+                
+                if(error_exist == false){
+                    $("#send_form").submit(function(){return true;});
+                }else{
+                    return false;
+                }
+                
+            });
+
+            
+             $('#active_terms_overlay').click(function() {
+                var api = $('#terms_overlay').data('overlay');
+                if (!api) {
+                    $('#terms_overlay').overlay({
+                    onBeforeLoad: function() {
+                    var wrap = this.getOverlay().find('.terms_overlay_content');
+                    $.get('/user/showTerms', function(data) {
+                    wrap.html(data);
+                    });
+                    },
+                load: true
+                });
+            } else {
+                api.load();
+            }
+            });
+            
+            
+            $('#active_right_2_cancel_overlay').click(function() {
+                var api = $('#right_2_cancel_overlay').data('overlay');
+                if (!api) {
+                    $('#right_2_cancel_overlay').overlay({
+                    onBeforeLoad: function() {
+                    var wrap = this.getOverlay().find('.right_2_cancel_overlay_content');
+                    $.get('/user/showRight2Cancel', function(data) {
+                    wrap.html(data);
+                    });
+                    },
+                load: true
+                });
+            } else {
+                api.load();
+            }
+            });       
+            
+                  
+        });
+    });
+
+</script>
+{/literal}

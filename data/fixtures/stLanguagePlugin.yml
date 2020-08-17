@@ -1,0 +1,41 @@
+Language: 
+  Language_1: 
+    created_at: 2008-02-12 16:05:15
+    updated_at: 2008-02-12 16:05:15
+    culture: pl_PL
+    name: Polska
+    shortcut: pl
+    active_image: 1566c080cf8049d5cb86b18b7a610b16.png
+    inactive_image: e36ed4ad574c197ee1a323798c826fa2.png
+    active: 1
+    is_default: 1
+    language: pl_PL
+    is_translate: 0
+    system: 1
+    is_default_panel: 1
+    is_translate_panel: 1
+  Language_2: 
+    created_at: 2008-02-12 16:05:15
+    updated_at: 2008-02-12 16:05:15
+    culture: pl_PL
+    name: Angielska
+    shortcut: en
+    active_image: 1dcf507142e7f2c1453d9ef1ccd8649a.png
+    inactive_image: e62dec526f4e7df01cce2e301b013690.png
+    active: 1
+    is_default: 0
+    language: en_US
+    is_translate: 1
+    system: 1
+    is_default_panel: 0
+    is_translate_panel: 1
+    
+LanguageI18n:
+  LanguageI18n_1: 
+    id: Language_1
+    culture: en_US
+    name: Polish
+  LanguageI18n_2: 
+    id: Language_2
+    culture: en_US
+    name: English

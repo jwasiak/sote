@@ -1,0 +1,50 @@
+fields:
+    register{email}:
+        required:
+            msg:          Nie podałeś adresu email.
+        
+        sfEmailValidator:
+            email_error:  Nieprawidłowy format adresu e-mail.
+                
+        sfStringValidator:
+            max:          60
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+    register{dbHost}:
+        required:
+            msg:          Nie podałeś adresu.
+            
+        sfStringValidator:
+            max:          30
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+            
+    register{dbName}:
+        required:
+            msg:          Nie podałeś nazwy bazy.
+            
+        sfStringValidator:
+            max:          30
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+            
+    register{dbUser}:
+        required:
+            msg:          Nie podałeś nazwy użytkownika.
+            
+        sfStringValidator:
+            max:          30
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+            
+    register{dbPassword}:
+        required:
+            msg:          Nie podałeś hasła.
+            
+        sfStringValidator:
+            max:          30
+            max_error:    Przekroczono dozwoloną liczbę znaków.
+            
+    register{licence}:
+        required:
+            msg:          Nie podałeś licencji.
+            
+        sfStringValidator:
+            max:          30
+            max_error:    Przekroczono dozwoloną liczbę znaków.

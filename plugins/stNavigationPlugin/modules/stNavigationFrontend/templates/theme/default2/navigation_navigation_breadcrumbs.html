@@ -1,0 +1,58 @@
+{if $hasPath == true}
+    {if $viewType == 0}
+        <div class="box_link">
+            {$homepageLink}
+            {foreach key=id item=value from=$navigationPath}
+                {if $value.active == true}
+                    <span {if $decrease}{tooltip keyword=$value.title type=1 width=200}{/if}>
+                        {st_link_to uri=$value.link}
+                            {if $value.bold == true}
+                                <b>{$value.name}</b>
+                            {else}
+                                {$value.name}
+                            {/if}
+                        {/st_link_to}
+                    </span>
+                {else}
+                    {if $id != $navigationPathCount-1}
+                        <div class="not_active" {if $decrease == 1}{tooltip keyword=$value.title type=1 width=200}{/if}>
+                    {else}
+                        <div class="not_active_last" {if $decrease == 1}{tooltip keyword=$value.title type=1 width=200}{/if}>
+                    {/if}
+                        {if $value.bold == true}
+                            <b>{$value.name}</b>
+                        {else}
+                            {$value.name}
+                        {/if}
+                    </div>
+                {/if}                            
+            {/foreach}
+        </div>
+    {elseif $viewType == 1}
+        <div id="stNavigatorPlugin_navigation_box_text">
+            {$homepageLink}
+            {foreach key=id item=value from=$navigationPath}
+                <div class="arrow">&raquo;</div>
+                {if $value.active == true}
+                    <span {tooltip keyword=$value.title type=1 width=200}>
+                        {st_link_to uri=$value.link}
+                            {if $value.bold == true}
+                                <b>{$value.name}</b>
+                            {else}
+                                {$value.name}
+                            {/if}
+                        {/st_link_to}
+                    </span>
+                {else}
+                    <div class="not_active" {if $configDecrease == 1}{tooltip keyword=$element.title type=1 width=200}{/if}>
+                        {if $value.bold == true}
+                            <b>{$value.name}</b>
+                        {else}
+                            {$value.name}
+                        {/if}
+                    </div>
+                {/if}
+            {/foreach}
+        </div>
+    {/if}
+{/if}

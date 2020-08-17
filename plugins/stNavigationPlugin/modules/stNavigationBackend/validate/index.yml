@@ -1,0 +1,17 @@
+fields:
+    navigation{history_products}:
+        old_config: true
+        sfNumberValidator:
+            nan_error:      Proszę poprawnie uzupełnić pole. Proszę podawać tylko wartości liczbowe.
+    navigation{decrease_length}:
+        old_config: true
+        sfNumberValidator:
+            nan_error:      Proszę poprawnie uzupełnić pole. Proszę podawać tylko wartości liczbowe.
+    navigation{history_box_limit}:
+        old_config: true
+        sfNumberValidator:
+            nan_error:      Proszę poprawnie uzupełnić pole. Proszę podawać tylko wartości liczbowe.
+    navigation{navigation_start_name}:
+        old_config: true
+        required:
+            msg:            Proszę uzupełnić pole.

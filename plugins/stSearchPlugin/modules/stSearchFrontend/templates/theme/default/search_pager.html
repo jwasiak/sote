@@ -1,0 +1,17 @@
+<div id="st_product-pager">
+
+{$first_page}
+{$previous_page}
+
+{foreach key=row item=page from=$links}
+    
+    {$page.page}
+    {$page.max}
+    
+{/foreach}
+
+{$next_page}
+{$last_page}
+
+<br style="clear: both;" />
+</div>

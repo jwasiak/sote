@@ -1,0 +1,420 @@
+{set layout="one_column"}
+<div id="order-confirm" class="order-control">
+    <div class="title">
+        <h1>{__ text="Podsumowanie zamówienia"}</h1>      
+    </div>
+
+    <form id="send_form" action="{urlfor internal='stOrder/save'}" method="post" class="clearfix">
+        {if $additional_confirm_text != "" || $create_account_value==1}
+            <div class="panel panel-default add-confirm-text">
+                <div class="panel-body">
+                    {if $additional_confirm_text != ""}
+                        {$additional_confirm_text}
+                    {/if}  
+                    
+                    {if $create_account_value==1}
+                    <div id="create_user">
+                      {__ text="Konto użytkownika"}: <b>{$user_data_billing_email}</b>
+                    {$newsletter_form}
+                    </div>
+                    {/if}
+                </div>
+            </div>
+        {/if}
+    
+        <div class="row" data-equalizer>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            {__ text="Dane płatnika"}    
+                        </h3>
+                    </div>
+                    <div class="panel-body data" data-equalizer-watch>
+                        
+                        
+                        {if $user_data_billing_invoice==1}  
+                            <span class="invoice_text">{__ text="Dane do faktury"}</span>
+                            <br/>
+                        {/if}
+
+                        {if $sf_request->hasError('user_data_billing[vat_number]')}
+                            <div class="form-group has-error">     
+                                <label class="control-label">{$sf_request->getError('user_data_billing[vat_number]')}</label>          
+                            </div>
+                        {/if}
+                        
+                        {if $user_data_billing_company!=""}                        
+                            {$user_data_billing_company}
+                            <br/>
+                            {$user_data_billing_vat_number}
+                            <br/>
+                        {/if}
+                                    
+                        <div class="full_name_space">
+                            <b>{$user_data_billing_full_name}</b>
+                        </div>
+                        
+                        {$user_data_billing_address}
+                        <br/>
+                        
+                        {if $user_data_billing_address_more!=""}
+                            {$user_data_billing_address_more}
+                            <br/>
+                        {/if}
+                        
+                        {if $user_data_billing_region!=""}
+                            {$user_data_billing_region}
+                            <br/>
+                        {/if}
+                          
+                        {$user_data_billing_code}
+                        
+                        {$user_data_billing_town}
+                        <br/>
+                        
+                        {if $sf_request->hasError('user_data_billing[country]')}
+                            <div class="form-group has-error">     
+                                <label class="control-label">{$sf_request->getError('user_data_billing[country]')}</label>          
+                            </div>
+                        {/if}
+
+                        {$user_data_billing_country}
+                        <br/>
+                        
+                        {$user_data_billing_phone}
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                        {__ text="Dane wysyłkowe"}
+                      </h3>
+                    </div>
+                    <div class="panel-body data" data-equalizer-watch>
+                        
+                        {if $user_data_delivery_company!=""}
+                            {$user_data_delivery_company}
+                            <br/>
+                        {/if}
+                                    
+                        <div class="full_name_space">            
+                            <b>{$user_data_delivery_full_name}</b>
+                        </div>
+                        
+                        {$user_data_delivery_address}
+                        <br/>
+                        
+                        {if $user_data_delivery_address_more!=""}
+                            {$user_data_delivery_address_more}
+                            <br/>
+                        {/if}
+                        
+                        {if $user_data_delivery_region!=""}
+                            {$user_data_delivery_region}
+                            <br/>
+                        {/if}
+                          
+                        {$user_data_delivery_code}
+                        
+                        {$user_data_delivery_town}
+                        <br/>
+                        
+                        {$user_data_delivery_country}
+                        <br/>
+                        
+                        {$user_data_delivery_phone}
+                        <br/>             
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        <div class="row" data-equalizer>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3 class="panel-title">{__ text="Informacje"}</h3></div>
+                    <div class="panel-body" data-equalizer-watch>                              
+                        {__ text="Płatność"}: <b>{$payment_name}</b><br/>                   
+                        {if $payment_description}
+                            <div class="info_frame">
+                                {$payment_description}
+                            </div>
+                        {/if}
+                        {__ text="Dostawa"}: <b>{$delivery_name}</b><br/>
+                        {if $delivery_description} 
+                            <div class="info_frame">
+                                {$delivery_description}
+                            </div>
+                        {/if}
+                        {if $delivery_date_value != " "}
+                            {__ text="Termin dostawy"}: <b>{$delivery_date_value}</b><br/>
+                        {/if}
+                    </div>
+                </div>
+            </div>
+            
+            {if $description!=""}
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h3 class="panel-title">{__ text="Uwagi do zamówienia"}</h3></div>
+                        <div class="panel-body" data-equalizer-watch>                              
+                            {$description}
+                        </div>
+                    </div>
+                </div>
+            {/if}
+        </div>
+    
+    
+        <div class="panel panel-default bottom">                
+            <table id="order-confirm-summary" class="table">
+                <thead>
+                   <tr class="active">
+                     {if $show_photo_in_basket}<th class=""></th>{/if}
+                   {if $show_code_in_basket}<th class="">{__ text="kod"}</th>{/if}
+                     <th class="">{__ text="nazwa"}</th>
+                     {if $show_netto_in_basket}<th class="th-td-right">{__ text="netto"}</th>{/if}
+                     {if $show_tax_in_basket}<th class="th-td-center">{__ text="vat"}</th>{/if}
+                     <th class="th-td-right">{__ text="brutto"}</th>
+                     <th class="th-td-center">{__ text="ilość"}</th>
+                     {if $show_uom_in_basket}<th class="th-td-center">{__ text="j.m."}</th>{/if}
+                     <th class="th-td-right">{__ text="suma"}</th>
+                   </tr>
+                </thead>                
+                <tbody>
+                   {foreach key=row item=product from=$results}
+                        {if ($product.errors)}
+                            <tr>
+                                {foreach item=error from=$product.errors}
+                                    <td colspan="10" style="color: red; text-align: center">{$error}</td>
+                                {/foreach}
+                            </tr>
+                        {/if}
+                        <tr>
+                            {if $show_photo_in_basket}
+                                <td class="image product-image" data-th='{__ text="zdjęcie"}'>{$product.photo}</td>
+                            {/if}
+                            {if $show_code_in_basket}
+                                <td class="mobile product-code" data-th='{__ text="kod"}'> {$product.code}</td>
+                            {/if}
+                            <td class="product-name" data-th='{__ text="nazwa"}'>
+                                {if isset($product_name)}
+                                    {$product.product_name}
+                                {else}
+                                    {if isset($product.validate)}
+                                        {$product.name_show}
+                                    {else}
+                                        {$product.name}
+                                    {/if}
+                                {/if}
+                            </td>
+                            {if $show_netto_in_basket}
+                                <td class="product-net text-nowrap price" data-th='{__ text="netto"}' nowrap>{$product.price}</td>
+                            {/if}
+                            {if $show_tax_in_basket}
+                                <td class="mobile product-tax text-nowrap" data-th='{__ text="vat"}'>{$product.vat} %</td>
+                            {/if}
+                            <td class="product-gross text-nowrap price" data-th='{__ text="brutto"}' nowrap>{$product.price_brutto}</td>
+                            <td class="product-quantity" data-th='{__ text="ilość"}' {if $product.errors.quantity}style="border: 1px solid red"{/if}>
+                                {$product.quantity}
+                            </td>
+                            {if $show_uom_in_basket}
+                                <td class="product-uom" data-th='{__ text="j.m."}'>{$product.uom}</td>
+                            {/if}
+                            <td class="product-total text-nowrap hidden-xs" nowrap data-th='{__ text="suma"}'>{$product.total_amount}</td>
+                       </tr>
+                   {/foreach}     
+                </tbody>   
+            </table>
+        </div>             
+        <table cellspacing="0" class="bg-white" width="100%">
+           <tr>
+               <td colspan="10">
+                    <div>
+                        <span class="pull-right" >{__ text="Wartość koszyka"}: {$total_product_price}</span><br/>
+                        <span class="pull-right" >{__ text="Koszt dostawy"}: {$order_cost}</span><br/>
+                        {if $delivery_courier_cost} 
+                            <span style="float:right;">({__ text="dodatkowa opłata"}: {$delivery_courier_cost})</span><br/>
+                        {/if}
+                        {if $discount}
+                            <span class="pull-right" >{__ text="Rabat"} ({$discount_name}): -{$discount}</span><br />
+                        {/if}
+                        {if $paid} 
+                            <span class="pull-right" >{__ text="Zapłacono"}: -{$paid}</span><br />
+                        {/if}
+                        <span class="pull-right" ><b>{__ text="Razem do zapłaty"}: {$final_total_amount}</b></span><br/>
+                   </div>
+               </td>
+           </tr>
+        </table>
+         
+        
+    
+
+
+        {foreach key=row item=name from=$user_data_billing_hidden}
+        {$name.billing_name}
+        {/foreach}
+          
+        {foreach key=row item=name from=$user_data_delivery_hidden}
+        {$name.delivery_name}
+        {/foreach}
+        
+        {$delivery_date}
+        {$delivery_time}
+          
+        {$hidden_description}
+        
+        {if $terms_digital == 1 || $terms_right_2_cancel == 1 || $terms_service == 1}
+            <table id="table_confirm_terms" cellpadding="0" cellspacing="0" class="label_terms_confirm">
+                {if $terms_digital == 1}
+                <tr>
+                    <td class="terms-text"><label for="terms_digital_confirm"><span class="label_terms_digital_confirm">{$terms_digital_text}</span></label></td>
+                    <td class="checkbox-td">
+                        <span class=" switch">
+                            <input name="terms_digital_confirm" id="terms_digital_confirm" type="checkbox" value="1" class="checkobox" >
+                            <label for="terms_digital_confirm" class="label-checkbox-switch"></label>
+                        </span>
+                    </td>
+                </tr>
+                {/if}
+                {if $terms_right_2_cancel == 1}
+                <tr>
+                    <td class="terms-text"><label for="terms_confirm">{$terms_right_2_cancel_text}</label></td>
+                    <td class="checkbox-td">
+                        <span class=" switch">
+                            <input type="checkbox" name="terms_confirm" id="terms_confirm" value="1" class="checkobox">
+                            <label for="terms_confirm" class="label-checkbox-switch"></label>
+                            <div id="terms_overlay">
+                                <div class="terms_overlay_content"></div>
+                            </div>
+                            <div id="right_2_cancel_overlay">
+                                <div class="right_2_cancel_overlay_content"></div>
+                            </div>
+                        </span>
+                    </td>
+                </tr>
+                {/if}
+                {if $terms_service == 1}
+                <tr>
+                    <td class="terms-text"><label for="terms_service_confirm"><span class="label_terms_service_confirm">{$terms_service_text}</span></label></td>
+                    <td class="checkbox-td">
+                        <span class=" switch">
+                            <input name="terms_service_confirm" id="terms_service_confirm" type="checkbox" value="1" class="checkobox" >
+                            <label for="terms_service_confirm" class="label-checkbox-switch"></label>
+                        </span>
+                    </td>
+                </tr>
+                {/if}
+            </table>
+        {/if}
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary pull-right" id="confirm_button">
+                {__ text="Zamówienie z obowiązkiem zapłaty."}
+            </button>
+
+            <button type="submit" class="btn btn-default pull-left" id="st_order-back_button" onclick="this.form.action = '{$order_correction}'">
+                {__ text="Wróć do koszyka"}
+            </button>            
+        </div>
+
+        
+        <div class="clearfix"></div> 
+    </form>
+</div>
+<div class="modal fade modal-vertical-centered" id="order-process-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h3 class="text-center">{__ text="Zamówienie"}</h3>
+                <p class="text-center">{__ text="Trwa składanie zamówienia. Proszę czekać."}</p>
+                <div class="preloader"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{literal}
+<script type="text/javascript" language="javascript">
+    jQuery(function ($) {
+         $(document).ready(function () {
+             
+                $('#toTop, #phone-call').remove();
+
+                $('#confirm_button').click(function(e) { 
+            
+                var error_exist = false;
+
+                {/literal}{if $terms_right_2_cancel == 1}{literal}
+    
+                if (!$("#terms_confirm").is(":checked")) {
+                    $(".label_terms_confirm").addClass("error_terms");
+                    error_exist = true;
+                }else{
+                    $(".label_terms_confirm").removeClass("error_terms");
+                }
+
+                {/literal}{/if}{if $terms_digital == 1}{literal}
+                
+                if (!$("#terms_digital_confirm").is(":checked")) {
+        
+                    $(".label_terms_digital_confirm").addClass("error_terms");
+                    error_exist = true;
+                    
+                }else{
+                    $(".label_terms_digital_confirm").removeClass("error_terms");
+                }
+                
+                {/literal}{/if}{if $terms_service == 1}{literal}
+                
+                if (!$("#terms_service_confirm").is(":checked")) {
+        
+                    $(".label_terms_service_confirm").addClass("error_terms");
+                    error_exist = true;
+                    
+                }else{
+                    $(".label_terms_service_confirm").removeClass("error_terms");
+                }
+                
+                {/literal}{/if}{literal}
+                
+                if(error_exist) {
+                    e.stopImmediatePropagation();
+                    return false;
+                }                
+            });
+
+            $('#confirm_button').click(function() {
+                var btn = $(this);
+                $('#order-process-modal')
+                  .on('shown.bs.modal', function() {
+                    btn.closest('form').submit();
+                  })
+                  .modal({ show: true });
+                return false;
+
+            });
+
+            $('#order-confirm-summary [data-toggle=tooltip]').tooltip().on('show.bs.tooltip', function(e) {
+                var target = $(e.target);
+                if (target.hasClass('product-option-label')) {
+                    var maxWidth = target.css('max-width');
+                    target.css({ 'max-width': 'none' });
+                    var width = target.width();
+                    target.css({ 'max-width': maxWidth });
+
+                    return width > target.width();
+                }
+
+                return true;
+            });
+                        
+        });
+    });
+
+</script>
+{/literal}

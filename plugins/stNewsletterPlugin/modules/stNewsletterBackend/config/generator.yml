@@ -1,0 +1,179 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                    NewsletterMessage
+        newsletter_user_model_class:    NewsletterUser
+        newsletter_group_model_class:   NewsletterGroup
+        theme:                          simple
+        head:
+            package:                stNewsletterPlugin
+        header:                     
+            route:                  @stNewsletterPlugin           
+        applications:               [stMailPlugin]
+        custom_actions:
+            list:                   [newsletter_user, newsletter_group]
+            edit:                   [newsletter_user, newsletter_group]    
+        title:                      Wiadomości
+        description:                Wysyłanie wiadomości do klientów
+        fields:
+            created_at:             {name: Utworzono}
+
+        config:
+          title:                    Konfiguracja
+          display:                            
+              "NONE":                [newsletter_enabled, newsletter_on, ~show_languages]
+              "Teksty na stronie rejestracji":  [register_text_title, register_text_description, register_text_under_register]
+              "Teksty na stronie głównej":  [register_text_widget_title, register_text_widget_description]
+              "Dodatkowa wiadomość po rejestracji": [register_message_on, register_message_title, register_message_templates]              
+              "Szablon wiadomości":  [templates]                            
+          menu:                     {use: list.menu}
+          fields:
+            newsletter_on:          {name: Pokaż pole rejestracji przy składaniu zamowienia, type: checkbox}
+            newsletter_enabled:     {name: Wyłącz newsletter w sklepie, type: checkbox}
+            show_languages:         {name: Domyślny język wysyłania}            
+            templates:              {name: Kod html, type: textarea, params: size=160x20, is_i18n: true}
+            register_message_on:          {name: Włącz dodatkową wiadomość, type: checkbox}
+            register_message_title:       {name: Temat, params: size=80;, is_i18n: true}
+            register_message_templates:   {name: &nbsp; , type: textarea, params: size=60x10 rich=true tinymce_options="'height:400,width:550,theme:'simple'", is_i18n: true}            
+            register_text_title:          {name: Tytuł, params: size=70, is_i18n: true}
+            register_text_description:    {name: Tekst , type: textarea, params: size=60x10 rich=true tinymce_options="'height:400,width:550,theme:'simple'", is_i18n: true}
+            register_text_under_register: {name: Tekst pod rejestracją , type: textarea, params: size=60x10 rich=true tinymce_options="'height:400,width:550,theme:'simple'", is_i18n: true}            
+            register_text_widget_title:   {name: Tytuł, params: size=70, is_i18n: true}
+            register_text_widget_description: {name: Tekst , type: textarea, params: size=60x10 rich=true tinymce_options="'height:400,width:550,theme:'simple'", is_i18n: true}
+            
+            
+          actions:
+            _save:                  {name: Zapisz}
+
+        list:
+            title:                  Wiadomości
+            display:                [=subject, sent_at, created_at]
+            fields:
+                subject:            {name: Temat, params: size=70}
+                created_at:         {name: Utworzona}
+                sent_at:            {name: Wysłana}
+            actions:
+                _create:            {name: Dodaj}
+            object_actions:
+                _edit:        -
+                _delete:      -
+            menu:
+                display:             [message, user, group, export, import, config]
+                fields:
+                    message:         {name: Wiadomości, action: @stNewsletterPluginDefault}
+                    user:            {name: Adresy, action: stNewsletterBackend/newsletterUserList}
+                    group:           {name: Grupy, action: stNewsletterBackend/newsletterGroupList}
+                    export:          {name: Eksport, action: stNewsletterBackend/export}
+                    import:          {name: Import, action: stNewsletterBackend/import}
+                    config:          {name: Konfiguracja, action: stNewsletterBackend/config}
+        edit:
+            title:                  Edycja wiadomości
+            description:            Wysyłanie wiadomości do klientów
+            display:                [_created_at, _sent_at, ~newsletter_group, subject, content]
+            fields:
+                newsletter_group:   {name: Grupy}
+                created_at:         {name: Utworzona, params: disabled=true, hide_on_create: true}
+                subject:            {name: Temat, type: input_tag, params: style='width:550px'}
+                content:            {name: Treść, type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:400,width:550'}
+                sent_at:            {name: Wysłana, type: plain, hide_on_create: true}
+            actions:
+                _delete:            {name: Usuń}
+                _list:              {name: Lista}
+                _save:              {name: Zapisz}
+                _save_and_send:     {name: Zapisz i wyślij, type: save, params: force_submit=true name=save_and_send icon=dd confirm="Jesteś pewień, że chcesz wysłać tą wiadomość do wybranych grup?", i18n: stNewsletterBackend}
+                             
+        newsletter_user_list:
+            title:                      Adresy
+            description:                Wysyłanie wiadomości do klientów
+            display:                    [=email, confirm, created_at]
+           
+            fields:
+                confirm:                {name: Potwierdzony}
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:        -
+                _delete:      -     
+        
+        newsletter_user_edit:
+            title:                      Edycja adresów
+            description:                Wysyłanie wiadomości do klientów
+            display:                    [id, email, confirm, ~newsletter_group, ~user_show_languages]
+            fields:
+                user_info:              {name: Informacje o kliencie}
+                email:                  {name: Adres e-mail, params: size=32}
+                user_show_languages:    {name: Narodowość}
+                confirm:                {name: Potwierdzony}
+                newsletter_group:       {name: Grupy}
+                
+                     
+            actions:
+                _delete:                {name: Usuń}
+                _list:                  {name: Lista}
+                _save_and_send_confirm: {name: Zapisz i wyślij prośbę o potwierdzenie, params: force_submit=true name=save_and_send_confirm, i18n: stNewsletterBackend}
+                _save:                  {name: Zapisz}
+                
+                    
+        newsletter_group_list:
+            title:                      Grupy
+            display:                    [=name, =count_users, is_default, created_at]
+            fields:
+                name:                   {name: Nazwa}
+                count_users:            {name: Adresów, params: link_to="stNewsletterBackend/newsletterUserList?filters[group]=%%id%%"}
+                is_default:             {name: Domyślna}
+                
+            actions:
+                _create:                {name: Dodaj}
+            object_actions:
+                _edit:        -
+                _delete:      -
+
+                
+        newsletter_group_edit:
+            title:                      Edycja grup
+            display:                    [id, name, description, is_public, is_default]
+            fields:
+                name:                   {name: Nazwa, params: disabled=false}
+                description:            {name: Opis, type: textarea_tag, params: size=40x5 rich=true tinymce_options='height:150,width:425'}
+                is_public:              {name: Możliwość dodania przez stronę}
+                is_default:             {name: Domyślna grupa}
+                     
+            actions:
+                _delete:                {name: Usuń}
+                _list:                  {name: Lista}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj}
+
+        include_action_files: [/plugins/stImportExportPlugin/config/generator/extendActions.php]
+        include_component_files: [/plugins/stImportExportPlugin/config/generator/extendComponents.php]
+
+        import_export_model_class: NewsletterUser
+        export:
+            default:        stExporterCsv
+            title:          Eksport adresów e-mail
+            description:    Wysyłanie wiadomości do klientów        
+            menu:   {use: list.menu}
+
+            fields:             
+                email:                  {name: "Email"}
+                user_id:                {name: "ID_Użytkownika"}
+                active:                 {name: "Aktywny"}
+                confirm:                {name: "Potwierdzony"}                
+                language:               {name: "Język"}
+                newsletter_groups:      {name: "Grupy", class: stNewsletter}
+            primary_key:                email
+
+        import:
+            default:        stImporterCsv
+            title:          Import adresów e-mail
+            description:    Wysyłanie wiadomości do klientów         
+            menu:   {use: list.menu}
+            
+            fields:             
+                email:                  {name: "Email"}
+                user_id:                {name: "ID_Użytkownika"}
+                active:                 {name: "Aktywny"}
+                confirm:                {name: "Potwierdzony"}
+                language:               {name: "Język"}
+                newsletter_groups:      {name: "Grupy", class: stNewsletter}
+            primary_key:                email                

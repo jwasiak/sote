@@ -1,0 +1,104 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stLanguagePlugin.lib.model
+  st_language: 
+    _attributes: 
+      phpName: Language
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    currency_id: 
+      type: INTEGER
+      default: 0
+      foreignTable: st_currency
+      foreignReference: id
+      onDelete: setnull
+    active_image: 
+      type: VARCHAR
+      size: 36
+    inactive_image: 
+      type: VARCHAR
+      size: 36
+    shortcut: 
+      type: VARCHAR
+      size: 3
+    is_default: 
+      type: BOOLEAN
+      default: 0
+    active: 
+      type: BOOLEAN
+      default: 1
+    language: 
+      type: VARCHAR
+      size: 10
+    is_translate: 
+      type: BOOLEAN
+      default: 0
+    system: 
+      type: BOOLEAN
+      required: true
+      default: 0
+    is_default_panel: 
+      type: BOOLEAN
+    is_translate_panel: 
+      type: BOOLEAN
+    opt_name: 
+      type: VARCHAR
+      size: 255
+  st_language_has_domain: 
+    _attributes: 
+      phpName: LanguageHasDomain
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    language_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_language
+      foreignReference: id
+      onDelete: cascade
+    domain: 
+      type: VARCHAR
+      size: 255
+    is_default: 
+      type: BOOLEAN
+  st_translation_cache:
+    _attributes: 
+      phpName: TranslationCache
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    language_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_language
+      foreignReference: id
+      onDelete: restrict
+    catalogue:
+      type: VARCHAR
+      size: 100
+    catalogue_index:
+      type: VARCHAR
+      size: 8
+    value:
+      type: LONGVARCHAR

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="sk" datatype="plaintext" date="2012-07-02T03:01:19Z">
+		<body>
+			<trans-unit id="1">
+				<source>Ostatnie zamówienia</source>
+				<target>Posledné objednávky</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Aktualnie nie posiadasz żadnych zamówień</source>
+				<target>V súčasnosti nemáte žiadne objednávky</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Data złożenia zamówienia</source>
+				<target>Dátum odoslania objednávky</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zamówienie numer</source>
+				<target>Objednávka číslo</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Dane bilingowe</source>
+				<target>Zúčtovacie údaje</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Dane dostawy</source>
+				<target>Údaje pre doručenie</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Lista zamówienia</source>
+				<target>Zoznam objednávky</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kod</source>
+				<target>Kód</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Nazwa</source>
+				<target>Názov</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Netto</source>
+				<target>Bez DPH</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>VAT</source>
+				<target>DPH</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Brutto</source>
+				<target>S DPH</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Ilość</source>
+				<target>Množstvo</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Kwota</source>
+				<target>Čiastka</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Razem</source>
+				<target>Spolu</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Łączna kwota do zapłaty</source>
+				<target>Celková čiastka k úhrade</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Płatność</source>
+				<target>Platba</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Dostawy</source>
+				<target>Dodávka</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Koszt</source>
+				<target>Náklady</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Potwierdź zamówienie</source>
+				<target>Potvrdiť objednávku</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Moje konto</source>
+				<target>Moje konto</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Dane klienta</source>
+				<target>Údaje klienta</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>NIP</source>
+				<target>DIČ</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Zawartość</source>
+				<target>Obsah</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Suma</source>
+				<target>Suma</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Dane dodatkowe</source>
+				<target>Dodatočné údaje</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Dostawa</source>
+				<target>Dodávka</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Łączny koszt (zamówienie + dostawa)</source>
+				<target>Celková cena (objednávka + dodávka)</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Numer</source>
+				<target>Číslo</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Potwierdzone</source>
+				<target>Potvrdené</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Recenzja</source>
+				<target>Recenzia</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>tak</source>
+				<target>áno</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>nie</source>
+				<target>nie</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Sprawdź informacje zamówienia</source>
+				<target>Skontrolovať informácie objednávky</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Popraw</source>
+				<target>Oprav</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Potwierdź</source>
+				<target>Potvrdiť</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Zamówienie</source>
+				<target>Objednávka</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Twoje zamówienie zostało złożone</source>
+				<target>Vaša objednávka bola odoslaná</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Lista zamówień</source>
+				<target>Zoznam objednávok</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Przejdź do potwierdzenia</source>
+				<target>Prejsť k potvrdeniu</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Uwagi do zamówienia</source>
+				<target>Poznámky k objednávke</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Data złożenia</source>
+				<target>Dátum odoslania</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Opłacone</source>
+				<target>Zaplatená</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Zamówienie numer %number%</source>
+				<target>Objednávka č.: %number%</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Zobacz wszystkie</source>
+				<target>Prezrieť všetky</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Twoje zamówienie zostało potwierdzone.</source>
+				<target>Vaša objednávka bola potvrdená.</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Twoje zamówienie zostało już wcześniej potwierdzone.</source>
+				<target>Vaša objednávka už bola potvrdená.</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Numer Twojego zamówienia</source>
+				<target>Číslo tvojej objednávky </target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Dziękujemy za złożenie zamówienia</source>
+				<target>Ďakujeme za objednávku</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>Popraw zamówienie</source>
+				<target>Opraviť objednávku</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>Zamówienia</source>
+				<target>Objednávky</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>Zweryfikuj poprawność informacji zawartych w zamówieniu.</source>
+				<target>Skontrolovať správnosť informácií obsiahnutých v objednávke.</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Użytkownik</source>
+				<target>Užívateľ</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>zamówienie numer</source>
+				<target>objednávka číslo</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>Potwierdzone zamówienia</source>
+				<target>Potvrdené objednávky</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>Niepotwierdzone zamówienia</source>
+				<target>Nepotvrdené objednávky</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>potwierdź</source>
+				<target>potvrdiť</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>anuluj</source>
+				<target>anulovať</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>Faktury</source>
+				<target>Faktúry</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>Pokaż listę zamówień </source>
+				<target>Zobraziť zoznam objednávok </target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Konto użytkownika</source>
+				<target>Užívateľské konto</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>W czasie składania zamówienia zostanie utworzone konto użytkownika, dane dostępowe do konta zostaną wysłane na adres:</source>
+				<target>Pri objednávaní Vám bude vytvorené užívateľské konto. Údaje umožňujúce prístup k tomuto kontu budú odoslané na adresu:</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Aby móc zalogować się do sklepu, niezbędne będzie potwierdzenie danych zawartych w mailu z zamówieniem.</source>
+				<target>Ak sa chcete prihlásiť do obchodu, musíte najskôr potvrdiť údaje obsiahnuté v správe s objednávkou odoslanej prostredníctvom elektronickej pošty.</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Zamówienie zostało anulowane.</source>
+				<target>Objednávka bola anulovaná.</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>Hasło</source>
+				<target>Heslo</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Dane dostępowe do konta</source>
+				<target>Prístupové údaje užívateľského konta</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Potwierdź zamówienie i rejestrację konta</source>
+				<target>Potvrdiť objednávku a registráciu konta</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz. Skorzystaj z linku powyżej aby potwierdzić zamówienie i aktywować konto.</source>
+				<target>Pokiaľ Vašu objednávku nepotvrdíte, nebude ona realizovaná. Na účely potvrdenia objednávky a aktivácie konta použite hore uvedený link.</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Twoje zamówienie nie będzie zrealizowane dopóki go nie potwierdzisz.</source>
+				<target>Pokiaľ Vašu objednávku nepotvrdíte, nebude ona realizovaná.</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>Zapisz mnie na newsletter</source>
+				<target>Zapíš ma do informačného bulletinu (newslettera)</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>Chcę otrzymać fakturę VAT</source>
+				<target>Chcem obdržať faktúru DPH</target>
+			</trans-unit>
+			<trans-unit id="73">
+				<source>Minimalna wartość zamówienia wynosi %min_amount%</source>
+				<target>Minimálna hodnota zákazky predstavuje %min_amount%</target>
+			</trans-unit>
+			<trans-unit id="74">
+				<source>złożono nowe zamówienie numer</source>
+				<target>Bola podaná nová objednávka č.:</target>
+			</trans-unit>
+			<trans-unit id="75">
+				<source>Przejdź do konta.</source>
+				<target>Presmerovať na účet.</target>
+			</trans-unit>
+			<trans-unit id="76">
+				<source>Przejdź do zamówienia.</source>
+				<target>Presmerovať na objednávky.</target>
+			</trans-unit>
+			<trans-unit id="77">
+				<source>Łączny koszt</source>
+				<target>Celkové náklady</target>
+			</trans-unit>
+			<trans-unit id="78">
+				<source>Zapłacono</source>
+				<target>Bolo zaplatené</target>
+			</trans-unit>
+			<trans-unit id="79">
+				<source>Razem do zapłaty</source>
+				<target>Celkom k zaplatení</target>
+			</trans-unit>
+			<trans-unit id="80">
+				<source>Termin dostawy</source>
+				<target>Termín dodávky</target>
+			</trans-unit>
+			<trans-unit id="81">
+				<source>Brak wymaganej ilości towaru w magazynie</source>
+				<target>Požadované množstvo zboží není skladom</target>
+			</trans-unit>
+			<trans-unit id="82">
+				<source>J.m.</source>
+				<target>MJ</target>
+			</trans-unit>
+			<trans-unit id="83">
+				<source>Pokaż wszystkie</source>
+				<target>Zobraz všetky </target>
+			</trans-unit>
+			<trans-unit id="84">
+				<source>Numer przesyłki</source>
+				<target>Číslo zásielky  </target>
+			</trans-unit>
+			<trans-unit id="85">
+				<source>Dane płatnika</source>
+				<target>Údaje platiteľa</target>
+			</trans-unit>
+			<trans-unit id="86">
+				<source>Dane wysyłkowe</source>
+				<target>Odosielací údaje</target>
+			</trans-unit>
+			<trans-unit id="87">
+				<source>Dane do faktury</source>
+				<target>Fakturační údaje</target>
+			</trans-unit>
+			<trans-unit id="88">
+				<source>Informacje</source>
+				<target>Informácie</target>
+			</trans-unit>
+			<trans-unit id="89">
+				<source>zdjęcie</source>
+				<target>fotografia</target>
+			</trans-unit>
+			<trans-unit id="90">
+				<source>nazwa</source>
+				<target>názov</target>
+			</trans-unit>
+			<trans-unit id="91">
+				<source>cena netto</source>
+				<target>cena bez DPH</target>
+			</trans-unit>
+			<trans-unit id="92">
+				<source>vat</source>
+				<target>DPH</target>
+			</trans-unit>
+			<trans-unit id="93">
+				<source>brutto</source>
+				<target>Včetne DPH</target>
+			</trans-unit>
+			<trans-unit id="94">
+				<source>ilość</source>
+				<target>množstvo</target>
+			</trans-unit>
+			<trans-unit id="95">
+				<source>suma</source>
+				<target>suma</target>
+			</trans-unit>
+			<trans-unit id="96">
+				<source>Koszty</source>
+				<target>Náklady</target>
+			</trans-unit>
+			<trans-unit id="97">
+				<source>Koszt dostawy</source>
+				<target>Náklady na dopravu</target>
+			</trans-unit>
+			<trans-unit id="98">
+				<source>Wartość koszyka</source>
+				<target>Hodnota košíka</target>
+			</trans-unit>
+			<trans-unit id="99">
+				<source>Potwierdzenie zamówienia</source>
+				<target>Potvrdenie objednávky</target>
+			</trans-unit>
+			<trans-unit id="100">
+				<source>Zweryfikuj informacje zawarte w zamówieniu.</source>
+				<target>Overte si informácie uvedené v objednávke.</target>
+			</trans-unit>
+			<trans-unit id="101">
+				<source>Wróć do koszyka</source>
+				<target>Späť na obsah košíku</target>
+			</trans-unit>
+			<trans-unit id="102">
+				<source>Zamów</source>
+				<target>Objednať</target>
+			</trans-unit>
+			<trans-unit id="103">
+				<source>Zmień</source>
+				<target>Zmeniť</target>
+			</trans-unit>
+			<trans-unit id="104">
+				<source>Podsumowanie zamówienia</source>
+				<target>Zhrnutí objednávok</target>
+			</trans-unit>
+			<trans-unit id="105">
+				<source>Zapisz informację.</source>
+				<target>Uložiť informácie.</target>
+			</trans-unit>
+			<trans-unit id="106">
+				<source>Drukuj</source>
+				<target>Tlač</target>
+			</trans-unit>
+			<trans-unit id="107">
+				<source>Pobierz</source>
+				<target>Načítaj</target>
+			</trans-unit>
+			<trans-unit id="108">
+				<source>Zapłać</source>
+				<target>Zaplatiť</target>
+			</trans-unit>
+			<trans-unit id="109">
+				<source>Zamówienie nr</source>
+				<target>Objednávka č.</target>
+			</trans-unit>
+			<trans-unit id="110">
+				<source>Do zapłaty</source>
+				<target>K úhrade</target>
+			</trans-unit>
+			<trans-unit id="111">
+				<source>j.m.</source>
+				<target>MJ</target>
+			</trans-unit>
+			<trans-unit id="112">
+				<source>Informacje i uwagi do zamówienia</source>
+				<target>Informácie a poznámky k objednávke</target>
+			</trans-unit>
+			<trans-unit id="113">
+				<source>Pobrano z konta</source>
+				<target>Stiahnuté z účtu</target>
+			</trans-unit>
+			<trans-unit id="114">
+				<source>Za zamówienie otrzymasz</source>
+				<target>Za objednávku obdržíš</target>
+			</trans-unit>
+			<trans-unit id="115">
+				<source>Aktualizowane przez zamówienie</source>
+				<target>Aktualizované v rámci objednávky</target>
+			</trans-unit>
+			<trans-unit id="116">
+				<source>Rabat</source>
+				<target>Zľava</target>
+			</trans-unit>
+			<trans-unit id="117">
+				<source>Płatność punktami</source>
+				<target>Platba bodmi</target>
+			</trans-unit>
+			<trans-unit id="118">
+				<source>Zamówienie z obowiązkiem zapłaty.</source>
+				<target>Objednávka s povinnosťou úhrady</target>
+			</trans-unit>
+			<trans-unit id="119">
+				<source>oraz</source>
+				<target>a</target>
+			</trans-unit>
+			<trans-unit id="120">
+				<source>regulaminem</source>
+				<target>obchodnými podmienkami</target>
+			</trans-unit>
+			<trans-unit id="121">
+				<source>Zapoznałem się z moim</source>
+				<target>Oboznámil som sa s mojim</target>
+			</trans-unit>
+			<trans-unit id="122">
+				<source>prawem do odstąpienia od umowy</source>
+				<target>právom odstúpiť od zmluvy</target>
+			</trans-unit>
+			<trans-unit id="123">
+				<source>Proszę o bezzwłoczny dostęp do informacji cyfrowej. Jestem świadomy, że moje prawo od odstąpienia od umowy wygasza wraz z uzyskaniem dostępu.</source>
+				<target>Prosím o okamžité sprístupnenie digitálnych informácií. Som si vedomý toho, že moje právo odstúpiť od zmluvy po získaní prístupu zaniká.</target>
+			</trans-unit>
+			<trans-unit id="124">
+				<source>dodatkowa opłata</source>
+				<target>dodatočný poplatok</target>
+			</trans-unit>
+			<trans-unit id="125">
+				<source>Wróć do sklepu</source>
+				<target>Späť do obchodu</target>
+			</trans-unit>
+			<trans-unit id="126">
+				<source>Zamówienie PDF</source>
+				<target>Objednávka PDF</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

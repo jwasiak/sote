@@ -1,0 +1,15 @@
+---
+package: 
+  name: appAdditionalDescPlugin
+  stability: stable
+  version: 7.1.0.6
+  summary: Dodatkowy opis
+  description: Dodatkowy opis
+  notes: Zwiekszenie dlugosci tekstu
+  maintainers: 
+    Krzysztof Beblo: 
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    soteshop_base: 5.2.1.1

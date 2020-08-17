@@ -1,0 +1,11 @@
+migration:
+    _attributes:
+      extend:                           soteshop35.yml
+      
+    products:
+        model_fillin:
+            Product:
+                m_category:   
+                    params:             {ids: [id_category1, id_category2, id_category3, id_category4, id_category5]}
+                m_product_options:      {params: [xml_options, user_id]}
+                m_image:                {params: [photo_uid, photo_count, photo, user_id]}

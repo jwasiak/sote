@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="fr" datatype="plaintext" date="2012-07-02T03:01:11Z">
+		<body>
+			<trans-unit id="1">
+				<source>Producent</source>
+				<target>Producteur</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Proszę podać prawidłowe kryteria wyszukiwania, minimalna ilość znaków %min_len%.</source>
+				<target>Veuillez saisir les critères de recherche corrects. Nombre minimum de caractères : %min_len%.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>szukaj</source>
+				<target>rechercher</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Szukanie standardowe</source>
+				<target>Recherche standard</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Szukanie zaawansowane</source>
+				<target>Recherche avancée</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Cena od</source>
+				<target>Prix à partir de</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>do</source>
+				<target>jusqu’à</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>brutto</source>
+				<target>TTC</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>netto</source>
+				<target>HT</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Niestety żaden produkt nie spełnia kryteriów wyszukiwania które wpisałeś. Spróbuj użyć innego słowa lub wyszukaj produkt według kategorii.</source>
+				<target>Malheureusement, aucun produit ne correspond à vos critères de recherche. Essayez de saisir un autre mot ou cherchez le produit par catégories.</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Wyszukiwanie</source>
+				<target>Recherche</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Dowolny</source>
+				<target>Quelconque</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Szukaj</source>
+				<target>Rechercher</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Dokładne szukanie</source>
+				<target>Recherche précise</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Dopasuj wszystkie wyrazy</source>
+				<target>Ajuster tous les mots</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Filtruj po producentach</source>
+				<target>Filtrer par producteur</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Wszyscy producenci</source>
+				<target>Tous les producteurs</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Sortuj po</source>
+				<target>Trier par</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Trafności</source>
+				<target>Exactitude</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cenie</source>
+				<target>Prix</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Nazwie</source>
+				<target>Nom</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nazwa produktu</source>
+				<target>Nom du produit</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Kategorie</source>
+				<target>Catégories</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Wybierz producenta</source>
+				<target>Choisissez le producteur</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Przytrzymaj Ctrl aby zaznaczyć wiele kategorii.</source>
+				<target>Pressez la touche Ctrl pour sélectionner plusieurs catégories.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Szukaj w opisach</source>
+				<target>Rechercher dans les descriptions</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Najnowszym</source>
+				<target>Le dernier</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Więcej</source>
+				<target>Plus</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Więcej wyników</source>
+				<target>Plus de résultats</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>tylko za punkty</source>
+				<target>seulement avec des points</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>dodaj do koszyka</source>
+				<target>ajouter au panier</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>Vous n’avez pas assez de points.</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>Connectez-vous pour acheter un produit.</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>Le seuil des points n’a pas été atteint.</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>Pour atteindre le seuil, il vous faut encore</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

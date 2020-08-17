@@ -1,0 +1,6 @@
+list:
+    menu:
+        display:           [export_extend, import_extend]
+        fields:
+            export_extend:        {name: Eksport opisów, action: stExtendImportExportBackend/export, i18n: stExtendImportExportBackend}
+            import_extend:        {name: Import opisów, action: stExtendImportExportBackend/import, i18n: stExtendImportExportBackend}

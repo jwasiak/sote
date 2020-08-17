@@ -1,0 +1,309 @@
+# default values
+# $Id$
+#
+all:
+    .list:
+        default_desktop:
+
+            - stOrder
+            - stProduct
+            - stUser
+            - stPayment
+            - stNewsletterPlugin
+            - appProductAttributesPlugin
+            - stCategory
+            - stProducer
+            - stDiscountPlugin
+            - stPriceCompare
+            - stDelivery
+            - stGiftCardPlugin
+            - stBlogPlugin
+            - { route: "stWebpageBackend/list", label: Informacje, icon: stWebpagePlugin, name: stBackend }
+            - stReview
+            - stThemePlugin
+            - stFastCacheSymfony
+            - stConfigurationPlugin
+            - { route: "stBackend/additionalApplicationsList", label: Dodatkowe aplikacje, icon: addition_application, name: stBackend }
+
+        default_all_desktop:
+            - stAllegroPlugin
+            - stAuthUsers
+            - stWebApiPlugin
+            - stSlideBannerPlugin
+            - stSecurityPlugin
+            - stLockPlugin
+            - stBoxPlugin
+            - stCeneoPlugin
+            - stDelivery
+            - stAvailabilityPlugin
+            - stDotpayPlugin
+            - stThemePlugin
+            - stInvoicePlugin
+            - stFastCacheSymfony
+            - stGoogleAnalyticsPlugin
+            - stProductGroup
+            - stDiscountPlugin
+            - stShopInfoPlugin
+            - stCategory
+            - stUser
+            - stConfigurationPlugin
+            - stAssetImageConfiguration
+            - stBasket
+            - stCountriesPlugin
+            - stLukasPlugin
+            - stMigration
+            - stMoneybookersPlugin
+            - stNavigationPlugin
+            - stNewsletterPlugin
+            - stNokautPlugin
+            - stMailPlugin
+            - stOferciakPlugin
+            - stOkazjePlugin
+            - stOptimizationPlugin
+            - stPaypalPlugin
+            - stPlatnosciPlPlugin
+            - stPayment
+            - stPolcardPlugin
+            - stPriceCompare
+            - stAddThisPlugin
+            - stPositioningPlugin
+            - stProducer
+            - stProduct
+            - stPrzelewy24Plugin
+            - stRadarPlugin
+            - stReview
+            - stSocialLinksPlugin
+            - stSkapiecPlugin
+            - stSklepy24Plugin
+            - stTaxPlugin
+            - stWebpagePlugin
+            - stTextPlugin
+            - stCurrencyPlugin
+            - stLanguagePlugin
+            - stSearchPlugin
+            - stZakupomatPlugin
+            - stOrder
+            - stQuestionPlugin
+
+        module:
+            payment_type:                   Typy płatności
+            stCountriesArea:                Strefy krajów
+            stDeliveryGroup:                Dostawy - grupy kosztów
+            stCountriesDefine:              Domyślny kraj dostawy
+            stWebpageGroupBackend:          Grupy stron www
+            stWebpageBackend:               Strony www
+            stMailSmtpProfileBackend:       Profile SMTP
+            sfAsset:                        Media
+            Open:                           Zamów wersję komercyjną
+
+
+    generator:
+        efect:     blind
+    sf_captchagd:
+        image_width:                172 # image width in pixels
+        image_height:               50 # image height in pixels
+        chars:                      "1234567890" # possible chars in captcha
+        length:                     4 # length of captcha
+        font_size:                  18 # font size
+
+        # possible chars colors
+        font_color:                 ["8b8787", "550707", "3526E6", "88531E"]
+
+        # chars fonts
+        fonts:                      ["molten/molten.ttf", "akbar/akbar.ttf"]
+        background_color:           FFFFFF # image background color
+        border_color:               CCCCCC # image border color
+    security:
+      credential_dependencies:
+         access:
+            stWebpageBackend:       [stBoxBackend, stTextBackend]
+            sfGuardGroup:           [sfGuardUser]
+            stPriceCompare:      
+               - stZakupomatBackend
+               - stSklepy24Backend
+               - stSkapiecBackend
+               - stRadarBackend
+               - stOkazjeBackend
+               - stOferciakBackend
+               - stNokautBackend
+               - stCeneoBackend            
+         modification:
+            sfGuardGroup:           [sfGuardUser]
+    navigation_bar:
+      display:
+        homepage:             ~
+        orders:
+          view_orders:        ~
+          view_question:      ~
+          view_invoices:      ~
+          view_payments:      ~
+          gift_group:         ~
+          view_discount:      ~
+          view_points:     ~
+          gift_cards:         ~
+          view_deliverys:     ~
+          view_allegro:       ~
+          view_price_compare: ~
+        products:
+          view_products:      ~
+          view_categories:    ~
+          view_producer:      ~
+        clients:
+          view_clients:       ~
+          view_review:        ~
+          view_sociallinks:   ~
+        marketing:
+          banner:             ~
+          view_product_group: ~
+          view_blog:          ~
+          view_edittext:      ~
+          view_boxes:         ~
+          view_texts:         ~
+          view_newsletter:    ~
+          view_google_an:     ~
+          view_pixel_fb:      ~
+        configuration:
+          task_scheluder:     ~
+          mail:               ~
+          view_theme:         ~
+          product_1:          ~
+          product_2:          ~
+          view_configuration: ~
+          additional_apps:    ~
+      items:
+        task_scheluder:       { label: "Harmonogram zadań", icon: "/images/backend/main/icons/stTaskScheluderPlugin.png", route: "@stTaskScheluderBackend", i18n: stTaskScheluderBackend}
+        homepage:             { icon: /images/backend/beta/icons/18x18/logo_sote_top.png, label: false, route: "@homepage" }
+        gift_group:           { label: Gratisy w koszyku, icon: "/images/backend/main/icons/stGiftGroup.png", route: "@stGiftGroup", i18n: stGiftGroup }
+        orders:               { label: Sprzedaż, route: "@stOrderDefault", i18n: stOrder }
+        baskets:              { label: Koszyki, route: "@stBasketDefault", icon: "stBasket.png", i18n: stBasket }
+        view_points:          { label: System punktowy, icon: "stPointsPlugin.png", route: "points/list", i18n: stPointsBackend }
+        view_orders:          { label: Zamówienia, route: "@stOrderDefault", icon: "stOrder.png", i18n: stOrder }
+        view_question:        { label: Zapytania ofertowe, route: "stQuestionBackend/index", icon: "stQuestionPlugin.png", i18n: stQuestionBackend }
+        view_invoices:        { label: Faktury, route: "invoice", icon: "stInvoicePlugin.png", i18n: stInvoiceBackend }
+        view_payments:        { label: Płatności, route: "payment", icon: "stPayment.png", i18n: stPayment }
+        view_discount:        { label: Rabaty, route: "stDiscountBackend/index", icon: "stDiscountPlugin.png", i18n:  stDiscountBackend }
+        gift_cards:           { label: Bony zakupowe, icon: "stGiftCardPlugin.png", route: "giftcard/index", i18n: stGiftCardBackend }
+        view_deliverys:       { label: Dostawy, route: "stDeliveryBackend/index", icon: "stDelivery.png", i18n: stDeliveryBackend }
+        products:             { label: Oferta, route: "@stProductDefault", i18n: stProduct }
+        view_products:        { label: Produkty, route: "@stProductDefault" , icon: "stProduct.png", i18n: stProduct }
+        product_1:            { label: Konfiguracja produktów, route: "stProduct/config", icon: "stProduct.png", i18n: stProduct }
+        product_2:            { label: Prezentacja produktów, route: "stProduct/presentationConfig", icon: "stProductPresent.png", i18n: stProduct }
+        view_categories:      { label: Kategorie, route: "stCategory" , icon: "stCategory.png", i18n: stCategory }
+        view_product_group:   { label: Grupy produktow, route: "stProductGroup/index" , icon: "stProductGroup.png", i18n:  stProductGroup }
+        view_producer:        { label: Producenci, route: "stProducer/index" , icon: "stProducer.png", i18n:  stProducer }
+        view_review:          { label: Recenzje, route: "stReview/index", icon: "stReview.png", i18n:  stReview }
+        view_sociallinks:     { label: Linki społecznościowe, route: "stSocialLinksBackend/index", icon: "stSocialLinksPlugin.png", i18n:  stSocialLinksBackend }
+        clients:              { label: Społeczność, i18n: stBackend }
+        view_clients:         { label: Klienci, route: "stUser/list", icon: "stUser.png", i18n: stUser }
+        view_newsletter:      { label: Newsletter, route: "newsletter", icon: "stNewsletterPlugin.png", i18n: stNewsletterBackend }
+        marketing:            { label: Marketing }
+        configuration:        { label: Konfiguracja }
+        mail:                 { label: Obsluga poczty, route: "stMailAccountBackend/list", icon: "stMailPlugin.png", i18n: stMailAccountBackend }
+        view_edittext:        { label: Informacje, route: "stWebpageBackend/index" , icon: stWebpagePlugin.png , i18n: stBackend }
+        view_boxes:           { label: Boksy informacyjne, route: "stBoxBackend/index", icon: stBoxPlugin.png, i18n: stBackend }
+        view_texts:           { label: Teksty, route: "stTextBackend", icon: stTextPlugin.png, i18n: stBackend}
+        view_blog:            { label: Blog, route: "blog" , icon: stBlogPlugin.png , i18n: stBackend }
+        view_price_compare:   { label: Porównywarki cen, route: "@stPriceCompareDefault" , icon: stPriceCompare.png, i18n: stPriceCompare }
+        view_allegro:         { label: Allegro, route: "@stAllegroPlugin" , icon: stAllegroPlugin.png, i18n: stAllegroBackend, version: 'ST_SOTESHOP_VERSION_POLISH' }
+        view_google_an:       { label: Google Analytics, route: "stGoogleAnalyticsBackend/index" , icon: stGoogleAnalyticsPlugin.png}
+        view_pixel_fb:        { label: Piksel Facebooka, route: "appFacebookRemarketingBackend/index" , icon: appFacebookRemarketingPlugin.png}
+        view_configuration:   { label: Konfiguracja modułów, route: "@stConfigurationPlugin", icon: "stConfigurationPlugin.png" , i18n: stConfigurationBackend }
+        view_theme:           { label: Edycja grafiki, route: "stThemeBackend/index" , icon: "stThemePlugin.png" , i18n: stThemeBackend }
+        payments:             { label: Płatności , i18n: stPayments }
+        banner:               { label: Banery, route: "slideBanner", icon: stSlideBannerPlugin.png , i18n: stBackend }
+        additional_apps:      { label: Dodatkowe aplikacje, route: "stBackend/additionalApplicationsList", icon: addition_application.png, i18n: stBackend }
+    dashboard:
+      version:                1
+      default:
+         title:               Domyślny
+         layout:              three_column_layout1
+         gadgets:
+            - { name: application_shortcuts, options: { column: 1 } }
+            - { name: sote_help, options: { column: 2 } }
+            - { name: sote_news, options: { column: 3 } }
+      layouts:          
+        one_column_layout:    { columns: 1 }
+        two_column_layout1:   { columns: 2, stylesheet: on }
+        two_column_layout2:   { columns: 2, stylesheet: on }
+        two_column_layout3:   { columns: 2, stylesheet: on }
+        three_column_layout1: { columns: 3, stylesheet: on }
+        three_column_layout2: { columns: 3, stylesheet: on }
+
+      gadget_colors:          ["6EC9BB", "A8A0C9", "E4E4E4", "FCD7A3", "C9B2A0", "F1F1F1", "7DE879", "F2AC29"]
+
+      gadget_refresh_rates:
+        300:    { label: Co 5 minut, default: true }
+        900:    { label: Co 15 minut }
+        1800:   { label: Co 30 minut }
+        3600:   { label: Co 1 godzinę }
+
+      gadget_directory:
+        last_orders:
+          category:     Zamówienia
+          refresh:      900
+          thumb:        ~
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Zamówienia
+          description:  Element pokazujący ostatnie zamówienia jakich dokonano w sklepie.
+          source:       "@stDashboardGadget?action=lastOrders"
+
+        recently_ordered_products:
+          category:     Zamówienia
+          refresh:      900
+          thumb:        ~
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Ostatnio sprzedane produkty
+          description:  Element pokazujący ostatnie sprzedane produkty.
+          source:       "@stDashboardGadget?action=recentlyOrderedProducts"
+
+        last_registered_users:
+          category:     Użytkownicy
+          refresh:      900
+          thumb:        ~
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Ostatnio zarejestrowani użytkownicy
+          description:  Element pokazujący ostatnio Zarejestrowanych użytkowników w sklepie.
+          source:       "@stDashboardGadget?action=lastRegisteredClients"
+
+        application_shortcuts:
+          category:     Różne
+          thumb:        ~
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Skróty do aplikacji
+          description:  |
+            Gadżet wyświetlający konfigurowalne skróty do aplikacji
+          source:       "@stDashboardGadget?action=applicationShortcuts"
+          min_height:   235
+
+        sote_news:
+          category:     Różne
+          credentials:  {removable: [commercial]}
+          thumb:        ~
+          refresh:      1800
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Nowości SOTE
+          description:  Element pokazujący nowości dotyczące SOTE.
+          source:       "@stDashboardGadget?action=soteNews"
+          min_height:   175
+          max_height:   370
+
+        sote_help:
+          category:     Różne
+          credentials:  {removable: [commercial]}
+          thumb:        ~
+          refresh:      1800
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Pomoc
+          description:  Element pokazujący pomoc dla oprogramowania SOTESHOP.
+          source:       "@stDashboardGadget?action=soteHelp"
+          min_height:   175
+          max_height:   370
+
+        review_gadget:
+          category:     Użytkownicy
+          thumb:        ~
+          refresh:      900
+          author:       { name: SOTE, website: "http://www.sote.pl" }
+          title:        Ostatnio dodane recenzje produktów
+          description:  Gadżet informujący o ostatnio dodanych recenzjach produktów.
+          source:       "@stDashboardGadget?action=reviewGadget"

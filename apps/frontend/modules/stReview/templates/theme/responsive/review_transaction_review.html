@@ -1,0 +1,76 @@
+<div id="st_application-st_review-transaction_review">
+    {$form_start}
+        <div class="st_review-review_name">
+            {__ text="Ocena i recenzja transakcji"}
+        </div>
+        <br />
+        {if isset($reviewed_order)}
+            <table>
+                <td class="st_review-radio">
+                    {$radiobutton_positive_done} {__ text="Pozytywna"}
+                </td>
+                <td class="st_review-radio">
+                {   $radiobutton_neutral_done} {__ text="Neutralna"}
+                </td>
+                <td>
+                    {$radiobutton_nagative_done} {__ text="Negatywna"}
+                </td>
+            </table>
+            <br />
+            <div class="st_review-transaction_description">
+                {$description_done}
+            </div>
+            {if isset($agreement)}
+                <div class="st_review-transaction_agreement_checked">
+                    {$agreement_checkbox_done} {__ text="Wyrażam zgodę na opublikowanie mojej recenzji transakcji"}
+                </div>
+                <br />
+            {else}
+                {$input_hidden_transation_id}
+                <div class="st_review-transaction_agreement">
+                    {$agreement_checkbox} {__ text="Wyrażam zgodę na opublikowanie mojej recenzji transakcji"}
+                </div>
+                <div class="st_review-last_row">
+                    <div id="st_button-review-send" class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$save_submit}
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            {/if}
+        {else}
+            <table>
+                <td class="st_review-radio">
+                    {$radiobutton_positive} {__ text="Pozytywna"}
+                </td>
+                <td class="st_review-radio">
+                    {$radiobutton_neutral} {__ text="Neutralna"}
+                </td>
+                <td>
+                    {$radiobutton_negative} {__ text="Negatywna"}
+                </td>
+            </table>
+            <br />
+            <div class="st_field">
+                {$description}
+            </div>
+            
+            <div style="width: 480px">
+                <div class="st_review-transaction_agreement">
+                    {$agreement_checkbox_checked} {__ text="Wyrażam zgodę na opublikowanie mojej recenzji transakcji"}
+                </div>
+                <div class="st_review-last_row">
+                    <div id="st_button-review-send" class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$save_submit}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {/if}
+    </form>
+</div>

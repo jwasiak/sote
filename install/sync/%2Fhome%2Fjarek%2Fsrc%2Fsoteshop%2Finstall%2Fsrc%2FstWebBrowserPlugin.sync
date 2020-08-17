@@ -1,0 +1,11 @@
+/home/jarek/src/soteshop/plugins
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin/lib
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin/lib/sfWebBrowser.class.php
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin/lib/sfFopenAdapter.class.php
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin/lib/sfSocketsAdapter.class.php
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin/lib/sfCurlAdapter.class.php
+/home/jarek/src/soteshop/plugins/sfWebBrowserPlugin/lib/sfWebBrowserInvalidResponseException.class.php
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stWebBrowserPlugin
+/home/jarek/src/soteshop/packages/stWebBrowserPlugin/package.yml

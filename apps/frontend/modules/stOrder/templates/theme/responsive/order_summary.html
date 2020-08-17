@@ -1,0 +1,64 @@
+{set layout="one_column"}  
+<div id="order-summary">
+    <div class="title">
+        <h1>{__ text="Potwierdzenie zamówienia"}</h1>      
+    </div>
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                {__ text="Dziękujemy za złożenie zamówienia"}    
+            </h3>
+        </div>
+        <div style="clear: both;">
+            <div class="list-group-item clearfix">
+                <table class="table">
+                    <tr>
+                        <td class="th-td-right text-right">{__ text="Zamówienie nr"}:</td>
+                        <td><b>{$order_number}</b></td>
+                    </tr>
+                    <tr>
+                        <td class="th-td-right text-right">{__ text="Do zapłaty"}:</td>
+                        <td><b>{$order_total_amount}</b></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="list-group-item">
+                {$order_summary_text}
+                {$payment_type_summary_description}
+            </div>
+            <div class="list-group-item text-center">
+                <a class="btn btn-default" href="/">
+                    <span class="glyphicon glyphicon-arrow-left"></span>
+                    {__ text="Wróć do sklepu"}
+                </a>
+                {if $order_session_hash == $session_hash}
+                <a class="print btn btn-default" href="/orderPdf/show/id/{$id}/hash_code/{$hash_code}" target="_blank" rel="noindex, nofollow">
+                    <span class="glyphicon glyphicon-print"></span>
+                    {__ text="Drukuj"}
+                </a>
+                {/if}
+                
+                {if $order_session_hash == $session_hash}
+                <a class="download btn btn-default" href="/orderPdf/show/id/{$id}/download/1/hash_code/{$hash_code}" rel="noindex, nofollow">
+                    <span class="glyphicon glyphicon-file"></span>
+                    {__ text="Zamówienie PDF"}
+                </a>
+                {/if}
+                
+                {include_st_component module="stInvoicePdf" component="downloadInvoice"}
+                {if $show_payment_button}   
+                    <a href="{$payment_url}" class="btn btn-primary pay" rel="noindex, nofollow" id="order-pay-btn">
+                        <span class="glyphicon glyphicon-usd"></span>
+                        {if $credit}
+                            {__ text="Wypełnij wniosek"}
+                        {else}
+                            {__ text="Zapłać"}
+                        {/if}
+                    </a>
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>
+{$order_summary_socket}
+{st_get_component module="stPayment" component="processPayment" order=$instance}

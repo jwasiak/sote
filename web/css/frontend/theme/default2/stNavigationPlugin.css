@@ -1,0 +1,123 @@
+#stNavigatorPlugin_navigation_box_text {
+    overflow: hidden;
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+
+#stNavigatorPlugin_navigation_box_text a {
+    display: block;
+    float: left;
+    text-decoration: underline;
+}
+
+#stNavigatorPlugin_navigation_box_text .not_active {
+    float: left;
+    font-weight: normal;
+}
+
+#stNavigatorPlugin_navigation_box_text div {
+    float: left;
+    font-weight: bold;
+}
+
+#stNavigatorPlugin_navigation_box_text .arrow {
+    padding: 0px 5px;
+    font-weight: bold;
+    float: left;
+}
+
+#stNavigatorPlugin_last_viewed_products_box_text {
+    overflow: hidden;
+    float: right;
+    padding: 10px 0px 0px 0px;
+}
+
+.box_history {
+    float: right;
+    padding-right: 3px;
+}
+
+#path .box_history a {
+    display: block;
+    background: none;
+    float: left;
+    height: 20px;
+    padding: 4px 21px 0px 13px;
+}
+
+.history a {
+    padding: 0px;
+}
+
+.box_link {
+    float: left;
+}
+
+/*defaul2*/
+#path {
+    overflow: hidden;
+    padding: 3px 0px;
+}
+
+#path a {
+    background: url(/images/frontend/theme/default/arrow_category_leaf.png)
+        center right no-repeat;
+    display: block;
+    float: left;
+    height: 20px;
+    padding: 4px 21px 0px 13px;
+}
+
+
+#path span:last-child > a, #path span:only-child > a
+{
+    display: block;
+    float: left;
+    height: 20px;
+    padding: 4px 21px 0px 13px;
+    background: none;
+}
+
+#path .not_active {
+    background: url(/images/frontend/theme/default/arrow_category_leaf.png)
+        center right no-repeat;
+    float: left;
+    height: 20px;
+    padding: 4px 21px 0px 13px;
+    font-size: 12px;
+}
+
+#path .history {
+    background: url(/images/frontend/theme/default/arrow_category_leaf.png)
+        center right no-repeat;
+    float: left;
+    height: 25px;
+}
+
+#path .not_active_last {
+    float: left;
+    height: 20px;
+    padding: 4px 21px 0px 13px;
+}
+
+#path .left {
+    background:
+        url(/images/frontend/theme/default/stNavigationPlugin/left.gif)
+        top left no-repeat;
+}
+
+#path .right {
+    background:
+        url(/images/frontend/theme/default/stNavigationPlugin/right.gif)
+        top right no-repeat;
+    height: 26px;
+    padding-top: 1px;
+}
+
+#path #fastcache {
+    background: none;
+}
+
+#path #fastcache a {
+    padding-right: 10px;
+}

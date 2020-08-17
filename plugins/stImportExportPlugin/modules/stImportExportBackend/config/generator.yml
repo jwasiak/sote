@@ -1,0 +1,40 @@
+generator:
+    class:                                  stAdminGenerator
+    param:
+        model_class:                        ExportProfile
+        theme:                              simple
+        applications:                       [stProduct]
+        head:
+            package:                        stImportExportPlugin
+
+        fields:
+          name:                             {name: Nazwa}
+          fields:                           {name: Pola}
+
+        list:
+            display:                        [=name, _fields]
+            forward_parameters:             [model]
+            build_options:
+                related_id:                 forward_parameters.model
+            actions:
+                _create:                    {name: Dodaj}
+            object_actions:
+              _edit:                        -
+              _delete:                      -
+            title:                          Profile importu
+            description:                    Zarządzanie modułem importu/eksportu
+
+
+        edit:
+            display:                          [name, _field]
+            fields:
+                field:                        {name: Pola }
+            forward_parameters:               [model]
+            build_options:
+                related_id:                   forward_parameters.model
+            title:                            Edycja profilu importu/eksportu
+            description:                      Zarządzanie modułem importu/eksportu
+            actions:
+                _list:                        {name: Lista}
+                _save:                        {name: Zapisz}
+                _save_and_add:                {name: Zapisz i dodaj nowy}

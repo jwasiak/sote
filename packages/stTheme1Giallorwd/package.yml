@@ -1,0 +1,13 @@
+package:
+  name: stTheme1Giallorwd
+  stability: stable
+  version: 7.0.0.19
+  summary: 'Giallorwd Theme'
+  description: 'Giallorwd Theme'
+  notes: |
+    - Poprawa menu
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl

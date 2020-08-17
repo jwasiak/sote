@@ -1,0 +1,238 @@
+<div id="st_paczkomaty_map_content_loading">
+    <img src="/images/frontend/theme/default2/loading.gif" alt=""/>
+</div>
+<div id="st_paczkomaty_map_content">
+    <div id="st_paczkomaty_map_post_code">
+        <h3>{__ text="Podaj kod pocztowy"}</h3>
+        <div class="clear"></div>
+        <div id="st_paczkomaty_map_post_code_error">
+            <img src="{image_path image='exclamation.png'}" title="{__ text="Podany kod pocztowy jest nieprawidłowy."}" alt="{__ text="Podany kod pocztowy jest nieprawidłowy."}">
+        </div>
+        <input id="st_paczkomaty_map_post_code_input" name="st_paczkomaty_map_post_code_input" type="text" placeholder="__-___">
+        <input id="st_paczkomaty_map_post_code_button" type="button" value="{__ text="Szukaj"}">
+    </div>
+    <div id="st_paczkomaty_map_cities_box">
+        <h3>{__ text="Wybierz miasto"}</h3>
+        <div class="clear"></div>
+        <select id="st_paczkomaty_map_cities_list">
+            <option value="NONE">-- {__ text="wszystkie lokalizacje"} --</option>
+        </select>
+    </div>
+    <div id="st_paczkomaty_map_list_box">
+        <h3>{__ text="Wybierz Paczkomat"}</h3>
+        <div class="clear"></div>
+        <div id="st_paczkomaty_map_machines_list_div">
+            <ul id="st_paczkomaty_map_machines_list">
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="map_canvas" style="height: 95%; position: absolute; right: 1%; top: 3%; width: 69%;"/>
+{literal}
+
+    <script type="text/javascript" language="javascript">
+        function selectMachine(number) {
+            jQuery(function ($) {
+                if ($('#paczkomaty_overlay').data('overlay')) 
+                    $('#paczkomaty_overlay').data('overlay').close();
+
+                var messages = {/literal}{$messages}{literal}
+
+                $.paczkomatySelectMachine(number, messages);
+            });
+        };
+
+        jQuery(function ($) {
+            function createMachine(marker) {
+                return '<li class="st_paczkomaty_map_machines_list_element" ' +
+                ' data-maps-city="' + marker.city +
+                '" data-maps-machine-name="' + marker.number + 
+                '" data-maps-latitude="' + marker.latitude + 
+                '" data-maps-longitude="' + marker.longitude + '">' + 
+                '<b>' + marker.number + '</b>, ' + marker.street + ' ' + marker.house + ',<br />' +
+                marker.postCode + ' ' + marker.city +
+                '</li>';                   
+            }
+            $(document).ready(function () {
+
+                var messages = {/literal}{$messages}{literal}
+                var allMarkers = [];
+                var allMachines = [];
+                var machinesNames = {};
+
+                $('#st_paczkomaty_map_post_code_input').mask('00-000');
+
+                $("#st_paczkomaty_map_content_loading img").css('margin-top', $("#st_paczkomaty_map_content").height()/2);
+                var machines_list = $('#st_paczkomaty_map_machines_list');
+                $.getJSON('/paczkomaty/getMachines/machinesNamespace/{/literal}{$machinesNamespace}{literal}', function(data) {
+
+                    $('#map_canvas').gmap({'center': "52,20"}).bind('init', function(ev, map) {
+                        $('#map_canvas').gmap('option', 'zoom', 6);
+
+                        var cities = [];
+                        var results = '';
+                        $.each(data, function(i, marker) {
+                            
+                            if (marker.city == 'Bielsko Biała') {
+                                marker.city = 'Bielsko-Biała';
+                            } else if (marker.city == 'Bialystok') {
+                                marker.city = 'Białystok';
+                            }
+                            
+
+                            if ($.inArray(marker.city, cities) === -1) {
+                                $('#st_paczkomaty_map_cities_list').append($('<option>', {
+                                    value: marker.city,
+                                    text: marker.city
+                                }));
+                                cities.push(marker.city);
+                            }
+
+                            results += createMachine(marker);
+                            allMachines[i] = marker;
+                            machinesNames[marker.number] = i;
+                            
+
+                            m = $('#map_canvas').gmap('addMarker', { 
+                                'position': new google.maps.LatLng(marker.latitude, marker.longitude), 
+                                'icon': '/images/frontend/theme/default2/stPaczkomatyPlugin/marker-' + marker.cod + '.png',
+                                'bounds': true 
+                            });
+
+                            allMarkers[i] = m;
+
+                            m.click(function() {
+                                var content =   "<div id=\"st_paczkomaty_map_machine\">" +
+                                                "   <p id=\"st_paczkomaty_map_machine_name\">" + messages[4] + " " + marker.number + "</p>" +
+                                                "   <div id=\"st_paczkomaty_map_machine_address\">" +
+                                                "   " + marker.street + ' ' + marker.house + "<br />" +
+                                                "   " + marker.postCode + ' ' + marker.city + "<br />" +
+                                                "   </div>" +
+                                                "   <div id=\"st_paczkomaty_map_machine_button\" class=\"buttons\">" +
+                                                "       <a href=\"#st_basket-delivery\" onClick=\"selectMachine('" + marker.number + "');\" class=\"buttons\">" + messages[0] + "</a>" +
+                                                "   </div>" +
+                                                "</div>";
+                                $('#map_canvas').gmap('openInfoWindow', { 'content': content }, this);
+                            });
+                        });
+                        machines_list.html(results);
+                        {/literal}{if $configMapGroupPoints}{literal}
+                            var clusterStyles = [{
+                                    url: '/images/frontend/theme/default2/stPaczkomatyPlugin/markerClusterer.png',
+                                    height: 36,
+                                    width: 26,
+                                    anchorText: [12, 0]
+                                }, {
+                                    url: '/images/frontend/theme/default2/stPaczkomatyPlugin/markerClusterer.png',
+                                    height: 36,
+                                    width: 26,
+                                    anchorText: [12, 0]
+                                }, {
+                                    url: '/images/frontend/theme/default2/stPaczkomatyPlugin/markerClusterer.png',
+                                    height: 36,
+                                    width: 26,
+                                    anchorText: [12, 0]
+                                  }
+                                ];
+
+                            var mcOptions = {
+                                gridSize: 50,
+                                styles: clusterStyles,
+                            };
+
+                            $('#map_canvas').gmap('set', 'MarkerClusterer', new MarkerClusterer(map, $(this).gmap('get', 'markers'), mcOptions));
+                        {/literal}{/if}{literal}
+                        $('#st_paczkomaty_map_content').show();
+                        $('#st_paczkomaty_map_content_loading').hide();
+                        machines = $('#st_paczkomaty_map_machines_list_div li');
+                    });
+                });
+
+                $('#st_paczkomaty_map_cities_list').change(function() {
+                    var selected= $(this).val();
+                    $('#st_paczkomaty_map_post_code_input').val('');
+                    var results = '';
+                    if (selected == 'NONE') {
+                        $('#map_canvas').gmap('get', 'map').setCenter({lat: 52.12, lng: 18.9});
+                        $('#map_canvas').gmap('option', 'zoom', 6);
+                        $.each(allMachines, function() {
+                            if (this.number) {
+                                results += createMachine(this);
+                            }   
+                        });
+                    } else {
+                        $.each(allMachines, function() {
+                            if (this.city == selected) {
+                                results += createMachine(this);
+                            }
+                        });
+                        $('#map_canvas').gmap('search', { 'address': selected}, function(results, status) {
+                            if ( status === 'OK' ) {
+                                $('#map_canvas').gmap('get', 'map').panTo(results[0].geometry.location);
+                                $('#map_canvas').gmap('option', 'zoom', 11);
+                            }
+                        });
+                    }
+
+                    machines_list.html(results);
+                });
+
+                $("#st_paczkomaty_map_post_code_error img[title]").tooltip({ 
+                    effect: 'slide',
+                    opacity: 1,
+                    position: 'bottom right',
+                    offset: [15,4],
+                    tipClass: 'alert_tooltip'
+                });
+
+                function setMapToPostCode() {
+                    var postCode = $('#st_paczkomaty_map_post_code_input').val();
+                    $('#st_paczkomaty_map_content').hide();
+                    $('#st_paczkomaty_map_content_loading').show();
+                   
+                    $('#st_paczkomaty_map_cities_list').val("NONE");
+                    $.getJSON('/paczkomaty/getMachineByPostCode/' + postCode, function(machine) { 
+                        if (machine.name) {
+                            $('#map_canvas').gmap('get', 'map').panTo(new google.maps.LatLng(machine.latitude, machine.longitude));
+                            $('#map_canvas').gmap('option', 'zoom', 13);
+                            $("#st_paczkomaty_map_post_code_error").css('display', 'none');
+                            $.getJSON('/paczkomaty/getMachinesByPostCode/' + machine.postcode + '/10', function(data) {  
+                                var results = '';
+                                $.each(data, function() {
+                                    var index = machinesNames[this.name];
+                                    results += createMachine(allMachines[index]);
+                                });
+                        
+                                machines_list.html(results);
+                                $('#st_paczkomaty_map_content').show();
+                                $('#st_paczkomaty_map_content_loading').hide();
+                            });
+                        } else {
+                            $("#st_paczkomaty_map_post_code_error").css('display', 'inline');
+                                $('#st_paczkomaty_map_content').show();
+                                $('#st_paczkomaty_map_content_loading').hide();
+                        }
+                    });
+
+
+                }
+
+                $('#st_paczkomaty_map_post_code_button').click(function() {
+                    setMapToPostCode();
+                });
+
+                $('#st_paczkomaty_map_post_code_input').keypress(function(e) {
+                    if (e.which == 13)
+                        setMapToPostCode();
+                });
+
+                machines_list.on("click", ".st_paczkomaty_map_machines_list_element", function(event){
+                    $('#map_canvas').gmap('get', 'map').panTo(new google.maps.LatLng($(this).data('maps-latitude'), $(this).data('maps-longitude')));
+                    $('#map_canvas').gmap('option', 'zoom', 13);
+                    var index = machinesNames[$(this).data('maps-machine-name')];
+                    allMarkers[index].triggerEvent('click');
+                });
+            });
+        });
+    </script>
+{/literal}

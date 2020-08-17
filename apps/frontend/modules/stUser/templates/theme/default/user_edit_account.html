@@ -1,0 +1,75 @@
+<div id="st_user-edit_account" class="st_application">
+    <h1 class="st_title">
+        <div id="st_user-tag">
+            {$user_panel_icon}
+        </div>
+        {$my_account} / {__ text="Dane logowania"}
+    </h1>
+    {$user_panel_menu}
+    <div id="st_user-editaccount" >
+        {$form_start}
+            <fieldset>
+                <h5 class="st_title">
+                    {__ text="Edytuj e-mail (login)"}
+                </h5>       
+                <div class="st_row">
+                {$error_email}
+                {$label_email}
+                    <div class="st_field">
+                        {$input_email}
+                    </div>
+                </div>  
+                <div class="st_row_last">
+                    <div id="st_button-user-login" class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$update_email_submit}
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </fieldset>    
+        </form>
+        <br />       
+        {$form_start_2}
+            <fieldset>
+                <h5 class="st_title">
+                    {__ text="Zmień hasło"}
+                </h5>
+                <div class="st_row">
+                    {$label_user_oldpassword}
+                    {$error_user_oldpassword}
+                    <div class="st_field">
+                        {$input_user_oldpassword}
+                    </div>
+                </div>  
+                <div class="st_row">
+                    {$label_user_password1}
+                    {$error_user_password1}
+                    <div class="st_field">
+                        {$input_user_password1}
+                         <script type="text/javascript">
+		                  jQuery('#st_form-user-password1').pstrength();
+		                </script>
+                    </div>
+                </div>  
+                <div class="st_row">
+                    {$label_user_password2}
+                    {$error_user_password2}
+                    <div class="st_field">
+                        {$input_user_password2}
+                    </div>
+                </div>  
+                <div class="st_row_last">
+                    <div id="st_button-user-login" class="st_button-container">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                                {$update_password_submit}
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </fieldset>    
+        </form>
+    </div>
+</div>

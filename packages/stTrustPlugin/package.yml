@@ -1,0 +1,18 @@
+---
+package: 
+  name: stTrustPlugin
+  stability: stable
+  version: 1.0.1.5
+  summary: Gwarancja i zaufanie
+  description: Regulamin
+  notes: |
+     - Regualmin
+  maintainers: 
+    Bartosz Alejski: 
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl
+  dependency:
+    soteshop_base: 5.2.1
+    stWebpagePlugin: 7.0.6.5
+

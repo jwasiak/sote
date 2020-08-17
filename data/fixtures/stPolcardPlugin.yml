@@ -1,0 +1,16 @@
+PaymentType: 
+  PaymentType_9: 
+    module_name: stPolcard
+    active: 0
+    culture: pl_PL
+    name: Payeezy
+    summary_description: >
+      <p style="text-align: center;">VISA, Maestro, MasterCard, Diners Club, American Express, JCB, POLCARD</p>
+    
+PaymentTypeI18n: 
+  PaymentTypeI18n_9: 
+    id: PaymentType_9
+    culture: en_US
+    name: Payeezy
+    summary_description: >
+      <p style="text-align: center;">VISA, Maestro, MasterCard, Diners Club, American Express, JCB, POLCARD</p>

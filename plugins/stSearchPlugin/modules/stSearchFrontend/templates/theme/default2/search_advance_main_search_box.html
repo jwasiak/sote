@@ -1,0 +1,46 @@
+<div class="next_search">
+{$form_start}
+    <div class="st_row">
+        {$search_name_label}
+        <div class="st_field">
+            {$search_name}<br />
+            {$search_detail}{$search_detail_label} {$search_and_search}{$search_and_search_label} <br />
+        </div>
+    </div>
+	<div id="st_search-simple" class="st_search-hidden_div">
+		<div>{$switch_advance_search}</div>
+	</div>
+	<div id="st_search-advanced">
+    <div>{$switch_simple_search}</div>
+	    <div class="st_row">
+	        {$search_price_from_label}
+	        <div class="st_field">
+	            {$search_price_from} {$search_price_to_label} {$search_price_to}<br />
+	        </div>
+	    </div>
+		{if $producer_show}
+	    <div class="st_row">
+	        {$search_producer_label}
+	        <div class="st_field">
+	            {$search_producer}<br />
+	        </div>
+	    </div>
+		{/if}
+		{if $category_show}
+	    <div class="st_row">
+	        {$search_category_label}
+	        <div class="st_field">
+	            {$search_category}<br />
+	            {__ text="Przytrzymaj Ctrl aby zaznaczyć wiele kategorii."}
+	        </div>
+	    </div>
+		{/if}
+	    {$advance_search_socket}
+	    {$show_advance}
+	</div>
+    <div class="buttons right ">
+        <button type="submit" class="roundies regular">{__ text="Szukaj"}</button>
+    </div>
+</form>
+</div>
+<br class="clear"/>

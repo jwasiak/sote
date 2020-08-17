@@ -1,0 +1,16 @@
+Language:
+  Language_No:
+    culture: pl_PL
+    name: Norweska
+    shortcut: 'no'
+    active_image: no_active.png
+    inactive_image: no_inactive.png
+    active: 0
+    language: 'no'
+    is_translate: 1
+    system: 1
+LanguageI18n:
+  LanguageI18n_No:
+    id: Language_No
+    culture: en_US
+    name: Norwegian

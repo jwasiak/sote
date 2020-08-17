@@ -1,0 +1,1596 @@
+#st_navigation_bar-user 
+{
+    padding-top: 5px;
+    height: 22px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+ 
+#st_navigation_bar-user .st_selected a 
+{
+    font-weight: bold;	
+}
+
+#st_navigation_bar-user a
+{
+    font-weight: normal;
+}
+
+#st_user-account
+{
+    width: 320px;
+    margin: 0 auto;
+}
+#st_user-edit
+{
+    margin: 0 auto;
+}
+
+#st_user-basket .st_form .st_error
+{
+    color: red;
+    margin-top:5px;
+}
+
+#st_user-edit .st_content
+{
+    width: 750px;
+
+}
+
+#st_user-editaccount
+{
+    margin: 10px;
+    padding: 0 70px;
+}
+
+#st_button_edit_billing
+{
+    float: left;
+    margin-left:5px;
+}
+
+#st_button_edit_question
+{
+    width:120px;
+    margin-right: 581px;
+}
+
+#st_button_edit_save
+{
+    width:130px;
+    margin-right: 571px;
+}
+
+#st_button_save
+{
+    margin-right: 650px;
+}
+
+#st_button_edit_delivery
+{
+    float:left;
+    margin-left: 5px;
+}
+
+#st_button-user-edit-change-basket
+{ 
+    width: 120px;
+    margin: 0 auto;  
+}
+
+#st_button-user-edit-change
+{ 
+    width: 60px;
+    margin: 0 auto;  
+}
+
+#st_button-user-edit_data_basket, #st_button-user-edit_data_basket_login
+{    
+    
+}
+
+#st_application-user-edit-change span
+{ 
+    margin: 100px;
+}
+
+#st_user-edit_data
+{
+    margin: 0 auto;
+    width: 400px;
+}
+
+#st_user-edit_data fieldset, #st_user-login fieldset, #st_application-user-login fieldset
+{
+    border: none;
+    margin: 0;
+}
+
+
+
+
+#st_application-user-account fieldset
+{
+    border: none;
+}
+
+#st_application-user-account .st_content p
+{
+    text-align: center;
+}
+
+#st_application-user-account .st_content p b
+{
+    font-size:14px;
+}
+
+#st_application-user-account-buttons
+{
+    width:310px;
+    margin: 0px auto;
+}
+
+#st_application-user-remind
+{
+
+}
+
+#st_application-user-remind-message
+{
+    text-align: center; 
+    padding: 40px 0px;
+}
+
+#st_user-edit_data #st_form-user-company
+{
+    width: 200px;
+}
+
+#st_user-edit_data #st_form-user-email
+{
+    width: 200px;
+}
+
+#st_form-user_basket-email, #st_form-user_basket-password
+{
+    width: 202px;
+}
+
+
+#st_user-edit_data #st_form-user-name
+{
+    width: 94px;
+}
+
+#st_user-edit_data #st_form-user-surname
+{
+    width: 94px;
+}
+
+#st_user-edit_data #st_form-user-street
+{
+    width: 126px;
+}
+
+#st_user-edit_data #st_form-user-house
+{
+    width: 25px;
+}
+
+#st_user-edit_data #st_form-user-flat
+{
+    width: 20px;
+}
+
+#st_user-edit_data #st_form-user-code
+{
+    width: 76px
+}
+
+#st_user-edit_data #st_form-user-town
+{
+    width: 120px;
+}
+
+#st_user-edit_data #st_form-user-nip
+{
+    width: 200px;
+}
+
+#st_user-edit_data #st_form-user-phone
+{
+    width: 200px;
+}
+
+#st_user-edit_data #st_form-user-phone, #st_user-edit_data #st_form-user-full_name, #st_user-edit_data #st_form-user-address, #st_user-edit_data #st_form-user-address_more, #st_user-edit_data #st_form-user-region, #st_user-edit_data #st_form-user-pesel
+{
+    width: 200px;
+}
+
+
+#st_user-edit_data #st_form-user-country
+{
+    width: 200px;
+}
+
+
+#st_form-user-password
+{
+    width: 202px;
+}
+
+#st_form-user-oldpassword
+{
+    width: 164px;
+}
+
+
+.st_form-error
+{
+    border: 1px solid red;
+    box-shadow:3px 3px 3px #cccccc;
+}
+#st_user-edit_account .st_form.st_form_ver6 .st_row_last 
+{           
+    border-bottom: 1px solid #ccc;       
+}
+
+#st_application-user-login .st_form_ver6
+{
+    margin-left: 5px;
+    float: left;
+}
+
+
+#st_application-user-login-header p, #st_application-user-account-header p, #st_application-user-remind-header p
+{
+    margin-left: 200px;
+    padding: 10px;
+    margin: 0;
+}
+
+#st_application-user-login .st_content
+{
+	margin: 50px 10px;
+    padding: 0 70px;
+}
+
+#st_button-user-remind
+{
+    margin-right:40px;
+}
+
+#st_application-user-remind  .st_content,  #st_application-user-edit-change  .st_content
+{
+    padding: 10px 0;
+    margin: 10px 110px 10px 110px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    
+    background-repeat: repeat-x;
+}
+
+#st_application-user-edit_profil .st_content2
+{
+    border: 2px dotted #5C667B;
+    width: 407px;
+}
+
+#st_application-user-edit_profil .st_content3
+{
+    border: 1px dotted #5C667B;
+    width: 407px;
+}
+
+#st_application-user-edit_profil .st_content
+{
+    width: 407px;
+}
+
+#st_application-user-edit_profil .field_image1
+{
+    text-align:right; 
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+    display:none;
+}
+
+#st_application-user-edit_profil:hover .field_image1
+{
+    display:block;
+}
+
+#st_application-user-edit_profil .field_image2
+{
+    text-align:right; 
+    float:right; 
+    margin-right:10px; 
+    margin-top:10px;
+}
+
+#st_application-user-edit_profil .left
+{
+    float:left;
+}
+
+#st_application-user-login-foot
+{   
+    padding-top: 30px;
+    margin: 5px;
+}
+
+#st_application-user-remind-foot
+{   
+    padding-top: 30px;
+    margin: 5px;
+}
+
+#st_application-user-login-remind
+{
+    padding-top:5px; 
+    padding-bottom:5px;
+}
+
+#st_application-user-login-hidden_line
+{
+    border-top: 1px solid #f1f1f1; 
+    width: 100%;
+}
+
+#st_application-user-user_tab1
+{   
+    margin-left: 10px;
+    width: 230px;
+    float:left;
+}
+
+#st_application-user-edit_profil
+{
+    float: left;
+    margin: 7px;
+    width: 285px;
+    height:150px;
+}
+
+#st_application-user-edit_profil:hover
+{
+    background:#F7F7F7;
+    cursor:pointer;
+}
+
+.lowspace
+{
+    
+}
+
+.st_navigation_bar-user-user_tab
+{
+    height: 20px;
+    padding: 5px 5px 0px 2px;
+}
+
+.st_navigation_bar-user-user_tab li 
+{
+    float: left;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #fefefe;
+    padding: 0 5px;	
+}
+
+.st_navigation_bar-user-user_tab a 
+{
+    color: #6f6e6d;
+    text-decoration: none;
+}
+
+.st_navigation_bar-user-user_tab  .st_first 
+{
+    border-left: none;
+}
+
+.st_navigation_bar-user-user_tab .st_last
+{
+    border-right: none;
+}			
+
+#st_application-user-user_tab2
+{
+    margin-left: 20px;
+    width: 230px;
+    float:left;
+}
+
+#st_application-user-user_tab3
+{
+    margin-left: 20px;
+    width: 460px;
+    float:left;
+}
+
+#st_application-user-user_tab4
+{   
+    padding-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    width: 480px;
+    float:left;
+}
+
+#st_application-user-user_tab5
+{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    width: 460px;
+    float:left;
+}
+
+#st_user-basket_user_info
+{
+    border: none;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+#st_user-basket_user_info_tab1
+{
+    width: 340px;
+    float:left;
+}
+
+#st_user-basket_user_info_tab2
+{
+    width: 340px;
+    float:right;
+}
+
+#st_user-basket_user_info .st_form h5.st_title 
+{
+    padding: 0px 5px;
+    height: 25px;
+    margin: 0;
+}
+
+#st_user-basket
+{
+    margin: 0 auto
+}
+
+#st_user-basket-frama1
+{
+    float: left; 
+    padding:10px;
+    
+}
+
+#st_user-basket-frama2
+{
+    float: right; 
+    padding:10px;
+}
+
+.st_navigation_bar_user
+{
+    background-color: #F7F7F7;
+    border: 1px solid #EEEEEE;
+    height: 27px;
+    padding: 12px 65px 0px 15px;
+    border-left:1px solid #a9a9a7;
+    border-right:1px solid #a9a9a7;
+}
+
+.st_navigation_bar_user .st_first 
+{
+    padding: 0px 10px 0px 5px;
+}
+
+.st_navigation_bar_user li 
+{
+    float: left;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #fefefe;
+    padding: 0 10px;	
+}         
+
+.st_navigation_bar_user a 
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.st_navigation_bar_user a:hover 
+{
+    text-decoration: underline;
+}
+
+.st_navigation_bar_user  .st_first 
+{
+    border-left: none;
+    padding-right:5px;
+}
+
+.st_navigation_bar_user .st_last
+{
+    border-right: none;
+}			
+
+
+.st_application h1.st_title a
+{  
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 27px;
+    color: #154d81;
+    text-decoration: none;
+}
+
+#st_application-user-user h1.st_title, #st_user-edit_account h1.st_title, #st_user-order h1.st_title, #st_user-wallet h1.st_title, #st_user-edit h1.st_title
+{   
+    height: 50px;    
+}
+
+#st_user-tag
+{
+    float:right; 
+    margin-top:-5px; 
+    margin-right: 16px;
+}
+
+#st_application-user-login-header h1.st_title, #st_application-user-account-header h1.st_title, #st_application-user-remind-header h1.st_title
+{
+    float: left;
+    width: 200px;
+}
+
+#st_button-basket-order .st_button
+{
+    color: black;
+    text-decoration:none;
+}
+
+#st_button-basket-order .st_button-container
+{
+    height: 27px;   
+}
+
+#st_user-basket_comment_order
+{
+    width:696px; 
+    display:none
+}
+
+#st_order_product_addcomment
+{
+    text-align:left; 
+    width:100%
+}
+
+#st_application-promotion_exchange 
+{
+    margin:0pt auto;
+    width:400px;
+}
+
+#st_basket-voucher_exchange_avaible_list 
+{
+    clear: both;    
+}
+
+#st_application-promotion_exchange .st_form .st_row_last
+{
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#st_application-promotion_exchange .st_form .st_row_with_bottom_line
+{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 3px;
+}
+
+#st_user_create_account_position
+{
+    margin:0px auto;
+}
+
+#st_user_create_account
+{
+    background-color:#73B65A;
+    color:white;
+    padding-left:20px;
+    line-height:30px;
+    width: 322px;
+    font-weight:bold;
+    margin-bottom:10px
+}
+
+#st_user_edit_account
+{
+    background-color:#73B65A;
+    color:white;
+    padding-left:20px;
+    line-height:30px;
+    width: 298px;
+    font-weight:bold;
+    margin-bottom:10px
+}
+
+#st_user-edit .box_form_content{
+    margin: 30px 65px 15px;
+}
+
+.st_user-edit-data
+{ 
+    width: 407px;
+    margin: 0px auto;
+}
+#st_uset-edti-blank
+{
+    float:left; 
+    margin-left: 15px; 
+    width: 160px;
+}
+
+
+#st_user-login-link
+{
+    float: right; 
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+#st_user-description
+{
+    width: 200px;
+    height: 50px;
+}
+
+#user_data_profile_billing, #user_data_profile_delivery
+{
+    width: 380px;
+}
+
+.st_user_title
+{
+    font-weight: normal;
+    font-size: 11px;
+    color: #696969;
+}
+
+#st_form-user-billing-password1, #st_form-user-billing-password2
+{
+    width: 200px;
+}
+
+#st_application-user-account-remind
+{
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+
+/*default2*/
+
+#user_status
+{
+    margin:9px;
+
+}
+
+#overbaner #user_status
+{
+    
+}
+
+#user_status a
+{
+    text-decoration: none;
+}
+
+
+#st_user-register
+{
+	margin:10px 0 10px 96px;
+}
+
+.italic
+{
+    color:#999999;
+    font-style: italic;
+}
+
+#st_user-basket-frama2 h3, #st_order-quastion h3, #external_account h3
+{
+    border-color: #E3E3E3;
+    border-style: solid;
+    border-width: 0 0 1px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+
+#st_order-quastion
+{
+    float: right;
+    width: 200px;
+}
+
+#privacy_overlay, #terms_overlay, #right_2_cancel_overlay
+{
+    display:none;
+    z-index:10000;
+    background-color:#fff;
+    width:480px;
+    height: 500px;
+
+    border:1px solid #666;
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -webkit-border-radius-topleft:8px;
+    -webkit-border-radius-bottom-left:8px;
+    -webkit-border-radius-bottom-right:8px;
+}
+
+.privacy_overlay_content, .terms_overlay_content, .right_2_cancel_overlay_content
+{
+    height: 470px;
+    margin: 10px;
+    overflow: auto;
+    color: #262626;
+}
+
+#privacy_overlay .close, #terms_overlay .close, #right_2_cancel_overlay .close
+{
+    background-image: url('/images/frontend/theme/default2/buttons/close.png');
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+#external_account img, #user_status img
+{
+    height: 13px;
+    position: relative;
+    top: 3px;
+    margin-right:7px;
+}
+
+#external_account a
+{
+    text-decoration: none;
+}
+
+#external_account a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#external_google
+{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float:left;
+}
+
+#st_application-user-login #external_google
+{
+	margin-top:20px	
+} 
+
+#external_google .label
+{
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+#st_button-user-login-google img
+{
+    width: 72px;
+    height: 23px;
+}
+
+#st_user-basket-frama1 #st_user-login fieldset
+{
+    margin-top: 10px;
+}
+
+#basket-login-user
+{
+	width: 406px;
+}
+
+#st_user-basket-login-form
+{
+	width: 406px;
+	float: left;
+}
+
+#st_user-login_form #st_user-edit_data
+{
+    margin-top: 0px;
+}
+
+.separate
+{
+    font-size: 1.2em;
+    margin: 10px 28px;
+}
+
+.separate span
+{
+    text-decoration: line-through;
+    color: #cccccc;
+}
+
+#st_user-basket-frama2 .st_row label, #st_user-basket-frama1 .st_row label, #st_user-first_register .st_form label
+{
+    width: 110px;
+}
+
+#st_user-basket-frama2 .st_row .st_field, #st_user-basket-frama1 .st_row .st_field
+{
+    margin-left: 120px;
+}
+
+#st_user-basket-frama2 .st_error, #st_user-basket-frama1 .st_error, #showBillingData .st_error
+{
+    margin-left: 120px;
+}
+
+
+#st_application-user-login-login #external_google
+{
+ 
+}
+
+#st_user-basket_billing_login_form
+{
+    width: 406px;
+    float:left;
+}
+
+#st_user-basket_delivery_login_form
+{
+    width: 406px;
+    float:right;
+}
+
+#st_application-user-login-login
+{
+    width: 406px;
+    float:right;
+}
+
+#st_application-user-login-register
+{
+    width: 406px;
+    float:left;
+}
+
+#user-register-form
+{
+    width: 406px;
+    margin:15px auto;
+}
+
+#create_user_delivery
+{
+	width: 406px;
+    margin: 0 auto;
+}
+
+#create_user_billing
+{
+	width: 406px;
+    margin: 0 auto;
+}
+
+
+
+#user-register-form fieldset
+{
+	margin-left:45px;
+}
+
+#st_user-login
+{
+	padding: 17px 21px 8px;
+	margin-bottom:5px;
+}
+
+#basket-login-user h4, #st_user-edit_data h4
+{
+	border-bottom: 1px solid #EEEEEE;
+    padding-left: 5px;
+    color:#666666;
+}
+
+#st_basket-user
+{
+	margin-top:10px;	
+}
+
+
+.gray_text
+{
+	color:#666;
+}
+
+
+
+form .st_field { position: relative;}
+form .st_field label { position: absolute; top: 0; left: 0;}
+form .st_field br {display: none;}
+
+
+form fieldset .st_field input,
+form fieldset .st_field textarea {
+	padding: 4px;
+	width: 270px;
+	margin: 0;
+}
+
+form fieldset .st_field .checkobox
+{
+	width: 20px;
+}
+ 
+
+form fieldset .st_field label {
+	width: 260px;
+	display: block;
+	margin: 5px 5px 5px 6px;
+	padding: 0;
+	color: #AAAAAA;
+	font-style: italic;
+	cursor:text;
+}
+
+form fieldset .st_field textarea {
+	padding: 2px;
+	width: 404px;
+}
+
+#town, #delivery_town, #billing_town, #billing-town
+{
+	width: 195px;
+}
+
+#code, #delivery_code, #billing_code, #billing-code
+{
+	width: 70px;
+}
+
+.vertical-align-middle input, .vertical-align-middle span
+{
+	vertical-align: middle;	
+}
+
+#company_fields, #account_fields
+{
+	display:none;
+}
+
+.error_label_long
+{
+    margin-left: 273px;
+}
+
+.error_label_short
+{
+    margin-left: 143px;
+}
+
+.password-min-char
+{
+	color:#666666;
+	margin-left: 5px;
+}
+
+.password-strength-bar
+{
+	width: 265px !important;
+}
+
+#basket-login-form .st_row
+{
+	padding: 1px 0px;
+}
+
+#basket-login-form
+{
+    float:left;
+    margin-left: 24px;
+    margin-bottom: 10px;
+}
+
+#st_button-user-login-account button
+{
+    padding: 4px 10px 5px 7px;
+}
+
+#st_button-user-login-account
+{
+    margin-left: 5px;
+}
+
+#st_button-user-login-account img
+{
+    width: 73px;
+    height: 20px;
+}
+
+#basket-login-form fieldset
+{
+    border: none;
+}
+
+#st_button-user-login, #st_button-user-login_success
+{
+    margin-left:5px;
+    margin-top:-1px;
+}
+
+#basket-login-user .st_field label, #st_application-user-login-login .st_field label
+{
+	width: 180px;
+}
+
+
+#create_account_form fieldset
+{
+	border:none;
+	margin-top:15px;
+	margin-left: 70px;
+	margin-bottom: 15px;
+} 
+
+#create_account_form .st_row 
+{   
+    padding: 1px 0;
+}
+
+#st_user-first_register .st_content
+{
+	margin: 10px;
+    padding: 0 70px;
+}
+
+#st_button-user-edit_data
+{
+  	margin-right: 210px;
+    margin-top: 15px;	
+}
+
+#order_form_login #user_delivery_profile, #order_form_login #user_billing_profile 
+{
+	font-size: 10px;
+    margin-left: 73px;
+    width: 273px;
+    margin-top:10px;
+}
+
+#external_account
+{
+	font-size: 14px;
+	margin-left: 4px;
+}
+
+
+
+#text-billing-full_name
+{
+	margin-top: 5px;
+}
+
+#invoice_message
+{
+	font-style:italic;
+	color:#AAAAAA;
+	font-size: 12px;
+	display: none;	
+}
+
+/********************************* new css ***********************************/
+#order_form
+{
+	float: right;	
+}
+
+#order_form_billing, #order_form_delivery
+{
+	width: 407px;
+}
+
+#order_form_delivery
+{
+	display: none;
+}
+
+#order_form_login #order_form_delivery
+{
+	display: block;
+	margin-top:0px;
+}
+
+
+#order_form_login #order_form_billing .box_form_content, order_form_login #order_form_delivery .box_form_content
+{
+	margin: 15px 65px;
+}
+
+.box_form
+{
+	border: 1px solid #EEEEEE;
+	margin-bottom: 15px;
+}
+
+.box_form_content
+{
+	margin: 15px 65px;
+}
+
+.box_form:hover 
+{
+	border-color: #CCCCCC #AAAAAA #AAAAAA #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 3px 3px 3px #CCCCCC;
+}
+
+.box_form fieldset
+{
+	border: medium none;
+}
+
+.box_form h3
+{
+    background-color: #FFFFFF;
+    color: #AAAAAA;
+    float: left;
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+    margin-left: 10px;
+    margin-top: -0.7em;
+    padding: 0 5px;
+}
+
+.box_form:hover h3
+{
+	color:#666666;
+}
+
+#order_form .st_row, #order_form_billing .st_row, #order_form_delivery .st_row, #user-register-form .st_row, #st_user-edit_data .st_row, #st_user-editaccount .st_row, #st_application-user-login .st_row
+{
+	padding: 2px 0px;
+}
+
+#code_billing, #code_delivery
+{
+	width: 60px;
+}
+
+#password1_billing, #password2_billing
+{
+    
+}
+
+#town_billing, #town_delivery
+{
+	width: 206px;
+}
+
+#order_form_billing .box_form_content
+{
+	margin-bottom:0px;	
+}
+
+#footer_form
+{
+	margin: 0px 64px 15px;
+}
+
+#user_data_billing_country, #user_data_delivery_country, #user_data_country, #billing-country, #billing_country, #st_form-user_delivery-country-select
+{
+	width: 270px;
+}
+
+
+
+#label-password2, #label-password1
+{
+	width: 130px;
+}
+
+#order_form_delivery
+{
+	border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+
+.box_form input, .box_form textarea, .box_form select
+{
+    font-size: 16px;
+}
+
+#edit-login, #edit-password, #edit-billing, #edit-delivery
+{
+	width: 406px;	
+}
+
+
+#edit-password #password1, #edit-password #password2, #edit-password #oldpassword
+{
+    width: 270px;
+}
+
+
+#st_user-editaccount .box_form
+{
+	margin-bottom:20px;	
+}
+
+.user_profile_content
+{
+	font-size:14px;
+	color:#666666;
+
+}
+
+#change_delivery, #change_billing
+{
+	padding:5px;
+	border-left:1px solid #EEEEEE;
+	border-bottom:1px solid #EEEEEE;
+	border-radius: 0px 5px 0px 5px;
+}
+
+#change_delivery:hover, #change_billing:hover
+{
+	cursor:pointer;
+}
+
+#st_application-user-user .content_frame
+{   
+    padding: 0px 10px;
+    min-height:450px;
+}
+
+#change_billing a, #change_delivery a
+{
+	text-decoration: none;	
+}
+
+#user-register-form .password-strength-bar 
+{
+    width: 265px !important;
+    margin-top: 5px;
+}
+
+
+#edit-password .password-strength-bar
+{
+	width: 265px !important;
+    margin-top: 5px;
+}
+
+.red, .red a
+{
+	color:red;
+}
+
+#remind_form
+{
+	width: 407px;
+	margin:15px auto;
+}
+
+
+
+#remind_form fieldset 
+{
+    margin-left: 45px;
+}
+
+#remind_form .st_row
+{
+	padding: 2px 0px;
+}
+
+#st_application-user-edit_profil
+{
+	color: #666666;
+    font-size: 14px;
+    
+}
+
+#st_user-edit .content 
+{
+    margin: 10px;
+}
+
+#user-new-password-form
+{
+    margin: 15px auto;
+    width: 407px;
+}
+
+#user-new-password-form fieldset 
+{
+    margin-left: 45px;
+}
+
+
+#user-new-password-form .st_row
+{
+   padding: 2px 0px;	
+}
+
+#order_form_billing .password-strength-bar
+{
+	margin-top: 5px;
+}
+
+.full_name_space
+{
+	margin-top: 5px;
+}
+
+.invoice_text
+{
+	font-size:12px;
+	font-style: italic;
+	color: #CCCCCC;
+}
+
+#st_application-user-login-login .content
+{
+	margin: 35px 50px;
+}
+
+.img_icons_config {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 9px;
+    text-align: center;
+}
+.box_icons_config {
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 80px;
+}
+.box_icons_config a {
+    font-size: 0;
+    line-height: 0;
+}
+.img_icons_config .font_normal_config {
+    line-height: 12px;
+    text-align: center;
+}
+
+.font_normal_config a {
+    background-color: #F4F4F4;
+    border: medium none;
+    border-radius: 0 0 5px 5px;
+    color: #555555;
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 1px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+#user_wait_confirm
+{
+	width: 407px; 
+	margin: 15px auto;
+}
+
+#logout_form
+{
+	width: 407px; 
+	margin: 15px auto;
+}
+
+select, input, textarea 
+{
+  padding: 3px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  outline: none;
+  background: #fff;  
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+select, input 
+{
+  line-height: 15px;
+}
+
+select 
+{
+  padding: 2px;
+}
+
+.st_form_ver6 .st_row {
+    clear: both;
+}
+
+.st_form_ver6 .st_error {
+    color: red;
+}
+
+textarea:focus,
+input[type=text]:focus,
+input[type=password]:focus {
+  border-color: #aaa !important;
+  background-color: #eeeeee !important;
+}
+
+
+
+#privacy_webpage br
+{
+	display: inline;
+}
+
+#user_data_billing_privacy, #st_form-user-privacy {
+    float: left;
+    margin: 2px 3px 0 1px;
+    width: 20px;
+}
+
+#user_data_billing_privacy_content {
+    float: left;
+    width: 200px;
+}
+
+#st_form-user-newsletter{
+margin-right:7px;    
+}
+
+.alert_tooltip
+{
+    background-color: rgba(220, 0, 0, 0.9);
+    border: 2px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px rgba(50, 50, 50, 0.75);
+    color: #222222;
+    display: none;
+    padding: 2px 4px;
+    z-index: 10000;
+    color:#ffffff;
+}
+
+.error_tooltip
+{
+     height: 0; 
+     left: -20px; 
+     position: relative; 
+     top: 6px; 
+     width: 20px;
+}
+
+.profile_tooltip
+{
+    
+     
+}
+
+.message_tooltip
+{
+   background-color: rgba(220, 220, 220, 0.898);
+    border: 2px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px rgba(50, 50, 50, 0.75);
+    color: #222222;
+    display: none;
+    padding: 10px 15px;
+    z-index: 10000;
+}
+
+#st_application-user-login-login #st_form-user-email{
+    width:202px;
+}
+
+.default{
+    background-color: #f7f7f7;
+}
+
+#st_user-editaccount #change_billing_edit, #st_user-editaccount #change_delivery_edit{
+    
+     padding: 5px;
+}
+
+#st_user-editaccount #change_billing_edit a, #st_user-editaccount #change_delivery_edit a{
+    
+     text-decoration:none;
+}
+
+#order_form_description{
+    width: 535px; 
+    margin-bottom: 23px;
+}
+
+#order_description_text
+{
+    font-size: 12px;
+    margin: 0 10px 10px;
+    min-height: 25px;
+    height: 25px;
+    padding: 4px;
+    resize: vertical;
+    width: 515px;
+}
+
+
+#order_description_text_label
+{
+    margin:15px;    
+}
+
+#st_user-login .login_text
+{
+    display: none;
+}
+
+#st_button-user-edit_data.two_frame
+{
+    margin-right: 0px;
+}
+
+#st_button-user-edit_data.one_frame
+{
+    margin-right: 210px;
+}
+
+#underbaner .tooltip_account a{
+font-weight: normal;    
+}
+
+#underbaner .tooltip_account .bold a{
+    font-weight: bold;
+}
+
+#user_status .tooltip_account a, #user_status .tooltip_account span
+{
+    color: #000;
+    display: block;
+}
+
+.tooltip
+{
+    display:none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    min-height:20px;
+    font-size:11px;
+    color:#000;
+    padding: 5px 10px;
+    z-index: 10000;
+    max-width:250px;
+}

@@ -1,0 +1,17 @@
+package:
+  name: stThemeArgentorwd
+  stability: stable
+  version: 7.2.2.2
+  summary: 'Edycja grafiki'
+  description: 'Temat graficzny Argentorwd'
+  notes: |
+    -  Poprawka graficzna
+  maintainers:
+    'Grzegorz Kocik':
+      role: lead
+      user: grzegorz
+      email: grzegorz.kocik@sote.pl
+    'Bartosz Alejski':
+      role: lead
+      user: bartek
+      email: bartosz.alejski@sote.pl

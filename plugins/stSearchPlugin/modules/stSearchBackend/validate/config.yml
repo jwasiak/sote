@@ -1,0 +1,15 @@
+fields:
+    config{items_per_page}:
+        required:
+            msg:       Proszę podać liczbę wyników na stronie
+        sfNumberValidator:
+            nan_error:  Proszę podać wartość liczbową
+            min:        0
+            min_error:  Minimalna wartość 5
+    config{category_depth}:
+        required:
+            msg:       Proszę podać ograniczenie głębokość kategorii
+        sfNumberValidator:
+            nan_error:  Proszę podać wartość liczbową
+            min:        0
+            min_error:  Minimalna wartość 0

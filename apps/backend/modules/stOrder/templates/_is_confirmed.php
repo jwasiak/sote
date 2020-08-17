@@ -1,0 +1,1 @@
+<?php echo checkbox_tag('order[is_confirmed]', true, $order->getIsConfirmed()) ?>

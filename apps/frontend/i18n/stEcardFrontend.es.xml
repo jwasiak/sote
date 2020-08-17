@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="es" datatype="plaintext" date="2011-11-04T04:26:37Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Pago </target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Dziękujemy za dokonanie płatności.</source>
+				<target>Gracias por realizar el pago.</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Kliknij przycisk zapłać aby przejść do serwisu eCard.</source>
+				<target>Haga clíc aquí para pasar al servicio eCard.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapłać</source>
+				<target>Pagar </target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Płatność została błędnie skonfigurowana.</source>
+				<target>El pago ha sido mal configurado.</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Płatność nie została zrealizowana.</source>
+				<target>El pago no pudo realizarse.</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Kliknij przycisk</source>
+				<target>Haga clíc en el botón</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>"Zapłać"</source>
+				<target>"Pagar "</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>aby przejść do serwisu eCard.</source>
+				<target>para pasar al servicio eCard.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

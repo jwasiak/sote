@@ -1,0 +1,17 @@
+package:
+  name: stLanguagePlugin
+  stability: stable
+  version: 7.1.1.17
+  summary: 'Wersje jezykowe'
+  description: 'Zarzadzanie wersjami jezykowymi'
+  notes: | 
+    - Poprawka tlumaczenia dodatkowych zakladek na karcie produktu
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stFrontend: 1.0.8.10
+    stBackend: 1.0.4
+    stBase: 1.0.8.42

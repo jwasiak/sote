@@ -1,0 +1,173 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stThemePlugin.lib.model
+  st_theme_layout: 
+    _attributes: 
+      phpName: ThemeLayout
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    theme_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_theme
+      foreignReference: id
+      onDelete: cascade
+    sf_guard_user_id: 
+      type: INTEGER
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+    container: 
+      type: VARCHAR
+      size: 255
+    blocks: 
+      type: LONGVARCHAR
+  st_theme: 
+    _attributes: 
+      phpName: Theme
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    base_theme_id: 
+      type: INTEGER
+      foreignTable: st_theme
+      foreignReference: id
+      onDelete: setnull
+    theme: 
+      type: VARCHAR
+      size: 48
+      required: true
+      index: unique
+    active: 
+      type: BOOLEAN
+      default: false
+    opt_color_scheme: 
+      type: VARCHAR
+      size: 32
+    version: 
+      type: INTEGER
+    is_system_default: 
+      type: BOOLEAN
+      required: true
+      default: false
+    is_hidden:
+      type: BOOLEAN
+      required: true
+      default: false
+  st_theme_css: 
+    _attributes: 
+      phpName: ThemeCss
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    theme_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_theme
+      foreignReference: id
+      onDelete: restrict
+    css_head_id: 
+      type: VARCHAR
+      size: 255
+    css_content: 
+      type: LONGVARCHAR
+  st_theme_color_scheme: 
+    _attributes: 
+      phpName: ThemeColorScheme
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    theme_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_theme
+      foreignReference: id
+      onDelete: restrict
+    name: 
+      type: VARCHAR
+      size: 255
+    is_default: 
+      type: BOOLEAN
+      default: 0
+
+  st_theme_config: 
+    _attributes: 
+      phpName: ThemeConfig
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      foreignTable: st_theme
+      foreignReference: id
+      onDelete: cascade
+    parameters: 
+      type: LONGVARCHAR
+      phpType: array
+
+  st_theme_content:
+    _attributes: 
+      phpName: ThemeContent
+      isI18N: true
+      i18nTable: st_theme_content_i18n
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    theme_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_theme
+      foreignReference: id
+      onDelete: cascade
+    content_id:
+      type: VARCHAR
+      size: 48
+      required: true
+    opt_name:
+      type: VARCHAR
+      size: 64
+      required: true
+    opt_content:
+      type: VARCHAR
+      size: 1024
+      required: false
+    _uniques:
+      content_id_idx:
+        - content_id
+        - theme_id
+
+  st_theme_content_i18n:
+    _attributes: 
+      phpName: ThemeContentI18n
+    id: 
+        type: integer
+        required: true
+        primaryKey: true
+        foreignTable: st_theme_content
+        foreignReference: id
+        onDelete: cascade
+    culture:
+        isCulture: true
+        primaryKey: true
+        type: VARCHAR
+        size: 7
+    name:
+      type: VARCHAR
+      size: 64
+      required: true    
+    content:
+      type: VARCHAR
+      size: 1024
+      required: false

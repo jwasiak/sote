@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="ru" datatype="plaintext" date="2011-11-04T04:25:59Z">
+		<body>
+			<trans-unit id="1">
+				<source>treść wiadomości</source>
+				<target>содержание сообщения</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>twój adres e-mail</source>
+				<target>ваш адрес электронной почты</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>informacje dodatkowe</source>
+				<target>дополнительная информация</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>adres e-mail Twojego znajomego</source>
+				<target>адрес электронной почты вашего знакомого</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>cyfry z obrazka</source>
+				<target>цифры с картинки</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Wiadomość o treści</source>
+				<target>Сообщение следующего содержания:</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>została wysłana do</source>
+				<target>отправлено (кому)</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Polecenie produktu</source>
+				<target>Рекомендация продукта</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Dziękujemy</source>
+				<target>Спасибо</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Polecenie do tego znajomego zostało już raz wysłane</source>
+				<target>Рекомендация этому знакомому уже высылалась ранее</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Możesz polecić produkt innemu znajomemu</source>
+				<target>Вы можете порекомендовать этот продукт другому знакомому</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij</source>
+				<target>Отправить</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Poleć produkt</source>
+				<target>Порекомендовать продукт</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Brak adresu e-mail</source>
+				<target>Нет адреса электронной почты</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Неправильный формат адреса электронной почты</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Wpisz poprawne cyfry</source>
+				<target>Впишите правильные цифры</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Powrót</source>
+				<target>Назад</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Data polecenia produktu</source>
+				<target>Дата рекомендации продукта</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Produkt polecił</source>
+				<target>Продукт рекомендовал</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Adresat (e-mail)</source>
+				<target>Адрес электронной почты</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Treść</source>
+				<target>Содержание</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Nadawca (e-mail)</source>
+				<target>Отправитель (адрес электронной почты)</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Cyfry z obrazka</source>
+				<target>Цифры на изображении</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Polecenie produktu.</source>
+				<target>Рекомендация продукта</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Wprowadzono zły numer.</source>
+				<target>Введен неправильный номер.</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Polecone od</source>
+				<target>Рекомендация от</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Ta wiadomość została wysłana ze sklepu internetowego</source>
+				<target>Это сообщение отправлено из Интернет-магазина</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Pokaż produkt w sklepie</source>
+				<target>Показать продукт в магазине</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Opis produktu</source>
+				<target>Описание продукта</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

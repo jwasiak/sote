@@ -1,0 +1,10 @@
+<div class="st_producer_filter_frame">
+{__ text="Filtruj po producentach"}: {$clear_link}
+{foreach key=row item=producer from=$results}
+    {if $chosen_producer == $producer.id}
+    | <span style="font-weight: bold;">{$producer.name}</a></span>
+    {else}
+    | <a href="/product/list/id_category/{$category_id}/producer_filter/{$producer.id}">{$producer.name}</a>
+    {/if}
+{/foreach}
+</div>

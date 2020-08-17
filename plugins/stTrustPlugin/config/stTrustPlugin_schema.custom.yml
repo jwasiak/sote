@@ -1,0 +1,57 @@
+propel:
+    st_trust: 
+        _attributes: 
+            phpName: Trust
+            isI18n: true
+            i18nTable: st_trust_i18n
+
+    st_trust_i18n:
+        _attributes:
+            phpName: TrustI18n
+        id:
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_trust
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7      
+        field_description:
+          type: LONGVARCHAR      
+        field_label_f:
+          type: VARCHAR
+          size: 255
+        field_sub_label_f:
+          type: VARCHAR
+          size: 255
+        field_description_f:
+          type: LONGVARCHAR
+        icon_f:
+          type: VARCHAR
+          size: 255               
+        field_label_s:
+          type: VARCHAR
+          size: 255
+        field_sub_label_s:
+          type: VARCHAR
+          size: 255
+        field_description_s:
+          type: LONGVARCHAR
+        icon_s:
+          type: VARCHAR
+          size: 255           
+        field_label_t:
+          type: VARCHAR
+          size: 255
+        field_sub_label_t:
+          type: VARCHAR
+          size: 255
+        field_description_t:
+          type: LONGVARCHAR
+        icon_t:
+          type: VARCHAR
+          size: 255   

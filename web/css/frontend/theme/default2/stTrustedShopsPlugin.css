@@ -1,0 +1,53 @@
+#box-trusted-shops .content {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+#box-trusted-shops .pseudolink {
+    text-decoration: none;
+}
+
+#box-trusted-shops-sealbox-txt {
+    padding: 10px 10px;
+}
+
+#trusted-shops-classic-logo {
+    float: left;
+    padding: 0px 20px 0px 10px;
+}
+
+#trusted-shops-classic-summary #classic-rating {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#trusted-shops-classic-summary #classic-rating .buttons a {
+    float: none;
+    display: inline
+}
+
+#trusted-shops-classic-button {
+    margin: 0px 0px 0px 360px; 
+}
+
+#trusted-shops-excellence-logo {
+    float: left;
+    padding: 0px 20px 0px 10px;
+}
+
+#trusted-shops-excellence-content {
+    float: left;
+    width: 700px;
+}
+
+#trusted-shops-excellence-checkbox {
+    padding-bottom: 10px;
+}
+
+#trusted-shops-excellence-checkbox input {
+    position: relative;
+    top: 3px;
+    padding-left: 0px;
+    margin-left: 0px;
+}

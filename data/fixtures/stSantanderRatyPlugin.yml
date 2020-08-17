@@ -1,0 +1,12 @@
+PaymentType: 
+  PaymentType_200:
+    module_name: stSantander
+    active: 0
+    culture: pl_PL
+    name: eRaty Santander Consumer Bank
+
+PaymentTypeI18n: 
+  PaymentTypeI18n_200:
+    id: PaymentType_200
+    culture: en_US
+    name: eRaty Santander Consumer Bank

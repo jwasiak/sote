@@ -1,0 +1,17 @@
+fields:   
+    product_group{name}:
+        required: 
+            msg:            Podaj nazwę grupy
+    product_group{product_limit}:
+        required:
+            msg:    Podaj liczbę wyświetlanych produktów w grupie
+        sfNumberValidator:
+            max:    36
+            max_error: Nie możesz wyświetlić w grupach więcej niż 36 produktów.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą
+    product_group{image}:
+        file: True
+        stAssetFileValidator:
+            mime_types: "@web_images"

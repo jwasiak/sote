@@ -1,0 +1,159 @@
+generator:    
+   class:                        stAdminGenerator
+   param:
+      model_class:               appProductAttribute
+      variant_model_class:       appProductAttributeVariant
+
+      theme:                     simple
+      label:                     Atrybuty produktów
+      route:                     "@appProductAttributesPlugin"
+      icon:                      /images/backend/main/icons/red/appProductAttributesPlugin.png
+
+      custom_actions:
+         list:             [variant]
+         edit:             [variant]
+
+      fields:
+         is_active:        { name: Aktywny }
+         is_searchable:    { name: Pokaż w filtrach }
+         is_visible_on_pp: { name: Pokaż w produkcie }
+         position:         { name: Pozycja } 
+         name:             { name: Nazwa }
+         type:             { name: Rodzaj }
+         value:            { name: Wartość }
+
+      list:
+         use_stylesheet:      [/appProductAttributesPlugin/css/backend.css]
+         display:             [=name, _type, is_active, is_searchable, is_visible_on_pp, position]
+         peer_method:         doSelectWithI18n
+         object_actions:
+            _edit:            -
+            _delete:          -
+         actions:
+            _create:          { name: Dodaj }
+         fields:
+            position:         { sortable: false }
+            name:             { sortable: false }
+            type:             { sortable: false }
+            is_active:        { sortable: false }
+            is_searchable:    { sortable: false }
+            is_visible_on_pp: { sortable: false }
+         menu:
+            display:          [list, export, import, config]
+            fields:
+               list:          {name: Lista atrybutów, action: @appProductAttributesPlugin}
+               export:        {name: Eksport, action: @appProductAttributesPlugin?action=export}
+               import:        {name: Import, action: @appProductAttributesPlugin?action=import}
+               config:        {name: Konfiguracja, action: @appProductAttributesPlugin?action=config}
+
+      edit:
+         use_stylesheet:      [backend/appProductAttributeBackend.css]      
+         use_helper:          [appProductAttribute]
+         title:               Edycja podstawowa
+         menu:                
+            display:          [variant]
+            fields:
+               _edit:         { name: Edycja podstawowa }
+               variant:       { name: Warianty, action: "@appProductAttributesPlugin?action=variantList&attr_id=%%id%%" }
+         display:             
+            "NONE":           [is_active, position, name, _type, is_searchable, is_visible_on_pp, categories]
+         fields:
+            is_active:        { required: false }
+            is_searchable:    { required: false }
+            is_visible_on_pp: { required: false }
+            position:         { required: false } 
+            name:             { params: disabled=false, required: true }
+            type:             { required: false }   
+            categories:       { name: Kategorie, type: category, params: control_name="app_product_attribute_category" }      
+         actions:
+            _delete:          { name: Usuń }
+            _list:            { name: Lista atrybutów, i18n: appProductAttributeBackend }
+            _save_and_add:    { name: Zapisz i dodaj nowy }
+            _save:            { name: Zapisz }
+
+      config:
+         title:                  Konfiguracja
+         menu:                   {use: list.menu}  
+         display:                [filters_enabled, filter_by, no_narrow_filters]
+         fields:
+            filters_enabled:     {name: Włącz filtry, type: checkbox}
+            no_narrow_filters:   {name: Nie ograniczaj filtrów, type: checkbox, checked: true, help: "Jeśli zaznaczone, filtry nie sa ograniczane ze względu na aktualne wyniki filtrowania"}
+            filter_by:         
+               name:             Filtruj
+               type:             select
+               display:          [and, or]
+               options:
+                  and:           {name: Używając "i", value: and}
+                  or:            {name: Używając "lub", value: or}
+               selected:         or            
+         actions:
+            _save:               {name: Zapisz}
+
+      variant_list:
+         use_stylesheet:      [backend/appProductAttributeBackend.css]      
+         forward_parameters:  [attr_id]
+         build_options:
+            related_id:       forward_parameters.attr_id         
+         title:               Warianty
+         menu:                { use: edit.menu }
+         display:             [_variant, position] 
+         fields:
+            variant:          { name: Wariant }
+            position:         { sortable: false }
+         peer_method:         doSelectWithI18n
+         object_actions:
+            _edit:            -
+            _delete:          -
+         actions:
+            _create:          { name: Dodaj }
+
+      variant_edit:
+         use_stylesheet:      [backend/appProductAttributeBackend.css]      
+         forward_parameters:  [attr_id]
+         build_options:
+            related_id:       forward_parameters.attr_id           
+         title:               Edycja wariantu
+         menu:                { use: edit.menu }
+         display:             [position, _value, _color_type, _name, _color, _background]
+         fields:
+            position:         { required: false } 
+            value:            { hide_label: true }
+            color_type:       { hide_label: true }
+            name:             { hide_label: true }
+            background:       { hide_label: true }
+            color:            { hide_label: true }
+         actions:
+            _delete:          { name: Usuń }
+            _list:            { name: Lista wariantów, i18n: appProductAttributeBackend }
+            _save_and_add:    { name: Zapisz i dodaj nowy }
+            _save:            { name: Zapisz }
+
+      variant_create:
+         title:               Dodaj nowy wariant
+
+      include_action_files:      [/plugins/stImportExportPlugin/config/generator/extendActions.php]
+      include_component_files:   [/plugins/stImportExportPlugin/config/generator/extendComponents.php]
+
+      import_export_model_class: appExportAttributes 
+      export:
+         default:                stExporterCsv
+         title:                  Eksport atrybutów
+         menu:                   {use: list.menu}
+         fields:             
+            product_code:        {name: "Code"}
+            product_name:        {name: "Name"}
+            attribute_name:      {name: "Attribute"}
+            attribute_id:        {name: "Attribute ID"}
+            variant_name:        {name: "Variants"}
+
+      import:
+         default:                stImporterCsv
+         title:                  Import atrybutów
+         menu:                   {use: list.menu}
+         fields:             
+            product_code:        {name: "Code", class: appImportAttributes}
+            product_name:        {name: "Name", class: appImportAttributes}
+            attribute_name:      {name: "Attribute", class: appImportAttributes}
+            attribute_id:        {name: "Attribute ID", class: appImportAttributes}
+            variant_name:        {name: "Variants", class: appImportAttributes}
+         primary_key:            product_code

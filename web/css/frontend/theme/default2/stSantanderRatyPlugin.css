@@ -1,0 +1,36 @@
+#eraty-santander-calculate {
+    text-align: right !important;
+    padding-top: 10px;
+}
+
+#eraty-santander-calculate-overlay {
+    z-index: 10000; 
+    width: 640px; 
+    height: 500px; 
+    padding: 20px; 
+    border: 1px solid #666; 
+    box-shadow: 0 0 90px #000; 
+    display:none;
+    background: #fff;
+}
+
+#eraty-santander-calculate-overlay .close {
+    background-image: url('/images/frontend/theme/default2/buttons/close.png');
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+#eraty-santander-calculate-overlay iframe {
+    border: 1px solid #ddd;
+}
+
+#eraty-santander-form button[type="submit"] {
+    background: none;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+}

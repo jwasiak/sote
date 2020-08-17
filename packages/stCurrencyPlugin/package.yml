@@ -1,0 +1,16 @@
+package:
+  name: stCurrencyPlugin
+  stability: stable
+  version: 7.4.0.1
+  summary: Waluty
+  description: 'Zarzadzanie walutami, ustalanie kursow walut'
+  notes: |
+     - Zablokowanie zmiany waluty przed przejsciem do płatnosci
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl
+  dependency:
+    stFrontend: 1.0.6
+    stBackend: 1.0.3

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+			<trans-unit id="1">
+				<source>Musisz być zalogowany aby zapytać o cenę</source>
+				<target>You must sign in to ask about the price</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Musisz być zalogowany aby zapytać o dostępność</source>
+				<target>You must sign in to ask about availability</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Zapytaj o cenę</source>
+				<target>Ask for price</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Zapytaj o dostępność</source>
+				<target>Ask for availability</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Brak adresu e-mail</source>
+				<target>No e-mail address supplied</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Nieprawidłowy format adresu e-mail</source>
+				<target>Invalid e-mail address format</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>powrót do produktu</source>
+				<target>back to product</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Zapytanie o dostępność</source>
+				<target>Availability inquiry</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Zapytanie o cenę</source>
+				<target>Price inquiry</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Treść zapytania</source>
+				<target>Inquiry contents</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>E-mail</source>
+				<target>E-mail</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Wyślij zapytanie</source>
+				<target>Send inquiry</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Zapytanie zostało wysłane poprawnie</source>
+				<target>Your inquiry has been successfully sent</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Proszę o informacje o cenie produktu</source>
+				<target>I wish to receive information on product price</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Proszę o informacje o dostępności produktu</source>
+				<target>I wish to receive information on product availability</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Zaloguj się, aby zapytać o cenę</source>
+				<target>Log on in order to ask about the price</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Zaloguj się, aby zapytać o dostępność</source>
+				<target>Log on in order to ask about availability</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Zapytanie o produkt</source>
+				<target>Inquiry about the product</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>zostało pomyślnie wysłane</source>
+				<target>has been successfully sent</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Kod</source>
+				<target>Code</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Zapytanie nie może zostać wysłane, gdyż taki produkt nie istnieje</source>
+				<target>The inquiry can't be sent, because such a product doesn't exist</target>
+			</trans-unit>
+                        <trans-unit id="22">
+				<source>Zapytanie o dostępność produktu</source>
+				<target>Inquiry about product availability</target>
+			</trans-unit>
+                        <trans-unit id="23">
+				<source>Zapytanie o cenę produktu</source>
+				<target>Inquiry about product price</target>
+			</trans-unit>
+                        <trans-unit id="24">
+				<source>zapytanie nr</source>
+				<target>query number</target>
+			</trans-unit>
+                        <trans-unit id="25">
+				<source>dostępności</source>
+				<target>availability</target>
+			</trans-unit>
+                        <trans-unit id="26">
+				<source>cenie</source>
+				<target>price</target>
+			</trans-unit>
+                        <trans-unit id="27">
+				<source>Witam</source>
+				<target>Hello</target>
+			</trans-unit>
+                        <trans-unit id="28">
+				<source>proszę o informację o</source>
+				<target>could you send me an information about</target>
+			</trans-unit>
+                        <trans-unit id="29">
+				<source>produktu</source>
+				<target>of this product</target>
+			</trans-unit>
+                        <trans-unit id="30">
+				<source>Kod produktu</source>
+				<target>Product code</target>
+			</trans-unit>
+                        <trans-unit id="31">
+				<source>Producent</source>
+				<target>Manufacturer</target>
+			</trans-unit>
+                        <trans-unit id="32">
+				<source>Kategoria</source>
+				<target>Category</target>
+			</trans-unit>
+                        <trans-unit id="33">
+				<source>Przejdź do zapytania</source>
+				<target>Go to the question</target>
+			</trans-unit>
+                        <trans-unit id="34">
+				<source>Informacje dodatkowe</source>
+				<target>Additional information</target>
+			</trans-unit>
+                        <trans-unit id="35">
+				<source>Zapytanie wysłał</source>
+				<target>Sent by</target>
+			</trans-unit>
+                        <trans-unit id="36">
+				<source>Treść</source>
+				<target>Content</target>
+			</trans-unit>
+                        <trans-unit id="37">
+				<source>Cyfry z obrazka</source>
+				<target>Digits from the image</target>
+			</trans-unit>
+                        <trans-unit id="38">
+				<source>Wyślij</source>
+				<target>Send</target>
+			</trans-unit>
+             <trans-unit id="38">
+				<source>Nadawca (e-mail)</source>
+				<target>Sender (email)</target>
+			</trans-unit>
+			<trans-unit id="39">
+                <source>Zapytanie zostało wysłane</source>
+                <target>The request has been sent</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Wprowadzono zły numer.</source>
+                <target>Invalid number entered.</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

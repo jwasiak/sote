@@ -1,0 +1,30 @@
+<a id="eraty-santander-calculate-trigger" class="btn btn-default btn-eraty{if !$small} btn-eraty-lg{/if}" href="{$url}">
+    {__ text="Oblicz"}
+</a>
+
+{if $small}
+    <img src="/plugins/stSantanderRatyPlugin/images/eraty_btn_sm.png" alt="" style="margin-left: 5px">
+{else}
+    <img src="/plugins/stSantanderRatyPlugin/images/eraty_btn.png" alt="" style="margin-left: 5px">
+{/if}
+
+{literal}
+<script type="text/javascript">
+    jQuery(function() {
+        $('#eraty-santander-calculate-trigger').click(function(){
+            var width = 640;
+            var height = 500;
+            var left = (screen.width - width) / 2;
+            var top = (screen.height - height) / 4;
+
+            console.log(top);
+
+            window.open($(this).attr('href'),
+            'Policz_rate',
+            'width='+width+',height='+height+',directories=no,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no,left='+left+',top='+top);  
+
+            return false;      
+        });
+    });
+</script>
+{/literal}

@@ -1,0 +1,13 @@
+package:
+  name: stInBankPlugin
+  stability: stable
+  version: 7.0.0.16
+  summary: 'Integracja z serwisem platnosci RATY Inbank'
+  description: 'Integracja z serwisem platnosci RATY Inbank'
+  notes: |
+     - Aktualizacja nazwy platnosci
+  maintainers:
+    'Marcin Butlak':
+      role: lead
+      user: marcin
+      email: marcin.butlak@sote.pl

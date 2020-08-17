@@ -1,0 +1,29 @@
+Box:
+    Box_1: 
+        active: 0
+        culture: pl_PL
+        name: Dostawa
+        content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Dostawa"/>
+        show_title: 0
+        box_group_id: BoxGroup_1
+    Box_2:
+        active: 0
+        culture: pl_PL
+        name: Płatności
+        content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Płatności" />
+        show_title: 0
+        box_group_id: BoxGroup_2
+
+BoxI18n:
+    BoxI18n_1:
+        id: Box_1
+        culture: en_US
+        name: Delivery
+        content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Delivery"/>
+    BoxI18n_2:
+        id: Box_2
+        culture: en_US
+        name: Payments
+        content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Payments" />
+
+

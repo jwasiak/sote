@@ -1,0 +1,3 @@
+---
+search_paths:
+    - plugins/*/modules/*

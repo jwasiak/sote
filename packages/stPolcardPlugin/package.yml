@@ -1,0 +1,15 @@
+package:
+  name: stPolcardPlugin
+  stability: stable
+  version: 7.2.0.6
+  summary: Payeezy
+  description: 'Konfiguracja platnosci Payeezy - First Data Polcard'
+  notes: |
+    - Dodanie tlumaczenia
+  maintainers:
+    'Michal Prochowski':
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+  dependency:
+    stPayment: 1.0.3

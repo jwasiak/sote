@@ -1,0 +1,7 @@
+export:
+    fields:
+        product_oferciak:         {name: Oferciak, class: stOferciak, method: getProduct}
+
+import:
+    fields:
+        product_oferciak:         {class: stOferciak, method: setProduct}

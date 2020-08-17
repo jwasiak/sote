@@ -1,0 +1,112 @@
+{use_stylesheet src="stGiftGroup.css"}
+{foreach key=row item=product from=$results}
+    {if $row < $max}
+    <div id="gg_item_{$row}" class="item box roundies">
+        <div class="image">{$product.photo}</div>
+        <div class="name">{$product.name}</div>
+        <div class="price">{if $product.old_price}<s>{$product.old_price}</s> {/if}{$product.price}</div>
+        <div class="buttons">{$product.basket}</div>
+        <div id="gg_tooltip_{$row}" class="tooltip">
+            {$product.large_photo}
+            <div class="description">{$product.description}</div>
+        </div>
+        {literal}
+        <script type="text/javascript">    
+        //<![CDATA[
+        jQuery(function($) {
+            $({/literal}'#gg_item_{$row}'{literal}).tooltip({ predelay: 400,tip: {/literal}'#gg_tooltip_{$row}'{literal} });
+        });
+        //]]>
+        </script> 
+        {/literal}
+
+    </div>
+    {/if}
+{/foreach}
+<div class="clear"></div>
+
+{if $more}
+<div id="gift_group_more" class="buttons">
+    <a href="#gift_group_overlay" rel="#gift_group_overlay">{__ text="Więcej" langCatalogue="stProduct"}</a>
+</div>
+<div id="gift_group_overlay">
+    <div>
+        {foreach key=row item=product from=$results}
+        <div id="ggo_item_{$row}" class="item box roundies">
+            <div class="image">{$product.photo}</div>
+            <div class="name">{$product.name}</div>
+            <div class="price">{if $product.old_price}<s>{$product.old_price}</s> {/if}{$product.price}</div>
+            <div class="buttons">{$product.basket}</div>
+            <div id="ggo_tooltip_{$row}" class="tooltip">
+                {$product.large_photo}
+                <div class="description">{$product.description}</div>
+            </div>
+        </div>
+        {/foreach}
+    </div>
+</div>
+{/if}
+{literal}
+<script type="text/javascript">    
+//<![CDATA[
+jQuery(function($) {
+    function addGiftParameter() {
+        var link = $(this);
+
+        var href = link.attr('href');
+
+        if (href.indexOf('?') != -1) {
+            href += '&gift=1';
+        } else {
+            href += '?gift=1';
+        }
+
+        link.attr('href', href);
+    }
+
+    $('#gift_group_more > a').overlay({ 
+        fixed: false,
+        mask: {
+            color: '#ebecff',
+            loadSpeed: 200,
+            opacity: 0.9
+        },
+        onLoad: function() {
+            this.getOverlay().find('.item').each(function() {
+                var item =  $(this);
+                item.tooltip({ predelay: 400,tip: item.children('.tooltip'), relative: true });
+            });
+        }     
+    });
+
+    $('#gift_group').on('click', '.add_to_basket', addGiftParameter);
+    $('#gift_group').on('click', '.basket_add_link', addGiftParameter);
+
+    function equalHeight(group)
+    {
+        var tallest = 0;
+
+        group.height('auto');
+
+        group.each(function() {
+            var height = $(this).height();
+            if(height > tallest) {
+                tallest = height;
+            }
+        });
+
+        group.height(tallest);
+    }
+
+    function update() {   
+        equalHeight($("#gift_group .image")); 
+        equalHeight($("#gift_group .name")); 
+        equalHeight($("#gift_group .price"));
+    }
+
+    $(window).load(update);
+    update();    
+});
+//]]>
+</script> 
+{/literal}

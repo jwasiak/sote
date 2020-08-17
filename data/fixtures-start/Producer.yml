@@ -1,0 +1,35 @@
+sfAsset:
+  sfAsset_46:
+    folder_id: sfAssetFolder_59
+    filename: 1.jpg
+    type: image
+    filesize: 5
+  sfAsset_47:    
+    folder_id: sfAssetFolder_59
+    filename: 2.jpg
+    type: image
+    filesize: 6
+
+Producer: 
+    Producer_1: 
+        culture: pl_PL
+        name: Future Design
+        sf_asset_id: sfAsset_46
+        url: future-design
+    Producer_2:
+        culture: pl_PL
+        name: Traditional Way
+        sf_asset_id: sfAsset_47
+        url: traditional-way
+ProducerI18n:
+    ProducerI18n_2:
+        id: Producer_1
+        culture: en_US
+        name: Future Design
+        url: future-design
+    ProducerI18n_4:
+        id: Producer_2
+        culture: en_US
+        name: Traditional Way
+        url: traditional-way
+

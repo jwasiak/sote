@@ -1,0 +1,46 @@
+{literal}
+    <style>
+        .box.flex {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .box > a {
+            text-align: center;
+            width: 23%;
+            height: 110px;
+            margin: 1%;
+            align-self: center;
+            border: 2px solid #eee;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box > a:hover {
+            border-color: #ccc;
+        }
+
+        .box > a > img {
+            max-height: 100%;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .box > a {
+                width: 32%;
+                margin: 0.5%;
+            }
+        }
+    </style>
+{/literal}
+
+<div class="box flex">
+    {foreach key=id item=gateway from=$gateways}
+        <a href="#" data-gateway-id="{$id}" data-gateway-name="{$gateway.name}" data-gateway-icon="{$gateway.icon}">
+            <img src="{$gateway.icon}" alt="{$gateway.name}" class="img-responsive">
+        </a> 
+    {/foreach}
+</div>

@@ -1,0 +1,17 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2009/02/04 13:19:14
+      fields: 
+        company: 
+        nip: 
+        street:
+        house:
+        flat:
+        code:
+        town:
+        phone: 
+        fax: 
+        bank: 
+        email: 

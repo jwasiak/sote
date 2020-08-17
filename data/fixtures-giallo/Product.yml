@@ -1,0 +1,897 @@
+Product:
+  Product_1:
+    code: A01
+    opt_asset_folder: 72
+    producer_id: Producer_2
+    price: 178.86
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 220.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Blue star
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>url: puchar
+    stock: 30
+    url: blue-star
+  Product_2:
+    code: A02
+    opt_asset_folder: 73
+    producer_id: Producer_2
+    price: 168.29
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 207.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Gray magic
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    stock: 30
+    url: gray-magick
+  Product_3:
+    code: A03
+    opt_asset_folder: 74
+    producer_id: Producer_2
+    price: 186.99
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 230.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Free Breathe 3
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/sport.png" alt="Sample image" width="180" height="211" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: free-breathe-3
+    stock: 4
+  Product_4:
+    code: A04
+    opt_asset_folder: 75
+    producer_id: Producer_1
+    price: 264.23
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 325.00
+    opt_product_group: 'a:1:{i:0;s:1:"4";}'
+    culture: pl_PL
+    uom: szt.
+    name: Chunk Red
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: chunk-red
+    stock: 6
+  Product_5:
+    code: A05
+    opt_asset_folder: 76
+    producer_id: Producer_1
+    price: 227.64
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 280.00
+    culture: pl_PL
+    uom: szt.
+    name: Dunk Red
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: dunk-red
+    stock: 30
+    main_page_order: 2
+  Product_6:
+    code: A06
+    opt_asset_folder: 77
+    producer_id: Producer_1
+    price: 73.17
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 90.00
+    opt_product_group: 'a:1:{i:0;s:1:"6";}'
+    culture: pl_PL
+    uom: szt.
+    name: Japonki Brown
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p>Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: japonki-brown
+    stock: 7
+  Product_7:
+    code: A07
+    opt_asset_folder: 78
+    producer_id: Producer_2
+    price: 65.04
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 80.00
+    culture: pl_PL
+    uom: szt.
+    name: Japonki Gray
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p>Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: japonki-gray
+    stock: 12
+    main_page_order: 4
+  Product_8:
+    code: A08
+    opt_asset_folder: 79
+    producer_id: Producer_2
+    price: 40.65
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 50.00
+    culture: pl_PL
+    uom: szt.
+    name: Buty dziecięce Blue
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: buty-dzieciece-blue
+    stock: 1
+  Product_9:
+    code: A09
+    opt_asset_folder: 80
+    producer_id: Producer_2
+    price: 101.85
+    opt_vat: 8
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 110.00
+    culture: pl_PL
+    uom: szt.
+    name: Buty dziecięce Red
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: buty-dzieciece-red
+    stock: 12
+  Product_10:
+    code: A10
+    opt_asset_folder: 81
+    producer_id: Producer_1
+    price: 154.47
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 190.00
+    culture: pl_PL
+    uom: szt.
+    name: Buty dziecięce zimowe
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: buty-dzieciece-zimowe
+    stock: 10
+  Product_11:
+    code: A11
+    opt_asset_folder: 82
+    producer_id: Producer_1
+    price: 608.94
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 749.00
+    culture: pl_PL
+    uom: szt.
+    name: Winter Ground 
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: winter-ground
+    stock: 4
+  Product_12:
+    code: A12
+    opt_asset_folder: 83
+    producer_id: Producer_1
+    price: 199.19
+    opt_vat: 23
+    active: 1
+    is_stock_validated: 1
+    opt_price_brutto: 245.00
+    culture: pl_PL
+    uom: szt.
+    name: Easy snow
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: easy-snow
+    stock: 100
+ProductI18n:
+  ProductI18n_1:
+    id: Product_1
+    culture: en_US
+    uom: pcs.
+    name: Blue star
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>url: puchar
+    url: blue-star-en
+  ProductI18n_2:
+    id: Product_2
+    culture: en_US
+    uom: pcs.
+    name: Gray Magic
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: gray-magick-en
+  ProductI18n_3:
+    id: Product_3
+    culture: en_US
+    uom: pcs.
+    name: Free Breathe 3
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: right; padding: 10px;" src="/uploads/images/sport.png" alt="Sample image" width="180" height="211" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: free-breathe-3-en
+  ProductI18n_4:
+    id: Product_4
+    culture: en_US
+    uom: pcs.
+    name: Chunk Red
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: chunk-red-en
+  ProductI18n_5:
+    id: Product_5
+    culture: en_US
+    uom: pcs.
+    name: Dunk Red
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: dunk-red-en
+  ProductI18n_6:
+    id: Product_6
+    culture: en_US
+    uom: pcs.
+    name: Brown Flip flops
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p>Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: flip-flops-brown-en
+  ProductI18n_7:
+    id: Product_7
+    culture: en_US
+    uom: pcs.
+    name: Gray Flip flops 
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p>Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: flip-flops-gray-en
+  ProductI18n_8:
+    id: Product_8
+    culture: en_US
+    uom: pcs.
+    name: Sailor
+    short_description: >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: sailor-en
+  ProductI18n_9:
+    id: Product_9
+    culture: en_US
+    uom: pcs.
+    name: Children's red shoes
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: childrens-red-shoes
+  ProductI18n_10:
+    id: Product_10
+    culture: en_US
+    uom: pcs.
+    name: Children's winter shoes
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt. Donec imperdiet purus sed mauris iaculis dapibus. Aenean dapibus sem eget eros dapibus aliquam. Nam id diam et est tristique placerat. In hac habitasse platea dictumst.</p>
+      <h3>Sed lectus justo, bibendum eu commodo.</h3>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" />Duis nulla justo, dictum vitae porttitor eu, tristique rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus rhoncus luctus laoreet. Donec lorem sem, elementum sit amet malesuada sit amet, euismod ut tellus. Nulla quis turpis neque.</p><p>Nam facilisis quam ut elit aliquam eget aliquam turpis viverra. Aliquam venenatis dolor enim. Praesent pulvinar viverra nibh, in ultricies urna interdum sollicitudin. Fusce eu porttitor neque. Nulla facilisi. Duis lacus mi, elementum et pretium non, venenatis at eros. Nam adipiscing dolor in risus vulputate nec semper urna bibendum. Ut pellentesque, augue at consequat tincidunt, lorem diam placerat velit, et pulvinar odio neque vel.</p><h3>Finibus Bonorum et Malorum</h3><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: childrens-winter-shoes
+  ProductI18n_11:
+    id: Product_11
+    culture: en_US
+    uom: pcs.
+    name: Winter Ground 
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Sed malesuada dictum semper. Vestibulum aliquam vestibulum arcu, in auctor turpis lobortis vel. Vivamus at risus et nunc bibendum mollis sed et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lacus, suscipit in viverra ac, tincidunt sit amet ligula. Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</p>
+      <h3>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam feugiat magna sed arcu porta volutpat. Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere.</p>
+      <p>Mauris porttitor lacinia dolor sed porttitor. Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: winter-ground-en
+  ProductI18n_12:
+    id: Product_12
+    culture: en_US
+    uom: pcs.
+    name: Winter
+    short_description:  >
+      In aliquet faucibus dui ac porttitor. Quisque pellentesque convallis tincidunt.
+    description: >
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at.</p>
+      <p><img style="float: left; padding-right: 15px; padding-bottom: 10px;" src="/uploads/images/laces.png" alt="Sample imageSample image" width="214" height="200" /></p>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Sed malesuada dictum semper.</li>
+      <ul style="list-style-position: outside;">
+      <li>Vestibulum aliquam vestibulum arcu,</li>
+      <li>In auctor turpis lobortis vel.</li>
+      <li>Vivamus at risus et nunc bibendum mollis sed et dui.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum lorem lacus, suscipit in viverra ac,</li>
+      <li>tincidunt sit amet ligula.</li>
+      <li>Nam dignissim sagittis lorem, vitae gravida velit luctus luctus.</li>
+      </ul>
+      </ul>
+      <ul style="list-style-position: outside; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;">
+      <li>Phasellus tortor odio, cursus in volutpat in, volutpat non urna.</li>
+      <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+      <li>Nam feugiat magna sed arcu porta volutpat.</li>
+      <li>Fusce id elit leo. Sed tempus suscipit nisl sed porta. Quisque semper vehicula nulla, vitae tempor massa aliquet vitae.</li>
+      </ul>
+      <h3>Curabitur neque purus, rhoncus sed auctor vel, facilisis id lectus.</h3>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra ultricies libero vel blandit. Donec faucibus tempor nisl, ullamcorper varius mi euismod at. Cras elit enim, mollis ac lobortis non, porttitor in felis. Maecenas justo sapien, cursus in vestibulum mattis, blandit non sapien. Nunc viverra enim non tellus tempor quis pharetra leo posuere. Mauris porttitor lacinia dolor sed porttitor.</p>
+      <p>Fusce hendrerit blandit purus, a laoreet nisi sollicitudin nec. In adipiscing, enim et varius sagittis, enim erat sollicitudin sem, ut fringilla nisi elit eget urna. Nulla sit amet mauris scelerisque dui suscipit vehicula. Etiam at sodales magna. Donec pretium euismod odio vitae imperdiet. Donec sagittis vestibulum lorem, in tristique eros adipiscing ut.</p>
+    description2: >
+      <p><span style="color: #808080;">Type</span><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+      <p><span style="color: #888888;">Category</span><br />Aliquam tincidunt mauris eu risus</p>
+      <span style="color: #808080;">Fabric<br /></span>Vestibulum auctor dapibus neque. Nunc dignissim risus id metus.<br />
+      <p><span style="color: #808080;">Accesories<br /></span>Cras ornare tristique elit.</p>
+      <p><span style="color: #808080;">Process</span><br />Vivamus vestibulum nulla nec ante.</p>
+      <p><span style="color: #808080;">Technologies</span><br />Fusce lobortis lorem at ipsum semper sagittis. Nam convallis pellentesque nisl.</p>
+    url: winter-en
+ProductHasCategory: 
+  ProductHasCategory_333: 
+    category_id: Category_42
+    product_id: Product_2
+  ProductHasCategory_336: 
+    category_id: Category_42
+    product_id: Product_3
+  ProductHasCategory_330: 
+    category_id: Category_45
+    product_id: Product_1
+  ProductHasCategory_339: 
+    category_id: Category_45
+    product_id: Product_4
+  ProductHasCategory_340: 
+    category_id: Category_45
+    product_id: Product_5
+    is_default: 1
+  ProductHasCategory_349: 
+    category_id: Category_48
+    product_id: Product_8
+  ProductHasCategory_327: 
+    category_id: Category_48
+    product_id: Product_9
+  ProductHasCategory_343: 
+    category_id: Category_43
+    product_id: Product_6
+  ProductHasCategory_346: 
+    category_id: Category_46
+    product_id: Product_7
+  ProductHasCategory_342: 
+    category_id: Category_39
+    product_id: Product_6
+  ProductHasCategory_332: 
+    category_id: Category_39
+    product_id: Product_2
+  ProductHasCategory_335: 
+    category_id: Category_39
+    product_id: Product_3
+  ProductHasCategory_326: 
+    category_id: Category_41
+    product_id: Product_8
+  ProductHasCategory_348: 
+    category_id: Category_41
+    product_id: Product_9
+  ProductHasCategory_329: 
+    category_id: Category_40
+    product_id: Product_7
+  ProductHasCategory_345: 
+    category_id: Category_40
+    product_id: Product_4
+  ProductHasCategory_338: 
+    category_id: Category_40
+    product_id: Product_1
+  ProductHasCategory_337: 
+    category_id: Category_22
+    product_id: Product_4
+    is_default: 1
+  ProductHasCategory_328: 
+    category_id: Category_22
+    product_id: Product_1
+    is_default: 1
+  ProductHasCategory_334: 
+    category_id: Category_21
+    product_id: Product_2
+    is_default: 1
+  ProductHasCategory_331: 
+    category_id: Category_21
+    product_id: Product_3
+    is_default: 1
+  ProductHasCategory_341: 
+    category_id: Category_24
+    product_id: Product_6
+    is_default: 1
+  ProductHasCategory_344: 
+    category_id: Category_24
+    product_id: Product_7
+    is_default: 1
+  ProductHasCategory_347: 
+    category_id: Category_18
+    product_id: Product_8
+    is_default: 1
+  ProductHasCategory_325: 
+    category_id: Category_18
+    product_id: Product_9
+    is_default: 1
+  ProductHasCategory_351:
+    category_id: Category_44
+    product_id: Product_11
+  ProductHasCategory_322: 
+    category_id: Category_23
+    product_id: Product_11
+    is_default: 1
+  ProductHasCategory_350: 
+    category_id: Category_23
+    product_id: Product_12
+    is_default: 1
+  ProductHasCategory_323: 
+    category_id: Category_47
+    product_id: Product_12
+  ProductHasCategory_324: 
+    category_id: Category_49
+    product_id: Product_10
+    is_default: 1
+  ProductHasCategory_777: 
+    category_id: Category_22
+    product_id: Product_7
+    is_default: 1
+sfAssetFolder:
+  sfAssetFolder_1:
+    fillin_from_path: media/products/72/images
+    is_enabled: 1
+  sfAssetFolder_2:
+    fillin_from_path: media/products/73/images
+    is_enabled: 1
+  sfAssetFolder_3:
+    fillin_from_path: media/products/74/images
+    is_enabled: 1
+  sfAssetFolder_4:
+    fillin_from_path: media/products/75/images
+    is_enabled: 1
+  sfAssetFolder_5:
+    fillin_from_path: media/products/76/images
+    is_enabled: 1
+  sfAssetFolder_6:
+    fillin_from_path: media/products/77/images
+    is_enabled: 1
+  sfAssetFolder_7:
+    fillin_from_path: media/products/78/images
+    is_enabled: 1
+  sfAssetFolder_8:
+    fillin_from_path: media/products/79/images
+    is_enabled: 1
+  sfAssetFolder_9:
+    fillin_from_path: media/products/80/images
+    is_enabled: 1
+  sfAssetFolder_10:
+    fillin_from_path: media/products/81/images
+    is_enabled: 1
+  sfAssetFolder_11:
+    fillin_from_path: media/products/82/images
+    is_enabled: 1
+  sfAssetFolder_12:
+    fillin_from_path: media/products/83/images
+    is_enabled: 1
+sfAsset:
+  sfAsset_1:
+    folder_id: sfAssetFolder_1
+    filename: 72.png
+    type: image
+  sfAsset_2:
+    folder_id: sfAssetFolder_2
+    filename: 73.png
+    type: image
+  sfAsset_3:
+    folder_id: sfAssetFolder_3
+    filename: 74.png
+    type: image
+  sfAsset_4:
+    folder_id: sfAssetFolder_4
+    filename: 75.png
+    type: image
+  sfAsset_5:
+    folder_id: sfAssetFolder_5
+    filename: 76.png
+    type: image
+  sfAsset_6:
+    folder_id: sfAssetFolder_6
+    filename: 77.png
+    type: image
+  sfAsset_7:
+    folder_id: sfAssetFolder_7
+    filename: 78.png
+    type: image
+  sfAsset_8:
+    folder_id: sfAssetFolder_8
+    filename: 79.png
+    type: image
+  sfAsset_9:
+    folder_id: sfAssetFolder_9
+    filename: 80.png
+    type: image
+  sfAsset_10:
+    folder_id: sfAssetFolder_10
+    filename: 81.png
+    type: image
+  sfAsset_11:
+    folder_id: sfAssetFolder_11
+    filename: 82.png
+    type: image
+  sfAsset_12:
+    folder_id: sfAssetFolder_12
+    filename: 83.png
+    type: image
+ProductHasSfAsset:
+  ProductHasSfAsset_1:
+    sf_asset_id: sfAsset_1
+    product_id: Product_1
+    is_default: 1
+  ProductHasSfAsset_2:
+    sf_asset_id: sfAsset_2
+    product_id: Product_2
+    is_default: 1
+  ProductHasSfAsset_3:
+    sf_asset_id: sfAsset_3
+    product_id: Product_3
+    is_default: 1
+  ProductHasSfAsset_4:
+    sf_asset_id: sfAsset_4
+    product_id: Product_4
+    is_default: 1
+  ProductHasSfAsset_5:
+    sf_asset_id: sfAsset_5
+    product_id: Product_5
+    is_default: 1
+  ProductHasSfAsset_6:
+    sf_asset_id: sfAsset_6
+    product_id: Product_6
+    is_default: 1
+  ProductHasSfAsset_7:
+    sf_asset_id: sfAsset_7
+    product_id: Product_7
+    is_default: 1
+  ProductHasSfAsset_8:
+    sf_asset_id: sfAsset_8
+    product_id: Product_8
+    is_default: 1
+  ProductHasSfAsset_9:
+    sf_asset_id: sfAsset_9
+    product_id: Product_9
+    is_default: 1
+  ProductHasSfAsset_10:
+    sf_asset_id: sfAsset_10
+    product_id: Product_10
+    is_default: 1
+  ProductHasSfAsset_11:
+    sf_asset_id: sfAsset_11
+    product_id: Product_11
+    is_default: 1
+  ProductHasSfAsset_12:
+    sf_asset_id: sfAsset_12
+    product_id: Product_12
+    is_default: 1

@@ -1,0 +1,75 @@
+Theme:
+  Theme_lazuli:
+    base_theme_id:  Theme_elegante
+    name:           lazuli
+    version:        8
+    is_system_default: 1
+
+ThemeContent:
+    ThemeContent_1:
+        theme_id: Theme_lazuli
+        content_id: h1-homepage-part1
+        culture: pl_PL
+        name: Nagłówek h1 strony głównej pogrubiony
+        content: Twój sklep internetowy.
+    ThemeContent_2:
+        theme_id: Theme_lazuli
+        content_id: h1-homepage-part2
+        culture: pl_PL
+        name: Nagłówek h1 strony głównej
+        content: Krótka informacja o sklepie lub ofercie
+    ThemeContent_3:
+        theme_id: Theme_lazuli
+        content_id: h2-homepage-1
+        culture: pl_PL
+        name: Nagłówek h2 strony głównej pierwszy
+        content:
+    ThemeContent_4:
+        theme_id: Theme_lazuli
+        content_id: h2-homepage-1-text
+        culture: pl_PL
+        name: Tekst przy pierwszym nagłówku h2
+        content:
+    ThemeContent_5:
+        theme_id: Theme_lazuli
+        content_id: h2-homepage-2
+        culture: pl_PL
+        name: Nagłówek h2 strony głównej drugi
+        content:
+    ThemeContent_6:
+        theme_id: Theme_lazuli
+        content_id: h2-homepage-2-text
+        culture: pl_PL
+        name: Tekst przy drugim nagłówku h2
+        content:
+ThemeContentI18n:
+    ThemeContentI18n_2:
+        id: ThemeContent_1
+        culture: en_US
+        name: Main page h1 bolded
+        content: Your online store.
+    ThemeContentI18n_4:
+        id: ThemeContent_2
+        culture: en_US
+        name: Main page h1
+        content: Short information about the store or offer
+    ThemeContentI18n_6:
+        id: ThemeContent_3
+        culture: en_US
+        name: Main page h2 first
+        content:
+    ThemeContentI18n_8:
+        id: ThemeContent_4
+        culture: en_US
+        name: The text at the first h2 header
+        content:
+    ThemeContentI18n_10:
+        id: ThemeContent_5
+        culture: en_US
+        name: Main page h2 second
+        content:
+    ThemeContentI18n_12:
+        id: ThemeContent_6
+        culture: en_US
+        name: The text at the second h2 header
+        content:

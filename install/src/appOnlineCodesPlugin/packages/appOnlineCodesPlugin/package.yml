@@ -1,0 +1,18 @@
+---
+package: 
+  name: appOnlineCodesPlugin
+  stability: stable
+  version: 7.2.0.6
+  summary: Kody i pliki online 
+  description: Zarzadzanie kodami online
+  notes: |
+     - Poprawka pobierania plikow
+  maintainers: 
+    Michal Prochowski: 
+      role: lead
+      user: michal
+      email: michal.prochowski@sote.pl
+    Piotr Halas: 
+      role: lead
+      user: piotr
+      email: piotr.halas@sote.pl

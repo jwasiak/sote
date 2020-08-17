@@ -1,0 +1,7 @@
+all:
+    navigation_bar:
+      display:
+        orders:
+          google_shopping:    ~
+      items:
+        google_shopping:      {label: Google Shopping, route: "@stGoogleShoppingPluginDefault",  icon: stGoogleShoppingPlugin.png}

@@ -1,0 +1,95 @@
+{if $results|@count > 1}
+    <div class="row" data-equalizer>
+        {foreach key=row item=userData from=$results}
+        <div class="col-sm-4 col-md-4">       
+            <div class="panel panel-default{if $userData.is_default=='true'} default-data{/if}">
+                <div class="panel-body" data-equalizer-watch>
+                    {if $userData.is_default !== "true"}
+                    <div class="action_icon pull-right">
+                        <a href="{$userData.remove_url}">
+                            <img src="/images/backend/icons/delete.png" alt="" />  
+                        </a>
+                    </div> 
+                    {else}           
+                    <div class="action_icon pull-right">
+                        <img style="opacity: 0.3;" src="/images/backend/icons/delete.png" alt="" />  
+                    </div> 
+                    {/if}
+                    <div class="action_icon pull-right profile" rel="{$userData.make_it_deafult_data}">
+                        <a href="#">
+                            <img src="/images/backend/icons/edit.png" alt="" />
+                        </a>
+                    </div>
+                    
+                            
+                    {if $userData.company neq ""}
+
+                    {$userData.company}
+                    <br />
+
+                    {if $userData.has_vat eq 1}
+                    {$userData.vat}
+                    <br />
+                    {/if}
+                    {/if}
+
+                    <b>{$userData.full_name}</b>
+                    <br />
+
+                    {$userData.address}
+                    <br />
+
+                    {if ($userData.address_more!="")}
+                    {$userData.address_more}
+                    <br />
+                    {/if}
+
+                    {if ($userData.region!="")}
+                    {$userData.region}
+                    <br />
+                    {/if}
+
+                    {$userData.code} {$userData.town}
+                    <br />
+
+                    {$userData.country}
+                    <br />
+
+                    {if $userData.pesel!=""}
+                    {__ text="PESEL"}&nbsp;{$userData.pesel}
+                    <br />
+                    {/if}
+
+                    {if $userData.phone neq ""}
+                    {$userData.phone}&nbsp;&nbsp;&nbsp;
+                    {/if}
+                </div>
+            </div>
+        </div>
+        {/foreach}
+        <div class="col-sm-12">
+            <a class="btn btn-default pull-left" style="margin-bottom: 13px;" href="/user_data/createProfile/userDataType/{$user_data_type}">
+                {__ text="Dodaj nowy adres"}
+            </a>
+        </div>           
+    </div>    
+
+    {literal}
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(document).ready(function() {
+                
+                $('.profile').click(function(){
+                    window.location = '/'+$(this).attr('rel');
+                });
+                            
+            });
+        });
+
+    </script>
+    {/literal}
+{else}
+    <div id="add-user-profile" class="center-block">       
+        <a href="/user_data/createProfile/userDataType/{$user_data_type}" class="btn btn-default pull-left">{__ text="Dodaj nowy adres"}</a>
+    </div>
+{/if}

@@ -1,0 +1,14 @@
+PaymentType: 
+    PaymentType_CashBill: 
+        created_at: 2014-01-01 00:00:01
+        updated_at: 2014-01-01 00:00:01
+        module_name: stCashBill
+        active: 0
+        culture: pl_PL
+        name: CashBill
+
+PaymentTypeI18n: 
+    PaymentTypeI18n_CashBill: 
+        id: PaymentType_CashBill
+        culture: en_US
+        name: CashBill

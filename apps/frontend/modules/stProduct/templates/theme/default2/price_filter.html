@@ -1,0 +1,101 @@
+{use_javascript src="stPrice.js"}
+{use_javascript src="bootstrap-slider.min.js"}
+{use_stylesheet src="priceSlider.css"}
+
+<form class="product-filter-price" action="{urlfor internal=$action_url}" method="post">
+    <input type="hidden" name="fields" value="price">
+    <div class="box roundies">
+        <div class="panel-heading">
+            {__ text="Cena"} [{$currency}]
+        </div>
+        <div class="panel-body">
+            <div class="form-group product-filter-price-slider">
+                <input type="text" style="display: none" value="" data-slider-min="{$value.min}" data-slider-max="{$value.max}" data-slider-step="1" data-slider-value="[{$filters.price.min},{$filters.price.max}]">
+            </div>
+            <div class="form-group">
+                <div class="left"><input type="text"  name="product_filter[price][min]" class="form-control product-filter-price-min" value="{$filters.price.min}" /></div>
+                <div class="right"><input type="text" name="product_filter[price][max]" class="form-control product-filter-price-max" value="{$filters.price.max}" /></div>
+                <div class="clear"></div>
+                {if $filters.price != $value}
+                    <a href="{urlfor internal=$reset_url}" class="right reset">{__ text="wyczyść"}</a>
+                {/if}
+                <div class="clear"></div>    
+            </div>
+        </div>    
+    </div>
+</form>
+{literal}
+<script type="text/javascript">
+jQuery(function($) {
+    function appendPreloader() {
+        {/literal}
+        var preloader = '{image_path image="loading.gif"}';
+        {literal}
+        this.append('<div class="preloader" style="background-image: url('+preloader+');"><div>');
+    }
+    function update() {
+        var current = $(this);
+        var priceSlider = current.closest('.product-filter-price').find('.product-filter-price-slider input');
+
+        current.val(stPrice.fixNumberFormat(current.val(), 0));
+
+        var value = priceSlider.slider('getValue');
+
+        if (current.hasClass('product-filter-price-min')) {
+            value[0] = Number(current.val());
+        } else {
+            value[1] = Number(current.val());
+        }
+
+        priceSlider.slider('setValue', value);
+
+        value = priceSlider.slider('getValue');
+        
+        if (current.hasClass('product-filter-price-min')) {
+            current.val(value[0]);
+        } else {
+            current.val(value[1]);
+        }
+        
+        priceSlider.closest('form').submit();
+    }    
+
+    $(document).ready(function() {
+        $('.product-filter-price').each(function() {
+            var $this = $(this);
+
+            if (!$this.data('initialized')) {
+                $this.data('initialized', true);
+                var min = $this.find('.product-filter-price-min');
+                var max = $this.find('.product-filter-price-max');
+                var priceSlider = $this.find('.product-filter-price-slider > input');
+                priceSlider.slider({
+                    tooltip: 'hide',
+                    range: true
+                }).on('slide', function(e) {
+                    min.val(e.value[0]);
+                    max.val(e.value[1]);
+                }).on('slideStop', function() {
+                    value = priceSlider.slider('getValue');
+                    min.val(value[0]);
+                    max.val(value[1]);
+                    priceSlider.closest('form').submit();
+                });
+
+                $this.on('submit', function() {
+                    appendPreloader.call($this)
+                });
+
+                $this.on('click', '.reset', function() {
+                    appendPreloader.call($this);
+                });
+
+                min.change(update);
+                max.change(update);
+            }
+        });
+    });
+});
+
+</script>
+{/literal}

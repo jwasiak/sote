@@ -1,0 +1,171 @@
+ProductI18n:
+  ProductI18n_cs_1:
+    id: Product_1
+    culture: cs
+    name: Pohár
+    url: pohar
+  ProductI18n_cs_2:
+    id: Product_2
+    culture: cs
+    name: Stopky
+    url: stopky
+  ProductI18n_cs_3:
+    id: Product_3
+    culture: cs
+    name: Sluchátka
+    url: sluchatka
+  ProductI18n_cs_4:
+    id: Product_4
+    culture: cs
+    name: Reentrantní reproduktory
+    url: reentrantni-reproduktory
+  ProductI18n_cs_5:
+    id: Product_5
+    culture: cs
+    name: Sluchátka 200
+    url: sluchatka-200
+  ProductI18n_cs_6:
+    id: Product_6
+    culture: cs
+    name: Laptop
+    url: laptop
+  ProductI18n_cs_7:
+    id: Product_7
+    culture: cs
+    name: Zlatý prsten s diamantem
+    url: zlaty-prsten-s-diamantem
+  ProductI18n_cs_8:
+    id: Product_8
+    culture: cs
+    name: Stříbrný prsten
+    url: stříbrný-prsten
+  ProductI18n_cs_9:
+    id: Product_9
+    culture: cs
+    name: Reproduktor
+    url: reproduktor
+  ProductI18n_cs_10:
+    id: Product_10
+    culture: cs
+    name: Počítač
+    url: pocitac
+  ProductI18n_cs_11:
+    id: Product_11
+    culture: cs
+    name: Fotoaparát GoodPix 130ES
+    url: fotoaparat-goodpix-130es
+  ProductI18n_cs_12:
+    id: Product_12
+    culture: cs
+    name: Paměťová karta 8GB
+    url: pametowa-karta-8gb
+
+
+CategoryI18n:
+  CategoryI18n_cs_2:
+    id: Category_2
+    culture: cs
+    name: Zvuk
+    url: zvuk
+  CategoryI18n_cs_6:
+    id: Category_6
+    culture: cs
+    name: Fotografování
+    url: fotografovani
+  CategoryI18n_cs_5:
+    id: Category_5
+    culture: cs
+    name: Počítačů
+    url: pocitacu
+  CategoryI18n_cs_3:
+    id: Category_3
+    culture: cs
+    name: Reproduktory
+    url: zvuk-reproduktory
+  CategoryI18n_cs_4:
+    id: Category_4
+    culture: cs
+    name: Sluchátka
+    url: zvuk-sluchatka
+  CategoryI18n_cs_8:
+    id: Category_8
+    culture: cs
+    name: Šperky
+    url: sperky
+  CategoryI18n_cs_9:
+    id: Category_9
+    culture: cs
+    name: Dárky
+    url: darky
+
+ProductGroupI18n:
+  ProductGroupI18n_cs_1:
+    id: ProductGroup_1
+    culture: cs
+    name: Akce
+    url: akce
+  ProductGroupI18n_cs_2:
+    id: ProductGroup_2
+    culture: cs
+    name: Prodej
+    url: prodej
+  ProductGroupI18n_cs_3:
+    id: ProductGroup_3
+    culture: cs
+    name: Doporučené
+    url: doporucene
+  ProductGroupI18n_cs_4:
+    id: ProductGroup_4
+    culture: cs
+    name: Domů
+    url: domu
+  ProductGroupI18n_cs_6:
+    id: ProductGroup_6
+    culture: cs
+    name: Nové produkty
+    url: nove-produkty
+
+BoxI18n:
+  BoxI18n_cs_1:
+    id: Box_1
+    culture: cs
+    name: Dodání
+    content: <img src="/uploads/images/deliver.jpg" border="0" width="167" height="167" alt="Dodání" />
+  BoxI18n_cs_2:
+    id: Box_2
+    culture: cs
+    name: Platby
+    content: <img src="/uploads/images/card_box.jpg" border="0" width="167" height="111" alt="Platby" />
+
+WebpageI18n:
+  WebpageI18n_cs_1:
+    id: Webpage_1
+    culture: cs
+    name: Obchodní podmínky
+    content: Příklad textu.
+    url: obchodni-podminky
+  WebpageI18n_cs_2:
+    id: Webpage_2
+    culture: cs
+    name: O nás
+    content: Příklad textu.
+    url: o-nas
+  WebpageI18n_cs_3:
+    id: Webpage_3
+    culture: cs
+    name: Kontakt
+    content: Příklad textu.
+    url: kontakt
+  WebpageI18n_cs_4:
+    id: Webpage_4
+    culture: cs
+    name: Ochrana osobních údajů
+    content: Příklad textu.
+    url: ochrana-osobnich-udaju
+
+TextI18n:
+  TextI18n_cs_1:
+    id: Text_1
+    culture: cs
+    name: Domů
+    content: Vítejte

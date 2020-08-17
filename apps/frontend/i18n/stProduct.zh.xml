@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Cena</source>
+				<target>价格：</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Sortuj po</source>
+				<target>排序</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Nazwie</source>
+				<target>名称</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Cenie</source>
+				<target>价格</target>
+			</trans-unit>
+			<trans-unit id="5">
+				<source>Nazwa produktu</source>
+				<target>商品名称</target>
+			</trans-unit>
+			<trans-unit id="6">
+				<source>Opis</source>
+				<target>描述</target>
+			</trans-unit>
+			<trans-unit id="7">
+				<source>Producent</source>
+				<target>生产厂家</target>
+			</trans-unit>
+			<trans-unit id="8">
+				<source>Kategoria</source>
+				<target>类别</target>
+			</trans-unit>
+			<trans-unit id="9">
+				<source>Typ prezentacji listy</source>
+				<target>列表类别</target>
+			</trans-unit>
+			<trans-unit id="10">
+				<source>Pełna lista</source>
+				<target>全列表</target>
+			</trans-unit>
+			<trans-unit id="11">
+				<source>Skrócona lista</source>
+				<target>短列表</target>
+			</trans-unit>
+			<trans-unit id="12">
+				<source>Lista alternatywna</source>
+				<target>另类的列表</target>
+			</trans-unit>
+			<trans-unit id="13">
+				<source>Polecamy produkty</source>
+				<target>我们推荐的商品</target>
+			</trans-unit>
+			<trans-unit id="14">
+				<source>Widzisz %number% z %count% produktów</source>
+				<target>您在看%count%分之%number%的商品</target>
+			</trans-unit>
+			<trans-unit id="15">
+				<source>Nowości</source>
+				<target>新</target>
+			</trans-unit>
+			<trans-unit id="16">
+				<source>Strona główna</source>
+				<target>首页</target>
+			</trans-unit>
+			<trans-unit id="17">
+				<source>Strona produktu o podanym id nie istnieje</source>
+				<target>本id产品的页面不存在</target>
+			</trans-unit>
+			<trans-unit id="18">
+				<source>Strona kategorii o podanym id nie istnieje</source>
+				<target>本id类别的页面不存在</target>
+			</trans-unit>
+			<trans-unit id="19">
+				<source>Strona grupy produktów o podanym id nie istnieje</source>
+				<target>本id 产品组的页面不存在</target>
+			</trans-unit>
+			<trans-unit id="20">
+				<source>Cena netto</source>
+				<target>净价</target>
+			</trans-unit>
+			<trans-unit id="21">
+				<source>Cena brutto</source>
+				<target>总价</target>
+			</trans-unit>
+			<trans-unit id="22">
+				<source>Stara cena</source>
+				<target>旧价</target>
+			</trans-unit>
+			<trans-unit id="23">
+				<source>Rabat</source>
+				<target>折扣</target>
+			</trans-unit>
+			<trans-unit id="24">
+				<source>Grupa rabatowa</source>
+				<target>折扣组</target>
+			</trans-unit>
+			<trans-unit id="25">
+				<source>Cena katalogowa brutto</source>
+				<target>目录总价</target>
+			</trans-unit>
+			<trans-unit id="26">
+				<source>Cena katalogowa netto</source>
+				<target>目录总价</target>
+			</trans-unit>
+			<trans-unit id="27">
+				<source>Rabat brutto</source>
+				<target>总折扣</target>
+			</trans-unit>
+			<trans-unit id="28">
+				<source>Rabat netto</source>
+				<target>净折扣</target>
+			</trans-unit>
+			<trans-unit id="29">
+				<source>Stara cena brutto</source>
+				<target>旧总价</target>
+			</trans-unit>
+			<trans-unit id="30">
+				<source>Stara cena netto</source>
+				<target>旧净价</target>
+			</trans-unit>
+			<trans-unit id="31">
+				<source>Waga</source>
+				<target>重量</target>
+			</trans-unit>
+			<trans-unit id="32">
+				<source>Kod</source>
+				<target>代码</target>
+			</trans-unit>
+			<trans-unit id="33">
+				<source>Klient hurtowy</source>
+				<target>批发客户</target>
+			</trans-unit>
+			<trans-unit id="34">
+				<source>Rabat ogólny użytkownika</source>
+				<target>用户的总折扣</target>
+			</trans-unit>
+			<trans-unit id="35">
+				<source>Filtruj po producentach</source>
+				<target>按生产厂家过滤</target>
+			</trans-unit>
+			<trans-unit id="36">
+				<source>Wszyscy</source>
+				<target>所有</target>
+			</trans-unit>
+			<trans-unit id="37">
+				<source>Załączniki</source>
+				<target>附件</target>
+			</trans-unit>
+			<trans-unit id="38">
+				<source>Pobierz</source>
+				<target>下载</target>
+			</trans-unit>
+			<trans-unit id="39">
+				<source>Takiej kategorii nie ma w sklepie</source>
+				<target>商店里没有这种类别</target>
+			</trans-unit>
+			<trans-unit id="40">
+				<source>Takiej grupy produktów nie ma w sklepie</source>
+				<target>商店里没有本商品组</target>
+			</trans-unit>
+			<trans-unit id="41">
+				<source>Takiego producenta nie ma w sklepie</source>
+				<target>商店里没有该生产厂家</target>
+			</trans-unit>
+			<trans-unit id="42">
+				<source>Takiego produktu nie ma w sklepie</source>
+				<target>商店里没有该商品</target>
+			</trans-unit>
+			<trans-unit id="43">
+				<source>Więcej</source>
+				<target>更多</target>
+			</trans-unit>
+			<trans-unit id="44">
+				<source>Nazwa</source>
+				<target>名称</target>
+			</trans-unit>
+			<trans-unit id="45">
+				<source>Brutto</source>
+				<target>价格</target>
+			</trans-unit>
+			<trans-unit id="46">
+				<source>Netto</source>
+				<target>净</target>
+			</trans-unit>
+			<trans-unit id="47">
+				<source>Cena katalogowa</source>
+				<target>目录价格</target>
+			</trans-unit>
+			<trans-unit id="48">
+				<source>Najnowszym</source>
+				<target>最新</target>
+			</trans-unit>
+			<trans-unit id="49">
+				<source>Przejdź do strony głównej</source>
+				<target>去首页</target>
+			</trans-unit>
+			<trans-unit id="50">
+				<source>Obrazek</source>
+				<target>图片</target>
+			</trans-unit>
+			<trans-unit id="51">
+				<source>z</source>
+				<target>从</target>
+			</trans-unit>
+			<trans-unit id="52">
+				<source>brutto</source>
+				<target>总价</target>
+			</trans-unit>
+			<trans-unit id="53">
+				<source>netto</source>
+				<target>净价</target>
+			</trans-unit>
+			<trans-unit id="54">
+				<source>Kod producenta</source>
+				<target>制造商的代码</target>
+			</trans-unit>
+			<trans-unit id="55">
+				<source>Brak produktów dla wybranych kryteriów</source>
+				<target>没有找到相关产品</target>
+			</trans-unit>
+			<trans-unit id="56">
+				<source>szczegóły</source>
+				<target>详细信息</target>
+			</trans-unit>
+			<trans-unit id="57">
+				<source>sprawdź</source>
+				<target>检查</target>
+			</trans-unit>
+			<trans-unit id="58">
+				<source>Otrzymasz</source>
+				<target>您将收到</target>
+			</trans-unit>
+			<trans-unit id="59">
+				<source>Koszt</source>
+				<target>订单价格</target>
+			</trans-unit>
+			<trans-unit id="60">
+				<source>tylko za punkty</source>
+				<target>只为积分</target>
+			</trans-unit>
+			<trans-unit id="61">
+				<source>dodaj do koszyka</source>
+				<target>加入购物车</target>
+			</trans-unit>
+			<trans-unit id="62">
+				<source>Brak wystarczającej ilości punktów.</source>
+				<target>没有足够的积分。</target>
+			</trans-unit>
+			<trans-unit id="63">
+				<source>Zaloguj się aby kupić produkt.</source>
+				<target>登录购买产品。</target>
+			</trans-unit>
+			<trans-unit id="64">
+				<source>Nie osiągnięto progu punktów.</source>
+				<target>未达到积分</target>
+			</trans-unit>
+			<trans-unit id="65">
+				<source>Do osiągnięcia progu brakuje</source>
+				<target>为实现还缺少</target>
+			</trans-unit>
+			<trans-unit id="66">
+				<source>za</source>
+				<target>为</target>
+			</trans-unit>
+			<trans-unit id="67">
+				<source>Cena zasadnicza</source>
+				<target>基本价格</target>
+			</trans-unit>
+			<trans-unit id="68">
+				<source>Zobacz</source>
+				<target>查看</target>
+			</trans-unit>
+			<trans-unit id="69">
+				<source>Akcesoria</source>
+				<target>饰品</target>
+			</trans-unit>
+			<trans-unit id="70">
+				<source>Do koszyka</source>
+				<target>添加到购物车</target>
+			</trans-unit>
+			<trans-unit id="71">
+				<source>malejąco</source>
+				<target>下降</target>
+			</trans-unit>
+			<trans-unit id="72">
+				<source>rosnąco</source>
+				<target>上升</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,83 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stWebpagePlugin.lib.model
+  st_webpage: 
+    _attributes: 
+      phpName: Webpage
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    active: 
+      type: BOOLEAN
+      default: 1
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    opt_content: 
+      type: LONGTEXT
+    opt_url: 
+      type: VARCHAR
+      size: 255
+      required: false
+    state: 
+      type: VARCHAR
+      size: 255
+    _indexes: 
+      webpage_url: 
+        - opt_url
+  st_webpage_group: 
+    _attributes: 
+      phpName: WebpageGroup
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    opt_name: 
+      type: VARCHAR
+      size: 255
+    group_page: 
+      type: VARCHAR
+      size: 255
+    show_footer: 
+      type: BOOLEAN
+    show_header: 
+      type: BOOLEAN
+  st_webpage_group_has_webpage: 
+    _attributes: 
+      phpName: WebpageGroupHasWebpage
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    webpage_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_webpage
+      foreignReference: id
+      onDelete: cascade
+    webpage_group_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_webpage_group
+      foreignReference: id
+      onDelete: cascade
+    rank: 
+      type: INTEGER

@@ -1,0 +1,1 @@
+<?php echo input_tag('filters[discount_coupon_code]', isset($filters['discount_coupon_code']) ? $filters['discount_coupon_code'] : null) ?> 

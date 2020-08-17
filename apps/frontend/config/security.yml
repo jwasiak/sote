@@ -1,0 +1,9 @@
+edit:
+    all:
+        is_secure: on
+
+dev:
+    all:
+        is_secure: off
+
+

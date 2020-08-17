@@ -1,0 +1,83 @@
+generator:
+    class:              stAdminGenerator
+    param:
+        model_class:      Box
+        theme:            simple
+        head:
+            package:      stBoxPlugin
+        applications:                           [stWebpagePlugin, stTextPlugin]
+
+        box_group_main_model_class:             BoxGroup
+
+        custom_actions:
+            list:                               [box_group_main]
+            edit:                               [box_group_main]
+        list:
+            filters:
+                name:                           {filter_field: box_i18n.name}
+            title:                              Lista
+            description:                        Zarządzaj boksami informacyjnymi
+            peer_method:                        doSelectWithI18n
+            peer_count_method:                  doCountWithI18n
+            menu:
+                display:                        [list, box_group_main_list]
+                fields:
+                    list:                       {name: Lista, action: stBoxBackend/index}
+                    box_group_main_list:        {name: Grupy, action: stBoxBackend/boxGroupMainList}
+            display:                            [=name, active]
+            fields:
+                name:                           {name: Nazwa, params: size=30, sort_field: box_i18n.name}
+                active:                         {name: Aktywny}
+            actions:
+                _create:                        {name: Dodaj}
+            object_actions:
+                _edit:                          -
+                _delete:                        -  
+            empty_message:                      Brak boksów informacyjnych
+        edit:
+            title:                              Edycja boksu informacyjnego
+            description:                        Zarządzaj boksami informacyjnymi
+            display:                            [name, active, show_title, box_group_id, content, webmaster_id]
+            fields:
+                name:                           {name: Nazwa, params: disabled=false}
+                active:                         {name: Aktywny}
+                show_title:                     {name: Nie pokazuj nazwy}
+                box_group_id:                   {name: Wyświetlaj w grupie, params: include_custom="Brak" include_blank=false peer_method=doSelectGroupsForBox}
+                content:                        {name: Treść,  type: textarea_tag, params: size=60x10 rich=true tinymce_options='height:400,width:600'}
+                webmaster_id:                   {name: Identyfikator, help: Dla webmasterów, params: size=30}
+            actions:
+                _delete:                        {name: Usuń}
+                _list:                          {name: Lista}
+                _save:                          {name: Zapisz}
+                _save_and_add:                  {name: Zapisz i dodaj}
+
+        box_group_main_list:
+            filters:
+                name:                           {filter_field: box_group_i18n.name}
+            title:                              Grupy
+            description:                        Zarządzaj grupami boksów
+            display:                            [=name]
+            peer_method:                        doSelectWithI18n
+            peer_count_method:                  doCountWithI18n
+            fields:
+                name:                           {name: Tytuł grupy boksów, params: size=30, sort_field: box_group_i18n.name}
+            actions:
+                _create:                        {name: Dodaj}
+            object_actions:
+                _edit:                          -
+                _delete:                        -
+            empty_message:                      Brak grup boksów
+
+        box_group_main_edit:
+            title:                              Edycja grupy boksów %%name%%
+            description:                        Zarządzaj grupami boksów
+            display:                            [name, ~default_group_box]
+            fields:
+                name:                           {name: Tytuł grupy boksów, type: input_tag, params: size=50}
+                default_group_box:              {name: Typ}
+            menu:                               {use: list.menu}
+            actions:
+                _delete:                        {name: Usuń}
+                _list:                          {name: Lista}
+                _save:                          {name: Zapisz}
+                _save_and_add:                  {name: Zapisz i dodaj}

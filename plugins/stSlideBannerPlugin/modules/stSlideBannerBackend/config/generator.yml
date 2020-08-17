@@ -1,0 +1,68 @@
+generator:
+    class:                          stAdminGenerator
+    param:
+        model_class:                SlideBanner
+        theme:                      simple
+        applications:               []
+        head:
+            package:                stSlideBannerPlugin
+        custom_actions:
+            custom:                 [config]
+        list:
+            peer_method:            doSelectSorted
+            description:            Zarządzanie banerem na stronie głównej.
+            title:                  Slajdy
+            display:                [image, opt_culture, group_name, is_active]
+            fields:
+                image:              {name: Slajd}
+                opt_culture:        {name: Wersja językowa}
+                group_name:         {name: Nazwa grupy}
+                is_active:          {name: Aktywny}
+            actions:
+                _create:            {name: Dodaj, i18n: stSlideBannerBackend}
+            object_actions:
+                moveUp:             {icon: /images/backend/icons/asc.png, action: "moveUp"}   
+                moveDown:           {icon: /images/backend/icons/desc.png, action: "moveDown"}
+                _edit:              -
+                _delete:            -
+            select_actions:
+              display:
+                "Ustaw aktywne:":   [banner_enabled, banner_disabled]
+              actions:
+                _delete:            -
+                banner_enabled:    {name: Tak, confirm: "Ustaw aktywne: Tak", action: bannerEnable, i18n: stAdminGeneratorPlugin}
+                banner_disabled:   {name: Nie, confirm: "Ustaw aktywne: Nie", action: bannerDisable, i18n: stAdminGeneratorPlugin}      
+        edit:
+            title:                  Edycja banera
+            display:                
+              "NONE":                         [is_active, _language_id, _banner_type, group_name]
+              "Baner":                        [_image, _image_small, description, link]
+              "Zachęcenie do podjęcia akcji (CTA Call to Action).": [_banner_description_position, banner_margin_left, banner_margin_right, banner_title, banner_description, button_text, button_link]
+            hideable:                         [group_name, language_id]  
+            fields:
+              banner_type:        {name: Wyświetlaj w tematach , old_config: true}
+              image:
+                 name: Zdjęcie                  
+              image_small:
+                 name: Zdjęcie (wersja mobilna)  
+                 required: false 
+              description:        {name: Opis, old_config: true , help: "Opis zdjęcia dla wyszukiwarek"}
+              link:               {name: Link , help: "Link do strony, która ma się otworzyć po kliknięciu w baner."}
+              language_id:        {name: Wersja językowa}
+              group_name:         {name: Nazwa grupy, help: "Opcja dla webmasterów. Pozwala na utworzenie dodatkowych grup banerów na stronie."}
+              is_active:          {name: Aktywny}
+              banner_title:       {name: Tytuł na banerze, help: "Tekst, który pojawi się na banerze."}
+              banner_description: {name: Opis, help: "1-2 krótkie zdania opisujące to, co znajduje się na stronie, do której odsyła baner.", type: textarea_tag, params: size=60x6}
+              banner_description_position: {name: Kolor tekstu}
+              button_text:        {name: Przycisk, help: "Np. Sprawdź, Dowiedz się więcej, Przeczytaj, Zamów.", params: size=20;}
+              button_link:        {name: Link przycisku, help: "Link do strony, która ma się otworzyć po kliknięciu w przycisk."}
+              banner_margin_left: {name: Margines lewy, help: "Pozwala ustawić procentowy margines od lewej strony", params: size=2;}
+              banner_margin_right: {name: Margines prawy, help: "Pozwala ustawić procentowy margines od prawej strony", params: size=2;}
+            
+            actions:
+                _list:                  {name: Slajdy, i18n: stSlideBannerBackend}
+                _save:                  {name: Zapisz}
+                _save_and_add:          {name: Zapisz i dodaj kolejny}
+                _delete:                {name: Usuń}  
+        config_custom:
+          title:  Konfiguracja

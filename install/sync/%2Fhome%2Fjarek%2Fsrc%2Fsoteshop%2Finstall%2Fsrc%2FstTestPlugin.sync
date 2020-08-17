@@ -1,0 +1,9 @@
+/home/jarek/src/soteshop/packages
+/home/jarek/src/soteshop/packages/stTestPlugin
+/home/jarek/src/soteshop/packages/stTestPlugin/package.yml
+/home/jarek/src/soteshop/packages/stTestPlugin/phpdoc.yml
+/home/jarek/src/soteshop/lib
+/home/jarek/src/soteshop/lib/stTestBrowser.class.php
+/home/jarek/src/soteshop/test
+/home/jarek/src/soteshop/test/unit
+/home/jarek/src/soteshop/test/unit/stTestPluginTest.php

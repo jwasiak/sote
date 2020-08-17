@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Rejestracja danych</source>
+                <target>Data registration</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Rejestracja danych użytkownika w procesie instalacji</source>
+                <target>Registration of user's data in the installation process</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>firma</source>
+                <target>company</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Licencja straciła ważność</source>
+                <target>The license has expired</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>nip</source>
+                <target>VAT ID</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>imię i nazwisko</source>
+                <target>name and surname</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>ulica, nr domu</source>
+                <target>street address, house number</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>kod, miasto</source>
+                <target>postal code, city/town</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>telefon</source>
+                <target>phone number</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>email</source>
+                <target>e-mail</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>hasło</source>
+                <target>password</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>powtórz hasło</source>
+                <target>repeat the password</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>licencja</source>
+                <target>licence</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>adres sklepu</source>
+                <target>shop address</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Zarejestruj</source>
+                <target>Register</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Przejdź do panelu</source>
+                <target>Go to the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Licencja:</source>
+                <target>Licence:</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Wprowadz licencje</source>
+                <target>Enter the license number</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Pozostało</source>
+                <target>There are</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>dni do wygaśnięcia licencji.</source>
+                <target>days left until the expiry of the license.</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Instalacja</source>
+                <target>Installation</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Nie podałeś firmy.</source>
+                <target>Enter your company name.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Przekroczono dozwoloną liczbę znaków.</source>
+                <target>Maximum number of characters was exceeded.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Nie podałeś numeru nip.</source>
+                <target>Enter your VAT ID.</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Nie podałeś adresu email.</source>
+                <target>Enter your e-mail address.</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Nieprawidłowy format adresu e-mail.</source>
+                <target>Invalid e-mail address format.</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Taki adres już istnieje w bazie danych.</source>
+                <target>This address is already stored in the database.</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Nie podałeś imienia.</source>
+                <target>Enter your name.</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Nie podałeś nazwiska.</source>
+                <target>Enter your surname.</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Nie podałeś ulicy.</source>
+                <target>Enter your street address.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Nie podałeś nr. domu.</source>
+                <target>Enter your house number.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Nie podałeś kodu pocztowego.</source>
+                <target>Enter your postal code.</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Nie podałeś miasta.</source>
+                <target>Enter your city/town.</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Nie podałeś telefonu.</source>
+                <target>Enter your phone number.</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Nie podałeś licencji.</source>
+                <target>Enter the licence number.</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Nie podałeś adresu strony.</source>
+                <target>Enter your site address.</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Nie podałeś hasła.</source>
+                <target>Enter the password.</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Podane hasło jest za krótkie min. 6 znaków.</source>
+                <target>The password is too short. It must be at least 6 characters long.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Przekroczono dozwoloną długość hasła, maksimum 20 znaków.</source>
+                <target>The password is too long. It must not exceed 20 characters.</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Hasła nie są takie same.</source>
+                <target>Passwords do not match.</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Błędny numer licencji.</source>
+                <target>Invalid license number.</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Błędna weryfikacja licencji.</source>
+                <target>Invalid license verification.</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Hasło</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Powtórz hasło</source>
+                <target>Repeat the password</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>Licencja</source>
+                <target>Licence</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Rejestracja konta administratora</source>
+                <target>Registration of administrative user</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Użytkownik</source>
+                <target>Username</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,19 @@
+package:
+  name: stDepositoryPlugin
+  stability: stable
+  version: 7.1.1.2
+  summary: Magazy
+  description: 'Zarzadzanie stanami magazynowymi produktow'
+  notes: |
+    - Poprawka synchronizacji ofert Allegro
+  maintainers:
+    'Krzysztof Beblo':
+      role: lead
+      user: krzysiek
+      email: krzysztof.beblo@sote.pl
+  dependency:
+    stFrontend: 1.0.9.5
+    stBackend: 1.0.4.11
+    stProduct: 1.0.16.3
+    stAvailabilityPlugin: 1.0.5.4
+    stBasket: 1.0.6.13

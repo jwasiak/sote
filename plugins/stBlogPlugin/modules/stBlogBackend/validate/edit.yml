@@ -1,0 +1,7 @@
+fields:
+    blog{name}:
+        required:
+            msg:        Podaj tytuł wpisu.
+    blog{long_description}:
+        required:
+            msg:        Wpisz treść.

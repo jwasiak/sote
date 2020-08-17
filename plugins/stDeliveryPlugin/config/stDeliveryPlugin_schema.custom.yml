@@ -1,0 +1,34 @@
+propel: 
+    _migration: {from_schema: stDelivery.schema.yml}
+    st_delivery: 
+        _attributes: 
+            phpName: Delivery
+            isI18N: true
+            i18nTable: st_delivery_i18n
+        opt_name: {change_column: name}
+        opt_description: {change_column: description}
+
+    st_delivery_i18n: 
+        _attributes: 
+            phpName: DeliveryI18n
+        id: 
+            type: integer
+            required: true
+            primaryKey: true
+            foreignTable: st_delivery
+            foreignReference: id
+            onDelete: cascade
+        culture:
+            isCulture: true
+            primaryKey: true
+            type: VARCHAR
+            size: 7
+        name: 
+            type: VARCHAR
+            size: 255
+        description: 
+            type: LONGVARCHAR
+            
+    st_delivery_sections: 
+        _attributes: 
+            phpName: DeliverySections           

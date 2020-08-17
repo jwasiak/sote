@@ -1,0 +1,1 @@
+<?php include(SF_ROOT_DIR.'/apps/frontend/lib/helper/stUsersOnlineHelper.php');echo st_get_online_users(); ?>

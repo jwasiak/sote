@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>góra</source>
+                <target>top</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>dół</source>
+                <target>bottom</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>lewa</source>
+                <target>left</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>prawa</source>
+                <target>right</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>środek</source>
+                <target>middle</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>na ukos góra</source>
+                <target>diagonally up</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>na ukos dół</source>
+                <target>diagonally down</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Sansation (pogrubione)</source>
+                <target>Sansation (bold)</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Sansation (cienkie)</source>
+                <target>Sansation (thin)</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Technique (bez wypełnienia)</source>
+                <target>Technique (without filling)</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,47 @@
+{if $config->get('gateways_popup')}
+   <span class="app-bluemedia">
+      <a class="btn btn-default" href="#app-bluemedia-gateway-modal" data-toggle="modal">{__ text="Wybierz"}</a>
+      {if $gateway}
+         <a class="app-bluemedia-gateway" href="#app-bluemedia-gateway-modal" data-toggle="modal" style="display: block; color: inherit; padding-top: 5px">
+            <img src="{$gateway.icon}" alt="{$gateway.name}" style="max-width: 50px; vertical-align: middle"> {$gateway.name}
+         </a>
+      {else}
+         <a class="app-bluemedia-gateway" href="#app-bluemedia-gateway-modal" data-toggle="modal" style="display: block; color: inherit; padding-top: 5px"></a>
+      {/if}
+   </span>
+{else}
+   <div class="input-group" data-payment-id="{$payment->getId()}" id="app-bluemedia-blik"{if !$show} style="display: none"{/if}>
+      <input type="text" class="form-control" placeholder="{__ text="* Kod Blik"}" value="{$code}" required>
+   </div>
+   {literal}
+      <script>
+         jQuery(function($) {
+            var blik = $('#app-bluemedia-blik');
+
+            function updateVisibility() {  
+               if ($(this).val() == blik.data('payment-id')) {
+                  blik.show();
+               } else {
+                  blik.hide();
+               }
+            }
+
+            $('#shopping-cart-payment').on("click", ".payment-radio", updateVisibility);   
+
+            var form = $('#user_delivery_form');
+
+            form.submit(function() {
+               if (blik.is(":visible")) {
+                  var input = blik.find('input');
+                  if (!input.val()) {
+                     blik.addClass('has-error');
+                     return false;
+                  } else {
+                     form.append('<input type="hidden" name="app_bluemedia_blik_code" value="'+input.val()+'">');
+                  }
+               }
+            });
+         });
+      </script>
+   {/literal}
+{/if}

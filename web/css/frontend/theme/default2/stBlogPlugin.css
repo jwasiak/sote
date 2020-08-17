@@ -1,0 +1,107 @@
+/* stBlogPlugin */
+#blog
+{
+    margin-left: -12px;
+}
+
+#blog .item
+{
+            width: 366px;
+            float: left;
+            margin: 0 0 12px 12px;
+            padding: 10px 0px 10px 10px;
+}
+
+#blog .image img    
+{
+    max-width: 180px;
+}
+
+#blog .image
+{
+    float: left;
+}
+
+#blog .info
+{
+    width: 175px;
+    float: left;
+}
+
+#blog .title
+{
+    padding: 0 10px;
+    margin: 0px 0 3px 0;
+}
+
+#blog .title h4
+{
+    font-weight: bold;
+}
+
+#blog .desc
+{
+    padding: 0px 10px;
+    line-height: 140%;
+}
+
+#blog a
+{
+    text-decoration: none;
+}
+
+#blog .data
+{
+    padding: 7px 10px 0;
+    font-size: 10px;
+    color: #a0a0a0;
+    line-height: 100%;
+}
+
+#blog_show .title
+{
+    margin: 10px 10px 14px;
+}
+
+#blog_show .image
+{
+    float: right;
+    margin: 0 15px 10px 10px;
+}
+
+#blog_show .image img
+{
+    max-width: 370px;
+}
+
+#blog_show .content
+{
+    padding: 0 10px 10px;
+}
+
+#blog_list .title
+{
+    margin: 10px 0px 4px;
+}
+
+#blog_list .image img
+{
+    max-width: 340px;
+    margin: 0 10px 15px 0;
+}
+
+#blog_list .desc a
+{
+    text-decoration: none;
+}
+
+#blog_list .item
+{
+    padding: 0 10px 10px;
+}
+
+#blog_list .data {
+    color: #A0A0A0;
+    margin-bottom: 10px;
+    font-size: 11px;
+}

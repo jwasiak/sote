@@ -1,0 +1,1 @@
+<?php // moved to soteshop/libs

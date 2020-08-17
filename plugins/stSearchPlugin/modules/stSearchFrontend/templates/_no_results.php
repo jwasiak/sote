@@ -1,0 +1,1 @@
+<?php $smarty->display('search_no_results.html') ?>

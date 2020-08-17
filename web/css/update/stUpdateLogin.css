@@ -1,0 +1,143 @@
+html body 
+{
+    background: #f7f7f7;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body #container
+{
+    background: none;
+    width: auto;
+    margin: 0 auto;
+    max-width: 1207px;
+    min-width: 950px;
+    padding: 10px 30px 30px 30px;
+}
+
+body #sf_guard_container
+{
+    background: #fff;
+    border: 1px solid #DDDDDD;
+    padding: 40px;
+    width: 288px;
+    margin: 10% auto 0 auto;
+    box-shadow: 0 0 50px rgba(0,0,0, .07);
+}
+
+.site_address {
+    margin: 10px auto 0;
+    width: 368px;
+    font-size: 10px;
+    color: #AAAAAA;
+}
+
+.site_address > a
+{
+    font-size: 10px;
+}
+
+#st_version
+{
+    display: none;
+}
+
+#frame_login fieldset
+{
+    border:none;
+    margin-top:22px;
+}
+
+#sf_guard_auth_username, #sf_guard_auth_password
+{
+    overflow:hidden;    
+    margin:15px 0px;
+}
+
+#sf_guard_auth_password
+{
+    margin:15px 0px 5px 0px;
+}
+
+#st_txt_input_login
+{
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+#sf_guard_auth_username_input input
+{
+    padding: 5px;
+    width: 100%;
+    font-size: 14px;
+    border-color: #ccc;
+}
+
+#submit_login
+{
+    clear: both;
+    margin-top: 20px;
+}
+
+#submit_login input
+{
+    background:transparent;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    cursor:pointer;
+    color: #000;
+    background: #ddd;
+    display: block;
+    font-size: 14px;
+    float: right;
+}
+
+#submit_login input:hover
+{
+    border-color: #aaa;
+}
+
+.form_error
+{
+    color: #C62929;
+    text-align: left;
+}
+
+#sf_frame_login_middle
+{
+    padding-top: 7px;
+}
+
+#txt_login
+{
+    font-size:19px;
+    color:#666;
+    margin-left: 3px;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+#sf_guard_container > img
+{
+    position: relative;
+    left: 1px;
+}
+
+#password_reminder {
+border: 1px solid #DDDDDD;
+left: 728.5px;
+position: fixed;
+top: 130px !important;
+width: 328px;
+height: 316px !important;
+box-shadow: 0 0 50px rgba(0,0,0, .07);
+padding: 0px 20px;
+}
+
+#frame_login .remind a {
+text-decoration: none;
+color: #aaa;
+font-size: 12px;
+float: right;
+margin-top: 10px;
+}
+

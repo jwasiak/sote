@@ -1,0 +1,98 @@
+<div id="st_application-st_basket-index" class="st_application">
+    <h1 class="st_title" style="height: 50px">
+        <div id="st_user-tag">
+            {$user_panel_icon}
+        </div>
+        {$my_account}
+        <span>/</span>
+        {__ text="Newsletter"}
+    </h1>
+    {$user_panel_menu}   
+    <div class="st_content" style="padding: 10px 100px"> 
+                
+        {$form_start}
+              <div style="width:500px; margin:0px auto;">
+                {if $update == 1}
+                    <p style="color:#fff;text-align:center;background-color:#458B00;"><b>{__ text="Dane zostały zaktualizowane."}</b></p>
+                {/if}
+              
+                {if $new_user == 1}
+                    <p style="text-align:center;">{__ text="Zapisz się na newsletter aby dostawać informacje ze sklepu. Wybierz działy informacji z których chcesz otrzymywać wiadomości."}</p>
+                {else}    
+                    <p style="text-align:center;">{__ text="Wiadomości z list subskrypcji będą przychodziły na adres"}:</p>
+                    <p style="text-align:center; font-size:14px;"><b>{$user_email}</b></p>
+                    <p style="text-align:center;">{__ text="Jeżeli chcą Państwo zmienić grupy powiadomień lub adres na który mają być wysyłane wiadomości proszę skorzystać z formularza poniżej."}</p>    
+                {/if} 
+                                
+                <div style="margin-left: 60px;">
+                <div class="st_row">
+                    {$label_email}
+                    {$error_email}
+                    <div class="st_field">    
+                        {$input_email}
+                    </div>
+                </div>          
+                        
+                <div class="st_row">
+                {$error_privacy}              
+                <div class="st_field" style="margin-left: 106px;">        
+                    {$input_privacy}
+                        <span style="margin-left: 4px;">{$accept_privacy}</span>
+                    </div>
+                </div>  
+                </div>
+                
+                
+                <br/>
+                {if $newsletterGroup}
+                <div style="border-top: 1px solid #ddd;"></div>
+                {foreach key=row item=news_group from=$results}
+                <br/>
+                    <div>
+                        <div style="width:50px; float:left; padding-top:15px; padding-left:25px;">
+                        {$news_group.input}
+                        </div>
+                            
+                        <div style="border-left: 1px dotted #ccc; margin-left: 65px; text-align: justify;">
+                            <b>{$news_group.name}</b>
+                            {$news_group.description}                        
+                        </div>
+                        
+                    </div>
+                    <br/>
+                    <div style="border-top: 1px solid #ddd;"></div>
+                {/foreach}
+                {/if}
+                <div style="float: right; padding: 10px 0px;">
+                    {__ text="W każdym momencie możesz zrezygnować."}
+                </div>
+                <br class="st_clear_all" />
+                    <div id="st_button-user-newsletter-add" class="st_button-container" style="float:right">
+                        <div class="st_button st_align-right">
+                            <div class="st_button-left">
+                            {$submit_button}                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {if $new_user != 1}
+                        <div id="st_button-user-newsletter-remove" class="st_button-container" style="float:left">
+                            <div class="st_button st_align-left">
+                                <div class="st_button-left">
+                                {$newsletter_user}                
+                                </div>
+                            </div>
+                        </div>
+                    {/if} 
+                      
+                    <br class="st_clear_all" />
+                </div> 
+                
+        {$hidden_new_user}
+        </form>
+    </div> 
+                    
+
+    
+    </div>
+</div>

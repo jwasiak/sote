@@ -1,0 +1,163 @@
+data:
+  _types:
+    slide:        [thumb]
+    slide_mobile: [thumb]
+    blog:         [thumb]
+    product:      [small, icon, thumb, gallery, large, big, allegro]
+    category:     [thumb, small]
+    producer:     [large, thumb]
+
+  general:
+    respect_exif_orientation: true
+
+  gallery:
+    zoom_on:  '1'
+  watermark:
+    text: soteshop
+    font: Sansation_Light.ttf
+    color: '999999'
+    size: '12'
+    position: bottom
+    alpha: '64'
+  app_image_tag:
+    thumb:
+      width: 120
+      height: 80
+      quality: 90
+      watermark: false
+      auto_crop: true      
+  slide:
+    thumb:
+      width: 571
+      height: 366
+      quality: 100
+      watermark: false
+      auto_crop: true
+  slide_mobile:
+    thumb:
+      width: 500
+      height: 489
+      quality: 100
+      watermark: false
+      auto_crop: true
+  blog:
+    thumb:
+      width: 640
+      height: 480
+      quality: 100
+      watermark: false
+      auto_crop: true    
+  product:
+    small:
+      width: '164'
+      height: '164'
+      quality: '100'
+      watermark: '1'
+      auto_crop: '1'
+    icon:
+      width: '42'
+      height: '42'
+      quality: '100'
+    thumb:
+      width: '88'
+      height: '88'
+      quality: '100'
+    gallery:
+      width: '88'
+      height: '88'
+      quality: '100'            
+    large:
+      width: '356'
+      height: '356'
+      quality: '100'
+      watermark: '1'
+    big:
+      width: '512'
+      height: '512'
+      quality: '100'
+      watermark: '1'
+    group:
+      width: 140
+      height: 140
+      quality: '100'
+      watermark: '1'
+    custom_1:
+      width: 372
+      height: 372
+      quality: '100'
+      watermark: '1'
+    allegro:
+      width:  768  
+      height: 576
+      quality: 100
+      watermark: '0'
+      auto_crop: '0' 
+  category:
+    small:
+      width: '128'
+      height: '128'
+      quality: '100'
+      watermark: '1'
+    icon:
+      width: '42'
+      height: '42'
+      quality: '100'
+    thumb:
+      width: '118'
+      height: '118'
+      quality: '100'
+      auto_crop: '1'
+    large:
+      width: '256'
+      height: '256'
+      quality: '100'
+      watermark: '1'
+    big:
+      width: '512'
+      height: '512'
+      quality: '100'
+      watermark: '1'
+    group:
+      width: 140
+      height: 140
+      quality: '100'
+      watermark: '1'
+    custom_1:
+      width: 372
+      height: 372
+      quality: '100'
+      watermark: '1'
+  producer:
+    small:
+      width: '128'
+      height: '128'
+      quality: '100'
+      watermark: '0'
+    icon:
+      width: '42'
+      height: '42'
+      quality: '100'
+    thumb:
+      width: '100'
+      height: '84'
+      quality: '100'
+    large:
+      width: '256'
+      height: '256'
+      quality: '100'
+      watermark: '0'
+    big:
+      width: '512'
+      height: '512'
+      quality: '100'
+      watermark: '1'
+    group:
+      width: 140
+      height: 140
+      quality: '100'
+      watermark: '1'
+    custom_1:
+      width: 372
+      height: 372
+      quality: '100'
+      watermark: '1'

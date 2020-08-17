@@ -1,0 +1,49 @@
+add_price_model_class:            AddPrice
+custom_actions:
+    list:                   [add_price]
+    edit:                   [add_price]
+
+add_price_list:
+    forward_parameters:     [product_id]
+    build_options:
+        related_id:         forward_parameters.product_id
+    title:  Lista walut
+    display:                [currency, _price_netto, tax, _price_brutto]
+    menu:                   {use: edit.menu}
+    
+    fields:
+        currency:          {name: Waluta}
+        tax:               {name: Vat}
+        price_netto:       {name: Cena netto, module: appAddPriceBackend}
+        price_brutto:      {name: Cena brutto, module: appAddPriceBackend}
+    actions:
+        _create:           {name: Dodaj}
+    object_actions:
+        _edit:              -
+        _delete:            -
+
+add_price_edit:
+    use_helper:             [appAddPrice]
+    forward_parameters:     [product_id]
+    build_options:
+        related_id:         forward_parameters.product_id
+    title:  Edycja grupy
+    display:                [~currency_select, tax_id, _price, _old_price, _wholesale_price]
+    menu:                   {use: edit.menu}
+
+    fields:
+        currency_select:    {name: Waluta, module: appAddPriceBackend}
+        tax_id:             {name: Vat, type: add_price_tax}
+        price:              {name: Cena, module: appAddPriceBackend}
+        old_price:          {name: Stara cena, module: appAddPriceBackend}
+        wholesale_price:    {name: Ceny hurtowe, module: appAddPriceBackend}
+
+    actions:
+        _list:          {name: Pokaż listę}
+        _save:          {name: Zapisz}
+        _delete:        {name: Usuń}       
+edit:
+    menu:
+        display:           [addprice]
+        fields:
+            addprice:      {name: Ceny w walutach, i18n: appAddPriceBackend,  action: stProduct/addPriceList?product_id=%%id%%}        

@@ -1,0 +1,7 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2009/01/12 13:18:57
+      fields: 
+        off:

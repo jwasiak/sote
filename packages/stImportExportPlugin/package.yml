@@ -1,0 +1,16 @@
+package:
+  name: stImportExportPlugin
+  stability: stable
+  version: 7.0.0.27
+  summary: Import/Export
+  description: 'Zarzadzaniem importem/eksportem plikow'
+  notes: |
+    - Poprawka poberania duzych plikow eksportu
+  maintainers:
+    'Piotr Halas':
+      role: lead
+      user: piotr
+      email: piotr.halas@sote.pl
+  dependency:
+    stBackend: 1.0.3
+    stProgressBarPlugin: 1.0.2

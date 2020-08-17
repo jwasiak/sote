@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native" package="plugins.stReminderPlugin.lib.model" noXsd="true">
+
+  <table name="st_backend_alert" phpName="BackendAlert" isI18N="true" i18nTable="st_backend_alert_i18n">
+    <column name="created_at" type="timestamp" />
+    <column name="updated_at" type="timestamp" />
+    <column name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="opt_name" type="VARCHAR" size="255" change_column="name" />
+    <column name="display" type="BOOLEAN" />
+    <column name="code" type="VARCHAR" size="45" />
+    <column name="opt_description" type="LONGVARCHAR" change_column="description" />
+    <unique name="backed_alert_code_index">
+      <unique-column name="code" />
+    </unique>
+  </table>
+
+  <table name="st_backend_alert_i18n" phpName="BackendAlertI18n">
+    <column name="id" type="integer" required="true" primaryKey="true" />
+    <foreign-key foreignTable="st_backend_alert" onDelete="cascade">
+      <reference local="id" foreign="id" />
+    </foreign-key>
+    <column name="culture" isCulture="true" primaryKey="true" type="VARCHAR" size="7" />
+    <column name="name" type="VARCHAR" size="255" />
+    <column name="description" type="LONGVARCHAR" />
+  </table>
+
+</database>

@@ -1,0 +1,20 @@
+{use_stylesheet src="one_column_layout.css"}
+{use_less src="one_column_layout.less"}
+<div id="bg_container">
+    <div id="bg_container_bottom">
+        <div id="container">
+            <div id="header">
+                {include_file id="container_head"}
+            </div>
+            <div id="middle">
+                <div id="main">
+                    {include_file id="container_content"} 
+                </div>
+                <div class="clear"></div>  
+            </div> 
+            <div id="footer">
+                {include_file id="container_foot"}	  
+            </div>
+        </div>
+    </div>
+</div>    

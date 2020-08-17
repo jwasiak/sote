@@ -1,0 +1,20 @@
+{set layout="one_column"}
+<div id="payment">
+    <div class="title">
+        <h1>{__ text="Płatność"}</h1>
+    </div>
+    <div class="panel panel-default center-block">
+        <div class="panel-heading">
+            {__ text="Skrill"}
+        </div>
+        <div class="panel-body text-center">
+            <p>
+                {__ text="Płatność nie została zrealizowana."}<br/>
+                {__ text="Skontaktuj się z nami." langCatalogue="stPayment"}
+            </p>
+            {if $contactLink}
+                <a href="{$contactLink}" class="btn btn-primary">{__ text="Kontakt" langCatalogue="stPayment"}</a>
+            {/if}
+        </div>
+    </div>
+</div>

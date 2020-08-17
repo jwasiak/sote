@@ -1,0 +1,8 @@
+propel:
+    sf_guard_user:
+        _attributes:    {phpName: sfGuardUser}
+        wholesale: 
+          type: CHAR
+          size: 1
+          default: '0'
+          required: true

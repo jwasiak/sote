@@ -1,0 +1,150 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: lib.model
+  st_review: 
+    _attributes: 
+      phpName: Review
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_id: 
+      type: INTEGER
+      required: false
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    sf_guard_user_id: 
+      type: INTEGER
+      required: false
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+    product_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_product
+      foreignReference: id
+      onDelete: cascade
+    active: 
+      type: BOOLEAN
+      default: 1
+      required: true
+    score: 
+      type: INTEGER
+    merchant: 
+      type: BOOLEAN
+    admin_name: 
+      type: LONGVARCHAR
+    admin_active: 
+      type: BOOLEAN
+    anonymous: 
+      type: LONGVARCHAR
+    agreement: 
+      type: BOOLEAN
+      default: 0
+      required: true
+    skipped: 
+      type: BOOLEAN
+      default: 0   
+      required: true   
+    order_number: 
+      type: VARCHAR
+      size: 64
+    description: 
+      type: LONGVARCHAR
+    user_ip: 
+      type: VARCHAR
+      size: 20
+    username: 
+      type: VARCHAR
+      size: 255
+    language: 
+      type: VARCHAR
+      size: 255
+    is_pin_review:
+      type: BOOLEAN
+      default: 0  
+    pin_review: 
+      type: INTEGER
+      default: 0
+    user_picture: 
+      type: VARCHAR
+      size: 255    
+    user_facebook: 
+      type: VARCHAR
+      size: 255
+    user_instagram: 
+      type: VARCHAR
+      size: 255
+    user_youtube: 
+      type: VARCHAR
+      size: 255            
+    user_twitter: 
+      type: VARCHAR
+      size: 255
+    user_review_verified: 
+      type: BOOLEAN
+      default: 0
+  st_review_order: 
+    _attributes: 
+      phpName: ReviewOrder
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    order_id: 
+      type: INTEGER
+      required: true
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: cascade
+    order_number: 
+      type: VARCHAR
+      size: 64
+    sf_guard_user_id: 
+      type: INTEGER
+      required: true
+      foreignTable: sf_guard_user
+      foreignReference: id
+      onDelete: cascade
+    agreement: 
+      type: BOOLEAN
+    mark: 
+      type: INTEGER
+    active: 
+      type: BOOLEAN
+      default: 0
+    description: 
+      type: LONGVARCHAR
+  st_review_remind: 
+    _attributes: 
+      phpName: ReviewRemind
+    created_at: 
+      type: timestamp
+    updated_at: 
+      type: timestamp
+    id: 
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    title: 
+      type: VARCHAR
+      size: 255
+    text: 
+      type: LONGVARCHAR
+    active: 
+      type: BOOLEAN

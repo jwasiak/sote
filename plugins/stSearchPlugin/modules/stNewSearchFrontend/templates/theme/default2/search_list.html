@@ -1,0 +1,80 @@
+{literal}
+<script type="text/javascript">
+    jQuery(function($) {
+        $(".product_tooltip").tooltip({
+            effect : 'slide',
+            opacity : 1,
+            delay : 0,
+            position : 'bottom center',
+            offset : [10, 0],
+            tipClass : "my_tooltip tooltip roundies"
+
+        });
+    }); 
+</script>
+{/literal}
+{foreach from=$results item=result}
+<div class="search-result-row box roundies" >
+    {if $result.check_price!=1  && $result.points_only!=1}
+    <div class="price">
+        {$result.price_gross}
+    </div>
+    {/if}
+
+    {if $points_system_is_active==1 && $show_points==1}
+    <div class="price">
+
+        {if $display_type=='only_value' || $result.points_only==1}
+        {if $result.points_value > 0}<span style="color:#ED1B24;">{$result.points_value} {$points_shortcut}</span>{/if}
+        {elseif $display_type=='only_earn' && $result.points_only!=1}
+        {if $result.points_earn > 0}<span style="color:green;">{$result.points_earn} {$points_shortcut}</span>{/if}
+        {elseif $display_type=='value_earn_alternative' && $result.points_only!=1}
+        {if $result.points_value > 0}<span style="color:#ED1B24;">{$result.points_value} {$points_shortcut}</span>{/if}{if $result.points_value > 0 && $result.points_earn > 0} / {/if}{if $result.points_earn > 0}<span style="color:green;">{$result.points_earn} {$points_shortcut}</span>{/if}
+        {elseif $display_type=='earn_value_alternative' && $product.points_only!=1}
+        {if $result.points_earn > 0}<span style="color:green;">{$result.points_earn} {$points_shortcut}</span>{/if}{if $result.points_value > 0 && $result.points_earn > 0} / {/if}{if $result.points_value > 0}<span style="color:#ED1B24;">{$result.points_value} {$points_shortcut}</span>{/if}
+        {/if}
+    </div>
+    {/if}
+
+    <h4 class="product_link">{$result.name}</h4>
+    <div class="image">
+        {$result.image}
+    </div>
+    <div class="content">
+        {$result.description}
+    </div>
+    <div class="search_links">
+        <ul>
+            <li>
+                {$result.more}
+            </li>
+
+            {if $points_system_is_active==1 && $result.points_only==1}
+
+            {if $is_authenticated!=1}
+            <li class="product_tooltip" title='{__ text="Zaloguj się aby kupić produkt."}'> 
+                <a  href="/user/loginUser">{__ text="tylko za punkty"}</a>
+            </li>
+            {elseif $is_release!="release_off" && $is_release!="release_on"}
+            <li style="opacity:0.5" class="basket product_tooltip" title='{__ text="Nie osiągnięto progu punktów."} <br/> {__ text="Do osiągnięcia progu brakuje"}: <b>{$is_release} {$points_shortcut}</b>'> 
+                <a style="opacity:0.5"  href="/points/list" >{__ text="dodaj do koszyka"}</a>
+            </li>
+            {elseif $result.points_value < $points_login_status}
+            <li>
+                {$result.basket}
+            </li>
+            {elseif $result.points_value > $points_login_status}
+                <li style="opacity:0.5" class=" product_tooltip" title='{__ text="Brak wystarczającej ilości punktów."}'>
+                    <a style="opacity:0.5"  href="#" >{__ text="dodaj do koszyka"}</a>
+                </li>
+                {/if}
+                {elseif $result.check_price!=1}
+                <li>
+                    {$result.basket}
+                </li>
+                {/if}
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+{/foreach}

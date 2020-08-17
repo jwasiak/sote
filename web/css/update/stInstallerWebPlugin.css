@@ -1,0 +1,80 @@
+#st_list_installer
+{
+    margin:0px 0 15px;
+}
+
+#st_list_installer li
+{
+    overflow:hidden;
+    float:left;
+    margin-right:35px;
+}
+
+#st_list_installer li div
+{
+    text-align:center;
+}
+
+.st_head_txt_installer
+{
+    font-size:16px;
+    color:#2f8bbd;
+    padding-bottom:7px;    
+}
+
+.st_head_txt_installer_sync
+{
+    font-size:16px;
+    color:#2f8bbd;
+    padding-bottom:7px;    
+    margin:5px 0px 0px 0px;
+}
+
+.table_list_app
+{
+    margin-bottom:20px;        
+}
+
+.table_list_app td
+{
+    background:url(/images/backend/installerweb/background_row.png) top left repeat-x;
+    padding:0px 10px;
+    height:35px;
+    border-bottom:1px solid #ccc;    
+}
+
+.bold
+{
+    font-weight:bold;
+}
+
+.txt_install
+{
+    font-size:14px;
+}
+
+
+#list_pearstate
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#list_pearstate li
+{
+    height: 37px;
+    padding: 15px 0px 0px 69px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+
+#pearstate_buttons .st_admin-actions li
+{
+    margin-left: 0px;
+}
+
+.content_update_box .bar-title
+{
+    margin-left: 200px;
+}

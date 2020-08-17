@@ -1,0 +1,42 @@
+.body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+}
+
+.container_error {
+	width: 700px;
+	margin: 100px auto;
+	border: 1px solid #ccc;
+	background: url(/images/backend/error/background_error.jpg) top left repeat-x;
+	overflow: hidden;
+}
+
+.float_left {
+	float: left;
+}
+
+#box_txt_error {
+	padding-left: 40px;
+}
+
+.txt_error_500 {
+	font-size: 26px;
+	color: #c40d10;
+	font-weight: bold;
+	padding: 75px 0px 0px 20px;
+	font-family: Arial, sans-serif;
+}
+
+.txt_error {
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+	padding: 20px 0px 0px 20px;
+	font-family: Arial, sans-serif;
+}
+
+.txt_error p {
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+}

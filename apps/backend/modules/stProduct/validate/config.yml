@@ -1,0 +1,10 @@
+fields:
+    config{long_list}:
+        required:
+            msg:    Podaj liczbę produktów na liście pełnej
+        sfNumberValidator:
+            min:    1
+            min_error: Minimalna wartość to 1.
+            type: integer
+            type_error: Podaj liczbę całkowitą
+            nan_error: Podaj liczbę całkowitą

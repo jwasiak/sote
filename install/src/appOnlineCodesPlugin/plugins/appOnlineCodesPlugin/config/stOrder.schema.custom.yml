@@ -1,0 +1,10 @@
+propel:
+    st_order:
+        _attributes: {phpName: Order}
+        is_codes_sent:
+            type: INTEGER
+    st_order_product:
+        _attributes: {phpName: OrderProduct}
+        online_code:
+            type: VARCHAR
+            size: 255

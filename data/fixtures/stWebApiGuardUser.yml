@@ -1,0 +1,7 @@
+sfGuardPermission:
+  webapi_read:
+    name:           webapi_read
+    description:    webapi_read permission
+  webapi_write:
+    name:           webapi_write
+    description:    webapi_write permission

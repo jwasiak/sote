@@ -1,0 +1,19 @@
+<ul id="st_component-st_basket-list">
+    <li class="st_basket-list-last">{$basket_icon}</li>
+    <li>{$amount_icon}
+        {if isset($basket_array)}
+        <div class="tooltip roundies">
+            <table style="border:none;">
+            {foreach from=$basket_array item=basket_item}
+                <tr>
+                    <td style="border:none;">{$basket_item.image}</td>
+                    <td style="border:none;">{$basket_item.name}</td>
+                    <td style="border:none;">{$basket_item.quantity} x {$basket_item.price}</td>
+                </tr>
+            {/foreach}
+                <tr><td colspan="3" style="border:none; text-align: right">{__ text="razem"}: <b>{$basket_amount}</b></td></tr>
+            </table>
+        </div>
+        {/if}
+    </li>
+</ul>

@@ -1,0 +1,47 @@
+<div id="st_component-st_product-recommended_group_{$product_group}" class="block">
+    <div class="st_frame_product">
+        <div class="st_frame_product_top">
+            <div class="st_frame_product_top_header">
+                {$group_name_title}
+            </div>
+        </div>
+        
+        <div class="st_frame_product_middle"> 
+            <div class="st_content">
+                <div class="st_component-st_product-product_special_for_category_middle"></div>
+
+                {foreach key=row item=product from=$results} 
+                    {if $row == 0} 
+                        <div class="st_component-st_product-group_first">
+                            {$product.photo}<br />
+                            {$product.name}<br />
+                            {if ($product.check_price)!=1}
+                                {if $price_view=='net_gross'}
+                                    <div class="st_product_group_price">{__ text="Cena netto"}: <span>{$product.price_net}</span></div>
+                                    <div class="st_product_group_minor">({__ text="Cena brutto"}: <span>{$product.price}</span>)</div>
+                                {elseif $price_view=='only_gross'}
+                                    <div class="st_product_group_price"><span>{$product.price}</span></div>
+                                {elseif $price_view=='only_net'}
+                                    <div class="st_product_group_price">{__ text="Cena netto"}: <span>{$product.price_net}</span></div>
+                                {elseif $price_view=='gross_net'}
+                                    <div class="st_product_group_price">{__ text="Cena brutto"}: <span>{$product.price}</span></div>
+                                    <div class="st_product_group_minor">({__ text="Cena netto"}: <span>{$product.price_net}</span>)</div>    
+                                {/if}
+                            {/if}
+                        </div>
+                    {else}
+                        <div class="st_component-st_product-product_group_rest">
+                            <ul class="st_list_product">
+                                <li>
+                                    {$product.point} {$product.name}
+                                </li>
+                            </ul>
+                        </div>
+                    {/if}
+                {/foreach}
+            </div>
+        </div>
+        
+        <div class="st_frame_product_bottom"></div>
+    </div>
+</div>

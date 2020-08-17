@@ -1,0 +1,21 @@
+<div class="panel panel-default center-block">
+    <div class="panel-heading">
+        {__ text="eService"}
+    </div>
+    <div class="panel-body text-center">
+       
+            <img src="{$logo}" alt="{__ text="eService"}" style="margin: 20px 0px" />
+            <div>
+                {$description}
+            </div>
+            <form action="https://cashierui-apiuat.test.secure.eservice.com.pl" method="post">
+                {foreach key=name item=value from=$params}
+                    <input type="hidden" name="{$name}" value="{$value}" />
+                {/foreach}                
+                <button type="submit" class="btn btn-primary">
+                    {__ text="Zapłać"}
+                </button>
+            </form>
+
+    </div>
+</div>

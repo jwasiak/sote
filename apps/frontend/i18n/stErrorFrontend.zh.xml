@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="zh" datatype="plaintext" date="2012-07-17T03:40:58Z">
+		<body>
+			<trans-unit id="1">
+				<source>Strona o podanym adresie nie istnieje.</source>
+				<target>您请求的页面不存在。</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Przejdź do strony głównej</source>
+				<target>去首页</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

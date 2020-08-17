@@ -1,0 +1,13 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/11/13 18:53:17
+      fields: 
+        payback: 0
+        pos_id: 
+        md5_first_key: 
+        md5_secound_key: 
+        pos_auth_key:
+        show_variant: radioimg 
+        show_variant_cols: 5

@@ -1,0 +1,70 @@
+---
+propel: 
+  _attributes: 
+    defaultIdMethod: native
+    package: plugins.stPaczkomatyPlugin.lib.model
+  st_paczkomaty_pack:
+    _attributes:
+      phpName: PaczkomatyPack
+    created_at:
+      type: timestamp
+    updated_at:
+      type: timestamp
+    id:
+      type: INTEGER
+      primaryKey: true
+      required: true
+      autoIncrement: true
+    customer_email:
+      type: VARCHAR
+      size: 255
+    customer_phone:
+      type: VARCHAR
+      size: 255
+    customer_paczkomat:
+      type: VARCHAR
+      size: 24
+    sending_method:
+      type: VARCHAR
+      size: 48
+    sender_paczkomat:
+      type: VARCHAR
+      size: 24
+    use_sender_paczkomat:
+      type: BOOLEAN
+      default: false
+    pack_type:
+      type: CHAR
+      size: 1
+    inpost_shipment_id:
+      type: INTEGER
+    insurance:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    cash_on_delivery:
+      type: DECIMAL
+      size: 10
+      scale: 2
+    description:
+      type: VARCHAR
+      size: 255
+    code:
+      type: VARCHAR
+      size: 255
+    has_cash_on_delivery:
+      type: BOOLEAN
+      required: false
+    customer_delivering_code:
+      type: VARCHAR
+      size: 255
+    status:
+      type: VARCHAR
+      size: 255
+    status_changed_at:
+      type: timestamp
+    order_id:
+      type: INTEGER
+      foreignTable: st_order
+      foreignReference: id
+      onDelete: setnull

@@ -1,0 +1,21 @@
+<div id="st_application-st_review-add_review">
+    {if isset($review_order)}
+        {foreach key=row item=rev from=$results}
+                <div class="st_review-show_success_button_list">
+                    <div id="st_button-review">
+                        {if isset($rev.done)}
+                            {$rev.show}
+                        {else}
+                            {$rev.complete}
+                        {/if}
+                    </div>
+                </div>
+        {/foreach}
+    {else}
+        <div class="st_review-show_success_button_list">
+                <div id="st_button-review">
+                    {$add_review}
+                </div>
+        </div>
+    {/if}
+</div>

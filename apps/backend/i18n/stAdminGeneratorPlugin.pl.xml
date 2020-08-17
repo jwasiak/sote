@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+   <file orginal="global" source-language="en_US" target-language="pl_PL" datatype="plaintext" date="2008-11-05T12:10:49Z">
+      <body>
+         <trans-unit id="1">
+            <source>Correct the data in the form.</source>
+            <target>Popraw dane w formularzu.</target>
+         </trans-unit>
+         <trans-unit id="2">
+            <source>Your changes were saved successfully</source>
+            <target>Twoje zmiany zostały zapisane</target>
+         </trans-unit>
+         <trans-unit id="3">
+            <source>Save</source>
+            <target>Zapisz</target>
+         </trans-unit>         
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,42 @@
+<div class="list_sort">
+    <span class="tag_sort">{__ text="Sortuj po"}:</span>
+    {if $for_link_sort_by == "name"}
+        {if $for_link_sort_order == "desc"}
+            <span class="current sort_name">{$link_name_asc}
+            {$arrow_name_asc}</span>
+        {else}
+            <span class="current sort_name">{$link_name_desc}
+            {$arrow_name_desc}</span>
+        {/if}
+    {else}
+        {$link_name}
+    {/if}
+    <span class="list_sort_separator">|</span>
+    {if $for_link_sort_by == "price"}
+        {if $for_link_sort_order == "desc"}
+            <span class="current">{$link_price_asc}
+            {$arrow_price_asc}</span>
+        {else}
+            <span class="current">{$link_price_desc}
+            {$arrow_price_desc}</span>
+        {/if}
+    {else}
+        {$link_price}
+    {/if}
+    <span class="list_sort_separator">|</span>
+    {if $for_link_sort_by == "created_at"}
+            {if $for_link_sort_order == "desc"}
+                <span class="current">{$link_created_at_asc}
+                {$arrow_created_at_asc}</span>
+            {else}
+                <span class="current">{$link_created_at_desc}
+                {$arrow_created_at_desc}</span>
+            {/if}
+    {else}
+        {if $for_link_sort_by == "name"}
+            {$link_created_at}
+        {else}
+            <span class="no_border">{$link_created_at}</span>
+        {/if}
+    {/if}
+</div>

@@ -1,0 +1,10 @@
+theme:
+    package: stTheme1Marrone
+    name: marrone
+    fixtures: fixtures-marrone
+    version: 8
+    default: 0
+    priority: 0
+    type: open
+    install: true
+    copyable: true

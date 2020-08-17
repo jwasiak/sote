@@ -1,0 +1,52 @@
+#st_discount-coupon-code
+{
+   margin-top: 10px;
+}
+
+
+#st_basket-confirm_code
+{
+    margin-top:5px;
+}
+
+#st_discount-coupon-form
+{
+    padding:7px 5px 10px 10px;
+}
+
+#st_discount-coupon-info
+{
+    padding:5px 5px 10px 10px;
+    text-align: right;
+}
+
+#st_discount-coupon-error
+{
+    color:red;
+    margin-left:90px;
+    margin-top:5px;
+}
+
+#discount_coupon_code
+{
+    width: 160px;
+}
+
+#st_discount-coupon-form .label
+{
+    width: 95px;
+    float: left;
+}
+
+#st_discount-coupon-code h3
+{
+   border-color: #E3E3E3;
+   border-style: solid;
+   border-width: 0 0 1px;
+   padding-left: 5px;
+}
+
+#st_discount-coupon-info a
+{
+   vertical-align: middle;
+}

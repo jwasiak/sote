@@ -1,0 +1,19 @@
+{php}
+    $this->assign('view_icons', array(
+        'long' => 'glyphicon-th-large',
+        'short' => 'glyphicon-align-justify',
+        'other' => 'glyphicon-th',
+        'description' => 'glyphicon-th-list',
+    ));
+{/php} 
+
+<div class="btn-group btn-product-order-by view-types">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="text-transform: none">
+       <span class="glyphicon {$view_icons[$selected]}"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        {foreach key=view_type item=view from=$views name=views}
+            <li class='{if $view_type == $selected} active {/if}' ><a href="{$view.link_without_name}" rel="nofollow"><span class="glyphicon {$view_icons[$view_type]}"></span></a></li>
+        {/foreach}
+    </ul>
+</div>

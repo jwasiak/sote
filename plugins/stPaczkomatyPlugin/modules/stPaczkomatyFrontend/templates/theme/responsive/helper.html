@@ -1,0 +1,224 @@
+
+<div class="modal fade" id="inpost-easypack" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document" style="width: 1150px; height: 98%; max-width: 98%; margin: 0.5% auto 0 auto;  padding: 0">
+    <div class="modal-content" style="width: 100%; height: 100%; padding: 0">
+      <div class="modal-header text-left" style="position: relative; z-index: 1">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Wybierz paczkomat</h4>
+      </div>
+      <div class="modal-body" style="position: absolute; width: 100%; padding: 0; top: 0; height: 100%; margin: 0"></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-vertical-centered" id="inpost-message-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{__ text="InPost - Paczkomaty"}</h4>
+      </div>
+      <div class="modal-body text-center"></div>
+      <div class="modal-footer">
+        <div class="text-center">
+            <button type="button" class="btn btn-default" data-dismiss="modal">{__ text="Zamknij"}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{literal}
+<script type="text/javascript">
+   jQuery(function($) {
+      {/literal}
+         var url = "{urlfor internal='@stPaczkomatyPlugin?action=easyPackShow'}";
+         var is_authenticated = {$sf_user->isAuthenticated()|string_format:"%d"};
+         var shopping_cart_delivery = $('#shopping-cart-delivery');
+         var current = shopping_cart_delivery.find('.delivery-radio:checked');
+         var selected = current.parent().find('.inpost-easypack-trigger').length > 0;
+         var payments = {$payments};
+         var apiEndpoint = "{$endpoint}";
+      {literal}
+
+      var i18n = {
+         {/literal}
+            choose_delivery_point: '{__ text="Wybierz punkt odbioru"}',
+            change_delivey_point: '{__ text="Wybrany punkt nie obsługuje płatności przy odbiorze.<br>Zmień płatność lub wybierz inny punkt odbioru."}',
+         {literal}
+      }
+
+      function showMessage(message) {
+         var modal = $('#inpost-message-modal');
+         modal.find('.modal-body').html(message);
+         modal.modal('show');
+      }
+
+      function setParameter(name, value)
+      {
+         var storage = window.localStorage;
+         storage.setItem(name, typeof value === 'object' ? JSON.stringify(value) : value);
+      }
+
+      function getParameter(name, defaultValue = null)
+      {
+         var storage = window.localStorage;
+         var value = storage.getItem(name);
+         try {
+            return JSON.parse(value);
+         } catch(e) {}
+
+         return value ? value : defaultValue;
+      }
+
+      function pointUpdate() {
+         var point = getParameter('inpost_pickup_point');
+
+         if (point) {
+            $(document).trigger('paczkomaty.updatePoint', point, false);
+         }
+      }
+
+      function update() {
+         var different_delivery = $('#different_delivery');
+
+         if (selected) {
+            shopping_cart_delivery.data('delivery-type', 'inpost-paczkomaty');
+            shopping_cart_delivery.attr('data-delivery-type', 'inpost-paczkomaty');
+         }
+
+         var update = shopping_cart_delivery.data('delivery-type') == 'inpost-paczkomaty';
+         
+         if (selected) {
+
+            current.parent().find('.inpost-easypack-address').show();
+            $('#paczkomaty_machine_number').prop('disabled', false);
+
+            $(window).trigger('resize');
+
+            if (update) {
+               if (different_delivery.prop('checked')) {
+                  different_delivery.get(0).click();
+               }
+
+               different_delivery.prop('disabled', true);
+
+               if (is_authenticated) {
+                  $('#order_form_delivery').hide();
+                  $('#order_form_billing').parent().addClass('col-sm-push-6');
+               }
+            }
+         } else {
+            shopping_cart_delivery.find('.inpost-easypack-address').hide();
+            $('#paczkomaty_machine_number').prop('disabled', true);
+            $(window).trigger('resize');
+
+            if (update) {
+               different_delivery.prop('disabled', false);
+               if (is_authenticated) {
+                  $('#order_form_delivery').show();
+                  $('#order_form_billing').parent().removeClass('col-sm-push-6');
+               }
+            }
+         }
+         
+      }
+
+      function validateDeliveryPoint() {
+         if (selected) {
+            var payment_id = $('#shopping-cart-payment .radio input[type=radio]:checked').val();
+
+            if (current.parent().find('.inpost-easypack-address').is(':empty')) {
+               showMessage(i18n.choose_delivery_point);
+               return false;
+            }
+
+            var cod = current.parent().find('.inpost-easypack').data('inpost-cod');
+
+            if (!cod && (payments.indexOf(payment_id) > -1 || payments.indexOf(Number(payment_id)) > -1)) {
+               showMessage(i18n.change_delivey_point);
+               return false; 
+            }
+         }
+
+         return true;                
+      }
+
+      function addressFormat(point) {
+         var address = [];
+
+         var ad = point.address_details;
+
+         address.push('<b>'+point.name+'</b>');
+         address.push(ad.street+' '+ad.building_number+(ad.flat_number ? '/'+ad.flat_number : ''));
+         address.push(ad.post_code+' '+ad.city);
+
+         return address.join('<br>');
+      }
+  
+      $('#user_delivery_form').submit(validateDeliveryPoint);
+
+      shopping_cart_delivery.on('change', '.delivery-radio', function() {
+         current = $(this);
+         selected = $(this).parent().find('.inpost-easypack-trigger').length > 0;
+         pointUpdate();
+         update();
+      });
+
+      $(document).on('paczkomaty.ajaxUpdate', function() {
+         current = shopping_cart_delivery.find('.delivery-radio:checked');
+         selected = current.parent().find('.inpost-easypack-trigger').length > 0;  
+         pointUpdate();
+         update();          
+      });
+
+      $(document).on('paczkomaty.updatePoint', function(event, point, withClick = true) {
+         var address = addressFormat(point);
+
+         $(document).trigger('delivery.update.started');
+         $.get(apiEndpoint + '/points/' + point.name, function(response) {
+           point.payment_available = response.payment_available;
+           
+           if (selected || !withClick) {
+              $(document).trigger('delivery.update.finished');
+           } else {
+              current.click();
+           }
+
+           current.parent().find('.inpost-easypack-address').html(addressFormat(point));
+           current.parent().find('.inpost-easypack').data('inpost-point', point.name).data('inpost-cod', point.payment_available );
+     
+           $('#paczkomaty_machine_number').val(JSON.stringify({ name: point.name, address: point.address_details, "cod": point.payment_available }));
+           setParameter('inpost_pickup_point', point);
+           $(window).trigger('resize');          
+         });
+      });
+
+      shopping_cart_delivery.on('click', '.inpost-easypack-trigger', function() {
+        current = $(this).closest('.radio').find('.delivery-radio');
+        $('#inpost-easypack').modal('show');
+      });   
+
+      $('#inpost-easypack').on('show.bs.modal', function(event) {
+         var point = current.parent().find('.inpost-easypack').data('inpost-point');
+
+         if (point) {
+            var src = url.indexOf('?') > -1 ? url+'&point='+point : url+'?point='+point;
+         } else {
+            var src = url;
+         }
+
+         $(this).find('.modal-body').find('iframe').remove();
+
+         $(this).find('.modal-body').html('<iframe src="'+src+'" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; border: none" allowfullscreen></iframe>');
+      });
+
+      update();
+
+      if (selected) {
+         pointUpdate();
+      }
+   });
+</script>
+{/literal}

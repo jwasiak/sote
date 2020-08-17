@@ -1,0 +1,27 @@
+modules/*/config/soteshop.yml:
+  class:    stThemeConfigHandler
+  param:
+    prefix:   st_  
+  
+config/soteshop.yml:
+  class:    stThemeConfigHandler
+  param:
+    prefix:   st_  
+
+modules/*/config/layout/*.yml:
+  class:    stThemeConfigHandler
+  param:
+    prefix:   st_layout_
+  
+config/layout/*.yml:
+  class:    stThemeConfigHandler
+  param:
+    prefix:   st_layout_
+    
+data/config/*.yml:
+  class:    sfDefineEnvironmentConfigHandler
+  param:
+    prefix:   st_module_
+    
+modules/*/config/cache.yml:
+  class:    stCacheConfigHandler

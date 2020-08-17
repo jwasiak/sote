@@ -1,0 +1,10 @@
+<div class="list_types">
+    {foreach key=view_type item=view from=$views name=views}
+        {assign var="icon" value="$view.name"}
+        {if $view_type == $selected}
+            {$view.image_link_selected}
+        {else}
+            {$view.image_link}
+        {/if}
+    {/foreach}
+</div>

@@ -1,0 +1,9 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/12/15 17:29:55
+      fields: 
+        email:
+        password1:
+        salt: 

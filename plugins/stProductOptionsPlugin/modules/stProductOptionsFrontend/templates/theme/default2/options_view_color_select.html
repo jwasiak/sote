@@ -1,0 +1,11 @@
+<li class="st_admin-horizontal-look-element">
+    <div class="st_field_label">{$field_label}</div>
+    <div class="st_field_value">
+        <select class="st_product_options_select color_options" id="{$field_id}" name="{$field_name}">
+            {foreach key=id item=option from=$options}
+                <option data-color="{$option.color}" {if $id==$selected}selected="selected"{/if} value="{$id}">{$option.label} {if $option.modify}({$option.modify}){/if}</option>
+            {/foreach}
+        </select>
+    </div>
+    <div class="clear"></div>
+</li>

@@ -1,0 +1,262 @@
+generator: 
+    class:                                  stAdminGenerator
+
+    param: 
+        user_model_class:                   sfGuardUser
+        product_model_class:                Product
+        range_model_class:                  DiscountRange
+        coupon_code_model_class:            DiscountCouponCode
+        coupon_code_product_model_class:    Product
+
+        custom_actions:
+            list:                           [user, product, range, coupon_code, coupon_code_product]
+            edit:                           [range, coupon_code]
+
+        model_class:                        Discount
+        theme:                              simple
+        head: 
+            package:                        stDiscountPlugin           
+
+        category_head: 
+            package:                        stDiscountPlugin
+        applications:                       [stProduct, stUser]
+        fields:
+            name:                           {name: Nazwa, params: size=30}
+            value:                          {name: Rabat, params: size=3}
+            priority:                       {name: Priorytet, params: size=5}
+            active:                         {name: Aktywny}
+            all_products:                   {name: Dla wszystkich produktów, params: class=all_products}
+            all_clients:                    {name: Dla klientów zalogowanych}
+            allow_anonymous_clients:        {name: Dla klientów niezalogowanych}
+            auto_active:                    {name: Przypisz do nowych klientów}
+            type:                           {name: Rodzaj rabatu}
+        edit: 
+            use_helper:                     [stDiscount]
+            title:                          Edycja Rabatu %%name%%
+            description:                    Zarządzanie rabatami w sklepie
+            display:                        
+                "NONE":                     [active, _type, name, _value, product, _conditions, all_products, all_clients, allow_anonymous_clients, auto_active]
+                "Kategorie i producenci":   [_categories, _producers]
+            actions:
+                _list:                      {name: Lista, i18n: stDiscountBackend}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj nowy}
+                _delete:                    {name: Usuń}
+            menu:
+                display:                    [edit, user, product]
+                fields:
+                    edit:                   {name: Edycja, action: stDiscountBackend/edit?id=%%id%%}
+                    user:                   {name: Przypisz klientów, action: stDiscountBackend/userList?discount_id=%%id%%}
+                    product:                {name: Przypisz produkty, action: stDiscountBackend/productList?discount_id=%%id%%}
+            fields:
+                type:                       {required: false}
+                active:                     {required: false}
+                all_products:               {required: false, help: Jeśli zaznaczone rabat będzie pokazywany dla wszystkich produktów w sklepie}
+                auto_active:                {required: false, help: Jeśli zaznaczone rabat będzie przypisywany do nowo zarejestrowanych klientów}
+                conditions:                 {name: Od kwoty zamówienia, required: true}
+                product:                    {required: true, name: Produkt główny, type: product_set_discount, params: control_name=product_set_discount}
+                allow_anonymous_clients:    {required: false, help: Jeśli zaznaczone rabat będzie pokazywany również dla klientów niezalogowanych w sklepie}
+                all_clients:                {required: false, help: Jeśli zaznaczone rabat będzie pokazywany dla wszystkich klientów zalogowanych w sklepie}
+                categories:                 {name: Kategorie, i18n: stCategory}
+                producers:                  {name: Producenci, i18n: stProducer}
+        list: 
+            use_helper:                     [stCurrency]
+            title:                          Lista
+            description:                    Zarządzanie rabatami w sklepie
+            display:                        [=name, _value, active, type_label, all_products, all_clients, allow_anonymous_clients, auto_active, _priority]
+            fields:
+                name:                           {name: Nazwa, params: size=30, sortable: false}
+                value:                          {name: Rabat, params: size=3, sortable: false}
+                priority:                       {name: Priorytet, sortable: false, filterable: false}
+                active:                         {name: Aktywny, sortable: false}
+                type_label:                     {name: Rodzaj, sortable: false}
+                all_products:                   {name: Wszyst. prod., sortable: false}
+                all_clients:                    {name: Klienci zalog., sortable: false}
+                allow_anonymous_clients:        {name: Klienci niezalog., sortable: false}
+                auto_active:                    {name: Nowi klienci, sortable: false}
+
+            actions:
+                _create:                    {name: Dodaj}
+            menu:
+                display:                    [list, range, coupon_code]
+                fields:
+                    list:                   {name: Lista, action: "@stDiscountPluginDefault"}
+                    range:                  {name: Progi rabatowe,  action: stDiscountBackend/rangeList}
+                    coupon_code:            {name: Kody rabatowe, action: stDiscountBackend/couponCodeList}
+            object_actions:
+              _edit: -
+              _delete: -
+            actions:
+                _create:                    {name: Dodaj}
+            filters:
+                type_label:                 {partial: type_label_filter}
+
+        coupon_code_edit:
+            title:                          Edycja kodu rabatowego %%code%%
+            description:                    Zarządzanie rabatami w sklepie
+            menu:
+                display:                    [product]
+                fields:
+                    _edit:                  {name: Edycja}
+                    product:                {name: Przypisz produkty, action: @stDiscountPlugin?action=couponCodeProductList&discount_coupon_code_id=%%id%%}
+            display:                        
+                "NONE":                     [code, _discount, valid_usage, valid_from, valid_to, allow_all_products]
+                "Kategorie i producenci":   [_discount_coupon_code_categories, _discount_coupon_code_producers]
+            fields:
+                code:                               {name: Kod, params: maxlength=16}
+                valid_usage:                        {name: Limit użyć, help: Wartość 0 oznacza brak limitu}
+                valid_from:                         {name: Ważny od, help: Puste pole oznacza brak progu}
+                valid_to:                           {name: Ważny do, help: Puste pole oznacza brak progu}
+                discount:                           {name: Rabat}
+                discount_coupon_code_categories:    {name: Kategorie, i18n: stCategory}
+                discount_coupon_code_producers:     {name: Producenci, i18n: stProducer}
+                allow_all_products:                 {name: Dla wszystkich produktów, required: false, help: Jeśli zaznaczone rabat będzie pokazywany dla wszystkich produktów w sklepie, params: class=all_products}
+            actions:
+                _list:                      {name: Kody rabatowe, i18n: stDiscountBackend}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj nowy}
+                _delete:                    {name: Usuń}
+
+        coupon_code_list:
+            title:                          Kody rabatowe
+            description:                    Zarządzanie rabatami w sklepie
+            menu:                           {use: list.menu}
+            display:                        [=code, _list_discount, valid_usage, valid_from, valid_to, _used, _generated_for]
+            fields:
+                code:                       {name: Kod}
+                used:                       {name: Użyty}
+                valid_usage:                {name: Limit użyć}
+                valid_from:                 {name: Ważny od}
+                valid_to:                   {name: Ważny do}
+                generated_for:              {name: Wygenerowany dla, filterable: false}
+                list_discount:              {name: Rabat, sort_field: discount_coupon_code.discount}
+            peer_method:                    doSelectJoinOrder
+            peer_count_method:              doCountJoinOrder
+            object_actions:
+              _edit: -
+              _delete: -
+            actions:
+                _create:                    {name: Dodaj}
+            additional_filters:             [generated_for]
+            filters:
+                generated_for:              {partial: filter_generated_for}
+
+        coupon_code_product_list:
+            title:                          Przypisywanie produktów do kuponu rabatowego
+            description:                    Zarządzanie rabatami w sklepie
+            use_stylesheet:                 [backend/stProductList.css]
+            use_helper:                     [stProduct/stProduct]
+            forward_parameters:             [discount_coupon_code_id]       
+            menu:                           {use: coupon_code_edit.menu}
+            display:                        [list_image, opt_name, code, opt_price_brutto, active]
+            fields:
+                code:                       {name: Kod, i18n: stProduct}
+                opt_name:                   {name: Nazwa, params: size=50, i18n: stProduct}
+                list_image:                 {name: Zdjęcie, width: 1%, callback: list_product_image, i18n: stProduct}
+                opt_price_brutto:           {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label, i18n: stProduct}
+                active:                     {name: Aktywny, width: 1%, align: center, i18n: stProduct}
+            build_options:
+                through_class:              DiscountCouponCodeHasProduct         
+                related_id:                 forward_parameters.discount_coupon_code_id         
+            object_actions:                 [] 
+            actions:                        []
+            filters:
+                list_image:                 {partial: filter_list_image, module: stProduct}
+
+        range_edit:
+            title:                          Edycja progu rabatowego
+            description:                    Zarządzanie rabatami w sklepie
+            fields:
+                total_value:                {name: Wartość progowa, params: size=20}
+                discount_id:                {name: Rabat}
+            display:                        [total_value, _discount_id]
+            menu:                           {use: list.menu}
+            actions:
+                _list:                      {name: Progi rabatowe, i18n: stDiscountBackend}
+                _save:                      {name: Zapisz}
+                _save_and_add:              {name: Zapisz i dodaj nowy}
+        range_list:
+            title:                          Progi rabatowe
+            description:                    Zarządzanie rabatami w sklepie
+            fields:
+                total_value:                {name: Wartość progowa}
+                discount:                   {name: Rabat}
+            display:                        [=total_value, discount]
+            menu:                           {use: list.menu}
+            object_actions:
+              _edit: -
+              _delete: -
+            actions:
+                _create:                    {name: Dodaj}
+
+        user_list:
+            title:                          Przypisywanie klientów do grupy rabatowej
+            description:                    Zarządzanie rabatami w sklepie
+            forward_parameters:             [discount_id]
+            menu:                           {use: edit.menu}       
+            display:                        [username, ~full_name, ~company, _wholesale_list, is_admin_confirm]
+            fields:
+                username:                   {name: Login (E-mail), params: size=50, i18n: stUser}
+                company:                    {name: Firma, width: 20%, i18n: stUser, module: stUser}
+                full_name:                  {name: Imię i nazwisko, width: 20%, i18n: stUser, module: stUser}
+                wholesale_list:             {name: Hurtownik - grupa, sort_field: sf_guard_user.wholesale, align: center, module: stUser, i18n: stUser}
+                is_admin_confirm:           {name: Zweryfikowany, align: center, i18n: stUser, module: stUser}
+            filters:
+                wholesale_list:             {filter_field: sf_guard_user.wholesale, partial: filter_wholesale, module: stUser}
+                company:                    {partial: filter_company, module: stUser}
+                full_name:                  {partial: filter_full_name, module: stUser}
+            object_actions:                 []
+            actions:                        []
+            build_options:
+                through_class:              UserHasDiscount         
+                related_id:                 forward_parameters.discount_id  
+
+        product_list:
+            title:                          Przypisywanie produktów do grupy rabatowej
+            description:                    Zarządzanie rabatami w sklepie
+            use_stylesheet:                 [backend/stProductList.css]
+            use_helper:                     [stProduct/stProduct]
+            forward_parameters:             [discount_id]
+            menu:                           {use: edit.menu}
+            display:                        [list_image, opt_name, code, opt_price_brutto, active]
+            fields:
+                code:                       {name: Kod, i18n: stProduct}
+                opt_name:                   {name: Nazwa, params: size=50, i18n: stProduct}
+                list_image:                 {name: Zdjęcie, width: 1%, callback: list_product_image, i18n: stProduct}
+                opt_price_brutto:           {name: Cena, width: 1%, callback: list_product_price, label_callback: list_product_price_label, i18n: stProduct}
+                active:                     {name: Aktywny, width: 1%, align: center, i18n: stProduct}
+            build_options:
+                through_class:              DiscountHasProduct         
+                related_id:                 forward_parameters.discount_id         
+            object_actions:                 [] 
+            actions:                        []
+            filters:
+                list_image:                 {partial: filter_list_image, module: stProduct}
+
+        config:
+          title:        Konfiguracja
+          description:  Zarządzanie rabatami w sklepie
+          display:  
+            NONE:                   [disable_for_wholesale]
+            "Rabaty na zamówienie": [disable_for_promotion_products]
+            "Kody rabatowe":        [coupon_code, code_format, coupon_code_calculate_method]
+          fields:
+            code_format:                    
+              name: Format kodu
+              help: code_format.help
+              params: maxlength=32 size=30
+              i18n: stGiftCardBackend          
+            disable_for_promotion_products: {name: Wyłącz dla produktów w promocji, help: "Jeśli zaznaczone rabaty na zamówienie są wyłączane jeżeli w koszyku znajduję się produkt w promocji", type: checkbox}
+            disable_for_wholesale:          {name: Wyłącz rabaty dla klientów hurtowych, type: checkbox}
+            coupon_code:                    {name: Włącz kody rabatowe, type: checkbox}
+            coupon_code_calculate_method: 
+               name:          Metoda naliczania
+               type:          select
+               display:       [overwrite, add_up, highest]
+               options:
+                  overwrite:  {name: Nadpisuj inne rabaty, value: overwrite}
+                  add_up:     {name: Sumuj z innymi rabatami, value: add_up}
+                  highest:    {name: Najwyższy rabat, value: highest}
+                  selected:   overwrite               
+          actions:  
+              _save:        {name: Zapisz}

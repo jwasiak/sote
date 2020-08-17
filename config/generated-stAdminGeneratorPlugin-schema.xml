@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" package="plugins.stAdminGeneratorPlugin.lib.model" defaultIdMethod="native" noXsd="true">
+
+  <table name="st_admin_generator_filter" phpName="AdminGeneratorFilter">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="guard_user_id" type="integer" required="true" />
+    <foreign-key foreignTable="sf_guard_user" onDelete="cascade">
+      <reference local="guard_user_id" foreign="id" />
+    </foreign-key>
+    <column name="data_id" type="integer" required="true" />
+    <foreign-key foreignTable="st_admin_generator_filter_data" onDelete="cascade">
+      <reference local="data_id" foreign="id" />
+    </foreign-key>
+    <column name="name" type="varchar" size="64" required="true" />
+    <column name="module_namespace" type="varchar" size="64" required="true" />
+    <column name="is_global" type="boolean" default="" />
+    <index name="namespace_index">
+      <index-column name="module_namespace" />
+    </index>
+  </table>
+
+  <table name="st_admin_generator_filter_data" phpName="AdminGeneratorFilterData">
+    <column name="id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="data" type="longvarchar" phpType="array" />
+  </table>
+
+</database>

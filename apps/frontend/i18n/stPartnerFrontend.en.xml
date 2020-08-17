@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+		<body>
+    		<trans-unit id="1">
+    			<source>firma</source>
+    			<target>Company</target>
+    		</trans-unit>
+    		<trans-unit id="2">
+    			<source>imię i nazwisko</source>
+    			<target>Name and Surname</target>
+    		</trans-unit>
+    		<trans-unit id="3">
+    			<source>ulica, nr domu</source>
+    			<target>Street address and number</target>
+    		</trans-unit>
+			<trans-unit id="4">
+    			<source>kod, miasto</source>
+    			<target>Postal code and city/town</target>
+    		</trans-unit>
+    		<trans-unit id="5">
+    			<source>kraj</source>
+    			<target>Country</target>
+    		</trans-unit>
+    		<trans-unit id="6">
+    			<source>telefon</source>
+    			<target>Phone number</target>
+    		</trans-unit>
+    		<trans-unit id="7">
+    			<source>nip</source>
+    			<target>VAT ID</target>
+    		</trans-unit>   		
+    		<trans-unit id="8">
+    			<source>nr. konta</source>
+    			<target>Bank account</target>
+    		</trans-unit>
+    		<trans-unit id="9">
+    			<source>uwagi</source>
+    			<target>Notes</target>
+    		</trans-unit>
+    		<trans-unit id="10">
+    			<source>Zarejestruj</source>
+    			<target>Register</target>
+    		</trans-unit>
+    		<trans-unit id="11">
+    			<source>Dane partnera</source>
+    			<target>Partner data</target>
+    		</trans-unit>
+    		<trans-unit id="12">
+    			<source>Konto</source>
+    			<target>Account</target>
+    		</trans-unit>
+    		<trans-unit id="13">
+    			<source>Prowizje partnera</source>
+    			<target>Partner commission</target>
+    		</trans-unit>
+    		<trans-unit id="14">
+    			<source>Stawka prowizji procentowej</source>
+    			<target>Percentage commission rate</target>
+    		</trans-unit>
+    		<trans-unit id="15">
+    			<source>Stawka prowizji kwotowej</source>
+    			<target>Fixed amount commission rate</target>
+    		</trans-unit>
+    		<trans-unit id="16">
+    			<source>Nie przyznano prowizji od transakcji.</source>
+    			<target>No transaction commission granted.</target>
+    		</trans-unit>
+    		<trans-unit id="17">
+    			<source>Całkowita prowizja</source>
+    			<target>Total commission</target>
+    		</trans-unit>
+    		<trans-unit id="18">
+    			<source>Rozliczona prowizja</source>
+    			<target>Settled commission</target>
+    		</trans-unit>
+    		<trans-unit id="19">
+    			<source>Nierozliczona prowizja</source>
+    			<target>Unsettled commission</target>
+    		</trans-unit>
+    		<trans-unit id="20">
+    			<source>Zamówienia z polecenia</source>
+    			<target>Referral orders</target>
+    		</trans-unit>
+    		<trans-unit id="21">
+    			<source>Link partnerski</source>
+    			<target>Partner link</target>
+    		</trans-unit>
+    		<trans-unit id="22">
+    			<source>Skorzystaj z automatycznego generowania linku partnerskiego. Opcja ta ułatwi Ci generowanie linków za pomocą, których klienci którym polecisz sklep dokonają zakupów rejestrowanych na Twoje konto.</source>
+    			<target>You can have your partner link generated automatically. This option will facilitate generate links that will be then used by the customers referred by you to make purchases that will be credited against your account.</target>
+    		</trans-unit>
+    		<trans-unit id="23">
+    			<source>Wstaw link do strony sklepu</source>
+    			<target>Enter store site link</target>
+    		</trans-unit>
+    		<trans-unit id="24">
+    			<source>Link partnerski do strony sklepu</source>
+    			<target>Partner store site link</target>
+    		</trans-unit>
+    		<trans-unit id="25">
+    			<source>Link partnerski do umieszczenia na stronie</source>
+    			<target>Partner link to be placed on your site</target>
+    		</trans-unit>
+    		<trans-unit id="26">
+    			<source>Konto partnerskie zostało zablokowane.</source>
+    			<target>This partner account has been suspended.</target>
+    		</trans-unit>
+    		<trans-unit id="27">
+    			<source>Twoje konto zostało zablokowane, skontaktuj się z administratorem celem wyjaśnienia przyczyny blokady konta.</source>
+    			<target>Your account has been suspended. Please contact the administrator to clarify this situation.</target>
+    		</trans-unit>
+    		<trans-unit id="28">
+    			<source>wszystkie</source>
+    			<target>all</target>
+    		</trans-unit>
+    		<trans-unit id="29">
+    			<source>rozliczone</source>
+    			<target>settled</target>
+    		</trans-unit>
+    		<trans-unit id="30">
+    			<source>nierozliczone</source>
+    			<target>unsettled</target>
+    		</trans-unit>
+    		<trans-unit id="31">
+    			<source>Brak zamówień.</source>
+    			<target>No orders.</target>
+    		</trans-unit>
+    		<trans-unit id="32">
+    			<source>Łączna kwota prowizji</source>
+    			<target>Total commission</target>
+    		</trans-unit>
+    		<trans-unit id="33">
+    			<source>Łączna kwota prowizji za okres od</source>
+    			<target>Total commission since</target>
+    		</trans-unit>
+    		<trans-unit id="34">
+    			<source>wynosi</source>
+    			<target>is</target>
+    		</trans-unit>
+    		<trans-unit id="35">
+    			<source>Kwota zamówienia</source>
+    			<target>Order value</target>
+    		</trans-unit>
+    		<trans-unit id="36">
+    			<source>Wartość prowizji</source>
+    			<target>Commission amount</target>
+    		</trans-unit>
+    		<trans-unit id="37">
+    			<source>Zapraszamy do skorzystania z naszego programu partnerskiego.<br /><br /> Program partnerski przeznaczony jest dla osób, które chcą promować nasz sklep, oraz reklamować go w sieci. Po zgłoszeniu chęci przystąpienia do programu partnerskiego poprzez wypełnienie formularza po prawej stronie, zostaniecie Państwo zweryfikowani przez administratora sklepu. Jeżeli weryfikacja wypadnie pomyślnie, zostanie Państwu przydzielony indywidualny numer partnerski dzięki, któremu będziecie mogli Państwo polecać nasz sklep. Transakcje zawarte w sklepie, które odbyły się z Państwa polecenia są rejestrowane w systemie, a na Państwa koncie partnerskim odnotowuje się prowizja za dokonaną transakcję.</source>
+    			<target>We invite you to join our Partner Program. This program was created for individuals and companies that want to promote and advertise our store in the Internet. After applying to join the program by completing the form on the right, your details will be verified by our administrator. In case of positive verification, you will receive a unique Partner Number you will use for referring customers to our store. Transactions made by customers referred by you will be registered in the system and your account will be credited with commissions for completed orders.</target>
+    		</trans-unit>
+    		<trans-unit id="38">
+    			<source>Oczekiwanie na potwierdzenie.</source>
+    			<target>Waiting for confirmation.</target>
+    		</trans-unit>
+    		<trans-unit id="39">
+    			<source>Dziękujemy za wyrażenie chęci zostania partnerem naszego sklepu. Proszę czekać, aż administrator zaakceptuje i potwierdzi dane rejestracyjne.</source>
+    			<target>Thank you for applying to our Partner Program. Please wait for the administrator to accept and confirm your registration data.</target>
+    		</trans-unit>
+    		<trans-unit id="40">
+    			<source>Po zweryfikowaniu danych otrzymacie Państwo indywidualny numer partnerski, który umożliwi dokonywanie zakupów z polecenia.</source>
+    			<target>After your data are verified, you will receive a unique Partner Number for referring customers to our store.</target>
+    		</trans-unit>
+    		<trans-unit id="41">
+    			<source>O przyznaniu status partnera sklepu zostaniecie Państwo poinformowani drogą mailową.</source>
+    			<target>You will be notified by e-mail on being accepted to our Partner Program.</target>
+    		</trans-unit>
+    		<trans-unit id="42">
+    			<source>Moje konto</source>
+    			<target>My account</target>
+    		</trans-unit>
+    		<trans-unit id="43">
+    			<source>Program partnerski</source>
+    			<target>Partner Program</target>
+    		</trans-unit>
+    		<trans-unit id="44">
+    			<source>Uzupełnij formularz poniżej podając dane, które posłużą administratorowi sklepu do rozliczeń programu partnerskiego.</source>
+    			<target>Please complete the form below by providing data our administrator will use for Partner Program settlements.</target>
+    		</trans-unit>
+    		<trans-unit id="45">
+                <source>Brak imienia.</source>
+                <target>No first name supplied.</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Brak nazwiska.</source>
+                <target>No surname supplied.</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Brak ulicy.</source>
+                <target>No street address supplied.</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Brak domu.</source>
+                <target>No street number supplied.</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Brak kodu.</source>
+                <target>No postal code supplied.</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Brak miasta.</source>
+                <target>No city/town supplied.</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Brak telefonu.</source>
+                <target>No telephone number supplied.</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Zweryfikuj poprawność adresu</source>
+                <target>Verify the correctness of the address</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Wstaw link do dowolnej strony tego sklepu (np.</source>
+                <target>Insert the link to any site in the store (e.g.</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>). Poniżej wygenerują się linki, które będą zawierały aktywację programu partnerskiego</source>
+                <target>). There will be links generated below, Links will include activation of the partner program.</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Pokaż</source>
+                <target>Show</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>Pola pogrubione są wymagane.</source>
+                <target>Fields in bold are required.</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,8 @@
+---
+theme: responsive
+load_fixtures: 1
+currency: PLN
+country: POL
+language_panel: pl_PL
+language: pl_PL
+fixtures_name: fixtures-responsive

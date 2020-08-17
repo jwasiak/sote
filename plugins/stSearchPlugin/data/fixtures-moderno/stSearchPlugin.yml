@@ -1,0 +1,576 @@
+ProductSearchTag: 
+  ProductSearchTag_1: 
+    tag: street
+  ProductSearchTag_2: 
+    tag: ride
+  ProductSearchTag_3: 
+    tag: a01
+  ProductSearchTag_4: 
+    tag: traditional
+  ProductSearchTag_5: 
+    tag: way
+  ProductSearchTag_6: 
+    tag: kolarka
+  ProductSearchTag_7: 
+    tag: cycling
+  ProductSearchTag_8: 
+    tag: bike
+  ProductSearchTag_9:
+    tag: a02
+  ProductSearchTag_10: 
+    tag: kask
+  ProductSearchTag_11: 
+    tag: czerwony
+  ProductSearchTag_12: 
+    tag: helmet
+  ProductSearchTag_13: 
+    tag: red
+  ProductSearchTag_14: 
+    tag: rider
+  ProductSearchTag_15: 
+    tag: a03
+  ProductSearchTag_16: 
+    tag: zapinka
+  ProductSearchTag_17: 
+    tag: lock
+  ProductSearchTag_18: 
+    tag: a04
+  ProductSearchTag_19: 
+    tag: future
+  ProductSearchTag_20: 
+    tag: design
+  ProductSearchTag_21: 
+    tag: blue
+  ProductSearchTag_22: 
+    tag: orchidea
+  ProductSearchTag_23: 
+    tag: a05
+  ProductSearchTag_24: 
+    tag: black
+  ProductSearchTag_25:
+    tag: road
+  ProductSearchTag_26:
+    tag: a06
+  ProductSearchTag_28:
+    tag: czarny
+  ProductSearchTag_31:
+    tag: skull
+  ProductSearchTag_32:
+    tag: a07
+  ProductSearchTag_34:
+    tag: gray
+  ProductSearchTag_35:
+    tag: a08
+  ProductSearchTag_36:
+    tag: pedaly
+  ProductSearchTag_38:
+    tag: pedals
+  ProductSearchTag_39:
+    tag: a09
+  ProductSearchTag_40:
+    tag: tarcze
+  ProductSearchTag_41:
+    tag: hamulcowe
+  ProductSearchTag_42:
+    tag: brake
+  ProductSearchTag_43:
+    tag: discs
+  ProductSearchTag_44:
+    tag: a10
+
+ProductHasProductSearchTag:
+  ProductHasProductSearchTag_1_1_pl_PL: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_1
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_1_2_pl_PL: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_2
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_1_3_pl_PL: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_3
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_1_4_pl_PL: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_4
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_1_5_pl_PL: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_5
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_1_1_en_US: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_1
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_1_2_en_US: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_2
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_1_3_en_US: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_3
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_1_4_en_US: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_4
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_1_5_en_US: 
+    product_id: Product_1
+    product_search_tag_id: ProductSearchTag_5
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_2_1_pl_PL: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_6
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_2_2_pl_PL: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_9
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_2_3_pl_PL: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_4
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_2_4_pl_PL: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_5
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_2_1_en_US: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_9
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_2_2_en_US: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_7
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_2_3_en_US: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_8
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_2_4_en_US: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_4
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_2_5_en_US: 
+    product_id: Product_2
+    product_search_tag_id: ProductSearchTag_5
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_3_1_pl_PL: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_10
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_3_2_pl_PL: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_11
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_3_3_pl_PL: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_15
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_3_4_pl_PL: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_4
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_3_5_pl_PL: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_5
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_3_1_en_US: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_12
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_3_2_en_US: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_13
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_3_3_en_US: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_14
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_3_4_en_US: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_4
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_3_5_en_US: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_5
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_3_5_en_US: 
+    product_id: Product_3
+    product_search_tag_id: ProductSearchTag_15
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_4_1_pl_PL: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_16
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_4_2_pl_PL: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_18
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_4_3_pl_PL: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_19
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_4_4_pl_PL: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_20
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_4_1_en_US: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_17
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_4_2_en_US: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_18
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_4_3_en_US: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_19
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_4_4_en_US: 
+    product_id: Product_4
+    product_search_tag_id: ProductSearchTag_20
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_5_1_pl_PL: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_19
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_5_2_pl_PL: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_20
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_5_3_pl_PL: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_21
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_5_4_pl_PL: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_22
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_5_5_pl_PL: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_23
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_5_1_en_US: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_19
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_5_2_en_US: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_20
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_5_3_en_US: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_21
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_5_4_en_US: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_22
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_5_5_en_US: 
+    product_id: Product_5
+    product_search_tag_id: ProductSearchTag_23
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_6_1_pl_PL: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_19
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_6_2_pl_PL: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_20
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_6_3_pl_PL: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_24
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_6_4_pl_PL: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_25
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_6_5_pl_PL: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_26
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_6_1_en_US: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_19
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_6_2_en_US: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_20
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_6_3_en_US: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_24
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_6_4_en_US: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_25
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_6_5_en_US: 
+    product_id: Product_6
+    product_search_tag_id: ProductSearchTag_26
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_7_1_pl_PL: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_4
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_7_2_pl_PL: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_5
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_7_3_pl_PL: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_10
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_7_4_pl_PL: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_28
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_7_5_pl_PL: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_32
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_7_1_en_US: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_4
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_7_2_en_US: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_5
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_7_3_en_US: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_12
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_7_4_en_US: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_24
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_7_5_en_US: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_31
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_7_6_en_US: 
+    product_id: Product_7
+    product_search_tag_id: ProductSearchTag_32
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_8_1_pl_PL: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_4
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_8_2_pl_PL: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_5
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_8_3_pl_PL: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_16
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_8_4_pl_PL: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_34
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_8_5_pl_PL: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_35
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_8_1_en_US: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_4
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_8_2_en_US: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_5
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_8_3_en_US: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_34
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_8_4_en_US: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_17
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_8_5_en_US: 
+    product_id: Product_8
+    product_search_tag_id: ProductSearchTag_35
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_9_1_pl_PL: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_4
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_9_2_pl_PL: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_5
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_9_3_pl_PL: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_36
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_9_4_pl_PL: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_13
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_9_5_pl_PL: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_39
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_9_1_en_US: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_4
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_9_2_en_US: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_5
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_9_3_en_US: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_38
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_9_4_en_US: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_13
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_10_5_en_US: 
+    product_id: Product_9
+    product_search_tag_id: ProductSearchTag_39
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_10_1_pl_PL: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_19
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_10_2_pl_PL: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_20
+    culture: pl_PL
+    tag_value: 2.5
+  ProductHasProductSearchTag_10_3_pl_PL: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_40
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_10_4_pl_PL: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_41
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_10_5_pl_PL: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_44
+    culture: pl_PL
+    tag_value: 5
+  ProductHasProductSearchTag_10_1_en_US: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_19
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_10_2_en_US: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_20
+    culture: en_US
+    tag_value: 2.5
+  ProductHasProductSearchTag_10_3_en_US: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_42
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_10_4_en_US: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_43
+    culture: en_US
+    tag_value: 5
+  ProductHasProductSearchTag_10_5_en_US: 
+    product_id: Product_10
+    product_search_tag_id: ProductSearchTag_44
+    culture: en_US
+    tag_value: 5

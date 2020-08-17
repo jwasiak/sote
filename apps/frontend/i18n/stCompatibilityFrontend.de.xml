@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="de" datatype="plaintext" date="2013-05-07T03:32:29Z">
+		<body>
+			<trans-unit id="1">
+				<source>Korzystanie ze strony oznacza zgodę na wykorzystywanie plików cookie, niektóre mogą być już zapisane w przeglądarce. Więcej informacji można znaleźć w</source>
+				<target>Durch Benutzung dieser Website erklären Sie sich mit dem Einsatz von Cookie-Dateien einverstanden. Einige solche Dateien mögen in Ihrem Browser bereits gespeichert sein. Weitere Informationen dazu finden Sie in der</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>polityce prywatności</source>
+				<target>Datenschutzrichtlinie</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>brutto +</source>
+				<target>inkl. MwSt. zzgl.</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>koszty dostawy</source>
+				<target>Versandkosten</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

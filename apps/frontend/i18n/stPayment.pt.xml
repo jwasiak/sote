@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file orginal="global" source-language="pl_PL" target-language="pt" datatype="plaintext" date="2010-11-04T02:51:19Z">
+		<body>
+			<trans-unit id="1">
+				<source>Płatność</source>
+				<target>Pagamento</target>
+			</trans-unit>
+			<trans-unit id="2">
+				<source>Płatności</source>
+				<target>Pagamentos</target>
+			</trans-unit>
+			<trans-unit id="3">
+				<source>Brak dostępnych form płatności.</source>
+				<target>Formas de pagamento não disponíveis</target>
+			</trans-unit>
+			<trans-unit id="4">
+				<source>Dokonaj płatności</source>
+				<target>Efectuar pagamento</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

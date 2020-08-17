@@ -1,0 +1,75 @@
+sfAsset:
+  sfAsset_16:
+    folder_id: sfAssetFolder_58
+    filename: fashman.jpg
+    type: image
+  sfAsset_17:
+    folder_id: sfAssetFolder_58
+    filename: fashwoman.jpg
+    type: image
+  sfAsset_18:
+    folder_id: sfAssetFolder_58
+    filename: fashacc.jpg
+    type: image
+
+Category:
+  Category_1:
+    lft: 1
+    rgt: 8
+    depth: 0
+    scope: 1
+    culture: pl_PL
+    name: Kategorie
+    root_position: 1
+  Category_2:
+    lft: 2
+    rgt: 3
+    depth: 1
+    scope: 1
+    culture: pl_PL
+    name: Kobieta
+    parent_id: Category_1
+    main_page: 1
+    sf_asset_id: sfAsset_17
+  Category_3:
+    lft: 4
+    rgt: 5
+    depth: 1
+    scope: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Mężczyzna
+    main_page: 1
+    sf_asset_id: sfAsset_16
+  Category_4:
+    lft: 6
+    rgt: 7
+    depth: 1
+    scope: 1
+    parent_id: Category_1
+    culture: pl_PL
+    name: Akcesoria
+    main_page: 1
+    sf_asset_id: sfAsset_18
+
+CategoryI18n:
+  CategoryI18n_2:
+    id: Category_1
+    culture: en_US
+    name: Categories
+    url: categories
+  CategoryI18n_4:
+    id: Category_2
+    culture: en_US
+    name: Woman
+    url: woman
+  CategoryI18n_6:
+    id: Category_3
+    culture: en_US
+    name: Man
+    url: man
+  CategoryI18n_8:
+    id: Category_4
+    culture: en_US
+    name: All
+    url: Accessories

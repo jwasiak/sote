@@ -1,0 +1,14 @@
+---
+all: 
+  .auto_generated: 
+    config: 
+      last_modified: 2008/10/25 17:20:39
+      fields: 
+        max_quantity: 1000
+        show_products: 0
+        show_crosseling: 1
+        show_code_in_basket: 0
+        show_photo_in_basket: 1
+        show_netto_in_basket: 0
+        show_tax_in_basket: 0
+        show_uom_in_basket: 0

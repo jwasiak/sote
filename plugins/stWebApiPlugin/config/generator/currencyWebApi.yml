@@ -1,0 +1,54 @@
+include_action_files: [/plugins/stWebApiPlugin/config/generator/extendGenerator.php]
+
+webapi:
+    fields:
+        id:                     {type: integer}
+        name:                   {type: string}
+        shortcut:               {type: string}
+        exchange:               {type: double}
+        active:                 {type: integer}
+
+    methods:
+        UpdateCurrencyExchange:
+            culture:            false
+            type:               update
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=id, exchange]
+                out:            [_update]
+
+        GetCurrency:
+            type:               get
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=id]
+                out:            [id, name, shortcut, exchange, active]
+
+        UpdateCurrencyExchangeByShortcut:
+            culture:            false
+            type:               update
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=shortcut, exchange]
+                out:            [_update]
+
+        GetCurrencyByShortcut:
+            type:               get
+            inOutTypes:         {in: object, out: object}
+            fields:
+                in:             [=shortcut]
+                out:            [id, name, shortcut, exchange, active]
+
+        CountCurrency: 
+            culture:            false
+            type:               count
+            inOutTypes:         {in: object, out: object}
+            fields: 
+                out:            [_count]
+
+        GetCurrencyList:
+            type:               list
+            inOutTypes:         {in: object, out: array}
+            fields:
+                in:             [_offset, _limit]
+                out:            [id, name, shortcut, exchange, active]

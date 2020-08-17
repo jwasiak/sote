@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Zarządzanie producentami w sklepie.</source>
+                <target>Manage the manufacturers.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Lista producentów produktów</source>
+                <target>List of manufacturers</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Lista</source>
+                <target>List</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Dodaj nowego producenta</source>
+                <target>Add a new manufacturer</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Producent</source>
+                <target>Manufacturer</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Logo</source>
+                <target>Logo</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Edycja producenta %%name%%</source>
+                <target>Edit the manufacturer %%name%%</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Opis</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Pokaż filtr producentów nad drzewem kategorii:</source>
+                <target>Show the manufacturers filter above the category tree:</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Pokaż "filtruj po producentach" po wyborze kategorii:</source>
+                <target>Show the "filter by manufacturers" after choosing a category:</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Producenci</source>
+                <target>Manufacturers</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Załącz/Zmień Logo</source>
+                <target>Attach/Change the logo</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>usuń logo</source>
+                <target>remove the logo</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Producent o podanej nazwie już istnieje</source>
+                <target>Manufacturer with the given name already exists</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>Nazwa</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Zbyt krótka nazwa producenta</source>
+                <target>Manufacturer name is too short</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Podaj nazwę producenta</source>
+                <target>Enter a manufacturer name</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Edycja podstawowa</source>
+                <target>Basic edit</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Pozycjonowanie</source>
+                <target>Positioning</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Tytuł strony jest niepoprawny. Maksymalna długość to 255 znaków.</source>
+                <target>Website title is incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>Słowa kluczowe są niepoprawne. Maksymalna długość to 255 znaków.</source>
+                <target>Keywords are incorrect. Maximum length is 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Opis strony jest niepoprawny. Maksymalna długość to 65000 znaków.</source>
+                <target>Website description is incorrect. Maximum length is 65000 characters.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Wprowadź nazwę dla przyjaznego linku</source>
+                <target>Enter a friendly link name</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Tytuł strony</source>
+                <target>Site title</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Słowa kluczowe</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Opis strony</source>
+                <target>Site description</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Przyjazny link</source>
+                <target>Friendly link</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Opcje wyświetlania</source>
+                <target>Display options</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Dodaj meta tagi do producenta</source>
+                <target>Add meta tags to the manufacturer</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Lista producentów produktów.</source>
+                <target>List of manufacturers.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Zeruj filtr producentów po przejściu na stronę główną:</source>
+                <target>Clear manufacturers filter going to homepage:</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Konfiguracja producentów</source>
+                <target>Manufacturers configuration</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Wpisz nazwę szukanego producenta</source>
+                <target>Enter the name of the manufacturer you are looking for</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

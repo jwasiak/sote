@@ -1,0 +1,9 @@
+theme:
+    package: stTheme1Fashionrwd
+    name: fashionrwd
+    fixtures: fixtures-fashion
+    version: 7
+    default: 0
+    type: open
+    install: true
+    copyable: true

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file orginal="global" source-language="pl_PL" target-language="en_US" datatype="plaintext" date="2008-11-05T12:10:49Z">
+        <body>
+            <trans-unit id="1">
+                <source>Wersja</source>
+                <target>Version</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Uaktualnienia</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Wyloguj</source>
+                <target>Logout</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Integracje</source>
+                <target>Integration</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Konfiguracja</source>
+                <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>SOTESHOP - panel administracyjny</source>
+                <target>SOTESHOP - the administrative panel</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Korzystasz z przeglądarki Internet Explorer 8.</source>
+                <target>You're using Internet Explorer 8.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Dla poprawnego działania panelu administracyjnego sklepu zalecamy skorzystanie z innej przeglądarki, zgodnej ze standardem W3C. Poniżej lista przeglądarek zalecanych do obsługi panela administracyjnego:</source>
+                <target>For proper work of the administrative panel, we recommend using browser that complies with W3C. List of recommended browsers:</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Więcej informacji na temat instalacji przeglądarek znajdziecie Państwo</source>
+                <target>More information about installing web browsers can be found</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>tutaj</source>
+                <target>here</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Pokaż od</source>
+                <target>Show from</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>do</source>
+                <target>to</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Ostatnie</source>
+                <target>Last</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>24h</source>
+                <target>24h</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>7 dni</source>
+                <target>7 days</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>miesiąc</source>
+                <target>month</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>logowanie</source>
+                <target>last logged</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>Zamów wersję komercyjną</source>
+                <target>Order commercial version</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Opcja ta jest dostępna TYLKO w wersji komercyjnej.</source>
+                <target>Option available ONLY in a commercial version.</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Korzystasz z darmowej wersji Open</source>
+                <target>You're using the free Open version</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Aby aktywować wybraną opcję,</source>
+                <target>To activate the selected option,</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>zamów wersję komercyjną</source>
+                <target>order a commercial version</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Aktualizacja</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Aplikacje</source>
+                <target>Applications</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Nowości</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>Home</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>wyloguj</source>
+                <target>logout</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Pokaż stronę sklepu</source>
+                <target>Display shop's site</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Zamówienia</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>Dodatkowe funkcje komercyjne</source>
+                <target>Additional commercial features</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>Aktualizacje (nowe funkcje) dla wersji 6 komercyjne</source>
+                <target>Update (new features) for SOTESHOP 6 commercial version</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>Edycja wybranych danych na listach w panelu</source>
+                <target>Edit of selected data on lists in panel</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>Kodowanie danych klientów w bazie danych</source>
+                <target>Coding customers data in datebase</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>Edycja zamówień</source>
+                <target>Orders edit</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>Kody rabatowe</source>
+                <target>Gift cards</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>Allegro</source>
+                <target>Allegro</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>Uprawnienia administratorów</source>
+                <target>Administrators permissions</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>Atrybuty produktów</source>
+                <target>Product attributes</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Grupy cenowe</source>
+                <target>Prices groups</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>zamów</source>
+                <target>order</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>Ceny w walutach</source>
+                <target>Product prices in foreign currencies</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>Systemy płatności</source>
+                <target>Payment</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>Porównywarki</source>
+                <target>Prices comparers</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>Zamów wersję komercyjną za</source>
+                <target>Order commercial version for</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>a otrzymsz dodatkowo</source>
+                <target>and you'll also get</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>Gwarancję na program</source>
+                <target>Warranty for software</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>Pomoc techniczną</source>
+                <target>Service support</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>Kupon do <a href="http://www.sote.pl/category/aplikacje" target="_blank">WebStore</a></source>
+                <target>Coupon to <a href="http://www.soteshop.com/category/applications" target="_blank">WebStore</a></target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>Zamów</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>Darmowy sklep internetowy SOTESHOP OPEN</source>
+                <target>Free online shop SOTESHOP OPEN</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>Razem</source>
+                <target>Total</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>Zamów wersję komercyjną</source>
+                <target>Order commercial version</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>Aktywuj wersje komercyjną</source>
+                <target>Activate commercial version</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>Pomoc techniczna ważna przez</source>
+                <target>Service support active for</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>Pomoc techniczna wygasła</source>
+                <target>Service support expired</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>dzień</source>
+                <target>day</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>dni</source>
+                <target>days</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>dni temu</source>
+                <target>days ago</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>Przedłuż pakiet pomocy technicznej w promocyjnej cenie</source>
+                <target>Extend service support at a special price</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>Zamów pakiet pomocy technicznej</source>
+                <target>Order service support</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>Pomoc techniczna ważna do</source>
+                <target>Service support active till</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>Pomoc techniczna wygaśnie jutro</source>
+                <target>Service support will expire tomorrow</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>Pomoc techniczna wygasła dzisiaj</source>
+                <target>Service support expired today</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>Pomoc techniczna wygasła wczoraj</source>
+                <target>Service support expired yesterday</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>System punktowy</source>
+                <target>Points system</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>Serwis i aktualizacje ważne do</source>
+                <target>Service support and shop update are active till</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>Zamów dostęp do</source>
+                <target>Order access to</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>Serwis i aktualizacje ważne do końca</source>
+                <target>Service support and shop update are active till</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>Zamów aktualizację do wersji</source>
+                <target>Order shop updare to version</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>Powiązania</source>
+                <target>Related modules</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>Lista pełna</source>
+                <target>Full list</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>Lista skrócona</source>
+                <target>Short list</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>Serwis i aktualizacje aktywne</source>
+                <target>Service support and shop update are active</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>Zalogowany</source>
+                <target>Logged as</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Wybierz język</source>
+                <target>Select language</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>Język edycji</source>
+                <target>Language version</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>Raporty</source>
+                <target>Reports</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>Dodatki WebStore</source>
+                <target>WebStore add-ons</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>Nowości</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>Kategorie</source>
+                <target>Categories</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>Przedłuż usługę korzystania z SOTESHOP. Twój sklep będzie zablokowany za %days% dni</source>
+                <target>Extend the service of using SOTESHOP. Your store will be blocked in %days% days</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>Przedłuż usługę korzystania z SOTESHOP</source>
+                <target>Extend the service of using SOTESHOP</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
