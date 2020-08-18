@@ -1,0 +1,1 @@
+<h1>Akcja index modułu jwFirstPluginFrontend</h1>
