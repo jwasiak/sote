@@ -1,3 +1,5 @@
+._.DS_Store
+.DS_Store
 web/media/
 data/online-files/
 log/
@@ -10,3 +12,4 @@ config/databases.yml
 config/propel.ini
 data/config/__stRegister.yml
 backups/
+plugins/jwFirstPlugin/

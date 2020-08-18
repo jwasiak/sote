@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database defaultPhpNamingMethod="underscore" heavyIndexing="false" name="propel" defaultIdMethod="native" package="plugins.stEcardPlugin.lib.model" noXsd="true"><table skipSql="false" abstract="false" name="st_ecard_transaction" phpName="EcardTransaction"><column lazyLoad="false" name="id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true"/><column primaryKey="false" autoIncrement="false" lazyLoad="false" name="order_id" type="INTEGER" required="true"/></table></database>

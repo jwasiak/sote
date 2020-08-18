@@ -8,12 +8,21 @@ try {
         $theme = ThemePeer::doSelectByName('lazuli');
         
         if (!$theme) {
+            $responsive = ThemePeer::doSelectByName('responsive');
             $bianco = ThemePeer::doSelectByName('bianco');
             $elegante = ThemePeer::doSelectByName('elegante');
             
+
+            if (null === $responsive) {
+                $responsive = new Theme();
+                $responsive->setName('responsive');
+                $responsive->setVersion(7);              
+                $responsive->setIsSystemDefault(true);
+                $responsive->save();
+            }
+
             if (!$bianco) 
             {
-                $responsive = ThemePeer::doSelectByName('responsive');
                 $bianco = new Theme();
                 $bianco->setName('bianco');
                 $bianco->setVersion(8);              
